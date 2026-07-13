@@ -159,7 +159,7 @@ const SOPBatchCreateSteps: React.FC<SOPBatchCreateStepsProps> = ({ onSuccess, on
       return;
     }
     if (type === 'material_group' && selectedMaterialGroupUuids.length === 0) {
-      messageApi.warning(t('app.master-data.sop.selectMaterialGroup'));
+      messageApi.warning(t('app.master-data.sop.selectMaterialGroupHint'));
       return;
     }
 
