@@ -1,4 +1,4 @@
-import { defineConfig, normalizePath, type Plugin } from 'vite'
+import { defineConfig, normalizePath, loadEnv, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 import { platform } from 'os'
@@ -9,6 +9,13 @@ import type { ProxyOptions } from 'vite'
 // 主入口配置
 // 统一使用 SaaS 模式
 // 单体部署本质上就是只有 src，没有新建其他租户应用
+
+
+// 在配置文件求值阶段加载 .env 文件（root 设置为 src/，从 src/ 加载）
+const env = loadEnv('development', resolve(__dirname, 'src'), '')
+const viteApiTarget = env.VITE_API_TARGET || `http://${env.VITE_BACKEND_HOST || '127.0.0.1'}:${env.VITE_BACKEND_PORT || '8200'}`
+const viteBackendHost = env.VITE_BACKEND_HOST || '127.0.0.1'
+const viteBackendPort = env.VITE_BACKEND_PORT || '8200'
 
 // src 目录路径（src 目录）
 const srcPath = resolve(__dirname, 'src')
@@ -83,7 +90,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         // 后端服务地址从环境变量读取
-        target: process.env.VITE_API_TARGET || `http://${process.env.VITE_BACKEND_HOST || '127.0.0.1'}:${process.env.VITE_BACKEND_PORT || '8200'}`,
+        target: viteApiTarget,
         changeOrigin: true,
         secure: false,
         // ⚠️ 关键修复：增加超时时间，防止后端重启时连接超时
@@ -103,18 +110,18 @@ export default defineConfig({
         },
       } as ProxyOptions,
       '/static/client-packages': {
-        target: process.env.VITE_API_TARGET || `http://${process.env.VITE_BACKEND_HOST || '127.0.0.1'}:${process.env.VITE_BACKEND_PORT || '8200'}`,
+        target: viteApiTarget,
         changeOrigin: true,
         secure: false,
       } as ProxyOptions,
       '/static/client-updates': {
-        target: process.env.VITE_API_TARGET || `http://${process.env.VITE_BACKEND_HOST || '127.0.0.1'}:${process.env.VITE_BACKEND_PORT || '8200'}`,
+        target: viteApiTarget,
         changeOrigin: true,
         secure: false,
       } as ProxyOptions,
       // 积木报表代理，使其感觉上是“融合”在同一个域名下
       '/jeecg-boot': {
-        target: 'http://localhost:8200', // 假设积木报表服务运行在 8080
+        target: `http://${viteBackendHost}:${viteBackendPort}`,
         changeOrigin: true,
         secure: false,
       } as ProxyOptions,

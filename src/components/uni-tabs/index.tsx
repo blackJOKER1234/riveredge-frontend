@@ -1251,7 +1251,6 @@ export default function UniTabs({ menuConfig, children, isFullscreen = false, on
           box-sizing: border-box !important;
           display: flex !important;
           align-items: center !important;
-          box-shadow: inset 0 3px 6px -3px rgba(0, 0, 0, 0.12) !important;
         }
         /* Chrome 式反向圆角 - 使用伪元素实现左右两侧的内凹圆角 */
         .uni-tabs-container .ant-tabs-tab-active::before,

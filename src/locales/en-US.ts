@@ -308,6 +308,9 @@ export default {
   'ui.theme.style.plain': 'Minimal',
   'ui.theme.style.vividDesc': 'Customize multiple accent colors for a richer interface',
   'ui.theme.style.plainDesc': 'Grayscale-first with brand primary only, less visual noise',
+  'ui.theme.darkMode': 'Dark Mode',
+  'ui.theme.colorMode.auto': 'Auto',
+  'ui.theme.lightMode': 'Light Mode',
 
   'components.themeEditor.title': 'Theme',
   'components.themeEditor.subtitle': 'Customize your interface for a more comfortable workflow',

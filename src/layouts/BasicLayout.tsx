@@ -25,6 +25,8 @@ import {
   FullscreenExitOutlined,
   CloseOutlined,
   LockOutlined,
+  SunOutlined,
+  MoonOutlined,
   BellOutlined,
   DeleteOutlined,
   PlayCircleOutlined,
@@ -1560,6 +1562,8 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
   const storeSiderBg = useThemeStore((s) => s.resolved.siderBgColor);
   const storeHeaderBg = useThemeStore((s) => s.resolved.headerBgColor);
   const isDarkMode = useThemeStore((s) => s.resolved.isDark);
+  const themeMode = useThemeStore((s) => s.theme);
+  const applyTheme = useThemeStore((s) => s.applyTheme);
 
   useEffect(() => {
     (window as any).__RIVEREDGE_LAYOUT_MODE__ = 'mix';
@@ -2381,8 +2385,14 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
   }, [languageListData, handleLanguageChange]);
 
   /**
-   * 处理主题颜色切换
+  /**
+   * 循环切换主题模式: light → dark → auto → light
    */
+  const handleQuickThemeToggle = () => {
+    const nextMode = themeMode === 'light' ? 'dark' : themeMode === 'dark' ? 'auto' : 'light';
+    applyTheme(nextMode, undefined, { persist: true });
+  };
+
   const handleThemeChange = () => {
     setThemeEditorOpen(true);
   };
@@ -5066,6 +5076,26 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
                 />
               </Tooltip>
             </Dropdown>
+          );
+
+          // 快速切换主题: 浅色 → 深色 → 自动
+          actions.push(
+            <Tooltip key="darkMode" title={
+              themeMode === 'dark' ? t('ui.theme.lightMode') :
+              themeMode === 'auto' ? t('ui.theme.colorMode.auto') :
+              t('ui.theme.darkMode')
+            }>
+              <Button
+                type="text"
+                size="small"
+                icon={
+                  themeMode === 'dark' ? <SunOutlined /> :
+                  themeMode === 'auto' ? <BgColorsOutlined style={{ color: token.colorPrimary }} /> :
+                  <MoonOutlined />
+                }
+                onClick={handleQuickThemeToggle}
+              />
+            </Tooltip>
           );
 
           // 颜色配置
