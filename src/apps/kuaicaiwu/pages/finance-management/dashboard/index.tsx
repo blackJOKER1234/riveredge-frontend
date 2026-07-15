@@ -176,6 +176,7 @@ const FinanceCenterDashboard: React.FC = () => {
       loading={loading && !s}
       kpiRow={<ModuleKpiRow items={kpisRow} />}
       shortcutRow={<ModuleShortcutGrid items={shortcuts} colProps={{ xs: 12, sm: 8, md: 4, lg: 4 }} />}
+      showSidebar={false}
       actionRow={
         <ModuleActionPanel title={t('app.kuaicaiwu.financeDashboard.todosTitle')} lg={24}>
           <ModuleTodoList

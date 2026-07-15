@@ -1,5 +1,13 @@
 import { apiRequest } from '../../../services/api';
 
+function normalizeArrayResponse<T>(response: unknown): T[] {
+  if (Array.isArray(response)) return response;
+  if (response && typeof response === 'object' && Array.isArray((response as { data?: unknown }).data)) {
+    return (response as { data: T[] }).data;
+  }
+  return [];
+}
+
 export interface OrderChangeItem {
   id?: number;
   line_no?: number;
@@ -85,7 +93,11 @@ export async function listSalesOrderChanges(params: {
   status?: string;
   lifecycle_stage?: string;
 } = {}): Promise<SalesOrderChange[]> {
-  return apiRequest('/apps/kuaizhizao/sales-order-change-orders', { method: 'GET', params });
+  const response = await apiRequest<SalesOrderChange[] | { data: SalesOrderChange[] }>(
+    '/apps/kuaizhizao/sales-order-change-orders',
+    { method: 'GET', params },
+  );
+  return normalizeArrayResponse<SalesOrderChange>(response);
 }
 
 export async function listSalesOrderChangesByOrder(orderId: number): Promise<SalesOrderChange[]> {

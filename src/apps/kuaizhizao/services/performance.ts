@@ -6,6 +6,14 @@
  */
 
 import { api } from '../../../services/api';
+
+function normalizeArrayResponse<T>(response: unknown): T[] {
+  if (Array.isArray(response)) return response;
+  if (response && typeof response === 'object' && Array.isArray((response as { data?: unknown }).data)) {
+    return (response as { data: T[] }).data;
+  }
+  return [];
+}
 import type {
   Holiday,
   HolidayCreate,
@@ -42,8 +50,10 @@ import type {
  */
 export const shiftApi = {
   create: async (data: ShiftCreate): Promise<Shift> => api.post(`${PERF_BASE}/shifts`, data),
-  list: async (params?: { skip?: number; limit?: number; is_active?: boolean }): Promise<Shift[]> =>
-    api.get(`${PERF_BASE}/shifts`, { params }),
+  list: async (params?: { skip?: number; limit?: number; is_active?: boolean }): Promise<Shift[]> => {
+    const response = await api.get<Shift[]>(`${PERF_BASE}/shifts`, { params });
+    return normalizeArrayResponse<Shift>(response);
+  },
   get: async (uuid: string): Promise<Shift> => api.get(`${PERF_BASE}/shifts/${uuid}`),
   update: async (uuid: string, data: ShiftUpdate): Promise<Shift> =>
     api.put(`${PERF_BASE}/shifts/${uuid}`, data),

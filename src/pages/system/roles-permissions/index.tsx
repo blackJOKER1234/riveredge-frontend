@@ -1761,7 +1761,7 @@ const RolesPermissionsPage: React.FC = () => {
                   <Flex gap={8} wrap="wrap" align="center">
                     <ThemedSegmented
                       surfaceBackground
-                      size="middle"
+                      size="small"
                       value={functionFilterMode}
                       options={[
                         {

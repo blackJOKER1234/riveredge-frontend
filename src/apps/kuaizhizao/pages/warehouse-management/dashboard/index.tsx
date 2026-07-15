@@ -224,6 +224,7 @@ const WarehouseDashboard: React.FC = () => {
       loading={loading && !s}
       kpiRow={<ModuleKpiRow items={kpis} />}
       shortcutRow={<ModuleShortcutGrid items={shortcuts} colProps={{ xs: 12, sm: 8, md: 4 }} />}
+      showSidebar={false}
       actionRow={
         <ModuleActionMasonry>
           <ModuleActionPanel

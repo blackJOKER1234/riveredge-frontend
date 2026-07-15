@@ -204,6 +204,7 @@ const PurchaseDashboard: React.FC = () => {
           fillByItemCount
         />
       }
+      showSidebar={false}
       actionRow={
         <>
           <ModuleActionPanel

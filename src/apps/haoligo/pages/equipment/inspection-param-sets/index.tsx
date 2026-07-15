@@ -935,7 +935,7 @@ const InspectionParamSetsPage: React.FC = () => {
             <div style={{ width: '100%', overflowX: 'auto' }}>
               <ThemedSegmented
                 surfaceBackground
-                size="middle"
+                size="small"
                 value={paramPickerLevel1}
                 onChange={(v) => setParamPickerLevel1(String(v))}
                 options={level1SegmentOptions}

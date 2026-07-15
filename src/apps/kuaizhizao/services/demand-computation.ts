@@ -725,6 +725,14 @@ export interface ExecuteReplanTaskResponse {
   result_summary?: Record<string, any>;
 }
 
+function normalizeArrayResponse<T>(response: unknown): T[] {
+  if (Array.isArray(response)) return response;
+  if (response && typeof response === 'object' && Array.isArray((response as { data?: unknown }).data)) {
+    return (response as { data: T[] }).data;
+  }
+  return [];
+}
+
 /** 需求重算看板汇总 */
 export async function getDemandReplanDashboard(): Promise<DemandReplanDashboard> {
   return apiRequest<DemandReplanDashboard>('/apps/kuaizhizao/demand-computations/replan-dashboard', {
@@ -734,10 +742,14 @@ export async function getDemandReplanDashboard(): Promise<DemandReplanDashboard>
 
 /** 待处理变更事件 */
 export async function listPendingDemandChangeEvents(limit: number = 200): Promise<DemandChangeEventItem[]> {
-  return apiRequest<DemandChangeEventItem[]>('/apps/kuaizhizao/demand-computations/change-events/pending', {
+  const response = await apiRequest<DemandChangeEventItem[] | { data: DemandChangeEventItem[] }>(
+    '/apps/kuaizhizao/demand-computations/change-events/pending',
+    {
     method: 'GET',
     params: { limit },
-  });
+    },
+  );
+  return normalizeArrayResponse<DemandChangeEventItem>(response);
 }
 
 /** 变更事件影响详情 */
@@ -768,10 +780,14 @@ export async function ensureReplanTaskForEvent(eventId: number): Promise<EnsureR
 
 /** 重算任务列表 */
 export async function listDemandReplanTasks(limit: number = 200): Promise<DemandReplanTaskItem[]> {
-  return apiRequest<DemandReplanTaskItem[]>('/apps/kuaizhizao/demand-computations/replan-tasks', {
+  const response = await apiRequest<DemandReplanTaskItem[] | { data: DemandReplanTaskItem[] }>(
+    '/apps/kuaizhizao/demand-computations/replan-tasks',
+    {
     method: 'GET',
     params: { limit },
-  });
+    },
+  );
+  return normalizeArrayResponse<DemandReplanTaskItem>(response);
 }
 
 /** 执行重算任务 */

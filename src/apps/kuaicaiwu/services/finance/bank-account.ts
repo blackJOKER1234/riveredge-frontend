@@ -1,5 +1,13 @@
 import { apiRequest } from '../../../../services/api';
 
+function normalizeArrayResponse<T>(response: unknown): T[] {
+  if (Array.isArray(response)) return response;
+  if (response && typeof response === 'object' && Array.isArray((response as { data?: unknown }).data)) {
+    return (response as { data: T[] }).data;
+  }
+  return [];
+}
+
 export interface BankAccount {
   id: number;
   tenant_id: number;
@@ -18,8 +26,10 @@ export interface BankAccount {
 const API = '/apps/kuaicaiwu/bank-accounts';
 
 export const bankAccountService = {
-  list: (params?: { skip?: number; limit?: number; is_active?: boolean }) =>
-    apiRequest<BankAccount[]>(API, { method: 'GET', params }),
+  list: async (params?: { skip?: number; limit?: number; is_active?: boolean }): Promise<BankAccount[]> => {
+    const response = await apiRequest<BankAccount[]>(API, { method: 'GET', params });
+    return normalizeArrayResponse<BankAccount>(response);
+  },
 
   get: (id: number) =>
     apiRequest<BankAccount>(`${API}/${id}`, { method: 'GET' }),
@@ -33,8 +43,10 @@ export const bankAccountService = {
   delete: (id: number) =>
     apiRequest<void>(`${API}/${id}`, { method: 'DELETE' }),
 
-  listTransactions: (accountId: number, params?: { skip?: number; limit?: number }) =>
-    apiRequest<Array<Record<string, unknown>>>(`${API}/${accountId}/transactions`, { method: 'GET', params }),
+  listTransactions: async (accountId: number, params?: { skip?: number; limit?: number }): Promise<Array<Record<string, unknown>>> => {
+    const response = await apiRequest<Array<Record<string, unknown>>>(`${API}/${accountId}/transactions`, { method: 'GET', params });
+    return normalizeArrayResponse<Record<string, unknown>>(response);
+  },
 
   importStatement: (accountId: number, csvContent: string) =>
     apiRequest<{ imported_count: number; current_balance: number }>(`${API}/${accountId}/import-statement`, {

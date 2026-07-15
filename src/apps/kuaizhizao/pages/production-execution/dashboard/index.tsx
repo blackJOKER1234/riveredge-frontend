@@ -365,6 +365,7 @@ const ManufacturingDashboard: React.FC = () => {
       loading={summaryLoading && !s}
       kpiRow={<ModuleKpiRow items={kpis} />}
       shortcutRow={<ModuleShortcutGrid items={shortcuts} />}
+      showSidebar={false}
       actionRow={
         <ModuleActionMasonry>
           <ModuleActionPanel

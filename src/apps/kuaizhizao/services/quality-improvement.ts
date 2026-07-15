@@ -1,5 +1,13 @@
 import { apiRequest } from '../../../services/api';
 
+function normalizeArrayResponse<T>(response: unknown): T[] {
+  if (Array.isArray(response)) return response;
+  if (response && typeof response === 'object' && Array.isArray((response as { data?: unknown }).data)) {
+    return (response as { data: T[] }).data;
+  }
+  return [];
+}
+
 export interface Quality8DReport {
   id: number;
   report_code: string;
@@ -159,8 +167,10 @@ export const qualityImprovementApi = {
   },
 
   nonconformingLedger: {
-    list: async (params?: any) =>
-      apiRequest<DefectLedgerItem[]>('/apps/kuaizhizao/nonconforming-ledger', { method: 'GET', params }),
+    list: async (params?: any): Promise<DefectLedgerItem[]> => {
+      const response = await apiRequest<DefectLedgerItem[]>('/apps/kuaizhizao/nonconforming-ledger', { method: 'GET', params });
+      return normalizeArrayResponse<DefectLedgerItem>(response);
+    },
     updateDisposition: async (
       id: number,
       data: { disposition: string; status?: string; quarantine_location?: string; remarks?: string }
@@ -209,8 +219,10 @@ export const qualityImprovementApi = {
   },
 
   spc: {
-    listSamples: async (params?: any) =>
-      apiRequest<SPCSample[]>('/apps/kuaizhizao/spc/samples', { method: 'GET', params }),
+    listSamples: async (params?: any): Promise<SPCSample[]> => {
+      const response = await apiRequest<SPCSample[]>('/apps/kuaizhizao/spc/samples', { method: 'GET', params });
+      return normalizeArrayResponse<SPCSample>(response);
+    },
     createSample: async (data: any) => apiRequest<SPCSample>('/apps/kuaizhizao/spc/samples', { method: 'POST', data }),
     getImrChart: async (characteristicName: string, limit = 50) =>
       apiRequest<SPCChartResponse>('/apps/kuaizhizao/spc/charts/imr', {

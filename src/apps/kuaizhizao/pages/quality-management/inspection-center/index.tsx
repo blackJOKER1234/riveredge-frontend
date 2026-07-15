@@ -274,6 +274,7 @@ const InspectionCenter: React.FC = () => {
       loading={summaryLoading && !summary}
       kpiRow={<ModuleKpiRow items={kpis} />}
       shortcutRow={<ModuleShortcutGrid items={shortcuts} />}
+      showSidebar={false}
       actionRow={
         <>
           <ModuleActionPanel

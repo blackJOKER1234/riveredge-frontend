@@ -2288,7 +2288,7 @@ const ApplicationListPage: React.FC = () => {
           beforeSearchButtons={
             <ThemedSegmented
               surfaceBackground
-              size="middle"
+              size="small"
               value={appCategoryFilter}
               options={[
                 { label: t('pages.system.applications.categoryAll'), value: 'all' },

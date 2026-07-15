@@ -472,7 +472,7 @@ const InspectionParamsPage: React.FC = () => {
               <ThemedSegmented
                 key="inspection-params-level1-filter"
                 surfaceBackground
-                size="middle"
+                size="small"
                 value={level1Filter}
                 onChange={(v) => setLevel1Filter(String(v))}
                 options={level1SegmentOptions}

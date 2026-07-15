@@ -344,10 +344,11 @@ const MaterialShortageExceptionsPage: React.FC = () => {
                 alert_level: params.alert_level,
               },
             });
+            const rows = Array.isArray(result) ? result : (result as any)?.data ?? [];
             return {
-              data: result || [],
+              data: rows,
               success: true,
-              total: result?.length || 0,
+              total: rows.length,
             };
           } catch {
             messageApi.error(t(`${P}.message.fetchListFailed`));

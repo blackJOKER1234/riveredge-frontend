@@ -1472,7 +1472,7 @@ const FileListPage: React.FC = () => {
                   <span style={{ color: token.colorTextSecondary, fontSize: 12 }}>{t('pages.system.files.fileTypeLabel')}</span>
                   <ThemedSegmented
                     surfaceBackground
-                    size="middle"
+                    size="small"
                     value={fileTypeFilter}
                     options={[
                       { label: t('pages.system.files.fileType.all'), value: 'all' },

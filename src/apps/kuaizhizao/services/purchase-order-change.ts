@@ -1,6 +1,14 @@
 import { apiRequest } from '../../../services/api';
 import type { ChangeImpactPreview, OrderChangeItem } from './sales-order-change';
 
+function normalizeArrayResponse<T>(response: unknown): T[] {
+  if (Array.isArray(response)) return response;
+  if (response && typeof response === 'object' && Array.isArray((response as { data?: unknown }).data)) {
+    return (response as { data: T[] }).data;
+  }
+  return [];
+}
+
 export interface ActionCapability {
   allowed: boolean;
   reason?: string | null;
@@ -52,11 +60,13 @@ export async function listPurchaseOrderChanges(params: {
   status?: string;
   lifecycle_stage?: string;
 } = {}): Promise<PurchaseOrderChange[]> {
-  return apiRequest('/apps/kuaizhizao/purchase-order-change-orders', { method: 'GET', params });
+  const response = await apiRequest('/apps/kuaizhizao/purchase-order-change-orders', { method: 'GET', params });
+  return normalizeArrayResponse<PurchaseOrderChange>(response);
 }
 
 export async function listPurchaseOrderChangesByOrder(orderId: number): Promise<PurchaseOrderChange[]> {
-  return apiRequest(`/apps/kuaizhizao/purchase-order-change-orders/by-order/${orderId}`);
+  const response = await apiRequest(`/apps/kuaizhizao/purchase-order-change-orders/by-order/${orderId}`);
+  return normalizeArrayResponse<PurchaseOrderChange>(response);
 }
 
 export async function getPurchaseOrderChange(id: number): Promise<PurchaseOrderChange> {

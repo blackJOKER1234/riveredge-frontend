@@ -274,7 +274,7 @@ const CategoriesPage: React.FC = () => {
               <ThemedSegmented
                 key="equipment-categories-level1-filter"
                 surfaceBackground
-                size="middle"
+                size="small"
                 value={level1Filter}
                 onChange={(v) => setLevel1Filter(String(v))}
                 options={level1SegmentOptions}

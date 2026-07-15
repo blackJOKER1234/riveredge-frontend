@@ -83,7 +83,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         // 后端服务地址从环境变量读取
-        target: process.env.VITE_API_TARGET || `http://${process.env.VITE_BACKEND_HOST || '127.0.0.1'}:${process.env.VITE_BACKEND_PORT || '8200'}`,
+        target: 'https://kuaigeyun.com/',
         changeOrigin: true,
         secure: false,
         // ⚠️ 关键修复：增加超时时间，防止后端重启时连接超时
