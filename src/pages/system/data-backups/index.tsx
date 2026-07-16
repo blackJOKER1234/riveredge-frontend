@@ -136,7 +136,9 @@ const DataBackupsPage: React.FC = () => {
     const timer = window.setInterval(() => {
       loadWorkerHealth(true);
     }, 30000);
-    return () => window.clearInterval(timer);
+    return () => {
+      clearInterval(timer);
+    };
   }, [loadWorkerHealth]);
 
   const workerHealthMeta = useMemo(() => {

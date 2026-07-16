@@ -73,13 +73,14 @@ const CardView: React.FC = () => {
    * 设置自动刷新（每60秒刷新一次）
    */
   useEffect(() => {
+    if (refreshIntervalRef.current) clearInterval(refreshIntervalRef.current);
     refreshIntervalRef.current = setInterval(() => {
       loadDevices();
     }, 60000);
-    
     return () => {
       if (refreshIntervalRef.current) {
         clearInterval(refreshIntervalRef.current);
+        refreshIntervalRef.current = null;
       }
     };
   }, []);

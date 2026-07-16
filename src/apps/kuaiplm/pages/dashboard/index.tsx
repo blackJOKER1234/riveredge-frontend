@@ -343,6 +343,7 @@ const KuaiplmDashboard: React.FC = () => {
         <ModuleShortcutGrid items={shortcuts} colProps={{ xs: 12, sm: 8, md: 8, lg: 4 }} />
 
       }
+      showSidebar={false}
 
       actionRow={
 

@@ -182,7 +182,7 @@ const ProductionControlTower: React.FC = () => {
   );
 
   return (
-    <UniDashboard className="plan-module-dashboard" style={{ padding: 0, overflow: 'visible' }}>
+    <UniDashboard showSidebar={false} className="plan-module-dashboard" style={{ padding: 0, overflow: 'visible' }}>
       <Row gutter={[16, 16]}>
         
         {/* KPI 区 */}

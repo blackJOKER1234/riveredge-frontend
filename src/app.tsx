@@ -377,13 +377,11 @@ const AuthGuard = React.memo<{ children: React.ReactNode }>(({ children }) => {
         if (cancelled) {
           return;
         }
-        const tok = getToken();
-        if (!tok) {
-          return;
-        }
-        const r = getTokenRemainingTime(tok);
-        if (r > 0 && r < proactiveRefreshMs) {
-          await refreshAccessTokenSilently();
+        // 回到前台时立即执行一次完整检查（含 inactivity、token 续期等）
+        const stillOk = await checkAuthStatus();
+        if (!stillOk && checkTimerRef.current) {
+          clearInterval(checkTimerRef.current);
+          checkTimerRef.current = null;
         }
       })();
     };
@@ -395,6 +393,9 @@ const AuthGuard = React.memo<{ children: React.ReactNode }>(({ children }) => {
         return;
       }
       checkTimerRef.current = setInterval(() => {
+        // Tab 隐藏时不轮询，由 visibilitychange 负责在回到前台时检查
+        if (document.visibilityState === 'hidden') return;
+
         void (async () => {
           const stillOk = await checkAuthStatus();
           if (!stillOk && checkTimerRef.current) {
