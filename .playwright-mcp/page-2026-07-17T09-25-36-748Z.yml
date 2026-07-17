@@ -1,0 +1,751 @@
+- generic [ref=e8]:
+  - complementary [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e15]:
+        - img "search" [ref=e17]
+        - textbox "搜索菜单" [ref=e20]
+        - generic [ref=e21]: /
+      - menu [ref=e24]:
+        - menuitem "仪表盘" [expanded] [ref=e25] [cursor=pointer]
+        - menu [ref=e33]:
+          - menuitem [ref=e34] [cursor=pointer]:
+            - link "工作台" [active] [ref=e37]:
+              - /url: /system/dashboard/workplace
+          - menuitem [ref=e40] [cursor=pointer]:
+            - link "运营看板" [ref=e43]:
+              - /url: /system/dashboard/analysis
+        - menuitem [ref=e46] [cursor=pointer]
+        - menuitem "销售管理" [ref=e48] [cursor=pointer]
+        - menuitem "计划管理" [ref=e56] [cursor=pointer]
+        - menuitem "采购管理" [ref=e63] [cursor=pointer]
+        - menuitem "生产执行" [ref=e71] [cursor=pointer]
+        - menuitem "质量管理" [ref=e78] [cursor=pointer]
+        - menuitem "设备管理" [ref=e85] [cursor=pointer]
+        - menuitem "仓储管理" [ref=e92] [cursor=pointer]
+        - menuitem "绩效管理" [ref=e100] [cursor=pointer]
+        - menuitem [ref=e111] [cursor=pointer]
+        - menuitem "项目中心" [ref=e113] [cursor=pointer]
+        - menuitem "工程数据" [ref=e120] [cursor=pointer]
+        - menuitem "研发协同" [ref=e129] [cursor=pointer]
+        - menuitem "知识中心" [ref=e139] [cursor=pointer]
+        - menuitem [ref=e146] [cursor=pointer]
+        - menuitem "财务管理" [ref=e148] [cursor=pointer]
+        - menuitem "成本管理" [ref=e156] [cursor=pointer]
+        - menuitem "经营分析" [ref=e163] [cursor=pointer]
+        - menuitem [ref=e171] [cursor=pointer]
+        - menuitem "工厂数据" [ref=e173] [cursor=pointer]
+        - menuitem "仓库数据" [ref=e180] [cursor=pointer]
+        - menuitem "物料数据" [ref=e188] [cursor=pointer]
+        - menuitem "客户供应商" [ref=e197] [cursor=pointer]
+      - generic [ref=e208]:
+        - button "系统设置" [ref=e210] [cursor=pointer]:
+          - img "setting" [ref=e212]
+          - generic [ref=e215]: 系统配置
+        - button [ref=e217] [cursor=pointer]:
+          - img "menu-fold" [ref=e219]
+  - generic [ref=e222]:
+    - banner [ref=e223]
+    - banner [ref=e224]:
+      - generic [ref=e225]:
+        - heading "MES" [level=1] [ref=e228] [cursor=pointer]
+        - generic [ref=e230]:
+          - separator [ref=e231]
+          - button [ref=e234] [cursor=pointer]:
+            - img "appstore" [ref=e235]
+          - navigation [ref=e239]:
+            - list [ref=e240]:
+              - listitem [ref=e241]:
+                - generic [ref=e242]: 仪表板
+              - listitem [ref=e245]: /
+              - listitem [ref=e246]:
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 工作台
+                  - img "down" [ref=e251]
+        - generic [ref=e258]:
+          - button [ref=e261] [cursor=pointer]
+          - button [ref=e286] [cursor=pointer]:
+            - img "bell" [ref=e288]
+          - button [ref=e292] [cursor=pointer]:
+            - img "translation" [ref=e294]
+          - button [ref=e299] [cursor=pointer]:
+            - img "bg-colors" [ref=e301]
+          - button [ref=e305] [cursor=pointer]:
+            - img "fullscreen" [ref=e307]
+          - generic [ref=e313] [cursor=pointer]:
+            - generic [ref=e314]:
+              - text: 无锡快格信息技术有限公司
+              - combobox [ref=e315]
+            - img "swap" [ref=e317]
+          - generic [ref=e320]: 体验用户
+          - button [ref=e328] [cursor=pointer]:
+            - img "lock" [ref=e330]
+    - main [ref=e333]:
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - generic:
+            - generic [ref=e336]:
+              - tablist [ref=e337]:
+                - generic [ref=e339]:
+                  - tab "工作台" [selected] [ref=e341] [cursor=pointer]
+                  - generic [ref=e1117] [cursor=pointer]:
+                    - tab "运营看板" [ref=e1118]
+                    - button "remove" [ref=e1120]:
+                      - img "close" [ref=e1121]
+              - generic:
+                - generic:
+                  - tabpanel "工作台"
+            - button [ref=e343] [cursor=pointer]:
+              - img "fullscreen" [ref=e345]
+        - generic [ref=e1130]:
+          - generic [ref=e1131]:
+            - generic [ref=e1132]:
+              - generic [ref=e1133]:
+                - generic [ref=e1134]: 👋
+                - paragraph [ref=e1135]: 傍晚好，体验用户
+              - generic [ref=e1137]:
+                - generic "便捷工具" [ref=e1138] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic: 价税换算
+                    - generic: 重量计算
+                    - generic: 汇率换算
+                    - generic: 金额大写
+                    - generic: 文本整理
+                    - generic: 单位换算
+                    - generic: 密码生成
+                    - generic: 随手便签
+                    - generic: 二维码
+            - generic [ref=e1146]:
+              - radiogroup "segmented control" [ref=e1148]:
+                - generic [ref=e1149]:
+                  - generic [ref=e1150] [cursor=pointer]:
+                    - radio "今天"
+                    - generic "今天" [ref=e1151]
+                  - generic [ref=e1152] [cursor=pointer]:
+                    - radio "昨天"
+                    - generic "昨天" [ref=e1153]
+                  - generic [ref=e1154] [cursor=pointer]:
+                    - radio "本周"
+                    - generic "本周" [ref=e1155]
+                  - generic [ref=e1156] [cursor=pointer]:
+                    - radio "本月"
+                    - generic "本月" [ref=e1157]
+                  - generic [ref=e1158] [cursor=pointer]:
+                    - radio "近7天"
+                    - generic "近7天" [ref=e1159]
+                  - generic [ref=e1160] [cursor=pointer]:
+                    - radio "近30天" [checked]
+                    - generic "近30天" [ref=e1161]
+              - generic [ref=e1162]:
+                - button "工单总数 36 单 所选时间范围内全部工单 已完成 2单 进行中 10单" [ref=e1163] [cursor=pointer]:
+                  - generic [ref=e1164]:
+                    - generic [ref=e1165]:
+                      - generic [ref=e1166]: 工单总数
+                      - generic [ref=e1167]:
+                        - generic [ref=e1168]: "36"
+                        - generic [ref=e1169]: 单
+                      - generic [ref=e1170]: 所选时间范围内全部工单
+                    - generic [ref=e1171]:
+                      - generic [ref=e1172]:
+                        - generic [ref=e1173]: 已完成
+                        - generic [ref=e1174]: 2单
+                      - generic [ref=e1176]:
+                        - generic [ref=e1177]: 进行中
+                        - generic [ref=e1178]: 10单
+                - button "进行中工单 10 单 当前正在执行的工单数量 已完成 2单 工单完成率 5.6%" [ref=e1179] [cursor=pointer]:
+                  - generic [ref=e1180]:
+                    - generic [ref=e1181]:
+                      - generic [ref=e1182]: 进行中工单
+                      - generic [ref=e1183]:
+                        - generic [ref=e1184]: "10"
+                        - generic [ref=e1185]: 单
+                      - generic [ref=e1186]: 当前正在执行的工单数量
+                    - generic [ref=e1187]:
+                      - generic [ref=e1188]:
+                        - generic [ref=e1189]: 已完成
+                        - generic [ref=e1190]: 2单
+                      - generic [ref=e1192]:
+                        - generic [ref=e1193]: 工单完成率
+                        - generic [ref=e1194]: 5.6%
+                - button "工单完成率 5.6 % 按工单数量统计的完成比例 已结工单 2单 工单总数 36单" [ref=e1195] [cursor=pointer]:
+                  - generic [ref=e1196]:
+                    - generic [ref=e1197]:
+                      - generic [ref=e1198]: 工单完成率
+                      - generic [ref=e1199]:
+                        - generic [ref=e1200]: "5.6"
+                        - generic [ref=e1201]: "%"
+                      - generic [ref=e1202]: 按工单数量统计的完成比例
+                    - generic [ref=e1203]:
+                      - generic [ref=e1204]:
+                        - generic [ref=e1205]: 已结工单
+                        - generic [ref=e1206]: 2单
+                      - generic [ref=e1208]:
+                        - generic [ref=e1209]: 工单总数
+                        - generic [ref=e1210]: 36单
+                - button "完工数量 5 件 所选时间范围内合格完工产量 产能达成率 0.0% 已结工单 2单" [ref=e1211] [cursor=pointer]:
+                  - generic [ref=e1212]:
+                    - generic [ref=e1213]:
+                      - generic [ref=e1214]: 完工数量
+                      - generic [ref=e1215]:
+                        - generic [ref=e1216]: "5"
+                        - generic [ref=e1217]: 件
+                      - generic [ref=e1218]: 所选时间范围内合格完工产量
+                    - generic [ref=e1219]:
+                      - generic [ref=e1220]:
+                        - generic [ref=e1221]: 产能达成率
+                        - generic [ref=e1222]: 0.0%
+                      - generic [ref=e1224]:
+                        - generic [ref=e1225]: 已结工单
+                        - generic [ref=e1226]: 2单
+                - button "质量概览 99.2 % 所选时间范围内质量表现 未关闭异常 6 累计异常 6" [ref=e1227] [cursor=pointer]:
+                  - generic [ref=e1228]:
+                    - generic [ref=e1229]:
+                      - generic [ref=e1230]: 质量概览
+                      - generic [ref=e1231]:
+                        - generic [ref=e1232]: "99.2"
+                        - generic [ref=e1233]: "%"
+                      - generic [ref=e1234]: 所选时间范围内质量表现
+                    - generic [ref=e1235]:
+                      - generic [ref=e1236]:
+                        - generic [ref=e1237]: 未关闭异常
+                        - generic [ref=e1238]: "6"
+                      - generic [ref=e1240]:
+                        - generic [ref=e1241]: 累计异常
+                        - generic [ref=e1242]: "6"
+          - generic [ref=e1243]:
+            - generic [ref=e1244]:
+              - generic [ref=e1245]: 在制工序
+              - generic [ref=e1247]:
+                - generic [ref=e1248]: 共 19 道工序
+                - button "查看全部 right" [ref=e1250] [cursor=pointer]:
+                  - generic [ref=e1251]: 查看全部
+                  - img "right" [ref=e1252]
+            - generic [ref=e1256]:
+              - generic [ref=e1257]:
+                - button "下料 当前进度：10% 1280 生产任务数 已完成数量 133 合格数量 132 不合格数量 1" [ref=e1258] [cursor=pointer]:
+                  - generic [ref=e1261]:
+                    - generic "下料" [ref=e1262]
+                    - generic [ref=e1263]: 当前进度：10%
+                  - generic [ref=e1264]:
+                    - generic [ref=e1265]:
+                      - generic [ref=e1266]: "1280"
+                      - generic [ref=e1267]: 生产任务数
+                    - generic [ref=e1268]:
+                      - generic [ref=e1269]:
+                        - generic [ref=e1270]: 已完成数量
+                        - generic [ref=e1271]: "133"
+                      - generic [ref=e1272]:
+                        - generic [ref=e1273]: 合格数量
+                        - generic [ref=e1274]: "132"
+                      - generic [ref=e1275]:
+                        - generic [ref=e1276]: 不合格数量
+                        - generic [ref=e1277]: "1"
+                - button "冲压 当前进度：40% 25 生产任务数 已完成数量 10 合格数量 8 不合格数量 2" [ref=e1278] [cursor=pointer]:
+                  - generic [ref=e1281]:
+                    - generic "冲压" [ref=e1282]
+                    - generic [ref=e1283]: 当前进度：40%
+                  - generic [ref=e1284]:
+                    - generic [ref=e1285]:
+                      - generic [ref=e1286]: "25"
+                      - generic [ref=e1287]: 生产任务数
+                    - generic [ref=e1288]:
+                      - generic [ref=e1289]:
+                        - generic [ref=e1290]: 已完成数量
+                        - generic [ref=e1291]: "10"
+                      - generic [ref=e1292]:
+                        - generic [ref=e1293]: 合格数量
+                        - generic [ref=e1294]: "8"
+                      - generic [ref=e1295]:
+                        - generic [ref=e1296]: 不合格数量
+                        - generic [ref=e1297]: "2"
+                - button "分离原液 当前进度：9% 401 生产任务数 已完成数量 37 合格数量 37 不合格数量 0" [ref=e1298] [cursor=pointer]:
+                  - generic [ref=e1301]:
+                    - generic "分离原液" [ref=e1302]
+                    - generic [ref=e1303]: 当前进度：9%
+                  - generic [ref=e1304]:
+                    - generic [ref=e1305]:
+                      - generic [ref=e1306]: "401"
+                      - generic [ref=e1307]: 生产任务数
+                    - generic [ref=e1308]:
+                      - generic [ref=e1309]:
+                        - generic [ref=e1310]: 已完成数量
+                        - generic [ref=e1311]: "37"
+                      - generic [ref=e1312]:
+                        - generic [ref=e1313]: 合格数量
+                        - generic [ref=e1314]: "37"
+                      - generic [ref=e1315]:
+                        - generic [ref=e1316]: 不合格数量
+                        - generic [ref=e1317]: "0"
+                - button "包胶 当前进度：0% 1 生产任务数 已完成数量 0 合格数量 0 不合格数量 0" [ref=e1318] [cursor=pointer]:
+                  - generic [ref=e1320]:
+                    - generic "包胶" [ref=e1321]
+                    - generic [ref=e1322]: 当前进度：0%
+                  - generic [ref=e1323]:
+                    - generic [ref=e1324]:
+                      - generic [ref=e1325]: "1"
+                      - generic [ref=e1326]: 生产任务数
+                    - generic [ref=e1327]:
+                      - generic [ref=e1328]:
+                        - generic [ref=e1329]: 已完成数量
+                        - generic [ref=e1330]: "0"
+                      - generic [ref=e1331]:
+                        - generic [ref=e1332]: 合格数量
+                        - generic [ref=e1333]: "0"
+                      - generic [ref=e1334]:
+                        - generic [ref=e1335]: 不合格数量
+                        - generic [ref=e1336]: "0"
+                - button "平衡 当前进度：0% 2 生产任务数 已完成数量 0 合格数量 0 不合格数量 0" [ref=e1337] [cursor=pointer]:
+                  - generic [ref=e1339]:
+                    - generic "平衡" [ref=e1340]
+                    - generic [ref=e1341]: 当前进度：0%
+                  - generic [ref=e1342]:
+                    - generic [ref=e1343]:
+                      - generic [ref=e1344]: "2"
+                      - generic [ref=e1345]: 生产任务数
+                    - generic [ref=e1346]:
+                      - generic [ref=e1347]:
+                        - generic [ref=e1348]: 已完成数量
+                        - generic [ref=e1349]: "0"
+                      - generic [ref=e1350]:
+                        - generic [ref=e1351]: 合格数量
+                        - generic [ref=e1352]: "0"
+                      - generic [ref=e1353]:
+                        - generic [ref=e1354]: 不合格数量
+                        - generic [ref=e1355]: "0"
+                - button "开料 当前进度：92% 120 生产任务数 已完成数量 110 合格数量 60 不合格数量 50" [ref=e1356] [cursor=pointer]:
+                  - generic [ref=e1359]:
+                    - generic "开料" [ref=e1360]
+                    - generic [ref=e1361]: 当前进度：92%
+                  - generic [ref=e1362]:
+                    - generic [ref=e1363]:
+                      - generic [ref=e1364]: "120"
+                      - generic [ref=e1365]: 生产任务数
+                    - generic [ref=e1366]:
+                      - generic [ref=e1367]:
+                        - generic [ref=e1368]: 已完成数量
+                        - generic [ref=e1369]: "110"
+                      - generic [ref=e1370]:
+                        - generic [ref=e1371]: 合格数量
+                        - generic [ref=e1372]: "60"
+                      - generic [ref=e1373]:
+                        - generic [ref=e1374]: 不合格数量
+                        - generic [ref=e1375]: "50"
+                - button "打磨抛光 当前进度：0% 255 生产任务数 已完成数量 0 合格数量 0 不合格数量 0" [ref=e1376] [cursor=pointer]:
+                  - generic [ref=e1378]:
+                    - generic "打磨抛光" [ref=e1379]
+                    - generic [ref=e1380]: 当前进度：0%
+                  - generic [ref=e1381]:
+                    - generic [ref=e1382]:
+                      - generic [ref=e1383]: "255"
+                      - generic [ref=e1384]: 生产任务数
+                    - generic [ref=e1385]:
+                      - generic [ref=e1386]:
+                        - generic [ref=e1387]: 已完成数量
+                        - generic [ref=e1388]: "0"
+                      - generic [ref=e1389]:
+                        - generic [ref=e1390]: 合格数量
+                        - generic [ref=e1391]: "0"
+                      - generic [ref=e1392]:
+                        - generic [ref=e1393]: 不合格数量
+                        - generic [ref=e1394]: "0"
+                - button "投入化工原料混合 当前进度：100% 400 生产任务数 已完成数量 400 合格数量 40 不合格数量 360" [ref=e1395] [cursor=pointer]:
+                  - generic [ref=e1398]:
+                    - generic "投入化工原料混合" [ref=e1399]
+                    - generic [ref=e1400]: 当前进度：100%
+                  - generic [ref=e1401]:
+                    - generic [ref=e1402]:
+                      - generic [ref=e1403]: "400"
+                      - generic [ref=e1404]: 生产任务数
+                    - generic [ref=e1405]:
+                      - generic [ref=e1406]:
+                        - generic [ref=e1407]: 已完成数量
+                        - generic [ref=e1408]: "400"
+                      - generic [ref=e1409]:
+                        - generic [ref=e1410]: 合格数量
+                        - generic [ref=e1411]: "40"
+                      - generic [ref=e1412]:
+                        - generic [ref=e1413]: 不合格数量
+                        - generic [ref=e1414]: "360"
+              - button "加载更多" [ref=e1416] [cursor=pointer]:
+                - img "down" [ref=e1418]
+          - generic [ref=e1421]:
+            - generic [ref=e1423]:
+              - generic [ref=e1424]:
+                - generic [ref=e1425]: 最新操作
+                - button "查看全部 right" [ref=e1427] [cursor=pointer]:
+                  - generic [ref=e1428]: 查看全部
+                  - img "right" [ref=e1429]
+              - generic [ref=e1434]:
+                - generic [ref=e1435] [cursor=pointer]:
+                  - generic [ref=e1436]:
+                    - paragraph [ref=e1438]: 体验用户 | 下料
+                    - generic [ref=e1439]: 07-16 11:35
+                  - generic [ref=e1440]:
+                    - paragraph [ref=e1441]: GD202607140001 · 叶轮
+                    - generic [ref=e1442]: 合格 10
+                - generic [ref=e1444] [cursor=pointer]:
+                  - generic [ref=e1445]:
+                    - paragraph [ref=e1447]: 体验用户 | 数控冲/冲压
+                    - generic [ref=e1448]: 07-08 07:24
+                  - generic [ref=e1449]:
+                    - paragraph [ref=e1450]: GD202607080002 · 盖板1
+                    - generic [ref=e1451]:
+                      - generic [ref=e1452]: 合格 100
+                      - generic [ref=e1453]: 不合格 1
+                - generic [ref=e1454] [cursor=pointer]:
+                  - generic [ref=e1455]:
+                    - paragraph [ref=e1457]: 体验用户 | 研磨
+                    - generic [ref=e1458]: 07-08 07:24
+                  - generic [ref=e1459]:
+                    - paragraph [ref=e1460]: GD202607080002 · 盖板1
+                    - generic [ref=e1461]: 合格 123
+                - generic [ref=e1463] [cursor=pointer]:
+                  - generic [ref=e1464]:
+                    - paragraph [ref=e1466]: jetli | 下料
+                    - generic [ref=e1467]: 07-08 07:22
+                  - generic [ref=e1468]:
+                    - paragraph [ref=e1469]: GD202607080002 · 盖板1
+                    - generic [ref=e1470]:
+                      - generic [ref=e1471]: 合格 122
+                      - generic [ref=e1472]: 不合格 1
+                - generic [ref=e1473] [cursor=pointer]:
+                  - generic [ref=e1474]:
+                    - paragraph [ref=e1476]: meezywang | 进检
+                    - generic [ref=e1477]: 07-08 07:10
+                  - generic [ref=e1478]:
+                    - paragraph [ref=e1479]: GD202607080001 · 盖板1
+                    - generic [ref=e1480]: 合格 4
+                - generic [ref=e1482] [cursor=pointer]:
+                  - generic [ref=e1483]:
+                    - paragraph [ref=e1485]: test001 | 包胶
+                    - generic [ref=e1486]: 07-08 07:10
+                  - generic [ref=e1487]:
+                    - paragraph [ref=e1488]: GD202607080001 · 盖板1
+                    - generic [ref=e1489]: 合格 4
+                - generic [ref=e1491] [cursor=pointer]:
+                  - generic [ref=e1492]:
+                    - paragraph [ref=e1494]: tearwlf | 包胶
+                    - generic [ref=e1495]: 07-08 07:10
+                  - generic [ref=e1496]:
+                    - paragraph [ref=e1497]: GD202607080001 · 盖板1
+                    - generic [ref=e1498]: 合格 0
+                - generic [ref=e1500] [cursor=pointer]:
+                  - generic [ref=e1501]:
+                    - paragraph [ref=e1503]: 体验用户 | 装配
+                    - generic [ref=e1504]: 07-08 07:08
+                  - generic [ref=e1505]:
+                    - paragraph [ref=e1506]: GD202607080001 · 盖板1
+                    - generic [ref=e1507]: 合格 4
+                - generic [ref=e1509] [cursor=pointer]:
+                  - generic [ref=e1510]:
+                    - paragraph [ref=e1512]: YQ123456 | 装配
+                    - generic [ref=e1513]: 07-08 07:08
+                  - generic [ref=e1514]:
+                    - paragraph [ref=e1515]: GD202607080001 · 盖板1
+                    - generic [ref=e1516]: 合格 0
+                - generic [ref=e1518] [cursor=pointer]:
+                  - generic [ref=e1519]:
+                    - paragraph [ref=e1521]: 体验用户 | 进检
+                    - generic [ref=e1522]: 07-04 03:04
+                  - generic [ref=e1523]:
+                    - paragraph [ref=e1524]: GD202606290003 · 内包合页右单玻门无底柜C128(500×600×830)AS
+                    - generic [ref=e1525]: 合格 1
+            - generic [ref=e1528]:
+              - generic [ref=e1529]:
+                - generic [ref=e1531]:
+                  - generic [ref=e1532]: 待办事项
+                  - superscript [ref=e1535]:
+                    - generic [ref=e1536]:
+                      - generic [ref=e1537]: "5"
+                      - generic [ref=e1538]: "0"
+                - button "查看全部 right" [ref=e1540] [cursor=pointer]:
+                  - generic [ref=e1541]: 查看全部
+                  - img "right" [ref=e1542]
+              - generic [ref=e1547]:
+                - tablist [ref=e1548]:
+                  - generic [ref=e1550]:
+                    - tab "全部 (50)" [selected] [ref=e1552] [cursor=pointer]
+                    - tab "异常 (50)" [ref=e1554] [cursor=pointer]
+                - tabpanel "全部 (50)" [ref=e1557]:
+                  - generic [ref=e1558]:
+                    - generic [ref=e1559] [cursor=pointer]:
+                      - generic [ref=e1560]:
+                        - paragraph [ref=e1561]: 延期异常：GD202605300001-003
+                        - generic [ref=e1562]: 延期天数：48天
+                        - generic [ref=e1563]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1564]
+                    - generic [ref=e1566] [cursor=pointer]:
+                      - generic [ref=e1567]:
+                        - paragraph [ref=e1568]: 延期异常：GD202605300001-002
+                        - generic [ref=e1569]: 延期天数：48天
+                        - generic [ref=e1570]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1571]
+                    - generic [ref=e1573] [cursor=pointer]:
+                      - generic [ref=e1574]:
+                        - paragraph [ref=e1575]: 延期异常：GD202605300002-002
+                        - generic [ref=e1576]: 延期天数：48天
+                        - generic [ref=e1577]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1578]
+                    - generic [ref=e1580] [cursor=pointer]:
+                      - generic [ref=e1581]:
+                        - paragraph [ref=e1582]: 延期异常：GD202605300001-004
+                        - generic [ref=e1583]: 延期天数：48天
+                        - generic [ref=e1584]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1585]
+                    - generic [ref=e1587] [cursor=pointer]:
+                      - generic [ref=e1588]:
+                        - paragraph [ref=e1589]: 延期异常：GD202605300001-005
+                        - generic [ref=e1590]: 延期天数：48天
+                        - generic [ref=e1591]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1592]
+                    - generic [ref=e1594] [cursor=pointer]:
+                      - generic [ref=e1595]:
+                        - paragraph [ref=e1596]: 延期异常：GD202605300002-001
+                        - generic [ref=e1597]: 延期天数：48天
+                        - generic [ref=e1598]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1599]
+                    - generic [ref=e1601] [cursor=pointer]:
+                      - generic [ref=e1602]:
+                        - paragraph [ref=e1603]: 延期异常：GD202605300001-001
+                        - generic [ref=e1604]: 延期天数：21天
+                        - generic [ref=e1605]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1606]
+                    - generic [ref=e1608] [cursor=pointer]:
+                      - generic [ref=e1609]:
+                        - paragraph [ref=e1610]: 缺料异常：优质碳素结构钢圆钢
+                        - generic [ref=e1611]: 缺料数量：89 - 工单：GD202604130001
+                      - button "处 理" [ref=e1612]
+                    - generic [ref=e1614] [cursor=pointer]:
+                      - generic [ref=e1615]:
+                        - paragraph [ref=e1616]: 缺料异常：27英寸 4K显示器
+                        - generic [ref=e1617]: 缺料数量：1100 - 工单：GD202604140004
+                      - button "处 理" [ref=e1618]
+                    - generic [ref=e1620] [cursor=pointer]:
+                      - generic [ref=e1621]:
+                        - paragraph [ref=e1622]: 缺料异常：4.0ultra 机械键盘
+                        - generic [ref=e1623]: 缺料数量：2200 - 工单：GD202604140004
+                      - button "处 理" [ref=e1624]
+                    - generic [ref=e1626] [cursor=pointer]:
+                      - generic [ref=e1627]:
+                        - paragraph [ref=e1628]: 缺料异常：V2pro 无线鼠标
+                        - generic [ref=e1629]: 缺料数量：3300 - 工单：GD202604140004
+                      - button "处 理" [ref=e1630]
+                    - generic [ref=e1632] [cursor=pointer]:
+                      - generic [ref=e1633]:
+                        - paragraph [ref=e1634]: 缺料异常：DDR5 7200内存条
+                        - generic [ref=e1635]: 缺料数量：2200 - 工单：GD202604140004
+                      - button "处 理" [ref=e1636]
+                    - generic [ref=e1638] [cursor=pointer]:
+                      - generic [ref=e1639]:
+                        - paragraph [ref=e1640]: 缺料异常：27英寸 4K显示器
+                        - generic [ref=e1641]: 缺料数量：20 - 工单：GD202604200003
+                      - button "处 理" [ref=e1642]
+                    - generic [ref=e1644] [cursor=pointer]:
+                      - generic [ref=e1645]:
+                        - paragraph [ref=e1646]: 缺料异常：4.0ultra 机械键盘
+                        - generic [ref=e1647]: 缺料数量：40 - 工单：GD202604200003
+                      - button "处 理" [ref=e1648]
+                    - generic [ref=e1650] [cursor=pointer]:
+                      - generic [ref=e1651]:
+                        - paragraph [ref=e1652]: 缺料异常：V2pro 无线鼠标
+                        - generic [ref=e1653]: 缺料数量：60 - 工单：GD202604200003
+                      - button "处 理" [ref=e1654]
+                    - generic [ref=e1656] [cursor=pointer]:
+                      - generic [ref=e1657]:
+                        - paragraph [ref=e1658]: 缺料异常：DDR5 7200内存条
+                        - generic [ref=e1659]: 缺料数量：40 - 工单：GD202604200003
+                      - button "处 理" [ref=e1660]
+                    - generic [ref=e1662] [cursor=pointer]:
+                      - generic [ref=e1663]:
+                        - paragraph [ref=e1664]: 缺料异常：27英寸 4K显示器
+                        - generic [ref=e1665]: 缺料数量：50 - 工单：GD202605070001
+                      - button "处 理" [ref=e1666]
+                    - generic [ref=e1668] [cursor=pointer]:
+                      - generic [ref=e1669]:
+                        - paragraph [ref=e1670]: 缺料异常：4.0ultra 机械键盘
+                        - generic [ref=e1671]: 缺料数量：100 - 工单：GD202605070001
+                      - button "处 理" [ref=e1672]
+                    - generic [ref=e1674] [cursor=pointer]:
+                      - generic [ref=e1675]:
+                        - paragraph [ref=e1676]: 缺料异常：V2pro 无线鼠标
+                        - generic [ref=e1677]: 缺料数量：150 - 工单：GD202605070001
+                      - button "处 理" [ref=e1678]
+                    - generic [ref=e1680] [cursor=pointer]:
+                      - generic [ref=e1681]:
+                        - paragraph [ref=e1682]: 缺料异常：DDR5 7200内存条
+                        - generic [ref=e1683]: 缺料数量：100 - 工单：GD202605070001
+                      - button "处 理" [ref=e1684]
+                    - generic [ref=e1686] [cursor=pointer]:
+                      - generic [ref=e1687]:
+                        - paragraph [ref=e1688]: 缺料异常：27英寸 4K显示器
+                        - generic [ref=e1689]: 缺料数量：100 - 工单：GD202605090001
+                      - button "处 理" [ref=e1690]
+                    - generic [ref=e1692] [cursor=pointer]:
+                      - generic [ref=e1693]:
+                        - paragraph [ref=e1694]: 缺料异常：4.0ultra 机械键盘
+                        - generic [ref=e1695]: 缺料数量：200 - 工单：GD202605090001
+                      - button "处 理" [ref=e1696]
+                    - generic [ref=e1698] [cursor=pointer]:
+                      - generic [ref=e1699]:
+                        - paragraph [ref=e1700]: 缺料异常：V2pro 无线鼠标
+                        - generic [ref=e1701]: 缺料数量：300 - 工单：GD202605090001
+                      - button "处 理" [ref=e1702]
+                    - generic [ref=e1704] [cursor=pointer]:
+                      - generic [ref=e1705]:
+                        - paragraph [ref=e1706]: 缺料异常：DDR5 7200内存条
+                        - generic [ref=e1707]: 缺料数量：200 - 工单：GD202605090001
+                      - button "处 理" [ref=e1708]
+                    - generic [ref=e1710] [cursor=pointer]:
+                      - generic [ref=e1711]:
+                        - paragraph [ref=e1712]: 缺料异常：DDR5 7200内存条
+                        - generic [ref=e1713]: 缺料数量：100 - 工单：GD202605280001
+                      - button "处 理" [ref=e1714]
+                    - generic [ref=e1716] [cursor=pointer]:
+                      - generic [ref=e1717]:
+                        - paragraph [ref=e1718]: 缺料异常：WD750K 全模组电源650W
+                        - generic [ref=e1719]: 缺料数量：50 - 工单：GD202605280001
+                      - button "处 理" [ref=e1720]
+                    - generic [ref=e1722] [cursor=pointer]:
+                      - generic [ref=e1723]:
+                        - paragraph [ref=e1724]: 延期异常：GD202607140011
+                        - generic [ref=e1725]: 延期天数：2天
+                        - generic [ref=e1726]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1727]
+                    - generic [ref=e1729] [cursor=pointer]:
+                      - generic [ref=e1730]:
+                        - paragraph [ref=e1731]: 延期异常：GD202607100003
+                        - generic [ref=e1732]: 延期天数：1天
+                        - generic [ref=e1733]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1734]
+                    - generic [ref=e1736] [cursor=pointer]:
+                      - generic [ref=e1737]:
+                        - paragraph [ref=e1738]: 延期异常：GD202607110001
+                        - generic [ref=e1739]: 延期天数：1天
+                        - generic [ref=e1740]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1741]
+                    - generic [ref=e1743] [cursor=pointer]:
+                      - generic [ref=e1744]:
+                        - paragraph [ref=e1745]: 延期异常：GD202606110001-001
+                        - generic [ref=e1746]: 延期天数：1天
+                        - generic [ref=e1747]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1748]
+                    - generic [ref=e1750] [cursor=pointer]:
+                      - generic [ref=e1751]:
+                        - paragraph [ref=e1752]: 延期异常：GD202607110003
+                        - generic [ref=e1753]: 延期天数：1天
+                        - generic [ref=e1754]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1755]
+                    - generic [ref=e1757] [cursor=pointer]:
+                      - generic [ref=e1758]:
+                        - paragraph [ref=e1759]: 延期异常：GD202606090002
+                        - generic [ref=e1760]: 延期天数：1天
+                        - generic [ref=e1761]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1762]
+                    - generic [ref=e1764] [cursor=pointer]:
+                      - generic [ref=e1765]:
+                        - paragraph [ref=e1766]: 延期异常：GD202606160001
+                        - generic [ref=e1767]: 延期天数：1天
+                        - generic [ref=e1768]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1769]
+                    - generic [ref=e1771] [cursor=pointer]:
+                      - generic [ref=e1772]:
+                        - paragraph [ref=e1773]: 延期异常：GD202606100012
+                        - generic [ref=e1774]: 延期天数：1天
+                        - generic [ref=e1775]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1776]
+                    - generic [ref=e1778] [cursor=pointer]:
+                      - generic [ref=e1779]:
+                        - paragraph [ref=e1780]: 延期异常：GD202606290003
+                        - generic [ref=e1781]: 延期天数：1天
+                        - generic [ref=e1782]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1783]
+                    - generic [ref=e1785] [cursor=pointer]:
+                      - generic [ref=e1786]:
+                        - paragraph [ref=e1787]: 延期异常：GD202607100004
+                        - generic [ref=e1788]: 延期天数：1天
+                        - generic [ref=e1789]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1790]
+                    - generic [ref=e1792] [cursor=pointer]:
+                      - generic [ref=e1793]:
+                        - paragraph [ref=e1794]: 延期异常：GD202605280001
+                        - generic [ref=e1795]: 延期天数：1天
+                        - generic [ref=e1796]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1797]
+                    - generic [ref=e1799] [cursor=pointer]:
+                      - generic [ref=e1800]:
+                        - paragraph [ref=e1801]: 延期异常：GD202607100001
+                        - generic [ref=e1802]: 延期天数：1天
+                        - generic [ref=e1803]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1804]
+                    - generic [ref=e1806] [cursor=pointer]:
+                      - generic [ref=e1807]:
+                        - paragraph [ref=e1808]: 延期异常：GD202607100002
+                        - generic [ref=e1809]: 延期天数：1天
+                        - generic [ref=e1810]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1811]
+                    - generic [ref=e1813] [cursor=pointer]:
+                      - generic [ref=e1814]:
+                        - paragraph [ref=e1815]: 延期异常：GD202607140001
+                        - generic [ref=e1816]: 延期天数：1天
+                        - generic [ref=e1817]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1818]
+                    - generic [ref=e1820] [cursor=pointer]:
+                      - generic [ref=e1821]:
+                        - paragraph [ref=e1822]: 延期异常：GD202607080003
+                        - generic [ref=e1823]: 延期天数：1天
+                        - generic [ref=e1824]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1825]
+                    - generic [ref=e1827] [cursor=pointer]:
+                      - generic [ref=e1828]:
+                        - paragraph [ref=e1829]: 延期异常：GD202605300003
+                        - generic [ref=e1830]: 延期天数：1天
+                        - generic [ref=e1831]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1832]
+                    - generic [ref=e1834] [cursor=pointer]:
+                      - generic [ref=e1835]:
+                        - paragraph [ref=e1836]: 延期异常：GD202606020007
+                        - generic [ref=e1837]: 延期天数：1天
+                        - generic [ref=e1838]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1839]
+                    - generic [ref=e1841] [cursor=pointer]:
+                      - generic [ref=e1842]:
+                        - paragraph [ref=e1843]: 延期异常：GD202606100010
+                        - generic [ref=e1844]: 延期天数：1天
+                        - generic [ref=e1845]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1846]
+                    - generic [ref=e1848] [cursor=pointer]:
+                      - generic [ref=e1849]:
+                        - paragraph [ref=e1850]: 延期异常：GD202606290002
+                        - generic [ref=e1851]: 延期天数：1天
+                        - generic [ref=e1852]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1853]
+                    - generic [ref=e1855] [cursor=pointer]:
+                      - generic [ref=e1856]:
+                        - paragraph [ref=e1857]: 延期异常：GD202604220010
+                        - generic [ref=e1858]: 延期天数：1天
+                        - generic [ref=e1859]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1860]
+                    - generic [ref=e1862] [cursor=pointer]:
+                      - generic [ref=e1863]:
+                        - paragraph [ref=e1864]: 延期异常：GD202606090003
+                        - generic [ref=e1865]: 延期天数：1天
+                        - generic [ref=e1866]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1867]
+                    - generic [ref=e1869] [cursor=pointer]:
+                      - generic [ref=e1870]:
+                        - paragraph [ref=e1871]: 延期异常：GD202604140009
+                        - generic [ref=e1872]: 延期天数：1天
+                        - generic [ref=e1873]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1874]
+                    - generic [ref=e1876] [cursor=pointer]:
+                      - generic [ref=e1877]:
+                        - paragraph [ref=e1878]: 延期异常：GD202605060001
+                        - generic [ref=e1879]: 延期天数：1天
+                        - generic [ref=e1880]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1881]
+                    - generic [ref=e1883] [cursor=pointer]:
+                      - generic [ref=e1884]:
+                        - paragraph [ref=e1885]: 延期异常：GD202605120001
+                        - generic [ref=e1886]: 延期天数：1天
+                        - generic [ref=e1887]: pages.dashboard.dueDateShort
+                      - button "处 理" [ref=e1888]
