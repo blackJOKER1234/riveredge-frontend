@@ -1699,7 +1699,7 @@ export default function LoginPage() {
           opacity: 1, // 不再因平台设置加载中隐藏，避免 API 不可达时长期空白
           transition: 'opacity 0.3s ease-in-out',
         }}>
-          {localizedPlatformName}
+          {t('pages.login.defaultPlatformName')}
         </Title>
       </div>
 
@@ -1764,7 +1764,7 @@ export default function LoginPage() {
             opacity: 1, // 不再因平台设置加载中隐藏，避免 API 不可达时长期空白
             transition: 'opacity 0.3s ease-in-out',
           }}>
-            {localizedPlatformName}
+            {t('pages.login.defaultPlatformName')}
           </Title>
         </div>
 
@@ -1793,7 +1793,7 @@ export default function LoginPage() {
           ) : null}
 
           {/* 框架简介显示在图片下方 */}
-          <div className="login-description">
+          {/* <div className="login-description">
             {platformSettings?.login_title || platformSettings?.login_content ? (
               <>
                 <Title level={3} className="description-title">
@@ -1821,7 +1821,7 @@ export default function LoginPage() {
                 </Text>
               </>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -1833,7 +1833,8 @@ export default function LoginPage() {
               opacity: 1,
               transition: 'opacity 0.3s ease-in-out',
             }}>
-              {localizedPlatformName ? t('pages.login.welcomeWithName', { name: localizedPlatformName }) : t('pages.login.welcome')}
+              {/* {localizedPlatformName ? t('pages.login.welcomeWithName', { name: localizedPlatformName }) : t('pages.login.welcome')} */}
+              {t('pages.login.welcome')}
             </Title>
             <Text className="form-subtitle">{t('pages.login.formSubtitle')}</Text>
           </div>

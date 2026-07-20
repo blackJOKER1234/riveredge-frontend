@@ -4592,7 +4592,7 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
         }
       `}</style>
       <ProLayout
-        title={"MES"}
+        title={siteName}
         logo={siteLogo}
         headerTitleRender={isMobileOrTablet ? (logo) => (
           <div 
