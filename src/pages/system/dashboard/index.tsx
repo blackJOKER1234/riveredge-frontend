@@ -176,13 +176,12 @@ function renderDashboardSimpleTodoList(
   items: TodoItem[],
   emptyDescription: string,
   onNavigate: (link: string) => void,
-  scrollBoxStyle: React.CSSProperties,
 ) {
   if (items.length === 0) {
     return <Empty description={emptyDescription} image={Empty.PRESENTED_IMAGE_SIMPLE} />;
   }
   return (
-    <div className="dashboard-bottom-card-scroll dashboard-feed-list" style={scrollBoxStyle}>
+    <div className="dashboard-feed-list">
       {items.map((item) => (
         <div
           key={item.id}
@@ -651,17 +650,19 @@ export default function DashboardPage() {
             overflow: hidden !important;
           }
           .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-body,
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-body-top,
+          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-body-top {
+            flex: 1 1 0%;
+            height: 100%;
+            min-height: 0;
+            overflow: hidden;
+          }
           .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-content,
           .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-content-top {
             flex: 1 1 0%;
             height: 100%;
             min-height: 0;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
+            overflow: auto;
           }
-          /* 待办 Tabs 与 内容区：可滚动但不显示滚动条 */
           .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-tabpane {
             height: 100%;
             min-height: 0;
@@ -678,11 +679,13 @@ export default function DashboardPage() {
           }
           /* 核心列表容器：统一隐藏滚动条 */
           .dashboard-bottom-card-scroll,
+          .dashboard-bottom-card-tabs .ant-tabs-content,
           .dashboard-bottom-card-tabs .ant-tabs-tabpane {
             scrollbar-width: none !important;
             -ms-overflow-style: none !important;
           }
           .dashboard-bottom-card-scroll::-webkit-scrollbar,
+          .dashboard-bottom-card-tabs .ant-tabs-content::-webkit-scrollbar,
           .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
             display: none !important;
             width: 0 !important;
@@ -812,7 +815,7 @@ export default function DashboardPage() {
                   key: 'all',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabAll'), localizedTodos.length),
                   children: (
-                    <div className="dashboard-bottom-card-scroll dashboard-feed-list" style={bottomCardListScrollBoxStyle}>
+                    <div className="dashboard-feed-list">
                       {localizedTodos.length > 0 ? (
                         localizedTodos.map((item) => (
                           <div
@@ -863,7 +866,6 @@ export default function DashboardPage() {
                     todosSales,
                     t('pages.dashboard.emptySalesTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -873,7 +875,6 @@ export default function DashboardPage() {
                     todosPurchase,
                     t('pages.dashboard.emptyPurchaseTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -883,7 +884,6 @@ export default function DashboardPage() {
                     todosWorkOrder,
                     t('pages.dashboard.emptyWorkOrderTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -893,7 +893,6 @@ export default function DashboardPage() {
                     todosException,
                     t('pages.dashboard.emptyExceptionTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -903,7 +902,6 @@ export default function DashboardPage() {
                     todosQualityInspection,
                     t('pages.dashboard.emptyQualityInspectionTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -913,7 +911,6 @@ export default function DashboardPage() {
                     todosEquipment,
                     t('pages.dashboard.emptyEquipmentTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -923,7 +920,6 @@ export default function DashboardPage() {
                     todosWarehouse,
                     t('pages.dashboard.emptyWarehouseTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
                 {
@@ -933,7 +929,6 @@ export default function DashboardPage() {
                     todosOutbound,
                     t('pages.dashboard.emptyOutboundTodo'),
                     (link) => navigate(link),
-                    bottomCardListScrollBoxStyle,
                   ),
                 },
               ],
