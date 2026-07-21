@@ -51,6 +51,7 @@ export function ModuleChartPanel({
         segmented ? (
           <Segmented
             size="small"
+            className="dashboard-kpi-panel-segmented"
             value={segmented.value}
             options={segmented.options}
             onChange={(v) => segmented.onChange(String(v))}

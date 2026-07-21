@@ -704,6 +704,7 @@ const SalesDashboard: React.FC = () => {
                     { label: t('app.kuaizhizao.salesDashboard.trendRevenue'), value: 'revenue', disabled: !showMoney },
                     { label: t('app.kuaizhizao.salesDashboard.trendQuantity'), value: 'quantity' },
                   ]}
+                  className="dashboard-kpi-panel-segmented"
                   value={trendType}
                   onChange={(val) => setTrendType(val as any)}
                   size="small"
@@ -774,6 +775,7 @@ const SalesDashboard: React.FC = () => {
                     { label: t('app.kuaizhizao.salesDashboard.rankProducts'), value: 'products' },
                     { label: t('app.kuaizhizao.salesDashboard.rankCustomers'), value: 'customers' },
                   ]}
+                  className="dashboard-kpi-panel-segmented"
                   value={rankType}
                   onChange={(val) => setRankType(val as any)}
                   size="small"

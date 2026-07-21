@@ -70,6 +70,7 @@ const CostCenterDashboard: React.FC = () => {
       loading={loading && !s}
       kpiRow={<ModuleKpiRow items={kpis} />}
       shortcutRow={<ModuleShortcutGrid items={shortcuts} />}
+      showSidebar={false}
       actionRow={
         <ModuleActionPanel title="成本工作提示" lg={24}>
           <ModuleTodoList
