@@ -387,7 +387,9 @@ export default defineConfig({
       'occt-import-js',
       '@mlightcad/libredwg-web',
     ],
-    force: false,
+    // 强制每次启动时重新预构建，避免缓存过期导致 chunk 文件缺失的 "file does not exist" 错误
+    //（清除缓存重试可临时解决，但下次启动同样问题会复现）
+    force: true,
     esbuildOptions: {
       target: 'es2020',
     },

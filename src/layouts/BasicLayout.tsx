@@ -2050,22 +2050,22 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
       icon: <UserOutlined />,
       label: t('ui.user.profile'),
     },
-    {
-      key: 'copyright',
-      icon: <FileTextOutlined />,
-      label: t('ui.copyright'),
-    },
+    // {
+    //   key: 'copyright',
+    //   icon: <FileTextOutlined />,
+    //   label: t('ui.copyright'),
+    // },
     {
       key: 'clear-menu-cache',
       icon: <DeleteOutlined />,
       label: t('ui.clearCache'),
     },
-    {
-      key: 'lock-screen',
-      icon: <LockOutlined />,
-      label: t('ui.lock.screen'),
-      onClick: handleLockScreen,
-    },
+    // {
+    //   key: 'lock-screen',
+    //   icon: <LockOutlined />,
+    //   label: t('ui.lock.screen'),
+    //   onClick: handleLockScreen,
+    // },
     {
       key: 'logout',
       icon: <LogoutOutlined />,
@@ -4810,51 +4810,51 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
         actionsRender={() => {
           const actions: React.ReactNode[] = [];
 
-          if (!isMobileOrTablet && hasAiAssistantEntry) {
-          // AI 助手入口：仅 Lottie 图标 48x48，无文字、无背景、无动效
-          actions.push(
-            <Tooltip key="aiAssistant" title={t('ui.aiAssistant.tooltip')}>
-            <span className="ai-assistant-lottie-btn-wrapper">
-              <span
-                role="button"
-                tabIndex={0}
-                onClick={() => setAiAssistantOpen(true)}
-                onKeyDown={(e) => e.key === 'Enter' && setAiAssistantOpen(true)}
-                className="ai-assistant-lottie-btn"
-              >
-                <Lottie
-                  animationData={assistAnimation}
-                  loop
-                  autoplay
-                  style={{
-                    width: 52,
-                    height: 52,
-                    display: 'block',
-                    ...( !isLightModeLightBg ? {
-                      filter: 'brightness(2) contrast(1.2) drop-shadow(0 0 6px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 16px rgba(255, 255, 255, 0.25))'
-                    } : {})
-                  }}
-                />
-              </span>
-            </span>
-            </Tooltip>
-          );
-          }
+          // if (!isMobileOrTablet && hasAiAssistantEntry) {
+          // // AI 助手入口：仅 Lottie 图标 48x48，无文字、无背景、无动效
+          // actions.push(
+          //   <Tooltip key="aiAssistant" title={t('ui.aiAssistant.tooltip')}>
+          //   <span className="ai-assistant-lottie-btn-wrapper">
+          //     <span
+          //       role="button"
+          //       tabIndex={0}
+          //       onClick={() => setAiAssistantOpen(true)}
+          //       onKeyDown={(e) => e.key === 'Enter' && setAiAssistantOpen(true)}
+          //       className="ai-assistant-lottie-btn"
+          //     >
+          //       <Lottie
+          //         animationData={assistAnimation}
+          //         loop
+          //         autoplay
+          //         style={{
+          //           width: 52,
+          //           height: 52,
+          //           display: 'block',
+          //           ...( !isLightModeLightBg ? {
+          //             filter: 'brightness(2) contrast(1.2) drop-shadow(0 0 6px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 16px rgba(255, 255, 255, 0.25))'
+          //           } : {})
+          //         }}
+          //       />
+          //     </span>
+          //   </span>
+          //   </Tooltip>
+          // );
+          // }
 
           // 上线向导：工作台欢迎条右侧展示；其他页面保留顶栏入口
-          if (launchWizardEnabled && location.pathname !== '/system/dashboard/workplace') {
-            actions.push(
-              <OnboardingWizardEntry
-                key="onboarding"
-                variant="header"
-                compact={isMobileOrTablet}
-                isLightModeLightBg={isLightModeLightBg}
-              />,
-            );
-          }
+          // if (launchWizardEnabled && location.pathname !== '/system/dashboard/workplace') {
+          //   actions.push(
+          //     <OnboardingWizardEntry
+          //       key="onboarding"
+          //       variant="header"
+          //       compact={isMobileOrTablet}
+          //       isLightModeLightBg={isLightModeLightBg}
+          //     />,
+          //   );
+          // }
 
           // 租户可下载客户端（扫码安装）- 置于消息铃铛前
-          actions.push(<HeaderClientDownloadButton key="client-download" />);
+          // actions.push(<HeaderClientDownloadButton key="client-download" />);
 
           // 消息提醒（带数量徽标）- 平板/手机也显示
           actions.push(
@@ -5038,35 +5038,35 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
 
           if (!isMobileOrTablet) {
           // 语言切换下拉菜单
-          actions.push(
-            <Dropdown
-              key="language"
-              menu={{
-                items: languageMenuItems,
-                selectedKeys: [currentLanguage],
-              }}
-              placement="bottomLeft"
-              trigger={['click']}
-              open={languageDropdownOpen}
-              onOpenChange={(open) => {
-                setLanguageDropdownOpen(open);
-              }}
-            >
-              <Tooltip
-                title={`${t('ui.current.language')}: ${LANGUAGE_MAP[currentLanguage] || currentLanguage}`}
-                trigger={['hover']}
-                mouseEnterDelay={0.5}
-                open={languageDropdownOpen ? false : undefined}
-                destroyOnHidden
-              >
-                <Button
-                  type="text"
-                  size="small"
-                  icon={<TranslationOutlined />}
-                />
-              </Tooltip>
-            </Dropdown>
-          );
+          // actions.push(
+          //   <Dropdown
+          //     key="language"
+          //     menu={{
+          //       items: languageMenuItems,
+          //       selectedKeys: [currentLanguage],
+          //     }}
+          //     placement="bottomLeft"
+          //     trigger={['click']}
+          //     open={languageDropdownOpen}
+          //     onOpenChange={(open) => {
+          //       setLanguageDropdownOpen(open);
+          //     }}
+          //   >
+          //     <Tooltip
+          //       title={`${t('ui.current.language')}: ${LANGUAGE_MAP[currentLanguage] || currentLanguage}`}
+          //       trigger={['hover']}
+          //       mouseEnterDelay={0.5}
+          //       open={languageDropdownOpen ? false : undefined}
+          //       destroyOnHidden
+          //     >
+          //       <Button
+          //         type="text"
+          //         size="small"
+          //         icon={<TranslationOutlined />}
+          //       />
+          //     </Tooltip>
+          //   </Dropdown>
+          // );
 
           // 颜色配置
           actions.push(
@@ -5081,22 +5081,22 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
           );
 
           // 全屏按钮
-          actions.push(
-            <Tooltip key="fullscreen" title={isFullscreen ? t('ui.fullscreen.exit') : t('ui.fullscreen.enter')}>
-              <Button
-                type="text"
-                size="small"
-                icon={
-                  isFullscreen ? (
-                    <FullscreenExitOutlined />
-                  ) : (
-                    <FullscreenOutlined />
-                  )
-                }
-                onClick={handleFullscreen}
-              />
-            </Tooltip>
-          );
+          // actions.push(
+          //   <Tooltip key="fullscreen" title={isFullscreen ? t('ui.fullscreen.exit') : t('ui.fullscreen.enter')}>
+          //     <Button
+          //       type="text"
+          //       size="small"
+          //       icon={
+          //         isFullscreen ? (
+          //           <FullscreenExitOutlined />
+          //         ) : (
+          //           <FullscreenOutlined />
+          //         )
+          //       }
+          //       onClick={handleFullscreen}
+          //     />
+          //   </Tooltip>
+          // );
 
           // 租户切换选择框 - 优化样式，不显示图标（仅桌面）
           if (currentUser && !isMobileOrTablet) {
@@ -5185,16 +5185,16 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
           }
 
           // 锁定屏幕按钮 - 移到最后一个防止误点
-          actions.push(
-            <Tooltip key="lock" title={t('ui.lock.screen')} placement="bottomRight">
-              <Button
-                type="text"
-                size="small"
-                icon={<LockOutlined />}
-                onClick={handleLockScreen}
-              />
-            </Tooltip>
-          );
+          // actions.push(
+          //   <Tooltip key="lock" title={t('ui.lock.screen')} placement="bottomRight">
+          //     <Button
+          //       type="text"
+          //       size="small"
+          //       icon={<LockOutlined />}
+          //       onClick={handleLockScreen}
+          //     />
+          //   </Tooltip>
+          // );
 
           return <Space size={8} align="center" style={{ flexShrink: 0 }}>{actions}</Space>;
         }}
