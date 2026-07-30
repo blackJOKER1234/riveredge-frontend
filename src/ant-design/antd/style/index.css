@@ -1,0 +1,204 @@
+/* 导入 Tailwind CSS v4 核心 */
+@import "tailwindcss";
+@import "./reset.css";
+@import "./scheduleTimepicker.css";
+
+/* 自定义深色模式变体（对应 darkMode: "class"） */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 扩展主题配置（对应原 theme.extend） */
+@theme {
+	/* 间距（对应 spacing） */
+	--spacing-0: 0px;
+	--spacing-1: 4px;
+	--spacing-2: 8px;
+	--spacing-3: 12px;
+	--spacing-4: 16px;
+	--spacing-5: 20px;
+	--spacing-6: 24px;
+	--spacing-8: 32px;
+	--spacing-10: 40px;
+	--spacing-12: 48px;
+	--spacing-16: 64px;
+
+	/* 响应式断点（对应 screens） */
+	--breakpoint-xs: 480px;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	--breakpoint-2xl: 1600px;
+
+	/* 颜色（对应 colors） */
+	--color-colorPrimary: var(--ant-color-primary);
+	--color-colorPrimaryBgHover: var(--ant-color-primary-hover);
+	--color-colorBgPrimaryBgHover: var(--ant-color-primary-bg-hover);
+	--color-black: #000000;
+	--color-green: #00a76f;
+	--color-blue: #1fb6ff;
+	--color-purple: #7e5bef;
+	--color-pink: #ff49db;
+	--color-orange: #ff7849;
+	--color-yellow: #ffc82c;
+	--color-gray: #637381;
+	--color-hover: #63738114;
+	--color-white: #ffffff;
+
+	--color-success: #22c55e;
+	--color-warning: #ffab00;
+	--color-error: #ff5630;
+	--color-info: #00b8d9;
+	--color-code: #d63384;
+
+	--color-gray-100: #f9fafb;
+	--color-gray-200: #f4f6f8;
+	--color-gray-300: #dfe3e8;
+	--color-gray-400: #c4cdd5;
+	--color-gray-500: #f9fafb;
+	--color-gray-600: #637381;
+	--color-gray-700: #454f5b;
+	--color-gray-800: #212b36;
+	--color-gray-900: #161c24;
+
+	/* 字体大小与行高（对应 fontSize） */
+	--font-size-sm: 12px;
+	--font-size-sm--line-height: 16px;
+	--font-size-sm--font-weight: 400;
+
+	--font-size-md: 14px;
+	--font-size-md--line-height: 20px;
+	--font-size-md--font-weight: 400;
+
+	--font-size-lg: 16px;
+	--font-size-lg--line-height: 20px;
+
+	--font-size-xl: 18px;
+	--font-size-xl--line-height: 24px;
+
+	--font-size-2xl: 20px;
+	--font-size-2xl--line-height: 24px;
+
+	--font-size-3xl: 22px;
+	--font-size-3xl--line-height: 28px;
+
+	--font-size-4xl: 24px;
+	--font-size-4xl--line-height: 32px;
+
+	--font-size-5xl: 26px;
+	--font-size-5xl--line-height: 32px;
+
+	--font-size-6xl: 28px;
+	--font-size-6xl--line-height: 32px;
+
+	--font-size-7xl: 30px;
+	--font-size-7xl--line-height: 32px;
+
+	--font-size-8xl: 32px;
+	--font-size-8xl--line-height: 37.5px;
+
+	/* 圆角（对应 borderRadius） */
+	--radius-sm: 12px;
+	--radius-md: 24px;
+	--radius-lg: 44px;
+	--radius-full: 999px;
+
+	/* 过渡属性扩展（对应 transitionProperty） */
+	--transition-property-height: height;
+}
+
+/* 自定义动画（对应 animation） */
+@theme {
+	--animate-spin-slow: spin 8s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* 主题切换 View Transition：关闭默认淡入淡出，仅保留 clip-path 圆形扩散 */
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation: none;
+	mix-blend-mode: normal;
+}
+/* 新主题盖在旧主题之上，圆形裁剪逐渐展开 */
+::view-transition-new(root) {
+	z-index: 1;
+}
+::view-transition-old(root) {
+	z-index: 0;
+}
+
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color-scheme: light dark;
+	/* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+} */
+
+body {
+	margin: 0;
+	/* display: flex; */
+	/* place-items: center; */
+	/* min-width: 320px; */
+	min-height: 100vh;
+}
+/* 
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+/* 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+* {
+	transition-duration: background-color 0s;
+}

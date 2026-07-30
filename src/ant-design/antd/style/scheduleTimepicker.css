@@ -1,0 +1,37 @@
+.ant-picker-dropdown.ant-picker-dropdown-placement-bottomLeft
+	.ant-picker-range-arrow,
+.ant-picker-dropdown.ant-picker-dropdown-placement-bottomRight
+	.ant-picker-range-arrow {
+	display: none !important;
+}
+
+.ant-picker-range-separator {
+	margin-right: 1.25rem;
+}
+/* .schedluepopupClassName{
+} */
+/* .ant-picker-panel{
+    background-color: green !important;
+    width: 100% !important;
+} */
+.ant-picker-time-panel-cell .ant-picker-time-panel-cell-selected {
+	/* display: flex !important;
+    justify-content: center !important;
+    align-items: center ; */
+}
+.ant-picker-dropdown .ant-picker-time-panel-column {
+	width: 4rem !important;
+}
+.ant-picker-dropdown
+	.ant-picker-time-panel-column
+	> li.ant-picker-time-panel-cell
+	.ant-picker-time-panel-cell-inner {
+	width: 3rem !important;
+	height: 2.25rem !important;
+	border-radius: 1.5rem;
+	text-align: center;
+	padding: 0 !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center;
+}

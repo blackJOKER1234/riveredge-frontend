@@ -120,7 +120,7 @@ export function resolveThemeFromCloud(
   if (hasCloudThemeConfig(userConfig)) {
     const config = mergeConfig({}, userConfig);
     // 旧偏好无 themeStyle 时继承站点级简约/多彩，避免永选回 vivid
-    if (userConfig.themeStyle == null || userConfig.themeStyle === '') {
+    if (!userConfig.themeStyle) {
       config.themeStyle = normalizeThemeStyle(siteConfig.themeStyle);
     }
     return { theme: userTheme, config };
@@ -236,7 +236,7 @@ export const useThemeStore = create<ThemeState>((set, get) => {
     const { theme, config } = resolveThemeFromCloud(preferences, siteThemeSettings);
     const userCfg = (preferences.theme_config || {}) as Partial<ThemeConfig>;
     const mergedConfig =
-      (userCfg.themeStyle == null || userCfg.themeStyle === '') &&
+      (!userCfg.themeStyle) &&
       liveConfig.themeStyle === 'plain' &&
       config.themeStyle !== 'plain'
         ? mergeConfig(config, { themeStyle: 'plain' })

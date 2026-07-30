@@ -1,0 +1,538 @@
+/*m:nu*/
+.ant-menu-submenu-popup {
+	/* padding: 0; */
+	/* padding-top: calc(44px + 8px); */
+	/* left: 24px !important; */
+	/* padding-left: 12px; */
+	/* width: 212px !important; */
+	padding: 0 10px;
+}
+
+.ant-menu-submenu-popup > .ant-menu {
+	/* max-height: 198px !important; */
+	margin: 0 8px !important;
+	padding: 10px 0;
+	border-radius: 8px;
+}
+
+.ant-menu-sub::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+}
+
+.ant-menu-submenu-popup .ant-menu .ant-menu-item {
+	padding: 0 20px;
+	border-radius: 4px;
+	text-overflow: unset !important;
+	white-space: nowrap !important;
+}
+
+.ant-menu-submenu-popup .ant-menu-vertical.ant-menu-sub {
+	/* max-width: 188px !important; */
+	min-width: 96px !important;
+}
+
+.ant-menu-sub {
+	margin-top: -4px !important;
+}
+/* .custom-submenu-popup {
+	background-color: #fff !important;
+	padding-right: 0 !important;
+	left: 0 !important;
+	margin-left: 82px !important;
+	max-height: 240px !important;
+	overflow: hidden !important;
+	border-radius: 20px;
+	box-shadow: 0px 3px 6px -4px #0000001e, 0px 6px 16px #00000014, 0px 9px 28px
+		8px #0000000c;
+} */
+
+/* .custom-submenu-popup .ant-menu {
+	padding-right: 3px;
+	overflow-y: overlay !important;
+	background-color: #ffffff !important;
+	box-sizing: border-box;
+	box-shadow: none;
+} */
+
+.custom-submenu-popup .ant-menu::-webkit-scrollbar {
+	width: 6px;
+	margin-left: 3px;
+}
+
+.custom-submenu-popup .ant-menu::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+.custom-submenu-popup .ant-menu::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/*tooltip*/
+.ant-tooltip-inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 8px !important;
+}
+
+/*table*/
+/* .ant-table-row .ant-table-cell:first-child {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.ant-table-row .ant-table-cell:last-child {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+} */
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+	background-color: transparent;
+	background-image: none;
+	transition: background-color 50000s ease-in-out 0s;
+}
+
+.ant-drawer-content-wrapper {
+	box-shadow: none !important;
+}
+
+.ant-form-item .ant-form-item-label > label {
+	width: 100%;
+}
+
+.ant-form-item .ant-form-item-label > label::before {
+	order: 1;
+}
+
+.searchMode .ant-form-item .ant-form-item-label > label::after {
+	display: none;
+}
+
+.searchMode .ant-form-item-label {
+	align-self: center;
+	margin-right: 8px;
+}
+
+.searchMode .ant-form-item-label {
+	align-self: center;
+	margin-right: 8px;
+}
+
+.ant-form-item .ant-form-item-label > label::after {
+	order: -1;
+	content: "" !important;
+	width: 4px;
+	background: var(--ant-color-primary);
+	display: block;
+	height: 12px;
+	border-radius: 999px;
+	visibility: visible !important;
+}
+
+.ant-form-item .ant-form-item-label > label::before {
+	order: 1 !important;
+}
+
+.ant-form-item .ant-form-item-label > label > .ant-form-item-tooltip {
+	order: 2 !important;
+}
+
+.ant-table-cell:empty:after {
+	content: "--";
+}
+
+.ant-table-thead {
+	height: 40px !important;
+	/* border-radius: 8px !important; */
+	/* overflow: hidden; */
+}
+
+.ant-table-thead .ant-table-cell:after {
+	content: "";
+}
+
+.ant-tree-select-dropdown
+	.ant-select-tree-checkbox
+	.ant-select-tree-checkbox-inner {
+	border-radius: 4px;
+}
+
+*:disabled::placeholder {
+	color: transparent !important;
+}
+
+.ant-select-disabled .ant-select-selection-placeholder {
+	color: transparent !important;
+}
+
+.ant-btn {
+	outline: none !important;
+}
+
+body input {
+	height: auto;
+}
+
+/* .ant-select-multiple.ant-select-show-arrow .ant-select-selector,
+.ant-select-multiple.ant-select-allow-clear .ant-select-selector {
+	padding-left: 20px !important;
+} */
+
+/* .ant-select-multiple .ant-select-selection-search {
+	margin-left: 0px;
+}
+
+.ant-select-multiple .ant-select-selection-placeholder {
+	inset-inline-start: 0px;
+} */
+
+/*date-picker*/
+.ant-picker-dropdown .ant-picker-panel-container {
+	border-radius: 16px !important;
+}
+
+.ant-picker-dropdown .ant-picker-header {
+	height: 40px;
+}
+
+.ant-picker-dropdown .ant-picker-header-view {
+	pointer-events: none;
+}
+
+.ant-picker-dropdown .ant-picker-year-btn,
+.ant-picker-dropdown .ant-picker-month-btn {
+	line-height: 40px !important;
+}
+
+.ant-picker-dropdown .ant-picker-body {
+	padding: 16px !important;
+}
+
+.ant-picker-dropdown table {
+	width: auto !important;
+	height: auto !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel,
+.ant-picker-dropdown .ant-picker-date-panel {
+	width: auto !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel .ant-picker-cell {
+	width: 64px !important;
+	height: 24px !important;
+	padding-top: 0 !important;
+	padding-right: 24px !important;
+	padding-bottom: 48px !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel .ant-picker-cell:last-child {
+	padding-right: 0 !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel tr:last-child .ant-picker-cell {
+	padding-bottom: 0 !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel .ant-picker-cell::before {
+	/* 与 24px 选项球同高，避免 padding-bottom 把连线整体下移 */
+	top: 0 !important;
+	height: 24px !important;
+	transform: none !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-cell-inner {
+	padding: 0 !important;
+	border-radius: 20px !important;
+	font-size: 14px;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel .ant-picker-cell-inner {
+	width: 64px !important;
+	height: 24px !important;
+	line-height: 24px !important;
+}
+
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-cell,
+.ant-picker-dropdown .ant-picker-date-panel th {
+	width: 24px !important;
+	min-width: 24px !important;
+	/* 24px 球 + 12px 行距；border-box 下 content 正好 24px */
+	height: 36px !important;
+	line-height: 24px !important;
+	padding-top: 0 !important;
+	padding-right: 12px !important;
+	padding-bottom: 12px !important;
+	vertical-align: top;
+	pointer-events: none;
+}
+
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-cell:last-child,
+.ant-picker-dropdown .ant-picker-date-panel th:last-child {
+	padding-right: 0 !important;
+}
+
+.ant-picker-dropdown .ant-picker-date-panel tr:last-child .ant-picker-cell {
+	padding-bottom: 0 !important;
+	height: 24px !important;
+}
+
+/* 范围连线与选中圆点垂直对齐 */
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-cell::before {
+	top: 0 !important;
+	height: 24px !important;
+	transform: none !important;
+}
+
+/*
+ * Figma 日期范围：浅色胶囊连线（行首/行尾、起止点圆角）
+ * 连线由 cell::before 拼成，圆角落在每段首尾
+ */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-in-range:not(.ant-picker-cell-disabled)::before,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-disabled)::before,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-disabled)::before {
+	border-radius: 0;
+}
+
+/* 每周行首：左侧圆角 */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-in-range:first-child:not(.ant-picker-cell-disabled)::before,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-start:first-child:not(.ant-picker-cell-disabled)::before,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-end:first-child:not(.ant-picker-cell-disabled)::before {
+	border-start-start-radius: 12px !important;
+	border-end-start-radius: 12px !important;
+}
+
+/* 每周行尾：右侧圆角 */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-in-range:last-child:not(.ant-picker-cell-disabled)::before,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-start:last-child:not(.ant-picker-cell-disabled)::before,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-end:last-child:not(.ant-picker-cell-disabled)::before {
+	border-start-end-radius: 12px !important;
+	border-end-end-radius: 12px !important;
+}
+
+/* 范围起点：左侧圆角（antd 默认从 50% 起画） */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-end):not(.ant-picker-cell-disabled)::before {
+	border-start-start-radius: 12px !important;
+	border-end-start-radius: 12px !important;
+}
+
+/* 范围终点：右侧圆角 */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-start):not(.ant-picker-cell-disabled)::before {
+	border-start-end-radius: 12px !important;
+	border-end-end-radius: 12px !important;
+}
+
+/* 起止同一天：整颗胶囊 */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-in-view.ant-picker-cell-range-start.ant-picker-cell-range-end:not(.ant-picker-cell-disabled)::before {
+	border-radius: 12px !important;
+}
+
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-cell-inner {
+	width: 24px !important;
+	min-width: 24px !important;
+	height: 24px !important;
+	line-height: 24px !important;
+	pointer-events: auto;
+}
+
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-cell-inner::before {
+	border-radius: 12px !important;
+}
+
+/* 起止/选中点保持完整圆，覆盖 antd 半圆角 */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-selected
+	.ant-picker-cell-inner,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-range-start
+	.ant-picker-cell-inner,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-range-end
+	.ant-picker-cell-inner {
+	border-radius: 12px !important;
+}
+
+/* 普通日期 hover 变色；选中/始末点保持主色，不被 hover 覆盖 */
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end)
+	.ant-picker-cell-inner:hover {
+	background: #00000014 !important;
+}
+
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-selected
+	.ant-picker-cell-inner:hover,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-range-start
+	.ant-picker-cell-inner:hover,
+.ant-picker-dropdown
+	.ant-picker-date-panel
+	.ant-picker-cell-range-end
+	.ant-picker-cell-inner:hover {
+	background: var(--ant-color-primary) !important;
+	color: var(--ant-color-text-light-solid, #fff) !important;
+}
+
+.ant-picker-dropdown .ant-picker-ranges li {
+	line-height: 36px !important;
+}
+
+.ant-picker-dropdown .ant-picker-ranges li .ant-picker-now-btn {
+	color: #0958d9 !important;
+	font-size: 14px;
+}
+
+.ant-picker-dropdown .ant-picker-ranges li .ant-picker-now-btn:hover {
+	color: color-mix(in srgb, #0958d9 100%, white 30%) !important;
+	font-size: 14px;
+}
+
+.ant-upload-list-item-image {
+	object-fit: fill;
+}
+
+.ant-list-split .ant-list-item:last-child {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+/* split的拖动条 */
+/* 长的 */
+.ant-splitter-bar-dragger::before {
+	width: 8px !important;
+	background-color: transparent !important;
+	border-radius: 8px !important;
+}
+.ant-splitter-bar-dragger:hover::before,
+.ant-splitter-bar-dragger:focus::before,
+.ant-splitter-bar-dragger:active::before {
+	background-color: #0958d914 !important;
+}
+/* 短的 */
+.ant-splitter-bar-dragger::after {
+	border-radius: 8px !important;
+	height: 120px !important;
+	width: 2px !important;
+}
+
+.ant-splitter-bar-dragger:hover::after,
+.ant-splitter-bar-dragger:focus::after,
+.ant-splitter-bar-dragger:active::after {
+	background-color: #0958d9 !important;
+}
+
+.ant-form-item-control .ant-input-affix-wrapper {
+	height: 40px !important;
+}
+
+.ant-form-item-control .ant-select {
+	height: 40px !important;
+	/* padding: 10px 12px !important; */
+}
+
+.ant-form-item-control .ant-input-textarea-affix-wrapper {
+	height: inherit !important;
+	padding: inherit !important;
+}
+
+.ant-form-item-control textarea {
+	padding: 10px 12px !important;
+	min-height: 104px !important;
+}
+
+.ant-modal-header {
+	margin-bottom: 14px !important;
+}
+
+/* 
+.ant-btn-variant-link{
+  padding: 0 !important;
+} */
+
+.ant-btn {
+	box-shadow: none !important;
+}
+
+.ant-table-thead > tr > th.ant-table-cell {
+	border-width: 0 !important;
+	height: 40px !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.ant-table-tbody > tbody.ant-table-tbody > tr > .ant-table-cell {
+	height: 60px !important;
+	box-sizing: border-box !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+div.ant-table-body > table > tbody > tr > td.ant-table-cell {
+	height: 60px !important;
+	max-height: 60px !important;
+	box-sizing: border-box !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+tbody.ant-table-tbody > tr {
+	max-height: 60px !important;
+	height: 60px !important;
+}
+
+tbody.ant-table-tbody > tr.ant-table-measure-row {
+	height: 0px !important;
+}
+
+.ant-tag {
+	padding: 6px 10px;
+	font-size: 14px;
+	box-sizing: border-box;
+	height: 32px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 隐藏滚动条工具类 */
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
