@@ -1,4 +1,5 @@
 import React from 'react';
+import { theme } from 'antd';
 import type { MenuDataItem } from '@ant-design/pro-components';
 import UniTabs from '../../components/uni-tabs';
 import { RouteTransition } from '../../components/route-transition';
@@ -19,6 +20,7 @@ export const LayoutPageBody: React.FC<LayoutPageBodyProps> = ({
   onToggleFullscreen,
   children,
 }) => {
+  const { token } = theme.useToken();
   if (isMobileOrTablet) {
     return <RouteTransition>{children}</RouteTransition>;
   }
@@ -28,9 +30,32 @@ export const LayoutPageBody: React.FC<LayoutPageBodyProps> = ({
       isFullscreen={isFullscreen}
       onToggleFullscreen={onToggleFullscreen}
     >
-      <>{children}</>
+      <div
+        className="p-4"
+        style={{
+          // borderRadius: token.borderRadius,
+          backgroundColor: token.colorBgContainer,
+          flex: '1 1 auto',
+          minHeight: 0,
+          display: 'flex',
+          flexDirection: 'column',
+          overflow: 'hidden',
+        }}
+      >
+        <div
+          style={{
+            borderRadius: token.borderRadius,
+            backgroundColor: token.colorBgContainer,
+            flex: '1 1 auto',
+            minHeight: 0,
+            overflow: 'auto',
+          }}
+        >
+         {children}
+        </div>
+      </div>
     </UniTabs>
-  );
+  )
 };
 
 export default LayoutPageBody;

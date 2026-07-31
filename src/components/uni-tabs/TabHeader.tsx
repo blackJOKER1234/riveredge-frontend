@@ -151,7 +151,7 @@ export function TabHeader({
                 closable: tab.closable && !tab.pinned, // 固定标签不可关闭
               }))}
               size="small"
-              className="mb-3! uni-tabs-container"
+              className="uni-tabs-container"
             />
             {/* 右侧滚动箭头 - 仅在需要时显示 */}
             {canScrollRight && (

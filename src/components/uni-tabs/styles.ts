@@ -274,7 +274,6 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           overflow-x: hidden;
           position: relative;
           background: var(--ant-colorBgLayout);
-          margin-top: 16px !important;
           margin-right: ${contentGap} !important;
           margin-bottom: ${contentGap} !important;
           margin-left: ${contentGap} !important;
@@ -307,10 +306,6 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           height: 100%;
           min-height: 0;
           box-sizing: border-box;
-          padding: 0 16px;
-        }
-        .uni-tabs-content-page-outer.uni-tabs-content-page-outer--flush {
-          padding: 0;
         }
         .uni-tabs-content-page-inner {
           display: flex;

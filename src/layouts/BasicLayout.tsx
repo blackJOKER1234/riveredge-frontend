@@ -702,6 +702,7 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
         menuDataRender={() => renderMenuData(filteredMenuData, appMenuSkeletonItems)}
         menuProps={{
           mode: 'inline',
+          className: 'px-1!',
           // openKeys / onOpenChange 交由 ProLayout BaseMenu 原生管理：路由变化时按 matchMenuKeys 自动收起其它分组（autoClose 默认开启）
           selectedKeys: selectedKeys, // 只选中精确匹配的路径，不选中父级菜单
           // ⚠️ 关键修复：阻止 Ant Design Menu 的默认链接行为，防止整页刷新
