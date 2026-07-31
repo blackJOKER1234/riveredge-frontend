@@ -410,7 +410,7 @@ const SOPBatchCreateSteps: React.FC<SOPBatchCreateStepsProps> = ({ onSuccess, on
             </div>
             {type === 'material_group' && (
               <div>
-                <div style={{ marginBottom: 8, fontWeight: 500 }}>{t('app.master-data.sop.selectMaterialGroup')}</div>
+                <div style={{ marginBottom: 8, fontWeight: 500 }}>{t('app.master-data.sop.selectMaterialGroupLabel')}</div>
                 <Select
                   mode="multiple"
                   placeholder={t('app.master-data.sop.bindMaterialGroupPlaceholder')}

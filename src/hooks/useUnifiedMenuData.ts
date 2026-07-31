@@ -160,14 +160,26 @@ function filterOutLaunchWizardMenus(items: MenuDataItem[]): MenuDataItem[] {
   return walk(items);
 }
 
+function isSystemDashboardMenuNode(node: MenuDataItem): boolean {
+  const p = node.path;
+  const key = String(node.key ?? '');
+  return (
+    p === SYSTEM_DASHBOARD_PATH_PREFIX ||
+    Boolean(p?.startsWith(`${SYSTEM_DASHBOARD_PATH_PREFIX}/`)) ||
+    key === 'app-group-dashboard' ||
+    key === 'app-group-placeholder-dashboard' ||
+    key.startsWith('dashboard-group')
+  );
+}
+
 function filterOutSystemDashboardMenus(items: MenuDataItem[]): MenuDataItem[] {
   const walk = (nodes: MenuDataItem[]): MenuDataItem[] =>
     nodes
       .map((node) => {
-        const p = node.path;
-        if (p === SYSTEM_DASHBOARD_PATH_PREFIX || p?.startsWith(`${SYSTEM_DASHBOARD_PATH_PREFIX}/`)) {
+        if (isSystemDashboardMenuNode(node)) {
           return null;
         }
+        const p = node.path;
         const rawChildren = node.children as MenuDataItem[] | undefined;
         const ch = rawChildren?.length ? walk(rawChildren) : undefined;
         if (ch) {
@@ -180,6 +192,11 @@ function filterOutSystemDashboardMenus(items: MenuDataItem[]): MenuDataItem[] {
   return walk(items);
 }
 
+function isDashboardGroupTitleItem(item: { key?: string | number | null }): boolean {
+  const key = String(item.key ?? '');
+  return key === 'app-group-dashboard' || key.startsWith('dashboard-group');
+}
+
 function reconcileAppGroupTitles(items: MenuDataItem[]): MenuDataItem[] {
   const result: MenuDataItem[] = [];
   let pendingGroup: MenuDataItem | null = null;
@@ -187,16 +204,28 @@ function reconcileAppGroupTitles(items: MenuDataItem[]): MenuDataItem[] {
   const isAppMenuSibling = (item: MenuDataItem) =>
     Boolean(item.className?.includes('app-menu-item') || item.path?.startsWith('/apps/'));
 
+  const isDashboardMenuSibling = (item: MenuDataItem) =>
+    Boolean(
+      item.path === SYSTEM_DASHBOARD_PATH_PREFIX ||
+        item.path?.startsWith(`${SYSTEM_DASHBOARD_PATH_PREFIX}/`),
+    );
+
+  const isValidSiblingForPending = (group: MenuDataItem, item: MenuDataItem) => {
+    if (item.hideInMenu) return false;
+    if (isDashboardGroupTitleItem(group)) return isDashboardMenuSibling(item);
+    return isAppMenuSibling(item);
+  };
+
   for (const item of items) {
-    if (isAppGroupTitleItem(item)) {
+    if (isAppGroupTitleItem(item) || isDashboardGroupTitleItem(item)) {
       pendingGroup = item;
       continue;
     }
     if (pendingGroup) {
-      if (isAppMenuSibling(item) && !item.hideInMenu) {
+      if (isValidSiblingForPending(pendingGroup, item)) {
         result.push(pendingGroup);
         pendingGroup = null;
-      } else if (!isAppMenuSibling(item)) {
+      } else {
         pendingGroup = null;
       }
     }
@@ -309,7 +338,10 @@ export function useUnifiedMenuData(
 
   const sidebarMenuData = useMemo(() => {
     if (!menuPermissionUser) return [];
-    let items: MenuDataItem[] = [...systemMenuConfig];
+    // 收起侧栏时隐藏分区标题（与应用 app-group 一致）
+    let items: MenuDataItem[] = collapsed
+      ? systemMenuConfig.filter((item) => !isDashboardGroupTitleItem(item))
+      : [...systemMenuConfig];
     if (filteredApplicationMenus?.length) {
       const appMenuItems: MenuDataItem[] = [];
       filteredApplicationMenus.forEach((appMenu) => {
@@ -351,7 +383,10 @@ export function useUnifiedMenuData(
           appMenuItems.push(child);
         });
       });
-      items.splice(1, 0, ...appMenuItems);
+      // 插在「系统配置」之前，避免打散仪表板标题与工作台/运营看板
+      const systemRootIdx = items.findIndex((i) => i.path === '/system');
+      const insertAt = systemRootIdx >= 0 ? systemRootIdx : items.length;
+      items.splice(insertAt, 0, ...appMenuItems);
     }
     const canAccessPlatformInfra = hasPlatformAdministrativeAuthority(currentUser);
     if (!canAccessPlatformInfra) {

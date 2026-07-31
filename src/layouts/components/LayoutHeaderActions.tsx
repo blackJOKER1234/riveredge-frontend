@@ -1,9 +1,10 @@
-import React from 'react';
-import { Button, Tooltip, Space } from 'antd';
-import { BgColorsOutlined } from '@ant-design/icons';
+import React, { useCallback } from 'react';
+import { Button, Tooltip, Space, message } from 'antd';
+import { BgColorsOutlined, MoonOutlined, SunOutlined } from '@ant-design/icons';
 import type { NavigateFunction } from 'react-router-dom';
 import type { MenuProps } from 'antd';
 import TenantSelector from '../../components/tenant-selector';
+import { useThemeStore } from '../../stores/themeStore';
 import { NotificationDropdown } from './NotificationDropdown';
 import { UserAvatarDropdown } from './UserAvatarDropdown';
 
@@ -54,36 +55,35 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
   getUserMenuItems,
   handleUserMenuClick,
 }) => {
+  const isDarkMode = useThemeStore((s) => s.resolved.isDark);
+  const applyTheme = useThemeStore((s) => s.applyTheme);
+
+  const handleToggleTheme = useCallback(() => {
+    try {
+      applyTheme(isDarkMode ? 'light' : 'dark', undefined, { persist: true });
+      message.success(t('components.themeEditor.message.colorModeSwitched'));
+    } catch (error: any) {
+      message.error(error?.message || t('components.themeEditor.message.switchFailed'));
+    }
+  }, [applyTheme, isDarkMode, t]);
+
   const actions: React.ReactNode[] = [];
 
-  // if (!isMobileOrTablet && hasAiAssistantEntry) {
-  // // AI 助手入口：仅 Lottie 图标 48x48，无文字、无背景、无动效
-  // actions.push(
-  //   <Tooltip key="aiAssistant" title={t('ui.aiAssistant.tooltip')}>
-  //   <span className="ai-assistant-lottie-btn-wrapper">
-  //     <span
-  //       role="button"
-  //       tabIndex={0}
-  //       onClick={() => setAiAssistantOpen(true)}
-  //       onKeyDown={(e) => e.key === 'Enter' && setAiAssistantOpen(true)}
-  //       className="ai-assistant-lottie-btn"
-  //     >
-  //       <Lottie ... />
-  //     </span>
-  //   </span>
-  //   </Tooltip>
-  // );
-  // }
-
-  // 上线向导：工作台欢迎条右侧展示；其他页面保留顶栏入口
-  // if (launchWizardEnabled && location.pathname !== '/system/dashboard/workplace') {
-  //   actions.push(
-  //     <OnboardingWizardEntry ... />,
-  //   );
-  // }
-
-  // 租户可下载客户端（扫码安装）- 置于消息铃铛前
-  // actions.push(<HeaderClientDownloadButton key="client-download" />);
+  // 暗色/亮色主题切换（位于通知铃铛前）
+  actions.push(
+    <Tooltip
+      key="theme-toggle"
+      title={isDarkMode ? t('ui.theme.toggleToLight') : t('ui.theme.toggleToDark')}
+    >
+      <Button
+        type="text"
+        size="small"
+        icon={isDarkMode ? <SunOutlined /> : <MoonOutlined />}
+        onClick={handleToggleTheme}
+        aria-label={isDarkMode ? t('ui.theme.toggleToLight') : t('ui.theme.toggleToDark')}
+      />
+    </Tooltip>,
+  );
 
   // 消息提醒（带数量徽标）- 平板/手机也显示
   actions.push(
@@ -103,9 +103,7 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
   );
 
   if (!isMobileOrTablet) {
-    // 语言切换下拉菜单（保留注释块语义，逻辑仍在主文件历史注释中）
-
-    // 颜色配置
+    // 完整配色 / 主题编辑入口（桌面端）
     actions.push(
       <Tooltip key="theme" title={t('ui.theme.color')}>
         <Button
@@ -127,7 +125,6 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
           style={{
             display: 'flex',
             alignItems: 'center',
-            // borderRadius: '16px'
           }}
         >
           <TenantSelector headerLightText={!isLightModeLightBg} />
@@ -153,9 +150,6 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
       />,
     );
   }
-
-  // 锁定屏幕按钮 - 移到最后一个防止误点
-  // actions.push(...);
 
   return <Space size={8} align="center" style={{ flexShrink: 0 }}>{actions}</Space>;
 };

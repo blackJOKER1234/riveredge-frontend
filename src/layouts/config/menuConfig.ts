@@ -10,25 +10,28 @@ export type PermissionMenuDataItem = MenuDataItem & {
 };
 
 export const getMenuConfig = (t: (key: string) => string): PermissionMenuDataItem[] => [
+  // 仪表板：与「快研发」等应用分区同款（蓝色 label 标题 + 子项平铺为兄弟节点）
+  // 必须带占位 children：ProLayout transformRoute 会丢弃「无 path 且无 children」的项
+  // clearMenuItem 随后会清掉 name 为空的占位子项，最终仍按叶子标题 + menuItemRender 渲染
   {
-    path: '/system/dashboard',
+    key: 'app-group-dashboard',
+    type: 'group',
     name: t('menu.dashboard'),
-    icon: getMenuIcon(t('menu.dashboard'), '/system/dashboard'),
+    label: t('menu.dashboard'),
+    className: 'menu-group-title-app app-menu-container-start',
+    children: [{ key: 'app-group-placeholder-dashboard', name: '', style: { display: 'none' } }],
+  },
+  {
+    path: '/system/dashboard/workplace',
+    name: t('menu.dashboard.workplace'),
+    icon: getMenuIcon(t('menu.dashboard.workplace'), '/system/dashboard/workplace'),
     permissionCodes: ['system:application:read', 'system:menu:read'],
-    children: [
-      {
-        path: '/system/dashboard/workplace',
-        name: t('menu.dashboard.workplace'),
-        icon: getMenuIcon(t('menu.dashboard.workplace'), '/system/dashboard/workplace'),
-        permissionCodes: ['system:application:read', 'system:menu:read'],
-      },
-      {
-        path: '/system/dashboard/analysis',
-        name: t('menu.dashboard.analysis'),
-        icon: getMenuIcon(t('menu.dashboard.analysis'), '/system/dashboard/analysis'),
-        permissionCodes: ['system:application:read', 'system:menu:read'],
-      },
-    ],
+  },
+  {
+    path: '/system/dashboard/analysis',
+    name: t('menu.dashboard.analysis'),
+    icon: getMenuIcon(t('menu.dashboard.analysis'), '/system/dashboard/analysis'),
+    permissionCodes: ['system:application:read', 'system:menu:read'],
   },
   {
     path: '/system',

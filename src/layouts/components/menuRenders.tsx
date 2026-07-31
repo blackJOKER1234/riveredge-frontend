@@ -25,8 +25,9 @@ export function renderMenuData(
   // 过滤系统设置项并插入加载骨架（收起态仅显示原生图标，无简称文字）。
   const data = filteredMenuData.filter((item) => item.path !== '/system');
   if (appMenuSkeletonItems.length) {
-    // APP 菜单插入在系统首项之后（与 useUnifiedMenuData 的 splice(1, ...) 一致）
-    const insertAt = data.length > 0 ? 1 : 0;
+    // 与 useUnifiedMenuData 一致：插在系统配置之前，保留仪表板标题+子项连续
+    const systemRootIdx = data.findIndex((i) => i.path === '/system');
+    const insertAt = systemRootIdx >= 0 ? systemRootIdx : data.length;
     return [
       ...data.slice(0, insertAt),
       ...appMenuSkeletonItems,
@@ -122,10 +123,17 @@ export function renderMenuItem(
       </a>
     );
   }
-  // 如果是应用级菜单的分组标题（只有应用级菜单才需要特殊处理）
-  // 系统级菜单的分组标题（type: 'group'）由 Ant Design Menu 原生处理，不需要自定义渲染
-  // 检查条件：path 以 #app-group- 开头，或者有 menu-group-title-app className
-  if (item.className && (item.className.includes('menu-group-title-app') || item.className.includes('app-menu-container-start'))) {
+  // 应用/仪表板分区标题（快制造、快研发、仪表板…）
+  // 检查条件：className 含 menu-group-title-app，或 key 以 app-group- 开头
+  const itemKey = String(item.key ?? '');
+  const isAppGroupTitle =
+    itemKey.startsWith('app-group-') ||
+    Boolean(
+      item.className &&
+        (item.className.includes('menu-group-title-app') ||
+          item.className.includes('app-menu-container-start')),
+    );
+  if (isAppGroupTitle) {
     // 应用名唯一来源：仅用 locale 的 app.${appCode}.name，与 useUnifiedMenuData 一致
     const firstChildPath = item.children?.[0]?.path;
     const fallback = item.name || item.label || '';
