@@ -635,7 +635,7 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
         siderWidth={isFullscreen ? 0 : undefined}
         // 全屏时：不渲染菜单，确保折叠的侧边栏也不占据空间
         menuRender={isFullscreen ? () => null : undefined}
-        // 侧栏顶部固定搜索框：总高 38px，输入框 34px、上下各 2px，胶囊圆角 50%，简短文案，拟物按键提示
+        // 侧栏顶部固定搜索框：浅灰胶囊形，简短文案「搜索菜单」
         menuExtraRender={isFullscreen || collapsed ? undefined : () => (
           <SidebarSearchExtra
             filteredMenuData={filteredMenuData}

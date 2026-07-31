@@ -197,6 +197,8 @@ export default defineConfig({
   },
   // 构建配置 - 优化性能
   build: {
+    // Vite 8 默认 Lightning CSS 无法识别 Tailwind 原生指令；改用 esbuild 压缩
+    cssMinify: 'esbuild',
     // 输出到项目根目录的 dist，与面板/Caddy 期望的 riveredge-frontend/dist 一致
     outDir: resolve(__dirname, 'dist'),
     commonjsOptions: {
@@ -329,6 +331,10 @@ export default defineConfig({
   },
   // 优化依赖预构建：只列出"首屏 & 高频"包；Univer 全家桶等超重库仅在打开表格类页面时
   // 触发按需预构建，避免冷启动被迫扫描整套 CAD/sheet/docs 资源。
+  css: {
+    // Vite 8 使用 PostCSS 管道运行 @tailwindcss/postcss，确保 Tailwind 原生指令被编译
+    transformer: 'postcss',
+  },
   optimizeDeps: {
     include: [
       'react',

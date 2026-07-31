@@ -1737,41 +1737,68 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-layout-sider-children{
                 padding-inline: 0 !important;
               }
-              /* 侧栏顶部搜索框：固定高度 38px 与 unitabs 等高，宽度填满，无胶囊背景、聚焦无光晕 */
+              /* 侧栏顶部搜索框：浅灰胶囊形（对齐截图），左右内边距由 wrapper 控制 */
               .ant-layout-sider .riveredge-sidebar-search-wrapper {
                 width: 100% !important;
                 box-sizing: border-box;
               }
-              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper,
-              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input {
+              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
+                height: 40px !important;
+                min-height: 40px !important;
+                padding-inline: 12px !important;
+                padding-block: 0 !important;
+                border: none !important;
+                border-radius: 16px !important;
+                background: var(--sidebar-search-pill-bg, ${
+                  isDarkMode || siderTextColor === '#ffffff'
+                    ? 'rgba(255, 255, 255, 0.12)'
+                    : (token?.colorFillTertiary ?? '#f0f0f0')
+                }) !important;
+                box-shadow: none !important;
+                transition: background-color 0.15s ease !important;
+              }
+              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper .ant-input {
                 width: 100% !important;
                 max-width: 100% !important;
                 box-sizing: border-box;
                 background: transparent !important;
-              }
-              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper {
-                padding-inline: 4px !important;
-              }
-              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input {
                 padding-left: 4px !important;
+                height: 40px !important;
+                line-height: 40px !important;
               }
               .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper:hover {
-                background: transparent !important;
+                background: var(--sidebar-search-pill-bg-hover, ${
+                  isDarkMode || siderTextColor === '#ffffff'
+                    ? 'rgba(255, 255, 255, 0.16)'
+                    : (token?.colorFillSecondary ?? '#e8e8e8')
+                }) !important;
               }
               .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper-focused,
               .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper:focus-within {
                 box-shadow: none !important;
                 outline: none !important;
+                background: var(--sidebar-search-pill-bg-hover, ${
+                  isDarkMode || siderTextColor === '#ffffff'
+                    ? 'rgba(255, 255, 255, 0.16)'
+                    : (token?.colorFillSecondary ?? '#e8e8e8')
+                }) !important;
+              }
+              .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-prefix {
+                margin-inline-end: 6px !important;
               }
               .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-prefix .anticon {
-                color: ${isDarkMode ? 'rgba(255,255,255,0.65)' : (siderTextColor === '#ffffff' ? 'rgba(255,255,255,0.65)' : 'rgba(0,0,0,0.45)')} !important;
+                font-size: 14px !important;
+                color: ${isDarkMode ? 'rgba(255,255,255,0.55)' : (siderTextColor === '#ffffff' ? 'rgba(255,255,255,0.55)' : 'rgba(0,0,0,0.35)')} !important;
               }
-              /* 侧栏搜索框占位字符颜色：适配“明亮模式 + 深色背景” */
+              /* 侧栏搜索框占位字符颜色：适配浅色/深色侧栏 */
               .riveredge-sidebar-search-wrapper input::placeholder,
               .riveredge-sidebar-search-wrapper .ant-input::placeholder {
-                color: ${isDarkMode ? 'rgba(255, 255, 255, 0.45)' : (siderTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.58)' : 'rgba(0, 0, 0, 0.25)')} !important;
+                color: ${isDarkMode ? 'rgba(255, 255, 255, 0.45)' : (siderTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.50)' : 'rgba(0, 0, 0, 0.35)')} !important;
               }
-              /* 侧栏搜索框快捷键（拟物按键）：框线/底影与搜索条底边一致，不用浅色主题的 --river-border-color */
+              /* 侧栏搜索框快捷键（可选展示时） */
               .riveredge-sidebar-search-wrapper .topbar-search-shortcut-key {
                 color: ${isDarkMode ? 'rgba(255,255,255,0.28)' : (siderTextColor === '#ffffff' ? 'rgba(255,255,255,0.28)' : (token?.colorBorder ?? '#d9d9d9'))} !important;
                 background: ${isDarkMode ? 'rgba(255,255,255,0.10)' : (siderTextColor === '#ffffff' ? 'rgba(255,255,255,0.10)' : (token?.colorFillQuaternary ?? '#f5f5f5'))} !important;

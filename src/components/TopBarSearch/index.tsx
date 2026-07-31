@@ -33,7 +33,7 @@ const TopBarSearch: React.FC<TopBarSearchProps> = ({
     isLightModeLightBg,
     token,
     placeholder,
-    inputHeight = 32,
+    inputHeight = 40,
     borderRadius,
     shortcutKey,
     transparentBg,
@@ -195,6 +195,8 @@ const TopBarSearch: React.FC<TopBarSearchProps> = ({
         width: '100%',
         height: inputHeight,
         borderRadius: resolvedRadius,
+        // affix wrapper 内部图标/输入框高度不一致时仍保持垂直居中
+        alignItems: 'center',
         backgroundColor: transparentBg ? 'transparent' : (isLightModeLightBg ? token?.colorFillTertiary : 'rgba(255, 255, 255, 0.1)'),
         color: isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)',
         border: 'none',
@@ -244,10 +246,11 @@ const TopBarSearch: React.FC<TopBarSearchProps> = ({
         >
             <div ref={triggerRef} style={{ width: '100%', minWidth: 0 }}>
                 <Input
+                    variant="borderless"
                     prefix={
                         <SearchOutlined
                             style={{
-                                fontSize: 16,
+                                fontSize: transparentBg ? 16 : 14,
                                 color: transparentBg && !isLightModeLightBg ? 'rgba(255,255,255,0.65)' : undefined,
                             }}
                         />
