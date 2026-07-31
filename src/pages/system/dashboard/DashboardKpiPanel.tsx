@@ -13,6 +13,8 @@ import DashboardKpiRichCard, {
   formatDashboardRate,
   type DashboardKpiMainSemantic,
 } from './DashboardKpiRichCard';
+import WorkplaceToolkit from './WorkplaceToolkit';
+import { getWeatherAdaptiveTint } from '@/components/weather/weatherBackground';
 
 export type DashboardTimeRange =
   | 'today'
@@ -48,6 +50,7 @@ export interface DashboardKpiPanelProps {
   t: TFunction;
   navigate: NavigateFunction;
   cardRadius: number;
+  toolkitBackgroundTint?: string;
   kpiCellHeight?: number;
   layoutGutter: number;
   /** 撑满左侧顶区剩余高度（与右侧日历对齐） */
@@ -171,7 +174,8 @@ export default function DashboardKpiPanel({
   t,
   navigate,
   cardRadius,
-  kpiCellHeight = 132,
+  toolkitBackgroundTint,
+  kpiCellHeight = 68,
   layoutGutter,
   fillHeight = false,
 }: DashboardKpiPanelProps) {
@@ -203,7 +207,7 @@ export default function DashboardKpiPanel({
       }}
       styles={{
         body: {
-          padding: '12px 16px 16px',
+          padding: '16px',
           ...(fillHeight
             ? {
                 flex: '1 1 0',
@@ -215,13 +219,29 @@ export default function DashboardKpiPanel({
         },
       }}
     >
-      <div className="dashboard-kpi-panel-toolbar" style={{ marginBottom: layoutGutter}}>
-        <Segmented
-          className="dashboard-kpi-panel-segmented"
-          value={timeRange}
-          options={segmentedOptions}
-          onChange={(value) => onTimeRangeChange(value as DashboardTimeRange)}
-          size="small"
+      <div
+        className="dashboard-kpi-panel-toolbar"
+        style={{
+          marginBottom: layoutGutter,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: layoutGutter,
+        }}
+      >
+        <div className="dashboard-kpi-panel-toolbar__segmented-wrap">
+          <Segmented
+            className="dashboard-kpi-panel-segmented"
+            value={timeRange}
+            options={segmentedOptions}
+            onChange={(value) => onTimeRangeChange(value as DashboardTimeRange)}
+            size="middle"
+          />
+        </div>
+        <WorkplaceToolkit
+          isDark={isDark}
+          cardRadius={cardRadius}
+          backgroundTint={toolkitBackgroundTint}
         />
       </div>
       <div className="dashboard-kpi-panel-grid">

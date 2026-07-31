@@ -72,7 +72,6 @@ import type { WeatherData } from '../../../services/weather';
 import { formatLunarDate } from '../../../utils/lunarDate';
 import {
   DashboardCalendarWeatherClock,
-  DASHBOARD_CALENDAR_WIDGET_HEIGHT,
 } from './DashboardCalendarWeatherClock';
 import { DashboardWelcomeBar } from './DashboardWelcomeBar';
 import { DashboardSectionCard } from './DashboardSectionCard';
@@ -181,11 +180,11 @@ function renderDashboardSimpleTodoList(
     return <Empty description={emptyDescription} image={Empty.PRESENTED_IMAGE_SIMPLE} />;
   }
   return (
-    <div className="dashboard-feed-list">
+    <div className="dashboard-feed-list" >
       {items.map((item) => (
         <div
           key={item.id}
-          className="dashboard-feed-item dashboard-feed-item--interactive"
+          className="p-4 hover:bg-[#FAFAFA] rounded-[24px]"
           onClick={() => item.link && onNavigate(item.link)}
         >
           <div className="dashboard-feed-item__title">{item.title}</div>
@@ -208,14 +207,9 @@ export default function DashboardPage() {
   const isDark = useThemeStore((s) => s.resolved.isDark);
   /** 工作台卡片圆角（阴影见 global.less `.dashboard-section__card`） */
   const dashboardCardRadius = token.borderRadiusLG;
-  /** 底部待办 / 最新操作两卡统一固定高度（整张 Card，含标题栏），列表在卡片内滚动 */
   const dashboardBottomThreeCardsFixedHeight = 500;
   /** 工作台：主 Row gutter、纵向 flex gap、相邻区块 margin 与 antd 默认 gutter 对齐，统一 16px */
   const DASHBOARD_LAYOUT_GUTTER = 16;
-
-  /** 左侧顶区（欢迎行 + KPI）= 右侧日历高度；用于下方区块对齐 */
-  const dashboardLeftTopHeight = DASHBOARD_CALENDAR_WIDGET_HEIGHT;
-  /** 右侧下区高度随快捷入口内容自适应（版本卡紧跟其下） */
 
   /** 卡片内列表区：占满 body 剩余空间并滚动 */
   const bottomCardListScrollBoxStyle: React.CSSProperties = {
@@ -576,29 +570,158 @@ export default function DashboardPage() {
           overflow: 'hidden',
         }}
       >
-      {/* 左右两大组：左 19（欢迎行 + KPI + 下区）；右 5（日历天气时钟 + 快捷 + 版本） */}
-      <Row gutter={[DASHBOARD_LAYOUT_GUTTER, DASHBOARD_LAYOUT_GUTTER]} align="stretch" className="dashboard-main-body" style={{ flex: 1, minHeight: 0, height: '100%', overflow: 'hidden' }}>
-        <Col xs={24} lg={24} className="dashboard-main-scroll-col" style={{ display: 'flex', flexDirection: 'column', gap: DASHBOARD_LAYOUT_GUTTER, minHeight: 0, minWidth: 0 }}>
-          <div
-            className="dashboard-left-top-block"
-            style={{
-              height: dashboardLeftTopHeight,
-              minHeight: dashboardLeftTopHeight,
-              maxHeight: dashboardLeftTopHeight,
-              display: 'flex',
-              flexDirection: 'column',
-              gap: DASHBOARD_LAYOUT_GUTTER,
-              flexShrink: 0,
-              minWidth: 0,
-            }}
-          >
-            <DashboardWelcomeBar
+      {/* 左右两栏：左 70%（KPI + 在制工序，一上一下）；右 30%（最新操作 + 待办，一上一下） */}
+      <style>{`
+        .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot,
+        .dashboard-ops-todo-col > .dashboard-ops-todo-col__slot {
+          flex: 0 0 auto;
+          min-height: 0;
+          display: flex;
+          flex-direction: column;
+          background: #fff;
+          border-radius: 24px
+        }
+        .dashboard-kpi-wip-col__slot > .dashboard-section,
+        .dashboard-ops-todo-col__slot > .dashboard-section {
+          flex: 0 0 auto;
+          min-height: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+        .dashboard-kpi-wip-col__slot .dashboard-section__card.ant-card,
+        .dashboard-ops-todo-col__slot .dashboard-section__card.ant-card {
+          min-height: 0;
+          flex: 0 0 auto;
+          display: flex;
+          flex-direction: column;
+        }
+        .dashboard-kpi-wip-col__slot .dashboard-section__card .ant-card-body,
+        .dashboard-ops-todo-col__slot .dashboard-section__card .ant-card-body {
+          flex: 1 1 0%;
+          min-height: 0;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+        }
+        .dashboard-kpi-wip-col__slot .dashboard-kpi-panel.ant-card > .ant-card-body {
+          overflow: visible;
+        }
+        .dashboard-ops-todo-col {
+          height: 100%;
+        }
+        .dashboard-ops-todo-col > .dashboard-ops-todo-col__slot {
+          flex: 1 1 0%;
+        }
+        .dashboard-ops-todo-col__slot > .dashboard-section {
+          flex: 1 1 0%;
+        }
+        .dashboard-ops-todo-col__slot .dashboard-section__card.ant-card {
+          flex: 1 1 0%;
+        }
+        /* 在制工序卡：内容超高时在卡片内滚动 */
+        .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body {
+          overflow-y: auto;
+        }
+        /* 待办 Tabs：占满 body 剩余高度，仅在内容区滚动，不顶破卡片 */
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs.ant-tabs {
+          flex: 1 1 0%;
+          min-height: 0;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-nav { flex-shrink: 0; margin-bottom: 0; }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content-holder,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-body-holder {
+          flex: 1 1 0%;
+          min-height: 0;
+          overflow: hidden !important;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-body,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-body-top {
+          flex: 1 1 0%;
+          height: 100%;
+          min-height: 0;
+          overflow: hidden;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content-top {
+          flex: 1 1 0%;
+          display: flex;
+          height: 100%;
+          min-height: 0;
+          overflow: hidden;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane {
+          min-height: 0;
+          overflow: hidden;
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none; /* IE/Edge */
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane:not(.ant-tabs-tabpane-active) {
+          display: none !important;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane.ant-tabs-tabpane-active {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
+          display: none; /* Chrome/Safari */
+          width: 0;
+          height: 0;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list {
+          flex: 1 1 0%;
+          min-height: 0;
+          width: 100%;
+          overflow: auto;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list::-webkit-scrollbar {
+          display: none;
+          width: 0;
+          height: 0;
+        }
+        /* 核心列表容器：统一隐藏滚动条 */
+        .dashboard-ops-todo-col .dashboard-bottom-card-scroll,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane {
+          scrollbar-width: none !important;
+          -ms-overflow-style: none !important;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-scroll::-webkit-scrollbar,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content::-webkit-scrollbar,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
+          display: none !important;
+          width: 0 !important;
+          height: 0 !important;
+        }
+      `}</style>
+      <Row
+        gutter={[DASHBOARD_LAYOUT_GUTTER, DASHBOARD_LAYOUT_GUTTER]}
+        align="stretch"
+        className="dashboard-main-body"
+        style={{ flex: 1, minHeight: 0, height: '100%', overflow: 'hidden' }}
+      >
+        {/* 左侧 70%：KPI（上）+ 在制工序（下） */}
+        <Col
+          xs={24}
+          lg={{ flex: '0 0 70%' }}
+          className="dashboard-kpi-wip-col dashboard-main-scroll-col"
+          style={{ display: 'flex', flexDirection: 'column', gap: DASHBOARD_LAYOUT_GUTTER, minHeight: 0, minWidth: 0 }}
+        >
+          <div className="dashboard-kpi-wip-col__slot">
+            {/* <DashboardWelcomeBar
               greeting={t(getGreetingKey())}
               userName={userName}
               isDark={isDark}
               cardRadius={dashboardCardRadius}
               backgroundTint={getWeatherAdaptiveTint(weatherForDashboard, isDark)}
-            />
+            /> */}
             <DashboardKpiPanel
               timeRange={timeRange}
               onTimeRangeChange={setTimeRange}
@@ -607,102 +730,34 @@ export default function DashboardPage() {
               t={t}
               navigate={navigate}
               cardRadius={dashboardCardRadius}
+              toolkitBackgroundTint={getWeatherAdaptiveTint(weatherForDashboard, isDark)}
               layoutGutter={DASHBOARD_LAYOUT_GUTTER}
-              fillHeight
             />
           </div>
 
-          <DashboardOperationCardsPanel
-            cardRadius={dashboardCardRadius}
-            isDark={isDark}
-            t={t}
-            onNavigate={navigate}
-          />
+          <div className="dashboard-kpi-wip-col__slot">
+            <DashboardOperationCardsPanel
+              cardRadius={dashboardCardRadius}
+              height={dashboardBottomThreeCardsFixedHeight}
+              isDark={isDark}
+              t={t}
+              onNavigate={navigate}
+            />
+          </div>
+        </Col>
 
-          <Row
-              gutter={[DASHBOARD_LAYOUT_GUTTER, DASHBOARD_LAYOUT_GUTTER]}
-              className="dashboard-four-cards-row dashboard-bento-main-row"
-              wrap={window.innerWidth < 1000}
-              style={{
-                flexShrink: 0,
-                display: 'flex',
-                alignItems: 'stretch',
-              }}
-            >
-        <style>{`
-          .dashboard-four-cards-row .ant-col { display: flex; align-items: stretch; min-height: 0; }
-          .dashboard-four-cards-row .dashboard-section { width: 100%; }
-          .dashboard-four-cards-row .dashboard-section__card.ant-card { min-height: 0; display: flex; flex-direction: column; }
-          .dashboard-four-cards-row .dashboard-section__card .ant-card-body { flex: 1 1 0%; overflow: hidden; min-height: 0; display: flex; flex-direction: column; }
-          /* 待办 Tabs：占满 body 剩余高度，仅在内容区滚动，不顶破卡片 */
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs.ant-tabs {
-            flex: 1 1 0%;
-            min-height: 0;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-          }
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-nav { flex-shrink: 0; margin-bottom: 0; }
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-content-holder,
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-body-holder {
-            flex: 1 1 0%;
-            min-height: 0;
-            overflow: hidden !important;
-          }
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-body,
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-body-top {
-            flex: 1 1 0%;
-            height: 100%;
-            min-height: 0;
-            overflow: hidden;
-          }
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-content,
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-content-top {
-            flex: 1 1 0%;
-            height: 100%;
-            min-height: 0;
-            overflow: auto;
-          }
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-tabpane {
-            height: 100%;
-            min-height: 0;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            scrollbar-width: none; /* Firefox */
-            -ms-overflow-style: none; /* IE/Edge */
-          }
-          .dashboard-four-cards-row .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
-            display: none; /* Chrome/Safari */
-            width: 0;
-            height: 0;
-          }
-          /* 核心列表容器：统一隐藏滚动条 */
-          .dashboard-bottom-card-scroll,
-          .dashboard-bottom-card-tabs .ant-tabs-content,
-          .dashboard-bottom-card-tabs .ant-tabs-tabpane {
-            scrollbar-width: none !important;
-            -ms-overflow-style: none !important;
-          }
-          .dashboard-bottom-card-scroll::-webkit-scrollbar,
-          .dashboard-bottom-card-tabs .ant-tabs-content::-webkit-scrollbar,
-          .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
-            display: none !important;
-            width: 0 !important;
-            height: 0 !important;
-          }
-        `}</style>
-
-        {/* 最新操作（生产播报）：大屏在左，md=10 / 待办 md=14 */}
+        {/* 右侧 30%：最新操作（上）+ 待办（下） */}
         <Col
           xs={24}
-          sm={12}
-          md={10}
-          lg={10}
-          style={{ display: 'flex', minHeight: 0, width: '100%' }}
+          lg={{ flex: '0 0 30%' }}
+          className="dashboard-ops-todo-col"
+          style={{ display: 'flex', flexDirection: 'column', gap: DASHBOARD_LAYOUT_GUTTER, minHeight: 0, minWidth: 0 }}
         >
+
+
+        {/* 右列上：最新操作（生产播报） */}
+        <div className="dashboard-ops-todo-col__slot">
           <DashboardSectionCard
-            height={dashboardBottomThreeCardsFixedHeight}
             cardRadius={dashboardCardRadius}
             className="dashboard-section--feed"
             loading={productionBroadcastLoading}
@@ -714,13 +769,25 @@ export default function DashboardPage() {
                 onClick={() => {
                   navigate('/apps/kuaizhizao/production-execution/reporting');
                 }}
+                style={{
+                  color: '#0958D9'
+                }}
               >
-                {t('pages.dashboard.viewAll')} <RightOutlined />
+                {t('pages.dashboard.viewAll')} 
+                {/* <RightOutlined /> */}
               </Button>
             }
           >
             {productionBroadcast && productionBroadcast.length > 0 ? (
-              <div className="dashboard-bottom-card-scroll dashboard-feed-list" style={bottomCardListScrollBoxStyle}>
+              <div
+                className="dashboard-bottom-card-scroll"
+                style={{
+                  ...bottomCardListScrollBoxStyle,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 8,
+                }}
+              >
                 {productionBroadcast.map((item) => (
                   <div
                     key={item.id}
@@ -729,7 +796,38 @@ export default function DashboardPage() {
                       navigate(`/apps/kuaizhizao/production-execution/reporting?work_order=${item.work_order_no}`);
                     }}
                   >
-                    <div className="dashboard-feed-item__row">
+                    <div className="flex justify-between">
+                      <div className="flex flex-col">
+                        <div className='text-[16px] text-[#000000E0] font-medium'>
+                          {item.process_name}
+                        </div>
+                        <div className='text-[#00000052]'>
+                          {`${item.work_order_no}${item.product_name ? ` | ${item.product_name}` : ''}`}
+                        </div>
+                        <div>
+                          {item.operator_name}
+                        </div>
+                      </div>
+
+                      <div className='flex flex-col justify-between text-right'>  
+                        <div className="dashboard-feed-item__stats">
+                          <span className="dashboard-feed-item__stat--ok">
+                            {t('pages.dashboard.qualified')} {item.qualified_quantity.toFixed(0)}
+                          </span>
+                          {item.unqualified_quantity > 0 ? (
+                            <span className="dashboard-feed-item__stat--bad">
+                              {t('pages.dashboard.unqualified')} {item.unqualified_quantity.toFixed(0)}
+                            </span>
+                          ) : null}
+                        </div>
+                        <div>
+                          {item.created_at
+                            ? formatDateTime(item.created_at, 'MM-DD HH:mm')
+                            : item.date}
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="dashboard-feed-item__row">
                       <div className="dashboard-feed-item__main">
                         <p className="dashboard-feed-item__title">
                           {item.operator_name} | {item.process_name}
@@ -753,7 +851,7 @@ export default function DashboardPage() {
                           </span>
                         ) : null}
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 ))}
               </div>
@@ -766,18 +864,11 @@ export default function DashboardPage() {
               </div>
             )}
           </DashboardSectionCard>
-        </Col>
+        </div>
 
-        {/* 待办事项：大屏在右，md=14 */}
-        <Col
-          xs={24}
-          sm={12}
-          md={14}
-          lg={14}
-          style={{ display: 'flex', minHeight: 0, width: '100%' }}
-        >
+        {/* 右列下：待办事项 */}
+        <div className="dashboard-ops-todo-col__slot">
           <DashboardSectionCard
-            height={dashboardBottomThreeCardsFixedHeight}
             cardRadius={dashboardCardRadius}
             className="dashboard-section--with-tabs"
             loading={todosLoading}
@@ -794,8 +885,12 @@ export default function DashboardPage() {
                 onClick={() => {
                   navigate('/apps/kuaizhizao/production-execution/work-orders');
                 }}
+                style={{
+                  color: '#0958D9'
+                }}
               >
-                {t('pages.dashboard.viewAll')} <RightOutlined />
+                {t('pages.dashboard.viewAll')} 
+                {/* <RightOutlined /> */}
               </Button>
             }
           >
@@ -827,31 +922,31 @@ export default function DashboardPage() {
                               }
                             }}
                           >
-                            <div className="dashboard-todo-item__main">
-                              <p className="dashboard-todo-item__title">{item.title}</p>
-                              {item.description ? (
-                                <span className="dashboard-todo-item__desc">{item.description}</span>
-                              ) : null}
-                              {item.due_date ? (
-                                <span className="dashboard-todo-item__desc">
-                                  {t('pages.dashboard.dueDateShort', {
-                                    date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
-                                  })}
-                                </span>
-                              ) : null}
+                              <div className="dashboard-todo-item__main">
+                                <p className="text-[16px] font-medium text-[#000000E0]">{item.title}</p>
+                                {item.description ? (
+                                  <span className="dashboard-todo-item__desc">{item.description}</span>
+                                ) : null}
+                                {item.due_date ? (
+                                  <span className="dashboard-todo-item__desc">
+                                    {t('pages.dashboard.dueDateShort', {
+                                      date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
+                                    })}
+                                  </span>
+                                ) : null}
+                                </div>
+                                <Button
+                                  size="small"
+                                  type="primary"
+                                  className="dashboard-todo-item__action"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleTodoMutation.mutate({ todoId: item.id, action: 'handle' });
+                                  }}
+                                >
+                                  {t('pages.dashboard.handle')}
+                                </Button>
                             </div>
-                            <Button
-                              size="small"
-                              type="primary"
-                              className="dashboard-todo-item__action"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleTodoMutation.mutate({ todoId: item.id, action: 'handle' });
-                              }}
-                            >
-                              {t('pages.dashboard.handle')}
-                            </Button>
-                          </div>
                         ))
                       ) : (
                         <Empty description={t('pages.dashboard.emptyTodo')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
@@ -936,10 +1031,9 @@ export default function DashboardPage() {
               )}
             />
           </DashboardSectionCard>
+        </div>
         </Col>
-
       </Row>
-        </Col>
 
         {/* 右侧栏（日历/快捷入口/版本 */}
         {/* <Col xs={24} lg={5} className="dashboard-main-scroll-col" style={{ display: 'flex', flexDirection: 'column', gap: DASHBOARD_LAYOUT_GUTTER, minHeight: 0, minWidth: 0 }}>
@@ -986,7 +1080,6 @@ export default function DashboardPage() {
             />
           </div>
         </Col> */}
-      </Row>
       </div>
       </div>
 

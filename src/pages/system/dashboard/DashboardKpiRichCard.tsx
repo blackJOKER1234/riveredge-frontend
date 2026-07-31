@@ -149,12 +149,12 @@ function KpiStackBody({
       <div className="dashboard-kpi-cell-head">
         <Text
           style={{
-            fontSize: 13,
+            fontSize: 14,
             color: token.colorTextSecondary,
             fontWeight: 500,
             lineHeight: 1.35,
             display: 'block',
-            marginBottom: 6,
+            marginBottom: 16,
           }}
         >
           {title}
@@ -163,7 +163,7 @@ function KpiStackBody({
           <span
             style={{
               fontSize: 28,
-              color: mainColor,
+              color: '#111827',
               fontWeight: 700,
               fontVariantNumeric: 'tabular-nums',
               lineHeight: 1.1,
@@ -185,7 +185,7 @@ function KpiStackBody({
             </span>
           ) : null}
         </div>
-        <Text
+        {/* <Text
           ellipsis={{ tooltip: subtitle }}
           style={{
             fontSize: 12,
@@ -196,13 +196,13 @@ function KpiStackBody({
           }}
         >
           {subtitle}
-        </Text>
+        </Text> */}
       </div>
-      <div className="dashboard-kpi-cell-footer">
+      {/* <div className="dashboard-kpi-cell-footer">
         <FooterMetric label={rightTop.label} value={rightTop.value} align="left" />
         <div className="dashboard-kpi-cell-footer-divider" aria-hidden />
         <FooterMetric label={rightBottom.label} value={rightBottom.value} align="right" />
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -281,7 +281,7 @@ export default function DashboardKpiRichCard({
       }}
       styles={{
         body: {
-          padding: '14px 16px',
+          padding: '16px',
           height: '100%',
         },
       }}

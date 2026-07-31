@@ -15,7 +15,7 @@ import { DASHBOARD_SECTION_CARD_CLASS } from './dashboardCardSurface';
 const { Text } = Typography;
 
 /** 右侧栏日历组件固定高度（与 layout 对齐计算共用） */
-export const DASHBOARD_CALENDAR_WIDGET_HEIGHT = 300;
+export const DASHBOARD_CALENDAR_WIDGET_HEIGHT = 185;
 
 const WEEKDAY_KEYS = [
   'pages.dashboard.calendarWeekSun',

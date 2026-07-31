@@ -1,0 +1,62 @@
+[     745ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-dom-33sy5Dlr.js?v=b4a6255e:17230
+[    1404ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8101/api/v1/personal/user-preferences:0
+[    1564ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8101/api/v1/auth/refresh:0
+[    1566ms] [WARNING] Failed to fetch user preferences: Error: 认证已过期，请重新登录
+    at apiRequest (http://localhost:8101/services/api.ts:337:35)
+    at async Object.fetchPreferences (http://localhost:8101/stores/userPreferenceStore.ts:145:30)
+    at async Object.initFromApi (http://localhost:8101/stores/themeStore.ts:237:17)
+    at async Promise.all (index 0)
+    at async http://localhost:8101/hooks/useAppShellReady.ts:33:13 @ http://localhost:8101/main.tsx:19
+[    1617ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-dom-33sy5Dlr.js?v=b4a6255e:17230
+[  113971ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8101/@vite/client:992
+[  114227ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-dom-33sy5Dlr.js?v=b4a6255e:17230
+[  296325ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-dom-33sy5Dlr.js?v=b4a6255e:17230
+[  297426ms] [ERROR] Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s fetchPriority fetchpriority 
+    at img
+    at a
+    at div
+    at div
+    at GlobalHeader (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/@ant-design_pro-components.js?v=9c9201fa:6720:23)
+    at header
+    at http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:57074:21
+    at Header
+    at MotionWrapper (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3572:36)
+    at ProviderChildren (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3653:10)
+    at ConfigProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3832:31)
+    at DefaultHeader (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/@ant-design_pro-components.js?v=9c9201fa:6829:23)
+    at div
+    at div
+    at http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:57086:37
+    at Layout
+    at div
+    at BaseProLayout (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/@ant-design_pro-components.js?v=9c9201fa:10470:12)
+    at MotionWrapper (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3572:36)
+    at ProviderChildren (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3653:10)
+    at ConfigProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3832:31)
+    at ConfigProviderContainer (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-BVgKX_3l.js?v=b4a6255e:5290:23)
+    at LocaleProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:1883:10)
+    at MotionWrapper (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3572:36)
+    at ProviderChildren (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3653:10)
+    at ConfigProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3832:31)
+    at ProConfigProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-BVgKX_3l.js?v=b4a6255e:5414:23)
+    at MotionWrapper (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3572:36)
+    at ProviderChildren (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3653:10)
+    at ConfigProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3832:31)
+    at ProLayout (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/@ant-design_pro-components.js?v=9c9201fa:10722:27)
+    at BasicLayout (http://localhost:8101/layouts/BasicLayout.tsx:55:43)
+    at MainRoutes (http://localhost:8101/routes/index.tsx:92:22)
+    at Suspense
+    at http://localhost:8101/components/auth-guard.tsx:54:61
+    at ErrorBoundary (http://localhost:8101/components/error-boundary/index.tsx:148:3)
+    at AppContent (http://localhost:8101/components/app-shell.tsx:41:30)
+    at div
+    at http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:14007:21
+    at LocaleProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:1883:10)
+    at SizeContextProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3507:30)
+    at MotionWrapper (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3572:36)
+    at ProviderChildren (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3653:10)
+    at ConfigProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/es-CWIaQnE0.js?v=b4a6255e:3832:31)
+    at App (http://localhost:8101/app.tsx:34:22)
+    at Router (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-router-dom.js?v=9c9201fa:3686:18)
+    at BrowserRouter (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-router-dom.js?v=9c9201fa:4366:8)
+    at QueryClientProvider (http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/@tanstack_react-query.js?v=9c9201fa:2510:30) @ http://localhost:8101/@fs/Users/hhhxswl/Documents/new/riveredge-frontend/node_modules/.vite/deps/react-dom-33sy5Dlr.js?v=b4a6255e:442

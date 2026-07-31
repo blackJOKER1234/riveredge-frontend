@@ -2,7 +2,7 @@ import type { commonComponentTokens } from "../dts";
 
 const baseToken: commonComponentTokens = {
 	colorWhite: "#FFFFFF",
-	colorPrimary: "#0958D9FF", // 主题色
+	colorPrimary: "#0958D9", // 主题色
 	colorSubBlue: "#0F1931", // 辅助色
 	colorSubGreen: "#52C41AFF", // 辅助色
 	colorSuccess: "#52C41AFF",

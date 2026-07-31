@@ -3,8 +3,7 @@
  */
 
 import React from 'react';
-import { Button, Empty, Grid, Space } from 'antd';
-import { DownOutlined, RightOutlined, UpOutlined } from '@ant-design/icons';
+import { Button, Empty, Space } from 'antd';
 import { useQuery } from '@tanstack/react-query';
 import type { TFunction } from 'i18next';
 import { getProcessProgress } from '../../../services/dashboard';
@@ -13,6 +12,7 @@ import { WipOperationCardView } from './WipOperationCardView';
 
 export interface DashboardOperationCardsPanelProps {
   cardRadius: number | string;
+  height?: number | string;
   isDark?: boolean;
   t: TFunction;
   onNavigate: (path: string) => void;
@@ -20,12 +20,13 @@ export interface DashboardOperationCardsPanelProps {
 
 export function DashboardOperationCardsPanel({
   cardRadius,
+  height,
   isDark = false,
   t,
   onNavigate,
 }: DashboardOperationCardsPanelProps) {
-  const { useBreakpoint } = Grid;
-  const screens = useBreakpoint();
+  // const { useBreakpoint } = Grid;
+  // const screens = useBreakpoint();
   const { data: items, isLoading, isFetching } = useQuery({
     queryKey: ['dashboard-wip-operation-cards'],
     queryFn: () => getProcessProgress(false),
@@ -35,41 +36,50 @@ export function DashboardOperationCardsPanel({
   });
 
   const workOrdersPath = '/apps/kuaizhizao/production-execution/work-orders?status=in_progress';
-  const columnCount = React.useMemo(() => {
-    if (screens.xl) return 4;
-    if (screens.lg) return 3;
-    if (screens.sm) return 2;
-    return 1;
-  }, [screens]);
-  const initialVisibleCount = columnCount * 2;
-  const totalCount = items?.length ?? 0;
-  const [visibleCount, setVisibleCount] = React.useState(initialVisibleCount);
+  // const columnCount = React.useMemo(() => {
+  //   if (screens.xl) return 3;
+  //   if (screens.lg) return 3;
+  //   if (screens.sm) return 2;
+  //   return 1;
+  // }, [screens]);
+  // const initialVisibleCount = columnCount * 2;
+  // const totalCount = items?.length ?? 0;
+  // const [visibleCount, setVisibleCount] = React.useState(initialVisibleCount);
 
-  React.useEffect(() => {
-    setVisibleCount(initialVisibleCount);
-  }, [initialVisibleCount, totalCount]);
+  // React.useEffect(() => {
+  //   setVisibleCount(initialVisibleCount);
+  // }, [initialVisibleCount, totalCount]);
 
-  const visibleItems = React.useMemo(
-    () => (items ?? []).slice(0, visibleCount),
-    [items, visibleCount],
-  );
-  const hasMoreItems = totalCount > visibleItems.length;
-  const canCollapse = totalCount > initialVisibleCount && visibleCount > initialVisibleCount;
+  // const visibleItems = React.useMemo(
+  //   () => (items ?? []).slice(0, visibleCount),
+  //   [items, visibleCount],
+  // );
+  // const hasMoreItems = totalCount > visibleItems.length;
+  // const canCollapse = totalCount > initialVisibleCount && visibleCount > initialVisibleCount;
 
   return (
     <DashboardSectionCard
       className="dashboard-section--operation-cards"
+      height={height}
       loading={isLoading || (isFetching && !items)}
       title={t('pages.dashboard.operationCardsTitle')}
       extra={
         <Space size={8} align="center">
-          {items && items.length > 0 ? (
+          {/* {items && items.length > 0 ? (
             <span className="dashboard-operation-cards-panel__count">
               {t('pages.dashboard.operationCardsCount', { count: items.length })}
             </span>
-          ) : null}
-          <Button type="link" size="small" onClick={() => onNavigate(workOrdersPath)}>
-            {t('pages.dashboard.viewAll')} <RightOutlined />
+          ) : null} */}
+          <Button 
+            type="link" 
+            size="small" 
+            onClick={() => onNavigate(workOrdersPath)}
+            style={{
+              color: '#0958D9'
+            }}
+          >
+            {t('pages.dashboard.viewAll')} 
+            {/* <RightOutlined /> */}
           </Button>
         </Space>
       }
@@ -89,7 +99,7 @@ export function DashboardOperationCardsPanel({
       ) : (
         <>
           <div className="dashboard-operation-cards-panel__track">
-            {visibleItems.map((item, index) => (
+            {(items ?? []).map((item, index) => (
               <WipOperationCardView
                 key={`${item.process_id}-${item.process_name}`}
                 item={item}
@@ -100,7 +110,7 @@ export function DashboardOperationCardsPanel({
               />
             ))}
           </div>
-          {hasMoreItems || canCollapse ? (
+          {/* {hasMoreItems || canCollapse ? (
             <div className="dashboard-operation-cards-panel__load-more-wrap">
               <Button
                 size="small"
@@ -122,7 +132,7 @@ export function DashboardOperationCardsPanel({
                 }}
               />
             </div>
-          ) : null}
+          ) : null} */}
         </>
       )}
     </DashboardSectionCard>

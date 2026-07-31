@@ -1,6 +1,7 @@
 import { defineConfig, normalizePath, type Plugin } from 'vite'
 import type { ProxyOptions } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 import { platform } from 'os'
 import fs from 'node:fs'
@@ -278,6 +279,7 @@ export default defineConfig({
   },
   plugins: [
     fixUniverSafariLookbehindPlugin(),
+    tailwindcss(),
     // occt-import-js 为 Emscripten CJS，Vite 动态 import 不会自动补 default export
     {
       name: 'occt-import-js-esm-bridge',
