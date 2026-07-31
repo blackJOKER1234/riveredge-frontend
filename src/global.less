@@ -2685,10 +2685,10 @@ code {
   cursor: pointer;
   border-radius: 24px;
   padding: 16px;
-  background: #FAFAFA;
+  background: var(--ant-color-fill-quaternary, rgba(0, 0, 0, 0.02));
 }
 .dashboard-feed-item--interactive:hover {
-  background: #F5F8FD;
+  background: var(--ant-color-fill-tertiary, rgba(0, 0, 0, 0.06));
 }
 .dashboard-feed-item__row {
   display: flex;
@@ -2855,7 +2855,7 @@ code {
 .dashboard-kpi-panel-segmented .ant-segmented-item-selected,
 .dashboard-kpi-panel-segmented .ant-segmented-thumb {
   border-radius: 24px !important;
-  background: #0958D9;
+  background: var(--dashboard-kpi-segmented-active-bg, var(--ant-colorPrimary));
   color: #FFFFFF;
 }
 
@@ -2924,10 +2924,8 @@ code {
   position: relative;
   z-index: 1;
   // background: #F5F8FD;
-  border-color: var(--ant-color-border, var(--ant-colorBorder, #d9d9d9));
-  box-shadow:
-    0 2px 6px rgba(0, 0, 0, 0.07),
-    0 6px 16px rgba(0, 0, 0, 0.11);
+  // border-color: var(--ant-color-border, var(--ant-colorBorder, #d9d9d9));
+  background: var(--ant-color-fill-tertiary, rgba(0, 0, 0, 0.06));
 }
 .dashboard-kpi-cell-inner {
   display: flex;

@@ -27,6 +27,8 @@ type ProductionCardProps = {
   accentColor: string;
 };
 
+const { useToken } = theme;
+
 const ProductionCard = ({
   processName,
   plannedQuantity,
@@ -40,6 +42,7 @@ const ProductionCard = ({
   unqualifiedQtyLabel,
   accentColor,
 }: ProductionCardProps) => {
+  const { token } = useToken();
   return (
     <Card
       bordered={false}
@@ -54,7 +57,12 @@ const ProductionCard = ({
       <div className="flex items-center gap-3">
         <div className="h-5 w-1.5 rounded-full bg-blue-500" />
 
-        <div className="text-lg font-semibold text-gray-700">
+        <div 
+          style={{
+            color: token.colorText,
+          }}
+          className="text-lg font-semibold"
+        >
           {processName}
         </div>
       </div>
@@ -63,7 +71,12 @@ const ProductionCard = ({
       {/* 主数据区域 */}
       <div className="mt-4 flex items-center justify-between">
         <div>
-          <div className="text-[32px] font-bold leading-none text-gray-900">
+          <div 
+            className="text-[32px] font-bold leading-none"
+            style={{
+              color: token.colorText,
+            }}
+          >
             {formatQty(plannedQuantity)}
           </div>
 
@@ -80,7 +93,12 @@ const ProductionCard = ({
           size={70}
           strokeWidth={10}
           format={(percent) => (
-            <span className="text-base text-gray-700">
+            <span 
+              className="text-base"
+              style={{
+                color: token.colorText,
+              }}
+            >
               {percent}%
             </span>
           )}
@@ -100,7 +118,12 @@ const ProductionCard = ({
           <div className="text-base text-gray-400">
             {completedQtyLabel}
           </div>
-          <div className="mt-1 text-xl font-semibold text-gray-900">
+          <div 
+            className="mt-1 text-xl font-semibold"
+            style={{
+              color: token.colorText,
+            }}
+          >
             {formatQty(completedQuantity)}
           </div>
         </div>

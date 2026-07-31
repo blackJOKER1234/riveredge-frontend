@@ -163,7 +163,7 @@ function KpiStackBody({
           <span
             style={{
               fontSize: 28,
-              color: '#111827',
+              color: token.colorText,
               fontWeight: 700,
               fontVariantNumeric: 'tabular-nums',
               lineHeight: 1.1,

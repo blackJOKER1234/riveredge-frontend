@@ -7,6 +7,7 @@ import { Card, Segmented } from 'antd';
 import type { NavigateFunction } from 'react-router-dom';
 import type { TFunction } from 'i18next';
 import type { StatisticsResponse } from '../../../services/dashboard';
+import { useThemeStore } from '../../../stores/themeStore';
 import { DASHBOARD_SECTION_CARD_CLASS } from './dashboardCardSurface';
 import DashboardKpiRichCard, {
   formatDashboardMetric,
@@ -180,6 +181,7 @@ export default function DashboardKpiPanel({
   fillHeight = false,
 }: DashboardKpiPanelProps) {
   const kpiItems = useMemo(() => buildKpiItems(t), [t]);
+  const configuredPrimaryColor = useThemeStore((s) => s.config.colorPrimary || '#0958D9');
 
   const segmentedOptions = TIME_RANGE_OPTIONS.map((key) => ({
     label: t(TIME_RANGE_I18N[key]),
@@ -201,6 +203,7 @@ export default function DashboardKpiPanel({
         flexShrink: fillHeight ? undefined : 0,
         flex: fillHeight ? '1 1 0' : undefined,
         minHeight: fillHeight ? 0 : undefined,
+        ['--dashboard-kpi-segmented-active-bg' as string]: configuredPrimaryColor,
         ...(fillHeight
           ? {}
           : { ['--dashboard-kpi-cell-height' as string]: `${kpiCellHeight}px` }),

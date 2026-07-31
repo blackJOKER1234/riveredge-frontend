@@ -184,7 +184,7 @@ function renderDashboardSimpleTodoList(
       {items.map((item) => (
         <div
           key={item.id}
-          className="p-4 hover:bg-[#FAFAFA] rounded-[24px]"
+          className="dashboard-feed-item dashboard-feed-item--interactive"
           onClick={() => item.link && onNavigate(item.link)}
         >
           <div className="dashboard-feed-item__title">{item.title}</div>
@@ -578,8 +578,8 @@ export default function DashboardPage() {
           min-height: 0;
           display: flex;
           flex-direction: column;
-          background: #fff;
-          border-radius: 24px
+          background: var(--ant-color-bg-container, #fff);
+          border-radius: 24px;
         }
         .dashboard-kpi-wip-col__slot > .dashboard-section,
         .dashboard-ops-todo-col__slot > .dashboard-section {
@@ -770,7 +770,7 @@ export default function DashboardPage() {
                   navigate('/apps/kuaizhizao/production-execution/reporting');
                 }}
                 style={{
-                  color: '#0958D9'
+                  color: token.colorPrimary,
                 }}
               >
                 {t('pages.dashboard.viewAll')} 
@@ -798,13 +798,19 @@ export default function DashboardPage() {
                   >
                     <div className="flex justify-between">
                       <div className="flex flex-col">
-                        <div className='text-[16px] text-[#000000E0] font-medium'>
+                        <div
+                          style={{
+                            fontSize: 16,
+                            color: token.colorText,
+                            fontWeight: 500,
+                          }}
+                        >
                           {item.process_name}
                         </div>
-                        <div className='text-[#00000052]'>
+                        <div style={{ color: token.colorTextTertiary }}>
                           {`${item.work_order_no}${item.product_name ? ` | ${item.product_name}` : ''}`}
                         </div>
-                        <div>
+                        <div style={{ color: token.colorTextSecondary }}>
                           {item.operator_name}
                         </div>
                       </div>
@@ -886,7 +892,7 @@ export default function DashboardPage() {
                   navigate('/apps/kuaizhizao/production-execution/work-orders');
                 }}
                 style={{
-                  color: '#0958D9'
+                  color: token.colorPrimary,
                 }}
               >
                 {t('pages.dashboard.viewAll')} 
@@ -923,7 +929,15 @@ export default function DashboardPage() {
                             }}
                           >
                               <div className="dashboard-todo-item__main">
-                                <p className="text-[16px] font-medium text-[#000000E0]">{item.title}</p>
+                                <p
+                                  style={{
+                                    fontSize: 16,
+                                    fontWeight: 500,
+                                    color: token.colorText,
+                                  }}
+                                >
+                                  {item.title}
+                                </p>
                                 {item.description ? (
                                   <span className="dashboard-todo-item__desc">{item.description}</span>
                                 ) : null}
