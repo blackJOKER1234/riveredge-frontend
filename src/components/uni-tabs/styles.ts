@@ -1,27 +1,46 @@
 /**
- * RiverEdge SaaS - UniTabs 动态样式模板
+ * RiverEdge SaaS - UniTabs 样式
  *
- * 样式原内联于 index.tsx，通过函数注入主题变量生成最终 CSS。
+ * 使用项目现有 antd-style（createStyles）方案：
+ * - 样式规则全部收敛在 css 模板中，由 emotion/antd cssinjs 管理注入
+ * - 运行时主题值（标签栏背景、文字色、圆角）作为 createStyles 的 props 传入
+ * - antd token（colorPrimary、colorText 等）直接由 antd-style 注入
  */
 
+import { createStyles } from '../../ant-design/antd/factory/style'
+
 export interface UniTabsStyleVars {
-  tabsBgColor: string;
-  tabsTextColor: string;
-  tabRadius: number;
-  tabCornerDiameter: number;
-  isFullscreen: boolean;
-  token: {
-    colorPrimary?: string;
-    colorText?: string;
-    colorFillSecondary?: string;
-    borderRadius?: number;
-  };
+  tabsBgColor: string
+  tabsTextColor: string
+  tabRadius: number
+  tabCornerDiameter: number
+  isFullscreen: boolean
 }
 
-export function uniTabsStyles(vars: UniTabsStyleVars): string {
-  const { tabsBgColor, tabsTextColor, tabRadius, tabCornerDiameter, isFullscreen, token } = vars;
+export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyleVars) => {
+  const { tabsBgColor, tabsTextColor, tabRadius, tabCornerDiameter, isFullscreen } = vars
+  const isWhiteText = tabsTextColor === '#ffffff'
+  const textSoft = isWhiteText ? 'rgba(255, 255, 255, 0.85)' : tabsTextColor
+  const textFaint = isWhiteText ? 'rgba(255, 255, 255, 0.65)' : 'rgba(0, 0, 0, 0.45)'
+  const accent = isWhiteText ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary
+  const accentHover = isWhiteText ? 'rgba(255, 255, 255, 1)' : 'var(--ant-colorPrimaryHover)'
+  const dividerSoft = isWhiteText ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.06)'
+  const shadowSoft = isWhiteText ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.08)'
+  const menuColor = isWhiteText ? 'rgba(255, 255, 255, 0.85)' : token.colorText
+  const menuHoverColor = isWhiteText ? '#ffffff' : token.colorText
+  const menuHoverBg = isWhiteText ? 'rgba(255, 255, 255, 0.15)' : token.colorFillSecondary
+  const radiusLg = `${typeof token.borderRadius === 'number' ? token.borderRadius : 8}px`
+  const contentGap = isFullscreen ? '16px' : '0px'
+  const headerHeightFallback = isFullscreen ? '0px' : '56px'
 
-  return `
+  return {
+    wrapper: css`
+      &.uni-tabs-wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: visible !important;
+
         /* 标签栏样式优化 - 支持自定义背景色（支持透明度） */
         .uni-tabs-header .ant-tabs {
           margin: 0 !important;
@@ -32,7 +51,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           outline: none !important;
           background: ${tabsBgColor} !important;
           padding-top: 2px !important;
-          padding-left: 8px !important;
+          padding-left: 0 !important;
         }
         /* 覆盖 Ant Design Tabs 原生下边框样式 */
         .uni-tabs-container .ant-tabs-nav {
@@ -40,7 +59,9 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           margin-bottom: 0 !important;
           padding: 0 !important;
           padding-bottom: 0 !important;
-          border-bottom: none !important;
+          border: none !important;
+          box-shadow: none !important;
+          outline: none !important;
           height: 38px !important;
           overflow: visible !important;
         }
@@ -49,7 +70,9 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           border-bottom: none !important;
         }
         .uni-tabs-container .ant-tabs-nav-wrap {
-          border-bottom: none !important;
+          border: none !important;
+          box-shadow: none !important;
+          outline: none !important;
           overflow-x: auto !important;
           /* 不设置 overflow-y，避免与 overflow-x: auto 冲突导致 visible 被计算为 auto */
           height: 38px !important;
@@ -61,6 +84,8 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           /* 隐藏滚动条且不占用高度 */
           scrollbar-width: none !important; /* Firefox */
           -ms-overflow-style: none !important; /* IE/Edge */
+          margin-left: 0 !important;
+          margin-right: 0 !important;
         }
         /* 隐藏 Chrome/Safari/Webkit 滚动条且不占用高度 */
         .uni-tabs-container .ant-tabs-nav-wrap::-webkit-scrollbar {
@@ -82,29 +107,20 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           height: 38px !important;
           display: flex !important;
           align-items: flex-end !important;
+          justify-content: flex-start !important;
+          margin-left: 8px !important;
+          margin-right: 0 !important;
+          width: max-content !important;
+          gap: 8px !important;
         }
         /* 覆盖所有可能的边框颜色 #F0F0F0 */
-        .uni-tabs-container .ant-tabs-nav,
-        .uni-tabs-container .ant-tabs-nav-wrap,
-        .uni-tabs-container .ant-tabs-nav-list,
-        .uni-tabs-container .ant-tabs-tab {
-          border-color: transparent !important;
-        }
-        .uni-tabs-container .ant-tabs-nav::after {
-          display: none !important;
-          border-bottom: none !important;
-        }
-        /* Chrome 式标签样式 - 所有标签都有顶部圆角 - 支持自定义背景色（支持透明度） */
         .uni-tabs-container .ant-tabs-tab {
           margin: 0 !important;
-          padding: 6px 16px 8px !important;
-          border: none !important;
-          border-bottom: none !important;
-          background: ${tabsBgColor} !important;
-          border-top-left-radius: ${tabRadius}px !important;
-          border-top-right-radius: ${tabRadius}px !important;
-          border-bottom-left-radius: 0 !important;
-          border-bottom-right-radius: 0 !important;
+          padding: 0 12px !important;
+          border: 1px solid var(--ant-colorBorder, #d9d9d9) !important;
+          border-radius: 9999px !important;
+          background: transparent !important;
+          box-shadow: none !important;
           position: relative;
           overflow: visible !important;
           height: 36px !important;
@@ -113,145 +129,90 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           align-items: center !important;
           box-sizing: border-box !important;
         }
-        /* 标签按钮和关闭按钮垂直居中 */
         .uni-tabs-container .ant-tabs-tab-btn {
           display: flex !important;
           align-items: center !important;
           line-height: 22px !important;
+          padding: 0 4px !important;
+          border-radius: 9999px !important;
         }
         .uni-tabs-container .ant-tabs-tab-remove {
           display: flex !important;
           align-items: center !important;
           line-height: 22px !important;
+          padding: 2px !important;
+          border-radius: 9999px !important;
+          transition: background 0.2s ease, color 0.2s ease !important;
         }
-        /* 未激活标签：使用竖线分隔 */
-        .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active) {
-          position: relative;
+        .uni-tabs-container .ant-tabs-tab-remove:hover {
+          background: transparent !important;
         }
         .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active)::after {
-          content: '';
-          position: absolute;
-          right: 0;
-          top: 50%;
-          transform: translateY(-50%);
-          width: 1px;
-          height: 16px;
-          background: rgba(0, 0, 0, 0.16) !important;
-          z-index: 1;
-          opacity: 1 !important;
+          display: none !important;
         }
-        /* 最后一个标签不需要右侧竖线 */
         .uni-tabs-container .ant-tabs-tab:last-child::after {
           display: none !important;
         }
         .uni-tabs-container .ant-tabs-content-holder {
           display: none;
         }
-        
-        /* 移除标签底部指示线 */
         .uni-tabs-container .ant-tabs-ink-bar {
           display: none !important;
         }
-        /* 激活标签背景色与内容区一致，仿 Chrome 浏览器样式 - 使用主题背景色 */
-        /* 参考：https://juejin.cn/post/6986827061461516324 */
         .uni-tabs-container .ant-tabs-tab-active {
-          background: var(--ant-colorBgLayout) !important;
-          border-bottom: none !important;
-          border-top-left-radius: ${tabRadius}px !important;
-          border-top-right-radius: ${tabRadius}px !important;
-          border-bottom-left-radius: 0 !important;
-          border-bottom-right-radius: 0 !important;
+          background: transparent !important;
+          border: 1px solid var(--ant-colorPrimary, #1677ff) !important;
+          border-radius: 9999px !important;
+          color: var(--ant-colorPrimary, #1677ff) !important;
+          padding: 0 14px !important;
+          margin: 0 !important;
           position: relative;
           z-index: 2;
-          margin-bottom: 0px !important;
-          margin-top: 0 !important;
+          box-shadow: none !important;
           overflow: visible !important;
-          /* Chrome 式外圆角效果 - 强制显示圆角，防止被父容器裁剪 */
-          border-radius: ${tabRadius}px ${tabRadius}px 0 0 !important;
-          padding: 6px 16px 8px !important;
           height: 36px !important;
           box-sizing: border-box !important;
           display: flex !important;
           align-items: center !important;
-          box-shadow: inset 0 3px 6px -3px rgba(0, 0, 0, 0.12) !important;
         }
-        /* Chrome 式反向圆角 - 使用伪元素实现左右两侧的内凹圆角 */
-        .uni-tabs-container .ant-tabs-tab-active::before,
-        .uni-tabs-container .ant-tabs-tab-active::after {
-          position: absolute;
-          bottom: 0;
-          content: '';
-          width: ${tabCornerDiameter}px;
-          height: ${tabCornerDiameter}px;
-          border-radius: 100%;
-          box-shadow: 0 0 0 40px var(--ant-colorBgLayout);
-          pointer-events: none;
-          z-index: -1;
-          /* 确保伪元素不被父容器裁剪 */
-          overflow: visible !important;
-          /* 确保伪元素可以溢出显示 */
-          will-change: transform;
+        .uni-tabs-container .ant-tabs-tab-active .ant-tabs-tab-btn {
+          color: var(--ant-colorPrimary, #1677ff) !important;
+          font-weight: 500 !important;
         }
-        /* 左侧反向圆角 */
-        .uni-tabs-container .ant-tabs-tab-active::before {
-          left: -${tabCornerDiameter}px;
-          clip-path: inset(50% -${tabRadius}px 0 50%);
+        .uni-tabs-container .ant-tabs-tab-active .ant-tabs-tab-remove {
+          color: var(--ant-colorPrimary, #1677ff) !important;
+          transition: background 0.2s ease, color 0.2s ease !important;
         }
-        /* 右侧反向圆角 - 调整 clip-path 确保右侧圆角正确显示 */
-        .uni-tabs-container .ant-tabs-tab-active::after {
-          right: -${tabCornerDiameter}px;
-          clip-path: inset(50% 50% 0 -${tabRadius}px);
-        }
-        /* 第一个标签不需要左侧反向圆角 */
-        .uni-tabs-container .ant-tabs-tab-active:first-child::before {
-          display: none;
-        }
-        /* 最后一个标签不需要右侧反向圆角 */
-        .uni-tabs-container .ant-tabs-tab-active:last-child::after {
-          display: none;
-        }
-        /* 确保单个标签时也没有底部间距 */
+                /* 确保单个标签时也没有底部间距 */
         .uni-tabs-container .ant-tabs-nav:has(.ant-tabs-tab:only-child) {
           margin-bottom: 0 !important;
         }
         .uni-tabs-container .ant-tabs-nav:has(.ant-tabs-tab:only-child) .ant-tabs-tab-active {
           margin-bottom: 0px !important;
         }
-        /* Chrome 式标签：激活标签与内容区无缝融合 */
-        /* 激活标签向左偏移1px，但排除第一个标签，实现标签之间的重叠效果 */
-        .uni-tabs-container .ant-tabs-tab-active:not(:first-child) {
-          margin-left: -1px !important;
-          padding-left: 17px !important;
-        }
         /* ==================== 标签栏文字颜色自动适配（根据背景色亮度反色处理） ==================== */
         /* 未激活标签文字颜色 - 根据标签栏背景色自动适配 */
         .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active) .ant-tabs-tab-btn {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : tabsTextColor} !important;
+          color: ${textSoft} !important;
           font-weight: normal !important;
         }
-        /* 未激活标签分隔线颜色 - 根据标签栏背景色自动适配 */
-        .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active)::after {
-          background: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.25)' : 'rgba(0, 0, 0, 0.16)'} !important;
-        }
+          /* 未激活标签分隔线颜色 - 根据标签栏背景色自动适配 */
+          .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active)::after {
+            display: none !important;
+          }
         /* Chrome 式效果：激活标签文字颜色 - 激活标签使用内容区背景，文字颜色使用默认主题色 */
         .uni-tabs-container .ant-tabs-tab-active .ant-tabs-tab-btn {
-          color: var(--ant-colorText) !important;
+          color: var(--ant-colorPrimary, #1677ff) !important;
           font-weight: 500 !important;
         }
         /* 标签关闭按钮颜色 - 根据标签栏背景色自动适配 */
         .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active) .ant-tabs-tab-remove {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.65)' : 'rgba(0, 0, 0, 0.45)'} !important;
+          color: ${textFaint} !important;
+          transition: background 0.2s ease, color 0.2s ease !important;
         }
         .uni-tabs-container .ant-tabs-tab:not(.ant-tabs-tab-active) .ant-tabs-tab-remove:hover {
           color: ${tabsTextColor} !important;
         }
-        /* Chrome 式效果：激活标签与相邻未激活标签之间的分隔线隐藏 */
-        /* 注意：不能隐藏激活标签的 ::after，因为需要用它来实现右侧圆角 */
-        /* 但是，激活标签后面的标签仍然需要显示分割线，所以不隐藏它 */
-        /* 注释掉原来的规则，让分割线正常显示 */
-        /* .uni-tabs-container .ant-tabs-tab-active + .ant-tabs-tab::after {
-          display: none !important;
-        } */
         /* 移除标签切换时的过渡动画 */
         .uni-tabs-container .ant-tabs-tab {
           transition: none !important;
@@ -259,13 +220,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
         .uni-tabs-container .ant-tabs-ink-bar {
           transition: none !important;
         }
-        /* 标签栏与内容区无缝融合 */
-        .uni-tabs-wrapper {
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          overflow: visible !important;
-        }
+
         /* 标签栏头部背景色 - 支持自定义背景色（支持透明度） */
         .uni-tabs-header {
           background: ${tabsBgColor} !important;
@@ -309,7 +264,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           margin-bottom: 0 !important;
         }
         .uni-tabs-container .ant-tabs-nav:has(.ant-tabs-tab:only-child) .ant-tabs-tab-active {
-          margin-bottom: -1px !important;
+          margin-bottom: 0px !important;
         }
         .uni-tabs-content {
           flex: 1 1 auto;
@@ -320,19 +275,20 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           position: relative;
           background: var(--ant-colorBgLayout);
           margin-top: 16px !important;
-          margin-right: ${isFullscreen ? '16px' : '0'} !important;
-          margin-bottom: ${isFullscreen ? '16px' : '0'} !important;
-          margin-left: ${isFullscreen ? '16px' : '0'} !important;
+          margin-right: ${contentGap} !important;
+          margin-bottom: ${contentGap} !important;
+          margin-left: ${contentGap} !important;
           padding-top: 0 !important;
           padding-bottom: 0 !important;
           box-sizing: border-box !important;
           /* 修复滚动：使用 calc 计算确切的内容区高度（视口 - 顶栏 - 标签栏 - 间距）。
-             全屏时四边等距 16px，因此垂直需扣减 32px。
-             min-height 与 height 同步：Safari 26.x beta 在 max-height + flex 子项 min-height:0 组合下
-             会把普通页主内容区坍缩为 0（运营看板因有 min-height 保底而正常）。 */
-          height: calc(100vh - ${isFullscreen ? '0px' : '56px'} - 56px - ${isFullscreen ? '32px' : '16px'}) !important;
-          max-height: calc(100vh - ${isFullscreen ? '0px' : '56px'} - 56px - ${isFullscreen ? '32px' : '16px'}) !important;
-          min-height: calc(100vh - var(--header-height, ${isFullscreen ? '0px' : '56px'}) - var(--tabs-height, 56px) - ${isFullscreen ? '32px' : '16px'}) !important;
+               全屏时四边等距 16px，因此垂直需扣减 32px。 */
+          height: calc(100vh - var(--header-height) - 56px - 16px - ${contentGap}) !important;
+          max-height: calc(100vh - var(--header-height) - 56px - 16px - ${contentGap}) !important;
+          min-height: calc(
+            100vh - var(--header-height, ${headerHeightFallback}) - var(--tabs-height, 56px) - 16px -
+              ${contentGap}
+          ) !important;
           /* 彻底隐藏滚动条且不占用空间 */
           scrollbar-width: none !important;
           -ms-overflow-style: none !important;
@@ -383,7 +339,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
         .uni-tabs-content-hmi-inner {
           flex: 1;
           min-height: 0;
-          border-radius: ${typeof token.borderRadius === 'number' ? token.borderRadius : 8}px !important;
+          border-radius: ${radiusLg} !important;
           overflow: hidden !important;
           isolation: isolate;
           contain: layout paint;
@@ -409,7 +365,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           min-height: 0;
           display: flex;
           flex-direction: column;
-          border-radius: ${typeof token.borderRadius === 'number' ? token.borderRadius : 8}px !important;
+          border-radius: ${radiusLg} !important;
           /* visible：避免裁切中间 WebGL 核（略超出时仍完整）；背景与看板同色，圆角外溢不明显 */
           overflow: visible !important;
           isolation: isolate;
@@ -436,6 +392,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           box-shadow: none !important;
           overflow: visible !important;
           overflow-x: visible !important;
+          justify-content: flex-start !important;
           overflow-y: visible !important;
           margin-bottom: 0 !important;
           padding-bottom: 0 !important;
@@ -448,12 +405,24 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           pointer-events: auto;
         }
         /* 滚动按钮样式 - 根据标签栏背景色自动适配颜色，统一大小和padding */
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]),
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]),
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]),
-        .uni-tabs-header-wrapper button.uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]),
-        .uni-tabs-header-wrapper button.uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]),
-        .uni-tabs-header-wrapper button.uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]) {
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]),
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]),
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ),
+        .uni-tabs-header-wrapper
+          button.uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]),
+        .uni-tabs-header-wrapper
+          button.uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ),
+        .uni-tabs-header-wrapper
+          button.uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ) {
           width: 24px !important; /* 图标14px + 左右padding各5px = 24px */
           height: 40px !important; /* 总高40px */
           padding: 13px 5px !important; /* 上下13px，左右5px，图标14px居中 */
@@ -465,7 +434,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           border-bottom: none !important;
           background: transparent !important;
           box-shadow: none !important;
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary} !important;
+          color: ${accent} !important;
           cursor: pointer !important;
           pointer-events: auto !important;
           position: relative !important;
@@ -475,19 +444,45 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           line-height: 1 !important;
         }
         /* 按钮图标颜色 - 根据标签栏背景色自动适配（深色背景使用浅色图标，浅色背景使用主题色） */
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]) .anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]) .ant-btn-icon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]) span.anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]) .anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]) .anticon,
-        .uni-tabs-header-wrapper button.uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]) .anticon,
-        .uni-tabs-header-wrapper button.uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]) .anticon,
-        .uni-tabs-header-wrapper button.uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]) .anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]) svg,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]) svg,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]) svg {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary} !important;
-          fill: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary} !important;
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          .anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          .ant-btn-icon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          span.anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          .anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          .anticon,
+        .uni-tabs-header-wrapper
+          button.uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          .anticon,
+        .uni-tabs-header-wrapper
+          button.uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          )
+          .anticon,
+        .uni-tabs-header-wrapper
+          button.uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          )
+          .anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          svg,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          svg,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled])
+          svg {
+          color: ${accent} !important;
+          fill: ${accent} !important;
         }
         /* 去掉按钮的所有伪元素和边框 */
         .uni-tabs-header-wrapper .uni-tabs-scroll-button::before,
@@ -545,19 +540,40 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           fill: rgba(0, 0, 0, 0.25) !important;
         }
         /* 可以点击时：主题色（默认状态，hover 时加深） */
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover {
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ):hover,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ):hover {
           color: var(--ant-colorPrimaryHover) !important;
           background: transparent !important;
           border: none !important;
           box-shadow: none !important;
         }
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover .anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover .ant-btn-icon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover span.anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover .anticon,
-        .uni-tabs-header-wrapper .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover .anticon {
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover
+          .anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover
+          .ant-btn-icon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button:not(:disabled):not(.ant-btn-disabled):not([disabled]):hover
+          span.anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ):hover
+          .anticon,
+        .uni-tabs-header-wrapper
+          .uni-tabs-scroll-button.ant-btn-text:not(:disabled):not(.ant-btn-disabled):not(
+            [disabled]
+          ):hover
+          .anticon {
           color: var(--ant-colorPrimaryHover) !important;
         }
         /* 按钮容器样式 - 高度与按钮一致，宽度等于按钮宽度 */
@@ -588,7 +604,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           top: -1px;
           bottom: 0; /* 确保分割线到底部 */
           width: 1px;
-          background: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.06)'} !important;
+          background: ${dividerSoft} !important;
           z-index: 1;
           opacity: 1 !important;
         }
@@ -600,7 +616,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           top: 0;
           bottom: 0; /* 与右侧阴影保持一致，确保对称 */
           width: 20px;
-          background: linear-gradient(to right, ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.08)'}, transparent) !important;
+          background: linear-gradient(to right, ${shadowSoft}, transparent) !important;
           pointer-events: none;
           z-index: 1; /* 与右侧阴影一致，确保不遮挡标签文字 */
         }
@@ -618,7 +634,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           top: -1px;
           bottom: 0; /* 确保分割线到底部 */
           width: 1px;
-          background: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.06)'} !important;
+          background: ${dividerSoft} !important;
           z-index: 1;
           opacity: 1 !important;
         }
@@ -630,16 +646,20 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           top: 0;
           bottom: 0;
           width: 20px;
-          background: linear-gradient(to left, ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.06)'}, transparent);
+          background: linear-gradient(to left, ${shadowSoft}, transparent);
           pointer-events: none;
           z-index: 1;
         }
         /* 如果有全屏按钮且没有右按钮，右侧阴影直接在全屏按钮左侧 */
-        .uni-tabs-header-wrapper.can-scroll-right:has(.uni-tabs-fullscreen-button-wrapper):not(:has(.uni-tabs-scroll-button-right))::after {
+        .uni-tabs-header-wrapper.can-scroll-right:has(.uni-tabs-fullscreen-button-wrapper):not(
+            :has(.uni-tabs-scroll-button-right)
+          )::after {
           right: 40px; /* 全屏按钮 40px */
         }
         /* 如果有全屏按钮且有右按钮，右侧阴影需要向右偏移 */
-        .uni-tabs-header-wrapper.can-scroll-right:has(.uni-tabs-fullscreen-button-wrapper):has(.uni-tabs-scroll-button-right)::after {
+        .uni-tabs-header-wrapper.can-scroll-right:has(.uni-tabs-fullscreen-button-wrapper):has(
+            .uni-tabs-scroll-button-right
+          )::after {
           right: 64px; /* 右按钮 24px + 全屏按钮 40px */
         }
         /* 全屏按钮容器样式 - 统一大小和padding，与按钮宽度高度一致 */
@@ -666,7 +686,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           top: -1px;
           bottom: 0; /* 确保分割线到底部 */
           width: 1px;
-          background: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.06)'} !important;
+          background: ${dividerSoft} !important;
           z-index: 1;
           opacity: 1 !important;
         }
@@ -680,7 +700,7 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           width: 40px !important; /* 正方形，与高度一致 */
           height: 40px !important; /* 总高40px */
           padding: 13px !important; /* 四周padding相等（左右13px），图标14px居中 */
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary} !important;
+          color: ${accent} !important;
         }
         /* 全屏按钮图标颜色 - 根据标签栏背景色自动适配 */
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button .anticon,
@@ -689,18 +709,18 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
         .uni-tabs-header-wrapper button.uni-tabs-fullscreen-button .anticon,
         .uni-tabs-header-wrapper button.uni-tabs-fullscreen-button.ant-btn .anticon,
         .uni-tabs-header-wrapper button.uni-tabs-fullscreen-button.ant-btn-text .anticon {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary} !important;
+          color: ${accent} !important;
         }
         /* 全屏按钮 hover 状态 - 根据标签栏背景色自动适配 */
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button:hover,
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button.ant-btn:hover,
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button.ant-btn-text:hover {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 1)' : 'var(--ant-colorPrimaryHover)'} !important;
+          color: ${accentHover} !important;
         }
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button:hover .anticon,
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button.ant-btn:hover .anticon,
         .uni-tabs-header-wrapper .uni-tabs-fullscreen-button.ant-btn-text:hover .anticon {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 1)' : 'var(--ant-colorPrimaryHover)'} !important;
+          color: ${accentHover} !important;
         }
         /* 标签栏容器 - 允许横向滚动，底部允许溢出显示外圆角 */
         .uni-tabs-container {
@@ -735,11 +755,11 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
         .uni-tabs-container .ant-tabs-nav-more {
           padding: 8px 0px 8px 8px !important;
           box-shadow: none !important;
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : tabsTextColor} !important;
+          color: ${textSoft} !important;
         }
         /* 更多标签按钮图标颜色 - 根据标签栏背景色自动适配 */
         .uni-tabs-container .ant-tabs-nav-more .anticon {
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.85)' : tabsTextColor} !important;
+          color: ${textSoft} !important;
         }
         .uni-tabs-container .ant-tabs-nav-operations {
           box-shadow: none !important;
@@ -766,15 +786,8 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           width: 0 !important;
           height: 0 !important;
         }
-        
-        /* 统一内容容器样式 */
-        .uni-tabs-wrapper {
-          display: flex;
-          flex-direction: column;
-          height: 100%;
-          overflow: hidden;
-        }
 
+        /* 统一内容容器样式 */
         .uni-tabs-content {
           flex: 1 1 auto;
           display: flex;
@@ -817,17 +830,20 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           border: none !important;
           background: transparent !important;
           box-shadow: none !important;
-          color: ${tabsTextColor === '#ffffff' ? 'rgba(255,255,255,0.85)' : token.colorText} !important;
+          color: ${menuColor} !important;
           font-size: 16px !important;
           border-radius: 50% !important;
           transition: background 0.2s ease !important;
         }
         .uni-tabs-menu-button:hover {
-          color: ${tabsTextColor === '#ffffff' ? '#ffffff' : token.colorText} !important;
-          background: ${tabsTextColor === '#ffffff' ? 'rgba(255,255,255,0.15)' : token.colorFillSecondary} !important;
+          color: ${menuHoverColor} !important;
+          background: ${menuHoverBg} !important;
         }
-        /* 全屏菜单 Popover 内的 antd Menu 样式紧凑化 */
-        .uni-tabs-nav-popover-menu .ant-menu {
+      }
+    `,
+    popoverMenu: css`
+      &.uni-tabs-nav-popover-menu {
+        .ant-menu {
           border: none !important;
           box-shadow: none !important;
           max-height: calc(100vh - 80px);
@@ -835,10 +851,12 @@ export function uniTabsStyles(vars: UniTabsStyleVars): string {
           scrollbar-width: none !important;
           -ms-overflow-style: none !important;
         }
-        .uni-tabs-nav-popover-menu .ant-menu::-webkit-scrollbar {
+        .ant-menu::-webkit-scrollbar {
           display: none !important;
           width: 0 !important;
           height: 0 !important;
         }
-      `;
-}
+      }
+    `,
+  }
+})
