@@ -25,7 +25,7 @@ export const LayoutHeaderContent: React.FC<LayoutHeaderContentProps> = ({
   return (
     <div style={{ display: 'flex', alignItems: 'center', height: '100%', gap: 12 }}>
       {/* 分割线 - 仅在 PC 端显示 */}
-      {!isMobileOrTablet && (
+      {/* {!isMobileOrTablet && (
         <Divider
           orientation="vertical"
           style={{
@@ -36,13 +36,13 @@ export const LayoutHeaderContent: React.FC<LayoutHeaderContentProps> = ({
             verticalAlign: 'middle',
           }}
         />
-      )}
+      )} */}
       {!isMobileOrTablet && (
         <span style={{ display: 'inline-flex', alignItems: 'center', marginRight: -8 }}>
           <HeaderQuickEntryPopover isLightModeLightBg={isLightModeLightBg} />
         </span>
       )}
-      <div ref={breadcrumbRef} style={{ flex: 1, minWidth: 0, overflow: 'hidden' }}>
+      <div ref={breadcrumbRef as React.RefObject<HTMLDivElement>} style={{ flex: 1, minWidth: 0, overflow: 'hidden' }}>
         <Breadcrumb
           style={{
             display: breadcrumbVisible ? 'flex' : 'none',

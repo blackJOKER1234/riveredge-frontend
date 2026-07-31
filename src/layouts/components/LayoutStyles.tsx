@@ -1077,7 +1077,7 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-pro-layout .ant-pro-layout-header,
               .ant-pro-layout .ant-layout-header {
                 background: ${headerBgColor} !important;
-                border-bottom: 1px solid ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.12)' : 'rgba(255, 255, 255, 0.12)'} !important;
+                border-bottom: none !important;
               }
               /* ==================== 顶栏文字颜色自动适配（根据背景色亮度反色处理） ==================== */
               /* 顶栏文字颜色 - 根据背景色亮度自动适配 */
@@ -1736,6 +1736,7 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               }
               .ant-layout-sider-children{
                 padding-inline: 0 !important;
+                border-inline-end: none !important;
               }
               /* 侧栏顶部搜索框：浅灰胶囊形（对齐截图），左右内边距由 wrapper 控制 */
               .ant-layout-sider .riveredge-sidebar-search-wrapper {
