@@ -24,6 +24,7 @@ interface TabHeaderProps {
   onTabClose: (key: string) => void;
   onScroll: (direction: 'left' | 'right') => void;
   getTabContextMenu: (key: string) => MenuProps;
+  popoverMenuClass?: string;
 }
 
 export function TabHeader({
@@ -40,6 +41,7 @@ export function TabHeader({
   onTabClose,
   onScroll,
   getTabContextMenu,
+  popoverMenuClass,
 }: TabHeaderProps) {
   const navigate = useNavigate();
   const { t } = useTranslation();
@@ -47,7 +49,7 @@ export function TabHeader({
   return (
     <div className="uni-tabs-header">
           <div
-            className={`uni-tabs-header-wrapper ${canScrollLeft ? 'can-scroll-left' : ''} ${canScrollRight ? 'can-scroll-right' : ''}`}
+            className={`flex items-center uni-tabs-header-wrapper ${canScrollLeft ? 'can-scroll-left' : ''} ${canScrollRight ? 'can-scroll-right' : ''}`}
             ref={tabsNavRef}
           >
             {/* 全屏模式：最左侧主菜单入口 */}
@@ -57,8 +59,8 @@ export function TabHeader({
                   placement="bottomLeft"
                   trigger="hover"
                   arrow={false}
-                  overlayClassName="uni-tabs-nav-popover-menu"
-                  overlayStyle={{ width: 240, padding: 0 }}
+                  classNames={{ root: `uni-tabs-nav-popover-menu ${popoverMenuClass ?? ''}` }}
+                  styles={{ root: { width: 240, padding: 0 } }}
                   content={
                     <Menu
                       mode="inline"
@@ -149,7 +151,7 @@ export function TabHeader({
                 closable: tab.closable && !tab.pinned, // 固定标签不可关闭
               }))}
               size="small"
-              className="uni-tabs-container"
+              className="mb-3! uni-tabs-container"
             />
             {/* 右侧滚动箭头 - 仅在需要时显示 */}
             {canScrollRight && (

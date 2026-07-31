@@ -1,88 +1,55 @@
-# PROJECT KNOWLEDGE BASE
+# Ant Design 组件覆盖 (ant-design/antd)
 
-**Generated:** 2026-06-10
-**Commit:** 08d90ce9
-**Branch:** feature/workflow-editor
+## 全局 Agent 规范
 
-## OVERVIEW
+以下规范对本目录及其子目录的所有 Agent 强制生效，优先级高于本文件其余内容。
 
-Ant Design 6 component overrides for `@redcoast/scada-ant-design`. Wraps antd components (button, tag, tabs, breadcrumb, empty, config-provider) with custom theme tokens. Provides factory-based style generation, CSS-in-JS helpers, and global style overrides.
+### 回复语言与交互规范
 
-## STRUCTURE
+1. 语言要求：全程使用简体中文回复；除代码片段、专有名词、引用原文外，默认不使用英文输出。
+2. 需求回显（绝对强制，不得跳过）：每次用户输入后，首先输出需求回显区块，然后才能执行任何工具或读取任何文件。回显需按主题分类整理为清晰要点，并追加“我已了解规则”。
+3. 输入纠错：能确定的输入问题自动修正；语义模糊、逻辑冲突、缺少关键信息或可能导致严重后果时，禁止猜测，必须向用户反问确认。
+4. 询问机制：
+   - 必须询问：语义模糊、逻辑冲突、重大技术决策（如框架选型、架构方案）。
+   - 禁止询问：版本号、依赖库等可从项目文件自主获取的信息；明显可推断的同音字错误。
 
-```
-src/antd/
-├── component/           # Overridden components
-│   ├── breadcrumb/     # Breadcrumb with theme token colors
-│   ├── button/         # Button, ButtonRC — themed action buttons
-│   ├── config-provider/# ThemeConfigProvider — merges design tokens into antd theme
-│   ├── editor/         # ConditionBuilder, AutoComplete2 — condition rule builder + slash-triggered autocomplete
-│   ├── empty/          # Empty state with custom webp illustrations
-│   ├── fold/           # Fold, FoldTable — collapsible sections
-│   ├── icon/           # SvgIcon — SVG icon wrapper
-│   ├── tabs/           # TabLabel only (no Tabs wrapper — folder name mismatch)
-│   └── tag/            # Tag — status/color tags with theme tokens
-├── factory/            # Style factory (antd-style re-export)
-│   └── style.ts        # createStyles re-export with RedcoastToken augmentation
-├── hook/               # CSS-in-JS helper
-│   └── use-style.ts    # Wraps antd-style createStyles with project token types
-├── style/              # Global CSS overrides
-│   ├── index.css       # Component-level overrides
-│   ├── reset.css       # Ant Design reset overrides
-│   └── scheduleTimepicker.css  # Schedule timepicker overrides
-├── index.ts            # Barrel: component + factory + hook, side-effect style import
-└── AGENTS.md           # This file
-```
+### 网页搜索
 
-## WHERE TO LOOK
+- `web_search` 失效时，改用 `ddg-search` MCP 进行搜索。
 
-| Task | Location | Notes |
-|------|----------|-------|
-| Override an antd component | `component/<name>/` | Follow ButtonRC pattern |
-| Add component | `component/<name>/` | Create `index.tsx` + optional style.ts |
-| Modify theme injection | `component/config-provider/` | ConfigProvider wraps antd + antd-style |
-| CSS-in-JS | `hook/use-style.ts` | Wraps antd-style createStyles |
-| Re-export createStyles | `factory/style.ts` | RedcoastToken augmentation |
-| Global CSS | `style/` | Imported as side effect by `index.ts` |
+### Team 与 Agent 调用
 
-## EXPORTS
+- 探索型任务优先通过子 Agent 处理。
+- 工具调用优先使用 haiku 模型；探索型任务与子 Agent 优先使用 haiku 或 `deepseek-v4-flash` 模型。
 
-| Symbol | Source | Type |
-|--------|--------|------|
-| `Button`, `ButtonRC` | `component/button` | Named re-export |
-| `ConfigProvider` | `component/config-provider` | Default re-export |
-| `Empty`, `ShowEmpty` | `component/empty` | Default + named re-export |
-| `Fold`, `FoldTable` | `component/fold` | Named re-export |
-| `TabLabel` | `component/tabs` | Named re-export |
-| `Tag` | `component/tag` | Default re-export |
-| `Breadcrumb`, `BreadcrumbItemType` | `component/breadcrumb` | Wildcard re-export |
-| `SvgIcon` | `component/icon` | Named re-export |
-| `AutoComplete2` | `component/editor` | Default re-export |
-| `ConditionBuilder` | `component/editor` | Default re-export |
-| `createStyles` | `factory/style` | Named re-export |
-| `useStyle` | `hook/use-style` | Default re-export |
+## 模块说明
 
-## CONVENTIONS
+Ant Design 组件覆盖子项目，从旧 SCADA 设计系统迁移而来。当前 `src/` 业务代码未发现直接引用，属于可参考、可恢复的遗留实现。
 
-- Each component override in its own subdirectory under `component/`
-- CSS-in-JS via `antd-style` `createStyles` (from `hook/use-style.ts`)
-- Theme tokens flow through `ThemeConfigProvider` → antd `ConfigProvider` theme prop
-- Global CSS imported as side effect in `index.ts` (not tree-shakeable)
-- Types augmented via `declare module "antd-style"` in `factory/style.ts`
-
-## OVERRIDE PATTERN
+## 目录结构
 
 ```
-component/<name>/
-├── index.tsx    # Wrapped component (antd props + theme tokens)
-└── style.ts     # (optional) Custom styles
+ant-design/antd/
+├── index.ts              # 导出入口
+├── component/            # 覆盖组件
+│   ├── breadcrumb/       # Breadcrumb
+│   ├── button/           # Button / ButtonRC
+│   ├── completeness-bar/ # 完整性进度条
+│   ├── config-provider/  # ThemeConfigProvider
+│   ├── empty/            # Empty / ShowEmpty
+│   └── icon/             # SvgIcon
+├── factory/              # style.ts（antd-style createStyles 工厂）
+├── hook/                 # use-style.ts（CSS-in-JS 辅助）
+└── style/                # GlobalStyle / index.css / reset.css / scheduleTimepicker.css
 ```
 
-## ANTI-PATTERNS
+## 已知问题
 
-- Do NOT modify antd source directly — always wrap/override
-- Do NOT bypass ThemeConfigProvider for component-level theming
-- Do NOT add per-component global CSS — use CSS-in-JS
-- Do NOT import from outside the antd subsystem boundary
-- Do NOT duplicate token values from `core/theme/token.ts`
-- Do NOT add side-effect CSS imports to component-level barrel files — keep in `index.ts`
+- `component/index.ts` 仍导出 `./tabs`、`./tag`、`./fold`、`./editor`、`./tooltip`、`./timeline`、`./step`，但对应目录已不存在，直接引用该入口会编译失败。
+- 当前项目实际使用的组件级主题 token 已迁移到 `src/theme/components-token.ts` 与 `src/config/antdTheme.ts`。
+
+## 约定
+
+- 覆盖 antd 组件时遵循 wrapper 模式，不修改 antd 源码。
+- 若需重新启用本子项目，先修复 `component/index.ts` 的悬空导出并补齐缺失目录。
+- 全局 CSS 副作用导入保持在 `index.ts` / `style/index.ts`，子组件不额外导入。

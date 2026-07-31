@@ -1,74 +1,56 @@
-# PROJECT KNOWLEDGE BASE
+# 设计系统核心 (ant-design/core)
 
-**Generated:** 2026-06-10
-**Commit:** 08d90ce9
-**Branch:** feature/workflow-editor
+## 全局 Agent 规范
 
-## OVERVIEW
+以下规范对本目录及其子目录的所有 Agent 强制生效，优先级高于本文件其余内容。
 
-Design system core for `@redcoast/scada-ant-design`. Theme tokens (Dark/Light), ThemeProvider + context, `useTheme` hook, TypeScript type definitions, and base CSS styles. Consumed by `antd/` component overrides and SCADA application code.
+### 回复语言与交互规范
 
-## STRUCTURE
+1. 语言要求：全程使用简体中文回复；除代码片段、专有名词、引用原文外，默认不使用英文输出。
+2. 需求回显（绝对强制，不得跳过）：每次用户输入后，首先输出需求回显区块，然后才能执行任何工具或读取任何文件。回显需按主题分类整理为清晰要点，并追加“我已了解规则”。
+3. 输入纠错：能确定的输入问题自动修正；语义模糊、逻辑冲突、缺少关键信息或可能导致严重后果时，禁止猜测，必须向用户反问确认。
+4. 询问机制：
+   - 必须询问：语义模糊、逻辑冲突、重大技术决策（如框架选型、架构方案）。
+   - 禁止询问：版本号、依赖库等可从项目文件自主获取的信息；明显可推断的同音字错误。
+
+### 网页搜索
+
+- `web_search` 失效时，改用 `ddg-search` MCP 进行搜索。
+
+### Team 与 Agent 调用
+
+- 探索型任务优先通过子 Agent 处理。
+- 工具调用优先使用 haiku 模型；探索型任务与子 Agent 优先使用 haiku 或 `deepseek-v4-flash` 模型。
+
+## 模块说明
+
+设计系统核心子项目（主题 token、ThemeProvider、`useTheme`、类型与基础样式），从旧 SCADA 设计系统迁移而来。当前 `src/` 业务代码未发现直接引用；实际使用的组件级主题 token 已迁移到 `src/theme/components-token.ts`。
+
+## 目录结构
 
 ```
-src/core/
-├── component/           # ThemeProvider + React context
-│   └── theme-provider/ # Props: theme string + themeLib Record; wraps children with token context
-├── dts/                # TypeScript type definitions
-│   └── type/
-│       ├── token.ts    # commonComponentTokens, CustomToken, color token type hierarchy
-│       └── theme-lib.ts # ThemeLib — theme token shape exported from theme library
-├── hook/               # useTheme hook
-│   └── use-theme.ts    # useContext wrapper around context from theme-provider
-├── style/              # Global CSS
-│   ├── base.css        # Base reset styles
-│   └── scrollbar.css   # Custom scrollbar styles
-├── theme/              # Token definitions + theme library
-│   ├── token.ts        # Default token values (commonComponentTokens shape)
-│   ├── Dark.tokens.ts  # Dark theme token overrides
-│   ├── Light.tokens.ts # Light theme token overrides
-│   ├── theme-lib.ts    # Theme library (darkTheme, lightTheme exports), theme merging logic
-│   └── color-mapping.md # Tailwind → design token color translation guide
-├── index.ts            # Barrel: re-exports + side-effect CSS imports
-└── AGENTS.md           # This file (root) + theme/ subdirectory (reference doc)
+ant-design/core/
+├── index.ts                  # 导出入口 + 副作用 CSS 导入
+├── component/theme-provider/ # ThemeProvider + context
+├── dts/type/                 # token.ts / theme-lib.ts 类型
+├── hook/use-theme.ts         # useTheme
+├── style/                    # base.css / scrollbar.css
+└── theme/                    # token.ts / Dark.tokens.ts / Light.tokens.ts / theme-lib.ts / color-mapping.md
 ```
 
-## WHERE TO LOOK
+## 导出
 
-| Task | Location | Notes |
-|------|----------|-------|
-| Modify theme tokens | `theme/Dark.tokens.ts` or `theme/Light.tokens.ts` | Maps TailwindCSS colors → design tokens |
-| Add new token type | `dts/type/token.ts` | commonComponentTokens interface |
-| Change ThemeProvider | `component/theme-provider/` | Creates React context, sets scrollbar CSS var |
-| Use theme in components | `hook/use-theme.ts` | Returns commonComponentTokens from context |
-| Update theme library | `theme/theme-lib.ts` | Exports darkTheme, lightTheme, themeLib |
-| View color mapping | `theme/color-mapping.md` | TailwindCSS → Ant Design Token reference |
-| Add base styles | `style/` | CSS imported as side effect by index.ts |
+| 符号 | 说明 |
+|------|------|
+| `ThemeProvider` / `context` | 主题 Provider 与上下文 |
+| `useTheme` | 读取当前主题 token |
+| `token` | 默认 token 值 |
+| `darkTheme` / `lightTheme` / `themeLib` | 主题库 |
+| 类型定义 | 经 `dts` 链式导出 |
 
-## EXPORTS
+## 约定
 
-| Symbol | Source | Type |
-|--------|--------|------|
-| `ThemeProvider` | `component/theme-provider` | Default export |
-| `context` | `component/theme-provider` | Named export (React context) |
-| `useTheme` | `hook/use-theme` | Default export |
-| `token` | `theme/token` | Default export (default values) |
-| `darkTheme`, `lightTheme`, `themeLib` | `theme/theme-lib` | Named exports |
-| All type definitions | `dts/type/token`, `dts/type/theme-lib` | Re-exported via barrel chain: core → dts → type |
-
-## CONVENTIONS
-
-- Theme tokens defined in `theme/*.tokens.ts` with Chinese docs, English identifiers
-- Color tokens accessed via `useTheme()` hook in components
-- Scrollbar background synced from `black["black 10%"]` token via useEffect in ThemeProvider
-- Token types tightly coupled to token shapes — update both `dts/type/token.ts` and theme files together
-- Side-effect CSS imports in `index.ts` ensure global styles always loaded
-- `theme/AGENTS.md` is a reference doc for Chinese→English key renaming history
-
-## ANTI-PATTERNS
-
-- Do NOT use TailwindCSS color literals (`text-[#ADADAD]`) — always use `useTheme()` tokens
-- Do NOT bypass ThemeProvider — component must be wrapped to access theme context
-- Do NOT import theme tokens from `theme/Dark.tokens.ts` directly — use `theme/theme-lib.ts` exports
-- Do NOT add side-effect CSS imports in sub-barrels — keep in `core/index.ts`
-- Do NOT modify `theme/AGENTS.md` unless token keys are renamed again
+- Token 类型与 `theme/*.tokens.ts` 需同步修改，不能只改一边。
+- 颜色映射参考 `theme/color-mapping.md`。
+- 若重新接入业务，先确认与 `src/theme/components-token.ts` 的类型/结构兼容，避免两套 token 冲突。
+- 副作用 CSS 导入只放在 `index.ts`，子目录不新增全局样式副作用。

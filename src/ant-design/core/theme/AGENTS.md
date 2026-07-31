@@ -1,8 +1,28 @@
 # THEME TOKENS KEY MAPPING
 
-**Generated:** 2026-06-01
-**Commit:** TBD
-**Branch:** develop
+## 全局 Agent 规范
+
+以下规范对本目录及其子目录的所有 Agent 强制生效，优先级高于本文件其余内容。
+
+### 回复语言与交互规范
+
+1. 语言要求：全程使用简体中文回复；除代码片段、专有名词、引用原文外，默认不使用英文输出。
+2. 需求回显（绝对强制，不得跳过）：每次用户输入后，首先输出需求回显区块，然后才能执行任何工具或读取任何文件。回显需按主题分类整理为清晰要点，并追加“我已了解规则”。
+3. 输入纠错：能确定的输入问题自动修正；语义模糊、逻辑冲突、缺少关键信息或可能导致严重后果时，禁止猜测，必须向用户反问确认。
+4. 询问机制：
+   - 必须询问：语义模糊、逻辑冲突、重大技术决策（如框架选型、架构方案）。
+   - 禁止询问：版本号、依赖库等可从项目文件自主获取的信息；明显可推断的同音字错误。
+
+### 网页搜索
+
+- `web_search` 失效时，改用 `ddg-search` MCP 进行搜索。
+
+### Team 与 Agent 调用
+
+- 探索型任务优先通过子 Agent 处理。
+- 工具调用优先使用 haiku 模型；探索型任务与子 Agent 优先使用 haiku 或 `deepseek-v4-flash` 模型。
+
+**状态：** 历史迁移记录（来自旧 SCADA 设计系统）。本目录当前未被 `src/` 业务代码直接引用；活跃的组件级主题 token 在 `src/theme/components-token.ts`，接入配置在 `src/config/antdTheme.ts`。
 
 ## OVERVIEW
 
@@ -11,6 +31,8 @@ This document records the mapping from Chinese key names to English key names in
 ## TailwindCSS → Ant Design Token 转化
 
 当代码中涉及 TailwindCSS 颜色变量（如 `text-[#ADADAD]`、`bg-[#F3F5F7]`、`border-[#D9D9D9]` 等）时，参照 [`color-mapping.md`](./color-mapping.md) 中的颜色映射表转化为对应的 Ant Design Token，并通过 `useTheme()` Hook 使用。
+
+注意：该转化示例适用于本子项目的 `useTheme()` token；当前 riveredge 主项目请以 `src/theme/components-token.ts` 与 `src/config/themeTokens.ts` 为准，不要直接引入本子项目 token。
 
 转化方式：
 ```tsx
@@ -193,21 +215,4 @@ const tableHeaderBg = darkTokens.other.tableHeaderBg;
 
 ## FILES MODIFIED
 
-| File | Change |
-|---|---|
-| `redcoast-design/core/dts/type/token.ts` | Type definitions updated with English keys |
-| `redcoast-design/core/theme/Dark.tokens.ts` | All Chinese keys renamed to English |
-| `redcoast-design/core/theme/Light.tokens.ts` | All Chinese keys renamed to English |
-| `redcoast-design/core/theme/theme-lib.ts` | All property access references updated |
-| `redcoast-design/antd/component/config-provider/theme.ts` | `表格表头` → `tableHeaderBg` |
-| `redcoast-design/antd/hook/use-style.ts` | `表格表头` → `tableHeaderBg` |
-| `src/components/form/Upload.tsx` | `上传底色` → `uploadBg` |
-| `src/layouts/_common/account-dropdown.tsx` | `转换色` → `scale`, `blue9（4%主）` → `blue9` |
-| `src/layouts/dashboard/header.tsx` | `页面底色` → `pageBg` |
-| `src/layouts/dashboard/main.tsx` | `页面底色` → `pageBg` |
-| `src/pages/(app)/SCADA/equipment/type/-modules/ActionTab.tsx` | `深蓝灰底` → `darkGrayBg` |
-| `src/pages/(app)/SCADA/equipment/type/-modules/ActionTabInputParams.tsx` | `页面底色` → `pageBg` |
-| `src/pages/(app)/SCADA/equipment/type/-modules/ActionTabReadOnlyView.tsx` | Multiple Chinese keys → English |
-| `src/pages/(app)/SCADA/equipment/type/-modules/QuotesTab.tsx` | Multiple Chinese keys → English |
-| `src/pages/(components)/components/label/LoginMethodTags.tsx` | `页面底色` → `pageBg` |
-| `redcoast-design/core/theme/color-mapping.md` | Documentation references updated |
+上述中文 key → 英文 key 的改动发生在旧 SCADA 仓库，本仓库只保留了迁移结果与映射说明。修改 token 时以当前目录实际文件为准，同时检查 `src/theme/components-token.ts` 是否需要同步。

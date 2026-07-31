@@ -1,40 +1,55 @@
 # 路由配置 (routes)
 
+## 全局 Agent 规范
+
+以下规范对本目录及其子目录的所有 Agent 强制生效，优先级高于本文件其余内容。
+
+### 回复语言与交互规范
+
+1. 语言要求：全程使用简体中文回复；除代码片段、专有名词、引用原文外，默认不使用英文输出。
+2. 需求回显（绝对强制，不得跳过）：每次用户输入后，首先输出需求回显区块，然后才能执行任何工具或读取任何文件。回显需按主题分类整理为清晰要点，并追加“我已了解规则”。
+3. 输入纠错：能确定的输入问题自动修正；语义模糊、逻辑冲突、缺少关键信息或可能导致严重后果时，禁止猜测，必须向用户反问确认。
+4. 询问机制：
+   - 必须询问：语义模糊、逻辑冲突、重大技术决策（如框架选型、架构方案）。
+   - 禁止询问：版本号、依赖库等可从项目文件自主获取的信息；明显可推断的同音字错误。
+
+### 网页搜索
+
+- `web_search` 失效时，改用 `ddg-search` MCP 进行搜索。
+
+### Team 与 Agent 调用
+
+- 探索型任务优先通过子 Agent 处理。
+- 工具调用优先使用 haiku 模型；探索型任务与子 Agent 优先使用 haiku 或 `deepseek-v4-flash` 模型。
+
 ## 模块说明
 
-项目路由配置模块，定义页面路由、权限守卫、懒加载等。
+主路由装配与系统/应用路由隔离层。
 
 ## 目录结构
 
 ```
 routes/
-├── index.tsx                  # 导出入口
-├── AppRoutes.tsx              # 应用路由配置
-├── SystemRoutes.tsx           # 系统管理路由
-└── systemRoutePrefetch.ts     # 系统路由预加载
+├── index.tsx              # 主路由：BasicLayout 装配、公开路由判定
+├── SystemRoutes.tsx       # 系统核心路由（不依赖应用加载）
+├── AppRoutes.tsx          # 应用业务路由（异步加载、错误隔离）
+└── systemRoutePrefetch.ts # 系统路由预加载
 ```
+
+## 架构规则
+
+- 系统层（SystemRoutes）与应用层（AppRoutes）完全隔离：系统核心功能不依赖应用加载，应用加载失败不影响系统。
+- `BasicLayout` 提升到主路由层级统一管理，系统级与应用级路由共享同一个布局实例。
+- 公开路由（`/`、`/login`、`/infra/login`、`/lock-screen`、`/init/*`、报表/大屏分享页等）不包裹 BasicLayout。
+- 应用路由由已安装应用列表驱动，通过 `loadPlugin` + `React.lazy` 按需加载。
 
 ## 路由规则
 
-- **懒加载**：页面组件按需加载
-- **权限控制**：基于用户角色的路由守卫
-- **多租户**：租户隔离的路由前缀
+- 页面组件使用 `React.lazy` 按需加载。
+- 新增系统页面同步注册到 `SystemRoutes.tsx`；新增应用页面在应用包内注册。
+- 登录验证与租户校验在布局层/`auth-guard` 处理，路由层负责隔离与组装。
 
-## 路由配置示例
+## 权限与租户
 
-```tsx
-// SystemRoutes.tsx
-export const systemRoutes: RouteObject[] = [
-  {
-    path: '/system/users',
-    component: lazy(() => import('@/pages/system/users')),
-    meta: { permission: 'system:user:view' }
-  }
-];
-```
-
-## 权限守卫
-
-- **登录验证**：未登录重定向到登录页
-- **权限校验**：基于菜单权限的访问控制
-- **租户校验**：跨租户访问拦截
+- 应用级鉴权见 `src/components/auth-guard.tsx`。
+- 租户隔离：路由前缀与租户切换由布局与导航统一处理。

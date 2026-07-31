@@ -7,7 +7,7 @@
 import { useEffect, useMemo, useCallback, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { theme, message, type MenuProps } from 'antd';
+import { App, theme, type MenuProps } from 'antd';
 import type { MenuDataItem } from '@ant-design/pro-components';
 import { useTranslation } from 'react-i18next';
 import { findMenuTitleWithTranslation } from '../../utils/menuTranslation';
@@ -42,6 +42,7 @@ export function useUniTabsState({ menuConfig }: Pick<UniTabsProps, 'menuConfig'>
   const navigate = useNavigate();
   const location = useLocation();
   const { token } = theme.useToken();
+  const { message } = App.useApp();
   const { t } = useTranslation(); // 获取翻译函数
   // 辅助：同步获取持久化配置（从用户偏好存储读取，store 未就绪时从 persist 缓存回退）
   const getInitialPersistence = () => {
@@ -753,7 +754,7 @@ export function useUniTabsState({ menuConfig }: Pick<UniTabsProps, 'menuConfig'>
       favoriteSavingRef.current = false;
     }
     message.success(t('ui.message.favoriteSuccess'));
-  }, [dashboardQuickEntries, findMenuItemByPath, getTabTitle, updatePreferences, tenantHomePath, t]);
+  }, [dashboardQuickEntries, findMenuItemByPath, getTabTitle, message, updatePreferences, tenantHomePath, t]);
 
   /**
    * 获取标签右键菜单

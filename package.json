@@ -57,6 +57,7 @@
         "@univerjs/ui": "^0.12.4",
         "ahooks": "^3.9.6",
         "antd": "^6.4.4",
+        "antd-style": "^3.7.1",
         "browser-image-compression": "^2.0.2",
         "dayjs": "1.11.13",
         "dompurify": "^3.4.10",

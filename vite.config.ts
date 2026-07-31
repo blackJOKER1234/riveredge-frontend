@@ -70,10 +70,13 @@ export default defineConfig({
   assetsInclude: ['**/*.wasm'],
   // 服务器配置
   server: {
-    host: '0.0.0.0',
+    // 支持局域网访问；VITE_HOST 由 package.json dev 脚本注入，未设置时默认监听所有网卡
+    host: process.env.VITE_HOST || '0.0.0.0',
+    // 局域网设备通过主机名/IP 访问均放行，避免 Vite 8 默认 Host 校验返回 403
+    allowedHosts: true,
     port: 8100,
     strictPort: false,
-    open: false,
+    open: true,
     cors: true,
     proxy: {
       '/api': {
