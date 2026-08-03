@@ -1,10 +1,15 @@
 /** UniTable 容器/表身样式：由组件注入 <style>，避免新增全局样式文件 */
 export const UNI_TABLE_STYLES = `
+        .ant-table-container {
+          height: calc(100% - 148px)!important;
+          max-height: calc(100% - 148px)!important;
+        }
         /* 统一 UniTable 容器样式，确保所有页面间距一致 */
         .uni-table-container {
           position: relative;
           padding: 0;
           margin: 0;
+          flex: 1 1 auto;
           width: 100%;
         }
         /* ProTable 外框：ProCard 默认用 colorSplit 过浅，统一为次级边框色 */
