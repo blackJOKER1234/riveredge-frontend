@@ -31,7 +31,7 @@ export const LayoutPageBody: React.FC<LayoutPageBodyProps> = ({
       onToggleFullscreen={onToggleFullscreen}
     >
       <div
-        className="p-4"
+        className="box-border p-4"
         style={{
           // borderRadius: token.borderRadius,
           backgroundColor: token.colorBgContainer,
@@ -39,19 +39,20 @@ export const LayoutPageBody: React.FC<LayoutPageBodyProps> = ({
           minHeight: 0,
           display: 'flex',
           flexDirection: 'column',
-          overflow: 'hidden',
+          overflow: 'auto',
         }}
       >
         <div
+          className="p-4 overflow-auto"
           style={{
             borderRadius: token.borderRadius,
-            backgroundColor: token.colorBgContainer,
+            backgroundColor: token.colorBgLayout,
             flex: '1 1 auto',
             minHeight: 0,
             overflow: 'auto',
           }}
         >
-         {children}
+          {children}
         </div>
       </div>
     </UniTabs>

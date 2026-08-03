@@ -282,8 +282,8 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           box-sizing: border-box !important;
           /* 修复滚动：使用 calc 计算确切的内容区高度（视口 - 顶栏 - 标签栏 - 间距）。
                全屏时四边等距 16px，因此垂直需扣减 32px。 */
-          height: calc(100vh - var(--header-height) - 56px - 16px - ${contentGap}) !important;
-          max-height: calc(100vh - var(--header-height) - 56px - 16px - ${contentGap}) !important;
+          height: calc(100vh - var(--header-height) - 16px - ${contentGap}) !important;
+          max-height: calc(100vh - var(--header-height) - 42px - ${contentGap}) !important;
           min-height: calc(
             100vh - var(--header-height, ${headerHeightFallback}) - var(--tabs-height, 56px) - 16px -
               ${contentGap}

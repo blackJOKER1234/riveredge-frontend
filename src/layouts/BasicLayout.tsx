@@ -657,6 +657,11 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
           paddingInlineStart: 0,
           paddingInlineEnd: 0,
           background: token.colorBgLayout || (isDarkMode ? '#141414' : '#f5f5f5'),
+          // 建立 flex 高度链，让内容区（LayoutPageBody）占满剩余空间
+          display: 'flex',
+          flexDirection: 'column',
+          flex: '1 1 auto',
+          minHeight: 0,
           // 全屏时：确保内容区域占据全屏，覆盖 ProLayout 的默认 padding-inline: 40px
           ...(isFullscreen ? {
             marginLeft: 0,
