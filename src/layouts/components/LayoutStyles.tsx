@@ -39,10 +39,12 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
     <>
             <style>{`
               html, body {
+                height: 100% !important;
                 background-color: ${token.colorBgLayout || (isDarkMode ? '#141414' : '#f5f5f5')} !important;
                 transition: none !important;
               }
               #root {
+                height: 100% !important;
                 background-color: ${token.colorBgLayout || (isDarkMode ? '#141414' : '#f5f5f5')} !important;
                 transition: none !important;
               }
@@ -515,12 +517,13 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                  antd v6（node_modules/antd/es/menu/style/vertical.js）对收起态写死：
                    .ant-menu-inline-collapsed > .ant-menu-item > .ant-menu-title-content { width:0; opacity:0; overflow:hidden }
                  v6 假设图标是 title-content 的兄弟节点（antd 自带的 .ant-menu-item-icon），收起时把整块
-                 title-content 隐藏、单独保留图标；但 ProLayout 7.x 把图标放进 title-content 内部
-                 （.ant-pro-base-menu-inline-item-icon），导致图标被一起隐藏。这里恢复其可见并居中（仅图标，无文字）。
+                 title-content 隐藏、单独保留图标；但 ProLayout 折叠态实际渲染的是 vertical 结构
+                 （.ant-pro-base-menu-vertical-item-title），图标和文字都放在 title-content 内部，导致图标被一起隐藏。
+                 这里恢复其可见并居中（仅图标，无文字）。
                  ⚠️ 必须用「子选择器」精确限定到收起栏顶层项，不能用后代选择器——否则会波及悬浮弹出的二级菜单
                  （ProLayout 把弹出层挂在 body，层级与作用域均不同），破坏其 antd 原生样式。 */
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-item > .ant-menu-title-content,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title > .ant-menu-title-content {
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item > .ant-menu-title-content,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title > .ant-menu-title-content {
                 width: 100% !important;
                 opacity: 1 !important;
                 overflow: visible !important;
@@ -530,23 +533,35 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 flex: none !important;
               }
               /* 收起态一级项：清掉 antd v6 的 padding-inline 居中（其前提是图标在 title-content 外），改用 flex 居中。 */
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-item,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
                 padding-inline: 0 !important;
                 justify-content: center !important;
               }
+              /* 收起态隐藏菜单文字，仅保留图标（折叠态 ProLayout 使用 vertical 结构，文字为 .ant-pro-base-menu-vertical-item-text） */
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item .ant-pro-base-menu-vertical-item-text,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu .ant-pro-base-menu-vertical-item-text {
+                display: none !important;
+              }
+              /* 收起态居中 ProLayout vertical 标题容器 */
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed .ant-pro-base-menu-vertical-item-title {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: auto !important;
+              }
               /* 收起态：激活菜单使用主题色背景，图标白色 */
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title {
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title {
                 background-color: var(--riveredge-menu-primary-color) !important;
                 color: #fff !important;
               }
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected .anticon,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected svg,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title .anticon,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title svg,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected .ant-pro-base-menu-inline-item-icon,
-              .ant-pro-layout .ant-pro-sider-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title .ant-pro-base-menu-inline-item-icon {
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected .anticon,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected svg,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title .anticon,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title svg,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-item.ant-menu-item-selected .ant-pro-base-menu-vertical-item-icon,
+              .ant-pro-layout .ant-pro-sider .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu.ant-menu-submenu-selected > .ant-menu-submenu-title .ant-pro-base-menu-vertical-item-icon {
                 color: #fff !important;
               }
         
@@ -1742,6 +1757,9 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-layout-sider .riveredge-sidebar-search-wrapper {
                 width: 100% !important;
                 box-sizing: border-box;
+              }
+              .ant-pro-sider-extra {
+                margin: 12px 12px 0 12px !important;
               }
               .ant-layout-sider .riveredge-sidebar-search-wrapper .ant-input-affix-wrapper {
                 width: 100% !important;

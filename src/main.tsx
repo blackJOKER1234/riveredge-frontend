@@ -1,4 +1,5 @@
 import React from 'react'
+import { scan } from 'react-scan'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
@@ -12,6 +13,11 @@ import { seedCurrentUserFromAuthStorage } from './utils/restoredUser'
 
 import './initSpinIndicator'
 import './config/dayjs'
+
+// React Scan：仅开发环境开启组件渲染扫描，生产构建不启用
+if (import.meta.env.DEV) {
+  scan();
+}
 
 // ⚠️ 抑制 Three.js / R3F 已知的不兼容警告 (THREE.Clock 弃用)
 if (typeof console !== 'undefined') {

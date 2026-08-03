@@ -24,6 +24,7 @@ export default {
   'dashboard.businessBoard.subtitle': '综合运营态势 · 指标与多维图表',
   'dashboard.businessBoard.fullscreen': '全屏',
   'dashboard.businessBoard.exitFullscreen': '退出全屏',
+  'dashboard.businessBoard.back': '返回',
   'dashboard.businessBoard.pieCenter': '单据',
   'dashboard.businessBoard.pieCenterDevice': '设备',
   'dashboard.businessBoard.metric.orders': '订单',

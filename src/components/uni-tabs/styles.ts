@@ -295,6 +295,7 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
         /* 工作台：不滚动，边距由内部 DashboardTemplate 控制避免加载抖动 */
         .uni-tabs-content.uni-tabs-content-dashboard {
           overflow: hidden !important;
+          margin: 0 !important;
         }
 
         /* 普通业务页：占满内容区高度，避免 Safari 26 flex 子项高度坍缩 */
@@ -353,7 +354,7 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           min-height: 0;
           width: 100%;
           box-sizing: border-box;
-          padding: 0 16px;
+          // padding: 0 16px;
         }
         .uni-tabs-content-board-inner {
           flex: 1;

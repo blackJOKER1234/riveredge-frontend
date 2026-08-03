@@ -22,7 +22,30 @@ export const LayoutPageBody: React.FC<LayoutPageBodyProps> = ({
 }) => {
   const { token } = theme.useToken();
   if (isMobileOrTablet) {
-    return <RouteTransition>{children}</RouteTransition>;
+    return (
+      <div
+        className="box-border"
+        style={{
+          flex: '1 1 auto',
+          minHeight: 0,
+          height: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          overflowY: 'auto',
+          overflowX: 'hidden',
+        }}
+      >
+        <div
+          style={{
+            flex: '1 1 auto',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <RouteTransition>{children}</RouteTransition>
+        </div>
+      </div>
+    );
   }
   return (
     <UniTabs

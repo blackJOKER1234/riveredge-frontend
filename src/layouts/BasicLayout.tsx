@@ -674,11 +674,13 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
         headerContentRender={() => (
           <LayoutHeaderContent
             isMobileOrTablet={isMobileOrTablet}
-            isLightModeLightBg={isLightModeLightBg}
             breadcrumbRef={breadcrumbRef}
             breadcrumbVisible={breadcrumbVisible}
             breadcrumbItems={generateBreadcrumb}
             navigate={navigate}
+            collapsed={collapsed}
+            onToggleCollapsed={handleSetCollapsed}
+            t={t}
           />
         )}
         actionsRender={() => (
@@ -717,7 +719,7 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
         onMenuHeaderClick={() => navigate(effectiveSystemHomePath)}
         subMenuItemRender={(item: any, defaultDom) => renderSubMenuItem(item, defaultDom)}
         menuItemRender={(item: any, dom) =>
-          renderMenuItem(item, dom, { t, menuBadgeCounts, queryClient })
+          renderMenuItem(item, dom, { t, menuBadgeCounts, queryClient, collapsed })
         }
       >
         <LayoutPageBody

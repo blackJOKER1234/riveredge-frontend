@@ -23,6 +23,7 @@ export default {
   'dashboard.businessBoard.subtitle': 'Operations overview · KPIs & charts',
   'dashboard.businessBoard.fullscreen': 'Fullscreen',
   'dashboard.businessBoard.exitFullscreen': 'Exit fullscreen',
+  'dashboard.businessBoard.back': 'Back',
   'dashboard.businessBoard.pieCenter': 'Docs',
   'dashboard.businessBoard.pieCenterDevice': 'Assets',
   'dashboard.businessBoard.metric.orders': 'Orders',

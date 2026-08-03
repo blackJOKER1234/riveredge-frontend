@@ -1,46 +1,43 @@
 import React from 'react';
-import { Breadcrumb, Divider } from 'antd';
+import { Breadcrumb, Button, Tooltip } from 'antd';
+import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
 import type { NavigateFunction } from 'react-router-dom';
-import { HeaderQuickEntryPopover } from '../../components/quick-entry';
 import type { LayoutBreadcrumbItem } from '../utils/layoutBreadcrumb';
 
 export interface LayoutHeaderContentProps {
   isMobileOrTablet: boolean;
-  isLightModeLightBg: boolean;
   breadcrumbRef: React.RefObject<HTMLDivElement | null>;
   breadcrumbVisible: boolean;
   breadcrumbItems: LayoutBreadcrumbItem[];
   navigate: NavigateFunction;
+  collapsed: boolean;
+  onToggleCollapsed: (collapsed: boolean) => void;
+  t: (key: string, options?: any) => any;
 }
 
-/** 顶栏中部：快捷入口 + 面包屑 */
+/** 顶栏中部：侧边栏开关 + 面包屑 */
 export const LayoutHeaderContent: React.FC<LayoutHeaderContentProps> = ({
   isMobileOrTablet,
-  isLightModeLightBg,
   breadcrumbRef,
   breadcrumbVisible,
   breadcrumbItems,
   navigate,
+  collapsed,
+  onToggleCollapsed,
+  t,
 }) => {
   return (
     <div style={{ display: 'flex', alignItems: 'center', height: '100%', gap: 12 }}>
-      {/* 分割线 - 仅在 PC 端显示 */}
-      {/* {!isMobileOrTablet && (
-        <Divider
-          orientation="vertical"
-          style={{
-            height: '20px',
-            margin: '4px 0 0 2px',
-            borderColor: isLightModeLightBg ? 'rgba(0, 0, 0, 0.12)' : 'rgba(255, 255, 255, 0.25)',
-            alignSelf: 'center',
-            verticalAlign: 'middle',
-          }}
-        />
-      )} */}
       {!isMobileOrTablet && (
-        <span style={{ display: 'inline-flex', alignItems: 'center', marginRight: -8 }}>
-          <HeaderQuickEntryPopover isLightModeLightBg={isLightModeLightBg} />
-        </span>
+        <Tooltip title={collapsed ? t('ui.sidebar.expand') : t('ui.sidebar.collapse')}>
+          <Button
+            type="text"
+            size="small"
+            icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+            onClick={() => onToggleCollapsed(!collapsed)}
+            aria-label={collapsed ? t('ui.sidebar.expand') : t('ui.sidebar.collapse')}
+          />
+        </Tooltip>
       )}
       <div ref={breadcrumbRef as React.RefObject<HTMLDivElement>} style={{ flex: 1, minWidth: 0, overflow: 'hidden' }}>
         <Breadcrumb

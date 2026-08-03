@@ -51,7 +51,13 @@
 - 使用 ESLint + Prettier 格式化
 - 组件文件使用 `.tsx`，工具函数使用 `.ts`
 - 组件采用函数式组件 + Hooks
-- 样式优先使用 Tailwind CSS、Ant Design token 或 Less；样式文件按目录就近维护
+- 样式优先使用 Tailwind CSS v4、Ant Design token 或 Less（新模块约束见下方「样式约束」）；样式文件按目录就近维护
+
+### 样式约束
+
+- 新模块（新业务应用、页面、组件等）的样式一律采用 Tailwind CSS v4 开发。
+- 新模块不新增 Less 样式文件；确需使用 Less 或 antd-style 时，须说明理由并保持最小范围。
+- 存量模块现有样式方案继续维护，不受影响；存量模块新增代码优先使用 Tailwind CSS v4。
 
 ### 目录结构
 

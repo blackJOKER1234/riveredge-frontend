@@ -100,9 +100,10 @@ export function renderMenuItem(
     t: TFunc;
     menuBadgeCounts: Record<string, any>;
     queryClient: QueryClient;
+    collapsed?: boolean;
   },
 ): React.ReactNode {
-  const { t, menuBadgeCounts, queryClient } = options;
+  const { t, menuBadgeCounts, queryClient, collapsed } = options;
 
   // APP 菜单加载占位：首次拉取 navigation-tree 期间的骨架行
   if (item.isAppMenuSkeleton) {
@@ -224,6 +225,25 @@ export function renderMenuItem(
           badgeEl = <Badge count={badgeData.in_progress} size="small" color="#52c41a" className="menu-item-badge-count" />;
         }
       }
+    }
+
+    // 折叠态：同样用 Link 保持 SPA 导航；文字由 LayoutStyles 隐藏，图标居中
+    if (collapsed) {
+      return (
+        <div
+          onClick={(e) => {
+            e.stopPropagation();
+          }}
+          style={{ display: 'block', width: '100%' }}
+        >
+          <Link
+            to={item.path}
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}
+          >
+            {dom}
+          </Link>
+        </div>
+      );
     }
 
     return (

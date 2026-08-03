@@ -3,7 +3,7 @@
  */
 
 import React, { useMemo } from 'react';
-import { Popover, theme } from 'antd';
+import { Button, Popover, theme } from 'antd';
 import { AppstoreOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -21,10 +21,15 @@ const HEADER_QUICK_ENTRY_LIMIT = 9;
 
 export interface HeaderQuickEntryPopoverProps {
   isLightModeLightBg?: boolean;
+  /** 按钮形态：icon-button 跟随顶栏右侧其他 icon 按钮的 antd Button 样式 */
+  variant?: 'default' | 'icon-button';
+  placement?: 'bottomLeft' | 'bottomRight';
 }
 
 export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = ({
   isLightModeLightBg = true,
+  variant = 'default',
+  placement = 'bottomLeft',
 }) => {
   const { token } = useToken();
   const navigate = useNavigate();
@@ -81,7 +86,14 @@ export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = (
     ? 'rgba(0, 0, 0, 0.85)'
     : 'rgba(255, 255, 255, 0.85)';
 
-  const trigger = (
+  const trigger = variant === 'icon-button' ? (
+    <Button
+      type="text"
+      size="small"
+      icon={<AppstoreOutlined />}
+      aria-label={t('pages.dashboard.quickEntry')}
+    />
+  ) : (
     <span
       role="button"
       tabIndex={0}
@@ -108,9 +120,17 @@ export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = (
   );
 
   return (
-    <span style={{ display: 'inline-flex', alignItems: 'center', lineHeight: 0, flexShrink: 0 }}>
+    <span
+      style={{
+        // icon-button 形态使用块级 flex，避免顶栏 line-height 基线把按钮顶高
+        display: variant === 'icon-button' ? 'flex' : 'inline-flex',
+        alignItems: 'center',
+        lineHeight: 0,
+        flexShrink: 0,
+      }}
+    >
       <Popover
-        placement="bottomLeft"
+        placement={placement}
         trigger="hover"
         arrow={false}
         content={popoverContent}
