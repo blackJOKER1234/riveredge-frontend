@@ -1,0 +1,198 @@
+/* RiverEdge 全局样式 - Modal 与表单弹窗 */
+
+/* Modal body 限高：避免整页出现滚动条，滚动仅发生在 Modal 内部 */
+.ant-modal-body {
+  max-height: calc(100vh - 280px);
+  overflow-y: auto;
+}
+
+/* 表单 Modal：与标准 Modal 一致，沿用全局 .ant-modal-body 的限高与滚动；内层仅保证宽度 */
+.form-modal-template .form-modal-content-inner,
+.form-modal-template-fixed-footer .form-modal-content-inner {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* 表单内 Segmented：与 Input/Select 默认高度一致（Modal + 独立表单页） */
+.form-modal-template,
+.form-modal-template-fixed-footer,
+.document-form-page-body {
+  .form-field-segmented.ant-segmented {
+    .ant-segmented-item-label {
+      min-height: var(--ant-control-height);
+      line-height: calc(var(--ant-control-height) - 2px);
+      padding-inline: calc(var(--ant-control-padding-horizontal) - 1px);
+    }
+  }
+}
+
+.quotation-create-form-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*
+ * 客户跟进：Ant Design TextArea showCount 默认把 .ant-input-data-count 放在边框下方（bottom 为负），
+ * 会撑出可滚动区域、诱发 Modal 竖条。改为叠在框内右下角，并给 textarea 留底边距避免文字与字数重叠。
+ */
+.customer-follow-up-modal {
+  .ant-input-textarea-affix-wrapper.ant-input-textarea-show-count textarea {
+    padding-bottom: 28px !important;
+  }
+  .ant-input-textarea-affix-wrapper.ant-input-textarea-show-count .ant-input-data-count {
+    bottom: 6px !important;
+    inset-inline-end: 10px !important;
+    z-index: 1;
+  }
+
+  /* 报价阶段分段：与表单 Input/Select 默认高度一致（勿用工具栏 segmented 的 compact 尺寸） */
+  .quotation-stage-segmented.ant-segmented {
+    .ant-segmented-item-label {
+      min-height: var(--ant-control-height);
+      line-height: calc(var(--ant-control-height) - 2px);
+      padding-inline: calc(var(--ant-control-padding-horizontal) - 1px);
+    }
+  }
+}
+
+/* 固定底栏变体（若使用 .modal-content-scroll）滚动条样式 */
+.form-modal-template-fixed-footer .modal-content-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: @scrollbar-thumb transparent;
+  -ms-overflow-style: auto;
+}
+.form-modal-template-fixed-footer .modal-content-scroll::-webkit-scrollbar {
+  display: block !important;
+  width: 6px;
+  height: 6px;
+}
+.form-modal-template-fixed-footer .modal-content-scroll::-webkit-scrollbar-thumb {
+  background-color: @scrollbar-thumb;
+  border-radius: 4px;
+}
+.form-modal-template-fixed-footer .modal-content-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: @scrollbar-thumb-hover;
+}
+.form-modal-template-fixed-footer .modal-content-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.form-modal-template-fixed-footer .modal-content-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* 独立新建/编辑页：抵消 uni-tabs 左右 16px，滚动区贴边；滚动条隐藏（仍可滚轮/触控滚动） */
+.document-form-page-layout {
+  margin-left: -16px;
+  margin-right: -16px;
+  width: calc(100% + 32px);
+}
+
+.document-form-page-header {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.document-form-page-body {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+/* 表单页仅内层滚动，避免 uni-tabs 外层再出现滚动条 */
+.uni-tabs-content:has(.document-form-page-layout) {
+  overflow: hidden !important;
+}
+
+.uni-tabs-content-page-inner:has(.document-form-page-layout) {
+  overflow: hidden;
+}
+
+/* 多 Tab 配置/列表页：外层不滚动，Card Tab 栏固定、内容区内部滚动 */
+.uni-tabs-content:has(.multi-tab-list-page-template) {
+  overflow: hidden !important;
+}
+
+.uni-tabs-content-page-inner:has(.multi-tab-list-page-template) {
+  overflow: hidden;
+}
+
+.multi-tab-list-page-card.ant-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+
+  > .ant-card-head {
+    flex-shrink: 0;
+  }
+
+  > .ant-card-body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+/* 特殊布局 Modal 排除限高（如 MobileDevicePreview、工位机 kiosk 等） */
+.ant-modal.modal-no-limit-height .ant-modal-body {
+  max-height: none;
+  overflow-y: visible;
+}
+
+/* 确认类弹窗（Modal.confirm 等）：内容简短，排除限高和滚动条，避免点击确认时出现多余滚动条 */
+.ant-modal-confirm {
+  .ant-modal-content {
+    max-height: none;
+    overflow: visible;
+  }
+  .ant-modal-body {
+    max-height: none !important;
+    overflow: visible !important;
+    overflow-x: visible !important;
+  }
+
+  /*
+   * antd 6：ConfirmDialog 将 title 同时写入 Modal header 与 body。
+   * 全局 `.ant-modal-header { display: flex !important }` 会强制显示 header，
+   * 导致标题重复。保留 header（含左侧竖条），隐藏 body 内重复 title。
+   */
+  .ant-modal-confirm-title {
+    display: none;
+  }
+
+  /* 含输入控件的确认弹窗（命名/重命名等）：body 不展示默认警示图标，内容区占满宽度 */
+  .ant-modal-confirm-body:has(.ant-input, .ant-input-number, .ant-select, textarea, .ant-picker) {
+    > .anticon {
+      display: none;
+    }
+
+    .ant-modal-confirm-paragraph {
+      max-width: 100% !important;
+    }
+  }
+}
+
+/* 批量建位预览：内容随行数自适应，不产生多余滚动条 */
+.batch-create-storage-location-modal .ant-modal-body {
+  max-height: none;
+  overflow: visible;
+}
+
+/* ant-pro-layout-container：隐藏滚动条且不占宽度 */
+.ant-pro-layout-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.ant-pro-layout-container::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}

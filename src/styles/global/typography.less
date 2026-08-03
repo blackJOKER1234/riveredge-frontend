@@ -1,0 +1,78 @@
+/* RiverEdge 全局样式 - 字体与基础排版 */
+
+/* === 字体声明 === */
+@font-face {
+  font-family: "OPPOSans";
+  src: url("../../assets/font/OPPOSans4.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OPPOSans";
+  src: url("../../assets/font/OPPOSans4.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OPPOSans";
+  src: url("../../assets/font/OPPOSans4.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OPPOSans";
+  src: url("../../assets/font/OPPOSans4.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OPPOSans";
+  src: url("../../assets/font/OPPOSans4.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "OPPOSans",  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  // B 端项目核心优化：虽然不再强制使用全等宽字体，但保留数字的等宽特性（表格对齐必须）
+  font-variant-numeric: tabular-nums; 
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 使用 Ant Design 主题变量，支持深色模式 */
+  background-color: var(--ant-colorBgLayout);
+  /* 滚动限制在 ant-layout-content 内，禁止 body 出现滚动条，避免 Dropdown/Select 关闭时滚动条闪现 */
+  overflow: hidden;
+}
+
+/* 英文界面全局 UI 字体（由 syncEnglishUiFont 设置 html.locale-en 与 CSS 变量） */
+html.locale-en,
+html.locale-en body,
+html.locale-en #root {
+  font-family: "OPPOSans", var(--riveredge-ui-font-family);
+}
+
+#root {
+  height: 100%;
+  min-height: 100vh;
+}
+
+code {
+  font-family: ui-monospace, 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
+  /* 使用主题变量，支持深色模式 */
+  background-color: var(--ant-colorFillTertiary);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}

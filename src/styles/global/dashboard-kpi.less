@@ -1,0 +1,206 @@
+/* RiverEdge 全局样式 - 工作台 KPI */
+
+.dashboard-kpi-panel.dashboard-kpi-panel--fill.ant-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.dashboard-kpi-panel.dashboard-kpi-panel--fill > .ant-card-body {
+  flex: 1 1 0;
+  min-height: 0;
+}
+.dashboard-kpi-panel--fill .dashboard-kpi-panel-grid {
+  flex: 1 1 0;
+  min-height: 0;
+  align-content: stretch;
+}
+.dashboard-kpi-panel--fill .dashboard-kpi-cell {
+  min-height: 100%;
+  height: auto;
+}
+.dashboard-kpi-panel--fill .dashboard-kpi-cell-inner {
+  min-height: 0;
+  height: 100%;
+}
+.dashboard-kpi-panel .dashboard-kpi-panel-toolbar {
+  position: relative;
+  overflow: visible;
+  scrollbar-width: none;
+}
+.dashboard-kpi-panel .dashboard-kpi-panel-toolbar::-webkit-scrollbar {
+  display: none;
+}
+.dashboard-kpi-panel .dashboard-kpi-panel-toolbar__segmented-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: visible;
+  scrollbar-width: none;
+}
+.dashboard-kpi-panel .dashboard-kpi-panel-toolbar__segmented-wrap::-webkit-scrollbar {
+  display: none;
+}
+/* 外层 */
+.dashboard-kpi-panel-segmented.ant-segmented {
+  border-radius: 24px;   
+}
+
+/* 每个选项 */
+.dashboard-kpi-panel-segmented .ant-segmented-item {
+  border-radius: 24px;
+  padding: 4px 8px;
+}
+
+.dashboard-kpi-panel-segmented .ant-segmented-item-selected,
+.dashboard-kpi-panel-segmented .ant-segmented-thumb {
+  border-radius: 24px !important;
+  background: var(--dashboard-kpi-segmented-active-bg, var(--ant-colorPrimary));
+  color: #FFFFFF;
+}
+
+.dashboard-kpi-panel-segmented .ant-segmented-item:hover {
+  border-radius: 24px;
+}
+
+/* 5 列单行；窄屏自动折行，列间竖线分隔 */
+.dashboard-kpi-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  background: transparent;
+}
+.dashboard-kpi-panel-grid .dashboard-kpi-cell {
+  border-right: 1px solid var(--dashboard-card-border-color);
+}
+@media (min-width: 1200px) {
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell:nth-child(5n) {
+    border-right: none;
+  }
+}
+@media (max-width: 1199px) {
+  .dashboard-kpi-panel-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell:nth-child(5n) {
+    border-right: 1px solid var(--dashboard-card-border-color);
+  }
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell:nth-child(3n) {
+    border-right: none;
+  }
+}
+@media (max-width: 767px) {
+  .dashboard-kpi-panel-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell:nth-child(3n) {
+    border-right: 1px solid var(--dashboard-card-border-color);
+  }
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell:nth-child(2n) {
+    border-right: none;
+  }
+}
+@media (max-width: 575px) {
+  .dashboard-kpi-panel-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell {
+    border-right: none;
+    border-bottom: 1px solid var(--dashboard-card-border-color);
+  }
+  .dashboard-kpi-panel-grid .dashboard-kpi-cell:last-child {
+    border-bottom: none;
+  }
+}
+.dashboard-kpi-cell {
+  min-height: var(--dashboard-kpi-cell-height, 68px);
+  padding: 14px 16px;
+  box-sizing: border-box;
+  background: var(--ant-color-bg-container, #fff);
+  transition: background-color 0.2s ease;
+  border-radius: 16px;
+}
+.dashboard-kpi-cell:hover {
+  position: relative;
+  z-index: 1;
+  // background: #F5F8FD;
+  // border-color: var(--ant-color-border, var(--ant-colorBorder, #d9d9d9));
+  background: var(--ant-color-fill-tertiary, rgba(0, 0, 0, 0.06));
+}
+.dashboard-kpi-cell-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: calc(var(--dashboard-kpi-cell-height, 68px) - 28px);
+  gap: 10px;
+}
+.dashboard-kpi-cell-head {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+.dashboard-kpi-cell-footer {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border-top: none;
+  border-radius: 16px;
+  background: var(--ant-color-fill-tertiary, rgba(0, 0, 0, 0.06));
+}
+.dashboard-kpi-cell-footer-divider {
+  width: 1px;
+  flex-shrink: 0;
+  background: var(--dashboard-card-border-color);
+  align-self: stretch;
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ * 平板/小屏设备响应式优化 (最小改动，最高收益方案)
+ * -----------------------------------------------------------------------------
+ */
+@media screen and (max-width: 1024px) {
+  // 1. 强制缩小页面全局边距，为内容腾出更多空间
+  .ant-pro-layout-content, 
+  .ant-layout-content {
+    padding: 8px !important;
+  }
+
+  // 2. 解决深嵌套 Flex 容器在内容溢出时导致的布局错位
+  // 设置 min-width: 0 允许 Flex Item 正常收缩
+  .ant-row, .ant-col, .ant-space-item {
+    min-width: 0;
+  }
+
+  // 3. 防止图片在小容器内拉伸失真
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  // 4. 优化表格在小屏下的表现，防止操作列被挤出
+  .ant-table {
+    .ant-table-content {
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
+  // 5. 缩小 Modal/Drawer 默认内边距
+  .ant-modal-body,
+  .ant-drawer-body {
+    padding: 12px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  // 针对手机和平板竖屏的进一步压缩
+  .ant-statistic-content-value {
+    font-size: 20px !important;
+  }
+  .ant-pro-page-container-children-content {
+    margin-top: 8px !important;
+  }
+}

@@ -1,0 +1,314 @@
+/* RiverEdge 全局样式 - 树组件 */
+
+/* 左侧面板树组件统一 padding（TwoColumnLayout 左栏 / 角色权限等） */
+.left-panel-scroll-container .ant-tree,
+.two-column-layout-left-tree .ant-tree {
+  padding: 10px !important;
+}
+
+/* 树节点上下间距优化 - 左侧面板非 showLine 的树（showLine 依赖 antd 默认行高与 marginBottom，不可压成 32px 固定行） */
+.left-panel-scroll-container .ant-tree:not(.ant-tree-show-line) .ant-tree-treenode,
+.two-column-layout-left-tree .ant-tree:not(.ant-tree-show-line) .ant-tree-treenode {
+  height: 32px !important;
+  line-height: 32px !important;
+  margin: calc(var(--ant-padding-xs) / 2) !important;
+}
+
+/* 物料数据-分组树（无目录线时）：紧凑缩进与行高 */
+.left-panel-scroll-container .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-indent-unit,
+.two-column-layout-left-tree .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-indent-unit {
+  width: 10px !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-treenode,
+.two-column-layout-left-tree .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-treenode {
+  height: auto !important;
+  min-height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 2px 0 !important;
+  margin: 2px 4px !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-switcher,
+.two-column-layout-left-tree .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-switcher {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  width: 18px !important;
+  height: 18px !important;
+  margin-right: 0 !important;
+  line-height: 1 !important;
+  border-radius: 4px !important;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.06) !important;
+  }
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-switcher .ant-tree-switcher-icon,
+.two-column-layout-left-tree .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-switcher .ant-tree-switcher-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 10px !important;
+}
+
+/* 图标与标题均在 node-content-wrapper 内：须横向 flex + nowrap，否则标题 display:block 会独占一行掉到图标下方 */
+.left-panel-scroll-container .material-group-tree.ant-tree .ant-tree-node-content-wrapper,
+.two-column-layout-left-tree .material-group-tree.ant-tree .ant-tree-node-content-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  flex: 1;
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-node-content-wrapper,
+.two-column-layout-left-tree .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-node-content-wrapper {
+  line-height: 1.5 !important;
+  min-height: 24px !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree .ant-tree-node-content-wrapper > .ant-tree-iconEle,
+.two-column-layout-left-tree .material-group-tree.ant-tree .ant-tree-node-content-wrapper > .ant-tree-iconEle {
+  flex-shrink: 0 !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-iconEle,
+.two-column-layout-left-tree .material-group-tree.ant-tree:not(.ant-tree-show-line) .ant-tree-iconEle {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+}
+
+/* 物料分组树标题：单行省略；flex 子项须 flex:1 + min-width:0 才能在图标右侧正确截断 */
+.left-panel-scroll-container .material-group-tree.ant-tree .ant-tree-title,
+.two-column-layout-left-tree .material-group-tree.ant-tree .ant-tree-title {
+  flex: 1 !important;
+  min-width: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.material-group-tree-title-text {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 目录辅助线：略深于默认 border，深浅色主题随 token 混合 */
+.left-panel-scroll-container .material-group-tree.ant-tree.ant-tree-show-line .ant-tree-indent-unit::before,
+.two-column-layout-left-tree .material-group-tree.ant-tree.ant-tree-show-line .ant-tree-indent-unit::before {
+  border-inline-end-color: color-mix(in srgb, var(--ant-color-border) 72%, var(--ant-color-text) 28%) !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree.ant-tree-show-line .ant-tree-switcher-leaf-line::before,
+.two-column-layout-left-tree .material-group-tree.ant-tree.ant-tree-show-line .ant-tree-switcher-leaf-line::before {
+  border-inline-end-color: color-mix(in srgb, var(--ant-color-border) 72%, var(--ant-color-text) 28%) !important;
+}
+
+.left-panel-scroll-container .material-group-tree.ant-tree.ant-tree-show-line .ant-tree-switcher-leaf-line::after,
+.two-column-layout-left-tree .material-group-tree.ant-tree.ant-tree-show-line .ant-tree-switcher-leaf-line::after {
+  border-bottom-color: color-mix(in srgb, var(--ant-color-border) 72%, var(--ant-color-text) 28%) !important;
+}
+
+/* 图纸管理：四种分类模式切换栏 */
+.drawing-nav-mode-bar {
+  display: flex;
+  gap: 6px;
+  padding: 4px 0 0;
+}
+
+.drawing-nav-mode-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  border: 1px solid var(--ant-color-border);
+  border-radius: 6px;
+  background: var(--ant-color-bg-container);
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+
+  .anticon {
+    font-size: 16px;
+    color: var(--ant-color-text-tertiary);
+    transition: color 0.2s;
+  }
+
+  &:hover {
+    border-color: var(--ant-color-primary);
+    background: var(--ant-color-primary-bg);
+
+    .anticon {
+      color: var(--ant-color-primary);
+    }
+  }
+}
+
+.drawing-nav-mode-btn-active {
+  border-color: var(--ant-color-primary);
+  background: var(--ant-color-primary-bg);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--ant-color-primary) 24%, transparent);
+
+  .anticon {
+    color: var(--ant-color-primary) !important;
+  }
+}
+
+/* 图纸管理导航树：紧凑行高 + 图标与标题同行 */
+.two-column-layout-left-tree .drawing-nav-tree.ant-tree .ant-tree-treenode {
+  height: auto !important;
+  min-height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 2px 0 !important;
+  margin: 2px 4px !important;
+}
+
+.two-column-layout-left-tree .drawing-nav-tree.ant-tree .ant-tree-switcher {
+  width: 0 !important;
+  margin: 0 !important;
+}
+
+.two-column-layout-left-tree .drawing-nav-tree.ant-tree .ant-tree-node-content-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  flex: 1;
+  min-width: 0 !important;
+  overflow: hidden !important;
+  line-height: 1.5 !important;
+  min-height: 24px !important;
+}
+
+.two-column-layout-left-tree .drawing-nav-tree.ant-tree .ant-tree-node-content-wrapper > .ant-tree-iconEle {
+  flex-shrink: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.two-column-layout-left-tree .drawing-nav-tree.ant-tree .ant-tree-title {
+  flex: 1 !important;
+  min-width: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* 文件管理侧栏树：展开箭头 hover 背景与行内图标/标题垂直居中 */
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-treenode,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-treenode {
+  display: flex !important;
+  align-items: center !important;
+  padding: 2px 0 !important;
+  margin: 2px 4px !important;
+}
+
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-switcher,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-switcher {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-inline-end: 0 !important;
+  line-height: 1 !important;
+  background: transparent !important;
+
+  /* hover 背景仅由 ant 的 ::before 绘制，避免与容器背景叠加 */
+  &:hover {
+    background-color: transparent !important;
+  }
+
+  &::before {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+    border-radius: 4px !important;
+  }
+}
+
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-switcher .ant-tree-switcher-icon,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-switcher .ant-tree-switcher-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  vertical-align: middle !important;
+}
+
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-switcher-noop,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-switcher-noop {
+  /* 叶子节点保留展开箭头占位，保证同级文件夹图标/标题对齐 */
+  display: inline-flex !important;
+  width: 20px !important;
+  min-width: 20px !important;
+  height: 20px !important;
+  margin-inline-end: 0 !important;
+  padding: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-node-content-wrapper,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-node-content-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  flex: 1;
+  min-width: 0 !important;
+  min-height: 28px !important;
+  line-height: 1.5 !important;
+}
+
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-node-content-wrapper > .ant-tree-iconEle,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-node-content-wrapper > .ant-tree-iconEle {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  width: 20px !important;
+  min-width: 20px !important;
+  margin-inline-end: 4px !important;
+}
+
+.left-panel-scroll-container .file-manager-tree.ant-tree .ant-tree-title,
+.two-column-layout-left-tree .file-manager-tree.ant-tree .ant-tree-title {
+  flex: 1 !important;
+  min-width: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* 排除弹窗中的树组件 */
+.ant-popover .ant-tree .ant-tree-treenode,
+.ant-pro-table-column-setting-list .ant-tree .ant-tree-treenode,
+.ant-dropdown .ant-tree .ant-tree-treenode {
+  height: auto !important;
+  line-height: normal !important;
+  margin: 0 !important;
+}
