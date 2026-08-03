@@ -189,7 +189,7 @@ export const ListPageTemplate: React.FC<ListPageTemplateProps> = ({
     showStatCardsRow ? (
       <div style={{ marginBottom: 16 }}>
         <Row gutter={STAT_CARD_CONFIG.GUTTER} wrap={true}>
-          {statCards.map((card, index) => (
+          {statCards?.map((card, index) => (
             <Col
               key={index}
               style={{ flex: '1 1 240px', minWidth: 240 }} // flexible equal width, wraps if too narrow
@@ -316,15 +316,17 @@ export const ListPageTemplate: React.FC<ListPageTemplateProps> = ({
       </div>
     ) : null;
 
-  const mainRowInnerStyle: React.CSSProperties | undefined = fillMain
+  const mainRowInnerStyle: React.CSSProperties | undefined = prioritizeMainContentPaint || fillMain
     ? { flex: 1, minHeight: 0, minWidth: 0, display: 'flex', flexDirection: 'column' }
-    : prioritizeMainContentPaint
-      ? { minWidth: 0 }
-      : undefined;
+    : undefined;
   const mainRow = <div style={mainRowInnerStyle}>{children}</div>;
-  const mainRowWrapperStyle: React.CSSProperties = fillMain
-    ? { order: 3, flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }
-    : { order: 3 };
+  const mainRowWrapperStyle: React.CSSProperties = {
+    order: 3,
+    flex: 1,
+    minHeight: 0,
+    display: 'flex',
+    flexDirection: 'column',
+  };
 
   const fillMainShellStyle: React.CSSProperties = fillMain
     ? { flex: 1, minHeight: 0, height: '100%', overflow: 'hidden' }
@@ -332,10 +334,14 @@ export const ListPageTemplate: React.FC<ListPageTemplateProps> = ({
 
   const shell = !prioritizeMainContentPaint ? (
     <div
-      className={className}
+      className={['uni-list-page-template', className].filter(Boolean).join(' ')}
       style={{
         padding: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: 0,
         ['--uni-table-scroll-offset' as string]: `${tableScrollOffsetPx}px`,
+        ...fillMainShellStyle,
         ...style,
       }}
     >
@@ -345,11 +351,12 @@ export const ListPageTemplate: React.FC<ListPageTemplateProps> = ({
     </div>
   ) : (
     <div
-      className={className}
+      className={['uni-list-page-template', className].filter(Boolean).join(' ')}
       style={{
         padding: 0,
         display: 'flex',
         flexDirection: 'column',
+        minHeight: 0,
         ['--uni-table-scroll-offset' as string]: `${tableScrollOffsetPx}px`,
         ...fillMainShellStyle,
         ...style,
