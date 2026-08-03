@@ -53,12 +53,8 @@ const BusinessBoardPage: React.FC = () => {
     <div
       ref={containerRef}
       style={{
-        width: isFullscreen ? '100vw' : '100%',
-        height: isFullscreen
-          ? '100vh'
-          : getViewportHeightExpr(SYSTEM_VIEWPORT_OFFSETS.BUSINESS_BOARD_PX, {
-              compensateHeaderInFullscreen: true,
-            }),
+        width:  '100%',
+        height: '100%',
         position: isFullscreen ? 'fixed' : 'relative',
         top: isFullscreen ? 0 : 'auto',
         left: isFullscreen ? 0 : 'auto',
