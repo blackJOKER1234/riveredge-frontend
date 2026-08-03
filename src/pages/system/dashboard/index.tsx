@@ -207,7 +207,6 @@ export default function DashboardPage() {
   const isDark = useThemeStore((s) => s.resolved.isDark);
   /** 工作台卡片圆角（阴影见 global.less `.dashboard-section__card`） */
   const dashboardCardRadius = token.borderRadiusLG;
-  const dashboardBottomThreeCardsFixedHeight = 500;
   /** 工作台：主 Row gutter、纵向 flex gap、相邻区块 margin 与 antd 默认 gutter 对齐，统一 16px */
   const DASHBOARD_LAYOUT_GUTTER = 16;
 
@@ -583,6 +582,9 @@ export default function DashboardPage() {
           background: var(--ant-color-bg-container, #fff);
           border-radius: 24px;
         }
+        // .dashboard-ops-todo-col > .dashboard-ops-todo-col__slot {
+        //   background: var(--ant-color-bg-container, #fff);
+        // }
         .dashboard-kpi-wip-col__slot > .dashboard-section,
         .dashboard-ops-todo-col__slot > .dashboard-section {
           flex: 0 0 auto;
@@ -625,8 +627,34 @@ export default function DashboardPage() {
           overflow: hidden;
         }
         /* 在制工序卡：内容超高时在卡片内滚动 */
-        .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body {
-          overflow-y: auto;
+        .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body .dashboard-operation-cards-panel__track {
+          overflow-x: hidden;
+          overflow-y: scroll;
+          scrollbar-width: auto;
+          -ms-overflow-style: auto;
+        }
+        // .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body::-webkit-scrollbar {
+        //   width: 6px;
+        //   height: 0;
+        // }
+        .dashboard-main-body > .ant-col.dashboard-kpi-wip-col.dashboard-main-scroll-col {
+          overflow-y: hidden;
+        }
+        .dashboard-kpi-wip-col {
+          height: 100%;
+          overflow: hidden;
+        }
+        .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot:last-child {
+          flex: 1 1 0%;
+          overflow: hidden;
+        }
+        .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot:last-child > .dashboard-section {
+          flex: 1 1 0%;
+          overflow: hidden;
+        }
+        .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot:last-child .dashboard-section__card.ant-card {
+          flex: 1 1 0%;
+          overflow: hidden;
         }
         /* 待办 Tabs：占满 body 剩余高度，仅在内容区滚动，不顶破卡片 */
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs.ant-tabs {
@@ -636,7 +664,37 @@ export default function DashboardPage() {
           flex-direction: column;
           overflow: hidden;
         }
-        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-nav { flex-shrink: 0; margin-bottom: 0; }
+        /*
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-nav {
+          flex-shrink: 0;
+          margin-bottom: 0;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-nav-wrap {
+          padding: 0 4px;
+        }
+        */
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-nav-list {
+          gap: 8px;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tab {
+          align-items: center;
+          justify-content: center;
+          min-width: 112px;
+          min-height: 42px;
+          padding-inline: 16px;
+          padding-block: 10px;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tab-btn {
+          width: 100%;
+          text-align: center;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+          color: #000000E0 !important;
+          font-weight: 700;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-ink-bar {
+          height: 2px;
+        }
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content-holder,
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-body-holder {
           flex: 1 1 0%;
@@ -661,8 +719,6 @@ export default function DashboardPage() {
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane {
           min-height: 0;
           overflow: hidden;
-          scrollbar-width: none; /* Firefox */
-          -ms-overflow-style: none; /* IE/Edge */
         }
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane:not(.ant-tabs-tabpane-active) {
           display: none !important;
@@ -673,16 +729,39 @@ export default function DashboardPage() {
           display: flex;
           flex-direction: column;
         }
-        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
-          display: none; /* Chrome/Safari */
-          width: 0;
-          height: 0;
-        }
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list {
           flex: 1 1 0%;
           min-height: 0;
           width: 100%;
-          overflow: auto;
+          overflow-x: hidden;
+          overflow-y: scroll;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-scroll,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list {
+          scrollbar-width: auto;
+          -ms-overflow-style: auto;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-scroll {
+          overflow-x: hidden;
+          overflow-y: scroll;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-scroll::-webkit-scrollbar,
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list::-webkit-scrollbar,
+        .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body::-webkit-scrollbar {
+          width: 6px;
+          height: 0;
+        }
+        /*
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane::-webkit-scrollbar {
+          display: none;
+          width: 0;
+          height: 0;
+        }
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list {
           scrollbar-width: none;
           -ms-overflow-style: none;
         }
@@ -691,7 +770,6 @@ export default function DashboardPage() {
           width: 0;
           height: 0;
         }
-        /* 核心列表容器：统一隐藏滚动条 */
         .dashboard-ops-todo-col .dashboard-bottom-card-scroll,
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-content,
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane {
@@ -705,6 +783,7 @@ export default function DashboardPage() {
           width: 0 !important;
           height: 0 !important;
         }
+        */
       `}</style>
       <Row
         gutter={[DASHBOARD_LAYOUT_GUTTER, DASHBOARD_LAYOUT_GUTTER]}
@@ -743,7 +822,7 @@ export default function DashboardPage() {
           <div className="dashboard-kpi-wip-col__slot">
             <DashboardOperationCardsPanel
               cardRadius={dashboardCardRadius}
-              height={dashboardBottomThreeCardsFixedHeight}
+              height="100%"
               isDark={isDark}
               t={t}
               onNavigate={navigate}
@@ -813,15 +892,15 @@ export default function DashboardPage() {
                         >
                           {item.process_name}
                         </div>
-                        <div style={{ color: token.colorTextTertiary }}>
+                        <div style={{ color: token.colorTextTertiary, fontWeight: 400 }}>
                           {`${item.work_order_no}${item.product_name ? ` | ${item.product_name}` : ''}`}
                         </div>
-                        <div style={{ color: token.colorTextSecondary }}>
+                        <div style={{ color: token.colorText, fontWeight: 400 }}>
                           {item.operator_name}
                         </div>
                       </div>
 
-                      <div className='flex flex-col justify-between text-right'>  
+                      <div className='flex flex-col justify-between text-right' style={{ color: token.colorTextTertiary, fontWeight: 400 }}>  
                         <div className="dashboard-feed-item__stats">
                           <span className="dashboard-feed-item__stat--ok">
                             {t('pages.dashboard.qualified')} {item.qualified_quantity.toFixed(0)}

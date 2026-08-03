@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import { Button, Empty, Space } from 'antd';
+import { Badge, Button, Empty, Space } from 'antd';
 import { useQuery } from '@tanstack/react-query';
 import type { TFunction } from 'i18next';
 import { getProcessProgress } from '../../../services/dashboard';
@@ -62,7 +62,12 @@ export function DashboardOperationCardsPanel({
       className="dashboard-section--operation-cards"
       height={height}
       loading={isLoading || (isFetching && !items)}
-      title={t('pages.dashboard.operationCardsTitle')}
+      title={
+        <Space size={8}>
+          <span>{t('pages.dashboard.operationCardsTitle')}</span>
+          {items && items.length > 0 ? <Badge count={items.length} /> : null}
+        </Space>
+      }
       extra={
         <Space size={8} align="center">
           {/* {items && items.length > 0 ? (
