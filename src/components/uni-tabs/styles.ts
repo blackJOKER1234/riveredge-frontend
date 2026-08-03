@@ -282,10 +282,10 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           box-sizing: border-box !important;
           /* 修复滚动：使用 calc 计算确切的内容区高度（视口 - 顶栏 - 标签栏 - 间距）。
                全屏时四边等距 16px，因此垂直需扣减 32px。 */
-          height: calc(100vh - var(--header-height) - 16px - ${contentGap}) !important;
+          height: calc(100vh - var(--header-height) - 42px - ${contentGap}) !important;
           max-height: calc(100vh - var(--header-height) - 42px - ${contentGap}) !important;
           min-height: calc(
-            100vh - var(--header-height, ${headerHeightFallback}) - var(--tabs-height, 56px) - 16px -
+            100vh - var(--header-height, ${headerHeightFallback}) - var(--tabs-height, 56px) - 42px -
               ${contentGap}
           ) !important;
           /* 彻底隐藏滚动条且不占用空间 */
@@ -315,6 +315,15 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           width: 100%;
           height: 100%;
           min-height: 0;
+        }
+        /* 布局内页面根节点统一由 CSS 兜底：不逐个改业务页面，强制在 padding 内占满且不越界 */
+        .uni-page-body-inner {
+          display: flex;
+          flex-direction: column;
+          min-height: 0;
+          height: 100%;
+          max-height: 100%;
+          overflow: hidden;
         }
         .uni-tabs-content::-webkit-scrollbar {
           display: block !important;
