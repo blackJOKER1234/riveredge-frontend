@@ -547,11 +547,12 @@ export default function DashboardPage() {
       <DashboardTemplate
         quickActions={[]}
         showConfigButton={false}
-        style={{ flex: 1, minHeight: 0, overflow: 'hidden' }}
+        style={{ flex: 1, height: '100%', minHeight: 0, overflow: 'hidden' }}
       >
       <div
         style={{
           flex: 1,
+          height: '100%',
           width: '100%',
           minHeight: 0,
           display: 'flex',
@@ -562,6 +563,7 @@ export default function DashboardPage() {
       <div
         style={{
           flex: 1,
+          height: '100%',
           minHeight: 0,
           display: 'flex',
           flexDirection: 'column',
@@ -612,12 +614,15 @@ export default function DashboardPage() {
         }
         .dashboard-ops-todo-col > .dashboard-ops-todo-col__slot {
           flex: 1 1 0%;
+          overflow: hidden;
         }
         .dashboard-ops-todo-col__slot > .dashboard-section {
           flex: 1 1 0%;
+          overflow: hidden;
         }
         .dashboard-ops-todo-col__slot .dashboard-section__card.ant-card {
           flex: 1 1 0%;
+          overflow: hidden;
         }
         /* 在制工序卡：内容超高时在卡片内滚动 */
         .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body {
@@ -758,6 +763,7 @@ export default function DashboardPage() {
         {/* 右列上：最新操作（生产播报） */}
         <div className="dashboard-ops-todo-col__slot">
           <DashboardSectionCard
+            height="100%"
             cardRadius={dashboardCardRadius}
             className="dashboard-section--feed"
             loading={productionBroadcastLoading}
@@ -875,6 +881,7 @@ export default function DashboardPage() {
         {/* 右列下：待办事项 */}
         <div className="dashboard-ops-todo-col__slot">
           <DashboardSectionCard
+            height="100%"
             cardRadius={dashboardCardRadius}
             className="dashboard-section--with-tabs"
             loading={todosLoading}
