@@ -129,6 +129,24 @@ function FooterMetric({ label, value, align }: KpiRichSide & { align?: 'left' | 
   );
 }
 
+const kpiIconModules = import.meta.glob(
+  '@/assets/icons/KpiRich/*.svg',
+  {
+    eager: true,
+    import: 'default',
+  }
+);
+
+function getKpiIcon(name?: string) {
+  if (!name) return '';
+
+  const iconPath = Object.keys(kpiIconModules).find((path) =>
+    path.endsWith(`/${name}.svg`)
+  );
+
+  return iconPath ? kpiIconModules[iconPath] as string : '';
+}
+
 function KpiStackBody({
   title,
   mainValue,
@@ -143,6 +161,8 @@ function KpiStackBody({
   const { token } = useToken();
   const themeStyle = useThemeStore((s) => s.resolved.themeStyle);
   const mainColor = resolveDashboardKpiMainColor(mainSemantic, mainNumeric, !!isDark, token, themeStyle);
+
+  const iconSrc = getKpiIcon(mainSemantic);
 
   return (
     <div className="dashboard-kpi-cell-inner">
@@ -159,31 +179,41 @@ function KpiStackBody({
         >
           {title}
         </Text>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 4, flexWrap: 'nowrap' }}>
-          <span
-            style={{
-              fontSize: 28,
-              color: token.colorText,
-              fontWeight: 700,
-              fontVariantNumeric: 'tabular-nums',
-              lineHeight: 1.1,
-              letterSpacing: '-0.02em',
-            }}
-          >
-            {mainValue}
-          </span>
-          {mainSuffix ? (
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'nowrap' }}>
+          {iconSrc && (
+            <img
+              src={iconSrc}
+              width={32}
+              height={32}
+              alt={mainSemantic}
+            />
+          )}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
             <span
               style={{
-                fontSize: 14,
-                color: token.colorTextTertiary,
-                fontWeight: 500,
-                flexShrink: 0,
+                fontSize: 28,
+                color: token.colorText,
+                fontWeight: 700,
+                fontVariantNumeric: 'tabular-nums',
+                lineHeight: 1.1,
+                letterSpacing: '-0.02em',
               }}
             >
-              {mainSuffix}
+              {mainValue}
             </span>
-          ) : null}
+            {mainSuffix ? (
+              <span
+                style={{
+                  fontSize: 14,
+                  color: token.colorTextTertiary,
+                  fontWeight: 500,
+                  flexShrink: 0,
+                }}
+              >
+                {mainSuffix}
+              </span>
+            ) : null}
+            </div>
         </div>
         {/* <Text
           ellipsis={{ tooltip: subtitle }}

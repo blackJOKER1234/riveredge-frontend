@@ -2538,16 +2538,22 @@ code {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.dashboard-wip-operation-card {
+  border: 2px solid transparent;
+}
+
 .dashboard-wip-operation-card:hover:not(:disabled) {
   position: relative;
   z-index: 1;
-  border-color: var(--ant-color-border, var(--ant-colorBorder, #d9d9d9));
+  border: 2px solid #0958D9;
   box-shadow:
     0 2px 6px rgba(0, 0, 0, 0.07),
     0 6px 16px rgba(0, 0, 0, 0.11);
 }
 [data-theme='dark'] .dashboard-wip-operation-card:hover:not(:disabled) {
-  border-color: rgba(255, 255, 255, 0.16);
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  // border-color: rgba(255, 255, 255, 0.16);
   box-shadow:
     0 3px 8px rgba(0, 0, 0, 0.3),
     0 8px 20px rgba(0, 0, 0, 0.4);

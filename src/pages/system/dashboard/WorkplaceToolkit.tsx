@@ -4,7 +4,7 @@
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Popover, Space, theme } from 'antd';
-import * as LucideIcons from 'lucide-react';
+// import * as LucideIcons from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import {
   TaxCalculator,
@@ -19,6 +19,15 @@ import {
 } from './ToolkitComponents';
 import { AppstoreOutlined, CloseOutlined } from '@ant-design/icons';
 import { getDashboardTopBarTheme } from './dashboardTopBarTheme';
+import CalculatorIcon from '@/assets/icons/ToolKit/Calculator.svg';
+import CaseUpperIcon from '@/assets/icons/ToolKit/CaseUpper.svg';
+import CoinsIcon from '@/assets/icons/ToolKit/Coins.svg';
+import GlobeIcon from '@/assets/icons/ToolKit/Globe.svg';
+import KeyIcon from '@/assets/icons/ToolKit/Key.svg';
+import PenToolIcon from '@/assets/icons/ToolKit/PenTool.svg';
+import QrCodeIcon from '@/assets/icons/ToolKit/QrCode.svg';
+import RefreshCwIcon from '@/assets/icons/ToolKit/RefreshCw.svg';
+import ScaleIcon from '@/assets/icons/ToolKit/Scale.svg';
 
 export interface WorkplaceToolkitProps {
   cardRadius?: string | number;
@@ -86,23 +95,23 @@ const TrayToolButton: React.FC<{
       }}
     >
       <div
-        style={{
-          width: 28,
-          height: 28,
-          borderRadius: 8,
-          background: `${color}15`,
-          color,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxShadow: hover ? `0 0 12px ${color}30` : 'none',
-        }}
+        // style={{
+        //   width: 28,
+        //   height: 28,
+        //   borderRadius: 8,
+        //   background: `${color}15`,
+        //   color,
+        //   display: 'flex',
+        //   alignItems: 'center',
+        //   justifyContent: 'center',
+        //   boxShadow: hover ? `0 0 12px ${color}30` : 'none',
+        // }}
       >
         {icon}
       </div>
       <span
         style={{
-          fontSize: 11,
+          fontSize: 14,
           color: hover ? barTheme.textColor : barTheme.textSecondaryColor,
           fontWeight: 500,
           whiteSpace: 'nowrap',
@@ -163,63 +172,63 @@ export const WorkplaceToolkit: React.FC<WorkplaceToolkitProps> = ({
   const allTools: ToolItem[] = [
     {
       key: 'tax',
-      icon: <LucideIcons.Calculator size={18} strokeWidth={2.2} />,
+      icon: <img src={CalculatorIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.taxConversion'),
       color: '#64748b',
       render: <TaxCalculator />,
     },
     {
       key: 'weight',
-      icon: <LucideIcons.Scale size={18} strokeWidth={2.2} />,
+      icon: <img src={ScaleIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.weightCalc'),
       color: '#5f8570',
       render: <WeightCalculator />,
     },
     {
       key: 'exchange',
-      icon: <LucideIcons.Globe size={18} strokeWidth={2.2} />,
+      icon: <img src={GlobeIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.exchangeRate'),
       color: '#a67c52',
       render: <ExchangeCalculator />,
     },
     {
       key: 'rmb',
-      icon: <LucideIcons.Coins size={18} />,
+      icon: <img src={CoinsIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.amountToUppercase'),
       color: '#f59e0b',
       render: <RmbCapitalizer />,
     },
     {
       key: 'text',
-      icon: <LucideIcons.CaseUpper size={18} />,
+      icon: <img src={CaseUpperIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.textCleanup'),
       color: '#10b981',
       render: <TextTransformer />,
     },
     {
       key: 'unit',
-      icon: <LucideIcons.RefreshCw size={18} />,
+      icon: <img src={RefreshCwIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.unitConversion'),
       color: '#8b5cf6',
       render: <UnitConverter />,
     },
     {
       key: 'pwd',
-      icon: <LucideIcons.Key size={18} />,
+      icon: <img src={KeyIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.passwordGen'),
       color: '#ec4899',
       render: <PasswordGen />,
     },
     {
       key: 'memo',
-      icon: <LucideIcons.PenTool size={18} />,
+      icon: <img src={PenToolIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.notes'),
       color: '#f97316',
       render: <MemoTool />,
     },
     {
       key: 'qr',
-      icon: <LucideIcons.QrCode size={18} />,
+      icon: <img src={QrCodeIcon} width={32} height={32} />,
       label: t('pages.dashboard.toolkit.qrcode'),
       color: '#22d3ee',
       render: <QrGenerator />,
