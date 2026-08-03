@@ -30,7 +30,16 @@
 
 ```
 uni-table/
-├── index.tsx                  # 主组件
+├── index.tsx                  # 入口（重新导出公共 API）
+├── UniTable.tsx               # 主组件
+├── types.ts                   # UniTableProps 类型
+├── columnPolicy.ts            # 列顺序 / 列宽 / 表头策略
+├── importConfig.ts            # 从 columns 生成导入配置
+├── toolbarUtils.tsx           # 工具栏 key 处理与列重置按钮
+├── rowClickSelection.ts       # 行点击勾选忽略逻辑
+├── useProTableSearch.ts       # ProTable 搜索 ref 管理
+├── uniTableStyles.ts          # 内联样式常量
+├── UniTableViews.tsx          # 非表格视图与手机卡片视图
 ├── stackedPrimaryColumn.tsx   # 堆叠主列
 └── uniTableScrollPolicy.ts    # 表格滚动策略
 ```
