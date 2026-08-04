@@ -695,11 +695,14 @@ export default function DashboardPage() {
         /* 在制工序卡：内容超高时在卡片内滚动 */
         .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body .dashboard-operation-cards-panel__track {
           overflow-x: hidden;
-          overflow-y: auto;
+          overflow-y: scroll;
+          // scrollbar-width: thin;
+          // scrollbar-color: rgba(0, 0, 0, 0.16) transparent;
+          -ms-overflow-style: auto;
         }
-        // .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body::-webkit-scrollbar {
-        //   width: 6px;
-        //   height: 0;
+        // .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body .dashboard-operation-cards-panel__track::-webkit-scrollbar {
+        //   width: 6px !important;
+        //   height: 6px !important;
         // }
         .dashboard-main-body > .ant-col.dashboard-kpi-wip-col.dashboard-main-scroll-col {
           overflow-y: hidden;
@@ -802,17 +805,13 @@ export default function DashboardPage() {
         }
         .dashboard-ops-todo-col .dashboard-bottom-card-scroll,
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list {
-          scrollbar-width: auto;
+          // scrollbar-width: thin;
+          // scrollbar-color: rgba(0, 0, 0, 0.16) transparent;
           -ms-overflow-style: auto;
         }
         .dashboard-ops-todo-col .dashboard-bottom-card-scroll {
           overflow-x: hidden;
           overflow-y: scroll;
-        }
-        .dashboard-ops-todo-col .dashboard-bottom-card-scroll::-webkit-scrollbar,
-        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list::-webkit-scrollbar {
-          width: 6px;
-          height: 0;
         }
         /*
         .dashboard-ops-todo-col .dashboard-bottom-card-tabs .ant-tabs-tabpane {

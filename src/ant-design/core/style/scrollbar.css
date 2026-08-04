@@ -13,8 +13,8 @@ html {
 
 /*chrome*/
 ::-webkit-scrollbar {
-	width: 14px;
-	height: 14px;
+	width: 6px;
+	height: 6px;
 }
 
 ::-webkit-scrollbar-track {
