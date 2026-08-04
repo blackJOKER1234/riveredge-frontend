@@ -37,6 +37,7 @@ export const UserAvatarDropdown: React.FC<UserAvatarDropdownProps> = ({
       menu={{
         items: getUserMenuItems(t),
         onClick: handleUserMenuClick,
+        className: 'user-avatar-dropdown-menu',
       }}
       placement="bottomRight"
     >
@@ -45,16 +46,16 @@ export const UserAvatarDropdown: React.FC<UserAvatarDropdownProps> = ({
         style={{
           cursor: 'pointer',
           padding: '0 12px 0 4px',
-          height: 32,
+          height: 44,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          borderRadius: '16px',
-          background: isLightModeLightBg ? 'rgba(0, 0, 0, 0.10)' : 'rgba(255, 255, 255, 0.1)',
+          borderRadius: '24px',
+          background: isLightModeLightBg ? '#F3F5F7' : 'rgba(255, 255, 255, 0.1)',
         }}
       >
         <Avatar
-          size={24}
+          size={32}
           src={headerTextAvatar ? undefined : avatarUrl}
           // @ts-ignore
           onError={() => setAvatarImageFailed(true)}
@@ -66,7 +67,7 @@ export const UserAvatarDropdown: React.FC<UserAvatarDropdownProps> = ({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            fontSize: getAvatarFontSize(24),
+            fontSize: getAvatarFontSize(32),
             fontWeight: 500,
           }}
         >
@@ -79,8 +80,8 @@ export const UserAvatarDropdown: React.FC<UserAvatarDropdownProps> = ({
             fontSize: token.fontSize,
             fontWeight: 500,
             color: isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)',
-            lineHeight: '32px',
-            height: '32px',
+            lineHeight: '44px',
+            height: '44px',
             display: 'flex',
             alignItems: 'center',
             maxWidth: 120, // ⚠️ 防止姓名过长挤压顶栏

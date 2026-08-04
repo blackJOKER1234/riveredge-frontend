@@ -110,12 +110,13 @@ const TenantSelector: React.FC<TenantSelectorProps> = ({ headerLightText }) => {
             style={{
               minWidth: 120,
               maxWidth: 240,
-              height: 32,
+              height: 44,
               padding: '0 12px',
               fontSize: textFontSize,
             }}
             size="small"
             className="tenant-selector-select"
+            popupClassName="tenant-selector-dropdown-popup"
             suffixIcon={<SwapOutlined />}
             onChange={handleTenantChange}
             disabled={isLoading || switching}
@@ -146,13 +147,13 @@ const TenantSelector: React.FC<TenantSelectorProps> = ({ headerLightText }) => {
         overflow: 'hidden',
         textOverflow: 'ellipsis',
         padding: '4px 16px',
-        borderRadius: '16px',
+        borderRadius: '24px',
         backgroundColor: token.colorFillTertiary,
         color: spanColor,
         fontSize: textFontSize,
         fontWeight: 500,
-        height: 32,
-        lineHeight: '32px',
+        height: 44,
+        lineHeight: '44px',
         verticalAlign: 'middle',
       }}
     >

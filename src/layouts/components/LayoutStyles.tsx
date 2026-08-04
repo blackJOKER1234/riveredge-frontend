@@ -1508,13 +1508,13 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 vertical-align: middle !important;
                 gap: 6px !important;
                 padding: 4px 12px !important;
-                border-radius: 16px !important;
+                border-radius: 24px !important;
                 background-color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.10)' : 'rgba(255, 255, 255, 0.1)'} !important;
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 font-size: ${token.fontSize}px !important;
                 font-weight: 500 !important;
-                height: 32px !important;
-                line-height: 24px !important;
+                height: 44px !important;
+                line-height: 36px !important;
               }
               /* AI 助手 Lottie 按钮：仅图标 48x48，无背景、无动效 */
               .ai-assistant-lottie-btn-wrapper {
@@ -1549,12 +1549,12 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-pro-layout .ant-layout-header .tenant-selector-wrapper .ant-select .ant-select-selector,
               .ant-pro-layout .ant-pro-layout-header .tenant-selector-wrapper .ant-select-selector,
               .ant-pro-layout .ant-layout-header .tenant-selector-wrapper .ant-select-selector {
-                border-radius: 16px !important; /* 胶囊型圆角 */
+                border-radius: 24px !important; /* 胶囊型圆角 */
                 border: none !important;
                 box-shadow: none !important;
                 background-color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.10)' : 'rgba(255, 255, 255, 0.1)'} !important;
-                background: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.10)' : 'rgba(255, 255, 255, 0.1)'} !important;
-                height: 32px !important;
+                background: ${isLightModeLightBg ? '#F3F5F7' : 'rgba(255, 255, 255, 0.1)'} !important;
+                height: 44px !important;
               }
               /* 租户选择器文字颜色与字号 - 根据显示模式统一，深色背景时强制浅色，文字跟随系统 */
               .ant-pro-layout .ant-pro-layout-header .tenant-selector-wrapper .ant-select,
@@ -2167,7 +2167,7 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               /* 顶栏右侧操作按钮：统一背景色（通知、语言、主题色、全屏、客户端下载） */
               .ant-pro-layout .ant-pro-layout-header .ant-btn-text,
               .ant-pro-layout .ant-layout-header .ant-btn-text {
-                background: rgba(0, 0, 0, 0.10) !important;
+                background: ${isLightModeLightBg ? '#F3F5F7' : 'rgba(255, 255, 255, 0.1)'} !important;
               }
               /* 平板和手机模式下隐藏面包屑 - 放在最后，确保最高优先级 */
               @media (max-width: 1024px) {
@@ -2183,6 +2183,52 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                   margin: 0 !important;
                   padding: 0 !important;
                 }
+              }
+              /* 顶栏右侧 actions 图标按钮统一 42px：覆盖上方 32px 全局规则，仅作用于 actionsRender 区域 */
+              .ant-pro-layout .ant-pro-layout-header .ant-pro-global-header-header-actions .ant-btn,
+              .ant-pro-layout .ant-layout-header .ant-pro-global-header-header-actions .ant-btn {
+                width: 44px !important;
+                height: 44px !important;
+                min-width: 44px !important;
+                max-width: 44px !important;
+                min-height: 44px !important;
+                max-height: 44px !important;
+                flex-shrink: 0 !important; // ⚠️ 防止挤压变形
+              }
+              .ant-pro-layout .ant-pro-layout-header .ant-pro-global-header-header-actions .ant-badge .ant-btn,
+              .ant-pro-layout .ant-layout-header .ant-pro-global-header-header-actions .ant-badge .ant-btn {
+                width: 44px !important;
+                height: 44px !important;
+                min-width: 44px !important;
+                max-width: 44px !important;
+                min-height: 44px !important;
+                max-height: 44px !important;
+                flex-shrink: 0 !important; // ⚠️ 防止挤压变形
+              }
+              /* 顶栏租户选择器下拉选项：统一 44px 高度、24px 圆角（popup 渲染在 body 下，用 popup 类名限定） */
+              .tenant-selector-dropdown-popup .ant-select-item-option {
+                height: 44px !important;
+                min-height: 44px !important;
+                border-radius: 24px !important;
+                // margin: 2px 6px !important;
+                display: flex;
+                align-items: center;
+                padding-block: 0 !important;
+              }
+              .tenant-selector-dropdown-popup .ant-select-item-option .ant-select-item-option-content {
+                display: flex;
+                align-items: center;
+                line-height: normal !important;
+              }
+              .tenant-selector-dropdown-popup .ant-select-item-option .ant-select-item-option-content span {
+                line-height: normal !important;
+              }
+              /* 顶栏用户头像下拉菜单项：统一 44px 高度、24px 圆角 */
+              .user-avatar-dropdown-menu .ant-dropdown-menu-item {
+                height: 44px !important;
+                min-height: 44px !important;
+                border-radius: 24px !important;
+                // margin: 4px 0 !important;
               }
             `}</style>
     </>
