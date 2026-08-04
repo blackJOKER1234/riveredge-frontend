@@ -20138,7 +20138,7 @@ export default {
   'pages.dashboard.operationCardsTitle': 'WIP operations',
   'pages.dashboard.operationCardsCount': '{{count}} operations',
   'pages.dashboard.operationCardsEmpty': 'No operations in progress',
-  'pages.dashboard.wipOperationTaskQty': 'Production tasks',
+  'pages.dashboard.wipOperationTaskQty': 'Production tasks (pcs)',
   'pages.dashboard.wipOperationCurrentProgress': 'Progress: {{value}}%',
   'pages.dashboard.wipOperationCompletedQty': 'Completed',
   'pages.dashboard.wipOperationQualifiedQty': 'Qualified',

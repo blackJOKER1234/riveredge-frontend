@@ -58,7 +58,7 @@
   line-height: 16px !important;
 
   /* 设置默认颜色为主题色 */
-  color: var(--ant-colorPrimary) !important;
+  color: rgba(0, 0, 0, 0.2) !important;
   transform: translateX(-12px) !important; /* 菜单项整体向左移动，不改 padding */
 
   /* 完全禁用容器的 hover 效果 */
@@ -66,7 +66,7 @@
   &:focus,
   &:active {
     background-color: transparent !important;
-    color: var(--ant-colorPrimary) !important;
+    color: rgba(0, 0, 0, 0.2) !important;
     box-shadow: none !important;
     border: none !important;
 
@@ -80,14 +80,14 @@
   /* 禁用选中状态 */
   &.ant-menu-item-selected {
     background-color: transparent !important;
-    color: var(--ant-colorPrimary) !important;
+    color: rgba(0, 0, 0, 0.2) !important;
   }
 
   /* 禁用所有可能的 hover 效果 */
   &:hover .ant-menu-title-content,
   &:hover .menu-group-title-app {
     background-color: transparent !important;
-    color: var(--ant-colorPrimary) !important;
+    color: rgba(0, 0, 0, 0.2) !important;
   }
 
   /* 确保内部内容区域也没有 padding */

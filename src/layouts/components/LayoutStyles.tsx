@@ -466,7 +466,7 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-pro-sider-menu .ant-menu-item-group[class*="app-group-"] .ant-menu-item-group-title,
               .ant-pro-sider-menu .ant-menu-item-group[class*="menu-group-title-app"] .ant-menu-item-group-title {
                 font-size: 12px !important;
-                color: var(--ant-colorPrimary) !important;
+                color: rgba(0, 0, 0, 0.2) !important;
                 font-weight: 700 !important;
                 padding: 2px 16px 2px 0 !important;
                 margin: 0 !important;
@@ -487,7 +487,7 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-pro-layout .ant-pro-sider-menu > .ant-menu-item-group > .ant-menu-item-group-title:active,
               .ant-pro-layout .ant-pro-sider-menu > .ant-menu-item-group > .ant-menu-item-group-title:focus {
                 background: transparent !important;
-                color: ${siderTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.65)' : 'rgba(0, 0, 0, 0.45)'} !important;
+                color: ${siderTextColor === '#ffffff' ? 'rgba(255, 255, 255, 0.65)' : 'rgba(0, 0, 0, 0.2)'} !important;
               }
               /* ==================== 一级菜单项 - 完全遵循 Ant Design 原生样式 ==================== */
               /* 不做任何修改，完全使用 Ant Design 的原生样式和垂直居中 */
@@ -643,7 +643,7 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               .ant-menu-item.ant-menu-item-only-child.ant-pro-base-menu-inline-menu-item[class*="menu-group-title-app"]:hover::before,
               .ant-menu-item.ant-menu-item-only-child.ant-pro-base-menu-inline-menu-item[class*="menu-group-title-app"]:hover::after {
                 background-color: transparent !important;
-                color: var(--ant-colorTextSecondary) !important;
+                color: rgba(0, 0, 0, 0.2) !important;
                 box-shadow: none !important;
                 border: none !important;
               }

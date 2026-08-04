@@ -146,7 +146,7 @@ export function renderMenuItem(
         className="menu-group-title-app"
         style={{
           fontSize: '12px',
-          color: 'var(--ant-colorPrimary)',
+          color: 'rgba(0, 0, 0, 0.2)',
           fontWeight: 500,
           padding: '0', // 减小上下 padding
           margin: 0,
