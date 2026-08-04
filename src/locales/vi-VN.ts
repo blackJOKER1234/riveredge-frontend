@@ -299,6 +299,7 @@ export default {
   'ui.theme.style.plain': 'Tối thiểu',
   'ui.theme.style.vividDesc': 'Tùy chỉnh nhiều màu nhấn để giao diện phong phú hơn',
   'ui.theme.style.plainDesc': 'Thang độ xám đầu tiên chỉ dành cho thương hiệu chính, ít nhiễu hình ảnh hơn',
+  'ui.coc': ' Quay lại COC',
   'components.themeEditor.title': 'chủ đề',
   'components.themeEditor.subtitle': 'Tùy chỉnh giao diện của bạn để có quy trình làm việc thoải mái hơn',
   'components.themeEditor.action.reset': 'Khôi phục mặc định',

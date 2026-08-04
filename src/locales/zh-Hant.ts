@@ -297,6 +297,7 @@ export default {
   'ui.theme.style.plain': '簡約',
   'ui.theme.style.vividDesc': '可自定義多處配色，介面更鮮明',
   'ui.theme.style.plainDesc': '以灰階為主，僅保留品牌主色，減少視覺干擾',
+  'ui.coc': '返回COC',
   'components.themeEditor.title': '個性化主題',
   'components.themeEditor.subtitle': '自定義您的介面外觀，讓工作更舒適',
   'components.themeEditor.action.reset': '恢復預設',

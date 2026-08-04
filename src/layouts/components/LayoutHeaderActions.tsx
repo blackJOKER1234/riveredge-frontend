@@ -25,6 +25,9 @@ export interface LayoutHeaderActionsProps {
   refetchMessageStats: () => void
   // theme
   onThemeChange: () => void
+  // fullscreen
+  isFullscreen: boolean
+  onToggleFullscreen: () => void
   // user
   currentUser: any
   avatarUrl?: string
@@ -72,11 +75,11 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
 
   // COC
   actions.push(
-    <div className='inline-flex'>
-      <Button type="text" size="small" onClick={()=>{}}>
-        返回COC
+    <Tooltip title={t('ui.coc')}>
+      <Button type="text" size="small" onClick={() => {}}>
+        ⬅️
       </Button>
-    </div>
+    </Tooltip>
   )
 
   // 快捷入口（按钮样式与右侧其他 icon 按钮保持一致）

@@ -27,12 +27,13 @@ export const LayoutHeaderContent: React.FC<LayoutHeaderContentProps> = ({
   t,
 }) => {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', height: '100%', gap: 12 }}>
+    <div style={{ display: 'flex', alignItems: 'center', height: '100%', gap: 6}}>
       {!isMobileOrTablet && (
         <Tooltip title={collapsed ? t('ui.sidebar.expand') : t('ui.sidebar.collapse')}>
           <Button
             type="text"
             size="small"
+            className='bg-transparent!'
             icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             onClick={() => onToggleCollapsed(!collapsed)}
             aria-label={collapsed ? t('ui.sidebar.expand') : t('ui.sidebar.collapse')}

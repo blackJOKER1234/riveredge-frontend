@@ -307,6 +307,7 @@ export default {
   'ui.theme.style.plain': '简约',
   'ui.theme.style.vividDesc': '可自定义多处配色，界面更鲜明',
   'ui.theme.style.plainDesc': '以灰阶为主，仅保留品牌主色，减少视觉干扰',
+  'ui.coc': '返回COC',
 
   'components.themeEditor.title': '个性化主题',
   'components.themeEditor.subtitle': '自定义您的界面外观，让工作更舒适',
