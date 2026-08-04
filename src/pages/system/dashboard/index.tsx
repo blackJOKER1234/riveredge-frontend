@@ -699,11 +699,9 @@ export default function DashboardPage() {
           // scrollbar-width: thin;
           // scrollbar-color: rgba(0, 0, 0, 0.16) transparent;
           -ms-overflow-style: auto;
+          margin-right: 1px;
+          margin-top: 1px;
         }
-        // .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body .dashboard-operation-cards-panel__track::-webkit-scrollbar {
-        //   width: 6px !important;
-        //   height: 6px !important;
-        // }
         .dashboard-main-body > .ant-col.dashboard-kpi-wip-col.dashboard-main-scroll-col {
           overflow-y: hidden;
         }
