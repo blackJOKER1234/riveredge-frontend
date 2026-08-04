@@ -2,7 +2,7 @@
  * UniTable 数据层 Hook
  *
  * 从 UniTable.tsx 拆出的「数据请求、搜索、缓存、分页状态、加载状态」域。
- * 当前仅新增本文件，尚未接入 UniTable.tsx；行为与 UniTable.tsx 原实现保持一致。
+ * 已由 UniTable.tsx 接入，行为与拆分前保持一致。
  *
  * 域职责：
  * - TanStack Query 自动启用、prefetchNextPage、staleWhileRevalidate

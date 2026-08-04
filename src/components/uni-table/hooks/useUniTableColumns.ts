@@ -2,7 +2,7 @@
  * UniTable 列策略 Hook
  *
  * 从 UniTable.tsx 拆出的「列处理、列状态持久化、固定列纠偏、导入配置、列重置」域。
- * 当前仅新增本文件，尚未接入 UniTable.tsx；行为与 UniTable.tsx 原实现保持一致。
+ * 已由 UniTable.tsx 接入，行为与拆分前保持一致。
  *
  * 域职责：
  * - effectiveColumns / processedColumns / effectiveTableColumns 计算
@@ -23,7 +23,6 @@ import {
 import type { Key } from 'react'
 import type { ProColumns } from '@ant-design/pro-components'
 import type { ColumnsState } from '@ant-design/pro-table'
-import { useAntdResizableHeader } from 'use-antd-resizable-header'
 import { useConfigStore } from '../../../stores/configStore'
 import { formatDateBySiteSetting, formatDateTimeBySiteSetting } from '../../../utils/format'
 import { DictionaryLabel } from '../../../components/dictionary-label'
@@ -48,6 +47,16 @@ import type { ResourcePermissionGates } from '../../../hooks/useResourcePermissi
 
 export type UseUniTableColumnsT = (key: string, opts?: { [key: string]: any }) => string
 
+/** rc-table 在无 onCell 时也会为每个 Cell 新建空对象，导致 Cell memo 失效；统一注入稳定引用。 */
+const UNI_TABLE_STATIC_CELL_PROPS: Record<string, unknown> = {}
+const UNI_TABLE_OPERATION_CELL_PROPS = {
+  className: 'uni-table-operation-cell',
+  style: { whiteSpace: 'nowrap' },
+}
+
+/** 项目当前禁用列拖拽：用稳定空值替代 useAntdResizableHeader，避免其 window resize 重建列引用。 */
+const UNI_TABLE_NO_RESIZABLE_COLUMNS: any[] = []
+const UNI_TABLE_NO_RESIZABLE_COMPONENTS = { header: { cell: undefined } }
 /** ProTable columnsState 未从包根导出，这里保持最小结构（与 ColumnStateType 一致）。 */
 export interface UseUniTableColumnsUserState {
   persistenceType?: 'localStorage' | 'sessionStorage'
@@ -118,7 +127,7 @@ export interface UseUniTableColumnsResult<T extends Record<string, any> = Record
   /** useAntdResizableHeader 返回的列（当前恒为空数组） */
   resizableColumns: any[]
   /** useAntdResizableHeader 返回的表头单元格组件 */
-  resizableComponents: ReturnType<typeof useAntdResizableHeader>['components']
+  resizableComponents: any
   /** 最终渲染到 ProTable 的列 */
   effectiveTableColumns: any[]
   /** 列持久化 key（columnPersistenceId ?? headerTitle） */
@@ -209,18 +218,21 @@ export function useUniTableColumns<T extends Record<string, any> = Record<string
         const { width: _w, minWidth: _mw, ...lifecycleRest } = col
         const userOnCell = lifecycleRest.onCell
         const lifecycleCellClass = getUniTableLifecycleCellClassName(lifecycleRest)
+        const stableLifecycleCellProps = { className: lifecycleCellClass }
         return {
           ...lifecycleRest,
           width: resolveUniTableLifecycleColumnWidth(lifecycleRest),
           minWidth: UNI_TABLE_LIFECYCLE_MIN_WIDTH,
           resizable: false,
-          onCell: (record: any, rowIndex?: number) => {
-            const base = typeof userOnCell === 'function' ? userOnCell(record, rowIndex) || {} : {}
-            return {
-              ...base,
-              className: `${lifecycleCellClass} ${base.className || ''}`.trim(),
-            }
-          },
+          onCell: typeof userOnCell === 'function'
+            ? (record: any, rowIndex?: number) => {
+                const base = userOnCell(record, rowIndex) || {}
+                return {
+                  ...base,
+                  className: `${lifecycleCellClass} ${base.className || ''}`.trim(),
+                }
+              }
+            : () => stableLifecycleCellProps,
         }
       }
       if (isOperationColumn(col)) {
@@ -259,23 +271,23 @@ export function useUniTableColumns<T extends Record<string, any> = Record<string
       return col
     })
     // 列宽策略保持稳定，不随空表/有数据态切换，避免固定列在首次加载与刷新时抖动
-    return applyUniTableColumnWidthPolicy(mapped, false)
+    // rc-table 对无 onCell 的列会回退到 `{}`，每次渲染都换引用导致 Cell memo 失效；
+    // 普通列统一注入稳定 onCell，操作/生命周期列由下方各自维护稳定默认值。
+    const withStableCellProps = mapped.map(col => {
+      if (col.onCell || isOperationColumn(col) || isUniTableLifecycleColumn(col)) return col
+      return { ...col, onCell: () => UNI_TABLE_STATIC_CELL_PROPS }
+    })
+    return applyUniTableColumnWidthPolicy(withStableCellProps, false)
   }, [effectiveColumns, dateFormatKey, permissionGates])
 
   // 全项目统一策略：结构化列保留页面 width；主文本列由 applyUniTableColumnWidthPolicy 释放 width；
   // 不启用拖拽改宽与本地列宽持久化，避免「代码 width」与 localStorage 双控制源竞争。
-  const columnsForResize: any[] = useMemo(() => [], [])
   const tableId = columnPersistenceId ?? headerTitle
-  const {
-    components: resizableComponents,
-    resizableColumns,
-    tableWidth,
-    resetColumns,
-    refresh,
-  } = useAntdResizableHeader({
-    columns: columnsForResize,
-    columnsState: undefined,
-  })
+  const resizableColumns = UNI_TABLE_NO_RESIZABLE_COLUMNS
+  const resizableComponents = UNI_TABLE_NO_RESIZABLE_COMPONENTS
+  const tableWidth: number | undefined = undefined
+  const resetColumns = useCallback((_resetStorage?: boolean) => {}, [])
+  const refresh = useCallback(() => {}, [])
 
   const handleColumnReset = useCallback(() => {
     if (tableId) {
@@ -324,10 +336,7 @@ export function useUniTableColumns<T extends Record<string, any> = Record<string
                   },
                 }
               }
-            : () => ({
-                className: 'uni-table-operation-cell',
-                style: { whiteSpace: 'nowrap' },
-              })
+            : () => UNI_TABLE_OPERATION_CELL_PROPS
         result.push({
           ...opCol,
           resizable: false,

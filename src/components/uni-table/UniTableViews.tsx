@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { Card, Descriptions, Empty, theme } from 'antd'
 import { ProCard } from '@ant-design/pro-components'
 import {
@@ -29,7 +29,7 @@ export interface UniTableViewsProps<T extends Record<string, any>> {
 }
 
 /** 非表格视图：甘特图 / 卡片 / 看板 / 统计 / 帮助 / 自定义 / 触屏 */
-export function UniTableViews<T extends Record<string, any>>({
+function UniTableViewsInner<T extends Record<string, any>>({
   currentViewType,
   viewTypes,
   tableViewTypes,
@@ -457,7 +457,7 @@ export function UniTableViews<T extends Record<string, any>>({
                   borderRadius: token.borderRadius,
                   overflow: 'visible',
                 }}
-                styles={{ body: { paddingLeft: 16, paddingRight: 16, paddingBottom: 16 } }}
+                {...({ styles: { body: { paddingLeft: 16, paddingRight: 16, paddingBottom: 16 } } } as any)}
               >
                 <div style={{ minHeight: '200px' }}>{cv.render(tableData)}</div>
               </ProCard>
@@ -526,6 +526,8 @@ export function UniTableViews<T extends Record<string, any>>({
   )
 }
 
+export const UniTableViews = memo(UniTableViewsInner) as unknown as typeof UniTableViewsInner
+
 export interface UniTableMobileCardsProps<T extends Record<string, any>> {
   isMobile: boolean | undefined
   currentViewType: string
@@ -536,7 +538,7 @@ export interface UniTableMobileCardsProps<T extends Record<string, any>> {
 }
 
 /** 手机端专用卡片视图：以卡片替代 ProTable 表身 */
-export function UniTableMobileCards<T extends Record<string, any>>({
+function UniTableMobileCardsInner<T extends Record<string, any>>({
   isMobile,
   currentViewType,
   tableViewTypes,
@@ -647,3 +649,7 @@ export function UniTableMobileCards<T extends Record<string, any>>({
     </>
   )
 }
+
+export const UniTableMobileCards = memo(
+  UniTableMobileCardsInner
+) as unknown as typeof UniTableMobileCardsInner

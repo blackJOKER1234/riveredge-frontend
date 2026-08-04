@@ -41,6 +41,16 @@ uni-table/
 ├── uniTableStyles.ts          # 内联样式常量
 ├── UniTableViews.tsx          # 非表格视图与手机卡片视图
 ├── stackedPrimaryColumn.tsx   # 堆叠主列
+├── UniTableProTable.tsx       # ProTable 渲染子组件（memo 化）
+├── UniTableImportModal.tsx    # 导入弹窗子组件（懒加载）
+├── hooks/
+│   ├── useUniTableData.ts     # 数据请求 / 搜索 / TanStack 缓存
+│   ├── useUniTableColumns.ts  # 列处理 / 持久化 / 导入配置
+│   ├── useUniTableRowSelection.ts # 行选择 / 行点击勾选
+│   ├── useUniTableScroll.ts   # 滚动策略 / 布局测量
+│   └── useStableShallowValue.ts # 稳定 props 引用
+├── toolbar/
+│   └── useUniTableToolbar.tsx # 工具栏 / 搜索行 / options
 └── uniTableScrollPolicy.ts    # 表格滚动策略
 ```
 

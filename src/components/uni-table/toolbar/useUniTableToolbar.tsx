@@ -550,7 +550,32 @@ export function useUniTableToolbar<T extends Record<string, any> = Record<string
     [statCardsCtx, t, token.colorTextQuaternary]
   )
 
-  const memoizedRightActions = !isMobile ? buildRightActions(dataActionIconOnly) : undefined
+  const memoizedRightActions = React.useMemo(
+    () => (!isMobile ? buildRightActions(dataActionIconOnly) : undefined),
+    [
+      isMobile,
+      dataActionIconOnly,
+      rightToolBarActionsBeforeExport,
+      gatedShowImportButton,
+      onImport,
+      gatedShowExportButton,
+      onExport,
+      exportButtonText,
+      showSyncButton,
+      onSync,
+      syncButtonText,
+      showDatasetConfigButton,
+      onDatasetConfig,
+      datasetConfigButtonText,
+      showPrintButton,
+      onPrint,
+      printButtonText,
+      selectedRowKeys,
+      tableData,
+      toolBarButtonSize,
+      t,
+    ]
+  )
 
   const memoizedToolbar = React.useMemo(
     () => ({

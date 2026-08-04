@@ -161,4 +161,29 @@ export const UNI_TABLE_STYLES = `
         .uni-table-container.uni-table-scroll-y-mode .uni-table-pro-table.uni-table-scroll-y .ant-table-content {
           scrollbar-gutter: stable;
         }
+        /* 页面布局内限高：表格整体跟随容器，在 padding 内占满且不越界 */
+        .uni-page-body-inner .uni-table-container.uni-table-scroll-y-mode {
+          flex: 1 1 auto !important;
+          display: flex !important;
+          flex-direction: column !important;
+          min-height: 0 !important;
+          max-height: 100% !important;
+          overflow: hidden !important;
+        }
+        .uni-page-body-inner .uni-table-container.uni-table-scroll-y-mode .uni-table-search-pane-wrap {
+          flex: 1 1 auto !important;
+          display: flex !important;
+          flex-direction: column !important;
+          min-height: 0 !important;
+          max-height: 100% !important;
+        }
+        .uni-page-body-inner .uni-table-container.uni-table-scroll-y-mode .uni-table-search-pane-wrap > .pro-table-button-container {
+          flex: 0 0 auto !important;
+        }
+        .uni-page-body-inner .uni-table-container.uni-table-scroll-y-mode .uni-table-search-pane-wrap > .uni-table-body-pane {
+          flex: 1 1 auto !important;
+          min-height: 0 !important;
+          max-height: 100% !important;
+          overflow: visible !important;
+        }
 `
