@@ -328,12 +328,38 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               /* 动态注入主题色到 CSS 变量 */
               :root {
                 --riveredge-menu-primary-color: ${token.colorPrimary};
+                /* camelCase：布局/组件历史用法 */
                 --ant-colorPrimary: ${token.colorPrimary};
+                --ant-colorPrimaryHover: ${token.colorPrimaryHover};
+                --ant-colorPrimaryActive: ${token.colorPrimaryActive};
+                --ant-colorPrimaryBg: ${token.colorPrimaryBg};
+                --ant-colorPrimaryBgHover: ${token.colorPrimaryBgHover};
+                --ant-colorPrimaryBorder: ${token.colorPrimaryBorder};
+                --ant-colorSuccess: ${token.colorSuccess};
+                --ant-colorWarning: ${token.colorWarning};
+                --ant-colorError: ${token.colorError};
+                --ant-colorInfo: ${token.colorInfo};
                 --ant-colorBgLayout: ${token.colorBgLayout || (isDarkMode ? '#141414' : '#f5f5f5')};
                 --ant-colorBorder: ${token.colorBorder};
                 --ant-colorBorderSecondary: ${token.colorBorderSecondary ?? token.colorBorder};
                 --ant-borderRadius: ${token.borderRadius}px;
                 --ant-borderRadiusLG: ${token.borderRadiusLG ?? token.borderRadius + 2}px;
+                /* kebab-case：Less / Tailwind @theme 兼容 */
+                --ant-color-primary: ${token.colorPrimary};
+                --ant-color-primary-hover: ${token.colorPrimaryHover};
+                --ant-color-primary-active: ${token.colorPrimaryActive};
+                --ant-color-primary-bg: ${token.colorPrimaryBg};
+                --ant-color-primary-bg-hover: ${token.colorPrimaryBgHover};
+                --ant-color-primary-border: ${token.colorPrimaryBorder};
+                --ant-color-success: ${token.colorSuccess};
+                --ant-color-warning: ${token.colorWarning};
+                --ant-color-error: ${token.colorError};
+                --ant-color-info: ${token.colorInfo};
+                --ant-color-bg-layout: ${token.colorBgLayout || (isDarkMode ? '#141414' : '#f5f5f5')};
+                --ant-color-border: ${token.colorBorder};
+                --ant-color-border-secondary: ${token.colorBorderSecondary ?? token.colorBorder};
+                --ant-border-radius: ${token.borderRadius}px;
+                --ant-border-radius-lg: ${token.borderRadiusLG ?? token.borderRadius + 2}px;
               }
               /* ==================== PageContainer 相关 ==================== */
               .ant-pro-page-container .ant-page-header .ant-page-header-breadcrumb,
@@ -1087,6 +1113,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
               :root {
                 --ant-colorBgContainer: ${token.colorBgContainer};
                 --ant-colorBgElevated: ${token.colorBgElevated};
+                --ant-color-bg-container: ${token.colorBgContainer};
+                --ant-color-bg-elevated: ${token.colorBgElevated};
               }
               /* 顶栏背景色（支持透明度） */
               .ant-pro-layout .ant-pro-layout-header,

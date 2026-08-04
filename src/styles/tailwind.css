@@ -1,21 +1,32 @@
 @import 'tailwindcss';
 
-/* Vite root 是 src/，显式声明源码范围，避免自动扫描漏掉业务目录 */
+/* Vite root 是 src/；相对本文件的 ../ 即整个业务源码树 */
 @source '../';
 
-/* 项目暗色主题挂在 <html data-theme="dark"> 上 */
+/* 项目暗色主题挂在 <html data-theme="dark"> 上（与 .dark class 方案区分） */
 @custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
 
-/* 常用语义色直接跟随 Ant Design token，暗色/亮色主题自动联动 */
+/*
+ * 语义色跟随布局层注入的 Ant Design token。
+ * 主应用 LayoutStyles 使用 camelCase（--ant-colorPrimary），
+ * 部分 Less/历史代码使用 kebab-case（--ant-color-primary），双写兼容。
+ */
 @theme {
-  --color-primary: var(--ant-color-primary);
-  --color-primary-hover: var(--ant-color-primary-hover);
-  --color-primary-active: var(--ant-color-primary-active);
-  --color-primary-bg: var(--ant-color-primary-bg);
-  --color-primary-bg-hover: var(--ant-color-primary-bg-hover);
-  --color-primary-border: var(--ant-color-primary-border);
-  --color-success: var(--ant-color-success);
-  --color-warning: var(--ant-color-warning);
-  --color-error: var(--ant-color-error);
-  --color-info: var(--ant-color-info);
+  --color-primary: var(--ant-colorPrimary, var(--ant-color-primary));
+  --color-primary-hover: var(--ant-colorPrimaryHover, var(--ant-color-primary-hover));
+  --color-primary-active: var(--ant-colorPrimaryActive, var(--ant-color-primary-active));
+  --color-primary-bg: var(--ant-colorPrimaryBg, var(--ant-color-primary-bg));
+  --color-primary-bg-hover: var(--ant-colorPrimaryBgHover, var(--ant-color-primary-bg-hover));
+  --color-primary-border: var(--ant-colorPrimaryBorder, var(--ant-color-primary-border));
+  --color-success: var(--ant-colorSuccess, var(--ant-color-success));
+  --color-warning: var(--ant-colorWarning, var(--ant-color-warning));
+  --color-error: var(--ant-colorError, var(--ant-color-error));
+  --color-info: var(--ant-colorInfo, var(--ant-color-info));
+  --animate-spin-slow: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }

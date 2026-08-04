@@ -337,7 +337,7 @@ export default defineConfig({
   // 优化依赖预构建：只列出"首屏 & 高频"包；Univer 全家桶等超重库仅在打开表格类页面时
   // 触发按需预构建，避免冷启动被迫扫描整套 CAD/sheet/docs 资源。
   css: {
-    // Vite 8 使用 PostCSS 管道运行 @tailwindcss/postcss，确保 Tailwind 原生指令被编译
+    // Tailwind 由 plugins 中的 @tailwindcss/vite 处理；此处保留 postcss transformer 兼容 Less 等
     transformer: 'postcss',
   },
   optimizeDeps: {
