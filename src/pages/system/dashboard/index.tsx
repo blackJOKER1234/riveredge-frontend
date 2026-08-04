@@ -582,6 +582,11 @@ export default function DashboardPage() {
           background: var(--ant-color-bg-container, #fff);
           border-radius: 24px;
         }
+        .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot--wip {
+          background: #f3f5f7;
+          border-radius: 24px;
+          overflow: hidden;
+        }
         // .dashboard-ops-todo-col > .dashboard-ops-todo-col__slot {
         //   background: var(--ant-color-bg-container, #fff);
         // }
@@ -819,7 +824,7 @@ export default function DashboardPage() {
             />
           </div>
 
-          <div className="dashboard-kpi-wip-col__slot">
+          <div className="dashboard-kpi-wip-col__slot dashboard-kpi-wip-col__slot--wip">
             <DashboardOperationCardsPanel
               cardRadius={dashboardCardRadius}
               height="100%"

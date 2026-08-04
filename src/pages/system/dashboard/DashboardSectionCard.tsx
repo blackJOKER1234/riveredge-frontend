@@ -16,6 +16,7 @@ export interface DashboardSectionCardProps {
   cardRadius?: number | string;
   className?: string;
   cardClassName?: string;
+  headClassName?: string;
   styles?: {
     body?: React.CSSProperties;
   };
@@ -30,6 +31,7 @@ export function DashboardSectionCard({
   cardRadius,
   className,
   cardClassName,
+  headClassName,
   styles,
 }: DashboardSectionCardProps) {
   const bounded = height != null;
@@ -53,7 +55,7 @@ export function DashboardSectionCard({
           : undefined
       }
     >
-      <div className="dashboard-section__head">
+      <div className={['dashboard-section__head', headClassName].filter(Boolean).join(' ')}>
         <div className="dashboard-section__title">{title}</div>
         {extra ? <div className="dashboard-section__extra">{extra}</div> : null}
       </div>

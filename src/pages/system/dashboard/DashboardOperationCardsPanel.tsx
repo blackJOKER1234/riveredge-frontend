@@ -88,11 +88,13 @@ export function DashboardOperationCardsPanel({
           </Button>
         </Space>
       }
+      headClassName="!px-0"
       cardRadius={cardRadius}
       styles={{
         body: {
-          padding: '12px 16px 14px',
+          padding: '12px 16px 16px',
           boxSizing: 'border-box',
+          marginTop: 12,
         },
       }}
     >
