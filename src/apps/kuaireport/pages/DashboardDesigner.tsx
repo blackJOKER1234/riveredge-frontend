@@ -20,6 +20,7 @@ import { message } from 'antd';
 import IndicatorWidget from '../components/widgets/IndicatorWidget';
 import TextWidget from '../components/widgets/TextWidget';
 import MediaWidget from '../components/widgets/MediaWidget';
+import { normalizeDashboardLayout } from '../utils/dashboardLayout';
 
 import 'react-grid-layout/css/styles.css';
 import 'react-resizable/css/styles.css';
@@ -61,7 +62,7 @@ const DashboardDesigner: React.FC = () => {
             const res = await getDashboard(dashboardId);
             if (res) {
                 setName(res.name);
-                setLayout(res.layout_config || []);
+                setLayout(normalizeDashboardLayout(res.layout_config));
                 setWidgets(res.widgets_config || {});
                 // 设置 counter 为最大 ID + 1
                 const ids = Object.keys(res.widgets_config || {}).map(Number).filter(n => !isNaN(n));

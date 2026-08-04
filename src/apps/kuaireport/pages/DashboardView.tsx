@@ -10,6 +10,7 @@ import { getDashboard } from '../services/kuaireport';
 import IndicatorWidget from '../components/widgets/IndicatorWidget';
 import TextWidget from '../components/widgets/TextWidget';
 import MediaWidget from '../components/widgets/MediaWidget';
+import { normalizeDashboardLayout } from '../utils/dashboardLayout';
 
 import 'react-grid-layout/css/styles.css';
 import 'react-resizable/css/styles.css';
@@ -41,7 +42,7 @@ const DashboardView: React.FC = () => {
             const res = await getDashboard(dashboardId);
             if (res) {
                 setName(res.name);
-                setLayout(res.layout_config || []);
+                setLayout(normalizeDashboardLayout(res.layout_config));
                 setWidgets(res.widgets_config || {});
             }
         } catch (error) {
