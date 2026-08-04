@@ -58,6 +58,7 @@
 ### 样式约束
 
 - 新模块（新业务应用、页面、组件等）的样式一律采用 Tailwind CSS v4 开发。
+- Tailwind 唯一入口为 `src/styles/tailwind.css`；禁止再新增 `@import "tailwindcss"` 的平行入口（含 main 双引入、业务 CSS 内重复引入）。
 - 新模块不新增 Less 样式文件；确需使用 Less 或 antd-style 时，须说明理由并保持最小范围。
 - 存量模块现有样式方案继续维护，不受影响；存量模块新增代码优先使用 Tailwind CSS v4。
 
