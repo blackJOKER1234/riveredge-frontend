@@ -171,86 +171,25 @@ function filterDashboardTodoTabItems<T extends { key: string }>(
   return items.filter((tab) => tab.key === 'all' || (countByKey[tab.key] ?? 0) > 0);
 }
 
-function isDashboardTodoUrgent(priority?: string): boolean {
-  const value = (priority || '').trim().toLowerCase();
-  return value === 'high' || value === 'urgent' || value === 'critical' || priority === '紧急';
-}
-
-function renderDashboardTodoList(
+function renderDashboardSimpleTodoList(
   items: TodoItem[],
   emptyDescription: string,
-  options: {
-    // i18next TFunction 重载较多，这里用宽松签名承接
-    t: (key: string, options?: any) => string;
-    onNavigate: (link: string) => void;
-    onHandle: (id: string) => void;
-  },
+  onNavigate: (link: string) => void,
 ) {
-  const { t, onNavigate, onHandle } = options;
   if (items.length === 0) {
     return <Empty description={emptyDescription} image={Empty.PRESENTED_IMAGE_SIMPLE} />;
   }
   return (
-    <div className="dashboard-feed-list">
-      {items.map((item) => {
-        const urgent = isDashboardTodoUrgent(item.priority);
-        return (
-          <div
-            key={item.id}
-            className="dashboard-todo-item"
-            onClick={() => {
-              if (item.link) onNavigate(item.link);
-            }}
-          >
-            <div className="dashboard-todo-item__header">
-              <p className="dashboard-todo-item__title">{item.title}</p>
-              {urgent ? (
-                <span className="dashboard-todo-item__priority">
-                  {t('pages.dashboard.todo.priorityUrgent')}
-                </span>
-              ) : null}
-            </div>
-            {(() => {
-              const planDate = item.plan_date || item.planned_date;
-              const delayDaysMatch = item.description?.match(/(\d+)\s*(?:天|day)/i);
-              const isDelayTodo = item.id.includes('exception_delay') || item.type === 'exception';
-              const descText =
-                isDelayTodo && delayDaysMatch && planDate
-                  ? t('pages.dashboard.todo.delayWithPlan', {
-                      days: delayDaysMatch[1],
-                      date: formatDateTime(planDate, 'YYYY-MM-DD'),
-                    })
-                  : item.description;
-              return descText ? <div className="dashboard-todo-item__desc">{descText}</div> : null;
-            })()}
-            <div className="dashboard-todo-item__meta">
-              <span>
-                {t('pages.dashboard.createdShort', {
-                  date: formatDateTime(item.created_at, 'MM-DD HH:mm'),
-                })}
-              </span>
-              {item.due_date ? (
-                <span>
-                  {t('pages.dashboard.dueDateShort', {
-                    date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
-                  })}
-                </span>
-              ) : null}
-            </div>
-            <Button
-              size="small"
-              type="default"
-              className="dashboard-todo-item__action"
-              onClick={(e) => {
-                e.stopPropagation();
-                onHandle(item.id);
-              }}
-            >
-              {t('pages.dashboard.goHandle')}
-            </Button>
-          </div>
-        );
-      })}
+    <div className="dashboard-feed-list" >
+      {items.map((item) => (
+        <div
+          key={item.id}
+          className="dashboard-feed-item dashboard-feed-item--interactive"
+          onClick={() => item.link && onNavigate(item.link)}
+        >
+          <div className="dashboard-feed-item__title">{item.title}</div>
+        </div>
+      ))}
     </div>
   );
 }
@@ -1061,118 +1000,129 @@ export default function DashboardPage() {
                 {
                   key: 'all',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabAll'), localizedTodos.length),
-                  children: renderDashboardTodoList(
-                    localizedTodos,
-                    t('pages.dashboard.emptyTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                  children: (
+                    <div className="dashboard-feed-list">
+                      {localizedTodos.length > 0 ? (
+                        localizedTodos.map((item) => (
+                          <div
+                            key={item.id}
+                            className="dashboard-todo-item"
+                            onClick={() => {
+                              if (item.link) {
+                                navigate(item.link);
+                              }
+                            }}
+                          >
+                              <div className="dashboard-todo-item__main">
+                                <p
+                                  style={{
+                                    fontSize: 16,
+                                    fontWeight: 500,
+                                    color: token.colorText,
+                                  }}
+                                >
+                                  {item.title}
+                                </p>
+                                {item.description ? (
+                                  <span className="dashboard-todo-item__desc">{item.description}</span>
+                                ) : null}
+                                {item.due_date ? (
+                                  <span className="dashboard-todo-item__desc">
+                                    {t('pages.dashboard.dueDateShort', {
+                                      date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
+                                    })}
+                                  </span>
+                                ) : null}
+                                </div>
+                                <Button
+                                  size="small"
+                                  type="primary"
+                                  className="dashboard-todo-item__action"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleTodoMutation.mutate({ todoId: item.id, action: 'handle' });
+                                  }}
+                                >
+                                  {t('pages.dashboard.handle')}
+                                </Button>
+                            </div>
+                        ))
+                      ) : (
+                        <Empty description={t('pages.dashboard.emptyTodo')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
+                      )}
+                    </div>
                   ),
                 },
                 {
                   key: 'sales',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabSales'), todosSales.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosSales,
                     t('pages.dashboard.emptySalesTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'purchase',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabPurchase'), todosPurchase.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosPurchase,
                     t('pages.dashboard.emptyPurchaseTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'work_order',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabWorkOrder'), todosWorkOrder.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosWorkOrder,
                     t('pages.dashboard.emptyWorkOrderTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'exception',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabException'), todosException.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosException,
                     t('pages.dashboard.emptyExceptionTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'quality_inspection',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabQualityInspection'), todosQualityInspection.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosQualityInspection,
                     t('pages.dashboard.emptyQualityInspectionTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'equipment',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabEquipment'), todosEquipment.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosEquipment,
                     t('pages.dashboard.emptyEquipmentTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'warehouse',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabWarehouse'), todosWarehouse.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosWarehouse,
                     t('pages.dashboard.emptyWarehouseTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
                 {
                   key: 'outbound',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabOutbound'), todosOutbound.length),
-                  children: renderDashboardTodoList(
+                  children: renderDashboardSimpleTodoList(
                     todosOutbound,
                     t('pages.dashboard.emptyOutboundTodo'),
-                    {
-                      t,
-                      onNavigate: (link) => navigate(link),
-                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
-                    },
+                    (link) => navigate(link),
                   ),
                 },
               ],

@@ -20,9 +20,6 @@ export interface TodoItem {
   description?: string;
   priority: string;
   due_date?: string;
-  /** 计划日期（如延期异常的原计划交期） */
-  plan_date?: string;
-  planned_date?: string;
   status: string;
   link?: string;
   created_at: string;

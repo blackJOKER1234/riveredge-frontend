@@ -73,9 +73,15 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
 
   // COC
   actions.push(
-    <Tooltip title={t('ui.coc')}>
-      <Button type="text" size="small" onClick={() => {}}>
-        ⬅️
+    <Tooltip key="back-to-coc" title={t('ui.coc')}>
+      <Button
+        type="text"
+        size="small"
+        className="riveredge-back-to-coc-button !flex !h-11 !min-h-11 !max-h-11 !w-auto !min-w-0 !max-w-none !items-center !gap-2.5 !rounded-[22px] !bg-[#F3F5F7] !px-5 !py-3 !font-['Source_Han_Sans_CN'] !text-[14px] !font-normal !leading-5 !text-[rgba(0,0,0,0.88)] !whitespace-nowrap hover:!bg-[#E9EDF1]"
+        onClick={() => navigate('/')}
+        aria-label={t('ui.coc')}
+      >
+        {t('ui.coc')}
       </Button>
     </Tooltip>
   )

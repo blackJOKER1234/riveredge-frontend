@@ -82,11 +82,7 @@ function localizeDescription(
       return description;
     }
     case 'exception_delay': {
-      const withPlan = description.match(/延期\s*天数?\s*[:：]?\s*(\d+)\s*天\s*[|｜]\s*计划\s*(\d{4}-\d{2}-\d{2})/);
-      if (withPlan) {
-        return t('pages.dashboard.todo.delayWithPlan', { days: withPlan[1], date: withPlan[2] });
-      }
-      const match = description.match(/延期\s*天数?\s*[:：]?\s*(\d+)\s*天/);
+      const match = description.match(/延期天数：(\d+)天/);
       if (match) {
         return t('pages.dashboard.todo.deliveryDelayDesc', { days: match[1] });
       }

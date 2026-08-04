@@ -1129,8 +1129,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 color: ${headerTextColor} !important;
               }
               /* 顶栏按钮文字颜色和图标颜色 - 根据显示模式统一 */
-              .ant-pro-layout .ant-pro-layout-header .ant-btn,
-              .ant-pro-layout .ant-layout-header .ant-btn {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn:not(.riveredge-back-to-coc-button),
+              .ant-pro-layout .ant-layout-header .ant-btn:not(.riveredge-back-to-coc-button) {
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
               }
               .ant-pro-layout .ant-pro-layout-header .ant-btn .anticon,
@@ -1146,8 +1146,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 font-size: 16px !important;
               }
               /* 顶栏按钮 hover 状态 - 浅色模式浅色背景无hover */
-              .ant-pro-layout .ant-pro-layout-header .ant-btn:hover,
-              .ant-pro-layout .ant-layout-header .ant-btn:hover {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn:not(.riveredge-back-to-coc-button):hover,
+              .ant-pro-layout .ant-layout-header .ant-btn:not(.riveredge-back-to-coc-button):hover {
                 background-color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.16)' : 'rgba(255, 255, 255, 0.1)'} !important;
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
               }
@@ -1164,8 +1164,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 font-size: 16px !important;
               }
               /* 顶栏按钮 active 状态 - 浅色模式浅色背景无active效果 */
-              .ant-pro-layout .ant-pro-layout-header .ant-btn:active,
-              .ant-pro-layout .ant-layout-header .ant-btn:active {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn:not(.riveredge-back-to-coc-button):active,
+              .ant-pro-layout .ant-layout-header .ant-btn:not(.riveredge-back-to-coc-button):active {
                 background-color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.16)' : 'rgba(255, 255, 255, 0.1)'} !important;
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
               }
@@ -2193,8 +2193,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 }
               }
               /* 顶栏右侧操作按钮：统一背景色（通知、语言、主题色、全屏、客户端下载） */
-              .ant-pro-layout .ant-pro-layout-header .ant-btn-text,
-              .ant-pro-layout .ant-layout-header .ant-btn-text {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn-text:not(.riveredge-back-to-coc-button),
+              .ant-pro-layout .ant-layout-header .ant-btn-text:not(.riveredge-back-to-coc-button) {
                 background: ${isLightModeLightBg ? '#F3F5F7' : 'rgba(255, 255, 255, 0.1)'} !important;
               }
               /* 平板和手机模式下隐藏面包屑 - 放在最后，确保最高优先级 */
@@ -2213,8 +2213,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 }
               }
               /* 顶栏右侧 actions 图标按钮统一 42px：覆盖上方 32px 全局规则，仅作用于 actionsRender 区域 */
-              .ant-pro-layout .ant-pro-layout-header .ant-pro-global-header-header-actions .ant-btn,
-              .ant-pro-layout .ant-layout-header .ant-pro-global-header-header-actions .ant-btn {
+              .ant-pro-layout .ant-pro-layout-header .ant-pro-global-header-header-actions .ant-btn:not(.riveredge-back-to-coc-button),
+              .ant-pro-layout .ant-layout-header .ant-pro-global-header-header-actions .ant-btn:not(.riveredge-back-to-coc-button) {
                 width: 44px !important;
                 height: 44px !important;
                 min-width: 44px !important;
