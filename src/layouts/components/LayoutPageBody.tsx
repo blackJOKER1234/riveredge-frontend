@@ -35,7 +35,7 @@ export const LayoutPageBody: React.FC<LayoutPageBodyProps> = ({
       isFullscreen={isFullscreen}
       onToggleFullscreen={onToggleFullscreen}
     >
-      <div className=" flex flex-col flex-auto overflow-auto p-4 bg-(--ant-colorBgContainer)">
+      <div className="flex min-h-0 flex-auto flex-col overflow-clip p-4 bg-(--ant-colorBgContainer)">
         <div className="uni-page-body-inner flex max-h-full h-full min-h-0 flex-1 flex-col overflow-clip p-4 rounded-(--ant-borderRadius) bg-(--ant-colorBgLayout)">
           {children}
         </div>

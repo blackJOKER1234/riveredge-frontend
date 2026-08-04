@@ -325,6 +325,17 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           max-height: 100%;
           overflow: hidden;
         }
+        .uni-page-body-inner > * {
+          flex: 1 1 auto !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          min-width: 0 !important;
+          height: 100% !important;
+          min-height: 0 !important;
+          max-height: 100% !important;
+          box-sizing: border-box !important;
+          overflow: auto;
+        }
         .uni-tabs-content::-webkit-scrollbar {
           display: block !important;
           width: 6px !important;

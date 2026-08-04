@@ -72,9 +72,11 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
 
   // COC
   actions.push(
-    <Button type="text" size="small" onClick={onThemeChange}>
-      返回COC
-    </Button>
+    <div className='inline-flex'>
+      <Button type="text" size="small" onClick={()=>{}}>
+        返回COC
+      </Button>
+    </div>
   )
 
   // 快捷入口（按钮样式与右侧其他 icon 按钮保持一致）
