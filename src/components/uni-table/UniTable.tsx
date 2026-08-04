@@ -506,6 +506,26 @@ export function UniTable<T extends Record<string, any> = Record<string, any>>({
     selectionAlertLayout,
   } = scrollState
 
+  /** 同步 ProTable 原生 action 到页面 ref，并对 reload / reloadAndRest 包一层 TanStack 强刷新。 */
+  React.useLayoutEffect(() => {
+    const inner = nativeTableActionRef.current
+    if (!inner) {
+      outwardActionRef.current = undefined as any
+      return
+    }
+    outwardActionRef.current = {
+      ...inner,
+      reload: reloadWithTanstackCacheBust as ActionType['reload'],
+      reloadAndRest: reloadAndRestWithTanstackCacheBust as ActionType['reloadAndRest'],
+      clearSelected: () => clearAllRowSelection(),
+    }
+  }, [
+    outwardActionRef,
+    reloadWithTanstackCacheBust,
+    reloadAndRestWithTanstackCacheBust,
+    clearAllRowSelection,
+  ])
+
   return (
     <>
       <style>{UNI_TABLE_STYLES}</style>
