@@ -2,20 +2,20 @@
  * 工作台 KPI 下方：在制工序卡（自动换行）
  */
 
-import React from 'react';
-import { Badge, Button, Empty, Space } from 'antd';
-import { useQuery } from '@tanstack/react-query';
-import type { TFunction } from 'i18next';
-import { getProcessProgress } from '../../../services/dashboard';
-import { DashboardSectionCard } from './DashboardSectionCard';
-import { WipOperationCardView } from './WipOperationCardView';
+import React from 'react'
+import { Badge, Button, Empty, Space } from 'antd'
+import { useQuery } from '@tanstack/react-query'
+import type { TFunction } from 'i18next'
+import { getProcessProgress } from '../../../services/dashboard'
+import { DashboardSectionCard } from './DashboardSectionCard'
+import { WipOperationCardView } from './WipOperationCardView'
 
 export interface DashboardOperationCardsPanelProps {
-  cardRadius: number | string;
-  height?: number | string;
-  isDark?: boolean;
-  t: TFunction;
-  onNavigate: (path: string) => void;
+  cardRadius: number | string
+  height?: number | string
+  isDark?: boolean
+  t: TFunction
+  onNavigate: (path: string) => void
 }
 
 export function DashboardOperationCardsPanel({
@@ -27,15 +27,19 @@ export function DashboardOperationCardsPanel({
 }: DashboardOperationCardsPanelProps) {
   // const { useBreakpoint } = Grid;
   // const screens = useBreakpoint();
-  const { data: items, isLoading, isFetching } = useQuery({
+  const {
+    data: items,
+    isLoading,
+    isFetching,
+  } = useQuery({
     queryKey: ['dashboard-wip-operation-cards'],
     queryFn: () => getProcessProgress(false),
     staleTime: 30_000,
     refetchInterval: 60_000,
     retry: 1,
-  });
+  })
 
-  const workOrdersPath = '/apps/kuaizhizao/production-execution/work-orders?status=in_progress';
+  const workOrdersPath = '/apps/kuaizhizao/production-execution/work-orders?status=in_progress'
   // const columnCount = React.useMemo(() => {
   //   if (screens.xl) return 3;
   //   if (screens.lg) return 3;
@@ -59,13 +63,17 @@ export function DashboardOperationCardsPanel({
 
   return (
     <DashboardSectionCard
-      className="dashboard-section--operation-cards"
+      className="rounded-none! dashboard-section--operation-cards"
       height={height}
       loading={isLoading || (isFetching && !items)}
       title={
-        <Space size={8}>
+        <Space size={0}>
           <span>{t('pages.dashboard.operationCardsTitle')}</span>
-          {items && items.length > 0 ? <Badge count={items.length} /> : null}
+          {items && items.length > 0 ? (
+            <span className="font-normal text-[#8c8c8c] text-[14px]">
+              （{items.length}）{/* <Badge count={items.length} /> */}
+            </span>
+          ) : null}
         </Space>
       }
       extra={
@@ -75,26 +83,27 @@ export function DashboardOperationCardsPanel({
               {t('pages.dashboard.operationCardsCount', { count: items.length })}
             </span>
           ) : null} */}
-          <Button 
-            type="link" 
-            size="small" 
+          <Button
+            type="link"
+            size="small"
             onClick={() => onNavigate(workOrdersPath)}
             style={{
-              color: '#0958D9'
+              color: '#0958D9',
             }}
           >
-            {t('pages.dashboard.viewAll')} 
+            {t('pages.dashboard.viewAll')}
             {/* <RightOutlined /> */}
           </Button>
         </Space>
       }
-      headClassName="!px-0"
+      headClassName="!px-0 !pt-0"
       cardRadius={cardRadius}
       styles={{
         body: {
           padding: '12px 16px 16px',
           boxSizing: 'border-box',
           marginTop: 12,
+          borderRadius: 0,
         },
       }}
     >
@@ -143,7 +152,7 @@ export function DashboardOperationCardsPanel({
         </>
       )}
     </DashboardSectionCard>
-  );
+  )
 }
 
-export default DashboardOperationCardsPanel;
+export default DashboardOperationCardsPanel

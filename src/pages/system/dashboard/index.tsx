@@ -171,25 +171,86 @@ function filterDashboardTodoTabItems<T extends { key: string }>(
   return items.filter((tab) => tab.key === 'all' || (countByKey[tab.key] ?? 0) > 0);
 }
 
-function renderDashboardSimpleTodoList(
+function isDashboardTodoUrgent(priority?: string): boolean {
+  const value = (priority || '').trim().toLowerCase();
+  return value === 'high' || value === 'urgent' || value === 'critical' || priority === '紧急';
+}
+
+function renderDashboardTodoList(
   items: TodoItem[],
   emptyDescription: string,
-  onNavigate: (link: string) => void,
+  options: {
+    // i18next TFunction 重载较多，这里用宽松签名承接
+    t: (key: string, options?: any) => string;
+    onNavigate: (link: string) => void;
+    onHandle: (id: string) => void;
+  },
 ) {
+  const { t, onNavigate, onHandle } = options;
   if (items.length === 0) {
     return <Empty description={emptyDescription} image={Empty.PRESENTED_IMAGE_SIMPLE} />;
   }
   return (
-    <div className="dashboard-feed-list" >
-      {items.map((item) => (
-        <div
-          key={item.id}
-          className="dashboard-feed-item dashboard-feed-item--interactive"
-          onClick={() => item.link && onNavigate(item.link)}
-        >
-          <div className="dashboard-feed-item__title">{item.title}</div>
-        </div>
-      ))}
+    <div className="dashboard-feed-list">
+      {items.map((item) => {
+        const urgent = isDashboardTodoUrgent(item.priority);
+        return (
+          <div
+            key={item.id}
+            className="dashboard-todo-item"
+            onClick={() => {
+              if (item.link) onNavigate(item.link);
+            }}
+          >
+            <div className="dashboard-todo-item__header">
+              <p className="dashboard-todo-item__title">{item.title}</p>
+              {urgent ? (
+                <span className="dashboard-todo-item__priority">
+                  {t('pages.dashboard.todo.priorityUrgent')}
+                </span>
+              ) : null}
+            </div>
+            {(() => {
+              const planDate = item.plan_date || item.planned_date;
+              const delayDaysMatch = item.description?.match(/(\d+)\s*(?:天|day)/i);
+              const isDelayTodo = item.id.includes('exception_delay') || item.type === 'exception';
+              const descText =
+                isDelayTodo && delayDaysMatch && planDate
+                  ? t('pages.dashboard.todo.delayWithPlan', {
+                      days: delayDaysMatch[1],
+                      date: formatDateTime(planDate, 'YYYY-MM-DD'),
+                    })
+                  : item.description;
+              return descText ? <div className="dashboard-todo-item__desc">{descText}</div> : null;
+            })()}
+            <div className="dashboard-todo-item__meta">
+              <span>
+                {t('pages.dashboard.createdShort', {
+                  date: formatDateTime(item.created_at, 'MM-DD HH:mm'),
+                })}
+              </span>
+              {item.due_date ? (
+                <span>
+                  {t('pages.dashboard.dueDateShort', {
+                    date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
+                  })}
+                </span>
+              ) : null}
+            </div>
+            <Button
+              size="small"
+              type="default"
+              className="dashboard-todo-item__action"
+              onClick={(e) => {
+                e.stopPropagation();
+                onHandle(item.id);
+              }}
+            >
+              {t('pages.dashboard.goHandle')}
+            </Button>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -584,7 +645,7 @@ export default function DashboardPage() {
         }
         .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot--wip {
           background: #f3f5f7;
-          border-radius: 24px;
+          border-radius: 0;
           overflow: hidden;
         }
         // .dashboard-ops-todo-col > .dashboard-ops-todo-col__slot {
@@ -634,9 +695,7 @@ export default function DashboardPage() {
         /* 在制工序卡：内容超高时在卡片内滚动 */
         .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body .dashboard-operation-cards-panel__track {
           overflow-x: hidden;
-          overflow-y: scroll;
-          scrollbar-width: auto;
-          -ms-overflow-style: auto;
+          overflow-y: auto;
         }
         // .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body::-webkit-scrollbar {
         //   width: 6px;
@@ -751,8 +810,7 @@ export default function DashboardPage() {
           overflow-y: scroll;
         }
         .dashboard-ops-todo-col .dashboard-bottom-card-scroll::-webkit-scrollbar,
-        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list::-webkit-scrollbar,
-        .dashboard-kpi-wip-col .dashboard-section--operation-cards .dashboard-section__card > .ant-card-body::-webkit-scrollbar {
+        .dashboard-ops-todo-col .dashboard-bottom-card-tabs .dashboard-feed-list::-webkit-scrollbar {
           width: 6px;
           height: 0;
         }
@@ -1006,129 +1064,118 @@ export default function DashboardPage() {
                 {
                   key: 'all',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabAll'), localizedTodos.length),
-                  children: (
-                    <div className="dashboard-feed-list">
-                      {localizedTodos.length > 0 ? (
-                        localizedTodos.map((item) => (
-                          <div
-                            key={item.id}
-                            className="dashboard-todo-item"
-                            onClick={() => {
-                              if (item.link) {
-                                navigate(item.link);
-                              }
-                            }}
-                          >
-                              <div className="dashboard-todo-item__main">
-                                <p
-                                  style={{
-                                    fontSize: 16,
-                                    fontWeight: 500,
-                                    color: token.colorText,
-                                  }}
-                                >
-                                  {item.title}
-                                </p>
-                                {item.description ? (
-                                  <span className="dashboard-todo-item__desc">{item.description}</span>
-                                ) : null}
-                                {item.due_date ? (
-                                  <span className="dashboard-todo-item__desc">
-                                    {t('pages.dashboard.dueDateShort', {
-                                      date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
-                                    })}
-                                  </span>
-                                ) : null}
-                                </div>
-                                <Button
-                                  size="small"
-                                  type="primary"
-                                  className="dashboard-todo-item__action"
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleTodoMutation.mutate({ todoId: item.id, action: 'handle' });
-                                  }}
-                                >
-                                  {t('pages.dashboard.handle')}
-                                </Button>
-                            </div>
-                        ))
-                      ) : (
-                        <Empty description={t('pages.dashboard.emptyTodo')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
-                      )}
-                    </div>
+                  children: renderDashboardTodoList(
+                    localizedTodos,
+                    t('pages.dashboard.emptyTodo'),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'sales',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabSales'), todosSales.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosSales,
                     t('pages.dashboard.emptySalesTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'purchase',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabPurchase'), todosPurchase.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosPurchase,
                     t('pages.dashboard.emptyPurchaseTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'work_order',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabWorkOrder'), todosWorkOrder.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosWorkOrder,
                     t('pages.dashboard.emptyWorkOrderTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'exception',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabException'), todosException.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosException,
                     t('pages.dashboard.emptyExceptionTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'quality_inspection',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabQualityInspection'), todosQualityInspection.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosQualityInspection,
                     t('pages.dashboard.emptyQualityInspectionTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'equipment',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabEquipment'), todosEquipment.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosEquipment,
                     t('pages.dashboard.emptyEquipmentTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'warehouse',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabWarehouse'), todosWarehouse.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosWarehouse,
                     t('pages.dashboard.emptyWarehouseTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
                 {
                   key: 'outbound',
                   label: formatDashboardTodoTabLabel(t('pages.dashboard.tabOutbound'), todosOutbound.length),
-                  children: renderDashboardSimpleTodoList(
+                  children: renderDashboardTodoList(
                     todosOutbound,
                     t('pages.dashboard.emptyOutboundTodo'),
-                    (link) => navigate(link),
+                    {
+                      t,
+                      onNavigate: (link) => navigate(link),
+                      onHandle: (id) => handleTodoMutation.mutate({ todoId: id, action: 'handle' }),
+                    },
                   ),
                 },
               ],
