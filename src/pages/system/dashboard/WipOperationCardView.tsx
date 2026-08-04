@@ -2,32 +2,32 @@
  * 在制工序卡（工作台展示）
  */
 
-import React, { useMemo } from 'react';
-import { Card, Progress, theme } from 'antd';
-import type { TFunction } from 'i18next';
-import type { ProcessProgressItem } from '../../../services/dashboard';
-import { getQuickEntryHeaderColors } from '../../../components/quick-entry/quickEntryGradients';
-import { useThemeStore } from '../../../stores/themeStore';
+import React, { useMemo } from 'react'
+import { Card, Progress, theme } from 'antd'
+import type { TFunction } from 'i18next'
+import type { ProcessProgressItem } from '../../../services/dashboard'
+import { getQuickEntryHeaderColors } from '../../../components/quick-entry/quickEntryGradients'
+import { useThemeStore } from '../../../stores/themeStore'
 
 function formatQty(value: number): string {
-  if (Number.isInteger(value)) return String(value);
-  return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
+  if (Number.isInteger(value)) return String(value)
+  return value.toLocaleString(undefined, { maximumFractionDigits: 2 })
 }
 type ProductionCardProps = {
-  processName: string;
-  plannedQuantity: number;
-  progressPct: number;
-  completedQuantity: number;
-  qualifiedQuantity: number;
-  unqualifiedQuantity: number;
-  taskQtyLabel: string;
-  completedQtyLabel: string;
-  qualifiedQtyLabel: string;
-  unqualifiedQtyLabel: string;
-  accentColor: string;
-};
+  processName: string
+  plannedQuantity: number
+  progressPct: number
+  completedQuantity: number
+  qualifiedQuantity: number
+  unqualifiedQuantity: number
+  taskQtyLabel: string
+  completedQtyLabel: string
+  qualifiedQtyLabel: string
+  unqualifiedQtyLabel: string
+  accentColor: string
+}
 
-const { useToken } = theme;
+const { useToken } = theme
 
 const ProductionCard = ({
   processName,
@@ -42,37 +42,36 @@ const ProductionCard = ({
   unqualifiedQtyLabel,
   accentColor,
 }: ProductionCardProps) => {
-  const { token } = useToken();
+  const { token } = useToken()
   return (
     <Card
       bordered={false}
-      className="w-full rounded-3xl bg-white shadow-none"
+      className="bg-white shadow-none rounded-3xl w-full"
       styles={{
         body: {
-          padding: "20px 20px 20px",
+          padding: '20px 20px 20px',
         },
       }}
     >
       {/* 标题 */}
       <div className="flex items-center gap-3">
-        <div className="h-5 w-1.5 rounded-full bg-blue-500" />
+        <div className="bg-blue-500 rounded-full w-1.5 h-5" />
 
-        <div 
+        <div
           style={{
             color: token.colorText,
           }}
-          className="text-lg font-semibold"
+          className="font-semibold text-lg"
         >
           {processName}
         </div>
       </div>
 
-
       {/* 主数据区域 */}
-      <div className="mt-4 flex items-center justify-between">
+      <div className="flex justify-between items-center mt-4">
         <div>
-          <div 
-            className="text-[32px] font-bold leading-none"
+          <div
+            className="font-bold text-[32px] leading-none"
             style={{
               color: token.colorText,
             }}
@@ -80,11 +79,8 @@ const ProductionCard = ({
             {formatQty(plannedQuantity)}
           </div>
 
-          <div className="mt-2 text-base text-gray-400">
-            {taskQtyLabel}
-          </div>
+          <div className="mt-2 text-gray-400 text-base">{taskQtyLabel}</div>
         </div>
-
 
         {/* 环形进度 */}
         <Progress
@@ -92,8 +88,8 @@ const ProductionCard = ({
           percent={progressPct}
           size={70}
           strokeWidth={10}
-          format={(percent) => (
-            <span 
+          format={percent => (
+            <span
               className="text-base"
               style={{
                 color: token.colorText,
@@ -103,23 +99,19 @@ const ProductionCard = ({
             </span>
           )}
           strokeColor={accentColor}
-          trailColor="#edf3ff"
+          railColor="#edf3ff"
         />
       </div>
 
-
       {/* 分割线 */}
-      <div className="my-3 h-px bg-gray-100" />
-
+      <div className="bg-gray-100 my-3 h-px" />
 
       {/* 底部统计 */}
       <div className="grid grid-cols-3">
         <div>
-          <div className="text-base text-gray-400">
-            {completedQtyLabel}
-          </div>
-          <div 
-            className="mt-1 text-xl font-semibold"
+          <div className="text-[14px] text-gray-400">{completedQtyLabel}</div>
+          <div
+            className="mt-1 font-semibold text-base"
             style={{
               color: token.colorText,
             }}
@@ -128,36 +120,30 @@ const ProductionCard = ({
           </div>
         </div>
 
-
         <div>
-          <div className="text-base text-gray-400">
-            {qualifiedQtyLabel}
-          </div>
-          <div className="mt-1 text-xl font-semibold text-green-600">
+          <div className="text-[14px] text-gray-400">{qualifiedQtyLabel}</div>
+          <div className="mt-1 font-semibold text-green-600 text-base">
             {formatQty(qualifiedQuantity)}
           </div>
         </div>
 
-
         <div>
-          <div className="text-base text-gray-400">
-            {unqualifiedQtyLabel}
-          </div>
-          <div className="mt-1 text-xl font-semibold text-red-500">
+          <div className="text-[14px] text-gray-400">{unqualifiedQtyLabel}</div>
+          <div className="mt-1 font-semibold text-red-500 text-base">
             {formatQty(unqualifiedQuantity)}
           </div>
         </div>
       </div>
     </Card>
-  );
-};
+  )
+}
 
 export interface WipOperationCardViewProps {
-  item: ProcessProgressItem;
-  colorIndex: number;
-  isDark?: boolean;
-  t: TFunction;
-  onClick?: () => void;
+  item: ProcessProgressItem
+  colorIndex: number
+  isDark?: boolean
+  t: TFunction
+  onClick?: () => void
 }
 
 export function WipOperationCardView({
@@ -167,12 +153,12 @@ export function WipOperationCardView({
   t,
   onClick,
 }: WipOperationCardViewProps) {
-  const { token } = theme.useToken();
-  const themeStyle = useThemeStore((s) => s.resolved.themeStyle);
-  const isPlain = themeStyle === 'plain';
-  const completed = item.completed_quantity ?? 0;
-  const qualified = item.qualified_quantity ?? 0;
-  const unqualified = item.unqualified_quantity ?? 0;
+  const { token } = theme.useToken()
+  const themeStyle = useThemeStore(s => s.resolved.themeStyle)
+  const isPlain = themeStyle === 'plain'
+  const completed = item.completed_quantity ?? 0
+  const qualified = item.qualified_quantity ?? 0
+  const unqualified = item.unqualified_quantity ?? 0
   const headerColors = useMemo(
     () =>
       getQuickEntryHeaderColors(
@@ -180,16 +166,19 @@ export function WipOperationCardView({
         isDark,
         themeStyle,
         token.colorPrimary,
-        token.colorPrimaryBg,
+        token.colorPrimaryBg
       ),
-    [colorIndex, isDark, themeStyle, token.colorPrimary, token.colorPrimaryBg],
-  );
-  const progressPct = Math.min(100, Math.max(0, Math.round(item.current_progress ?? 0)));
+    [colorIndex, isDark, themeStyle, token.colorPrimary, token.colorPrimaryBg]
+  )
+  const progressPct = Math.min(100, Math.max(0, Math.round(item.current_progress ?? 0)))
 
   return (
     <button
       type="button"
-      className={['dashboard-wip-operation-card', isPlain ? 'dashboard-wip-operation-card--plain' : '']
+      className={[
+        'dashboard-wip-operation-card',
+        isPlain ? 'dashboard-wip-operation-card--plain' : '',
+      ]
         .filter(Boolean)
         .join(' ')}
       onClick={onClick}
@@ -270,7 +259,7 @@ export function WipOperationCardView({
         </div>
       </div> */}
     </button>
-  );
+  )
 }
 
-export default WipOperationCardView;
+export default WipOperationCardView

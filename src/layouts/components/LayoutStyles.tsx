@@ -1110,8 +1110,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 font-size: 16px !important;
               }
-              .ant-pro-layout .ant-pro-layout-header .ant-btn svg,
-              .ant-pro-layout .ant-layout-header .ant-btn svg {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn .anticon svg,
+              .ant-pro-layout .ant-layout-header .ant-btn .anticon svg {
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 width: 16px !important;
                 height: 16px !important;
@@ -1128,8 +1128,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 font-size: 16px !important;
               }
-              .ant-pro-layout .ant-pro-layout-header .ant-btn:hover svg,
-              .ant-pro-layout .ant-layout-header .ant-btn:hover svg {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn:hover .anticon svg,
+              .ant-pro-layout .ant-layout-header .ant-btn:hover .anticon svg {
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 width: 16px !important;
                 height: 16px !important;
@@ -1146,8 +1146,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 font-size: 16px !important;
               }
-              .ant-pro-layout .ant-pro-layout-header .ant-btn:active svg,
-              .ant-pro-layout .ant-layout-header .ant-btn:active svg {
+              .ant-pro-layout .ant-pro-layout-header .ant-btn:active .anticon svg,
+              .ant-pro-layout .ant-layout-header .ant-btn:active .anticon svg {
                 color: ${isDarkMode ? 'var(--ant-colorText)' : 'rgba(0, 0, 0, 0.85)'} !important;
                 width: 16px !important;
                 height: 16px !important;
@@ -1436,8 +1436,8 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 font-size: 16px !important;
               }
-              .ant-pro-layout .ant-pro-layout-header .ant-badge .ant-btn svg,
-              .ant-pro-layout .ant-layout-header .ant-badge .ant-btn svg {
+              .ant-pro-layout .ant-pro-layout-header .ant-badge .ant-btn .anticon svg,
+              .ant-pro-layout .ant-layout-header .ant-badge .ant-btn .anticon svg {
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 width: 16px !important;
                 height: 16px !important;
@@ -1462,10 +1462,10 @@ export const LayoutStyles: React.FC<LayoutStylesProps> = ({
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 font-size: 16px !important;
               }
-              .ant-pro-layout .ant-pro-layout-header .ant-badge .ant-btn:hover svg,
-              .ant-pro-layout .ant-pro-layout-header .ant-badge:hover .ant-btn svg,
-              .ant-pro-layout .ant-layout-header .ant-badge .ant-btn:hover svg,
-              .ant-pro-layout .ant-layout-header .ant-badge:hover .ant-btn svg {
+              .ant-pro-layout .ant-pro-layout-header .ant-badge .ant-btn:hover .anticon svg,
+              .ant-pro-layout .ant-pro-layout-header .ant-badge:hover .ant-btn .anticon svg,
+              .ant-pro-layout .ant-layout-header .ant-badge .ant-btn:hover .anticon svg,
+              .ant-pro-layout .ant-layout-header .ant-badge:hover .ant-btn .anticon svg {
                 color: ${isLightModeLightBg ? 'rgba(0, 0, 0, 0.85)' : 'rgba(255, 255, 255, 0.85)'} !important;
                 width: 16px !important;
                 height: 16px !important;
