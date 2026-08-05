@@ -1,12 +1,5 @@
 export { Button, ButtonRC } from "./button";
 export { default as ConfigProvider } from "./config-provider";
-export { TabLabel } from "./tabs";
-export * from "./tag";
 export { default as Empty, ShowEmpty } from "./empty";
 export * from "./breadcrumb";
-export * from "./fold";
-export * from "./editor";
 export * from "./icon";
-export { default as Tooltip } from "./tooltip";
-export * from "./timeline";
-export * from "./step";
