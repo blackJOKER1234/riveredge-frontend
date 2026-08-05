@@ -19,7 +19,7 @@ docker build --build-arg DEPLOY_ENV=production -t riveredge-frontend:production 
 
 ## 启动容器
 
-`API_UPSTREAM_URL` 是容器运行时的后端地址，不会被打包进前端资源。
+`API_UPSTREAM_URL` 是容器运行时的后端地址，不会被打包进前端资源，默认值为 `https://kuaigeyun.com`。使用外部环境变量覆盖时不要添加末尾 `/`，以确保 Nginx 转发时保留 `/api/...` 原始路径。
 
 ```bash
 docker run --rm \

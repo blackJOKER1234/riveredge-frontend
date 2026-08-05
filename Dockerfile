@@ -27,7 +27,7 @@ RUN yarn run vite build src --mode "$DEPLOY_ENV" && node scripts/move-dist.js
 # Stage 3: nginx 运行镜像
 FROM nginx:alpine AS runtime
 
-ENV API_UPSTREAM_URL=http://127.0.0.1:8200
+ENV API_UPSTREAM_URL=https://kuaigeyun.com
 
 ARG DEPLOY_ENV=production
 
