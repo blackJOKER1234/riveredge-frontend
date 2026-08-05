@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import { Button, Tooltip, Space, message } from 'antd'
+import { Button, Dropdown, Tooltip, Space, message } from 'antd'
 import { MoonOutlined, SunOutlined } from '@ant-design/icons'
 import type { NavigateFunction } from 'react-router-dom'
 import type { MenuProps } from 'antd'
@@ -27,6 +27,7 @@ export interface LayoutHeaderActionsProps {
   onLockScreen: () => void
   // theme
   onThemeChange: () => void
+  languageMenuItems: MenuProps['items']
 
   // user
   currentUser: any
@@ -53,6 +54,7 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
   refetchMessageStats,
   onLockScreen,
   onThemeChange,
+  languageMenuItems,
   currentUser,
   avatarUrl,
   headerTextAvatar,
@@ -118,50 +120,6 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
     </Tooltip>
   )
 
-  // 消息提醒（带数量徽标）- 平板/手机也显示
-  actions.push(
-    <NotificationDropdown
-      key="notifications"
-      open={messageDropdownOpen}
-      onOpenChange={setMessageDropdownOpen}
-      recentMessages={recentMessages}
-      loading={recentMessagesLoading}
-      unreadCount={unreadCount}
-      refetchRecentMessages={refetchRecentMessages}
-      refetchMessageStats={refetchMessageStats}
-      token={token}
-      t={t}
-      navigate={navigate}
-    />
-  )
-
-  // 锁定屏幕
-  actions.push(
-    <Tooltip key="lock-screen" title={t('ui.lock.screen')}>
-      <Button
-        type="text"
-        size="small"
-        icon={
-          <svg
-            width="22"
-            height="22"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10 3.5C11.3807 3.5 12.5 4.61929 12.5 6V7.5H13C14.3807 7.5 15.5 8.61929 15.5 10V14C15.5 15.3807 14.3807 16.5 13 16.5H7C5.61929 16.5 4.5 15.3807 4.5 14V10C4.5 8.61929 5.61929 7.5 7 7.5H7.5V6C7.5 4.61929 8.61929 3.5 10 3.5ZM7 8.5C6.17157 8.5 5.5 9.17157 5.5 10V14C5.5 14.8284 6.17157 15.5 7 15.5H13C13.8284 15.5 14.5 14.8284 14.5 14V10C14.5 9.17157 13.8284 8.5 13 8.5H7ZM10 4.5C9.17157 4.5 8.5 5.17157 8.5 6V7.5H11.5V6C11.5 5.17157 10.8284 4.5 10 4.5Z"
-              fill="black"
-              fillOpacity="0.88"
-            />
-          </svg>
-        }
-        onClick={onLockScreen}
-        aria-label={t('ui.lock.screen')}
-      />
-    </Tooltip>
-  )
-
   if (!isMobileOrTablet) {
     // 完整配色 / 主题编辑入口（桌面端）
     actions.push(
@@ -185,6 +143,81 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
             </svg>
           }
           onClick={onThemeChange}
+        />
+      </Tooltip>
+    )
+
+    actions.push(
+      <Dropdown
+        key="language"
+        menu={{ items: languageMenuItems }}
+        trigger={['hover']}
+        placement="bottomRight"
+      >
+        <Tooltip title={t('pages.personal.preferences.language')}>
+          <Button
+            type="text"
+            size="small"
+            icon={
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 3.5C13.5899 3.5 16.5 6.41015 16.5 10C16.5 13.5899 13.5899 16.5 10 16.5C6.41015 16.5 3.5 13.5899 3.5 10C3.5 6.41015 6.41015 3.5 10 3.5ZM8.50781 10.5C8.54789 11.9146 8.75529 13.1692 9.06055 14.085C9.23173 14.5984 9.42443 14.9778 9.61426 15.2188C9.80862 15.4654 9.94272 15.5 10 15.5C10.0573 15.5 10.1914 15.4654 10.3857 15.2188C10.5756 14.9778 10.7683 14.5984 10.9395 14.085C11.2447 13.1692 11.4521 11.9146 11.4922 10.5H8.50781ZM4.52344 10.5C4.72963 12.7876 6.33608 14.6696 8.47949 15.2852C8.34164 15.0202 8.21854 14.722 8.11133 14.4004C7.7663 13.3652 7.54893 12 7.50879 10.5H4.52344ZM12.4912 10.5C12.4511 12 12.2337 13.3652 11.8887 14.4004C11.7814 14.7222 11.6575 15.0201 11.5195 15.2852C13.6634 14.6699 15.2703 12.788 15.4766 10.5H12.4912ZM8.47949 4.71387C6.33595 5.32931 4.72963 7.21227 4.52344 9.5H7.50879C7.54893 8.00002 7.7663 6.63485 8.11133 5.59961C8.21864 5.27767 8.34147 4.97897 8.47949 4.71387ZM10 4.5C9.94272 4.5 9.80862 4.53462 9.61426 4.78125C9.42443 5.02217 9.23173 5.40162 9.06055 5.91504C8.75529 6.83081 8.54789 8.0854 8.50781 9.5H11.4922C11.4521 8.0854 11.2447 6.83081 10.9395 5.91504C10.7683 5.40162 10.5756 5.02217 10.3857 4.78125C10.1914 4.53462 10.0573 4.5 10 4.5ZM11.5195 4.71387C11.6576 4.97907 11.7813 5.27751 11.8887 5.59961C12.2337 6.63485 12.4511 8.00002 12.4912 9.5H15.4766C15.2703 7.21194 13.6635 5.32904 11.5195 4.71387Z"
+                  fill="#1D1D1E"
+                />
+              </svg>
+            }
+            aria-label={t('pages.personal.preferences.language')}
+          />
+        </Tooltip>
+      </Dropdown>
+    )
+
+    // 消息提醒（带数量徽标）- 平板/手机也显示
+    actions.push(
+      <NotificationDropdown
+        key="notifications"
+        open={messageDropdownOpen}
+        onOpenChange={setMessageDropdownOpen}
+        recentMessages={recentMessages}
+        loading={recentMessagesLoading}
+        unreadCount={unreadCount}
+        refetchRecentMessages={refetchRecentMessages}
+        refetchMessageStats={refetchMessageStats}
+        token={token}
+        t={t}
+        navigate={navigate}
+      />
+    )
+
+    // 锁定屏幕
+    actions.push(
+      <Tooltip key="lock-screen" title={t('ui.lock.screen')}>
+        <Button
+          type="text"
+          size="small"
+          icon={
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 3.5C11.3807 3.5 12.5 4.61929 12.5 6V7.5H13C14.3807 7.5 15.5 8.61929 15.5 10V14C15.5 15.3807 14.3807 16.5 13 16.5H7C5.61929 16.5 4.5 15.3807 4.5 14V10C4.5 8.61929 5.61929 7.5 7 7.5H7.5V6C7.5 4.61929 8.61929 3.5 10 3.5ZM7 8.5C6.17157 8.5 5.5 9.17157 5.5 10V14C5.5 14.8284 6.17157 15.5 7 15.5H13C13.8284 15.5 14.5 14.8284 14.5 14V10C14.5 9.17157 13.8284 8.5 13 8.5H7ZM10 4.5C9.17157 4.5 8.5 5.17157 8.5 6V7.5H11.5V6C11.5 5.17157 10.8284 4.5 10 4.5Z"
+                fill="black"
+                fillOpacity="0.88"
+              />
+            </svg>
+          }
+          onClick={onLockScreen}
+          aria-label={t('ui.lock.screen')}
         />
       </Tooltip>
     )

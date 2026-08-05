@@ -699,6 +699,7 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
             refetchMessageStats={refetchMessageStats}
             onLockScreen={handleLockScreen}
             onThemeChange={handleThemeChange}
+            languageMenuItems={languageMenuItems}
             currentUser={currentUser}
             avatarUrl={avatarUrl}
             headerTextAvatar={headerTextAvatar}
