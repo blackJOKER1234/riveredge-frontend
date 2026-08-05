@@ -27,9 +27,10 @@ export default function UniTabs({ menuConfig, children, isFullscreen = false, on
       tabsTextColor: state.tabsTextColor,
       tabRadius: state.tabRadius,
       tabCornerDiameter: state.tabCornerDiameter,
+      isDarkMode: state.isDarkMode,
       isFullscreen,
     }),
-    [state.tabsBgColor, state.tabsTextColor, state.tabRadius, state.tabCornerDiameter, isFullscreen],
+    [state.tabsBgColor, state.tabsTextColor, state.tabRadius, state.tabCornerDiameter, state.isDarkMode, isFullscreen],
   );
   const { styles } = useUniTabsStyles(styleVars);
 

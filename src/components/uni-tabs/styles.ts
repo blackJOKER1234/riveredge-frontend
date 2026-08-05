@@ -15,11 +15,12 @@ export interface UniTabsStyleVars {
   tabRadius: number
   tabCornerDiameter: number
   isFullscreen: boolean
+  isDarkMode: boolean
 }
 
 export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyleVars) => {
-  const { tabsBgColor, tabsTextColor, tabRadius, tabCornerDiameter, isFullscreen } = vars
-  const isWhiteText = tabsTextColor === '#ffffff'
+  const { tabsBgColor, tabsTextColor, tabRadius, tabCornerDiameter, isFullscreen, isDarkMode } = vars
+  const isWhiteText = isDarkMode || tabsTextColor === '#ffffff'
   const textSoft = isWhiteText ? 'rgba(255, 255, 255, 0.85)' : tabsTextColor
   const textFaint = isWhiteText ? 'rgba(255, 255, 255, 0.65)' : 'rgba(0, 0, 0, 0.45)'
   const accent = isWhiteText ? 'rgba(255, 255, 255, 0.85)' : token.colorPrimary

@@ -842,5 +842,6 @@ export function useUniTabsState({ menuConfig }: Pick<UniTabsProps, 'menuConfig'>
     togglePinTab,
     handleFavoriteToQuickEntry,
     getTabContextMenu,
+    isDarkMode: storeIsDark,
   };
 }
