@@ -3,13 +3,13 @@
  */
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { App } from 'antd';
-import { UniDropdown, type UniDropdownProps } from './uni-dropdown';
+import { UniDropdown, type UniDropdownProps } from '../uni-dropdown';
 import {
   ReferenceDisplayAccessError,
   formatReferenceDisplayLabel,
   referenceDisplayToIdOptions,
   searchReferenceDisplay,
-} from '../utils/referenceDisplay';
+} from '../../utils/referenceDisplay';
 
 export type UniReferenceSelectProps = Omit<
   UniDropdownProps,

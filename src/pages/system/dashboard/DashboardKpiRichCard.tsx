@@ -130,7 +130,7 @@ function FooterMetric({ label, value, align }: KpiRichSide & { align?: 'left' | 
 }
 
 const kpiIconModules = import.meta.glob(
-  '@/assets/icons/KpiRich/*.svg',
+  '../../../assets/icons/KpiRich/*.svg',
   {
     eager: true,
     import: 'default',
