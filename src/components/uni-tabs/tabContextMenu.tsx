@@ -46,7 +46,7 @@ export function createTabContextMenu({
     },
     {
       type: 'divider',
-      style: { height: 1, backgroundColor: 'rgba(0, 0, 0, 0.04)', margin: '4px 0' },
+      style: { height: 1, backgroundColor: 'var(--ant-colorSplit)', margin: '4px 0' },
     },
     {
       key: 'pin',
@@ -61,7 +61,7 @@ export function createTabContextMenu({
     },
     {
       type: 'divider',
-      style: { height: 1, backgroundColor: 'rgba(0, 0, 0, 0.04)', margin: '4px 0' },
+      style: { height: 1, backgroundColor: 'var(--ant-colorSplit)', margin: '4px 0' },
     },
     {
       key: 'close',

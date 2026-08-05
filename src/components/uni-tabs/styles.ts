@@ -528,7 +528,7 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
           border-bottom: none !important;
           background: transparent !important;
           box-shadow: none !important;
-          color: rgba(0, 0, 0, 0.25) !important;
+          color: var(--ant-colorTextQuaternary) !important;
           cursor: not-allowed !important;
           pointer-events: none !important;
           position: relative !important;
@@ -553,8 +553,8 @@ export const useUniTabsStyles = createStyles(({ css, token }, vars: UniTabsStyle
         .uni-tabs-header-wrapper button.uni-tabs-scroll-button:disabled .anticon,
         .uni-tabs-header-wrapper button.uni-tabs-scroll-button:disabled svg,
         .uni-tabs-header-wrapper .uni-tabs-scroll-button:disabled svg {
-          color: rgba(0, 0, 0, 0.25) !important;
-          fill: rgba(0, 0, 0, 0.25) !important;
+          color: var(--ant-colorTextQuaternary) !important;
+          fill: var(--ant-colorTextQuaternary) !important;
         }
         /* 可以点击时：主题色（默认状态，hover 时加深） */
         .uni-tabs-header-wrapper
