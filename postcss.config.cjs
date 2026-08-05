@@ -1,4 +1,6 @@
-/** PostCSS 配置：Tailwind 由 @tailwindcss/vite 单独处理，勿在此重复挂载 @tailwindcss/postcss */
+/** PostCSS 配置：Tailwind 4 统一由 @tailwindcss/postcss 处理 */
 module.exports = {
-  plugins: {},
+  plugins: {
+    '@tailwindcss/postcss': {},
+  },
 }
