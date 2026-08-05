@@ -6,6 +6,8 @@ export const UNI_TABLE_STYLES = `
         }
         /* 统一 UniTable 容器样式，确保所有页面间距一致 */
         .uni-table-container {
+          --uni-table-radius: var(--ant-borderRadiusLG, var(--ant-borderRadius, 8px));
+          --uni-table-row-radius: var(--ant-borderRadiusLG, var(--ant-borderRadius, 8px));
           position: relative;
           padding: 0;
           margin: 0;
@@ -15,14 +17,90 @@ export const UNI_TABLE_STYLES = `
         /* ProTable 外框：ProCard 默认用 colorSplit 过浅，统一为次级边框色 */
         .uni-table-container:not(.uni-table-embedded) .uni-table-pro-table.ant-pro-table > .ant-pro-card.ant-pro-card-border {
           border: 1px solid var(--ant-colorBorderSecondary, var(--ant-colorBorder)) !important;
-          border-radius: var(--ant-borderRadiusLG, var(--ant-borderRadius, 6px)) !important;
+          border-radius: var(--uni-table-radius) !important;
           overflow: hidden;
         }
         /* 表头 + 表身外框（不含工具栏、分页） */
         .uni-table-container:not(.uni-table-embedded) .uni-table-pro-table .ant-table-container {
           border: 1px solid var(--ant-colorBorderSecondary, var(--ant-colorBorder));
-          border-radius: var(--ant-borderRadius, 6px);
+          border-radius: var(--uni-table-radius);
           overflow: hidden;
+          isolation: isolate;
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row {
+          --uni-table-row-background: var(--ant-table-bg, var(--ant-colorBgContainer, #fff));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row:hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-row-hover {
+          --uni-table-row-background: var(--ant-table-row-hover-bg, var(--ant-colorFillAlter, #fafafa));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected {
+          --uni-table-row-background: var(--ant-table-row-selected-bg, var(--ant-colorPrimaryBg, #e6f4ff));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected:hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-row-hover {
+          --uni-table-row-background: var(--ant-table-row-selected-hover-bg, var(--ant-table-row-hover-bg, var(--ant-colorFillAlter, #fafafa)));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-start,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-end,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-left,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-right {
+          background: var(--uni-table-row-background);
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-start.ant-table-cell-row-hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-end.ant-table-cell-row-hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-left.ant-table-cell-row-hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-right.ant-table-cell-row-hover {
+          background: var(--ant-table-row-hover-bg, var(--ant-colorFillAlter, #fafafa));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-start,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-end,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-left,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-right {
+          background: var(--ant-table-row-selected-bg, var(--ant-colorPrimaryBg, #e6f4ff));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-start.ant-table-cell-row-hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-end.ant-table-cell-row-hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-left.ant-table-cell-row-hover,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-right.ant-table-cell-row-hover {
+          background: var(--ant-table-row-selected-hover-bg, var(--ant-table-row-hover-bg, var(--ant-colorFillAlter, #fafafa)));
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-end-shadow-show::after,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-end-shadow-show.ant-table-cell-row-hover::after,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-right::after,
+        .uni-table-container .ant-table-tbody > tr.ant-table-row > td.ant-table-cell-fix-right.ant-table-cell-row-hover::after {
+          background: var(--uni-table-row-background);
+          box-shadow: none;
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row:hover > td.ant-table-cell:first-child:not(.ant-table-cell-fix-right),
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell:first-child:not(.ant-table-cell-fix-right),
+        .uni-table-container .ant-table-tbody > tr > td.ant-table-cell-row-hover:first-child:not(.ant-table-cell-fix-right),
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-left-first {
+          border-start-start-radius: var(--uni-table-row-radius);
+          border-end-start-radius: var(--uni-table-row-radius);
+        }
+        .uni-table-container .ant-table-tbody > tr.ant-table-row:hover > td.ant-table-cell:last-child:not(.ant-table-cell-fix-left),
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell:last-child:not(.ant-table-cell-fix-left),
+        .uni-table-container .ant-table-tbody > tr > td.ant-table-cell-row-hover:last-child:not(.ant-table-cell-fix-left),
+        .uni-table-container .ant-table-tbody > tr.ant-table-row-selected > td.ant-table-cell-fix-right-last {
+          border-start-end-radius: var(--uni-table-row-radius);
+          border-end-end-radius: var(--uni-table-row-radius);
+        }
+        .uni-table-container .ant-table-thead > tr:first-child > th:first-child:not(.ant-table-cell-fix-right),
+        .uni-table-container .ant-table-thead > tr:first-child > th.ant-table-cell-fix-left-first {
+          border-start-start-radius: var(--uni-table-radius);
+        }
+        .uni-table-container .ant-table-thead > tr:first-child > th:last-child:not(.ant-table-cell-fix-left),
+        .uni-table-container .ant-table-thead > tr:first-child > th.ant-table-cell-fix-right-last {
+          border-start-end-radius: var(--uni-table-radius);
+        }
+        .uni-table-container .ant-table-tbody > tr:last-child:not(.ant-table-measure-row) > td:first-child:not(.ant-table-cell-fix-right),
+        .uni-table-container .ant-table-tbody > tr:last-child:not(.ant-table-measure-row) > td.ant-table-cell-fix-left-first {
+          border-end-start-radius: var(--uni-table-radius);
+        }
+        .uni-table-container .ant-table-tbody > tr:last-child:not(.ant-table-measure-row) > td:last-child:not(.ant-table-cell-fix-left),
+        .uni-table-container .ant-table-tbody > tr:last-child:not(.ant-table-measure-row) > td.ant-table-cell-fix-right-last {
+          border-end-end-radius: var(--uni-table-radius);
         }
         .uni-table-container.uni-table-embedded .ant-pro-card {
           border: none !important;
