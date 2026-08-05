@@ -214,14 +214,14 @@ const MobilePopover: React.FC = () => {
           >
             <path
               d="M13 2.5C14.3807 2.5 15.5 3.61929 15.5 5V15C15.5 16.3807 14.3807 17.5 13 17.5H7C5.61929 17.5 4.5 16.3807 4.5 15V5C4.5 3.61929 5.61929 2.5 7 2.5H13ZM7 3.5C6.17157 3.5 5.5 4.17157 5.5 5V15C5.5 15.8284 6.17157 16.5 7 16.5H13C13.8284 16.5 14.5 15.8284 14.5 15V5C14.5 4.17157 13.8284 3.5 13 3.5H7ZM12 13.5C12.2761 13.5 12.5 13.7239 12.5 14C12.5 14.2761 12.2761 14.5 12 14.5H8C7.72386 14.5 7.5 14.2761 7.5 14C7.5 13.7239 7.72386 13.5 8 13.5H12Z"
-              fill="#1D1D1E"
+              fill="var(--ant-color-text)"
             />
           </svg>
         }
         aria-label={t('ui.header.clientDownload.tooltip')}
-        className={`!flex !h-11 !w-11 !items-center !justify-center !rounded-full !p-0 ${
-          open ? '!bg-[#dedfe1]' : '!bg-[#f3f5f7] hover:!bg-[#e9edf1]'
-        } focus:!outline-none focus:!shadow-none`}
+        // className={`!flex !h-11 !w-11 !items-center !justify-center !rounded-full !p-0 ${
+        //   open ? '!bg-[#dedfe1]' : '!bg-[#f3f5f7] hover:!bg-[#e9edf1]'
+        // } focus:!outline-none focus:!shadow-none`}
       />
     </Popover>
   )

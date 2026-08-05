@@ -583,7 +583,6 @@ export default function DashboardPage() {
           border-radius: 24px;
         }
         .dashboard-kpi-wip-col > .dashboard-kpi-wip-col__slot--wip {
-          background: #f3f5f7;
           border-radius: 0;
           overflow: hidden;
         }

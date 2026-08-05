@@ -106,7 +106,7 @@ export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = (
               width="5"
               height="5"
               rx="1"
-              stroke="#1F1F1F"
+              stroke="var(--ant-color-text)"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -116,7 +116,7 @@ export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = (
               width="5"
               height="5"
               rx="1"
-              stroke="#1F1F1F"
+              stroke="var(--ant-color-text)"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -126,13 +126,13 @@ export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = (
               width="5"
               height="5"
               rx="1"
-              stroke="#1F1F1F"
+              stroke="var(--ant-color-text)"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
             <path
               d="M11.5996 8.40002L15.5996 4.40002M15.5996 8.40002V4.40002H11.5996"
-              stroke="black"
+              stroke="var(--ant-color-text)"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
