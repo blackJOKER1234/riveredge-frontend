@@ -2760,6 +2760,7 @@ export default {
   'app.kuaiai.menu.hub': 'ハブ',
   'app.kuaiai.menu.knowledge': 'ナレッジ',
   'app.kuaiai.menu.pulse': 'パルス',
+  'app.kuaiai.menu.insights': 'インサイト',
   'app.haoligo.name': 'Haoli GO',
   'app.haoligo.menu.dashboard': 'ダッシュボード',
   'app.haoligo.menu.workspace': 'ワークスペース',

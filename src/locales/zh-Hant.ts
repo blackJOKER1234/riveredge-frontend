@@ -2669,6 +2669,7 @@ export default {
   'app.kuaiai.menu.hub': '工作臺',
   'app.kuaiai.menu.knowledge': '知識庫',
   'app.kuaiai.menu.pulse': '動態',
+  'app.kuaiai.menu.insights': '洞察',
   'app.haoligo.name': '好力 GO',
   'app.haoligo.menu.dashboard': '儀表板',
   'app.haoligo.menu.workspace': '工作臺',

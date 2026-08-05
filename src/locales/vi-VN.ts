@@ -2752,6 +2752,7 @@ export default {
   'app.kuaiai.menu.hub': 'Trung tâm',
   'app.kuaiai.menu.knowledge': 'Kiến thức',
   'app.kuaiai.menu.pulse': 'Pulse',
+  'app.kuaiai.menu.insights': 'Insights',
   'app.haoligo.name': 'Hào Lý GO',
   'app.haoligo.menu.dashboard': 'Trang tổng quan',
   'app.haoligo.menu.workspace': 'Không gian làm việc',

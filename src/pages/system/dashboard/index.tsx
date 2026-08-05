@@ -1027,7 +1027,7 @@ export default function DashboardPage() {
                                 ) : null}
                                 {item.due_date ? (
                                   <span className="dashboard-todo-item__desc">
-                                    {t('pages.dashboard.dueDateShort', {
+                                    {t('pages.dashboard.todo.dueDateShort', {
                                       date: formatDateTime(item.due_date, 'YYYY-MM-DD'),
                                     })}
                                   </span>

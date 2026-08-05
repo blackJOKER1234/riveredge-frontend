@@ -2874,6 +2874,7 @@ export default {
   'app.kuaiai.menu.hub': 'Hub',
   'app.kuaiai.menu.knowledge': 'Knowledge',
   'app.kuaiai.menu.pulse': 'Pulse',
+  'app.kuaiai.menu.insights': 'Insights',
   'app.kuaiai.materialHealth.trigger': 'Material Health Assistant',
   'app.kuaiai.materialHealth.title': 'Material Health Assistant',
   'app.kuaiai.materialHealth.analyzing': 'Analyzing material data…',

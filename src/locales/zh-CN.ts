@@ -2806,6 +2806,7 @@ export default {
   'app.kuaiai.menu.agents': '智能体',
   'app.kuaiai.menu.hub': '工作台',
   'app.kuaiai.menu.pulse': '动态',
+  'app.kuaiai.menu.insights': '洞察',
   'app.kuaiai.knowledge.loadFailed': '加载知识库失败',
   'app.kuaiai.knowledge.createSuccess': '已添加并建立索引',
   'app.kuaiai.knowledge.createFailed': '添加失败',
