@@ -3,10 +3,10 @@
  * Japanese language pack
  */
 
-import systemDictionaryJa from './generated/systemDictionary/ja-JP';
-import presetEntityJa from './generated/presetEntity/ja-JP';
-import codeRulePageJa from './generated/codeRulePage/ja-JP';
-import customFieldPageJa from './generated/customFieldPage/ja-JP';
+import systemDictionaryJa from './generated/systemDictionary/ja-JP'
+import presetEntityJa from './generated/presetEntity/ja-JP'
+import codeRulePageJa from './generated/codeRulePage/ja-JP'
+import customFieldPageJa from './generated/customFieldPage/ja-JP'
 export default {
   'menu.dashboard': 'ダッシュボード',
   'menu.dashboard.workplace': 'ワークベンチ',
@@ -63,36 +63,48 @@ export default {
   'dashboard.businessBoard.kpi.trendDown': 'ダウンと以前の比較',
   'dashboard.businessBoard.kpi.trendFlat': '横ばい vs 以前',
   'dashboard.businessBoard.feed.equipFault': '主軸ドライブアラーム',
-  'dashboard.businessBoard.feed.equipFaultDetail': 'CNC-07 サーボ過電流;自動ディレーティングがオン、電気的チェック待ち',
+  'dashboard.businessBoard.feed.equipFaultDetail':
+    'CNC-07 サーボ過電流;自動ディレーティングがオン、電気的チェック待ち',
   'dashboard.businessBoard.feed.equipMaintDue': '潤滑期限',
-  'dashboard.businessBoard.feed.equipMaintDueDetail': 'プレスライン P2 潤滑サイクルの期限は 48 時間以内',
+  'dashboard.businessBoard.feed.equipMaintDueDetail':
+    'プレスライン P2 潤滑サイクルの期限は 48 時間以内',
   'dashboard.businessBoard.feed.equipDowntime': '計画外のダウンタイム',
-  'dashboard.businessBoard.feed.equipDowntimeDetail': '溶接ステーション W3 ワイヤ送給の詰まり。チケット #M-2041',
+  'dashboard.businessBoard.feed.equipDowntimeDetail':
+    '溶接ステーション W3 ワイヤ送給の詰まり。チケット #M-2041',
   'dashboard.businessBoard.feed.equipReset': 'リセット完了',
-  'dashboard.businessBoard.feed.equipResetDetail': '組立ライン A インターロックが解除されました。オートモードが復活しました',
+  'dashboard.businessBoard.feed.equipResetDetail':
+    '組立ライン A インターロックが解除されました。オートモードが復活しました',
   'dashboard.businessBoard.feed.equipCalib': 'プローブの校正',
   'dashboard.businessBoard.feed.equipCalibDetail': '今週推奨される CMM-02 プローブの校正',
   'dashboard.businessBoard.feed.equipNcUpload': 'NCプログラム確認',
-  'dashboard.businessBoard.feed.equipNcUploadDetail': 'MC-12 承認済みパッケージ V2.3.1 (ハッシュ OK)',
+  'dashboard.businessBoard.feed.equipNcUploadDetail':
+    'MC-12 承認済みパッケージ V2.3.1 (ハッシュ OK)',
   'dashboard.businessBoard.feed.equipToolLife': '工具寿命警告',
-  'dashboard.businessBoard.feed.equipToolLifeDetail': 'T-884 残り 12% ・L4 は 30 分以内の変更を示唆',
+  'dashboard.businessBoard.feed.equipToolLifeDetail':
+    'T-884 残り 12% ・L4 は 30 分以内の変更を示唆',
   'dashboard.businessBoard.feed.equipVisionReject': 'ビジョンリジェクト集計',
-  'dashboard.businessBoard.feed.equipVisionRejectDetail': 'ステーション V-05 シフト NG 23 ・ SPC サブグループ 5/5 がトリガーされました',
+  'dashboard.businessBoard.feed.equipVisionRejectDetail':
+    'ステーション V-05 シフト NG 23 ・ SPC サブグループ 5/5 がトリガーされました',
   'dashboard.businessBoard.feed.equipMesHeartbeat': 'MES リンクは正常です',
-  'dashboard.businessBoard.feed.equipMesHeartbeatDetail': 'EG-East-03 P95 レイテンシ 38ms · フレーム損失 0.00%',
+  'dashboard.businessBoard.feed.equipMesHeartbeatDetail':
+    'EG-East-03 P95 レイテンシ 38ms · フレーム損失 0.00%',
   'dashboard.businessBoard.feed.equipCoolantLow': '冷却水レベルが低い',
-  'dashboard.businessBoard.feed.equipCoolantLowDetail': 'G-02レベル32%・維持。チケット #F-908 が作成されました',
+  'dashboard.businessBoard.feed.equipCoolantLowDetail':
+    'G-02レベル32%・維持。チケット #F-908 が作成されました',
   'dashboard.businessBoard.feed.equipEnergyReport': 'エネルギーピークレポート',
-  'dashboard.businessBoard.feed.equipEnergyReportDetail': '日ピーク 2.38MW · 昨日との比較 -3.1% (航空ロジック)',
+  'dashboard.businessBoard.feed.equipEnergyReportDetail':
+    '日ピーク 2.38MW · 昨日との比較 -3.1% (航空ロジック)',
   'dashboard.businessBoard.feed.equipOtaOk': 'ファームウェアのOTAが完了しました',
-  'dashboard.businessBoard.feed.equipOtaOkDetail': 'ロボット R-18 スタック 4.7.2 → 4.7.3 · セルフテストに合格',
+  'dashboard.businessBoard.feed.equipOtaOkDetail':
+    'ロボット R-18 スタック 4.7.2 → 4.7.3 · セルフテストに合格',
   'dashboard.businessBoard.customizeTitle': 'ボードのタイトルをカスタマイズする',
   'dashboard.businessBoard.titleSettingsModal': '基板の外観',
   'dashboard.businessBoard.titleInputPlaceholder': 'ヘッダーの中央にタイトルが表示されます',
   'dashboard.businessBoard.heroImageLabel': '中央の画像',
   'dashboard.businessBoard.uploadHeroImage': '画像をアップロードする',
   'dashboard.businessBoard.resetHeroImage': '既定の画像を使用する',
-  'dashboard.businessBoard.heroImageInvalidType': '画像 (PNG、JPG、WebP など) をアップロードしてください。',
+  'dashboard.businessBoard.heroImageInvalidType':
+    '画像 (PNG、JPG、WebP など) をアップロードしてください。',
   'dashboard.businessBoard.heroImageTooLarge': '画像は 5 MB 未満である必要があります',
   'dashboard.businessBoard.saveTitle': '保存',
   'dashboard.businessBoard.resetTitle': '既定のタイトルにリセット',
@@ -159,7 +171,8 @@ export default {
   'dashboard.businessBoard.format.yi': '{{value}}亿',
   'dashboard.businessBoard.error.uploadFailed': 'アップロードに失敗しました',
   'dashboard.businessBoard.error.saveFailed': '保存に失敗しました。後でもう一度お試しください',
-  'dashboard.businessBoard.error.resetFailed': '既定にリセットできませんでした。後でもう一度お試しください。',
+  'dashboard.businessBoard.error.resetFailed':
+    '既定にリセットできませんでした。後でもう一度お試しください。',
   'menu.user': 'ユーザー管理',
   'menu.role': '役割管理',
   'menu.tenant': 'テナント管理',
@@ -226,11 +239,16 @@ export default {
   'menu.system.process-management': 'ワークフロー',
   'menu.system.appMenu': '応用',
   'menu.system.systemMenu': 'システム',
-  'menu.system.appMenuTip': 'アプリ メニュー (ソース: Application) は、manifest.json から同期され、ここで編集または削除することはできません。変更するには、アプリ センターに移動してメニューを同期します。システムメニューはここで直接編集できます。',
-  'menu.system.appMenuSyncTip': 'メニュー構造はマニフェストから同期されます。無効な項目は無効のままになります (バックグラウンド同期によってリセットされません)。 Application Center でアプリを有効にするを使用して、すべての項目をアプリに合わせます。',
-  'menu.system.appMenuEditDisabled': 'アプリ メニューはマニフェストから同期されます。編集は無効になっています',
-  'menu.system.appMenuAddDisabled': 'アプリ メニューはマニフェストから同期されます。子項目の追加は無効になっています',
-  'menu.system.appMenuDeleteDisabled': 'アプリ メニューはマニフェストから同期されます。削除は無効になっています',
+  'menu.system.appMenuTip':
+    'アプリ メニュー (ソース: Application) は、manifest.json から同期され、ここで編集または削除することはできません。変更するには、アプリ センターに移動してメニューを同期します。システムメニューはここで直接編集できます。',
+  'menu.system.appMenuSyncTip':
+    'メニュー構造はマニフェストから同期されます。無効な項目は無効のままになります (バックグラウンド同期によってリセットされません)。 Application Center でアプリを有効にするを使用して、すべての項目をアプリに合わせます。',
+  'menu.system.appMenuEditDisabled':
+    'アプリ メニューはマニフェストから同期されます。編集は無効になっています',
+  'menu.system.appMenuAddDisabled':
+    'アプリ メニューはマニフェストから同期されます。子項目の追加は無効になっています',
+  'menu.system.appMenuDeleteDisabled':
+    'アプリ メニューはマニフェストから同期されます。削除は無効になっています',
   'ui.sidebar.expand': 'サイドバーを展開する',
   'ui.sidebar.collapse': 'サイドバーを折りたたむ',
   'ui.sidebar.systemSettings': '設定',
@@ -259,7 +277,8 @@ export default {
   'ui.aiAssistant.prompt.inventory': '資材在庫を照会するには？',
   'ui.aiAssistant.prompt.reporting': '作業報告はどこで行いますか？',
   'ui.aiAssistant.prompt.progress': '生産進捗を確認するには？',
-  'ui.aiAssistant.requestFailed': '会話リクエストに失敗しました。しばらくしてから再試行してください。',
+  'ui.aiAssistant.requestFailed':
+    '会話リクエストに失敗しました。しばらくしてから再試行してください。',
   'ui.aiAssistant.connecting': 'DeepSeek に接続しています…',
   'ui.aiAssistant.statusError': 'DeepSeek 連携状態を確認できません：{{message}}',
   'ui.aiAssistant.notConfigured':
@@ -275,11 +294,16 @@ export default {
   'ui.aiAssistant.chatRequestFailed': 'リクエストに失敗しました ({{status}})',
   'ui.header.clientDownload.tooltip': 'クライアントアプリをダウンロードする',
   'ui.header.clientDownload.title': 'クライアントのダウンロード',
-  'ui.header.clientDownload.subtitle': '携帯電話のブラウザで QR コードをスキャンしてインストールします',
+  'ui.header.clientDownload.mobileTitle': 'モバイル版ダウンロード',
+  'ui.header.clientDownload.subtitle':
+    '携帯電話のブラウザで QR コードをスキャンしてインストールします',
   'ui.header.clientDownload.scanHint': '携帯電話のブラウザでスキャンしてダウンロードします',
-  'ui.header.clientDownload.scanTip': 'WeChat スキャンは使用しないでください - リンクがブロックされている可能性があります',
-  'ui.header.clientDownload.lanOriginFailed': 'LANアドレスを解決できません。 BASE_URL を設定するか、LAN IP 経由でこのサイトを開きます。',
-  'ui.header.clientDownload.loopbackBlocked': 'ダウンロード URL は引き続き 127.0.0.1 を使用します。 API を再起動するか、BASE_URL を設定します。',
+  'ui.header.clientDownload.scanTip':
+    'WeChat スキャンは使用しないでください - リンクがブロックされている可能性があります',
+  'ui.header.clientDownload.lanOriginFailed':
+    'LANアドレスを解決できません。 BASE_URL を設定するか、LAN IP 経由でこのサイトを開きます。',
+  'ui.header.clientDownload.loopbackBlocked':
+    'ダウンロード URL は引き続き 127.0.0.1 を使用します。 API を再起動するか、BASE_URL を設定します。',
   'ui.message.switchedTenant': '組織コンテキストの切り替え',
   'ui.message.autoSelectedTenant': '自動選択された組織: {{name}}',
   'ui.message.notSupportFavorite': 'このページはクイックエントリーへの追加をサポートしていません',
@@ -297,26 +321,32 @@ export default {
   'ui.theme.style.label': 'テーマのスタイル',
   'ui.theme.style.vivid': '鮮やかな',
   'ui.theme.style.plain': '最小限',
-  'ui.theme.style.vividDesc': '複数のアクセントカラーをカスタマイズしてより豊かなインターフェースを実現',
-  'ui.theme.style.plainDesc': 'ブランドプライマリのみを使用したグレースケールファースト、視覚的なノイズが少ない',
+  'ui.theme.style.vividDesc':
+    '複数のアクセントカラーをカスタマイズしてより豊かなインターフェースを実現',
+  'ui.theme.style.plainDesc':
+    'ブランドプライマリのみを使用したグレースケールファースト、視覚的なノイズが少ない',
   'ui.coc': 'HaloCOCに戻る',
   'components.themeEditor.title': 'テーマ',
-  'components.themeEditor.subtitle': 'インターフェイスをカスタマイズしてより快適なワークフローを実現',
+  'components.themeEditor.subtitle':
+    'インターフェイスをカスタマイズしてより快適なワークフローを実現',
   'components.themeEditor.action.reset': '既定に戻す',
   'components.themeEditor.action.save': '保存',
   'components.themeEditor.colorMode.light': 'ライト',
   'components.themeEditor.colorMode.dark': '暗い',
   'components.themeEditor.colorMode.auto': 'システム',
-  'components.themeEditor.primaryColor.hint': '好みのテーマカラーを選択してください。これは、ボタン、リンク、および選択された状態に適用されます。',
+  'components.themeEditor.primaryColor.hint':
+    '好みのテーマカラーを選択してください。これは、ボタン、リンク、および選択された状態に適用されます。',
   'components.themeEditor.common.quickSelect': 'クイックセレクト',
   'components.themeEditor.common.customColor': 'カスタムカラー',
   'components.themeEditor.lightModeOnly': '注: ライト モードでのみ有効です',
   'components.themeEditor.siderBg.title': 'サイドバー',
   'components.themeEditor.siderBg.hint': 'サイドバーの背景色をカスタマイズする',
   'components.themeEditor.headerBg.title': 'ヘッダーの背景',
-  'components.themeEditor.headerBg.hint': '16 進数を使用してヘッダーの背景色をカスタマイズします (例: #ffffff、アルファ付きでは 8 桁の #rrggbbaa を使用)',
+  'components.themeEditor.headerBg.hint':
+    '16 進数を使用してヘッダーの背景色をカスタマイズします (例: #ffffff、アルファ付きでは 8 桁の #rrggbbaa を使用)',
   'components.themeEditor.tabsBg.title': 'タブバーの背景',
-  'components.themeEditor.tabsBg.hint': '16 進数を使用してタブ バーの背景色をカスタマイズします (例: #ffffff、アルファ付きでは 8 桁の #rrggbbaa を使用)',
+  'components.themeEditor.tabsBg.hint':
+    '16 進数を使用してタブ バーの背景色をカスタマイズします (例: #ffffff、アルファ付きでは 8 桁の #rrggbbaa を使用)',
   'components.themeEditor.interface.title': 'インタフェース',
   'components.themeEditor.interface.hint': '好みに合わせて半径と間隔を調整します',
   'components.themeEditor.borderRadius.label': '境界半径',
@@ -344,12 +374,14 @@ export default {
   'components.themeEditor.preview.button.link': 'リンク',
   'components.themeEditor.preview.textSection': 'テキストプレビュー',
   'components.themeEditor.preview.sampleText': 'これはプレビューテキストです',
-  'components.themeEditor.preview.current': '現在のフォント サイズ: {{fontSize}}px、半径: {{borderRadius}}px',
+  'components.themeEditor.preview.current':
+    '現在のフォント サイズ: {{fontSize}}px、半径: {{borderRadius}}px',
   'components.themeEditor.preview.colorSection': 'テーマカラーのプレビュー',
   'components.themeEditor.message.loadFailed': 'テーマ設定の読み込みに失敗しました',
   'components.themeEditor.message.colorModeSwitched': 'カラーモードが更新されました',
   'components.themeEditor.message.switchFailed': '切り替えに失敗しました',
-  'components.themeEditor.message.appliedButNotSaved': 'テーマは適用されましたが、サーバーに保存できません (テナントが初期化されていない可能性があります)。このセッションのみ有効です。',
+  'components.themeEditor.message.appliedButNotSaved':
+    'テーマは適用されましたが、サーバーに保存できません (テナントが初期化されていない可能性があります)。このセッションのみ有効です。',
   'components.themeEditor.message.applied': '適用されたテーマ',
   'components.themeEditor.message.saveFailed': '保存に失敗しました',
   'components.themeEditor.message.resetDone': '既定を復元し、パネルを閉じた',
@@ -416,13 +448,15 @@ export default {
   'pages.login.passwordPlaceholder': 'パスワードを入力してください',
   'pages.login.passwordRequired': 'パスワードが必要です',
   'pages.login.descriptionTitle': 'マルチテナントフレームワーク',
-  'pages.login.descriptionText': 'マルチテナント アーキテクチャとアプリ ガバナンスのためのエンタープライズ グレードの SaaS フレームワーク。モジュール式のプラグインのホットスワップ、きめ細かな権限の分離、統合されたデータ統合を特徴としており、大規模なデジタル運用に安全かつ機敏で無限に拡張可能な基盤を提供します。',
+  'pages.login.descriptionText':
+    'マルチテナント アーキテクチャとアプリ ガバナンスのためのエンタープライズ グレードの SaaS フレームワーク。モジュール式のプラグインのホットスワップ、きめ細かな権限の分離、統合されたデータ統合を特徴としており、大規模なデジタル運用に安全かつ機敏で無限に拡張可能な基盤を提供します。',
   'pages.login.guestLogin': 'ゲストアクセスを試す',
   'pages.login.registerNow': '作成する',
   'pages.login.userTerms': '利用規約',
   'pages.login.privacyTerms': 'プライバシーポリシー',
   'pages.login.icpLicense': 'ICP:',
-  'pages.login.browserHintShort': '最高のエクスペリエンスを得るには、Chrome または Microsoft Edge を使用することをお勧めします。 Safariでは一部の機能が制限される場合があります。',
+  'pages.login.browserHintShort':
+    '最高のエクスペリエンスを得るには、Chrome または Microsoft Edge を使用することをお勧めします。 Safariでは一部の機能が制限される場合があります。',
   'pages.login.clientDownloadsTitle': 'オンサイトクライアントアプリ',
   'pages.login.clientDownloadsSub': 'ワークステーションとモバイル項目デバイス',
   'pages.login.clientDownloadWinTitle': 'ワークステーション HMI',
@@ -430,7 +464,8 @@ export default {
   'pages.login.clientDownloadAndroidTitle': 'ハンドヘルド PDA',
   'pages.login.clientDownloadAndroidMeta': 'Androidパッケージ',
   'pages.login.clientDownloadPlaceholder': 'ダウンロードはまだ利用できません。乞うご期待。',
-  'pages.login.verifyTip': '頻繁なアクションが検出されました。確認を完了してください ({{seconds}}s)',
+  'pages.login.verifyTip':
+    '頻繁なアクションが検出されました。確認を完了してください ({{seconds}}s)',
   'pages.login.longPressVerify': '{{seconds}}秒間押し続けます',
   'pages.login.verifyRequired': 'ログインする前に保留確認を完了してください',
   'pages.login.verifyExpired': '検証の有効期限が切れました。もう一度保留を完了してください',
@@ -438,12 +473,15 @@ export default {
   'pages.login.verifyRetryTip': '保留確認を完了して再試行してください',
   'pages.login.loading': 'サインイン中...',
   'pages.login.loginFailed': 'ログインに失敗しました。後でもう一度試してください',
-  'pages.login.loginFailedCheck': 'ログインに失敗しました。ユーザー名とパスワードを確認してください',
+  'pages.login.loginFailedCheck':
+    'ログインに失敗しました。ユーザー名とパスワードを確認してください',
   'pages.login.registerSuccessLogin': '登録が成功しました。ログイン中...',
-  'pages.login.registerSuccessManual': '登録は成功しましたが、自動ログインに失敗しました。手動でログインしてください',
+  'pages.login.registerSuccessManual':
+    '登録は成功しましたが、自動ログインに失敗しました。手動でログインしてください',
   'pages.login.registerFailed': '登録に失敗しました。後でもう一度試してください',
   'pages.login.passwordMismatch': 'パスワードが一致しません',
-  'pages.login.selectTenantHint': '結果から組織を選択するか、項目をクリアして既定のワークスペースを使用します',
+  'pages.login.selectTenantHint':
+    '結果から組織を選択するか、項目をクリアして既定のワークスペースを使用します',
   'pages.login.verificationCodeInvalid': '無効なコードです。 6桁である必要があります',
   'pages.login.tenantSelected': '選択された組織',
   'pages.login.tenantSelectFailed': '組織の選択に失敗しました。もう一度試してください',
@@ -470,10 +508,13 @@ export default {
   'pages.login.registerIllustrationPlaceholder': 'イラストのプレースホルダー — 画像に置き換えます',
   'pages.login.registerNoticeTitle': '登録通知',
   'pages.login.registerNoticeNoOrg': '組織なし: フルアクセスで既定のワークスペースに参加します',
-  'pages.login.registerNoticeWithOrg': '組織の場合: 既存のワークスペースへの参加を申請できます。管理者の承認が必要です',
-  'pages.login.registerNoticeTip': 'ヒント: テナント コードまたは名前で検索します。見つからない場合は組織登録に切り替えます。',
+  'pages.login.registerNoticeWithOrg':
+    '組織の場合: 既存のワークスペースへの参加を申請できます。管理者の承認が必要です',
+  'pages.login.registerNoticeTip':
+    'ヒント: テナント コードまたは名前で検索します。見つからない場合は組織登録に切り替えます。',
   'pages.login.registerNoticeBullet1': '空白のままにします: 既定のテナントに参加します。',
-  'pages.login.registerNoticeBullet2': '検索して 1 つ選択し、そのテナントへの参加を申請します (管理者の承認)。',
+  'pages.login.registerNoticeBullet2':
+    '検索して 1 つ選択し、そのテナントへの参加を申請します (管理者の承認)。',
   'pages.login.registerNoticeBullet3': '見つかりません？組織登録に切り替えます。',
   'pages.login.userInfoGroup': 'ユーザー情報',
   'pages.login.selectOrgGroupTitle': '組織 (オプション)',
@@ -485,8 +526,10 @@ export default {
   'pages.login.orgAdminNameRequired': '管理者名を入力してください',
   'pages.login.orgAdminNameLen': '1 ～ 100 文字',
   'pages.login.usernameLen': 'ユーザー名は 3 ～ 50 文字にする必要があります',
-  'pages.login.usernamePattern': 'ユーザー名には文字、数字、アンダースコア、ハイフンを含めることができます',
-  'pages.login.usernameReserved': 'このユーザー名は使用できません。 admin や root などの予約名は避けてください。',
+  'pages.login.usernamePattern':
+    'ユーザー名には文字、数字、アンダースコア、ハイフンを含めることができます',
+  'pages.login.usernameReserved':
+    'このユーザー名は使用できません。 admin や root などの予約名は避けてください。',
   'pages.login.usernamePlaceholderLong': 'ユーザー名を入力してください (3 ～ 50 文字)',
   'pages.login.usernameExtra': 'ログインユーザー名;後で変更することはできません。',
   'pages.login.phone': '電話',
@@ -500,7 +543,8 @@ export default {
   'pages.login.pleaseEnterPhone': '最初に電話番号を入力してください',
   'pages.login.pleaseEnterValidPhone': '有効な電話番号を入力してください',
   'pages.login.codeSendFailed': 'コードの送信に失敗しました。後でもう一度試してください',
-  'pages.login.codeNotConnected': 'SMS サービスが完全に接続されていません。空白のままでも構いません',
+  'pages.login.codeNotConnected':
+    'SMS サービスが完全に接続されていません。空白のままでも構いません',
   'pages.login.codeExtra': '電話番号を入力し、「コードを取得」をクリックしてSMSを受信します',
   'pages.login.emailOptional': '電子メール (オプション)',
   'pages.login.emailInvalid': '有効なメールアドレスを入力してください',
@@ -517,9 +561,11 @@ export default {
   'pages.login.confirmPasswordPlaceholder': '確認のためにパスワードを再入力してください',
   'pages.login.orgInfoGroup': '組織 (オプション)',
   'pages.login.joinOrgOptional': '組織に参加する (オプション)',
-  'pages.login.joinOrgExtra': '組織名またはコードで検索します。既定のワークスペースを使用する場合は空白のままにします。',
+  'pages.login.joinOrgExtra':
+    '組織名またはコードで検索します。既定のワークスペースを使用する場合は空白のままにします。',
   'pages.login.selectedTenant': '選択済み: {{name}}',
-  'pages.login.foundTenants': '一致するテナント {{count}} が見つかりました。リストから 1 つ選択します',
+  'pages.login.foundTenants':
+    '一致するテナント {{count}} が見つかりました。リストから 1 つ選択します',
   'pages.login.noTenantFound': '一致するテナントが見つかりませんでした',
   'pages.login.createNewOrg': '新しい組織を作成する',
   'pages.login.searching': '検索中...',
@@ -533,10 +579,12 @@ export default {
   'pages.login.tenantSearchPlaceholder': '組織コードまたは組織名で検索する',
   'pages.login.inviteCodeOptional': '招待コード（オプション）',
   'pages.login.inviteCodePlaceholder': '組織からの招待コードを入力してください',
-  'pages.login.inviteCodeExtra': '招待コードを使用すると、承認なしで直接参加できます。組織コードも必要です',
+  'pages.login.inviteCodeExtra':
+    '招待コードを使用すると、承認なしで直接参加できます。組織コードも必要です',
   'pages.login.inviteCodeWithTenantRequired': '招待コードを使用する場合は組織コードが必要です',
   'pages.login.inviteCodeMaxLen': '招待コードは 100 文字を超えてはなりません',
-  'pages.login.orgRegisterSubtitle': '組織の詳細と管理者の資格情報を入力して、ワークスペースを作成します。',
+  'pages.login.orgRegisterSubtitle':
+    '組織の詳細と管理者の資格情報を入力して、ワークスペースを作成します。',
   'pages.login.orgRegisterNotice1': 'あなたは組織管理者になります。',
   'pages.login.orgRegisterNotice2': '組織名とサインインの詳細を入力して完了します。',
   'pages.login.orgRegisterNotice3': '作成後、サインインして組織の管理を開始できます。',
@@ -547,8 +595,10 @@ export default {
   'pages.login.tenantNameExtra': '組織に表示される表示名。',
   'pages.login.orgPhoneExtra': 'ログインアカウントとして使用されます。',
   'pages.login.orgPasswordExtra': '少なくとも 8 文字。文字と数字を混ぜてください。',
-  'pages.login.wechatNotConfigured': 'WeChat ログインが設定されていません。管理者に連絡して VITE_WECHAT_APPID を設定してください',
-  'pages.login.wechatRedirectFailed': 'WeChat ログインのリダイレクトに失敗しました。後でもう一度試してください',
+  'pages.login.wechatNotConfigured':
+    'WeChat ログインが設定されていません。管理者に連絡して VITE_WECHAT_APPID を設定してください',
+  'pages.login.wechatRedirectFailed':
+    'WeChat ログインのリダイレクトに失敗しました。後でもう一度試してください',
   'pages.login.wechatVerifyFailed': 'WeChat ログイン認証に失敗しました。再試行してください',
   'pages.login.wechatLoginFailed': 'WeChat ログインに失敗しました。後でもう一度試してください',
   'common.none': 'なし',
@@ -563,7 +613,8 @@ export default {
   'common.languages.jaJP': '日本語',
   'common.languages.viVN': 'ベトナム語',
   'components.tenantSelection.title': '組織の選択',
-  'components.tenantSelection.hint': 'あなたは複数の組織のメンバーです。続行するには 1 つ選択してください:',
+  'components.tenantSelection.hint':
+    'あなたは複数の組織のメンバーです。続行するには 1 つ選択してください:',
   'components.tenantSelection.statusActive': 'アクティブ',
   'components.tenantSelection.statusInactive': '非アクティブ',
   'components.tenantSelection.statusExpired': '期限切れ',
@@ -573,7 +624,8 @@ export default {
   'pages.personal.profile.tenantRequired': 'テナントが設定されていません。再度ログインしてください',
   'pages.personal.profile.loadFailed': 'プロファイルのロードに失敗しました',
   'pages.personal.profile.avatarName': 'アバター',
-  'pages.personal.profile.avatarSaveFailed': 'アバターをアップロードしましたが、サーバーへの保存に失敗しました。後で再試行してください',
+  'pages.personal.profile.avatarSaveFailed':
+    'アバターをアップロードしましたが、サーバーへの保存に失敗しました。後で再試行してください',
   'pages.personal.profile.avatarUploadSuccess': 'アバターをアップロードして保存しました',
   'pages.personal.profile.avatarCleared': 'アバタークリア',
   'pages.personal.profile.avatarClearFailed': 'アバターのクリアに失敗しました',
@@ -614,8 +666,10 @@ export default {
   'pages.personal.profile.newPassword': '新しいパスワード',
   'pages.personal.profile.confirmNewPassword': '新しいパスワードを確認します',
   'pages.personal.profile.currentPasswordPlaceholder': '現在のパスワードを入力してください',
-  'pages.personal.profile.newPasswordPlaceholder': '新しいパスワードを入力してください (8 ～ 128 文字)',
-  'pages.personal.profile.confirmNewPasswordPlaceholder': '新しいパスワードをもう一度入力してください',
+  'pages.personal.profile.newPasswordPlaceholder':
+    '新しいパスワードを入力してください (8 ～ 128 文字)',
+  'pages.personal.profile.confirmNewPasswordPlaceholder':
+    '新しいパスワードをもう一度入力してください',
   'pages.personal.preferences.title': '設定',
   'pages.personal.preferences.save': '保存',
   'pages.personal.preferences.updateSuccess': '設定が更新されました',
@@ -673,7 +727,8 @@ export default {
   'pages.personal.preferences.densityMiddle': '真ん中',
   'pages.personal.preferences.densitySmall': 'コンパクト',
   'pages.personal.preferences.maxTabs': '最大タブ数',
-  'pages.personal.preferences.tableColumnsHint': 'テーブルの列: 各テーブルの列設定で、表示される列、順序、固定された列をカスタマイズします。変更は設定に同期されます (クロスデバイス)。',
+  'pages.personal.preferences.tableColumnsHint':
+    'テーブルの列: 各テーブルの列設定で、表示される列、順序、固定された列をカスタマイズします。変更は設定に同期されます (クロスデバイス)。',
   'pages.personal.preferences.styleCustomization': 'スタイルのカスタマイズ',
   'pages.personal.preferences.colorScheme': '配色',
   'pages.personal.preferences.miscOptions': 'インターフェースオプション',
@@ -793,21 +848,26 @@ export default {
   'pages.personal.tasks.completedAt': '完了日',
   'pages.personal.tasks.currentNode': '現在のノード',
   'pages.personal.tasks.exportFileName': '私のタスク-{{date}}.json',
-  'pages.system.integrationConfigs.subtitle': 'MES、計画、倉庫などの外部 API またはデータベース接続を構成します。API、データベース、OAuth、Webhook をサポートします。',
+  'pages.system.integrationConfigs.subtitle':
+    'MES、計画、倉庫などの外部 API またはデータベース接続を構成します。API、データベース、OAuth、Webhook をサポートします。',
   'pages.system.integrationConfigs.getDetailFailed': '統合構成の詳細を取得できませんでした',
   'pages.system.integrationConfigs.deleteSuccess': '削除されました',
   'pages.system.integrationConfigs.deleteFailed': '削除に失敗しました',
   'pages.system.integrationConfigs.selectToDelete': '削除するレコードを選択してください',
   'pages.system.integrationConfigs.confirmBatchDelete': '一括削除の確認',
-  'pages.system.integrationConfigs.confirmBatchDeleteContent': '選択した {{count}} レコードを削除しますか?これを元に戻すことはできません。',
-  'pages.system.integrationConfigs.batchDeleteTitle': '選択した統合構成をバッチ削除してもよろしいですか?',
-  'pages.system.integrationConfigs.batchDeleteDescription': '{{count}} 統合構成は削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.integrationConfigs.confirmBatchDeleteContent':
+    '選択した {{count}} レコードを削除しますか?これを元に戻すことはできません。',
+  'pages.system.integrationConfigs.batchDeleteTitle':
+    '選択した統合構成をバッチ削除してもよろしいですか?',
+  'pages.system.integrationConfigs.batchDeleteDescription':
+    '{{count}} 統合構成は削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'pages.system.integrationConfigs.batchDeleteSuccess': '{{count}} レコードを削除しました',
   'pages.system.integrationConfigs.batchDeleteFailed': '{{count}} レコードの削除に失敗しました',
   'pages.system.integrationConfigs.batchDeleteError': '一括削除に失敗しました',
   'pages.system.integrationConfigs.testSuccess': '接続テストに成功しました',
   'pages.system.integrationConfigs.testFailed': '接続テストに失敗しました',
-  'pages.system.integrationConfigs.testConfigOnlyTitle': '構成チェックに合格しました (ライブ接続テストなし)',
+  'pages.system.integrationConfigs.testConfigOnlyTitle':
+    '構成チェックに合格しました (ライブ接続テストなし)',
   'pages.system.integrationConfigs.resultConfigOnly': '構成のみ (ライブテストなし)',
   'pages.system.integrationConfigs.configJsonInvalid': '無効な構成 JSON',
   'pages.system.integrationConfigs.updateSuccess': '更新されました',
@@ -854,7 +914,8 @@ export default {
   'pages.system.integrationConfigs.typeRequired': 'タイプを選択してください',
   'pages.system.integrationConfigs.descPlaceholder': '説明を入力してください',
   'pages.system.integrationConfigs.configJsonLabel': '設定(JSON)',
-  'pages.system.integrationConfigs.configJsonPlaceholder': 'JSON config, e.g. {"url": "https://api.example.com", "method": "GET"}',
+  'pages.system.integrationConfigs.configJsonPlaceholder':
+    'JSON config, e.g. {"url": "https://api.example.com", "method": "GET"}',
   'pages.system.integrationConfigs.isActive': '有効',
   'pages.system.integrationConfigs.totalCount': '合計',
   'pages.system.integrationConfigs.connectedCount': '接続済み',
@@ -920,7 +981,8 @@ export default {
   'pages.system.integrationConfigs.testNotPassed': '接続テストに失敗しました',
   'pages.system.integrationConfigs.saveFailed': '保存に失敗しました',
   'pages.system.integrationConfigs.fillUrl': 'URLを入力してください',
-  'pages.system.integrationConfigs.fillDbFields': 'ホスト、データベース、ユーザー名を入力してください',
+  'pages.system.integrationConfigs.fillDbFields':
+    'ホスト、データベース、ユーザー名を入力してください',
   'pages.system.approvalProcesses.getDetailFailed': '承認プロセスの詳細を取得できませんでした',
   'pages.system.approvalProcesses.deleteSuccess': '削除しました',
   'pages.system.approvalProcesses.deleteFailed': '削除に失敗しました',
@@ -1008,7 +1070,8 @@ export default {
   'pages.system.approvalInstances.commentLabel': 'コメント',
   'pages.system.approvalInstances.commentLabelReject': '拒否理由',
   'pages.system.approvalInstances.commentRequiredWhenReject': '拒否する場合は理由を添えてください',
-  'pages.system.approvalInstances.commentPlaceholderReject': 'なぜこれが拒否されるのか説明してください',
+  'pages.system.approvalInstances.commentPlaceholderReject':
+    'なぜこれが拒否されるのか説明してください',
   'pages.system.approvalInstances.cancelOnlySubmitter': '提出者のみが撤回できます',
   'pages.system.approvalInstances.detailTitle': '事項詳細',
   'pages.system.approvalInstances.content': 'コンテンツ',
@@ -1036,11 +1099,14 @@ export default {
   'pages.system.businessConfig.templateDeleted': '構成テンプレートが削除されました',
   'pages.system.businessConfig.templateDeleteFailed': '構成テンプレートの削除に失敗しました',
   'pages.system.businessConfig.templateExported': '構成テンプレートがエクスポートされました',
-  'pages.system.businessConfig.templateImportedApplied': '構成テンプレートがインポートされて適用されました',
-  'pages.system.businessConfig.templateImportFailed': '構成テンプレートのインポートに失敗しました: {{reason}}',
+  'pages.system.businessConfig.templateImportedApplied':
+    '構成テンプレートがインポートされて適用されました',
+  'pages.system.businessConfig.templateImportFailed':
+    '構成テンプレートのインポートに失敗しました: {{reason}}',
   'pages.system.businessConfig.invalidFileFormat': '無効なファイル形式です',
   'pages.system.businessConfig.templateManagementTitle': '構成テンプレートの管理',
-  'pages.system.businessConfig.templateManagementDesc': '現在の構成を再利用できるようにテンプレートとして保存します。インポートとエクスポートがサポートされています。',
+  'pages.system.businessConfig.templateManagementDesc':
+    '現在の構成を再利用できるようにテンプレートとして保存します。インポートとエクスポートがサポートされています。',
   'pages.system.businessConfig.importTemplate': 'テンプレートのインポート',
   'pages.system.businessConfig.saveCurrentConfig': '現在の設定を保存する',
   'pages.system.businessConfig.noTemplates': '構成テンプレートはありません',
@@ -1061,7 +1127,8 @@ export default {
   'pages.system.businessConfig.qualityStageToggles.oqc': '発信 (OQC)',
   'pages.system.businessConfig.qualityStageToggles.save': 'ステージの保存の切り替え',
   'pages.system.businessConfig.qualityStageToggles.saveSuccess': 'ステージ切り替えが保存されました',
-  'pages.system.businessConfig.qualityStageToggles.saveFailed': 'ステージ切り替えを保存できませんでした',
+  'pages.system.businessConfig.qualityStageToggles.saveFailed':
+    'ステージ切り替えを保存できませんでした',
   'pages.system.businessConfig.tabBlueprint': 'ビジネスブループリント',
   'pages.system.businessConfig.tabParameters': 'パラメータ',
   'pages.system.businessConfig.tabTemplates': '構成テンプレート',
@@ -1082,67 +1149,94 @@ export default {
   'pages.system.businessConfig.paramCategory.procurement': '調達パラメータ',
   'pages.system.businessConfig.paramCategory.purchase': '購入パラメータ',
   'pages.system.businessConfig.param.work_order.auto_generate.name': '作業指示の自動生成',
-  'pages.system.businessConfig.param.work_order.auto_generate.description': '需要に基づいて製造指示を自動生成する',
+  'pages.system.businessConfig.param.work_order.auto_generate.description':
+    '需要に基づいて製造指示を自動生成する',
   'pages.system.businessConfig.param.work_order.priority.name': '作業指示の優先順位',
-  'pages.system.businessConfig.param.work_order.priority.description': '作業指示の優先順位を有効にする',
+  'pages.system.businessConfig.param.work_order.priority.description':
+    '作業指示の優先順位を有効にする',
   'pages.system.businessConfig.param.work_order.split.name': '作業指示の分割',
   'pages.system.businessConfig.param.work_order.split.description': '作業指示の分割を許可する',
   'pages.system.businessConfig.param.work_order.merge.name': '作業指示のマージ',
   'pages.system.businessConfig.param.work_order.merge.description': '製造指示の結合を許可する',
-  'pages.system.businessConfig.param.work_order.allow_production_without_material.name': '素材なしでの生産を許可する',
-  'pages.system.businessConfig.param.work_order.allow_production_without_material.description': 'オンの場合、マテリアル チェックなしでリリースします。オフの場合、短い場合はブロック解除します。',
-  'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.name': '最後の操作の自動受信',
+  'pages.system.businessConfig.param.work_order.allow_production_without_material.name':
+    '素材なしでの生産を許可する',
+  'pages.system.businessConfig.param.work_order.allow_production_without_material.description':
+    'オンの場合、マテリアル チェックなしでリリースします。オフの場合、短い場合はブロック解除します。',
+  'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.name':
+    '最後の操作の自動受信',
   'pages.system.businessConfig.param.reporting.quick_reporting.name': 'クイックレポート',
-  'pages.system.businessConfig.param.reporting.quick_reporting.description': 'クイックレポートを有効にする',
+  'pages.system.businessConfig.param.reporting.quick_reporting.description':
+    'クイックレポートを有効にする',
   'pages.system.businessConfig.param.reporting.parameter_reporting.name': 'パラメータレポート',
-  'pages.system.businessConfig.param.reporting.parameter_reporting.description': 'パラメータベースのレポートのサポート',
+  'pages.system.businessConfig.param.reporting.parameter_reporting.description':
+    'パラメータベースのレポートのサポート',
   'pages.system.businessConfig.param.reporting.auto_fill.name': 'オートフィル',
   'pages.system.businessConfig.param.reporting.auto_fill.description': 'レポートデータの自動入力',
   'pages.system.businessConfig.param.reporting.data_correction.name': 'Data Correction',
-  'pages.system.businessConfig.param.reporting.data_correction.description': '送信されたレポートの修正を許可する',
+  'pages.system.businessConfig.param.reporting.data_correction.description':
+    '送信されたレポートの修正を許可する',
   'pages.system.businessConfig.param.reporting.auto_approve.name': '自動承認',
-  'pages.system.businessConfig.param.reporting.auto_approve.description': '送信されたレポートは自動承認されます。',
+  'pages.system.businessConfig.param.reporting.auto_approve.description':
+    '送信されたレポートは自動承認されます。',
   'pages.system.businessConfig.param.warehouse.batch_management.name': 'バッチ管理',
-  'pages.system.businessConfig.param.warehouse.batch_management.description': 'バッチ管理を有効にする',
+  'pages.system.businessConfig.param.warehouse.batch_management.description':
+    'バッチ管理を有効にする',
   'pages.system.businessConfig.param.warehouse.serial_management.name': 'シリアル番号管理',
-  'pages.system.businessConfig.param.warehouse.serial_management.description': 'シリアル番号管理を有効にする',
+  'pages.system.businessConfig.param.warehouse.serial_management.description':
+    'シリアル番号管理を有効にする',
   'pages.system.businessConfig.param.warehouse.multi_unit.name': 'マルチユニット',
-  'pages.system.businessConfig.param.warehouse.multi_unit.description': '複数ユニットの管理を有効にする',
+  'pages.system.businessConfig.param.warehouse.multi_unit.description':
+    '複数ユニットの管理を有効にする',
   'pages.system.businessConfig.param.warehouse.fifo.name': 'FIFO',
   'pages.system.businessConfig.param.warehouse.fifo.description': 'FIFO ルールを有効にする',
   'pages.system.businessConfig.param.warehouse.lifo.name': 'LIFO',
   'pages.system.businessConfig.param.warehouse.lifo.description': 'LIFO ルールを有効にする',
   'pages.system.businessConfig.param.quality.incoming_inspection.name': '受入検査',
-  'pages.system.businessConfig.param.quality.incoming_inspection.description': '受信検査を有効にする',
+  'pages.system.businessConfig.param.quality.incoming_inspection.description':
+    '受信検査を有効にする',
   'pages.system.businessConfig.param.quality.process_inspection.name': '工程検査',
-  'pages.system.businessConfig.param.quality.process_inspection.description': 'プロセス検査を有効にする',
+  'pages.system.businessConfig.param.quality.process_inspection.description':
+    'プロセス検査を有効にする',
   'pages.system.businessConfig.param.quality.finished_inspection.name': '完成品検査',
-  'pages.system.businessConfig.param.quality.finished_inspection.description': '完成品検査を可能にする',
+  'pages.system.businessConfig.param.quality.finished_inspection.description':
+    '完成品検査を可能にする',
   'pages.system.businessConfig.param.quality.defect_handling.name': '欠陥処理',
   'pages.system.businessConfig.param.quality.defect_handling.description': '欠陥処理を有効にする',
   'pages.system.businessConfig.param.sales.audit_enabled.name': '受注の監査',
-  'pages.system.businessConfig.param.sales.audit_enabled.description': '受注監査を有効にします。オフの場合、注文は自動的に有効になります。',
+  'pages.system.businessConfig.param.sales.audit_enabled.description':
+    '受注監査を有効にします。オフの場合、注文は自動的に有効になります。',
   'pages.system.businessConfig.param.bom.bom_multi_version_allowed.name': 'BOM マルチバージョン',
-  'pages.system.businessConfig.param.bom.bom_multi_version_allowed.description': 'オンの場合、需要計算で BOM バージョンを選択できます。オフの場合、既定の BOM が使用されます。',
+  'pages.system.businessConfig.param.bom.bom_multi_version_allowed.description':
+    'オンの場合、需要計算で BOM バージョンを選択できます。オフの場合、既定の BOM が使用されます。',
   'pages.system.businessConfig.param.planning.require_production_plan.name': '生産計画が必要',
-  'pages.system.businessConfig.param.planning.require_production_plan.description': 'スケジュールを立てる前に生産計画を要求する',
-  'pages.system.businessConfig.param.procurement.require_purchase_requisition.name': '購入申請が必要',
-  'pages.system.businessConfig.param.procurement.require_purchase_requisition.description': 'POを作成する前に購入要求を要求する',
+  'pages.system.businessConfig.param.planning.require_production_plan.description':
+    'スケジュールを立てる前に生産計画を要求する',
+  'pages.system.businessConfig.param.procurement.require_purchase_requisition.name':
+    '購入申請が必要',
+  'pages.system.businessConfig.param.procurement.require_purchase_requisition.description':
+    'POを作成する前に購入要求を要求する',
   'pages.system.businessConfig.param.purchase.auto_approval.name': '購入の自動承認',
   'pages.system.businessConfig.param.purchase.auto_approval.description': '発注書の自動承認',
   'pages.system.businessConfig.param.warehouse.location_management.name': '位置管理',
-  'pages.system.businessConfig.param.warehouse.location_management.description': '倉庫の位置管理を有効にする',
+  'pages.system.businessConfig.param.warehouse.location_management.description':
+    '倉庫の位置管理を有効にする',
   'pages.system.businessConfig.param.warehouse.auto_outbound.name': '自動アウトバウンド',
-  'pages.system.businessConfig.param.warehouse.auto_outbound.description': '自動アウトバウンドを有効にする',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.name': '受領時に受入検査を要求する',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.description': '受領書は最初に受入検査を完了する必要があります',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.name': '顧客からの資材の受け取りに IQC を要求する',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.description': '顧客の資材の受入は、最初に受入検査を完了する必要があります',
+  'pages.system.businessConfig.param.warehouse.auto_outbound.description':
+    '自動アウトバウンドを有効にする',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.name':
+    '受領時に受入検査を要求する',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.description':
+    '受領書は最初に受入検査を完了する必要があります',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.name':
+    '顧客からの資材の受け取りに IQC を要求する',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.description':
+    '顧客の資材の受入は、最初に受入検査を完了する必要があります',
   'pages.system.businessConfig.blueprint.loadFailed': '設定のロードに失敗しました',
   'pages.system.businessConfig.blueprint.saveSuccess': '設定が保存されました',
   'pages.system.businessConfig.blueprint.saveFailed': '設定の保存に失敗しました',
   'pages.system.businessConfig.blueprint.applyTemplateFailed': 'テンプレートの適用に失敗しました',
-  'pages.system.businessConfig.blueprint.templateLoaded': 'ロードされたカスタム テンプレート: {{name}}',
+  'pages.system.businessConfig.blueprint.templateLoaded':
+    'ロードされたカスタム テンプレート: {{name}}',
   'pages.system.businessConfig.blueprint.templateDeleted': 'テンプレートが削除されました',
   'pages.system.businessConfig.blueprint.templateDeleteFailed': 'テンプレートの削除に失敗しました',
   'pages.system.businessConfig.blueprint.presetApplied': '適用されたプリセット: {{name}}',
@@ -1150,7 +1244,8 @@ export default {
   'pages.system.businessConfig.blueprint.componentLibrary': 'コンポーネントライブラリ',
   'pages.system.businessConfig.blueprint.globalConfig': 'グローバル構成',
   'pages.system.businessConfig.blueprint.noNodeSelected': 'ノードが選択されていません',
-  'pages.system.businessConfig.blueprint.noNodeSelectedDesc': 'ライブラリまたはキャンバス内のノードをクリックして構成するか、上のプリセットを選択します。',
+  'pages.system.businessConfig.blueprint.noNodeSelectedDesc':
+    'ライブラリまたはキャンバス内のノードをクリックして構成するか、上のプリセットを選択します。',
   'pages.system.businessConfig.blueprint.currentEnv': '現在の環境:',
   'pages.system.businessConfig.blueprint.businessMode': 'ビジネスモード:',
   'pages.system.businessConfig.blueprint.industry': '業界：',
@@ -1167,11 +1262,13 @@ export default {
   'pages.system.businessConfig.blueprint.enabledOn': 'の上',
   'pages.system.businessConfig.blueprint.enabledOff': 'オフ',
   'pages.system.businessConfig.blueprint.enabledAlert': '機能が有効になっています',
-  'pages.system.businessConfig.blueprint.disabledAlert': '機能は無効になっています。関連メニューは非表示になります',
+  'pages.system.businessConfig.blueprint.disabledAlert':
+    '機能は無効になっています。関連メニューは非表示になります',
   'pages.system.businessConfig.blueprint.auditFlow': '監査',
   'pages.system.businessConfig.blueprint.auditRequired': '監査が必要',
   'pages.system.businessConfig.blueprint.autoPass': 'オートパス',
-  'pages.system.businessConfig.blueprint.auditTip': '監査がオンになっている場合、伝票には承認が必要です。オフの場合、自動的に有効になります。',
+  'pages.system.businessConfig.blueprint.auditTip':
+    '監査がオンになっている場合、伝票には承認が必要です。オフの場合、自動的に有効になります。',
   'pages.system.businessConfig.blueprint.nodeId': 'ノードID:',
   'pages.system.businessConfig.blueprint.businessModeLabel': 'ビジネスモード:',
   'pages.system.businessConfig.blueprint.complexityPlaceholder': '複雑さのプリセットを選択',
@@ -1629,7 +1726,8 @@ export default {
   'common.weekdays.friday': '金曜日',
   'common.weekdays.saturday': '土曜日',
   'common.confirmBatchDelete': '選択したレコードを一括削除してもよろしいですか?',
-  'common.confirmBatchDeleteContent': '{{count}} レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'common.confirmBatchDeleteContent':
+    '{{count}} レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'common.batchDeleteSuccess': '{{count}} レコードが削除されました',
   'common.batchDeletePartial': '{{count}} レコードを削除できませんでした{{errors}}',
   'common.batchDeleteFailed': '一括削除に失敗しました',
@@ -1661,7 +1759,8 @@ export default {
   'common.refresh': 'リフレッシュ',
   'common.close': '近い',
   'common.shortcutHelpTitle': 'キーボードショートカット',
-  'common.shortcutHelpIntro': 'これらのショートカットを使用すると、少ないマウスでより速く作業できます。',
+  'common.shortcutHelpIntro':
+    'これらのショートカットを使用すると、少ないマウスでより速く作業できます。',
   'common.shortcutSearch': 'トップ検索に焦点を当てる',
   'common.shortcutNew': '新規 (ページに新規ボタンがある場合)',
   'common.shortcutSubmit': '現在のモーダルを送信する',
@@ -1725,14 +1824,17 @@ export default {
   'goLiveAssistant.allCompletedDesc': 'システムの利用を開始できます。',
   'components.iterationFloatButton.tooltip': 'システム情報とフィードバック',
   'components.iterationFloatButton.modalTitle': 'システム情報とフィードバック',
-  'components.iterationFloatButton.iterationNotice': 'このシステムは継続的に反復されています。フィードバックや機能リクエストについては、以下のチャネルからお問い合わせください。',
+  'components.iterationFloatButton.iterationNotice':
+    'このシステムは継続的に反復されています。フィードバックや機能リクエストについては、以下のチャネルからお問い合わせください。',
   'components.iterationFloatButton.buildTime': '現在のデプロイメントの更新時間',
   'components.iterationFloatButton.gitLatestTime': '最新のコミット時刻 (リポジトリ)',
   'components.iterationFloatButton.viewRepo': 'リポジトリの表示',
   'components.iterationFloatButton.feedbackTitle': 'フィードバックと機能リクエスト',
-  'components.iterationFloatButton.feedbackDesc': 'QR コードをスキャンして WeChat を追加します。いただいたご意見には速やかに対応させていただきます。',
+  'components.iterationFloatButton.feedbackDesc':
+    'QR コードをスキャンして WeChat を追加します。いただいたご意見には速やかに対応させていただきます。',
   'components.proUpgradePrompt.title': '{{name}} は PRO アプリです',
-  'components.proUpgradePrompt.description': 'このアプリのロックを解除するには、プランを Professional または Enterprise にアップグレードしてください。',
+  'components.proUpgradePrompt.description':
+    'このアプリのロックを解除するには、プランを Professional または Enterprise にアップグレードしてください。',
   'components.proUpgradePrompt.upgradeButton': 'アップグレードプラン',
   'components.uniTable.fuzzySearch': 'あいまい検索',
   'components.uniSearch.fuzzySearch': 'あいまい検索',
@@ -1751,10 +1853,14 @@ export default {
   'components.uniImport.templateSuffix': 'テンプレートをインポートする',
   'components.uniImport.downloadTemplate': 'テンプレートをダウンロード',
   'components.uniImport.uploadExcel': 'Excelのアップロード',
-  'components.uniImport.noHeadersForTemplate': 'テンプレートを生成するために使用できるヘッダーがありません',
-  'components.uniImport.templateDownloaded': 'テンプレートがダウンロードされました。ローカルで編集してアップロードします。',
-  'components.uniImport.templateDownloadFailed': 'テンプレートのダウンロードに失敗しました: {{message}}',
-  'components.uniImport.uploadSuccess': 'エクセルが読み込まれました。インポートを確認して確認します。',
+  'components.uniImport.noHeadersForTemplate':
+    'テンプレートを生成するために使用できるヘッダーがありません',
+  'components.uniImport.templateDownloaded':
+    'テンプレートがダウンロードされました。ローカルで編集してアップロードします。',
+  'components.uniImport.templateDownloadFailed':
+    'テンプレートのダウンロードに失敗しました: {{message}}',
+  'components.uniImport.uploadSuccess':
+    'エクセルが読み込まれました。インポートを確認して確認します。',
   'components.uniImport.uploadFailed': 'Excel の解析に失敗しました: {{message}}',
   'components.uniImport.mappingImport': 'マップとインポート',
   'components.uniImport.mappingModalTitle': '列のマッピング',
@@ -1766,14 +1872,17 @@ export default {
   'components.uniImport.mappingSelectColumn': 'Excelの列を選択',
   'components.uniImport.mappingAutoMatch': '自動一致',
   'components.uniImport.mappingApplyPreview': '適用してプレビューする',
-  'components.uniImport.mappingApplySuccess': 'マッピングが適用されました。シートを確認してインポートを確認します。',
+  'components.uniImport.mappingApplySuccess':
+    'マッピングが適用されました。シートを確認してインポートを確認します。',
   'components.uniImport.mappingNoColumns': '少なくとも 1 つの項目をマッピングする',
   'components.uniImport.mappingNoDataRows': 'マッピング後にデータ行が存在しない',
   'components.uniImport.previewNextStep': 'プレビューして続行',
   'components.uniImport.previewModalTitle': 'インポートプレビュー',
-  'components.uniImport.previewSummary': '{{total}} 行をインポートします。最初のプレビュー中 {{shown}} (最大 {{max}})。',
+  'components.uniImport.previewSummary':
+    '{{total}} 行をインポートします。最初のプレビュー中 {{shown}} (最大 {{max}})。',
   'components.uniImport.previewRowNo': '行',
-  'components.uniImport.previewMoreRowsHint': '{{rest}} 確認時にさらに多くの行がインポートされます。',
+  'components.uniImport.previewMoreRowsHint':
+    '{{rest}} 確認時にさらに多くの行がインポートされます。',
   'components.uniImport.previewBackEdit': '編集に戻る',
   'components.uniImport.previewConfirmImport': 'インポートの確認',
   'components.uniImport.previewPrechecking': '事前チェックを実行中…',
@@ -1793,7 +1902,8 @@ export default {
   'components.uniReport.exportEmpty': 'エクスポートするデータがありません',
   'components.uniReport.exportNotConfigured': 'エクスポートドメインが構成されていません',
   'components.uniReport.template.queryTable': 'クエリテーブル',
-  'components.uniReport.template.queryTableDesc': 'インデックス列、コンパクトなテーブル、フッターの合計',
+  'components.uniReport.template.queryTableDesc':
+    'インデックス列、コンパクトなテーブル、フッターの合計',
   'components.uniReport.template.inventoryLedger': '在庫台帳',
   'components.uniReport.template.inventoryLedgerDesc': '倉庫数量の合計と KPI',
   'components.uniReport.template.salesAnalysisTable': '売上分析',
@@ -1822,26 +1932,32 @@ export default {
   'components.uniTable.delete': '一括削除',
   'components.uniBatch.batchActions': 'バッチアクション',
   'components.uniPush.push': '押す',
-  'components.uniTable.configOnImport': 'インポート データを処理するために onImport コールバックを構成する',
+  'components.uniTable.configOnImport':
+    'インポート データを処理するために onImport コールバックを構成する',
   'components.uniTable.configOnSync': 'onSync コールバックを構成する',
-  'components.uniTable.configOnExport': 'エクスポート データを処理するために onExport コールバックを構成する',
+  'components.uniTable.configOnExport':
+    'エクスポート データを処理するために onExport コールバックを構成する',
   'components.uniTable.selectedCountFooter': '{{count}} が選択されました',
   'components.uniTable.clearSelectionFooter': 'クリア',
   'components.uniTable.paginationTotal': '合計 {{total}} 件、{{start}}-{{end}} を表示',
   'components.uniTable.emptyCard': 'アプリデータがありません',
   'components.uniTable.emptyData': 'データなし',
   'components.uniTable.cardViewTitle': 'カードビュー',
-  'components.uniTable.cardViewHint': 'CardViewConfig.renderCard を構成してカードのレンダリングをカスタマイズする',
+  'components.uniTable.cardViewHint':
+    'CardViewConfig.renderCard を構成してカードのレンダリングをカスタマイズする',
   'components.uniTable.kanbanViewTitle': 'カンバンビュー',
   'components.uniTable.kanbanViewHint': 'kanbanViewConfig を構成してかんばんビューを有効にする',
   'components.uniTable.statsViewTitle': '統計ビュー',
   'components.uniTable.statsViewHint': 'statsViewConfig.metrics を構成して統計ビューを有効にする',
   'components.uniTable.chartDeveloping': 'チャート機能は開発中です...',
-  'components.uniTable.ganttViewHint': 'ganttViewConfig.renderGantt を構成してガント チャートのレンダリングをカスタマイズする',
+  'components.uniTable.ganttViewHint':
+    'ganttViewConfig.renderGantt を構成してガント チャートのレンダリングをカスタマイズする',
   'components.uniTable.helpTitle': '使い方のヘルプ',
-  'components.uniTable.helpHint': '検索バーを使用してデータをフィルタリングします。インポートとエクスポートがサポートされています。ページ固有のヘルプ用に helpViewConfig.content を構成します。',
+  'components.uniTable.helpHint':
+    '検索バーを使用してデータをフィルタリングします。インポートとエクスポートがサポートされています。ページ固有のヘルプ用に helpViewConfig.content を構成します。',
   'components.uniTable.touchViewTitle': 'タッチビュー',
-  'components.uniTable.touchViewHint': 'touchViewConfig.renderCard を構成してタッチ ビューを有効にする',
+  'components.uniTable.touchViewHint':
+    'touchViewConfig.renderCard を構成してタッチ ビューを有効にする',
   'components.uniTable.exampleValue': '例',
   'components.uniTable.exampleYes': 'はい',
   'components.uniTable.exampleField': '例 {{title}}',
@@ -1855,8 +1971,10 @@ export default {
   'components.layoutTemplates.documentFormPage.saveDraft': '下書きとして保存',
   'components.layoutTemplates.documentFormPage.saveAndSubmit': '保存して送信',
   'components.layoutTemplates.formModal.submitUpdate': 'アップデート',
-  'components.layoutTemplates.formModal.checkFormHint': 'フォームが正しく入力されていることを確認してください',
-  'components.layoutTemplates.formModal.formNotReady': 'フォームはまだ準備ができていません。しばらくしてからもう一度お試しください。',
+  'components.layoutTemplates.formModal.checkFormHint':
+    'フォームが正しく入力されていることを確認してください',
+  'components.layoutTemplates.formModal.formNotReady':
+    'フォームはまだ準備ができていません。しばらくしてからもう一度お試しください。',
   'components.secureImage.viewOriginal': '原文を見る',
   'components.secureImage.loadingOriginal': 'オリジナルを読み込み中…',
   'components.secureImage.switchedToOriginal': 'フル解像度を表示しています',
@@ -1940,7 +2058,8 @@ export default {
   'components.fileUpload.sizeExceeded': 'ファイル サイズが制限を超えています ({{size}}MB)',
   'components.fileUpload.maxCountExceeded': '許可される最大 {{count}} ファイル',
   'components.documentAttachments.label': '添付ファイル',
-  'components.documentAttachments.dragHint': 'ここにファイルをクリックまたはドラッグしてアップロードします',
+  'components.documentAttachments.dragHint':
+    'ここにファイルをクリックまたはドラッグしてアップロードします',
   'components.documentAttachments.dragSubHint': '{{max}} までの複数のファイルをサポート',
   'components.dictionarySelect.loadOptionsFailed': '{{label}} オプションのロードに失敗しました',
   'components.dictionarySelect.fieldLabel': 'ラベル',
@@ -1956,7 +2075,8 @@ export default {
   'components.dictionarySelect.enterValue': '値を入力してください',
   'components.dictionarySelect.enterLabelAndValue': 'ラベルと値を入力してください',
   'components.dictionarySelect.maxLength100': '最大100文字',
-  'components.dictionarySelect.valueMirrorsLabelHint': '保存された値はこの項目と一致します。個別の値はありません。',
+  'components.dictionarySelect.valueMirrorsLabelHint':
+    '保存された値はこの項目と一致します。個別の値はありません。',
   'components.dictionarySelect.valueExists': '値はすでに存在します。別の値を使用してください',
   'components.dictionarySelect.createFailed': '作成に失敗しました',
   'pages.qrcode.scan.navigatingToMaterial': 'マテリアルに移動しています...',
@@ -1995,7 +2115,8 @@ export default {
   'pages.init.wizard.dateFormat': '日付形式',
   'pages.init.wizard.selectDateFormat': '日付形式を選択してください',
   'pages.init.wizard.configComplete': '初期化設定が完了しました',
-  'pages.init.wizard.configConfirm': 'すべての情報が正しいことを確認し、「完了」をクリックして初期化を完了してください。',
+  'pages.init.wizard.configConfirm':
+    'すべての情報が正しいことを確認し、「完了」をクリックして初期化を完了してください。',
   'pages.init.wizard.configSummary': '構成の概要:',
   'pages.init.wizard.basicSettings': '基本設定:',
   'pages.init.wizard.summaryTimezone': 'タイムゾーン:',
@@ -2006,7 +2127,8 @@ export default {
   'pages.init.wizard.tabBasicDesc': 'タイムゾーン、通貨、言語などの主要な設定を構成する',
   'pages.init.wizard.tabFinish': '仕上げる',
   'pages.init.wizard.tabFinishDesc': '初期化を確認して完了する',
-  'pages.init.templateSelect.loadListFailed': 'テンプレート リストの読み込みに失敗しました。もう一度お試しください。',
+  'pages.init.templateSelect.loadListFailed':
+    'テンプレート リストの読み込みに失敗しました。もう一度お試しください。',
   'pages.init.templateSelect.loadDetailFailed': 'テンプレートの詳細をロードできませんでした',
   'pages.init.templateSelect.missingParams': '必須パラメータが欠落しています',
   'pages.init.templateSelect.applySuccess': 'テンプレートが正常に適用されました。',
@@ -2019,7 +2141,8 @@ export default {
   'pages.init.templateSelect.enabled': '有効',
   'pages.init.templateSelect.disabled': '無効',
   'pages.init.templateSelect.title': '業界テンプレートの選択',
-  'pages.init.templateSelect.subtitle': '業界に適したテンプレートを選択して、コード ルールやシステム パラメーターなどの基本構成をワンクリックで完了します。',
+  'pages.init.templateSelect.subtitle':
+    '業界に適したテンプレートを選択して、コード ルールやシステム パラメーターなどの基本構成をワンクリックで完了します。',
   'pages.init.templateSelect.noTemplates': '利用可能なテンプレートはありません',
   'pages.init.templateSelect.previewTitle': 'テンプレートのプレビュー',
   'pages.init.templateSelect.templateName': 'テンプレート名',
@@ -2033,8 +2156,10 @@ export default {
   'pages.init.templateSelect.applyIndustryTemplate': '業界テンプレートを適用する',
   'pages.init.templateSelect.confirmApply': '適用を確認する',
   'pages.init.templateSelect.cancel': 'キャンセル',
-  'pages.init.templateSelect.confirmApplyTitle': 'テンプレート {{name}} を適用してもよろしいですか?',
-  'pages.init.templateSelect.confirmApplyDesc': 'テンプレートを適用すると、コーディングルールやシステムパラメータなどの基本的な設定が自動的に行われます。',
+  'pages.init.templateSelect.confirmApplyTitle':
+    'テンプレート {{name}} を適用してもよろしいですか?',
+  'pages.init.templateSelect.confirmApplyDesc':
+    'テンプレートを適用すると、コーディングルールやシステムパラメータなどの基本的な設定が自動的に行われます。',
   'pages.lockScreen.userInfoNotFound': 'ユーザー情報が見つかりません。再度ログインしてください',
   'pages.lockScreen.unlockSuccess': 'ロックが正常に解除されました',
   'pages.lockScreen.passwordError': 'パスワードエラー。もう一度お試しください',
@@ -2067,54 +2192,82 @@ export default {
   'components.techStackModal.tabDatabase': 'データベース ({{count}})',
   'components.techStackModal.tabInfrastructure': 'インフラストラクチャ ({{count}})',
   'components.techStackModal.overview.coreTitle': 'コア技術スタック',
-  'components.techStackModal.overview.intro': 'RiverEdge SaaS マルチテナント フレームワークは、最新の技術スタックを使用しています。',
+  'components.techStackModal.overview.intro':
+    'RiverEdge SaaS マルチテナント フレームワークは、最新の技術スタックを使用しています。',
   'components.techStackModal.overview.fastapi': '高性能な非同期 Web フレームワーク',
-  'components.techStackModal.overview.taskiq': 'PostgreSQL 上の非同期タスク キュー。労働者は仕事を消費する。 cron スタイルの作業は、Taskiq スケジューラによって駆動されます。',
+  'components.techStackModal.overview.taskiq':
+    'PostgreSQL 上の非同期タスク キュー。労働者は仕事を消費する。 cron スタイルの作業は、Taskiq スケジューラによって駆動されます。',
   'components.techStackModal.overview.react': '最新のフロントエンド フレームワーク',
   'components.techStackModal.overview.tortoise': 'Python 用の非同期 ORM',
   'components.techStackModal.overview.antd': 'エンタープライズ UI コンポーネント ライブラリ',
-  'components.techStackModal.overview.expo': 'React Native 開発プラットフォーム、ビルド、OTA アップデート',
-  'components.techStackModal.overview.reactNative': 'クロスプラットフォームのモバイルおよび Web フレームワーク',
+  'components.techStackModal.overview.expo':
+    'React Native 開発プラットフォーム、ビルド、OTA アップデート',
+  'components.techStackModal.overview.reactNative':
+    'クロスプラットフォームのモバイルおよび Web フレームワーク',
   'components.techStackModal.overview.licenseTitle': 'ライセンスの概要',
-  'components.techStackModal.overview.licenseIntro': 'すべてのコア テクノロジは、寛容なライセンス (MIT、Apache 2.0、BSD) を使用します。商用利用も安全です。',
-  'components.techStackModal.overview.redisWarning': '⚠️ 重要: Redis サーバーは 6.2.6 以降 (BSD 3-Clause) を使用する必要があります。 Redis 7.0 以降は避けてください (RSAL ライセンスにより商用利用が制限されています)。',
+  'components.techStackModal.overview.licenseIntro':
+    'すべてのコア テクノロジは、寛容なライセンス (MIT、Apache 2.0、BSD) を使用します。商用利用も安全です。',
+  'components.techStackModal.overview.redisWarning':
+    '⚠️ 重要: Redis サーバーは 6.2.6 以降 (BSD 3-Clause) を使用する必要があります。 Redis 7.0 以降は避けてください (RSAL ライセンスにより商用利用が制限されています)。',
   'components.techStackModal.copyright.important': '重要',
-  'components.techStackModal.copyright.importantDesc': 'このプロジェクトを使用、改変、配布する前に、以下の著作権とライセンスを読んで遵守してください。',
+  'components.techStackModal.copyright.importantDesc':
+    'このプロジェクトを使用、改変、配布する前に、以下の著作権とライセンスを読んで遵守してください。',
   'components.techStackModal.copyright.projectTitle': '著作権表示',
-  'components.techStackModal.copyright.projectScope': 'この通知は、RiverEdge SaaS マルチテナント フレームワークとそのソース コード、伝票、プラグイン、派生製品に適用されます。',
+  'components.techStackModal.copyright.projectScope':
+    'この通知は、RiverEdge SaaS マルチテナント フレームワークとそのソース コード、伝票、プラグイン、派生製品に適用されます。',
   'components.techStackModal.copyright.ownershipTitle': '著作権',
-  'components.techStackModal.copyright.ownershipDesc': '{{company}} が著作権を所有します。使用、変更、配布の権利は、以下の Apache License 2.0 に準拠します。',
+  'components.techStackModal.copyright.ownershipDesc':
+    '{{company}} が著作権を所有します。使用、変更、配布の権利は、以下の Apache License 2.0 に準拠します。',
   'components.techStackModal.copyright.trademarkTitle': '商標',
-  'components.techStackModal.copyright.trademarkDesc': '{{trademark}} は {{company}} の登録商標であり、商標法で保護されています。',
-  'components.techStackModal.copyright.trademarkNoGrant': 'Apache License 2.0 は商標権を付与しません。書面による許可がない限り、次のことを行うことはできません。',
-  'components.techStackModal.copyright.trademarkItem1': '商業プロモーションやパートナーシップの主張には「{{trademark}}」を使用してください',
-  'components.techStackModal.copyright.trademarkItem2': '製品またはサービス名として「{{trademark}}」を使用してください',
+  'components.techStackModal.copyright.trademarkDesc':
+    '{{trademark}} は {{company}} の登録商標であり、商標法で保護されています。',
+  'components.techStackModal.copyright.trademarkNoGrant':
+    'Apache License 2.0 は商標権を付与しません。書面による許可がない限り、次のことを行うことはできません。',
+  'components.techStackModal.copyright.trademarkItem1':
+    '商業プロモーションやパートナーシップの主張には「{{trademark}}」を使用してください',
+  'components.techStackModal.copyright.trademarkItem2':
+    '製品またはサービス名として「{{trademark}}」を使用してください',
   'components.techStackModal.copyright.softwareTitle': 'ソフトウェアライセンス',
-  'components.techStackModal.copyright.softwareIntro': 'このプロジェクトでは Apache License 2.0 を使用します。してもいいです：',
-  'components.techStackModal.copyright.softwareItem1': '商用利用、改変、個人利用、ソースやバイナリの配布',
+  'components.techStackModal.copyright.softwareIntro':
+    'このプロジェクトでは Apache License 2.0 を使用します。してもいいです：',
+  'components.techStackModal.copyright.softwareItem1':
+    '商用利用、改変、個人利用、ソースやバイナリの配布',
   'components.techStackModal.copyright.softwareItem2': '明示的な特許ライセンスの付与を受け取る',
-  'components.techStackModal.copyright.softwareNote': '全文については、プロジェクト ルートの LICENSE ファイルを参照してください。',
+  'components.techStackModal.copyright.softwareNote':
+    '全文については、プロジェクト ルートの LICENSE ファイルを参照してください。',
   'components.techStackModal.copyright.model3dTitle': '3D モデルの帰属',
-  'components.techStackModal.copyright.model3dDesc': 'このビルドには、個別の帰属を必要とするサードパーティの 3D 建物アセットはバンドルされていません。',
+  'components.techStackModal.copyright.model3dDesc':
+    'このビルドには、個別の帰属を必要とするサードパーティの 3D 建物アセットはバンドルされていません。',
   'components.techStackModal.copyright.fontTitle': 'フォントの帰属',
-  'components.techStackModal.copyright.fontDesc': 'このプロジェクトで使用されているフォントとそのライセンス:',
-  'components.techStackModal.copyright.fontJetBrains': '出典: https://www.jetbrains.com/lp/mono/。 SIL オープン フォント ライセンス 1.1 — 商用および非商用に無料で使用できます。',
-  'components.techStackModal.copyright.fontSystem': 'UI 本文テキストはシステム フォント (PingFang SC、Microsoft YaHei、Segoe UI、Roboto など) を使用します。追加のライセンスは必要ありません。',
-  'components.techStackModal.copyright.fontWxIcons': '出典: SVAR (https://cdn.svar.dev/fonts/wxi/)、MIT ライセンス。ガント チャートおよびその他のコンポーネントのアイコンに使用されます。',
+  'components.techStackModal.copyright.fontDesc':
+    'このプロジェクトで使用されているフォントとそのライセンス:',
+  'components.techStackModal.copyright.fontJetBrains':
+    '出典: https://www.jetbrains.com/lp/mono/。 SIL オープン フォント ライセンス 1.1 — 商用および非商用に無料で使用できます。',
+  'components.techStackModal.copyright.fontSystem':
+    'UI 本文テキストはシステム フォント (PingFang SC、Microsoft YaHei、Segoe UI、Roboto など) を使用します。追加のライセンスは必要ありません。',
+  'components.techStackModal.copyright.fontWxIcons':
+    '出典: SVAR (https://cdn.svar.dev/fonts/wxi/)、MIT ライセンス。ガント チャートおよびその他のコンポーネントのアイコンに使用されます。',
   'components.techStackModal.copyright.assetsTitle': 'その他の設備',
   'components.techStackModal.copyright.assetsDesc': '次の設備とそのライセンス:',
-  'components.techStackModal.copyright.assetsLottie': 'Lottie-React ライブラリは MIT ライセンスを取得しています。 LottieFiles またはその他のサードパーティからのアニメーション JSON ファイルは、それぞれのライセンスに準拠する必要があります。',
-  'components.techStackModal.copyright.assetsSocial': 'WeChat、QQ、DingTalk、Feishu、WeCom アイコンは、サードパーティのログイン ブランド表示に使用されます。各プラットフォームのブランドガイドラインに従ってください。',
+  'components.techStackModal.copyright.assetsLottie':
+    'Lottie-React ライブラリは MIT ライセンスを取得しています。 LottieFiles またはその他のサードパーティからのアニメーション JSON ファイルは、それぞれのライセンスに準拠する必要があります。',
+  'components.techStackModal.copyright.assetsSocial':
+    'WeChat、QQ、DingTalk、Feishu、WeCom アイコンは、サードパーティのログイン ブランド表示に使用されます。各プラットフォームのブランドガイドラインに従ってください。',
   'components.techStackModal.copyright.complianceTitle': 'コンプライアンス',
-  'components.techStackModal.copyright.complianceDesc': '商用利用の場合は、著作権表示、商標表示、および Apache 2.0 ライセンス テキストを保持する必要があります。',
-  'components.techStackModal.copyright.complianceAuth': 'ライセンシーは、会社からの書面による許可があれば、ホワイトラベル展開またはカスタム製品の著作権/商標を削除または置き換えることができます。',
-  'components.techStackModal.copyright.warning': '著作権/商標の表示を削除または改ざんすると、ライセンスに違反し、法的責任が生じる可能性があります。',
+  'components.techStackModal.copyright.complianceDesc':
+    '商用利用の場合は、著作権表示、商標表示、および Apache 2.0 ライセンス テキストを保持する必要があります。',
+  'components.techStackModal.copyright.complianceAuth':
+    'ライセンシーは、会社からの書面による許可があれば、ホワイトラベル展開またはカスタム製品の著作権/商標を削除または置き換えることができます。',
+  'components.techStackModal.copyright.warning':
+    '著作権/商標の表示を削除または改ざんすると、ライセンスに違反し、法的責任が生じる可能性があります。',
   'components.techStackModal.aiAssist.title': 'AI支援開発',
-  'components.techStackModal.aiAssist.intro': 'このプロジェクトは以下の支援を受けて開発されました。',
+  'components.techStackModal.aiAssist.intro':
+    'このプロジェクトは以下の支援を受けて開発されました。',
   'components.techStackModal.aiAssist.cursor': 'カーソル — Composer 1.5',
   'components.techStackModal.aiAssist.antigravity': '反重力 — Gemini 3 Pro',
   'components.techStackModal.aiAssist.trae': 'Trae — GPT-5.3-コーデックス',
-  'components.techStackModal.aiAssist.note': '一部のコードと伝票は AI の支援を利用して作成されました。人間主導の設計と決定。効率化と導入支援にAIを活用。',
+  'components.techStackModal.aiAssist.note':
+    '一部のコードと伝票は AI の支援を利用して作成されました。人間主導の設計と決定。効率化と導入支援にAIを活用。',
   'components.uniQuery.clearAll': 'すべてクリア',
   'components.uniQuery.addFilterGroup': 'フィルターグループの追加',
   'components.uniQuery.addConditionGroup': '条件グループの追加',
@@ -2269,9 +2422,11 @@ export default {
   'app.kuaiplm.phase2.requirements.form.sourceId': 'ソース文書 ID (例: 問い合わせ ID)',
   'app.kuaiplm.phase2.requirements.form.description': '説明',
   'app.kuaiplm.phase2.designReviews.selectFirst': '最初にデザインレビューを選択してください',
-  'app.kuaiplm.phase2.designReviews.batchDeleteSuccess': '{{count}} 件のレビュー レコードを削除しました',
+  'app.kuaiplm.phase2.designReviews.batchDeleteSuccess':
+    '{{count}} 件のレビュー レコードを削除しました',
   'app.kuaiplm.phase2.designReviews.batchDeleteFailed': '一括削除に失敗しました',
-  'app.kuaiplm.phase2.designReviews.batchStatusSuccess': '{{count}} 件のレビューを {{label}} に設定します',
+  'app.kuaiplm.phase2.designReviews.batchStatusSuccess':
+    '{{count}} 件のレビューを {{label}} に設定します',
   'app.kuaiplm.phase2.designReviews.batchStatusFailed': 'ステータスのバッチ更新に失敗しました',
   'app.kuaiplm.phase2.designReviews.columns.code': 'コードを確認する',
   'app.kuaiplm.phase2.designReviews.columns.title': 'タイトル',
@@ -2281,7 +2436,8 @@ export default {
   'app.kuaiplm.phase2.designReviews.columns.scheduledAt': '予定時刻',
   'app.kuaiplm.phase2.designReviews.deleteOneTitle': 'このレビュー記録を削除しますか?',
   'app.kuaiplm.phase2.designReviews.createButton': '新しいレビュー',
-  'app.kuaiplm.phase2.designReviews.deleteConfirmTitle': '選択した {{count}} 個の設計レビューを削除しますか?',
+  'app.kuaiplm.phase2.designReviews.deleteConfirmTitle':
+    '選択した {{count}} 個の設計レビューを削除しますか?',
   'app.kuaiplm.phase2.designReviews.batchSetInProgress': '選択したものを「進行中」に設定します',
   'app.kuaiplm.phase2.designReviews.batchSetCompleted': '選択したものを完了に設定します',
   'app.kuaiplm.phase2.designReviews.createTitle': 'デザインレビューの作成',
@@ -2309,7 +2465,8 @@ export default {
   'app.kuaiplm.phase2.fmea.columns.updatedAt': '更新日',
   'app.kuaiplm.phase2.fmea.deleteOneTitle': 'この FMEA レコードを削除しますか?',
   'app.kuaiplm.phase2.fmea.createButton': '新しいFMEA',
-  'app.kuaiplm.phase2.fmea.deleteConfirmTitle': '選択した {{count}} の FMEA レコードを削除しますか?',
+  'app.kuaiplm.phase2.fmea.deleteConfirmTitle':
+    '選択した {{count}} の FMEA レコードを削除しますか?',
   'app.kuaiplm.phase2.fmea.batchSetInReview': '選択したものを「レビュー中」に設定',
   'app.kuaiplm.phase2.fmea.batchSetClosed': '選択したものを「クローズ」に設定',
   'app.kuaiplm.phase2.fmea.createTitle': 'FMEA の作成',
@@ -2416,27 +2573,31 @@ export default {
   'app.kuaiplm.common.messages.batchExecuteSuccess': '{{count}} 件の変更を実行しました',
   'app.kuaiplm.common.messages.batchDeleteSuccess': '{{count}} 件の変更を削除しました',
   'app.kuaiplm.dashboard.kpi.activeProjects': 'アクティブなプロジェクト',
-  'app.kuaiplm.dashboard.kpi.activeProjectsSubtitle': '合計 {{total}} · 研究開発 {{rd}} · 納品 {{delivery}}',
+  'app.kuaiplm.dashboard.kpi.activeProjectsSubtitle':
+    '合計 {{total}} · 研究開発 {{rd}} · 納品 {{delivery}}',
   'app.kuaiplm.dashboard.kpi.onHold': '保留',
   'app.kuaiplm.dashboard.kpi.pendingGates': '保留のゲート',
   'app.kuaiplm.dashboard.kpi.pendingChanges': '保留の変更',
   'app.kuaiplm.dashboard.kpi.pendingChangesSubtitle': 'BOM とルートの変更は承認/実行待ちです',
   'app.kuaiplm.dashboard.kpi.route': 'ルート',
   'app.kuaiplm.dashboard.kpi.collaborationTodos': 'コラボレーション Todo',
-  'app.kuaiplm.dashboard.kpi.collaborationSubtitle': '記事 {{articles}} · デザインレビュー {{reviews}}',
+  'app.kuaiplm.dashboard.kpi.collaborationSubtitle':
+    '記事 {{articles}} · デザインレビュー {{reviews}}',
   'app.kuaiplm.dashboard.kpi.requirements': '要件',
   'app.kuaiplm.dashboard.panel.activeProjects': 'アクティブなプロジェクト',
   'app.kuaiplm.dashboard.panel.pendingChanges': '保留の変更',
   'app.kuaiplm.dashboard.panel.myTasks': '私のタスク',
   'app.kuaiplm.dashboard.panel.changeTarget': 'ターゲットの変更',
-  'app.kuaiplm.dashboard.empty.activeProjects': 'アクティブなプロジェクトはありません。開始するには、NPI プロジェクトを作成します。',
+  'app.kuaiplm.dashboard.empty.activeProjects':
+    'アクティブなプロジェクトはありません。開始するには、NPI プロジェクトを作成します。',
   'app.kuaiplm.dashboard.empty.pendingChanges': '保留のデザイン変更はありません',
   'app.kuaiplm.dashboard.empty.myTasks': 'あなたに割り当てられたタスクはありません',
   'app.kuaiplm.dashboard.chart.ganttTitle': 'プロジェクト進捗ガントチャート',
   'app.kuaiplm.dashboard.shortcut.engineeringBom': 'エンジニアリングBOM',
   'app.kuaiplm.gantt.scale.month': '％による',
   'app.kuaiplm.gantt.scale.week': 'W%W',
-  'app.kuaiplm.gantt.empty': 'アクティブなプロジェクトはありません。プロジェクト作成後、NPI タイムラインがここに表示されます。',
+  'app.kuaiplm.gantt.empty':
+    'アクティブなプロジェクトはありません。プロジェクト作成後、NPI タイムラインがここに表示されます。',
   'app.kuaiplm.gantt.columns.projectGate': 'プロジェクト/ゲート',
   'app.kuaiplm.gantt.columns.plannedStart': '計画的な開始',
   'app.kuaiplm.gantt.columns.plannedEnd': '終了予定',
@@ -2447,7 +2608,8 @@ export default {
   'app.kuaiplm.rdProjects.modal.createTitle': '新しいプロジェクト',
   'app.kuaiplm.rdProjects.form.projectType': 'プロジェクトの種類',
   'app.kuaiplm.rdProjects.form.sourceProject': 'ソース研究開発プロジェクト',
-  'app.kuaiplm.rdProjects.form.sourceProjectHint': 'オプション: 材料とエンジニアリングのリンクを継承します。',
+  'app.kuaiplm.rdProjects.form.sourceProjectHint':
+    'オプション: 材料とエンジニアリングのリンクを継承します。',
   'app.kuaiplm.rdProjects.form.projectCode': 'プロジェクトコード',
   'app.kuaiplm.rdProjects.form.projectName': 'プロジェクト名',
   'app.kuaiplm.rdProjects.form.owner': 'プロジェクトオーナー',
@@ -2460,15 +2622,20 @@ export default {
   'app.kuaiplm.rdProjects.batch.setInProgress': 'バッチセットが進行中です',
   'app.kuaiplm.rdProjects.batch.setOnHold': 'バッチを保留に設定',
   'app.kuaiplm.rdProjects.batch.setCompleted': 'バッチセットが完了しました',
-  'app.kuaiplm.rdProjects.messages.pushDeliveryFailed': 'バッチプッシュ配信プロジェクトが失敗しました',
-  'app.kuaiplm.rdProjects.messages.pushTrialWoFailed': 'バッチプッシュ試行作業オーダーが失敗しました',
+  'app.kuaiplm.rdProjects.messages.pushDeliveryFailed':
+    'バッチプッシュ配信プロジェクトが失敗しました',
+  'app.kuaiplm.rdProjects.messages.pushTrialWoFailed':
+    'バッチプッシュ試行作業オーダーが失敗しました',
   'app.kuaiplm.rdProjects.detail.loadFailed': 'プロジェクトワークスペースのロードに失敗しました',
-  'app.kuaiplm.rdProjects.detail.notFound': 'プロジェクトが見つからないか、アクセスが拒否されました',
+  'app.kuaiplm.rdProjects.detail.notFound':
+    'プロジェクトが見つからないか、アクセスが拒否されました',
   'app.kuaiplm.rdProjects.detail.startConfirmTitle': 'プロジェクトを開始しますか?',
-  'app.kuaiplm.rdProjects.detail.startConfirmContent': '開始後、ステータスは進行中になり、NPI ゲート、タスク、成果物を続行できるようになります。ドラフトに戻すことはできません。',
+  'app.kuaiplm.rdProjects.detail.startConfirmContent':
+    '開始後、ステータスは進行中になり、NPI ゲート、タスク、成果物を続行できるようになります。ドラフトに戻すことはできません。',
   'app.kuaiplm.rdProjects.detail.startSuccess': 'プロジェクトが開始されました',
   'app.kuaiplm.rdProjects.detail.createDeliveryTitle': '配信プロジェクトを作成しますか?',
-  'app.kuaiplm.rdProjects.detail.createDeliveryContent': 'この研究開発プロジェクトから納品プロジェクトをプッシュし、材料とエンジニアリングのリンクを継承します。',
+  'app.kuaiplm.rdProjects.detail.createDeliveryContent':
+    'この研究開発プロジェクトから納品プロジェクトをプッシュし、材料とエンジニアリングのリンクを継承します。',
   'app.kuaiplm.rdProjects.detail.createDeliverySuccess': '配信プロジェクトが作成されました',
   'app.kuaiplm.rdProjects.detail.gatePassConfirm': '未承認のブロッキング成果物は通過を妨げます。',
   'app.kuaiplm.rdProjects.detail.gatePassSuccess': 'ゲート通過',
@@ -2523,14 +2690,16 @@ export default {
   'app.kuaiplm.rdProjects.detail.gate.reviewerPlaceholder': '査読者の選択',
   'app.kuaiplm.rdProjects.detail.trialWo.title': 'トライアル作業オーダーのプッシュ',
   'app.kuaiplm.rdProjects.detail.trialWo.success': 'トライアル作業オーダーがプッシュされました',
-  'app.kuaiplm.rdProjects.detail.trialWo.successWithCode': 'トライアル製造指示 {{code}} が作成されました',
+  'app.kuaiplm.rdProjects.detail.trialWo.successWithCode':
+    'トライアル製造指示 {{code}} が作成されました',
   'app.kuaiplm.rdProjects.detail.trialWo.failed': 'プッシュに失敗しました',
   'app.kuaiplm.rdProjects.detail.shortcut.requirements': '要件',
   'app.kuaiplm.rdProjects.detail.shortcut.designReviews': 'デザインレビュー',
   'app.kuaiplm.rdProjects.gateStepper.deliveryTitle': '納品プロジェクトの段階',
   'app.kuaiplm.rdProjects.gateStepper.npiTitle': 'NPI プロジェクトの段階',
   'app.kuaiplm.rdProjects.gateStepper.passedCount': '{{passed}}/{{total}} 合格',
-  'app.kuaiplm.rdProjects.gateStepper.failedHint': '現在のゲートのレビューが失敗しました。成果物を完成させ、再レビューします。',
+  'app.kuaiplm.rdProjects.gateStepper.failedHint':
+    '現在のゲートのレビューが失敗しました。成果物を完成させ、再レビューします。',
   'app.kuaiplm.change.pageTitle': '設計変更',
   'app.kuaiplm.change.createBomButton': 'マスターデータでの BOM 変更の作成',
   'app.kuaiplm.change.createRouteButton': 'マスタデータで経路変更を作成する',
@@ -2585,7 +2754,8 @@ export default {
   'app.master-data.name': 'マスターデータ',
   'app.system.name': '設定',
   'app.kuaiai.name': 'KU-AI',
-  'app.kuaiai.noMenuHint': 'サイドバーメニューはありません。画面上部のAIアシスタントアイコン、または F1 で会話を開いてください。',
+  'app.kuaiai.noMenuHint':
+    'サイドバーメニューはありません。画面上部のAIアシスタントアイコン、または F1 で会話を開いてください。',
   'app.kuaiai.menu.agents': 'エージェント',
   'app.kuaiai.menu.hub': 'ハブ',
   'app.kuaiai.menu.knowledge': 'ナレッジ',
@@ -2595,12 +2765,17 @@ export default {
   'app.haoligo.menu.workspace': 'ワークスペース',
   'app.haoligo.menu.settings.notifications': '通知',
   'app.haoligo.settings.notifications.title': '通知',
-  'app.haoligo.settings.notifications.desc': 'このアプリで伝票が送信、承認、または報告されるときのアプリ内メッセージと受信者を構成します。',
-  'app.haoligo.settings.notifications.preset.hint': '初めて使用するときは、[プリセットの読み込み] をクリックして既定のルールを作成します (既存の伝票とアクションのペアは上書きされません)。まず、システム → メッセージ → テンプレートでこのアプリのメッセージ テンプレートを読み込みます。',
+  'app.haoligo.settings.notifications.desc':
+    'このアプリで伝票が送信、承認、または報告されるときのアプリ内メッセージと受信者を構成します。',
+  'app.haoligo.settings.notifications.preset.hint':
+    '初めて使用するときは、[プリセットの読み込み] をクリックして既定のルールを作成します (既存の伝票とアクションのペアは上書きされません)。まず、システム → メッセージ → テンプレートでこのアプリのメッセージ テンプレートを読み込みます。',
   'app.haoligo.settings.notifications.preset.button': 'プリセットをロードする',
-  'app.haoligo.settings.notifications.preset.loaded': '{{created}} 個のプリセット ルールをロードしました (合計 {{total}})',
-  'app.haoligo.settings.notifications.preset.missingTemplate': 'ルールが追加されていません: [メッセージ] → [テンプレート] でこのアプリのメッセージ テンプレート プリセットをロードし、再試行してください。',
-  'app.haoligo.settings.notifications.preset.alreadyExists': 'すべての事前設定ルールがすでに存在します',
+  'app.haoligo.settings.notifications.preset.loaded':
+    '{{created}} 個のプリセット ルールをロードしました (合計 {{total}})',
+  'app.haoligo.settings.notifications.preset.missingTemplate':
+    'ルールが追加されていません: [メッセージ] → [テンプレート] でこのアプリのメッセージ テンプレート プリセットをロードし、再試行してください。',
+  'app.haoligo.settings.notifications.preset.alreadyExists':
+    'すべての事前設定ルールがすでに存在します',
   'app.haoligo.settings.notifications.preset.failed': '通知プリセットのロードに失敗しました',
   'app.haoligo.settings.notifications.document.mold_trial': '金型トライアルシート',
   'app.haoligo.settings.notifications.document.outsource_maintenance': '保守を外部委託する',
@@ -2609,15 +2784,19 @@ export default {
   'app.haoligo.settings.notifications.document.patrol_issue_register': '発行登録簿',
   'app.haoligo.settings.notifications.document.mold_maintenance': '社内メンテナンス',
   'app.haoligo.settings.notifications.document.mold_maintenance_complete': '社内コンプリートシート',
-  'app.haoligo.settings.notifications.document.outsource_maintenance_complete': '外部委託修理完了シート',
+  'app.haoligo.settings.notifications.document.outsource_maintenance_complete':
+    '外部委託修理完了シート',
   'app.haoligo.settings.notifications.document.equipment_upkeep_sheet': '設備メンテナンスシート',
   'app.haoligo.settings.notifications.document.equipment_upkeep_complete': '設備メンテナンス完了',
   'app.haoligo.settings.notifications.document.equipment_output_record': '設備産出記録',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_pending': 'トライアルは失敗しました · 保留',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_repair': '試用は失敗しましたが、修理は発送されました',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_pending':
+    'トライアルは失敗しました · 保留',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_repair':
+    '試用は失敗しましたが、修理は発送されました',
   'app.haoligo.settings.notifications.action.mold_trial.trial_adjustment_complete': '調整完了',
   'app.haoligo.settings.notifications.action.mold_trial.trial_production_pending': '量産試験は保留',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_recalled': 'リコールされ閉鎖されました',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_recalled':
+    'リコールされ閉鎖されました',
   'app.haoligo.settings.notifications.action.mold_trial.revoked': '承認が取り消されました',
   'app.haoligo.settings.notifications.action.mold_trial.approved': '承認された',
   'app.haoligo.settings.notifications.action.mold_trial.rejected': '拒否されました',
@@ -2637,7 +2816,8 @@ export default {
   'app.haoligo.settings.notifications.action.outsource_maintenance.submitted': '提出済み',
   'app.haoligo.settings.notifications.action.outsource_maintenance.approved': '承認された',
   'app.haoligo.settings.notifications.action.outsource_maintenance.rejected': '拒否されました',
-  'app.haoligo.settings.notifications.action.outsource_maintenance.revoked': '承認が取り消されました',
+  'app.haoligo.settings.notifications.action.outsource_maintenance.revoked':
+    '承認が取り消されました',
   'app.haoligo.settings.notifications.action.equipment_spot_check.reported': '報告済み',
   'app.haoligo.settings.notifications.action.equipment_route_patrol.reported': '報告済み',
   'app.haoligo.settings.notifications.action.patrol_issue_register.reported': '報告済み',
@@ -2647,10 +2827,14 @@ export default {
   'app.haoligo.molds.trial.pendingNotifyUsers': 'Pending notification recipients',
   'app.haoligo.molds.trial.submittedNotifyUsers': '保留の監査通知の受信者',
   'app.haoligo.settings.notifications.action.mold_trial.submitted': '審査のために提出されました',
-  'app.haoligo.settings.notifications.hint.trialPending': '通知ルールで「伝票で選択されたユーザー」を有効にし、ここで受信者を選択します。固定ロールは、「構成センター」→「通知」で設定できます。',
-  'app.haoligo.settings.notifications.hint.spotCheckReport': 'システム設定 → 設定センター → 通知 (スポットチェック/レポート) でレポート受信者を設定します。',
-  'app.haoligo.settings.notifications.hint.routePatrolReport': '「システム設定」→「設定センター」→「通知（ルートパトロール/レポート）」でレポート受信者を設定します。',
-  'app.haoligo.settings.notifications.hint.issueRegisterReport': 'システム設定 → 設定センター → 通知 (問題の登録/報告) で問題レポートの受信者を設定します。',
+  'app.haoligo.settings.notifications.hint.trialPending':
+    '通知ルールで「伝票で選択されたユーザー」を有効にし、ここで受信者を選択します。固定ロールは、「構成センター」→「通知」で設定できます。',
+  'app.haoligo.settings.notifications.hint.spotCheckReport':
+    'システム設定 → 設定センター → 通知 (スポットチェック/レポート) でレポート受信者を設定します。',
+  'app.haoligo.settings.notifications.hint.routePatrolReport':
+    '「システム設定」→「設定センター」→「通知（ルートパトロール/レポート）」でレポート受信者を設定します。',
+  'app.haoligo.settings.notifications.hint.issueRegisterReport':
+    'システム設定 → 設定センター → 通知 (問題の登録/報告) で問題レポートの受信者を設定します。',
   'app.haoligo.menu.equipment': '装置',
   'app.haoligo.menu.equipment.group.masterData': '基本データ',
   'app.haoligo.menu.equipment.masterDataWorkshops': '車間管理',
@@ -2667,7 +2851,8 @@ export default {
   'app.haoligo.equipment.upkeepParams.editTitle': 'Edit upkeep item',
   'app.haoligo.equipment.upkeepParams.detailTitle': 'メンテナンスアイテムの詳細',
   'app.haoligo.equipment.upkeepParams.deleteTitle': '維持アイテムを削除',
-  'app.haoligo.equipment.upkeepParams.deleteContent': '維持アイテム「{{name}}」({{code}}) を削除しますか?',
+  'app.haoligo.equipment.upkeepParams.deleteContent':
+    '維持アイテム「{{name}}」({{code}}) を削除しますか?',
   'app.haoligo.equipment.upkeepParams.codeRequired': 'アイテムコードは必須です',
   'app.haoligo.equipment.upkeepParams.nameRequired': '項目名は必須です',
   'app.haoligo.equipment.upkeepParams.colValueType': '値のタイプ',
@@ -2675,17 +2860,21 @@ export default {
   'app.haoligo.equipment.upkeepParams.valueTypeText': '文章',
   'app.haoligo.equipment.upkeepParams.valueTypeMultiselect': '複数選択',
   'app.haoligo.equipment.upkeepParams.valueTypeRequired': '値のタイプを選択します',
-  'app.haoligo.equipment.upkeepParams.optionsPh': 'オプションを入力して Enter キーを押します。掃除、潤滑',
-  'app.haoligo.equipment.upkeepParams.optionsRequired': '複数選択のオプションを少なくとも 1 つ追加します',
+  'app.haoligo.equipment.upkeepParams.optionsPh':
+    'オプションを入力して Enter キーを押します。掃除、潤滑',
+  'app.haoligo.equipment.upkeepParams.optionsRequired':
+    '複数選択のオプションを少なくとも 1 つ追加します',
   'app.haoligo.equipment.upkeepParams.defaultTextHint': '既定のヒント (オプション)',
-  'app.haoligo.equipment.upkeepParams.defaultTextPh': 'アップキープを記録するときのプレースホルダー',
+  'app.haoligo.equipment.upkeepParams.defaultTextPh':
+    'アップキープを記録するときのプレースホルダー',
   'app.haoligo.equipment.upkeepParamSets.colSetCode': 'プランコード',
   'app.haoligo.equipment.upkeepParamSets.colSetName': 'プラン名',
   'app.haoligo.equipment.upkeepParamSets.colRequired': '必須',
   'app.haoligo.equipment.upkeepParamSets.loadLinesFailed': '計画行のロードに失敗しました',
   'app.haoligo.equipment.upkeepParamSets.nameRequired': 'プラン名は必須です',
   'app.haoligo.equipment.upkeepParamSets.codeRequired': 'プランコードは必須です',
-  'app.haoligo.equipment.upkeepParamSets.atLeastOneItem': '少なくとも1つのアップキープアイテムを追加してください',
+  'app.haoligo.equipment.upkeepParamSets.atLeastOneItem':
+    '少なくとも1つのアップキープアイテムを追加してください',
   'app.haoligo.equipment.upkeepParamSets.deleteTitle': '維持プランの削除',
   'app.haoligo.equipment.upkeepParamSets.removeConfirm': 'この項目をプランから削除しますか?',
   'app.haoligo.equipment.upkeepParamSets.editorNew': '新しい維持計画',
@@ -2694,14 +2883,18 @@ export default {
   'app.haoligo.equipment.upkeepParamSets.addItem': 'アイテムの追加',
   'app.haoligo.equipment.upkeepParamSets.pickParam': '維持アイテム',
   'app.haoligo.equipment.upkeepParamSets.pickParamPh': '追加する項目を 1 つ以上選択してください',
-  'app.haoligo.equipment.upkeepParamSets.pickParamRequired': '少なくとも 1 つのアップキープ アイテムを選択してください',
+  'app.haoligo.equipment.upkeepParamSets.pickParamRequired':
+    '少なくとも 1 つのアップキープ アイテムを選択してください',
   'app.haoligo.equipment.upkeepParamSets.noParamsToAdd': '追加できる維持アイテムはありません',
   'app.haoligo.equipment.upkeepParamSets.detailTitle': '維持計画の詳細',
-  'app.haoligo.equipment.inspectionParamSets.drawerHintMain': '並べ替え順序と必要なフラグはすぐに適用されます。まず検査パラメータをマスターデータに保持します。',
-  'app.haoligo.equipment.inspectionParamSets.drawerHintProcessRoute': 'プロセスルートと同様に、計画は検査項目の順序付きリストです。順序と必要なフラグを以下に示します。',
+  'app.haoligo.equipment.inspectionParamSets.drawerHintMain':
+    '並べ替え順序と必要なフラグはすぐに適用されます。まず検査パラメータをマスターデータに保持します。',
+  'app.haoligo.equipment.inspectionParamSets.drawerHintProcessRoute':
+    'プロセスルートと同様に、計画は検査項目の順序付きリストです。順序と必要なフラグを以下に示します。',
   'app.haoligo.equipment.inspectionParamSets.editorTitleNew': '新しい検査計画',
   'app.haoligo.equipment.inspectionParamSets.editorTitleEdit': '検査計画の編集 · {{code}}',
-  'app.haoligo.equipment.inspectionParamSets.hintEditorShort': '計画ヘッダーと順序付けされた検査項目を 1 か所で編集します。作成時には、すべてが一緒に保存されます。',
+  'app.haoligo.equipment.inspectionParamSets.hintEditorShort':
+    '計画ヘッダーと順序付けされた検査項目を 1 か所で編集します。作成時には、すべてが一緒に保存されます。',
   'app.haoligo.equipment.inspectionParamSets.sectionSequence': '検査項目の順序',
   'app.haoligo.equipment.inspectionParamSets.btnAddItem': '検査項目を追加',
   'app.haoligo.equipment.inspectionParamSets.btnCreatePlan': '計画の作成',
@@ -2721,11 +2914,14 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.fieldNamePh': '例えばCNC日常検査',
   'app.haoligo.equipment.inspectionParamSets.codeRequired': 'プランコードは必須です',
   'app.haoligo.equipment.inspectionParamSets.nameRequired': 'プラン名は必須です',
-  'app.haoligo.equipment.inspectionParamSets.atLeastOneItem': '計画を作成する前に少なくとも 1 つの検査項目を追加してください',
-  'app.haoligo.equipment.inspectionParamSets.noParamsToAdd': '追加する項目は残っていない (すべて追加するか、最初に検査パラメータを維持してください)',
+  'app.haoligo.equipment.inspectionParamSets.atLeastOneItem':
+    '計画を作成する前に少なくとも 1 つの検査項目を追加してください',
+  'app.haoligo.equipment.inspectionParamSets.noParamsToAdd':
+    '追加する項目は残っていない (すべて追加するか、最初に検査パラメータを維持してください)',
   'app.haoligo.equipment.inspectionParamSets.pickParam': '検査項目を選択してください',
   'app.haoligo.equipment.inspectionParamSets.addItemTitle': 'プランに項目を追加',
-  'app.haoligo.equipment.inspectionParamSets.addItemParamPh': 'このプランにまだ含まれていない項目を選択してください (複数選択)',
+  'app.haoligo.equipment.inspectionParamSets.addItemParamPh':
+    'このプランにまだ含まれていない項目を選択してください (複数選択)',
   'app.haoligo.equipment.inspectionParamSets.moveUp': '上に移動',
   'app.haoligo.equipment.inspectionParamSets.moveDown': '下に移動',
   'app.haoligo.equipment.inspectionParamSets.removeFromPlan': '取り除く',
@@ -2733,18 +2929,22 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.orderUpdated': '注文が更新されました',
   'app.haoligo.equipment.inspectionParamSets.loadLinesFailed': '計画行のロードに失敗しました',
   'app.haoligo.equipment.inspectionParamSets.deleteTitle': '削除の確認',
-  'app.haoligo.equipment.inspectionParamSets.deleteContent': 'プラン「{{name}}」({{code}}) を削除しますか?機器やカテゴリから参照されている場合、削除に失敗する場合があります。',
-  'app.haoligo.equipment.inspectionParamSets.emptySequence': 'まだアイテムはありません。 「検査項目の追加」をクリックします。',
+  'app.haoligo.equipment.inspectionParamSets.deleteContent':
+    'プラン「{{name}}」({{code}}) を削除しますか?機器やカテゴリから参照されている場合、削除に失敗する場合があります。',
+  'app.haoligo.equipment.inspectionParamSets.emptySequence':
+    'まだアイテムはありません。 「検査項目の追加」をクリックします。',
   'app.haoligo.equipment.inspectionParamSets.linkInspectionParams': '検査パラメータを維持する',
   'app.haoligo.equipment.inspectionParamSets.importTitle': '輸入検査計画',
-  'app.haoligo.equipment.inspectionParamSets.importErrorHeaders': 'インポートにはプラン コード、プラン名、アイテム名を含める必要があります。',
+  'app.haoligo.equipment.inspectionParamSets.importErrorHeaders':
+    'インポートにはプラン コード、プラン名、アイテム名を含める必要があります。',
   'app.haoligo.equipment.inspectionParamSets.importColSetCode': '※プランコード',
   'app.haoligo.equipment.inspectionParamSets.importColSetName': '※プラン名',
   'app.haoligo.equipment.inspectionParamSets.importColParamCode': '検査番号(空白の場合は自動)',
   'app.haoligo.equipment.inspectionParamSets.importColParamName': '※商品名',
   'app.haoligo.equipment.inspectionParamSets.importColParamCategory': 'レベル1カテゴリー',
   'app.haoligo.equipment.inspectionParamSets.filterCategoryAll': 'すべてのカテゴリー',
-  'app.haoligo.equipment.inspectionParamSets.filterCategoryPh': 'カテゴリ別にアイテムをフィルタリングする',
+  'app.haoligo.equipment.inspectionParamSets.filterCategoryPh':
+    'カテゴリ別にアイテムをフィルタリングする',
   'app.haoligo.equipment.inspectionParamSets.importColRequirement': '要件',
   'app.haoligo.equipment.inspectionParamSets.importColValueType': '値のタイプ',
   'app.haoligo.equipment.inspectionParamSets.importColDefaultValue': '既定値',
@@ -2752,9 +2952,11 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.importColNumericMax': 'マックス',
   'app.haoligo.equipment.inspectionParamSets.importColUnit': 'ユニット',
   'app.haoligo.equipment.inspectionParamSets.importColRequired': '必須',
-  'app.haoligo.equipment.inspectionParamSets.importSuccess': 'インポートが完了しました: {{created}} プランが作成され、{{updated}} が更新されました。 {{paramsCreated}} 件のアイテムが作成され、{{paramsUpdated}} 件が更新されました',
+  'app.haoligo.equipment.inspectionParamSets.importSuccess':
+    'インポートが完了しました: {{created}} プランが作成され、{{updated}} が更新されました。 {{paramsCreated}} 件のアイテムが作成され、{{paramsUpdated}} 件が更新されました',
   'app.haoligo.equipment.ledger.linkInspectionPlans': 'オープン検査計画のメンテナンス',
-  'app.haoligo.equipment.ledger.linkMasterDataWorkshops': 'オープンマスターデータ作業場メンテナンス',
+  'app.haoligo.equipment.ledger.linkMasterDataWorkshops':
+    'オープンマスターデータ作業場メンテナンス',
   'app.haoligo.equipment.ledger.title': '機器登録',
   'app.haoligo.equipment.ledger.categoryFilterAll': '全て',
   'app.haoligo.equipment.ledger.categoryFilterUncategorized': '未分類',
@@ -2796,7 +2998,8 @@ export default {
   'app.haoligo.equipment.ledger.formCriticality': '重大度 (A/B/C)',
   'app.haoligo.equipment.ledger.formCriticalityPh': 'オプション。ケイデンスとフィルター用',
   'app.haoligo.equipment.ledger.formOperationalStatus': '稼働状況',
-  'app.haoligo.equipment.ledger.formOperationalStatusPh': '実行中/修復/シャットダウン/スタンバイ;オプション',
+  'app.haoligo.equipment.ledger.formOperationalStatusPh':
+    '実行中/修復/シャットダウン/スタンバイ;オプション',
   'app.haoligo.equipment.ledger.operationalStatusNone': '設定を解除する',
   'app.haoligo.equipment.ledger.operationalStatusRunning': 'ランニング',
   'app.haoligo.equipment.ledger.operationalStatusRepair': '修理中',
@@ -2824,8 +3027,10 @@ export default {
   'app.haoligo.equipment.ledger.importColDate': '製造日',
   'app.haoligo.equipment.ledger.importColRemark': '述べる',
   'app.haoligo.equipment.ledger.importColCriticality': '重要度',
-  'app.haoligo.equipment.ledger.importErrorCoreCols': 'インポートには次のものが含まれている必要があります: 設備コード、名前、カテゴリ コード、作業場 コード',
-  'app.haoligo.equipment.ledger.importErrorEncoding': '有効な行がありません (コードをマスターデータと照合してください)',
+  'app.haoligo.equipment.ledger.importErrorCoreCols':
+    'インポートには次のものが含まれている必要があります: 設備コード、名前、カテゴリ コード、作業場 コード',
+  'app.haoligo.equipment.ledger.importErrorEncoding':
+    '有効な行がありません (コードをマスターデータと照合してください)',
   'app.haoligo.equipment.ledger.commonDash': '—',
   'app.haoligo.equipment.ledger.actionEdit': '編集',
   'app.haoligo.equipment.ledger.actionDelete': '消去',
@@ -2833,7 +3038,8 @@ export default {
   'app.haoligo.equipment.manufacturers.colCode': 'コード',
   'app.haoligo.equipment.manufacturers.colName': '名前',
   'app.haoligo.equipment.manufacturers.deleteTitle': '削除の確認',
-  'app.haoligo.equipment.manufacturers.deleteContent': 'メーカー「{{name}}」({{code}}) を削除しますか?',
+  'app.haoligo.equipment.manufacturers.deleteContent':
+    'メーカー「{{name}}」({{code}}) を削除しますか?',
   'app.haoligo.equipment.manufacturers.modalCreate': '新しいメーカー',
   'app.haoligo.equipment.manufacturers.modalEdit': 'メーカーの編集',
   'app.haoligo.equipment.manufacturers.formCode': 'コード',
@@ -2843,7 +3049,8 @@ export default {
   'app.haoligo.equipment.manufacturers.formNamePh': 'メーカー名',
   'app.haoligo.equipment.manufacturers.formNameReq': '名前を入力してください',
   'app.haoligo.equipment.manufacturers.importTitle': '輸入メーカー',
-  'app.haoligo.equipment.manufacturers.importErrorHeaders': 'インポートには次のものが含まれている必要があります: メーカーコード、名前',
+  'app.haoligo.equipment.manufacturers.importErrorHeaders':
+    'インポートには次のものが含まれている必要があります: メーカーコード、名前',
   'app.haoligo.equipment.manufacturers.importColCode': '*コード',
   'app.haoligo.equipment.manufacturers.importColName': '*名前',
   'app.haoligo.equipment.manufacturers.actionEdit': '編集',
@@ -2854,14 +3061,18 @@ export default {
   'app.haoligo.equipment.inspectionParams.colCategory': 'レベル1カテゴリー',
   'app.haoligo.equipment.inspectionParams.categoryUncategorized': '未分類',
   'app.haoligo.equipment.inspectionParams.formCategory': 'レベル1カテゴリー',
-  'app.haoligo.equipment.inspectionParams.formCategoryPh': '最初に機器カテゴリの下のレベル 1 カテゴリを維持します',
+  'app.haoligo.equipment.inspectionParams.formCategoryPh':
+    '最初に機器カテゴリの下のレベル 1 カテゴリを維持します',
   'app.haoligo.equipment.inspectionParams.batchCategoryBtn': 'カテゴリの一括編集',
   'app.haoligo.equipment.inspectionParams.batchCategoryTitle': 'レベル 1 カテゴリのバッチ編集',
-  'app.haoligo.equipment.inspectionParams.batchCategoryHint': '{{count}} 個のアイテムが選択されました',
+  'app.haoligo.equipment.inspectionParams.batchCategoryHint':
+    '{{count}} 個のアイテムが選択されました',
   'app.haoligo.equipment.inspectionParams.batchCategoryPick': 'レベル 1 カテゴリを選択してください',
   'app.haoligo.equipment.inspectionParams.batchCategoryClear': 'カテゴリをクリア（未分類）',
-  'app.haoligo.equipment.inspectionParams.batchCategorySelectRows': '最初に検査項目を選択してください',
-  'app.haoligo.equipment.inspectionParams.batchCategorySuccess': '{{count}} アイテムのレベル 1 カテゴリを更新しました',
+  'app.haoligo.equipment.inspectionParams.batchCategorySelectRows':
+    '最初に検査項目を選択してください',
+  'app.haoligo.equipment.inspectionParams.batchCategorySuccess':
+    '{{count}} アイテムのレベル 1 カテゴリを更新しました',
   'app.haoligo.equipment.inspectionParams.importColCategory': 'レベル1カテゴリー',
   'app.haoligo.equipment.inspectionParams.colRequirement': '要件',
   'app.haoligo.equipment.inspectionParams.colUnit': 'ユニット',
@@ -2871,18 +3082,21 @@ export default {
   'app.haoligo.equipment.inspectionParams.valueTypeBoolean': 'はい/いいえ',
   'app.haoligo.equipment.inspectionParams.valueTypeMultiselect': '複数選択',
   'app.haoligo.equipment.inspectionParams.deleteTitle': '削除の確認',
-  'app.haoligo.equipment.inspectionParams.deleteContent': 'パラメータ「{{name}}」({{code}})を削除しますか?プランで参照されている場合、削除に失敗する可能性があります。',
+  'app.haoligo.equipment.inspectionParams.deleteContent':
+    'パラメータ「{{name}}」({{code}})を削除しますか?プランで参照されている場合、削除に失敗する可能性があります。',
   'app.haoligo.equipment.inspectionParams.modalCreate': '新しいパラメータ',
   'app.haoligo.equipment.inspectionParams.modalEdit': 'パラメータの編集',
   'app.haoligo.equipment.inspectionParams.formCode': '検査番号',
   'app.haoligo.equipment.inspectionParams.formCodePh': '例えばVIB、温度',
   'app.haoligo.equipment.inspectionParams.formCodeReq': '検査番号を入力してください。',
-  'app.haoligo.equipment.inspectionParams.formCodeDuplicate': '検査番号「{{code}}」はすでに存在します',
+  'app.haoligo.equipment.inspectionParams.formCodeDuplicate':
+    '検査番号「{{code}}」はすでに存在します',
   'app.haoligo.equipment.inspectionParams.formName': '項目名',
   'app.haoligo.equipment.inspectionParams.formNamePh': '例えばスピンドルの振動',
   'app.haoligo.equipment.inspectionParams.formNameReq': '項目名を入力してください',
   'app.haoligo.equipment.inspectionParams.formRequirement': '要件',
-  'app.haoligo.equipment.inspectionParams.formRequirementPh': 'オプション、例:目に見える漏れなし、≤0.5 mm/s',
+  'app.haoligo.equipment.inspectionParams.formRequirementPh':
+    'オプション、例:目に見える漏れなし、≤0.5 mm/s',
   'app.haoligo.equipment.inspectionParams.formUnit': 'ユニット',
   'app.haoligo.equipment.inspectionParams.formUnitPh': 'オプション、例: mm/秒、℃',
   'app.haoligo.equipment.inspectionParams.formValueType': '値のタイプ',
@@ -2895,30 +3109,37 @@ export default {
   'app.haoligo.equipment.inspectionParams.textDefaultNormal': '普通',
   'app.haoligo.equipment.inspectionParams.colDefaultValue': '既定値',
   'app.haoligo.equipment.inspectionParams.formDefaultValue': '既定値',
-  'app.haoligo.equipment.inspectionParams.formDefaultValuePh': 'オプション。新しいスポットチェック時に測定値を事前入力します',
+  'app.haoligo.equipment.inspectionParams.formDefaultValuePh':
+    'オプション。新しいスポットチェック時に測定値を事前入力します',
   'app.haoligo.equipment.inspectionParams.formDefaultValueNumericPh': 'オプション、例: 0、25.5',
   'app.haoligo.equipment.inspectionParams.formNumericRange': '値の範囲',
   'app.haoligo.equipment.inspectionParams.formNumericMin': '分',
   'app.haoligo.equipment.inspectionParams.formNumericMinPh': 'オプション、包括的',
   'app.haoligo.equipment.inspectionParams.formNumericMax': 'マックス',
   'app.haoligo.equipment.inspectionParams.formNumericMaxPh': 'オプション、包括的',
-  'app.haoligo.equipment.inspectionParams.formNumericRangeInvalid': '最小値は最大値を超えることはできません',
+  'app.haoligo.equipment.inspectionParams.formNumericRangeInvalid':
+    '最小値は最大値を超えることはできません',
   'app.haoligo.equipment.inspectionParams.colNumericRange': '値の範囲',
   'app.haoligo.equipment.documents.spotCheckNumericRange': '範囲: {{range}}',
-  'app.haoligo.equipment.documents.spotCheckOutOfRangeHint': '測定値が範囲外です。自動的に異常とマークされる',
-  'app.haoligo.equipment.inspectionParams.formDefaultValueTextPh': 'オプション、例: OK、漏れはありません',
-  'app.haoligo.equipment.inspectionParams.formDefaultValueMultiselectPh': 'オプション。タグをカンマ区切りで入力して Enter キーを押します',
+  'app.haoligo.equipment.documents.spotCheckOutOfRangeHint':
+    '測定値が範囲外です。自動的に異常とマークされる',
+  'app.haoligo.equipment.inspectionParams.formDefaultValueTextPh':
+    'オプション、例: OK、漏れはありません',
+  'app.haoligo.equipment.inspectionParams.formDefaultValueMultiselectPh':
+    'オプション。タグをカンマ区切りで入力して Enter キーを押します',
   'app.haoligo.equipment.inspectionParams.defaultBoolYes': 'はい',
   'app.haoligo.equipment.inspectionParams.defaultBoolNo': 'いいえ',
   'app.haoligo.equipment.inspectionParams.importColDefaultValue': '既定値',
   'app.haoligo.equipment.inspectionParams.importTitle': 'インポートパラメータ',
-  'app.haoligo.equipment.inspectionParams.importErrorHeaders': '輸入には検査番号、品目名を含める必要があります',
+  'app.haoligo.equipment.inspectionParams.importErrorHeaders':
+    '輸入には検査番号、品目名を含める必要があります',
   'app.haoligo.equipment.inspectionParams.importColCode': '※検査番号',
   'app.haoligo.equipment.inspectionParams.importColName': '※商品名',
   'app.haoligo.equipment.inspectionParams.importColRequirement': '要件',
   'app.haoligo.equipment.inspectionParams.importColUnit': 'ユニット',
   'app.haoligo.equipment.inspectionParams.importColValueType': '値のタイプ',
-  'app.haoligo.equipment.inspectionParams.syncInfo': '接続すると、標準ライブラリ/ERP 同期がここで実行されます。リストが更新されました。',
+  'app.haoligo.equipment.inspectionParams.syncInfo':
+    '接続すると、標準ライブラリ/ERP 同期がここで実行されます。リストが更新されました。',
   'app.haoligo.equipment.inspectionParams.actionEdit': '編集',
   'app.haoligo.equipment.inspectionParams.actionDelete': '消去',
   'app.haoligo.equipment.patrolRoutes.title': '巡回ルート',
@@ -2933,7 +3154,8 @@ export default {
   'app.haoligo.equipment.patrolRoutes.actionEdit': '編集',
   'app.haoligo.equipment.patrolRoutes.actionDelete': '消去',
   'app.haoligo.equipment.patrolRoutes.deleteTitle': '削除の確認',
-  'app.haoligo.equipment.patrolRoutes.deleteContent': 'ルート「{{name}}」({{code}}) を削除しますか?ステップは削除されます。',
+  'app.haoligo.equipment.patrolRoutes.deleteContent':
+    'ルート「{{name}}」({{code}}) を削除しますか?ステップは削除されます。',
   'app.haoligo.equipment.patrolRoutes.modalCreate': '新しい巡視路',
   'app.haoligo.equipment.patrolRoutes.modalEdit': '巡回ルートを編集する',
   'app.haoligo.equipment.patrolRoutes.formCode': '路線コード',
@@ -2943,8 +3165,10 @@ export default {
   'app.haoligo.equipment.patrolRoutes.formNamePh': '例えばラインA朝パトロール',
   'app.haoligo.equipment.patrolRoutes.formNameReq': 'ルート名を入力してください',
   'app.haoligo.equipment.patrolRoutes.formWorkshop': '作業場',
-  'app.haoligo.equipment.patrolRoutes.workshopEmptyHint': '作業場はありません。 「マスターデータ」→「ファクトリー」→「作業場」でそれらを追加して有効にします。',
-  'app.haoligo.equipment.patrolRoutes.workshopReuseHint': 'ルートごとに作業場は 1 つ。複数のルートが同じ作業場を共有する場合があります。',
+  'app.haoligo.equipment.patrolRoutes.workshopEmptyHint':
+    '作業場はありません。 「マスターデータ」→「ファクトリー」→「作業場」でそれらを追加して有効にします。',
+  'app.haoligo.equipment.patrolRoutes.workshopReuseHint':
+    'ルートごとに作業場は 1 つ。複数のルートが同じ作業場を共有する場合があります。',
   'app.haoligo.equipment.patrolRoutes.loadStepsFailed': 'ステップの読み込みに失敗しました',
   'app.haoligo.equipment.patrolRoutes.stepColSeq': '続',
   'app.haoligo.equipment.patrolRoutes.stepColEquipment': '装置',
@@ -2953,28 +3177,36 @@ export default {
   'app.haoligo.equipment.patrolRoutes.moveUp': '上',
   'app.haoligo.equipment.patrolRoutes.moveDown': '下',
   'app.haoligo.equipment.patrolRoutes.stepDelete': '消去',
-  'app.haoligo.equipment.patrolRoutes.stepWarnPickOrRemove': '各行の機器を選択するか、保存する前に空の行を削除してください',
-  'app.haoligo.equipment.patrolRoutes.stepErrDuplicateEquipment': '1つのルートに同じ装備が2回出現することはありません',
+  'app.haoligo.equipment.patrolRoutes.stepWarnPickOrRemove':
+    '各行の機器を選択するか、保存する前に空の行を削除してください',
+  'app.haoligo.equipment.patrolRoutes.stepErrDuplicateEquipment':
+    '1つのルートに同じ装備が2回出現することはありません',
   'app.haoligo.equipment.patrolRoutes.stepsSaved': '保存されたステップ数',
   'app.haoligo.equipment.patrolRoutes.drawerTitle': 'ステップの編集',
   'app.haoligo.equipment.patrolRoutes.drawerTitleWithRoute': '編集ステップ: {{code}} · {{name}}',
   'app.haoligo.equipment.patrolRoutes.addStep': 'ステップの追加',
   'app.haoligo.equipment.patrolRoutes.saveSteps': 'ステップの保存',
-  'app.haoligo.equipment.patrolRoutes.drawerHint': '現場で歩きながら機器を注文します。 save はサーバー上のステップを置き換えます。機器はレジスターから取得されます。',
-  'app.haoligo.equipment.patrolRoutes.syncMobilePlaceholder': '接続すると、モバイル テンプレートの同期がここで実行されます。リストが更新されました。',
+  'app.haoligo.equipment.patrolRoutes.drawerHint':
+    '現場で歩きながら機器を注文します。 save はサーバー上のステップを置き換えます。機器はレジスターから取得されます。',
+  'app.haoligo.equipment.patrolRoutes.syncMobilePlaceholder':
+    '接続すると、モバイル テンプレートの同期がここで実行されます。リストが更新されました。',
   'app.haoligo.equipment.patrolRoutes.editorTitleNew': '新しい巡視路',
   'app.haoligo.equipment.patrolRoutes.editorTitleEdit': '巡回ルートを編集 · {{code}}',
-  'app.haoligo.equipment.patrolRoutes.hintEditorShort': 'ルート ヘッダーとデバイス シーケンスを 1 つのダイアログで編集します。 create はヘッダーとステップを一緒に保存します。',
+  'app.haoligo.equipment.patrolRoutes.hintEditorShort':
+    'ルート ヘッダーとデバイス シーケンスを 1 つのダイアログで編集します。 create はヘッダーとステップを一緒に保存します。',
   'app.haoligo.equipment.patrolRoutes.sectionSequence': 'デバイスシーケンス',
   'app.haoligo.equipment.patrolRoutes.btnAddEquipment': 'デバイスの追加',
-  'app.haoligo.equipment.patrolRoutes.emptySequence': 'まだデバイスがありません。 「デバイスの追加」をクリックします。',
-  'app.haoligo.equipment.patrolRoutes.atLeastOneStep': 'ルートを作成する前に、少なくとも 1 つのデバイスを追加します。',
+  'app.haoligo.equipment.patrolRoutes.emptySequence':
+    'まだデバイスがありません。 「デバイスの追加」をクリックします。',
+  'app.haoligo.equipment.patrolRoutes.atLeastOneStep':
+    'ルートを作成する前に、少なくとも 1 つのデバイスを追加します。',
   'app.haoligo.equipment.patrolRoutes.btnCreateRoute': 'ルートの作成',
   'app.haoligo.equipment.patrolRoutes.btnSaveRoute': 'ルートを保存する',
   'app.haoligo.equipment.patrolRoutes.actionEditRoute': 'ルートを編集する',
   'app.haoligo.equipment.patrolRoutes.addEquipmentTitle': '巡回装置の追加',
   'app.haoligo.equipment.patrolRoutes.pickEquipment': 'デバイスを選択してください',
-  'app.haoligo.equipment.patrolRoutes.noEquipmentToAdd': '追加するデバイスはありません (すべて追加するか、最初に機器台帳を維持します)。',
+  'app.haoligo.equipment.patrolRoutes.noEquipmentToAdd':
+    '追加するデバイスはありません (すべて追加するか、最初に機器台帳を維持します)。',
   'app.haoligo.equipment.patrolRoutes.linkEquipmentLedger': '設備台帳',
   'app.haoligo.menu.equipment.ledger': '機器登録簿',
   'app.haoligo.menu.equipment.patrol-routes': '巡回ルート',
@@ -3003,11 +3235,13 @@ export default {
   'app.haoligo.equipment.statusBoard.empty': '設備なし',
   'app.haoligo.equipment.statusBoard.statusUnset': '未設定',
   'app.haoligo.equipment.statusBoard.quickSwitchRemark': 'ステータスボードからのクイックスイッチ',
-  'app.haoligo.equipment.statusBoard.switchSuccess': 'ステータスが更新されました。調整{{sheetNo}}が作成されました',
+  'app.haoligo.equipment.statusBoard.switchSuccess':
+    'ステータスが更新されました。調整{{sheetNo}}が作成されました',
   'app.haoligo.equipment.statusBoard.shutdownDuration': '下 {{duration}}',
   'app.haoligo.menu.equipment.reports.capacity': '容量',
   'app.haoligo.menu.equipment.reports.maintenance-plan': '設備保全計画',
-  'app.haoligo.equipment.reports.capacity.lead': '機器の出力記録に基づく。日付、設備、または作業指示でフィルタリングします',
+  'app.haoligo.equipment.reports.capacity.lead':
+    '機器の出力記録に基づく。日付、設備、または作業指示でフィルタリングします',
   'app.haoligo.equipment.reports.capacity.kpiRecords': '出力シート',
   'app.haoligo.equipment.reports.capacity.kpiPlanned': '予定数量合計',
   'app.haoligo.equipment.reports.capacity.kpiCompleted': '完成数量合計',
@@ -3036,8 +3270,10 @@ export default {
   'app.haoligo.equipment.documents.actionDelete': '消去',
   'app.haoligo.equipment.documents.deleteConfirm': 'この文書を削除しますか?',
   'app.haoligo.equipment.documents.batchDeleteTitle': '選択した状態調整シートを削除しますか?',
-  'app.haoligo.equipment.documents.batchDeleteDescription': '{{count}} レコードが削除されます。これを元に戻すことはできません。',
-  'app.haoligo.equipment.documents.batchDeletePartial': '完了: {{done}} は削除され、{{fail}} は失敗しました',
+  'app.haoligo.equipment.documents.batchDeleteDescription':
+    '{{count}} レコードが削除されます。これを元に戻すことはできません。',
+  'app.haoligo.equipment.documents.batchDeletePartial':
+    '完了: {{done}} は削除され、{{fail}} は失敗しました',
   'app.haoligo.equipment.documents.statusAdjColOldStatus': '以前のステータス',
   'app.haoligo.equipment.documents.statusAdjColNewStatus': '新しいステータス',
   'app.haoligo.equipment.documents.statusAdjCurrentStatus': '現在の状況',
@@ -3053,7 +3289,8 @@ export default {
   'app.haoligo.print.printButton': '印刷する',
   'app.haoligo.print.templateLabel': '印刷テンプレート',
   'app.haoligo.print.templatePlaceholder': 'テンプレートを選択してください',
-  'app.haoligo.print.noTemplates': '使用可能なテンプレートはありません。 HaoliGO がインストールされており、バックエンドが最新であることを確認してください。',
+  'app.haoligo.print.noTemplates':
+    '使用可能なテンプレートはありません。 HaoliGO がインストールされており、バックエンドが最新であることを確認してください。',
   'app.haoligo.print.defaultTag': '既定',
   'app.haoligo.print.previewEmpty': 'レポートをプレビューするテンプレートを選択します',
   'app.haoligo.print.loadTemplatesFailed': '印刷テンプレートの読み込みに失敗しました',
@@ -3062,7 +3299,8 @@ export default {
   'app.haoligo.print.missingDocumentId': '伝票IDがありません',
   'app.haoligo.print.selectTemplateFirst': '最初に印刷テンプレートを選択してください',
   'app.haoligo.print.emptyContent': 'レポートの内容が空です',
-  'app.haoligo.print.popupBlocked': 'ポップアップがブロックされました。ポップアップを許可して再試行してください',
+  'app.haoligo.print.popupBlocked':
+    'ポップアップがブロックされました。ポップアップを許可して再試行してください',
   'app.haoligo.equipment.documents.btnCancel': 'キャンセル',
   'app.haoligo.equipment.documents.btnClose': '近い',
   'app.haoligo.equipment.documents.btnSave': '保存',
@@ -3072,35 +3310,48 @@ export default {
   'app.haoligo.equipment.documents.phaseNew': '新しい',
   'app.haoligo.equipment.documents.phaseHeader': 'ヘッダ',
   'app.haoligo.equipment.documents.phaseLines': 'ライン',
-  'app.haoligo.equipment.documents.spotCheckCreatedFillLines': '作成されました。各パラメータの結果を入力して保存します。',
+  'app.haoligo.equipment.documents.spotCheckCreatedFillLines':
+    '作成されました。各パラメータの結果を入力して保存します。',
   'app.haoligo.equipment.documents.spotCheckLinesTitle': '検査項目',
   'app.haoligo.equipment.documents.searchRecordedFrom': 'からの記録',
   'app.haoligo.equipment.documents.searchRecordedTo': '録音先',
   'app.haoligo.equipment.documents.spotCheckPreviewBtn': '計画行のプレビュー',
   'app.haoligo.equipment.documents.spotCheckSelectEquipmentFirst': 'まずは装備を選ぶ',
   'app.haoligo.equipment.documents.spotCheckPlanPickerTitle': '検査計画の選択',
-  'app.haoligo.equipment.documents.spotCheckPlanPickerHint': 'この装置には複数の検査プランがあります。このスポットチェックのために 1 つを選択してください。',
+  'app.haoligo.equipment.documents.spotCheckPlanPickerHint':
+    'この装置には複数の検査プランがあります。このスポットチェックのために 1 つを選択してください。',
   'app.haoligo.equipment.documents.spotCheckPlanPickerRequired': '検査プランを選択してください',
-  'app.haoligo.equipment.ledger.formPlanMultiple': 'オプション。スポット チェックを作成するときに、バインドされていない場合はプランを選択します。複数バインドの場合のピッカー',
+  'app.haoligo.equipment.ledger.formPlanMultiple':
+    'オプション。スポット チェックを作成するときに、バインドされていない場合はプランを選択します。複数バインドの場合のピッカー',
   'app.haoligo.equipment.documents.spotCheckPreviewOk': 'プレビューが更新されました',
-  'app.haoligo.equipment.documents.spotCheckPreviewHint': 'プランのプレビュー: {{code}} {{name}} (作成時に行はこれと一致します)',
-  'app.haoligo.equipment.documents.spotCheckRequiredResult': '必須項目「{{name}}」：正常か異常かを選択してください',
-  'app.haoligo.equipment.documents.spotCheckAbnormalRemark': '項目「{{name}}」は異常です: コメントを追加してください',
-  'app.haoligo.equipment.documents.spotCheckAbnormalDescRequired': 'アイテム「{{name}}」は異常です: 説明を入力してください',
-  'app.haoligo.equipment.documents.spotCheckAutoLoadedHint': '{{count}} 個のアイテムが読み込まれました ({{plan}})',
+  'app.haoligo.equipment.documents.spotCheckPreviewHint':
+    'プランのプレビュー: {{code}} {{name}} (作成時に行はこれと一致します)',
+  'app.haoligo.equipment.documents.spotCheckRequiredResult':
+    '必須項目「{{name}}」：正常か異常かを選択してください',
+  'app.haoligo.equipment.documents.spotCheckAbnormalRemark':
+    '項目「{{name}}」は異常です: コメントを追加してください',
+  'app.haoligo.equipment.documents.spotCheckAbnormalDescRequired':
+    'アイテム「{{name}}」は異常です: 説明を入力してください',
+  'app.haoligo.equipment.documents.spotCheckAutoLoadedHint':
+    '{{count}} 個のアイテムが読み込まれました ({{plan}})',
   'app.haoligo.equipment.documents.formInspectionPlanShort': '検査計画',
   'app.haoligo.equipment.documents.spotCheckHandlingGroup': '設備の状態',
   'app.haoligo.equipment.documents.spotCheckReportGroup': '報告',
   'app.haoligo.equipment.documents.formAppliedOperationalStatus': '確認後の動作状況',
-  'app.haoligo.equipment.documents.formAppliedOperationalStatusPh': 'オプション。保存時に機器台帳を更新します',
+  'app.haoligo.equipment.documents.formAppliedOperationalStatusPh':
+    'オプション。保存時に機器台帳を更新します',
   'app.haoligo.equipment.documents.formReportNotifyUsers': 'レポートの受信者',
-  'app.haoligo.equipment.documents.formReportNotifyUsersPh': '複数選択。アプリ内メッセージを送信します',
+  'app.haoligo.equipment.documents.formReportNotifyUsersPh':
+    '複数選択。アプリ内メッセージを送信します',
   'app.haoligo.equipment.documents.formNotifyUsers': '通知先',
-  'app.haoligo.equipment.documents.formNotifyUsersPh': '複数選択。保存時にアプリ内メッセージを送信します',
+  'app.haoligo.equipment.documents.formNotifyUsersPh':
+    '複数選択。保存時にアプリ内メッセージを送信します',
   'app.haoligo.equipment.documents.colAppliedOperationalStatus': '後のステータス',
   'app.haoligo.equipment.documents.colReportEnabled': '報告済み',
-  'app.haoligo.equipment.documents.spotCheckNoLines': 'チェックリスト項目による機器と検査計画の選択',
-  'app.haoligo.equipment.documents.spotCheckMultiselectPh': 'と入力して Enter キーを押します。カンマ区切り',
+  'app.haoligo.equipment.documents.spotCheckNoLines':
+    'チェックリスト項目による機器と検査計画の選択',
+  'app.haoligo.equipment.documents.spotCheckMultiselectPh':
+    'と入力して Enter キーを押します。カンマ区切り',
   'app.haoligo.equipment.documents.formLineAbnormalDesc': '異常な説明',
   'app.haoligo.equipment.documents.formLineAbnormalDescPh': '結果が異常の場合に必要',
   'app.haoligo.equipment.documents.formAttachments': '添付ファイル（写真）',
@@ -3130,12 +3381,16 @@ export default {
   'app.haoligo.equipment.documents.colReportRequired': '報告が必要です',
   'app.haoligo.equipment.documents.yes': 'はい',
   'app.haoligo.equipment.documents.no': 'いいえ',
-  'app.haoligo.equipment.documents.routePatrolCreatedFillLines': '作成されました。各ストップを入力して保存します。',
+  'app.haoligo.equipment.documents.routePatrolCreatedFillLines':
+    '作成されました。各ストップを入力して保存します。',
   'app.haoligo.equipment.documents.routePatrolLinesTitle': '路線設備',
   'app.haoligo.equipment.documents.routePatrolNoSteps': 'このルートには設備ステップはありません',
-  'app.haoligo.equipment.documents.routePatrolSelectRouteFirst': '巡回ルートを選択して装備を積み込みます',
-  'app.haoligo.equipment.documents.routePatrolAutoLoadedHint': '{{count}} 装備がロードされました ({{route}} · 作業場 {{workshop}})',
-  'app.haoligo.equipment.documents.routePatrolAbnormalDescRequired': '«{{name}}» には異常な説明が必要です',
+  'app.haoligo.equipment.documents.routePatrolSelectRouteFirst':
+    '巡回ルートを選択して装備を積み込みます',
+  'app.haoligo.equipment.documents.routePatrolAutoLoadedHint':
+    '{{count}} 装備がロードされました ({{route}} · 作業場 {{workshop}})',
+  'app.haoligo.equipment.documents.routePatrolAbnormalDescRequired':
+    '«{{name}}» には異常な説明が必要です',
   'app.haoligo.equipment.documents.colSequence': '続',
   'app.haoligo.equipment.documents.colEquipmentCode': '設備コード',
   'app.haoligo.equipment.documents.colEquipmentName': '名前',
@@ -3146,7 +3401,8 @@ export default {
   'app.haoligo.equipment.documents.formReportToUserIdPh': 'オプションの数値ユーザーID',
   'app.haoligo.equipment.documents.formReportToUser': '報告先',
   'app.haoligo.equipment.documents.formReportToUserPh': '受信者の選択',
-  'app.haoligo.equipment.documents.selectReportToUser': 'レポートが有効になっている場合は、少なくとも 1 人の受信者を選択してください',
+  'app.haoligo.equipment.documents.selectReportToUser':
+    'レポートが有効になっている場合は、少なくとも 1 人の受信者を選択してください',
   'app.haoligo.equipment.documents.colDescription': '説明',
   'app.haoligo.equipment.upkeep.serviceType': '修理・メンテナンス',
   'app.haoligo.equipment.upkeep.serviceTypeRepair': '修理',
@@ -3172,7 +3428,8 @@ export default {
   'app.haoligo.equipment.upkeep.submitted': '提出済み',
   'app.haoligo.equipment.upkeep.confirmDelete': '削除の確認',
   'app.haoligo.equipment.upkeep.confirmDeleteContent': 'この機器保守シートを削除しますか?',
-  'app.haoligo.equipment.upkeepComplete.keywordPh': 'シートNo. / 種類 / 部門/ 申請者 / 完了テキスト',
+  'app.haoligo.equipment.upkeepComplete.keywordPh':
+    'シートNo. / 種類 / 部門/ 申請者 / 完了テキスト',
   'app.haoligo.equipment.upkeepComplete.repairContent': '修理内容',
   'app.haoligo.equipment.upkeepComplete.repairContentRequired': '修理内容を入力してください',
   'app.haoligo.equipment.upkeepComplete.repairResult': '修理結果',
@@ -3182,8 +3439,10 @@ export default {
   'app.haoligo.equipment.upkeepComplete.sourceDescRepair': 'ソース修復の理由',
   'app.haoligo.equipment.upkeepComplete.tabRepair': '修理',
   'app.haoligo.equipment.upkeepComplete.tabUpkeep': '維持管理',
-  'app.haoligo.equipment.upkeepComplete.noneOpenRepair': '完了するために開いている修理メンテナンス シートがありません',
-  'app.haoligo.equipment.upkeepComplete.noneOpenUpkeep': '完了するために開いている維持メンテナンスシートはありません',
+  'app.haoligo.equipment.upkeepComplete.noneOpenRepair':
+    '完了するために開いている修理メンテナンス シートがありません',
+  'app.haoligo.equipment.upkeepComplete.noneOpenUpkeep':
+    '完了するために開いている維持メンテナンスシートはありません',
   'app.haoligo.equipment.upkeepComplete.colSourceNo': 'ソースシート番号',
   'app.haoligo.equipment.upkeepComplete.sectionSource': 'ソースメンテナンスシート',
   'app.haoligo.equipment.upkeepComplete.sectionComplete': '設備完成',
@@ -3202,10 +3461,13 @@ export default {
   'app.haoligo.equipment.upkeepComplete.clear': 'クリア',
   'app.haoligo.equipment.upkeepComplete.beforeStrip': 'ソースシート — メンテナンス前の写真',
   'app.haoligo.equipment.upkeepComplete.sourceDesc': 'ソースの維持要件',
-  'app.haoligo.equipment.upkeepComplete.noneOpen': '完了するためにオープンされているメンテナンス シートはありません',
-  'app.haoligo.equipment.upkeepComplete.noneOpenDesc': '最初に完了シートのない設備保守シートを作成します。',
+  'app.haoligo.equipment.upkeepComplete.noneOpen':
+    '完了するためにオープンされているメンテナンス シートはありません',
+  'app.haoligo.equipment.upkeepComplete.noneOpenDesc':
+    '最初に完了シートのない設備保守シートを作成します。',
   'app.haoligo.equipment.upkeepComplete.sourceRequired': 'ソース保守シートを選択してください',
-  'app.haoligo.equipment.upkeepComplete.confirmDeleteContent': 'このメンテナンス完了シートを削除しますか?',
+  'app.haoligo.equipment.upkeepComplete.confirmDeleteContent':
+    'このメンテナンス完了シートを削除しますか?',
   'app.haoligo.equipment.upkeepComplete.pickModalTitle': 'ピック・ソース・メンテナンス・シート',
   'app.haoligo.equipment.documents.formMaintenanceDesc': 'メンテナンスの説明',
   'app.haoligo.equipment.documents.colWorkOrderNo': '作業指示番号',
@@ -3224,19 +3486,24 @@ export default {
   'app.haoligo.equipment.documents.outputPrefillBtn': 'データセットから埋める',
   'app.haoligo.equipment.documents.outputPrefillInlineBtn': 'フェッチ',
   'app.haoligo.equipment.documents.outputPrefillOk': 'データセットから事前入力',
-  'app.haoligo.equipment.documents.outputDatasetBindingTitle': '出力レコード・データセットバインディング',
-  'app.haoligo.equipment.documents.outputDatasetBindingNeedConfig': '最初にツールバーの「データセット」ボタンでデータセットと作業指示パラメータを設定します',
+  'app.haoligo.equipment.documents.outputDatasetBindingTitle':
+    '出力レコード・データセットバインディング',
+  'app.haoligo.equipment.documents.outputDatasetBindingNeedConfig':
+    '最初にツールバーの「データセット」ボタンでデータセットと作業指示パラメータを設定します',
   'app.haoligo.equipment.documents.outputDatasetBindingHintTitle': '注記',
   'app.haoligo.equipment.documents.outputDatasetLoadColumns': '列名をロードする',
   'app.haoligo.equipment.documents.outputDatasetLoadColumnsOk': '{{count}}列がロードされました',
   'app.haoligo.equipment.documents.outputDatasetLoadColumnsEmpty': '解決された列はありません',
-  'app.haoligo.equipment.documents.outputDatasetParamRequired': 'SQL プレースホルダーと一致するパラメーター名を選択または入力します',
+  'app.haoligo.equipment.documents.outputDatasetParamRequired':
+    'SQL プレースホルダーと一致するパラメーター名を選択または入力します',
   'app.haoligo.equipment.documents.outputDatasetParamPh': 'リストから選択するか、手動で入力します',
   'app.haoligo.equipment.documents.outputDatasetParamSaved': '保存されました',
   'app.haoligo.equipment.documents.outputWorkOrderRequired': '製造指示番号を入力してください。初め',
-  'app.haoligo.equipment.documents.outputWorkOrderPh': 'オプション。機器の出力のみを記録するには空白のままにします',
+  'app.haoligo.equipment.documents.outputWorkOrderPh':
+    'オプション。機器の出力のみを記録するには空白のままにします',
   'app.haoligo.equipment.documents.outputPrefilledPlaceholder': 'フェッチ経由で入力',
-  'app.haoligo.equipment.documents.outputProductFieldPh': 'オプション。手動で入力するか、Fetch を使用します',
+  'app.haoligo.equipment.documents.outputProductFieldPh':
+    'オプション。手動で入力するか、Fetch を使用します',
   'app.haoligo.equipment.settings.outputDatasetSelect': 'データセット',
   'app.haoligo.equipment.settings.outputDatasetSelectPh': 'データセットの選択',
   'app.haoligo.equipment.settings.workOrderParamKey': '製造指示の SQL パラメータ名',
@@ -3253,16 +3520,19 @@ export default {
   'app.haoligo.equipment.deleteFailed': '削除に失敗しました',
   'app.haoligo.equipment.loadFailed': 'ロードに失敗しました',
   'app.haoligo.equipment.importEmpty': 'インポートデータが空か無効です',
-  'app.haoligo.equipment.importNoRows': 'インポートする有効な行がありません (必要な列を確認してください)',
+  'app.haoligo.equipment.importNoRows':
+    'インポートする有効な行がありません (必要な列を確認してください)',
   'app.haoligo.equipment.importSuccess': '{{count}} 行をインポートしました',
   'app.haoligo.equipment.importPartialFail': '{{count}} 行が失敗しました',
-  'app.haoligo.equipment.syncPlaceholder': '接続すると、ERP / マスターデータ同期がここで実行されます。リストが更新されました。',
+  'app.haoligo.equipment.syncPlaceholder':
+    '接続すると、ERP / マスターデータ同期がここで実行されます。リストが更新されました。',
   'app.haoligo.equipment.categories.colCode': 'カテゴリコード',
   'app.haoligo.equipment.categories.colLevel1': 'レベル1',
   'app.haoligo.equipment.categories.colLevel2': 'レベル2',
   'app.haoligo.equipment.categories.colName': 'カテゴリ名',
   'app.haoligo.equipment.categories.colDefaultSet': '既定の検査テンプレート',
-  'app.haoligo.equipment.categories.deleteConfirm': 'カテゴリ「{{name}}」({{code}}) を削除しますか?',
+  'app.haoligo.equipment.categories.deleteConfirm':
+    'カテゴリ「{{name}}」({{code}}) を削除しますか?',
   'app.haoligo.equipment.categories.modalCreate': '新しいカテゴリー',
   'app.haoligo.equipment.categories.modalEdit': 'カテゴリを編集する',
   'app.haoligo.equipment.categories.formCode': 'カテゴリコード',
@@ -3297,7 +3567,8 @@ export default {
   'app.haoligo.molds.upkeepParams.editTitle': 'Edit upkeep item',
   'app.haoligo.molds.upkeepParams.detailTitle': 'メンテナンスアイテムの詳細',
   'app.haoligo.molds.upkeepParams.deleteTitle': '維持アイテムを削除',
-  'app.haoligo.molds.upkeepParams.deleteContent': '維持アイテム「{{name}}」({{code}}) を削除しますか?',
+  'app.haoligo.molds.upkeepParams.deleteContent':
+    '維持アイテム「{{name}}」({{code}}) を削除しますか?',
   'app.haoligo.molds.upkeepParams.codeRequired': 'アイテムコードは必須です',
   'app.haoligo.molds.upkeepParams.nameRequired': '項目名は必須です',
   'app.haoligo.molds.upkeepParams.colValueType': '値のタイプ',
@@ -3305,8 +3576,10 @@ export default {
   'app.haoligo.molds.upkeepParams.valueTypeText': '文章',
   'app.haoligo.molds.upkeepParams.valueTypeMultiselect': '複数選択',
   'app.haoligo.molds.upkeepParams.valueTypeRequired': '値のタイプを選択します',
-  'app.haoligo.molds.upkeepParams.optionsPh': 'オプションを入力して Enter キーを押します。掃除、潤滑',
-  'app.haoligo.molds.upkeepParams.optionsRequired': '複数選択のオプションを少なくとも 1 つ追加します',
+  'app.haoligo.molds.upkeepParams.optionsPh':
+    'オプションを入力して Enter キーを押します。掃除、潤滑',
+  'app.haoligo.molds.upkeepParams.optionsRequired':
+    '複数選択のオプションを少なくとも 1 つ追加します',
   'app.haoligo.molds.upkeepParams.defaultTextHint': '既定のヒント (オプション)',
   'app.haoligo.molds.upkeepParams.defaultTextPh': 'アップキープを記録するときのプレースホルダー',
   'app.haoligo.molds.upkeepParamSets.colSetCode': 'プランコード',
@@ -3315,7 +3588,8 @@ export default {
   'app.haoligo.molds.upkeepParamSets.loadLinesFailed': '計画行のロードに失敗しました',
   'app.haoligo.molds.upkeepParamSets.nameRequired': 'プラン名は必須です',
   'app.haoligo.molds.upkeepParamSets.codeRequired': 'プランコードは必須です',
-  'app.haoligo.molds.upkeepParamSets.atLeastOneItem': '少なくとも1つのアップキープアイテムを追加してください',
+  'app.haoligo.molds.upkeepParamSets.atLeastOneItem':
+    '少なくとも1つのアップキープアイテムを追加してください',
   'app.haoligo.molds.upkeepParamSets.deleteTitle': '維持プランの削除',
   'app.haoligo.molds.upkeepParamSets.removeConfirm': 'この項目をプランから削除しますか?',
   'app.haoligo.molds.upkeepParamSets.editorNew': '新しい維持計画',
@@ -3324,7 +3598,8 @@ export default {
   'app.haoligo.molds.upkeepParamSets.addItem': 'アイテムの追加',
   'app.haoligo.molds.upkeepParamSets.pickParam': '維持アイテム',
   'app.haoligo.molds.upkeepParamSets.pickParamPh': '追加する項目を 1 つ以上選択してください',
-  'app.haoligo.molds.upkeepParamSets.pickParamRequired': '少なくとも 1 つのアップキープ アイテムを選択してください',
+  'app.haoligo.molds.upkeepParamSets.pickParamRequired':
+    '少なくとも 1 つのアップキープ アイテムを選択してください',
   'app.haoligo.molds.upkeepParamSets.noParamsToAdd': '追加できる維持アイテムはありません',
   'app.haoligo.molds.upkeepParamSets.detailTitle': '維持計画の詳細',
   'app.haoligo.molds.ledger.upkeepParamSet': '維持計画',
@@ -3473,16 +3748,20 @@ export default {
   'app.kuaizhizao.workReporting.fallbackCurrentUser': '現在のユーザー',
   'app.kuaizhizao.workReporting.loadWorkOrdersFailed': '製造指示の読み込みに失敗しました',
   'app.kuaizhizao.workReporting.loadOperationsFailed': 'オペレーションのロードに失敗しました',
-  'app.kuaizhizao.workReporting.pickingGateWarning': '現在の設定に従ってレポートを作成する前にピッキングを確認する必要があります',
+  'app.kuaizhizao.workReporting.pickingGateWarning':
+    '現在の設定に従ってレポートを作成する前にピッキングを確認する必要があります',
   'app.kuaizhizao.workReporting.workOrderOrOperationMissing': '作業指示または操作が見つかりません',
-  'app.kuaizhizao.workReporting.quantityMustBePositive': '報告される数量は 0 より大きくなければなりません',
+  'app.kuaizhizao.workReporting.quantityMustBePositive':
+    '報告される数量は 0 より大きくなければなりません',
   'app.kuaizhizao.workReporting.createSuccess': '提出されたレポート',
   'app.kuaizhizao.workReporting.createFailed': 'レポートに失敗しました',
-  'app.kuaizhizao.workReporting.noUnqualifiedForScrap': '不適格な数量はありません。スクラップレコードを作成できません',
+  'app.kuaizhizao.workReporting.noUnqualifiedForScrap':
+    '不適格な数量はありません。スクラップレコードを作成できません',
   'app.kuaizhizao.workReporting.recordNotFound': 'レポート記録が見つかりません',
   'app.kuaizhizao.workReporting.scrapCreateSuccess': 'スクラップレコードが作成されました',
   'app.kuaizhizao.workReporting.scrapCreateFailed': 'スクラップレコードの作成に失敗しました',
-  'app.kuaizhizao.workReporting.noUnqualifiedForDefect': '不適格な数量はありません。欠陥記録を作成できません',
+  'app.kuaizhizao.workReporting.noUnqualifiedForDefect':
+    '不適格な数量はありません。欠陥記録を作成できません',
   'app.kuaizhizao.workReporting.defectCreateSuccess': '欠陥レコードが作成されました',
   'app.kuaizhizao.workReporting.defectCreateFailed': '欠陥レコードの作成に失敗しました',
   'app.kuaizhizao.workReporting.loadDetailFailed': 'レポートレコードの詳細をロードできませんでした',
@@ -3493,10 +3772,13 @@ export default {
   'app.kuaizhizao.workReporting.listLoadFailed': 'レポートレコードのロードに失敗しました',
   'app.kuaizhizao.workReporting.correct': '正しい',
   'app.kuaizhizao.workReporting.confirmDeleteTitle': '削除の確認',
-  'app.kuaizhizao.workReporting.confirmDeletePendingContent': 'この保留のレポート レコードを削除しますか?作業指示/作業の完了数量は減少します。',
-  'app.kuaizhizao.workReporting.confirmDeleteRejectedContent': 'この拒否されたレポート記録を削除しますか?',
+  'app.kuaizhizao.workReporting.confirmDeletePendingContent':
+    'この保留のレポート レコードを削除しますか?作業指示/作業の完了数量は減少します。',
+  'app.kuaizhizao.workReporting.confirmDeleteRejectedContent':
+    'この拒否されたレポート記録を削除しますか?',
   'app.kuaizhizao.workReporting.confirmRevokeTitle': '承認の取り消しを確認する',
-  'app.kuaizhizao.workReporting.confirmRevokeContent': '取り消し後、このレコードは保留のレビューに戻り、完了数量にはカウントされなくなります。続く？',
+  'app.kuaizhizao.workReporting.confirmRevokeContent':
+    '取り消し後、このレコードは保留のレビューに戻り、完了数量にはカウントされなくなります。続く？',
   'app.kuaizhizao.workReporting.revokeSuccess': '承認が取り消されました',
   'app.kuaizhizao.workReporting.revokeFailed': '取り消しに失敗しました',
   'app.kuaizhizao.workReporting.revokeReview': '承認を取り消す',
@@ -3504,11 +3786,13 @@ export default {
   'app.kuaizhizao.workReporting.scrap': 'スクラップ',
   'app.kuaizhizao.workReporting.batchRevoke': '承認の一括取り消し',
   'app.kuaizhizao.workReporting.confirmBatchRevokeTitle': 'バッチ取り消しの確認',
-  'app.kuaizhizao.workReporting.confirmBatchRevokeContent': '選択した {{count}} レコードの承認を取り消しますか?承認されたレコードのみが影響を受けます。',
+  'app.kuaizhizao.workReporting.confirmBatchRevokeContent':
+    '選択した {{count}} レコードの承認を取り消しますか?承認されたレコードのみが影響を受けます。',
   'app.kuaizhizao.workReporting.batchRevokeSuccess': '{{count}} レコードの承認が取り消されました',
   'app.kuaizhizao.workReporting.batchRevokePartialFailed': '{{count}} レコードが失敗しました',
   'app.kuaizhizao.workReporting.batchRevokeFailed': 'バッチ取り消しに失敗しました',
-  'app.kuaizhizao.workReporting.deleteSelectedConfirm': '選択した {{count}} 個のレポート レコードを削除しますか?',
+  'app.kuaizhizao.workReporting.deleteSelectedConfirm':
+    '選択した {{count}} 個のレポート レコードを削除しますか?',
   'app.kuaizhizao.workReporting.createButton': '新しいレポート記録',
   'app.kuaizhizao.workReporting.createModalTitle': '新しいレポート記録',
   'app.kuaizhizao.workReporting.colWorkOrderStacked': '製造指示名/コード',
@@ -3538,9 +3822,11 @@ export default {
   'app.kuaizhizao.workReporting.formOperation': '手術',
   'app.kuaizhizao.workReporting.formOperationRequired': '操作を選択してください',
   'app.kuaizhizao.workReporting.formOperationPlaceholder': '操作を選択してください',
-  'app.kuaizhizao.workReporting.formOperationSelectWorkOrderFirst': '最初に製造指示を選択してください',
+  'app.kuaizhizao.workReporting.formOperationSelectWorkOrderFirst':
+    '最初に製造指示を選択してください',
   'app.kuaizhizao.workReporting.formProxyWorker': 'ワーカー',
-  'app.kuaizhizao.workReporting.formProxyWorkerPlaceholder': 'このレポートを実行した作業者を選択します (既定は割り当て/現在のユーザー)',
+  'app.kuaizhizao.workReporting.formProxyWorkerPlaceholder':
+    'このレポートを実行した作業者を選択します (既定は割り当て/現在のユーザー)',
   'app.kuaizhizao.workReporting.formRecordedByLogin': '記録者 (このセッション): {{name}}',
   'app.kuaizhizao.workReporting.formCompletedStatus': '完成状況',
   'app.kuaizhizao.workReporting.formCompletedStatusRequired': '完了ステータスを選択してください',
@@ -3591,7 +3877,8 @@ export default {
   'app.kuaizhizao.workReporting.quarantineLocationPlaceholder': '隔離場所を入力してください',
   'app.kuaizhizao.workReporting.correctModalTitle': '正しい報告記録',
   'app.kuaizhizao.workReporting.unqualifiedQtyRequired': '不適格な数量を入力してください',
-  'app.kuaizhizao.workReporting.qualifiedExceedsReported': '認定数量は報告数量を超えることはできません',
+  'app.kuaizhizao.workReporting.qualifiedExceedsReported':
+    '認定数量は報告数量を超えることはできません',
   'app.kuaizhizao.workReporting.correctionReason': '訂正理由',
   'app.kuaizhizao.workReporting.correctionReasonPlaceholder': '修正理由を入力してください（必須）',
   'app.kuaizhizao.workReporting.detailTitle': 'レポート記録の詳細',
@@ -3615,13 +3902,15 @@ export default {
   'app.kuaizhizao.reworkOrder.detailTitle': 'やり直し注文の詳細',
   'app.kuaizhizao.reworkOrder.reportModalTitle': 'リワークレポート',
   'app.kuaizhizao.reworkOrder.loadDetailFailed': '再作業オーダーの詳細をロードできませんでした',
-  'app.kuaizhizao.reworkOrder.loadReportingOptionsFailed': 'リワークレポートオプションのロードに失敗しました',
+  'app.kuaizhizao.reworkOrder.loadReportingOptionsFailed':
+    'リワークレポートオプションのロードに失敗しました',
   'app.kuaizhizao.reworkOrder.notFound': 'やり直しオーダーが見つかりません',
   'app.kuaizhizao.reworkOrder.reportSuccess': 'リワークレポートが提出されました',
   'app.kuaizhizao.reworkOrder.reportFailed': 'リワークレポートが失敗しました',
   'app.kuaizhizao.reworkOrder.confirmDeleteTitle': '削除の確認',
   'app.kuaizhizao.reworkOrder.confirmDeleteContent': 'やり直しオーダー「{{code}}」を削除しますか?',
-  'app.kuaizhizao.reworkOrder.deleteSelectedConfirm': '選択した {{count}} 件のやり直しオーダーを削除しますか?',
+  'app.kuaizhizao.reworkOrder.deleteSelectedConfirm':
+    '選択した {{count}} 件のやり直しオーダーを削除しますか?',
   'app.kuaizhizao.reworkOrder.selectToDelete': '削除する再作業オーダーを選択してください',
   'app.kuaizhizao.reworkOrder.listLoadFailed': '再作業オーダーのロードに失敗しました',
   'app.kuaizhizao.reworkOrder.createSuccess': '再作業指示が作成されました',
@@ -3665,7 +3954,8 @@ export default {
   'app.kuaizhizao.reworkOrder.formReworkTypePlaceholder': 'リワークタイプを選択してください',
   'app.kuaizhizao.reworkOrder.dictManage': 'データディクショナリ',
   'app.kuaizhizao.reworkOrder.formStartOperation': '運転開始',
-  'app.kuaizhizao.reworkOrder.formStartOperationPlaceholder': '空の場合は既定で最初の操作が行われます',
+  'app.kuaizhizao.reworkOrder.formStartOperationPlaceholder':
+    '空の場合は既定で最初の操作が行われます',
   'app.kuaizhizao.reworkOrder.formPlannedStart': '開始予定',
   'app.kuaizhizao.reworkOrder.formPlannedStartPlaceholder': '予定開始を選択してください',
   'app.kuaizhizao.reworkOrder.formPlannedEnd': '終了予定',
@@ -3756,11 +4046,13 @@ export default {
   'app.kuaizhizao.customerPool.batchAssignTitle': '顧客の一括割り当て',
   'app.kuaizhizao.customerPool.assignToSalesman': '営業担当者に割り当てる',
   'app.kuaizhizao.customerPool.assignReason': '理由',
-  'app.kuaizhizao.customerPool.assignReasonPlaceholder': 'オプション — この割り当てが行われた理由をメモします',
+  'app.kuaizhizao.customerPool.assignReasonPlaceholder':
+    'オプション — この割り当てが行われた理由をメモします',
   'app.kuaizhizao.customerPool.rulesTitle': '顧客プールのルール',
   'app.kuaizhizao.customerPool.rulesSectionTitle': 'リサイクルルール',
   'app.kuaizhizao.customerPool.autoRecycleEnabled': '自動リサイクルを有効にする',
-  'app.kuaizhizao.customerPool.recycleAfterDays': 'リサイクル前のフォローアップが行われなかった日数',
+  'app.kuaizhizao.customerPool.recycleAfterDays':
+    'リサイクル前のフォローアップが行われなかった日数',
   'app.kuaizhizao.customerPool.recycleAfterDaysRequired': '日数を入力してください',
   'app.kuaizhizao.customerPool.maxOwnedCustomers': '最大所有顧客 (0 = 無制限)',
   'app.kuaizhizao.customerPool.maxOwnedCustomersRequired': '制限を入力してください',
@@ -3781,16 +4073,20 @@ export default {
   'app.kuaizhizao.customerPool.claimFailed': '請求が失敗しました',
   'app.kuaizhizao.customerPool.missingUuidForDelete': '顧客には一意の ID がないため削除できません',
   'app.kuaizhizao.customerPool.confirmDeleteCustomer': 'この顧客を削除しますか?',
-  'app.kuaizhizao.customerPool.confirmDeleteCustomerDesc': 'これは元に戻すことができません: {{name}}',
+  'app.kuaizhizao.customerPool.confirmDeleteCustomerDesc':
+    'これは元に戻すことができません: {{name}}',
   'app.kuaizhizao.customerPool.customerFallback': 'この顧客',
   'app.kuaizhizao.customerPool.recycledSuccess': 'パブリックプールに強制的にリサイクルされる',
   'app.kuaizhizao.customerPool.recycleFailed': 'リサイクルに失敗しました',
   'app.kuaizhizao.customerPool.selectCustomersToDelete': '最初に削除する顧客を選択してください',
   'app.kuaizhizao.customerPool.batchDeleteSuccess': '{{count}} 人の顧客を削除しました',
-  'app.kuaizhizao.customerPool.batchDeletePartialFailed': '{{count}} 件の顧客を削除できませんでした',
-  'app.kuaizhizao.customerPool.confirmBatchDeleteCustomers': '選択した {{count}} 人の顧客を削除しますか?',
+  'app.kuaizhizao.customerPool.batchDeletePartialFailed':
+    '{{count}} 件の顧客を削除できませんでした',
+  'app.kuaizhizao.customerPool.confirmBatchDeleteCustomers':
+    '選択した {{count}} 人の顧客を削除しますか?',
   'app.kuaizhizao.customerPool.publicPoolClaimOnly': 'パブリックプールの顧客のみを請求できます',
-  'app.kuaizhizao.customerPool.publicPoolAssignOnly': 'パブリックプールの顧客のみを割り当てることができます',
+  'app.kuaizhizao.customerPool.publicPoolAssignOnly':
+    'パブリックプールの顧客のみを割り当てることができます',
   'app.kuaizhizao.customerPool.assignSuccessBatch': '{{count}} 人の顧客が割り当てられました',
   'app.kuaizhizao.customerPool.assignPartialFailed': '{{count}} 人の顧客が割り当てに失敗しました',
   'app.kuaizhizao.customerPool.assignFailed': '割り当てに失敗しました',
@@ -3815,7 +4111,8 @@ export default {
   'app.kuaizhizao.salesOrderChange.createModalTitle': '受注から変更注文を作成する',
   'app.kuaizhizao.salesOrderChange.selectSalesOrder': '受注を選択してください',
   'app.kuaizhizao.salesOrderChange.salesOrderLabel': '受注',
-  'app.kuaizhizao.salesOrderChange.selectSalesOrderPlaceholder': '右側の「選択」をクリックして受注を選択します',
+  'app.kuaizhizao.salesOrderChange.selectSalesOrderPlaceholder':
+    '右側の「選択」をクリックして受注を選択します',
   'app.kuaizhizao.salesOrderChange.select': '選択',
   'app.kuaizhizao.salesOrderChange.editTitle': '受注変更の編集',
   'app.kuaizhizao.salesOrderChange.detailTitle': '受注の変更 - {{code}}',
@@ -3828,15 +4125,19 @@ export default {
   'app.kuaizhizao.salesOrderChange.deleted': '削除されました',
   'app.kuaizhizao.salesOrderChange.selectToDelete': '最初に削除するレコードを選択してください',
   'app.kuaizhizao.salesOrderChange.batchDeleteSuccess': '{{count}} 件の変更命令を削除しました',
-  'app.kuaizhizao.salesOrderChange.batchDeletePartial': '{{count}} を削除できませんでした (下書きのみ)',
-  'app.kuaizhizao.salesOrderChange.confirmBatchDelete': '選択した {{count}} 件の変更要求を削除しますか?',
+  'app.kuaizhizao.salesOrderChange.batchDeletePartial':
+    '{{count}} を削除できませんでした (下書きのみ)',
+  'app.kuaizhizao.salesOrderChange.confirmBatchDelete':
+    '選択した {{count}} 件の変更要求を削除しますか?',
   'app.kuaizhizao.salesOrderChange.selectToSubmit': '最初に送信するレコードを選択してください',
   'app.kuaizhizao.salesOrderChange.batchSubmitSuccess': '{{count}} 件の変更注文を送信しました',
-  'app.kuaizhizao.salesOrderChange.batchSubmitPartial': '{{count}} は送信できませんでした (下書きのみ)',
+  'app.kuaizhizao.salesOrderChange.batchSubmitPartial':
+    '{{count}} は送信できませんでした (下書きのみ)',
   'app.kuaizhizao.salesOrderChange.batchSubmit': 'バッチ送信',
   'app.kuaizhizao.salesOrderChange.selectToApprove': '最初に承認するレコードを選択してください',
   'app.kuaizhizao.salesOrderChange.batchApproveSuccess': '{{count}} 件の変更注文を承認しました',
-  'app.kuaizhizao.salesOrderChange.batchApprovePartial': '{{count}} は承認できませんでした (審査待ちのみ)',
+  'app.kuaizhizao.salesOrderChange.batchApprovePartial':
+    '{{count}} は承認できませんでした (審査待ちのみ)',
   'app.kuaizhizao.salesOrderChange.batchApprove': '一括承認',
   'app.kuaizhizao.salesOrderChange.selectToWithdraw': '最初に取り消すレコードを選択してください',
   'app.kuaizhizao.salesOrderChange.batchWithdrawSuccess': '{{count}} 件の変更注文を撤回しました',
@@ -3862,7 +4163,8 @@ export default {
   'app.kuaizhizao.purchaseOrderChange.createModalTitle': '発注書から変更注文を作成する',
   'app.kuaizhizao.purchaseOrderChange.selectPurchaseOrder': '発注書を選択してください',
   'app.kuaizhizao.purchaseOrderChange.purchaseOrderLabel': '発注書',
-  'app.kuaizhizao.purchaseOrderChange.selectPurchaseOrderPlaceholder': '右側の「選択」をクリックして発注書を選択します',
+  'app.kuaizhizao.purchaseOrderChange.selectPurchaseOrderPlaceholder':
+    '右側の「選択」をクリックして発注書を選択します',
   'app.kuaizhizao.purchaseOrderChange.select': '選択',
   'app.kuaizhizao.purchaseOrderChange.editTitle': '発注書変更の編集',
   'app.kuaizhizao.purchaseOrderChange.detailTitle': '発注書の変更 - {{code}}',
@@ -3874,15 +4176,19 @@ export default {
   'app.kuaizhizao.purchaseOrderChange.deleted': '削除されました',
   'app.kuaizhizao.purchaseOrderChange.selectToDelete': '最初に削除するレコードを選択してください',
   'app.kuaizhizao.purchaseOrderChange.batchDeleteSuccess': '{{count}} 件の変更命令を削除しました',
-  'app.kuaizhizao.purchaseOrderChange.batchDeletePartial': '{{count}} を削除できませんでした (下書きのみ)',
-  'app.kuaizhizao.purchaseOrderChange.confirmBatchDelete': '選択した {{count}} 件の変更要求を削除しますか?',
+  'app.kuaizhizao.purchaseOrderChange.batchDeletePartial':
+    '{{count}} を削除できませんでした (下書きのみ)',
+  'app.kuaizhizao.purchaseOrderChange.confirmBatchDelete':
+    '選択した {{count}} 件の変更要求を削除しますか?',
   'app.kuaizhizao.purchaseOrderChange.selectToSubmit': '最初に送信するレコードを選択してください',
   'app.kuaizhizao.purchaseOrderChange.batchSubmitSuccess': '{{count}} 件の変更注文を送信しました',
-  'app.kuaizhizao.purchaseOrderChange.batchSubmitPartial': '{{count}} は送信できませんでした (下書きのみ)',
+  'app.kuaizhizao.purchaseOrderChange.batchSubmitPartial':
+    '{{count}} は送信できませんでした (下書きのみ)',
   'app.kuaizhizao.purchaseOrderChange.batchSubmit': 'バッチ送信',
   'app.kuaizhizao.purchaseOrderChange.selectToApprove': '最初に承認するレコードを選択してください',
   'app.kuaizhizao.purchaseOrderChange.batchApproveSuccess': '{{count}} 件の変更注文を承認しました',
-  'app.kuaizhizao.purchaseOrderChange.batchApprovePartial': '{{count}} は承認できませんでした (審査待ちのみ)',
+  'app.kuaizhizao.purchaseOrderChange.batchApprovePartial':
+    '{{count}} は承認できませんでした (審査待ちのみ)',
   'app.kuaizhizao.purchaseOrderChange.batchApprove': '一括承認',
   'app.kuaizhizao.purchaseOrderChange.selectToWithdraw': '最初に取り消すレコードを選択してください',
   'app.kuaizhizao.purchaseOrderChange.batchWithdrawSuccess': '{{count}} 件の変更注文を撤回しました',
@@ -3911,25 +4217,31 @@ export default {
   'app.kuaizhizao.purchaseInquiry.selectAwardQuote': '落札された見積もりを選択してください',
   'app.kuaizhizao.purchaseInquiry.awardSuccess': '無事に受賞しました',
   'app.kuaizhizao.purchaseInquiry.pushPurchaseOrder': 'プッシュ発注書',
-  'app.kuaizhizao.purchaseInquiry.pushPurchaseOrderConfirm': '発注書は、受賞したサプライヤーから自動生成されます。続く？',
+  'app.kuaizhizao.purchaseInquiry.pushPurchaseOrderConfirm':
+    '発注書は、受賞したサプライヤーから自動生成されます。続く？',
   'app.kuaizhizao.purchaseInquiry.purchaseOrdersGenerated': '{{count}} 件の発注書を生成しました',
   'app.kuaizhizao.purchaseInquiry.loadRequisitionsFailed': '購入要求の読み込みに失敗しました',
-  'app.kuaizhizao.purchaseInquiry.selectRequisitionLinesFirst': '最初に購買要求明細行を選択してください',
+  'app.kuaizhizao.purchaseInquiry.selectRequisitionLinesFirst':
+    '最初に購買要求明細行を選択してください',
   'app.kuaizhizao.purchaseInquiry.createdFromPullWithCodes': '{{target}} を作成しました: {{codes}}',
   'app.kuaizhizao.purchaseInquiry.createdFromPull': '{{source}} から {{target}} を作成しました',
-  'app.kuaizhizao.purchaseInquiry.createFromPullFailed': '{{source}} から {{target}} を作成できませんでした',
+  'app.kuaizhizao.purchaseInquiry.createFromPullFailed':
+    '{{source}} から {{target}} を作成できませんでした',
   'app.kuaizhizao.purchaseInquiry.batchDeleteSuccess': '{{count}} 件の問い合わせを削除しました',
   'app.kuaizhizao.purchaseInquiry.batchDeletePartial': '{{count}} を削除できませんでした',
   'app.kuaizhizao.purchaseInquiry.selectInquiriesFirst': '最初にお問い合わせを選択してください',
   'app.kuaizhizao.purchaseInquiry.batchSubmitSuccess': '{{count}} 件の問い合わせを送信しました',
   'app.kuaizhizao.purchaseInquiry.batchSubmitPartial': '{{count}} は送信できませんでした',
-  'app.kuaizhizao.purchaseInquiry.batchApproveSuccess': '承認された{{count}}件の問い合わせ/問い合わせ',
+  'app.kuaizhizao.purchaseInquiry.batchApproveSuccess':
+    '承認された{{count}}件の問い合わせ/問い合わせ',
   'app.kuaizhizao.purchaseInquiry.batchApprovePartial': '{{count}} は承認できませんでした',
-  'app.kuaizhizao.purchaseInquiry.batchWithdrawSuccess': '{{count}} 件の問い合わせのレビューを取り下げました',
+  'app.kuaizhizao.purchaseInquiry.batchWithdrawSuccess':
+    '{{count}} 件の問い合わせのレビューを取り下げました',
   'app.kuaizhizao.purchaseInquiry.batchWithdrawPartial': '{{count}} は出金できませんでした',
   'app.kuaizhizao.purchaseInquiry.confirmDelete': '削除を確認しますか?',
   'app.kuaizhizao.purchaseInquiry.deleted': '削除されました',
-  'app.kuaizhizao.purchaseInquiry.confirmBatchDelete': '選択した {{count}} 件の問い合わせを削除しますか?',
+  'app.kuaizhizao.purchaseInquiry.confirmBatchDelete':
+    '選択した {{count}} 件の問い合わせを削除しますか?',
   'app.kuaizhizao.purchaseInquiry.batchSubmit': 'バッチ送信',
   'app.kuaizhizao.purchaseInquiry.batchApprove': '一括承認',
   'app.kuaizhizao.purchaseInquiry.batchWithdrawReview': '一括引き出しレビュー',
@@ -3944,7 +4256,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.addVendor': 'サプライヤーの追加',
   'app.kuaizhizao.purchaseInquiry.supplier': 'サプライヤー',
   'app.kuaizhizao.purchaseInquiry.remove': '取り除く',
-  'app.kuaizhizao.purchaseInquiry.emptyInvitedVendors': '招待されたサプライヤーはいません。追加するには以下をクリックしてください。',
+  'app.kuaizhizao.purchaseInquiry.emptyInvitedVendors':
+    '招待されたサプライヤーはいません。追加するには以下をクリックしてください。',
   'app.kuaizhizao.purchaseInquiry.inquiryItems': 'お問い合わせ事項',
   'app.kuaizhizao.purchaseInquiry.addLine': '行を追加',
   'app.kuaizhizao.purchaseInquiry.material': '材料',
@@ -3952,11 +4265,15 @@ export default {
   'app.kuaizhizao.purchaseInquiry.requiredDate': '必須日付',
   'app.kuaizhizao.purchaseInquiry.deleteLine': 'デル',
   'app.kuaizhizao.purchaseInquiry.selectVendorTitle': 'サプライヤーの選択',
-  'app.kuaizhizao.purchaseInquiry.searchVendorPlaceholder': 'サプライヤーを検索して選択します (複数選択)',
-  'app.kuaizhizao.purchaseInquiry.noAvailableVendors': '利用可能なサプライヤーがありません (すべて追加される可能性があります)',
-  'app.kuaizhizao.purchaseInquiry.noSuppliersHint': '利用可能なサプライヤーがありません。まずサプライヤーマスターでサプライヤーを管理します。',
+  'app.kuaizhizao.purchaseInquiry.searchVendorPlaceholder':
+    'サプライヤーを検索して選択します (複数選択)',
+  'app.kuaizhizao.purchaseInquiry.noAvailableVendors':
+    '利用可能なサプライヤーがありません (すべて追加される可能性があります)',
+  'app.kuaizhizao.purchaseInquiry.noSuppliersHint':
+    '利用可能なサプライヤーがありません。まずサプライヤーマスターでサプライヤーを管理します。',
   'app.kuaizhizao.purchaseInquiry.selectSuppliersFirst': '追加するサプライヤーを選択してください',
-  'app.kuaizhizao.purchaseInquiry.suppliersAlreadyAdded': '選択したサプライヤーはすでに追加されています',
+  'app.kuaizhizao.purchaseInquiry.suppliersAlreadyAdded':
+    '選択したサプライヤーはすでに追加されています',
   'app.kuaizhizao.purchaseInquiry.vendorsAdded': '{{count}} サプライヤーを追加しました',
   'app.kuaizhizao.purchaseInquiry.detailTitle': '購入に関するお問い合わせ - {{code}}',
   'app.kuaizhizao.purchaseInquiry.entityName': '購入に関するお問い合わせ',
@@ -3968,15 +4285,18 @@ export default {
   'app.kuaizhizao.purchaseInquiry.closeQuotingSuccess': '見積は終了しました',
   'app.kuaizhizao.purchaseInquiry.compareAward': '比較して表彰する',
   'app.kuaizhizao.purchaseInquiry.source': 'ソース',
-  'app.kuaizhizao.purchaseInquiry.hintAfterPublish': '公開後、ここに各サプライヤーの見積を 1 行ずつ入力します。',
-  'app.kuaizhizao.purchaseInquiry.hintQuoting': '行ごとにサプライヤーを選択し、「ここに見積もりを入力」をクリックして価格と納期を入力します。',
+  'app.kuaizhizao.purchaseInquiry.hintAfterPublish':
+    '公開後、ここに各サプライヤーの見積を 1 行ずつ入力します。',
+  'app.kuaizhizao.purchaseInquiry.hintQuoting':
+    '行ごとにサプライヤーを選択し、「ここに見積もりを入力」をクリックして価格と納期を入力します。',
   'app.kuaizhizao.purchaseInquiry.quoteStatus': '見積ステータス',
   'app.kuaizhizao.purchaseInquiry.quoted': '引用',
   'app.kuaizhizao.purchaseInquiry.pendingQuote': '保留の見積',
   'app.kuaizhizao.purchaseInquiry.recorded': '録音済み',
   'app.kuaizhizao.purchaseInquiry.editQuote': '見積書の編集',
   'app.kuaizhizao.purchaseInquiry.enterQuoteHere': 'ここに見積もりを入力してください',
-  'app.kuaizhizao.purchaseInquiry.emptyVendorsInDetail': '招待されたサプライヤーはいません。お問い合わせを編集して追加します。',
+  'app.kuaizhizao.purchaseInquiry.emptyVendorsInDetail':
+    '招待されたサプライヤーはいません。お問い合わせを編集して追加します。',
   'app.kuaizhizao.purchaseInquiry.colMaterialCode': '材質コード',
   'app.kuaizhizao.purchaseInquiry.colMaterialName': '材質名',
   'app.kuaizhizao.purchaseInquiry.colUnit': 'ユニット',
@@ -3986,20 +4306,24 @@ export default {
   'app.kuaizhizao.purchaseInquiry.validUntil': '有効期限',
   'app.kuaizhizao.purchaseInquiry.selectDatePlaceholder': '日付を選択してください',
   'app.kuaizhizao.purchaseInquiry.quoteItems': '見積品目',
-  'app.kuaizhizao.purchaseInquiry.quoteItemsHint': '各アイテムの見積もり数量、単価、約束納期を入力します。',
+  'app.kuaizhizao.purchaseInquiry.quoteItemsHint':
+    '各アイテムの見積もり数量、単価、約束納期を入力します。',
   'app.kuaizhizao.purchaseInquiry.inquiryQuantity': 'お問い合わせ数量',
   'app.kuaizhizao.purchaseInquiry.quotedQuantity': '見積数量',
   'app.kuaizhizao.purchaseInquiry.unitPrice': '単価',
   'app.kuaizhizao.purchaseInquiry.promisedDeliveryDate': '約束された配達',
   'app.kuaizhizao.purchaseInquiry.quoteNotesPlaceholder': '見積メモ、支払条件など。',
   'app.kuaizhizao.purchaseInquiry.compareAwardTitle': '比較して表彰する',
-  'app.kuaizhizao.purchaseInquiry.compareAwardHint': '緑色の「最低」がシステム推奨です。価格をクリックして落札相場を選択します (選択するとチェックマークが付きます)。',
+  'app.kuaizhizao.purchaseInquiry.compareAwardHint':
+    '緑色の「最低」がシステム推奨です。価格をクリックして落札相場を選択します (選択するとチェックマークが付きます)。',
   'app.kuaizhizao.purchaseInquiry.supplierFallback': 'サプライヤー {{index}}',
   'app.kuaizhizao.purchaseInquiry.lowest': '最低',
   'app.kuaizhizao.purchaseInquiry.createInquiryOk': 'お問い合わせの作成',
-  'app.kuaizhizao.purchaseInquiry.searchRequisitionPlaceholder': '購買依頼明細の検索（番号 / 名前）',
+  'app.kuaizhizao.purchaseInquiry.searchRequisitionPlaceholder':
+    '購買依頼明細の検索（番号 / 名前）',
   'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionLines': '適格な購買依頼明細がありません',
-  'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionSearchResults': '一致する要求明細行がありません',
+  'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionSearchResults':
+    '一致する要求明細行がありません',
   'app.kuaizhizao.purchaseInquiry.colRequisitionCode': '申請番号',
   'app.kuaizhizao.purchaseInquiry.colRequisitionName': '要求名',
   'app.kuaizhizao.purchaseInquiry.colSpec': 'スペック',
@@ -4008,7 +4332,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.colConvertStatus': '変換ステータス',
   'app.kuaizhizao.purchaseInquiry.convertedToPurchaseOrder': 'PO #{{id}} に変換されました',
   'app.kuaizhizao.purchaseInquiry.eligibleForInquiry': '適格',
-  'app.kuaizhizao.purchaseInquiry.pullSelectionHint': '{{count}} 行が選択されました。同じ購買依頼の明細は 1 つの問い合わせにマージされます。',
+  'app.kuaizhizao.purchaseInquiry.pullSelectionHint':
+    '{{count}} 行が選択されました。同じ購買依頼の明細は 1 つの問い合わせにマージされます。',
   'app.kuaizhizao.orderChange.impactTitle': '変更の影響プレビュー',
   'app.kuaizhizao.orderChange.blockingTitle': 'ブロックの問題',
   'app.kuaizhizao.orderChange.recommendedActions': '推奨されるアクション',
@@ -4024,7 +4349,8 @@ export default {
   'app.kuaizhizao.orderChange.loadSalesOrdersFailed': '受注の読み込みに失敗しました',
   'app.kuaizhizao.orderChange.loadPurchaseOrdersFailed': '発注書の読み込みに失敗しました',
   'app.kuaizhizao.orderChange.selectOrderTitle': '{{orderLabel}} を選択してください',
-  'app.kuaizhizao.orderChange.searchOrderPlaceholder': '{{orderLabel}} (番号 / {{partnerLabel}}) を検索',
+  'app.kuaizhizao.orderChange.searchOrderPlaceholder':
+    '{{orderLabel}} (番号 / {{partnerLabel}}) を検索',
   'app.kuaizhizao.orderChange.search': '検索',
   'app.kuaizhizao.orderChange.emptyNoEligibleOrders': '変更不可{{orderLabel}}',
   'app.kuaizhizao.orderChange.emptyNoSearchResults': '変更可能な{{orderLabel}}が見つかりません',
@@ -4139,12 +4465,14 @@ export default {
   'app.kuaizhizao.salesContract.terms.colGroupName': 'グループ名',
   'app.kuaizhizao.salesContract.terms.colDescription': '説明',
   'app.kuaizhizao.salesContract.terms.selectGroup': '契約条件',
-  'app.kuaizhizao.salesContract.terms.selectGroupPlaceholder': '契約条件を選択してください (オプション)',
+  'app.kuaizhizao.salesContract.terms.selectGroupPlaceholder':
+    '契約条件を選択してください (オプション)',
   'app.kuaizhizao.salesContract.terms.previewTitle': '契約条件のプレビュー',
   'app.kuaizhizao.salesContract.terms.selectItems': '期間項目の選択',
   'app.kuaizhizao.salesContract.terms.availableItems': '利用可能な条件',
   'app.kuaizhizao.salesContract.terms.selectedItems': '選択された用語',
-  'app.kuaizhizao.salesContract.terms.groupItemsRequired': '少なくとも 1 つの用語項目を選択してください',
+  'app.kuaizhizao.salesContract.terms.groupItemsRequired':
+    '少なくとも 1 つの用語項目を選択してください',
   'app.kuaizhizao.salesContract.terms.deleteItemConfirm': 'この期間のアイテムを削除しますか?',
   'app.kuaizhizao.salesContract.terms.deleteGroupConfirm': 'この用語グループを削除しますか?',
   'app.kuaizhizao.salesContract.terms.saved': '保存しました',
@@ -4168,7 +4496,8 @@ export default {
   'app.kuaizhizao.salesContract.validTo': '有効期限',
   'app.kuaizhizao.salesContract.validUntil': '有効期限',
   'app.kuaizhizao.salesContract.contractCode': '契約番号',
-  'app.kuaizhizao.salesContract.contractCodeAutoPlaceholder': '番号は採番ルールに従って自動生成されます（編集可）',
+  'app.kuaizhizao.salesContract.contractCodeAutoPlaceholder':
+    '番号は採番ルールに従って自動生成されます（編集可）',
   'app.kuaizhizao.salesContract.contractCodeRequired': '契約番号を入力してください',
   'app.kuaizhizao.salesContract.generateCodeFailed': '契約番号の生成に失敗しました',
   'app.kuaizhizao.salesContract.contractAmount': '契約金額',
@@ -4186,22 +4515,27 @@ export default {
   'app.kuaizhizao.salesContract.sourceQuotation': '出典の引用',
   'app.kuaizhizao.salesContract.contractItems': '品目',
   'app.kuaizhizao.salesContract.itemsRequired': '有効な契約明細を少なくとも 1 つ追加します',
-  'app.kuaizhizao.salesContract.lineMaterialMissing': '明細行に資材コード・名称・単位がありません。資材を再選択してください',
-  'app.kuaizhizao.salesContract.milestonePlannedDateRequired': 'マイルストーン名を入力した場合は計画日も選択してください',
+  'app.kuaizhizao.salesContract.lineMaterialMissing':
+    '明細行に資材コード・名称・単位がありません。資材を再選択してください',
+  'app.kuaizhizao.salesContract.milestonePlannedDateRequired':
+    'マイルストーン名を入力した場合は計画日も選択してください',
   'app.kuaizhizao.salesContract.noImportPermission': '輸入許可がありません',
   'app.kuaizhizao.salesContract.restoredDraft': 'ドラフトが復元されました',
   'app.kuaizhizao.salesContract.loadContractFailed': '契約書の読み込みに失敗しました',
   'app.kuaizhizao.salesContract.loadTermGroupFailed': '用語グループのロードに失敗しました',
   'app.kuaizhizao.salesContract.loadDetailFailed': '契約詳細の読み込みに失敗しました',
   'app.kuaizhizao.salesContract.materialsAdded': '{{count}} マテリアルを追加しました',
-  'app.kuaizhizao.salesContract.importNoValidData': '有効なデータが見つかりません (材料コードが必要です)',
+  'app.kuaizhizao.salesContract.importNoValidData':
+    '有効なデータが見つかりません (材料コードが必要です)',
   'app.kuaizhizao.salesContract.saveDraftFailed': '下書きの保存に失敗しました',
   'app.kuaizhizao.salesContract.createFailed': '売買契約書の作成に失敗しました',
   'app.kuaizhizao.salesContract.deleteTitle': '販売契約の削除',
-  'app.kuaizhizao.salesContract.deleteDraftConfirm': '契約書草案「{{code}}」を削除しますか?これを元に戻すことはできません。',
+  'app.kuaizhizao.salesContract.deleteDraftConfirm':
+    '契約書草案「{{code}}」を削除しますか?これを元に戻すことはできません。',
   'app.kuaizhizao.salesContract.deleted': '削除されました',
   'app.kuaizhizao.salesContract.submitReview': 'レビューのために送信する',
-  'app.kuaizhizao.salesContract.submitReviewConfirm': '契約書「{{code}}」を審査のために送信しますか?',
+  'app.kuaizhizao.salesContract.submitReviewConfirm':
+    '契約書「{{code}}」を審査のために送信しますか?',
   'app.kuaizhizao.salesContract.submittedForReview': '審査のために提出されました',
   'app.kuaizhizao.salesContract.selectValidRecord': '有効なレコードを選択してください',
   'app.kuaizhizao.salesContract.printNotAllowed': '承認された有効な契約書のみを印刷できます',
@@ -4213,11 +4547,13 @@ export default {
   'app.kuaizhizao.salesContract.closeFailed': '契約を締結できませんでした',
   'app.kuaizhizao.salesContract.noReleasableLines': 'リリース可能な広告申込情報はありません',
   'app.kuaizhizao.salesContract.loadItemsFailed': '契約明細の読み込みに失敗しました',
-  'app.kuaizhizao.salesContract.selectReleaseLine': 'リリース数量を含む少なくとも 1 つの明細を選択してください',
+  'app.kuaizhizao.salesContract.selectReleaseLine':
+    'リリース数量を含む少なくとも 1 つの明細を選択してください',
   'app.kuaizhizao.salesContract.orderGenerated': '受注 {{code}} が作成されました',
   'app.kuaizhizao.salesContract.pushOrderFailed': 'オーダーのプッシュに失敗しました',
   'app.kuaizhizao.salesContract.selectContract': '売買契約を選択してください',
-  'app.kuaizhizao.salesContract.pushOrderStatusRequired': 'アクティブな契約または実行中の契約のみが注文をプッシュできます',
+  'app.kuaizhizao.salesContract.pushOrderStatusRequired':
+    'アクティブな契約または実行中の契約のみが注文をプッシュできます',
   'app.kuaizhizao.salesContract.pushOrder': 'プッシュ注文',
   'app.kuaizhizao.salesContract.loadChangesFailed': '変更レコードのロードに失敗しました',
   'app.kuaizhizao.salesContract.changeCreated': '変更指示が作成されました',
@@ -4268,7 +4604,8 @@ export default {
   'app.kuaizhizao.salesContract.approve': '承認する',
   'app.kuaizhizao.salesContract.reject': '拒否する',
   'app.kuaizhizao.salesContract.confirmRelease': 'プッシュの確認',
-  'app.kuaizhizao.salesContract.releaseHint': '契約: {{code}} · 明細を選択し、リリース数量を入力します',
+  'app.kuaizhizao.salesContract.releaseHint':
+    '契約: {{code}} · 明細を選択し、リリース数量を入力します',
   'app.kuaizhizao.salesContract.select': '選択',
   'app.kuaizhizao.salesContract.thisRelease': 'このリリース',
   'app.kuaizhizao.salesContract.confirmClose': '閉じるの確認',
@@ -4319,7 +4656,8 @@ export default {
   'app.kuaizhizao.quotation.confirmDelete': '引用「{{code}}」を削除しますか?',
   'app.kuaizhizao.quotation.batchDeleteSuccess': '{{count}} 個の引用を削除しました',
   'app.kuaizhizao.quotation.batchOperationSuccess': '{{action}} は成功しました: {{count}}',
-  'app.kuaizhizao.quotation.batchOperationPartial': '{{action}} 完了: {{success}} は成功、{{failed}} は失敗',
+  'app.kuaizhizao.quotation.batchOperationPartial':
+    '{{action}} 完了: {{success}} は成功、{{failed}} は失敗',
   'app.kuaizhizao.quotation.batchOperationFailed': '{{action}} は失敗しました',
   'app.kuaizhizao.quotation.batchApprove': '一括承認',
   'app.kuaizhizao.quotation.batchConfirm': '一括確認',
@@ -4327,7 +4665,8 @@ export default {
   'app.kuaizhizao.quotation.syncSuccess': '{{count}} の引用を同期しました',
   'app.kuaizhizao.quotation.importDataInvalid': 'インポートデータが空か無効です',
   'app.kuaizhizao.quotation.noImportRows': 'インポート可能な行がありません (行 3 から入力)',
-  'app.kuaizhizao.quotation.missingRequiredColumns': '必須列が欠落しています: 顧客名、見積日、材料コード、数量',
+  'app.kuaizhizao.quotation.missingRequiredColumns':
+    '必須列が欠落しています: 顧客名、見積日、材料コード、数量',
   'app.kuaizhizao.quotation.validation.customerRequired': '顧客名は必須です',
   'app.kuaizhizao.quotation.validation.dateRequired': '見積日は必須です',
   'app.kuaizhizao.quotation.validation.materialRequired': 'マテリアルコードは必須です',
@@ -4351,11 +4690,15 @@ export default {
   'app.kuaizhizao.quotation.revisionCreatedWithCode': '新しいリビジョンが作成されました: {{code}}',
   'app.kuaizhizao.quotation.selectOneValid': '有効なレコードを 1 つ選択してください',
   'app.kuaizhizao.quotation.loadFailed': '見積書の読み込みに失敗しました',
-  'app.kuaizhizao.quotation.revisionOnlyLatest': '新しいバージョンを作成できるのは、シリーズ内の最新の非ドラフト リビジョンのみです。',
-  'app.kuaizhizao.quotation.supersededConvertHint': 'この引用には新しい改訂版があります。最新リビジョンから変換する',
+  'app.kuaizhizao.quotation.revisionOnlyLatest':
+    '新しいバージョンを作成できるのは、シリーズ内の最新の非ドラフト リビジョンのみです。',
+  'app.kuaizhizao.quotation.supersededConvertHint':
+    'この引用には新しい改訂版があります。最新リビジョンから変換する',
   'app.kuaizhizao.quotation.draftRestored': '保存された下書きを復元しました',
-  'app.kuaizhizao.quotation.customerLoading': '顧客情報をロードしています。項目はすぐに自動入力されます',
-  'app.kuaizhizao.quotation.lineMaterialMissing': '行に材料コードまたは名前がありません。素材を再選択する',
+  'app.kuaizhizao.quotation.customerLoading':
+    '顧客情報をロードしています。項目はすぐに自動入力されます',
+  'app.kuaizhizao.quotation.lineMaterialMissing':
+    '行に材料コードまたは名前がありません。素材を再選択する',
   'app.kuaizhizao.quotation.generateCodeFailed': '見積番号の生成に失敗しました',
   'app.kuaizhizao.quotation.createFailed': '見積書の作成に失敗しました',
   'app.kuaizhizao.quotation.updateFailed': '見積の更新に失敗しました',
@@ -4435,8 +4778,10 @@ export default {
   'app.kuaizhizao.salesOrder.defaultPayment.cod': '代金引換',
   'app.kuaizhizao.salesOrder.defaultPayment.net30': 'ネット30',
   'app.kuaizhizao.salesOrder.defaultPayment.net60': 'ネット60',
-  'app.kuaizhizao.salesOrder.shippingMethodDictFallback': '配送方法辞書がありません。組み込みオプションを使用する',
-  'app.kuaizhizao.salesOrder.paymentTermsDictFallback': '支払い条件辞書は使用できません。組み込みオプションを使用する',
+  'app.kuaizhizao.salesOrder.shippingMethodDictFallback':
+    '配送方法辞書がありません。組み込みオプションを使用する',
+  'app.kuaizhizao.salesOrder.paymentTermsDictFallback':
+    '支払い条件辞書は使用できません。組み込みオプションを使用する',
   'app.kuaizhizao.salesOrder.draftRestored': '下書きコンテンツが復元されました',
   'app.kuaizhizao.salesOrder.nodeCreateDisabled': '受注ノードは無効になっています。作成できません',
   'app.kuaizhizao.salesOrder.batchSubmit': 'バッチ送信',
@@ -4444,49 +4789,66 @@ export default {
   'app.kuaizhizao.salesOrder.batchWithdraw': '一括引き出し',
   'app.kuaizhizao.salesOrder.batchUnapprove': '一括不承認',
   'app.kuaizhizao.salesOrder.batchActionAllSuccess': '{{action}} 成功しました: {{count}} レコード',
-  'app.kuaizhizao.salesOrder.batchActionPartial': '{{action}} 部分的: {{success}} は成功しました、{{failed}} は失敗しました',
-  'app.kuaizhizao.salesOrder.batchActionPartialWithReason': '{{action}} 部分的: {{success}} は成功しました、{{failed}} は失敗しました ({{reason}})',
+  'app.kuaizhizao.salesOrder.batchActionPartial':
+    '{{action}} 部分的: {{success}} は成功しました、{{failed}} は失敗しました',
+  'app.kuaizhizao.salesOrder.batchActionPartialWithReason':
+    '{{action}} 部分的: {{success}} は成功しました、{{failed}} は失敗しました ({{reason}})',
   'app.kuaizhizao.salesOrder.batchActionFailed': '{{action}} は失敗しました',
   'app.kuaizhizao.salesOrder.batchActionFailedDetails': '{{action}} 障害の詳細',
   'app.kuaizhizao.salesOrder.generateCodeFailed': '注文コードの生成に失敗しました',
   'app.kuaizhizao.salesOrder.saveAndSubmit': '保存して送信',
-  'app.kuaizhizao.salesOrder.computationAlreadyPushed': '需要の計算はすでにプッシュされています。再度プッシュするには、まず撤退してください。',
+  'app.kuaizhizao.salesOrder.computationAlreadyPushed':
+    '需要の計算はすでにプッシュされています。再度プッシュするには、まず撤退してください。',
   'app.kuaizhizao.salesOrder.loadProductionLinesFailed': '生産ラインの読み込みに失敗しました',
   'app.kuaizhizao.salesOrder.selectAtLeastOneLine': '少なくとも 1 つの製品ラインを選択してください',
-  'app.kuaizhizao.salesOrder.pushQtyFullyUsed': 'この注文のプッシュ可能な数量はすべて使用されました',
+  'app.kuaizhizao.salesOrder.pushQtyFullyUsed':
+    'この注文のプッシュ可能な数量はすべて使用されました',
   'app.kuaizhizao.salesOrder.pushQtyInvalid': '有効なプッシュ数量を入力してください: {{code}}',
   'app.kuaizhizao.salesOrder.pushQtyExceedsRemaining': 'プッシュ数量が残りを超えています: {{code}}',
-  'app.kuaizhizao.salesOrder.masterDataMissingForConfirmPush': 'マスターデータがありません。プッシュがブロックされていることを確認します。データを完成させるか、ドラフトプッシュを使用します。',
-  'app.kuaizhizao.salesOrder.shippableQtyFullyUsed': 'この注文の出荷可能な数量はすべて使用されました',
-  'app.kuaizhizao.salesOrder.pushQtyExceedsShippable': 'プッシュ数量が出荷可能数量を超えています: {{code}}',
-  'app.kuaizhizao.salesOrder.nodeComputationDisabled': 'デマンド計算ノードが無効化されます。押すことができません',
-  'app.kuaizhizao.salesOrder.nodeShipmentDisabled': '出荷通知ノードが無効になっています。押すことができません',
-  'app.kuaizhizao.salesOrder.nodeInvoiceDisabled': '販売請求書ノードが無効になっています。押すことができません',
-  'app.kuaizhizao.salesOrder.nodeWorkOrderDisabled': '作業指示ノードが無効になっています。押すことができません',
-  'app.kuaizhizao.salesOrder.nodeDeliveryDisabled': '販売配信ノードが無効になっています。押すことができません',
+  'app.kuaizhizao.salesOrder.masterDataMissingForConfirmPush':
+    'マスターデータがありません。プッシュがブロックされていることを確認します。データを完成させるか、ドラフトプッシュを使用します。',
+  'app.kuaizhizao.salesOrder.shippableQtyFullyUsed':
+    'この注文の出荷可能な数量はすべて使用されました',
+  'app.kuaizhizao.salesOrder.pushQtyExceedsShippable':
+    'プッシュ数量が出荷可能数量を超えています: {{code}}',
+  'app.kuaizhizao.salesOrder.nodeComputationDisabled':
+    'デマンド計算ノードが無効化されます。押すことができません',
+  'app.kuaizhizao.salesOrder.nodeShipmentDisabled':
+    '出荷通知ノードが無効になっています。押すことができません',
+  'app.kuaizhizao.salesOrder.nodeInvoiceDisabled':
+    '販売請求書ノードが無効になっています。押すことができません',
+  'app.kuaizhizao.salesOrder.nodeWorkOrderDisabled':
+    '作業指示ノードが無効になっています。押すことができません',
+  'app.kuaizhizao.salesOrder.nodeDeliveryDisabled':
+    '販売配信ノードが無効になっています。押すことができません',
   'app.kuaizhizao.salesOrder.deliveryCreated': '販売納品書を作成しました',
   'app.kuaizhizao.salesOrder.pushDeliveryFailed': '販売配信のプッシュに失敗しました',
   'app.kuaizhizao.salesOrder.noReturnableQty': '返品不可（納品数量は0）',
   'app.kuaizhizao.salesOrder.returnWarehouseRequired': '最初に返品倉庫 ID を入力してください',
-  'app.kuaizhizao.salesOrder.returnQtyExceedsMax': '{{material}} の返品数量は {{max}} を超えることはできません',
+  'app.kuaizhizao.salesOrder.returnQtyExceedsMax':
+    '{{material}} の返品数量は {{max}} を超えることはできません',
   'app.kuaizhizao.salesOrder.returnCreated': '売上返品が作成されました: {{code}}',
   'app.kuaizhizao.salesOrder.createdFallback': '作成されました',
   'app.kuaizhizao.salesOrder.pushReturnFailed': '売上利益を押し上げることができなかった',
   'app.kuaizhizao.salesOrder.loadQuotationsFailed': '見積書のロードに失敗しました',
   'app.kuaizhizao.salesOrder.selectQuotationFirst': '最初に見積もりを選択してください',
   'app.kuaizhizao.salesOrder.pullContract.selectFirst': '最初に販売契約を選択してください',
-  'app.kuaizhizao.salesOrder.pullDuplicateBlocked': '{{source}} にはすでに {{target}} があります。重複作成がブロックされました',
+  'app.kuaizhizao.salesOrder.pullDuplicateBlocked':
+    '{{source}} にはすでに {{target}} があります。重複作成がブロックされました',
   'app.kuaizhizao.salesOrder.createdFromQuotation': '受注が作成されました: {{code}}',
   'app.kuaizhizao.salesOrder.pullContract.success': '販売契約から受注を作成しました: {{code}}',
   'app.kuaizhizao.salesOrder.pullCreateFailed': '{{source}} から {{target}} を作成できませんでした',
-  'app.kuaizhizao.salesOrder.pushRequiresApproved': '承認/確認された、クローズされていない受注のみをプッシュできます',
+  'app.kuaizhizao.salesOrder.pushRequiresApproved':
+    '承認/確認された、クローズされていない受注のみをプッシュできます',
   'app.kuaizhizao.salesOrder.pushRatio': '押す ％',
-  'app.kuaizhizao.salesOrder.pushRatioTooltip': '{{percent}}% (プッシュされた {{pushed}} / 合計 {{total}}、残り {{remaining}})',
+  'app.kuaizhizao.salesOrder.pushRatioTooltip':
+    '{{percent}}% (プッシュされた {{pushed}} / 合計 {{total}}、残り {{remaining}})',
   'app.kuaizhizao.salesOrder.statComparedYesterday': '昨日との比較',
   'app.kuaizhizao.salesOrder.statTodayPrefix': '今日',
   'app.kuaizhizao.salesOrder.statNeedImmediate': 'すぐに対応が必要です',
   'app.kuaizhizao.salesOrder.statVsLastYear': '対前年同期比',
-  'app.kuaizhizao.salesOrder.orderCodeAutoPlaceholder': 'コードルールごとに自動生成されます。編集可能',
+  'app.kuaizhizao.salesOrder.orderCodeAutoPlaceholder':
+    'コードルールごとに自動生成されます。編集可能',
   'app.kuaizhizao.salesOrder.orderCodePlaceholder': '注文コードを入力してください',
   'app.kuaizhizao.salesOrder.orderCodeRequired': '注文コードを入力してください',
   'app.kuaizhizao.salesOrder.orderDateRequired': '注文日を選択してください',
@@ -4505,7 +4867,8 @@ export default {
   'app.kuaizhizao.salesOrder.attachments': '添付ファイル',
   'app.kuaizhizao.salesOrder.notesPlaceholder': 'メモを入力する',
   'app.kuaizhizao.salesOrder.helpTableView': ': 注文レベルのビュー。',
-  'app.kuaizhizao.salesOrder.helpDetailTableView': ': 在庫/BOM チェックを伴う読み取り専用検査のためのラインレベルのビュー。',
+  'app.kuaizhizao.salesOrder.helpDetailTableView':
+    ': 在庫/BOM チェックを伴う読み取り専用検査のためのラインレベルのビュー。',
   'app.kuaizhizao.salesOrder.searchQuotationPlaceholder': '見積書の検索（コード/顧客）',
   'app.kuaizhizao.salesOrder.quotationNotFound': '一致する見積書がありません',
   'app.kuaizhizao.salesOrder.noQuotationAvailable': '見積書はありません',
@@ -4515,10 +4878,12 @@ export default {
   'app.kuaizhizao.salesOrder.canCreate': '作成できる',
   'app.kuaizhizao.salesOrder.pullContract.notAllowed': 'この販売契約から受注を作成できません',
   'app.kuaizhizao.salesOrder.pullContract.loadFailed': '販売契約の読み込みに失敗しました',
-  'app.kuaizhizao.salesOrder.pullDuplicateAlert': '{{source}} にはすでに {{target}} があります。重複してブロックされました',
+  'app.kuaizhizao.salesOrder.pullDuplicateAlert':
+    '{{source}} にはすでに {{target}} があります。重複してブロックされました',
   'app.kuaizhizao.salesOrder.linkedSalesOrder': 'リンクされた受注: {{code}}',
   'app.kuaizhizao.salesOrder.pushReturnTitle': 'プッシュセールスリターン',
-  'app.kuaizhizao.salesOrder.pushReturnDescription': '注文{{orderCode}}からの売上返品をプッシュします。ラインごとの返品数量を調整します (納入数量を超えないように)。',
+  'app.kuaizhizao.salesOrder.pushReturnDescription':
+    '注文{{orderCode}}からの売上返品をプッシュします。ラインごとの返品数量を調整します (納入数量を超えないように)。',
   'app.kuaizhizao.salesOrder.returnWarehouseIdPlaceholder': '倉庫IDを返す',
   'app.kuaizhizao.salesOrder.returnWarehouseNamePlaceholder': '返品倉庫名 (オプション)',
   'app.kuaizhizao.salesOrder.returnQty': '返品数量',
@@ -4528,7 +4893,8 @@ export default {
   'app.kuaizhizao.salesOrder.workOrderTypeLabel': '製造指示のタイプ:',
   'app.kuaizhizao.salesOrder.workOrderTypeGrouped': '標準的な作業指示',
   'app.kuaizhizao.salesOrder.workOrderTypePerUnit': 'ユニットごとのグループ作業指示',
-  'app.kuaizhizao.salesOrder.masterDataMissingAlert': '一部の品目にはマスターデータ (工順/BOM) がありません。最初にドラフトプッシュを使用し、完了後にリリースします。',
+  'app.kuaizhizao.salesOrder.masterDataMissingAlert':
+    '一部の品目にはマスターデータ (工順/BOM) がありません。最初にドラフトプッシュを使用し、完了後にリリースします。',
   'app.kuaizhizao.salesOrder.colPushedQty': 'プッシュされました',
   'app.kuaizhizao.salesOrder.colPushableQty': 'プッシュ可能',
   'app.kuaizhizao.salesOrder.productionLine': '生産ライン',
@@ -4544,12 +4910,14 @@ export default {
   'app.kuaizhizao.customerFollowUp.nextFollowUp3Days': '3日以内',
   'app.kuaizhizao.customerFollowUp.nextFollowUp1Week': '1週間以内',
   'app.kuaizhizao.customerFollowUp.linkedDocTimelineTitle': 'リンクされた伝票のフォローアップ',
-  'app.kuaizhizao.customerFollowUp.linkedDocTimelineEmpty': 'リンクされた伝票に関するフォローアップはまだありません',
+  'app.kuaizhizao.customerFollowUp.linkedDocTimelineEmpty':
+    'リンクされた伝票に関するフォローアップはまだありません',
   'app.kuaizhizao.customerFollowUp.linkedQuotationLabel': '引用：',
   'app.kuaizhizao.customerFollowUp.linkedSalesOrderLabel': '受注:',
   'app.kuaizhizao.menu.sales-management.customer-follow-ups': 'フォローアップ',
   'app.kuaizhizao.customerFollowUp.addFollowUpFromDocument': 'フォローアップを追加',
-  'app.kuaizhizao.customerFollowUp.needCustomerForFollowUp': 'フォローアップを追加する前に顧客をリンクしてください。',
+  'app.kuaizhizao.customerFollowUp.needCustomerForFollowUp':
+    'フォローアップを追加する前に顧客をリンクしてください。',
   'app.kuaizhizao.customerFollowUp.new': 'フォローアップを追加',
   'app.kuaizhizao.customerFollowUp.loadFailed': 'フォローアップレコードのロードに失敗しました',
   'app.kuaizhizao.customerFollowUp.customerRequired': '有効な顧客を選択してください',
@@ -4567,7 +4935,8 @@ export default {
   'app.kuaizhizao.customerFollowUp.pendingOnly': 'フォローアップのみ',
   'app.kuaizhizao.customerFollowUp.listViewAll': '全て',
   'app.kuaizhizao.customerFollowUp.clearRevisitReminder': '再訪問リマインダーをクリアする',
-  'app.kuaizhizao.customerFollowUp.clearRevisitReminderDone': '再訪問リマインダーがクリアされました',
+  'app.kuaizhizao.customerFollowUp.clearRevisitReminderDone':
+    '再訪問リマインダーがクリアされました',
   'app.kuaizhizao.customerFollowUp.recentSameCustomerTitle': 'この顧客の最近のフォローアップ',
   'app.kuaizhizao.customerFollowUp.recentSameCustomerEmpty': '他に追跡記録はありません',
   'app.kuaizhizao.customerFollowUp.tagOverdue': '期限を過ぎました',
@@ -4576,7 +4945,8 @@ export default {
   'app.kuaizhizao.customerFollowUp.lifecycle.revisitOverdue': '期限を過ぎた再訪問',
   'app.kuaizhizao.customerFollowUp.lifecycle.noRevisitNeeded': '再訪の必要はありません',
   'app.kuaizhizao.customerFollowUp.lifecycle.recorded': 'フォローアップが記録されました',
-  'app.kuaizhizao.customerFollowUp.lifecycle.suggestionNextPlan': 'Next revisit planned: {{datetime}}',
+  'app.kuaizhizao.customerFollowUp.lifecycle.suggestionNextPlan':
+    'Next revisit planned: {{datetime}}',
   'app.kuaizhizao.customerFollowUp.createTitle': '新規顧客のフォローアップ',
   'app.kuaizhizao.customerFollowUp.editTitle': '顧客フォローアップを編集する',
   'app.kuaizhizao.customerFollowUp.detailTitle': 'フォローアップの詳細{{suffix}}',
@@ -4598,8 +4968,10 @@ export default {
   'app.kuaizhizao.salesOpportunity.fieldTitle': 'オポチュニティ名',
   'app.kuaizhizao.salesOpportunity.titlePlaceholder': '例えばプロジェクトXX / 引用BJ…',
   'app.kuaizhizao.salesOpportunity.closeStageConfirmTitle': '近い機会',
-  'app.kuaizhizao.salesOpportunity.closeStageConfirmContent': 'ステージを「{{stage}}」に変更しますか?クローズされた商談をさらに進めることはできません。',
-  'app.kuaizhizao.salesOpportunity.stageWillChange': 'このフォローアップでは、ステージが「{{from}}」から「{{to}}」に変更されます。',
+  'app.kuaizhizao.salesOpportunity.closeStageConfirmContent':
+    'ステージを「{{stage}}」に変更しますか?クローズされた商談をさらに進めることはできません。',
+  'app.kuaizhizao.salesOpportunity.stageWillChange':
+    'このフォローアップでは、ステージが「{{from}}」から「{{to}}」に変更されます。',
   'app.kuaizhizao.salesOpportunity.colTitle': '機会',
   'app.kuaizhizao.salesOpportunity.colExpectedAmount': '見込額',
   'app.kuaizhizao.salesOpportunity.colNextFollowUp': '次回のフォローアップ',
@@ -4609,15 +4981,21 @@ export default {
   'app.kuaizhizao.customerStage.currentStage': '現在の段階',
   'app.kuaizhizao.customerStage.fieldLabel': '顧客ステージ',
   'app.kuaizhizao.customerStage.fieldHint': '顧客の販売段階を分類用にマークする',
-  'app.kuaizhizao.customerStage.stageWillChange': 'このフォローアップでは、ステージが「{{from}}」から「{{to}}」に変更されます。',
+  'app.kuaizhizao.customerStage.stageWillChange':
+    'このフォローアップでは、ステージが「{{from}}」から「{{to}}」に変更されます。',
   'app.kuaizhizao.customerStage.closeStageConfirmTitle': 'ステージ変更を確認',
-  'app.kuaizhizao.customerStage.closeStageConfirmContent': '顧客ステージを「{{stage}}」としてマークしますか?',
-  'app.kuaizhizao.customerStage.dictMissing': '顧客ステージ辞書が初期化されていません。管理者に連絡してください。',
+  'app.kuaizhizao.customerStage.closeStageConfirmContent':
+    '顧客ステージを「{{stage}}」としてマークしますか?',
+  'app.kuaizhizao.customerStage.dictMissing':
+    '顧客ステージ辞書が初期化されていません。管理者に連絡してください。',
   'app.kuaizhizao.quotationStage.fieldLabel': 'Quotation stage',
-  'app.kuaizhizao.quotationStage.stageWillChange': 'このフォローアップにより、見積段階が「{{from}}」から「{{to}}」に変更されます。',
+  'app.kuaizhizao.quotationStage.stageWillChange':
+    'このフォローアップにより、見積段階が「{{from}}」から「{{to}}」に変更されます。',
   'app.kuaizhizao.quotationStage.closeStageConfirmTitle': '見積ステージ変更の確認',
-  'app.kuaizhizao.quotationStage.closeStageConfirmContent': '見積ステージを「{{stage}}」としてマークしますか?',
-  'app.kuaizhizao.quotationStage.detailHint': '販売段階を追跡するためのフォローアップを追加するときに見積もりをリンクします。',
+  'app.kuaizhizao.quotationStage.closeStageConfirmContent':
+    '見積ステージを「{{stage}}」としてマークしますか?',
+  'app.kuaizhizao.quotationStage.detailHint':
+    '販売段階を追跡するためのフォローアップを追加するときに見積もりをリンクします。',
   'app.kuaizhizao.customerFollowUp.selectCustomerFirst': '最初に顧客を選択してください',
   'app.kuaizhizao.customerFollowUp.optionalSelectDocument': 'オプション — 伝票を選択します',
   'app.kuaizhizao.customerFollowUp.optionalIdHint': 'オプションの内部文書 ID',
@@ -4647,10 +5025,12 @@ export default {
   'app.kuaizhizao.eightD.noUpdatePermission': '更新する権限がありません',
   'app.kuaizhizao.eightD.actions.transition': 'ステージの移動',
   'app.kuaizhizao.eightD.deleteOneTitle': '8D レポート {{reportCode}} を削除しますか?',
-  'app.kuaizhizao.eightD.deleteOneDescription': '削除は元に戻せません。削除できるのは、終了していないレポートのみです。',
+  'app.kuaizhizao.eightD.deleteOneDescription':
+    '削除は元に戻せません。削除できるのは、終了していないレポートのみです。',
   'app.kuaizhizao.eightD.batchDeleteSuccess': '{{count}} レコードを削除しました',
   'app.kuaizhizao.eightD.deleteConfirmTitle': '選択した {{count}} 個の 8D レポートを削除しますか?',
-  'app.kuaizhizao.eightD.deleteConfirmDescription': '削除できるのは、クローズされておらずロックが解除されていないレポートのみです。',
+  'app.kuaizhizao.eightD.deleteConfirmDescription':
+    '削除できるのは、クローズされておらずロックが解除されていないレポートのみです。',
   'app.kuaizhizao.eightD.notFilled': '満たされていない',
   'app.kuaizhizao.eightD.columns.reportCode': '8Dコード',
   'app.kuaizhizao.eightD.columns.title': 'タイトル',
@@ -4682,12 +5062,15 @@ export default {
   'app.kuaizhizao.eightD.status.d8_team_congratulation': 'D8 Team Recognition',
   'app.kuaizhizao.eightD.status.closed': '閉店',
   'app.kuaizhizao.eightD.currentStage': '現在のステージ: {{stage}}',
-  'app.kuaizhizao.eightD.currentStageHint': 'まず現在のステージのコンテンツを完了してから、次のステージに進みます。',
-  'app.kuaizhizao.eightD.currentStageRequired': '現在の段階のコンテンツを完了してください: {{stage}}',
+  'app.kuaizhizao.eightD.currentStageHint':
+    'まず現在のステージのコンテンツを完了してから、次のステージに進みます。',
+  'app.kuaizhizao.eightD.currentStageRequired':
+    '現在の段階のコンテンツを完了してください: {{stage}}',
   'app.kuaizhizao.eightD.placeholders.owner': 'Please enter owner',
   'app.kuaizhizao.eightD.placeholders.fillStage': '{{stage}} を入力してください',
   'app.kuaizhizao.eightD.placeholders.verificationResult': '閉じる前に検証結果が必要です',
-  'app.kuaizhizao.eightD.placeholders.remarks': 'メモまたはコラボレーションのコンテキストを記録する',
+  'app.kuaizhizao.eightD.placeholders.remarks':
+    'メモまたはコラボレーションのコンテキストを記録する',
   'app.kuaizhizao.eightD.saveHint': '保存後、右側のタイムラインで変更を確認できます',
   'app.kuaizhizao.eightD.history.empty': '履歴記録がありません',
   'app.kuaizhizao.eightD.history.created': '8Dレポートが作成されました',
@@ -4732,11 +5115,13 @@ export default {
   'app.kuaizhizao.menu.equipment-management.tool-ops': 'ツールオペレーション',
   'app.kuaizhizao.menu.equipment-management.mold-usages': '金型の用途',
   'app.kuaizhizao.menu.equipment-management.mold-calibrations': '金型のキャリブレーション',
-  'app.kuaizhizao.menu.equipment-management.mold-maintenance-reminders': '金型メンテナンス。リマインダー',
+  'app.kuaizhizao.menu.equipment-management.mold-maintenance-reminders':
+    '金型メンテナンス。リマインダー',
   'app.kuaizhizao.menu.equipment-management.tool-usages': 'ツールのチェックアウト/チェックイン',
   'app.kuaizhizao.menu.equipment-management.tool-maintenances': '工具のメンテナンス',
   'app.kuaizhizao.menu.equipment-management.tool-calibrations': 'ツールの校正',
-  'app.kuaizhizao.menu.equipment-management.tool-maintenance-reminders': 'ツールのメンテナンス。リマインダー',
+  'app.kuaizhizao.menu.equipment-management.tool-maintenance-reminders':
+    'ツールのメンテナンス。リマインダー',
   'app.kuaizhizao.menu.equipment-management.ops-maintenance': '運用とメンテナンス。',
   'app.kuaizhizao.menu.equipment-management.calibration-management': '較正',
   'app.kuaizhizao.menu.tooling-management': 'ツーリング',
@@ -4870,7 +5255,8 @@ export default {
   'app.kuaizhizao.salesDashboard.shortcut.customers': 'お客様',
   'app.kuaizhizao.salesDashboard.tasksTitle': '今日のタスク',
   'app.kuaizhizao.salesDashboard.pendingQuotationsAlert': '見積はレビュー保留',
-  'app.kuaizhizao.salesDashboard.pendingQuotationsDetail': '{{count}} 件の見積がレビューを待っています。',
+  'app.kuaizhizao.salesDashboard.pendingQuotationsDetail':
+    '{{count}} 件の見積がレビューを待っています。',
   'app.kuaizhizao.salesDashboard.noFollowUpToday': '今日はフォローアップの期限はありません',
   'app.kuaizhizao.salesDashboard.pendingFollowUp': '保留',
   'app.kuaizhizao.salesDashboard.noFollowUpContent': 'フォローアップの説明はありません',
@@ -4902,7 +5288,8 @@ export default {
   'app.kuaizhizao.salesDashboard.alertLowBalance': 'バランス',
   'app.kuaizhizao.salesDashboard.alertMilestone': 'マイルストーン',
   'app.kuaizhizao.salesDashboard.frameworkContractsTitle': 'フレームワーク契約',
-  'app.kuaizhizao.salesDashboard.noFrameworkContracts': 'アクティブなフレームワーク契約はありません',
+  'app.kuaizhizao.salesDashboard.noFrameworkContracts':
+    'アクティブなフレームワーク契約はありません',
   'app.kuaizhizao.salesDashboard.remainingAmount': '残り ¥{{amount}}',
   'app.kuaizhizao.salesDashboard.validUntil': '· {{date}}まで',
   'app.kuaizhizao.salesDashboard.unknownProduct': '不明な製品',
@@ -5058,7 +5445,8 @@ export default {
   'app.kuaizhizao.performance.common.messages.loadListFailed': 'リストのロードに失敗しました',
   'app.kuaizhizao.performance.common.messages.deleteSuccess': '削除しました',
   'app.kuaizhizao.performance.common.messages.deleteFailed': '削除に失敗しました',
-  'app.kuaizhizao.performance.common.messages.deleteBatchSuccess': '{{count}} レコードを削除しました',
+  'app.kuaizhizao.performance.common.messages.deleteBatchSuccess':
+    '{{count}} レコードを削除しました',
   'app.kuaizhizao.performance.common.messages.createSuccess': '作成しました',
   'app.kuaizhizao.performance.common.messages.updateSuccess': '更新しました',
   'app.kuaizhizao.performance.common.messages.saveSuccess': '保存しました',
@@ -5114,7 +5502,8 @@ export default {
   'app.kuaizhizao.performance.shifts.columns.standardHours': '標準時間',
   'app.kuaizhizao.performance.shifts.messages.selectFirst': '最初にシフトを選択してください',
   'app.kuaizhizao.performance.shifts.messages.deleteConfirm': 'このシフトを削除しますか?',
-  'app.kuaizhizao.performance.shifts.messages.deleteBatchConfirm': '選択した {{count}} シフトを削除しますか?',
+  'app.kuaizhizao.performance.shifts.messages.deleteBatchConfirm':
+    '選択した {{count}} シフトを削除しますか?',
   'app.kuaizhizao.performance.rosters.label.workGroup': '作業グループ',
   'app.kuaizhizao.performance.rosters.label.employee': '従業員',
   'app.kuaizhizao.performance.rosters.label.rosterWeek': '名簿週間',
@@ -5122,10 +5511,12 @@ export default {
   'app.kuaizhizao.performance.rosters.scope.employee': '従業員',
   'app.kuaizhizao.performance.rosters.placeholder.workGroup': 'ワークグループを選択してください',
   'app.kuaizhizao.performance.rosters.placeholder.employee': '従業員を選択してください',
-  'app.kuaizhizao.performance.rosters.hint.period': '期間: {{start}} ～ {{end}}。スケジュールされていない場合は、セルを空のままにしておきます。休日の場合は「休息」を選択します。',
+  'app.kuaizhizao.performance.rosters.hint.period':
+    '期間: {{start}} ～ {{end}}。スケジュールされていない場合は、セルを空のままにしておきます。休日の場合は「休息」を選択します。',
   'app.kuaizhizao.performance.rosters.messages.loadBaseFailed': '基本データのロードに失敗しました',
   'app.kuaizhizao.performance.rosters.messages.loadRosterFailed': '名簿のロードに失敗しました',
-  'app.kuaizhizao.performance.rosters.messages.selectWorkGroup': '最初にワークグループを選択してください',
+  'app.kuaizhizao.performance.rosters.messages.selectWorkGroup':
+    '最初にワークグループを選択してください',
   'app.kuaizhizao.performance.rosters.messages.selectEmployee': '最初に従業員を選択してください',
   'app.kuaizhizao.performance.rosters.messages.saveSuccess': '名簿が保存されました',
   'app.kuaizhizao.performance.rosters.messages.publishSuccess': '名簿が公開されました',
@@ -5142,10 +5533,12 @@ export default {
   'app.kuaizhizao.performance.employeeConfigs.form.effectiveFrom': '有効開始日',
   'app.kuaizhizao.performance.employeeConfigs.form.effectiveTo': '有効期限',
   'app.kuaizhizao.performance.employeeConfigs.columns.hourlyRate': '時間当たり料金 (CNY/時間)',
-  'app.kuaizhizao.performance.employeeConfigs.columns.defaultPieceRate': '既定の個数レート (CNY/個)',
+  'app.kuaizhizao.performance.employeeConfigs.columns.defaultPieceRate':
+    '既定の個数レート (CNY/個)',
   'app.kuaizhizao.performance.employeeConfigs.columns.baseSalary': '基本給 (CNY/月)',
   'app.kuaizhizao.performance.employeeConfigs.messages.deleteConfirm': 'この設定を削除しますか?',
-  'app.kuaizhizao.performance.employeeConfigs.messages.deleteBatchConfirm': '選択した {{count}} 構成を削除しますか?',
+  'app.kuaizhizao.performance.employeeConfigs.messages.deleteBatchConfirm':
+    '選択した {{count}} 構成を削除しますか?',
   'app.kuaizhizao.performance.hourlyRates.pageTitle': '時間当たり料金',
   'app.kuaizhizao.performance.hourlyRates.createButton': '新しい時給',
   'app.kuaizhizao.performance.hourlyRates.modal.createTitle': '新しい時給',
@@ -5153,15 +5546,18 @@ export default {
   'app.kuaizhizao.performance.hourlyRates.columns.rate': '時間当たり料金 (CNY/時間)',
   'app.kuaizhizao.performance.hourlyRates.form.rate': '時間当たり料金 (CNY/時間)',
   'app.kuaizhizao.performance.hourlyRates.messages.deleteConfirm': 'このレートを削除しますか?',
-  'app.kuaizhizao.performance.hourlyRates.messages.deleteBatchConfirm': '選択した {{count}} 個の時給を削除しますか?',
+  'app.kuaizhizao.performance.hourlyRates.messages.deleteBatchConfirm':
+    '選択した {{count}} 個の時給を削除しますか?',
   'app.kuaizhizao.performance.kpi.pageTitle': 'KPIの定義',
   'app.kuaizhizao.performance.kpi.createButton': '新しい KPI の定義',
   'app.kuaizhizao.performance.kpi.modal.createTitle': '新しいKPI',
   'app.kuaizhizao.performance.kpi.modal.editTitle': 'KPIの編集',
   'app.kuaizhizao.performance.kpi.form.formulaJson': '数式構成 (JSON)',
-  'app.kuaizhizao.performance.kpi.form.formulaPlaceholder': '品質/効率/出席/出力の例: {"targets":{"min_rate":0.95}}\\nカスタム数式: {"expression":"quality_rate * 100"}',
+  'app.kuaizhizao.performance.kpi.form.formulaPlaceholder':
+    '品質/効率/出席/出力の例: {"targets":{"min_rate":0.95}}\\nカスタム数式: {"expression":"quality_rate * 100"}',
   'app.kuaizhizao.performance.kpi.messages.deleteConfirm': 'この KPI を削除しますか?',
-  'app.kuaizhizao.performance.kpi.messages.deleteBatchConfirm': '選択した {{count}} 個の KPI 定義を削除しますか?',
+  'app.kuaizhizao.performance.kpi.messages.deleteBatchConfirm':
+    '選択した {{count}} 個の KPI 定義を削除しますか?',
   'app.kuaizhizao.performance.summaries.pageTitle': 'パフォーマンスの概要',
   'app.kuaizhizao.performance.summaries.actions.calculate': 'パフォーマンスの計算',
   'app.kuaizhizao.performance.summaries.actions.batchConfirm': '一括確認',
@@ -5169,7 +5565,8 @@ export default {
   'app.kuaizhizao.performance.summaries.actions.detail': '詳細',
   'app.kuaizhizao.performance.summaries.placeholder.period': '期間',
   'app.kuaizhizao.performance.summaries.placeholder.employee': '従業員',
-  'app.kuaizhizao.performance.summaries.modal.detailTitle': 'パフォーマンスの詳細 - {{name}} {{period}}',
+  'app.kuaizhizao.performance.summaries.modal.detailTitle':
+    'パフォーマンスの詳細 - {{name}} {{period}}',
   'app.kuaizhizao.performance.summaries.sections.kpiScores': 'KPIの内訳',
   'app.kuaizhizao.performance.summaries.sections.reportingItems': 'レポートの詳細',
   'app.kuaizhizao.performance.summaries.columns.kpiCode': 'KPI',
@@ -5185,7 +5582,8 @@ export default {
   'app.kuaizhizao.performance.summaries.messages.confirmFailed': '確認に失敗しました',
   'app.kuaizhizao.performance.summaries.messages.reopenSuccess': '再計算のために再開されました',
   'app.kuaizhizao.performance.summaries.messages.reopenFailed': '再オープンに失敗しました',
-  'app.kuaizhizao.performance.summaries.messages.batchConfirmSuccess': '{{confirmed}} レコードを確認しましたが、{{skipped}} をスキップしました',
+  'app.kuaizhizao.performance.summaries.messages.batchConfirmSuccess':
+    '{{confirmed}} レコードを確認しましたが、{{skipped}} をスキップしました',
   'app.kuaizhizao.performance.summaries.messages.batchConfirmFailed': 'バッチ確認に失敗しました',
   'app.kuaizhizao.performance.summaries.messages.exportFailed': 'エクスポートに失敗しました',
   'app.kuaizhizao.performance.reports.columns.workerName': '従業員',
@@ -5215,11 +5613,14 @@ export default {
   'app.kuaizhizao.salesOrder.edit': '受注の編集',
   'app.kuaizhizao.salesOrder.detail': '受注の詳細',
   'app.kuaizhizao.salesOrder.entityName': '受注',
-  'app.kuaizhizao.salesOrder.deleteConfirm': '選択した {{count}} 件の受注を削除してもよろしいですか?この操作は元に戻すことができません。',
+  'app.kuaizhizao.salesOrder.deleteConfirm':
+    '選択した {{count}} 件の受注を削除してもよろしいですか?この操作は元に戻すことができません。',
   'app.kuaizhizao.salesOrder.deleteSuccess': '{{count}} 個の受注が削除しました',
-  'app.kuaizhizao.salesOrder.deletePartial': '削除が完了しました: {{success}} は成功しました、{{failed}} は失敗しました',
+  'app.kuaizhizao.salesOrder.deletePartial':
+    '削除が完了しました: {{success}} は成功しました、{{failed}} は失敗しました',
   'app.kuaizhizao.salesOrder.syncSuccess': '{{count}} 件の受注を同期しました',
-  'app.kuaizhizao.salesOrder.importSuccess': 'インポート完了！ {{count}}件の受注を正常にインポートしました',
+  'app.kuaizhizao.salesOrder.importSuccess':
+    'インポート完了！ {{count}}件の受注を正常にインポートしました',
   'app.kuaizhizao.salesOrder.detailFailed': '受注の詳細を取得できませんでした',
   'app.kuaizhizao.salesOrder.itemsRequired': '少なくとも 1 つの注文項目を追加してください',
   'app.kuaizhizao.salesOrder.saveDraft': 'ドラフトとして保存',
@@ -5229,7 +5630,8 @@ export default {
   'app.kuaizhizao.salesOrder.pushConfirm': 'この受注を計算を要求するためにプッシュしますか?',
   'app.kuaizhizao.salesOrder.pushSuccess': '正常にプッシュされ、需要計算タスクが作成されました',
   'app.kuaizhizao.salesOrder.withdrawTitle': '計算からの撤退',
-  'app.kuaizhizao.salesOrder.withdrawConfirm': 'この受注を需要計算から取り消しますか?監査されたままになり、再度プッシュすることができます。',
+  'app.kuaizhizao.salesOrder.withdrawConfirm':
+    'この受注を需要計算から取り消しますか?監査されたままになり、再度プッシュすることができます。',
   'app.kuaizhizao.salesOrder.withdrawSuccess': '正常に出金されました',
   'app.kuaizhizao.salesOrder.submitConfirmAudit': 'この受注を送信しますか?承認プロセスに入ります。',
   'app.kuaizhizao.salesOrder.submitConfirmAuto': 'この受注を送信しますか?自動承認されます。',
@@ -5240,7 +5642,8 @@ export default {
   'app.kuaizhizao.salesOrder.taxExclusive': '税別',
   'app.kuaizhizao.salesOrder.taxInclusive': '税込み',
   'app.kuaizhizao.salesOrder.discountAmount': '注文割引',
-  'app.kuaizhizao.salesOrder.discountAmountHint': '明細単価は変更せず、税込合計から差し引く一括値引',
+  'app.kuaizhizao.salesOrder.discountAmountHint':
+    '明細単価は変更せず、税込合計から差し引く一括値引',
   'app.kuaizhizao.salesOrder.amountAfterDiscount': '値引後金額',
   'app.kuaizhizao.salesOrder.amountAfterDiscountHint': '税込合計 − 一括値引',
   'app.kuaizhizao.salesOrder.orderItems': '注文品',
@@ -5258,7 +5661,8 @@ export default {
   'app.kuaizhizao.salesOrder.batch': 'バッチ',
   'app.kuaizhizao.salesOrder.taxAmount': '税額',
   'app.kuaizhizao.salesOrder.inclAmount': '含む額',
-  'app.kuaizhizao.salesOrder.inclAmountPlaceholder': 'を含めて入力してください。除外計算を逆算します。',
+  'app.kuaizhizao.salesOrder.inclAmountPlaceholder':
+    'を含めて入力してください。除外計算を逆算します。',
   'app.kuaizhizao.salesOrder.subtotal': '小計',
   'app.kuaizhizao.salesOrder.totalAmount': '合計',
   'app.kuaizhizao.salesOrder.addItem': 'アイテムの追加',
@@ -5278,7 +5682,8 @@ export default {
   'app.kuaizhizao.salesOrder.materialPickerSourceType': 'ソース',
   'app.kuaizhizao.salesOrder.materialPickerLoadGroupFailed': 'カテゴリの読み込みに失敗しました',
   'app.kuaizhizao.salesOrder.materialPickerLoadListFailed': '素材の読み込みに失敗しました',
-  'app.kuaizhizao.salesOrder.materialPickerNoneSelected': '少なくとも 1 つのマテリアルを選択してください',
+  'app.kuaizhizao.salesOrder.materialPickerNoneSelected':
+    '少なくとも 1 つのマテリアルを選択してください',
   'app.kuaizhizao.salesOrder.materialPickerAdded': '{{count}} 行を追加しました',
   'app.kuaizhizao.salesOrder.importItemsTitle': 'オーダーアイテムのインポート',
   'app.kuaizhizao.salesOrder.syncFromDataset': 'データセットからの受注を同期する',
@@ -5306,7 +5711,8 @@ export default {
   'app.kuaizhizao.salesOrder.confirmDelete': '削除の確認',
   'app.kuaizhizao.salesOrder.material': '材料',
   'app.kuaizhizao.salesOrder.variantAttributes': '変異体',
-  'app.kuaizhizao.salesOrder.variantAttributesPlaceholder': '項目を設定します: 例: {"カラー":"レッド","サイズ":"M"}',
+  'app.kuaizhizao.salesOrder.variantAttributesPlaceholder':
+    '項目を設定します: 例: {"カラー":"レッド","サイズ":"M"}',
   'app.kuaizhizao.salesOrder.selectVariantSku': 'SKUの選択',
   'app.kuaizhizao.salesOrder.selectVariantSkuTitle': 'バリエーション SKU を選択してください',
   'app.kuaizhizao.salesOrder.setVariantAttrs': 'セットバリアント',
@@ -5328,24 +5734,31 @@ export default {
   'app.kuaizhizao.salesOrder.reviewStatus': 'レビューステータス',
   'app.kuaizhizao.salesOrder.lifecycle': 'ライフサイクル',
   'app.kuaizhizao.salesOrder.notes': '注意事項',
-  'app.kuaizhizao.salesOrder.importSuccessItems': '{{count}} 個のアイテムを正常にインポートしました',
+  'app.kuaizhizao.salesOrder.importSuccessItems':
+    '{{count}} 個のアイテムを正常にインポートしました',
   'app.kuaizhizao.salesOrder.okDelete': '削除の確認',
   'app.kuaizhizao.salesOrder.deleteFailed': '削除に失敗しました',
   'app.kuaizhizao.salesOrder.syncFailed': '同期に失敗しました',
   'app.kuaizhizao.salesOrder.operationFailed': '操作が失敗しました',
   'app.kuaizhizao.salesOrder.completeRequired': '必須項目に入力してください',
-  'app.kuaizhizao.quotation.validLineHint': '少なくとも 1 つの有効な行を追加してください (材料、数量、および単価が 0 より大きい)',
-  'app.kuaizhizao.salesOrder.orderUpdatedAndAutoApproved': '注文が更新され、自動承認されました。 {{syncTip}}',
-  'app.kuaizhizao.salesOrder.orderCreatedAndAutoApproved': '注文が作成され、自動承認されました。 {{syncTip}}',
+  'app.kuaizhizao.quotation.validLineHint':
+    '少なくとも 1 つの有効な行を追加してください (材料、数量、および単価が 0 より大きい)',
+  'app.kuaizhizao.salesOrder.orderUpdatedAndAutoApproved':
+    '注文が更新され、自動承認されました。 {{syncTip}}',
+  'app.kuaizhizao.salesOrder.orderCreatedAndAutoApproved':
+    '注文が作成され、自動承認されました。 {{syncTip}}',
   'app.kuaizhizao.salesOrder.orderResubmitted': '注文は再​​送信され、承認待ちです',
   'app.kuaizhizao.salesOrder.orderCreatedAndSubmitted': '注文が作成および送信され、承認待ちです',
-  'app.kuaizhizao.salesOrder.saveSuccessSubmitFailed': '注文は保存されましたが、送信に失敗しました: {{message}}',
+  'app.kuaizhizao.salesOrder.saveSuccessSubmitFailed':
+    '注文は保存されましたが、送信に失敗しました: {{message}}',
   'app.kuaizhizao.salesOrder.unknownError': '不明なエラー',
-  'app.kuaizhizao.salesOrder.demandSyncTip': 'リンクされたデマンドに同期されます。すでに計算にプッシュされている場合は、デマンド計算を再実行してください。',
+  'app.kuaizhizao.salesOrder.demandSyncTip':
+    'リンクされたデマンドに同期されます。すでに計算にプッシュされている場合は、デマンド計算を再実行してください。',
   'app.kuaizhizao.salesOrder.loadPreviewFailed': 'プレビューの読み込みに失敗しました',
   'app.kuaizhizao.salesOrder.pushFailed': 'プッシュに失敗しました',
   'app.kuaizhizao.salesOrder.pushToShipmentTitle': 'プッシュ出荷通知',
-  'app.kuaizhizao.salesOrder.pushToShipmentConfirm': 'この受注を出荷通知にプッシュしますか?倉庫には自動的に通知が送信され、保留の出荷注文が作成されます。',
+  'app.kuaizhizao.salesOrder.pushToShipmentConfirm':
+    'この受注を出荷通知にプッシュしますか?倉庫には自動的に通知が送信され、保留の出荷注文が作成されます。',
   'app.kuaizhizao.salesOrder.shipmentNoticeCreated': '出荷通知が作成され、倉庫に通知されました',
   'app.kuaizhizao.salesOrder.pushToInvoiceTitle': '売上請求書へのプッシュ',
   'app.kuaizhizao.salesOrder.pushToInvoiceConfirm': 'この受注を販売請求書にプッシュしますか?',
@@ -5358,7 +5771,8 @@ export default {
   'app.kuaizhizao.salesOrder.createFailed': '作成に失敗しました',
   'app.kuaizhizao.salesOrder.importErrorDetail': 'インポートエラーの詳細',
   'app.kuaizhizao.salesOrder.batchImportFailed': 'バッチインポートに失敗しました',
-  'app.kuaizhizao.salesOrder.noValidData': '有効なデータが検出されませんでした (材料コードが空でないことを確認してください)',
+  'app.kuaizhizao.salesOrder.noValidData':
+    '有効なデータが検出されませんでした (材料コードが空でないことを確認してください)',
   'app.kuaizhizao.salesOrder.loadMaterialsFailed': '素材の読み込みに失敗しました',
   'app.kuaizhizao.salesOrder.loadCustomersFailed': '顧客の読み込みに失敗しました',
   'app.kuaizhizao.salesOrder.loadUsersFailed': 'ユーザーのロードに失敗しました',
@@ -5386,7 +5800,8 @@ export default {
   'app.kuaizhizao.salesOrder.reminderModalTitle': 'リマインダーの送信',
   'app.kuaizhizao.salesOrder.reminderSend': '送信',
   'app.kuaizhizao.salesOrder.reminderRecipient': '受信者',
-  'app.kuaizhizao.salesOrder.reminderRecipientPlaceholder': 'リマインドするユーザーを選択してください',
+  'app.kuaizhizao.salesOrder.reminderRecipientPlaceholder':
+    'リマインドするユーザーを選択してください',
   'app.kuaizhizao.salesOrder.reminderRecipientRequired': '受信者を選択してください',
   'app.kuaizhizao.salesOrder.reminderAction': 'アクション',
   'app.kuaizhizao.salesOrder.reminderActionPlaceholder': 'リマインダーアクションを選択してください',
@@ -5416,11 +5831,13 @@ export default {
   'app.kuaizhizao.salesOrder.lifecycleClosed': '閉店',
   'app.kuaizhizao.salesOrder.batchClose': 'バッチクローズ',
   'app.kuaizhizao.salesOrder.batchCloseConfirmTitle': 'バッチ終了の確認',
-  'app.kuaizhizao.salesOrder.batchCloseConfirmDescription': '残りの未納品または未執行の数量は履行されません。選択した {{count}} 件の受注を閉じますか?',
+  'app.kuaizhizao.salesOrder.batchCloseConfirmDescription':
+    '残りの未納品または未執行の数量は履行されません。選択した {{count}} 件の受注を閉じますか?',
   'app.kuaizhizao.salesOrder.lifecycleConfirmed': '確認済み',
   'app.kuaizhizao.salesOrder.importHeaderCustomerId': '顧客ID',
   'app.kuaizhizao.salesOrder.importHeaderSalesmanId': 'セールスマンID',
-  'app.kuaizhizao.salesOrder.importPartialSuccess': 'インポートが完了しました: {{success}} は成功しました、{{failed}} は失敗しました',
+  'app.kuaizhizao.salesOrder.importPartialSuccess':
+    'インポートが完了しました: {{success}} は成功しました、{{failed}} は失敗しました',
   'app.kuaizhizao.salesOrder.importRowError': '行 {{row}}: {{error}}',
   'app.kuaizhizao.salesOrder.exportSuccess': '{{count}} レコードをエクスポートしました',
   'app.kuaizhizao.salesOrder.importExampleCustomer': '顧客A',
@@ -5475,40 +5892,52 @@ export default {
   'app.kuaizhizao.purchaseRequisition.col.converted': '変換された',
   'app.kuaizhizao.purchaseRequisition.convertedYes': 'はい',
   'app.kuaizhizao.purchaseRequisition.convertedNo': 'いいえ',
-  'app.kuaizhizao.purchaseRequisition.workflowRevokeConfirm': '取り消し後、ステータスは審査保留に戻ります。審査のために再送信できます。',
+  'app.kuaizhizao.purchaseRequisition.workflowRevokeConfirm':
+    '取り消し後、ステータスは審査保留に戻ります。審査のために再送信できます。',
   'app.kuaizhizao.purchaseRequisition.submitTitle': '購入申請書の送信',
-  'app.kuaizhizao.purchaseRequisition.submitContentAudit': '送信後、レビュー ワークフローに入ります。続く？',
-  'app.kuaizhizao.purchaseRequisition.submitContentAuto': '送信後、すぐに有効になります (審査はありません)。続く？',
+  'app.kuaizhizao.purchaseRequisition.submitContentAudit':
+    '送信後、レビュー ワークフローに入ります。続く？',
+  'app.kuaizhizao.purchaseRequisition.submitContentAuto':
+    '送信後、すぐに有効になります (審査はありません)。続く？',
   'app.kuaizhizao.purchaseRequisition.confirmDelete': '削除の確認',
   'app.kuaizhizao.purchaseRequisition.confirmDeleteContent': '購買依頼 {{code}} を削除しますか?',
-  'app.kuaizhizao.purchaseRequisition.confirmBatchDelete': '選択した {{count}} 個の購入要求を削除しますか?',
-  'app.kuaizhizao.purchaseRequisition.importNoValidData': '有効なデータが見つかりません (材料コードは空であってはなりません)',
+  'app.kuaizhizao.purchaseRequisition.confirmBatchDelete':
+    '選択した {{count}} 個の購入要求を削除しますか?',
+  'app.kuaizhizao.purchaseRequisition.importNoValidData':
+    '有効なデータが見つかりません (材料コードは空であってはなりません)',
   'app.kuaizhizao.purchaseRequisition.onlyDraftEditable': '編集できるのは下書きの購買依頼のみです',
   'app.kuaizhizao.purchaseRequisition.loadFailed': '購入要求の読み込みに失敗しました',
   'app.kuaizhizao.purchaseRequisition.detailFailed': '詳細のロードに失敗しました',
   'app.kuaizhizao.purchaseRequisition.openFailed': '購入申請書を開くことができませんでした',
-  'app.kuaizhizao.purchaseRequisition.atLeastOneItem': '少なくとも 1 つの有効な購買依頼明細を追加してください',
+  'app.kuaizhizao.purchaseRequisition.atLeastOneItem':
+    '少なくとも 1 つの有効な購買依頼明細を追加してください',
   'app.kuaizhizao.purchaseRequisition.selectFirst': '最初に購入要求を選択してください',
   'app.kuaizhizao.purchaseRequisition.batchSubmitSuccess': '{{count}} 件の購入要求を送信しました',
   'app.kuaizhizao.purchaseRequisition.batchSubmitPartial': '{{count}} 件の送信に失敗しました',
   'app.kuaizhizao.purchaseRequisition.batchApproveSuccess': '{{count}} 件の購入要求を承認しました',
   'app.kuaizhizao.purchaseRequisition.batchApprovePartial': '{{count}} 件の承認に失敗しました',
-  'app.kuaizhizao.purchaseRequisition.batchWithdrawSuccess': '{{count}} 件の購入申請のレビューを取り下げました',
+  'app.kuaizhizao.purchaseRequisition.batchWithdrawSuccess':
+    '{{count}} 件の購入申請のレビューを取り下げました',
   'app.kuaizhizao.purchaseRequisition.batchWithdrawPartial': '{{count}} 件の出金に失敗しました',
   'app.kuaizhizao.purchaseRequisition.batchSubmit': 'バッチ送信',
   'app.kuaizhizao.purchaseRequisition.batchApprove': '一括承認',
   'app.kuaizhizao.purchaseRequisition.batchWithdraw': '一括引き出しレビュー',
-  'app.kuaizhizao.purchaseRequisition.maintainSupplierFirst': '発注書を送信する前にサプライヤーのマスターデータを維持する',
-  'app.kuaizhizao.purchaseRequisition.noPushLines': '押し込む行はありません。すべての明細はすでに発注書に変換されています',
+  'app.kuaizhizao.purchaseRequisition.maintainSupplierFirst':
+    '発注書を送信する前にサプライヤーのマスターデータを維持する',
+  'app.kuaizhizao.purchaseRequisition.noPushLines':
+    '押し込む行はありません。すべての明細はすでに発注書に変換されています',
   'app.kuaizhizao.purchaseRequisition.pushPOTitle': 'プッシュ発注書',
   'app.kuaizhizao.purchaseRequisition.selectPushLines': 'プッシュする行を選択してください',
-  'app.kuaizhizao.purchaseRequisition.selectLineSupplier': '選択した各明細のサプライヤーを選択してください',
+  'app.kuaizhizao.purchaseRequisition.selectLineSupplier':
+    '選択した各明細のサプライヤーを選択してください',
   'app.kuaizhizao.purchaseRequisition.pushSuccess': 'プッシュが成功しました',
   'app.kuaizhizao.purchaseRequisition.pushFailed': 'プッシュに失敗しました',
   'app.kuaizhizao.purchaseRequisition.viewPurchaseOrder': '{{code}} を見る',
-  'app.kuaizhizao.purchaseRequisition.noInquiryLines': '問い合わせる列はありません。すべての明細はすでに発注書に変換されています',
+  'app.kuaizhizao.purchaseRequisition.noInquiryLines':
+    '問い合わせる列はありません。すべての明細はすでに発注書に変換されています',
   'app.kuaizhizao.purchaseRequisition.pushInquiryTitle': 'プッシュ問い合わせ',
-  'app.kuaizhizao.purchaseRequisition.pushInquiryContent': '{{count}} 個の未変換明細に対する問い合わせを作成します。続く？',
+  'app.kuaizhizao.purchaseRequisition.pushInquiryContent':
+    '{{count}} 個の未変換明細に対する問い合わせを作成します。続く？',
   'app.kuaizhizao.purchaseRequisition.inquiryCreated': 'お問い合わせ {{code}} が作成されました',
   'app.kuaizhizao.purchaseRequisition.inquiryCreateFailed': 'お問い合わせの作成に失敗しました',
   'app.kuaizhizao.purchaseRequisition.pushPO': 'プッシュ発注書',
@@ -5518,8 +5947,10 @@ export default {
   'app.kuaizhizao.purchaseRequisition.fixFailed': 'ステータスを修正できませんでした',
   'app.kuaizhizao.purchaseRequisition.detailTitle': '購入要求 - {{code}}',
   'app.kuaizhizao.purchaseRequisition.form.code': '申請番号',
-  'app.kuaizhizao.purchaseRequisition.form.codeDraftLocked': '下書きを保存した後はコードを変更できません',
-  'app.kuaizhizao.purchaseRequisition.form.codeAuto': 'コードルールごとに自動生成されます。編集可能',
+  'app.kuaizhizao.purchaseRequisition.form.codeDraftLocked':
+    '下書きを保存した後はコードを変更できません',
+  'app.kuaizhizao.purchaseRequisition.form.codeAuto':
+    'コードルールごとに自動生成されます。編集可能',
   'app.kuaizhizao.purchaseRequisition.form.codeManual': '申請番号を入力してください。',
   'app.kuaizhizao.purchaseRequisition.form.codeRequired': '申請番号を入力してください。',
   'app.kuaizhizao.purchaseRequisition.form.name': '要求名',
@@ -5527,9 +5958,11 @@ export default {
   'app.kuaizhizao.purchaseRequisition.form.date': '申請日',
   'app.kuaizhizao.purchaseRequisition.form.requiredDate': '配達希望日',
   'app.kuaizhizao.purchaseRequisition.form.applicant': '申請者',
-  'app.kuaizhizao.purchaseRequisition.form.applicantHint': '現在ログインしているユーザーとして保存されました',
+  'app.kuaizhizao.purchaseRequisition.form.applicantHint':
+    '現在ログインしているユーザーとして保存されました',
   'app.kuaizhizao.purchaseRequisition.form.itemsTitle': '購買依頼明細',
-  'app.kuaizhizao.purchaseRequisition.form.itemsRequired': '少なくとも 1 つの購買依頼明細を追加してください',
+  'app.kuaizhizao.purchaseRequisition.form.itemsRequired':
+    '少なくとも 1 つの購買依頼明細を追加してください',
   'app.kuaizhizao.purchaseRequisition.form.importItems': 'インポート行',
   'app.kuaizhizao.purchaseRequisition.form.addLine': '行を追加',
   'app.kuaizhizao.purchaseRequisition.form.material': '材料',
@@ -5564,16 +5997,21 @@ export default {
   'app.kuaizhizao.purchaseRequisition.pull.canCreate': '利用可能',
   'app.kuaizhizao.purchaseRequisition.pull.cannotCreate': '利用不可',
   'app.kuaizhizao.purchaseRequisition.pull.noPurchaseItems': '購入可能なラインはありません',
-  'app.kuaizhizao.purchaseRequisition.pull.requisitionExists': '申請はすでに作成されているか、現在は変換できません',
+  'app.kuaizhizao.purchaseRequisition.pull.requisitionExists':
+    '申請はすでに作成されているか、現在は変換できません',
   'app.kuaizhizao.purchaseRequisition.pull.selectComputation': 'デマンド計算を選択してください',
-  'app.kuaizhizao.purchaseRequisition.pull.computationUnavailable': '現在、この計算を使用して購入要求を作成することはできません',
+  'app.kuaizhizao.purchaseRequisition.pull.computationUnavailable':
+    '現在、この計算を使用して購入要求を作成することはできません',
   'app.kuaizhizao.purchaseRequisition.pull.success': '需要計算から作成された購買依頼',
   'app.kuaizhizao.purchaseRequisition.pull.failed': '需要計算から購買依頼を作成できませんでした',
   'app.kuaizhizao.purchaseRequisition.convert.batchSupplier': 'バッチ既定サプライヤー',
-  'app.kuaizhizao.purchaseRequisition.convert.batchPlaceholder': '選択したサプライヤーをチェックされた行に適用します',
+  'app.kuaizhizao.purchaseRequisition.convert.batchPlaceholder':
+    '選択したサプライヤーをチェックされた行に適用します',
   'app.kuaizhizao.purchaseRequisition.convert.applyToSelected': '選択した行に適用',
-  'app.kuaizhizao.purchaseRequisition.convert.noSuppliers': 'サプライヤーはいません。まずサプライヤーのマスターデータを保守します。',
-  'app.kuaizhizao.purchaseRequisition.convert.persistSupplier': '選択したサプライヤーを材料の既定のサプライヤーに書き戻します (購入品目のみ)',
+  'app.kuaizhizao.purchaseRequisition.convert.noSuppliers':
+    'サプライヤーはいません。まずサプライヤーのマスターデータを保守します。',
+  'app.kuaizhizao.purchaseRequisition.convert.persistSupplier':
+    '選択したサプライヤーを材料の既定のサプライヤーに書き戻します (購入品目のみ)',
   'app.kuaizhizao.purchaseRequisition.convert.col.supplier': 'サプライヤー',
   'app.kuaizhizao.purchaseRequisition.convert.col.demandQty': '需要数量',
   'app.kuaizhizao.purchaseRequisition.convert.col.pushedQty': 'プッシュされた数量',
@@ -5621,27 +6059,33 @@ export default {
   'app.kuaizhizao.purchaseOrder.detailFailed': '発注書の詳細をロードできませんでした',
   'app.kuaizhizao.purchaseOrder.listFailed': '発注書リストの読み込みに失敗しました',
   'app.kuaizhizao.purchaseOrder.loadRequisitionListFailed': '購買要求リストのロードに失敗しました',
-  'app.kuaizhizao.purchaseOrder.allReceived': '完全に受け取りました。プッシュできる回線がありません',
+  'app.kuaizhizao.purchaseOrder.allReceived':
+    '完全に受け取りました。プッシュできる回線がありません',
   'app.kuaizhizao.purchaseOrder.pushReceiptSuccess': '購入時の領収書が作成されました: {{code}}',
   'app.kuaizhizao.purchaseOrder.pushReceiptFailed': '購入レシートのプッシュに失敗しました',
   'app.kuaizhizao.purchaseOrder.pushNoticeSuccess': '受領通知が作成されました: {{code}}',
   'app.kuaizhizao.purchaseOrder.pushNoticeFailed': '受信通知のプッシュに失敗しました',
-  'app.kuaizhizao.purchaseOrder.pushInvoiceSuccess': '購入請求書が作成されました: {{code}}。 Finance で請求書の詳細を完了します。',
+  'app.kuaizhizao.purchaseOrder.pushInvoiceSuccess':
+    '購入請求書が作成されました: {{code}}。 Finance で請求書の詳細を完了します。',
   'app.kuaizhizao.purchaseOrder.pushInvoiceFailed': '購入請求書のプッシュに失敗しました',
   'app.kuaizhizao.purchaseOrder.noReturnableQty': '返品不可（入荷数が0）',
   'app.kuaizhizao.purchaseOrder.returnWarehouseRequired': '最初に返品倉庫 ID を入力してください',
   'app.kuaizhizao.purchaseOrder.pushReturnSuccess': '購入返品が作成されました: {{code}}',
   'app.kuaizhizao.purchaseOrder.pushReturnFailed': '購入返品のプッシュに失敗しました',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsUnreceived': '{{material}} の受入数量は未受入数量 {{max}} を超えることはできません',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsNotice': '{{material}} の数量は未受領数量 {{max}} を超えることはできないことに注意してください',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsReturnable': '{{material}} の返品数量は返品可能数量 {{max}} を超えることはできません',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsUnreceived':
+    '{{material}} の受入数量は未受入数量 {{max}} を超えることはできません',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsNotice':
+    '{{material}} の数量は未受領数量 {{max}} を超えることはできないことに注意してください',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsReturnable':
+    '{{material}} の返品数量は返品可能数量 {{max}} を超えることはできません',
   'app.kuaizhizao.purchaseOrder.push.receiptNotice': '受領通知',
   'app.kuaizhizao.purchaseOrder.push.receipt': '購入時のレシート',
   'app.kuaizhizao.purchaseOrder.push.invoice': '購入請求書',
   'app.kuaizhizao.purchaseOrder.push.return': '購入返品',
   'app.kuaizhizao.purchaseOrder.push.dropdown': '押す',
   'app.kuaizhizao.purchaseOrder.deleteTitle': '発注書の削除',
-  'app.kuaizhizao.purchaseOrder.deleteContent': '発注書「{{code}}」を削除しますか?これを元に戻すことはできません。',
+  'app.kuaizhizao.purchaseOrder.deleteContent':
+    '発注書「{{code}}」を削除しますか?これを元に戻すことはできません。',
   'app.kuaizhizao.purchaseOrder.deleteSuccess': '発注書が削除されました',
   'app.kuaizhizao.purchaseOrder.deleteFailed': '発注書の削除に失敗しました',
   'app.kuaizhizao.purchaseOrder.submitTitle': '発注書の送信',
@@ -5653,7 +6097,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.batchSubmitPartial': '{{count}} 件の送信に失敗しました',
   'app.kuaizhizao.purchaseOrder.batchApproveSuccess': '{{count}} 件の発注書が承認されました',
   'app.kuaizhizao.purchaseOrder.batchApprovePartial': '{{count}} 件の承認に失敗しました',
-  'app.kuaizhizao.purchaseOrder.batchPushNoticeSuccess': '{{count}} 件の発注書を受領通知にプッシュしました',
+  'app.kuaizhizao.purchaseOrder.batchPushNoticeSuccess':
+    '{{count}} 件の発注書を受領通知にプッシュしました',
   'app.kuaizhizao.purchaseOrder.batchPushNoticePartial': '{{count}} プッシュに失敗しました',
   'app.kuaizhizao.purchaseOrder.batchSubmit': 'バッチ送信',
   'app.kuaizhizao.purchaseOrder.batchApprove': '一括承認',
@@ -5663,7 +6108,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.syncFailed': '同期に失敗しました',
   'app.kuaizhizao.purchaseOrder.importEmpty': 'インポートデータが空か無効です',
   'app.kuaizhizao.purchaseOrder.importNoRows': 'インポート行なし (行 3 から入力)',
-  'app.kuaizhizao.purchaseOrder.importMissingColumns': '必須列が欠落しています: サプライヤー名、注文日、材料コード、数量',
+  'app.kuaizhizao.purchaseOrder.importMissingColumns':
+    '必須列が欠落しています: サプライヤー名、注文日、材料コード、数量',
   'app.kuaizhizao.purchaseOrder.importValidationTitle': '検証に失敗しました',
   'app.kuaizhizao.purchaseOrder.importValidationIntro': '次の行を修正して、再度インポートします。',
   'app.kuaizhizao.purchaseOrder.importRowError': '行 {{row}}: {{message}}',
@@ -5674,23 +6120,32 @@ export default {
   'app.kuaizhizao.purchaseOrder.importRowMaterialNotFound': 'マテリアルが見つかりません: {{code}}',
   'app.kuaizhizao.purchaseOrder.importNoData': 'インポートするデータがありません',
   'app.kuaizhizao.purchaseOrder.importingTitle': '発注書のインポート',
-  'app.kuaizhizao.purchaseOrder.importPartialTitle': 'インポートが完了しました (部分的に失敗しました)',
-  'app.kuaizhizao.purchaseOrder.importPartialSummary': '結果: {{success}} は成功し、{{failed}} は失敗しました',
+  'app.kuaizhizao.purchaseOrder.importPartialTitle':
+    'インポートが完了しました (部分的に失敗しました)',
+  'app.kuaizhizao.purchaseOrder.importPartialSummary':
+    '結果: {{success}} は成功し、{{failed}} は失敗しました',
   'app.kuaizhizao.purchaseOrder.importPartialRowError': '行 {{row}}: {{error}}',
   'app.kuaizhizao.purchaseOrder.importSuccess': '{{count}} 件の発注書をインポートしました',
   'app.kuaizhizao.purchaseOrder.importFailed': 'インポートに失敗しました',
-  'app.kuaizhizao.purchaseOrder.selectRequisitionLinesFirst': '最初に購買要求明細行を選択してください',
+  'app.kuaizhizao.purchaseOrder.selectRequisitionLinesFirst':
+    '最初に購買要求明細行を選択してください',
   'app.kuaizhizao.purchaseOrder.createdFromRequisition': '{{target}} を作成しました: {{codes}}',
-  'app.kuaizhizao.purchaseOrder.createFromRequisitionFailed': '{{source}} から {{target}} を作成できませんでした',
-  'app.kuaizhizao.purchaseOrder.atLeastOneItem': '少なくとも 1 つの有効な購入明細行 (材料 + 数量) を追加します。',
-  'app.kuaizhizao.purchaseOrder.lineRequiredDateMissing': '行 {{row}}: 必要な配達日を選択してください',
+  'app.kuaizhizao.purchaseOrder.createFromRequisitionFailed':
+    '{{source}} から {{target}} を作成できませんでした',
+  'app.kuaizhizao.purchaseOrder.atLeastOneItem':
+    '少なくとも 1 つの有効な購入明細行 (材料 + 数量) を追加します。',
+  'app.kuaizhizao.purchaseOrder.lineRequiredDateMissing':
+    '行 {{row}}: 必要な配達日を選択してください',
   'app.kuaizhizao.purchaseOrder.updateSuccess': '発注書が更新されました',
   'app.kuaizhizao.purchaseOrder.createSuccess': '発注書が作成されました',
   'app.kuaizhizao.purchaseOrder.saveSubmitAutoApproved': '発注書を保存して送信しました。自動承認',
-  'app.kuaizhizao.purchaseOrder.saveSubmitPending': '発注書が保存され、レビューのために送信されました',
+  'app.kuaizhizao.purchaseOrder.saveSubmitPending':
+    '発注書が保存され、レビューのために送信されました',
   'app.kuaizhizao.purchaseOrder.createSubmitAutoApproved': '発注書を作成して送信しました。自動承認',
-  'app.kuaizhizao.purchaseOrder.createSubmitPending': '発注書を作成し、レビューのために送信しました',
-  'app.kuaizhizao.purchaseOrder.saveSubmitFailed': '保存されましたが、送信に失敗しました: {{message}}。リストの「レビュー用に送信」を選択して再試行してください。',
+  'app.kuaizhizao.purchaseOrder.createSubmitPending':
+    '発注書を作成し、レビューのために送信しました',
+  'app.kuaizhizao.purchaseOrder.saveSubmitFailed':
+    '保存されましたが、送信に失敗しました: {{message}}。リストの「レビュー用に送信」を選択して再試行してください。',
   'app.kuaizhizao.purchaseOrder.saveDraft': '保存',
   'app.kuaizhizao.purchaseOrder.createAndSubmit': '作成して送信',
   'app.kuaizhizao.purchaseOrder.saveAndSubmit': '保存して送信',
@@ -5737,8 +6192,10 @@ export default {
   'app.kuaizhizao.purchaseOrder.importItems.unitPrice': '単価',
   'app.kuaizhizao.purchaseOrder.importItems.requiredDate': '必要な配送',
   'app.kuaizhizao.purchaseOrder.importItems.exampleUnit': '個',
-  'app.kuaizhizao.purchaseOrder.importNoValidData': '有効なデータが見つかりません (材料コードは空であってはなりません)',
-  'app.kuaizhizao.purchaseOrder.orderTypeFallback': '注文タイプ辞書は使用できません。組み込みオプションを使用する',
+  'app.kuaizhizao.purchaseOrder.importNoValidData':
+    '有効なデータが見つかりません (材料コードは空であってはなりません)',
+  'app.kuaizhizao.purchaseOrder.orderTypeFallback':
+    '注文タイプ辞書は使用できません。組み込みオプションを使用する',
   'app.kuaizhizao.purchaseOrder.orderTypeStandard': '通常購入',
   'app.kuaizhizao.purchaseOrder.orderTypeFramework': '枠組み合意',
   'app.kuaizhizao.purchaseOrder.currencyCny': 'CNY (人民元)',
@@ -5755,7 +6212,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.pull.searchPlaceholder': '購買依頼明細 (コード/名前) を検索する',
   'app.kuaizhizao.purchaseOrder.pull.empty': '選択可能な購買明細行がありません',
   'app.kuaizhizao.purchaseOrder.pull.emptySearch': '一致する要求明細行がありません',
-  'app.kuaizhizao.purchaseOrder.pull.selectedSummary': '{{count}} 行が選択されました。ドラフト発注書は、要求書とサプライヤーごとに分割されます。',
+  'app.kuaizhizao.purchaseOrder.pull.selectedSummary':
+    '{{count}} 行が選択されました。ドラフト発注書は、要求書とサプライヤーごとに分割されます。',
   'app.kuaizhizao.purchaseOrder.pull.supplierAssigned': '割り当て済み ({{id}})',
   'app.kuaizhizao.purchaseOrder.pull.supplierPending': '未定 (下書きに記入)',
   'app.kuaizhizao.purchaseOrder.pull.convertedTag': 'PO #{{id}} に変換されました',
@@ -5775,7 +6233,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.empower.dealPrice': '取引価格',
   'app.kuaizhizao.purchaseOrder.empower.purchaseDate': '購入日',
   'app.kuaizhizao.purchaseOrder.empower.select': '選択',
-  'app.kuaizhizao.purchaseOrder.empower.trackingLoadFailed': 'フルフィルメント追跡を読み込めませんでした',
+  'app.kuaizhizao.purchaseOrder.empower.trackingLoadFailed':
+    'フルフィルメント追跡を読み込めませんでした',
   'app.kuaizhizao.purchaseOrder.empower.trackingEmpty': '追跡データなし',
   'app.kuaizhizao.purchaseOrder.empower.noNodeData': 'ステージデータはありません。',
   'app.kuaizhizao.purchaseOrder.empower.overallProgress': '全体的な進捗状況',
@@ -5794,7 +6253,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.landingCost.title': '着陸コストの割り当て - {{code}}',
   'app.kuaizhizao.purchaseOrder.landingCost.confirm': '割り当てる',
   'app.kuaizhizao.purchaseOrder.landingCost.method': '割り当て方法',
-  'app.kuaizhizao.purchaseOrder.landingCost.methodTooltip': '選択したディメンションに応じて合計料金を行に比例的に割り当てます',
+  'app.kuaizhizao.purchaseOrder.landingCost.methodTooltip':
+    '選択したディメンションに応じて合計料金を行に比例的に割り当てます',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByValue': '金額別（価値加重）',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByQuantity': '数量別（数量加重）',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByWeight': '重量による（材料の重量が必要）',
@@ -5806,11 +6266,15 @@ export default {
   'app.kuaizhizao.purchaseOrder.landingCost.feeAmount': '額',
   'app.kuaizhizao.purchaseOrder.landingCost.addFee': '料金項目の追加',
   'app.kuaizhizao.purchaseOrder.landingCost.notesTitle': '注:',
-  'app.kuaizhizao.purchaseOrder.landingCost.note1': '割り当てられた料金は、各行の landing_cost 項目に保存されます。',
+  'app.kuaizhizao.purchaseOrder.landingCost.note1':
+    '割り当てられた料金は、各行の landing_cost 項目に保存されます。',
   'app.kuaizhizao.purchaseOrder.landingCost.note2': '実際の総コストは自動的に再計算されます。',
-  'app.kuaizhizao.purchaseOrder.landingCost.note3': '重量/体積データが欠落している場合、割り当てはラインごとに均等に分割されます。',
-  'app.kuaizhizao.purchaseOrder.landingCost.success': '割り当てられた手数料。路線の着陸コストが更新されました',
-  'app.kuaizhizao.purchaseOrder.landingCost.failed': '割り当てに失敗しました。ネットワークまたはサーバーのログを確認する',
+  'app.kuaizhizao.purchaseOrder.landingCost.note3':
+    '重量/体積データが欠落している場合、割り当てはラインごとに均等に分割されます。',
+  'app.kuaizhizao.purchaseOrder.landingCost.success':
+    '割り当てられた手数料。路線の着陸コストが更新されました',
+  'app.kuaizhizao.purchaseOrder.landingCost.failed':
+    '割り当てに失敗しました。ネットワークまたはサーバーのログを確認する',
   'app.kuaizhizao.purchaseOrder.landingCost.defaultFeeName': '貨物',
   'app.kuaizhizao.purchaseOrder.loadDetailFailed': '発注書の詳細をロードできませんでした',
   'app.kuaizhizao.purchaseOrder.col.orderedQty': '注文数量',
@@ -5843,9 +6307,12 @@ export default {
   'app.kuaizhizao.purchaseOrder.pushNoticeModalTitle': 'プッシュ受信通知',
   'app.kuaizhizao.purchaseOrder.pushReturnModalTitle': 'プッシュして購入返品',
   'app.kuaizhizao.purchaseOrder.confirmPush': 'プッシュの確認',
-  'app.kuaizhizao.purchaseOrder.pushReceiptIntro': '発注書 {{code}} を領収書にプッシュします。行ごとの受領数量を編集します (未受領数量を超えることはできません):',
-  'app.kuaizhizao.purchaseOrder.pushNoticeIntro': '発注書 {{code}} を受領通知にプッシュします。 1 行あたりの通知数量を編集します (未受領数量を超えることはできません):',
-  'app.kuaizhizao.purchaseOrder.pushReturnIntro': '発注書 {{code}} を購入返品にプッシュします。行ごとの返品数量を編集します (受領数量を超えることはできません):',
+  'app.kuaizhizao.purchaseOrder.pushReceiptIntro':
+    '発注書 {{code}} を領収書にプッシュします。行ごとの受領数量を編集します (未受領数量を超えることはできません):',
+  'app.kuaizhizao.purchaseOrder.pushNoticeIntro':
+    '発注書 {{code}} を受領通知にプッシュします。 1 行あたりの通知数量を編集します (未受領数量を超えることはできません):',
+  'app.kuaizhizao.purchaseOrder.pushReturnIntro':
+    '発注書 {{code}} を購入返品にプッシュします。行ごとの返品数量を編集します (受領数量を超えることはできません):',
   'app.kuaizhizao.purchaseOrder.loading': '読み込み中...',
   'app.kuaizhizao.purchaseOrder.returnWarehouseIdPlaceholder': '倉庫IDを返す',
   'app.kuaizhizao.purchaseOrder.returnWarehouseNamePlaceholder': '返品倉庫名 (オプション)',
@@ -5897,7 +6364,8 @@ export default {
   'app.kuaizhizao.purchaseReports.colActualQty': '実際の数量',
   'app.kuaizhizao.purchaseReports.colOntimeRate': '定時率',
   'app.kuaizhizao.productionExecutionDashboard.kpi.pendingScheduling': '保留のスケジュール',
-  'app.kuaizhizao.productionExecutionDashboard.kpi.pendingSchedulingSubtitle': 'リリース待ちの製造指示草案',
+  'app.kuaizhizao.productionExecutionDashboard.kpi.pendingSchedulingSubtitle':
+    'リリース待ちの製造指示草案',
   'app.kuaizhizao.productionExecutionDashboard.kpi.reworkInProgress': '手直し',
   'app.kuaizhizao.productionExecutionDashboard.kpi.inProgress': '進行中',
   'app.kuaizhizao.productionExecutionDashboard.kpi.inProgressSubtitle': 'リリース済み/生産中',
@@ -5944,7 +6412,8 @@ export default {
   'app.kuaizhizao.productionExecutionReports.colSupplier': 'サプライヤー',
   'app.kuaizhizao.productionExecutionReports.colOutsourceQty': '外注数量',
   'app.kuaizhizao.productionExecutionReports.colIssueCode': '発行番号',
-  'app.kuaizhizao.productionExecutionReports.colOutsourceWorkOrder': '作業指示をアウトソーシングする',
+  'app.kuaizhizao.productionExecutionReports.colOutsourceWorkOrder':
+    '作業指示をアウトソーシングする',
   'app.kuaizhizao.productionExecutionReports.colMaterial': '材料',
   'app.kuaizhizao.productionExecutionReports.colIssuedQty': '発行数量',
   'app.kuaizhizao.productionExecutionReports.colReturnedQty': '返品数量',
@@ -6036,8 +6505,10 @@ export default {
   'app.kuaizhizao.productionException.field.actualEndDate': '実際の終了日',
   'app.kuaizhizao.productionException.field.handler': '取り扱い者',
   'app.kuaizhizao.productionException.field.handledAt': '取り扱い場所',
-  'app.kuaizhizao.productionException.placeholder.remarksOptional': '備考を入力します（オプション）',
-  'app.kuaizhizao.productionException.placeholder.handleRemarksOptional': '取り扱い上の注意事項を入力します（オプション）',
+  'app.kuaizhizao.productionException.placeholder.remarksOptional':
+    '備考を入力します（オプション）',
+  'app.kuaizhizao.productionException.placeholder.handleRemarksOptional':
+    '取り扱い上の注意事項を入力します（オプション）',
   'app.kuaizhizao.productionException.label.levelSuffix': '{{level}} レベル',
   'app.kuaizhizao.productionException.label.daysUnit': '{{count}}日',
   'app.kuaizhizao.productionException.message.handleSuccess': '正常に処理されました',
@@ -6046,7 +6517,8 @@ export default {
   'app.kuaizhizao.productionException.message.recordNotFound': '例外レコードが見つかりません',
   'app.kuaizhizao.productionException.message.fetchDetailFailed': '詳細のロードに失敗しました',
   'app.kuaizhizao.productionException.message.goToVisualScheduling': 'ビジュアルスケジュールに移動',
-  'app.kuaizhizao.productionException.message.processRecordNotFound': 'プロセスレコードが見つかりません',
+  'app.kuaizhizao.productionException.message.processRecordNotFound':
+    'プロセスレコードが見つかりません',
   'app.kuaizhizao.productionException.quality.pageTitle': '品質の例外',
   'app.kuaizhizao.productionException.quality.detailTitle': '品質例外 - {{code}}',
   'app.kuaizhizao.productionException.quality.col.problemDescription': '問題の説明',
@@ -6054,7 +6526,8 @@ export default {
   'app.kuaizhizao.productionException.quality.severity.minor': 'マイナー',
   'app.kuaizhizao.productionException.quality.severity.major': '選考科目',
   'app.kuaizhizao.productionException.quality.severity.critical': '致命的',
-  'app.kuaizhizao.productionException.quality.exceptionType.inspectionFailure': '検査に失敗しました',
+  'app.kuaizhizao.productionException.quality.exceptionType.inspectionFailure':
+    '検査に失敗しました',
   'app.kuaizhizao.productionException.quality.exceptionType.processDeviation': 'プロセスの逸脱',
   'app.kuaizhizao.productionException.quality.exceptionType.customerComplaint': '顧客からの苦情',
   'app.kuaizhizao.productionException.quality.field.rootCause': '根本的な原因',
@@ -6076,30 +6549,47 @@ export default {
   'app.kuaizhizao.productionException.quality.action.viewNonconformingLedger': '不適合元帳の表示',
   'app.kuaizhizao.productionException.quality.message.start8DSuccess': '8Dレポート始めました',
   'app.kuaizhizao.productionException.quality.message.start8DFailed': '8Dの起動に失敗しました',
-  'app.kuaizhizao.productionException.quality.placeholder.rootCause': '根本原因を入力してください (オプション)',
-  'app.kuaizhizao.productionException.quality.placeholder.correctiveAction': '是正措置を入力してください (オプション)',
-  'app.kuaizhizao.productionException.quality.placeholder.preventiveAction': '予防措置を入力します (オプション)',
-  'app.kuaizhizao.productionException.quality.placeholder.responsiblePerson': '責任者の選択 (オプション)',
-  'app.kuaizhizao.productionException.quality.placeholder.plannedCompletionDate': '完了予定日を選択してください (オプション)',
-  'app.kuaizhizao.productionException.quality.placeholder.verificationResult': '検証結果を入力（オプション）',
+  'app.kuaizhizao.productionException.quality.placeholder.rootCause':
+    '根本原因を入力してください (オプション)',
+  'app.kuaizhizao.productionException.quality.placeholder.correctiveAction':
+    '是正措置を入力してください (オプション)',
+  'app.kuaizhizao.productionException.quality.placeholder.preventiveAction':
+    '予防措置を入力します (オプション)',
+  'app.kuaizhizao.productionException.quality.placeholder.responsiblePerson':
+    '責任者の選択 (オプション)',
+  'app.kuaizhizao.productionException.quality.placeholder.plannedCompletionDate':
+    '完了予定日を選択してください (オプション)',
+  'app.kuaizhizao.productionException.quality.placeholder.verificationResult':
+    '検証結果を入力（オプション）',
   'app.kuaizhizao.productionException.quality.defaultReportTitle': '品質の例外',
   'app.kuaizhizao.productionException.quality.defaultReportSuffix': '8Dレポート',
   'app.kuaizhizao.productionException.materialShortage.pageTitle': '資材不足の例外',
   'app.kuaizhizao.productionException.materialShortage.detailTitle': '資材不足 - {{code}}',
-  'app.kuaizhizao.productionException.materialShortage.modal.handlePurchase': 'ハンドル材料の不足 - 購入',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleSubstitute': 'ハンドル材の不足 - 代替品',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleResolve': 'ハンドル材料不足 - 解決済み',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleCancel': 'ハンドル材料不足 - キャンセル',
+  'app.kuaizhizao.productionException.materialShortage.modal.handlePurchase':
+    'ハンドル材料の不足 - 購入',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleSubstitute':
+    'ハンドル材の不足 - 代替品',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleResolve':
+    'ハンドル材料不足 - 解決済み',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleCancel':
+    'ハンドル材料不足 - キャンセル',
   'app.kuaizhizao.productionException.materialShortage.modal.handleDefault': 'ハンドル材料の不足',
-  'app.kuaizhizao.productionException.materialShortage.placeholder.alternativeMaterial': '代替素材の選択',
-  'app.kuaizhizao.productionException.materialShortage.validation.alternativeMaterialRequired': '代替素材を選択してください',
+  'app.kuaizhizao.productionException.materialShortage.placeholder.alternativeMaterial':
+    '代替素材の選択',
+  'app.kuaizhizao.productionException.materialShortage.validation.alternativeMaterialRequired':
+    '代替素材を選択してください',
   'app.kuaizhizao.productionException.deliveryDelay.pageTitle': '配送遅延の例外',
   'app.kuaizhizao.productionException.deliveryDelay.detailTitle': '配送の遅延 - {{code}}',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleAdjustPlan': '配送遅延の処理 - 計画の調整',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleIncreaseResources': '配信遅延の処理 - リソースの追加',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleExpedite': '配達遅延への対応 - 迅速化',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleResolve': '配信遅延の処理 - 解決済み',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleCancel': '配送遅延の処理 - キャンセル',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleAdjustPlan':
+    '配送遅延の処理 - 計画の調整',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleIncreaseResources':
+    '配信遅延の処理 - リソースの追加',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleExpedite':
+    '配達遅延への対応 - 迅速化',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleResolve':
+    '配信遅延の処理 - 解決済み',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleCancel':
+    '配送遅延の処理 - キャンセル',
   'app.kuaizhizao.productionException.deliveryDelay.modal.handleDefault': '配信遅延の処理',
   'app.kuaizhizao.productionException.process.createButton': '新しい例外プロセス',
   'app.kuaizhizao.productionException.process.detailTitle': '例外処理の詳細',
@@ -6111,27 +6601,39 @@ export default {
   'app.kuaizhizao.productionException.process.modal.resolve': '例外の解決プロセス',
   'app.kuaizhizao.productionException.process.field.exceptionRecord': '例外レコード',
   'app.kuaizhizao.productionException.process.field.targetStep': 'ターゲットステップ',
-  'app.kuaizhizao.productionException.process.validation.exceptionTypeRequired': '例外タイプを選択してください',
-  'app.kuaizhizao.productionException.process.validation.exceptionRecordRequired': '例外レコードを選択してください',
-  'app.kuaizhizao.productionException.process.validation.assigneeRequired': '譲受人を選択してください',
-  'app.kuaizhizao.productionException.process.validation.targetStepRequired': '対象ステップを選択してください',
+  'app.kuaizhizao.productionException.process.validation.exceptionTypeRequired':
+    '例外タイプを選択してください',
+  'app.kuaizhizao.productionException.process.validation.exceptionRecordRequired':
+    '例外レコードを選択してください',
+  'app.kuaizhizao.productionException.process.validation.assigneeRequired':
+    '譲受人を選択してください',
+  'app.kuaizhizao.productionException.process.validation.targetStepRequired':
+    '対象ステップを選択してください',
   'app.kuaizhizao.productionException.process.confirm.cancelTitle': '確認 キャンセル',
-  'app.kuaizhizao.productionException.process.confirm.cancelContent': 'この例外処理をキャンセルしますか?',
-  'app.kuaizhizao.productionException.process.confirm.batchCancel': '選択した {{count}} 件の例外プロセスをキャンセルしますか?',
+  'app.kuaizhizao.productionException.process.confirm.cancelContent':
+    'この例外処理をキャンセルしますか?',
+  'app.kuaizhizao.productionException.process.confirm.batchCancel':
+    '選択した {{count}} 件の例外プロセスをキャンセルしますか?',
   'app.kuaizhizao.productionException.process.message.startSuccess': '例外処理が開始されました',
   'app.kuaizhizao.productionException.process.message.startFailed': '例外処理の開始に失敗しました',
   'app.kuaizhizao.productionException.process.message.assignSuccess': '正常に割り当てられました',
   'app.kuaizhizao.productionException.process.message.assignFailed': '割り当てに失敗しました',
-  'app.kuaizhizao.productionException.process.message.transitionSuccess': 'ステップは正常に移行しました',
-  'app.kuaizhizao.productionException.process.message.transitionFailed': 'ステップ遷移に失敗しました',
+  'app.kuaizhizao.productionException.process.message.transitionSuccess':
+    'ステップは正常に移行しました',
+  'app.kuaizhizao.productionException.process.message.transitionFailed':
+    'ステップ遷移に失敗しました',
   'app.kuaizhizao.productionException.process.message.resolveSuccess': '例外が解決されました',
   'app.kuaizhizao.productionException.process.message.resolveFailed': '解決に失敗しました',
   'app.kuaizhizao.productionException.process.message.cancelSuccess': 'キャンセル',
   'app.kuaizhizao.productionException.process.message.cancelFailed': 'キャンセルに失敗しました',
-  'app.kuaizhizao.productionException.process.message.batchCancelSuccess': '{{count}} 件のレコードがキャンセルされました',
-  'app.kuaizhizao.productionException.process.message.batchCancelPartialSuccess': '{{success}} プロセスをキャンセルしました',
-  'app.kuaizhizao.productionException.process.message.batchCancelPartialFailed': '{{failed}} 件のキャンセルに失敗しました',
-  'app.kuaizhizao.productionException.process.message.selectFirst': '最初に例外プロセスを選択してください',
+  'app.kuaizhizao.productionException.process.message.batchCancelSuccess':
+    '{{count}} 件のレコードがキャンセルされました',
+  'app.kuaizhizao.productionException.process.message.batchCancelPartialSuccess':
+    '{{success}} プロセスをキャンセルしました',
+  'app.kuaizhizao.productionException.process.message.batchCancelPartialFailed':
+    '{{failed}} 件のキャンセルに失敗しました',
+  'app.kuaizhizao.productionException.process.message.selectFirst':
+    '最初に例外プロセスを選択してください',
   'app.kuaizhizao.productionException.process.batch.cancel': '一括キャンセル処理',
   'app.kuaizhizao.productionException.process.displayName.materialShortage': '資材不足 - {{code}}',
   'app.kuaizhizao.productionException.process.displayName.deliveryDelay': '配送の遅延 - {{code}}',
@@ -6153,15 +6655,18 @@ export default {
   'app.kuaizhizao.productionException.statistics.chart.typeMaterialShortage': '資材不足',
   'app.kuaizhizao.productionException.statistics.chart.typeDeliveryDelay': '配送遅延',
   'app.kuaizhizao.productionException.statistics.chart.typeQuality': '品質の例外',
-  'app.kuaizhizao.productionException.statistics.message.triggerSuccess': '検出がトリガーされました。結果をすぐに更新してください',
-  'app.kuaizhizao.productionException.statistics.message.triggerFailed': '検出のトリガーに失敗しました',
+  'app.kuaizhizao.productionException.statistics.message.triggerSuccess':
+    '検出がトリガーされました。結果をすぐに更新してください',
+  'app.kuaizhizao.productionException.statistics.message.triggerFailed':
+    '検出のトリガーに失敗しました',
   'app.kuaizhizao.productionException.statistics.message.fetchFailed': '統計のロードに失敗しました',
   'app.kuaizhizao.outsourceWorkOrder.title': '作業指示をアウトソーシングする',
   'app.kuaizhizao.outsourceWorkOrder.createButton': '新しいアウトソーシング製造指示',
   'app.kuaizhizao.outsourceWorkOrder.createTitle': '新しいアウトソーシング製造指示',
   'app.kuaizhizao.outsourceWorkOrder.editTitle': 'アウトソーシング製造指示を編集する',
   'app.kuaizhizao.outsourceWorkOrder.detailTitle': 'アウトソーシング作業指示の詳細',
-  'app.kuaizhizao.outsourceWorkOrder.confirmBatchDelete': '選択した {{count}} アウトソーシング製造指示を削除しますか?',
+  'app.kuaizhizao.outsourceWorkOrder.confirmBatchDelete':
+    '選択した {{count}} アウトソーシング製造指示を削除しますか?',
   'app.kuaizhizao.outsourceWorkOrder.statTotal': 'アウトソーシング作業指示の合計',
   'app.kuaizhizao.outsourceWorkOrder.statDraft': '下書き',
   'app.kuaizhizao.outsourceWorkOrder.statInProgress': '進行中',
@@ -6199,21 +6704,28 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.actionIssue': '発行資料',
   'app.kuaizhizao.outsourceWorkOrder.actionReceipt': '受け取る',
   'app.kuaizhizao.outsourceWorkOrder.fetchDataFailed': 'データのロードに失敗しました',
-  'app.kuaizhizao.outsourceWorkOrder.fetchDetailFailed': 'アウトソーシング製造指示の詳細をロードできませんでした',
-  'app.kuaizhizao.outsourceWorkOrder.fetchListFailed': 'アウトソーシング作業指示リストのロードに失敗しました',
-  'app.kuaizhizao.outsourceWorkOrder.selectToDelete': '削除するアウトソーシング製造指示を選択してください',
+  'app.kuaizhizao.outsourceWorkOrder.fetchDetailFailed':
+    'アウトソーシング製造指示の詳細をロードできませんでした',
+  'app.kuaizhizao.outsourceWorkOrder.fetchListFailed':
+    'アウトソーシング作業指示リストのロードに失敗しました',
+  'app.kuaizhizao.outsourceWorkOrder.selectToDelete':
+    '削除するアウトソーシング製造指示を選択してください',
   'app.kuaizhizao.outsourceWorkOrder.deleteSuccess': '{{count}} レコードを削除しました',
   'app.kuaizhizao.outsourceWorkOrder.createSuccess': 'アウトソーシング製造指示が作成されました',
   'app.kuaizhizao.outsourceWorkOrder.updateSuccess': 'アウトソーシング作業指示が更新されました',
   'app.kuaizhizao.outsourceWorkOrder.operationFailed': '操作が失敗しました',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowed': 'この資材ソース タイプでは、アウトソーシング製造指示を作成できません。別の素材を選択してください。',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowed':
+    'この資材ソース タイプでは、アウトソーシング製造指示を作成できません。別の素材を選択してください。',
   'app.kuaizhizao.outsourceWorkOrder.materialSourceType': '材料ソースの種類:',
   'app.kuaizhizao.outsourceWorkOrder.materialSourceNotConfigured': '未設定',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowedHint': 'この資材ソース タイプでは、アウトソーシング製造指示を作成できません。外注素材を選択します。',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceValidationPass': '材料の出所が検証されました。アウトソーシング製造指示を作成できます。',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowedHint':
+    'この資材ソース タイプでは、アウトソーシング製造指示を作成できません。外注素材を選択します。',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceValidationPass':
+    '材料の出所が検証されました。アウトソーシング製造指示を作成できます。',
   'app.kuaizhizao.outsourceWorkOrder.defaultSupplier': '既定のサプライヤー:',
   'app.kuaizhizao.outsourceWorkOrder.outsourceOperationLabel': '業務委託：',
-  'app.kuaizhizao.outsourceWorkOrder.validationNotOutsource': '材料の供給元は外部委託ではありません。現在のタイプ: {{type}}',
+  'app.kuaizhizao.outsourceWorkOrder.validationNotOutsource':
+    '材料の供給元は外部委託ではありません。現在のタイプ: {{type}}',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypeMake': '作る',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypeBuy': '買う',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypePhantom': 'ファントム',
@@ -6229,7 +6741,8 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.fieldPriority': '優先度',
   'app.kuaizhizao.outsourceWorkOrder.fieldPlannedStart': '計画的な開始',
   'app.kuaizhizao.outsourceWorkOrder.fieldPlannedEnd': '終了予定',
-  'app.kuaizhizao.outsourceWorkOrder.placeholderName': 'アウトソーシング製造指示名を入力します (オプション)',
+  'app.kuaizhizao.outsourceWorkOrder.placeholderName':
+    'アウトソーシング製造指示名を入力します (オプション)',
   'app.kuaizhizao.outsourceWorkOrder.placeholderProduct': '製品選択（外注品）',
   'app.kuaizhizao.outsourceWorkOrder.placeholderQuantity': '外注予定数量を入力してください',
   'app.kuaizhizao.outsourceWorkOrder.placeholderSupplier': '外注先の選択',
@@ -6247,15 +6760,18 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.inboundWarehouse': '入荷倉庫',
   'app.kuaizhizao.outsourceWorkOrder.selectWarehouse': '倉庫を選択してください',
   'app.kuaizhizao.outsourceWorkOrder.batchNumber': 'バッチ番号',
-  'app.kuaizhizao.outsourceWorkOrder.placeholderBatchNumber': 'バッチ番号を入力してください。 (オプション)',
+  'app.kuaizhizao.outsourceWorkOrder.placeholderBatchNumber':
+    'バッチ番号を入力してください。 (オプション)',
   'app.kuaizhizao.outsourceWorkOrder.loadIssueLinesFailed': '保留の課題行をロードできませんでした',
   'app.kuaizhizao.outsourceWorkOrder.issueNoLines': '少なくとも 1 行の発行数量を入力してください',
   'app.kuaizhizao.outsourceWorkOrder.issueSelectWarehouse': '出荷倉庫を選択してください',
-  'app.kuaizhizao.outsourceWorkOrder.issueSuccess': 'アウトソーシングの発行は成功しました、{{count}} 行',
+  'app.kuaizhizao.outsourceWorkOrder.issueSuccess':
+    'アウトソーシングの発行は成功しました、{{count}} 行',
   'app.kuaizhizao.outsourceWorkOrder.createIssueFailed': 'アウトソースの問題の作成に失敗しました',
   'app.kuaizhizao.outsourceWorkOrder.receiptNoQty': '入庫数量を入力してください',
   'app.kuaizhizao.outsourceWorkOrder.receiptSelectWarehouse': '入荷倉庫を選択してください',
-  'app.kuaizhizao.outsourceWorkOrder.receiptOverQty': '受入数量は保留の数量を超えることはできません',
+  'app.kuaizhizao.outsourceWorkOrder.receiptOverQty':
+    '受入数量は保留の数量を超えることはできません',
   'app.kuaizhizao.outsourceWorkOrder.receiptSuccess': '外注領収書が作成されました',
   'app.kuaizhizao.outsourceWorkOrder.createReceiptFailed': '外注受領書の作成に失敗しました',
   'app.kuaizhizao.outsourceWorkOrder.workOrderNotFound': '外部委託の作業指示が見つかりません',
@@ -6264,7 +6780,8 @@ export default {
   'app.kuaizhizao.outsourceOrder.createButton': '新規業務委託先',
   'app.kuaizhizao.outsourceOrder.editTitle': '編集操作のアウトソース',
   'app.kuaizhizao.outsourceOrder.detailTitle': '運用委託先詳細',
-  'app.kuaizhizao.outsourceOrder.confirmBatchDelete': '選択した {{count}} オペレーション アウトソーシング レコードを削除しますか?',
+  'app.kuaizhizao.outsourceOrder.confirmBatchDelete':
+    '選択した {{count}} オペレーション アウトソーシング レコードを削除しますか?',
   'app.kuaizhizao.outsourceOrder.statTotal': '業務委託受注総額',
   'app.kuaizhizao.outsourceOrder.statDraft': '下書き',
   'app.kuaizhizao.outsourceOrder.statInProgress': '進行中',
@@ -6292,13 +6809,15 @@ export default {
   'app.kuaizhizao.outsourceOrder.statusCompleted': '完了',
   'app.kuaizhizao.outsourceOrder.statusCancelled': 'キャンセル',
   'app.kuaizhizao.outsourceOrder.fetchDataFailed': 'データのロードに失敗しました',
-  'app.kuaizhizao.outsourceOrder.fetchDetailFailed': '操作アウトソーシングの詳細をロードできませんでした',
+  'app.kuaizhizao.outsourceOrder.fetchDetailFailed':
+    '操作アウトソーシングの詳細をロードできませんでした',
   'app.kuaizhizao.outsourceOrder.fetchListFailed': '業務委託先リストの読み込みに失敗しました',
   'app.kuaizhizao.outsourceOrder.selectToDelete': '削除する業務委託先レコードを選択してください',
   'app.kuaizhizao.outsourceOrder.confirmDeleteTitle': '削除の確認',
   'app.kuaizhizao.outsourceOrder.confirmDeleteContent': '業務外注注文「{{code}}」を削除しますか?',
   'app.kuaizhizao.outsourceOrder.createGuideTitle': '作成方法',
-  'app.kuaizhizao.outsourceOrder.createGuideContent': '作業オーダーの詳細 > オペレーション > アウトソーシングの作成からオペレーションのアウトソーシング注文を作成し、数量を調整します。',
+  'app.kuaizhizao.outsourceOrder.createGuideContent':
+    '作業オーダーの詳細 > オペレーション > アウトソーシングの作成からオペレーションのアウトソーシング注文を作成し、数量を調整します。',
   'app.kuaizhizao.outsourceOrder.goToWorkOrders': '作業指示に移動',
   'app.kuaizhizao.outsourceOrder.createFromWorkOrder': '製造指示の詳細から業務委託指示書を作成する',
   'app.kuaizhizao.outsourceOrder.updateSuccess': '業務委託発注を更新しました',
@@ -6329,12 +6848,14 @@ export default {
   'app.kuaizhizao.packingBinding.title': '梱包・製本',
   'app.kuaizhizao.packingBinding.editTitle': 'パッキング バインディングの編集',
   'app.kuaizhizao.packingBinding.detailTitle': '梱包・製本詳細',
-  'app.kuaizhizao.packingBinding.confirmBatchDelete': '選択した {{count}} パッキング バインディング レコードを削除しますか?',
+  'app.kuaizhizao.packingBinding.confirmBatchDelete':
+    '選択した {{count}} パッキング バインディング レコードを削除しますか?',
   'app.kuaizhizao.packingBinding.confirmDeleteOne': 'この梱包製本レコードを削除しますか?',
   'app.kuaizhizao.packingBinding.statTotal': '合計パッキング バインディング数',
   'app.kuaizhizao.packingBinding.statScan': 'スキャンバインディング',
   'app.kuaizhizao.packingBinding.statManual': '手動製本',
-  'app.kuaizhizao.packingBinding.scopeAlert': '注: 「パッキング バインディングの合計」では、作成されたバインディング レコードのみがカウントされます。 「保留の梱包プール」は、レビュー/出荷待ちの販売配送注文から発生します。',
+  'app.kuaizhizao.packingBinding.scopeAlert':
+    '注: 「パッキング バインディングの合計」では、作成されたバインディング レコードのみがカウントされます。 「保留の梱包プール」は、レビュー/出荷待ちの販売配送注文から発生します。',
   'app.kuaizhizao.packingBinding.colBoxNo': 'ボックス番号',
   'app.kuaizhizao.packingBinding.colProductCode': '製品コード',
   'app.kuaizhizao.packingBinding.colProductName': '製品名',
@@ -6359,36 +6880,46 @@ export default {
   'app.kuaizhizao.packingBinding.sourceFinishedGoodsReceipt': '完成品の受け取り',
   'app.kuaizhizao.packingBinding.sourceOther': '他の',
   'app.kuaizhizao.packingBinding.statusBound': 'バウンド',
-  'app.kuaizhizao.packingBinding.fetchDetailFailed': 'パッキング・バインディングの詳細をロードできませんでした',
-  'app.kuaizhizao.packingBinding.fetchListFailed': 'パッキング・バインディング・リストのロードに失敗しました',
+  'app.kuaizhizao.packingBinding.fetchDetailFailed':
+    'パッキング・バインディングの詳細をロードできませんでした',
+  'app.kuaizhizao.packingBinding.fetchListFailed':
+    'パッキング・バインディング・リストのロードに失敗しました',
   'app.kuaizhizao.packingBinding.fetchRecordFailed': '梱包レコードのロードに失敗しました',
   'app.kuaizhizao.packingBinding.recordNotFound': '梱包記録が見つかりません',
-  'app.kuaizhizao.packingBinding.selectToDelete': '削除するパッキング バインディング レコードを選択してください',
-  'app.kuaizhizao.packingBinding.selectForQrcode': 'QRコードを生成する梱包レコードを選択してください',
+  'app.kuaizhizao.packingBinding.selectToDelete':
+    '削除するパッキング バインディング レコードを選択してください',
+  'app.kuaizhizao.packingBinding.selectForQrcode':
+    'QRコードを生成する梱包レコードを選択してください',
   'app.kuaizhizao.packingBinding.qrcodeSuccess': '生成された {{count}} パッキング QR コード',
-  'app.kuaizhizao.packingBinding.qrcodePartial': '{{success}} は成功しました、{{failed}} は失敗しました',
+  'app.kuaizhizao.packingBinding.qrcodePartial':
+    '{{success}} は成功しました、{{failed}} は失敗しました',
   'app.kuaizhizao.packingBinding.qrcodeBatchFailedTitle': '一部の QR コード生成に失敗しました',
   'app.kuaizhizao.packingBinding.generateFailed': '生成に失敗しました',
-  'app.kuaizhizao.packingBinding.idNotFound': 'パッキング・バインディング・レコードIDが見つかりません',
+  'app.kuaizhizao.packingBinding.idNotFound':
+    'パッキング・バインディング・レコードIDが見つかりません',
   'app.kuaizhizao.packingBinding.updateSuccess': 'パッキング・バインディングが更新されました',
   'app.kuaizhizao.packingBinding.updateFailed': 'パッキング バインディングの更新に失敗しました',
   'app.kuaizhizao.packingBinding.deleteSuccess': 'パッキングバインディングが削除されました',
   'app.kuaizhizao.packingBinding.deleteFailed': 'パッキング バインディングの削除に失敗しました',
   'app.kuaizhizao.packingBinding.batchDeleteSuccess': '{{count}} レコードを削除しました',
-  'app.kuaizhizao.packingBinding.batchDeletePartial': '{{success}} は削除され、{{failed}} は失敗しました',
+  'app.kuaizhizao.packingBinding.batchDeletePartial':
+    '{{success}} は削除され、{{failed}} は失敗しました',
   'app.kuaizhizao.packingBinding.batchDeleteFailedTitle': '一部の削除に失敗しました',
   'app.kuaizhizao.packingBinding.batchDeleteFailed': '一括削除に失敗しました',
   'app.kuaizhizao.packingBinding.fieldPackingQty': '梱包数量',
   'app.kuaizhizao.packingBinding.fieldBoxNo': 'ボックス番号',
   'app.kuaizhizao.packingBinding.placeholderPackingQty': '梱包数量を入力してください',
-  'app.kuaizhizao.packingBinding.placeholderBoxNo': 'ボックス番号を入力してください。 (空の場合は自動生成されます)',
+  'app.kuaizhizao.packingBinding.placeholderBoxNo':
+    'ボックス番号を入力してください。 (空の場合は自動生成されます)',
   'app.kuaizhizao.packingBinding.placeholderRemarks': '備考を入力してください',
   'app.kuaizhizao.packingBinding.ruleEnterPackingQty': '梱包数量を入力してください',
   'app.kuaizhizao.packingBinding.taskPoolButton': '保留のパッキングプール',
   'app.kuaizhizao.packingBinding.batchGenerateQrcode': 'QRコードを一括生成',
   'app.kuaizhizao.packingBinding.taskPoolTitle': '保留のパッキング プール (読み取り専用)',
-  'app.kuaizhizao.packingBinding.taskPoolSummary': '保留のレビュー {{pendingReview}} / 保留の送信 {{pendingOutbound}} / 合計 {{total}}',
-  'app.kuaizhizao.packingBinding.taskPoolFetchFailed': '保留のパッキングプールのロードに失敗しました',
+  'app.kuaizhizao.packingBinding.taskPoolSummary':
+    '保留のレビュー {{pendingReview}} / 保留の送信 {{pendingOutbound}} / 合計 {{total}}',
+  'app.kuaizhizao.packingBinding.taskPoolFetchFailed':
+    '保留のパッキングプールのロードに失敗しました',
   'app.kuaizhizao.packingBinding.taskPoolColDeliveryCode': '配送番号',
   'app.kuaizhizao.packingBinding.taskPoolColCustomer': 'お客様',
   'app.kuaizhizao.packingBinding.taskPoolColReviewStatus': 'レビューステータス',
@@ -6458,7 +6989,8 @@ export default {
   'app.kuaizhizao.workOrder.actionSwitchStation': '交換局',
   'app.kuaizhizao.workOrder.actionUnfreeze': '解凍する',
   'app.kuaizhizao.workOrder.actionWithdraw': '撤回する',
-  'app.kuaizhizao.workOrder.barcodePrintSelectTemplateHint': 'テンプレート（トラベラー、操作ラベルなど）を選択',
+  'app.kuaizhizao.workOrder.barcodePrintSelectTemplateHint':
+    'テンプレート（トラベラー、操作ラベルなど）を選択',
   'app.kuaizhizao.workOrder.callReasonEngineeringChange': 'エンジニアリングの変更',
   'app.kuaizhizao.workOrder.callReasonLineSideShortage': 'ライン側の不足',
   'app.kuaizhizao.workOrder.callReasonOther': '他の',
@@ -6544,7 +7076,8 @@ export default {
   'app.kuaizhizao.workOrder.detailKioskSopTab': '製造指示（SOP）',
   'app.kuaizhizao.workOrder.emptyNoWip': 'WIP 製造指示はありません',
   'app.kuaizhizao.workOrder.formAdvancedSearch': '高度な検索',
-  'app.kuaizhizao.workOrder.formAtLeastOneMaterialRow': '少なくとも 1 つのマテリアル行を保持してください',
+  'app.kuaizhizao.workOrder.formAtLeastOneMaterialRow':
+    '少なくとも 1 つのマテリアル行を保持してください',
   'app.kuaizhizao.workOrder.formBatchRule': 'バッチルール',
   'app.kuaizhizao.workOrder.formCallReason': '電話の理由',
   'app.kuaizhizao.workOrder.formCallType': 'コールタイプ',
@@ -6596,15 +7129,18 @@ export default {
   'app.kuaizhizao.workOrder.formSelectCallType': '通話タイプを選択してください',
   'app.kuaizhizao.workOrder.formSelectCompleteStatus': '完了ステータスを選択してください',
   'app.kuaizhizao.workOrder.formSelectProduct': '製品を選択してください',
-  'app.kuaizhizao.workOrder.formSerialQtyTooltip': '数量は計画数量と一致する必要があります。空白 = リリース時に生成',
+  'app.kuaizhizao.workOrder.formSerialQtyTooltip':
+    '数量は計画数量と一致する必要があります。空白 = リリース時に生成',
   'app.kuaizhizao.workOrder.formSerialRule': 'シリアルルール',
-  'app.kuaizhizao.workOrder.formSerialTagsPlaceholder': '作品ごとに 1 つのシリアルを入力またはプレビューします',
+  'app.kuaizhizao.workOrder.formSerialTagsPlaceholder':
+    '作品ごとに 1 つのシリアルを入力またはプレビューします',
   'app.kuaizhizao.workOrder.formSourceOrderPlaceholder': '受注番号、例: XS202605280002',
   'app.kuaizhizao.workOrder.formTrackingBatch': 'バッチ',
   'app.kuaizhizao.workOrder.formTrackingBatchHint': '1 つの製造バッチ番号を持つ標準 WO。',
   'app.kuaizhizao.workOrder.formTrackingBatchLabel': '生産バッチ',
   'app.kuaizhizao.workOrder.formTrackingBoth': 'バッチ + シリアル',
-  'app.kuaizhizao.workOrder.formTrackingBothHint': 'グループバッチ + シリアル番号付きサブ WO を分割',
+  'app.kuaizhizao.workOrder.formTrackingBothHint':
+    'グループバッチ + シリアル番号付きサブ WO を分割',
   'app.kuaizhizao.workOrder.formTrackingBothLabel': 'バッチ/シリアル',
   'app.kuaizhizao.workOrder.formTrackingSerial': 'シリアル',
   'app.kuaizhizao.workOrder.formTrackingSerialHint': '自動分割サブ WO、1 個につき 1 つのシリアル',
@@ -6624,7 +7160,8 @@ export default {
   'app.kuaizhizao.workOrder.kioskCompleted': '完了',
   'app.kuaizhizao.workOrder.kioskCreateDefectFailed': '欠陥レコードの作成に失敗しました',
   'app.kuaizhizao.workOrder.kioskDetailLoadFailed': '製造指示の詳細をロードできませんでした',
-  'app.kuaizhizao.workOrder.kioskDetailScanFeedHint': 'キー部分のバーコードをスキャンしてエラー防止とトレーサビリティを実現',
+  'app.kuaizhizao.workOrder.kioskDetailScanFeedHint':
+    'キー部分のバーコードをスキャンしてエラー防止とトレーサビリティを実現',
   'app.kuaizhizao.workOrder.kioskDetailTitle': '作業指示の実行',
   'app.kuaizhizao.workOrder.kioskDocAttachments': '添付ファイル',
   'app.kuaizhizao.workOrder.kioskDocCode': 'コード',
@@ -6648,7 +7185,8 @@ export default {
   'app.kuaizhizao.workOrder.kioskInspectionPass': '合格',
   'app.kuaizhizao.workOrder.kioskInspectionPatrol': 'パトロール',
   'app.kuaizhizao.workOrder.kioskInspectionRemarks': '備考',
-  'app.kuaizhizao.workOrder.kioskInspectionRemarksPlaceholder': '検査内容や注意事項を入力してください',
+  'app.kuaizhizao.workOrder.kioskInspectionRemarksPlaceholder':
+    '検査内容や注意事項を入力してください',
   'app.kuaizhizao.workOrder.kioskInspectionSubmitFailed': '送信に失敗しました',
   'app.kuaizhizao.workOrder.kioskInspectionSubmitted': '提出された検査',
   'app.kuaizhizao.workOrder.kioskInspectionType': '検査の種類',
@@ -6656,7 +7194,8 @@ export default {
   'app.kuaizhizao.workOrder.kioskKeypadDelete': '消去',
   'app.kuaizhizao.workOrder.kioskLoadBindFailed': 'バインディングのロードに失敗しました',
   'app.kuaizhizao.workOrder.kioskLoadListFailed': '製造指示の読み込みに失敗しました',
-  'app.kuaizhizao.workOrder.kioskLoadListFailedRetry': '作業指示の読み込みに失敗しました。再試行してください',
+  'app.kuaizhizao.workOrder.kioskLoadListFailedRetry':
+    '作業指示の読み込みに失敗しました。再試行してください',
   'app.kuaizhizao.workOrder.kioskLoadOpsFailed': 'オペレーションのロードに失敗しました',
   'app.kuaizhizao.workOrder.kioskLoading': '読み込み中',
   'app.kuaizhizao.workOrder.kioskMaterialCodeBarcode': '材質コード/バーコード',
@@ -6670,7 +7209,8 @@ export default {
   'app.kuaizhizao.workOrder.kioskPauseNotImplemented': '一時停止はまだ実装されていません',
   'app.kuaizhizao.workOrder.kioskPlanQty': '予定数量',
   'app.kuaizhizao.workOrder.kioskPrintLevelLabel': '印刷レベル',
-  'app.kuaizhizao.workOrder.kioskQtySumMustBePositive': '修飾されたものと修飾されていないものの合計は > 0 でなければなりません',
+  'app.kuaizhizao.workOrder.kioskQtySumMustBePositive':
+    '修飾されたものと修飾されていないものの合計は > 0 でなければなりません',
   'app.kuaizhizao.workOrder.kioskQualified': '資格のある',
   'app.kuaizhizao.workOrder.kioskQualifiedQty': '資格のある',
   'app.kuaizhizao.workOrder.kioskQualifiedUnqualified': '有資格・無資格',
@@ -6737,19 +7277,27 @@ export default {
   'app.kuaizhizao.workOrder.modalSmartRelease': 'スマートリリース (キット化)',
   'app.kuaizhizao.workOrder.modalSopTitle': '製造指示',
   'app.kuaizhizao.workOrder.modalWarehouseAndCall': '場所と資料請求',
-  'app.kuaizhizao.workOrder.modalWithdrawCallContent': 'この資料請求を取り下げますか?倉庫処理前のみ可能。',
-  'app.kuaizhizao.workOrder.msgAddAtLeastOneMaterial': '数量を含む少なくとも 1 つの材料行を追加します',
-  'app.kuaizhizao.workOrder.msgAddOpsManually': 'オペレーションを手動で追加するか、プロセス ルートからロードします',
-  'app.kuaizhizao.workOrder.msgLoadProcessRouteOpsFailed': 'プロセスルート操作のロードに失敗しました',
+  'app.kuaizhizao.workOrder.modalWithdrawCallContent':
+    'この資料請求を取り下げますか?倉庫処理前のみ可能。',
+  'app.kuaizhizao.workOrder.msgAddAtLeastOneMaterial':
+    '数量を含む少なくとも 1 つの材料行を追加します',
+  'app.kuaizhizao.workOrder.msgAddOpsManually':
+    'オペレーションを手動で追加するか、プロセス ルートからロードします',
+  'app.kuaizhizao.workOrder.msgLoadProcessRouteOpsFailed':
+    'プロセスルート操作のロードに失敗しました',
   'app.kuaizhizao.workOrder.msgOperationsLoaded': '{{count}} オペレーションがロードされました',
-  'app.kuaizhizao.workOrder.msgProcessRouteNoSequence': 'このプロセスルートには操作シーケンスが設定されていません',
+  'app.kuaizhizao.workOrder.msgProcessRouteNoSequence':
+    'このプロセスルートには操作シーケンスが設定されていません',
   'app.kuaizhizao.workOrder.msgProcessRouteNotFound': '処理ルートが見つかりません',
-  'app.kuaizhizao.workOrder.msgBatchingTaskCreated': 'バッチタスクが作成されました。マテリアルセンターで確認してください',
+  'app.kuaizhizao.workOrder.msgBatchingTaskCreated':
+    'バッチタスクが作成されました。マテリアルセンターで確認してください',
   'app.kuaizhizao.workOrder.msgBatchingTaskFailed': 'バッチタスクの作成に失敗しました',
   'app.kuaizhizao.workOrder.msgCallFailed': 'マテリアルコールが失敗しました',
   'app.kuaizhizao.workOrder.msgCallSubmitted': 'マテリアルコールが提出されました',
-  'app.kuaizhizao.workOrder.msgCannotGetWorkOrderCode': '製造指示番号を取得できません。再試行してください。',
-  'app.kuaizhizao.workOrder.msgCompleteTrackingHint': 'バッチ/シリアル番号を編集します。計画値またはサーバー ルールを使用する場合は空白のままにします。',
+  'app.kuaizhizao.workOrder.msgCannotGetWorkOrderCode':
+    '製造指示番号を取得できません。再試行してください。',
+  'app.kuaizhizao.workOrder.msgCompleteTrackingHint':
+    'バッチ/シリアル番号を編集します。計画値またはサーバー ルールを使用する場合は空白のままにします。',
   'app.kuaizhizao.workOrder.msgComputingKitting': 'コンピューティングキッティング...',
   'app.kuaizhizao.workOrder.msgConfirmBatchNo': 'バッチNo.を確認してください。',
   'app.kuaizhizao.workOrder.msgConfirmDeleteCount': '{{count}} 製造指示を削除しますか?',
@@ -6760,7 +7308,8 @@ export default {
   'app.kuaizhizao.workOrder.msgExportNoData': 'エクスポートするデータがありません',
   'app.kuaizhizao.workOrder.msgExportSuccess': '{{count}} レコードをエクスポートしました',
   'app.kuaizhizao.workOrder.msgFullOrderCallSuccess': 'フルオーダーコールが作成されました',
-  'app.kuaizhizao.workOrder.msgFullOrderCallSuccessWithCode': 'フルオーダーのコールが作成されました: {{code}}',
+  'app.kuaizhizao.workOrder.msgFullOrderCallSuccessWithCode':
+    'フルオーダーのコールが作成されました: {{code}}',
   'app.kuaizhizao.workOrder.msgGenerateOnRelease': 'リリース/完了時に生成',
   'app.kuaizhizao.workOrder.msgKittingAnalysis': 'キッティング分析',
   'app.kuaizhizao.workOrder.msgKittingAnalysisFailed': 'キッティング分析のロードに失敗しました',
@@ -6768,41 +7317,53 @@ export default {
   'app.kuaizhizao.workOrder.msgLoadPrintTemplateFailed': '印刷テンプレートの読み込みに失敗しました',
   'app.kuaizhizao.workOrder.msgLoadingPreview': 'プレビューを読み込んでいます...',
   'app.kuaizhizao.workOrder.msgLoadingTemplates': 'テンプレートを読み込んでいます...',
-  'app.kuaizhizao.workOrder.msgMaterialCallCreatedFor': '{{name}} 用にマテリアル コールが作成されました',
+  'app.kuaizhizao.workOrder.msgMaterialCallCreatedFor':
+    '{{name}} 用にマテリアル コールが作成されました',
   'app.kuaizhizao.workOrder.msgNoKittingData': 'キッティングデータがありません',
   'app.kuaizhizao.workOrder.msgNoOperations': '操作はありません',
   'app.kuaizhizao.workOrder.msgNoPrintTemplates': '印刷テンプレートが見つかりません',
   'app.kuaizhizao.workOrder.msgOpCannotDeleteReported': '報告された操作は削除できません',
-  'app.kuaizhizao.workOrder.msgOpCannotReorderReported': '報告された操作を並べ替えることはできません',
+  'app.kuaizhizao.workOrder.msgOpCannotReorderReported':
+    '報告された操作を並べ替えることはできません',
   'app.kuaizhizao.workOrder.msgOpDeleteConfirm': 'オペレーション「{{name}}」を削除しますか?',
   'app.kuaizhizao.workOrder.msgOpDeleteSuccess': 'オペレーションが削除されました',
   'app.kuaizhizao.workOrder.msgOpOrderUpdated': '作戦命令が更新されました',
   'app.kuaizhizao.workOrder.msgPreviewBatch': 'プレビューされたバッチ: {{batch}}',
-  'app.kuaizhizao.workOrder.msgPreviewBatchAndSerial': 'プレビューされたバッチ {{batch}} および {{count}} のシリアル番号',
+  'app.kuaizhizao.workOrder.msgPreviewBatchAndSerial':
+    'プレビューされたバッチ {{batch}} および {{count}} のシリアル番号',
   'app.kuaizhizao.workOrder.msgPreviewFailed': 'プレビューの生成に失敗しました',
-  'app.kuaizhizao.workOrder.msgPreviewNoNumbers': 'プレビュー番号なし、バッチ/シリアル ルールを確認してください',
-  'app.kuaizhizao.workOrder.msgPreviewQtyFirst': 'シリアル番号をプレビューする前に計画数量を入力してください',
+  'app.kuaizhizao.workOrder.msgPreviewNoNumbers':
+    'プレビュー番号なし、バッチ/シリアル ルールを確認してください',
+  'app.kuaizhizao.workOrder.msgPreviewQtyFirst':
+    'シリアル番号をプレビューする前に計画数量を入力してください',
   'app.kuaizhizao.workOrder.msgPreviewSerialCount': 'プレビューされた{{count}}シリアル番号',
   'app.kuaizhizao.workOrder.msgPrintContentEmpty': '印刷内容が空です',
   'app.kuaizhizao.workOrder.msgPrintFailed': '印刷に失敗しました',
-  'app.kuaizhizao.workOrder.msgPrintPopupBlocked': '印刷ウィンドウを開けません。ポップアップ設定を確認してください',
+  'app.kuaizhizao.workOrder.msgPrintPopupBlocked':
+    '印刷ウィンドウを開けません。ポップアップ設定を確認してください',
   'app.kuaizhizao.workOrder.msgPrintRequestSent': '印刷リクエストが送信されました',
   'app.kuaizhizao.workOrder.msgPrintSent': '印刷物を送信しました',
   'app.kuaizhizao.workOrder.msgSelectPrintTemplate': '最初に印刷テンプレートを選択してください',
   'app.kuaizhizao.workOrder.msgSelectPrintTemplatePlaceholder': '印刷テンプレートを選択する',
-  'app.kuaizhizao.workOrder.msgSelectValidPrintTemplate': '有効な印刷テンプレートを選択してください',
-  'app.kuaizhizao.workOrder.msgSerialQtyMustBeInteger': 'シリアル管理品目には整数の計画数量が必要です',
+  'app.kuaizhizao.workOrder.msgSelectValidPrintTemplate':
+    '有効な印刷テンプレートを選択してください',
+  'app.kuaizhizao.workOrder.msgSerialQtyMustBeInteger':
+    'シリアル管理品目には整数の計画数量が必要です',
   'app.kuaizhizao.workOrder.msgWithdrawCallFailed': '出金に失敗しました',
-  'app.kuaizhizao.workOrder.msgWorkOrderIdMissingPreview': '製造指示 ID が欠落しているため、プレビューできません',
-  'app.kuaizhizao.workOrder.msgWorkOrderIdMissingPrint': '製造指示 ID が見つからないため、印刷できません',
+  'app.kuaizhizao.workOrder.msgWorkOrderIdMissingPreview':
+    '製造指示 ID が欠落しているため、プレビューできません',
+  'app.kuaizhizao.workOrder.msgWorkOrderIdMissingPrint':
+    '製造指示 ID が見つからないため、印刷できません',
   'app.kuaizhizao.workOrder.searchOperationPlaceholder': '検索操作コード/名前',
   'app.kuaizhizao.workOrder.searchProductSourceDemand': '需要番号/品名/品名/型式を検索',
   'app.kuaizhizao.workOrder.searchProductSourceForecast': '予測番号/名前/製品/モデルを検索',
   'app.kuaizhizao.workOrder.searchProductSourceGeneric': 'キーワードを入力して検索します',
   'app.kuaizhizao.workOrder.searchProductSourceSalesOrder': '注文番号/顧客/製品/モデルの検索',
   'app.kuaizhizao.workOrder.validationMaterialConfigure': '項目の構成には属性が必要です',
-  'app.kuaizhizao.workOrder.validationMaterialMake': 'アイテムにBOMとプロセスルートを必要とするようにする',
-  'app.kuaizhizao.workOrder.validationMaterialPhantom': 'ファントム項目では製造指示を作成しないでください',
+  'app.kuaizhizao.workOrder.validationMaterialMake':
+    'アイテムにBOMとプロセスルートを必要とするようにする',
+  'app.kuaizhizao.workOrder.validationMaterialPhantom':
+    'ファントム項目では製造指示を作成しないでください',
   'app.kuaizhizao.workOrder.batchGenerateQrcode': 'QRコードを一括生成',
   'app.kuaizhizao.workOrder.batchSetPriority': 'バッチセットの優先順位',
   'app.kuaizhizao.workOrder.batchFreeze': 'バッチフリーズ',
@@ -6820,9 +7381,11 @@ export default {
   'app.kuaizhizao.workOrder.priorityUrgent': '緊急',
   'app.kuaizhizao.workOrder.productionModeMTO': 'オーダーメイド',
   'app.kuaizhizao.workOrder.productionModeMTS': '見込生産',
-  'app.kuaizhizao.workOrder.readinessCallsHint': '製造現場から倉庫への電話。ウェアハウスは、ストレージ構成ごとにマテリアル センターで準備します。',
+  'app.kuaizhizao.workOrder.readinessCallsHint':
+    '製造現場から倉庫への電話。ウェアハウスは、ストレージ構成ごとにマテリアル センターで準備します。',
   'app.kuaizhizao.workOrder.readinessCustomCallHint': '材料と数量を含む複数の行を追加します。',
-  'app.kuaizhizao.workOrder.readinessFullOrderHint': 'キッティング分析からのすべての不足明細を含む 1 つのコールを作成します。',
+  'app.kuaizhizao.workOrder.readinessFullOrderHint':
+    'キッティング分析からのすべての不足明細を含む 1 つのコールを作成します。',
   'app.kuaizhizao.workOrder.readinessLineSidePrefix': 'ライン側',
   'app.kuaizhizao.workOrder.readinessMainWarehouseLineSide': 'メインWH/ラインサイド',
   'app.kuaizhizao.workOrder.readinessMainWarehousePrefix': 'メインWH',
@@ -6835,7 +7398,8 @@ export default {
   'app.kuaizhizao.workOrder.readinessNoWarehouseConfigured': '倉庫未設定',
   'app.kuaizhizao.workOrder.readinessTabCalls': 'マテリアルコール',
   'app.kuaizhizao.workOrder.readinessTabWarehouse': '材料の場所',
-  'app.kuaizhizao.workOrder.readinessWarehouseHint': '倉庫はマテリアル センターからバッチ処理できます。製造現場はマテリアルコールを作成できます。',
+  'app.kuaizhizao.workOrder.readinessWarehouseHint':
+    '倉庫はマテリアル センターからバッチ処理できます。製造現場はマテリアルコールを作成できます。',
   'app.kuaizhizao.workOrder.reportParamEnterContent': '内容を入力してください',
   'app.kuaizhizao.workOrder.reportParamEnterNumber': '数字を入力してください',
   'app.kuaizhizao.workOrder.reportParamRequired': 'が必要です',
@@ -6897,31 +7461,39 @@ export default {
   'app.kuaizhizao.productionPlan.executePlan': '計画の実行',
   'app.kuaizhizao.productionPlan.detailFailed': '実動計画の詳細をロードできませんでした',
   'app.kuaizhizao.productionPlan.executeConfirmTitle': '生産計画の実行',
-  'app.kuaizhizao.productionPlan.executeConfirmContent': '生産計画「{{name}}」を実行しますか?製造指示が生成されます。',
+  'app.kuaizhizao.productionPlan.executeConfirmContent':
+    '生産計画「{{name}}」を実行しますか?製造指示が生成されます。',
   'app.kuaizhizao.productionPlan.executeSuccess': '生産計画が実行されました。生成された製造指示',
   'app.kuaizhizao.productionPlan.executeFailed': '生産計画の実行に失敗しました',
   'app.kuaizhizao.productionPlan.cannotEditExecuted': '実行された生産計画は変更できません',
   'app.kuaizhizao.productionPlan.loadFailed': '実動計画のロードに失敗しました',
   'app.kuaizhizao.productionPlan.deleteConfirmTitle': '生産計画の削除',
-  'app.kuaizhizao.productionPlan.deleteConfirmContent': '生産計画「{{code}}」を削除しますか?この操作は元に戻すことができません。',
+  'app.kuaizhizao.productionPlan.deleteConfirmContent':
+    '生産計画「{{code}}」を削除しますか?この操作は元に戻すことができません。',
   'app.kuaizhizao.productionPlan.batchDeleteSuccess': '{{count}} 個の生産計画を削除しました',
-  'app.kuaizhizao.productionPlan.confirmBatchDelete': '選択した {{count}} 個の生産計画を削除しますか?',
+  'app.kuaizhizao.productionPlan.confirmBatchDelete':
+    '選択した {{count}} 個の生産計画を削除しますか?',
   'app.kuaizhizao.productionPlan.selectFirst': '最初に生産計画を選択してください',
   'app.kuaizhizao.productionPlan.batchSubmit': 'バッチ送信',
   'app.kuaizhizao.productionPlan.batchSubmitSuccess': '{{count}} 個の生産計画を提出しました',
   'app.kuaizhizao.productionPlan.batchSubmitPartial': '{{count}} 送信に失敗しました (下書きのみ)',
   'app.kuaizhizao.productionPlan.batchApprove': '一括承認',
   'app.kuaizhizao.productionPlan.batchApproveSuccess': '{{count}} 件の生産計画を承認しました',
-  'app.kuaizhizao.productionPlan.batchApprovePartial': '{{count}} 承認に失敗しました (保留のレビューのみ)',
+  'app.kuaizhizao.productionPlan.batchApprovePartial':
+    '{{count}} 承認に失敗しました (保留のレビューのみ)',
   'app.kuaizhizao.productionPlan.batchExecute': 'バッチ実行',
   'app.kuaizhizao.productionPlan.batchExecuteSuccess': '{{count}} 個の生産計画を実行しました',
-  'app.kuaizhizao.productionPlan.batchExecutePartial': '{{count}} 実行に失敗しました (承認済みのみ)',
+  'app.kuaizhizao.productionPlan.batchExecutePartial':
+    '{{count}} 実行に失敗しました (承認済みのみ)',
   'app.kuaizhizao.productionPlan.batchPushWorkOrders': '作業指示へのバッチプッシュ',
-  'app.kuaizhizao.productionPlan.batchPushSuccess': '{{count}} 個の生産計画を製造指示にプッシュしました',
+  'app.kuaizhizao.productionPlan.batchPushSuccess':
+    '{{count}} 個の生産計画を製造指示にプッシュしました',
   'app.kuaizhizao.productionPlan.batchPushPartial': '{{count}} プッシュに失敗しました',
   'app.kuaizhizao.productionPlan.importDataInvalid': 'インポートデータが空か無効です',
-  'app.kuaizhizao.productionPlan.importHeaderPlanNameRequired': 'インポートヘッダーにはプラン名が含まれている必要があります',
-  'app.kuaizhizao.productionPlan.importHeaderMaterialQtyRequired': 'インポートヘッダーには材料コードと数量が含まれている必要があります',
+  'app.kuaizhizao.productionPlan.importHeaderPlanNameRequired':
+    'インポートヘッダーにはプラン名が含まれている必要があります',
+  'app.kuaizhizao.productionPlan.importHeaderMaterialQtyRequired':
+    'インポートヘッダーには材料コードと数量が含まれている必要があります',
   'app.kuaizhizao.productionPlan.noValidImportData': 'インポートする有効なデータがありません',
   'app.kuaizhizao.productionPlan.noMatchedMaterialData': '材料に一致する有効なデータがありません',
   'app.kuaizhizao.productionPlan.importTitle': '生産計画のインポート',
@@ -6929,7 +7501,8 @@ export default {
   'app.kuaizhizao.productionPlan.importPartialFailed': '{{count}} インポートに失敗しました',
   'app.kuaizhizao.productionPlan.defaultUnit': '個',
   'app.kuaizhizao.productionPlan.suggestedActionProduction': '生産',
-  'app.kuaizhizao.productionPlan.updateSuccess': '生産計画が更新されました (下流の作業指示または需要計算の項目を調整します)',
+  'app.kuaizhizao.productionPlan.updateSuccess':
+    '生産計画が更新されました (下流の作業指示または需要計算の項目を調整します)',
   'app.kuaizhizao.productionPlan.createSuccess': '作成された生産計画',
   'app.kuaizhizao.productionPlan.updateFailed': '生産計画の更新に失敗しました',
   'app.kuaizhizao.productionPlan.createFailed': '生産計画の作成に失敗しました',
@@ -6979,7 +7552,8 @@ export default {
   'app.kuaizhizao.planControlTower.shortcut.shortageAlert': '欠品アラート',
   'app.kuaizhizao.planControlTower.shortcut.reportingBoard': '報告委員会',
   'app.kuaizhizao.planControlTower.kpi.totalPlans': 'トータル生産計画',
-  'app.kuaizhizao.planControlTower.kpi.totalPlansSubtitle': 'すべてのプラン レベルを組み合わせたもの',
+  'app.kuaizhizao.planControlTower.kpi.totalPlansSubtitle':
+    'すべてのプラン レベルを組み合わせたもの',
   'app.kuaizhizao.planControlTower.kpi.pendingReview': '審査待ち',
   'app.kuaizhizao.planControlTower.kpi.executed': 'リリースされました',
   'app.kuaizhizao.planControlTower.kpi.deliveryRisk': '配送リスク管理',
@@ -6992,7 +7566,8 @@ export default {
   'app.kuaizhizao.planControlTower.kpi.expectedKitted': 'キット化予定',
   'app.kuaizhizao.planControlTower.chart.workCenterLoad': 'ワークセンターの負荷 (14 日間の予測)',
   'app.kuaizhizao.planControlTower.chart.noLoadData': '負荷データがありません',
-  'app.kuaizhizao.planControlTower.chart.readinessRanking': 'マテリアルレディネスランキング (TOP 8)',
+  'app.kuaizhizao.planControlTower.chart.readinessRanking':
+    'マテリアルレディネスランキング (TOP 8)',
   'app.kuaizhizao.planControlTower.chart.noReadinessData': '準備状況データなし',
   'app.kuaizhizao.planControlTower.simulation.title': '緊急注文の影響シミュレーション',
   'app.kuaizhizao.planControlTower.simulation.productLabel': '模擬製品',
@@ -7007,14 +7582,16 @@ export default {
   'app.kuaizhizao.planControlTower.simulation.recommendation': 'おすすめ',
   'app.kuaizhizao.planControlTower.simulation.materialReadiness': '材料準備分析',
   'app.kuaizhizao.planControlTower.simulation.readinessRate': '準備完了率:',
-  'app.kuaizhizao.planControlTower.simulation.allMaterialsAvailable': 'すべての BOM 材料に十分な在庫がある',
+  'app.kuaizhizao.planControlTower.simulation.allMaterialsAvailable':
+    'すべての BOM 材料に十分な在庫がある',
   'app.kuaizhizao.planControlTower.simulation.shortageCount': '欠品品:',
   'app.kuaizhizao.planControlTower.simulation.shortageUnit': '種類',
   'app.kuaizhizao.planControlTower.simulation.shortageDetail': '欠品の詳細:',
   'app.kuaizhizao.planControlTower.simulation.materialCode': '材質コード',
   'app.kuaizhizao.planControlTower.simulation.materialName': '材質名',
   'app.kuaizhizao.planControlTower.simulation.shortageQty': '不足数量',
-  'app.kuaizhizao.planControlTower.simulation.orderConflict': '既存のオーダーとのスケジュールの競合',
+  'app.kuaizhizao.planControlTower.simulation.orderConflict':
+    '既存のオーダーとのスケジュールの競合',
   'app.kuaizhizao.planControlTower.simulation.noOrderConflict': '検出可能な順序の競合はありません',
   'app.kuaizhizao.planControlTower.simulation.preemptMaterial': 'マテリアルのプリエンプション',
   'app.kuaizhizao.planControlTower.simulation.impactedProduct': '影響を受ける製品:',
@@ -7097,7 +7674,8 @@ export default {
   'app.kuaizhizao.demandComputation.readinessReady': '準備ができて',
   'app.kuaizhizao.demandComputation.readinessPartial': '部分的',
   'app.kuaizhizao.demandComputation.readinessShortage': '不足',
-  'app.kuaizhizao.demandComputation.readinessTooltip': '準備状況 = 利用可能な在庫 ÷ 総所要量。総所要量が大きい場合は、在庫があっても欠品が発生する可能性があります (リアルタイムの在庫データがない)。',
+  'app.kuaizhizao.demandComputation.readinessTooltip':
+    '準備状況 = 利用可能な在庫 ÷ 総所要量。総所要量が大きい場合は、在庫があっても欠品が発生する可能性があります (リアルタイムの在庫データがない)。',
   'app.kuaizhizao.demandComputation.pushDocWorkOrder': '作業指示',
   'app.kuaizhizao.demandComputation.pushDocOutsourceWorkOrder': '外部委託WO',
   'app.kuaizhizao.demandComputation.pushDocPurchaseOrder': '発注書',
@@ -7140,7 +7718,8 @@ export default {
   'app.kuaizhizao.demandComputation.drawerTabRecords': 'プッシュと履歴',
   'app.kuaizhizao.demandComputation.pushRecords': 'プッシュレコード',
   'app.kuaizhizao.demandComputation.recalcHistory': '履歴の再計算',
-  'app.kuaizhizao.demandComputation.recalcHistoryHint': 'スナップショットは再計算の前に保存されます。利用可能な場合は、[再計算前のスナップショット] をクリックして表示します。',
+  'app.kuaizhizao.demandComputation.recalcHistoryHint':
+    'スナップショットは再計算の前に保存されます。利用可能な場合は、[再計算前のスナップショット] をクリックして表示します。',
   'app.kuaizhizao.demandComputation.statTotal': '合計計算数',
   'app.kuaizhizao.demandComputation.statInProgress': '進行中',
   'app.kuaizhizao.demandComputation.statCompleted': '完了',
@@ -7154,46 +7733,64 @@ export default {
   'app.kuaizhizao.demandComputation.paramsIncludeInTransit': '輸送中/WIPを含む',
   'app.kuaizhizao.demandComputation.paramsIncludeReserved': '予約済みを含む',
   'app.kuaizhizao.demandComputation.paramsIncludeReorderPoint': 'リオーダーポイントを含める',
-  'app.kuaizhizao.demandComputation.paramsApplyLotSizing': 'ロットサイジングの適用 (最小/複数/最大)',
+  'app.kuaizhizao.demandComputation.paramsApplyLotSizing':
+    'ロットサイジングの適用 (最小/複数/最大)',
   'app.kuaizhizao.demandComputation.paramsPlanningHorizon': '計画の範囲',
   'app.kuaizhizao.demandComputation.paramsScheduleBufferDays': '緩衝日のスケジュールを設定する',
   'app.kuaizhizao.demandComputation.paramsWarehouses': '倉庫を含む',
   'app.kuaizhizao.demandComputation.paramsGlobalBomVersion': 'グローバル BOM バージョン',
   'app.kuaizhizao.demandComputation.paramsBomByMaterial': '材料別の BOM バージョン',
-  'app.kuaizhizao.demandComputation.paramsBomByMaterialHint': '各マテリアルの既定 バージョンを使用するには、空白のままにします。',
-  'app.kuaizhizao.demandComputation.paramsGrossHint': '総所要量モード: 提案は、安全在庫、輸送中、予約済み、または再注文ポイントネッティング (スイッチの非表示とオフ) を使用せずに BOM で合計されます。',
-  'app.kuaizhizao.demandComputation.placeholderPlanningHorizon': '空白には、納期を含むすべての需要明細が含まれます',
-  'app.kuaizhizao.demandComputation.placeholderScheduleBuffer': '0 は材料ソースのリードタイムの​​みを使用します',
-  'app.kuaizhizao.demandComputation.placeholderWarehouses': '既定で選択されているすべての通常の倉庫。必要に応じてさらに追加します',
-  'app.kuaizhizao.demandComputation.placeholderGlobalBomVersion': '空白は各マテリアルの既定 バージョンを使用します',
+  'app.kuaizhizao.demandComputation.paramsBomByMaterialHint':
+    '各マテリアルの既定 バージョンを使用するには、空白のままにします。',
+  'app.kuaizhizao.demandComputation.paramsGrossHint':
+    '総所要量モード: 提案は、安全在庫、輸送中、予約済み、または再注文ポイントネッティング (スイッチの非表示とオフ) を使用せずに BOM で合計されます。',
+  'app.kuaizhizao.demandComputation.placeholderPlanningHorizon':
+    '空白には、納期を含むすべての需要明細が含まれます',
+  'app.kuaizhizao.demandComputation.placeholderScheduleBuffer':
+    '0 は材料ソースのリードタイムの​​みを使用します',
+  'app.kuaizhizao.demandComputation.placeholderWarehouses':
+    '既定で選択されているすべての通常の倉庫。必要に応じてさらに追加します',
+  'app.kuaizhizao.demandComputation.placeholderGlobalBomVersion':
+    '空白は各マテリアルの既定 バージョンを使用します',
   'app.kuaizhizao.demandComputation.placeholderSelectVersion': 'バージョンの選択',
   'app.kuaizhizao.demandComputation.placeholderBomVersionExample': '例えば1.0、1.1',
   'app.kuaizhizao.demandComputation.bomVersionDefault': '（既定）',
   'app.kuaizhizao.demandComputation.selectDemands': 'デマンドの選択 (複数選択)',
-  'app.kuaizhizao.demandComputation.selectDemandsPlaceholder': '結合する複数のデマンドを選択してください',
-  'app.kuaizhizao.demandComputation.selectDemandsRequired': '少なくとも 1 つの要求を選択してください',
-  'app.kuaizhizao.demandComputation.selectDemandsTooltip': '需要を結合すると、同じ材料の数量が合計されます。ヘッダー モードは、MTO の場合は MTO、ATO の場合は ATO、それ以外の場合は MTS',
+  'app.kuaizhizao.demandComputation.selectDemandsPlaceholder':
+    '結合する複数のデマンドを選択してください',
+  'app.kuaizhizao.demandComputation.selectDemandsRequired':
+    '少なくとも 1 つの要求を選択してください',
+  'app.kuaizhizao.demandComputation.selectDemandsTooltip':
+    '需要を結合すると、同じ材料の数量が合計されます。ヘッダー モードは、MTO の場合は MTO、ATO の場合は ATO、それ以外の場合は MTS',
   'app.kuaizhizao.demandComputation.notesPlaceholder': 'メモを入力する',
   'app.kuaizhizao.demandComputation.searchDemandPlaceholder': '需要No.から探すまたは名前',
-  'app.kuaizhizao.demandComputation.executeConfirmHint': 'リンクされたデマンドと演算番号を確認します。実行する前に。',
-  'app.kuaizhizao.demandComputation.executeParamsHint': 'これらの設定はこの実行にのみ適用され、計算レコードには保存されません。',
-  'app.kuaizhizao.demandComputation.previewItemCount': '{{count}} 計算結果を生成しようとしています。実行する前に確認してください。',
+  'app.kuaizhizao.demandComputation.executeConfirmHint':
+    'リンクされたデマンドと演算番号を確認します。実行する前に。',
+  'app.kuaizhizao.demandComputation.executeParamsHint':
+    'これらの設定はこの実行にのみ適用され、計算レコードには保存されません。',
+  'app.kuaizhizao.demandComputation.previewItemCount':
+    '{{count}} 計算結果を生成しようとしています。実行する前に確認してください。',
   'app.kuaizhizao.demandComputation.totalItems': '合計 {{count}}',
   'app.kuaizhizao.demandComputation.productionPath': 'プロダクションパス',
-  'app.kuaizhizao.demandComputation.productionPathDesc': '製造指示を直接生成します (外部委託の WO を含む)',
+  'app.kuaizhizao.demandComputation.productionPathDesc':
+    '製造指示を直接生成します (外部委託の WO を含む)',
   'app.kuaizhizao.demandComputation.purchasePath': '購入パス',
   'app.kuaizhizao.demandComputation.purchaseRequisition': '購入申し込みへ',
   'app.kuaizhizao.demandComputation.purchaseOrderOnly': '発注書のみ',
-  'app.kuaizhizao.demandComputation.pushOutsourceHint': 'アウトソーシングの作業指示はまとめてプッシュされます。検証の失敗は、下流で完了するための下書きになります。',
+  'app.kuaizhizao.demandComputation.pushOutsourceHint':
+    'アウトソーシングの作業指示はまとめてプッシュされます。検証の失敗は、下流で完了するための下書きになります。',
   'app.kuaizhizao.demandComputation.pushWillGenerate': '次の伝票が生成されます。',
   'app.kuaizhizao.demandComputation.pushWorkOrderGroups': '{{count}} 作業指示グループ',
   'app.kuaizhizao.demandComputation.pushWorkOrders': '{{count}} 製造製造指示',
-  'app.kuaizhizao.demandComputation.pushOutsourceWorkOrders': '{{count}} 製造指示をアウトソーシングする',
+  'app.kuaizhizao.demandComputation.pushOutsourceWorkOrders':
+    '{{count}} 製造指示をアウトソーシングする',
   'app.kuaizhizao.demandComputation.pushOutsourceDraftHint': '(下流完成のための下書きを含む)',
   'app.kuaizhizao.demandComputation.pushPurchaseRequisitions': '{{count}} の購入要求',
   'app.kuaizhizao.demandComputation.pushPurchaseOrders': '{{count}} の発注書',
-  'app.kuaizhizao.demandComputation.validationFailedMaterials': '検証に失敗したマテリアル (下書きが生成されます):',
-  'app.kuaizhizao.demandComputation.validationFailedMaterialsDetail': 'Materials with validation failures',
+  'app.kuaizhizao.demandComputation.validationFailedMaterials':
+    '検証に失敗したマテリアル (下書きが生成されます):',
+  'app.kuaizhizao.demandComputation.validationFailedMaterialsDetail':
+    'Materials with validation failures',
   'app.kuaizhizao.demandComputation.sourceValidation': 'ソースの検証',
   'app.kuaizhizao.demandComputation.validationAllPassed': '全て合格',
   'app.kuaizhizao.demandComputation.validationHasFailed': '失敗あり',
@@ -7204,112 +7801,158 @@ export default {
   'app.kuaizhizao.demandComputation.deliveryRisk': '配送リスク',
   'app.kuaizhizao.demandComputation.plannedStart': '· 開始予定 {{date}}',
   'app.kuaizhizao.demandComputation.traceTitle': 'デマンドトレース',
-  'app.kuaizhizao.demandComputation.traceContent': 'この材料要件は、次のソース項目から集約されました。',
+  'app.kuaizhizao.demandComputation.traceContent':
+    'この材料要件は、次のソース項目から集約されました。',
   'app.kuaizhizao.demandComputation.traceItemId': 'ソース需要項目 ID: {{id}}',
-  'app.kuaizhizao.demandComputation.traceHint': '完全なトレーサビリティは開発中です。クリックスルーからソースへの注文もサポートされます。',
+  'app.kuaizhizao.demandComputation.traceHint':
+    '完全なトレーサビリティは開発中です。クリックスルーからソースへの注文もサポートされます。',
   'app.kuaizhizao.demandComputation.snapshotAt': 'スナップショット時間: {{time}}',
   'app.kuaizhizao.demandComputation.snapshotTrigger': '· トリガー: {{trigger}}',
   'app.kuaizhizao.demandComputation.snapshotSummary': '計算の概要',
   'app.kuaizhizao.demandComputation.snapshotItems': '項目（再計算前抜粋）',
   'app.kuaizhizao.demandComputation.snapshotEmpty': 'スナップショットのコンテンツがありません',
-  'app.kuaizhizao.demandComputation.inventoryNoDetail': '故障はありません。計算を再実行して表示します。過去の実績にはウェアハウス分割が含まれていない可能性があります。',
+  'app.kuaizhizao.demandComputation.inventoryNoDetail':
+    '故障はありません。計算を再実行して表示します。過去の実績にはウェアハウス分割が含まれていない可能性があります。',
   'app.kuaizhizao.demandComputation.inventoryComposition': '在庫構成 (「利用可能な在庫」列と一致)',
   'app.kuaizhizao.demandComputation.mainBatchDefault': '主要倉庫バッチ',
   'app.kuaizhizao.demandComputation.lineSideScope': 'ライン側スコープ: {{scope}}',
-  'app.kuaizhizao.demandComputation.noLineSideRows': 'ライン側の倉庫列がない (含まれていない、または数量がゼロ)',
+  'app.kuaizhizao.demandComputation.noLineSideRows':
+    'ライン側の倉庫列がない (含まれていない、または数量がゼロ)',
   'app.kuaizhizao.demandComputation.netRequirementHow': '正味所要量の計算方法',
-  'app.kuaizhizao.demandComputation.sourceNoteFromSalesOrder': '受注 {{code}} からプッシュされました',
+  'app.kuaizhizao.demandComputation.sourceNoteFromSalesOrder':
+    '受注 {{code}} からプッシュされました',
   'app.kuaizhizao.demandComputation.sourceNoteFromSalesForecast': '売上予測から下方修正 {{code}}',
-  'app.kuaizhizao.demandComputation.sourceNoteFromDemandPlan': '需要計画からプッシュされました {{code}}',
+  'app.kuaizhizao.demandComputation.sourceNoteFromDemandPlan':
+    '需要計画からプッシュされました {{code}}',
   'app.kuaizhizao.demandComputation.copied': 'コピーされました',
   'app.kuaizhizao.demandComputation.copyFailed': 'コピーに失敗しました',
   'app.kuaizhizao.demandComputation.loading': '読み込み中...',
   'app.kuaizhizao.demandComputation.selectTwoToCompare': '比較する計算を 2 つだけ選択してください',
   'app.kuaizhizao.demandComputation.compareFailed': '比較に失敗しました',
-  'app.kuaizhizao.demandComputation.selectRecordsToExport': 'エクスポートするレコードを選択してください',
+  'app.kuaizhizao.demandComputation.selectRecordsToExport':
+    'エクスポートするレコードを選択してください',
   'app.kuaizhizao.demandComputation.noValidExportData': 'エクスポートする有効なデータがありません',
   'app.kuaizhizao.demandComputation.exportedCount': '{{count}} レコードをエクスポートしました',
   'app.kuaizhizao.demandComputation.exportFailed': 'エクスポートに失敗しました',
-  'app.kuaizhizao.demandComputation.fetchPushRecordsFailed': 'プッシュレコードのロードに失敗しました',
+  'app.kuaizhizao.demandComputation.fetchPushRecordsFailed':
+    'プッシュレコードのロードに失敗しました',
   'app.kuaizhizao.demandComputation.fetchRecalcHistoryFailed': '再計算履歴のロードに失敗しました',
-  'app.kuaizhizao.demandComputation.fetchSnapshotFailed': '再計算前のスナップショットのロードに失敗しました',
+  'app.kuaizhizao.demandComputation.fetchSnapshotFailed':
+    '再計算前のスナップショットのロードに失敗しました',
   'app.kuaizhizao.demandComputation.loadPushConfigFailed': 'プッシュ構成のロードに失敗しました',
-  'app.kuaizhizao.demandComputation.noAuditedDemands': '承認された要求はありません。まず、需要管理で需要を送信して承認します。',
+  'app.kuaizhizao.demandComputation.noAuditedDemands':
+    '承認された要求はありません。まず、需要管理で需要を送信して承認します。',
   'app.kuaizhizao.demandComputation.loadDemandListFailed': '需要リストのロードに失敗しました',
   'app.kuaizhizao.demandComputation.selectSource': '{{source}}を選択してください',
-  'app.kuaizhizao.demandComputation.alreadyPushed': 'この {{source}} はすでに {{target}} にプッシュされています。再度作成しないでください。',
+  'app.kuaizhizao.demandComputation.alreadyPushed':
+    'この {{source}} はすでに {{target}} にプッシュされています。再度作成しないでください。',
   'app.kuaizhizao.demandComputation.createdTarget': '{{target}} を作成しました: {{code}}',
   'app.kuaizhizao.demandComputation.createdFromSource': '{{source}} から {{target}} を作成しました',
-  'app.kuaizhizao.demandComputation.createFromSourceFailed': '{{source}} から {{target}} を作成できませんでした',
+  'app.kuaizhizao.demandComputation.createFromSourceFailed':
+    '{{source}} から {{target}} を作成できませんでした',
   'app.kuaizhizao.demandComputation.fetchDetailFailed': '計算の詳細をロードできませんでした',
   'app.kuaizhizao.demandComputation.previewFailed': '計算プレビューに失敗しました',
   'app.kuaizhizao.demandComputation.executeSuccess': '計算が正常に実行されました',
   'app.kuaizhizao.demandComputation.executeFailed': '計算実行に失敗しました',
   'app.kuaizhizao.demandComputation.recomputeTitle': '再計算する',
-  'app.kuaizhizao.demandComputation.recomputeConfirm': '計算 {{code}} を再実行しますか?現在の結果はクリアされ、元の需要から再計算されます。',
-  'app.kuaizhizao.demandComputation.recomputeSubmitted': '再計算が送信されました。後で更新して結果を表示します。',
+  'app.kuaizhizao.demandComputation.recomputeConfirm':
+    '計算 {{code}} を再実行しますか?現在の結果はクリアされ、元の需要から再計算されます。',
+  'app.kuaizhizao.demandComputation.recomputeSubmitted':
+    '再計算が送信されました。後で更新して結果を表示します。',
   'app.kuaizhizao.demandComputation.recomputeFailed': '再計算に失敗しました',
   'app.kuaizhizao.demandComputation.deleteTitle': 'デマンド計算の削除',
-  'app.kuaizhizao.demandComputation.deleteConfirm': '計算 {{code}} を削除しますか?下流の製造指示または発注書がプッシュされていない場合にのみ許可されます。リンクされたデマンドは、削除後に再度プッシュできます。',
+  'app.kuaizhizao.demandComputation.deleteConfirm':
+    '計算 {{code}} を削除しますか?下流の製造指示または発注書がプッシュされていない場合にのみ許可されます。リンクされたデマンドは、削除後に再度プッシュできます。',
   'app.kuaizhizao.demandComputation.deleteSuccess': '削除しました',
   'app.kuaizhizao.demandComputation.deleteFailed': '削除に失敗しました',
   'app.kuaizhizao.demandComputation.openFailed': 'デマンド計算を開くことができませんでした',
   'app.kuaizhizao.demandComputation.pushSuccess': 'プッシュ完了',
-  'app.kuaizhizao.demandComputation.pushSelectAtLeastOne': '少なくとも 1 つのプッシュ オプションを選択してください',
+  'app.kuaizhizao.demandComputation.pushSelectAtLeastOne':
+    '少なくとも 1 つのプッシュ オプションを選択してください',
   'app.kuaizhizao.demandComputation.pushFailed': 'プッシュに失敗しました',
   'app.kuaizhizao.demandComputation.selectOneFirst': '最初にデマンド計算を 1 つ選択してください',
-  'app.kuaizhizao.demandComputation.pushSingleOnly': 'Push は 1 つの計算のみをサポートします。 1 行を選択したままにします。',
-  'app.kuaizhizao.demandComputation.selectedNotInList': '選択したレコードは現在のリストにありません。更新して再試行してください。',
-  'app.kuaizhizao.demandComputation.pushOnlyCompleted': '完了した計算のみをプッシュできます (現在のステータス: {{status}})',
+  'app.kuaizhizao.demandComputation.pushSingleOnly':
+    'Push は 1 つの計算のみをサポートします。 1 行を選択したままにします。',
+  'app.kuaizhizao.demandComputation.selectedNotInList':
+    '選択したレコードは現在のリストにありません。更新して再試行してください。',
+  'app.kuaizhizao.demandComputation.pushOnlyCompleted':
+    '完了した計算のみをプッシュできます (現在のステータス: {{status}})',
   'app.kuaizhizao.demandComputation.selectComputationFirst': '最初に需要計算を選択してください',
   'app.kuaizhizao.demandComputation.batchExecuteSuccess': '{{count}} 計算のトリガーされた実行',
-  'app.kuaizhizao.demandComputation.batchExecuteFailed': '{{count}} 個の実行が失敗しました (進行中/保留のステータスのみ実行可能)',
-  'app.kuaizhizao.demandComputation.batchRecomputeSuccess': '{{count}} 回の計算に対する再計算のトリガー',
-  'app.kuaizhizao.demandComputation.batchRecomputeFailed': '{{count}} の再計算に失敗しました (再計算できるのは完了/失敗ステータスのみです)',
+  'app.kuaizhizao.demandComputation.batchExecuteFailed':
+    '{{count}} 個の実行が失敗しました (進行中/保留のステータスのみ実行可能)',
+  'app.kuaizhizao.demandComputation.batchRecomputeSuccess':
+    '{{count}} 回の計算に対する再計算のトリガー',
+  'app.kuaizhizao.demandComputation.batchRecomputeFailed':
+    '{{count}} の再計算に失敗しました (再計算できるのは完了/失敗ステータスのみです)',
   'app.kuaizhizao.demandComputation.batchDeleteSuccess': '{{count}} レコードが削除しました',
-  'app.kuaizhizao.demandComputation.batchDeleteConfirm': '選択した {{count}} 個のデマンド計算を削除しますか?',
-  'app.kuaizhizao.demandComputation.batchDeleteDescription': '下流の製造指示または発注書がプッシュされていない場合にのみ許可されます。',
-  'app.kuaizhizao.demandComputation.createSuccessMerged': '正常に作成され、{{count}} 個の需要がマージされました',
+  'app.kuaizhizao.demandComputation.batchDeleteConfirm':
+    '選択した {{count}} 個のデマンド計算を削除しますか?',
+  'app.kuaizhizao.demandComputation.batchDeleteDescription':
+    '下流の製造指示または発注書がプッシュされていない場合にのみ許可されます。',
+  'app.kuaizhizao.demandComputation.createSuccessMerged':
+    '正常に作成され、{{count}} 個の需要がマージされました',
   'app.kuaizhizao.demandComputation.createFailed': '作成に失敗しました',
   'app.kuaizhizao.demandComputation.mrpGuideTrigger': 'MRPパラメータが解決するもの',
   'app.kuaizhizao.demandComputation.mrpGuideTitle': 'MRP パラメータの概要資料',
-  'app.kuaizhizao.demandComputation.mrpGuideIntro': 'プランナー、バイヤー、生産、管理者向け: 各パラメーターが<strong>製造現場で解決できるもの</strong>です。購入/製造/アウトソーシングの基本リードタイムは、材料ソース構成で維持されます。以下は、 実行ごとのオプションの<strong>ポリシーとバッファ</strong>です。',
-  'app.kuaizhizao.demandComputation.mrpGuideSection1': '1. 私たちはどのような問題の解決に役立ちますか?',
+  'app.kuaizhizao.demandComputation.mrpGuideIntro':
+    'プランナー、バイヤー、生産、管理者向け: 各パラメーターが<strong>製造現場で解決できるもの</strong>です。購入/製造/アウトソーシングの基本リードタイムは、材料ソース構成で維持されます。以下は、 実行ごとのオプションの<strong>ポリシーとバッファ</strong>です。',
+  'app.kuaizhizao.demandComputation.mrpGuideSection1':
+    '1. 私たちはどのような問題の解決に役立ちますか?',
   'app.kuaizhizao.demandComputation.mrpGuideProblem1Title': '在庫と輸送中の不一致',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem1Desc': '倉庫範囲、輸送中/WIP、予約済み、安全在庫、および再注文ポイントを通じて供給を明確にします。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem1Desc':
+    '倉庫範囲、輸送中/WIP、予約済み、安全在庫、および再注文ポイントを通じて供給を明確にします。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem2Title': '信頼性の低い長期予測',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem2Desc': '計画期間を使用して、短期的に実行可能な需要に焦点を当てます。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem2Desc':
+    '計画期間を使用して、短期的に実行可能な需要に焦点を当てます。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem3Title': '頻繁な BOM 改訂',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem3Desc': 'どの BOM とどの程度の深さで爆発させるかを制御します。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem3Desc':
+    'どの BOM とどの程度の深さで爆発させるかを制御します。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem4Title': 'MOQ / フルパックのルール',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem4Desc': 'ロットサイジング（材料マスターデータを使用）を使用したラウンド提案。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem4Desc':
+    'ロットサイジング（材料マスターデータを使用）を使用したラウンド提案。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem5Title': 'リードタイムは依然として厳しすぎる',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem5Desc': 'スケジュールに余裕を持たせるには、スケジュール バッファ日を追加します。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem5Desc':
+    'スケジュールに余裕を持たせるには、スケジュール バッファ日を追加します。',
   'app.kuaizhizao.demandComputation.mrpGuideSection2': '2. パラメーターと解決された問題の関係',
   'app.kuaizhizao.demandComputation.mrpGuideSection3': '3. 実装のヒント',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice1': 'まず、BOM、資材ソース/リードタイム、倉庫の習慣、オープン伝票のステータスが信頼できることを確認します。',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice2': 'まずはホライズン、倉庫の範囲、輸送中から始めます。安全在庫を有効にし、必要に応じてポイントを再注文します。',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice3': '丸めを強制する前に、ロットのサイジングをサプライヤー/製造現場のバッチ処理の習慣に合わせます。',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice4': '過去の遅延に基づいてバッファ日数を少しずつ (1 ～ 3 日など) 調整します。',
-  'app.kuaizhizao.demandComputation.mrpGuideFooter': '印刷可能な完全なバージョン: docs/mrp-parameters-customer-one-pager-zh.md。パラメータの意味は、現在のシステムのバージョンと実装構成によって異なります。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice1':
+    'まず、BOM、資材ソース/リードタイム、倉庫の習慣、オープン伝票のステータスが信頼できることを確認します。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice2':
+    'まずはホライズン、倉庫の範囲、輸送中から始めます。安全在庫を有効にし、必要に応じてポイントを再注文します。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice3':
+    '丸めを強制する前に、ロットのサイジングをサプライヤー/製造現場のバッチ処理の習慣に合わせます。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice4':
+    '過去の遅延に基づいてバッファ日数を少しずつ (1 ～ 3 日など) 調整します。',
+  'app.kuaizhizao.demandComputation.mrpGuideFooter':
+    '印刷可能な完全なバージョン: docs/mrp-parameters-customer-one-pager-zh.md。パラメータの意味は、現在のシステムのバージョンと実装構成によって異なります。',
   'app.kuaizhizao.demandComputation.mrpParamSafetyStock': '安全在庫を含め​​る',
-  'app.kuaizhizao.demandComputation.mrpParamSafetyStockProblem': 'ネッティングは、利用可能な数量の過剰消費を避けるための安全在庫ポリシーを反映しているかどうか。',
+  'app.kuaizhizao.demandComputation.mrpParamSafetyStockProblem':
+    'ネッティングは、利用可能な数量の過剰消費を避けるための安全在庫ポリシーを反映しているかどうか。',
   'app.kuaizhizao.demandComputation.mrpParamInTransit': '輸送中/WIPを含む',
-  'app.kuaizhizao.demandComputation.mrpParamInTransitProblem': '重複したリクエストを減らすために、未処理の発注書と WIP 製造指示を供給としてカウントするかどうか。',
+  'app.kuaizhizao.demandComputation.mrpParamInTransitProblem':
+    '重複したリクエストを減らすために、未処理の発注書と WIP 製造指示を供給としてカウントするかどうか。',
   'app.kuaizhizao.demandComputation.mrpParamReserved': '予約済みを含む',
-  'app.kuaizhizao.demandComputation.mrpParamReservedProblem': '予約済み在庫が利用可能数量から差し引かれるかどうか。',
+  'app.kuaizhizao.demandComputation.mrpParamReservedProblem':
+    '予約済み在庫が利用可能数量から差し引かれるかどうか。',
   'app.kuaizhizao.demandComputation.mrpParamReorderPoint': 'リオーダーポイントを含める',
-  'app.kuaizhizao.demandComputation.mrpParamReorderPointProblem': '正味要件が再注文ポイントルールによって増幅されるかどうか。',
+  'app.kuaizhizao.demandComputation.mrpParamReorderPointProblem':
+    '正味要件が再注文ポイントルールによって増幅されるかどうか。',
   'app.kuaizhizao.demandComputation.mrpParamWarehouses': '倉庫を含む',
-  'app.kuaizhizao.demandComputation.mrpParamWarehousesProblem': '在庫集計に参加する倉庫 (既定では通常の倉庫)。',
+  'app.kuaizhizao.demandComputation.mrpParamWarehousesProblem':
+    '在庫集計に参加する倉庫 (既定では通常の倉庫)。',
   'app.kuaizhizao.demandComputation.mrpParamPlanningHorizon': '計画の範囲',
-  'app.kuaizhizao.demandComputation.mrpParamPlanningHorizonProblem': '長期的なノイズを低減するために、ウィンドウを超える需要線は除外される場合があります。',
+  'app.kuaizhizao.demandComputation.mrpParamPlanningHorizonProblem':
+    '長期的なノイズを低減するために、ウィンドウを超える需要線は除外される場合があります。',
   'app.kuaizhizao.demandComputation.mrpParamBomVersion': 'BOM バージョンと展開レベル',
-  'app.kuaizhizao.demandComputation.mrpParamBomVersionProblem': '適切な BOM を使用して爆発の深さを制御し、間違った材料や深い爆発を減らします。',
+  'app.kuaizhizao.demandComputation.mrpParamBomVersionProblem':
+    '適切な BOM を使用して爆発の深さを制御し、間違った材料や深い爆発を減らします。',
   'app.kuaizhizao.demandComputation.mrpParamLotSizing': 'ロットサイジングを提案に適用する',
-  'app.kuaizhizao.demandComputation.mrpParamLotSizingProblem': '直接注文の場合、提案を最小値/倍数/最大値で四捨五入するかどうか。',
+  'app.kuaizhizao.demandComputation.mrpParamLotSizingProblem':
+    '直接注文の場合、提案を最小値/倍数/最大値で四捨五入するかどうか。',
   'app.kuaizhizao.demandComputation.mrpParamScheduleBuffer': '緩衝日のスケジュールを設定する',
-  'app.kuaizhizao.demandComputation.mrpParamScheduleBufferProblem': '材料のリードタイムに加えて、開始/調達日を緩衝日数分前倒しします。',
+  'app.kuaizhizao.demandComputation.mrpParamScheduleBufferProblem':
+    '材料のリードタイムに加えて、開始/調達日を緩衝日数分前倒しします。',
   'app.kuaizhizao.coordinationPipeline.relatedDocuments': '関連文書',
   'app.kuaizhizao.coordinationPipeline.purchaseRequisition': '購入申請',
   'app.kuaizhizao.coordinationPipeline.purchaseOrder': '発注書',
@@ -7342,11 +7985,14 @@ export default {
   'app.kuaizhizao.coordinationPipeline.colDeliveryDate': '配送日',
   'app.kuaizhizao.coordinationPipeline.colAvailableStock': '在庫あり',
   'app.kuaizhizao.coordinationPipeline.refreshSuccess': '調整パイプラインが更新されました',
-  'app.kuaizhizao.coordinationPipeline.releaseSuccess': '{{count}} のキット化された製造指示をリリースしました',
-  'app.kuaizhizao.coordinationPipeline.noKittedWorkOrders': 'キッティング基準を満たす下書きの作業指示はありません',
+  'app.kuaizhizao.coordinationPipeline.releaseSuccess':
+    '{{count}} のキット化された製造指示をリリースしました',
+  'app.kuaizhizao.coordinationPipeline.noKittedWorkOrders':
+    'キッティング基準を満たす下書きの作業指示はありません',
   'app.kuaizhizao.coordinationPipeline.releaseFailed': 'キッティングリリースに失敗しました',
   'app.kuaizhizao.coordinationPipeline.loading': 'コーディネートデータを読み込み中...',
-  'app.kuaizhizao.coordinationPipeline.noActiveOrders': '承認された受注はありません。まず、受注で注文を作成して承認します。',
+  'app.kuaizhizao.coordinationPipeline.noActiveOrders':
+    '承認された受注はありません。まず、受注で注文を作成して承認します。',
   'app.kuaizhizao.coordinationPipeline.goToSalesOrders': '受注に移動',
   'app.kuaizhizao.coordinationPipeline.incompleteOrders': '未完了の注文',
   'app.kuaizhizao.coordinationPipeline.wipCount': '{{count}} 作業中',
@@ -7363,14 +8009,16 @@ export default {
   'app.kuaizhizao.scheduling.common.dash': '—',
   'app.kuaizhizao.scheduling.headerBand.freezeWindowDays': '凍結期間: {{days}} 日',
   'app.kuaizhizao.scheduling.headerBand.selected': '選択済み: {{count}}',
-  'app.kuaizhizao.scheduling.headerBand.locked': 'ロック済み: {{total}} (フリーズ {{manual}} / ウィンドウ {{window}})',
+  'app.kuaizhizao.scheduling.headerBand.locked':
+    'ロック済み: {{total}} (フリーズ {{manual}} / ウィンドウ {{window}})',
   'app.kuaizhizao.scheduling.headerBand.adjustable': '調整可能: {{count}}',
   'app.kuaizhizao.scheduling.headerBand.conflicts': '競合: {{count}}',
   'app.kuaizhizao.scheduling.headerBand.activeWorkOrders': 'アクティブな WO {{count}}',
   'app.kuaizhizao.scheduling.headerBand.scheduleAdherenceRate': '開始率 {{rate}}%',
   'app.kuaizhizao.scheduling.pool.title': '保留の作業指示',
   'app.kuaizhizao.scheduling.pool.countAriaLabel': '合計 {{count}}',
-  'app.kuaizhizao.scheduling.pool.hint': '製造指示を上のスケジュール領域にドラッグします。 [問題] 列の準備ダイアログから欠落している項目を入力します。',
+  'app.kuaizhizao.scheduling.pool.hint':
+    '製造指示を上のスケジュール領域にドラッグします。 [問題] 列の準備ダイアログから欠落している項目を入力します。',
   'app.kuaizhizao.scheduling.pool.loadingGantt': 'ガント チャートを読み込み中…',
   'app.kuaizhizao.scheduling.poolToolbar.statusAll': '全て',
   'app.kuaizhizao.scheduling.poolToolbar.statusDraft': '下書き',
@@ -7383,15 +8031,21 @@ export default {
   'app.kuaizhizao.scheduling.poolToolbar.toException': '例外へ',
   'app.kuaizhizao.scheduling.poolToolbar.applyUnfreeze': '凍結解除のリクエスト',
   'app.kuaizhizao.scheduling.ganttToolbar.title': '視覚的なスケジュール設定',
-  'app.kuaizhizao.scheduling.ganttToolbar.fullscreenTip': 'UniTab 全画面ボタンを使用してスケジュール ワークスペースを拡張し、ガント ドラッグとリソース ディスパッチをよりスムーズに行うことができます。',
-  'app.kuaizhizao.scheduling.ganttToolbar.stationOpStats': 'ステーション {{stations}}｜オペレーション {{operations}}',
-  'app.kuaizhizao.scheduling.ganttToolbar.selectedStats': '｜選択された{{workOrders}}のWO / {{operations}}の作戦',
+  'app.kuaizhizao.scheduling.ganttToolbar.fullscreenTip':
+    'UniTab 全画面ボタンを使用してスケジュール ワークスペースを拡張し、ガント ドラッグとリソース ディスパッチをよりスムーズに行うことができます。',
+  'app.kuaizhizao.scheduling.ganttToolbar.stationOpStats':
+    'ステーション {{stations}}｜オペレーション {{operations}}',
+  'app.kuaizhizao.scheduling.ganttToolbar.selectedStats':
+    '｜選択された{{workOrders}}のWO / {{operations}}の作戦',
   'app.kuaizhizao.scheduling.ganttToolbar.selectedWorkOrdersOnly': '｜選ばれた{{workOrders}}人のWO',
   'app.kuaizhizao.scheduling.ganttToolbar.draft': '下書き',
-  'app.kuaizhizao.scheduling.ganttToolbar.draftTooltip': '有効にすると、ガント バーのドラッグが最初に段階的に実行されます。ダイアログの「更新」を使用してプールからドロップすると、すぐに保存されます',
+  'app.kuaizhizao.scheduling.ganttToolbar.draftTooltip':
+    '有効にすると、ガント バーのドラッグが最初に段階的に実行されます。ダイアログの「更新」を使用してプールからドロップすると、すぐに保存されます',
   'app.kuaizhizao.scheduling.ganttToolbar.applyChanges': '変更を適用する',
-  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltip': '段階的なドラッグ調整を検証して維持する',
-  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltipEmpty': '段階的なドラッグ変化はありません。プールドロップはダイアログの「更新」で保存されました',
+  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltip':
+    '段階的なドラッグ調整を検証して維持する',
+  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltipEmpty':
+    '段階的なドラッグ変化はありません。プールドロップはダイアログの「更新」で保存されました',
   'app.kuaizhizao.scheduling.ganttToolbar.undo': '元に戻す',
   'app.kuaizhizao.scheduling.ganttToolbar.settings': 'スケジュール設定',
   'app.kuaizhizao.scheduling.ganttToolbar.batchFreeze': 'バッチフリーズ',
@@ -7414,9 +8068,12 @@ export default {
   'app.kuaizhizao.scheduling.gantt.empty.title.station': '駅や運行スケジュールはありません',
   'app.kuaizhizao.scheduling.gantt.empty.title.equipment': '設備も運行スケジュールもなし',
   'app.kuaizhizao.scheduling.gantt.empty.title.work_order': 'スケジュールする作業指示はありません',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.operation': '作業指示に従って業務を維持し、最初に計画時間を設定します',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.work_order': '最初に需要計算または生産計画から製造指示を生成します',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.resource': 'まだスケジュールされた操作はありません。以下の作業指示リストで計画時間を設定してください',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.operation':
+    '作業指示に従って業務を維持し、最初に計画時間を設定します',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.work_order':
+    '最初に需要計算または生産計画から製造指示を生成します',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.resource':
+    'まだスケジュールされた操作はありません。以下の作業指示リストで計画時間を設定してください',
   'app.kuaizhizao.scheduling.gantt.unassignedStation': '未割り当て局',
   'app.kuaizhizao.scheduling.col.workOrderCode': '作業指示',
   'app.kuaizhizao.scheduling.col.operationCount': '運営',
@@ -7432,7 +8089,8 @@ export default {
   'app.kuaizhizao.scheduling.col.status': '状態',
   'app.kuaizhizao.scheduling.col.overdueTag': '期限を過ぎました',
   'app.kuaizhizao.scheduling.col.frozenTag': '凍った',
-  'app.kuaizhizao.scheduling.col.scheduledOpsTooltip': '{{scheduled}}/{{total}} の操作がスケジュールされました',
+  'app.kuaizhizao.scheduling.col.scheduledOpsTooltip':
+    '{{scheduled}}/{{total}} の操作がスケジュールされました',
   'app.kuaizhizao.scheduling.status.draft': '下書き',
   'app.kuaizhizao.scheduling.status.released': 'リリースされました',
   'app.kuaizhizao.scheduling.status.inProgress': '進行中',
@@ -7442,8 +8100,10 @@ export default {
   'app.kuaizhizao.scheduling.priority.low': '低い',
   'app.kuaizhizao.scheduling.diagnostics.missingPlannedStart': '開始予定なし',
   'app.kuaizhizao.scheduling.diagnostics.missingPlannedEnd': '終了予定なし',
-  'app.kuaizhizao.scheduling.diagnostics.missingStations': '{{count}} オペレーションにステーションがありません',
-  'app.kuaizhizao.scheduling.diagnostics.unscheduledFallback': '予定の開始/終了が設定されていません',
+  'app.kuaizhizao.scheduling.diagnostics.missingStations':
+    '{{count}} オペレーションにステーションがありません',
+  'app.kuaizhizao.scheduling.diagnostics.unscheduledFallback':
+    '予定の開始/終了が設定されていません',
   'app.kuaizhizao.scheduling.diagnostics.materialShortageFallback': 'キッティングが不十分',
   'app.kuaizhizao.scheduling.diagnostics.conflict.stationOverlap': '駅の重複',
   'app.kuaizhizao.scheduling.diagnostics.conflict.equipmentOverlap': '機器の重複',
@@ -7456,18 +8116,24 @@ export default {
   'app.kuaizhizao.scheduling.batch.label.operationDates': '運行日',
   'app.kuaizhizao.scheduling.batch.label.operationStations': 'オペレーションステーション',
   'app.kuaizhizao.scheduling.batch.updated': '{{label}}: {{count}} を更新しました',
-  'app.kuaizhizao.scheduling.batch.skippedFrozen': '{{label}}: {{count}} スキップされました (作業指示は凍結されました)',
-  'app.kuaizhizao.scheduling.batch.skippedFreezeWindow': '{{label}}: {{count}} はスキップされました (フリーズ ウィンドウ内)',
+  'app.kuaizhizao.scheduling.batch.skippedFrozen':
+    '{{label}}: {{count}} スキップされました (作業指示は凍結されました)',
+  'app.kuaizhizao.scheduling.batch.skippedFreezeWindow':
+    '{{label}}: {{count}} はスキップされました (フリーズ ウィンドウ内)',
   'app.kuaizhizao.scheduling.batch.failed': '{{label}}: {{count}} 失敗{{detail}}',
   'app.kuaizhizao.scheduling.batch.failedDetail': '({{detail}})',
   'app.kuaizhizao.scheduling.batch.noUpdate': '{{label}}: 有効なアップデートはありません',
-  'app.kuaizhizao.scheduling.batch.notSavedFreezeWindow': '{{label}} は保存されていません: 計画された開始は凍結期間中です。ウィンドウの後に開始を移動するか、凍結日数を短縮します',
-  'app.kuaizhizao.scheduling.batch.notSavedFrozen': '{{label}} は保存されていません: 製造指示は凍結されています。スケジュールする前にフリーズを解除する',
+  'app.kuaizhizao.scheduling.batch.notSavedFreezeWindow':
+    '{{label}} は保存されていません: 計画された開始は凍結期間中です。ウィンドウの後に開始を移動するか、凍結日数を短縮します',
+  'app.kuaizhizao.scheduling.batch.notSavedFrozen':
+    '{{label}} は保存されていません: 製造指示は凍結されています。スケジュールする前にフリーズを解除する',
   'app.kuaizhizao.scheduling.batch.notSavedFailed': '{{label}} は保存されていません: {{detail}}',
   'app.kuaizhizao.scheduling.batch.notSavedServerRejected': 'サーバーが更新を拒否しました',
-  'app.kuaizhizao.scheduling.batch.notSavedRetry': '{{label}} は保存されていません: 計画時間を確認して再試行してください',
+  'app.kuaizhizao.scheduling.batch.notSavedRetry':
+    '{{label}} は保存されていません: 計画時間を確認して再試行してください',
   'app.kuaizhizao.scheduling.msg.conflictTitle': 'スケジュールの競合が検出されました',
-  'app.kuaizhizao.scheduling.msg.conflictContent': '{{count}} 競合が検出されました。とにかく保存しますか？',
+  'app.kuaizhizao.scheduling.msg.conflictContent':
+    '{{count}} 競合が検出されました。とにかく保存しますか？',
   'app.kuaizhizao.scheduling.msg.saveAnyway': 'とにかく保存する',
   'app.kuaizhizao.scheduling.msg.noDraftChanges': '適用する段階的な変更はありません',
   'app.kuaizhizao.scheduling.msg.applyFailed': '変更を適用できませんでした',
@@ -7475,14 +8141,19 @@ export default {
   'app.kuaizhizao.scheduling.msg.undoSuccess': '最後の段階のステップが元に戻されました',
   'app.kuaizhizao.scheduling.msg.scheduleUpdateFailed': 'スケジュールの更新に失敗しました',
   'app.kuaizhizao.scheduling.msg.operationUpdateFailed': '運転スケジュールの更新に失敗しました',
-  'app.kuaizhizao.scheduling.msg.batchShiftNoValid': '選択した製造指示には有効な計画日がないか、凍結されています。',
+  'app.kuaizhizao.scheduling.msg.batchShiftNoValid':
+    '選択した製造指示には有効な計画日がないか、凍結されています。',
   'app.kuaizhizao.scheduling.msg.batchShiftFailed': '一括シフトに失敗しました',
-  'app.kuaizhizao.scheduling.msg.stationValidationFailed': 'ステーションの再割り当ての検証に失敗しました',
+  'app.kuaizhizao.scheduling.msg.stationValidationFailed':
+    'ステーションの再割り当ての検証に失敗しました',
   'app.kuaizhizao.scheduling.msg.stationReassignFailed': 'ステーションの再割り当てに失敗しました',
   'app.kuaizhizao.scheduling.msg.quickActionFailed': 'クイックアクションが失敗しました',
-  'app.kuaizhizao.scheduling.msg.quickActionConfirm': '{{count}} 個の製造指示が選択されました。続く？',
-  'app.kuaizhizao.scheduling.msg.quickActionConfirmOverdue': '{{count}} 個の製造指示が選択されましたが、{{overdue}} 個の期限が過ぎています。続く？',
-  'app.kuaizhizao.scheduling.msg.quickActionResult': '{{prefix}}: 遅延 {{updated}}、例外 {{converted}}、凍結解除 {{unfreezed}}、スキップ {{skipped}}{{failedPart}}',
+  'app.kuaizhizao.scheduling.msg.quickActionConfirm':
+    '{{count}} 個の製造指示が選択されました。続く？',
+  'app.kuaizhizao.scheduling.msg.quickActionConfirmOverdue':
+    '{{count}} 個の製造指示が選択されましたが、{{overdue}} 個の期限が過ぎています。続く？',
+  'app.kuaizhizao.scheduling.msg.quickActionResult':
+    '{{prefix}}: 遅延 {{updated}}、例外 {{converted}}、凍結解除 {{unfreezed}}、スキップ {{skipped}}{{failedPart}}',
   'app.kuaizhizao.scheduling.msg.quickActionResultFailed': '、失敗しました {{count}}',
   'app.kuaizhizao.scheduling.msg.confirmDelayTitle': '遅延の確認',
   'app.kuaizhizao.scheduling.msg.confirmDelayReason': '視覚的なスケジュール遅延確認',
@@ -7491,13 +8162,18 @@ export default {
   'app.kuaizhizao.scheduling.msg.toExceptionReason': '例外までの視覚的なスケジュール設定',
   'app.kuaizhizao.scheduling.msg.toExceptionSuccess': '例外プールに移動されました',
   'app.kuaizhizao.scheduling.msg.applyUnfreezeTitle': '凍結解除のリクエスト',
-  'app.kuaizhizao.scheduling.msg.applyUnfreezeReason': 'ビジュアルスケジューリングの凍結解除リクエスト',
+  'app.kuaizhizao.scheduling.msg.applyUnfreezeReason':
+    'ビジュアルスケジューリングの凍結解除リクエスト',
   'app.kuaizhizao.scheduling.msg.applyUnfreezeSuccess': '凍結解除リクエストが処理されました',
   'app.kuaizhizao.scheduling.msg.validationFailed': 'スケジュールの検証に失敗しました',
-  'app.kuaizhizao.scheduling.msg.stationsSavedPending': 'ステーションが保存されました。 {{pending}} オペレーションには依然としてステーションが必要です。 {{scheduledPart}}続けてください',
-  'app.kuaizhizao.scheduling.msg.stationsSavedScheduledPart': '{{count}} の操作がスケジュールされています。',
-  'app.kuaizhizao.scheduling.msg.savedToGantt': '{{count}} オペレーションをガントに保存して配置しました',
-  'app.kuaizhizao.scheduling.msg.stationsSavedDisplay': 'ステーションが保存されました。作業は製造指示の計画時間ごとにガントチャートに表示されます',
+  'app.kuaizhizao.scheduling.msg.stationsSavedPending':
+    'ステーションが保存されました。 {{pending}} オペレーションには依然としてステーションが必要です。 {{scheduledPart}}続けてください',
+  'app.kuaizhizao.scheduling.msg.stationsSavedScheduledPart':
+    '{{count}} の操作がスケジュールされています。',
+  'app.kuaizhizao.scheduling.msg.savedToGantt':
+    '{{count}} オペレーションをガントに保存して配置しました',
+  'app.kuaizhizao.scheduling.msg.stationsSavedDisplay':
+    'ステーションが保存されました。作業は製造指示の計画時間ごとにガントチャートに表示されます',
   'app.kuaizhizao.scheduling.msg.loadOperationsFailed': 'オペレーションのロードに失敗しました',
   'app.kuaizhizao.scheduling.msg.workOrderNotFound': '作業指示が見つかりません',
   'app.kuaizhizao.scheduling.msg.alreadyOnBoard': '作業指示はすでにボード上にあります',
@@ -7507,21 +8183,27 @@ export default {
   'app.kuaizhizao.scheduling.msg.batchFreezeFailed': 'バッチ凍結に失敗しました',
   'app.kuaizhizao.scheduling.msg.batchUnfreezeSuccess': '選択した作業指示の凍結が解除されました',
   'app.kuaizhizao.scheduling.msg.batchUnfreezeFailed': 'バッチ解凍に失敗しました',
-  'app.kuaizhizao.scheduling.msg.freezeDragBlocked': '凍結された作業指示または凍結ウィンドウの作業指示はドラッグできません。まずフリーズを解除するか、フリーズ ウィンドウから移動してください',
+  'app.kuaizhizao.scheduling.msg.freezeDragBlocked':
+    '凍結された作業指示または凍結ウィンドウの作業指示はドラッグできません。まずフリーズを解除するか、フリーズ ウィンドウから移動してください',
   'app.kuaizhizao.scheduling.msg.configSaved': 'スケジュール設定が保存されました',
   'app.kuaizhizao.scheduling.msg.configSaveFailed': '保存に失敗しました',
   'app.kuaizhizao.scheduling.msg.freezeReason': 'ビジュアルスケジュールロック',
   'app.kuaizhizao.scheduling.tour.fullscreenTitle': '全画面スケジュールを推奨',
-  'app.kuaizhizao.scheduling.tour.fullscreenDescription': 'ガント バーをドラッグして計画を調整→競合を確認してロード→フリーズして今週の計画をロックします。',
-  'app.kuaizhizao.scheduling.alert.fromCoordinationCenter': '{{count}} 視覚的なスケジュール設定のためにコーディネーション センターから取得された製造指示',
+  'app.kuaizhizao.scheduling.tour.fullscreenDescription':
+    'ガント バーをドラッグして計画を調整→競合を確認してロード→フリーズして今週の計画をロックします。',
+  'app.kuaizhizao.scheduling.alert.fromCoordinationCenter':
+    '{{count}} 視覚的なスケジュール設定のためにコーディネーション センターから取得された製造指示',
   'app.kuaizhizao.scheduling.alert.returnCoordinationCenter': 'コーディネーションセンターに戻る',
-  'app.kuaizhizao.scheduling.alert.filterByPlanDate': 'ローリング プランの日付 {{date}} でフィルタリングされた保留のプール',
+  'app.kuaizhizao.scheduling.alert.filterByPlanDate':
+    'ローリング プランの日付 {{date}} でフィルタリングされた保留のプール',
   'app.kuaizhizao.scheduling.alert.returnRollingPlan': 'ローリングプランに戻る',
-  'app.kuaizhizao.scheduling.alert.ganttLimitWarning': 'ガントチャートには最初の {{limit}} 作業指示のみが表示されます。フィルタまたはディープリンクを使用して範囲を狭める',
+  'app.kuaizhizao.scheduling.alert.ganttLimitWarning':
+    'ガントチャートには最初の {{limit}} 作業指示のみが表示されます。フィルタまたはディープリンクを使用して範囲を狭める',
   'app.kuaizhizao.scheduling.config.title': 'ビジュアルスケジュール設定',
   'app.kuaizhizao.scheduling.config.restoreDefault': '既定に戻す',
   'app.kuaizhizao.scheduling.config.freezeWindowDays': 'フリーズウィンドウ (日)',
-  'app.kuaizhizao.scheduling.config.freezeWindowHint': 'ウィンドウ内の製造指示はドラッグできません。左側の紫色の領域はフリーズウィンドウです',
+  'app.kuaizhizao.scheduling.config.freezeWindowHint':
+    'ウィンドウ内の製造指示はドラッグできません。左側の紫色の領域はフリーズウィンドウです',
   'app.kuaizhizao.scheduling.config.scanHorizonDays': '診断スキャン期間 (日)',
   'app.kuaizhizao.scheduling.config.dragValidationTitle': 'ドラッグ検証 (競合検出)',
   'app.kuaizhizao.scheduling.config.considerHuman': '駅の時刻が重複している',
@@ -7529,17 +8211,21 @@ export default {
   'app.kuaizhizao.scheduling.config.considerMaterial': 'マテリアルキッティングアラート',
   'app.kuaizhizao.scheduling.config.considerMoldTool': '金型/ツーリングのオーバーラップ',
   'app.kuaizhizao.scheduling.draft.closeTitle': 'ドラフトモードを無効にする',
-  'app.kuaizhizao.scheduling.draft.closeContent': '{{count}} 未適用の変更が残っています。無効にすると、ローカル ドラフトが破棄されます。',
+  'app.kuaizhizao.scheduling.draft.closeContent':
+    '{{count}} 未適用の変更が残っています。無効にすると、ローカル ドラフトが破棄されます。',
   'app.kuaizhizao.scheduling.draft.discardAndClose': '破棄して閉じる',
   'app.kuaizhizao.scheduling.prep.title': '完全なスケジュール情報',
-  'app.kuaizhizao.scheduling.prep.description': '製造指示 {{code}} に必要なスケジュール データがありません。完成後は上のボードに設置します。空の操作の開始は、既定で前の操作の終了になります。シーケンスを維持するために、より早い開始がシフトされます。',
+  'app.kuaizhizao.scheduling.prep.description':
+    '製造指示 {{code}} に必要なスケジュール データがありません。完成後は上のボードに設置します。空の操作の開始は、既定で前の操作の終了になります。シーケンスを維持するために、より早い開始がシフトされます。',
   'app.kuaizhizao.scheduling.prep.operationScheduling': '運行スケジュール',
   'app.kuaizhizao.scheduling.prep.colOperation': '手術',
   'app.kuaizhizao.scheduling.prep.colStation': '駅',
   'app.kuaizhizao.scheduling.prep.colStart': '始める',
   'app.kuaizhizao.scheduling.prep.colEnd': '終わり',
-  'app.kuaizhizao.scheduling.prep.noOperations': 'この製造指示に対する操作はありません。スケジュールを立てることができない',
-  'app.kuaizhizao.scheduling.prep.noRouteWarning': 'この製造指示に対する操作はありません。まず製造指示のルートを維持します。',
+  'app.kuaizhizao.scheduling.prep.noOperations':
+    'この製造指示に対する操作はありません。スケジュールを立てることができない',
+  'app.kuaizhizao.scheduling.prep.noRouteWarning':
+    'この製造指示に対する操作はありません。まず製造指示のルートを維持します。',
   'app.kuaizhizao.scheduling.prep.plannedStart': '開始予定',
   'app.kuaizhizao.scheduling.prep.plannedEnd': '終了予定',
   'app.kuaizhizao.scheduling.prep.selectStartRequired': '開始予定時刻を選択してください',
@@ -7548,28 +8234,35 @@ export default {
   'app.kuaizhizao.scheduling.prep.selectStationRequired': '放送局を選択してください',
   'app.kuaizhizao.scheduling.prep.selectStation': '駅を選択',
   'app.kuaizhizao.scheduling.prep.noStationsAvailable': '利用可能な駅がありません',
-  'app.kuaizhizao.scheduling.prep.selectStationForOp': '運用「{{name}}」のステーションを選択してください',
+  'app.kuaizhizao.scheduling.prep.selectStationForOp':
+    '運用「{{name}}」のステーションを選択してください',
   'app.kuaizhizao.scheduling.prep.placeholderAfterPrevOp': '既定: 前の操作の後',
   'app.kuaizhizao.scheduling.prep.placeholderCurrentTime': '既定: 現在時刻',
   'app.kuaizhizao.scheduling.prep.placeholderStartPlus8h': '既定: 開始 + 8h',
-  'app.kuaizhizao.scheduling.prep.scheduleAdjusted': '{{names}} の予定時間は順序を保つために自動調整されました',
+  'app.kuaizhizao.scheduling.prep.scheduleAdjusted':
+    '{{names}} の予定時間は順序を保つために自動調整されました',
   'app.kuaizhizao.rollingScheduling.source.carryForward': '繰り越し',
   'app.kuaizhizao.rollingScheduling.source.backlog': 'やり残し',
   'app.kuaizhizao.rollingScheduling.source.alreadyScheduled': '予定されている',
   'app.kuaizhizao.rollingScheduling.source.pool': 'プール',
   'app.kuaizhizao.rollingScheduling.source.manual': 'マニュアル',
-  'app.kuaizhizao.rollingScheduling.generateSuccess': '次回の稼働日計画のドラフトが生成されました ({{count}} 注文)',
-  'app.kuaizhizao.rollingScheduling.generateEmpty': '生成された空の計画: 繰り越しなし / 明日にスケジュール / プール内のスケジュール可能な製造指示',
+  'app.kuaizhizao.rollingScheduling.generateSuccess':
+    '次回の稼働日計画のドラフトが生成されました ({{count}} 注文)',
+  'app.kuaizhizao.rollingScheduling.generateEmpty':
+    '生成された空の計画: 繰り越しなし / 明日にスケジュール / プール内のスケジュール可能な製造指示',
   'app.kuaizhizao.rollingScheduling.generateFailed': '生成に失敗しました',
   'app.kuaizhizao.rollingScheduling.closeDayTitle': '休業日 {{date}}',
-  'app.kuaizhizao.rollingScheduling.closeDayContent': '閉じると、その日の公開された計画がロックされ、完了が記録されます。続く？',
+  'app.kuaizhizao.rollingScheduling.closeDayContent':
+    '閉じると、その日の公開された計画がロックされ、完了が記録されます。続く？',
   'app.kuaizhizao.rollingScheduling.closeDaySuccess': '定休日',
   'app.kuaizhizao.rollingScheduling.closeDayFailed': '閉店日が失敗しました',
   'app.kuaizhizao.rollingScheduling.saveLinesSuccess': '計画行が保存されました',
   'app.kuaizhizao.rollingScheduling.saveFailed': '保存に失敗しました',
   'app.kuaizhizao.rollingScheduling.publishTitle': '一日の計画を公開する',
-  'app.kuaizhizao.rollingScheduling.publishContent': '{{date}} 計画を製造指示の開始予定日 (リリースなし) に書き込みます。続く？',
-  'app.kuaizhizao.rollingScheduling.publishSuccess': '公開されました。 {{count}} 製造指示の計画日を更新しました',
+  'app.kuaizhizao.rollingScheduling.publishContent':
+    '{{date}} 計画を製造指示の開始予定日 (リリースなし) に書き込みます。続く？',
+  'app.kuaizhizao.rollingScheduling.publishSuccess':
+    '公開されました。 {{count}} 製造指示の計画日を更新しました',
   'app.kuaizhizao.rollingScheduling.publishFailed': '公開に失敗しました',
   'app.kuaizhizao.rollingScheduling.col.sequence': '#',
   'app.kuaizhizao.rollingScheduling.col.workOrder': '作業指示',
@@ -7591,15 +8284,18 @@ export default {
   'app.kuaizhizao.rollingScheduling.stat.partial': '部分的',
   'app.kuaizhizao.rollingScheduling.stat.notStarted': '開始されていません',
   'app.kuaizhizao.rollingScheduling.stat.delayed': '遅延',
-  'app.kuaizhizao.rollingScheduling.incompleteCarryForward': '{{count}} 未完了の注文は繰り越されます',
+  'app.kuaizhizao.rollingScheduling.incompleteCarryForward':
+    '{{count}} 未完了の注文は繰り越されます',
   'app.kuaizhizao.rollingScheduling.allCompleted': 'その日に予定されていた作業がすべて完了しました',
-  'app.kuaizhizao.rollingScheduling.closeHintPublished': '一日の計画が公開されました。シフト終了後に閉店',
+  'app.kuaizhizao.rollingScheduling.closeHintPublished':
+    '一日の計画が公開されました。シフト終了後に閉店',
   'app.kuaizhizao.rollingScheduling.closeHintNoData': 'その日の計画やデータは公開されていません',
   'app.kuaizhizao.rollingScheduling.nextDayPlanTitle': '翌日の予定 ({{date}})',
   'app.kuaizhizao.rollingScheduling.emptyGenerated': '計画は生成されましたが、候補者プールは空です',
   'app.kuaizhizao.rollingScheduling.emptyGenerateFirst': '最初に翌日の計画を作成する',
   'app.kuaizhizao.rollingScheduling.poolEmptyTitle': '候補者プールは空です',
-  'app.kuaizhizao.rollingScheduling.poolEmptyDesc': 'ドラフト/リリース済み/進行中の作業指示が存在することを確認するか、未完了の指示を繰り越すために今日の計画を公開して閉じます。',
+  'app.kuaizhizao.rollingScheduling.poolEmptyDesc':
+    'ドラフト/リリース済み/進行中の作業指示が存在することを確認するか、未完了の指示を繰り越すために今日の計画を公開して閉じます。',
   'app.kuaizhizao.rollingScheduling.capacityTitle': '大まかな容量に関するアドバイス',
   'app.kuaizhizao.rollingScheduling.capacity.availableHours': '利用可能時間',
   'app.kuaizhizao.rollingScheduling.capacity.requiredHours': '所要時間',
@@ -7609,7 +8305,8 @@ export default {
   'app.kuaizhizao.rollingScheduling.planStatus.draft': '下書き',
   'app.kuaizhizao.rollingScheduling.planStatus.published': '公開済み',
   'app.kuaizhizao.rollingScheduling.planStatus.closed': '締め済み',
-  'app.kuaizhizao.computationHistory.compareSelectTwo': '比較する 2 つの計算結果を正確に選択してください',
+  'app.kuaizhizao.computationHistory.compareSelectTwo':
+    '比較する 2 つの計算結果を正確に選択してください',
   'app.kuaizhizao.computationHistory.compareFailed': '比較に失敗しました',
   'app.kuaizhizao.computationHistory.exportSelect': 'エクスポートするレコードを選択してください',
   'app.kuaizhizao.computationHistory.exportNoData': 'エクスポートする有効なデータがありません',
@@ -7617,7 +8314,8 @@ export default {
   'app.kuaizhizao.computationHistory.exportFailed': 'エクスポートに失敗しました',
   'app.kuaizhizao.computationHistory.deleteSuccess': '{{count}} レコードを削除しました',
   'app.kuaizhizao.computationHistory.deleteFailed': '{{count}} 個の削除に失敗しました',
-  'app.kuaizhizao.computationHistory.deleteConfirm': '選択した {{count}} 個の計算レコードを削除しますか?',
+  'app.kuaizhizao.computationHistory.deleteConfirm':
+    '選択した {{count}} 個の計算レコードを削除しますか?',
   'app.kuaizhizao.computationHistory.col.computationCode': '演算コード',
   'app.kuaizhizao.computationHistory.col.demandCode': 'ソース伝票',
   'app.kuaizhizao.computationHistory.col.businessMode': 'ビジネスモード',
@@ -7658,7 +8356,8 @@ export default {
   'app.kuaizhizao.demandReplan.loadEventsFailed': '変更イベントのロードに失敗しました',
   'app.kuaizhizao.demandReplan.loadTasksFailed': '再計画タスクのロードに失敗しました',
   'app.kuaizhizao.demandReplan.loadImpactFailed': '影響の詳細を読み込めませんでした',
-  'app.kuaizhizao.demandReplan.executeConfirmApproval': 'タスクは承認待ちです。承認して実行しますか?',
+  'app.kuaizhizao.demandReplan.executeConfirmApproval':
+    'タスクは承認待ちです。承認して実行しますか?',
   'app.kuaizhizao.demandReplan.executeConfirm': '再計画タスクを実行しますか?',
   'app.kuaizhizao.demandReplan.executeSuccess': 'タスクの実行がトリガーされました',
   'app.kuaizhizao.demandReplan.executeFailed': 'タスクの実行に失敗しました',
@@ -7705,10 +8404,12 @@ export default {
   'app.kuaizhizao.demandReplan.col.failureReason': '失敗理由',
   'app.kuaizhizao.demandReplan.action.viewFailure': '失敗を表示',
   'app.kuaizhizao.demandReplan.failureItem': '計算 {{id}}：{{error}}',
-  'app.kuaizhizao.demandReplan.emptyTargetComputations': '再計算対象の需要計算が見つかりません。先に下推してください。',
+  'app.kuaizhizao.demandReplan.emptyTargetComputations':
+    '再計算対象の需要計算が見つかりません。先に下推してください。',
   'app.kuaizhizao.demandReplan.failureModal.title': '再計算失敗 - {{code}}',
   'app.kuaizhizao.demandReplan.failureModal.noDetail': '詳細なエラー情報がありません',
-  'app.kuaizhizao.demandReplan.failureModal.summary': '対象 {{target}} 件、成功 {{success}} 件、失敗 {{failed}} 件',
+  'app.kuaizhizao.demandReplan.failureModal.summary':
+    '対象 {{target}} 件、成功 {{success}} 件、失敗 {{failed}} 件',
   'app.kuaizhizao.demandReplan.col.actions': 'アクション',
   'app.kuaizhizao.demandReplan.action.execute': '実行する',
   'app.kuaizhizao.demandReplan.action.createTask': '再計算タスクを作成',
@@ -7728,8 +8429,10 @@ export default {
   'app.kuaizhizao.demandReplan.impactModal.title': '変更の影響の詳細',
   'app.kuaizhizao.demandReplan.impactModal.tasksTitle': '再計算タスク',
   'app.kuaizhizao.demandReplan.impactModal.impactsTitle': '影響対象',
-  'app.kuaizhizao.demandReplan.impactModal.emptyTasks': '再計算タスクがありません。下のボタンで作成できます。',
-  'app.kuaizhizao.demandReplan.impactModal.emptyImpacts': '影響対象がありません（需要計算へ未プッシュの可能性）',
+  'app.kuaizhizao.demandReplan.impactModal.emptyTasks':
+    '再計算タスクがありません。下のボタンで作成できます。',
+  'app.kuaizhizao.demandReplan.impactModal.emptyImpacts':
+    '影響対象がありません（需要計算へ未プッシュの可能性）',
   'app.kuaizhizao.demandReplan.impactModal.loading': '読み込み中…',
   'app.kuaizhizao.demandReplan.impactModal.noDetail': '詳細なし',
   'app.kuaizhizao.demandReplan.impactModal.event': 'イベント: {{code}} / {{type}}',
@@ -7772,7 +8475,8 @@ export default {
   'app.kuaizhizao.quality.process.importExample.inspectionQty': '100',
   'app.kuaizhizao.quality.process.importExample.qualifiedQty': '98',
   'app.kuaizhizao.quality.process.importExample.unqualifiedQty': '2',
-  'app.kuaizhizao.quality.traceability.searchPlaceholder': 'シリアル番号 / ロット番号 / 作業指示番号を入力',
+  'app.kuaizhizao.quality.traceability.searchPlaceholder':
+    'シリアル番号 / ロット番号 / 作業指示番号を入力',
   'app.kuaizhizao.quality.traceability.forward': '順方向（→完成品）',
   'app.kuaizhizao.quality.traceability.backward': '逆方向（→原材料）',
   'app.kuaizhizao.quality.traceability.both': '双方向',
@@ -7802,10 +8506,14 @@ export default {
   'app.kuaizhizao.quality.traceability.viewWorkOrder': '作業指示の表示',
   'app.kuaizhizao.quality.traceability.viewDefectRecord': '欠陥記録の表示',
   'app.kuaizhizao.quality.traceability.viewInspectionDetail': '検査の詳細を表示する',
-  'app.kuaizhizao.quality.traceability.messages.loadFailed': 'トレーサビリティ データのロードに失敗しました: {{message}}',
-  'app.kuaizhizao.quality.traceability.messages.exportSuccess': 'トレースレポートをエクスポートしました',
-  'app.kuaizhizao.quality.traceability.messages.exportFailed': 'トレースレポートのエクスポートに失敗しました: {{message}}',
-  'app.kuaizhizao.quality.traceability.messages.noDetailPage': 'このノードにはビジネス詳細ページがありません',
+  'app.kuaizhizao.quality.traceability.messages.loadFailed':
+    'トレーサビリティ データのロードに失敗しました: {{message}}',
+  'app.kuaizhizao.quality.traceability.messages.exportSuccess':
+    'トレースレポートをエクスポートしました',
+  'app.kuaizhizao.quality.traceability.messages.exportFailed':
+    'トレースレポートのエクスポートに失敗しました: {{message}}',
+  'app.kuaizhizao.quality.traceability.messages.noDetailPage':
+    'このノードにはビジネス詳細ページがありません',
   'app.kuaizhizao.quality.traceability.nodeType.default': 'ノード',
   'app.kuaizhizao.quality.traceability.nodeType.workOrder': '作業指示',
   'app.kuaizhizao.quality.traceability.nodeType.batch': '材料バッチ',
@@ -7845,8 +8553,10 @@ export default {
   'app.kuaizhizao.quality.template.qualityStandard': '品質基準',
   'app.kuaizhizao.quality.template.planItemsTitle': '検査方案項目',
   'app.kuaizhizao.quality.template.planItemsTitleWithName': '検査方案項目（{{planName}}）',
-  'app.kuaizhizao.quality.template.planModeHint': '方案モードでは、各検査結果を入力してから送信してください。',
-  'app.kuaizhizao.quality.template.planModeHintTyped': 'ステップタイプに応じて値を入力してください。テキスト以外は自動判定されます。',
+  'app.kuaizhizao.quality.template.planModeHint':
+    '方案モードでは、各検査結果を入力してから送信してください。',
+  'app.kuaizhizao.quality.template.planModeHintTyped':
+    'ステップタイプに応じて値を入力してください。テキスト以外は自動判定されます。',
   'app.kuaizhizao.quality.template.inspectionItemFallback': '検査項目 {{index}}',
   'app.kuaizhizao.quality.template.judgment': '判定',
   'app.kuaizhizao.quality.template.judgmentRequired': '「{{label}}」の判定を入力してください',
@@ -7862,11 +8572,14 @@ export default {
   'app.kuaizhizao.quality.template.overallJudgment': '総合判定',
   'app.kuaizhizao.quality.template.overallJudgmentRequired': '総合判定を入力してください',
   'app.kuaizhizao.equipmentDashboard.kpi.faultInProgress': '故障・修理中',
-  'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleWithCount': '{{count}} 機器が故障しており、修理を待っています',
-  'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleHealthy': 'すべての機器は正常に動作しています',
+  'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleWithCount':
+    '{{count}} 機器が故障しており、修理を待っています',
+  'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleHealthy':
+    'すべての機器は正常に動作しています',
   'app.kuaizhizao.equipmentDashboard.kpi.totalEquipment': '総設​​備',
   'app.kuaizhizao.equipmentDashboard.kpi.calibrationNeeded': '校正期限',
-  'app.kuaizhizao.equipmentDashboard.kpi.calibrationSubtitle': '期限を過ぎている、または今月期限である',
+  'app.kuaizhizao.equipmentDashboard.kpi.calibrationSubtitle':
+    '期限を過ぎている、または今月期限である',
   'app.kuaizhizao.equipmentDashboard.kpi.overdueCalibration': '期限を過ぎた校正',
   'app.kuaizhizao.equipmentDashboard.kpi.oee': '全体的な OEE',
   'app.kuaizhizao.equipmentDashboard.kpi.availability': '可用性',
@@ -7903,16 +8616,21 @@ export default {
   'app.kuaizhizao.equipmentReports.colPlanDate': '予定日',
   'app.kuaizhizao.equipmentReports.colActualDate': '実際の日付',
   'app.kuaizhizao.equipmentReports.colExecutor': '執行者',
-  'app.kuaizhizao.warehouseDashboard.loadFailed': 'ウェアハウスダッシュボードのロードに失敗しました',
+  'app.kuaizhizao.warehouseDashboard.loadFailed':
+    'ウェアハウスダッシュボードのロードに失敗しました',
   'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValue': '総在庫額 (CNY)',
-  'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValueSubtitle': '標準/平均コストによる見積もり',
+  'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValueSubtitle':
+    '標準/平均コストによる見積もり',
   'app.kuaizhizao.warehouseDashboard.kpi.totalQuantity': '合計数量',
   'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealth': '在庫の健全性',
-  'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealthSubtitle': '在庫僅少 {{lowStock}} · 在庫切れ {{outOfStock}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealthSubtitle':
+    '在庫僅少 {{lowStock}} · 在庫切れ {{outOfStock}}',
   'app.kuaizhizao.warehouseDashboard.kpi.skuCount': 'SKU 数',
   'app.kuaizhizao.warehouseDashboard.kpi.pendingInOut': '保留のイン/アウト',
-  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitleOverdue': '保留の受信 {{pendingInbound}} · 期限切れ {{overdueInbound}}',
-  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitle': '保留の受信 {{pendingInbound}} · 保留の送信 {{pendingOutbound}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitleOverdue':
+    '保留の受信 {{pendingInbound}} · 期限切れ {{overdueInbound}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitle':
+    '保留の受信 {{pendingInbound}} · 保留の送信 {{pendingOutbound}}',
   'app.kuaizhizao.warehouseDashboard.kpi.pendingOutbound': '保留のアウトバウンド',
   'app.kuaizhizao.warehouseDashboard.shortcut.purchaseInbound': 'インバウンドの購入',
   'app.kuaizhizao.warehouseDashboard.shortcut.salesOutbound': 'アウトバウンド販売',
@@ -7962,132 +8680,190 @@ export default {
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.label': '見積書から受注書を作成',
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.source': '引用',
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.target': '受注',
-  'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.label': '販売契約から受注書を作成',
+  'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.label':
+    '販売契約から受注書を作成',
   'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.source': '販売契約',
   'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.target': '受注',
-  'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.label': '見積書から販売契約を作成',
+  'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.label':
+    '見積書から販売契約を作成',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.source': '引用',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.target': '販売契約',
-  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.label': '受注から受注変更を作成',
+  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.label':
+    '受注から受注変更を作成',
   'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.target': '受注変更',
-  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.label': '発注書から発注変更を作成する',
+  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.label':
+    '発注書から発注変更を作成する',
   'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.source': '発注書',
   'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.target': '発注変更',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.label': '発注書から購買入庫を作成する',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.label':
+    '発注書から購買入庫を作成する',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.source': '発注書',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.target': '購買入庫',
-  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.label': '発注書から購買請求書を作成する',
+  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.label':
+    '発注書から購買請求書を作成する',
   'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.source': '発注書',
   'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.target': '購買請求書',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.label': '発注書から購買返品を作成する',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.label':
+    '発注書から購買返品を作成する',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.source': '発注書',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.target': '購買返品',
-  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.label': '購買依頼から発注書を作成する',
+  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.label':
+    '購買依頼から発注書を作成する',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.source': '購入申請',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.target': '発注書',
-  'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.label': '購買見積から発注書を作成する',
+  'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.label':
+    '購買見積から発注書を作成する',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.source': '購買見積',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.target': '発注書',
-  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.label': '求人からお問い合わせを作成',
+  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.label':
+    '求人からお問い合わせを作成',
   'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.source': '購入申請',
-  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.target': '購入に関するお問い合わせ',
-  'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.label': '作業指示から配合オーダーを作成する',
+  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.target':
+    '購入に関するお問い合わせ',
+  'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.label':
+    '作業指示から配合オーダーを作成する',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.source': '作業指示',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.target': '配合オーダー',
-  'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.label': '受注から出荷通知を作成する',
+  'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.label':
+    '受注から出荷通知を作成する',
   'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.target': '発送通知',
-  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.label': '販売アウトバウンドから納品書を作成する',
-  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.source': 'アウトバウンド販売',
+  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.label':
+    '販売アウトバウンドから納品書を作成する',
+  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.source':
+    'アウトバウンド販売',
   'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.target': '配達メモ',
-  'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.label': '受注から売上請求書を作成する',
+  'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.label':
+    '受注から売上請求書を作成する',
   'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.target': '売上請求書',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.label': '受注から販売出庫を作成する',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.label':
+    '受注から販売出庫を作成する',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.target': '販売出庫',
-  'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.label': '受注から売上返品を作成する',
+  'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.label':
+    '受注から売上返品を作成する',
   'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.target': '売上返品',
-  'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.label': '発注書から受領通知を作成する',
+  'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.label':
+    '発注書から受領通知を作成する',
   'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.source': '発注書',
   'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.target': '受領通知',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.label': '受領通知からの購入インバウンドの作成',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.label':
+    '受領通知からの購入インバウンドの作成',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.source': '受領通知',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.target': 'インバウンドの購入',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.label': '受入検査から購買返品を作成する',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.target':
+    'インバウンドの購入',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.label':
+    '受入検査から購買返品を作成する',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.source': '受入検査',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.target': '購買返品',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.label': '購買入庫から受入検査を作成する',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.label':
+    '購買入庫から受入検査を作成する',
   'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.source': '購買入庫',
   'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.target': '受入検査',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.label': '顧客支給材登録から受入検査を作成する',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.source': '顧客支給材登録',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.target': '受入検査',
-  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.label': '作業指示から工程検査を作成する',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.label':
+    '顧客支給材登録から受入検査を作成する',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.source':
+    '顧客支給材登録',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.target':
+    '受入検査',
+  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.label':
+    '作業指示から工程検査を作成する',
   'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.source': '作業指示',
   'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.target': '工程検査',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.label': '作業指示から完成品検査を作成する',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.label':
+    '作業指示から完成品検査を作成する',
   'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.source': '作業指示',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.target': '完成品検査',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.label': '出荷通知からOQC検査を作成する',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.target':
+    '完成品検査',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.label':
+    '出荷通知からOQC検査を作成する',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.source': '発送通知',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.target': 'OQC検査',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.label': '販売出庫からOQC検査を作成する',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.label':
+    '販売出庫からOQC検査を作成する',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.source': '販売出庫',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.target': 'OQC検査',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.label': '完成品検査から手直しオーダーを作成する',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.source': '完成品検査',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.target': '手直しオーダー',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.label': '需要計算から購買依頼を作成する',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.source': 'デマンド計算',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.target': '購入申請',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.label': '販売予測から需要計算を作成する',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.label':
+    '完成品検査から手直しオーダーを作成する',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.source':
+    '完成品検査',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.target':
+    '手直しオーダー',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.label':
+    '需要計算から購買依頼を作成する',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.source':
+    'デマンド計算',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.target':
+    '購入申請',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.label':
+    '販売予測から需要計算を作成する',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.source': '販売予測',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.target': '需要計算',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.label': 'デマンドからデマンド計算を作成',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.label':
+    'デマンドからデマンド計算を作成',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.source': '要求',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.target': 'デマンド計算',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.label': '受注から需要計算を作成する',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.label':
+    '受注から需要計算を作成する',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.target': 'デマンド計算',
-  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.label': '需要計算から作業指示を作成する',
+  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.label':
+    '需要計算から作業指示を作成する',
   'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.source': 'デマンド計算',
   'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.target': '作業指示',
-  'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.label': '生産計画から製造指示を作成する',
+  'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.label':
+    '生産計画から製造指示を作成する',
   'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.source': '生産計画',
   'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.target': '作業指示',
-  'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.label': '受注から作業指示を作成する',
+  'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.label':
+    '受注から作業指示を作成する',
   'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.target': '作業指示',
-  'app.kuaizhizao.documentAction.outbound.pull_from_work_order.label': '製造指示から生産ピッキングを作成する',
+  'app.kuaizhizao.documentAction.outbound.pull_from_work_order.label':
+    '製造指示から生産ピッキングを作成する',
   'app.kuaizhizao.documentAction.outbound.pull_from_work_order.source': '作業指示',
   'app.kuaizhizao.documentAction.outbound.pull_from_work_order.target': '生産ピッキング',
-  'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.label': '受注からアウトバウンド販売を作成する',
+  'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.label':
+    '受注からアウトバウンド販売を作成する',
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.target': 'アウトバウンド販売',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.label': '出荷通知からアウトバウンド販売を作成する',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.label':
+    '出荷通知からアウトバウンド販売を作成する',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.source': '発送通知',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.target': 'アウトバウンド販売',
-  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.label': '外注WOから外注案件を作成する',
-  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.source': '作業指示をアウトソーシングする',
-  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.target': 'アウトソーシングの問題',
-  'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.label': '発注書からの購入インバウンドの作成',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.target':
+    'アウトバウンド販売',
+  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.label':
+    '外注WOから外注案件を作成する',
+  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.source':
+    '作業指示をアウトソーシングする',
+  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.target':
+    'アウトソーシングの問題',
+  'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.label':
+    '発注書からの購入インバウンドの作成',
   'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.source': '発注書',
   'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.target': 'インバウンドの購入',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order.label': '製造指示からの完成品入庫の作成',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order.label':
+    '製造指示からの完成品入庫の作成',
   'app.kuaizhizao.documentAction.inbound.pull_from_work_order.source': '作業指示',
   'app.kuaizhizao.documentAction.inbound.pull_from_work_order.target': '完成品の入荷',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.label': '受注から返品を作成する',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.source': '受注',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.target': '売上収益',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.label': 'アウトソース WO からアウトソース インバウンドを作成する',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.source': '作業指示をアウトソーシングする',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.target': 'インバウンドのアウトソーシング',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.label': '製造指示からの生産返品の作成',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.source': '作業指示',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.target': '生産リターン',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.label':
+    'アウトソース WO からアウトソース インバウンドを作成する',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.source':
+    '作業指示をアウトソーシングする',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.target':
+    'インバウンドのアウトソーシング',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.label':
+    '製造指示からの生産返品の作成',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.source':
+    '作業指示',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.target':
+    '生産リターン',
   'app.kuaizhizao.warehouseInbound.title': 'インバウンド管理',
   'app.kuaizhizao.warehouseInbound.fallbackDoc': 'インバウンドの領収書',
   'app.kuaizhizao.warehouseInbound.fallbackProductionReturnDoc': '生産リターン',
@@ -8282,64 +9058,93 @@ export default {
   'app.kuaizhizao.warehouseInbound.detail.serialCount': '{{count}} 個のアイテム',
   'app.kuaizhizao.warehouseInbound.confirmPreview.titleInbound': 'インバウンドプレビューの確認',
   'app.kuaizhizao.warehouseInbound.confirmPreview.titleReturn': '返品プレビューの確認',
-  'app.kuaizhizao.warehouseInbound.confirmPreview.description': '確認する前に、入荷倉庫、場所 (オプション)、バッチ/シリアル番号、および数量を行ごとに確認します。在庫はラインごとに更新されます。',
-  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.title': '顧客からの資材の到着を確認する',
-  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.content': '受信伝票「{{code}}」を確認しますか?',
+  'app.kuaizhizao.warehouseInbound.confirmPreview.description':
+    '確認する前に、入荷倉庫、場所 (オプション)、バッチ/シリアル番号、および数量を行ごとに確認します。在庫はラインごとに更新されます。',
+  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.title':
+    '顧客からの資材の到着を確認する',
+  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.content':
+    '受信伝票「{{code}}」を確認しますか?',
   'app.kuaizhizao.warehouseInbound.confirm.salesReturn.title': '売上返品のインバウンドの確認',
-  'app.kuaizhizao.warehouseInbound.confirm.salesReturn.content': '受信伝票「{{code}}」を確認しますか?',
+  'app.kuaizhizao.warehouseInbound.confirm.salesReturn.content':
+    '受信伝票「{{code}}」を確認しますか?',
   'app.kuaizhizao.warehouseInbound.confirm.otherInbound.title': 'その他のインバウンドを確認する',
-  'app.kuaizhizao.warehouseInbound.confirm.otherInbound.content': '受信伝票「{{code}}」を確認しますか?',
+  'app.kuaizhizao.warehouseInbound.confirm.otherInbound.content':
+    '受信伝票「{{code}}」を確認しますか?',
   'app.kuaizhizao.warehouseInbound.confirm.materialReturn.title': '資材返却のインバウンドの確認',
-  'app.kuaizhizao.warehouseInbound.confirm.materialReturn.content': '資材返却書類「{{code}}」を確認しますか?',
+  'app.kuaizhizao.warehouseInbound.confirm.materialReturn.content':
+    '資材返却書類「{{code}}」を確認しますか?',
   'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.title': '外注受領確認インバウンド',
-  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.content': '外注受入伝票「{{code}}」を確認しますか?',
+  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.content':
+    '外注受入伝票「{{code}}」を確認しますか?',
   'app.kuaizhizao.warehouseInbound.confirm.withdrawInbound.title': 'インバウンドの撤退',
   'app.kuaizhizao.warehouseInbound.confirm.withdrawReturn.title': '返品の撤回',
-  'app.kuaizhizao.warehouseInbound.confirm.withdraw.content': '文書「{{code}}」を撤回しますか?手持在庫は明細ごとに減ります。バッチ在庫が不十分な場合、引き出しは失敗します。',
+  'app.kuaizhizao.warehouseInbound.confirm.withdraw.content':
+    '文書「{{code}}」を撤回しますか?手持在庫は明細ごとに減ります。バッチ在庫が不十分な場合、引き出しは失敗します。',
   'app.kuaizhizao.warehouseInbound.confirm.delete.title': '{{type}} を削除',
-  'app.kuaizhizao.warehouseInbound.confirm.delete.content': '「{{code}}」を削除しますか?これを元に戻すことはできません (未確認の受入は在庫に影響しません)。',
+  'app.kuaizhizao.warehouseInbound.confirm.delete.content':
+    '「{{code}}」を削除しますか?これを元に戻すことはできません (未確認の受入は在庫に影響しません)。',
   'app.kuaizhizao.warehouseInbound.confirm.batch.title': '{{count}} 伝票をバッチ確認します',
-  'app.kuaizhizao.warehouseInbound.confirm.batch.description': '文書タイプごとに一致確認 API を呼び出します。確認できない文書はスキップされ、失敗の理由が要約されます。',
-  'app.kuaizhizao.warehouseInbound.confirm.batchDelete': '選択した{{count}}件の受信確認を削除しますか?',
-  'app.kuaizhizao.warehouseInbound.msg.recordsNotFound': '選択した伝票が見つかりません。リストを更新して再試行してください。',
+  'app.kuaizhizao.warehouseInbound.confirm.batch.description':
+    '文書タイプごとに一致確認 API を呼び出します。確認できない文書はスキップされ、失敗の理由が要約されます。',
+  'app.kuaizhizao.warehouseInbound.confirm.batchDelete':
+    '選択した{{count}}件の受信確認を削除しますか?',
+  'app.kuaizhizao.warehouseInbound.msg.recordsNotFound':
+    '選択した伝票が見つかりません。リストを更新して再試行してください。',
   'app.kuaizhizao.warehouseInbound.msg.batchConfirmSuccess': '{{count}} 伝票が正常に確認されました',
-  'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailedMany': '{{count}} 伝票が失敗しました: {{detail}}…',
+  'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailedMany':
+    '{{count}} 伝票が失敗しました: {{detail}}…',
   'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailed': '確認に失敗しました: {{detail}}',
   'app.kuaizhizao.warehouseInbound.msg.loadDetailFailed': '受信確認の詳細をロードできませんでした',
   'app.kuaizhizao.warehouseInbound.msg.noEditableLines': '編集可能な行の詳細はありません',
-  'app.kuaizhizao.warehouseInbound.msg.actualQtyMustBePositive': '{{material}} の実際の数量は 0 より大きくなければなりません',
+  'app.kuaizhizao.warehouseInbound.msg.actualQtyMustBePositive':
+    '{{material}} の実際の数量は 0 より大きくなければなりません',
   'app.kuaizhizao.warehouseInbound.msg.actualQtySaved': '実際に節約された数量',
   'app.kuaizhizao.warehouseInbound.msg.saveFailed': '保存に失敗しました',
   'app.kuaizhizao.warehouseInbound.msg.serialMax100': '一度に最大 100 個のシリアル番号を生成',
   'app.kuaizhizao.warehouseInbound.msg.serialGenerated': '生成された {{count}} シリアル番号',
   'app.kuaizhizao.warehouseInbound.msg.serialGenerateFailed': 'シリアル番号の生成に失敗しました',
-  'app.kuaizhizao.warehouseInbound.msg.loadConfirmPreviewFailed': '受信確認の詳細をロードできませんでした',
+  'app.kuaizhizao.warehouseInbound.msg.loadConfirmPreviewFailed':
+    '受信確認の詳細をロードできませんでした',
   'app.kuaizhizao.warehouseInbound.msg.noInboundLines': 'インバウンドに利用可能な回線がありません',
-  'app.kuaizhizao.warehouseInbound.msg.selectWarehouseForMaterial': '{{material}} の入荷倉庫を選択してください',
+  'app.kuaizhizao.warehouseInbound.msg.selectWarehouseForMaterial':
+    '{{material}} の入荷倉庫を選択してください',
   'app.kuaizhizao.warehouseInbound.msg.checkLines': 'ライン詳細を確認してください',
-  'app.kuaizhizao.warehouseInbound.msg.lineCountMismatch': '保存後の行数が一致しません。プレビューを閉じて再試行してください。',
-  'app.kuaizhizao.warehouseInbound.msg.lineIdAbnormal': '保存後の行 ID が異常です。プレビューを閉じて再試行してください。',
-  'app.kuaizhizao.warehouseInbound.msg.returnConfirmSuccess': '返品が確認されました。在庫が更新されました',
-  'app.kuaizhizao.warehouseInbound.msg.inboundConfirmSuccess': 'インバウンドが確認されました。在庫が更新されました',
+  'app.kuaizhizao.warehouseInbound.msg.lineCountMismatch':
+    '保存後の行数が一致しません。プレビューを閉じて再試行してください。',
+  'app.kuaizhizao.warehouseInbound.msg.lineIdAbnormal':
+    '保存後の行 ID が異常です。プレビューを閉じて再試行してください。',
+  'app.kuaizhizao.warehouseInbound.msg.returnConfirmSuccess':
+    '返品が確認されました。在庫が更新されました',
+  'app.kuaizhizao.warehouseInbound.msg.inboundConfirmSuccess':
+    'インバウンドが確認されました。在庫が更新されました',
   'app.kuaizhizao.warehouseInbound.msg.confirmFailed': '確認に失敗しました',
-  'app.kuaizhizao.warehouseInbound.msg.customerMaterialConfirmed': '顧客からの資材の到着が確認されました',
-  'app.kuaizhizao.warehouseInbound.msg.salesReturnConfirmed': '販売返品のインバウンドが確認されました',
-  'app.kuaizhizao.warehouseInbound.msg.otherInboundConfirmed': 'その他のインバウンドが確認されました',
+  'app.kuaizhizao.warehouseInbound.msg.customerMaterialConfirmed':
+    '顧客からの資材の到着が確認されました',
+  'app.kuaizhizao.warehouseInbound.msg.salesReturnConfirmed':
+    '販売返品のインバウンドが確認されました',
+  'app.kuaizhizao.warehouseInbound.msg.otherInboundConfirmed':
+    'その他のインバウンドが確認されました',
   'app.kuaizhizao.warehouseInbound.msg.materialReturnConfirmed': '資材返却の到着が確認されました',
   'app.kuaizhizao.warehouseInbound.msg.outsourceReceiptConfirmed': '外注受領確認済み',
-  'app.kuaizhizao.warehouseInbound.msg.useConfirmPreviewForOutsource': '外注返品の確認受信プレビューを使用する',
-  'app.kuaizhizao.warehouseInbound.msg.withdrawReturnSuccess': '返品は取り消されました。在庫が減りました',
-  'app.kuaizhizao.warehouseInbound.msg.withdrawInboundSuccess': 'インバウンドは撤退。在庫が減りました',
+  'app.kuaizhizao.warehouseInbound.msg.useConfirmPreviewForOutsource':
+    '外注返品の確認受信プレビューを使用する',
+  'app.kuaizhizao.warehouseInbound.msg.withdrawReturnSuccess':
+    '返品は取り消されました。在庫が減りました',
+  'app.kuaizhizao.warehouseInbound.msg.withdrawInboundSuccess':
+    'インバウンドは撤退。在庫が減りました',
   'app.kuaizhizao.warehouseInbound.msg.withdrawFailed': '出金に失敗しました',
   'app.kuaizhizao.warehouseInbound.msg.deleteSuccess': '削除しました',
   'app.kuaizhizao.warehouseInbound.msg.deleteFailed': '削除に失敗しました',
   'app.kuaizhizao.warehouseInbound.msg.loadListFailed': '受信リストのロードに失敗しました',
   'app.kuaizhizao.warehouseInbound.msg.batchDeleteSuccess': '{{count}} レコードを削除しました',
-  'app.kuaizhizao.warehouseInbound.msg.loadUsersFailed': 'ユーザーのロードに失敗しました。後でもう一度試してください。',
+  'app.kuaizhizao.warehouseInbound.msg.loadUsersFailed':
+    'ユーザーのロードに失敗しました。後でもう一度試してください。',
   'app.kuaizhizao.warehouseInbound.msg.noLinesToSetWarehouse': '倉庫を設定する明細がありません',
   'app.kuaizhizao.warehouseInbound.msg.batchWarehouseApplied': '{{count}} 行の入荷倉庫を設定する',
-  'app.kuaizhizao.warehouseInbound.batchConfirm.loadDetailFailed': '伝票の詳細をロードできませんでした',
-  'app.kuaizhizao.warehouseInbound.batchConfirm.useSinglePreview': '外注返品に単一行の確認プレビューを使用する',
+  'app.kuaizhizao.warehouseInbound.batchConfirm.loadDetailFailed':
+    '伝票の詳細をロードできませんでした',
+  'app.kuaizhizao.warehouseInbound.batchConfirm.useSinglePreview':
+    '外注返品に単一行の確認プレビューを使用する',
   'app.kuaizhizao.warehouseInbound.batchConfirm.unsupportedType': 'サポートされていない伝票 タイプ',
   'app.kuaizhizao.warehouseInbound.batchConfirm.notConfirmable': 'インバウンドは現状確認不可',
   'app.kuaizhizao.warehouseInbound.batchConfirm.failed': '確認に失敗しました',
@@ -8355,16 +9160,24 @@ export default {
   'app.kuaizhizao.warehouseInbound.pull.outsourceType.productReturn': '製品返品の委託',
   'app.kuaizhizao.warehouseInbound.pull.po.title': '発注書からの受信',
   'app.kuaizhizao.warehouseInbound.pull.po.searchPlaceholder': 'PO番号/サプライヤーで検索',
-  'app.kuaizhizao.warehouseInbound.pull.po.selectAtLeastOne': '少なくとも 1 つの発注書を選択してください',
-  'app.kuaizhizao.warehouseInbound.pull.po.allCompleted': '選択した発注書は完全に受領されましたが、プル可能な数量はありません',
-  'app.kuaizhizao.warehouseInbound.pull.po.selectOnlyOne': '受信用の発注書を 1 つだけ選択してください',
+  'app.kuaizhizao.warehouseInbound.pull.po.selectAtLeastOne':
+    '少なくとも 1 つの発注書を選択してください',
+  'app.kuaizhizao.warehouseInbound.pull.po.allCompleted':
+    '選択した発注書は完全に受領されましたが、プル可能な数量はありません',
+  'app.kuaizhizao.warehouseInbound.pull.po.selectOnlyOne':
+    '受信用の発注書を 1 つだけ選択してください',
   'app.kuaizhizao.warehouseInbound.pull.po.loadFailed': '発注書の読み込みに失敗しました',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.title': '通知から領収書を作成',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.searchPlaceholder': '通知/PO/サプライヤーで検索',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.selectRequired': '領収書通知を選択してください',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.alreadyConverted': '領収書通知はすでに購入領収書に変換されています',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.noLinkedPo': '受領通知は発注書にリンクされていません',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.loadFailed': '領収書通知の読み込みに失敗しました',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.searchPlaceholder':
+    '通知/PO/サプライヤーで検索',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.selectRequired':
+    '領収書通知を選択してください',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.alreadyConverted':
+    '領収書通知はすでに購入領収書に変換されています',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.noLinkedPo':
+    '受領通知は発注書にリンクされていません',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.loadFailed':
+    '領収書通知の読み込みに失敗しました',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.title': '製造指示の受領書の作成',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.searchPlaceholder': 'WO/製品/受注から検索',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.selectRequired': '作業指示を選択してください',
@@ -8375,63 +9188,102 @@ export default {
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.selectRequired': '受注を選択してください',
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.loadFailed': '受注の読み込みに失敗しました',
   'app.kuaizhizao.warehouseInbound.pull.outsource.title': '外注WOからの領収書の作成',
-  'app.kuaizhizao.warehouseInbound.pull.outsource.searchPlaceholder': '外注先WO/製品/サプライヤーから探す',
-  'app.kuaizhizao.warehouseInbound.pull.outsource.selectRequired': 'アウトソーシング製造指示を選択してください',
-  'app.kuaizhizao.warehouseInbound.pull.outsource.loadFailed': 'アウトソーシング製造指示の読み込みに失敗しました',
+  'app.kuaizhizao.warehouseInbound.pull.outsource.searchPlaceholder':
+    '外注先WO/製品/サプライヤーから探す',
+  'app.kuaizhizao.warehouseInbound.pull.outsource.selectRequired':
+    'アウトソーシング製造指示を選択してください',
+  'app.kuaizhizao.warehouseInbound.pull.outsource.loadFailed':
+    'アウトソーシング製造指示の読み込みに失敗しました',
   'app.kuaizhizao.warehouseInbound.entry.purchase.title': 'インバウンドの購入',
   'app.kuaizhizao.warehouseInbound.entry.purchase.titleWithCode': 'インバウンドの購入 — {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.purchase.invalidPo': '無効な発注書です',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.allReceived': 'POを完全に受け取りました。プッシュする行がありません',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.allReceived':
+    'POを完全に受け取りました。プッシュする行がありません',
   'app.kuaizhizao.warehouseInbound.entry.purchase.loadFailed': '発注書の読み込みに失敗しました',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.qtyExceedsOutstanding': '{{material}} の受入数量は未処理の {{max}} を超えることはできません',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.fillReceiptQty': '少なくとも 1 行の入庫数量を入力してください',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.noReceiptId': 'プッシュは成功しましたが、受信 ID が返されませんでした',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreated': '購入インバウンドドラフトが作成されました{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.qtyExceedsOutstanding':
+    '{{material}} の受入数量は未処理の {{max}} を超えることはできません',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.fillReceiptQty':
+    '少なくとも 1 行の入庫数量を入力してください',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.noReceiptId':
+    'プッシュは成功しましたが、受信 ID が返されませんでした',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreated':
+    '購入インバウンドドラフトが作成されました{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreatedSuffix': ': {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.purchase.batchWarehouseTitle': 'バッチセット入荷倉庫',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.invalid': '無効な作業指示です',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.noLines': 'この作業指示にはインバウンド明細はありません',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.loadFailed': '製造指示の受信プレビューをロードできませんでした',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.noLines':
+    'この作業指示にはインバウンド明細はありません',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.loadFailed':
+    '製造指示の受信プレビューをロードできませんでした',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.fillReceiptQty': '入庫数量を入力してください',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.qtyExceedsPending': '受入数量は保留の {{max}} を超えることはできません',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.qtyExceedsPending':
+    '受入数量は保留の {{max}} を超えることはできません',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.selectWarehouse': '入荷倉庫を選択してください',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.semiDraftCreated': '半完成の受信ドラフトが作成されました{{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.finishedDraftCreated': '完成品の入庫ドラフトが作成されました{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.semiDraftCreated':
+    '半完成の受信ドラフトが作成されました{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.finishedDraftCreated':
+    '完成品の入庫ドラフトが作成されました{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.title': '生産リターン',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.titleWithCode': '生産収益 — {{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingFailed': 'ピッキング文書のロードに失敗しました',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnLines': '選択したピッキングには返品明細がありません',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingLinesFailed': 'ピッキングラインをロードできませんでした',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectPicking': 'ピッキング伝票を選択してください',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectWarehouse': '返品倉庫を選択してください',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.fillReturnQty': '少なくとも 1 行の返品数量を入力してください',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.qtyExceedsPicked': '{{material}} の返品数量は、選択された {{max}} を超えることはできません',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnId': '作成されましたが、戻り伝票 ID が返されませんでした',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.draftCreated': '生産返却ドラフトが作成されました{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingFailed':
+    'ピッキング文書のロードに失敗しました',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnLines':
+    '選択したピッキングには返品明細がありません',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingLinesFailed':
+    'ピッキングラインをロードできませんでした',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectPicking':
+    'ピッキング伝票を選択してください',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectWarehouse':
+    '返品倉庫を選択してください',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.fillReturnQty':
+    '少なくとも 1 行の返品数量を入力してください',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.qtyExceedsPicked':
+    '{{material}} の返品数量は、選択された {{max}} を超えることはできません',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnId':
+    '作成されましたが、戻り伝票 ID が返されませんでした',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.draftCreated':
+    '生産返却ドラフトが作成されました{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.title': '売上収益',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.titleWithCode': '売上収益 — {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.invalidOrder': '無効な受注',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.noLines': 'この受注には返品明細行はありません',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.loadFailed': '売上返品プレビューの読み込みに失敗しました',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.qtyExceedsReturnable': '{{material}} の返品数量は返品可能な {{max}} を超えることはできません',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.fillReturnQty': '少なくとも 1 行の返品数量を入力してください',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.loadFailed':
+    '売上返品プレビューの読み込みに失敗しました',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.qtyExceedsReturnable':
+    '{{material}} の返品数量は返品可能な {{max}} を超えることはできません',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.fillReturnQty':
+    '少なくとも 1 行の返品数量を入力してください',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.selectWarehouse': '返品倉庫を選択してください',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.noReturnId': 'プッシュは成功しましたが、リターン ID が返されませんでした',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.draftCreated': '売上返品草案が作成されました{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.noReturnId':
+    'プッシュは成功しましたが、リターン ID が返されませんでした',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.draftCreated':
+    '売上返品草案が作成されました{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.outsource.invalid': '無効なアウトソーシング作業指示',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noMaterialReturnLines': 'このアウトソーシング WO には重要な返品明細はありません',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noProductReturnLines': 'このアウトソーシング WO には製品返品ラインがありません',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.loadFailed': 'アウトソーシング製造指示を読み込めませんでした',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noMaterialReturnLines':
+    'このアウトソーシング WO には重要な返品明細はありません',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noProductReturnLines':
+    'このアウトソーシング WO には製品返品ラインがありません',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.loadFailed':
+    'アウトソーシング製造指示を読み込めませんでした',
   'app.kuaizhizao.warehouseInbound.entry.outsource.selectWarehouse': '倉庫を選択してください',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noReceiptQty': 'この外注 WO には受取可能数量がありません',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnQtyExceeds': '{{material}} の材料返品数量が返品可能数量を超えています',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnQtyExceeds': '商品の返品数量が返品可能数量を超えています',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.fillMaterialReturnQty': '少なくとも 1 行の資材返品数量を入力してください',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.fillProductReturnQty': '少なくとも 1 行の製品返品数量を入力してください',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.receiptDraftCreated': '外注の領収書草案が作成されました{{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnDraftsCreated': '{{count}} 件のアウトソーシング資材返却草案を作成しました',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnDraftsCreated': '{{count}} アウトソーシング製品返品草案を作成しました',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.multiDraftConfirmInList': '{{count}} 件の下書きを作成しました。それぞれをリストで確認してください。',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noReceiptQty':
+    'この外注 WO には受取可能数量がありません',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnQtyExceeds':
+    '{{material}} の材料返品数量が返品可能数量を超えています',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnQtyExceeds':
+    '商品の返品数量が返品可能数量を超えています',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.fillMaterialReturnQty':
+    '少なくとも 1 行の資材返品数量を入力してください',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.fillProductReturnQty':
+    '少なくとも 1 行の製品返品数量を入力してください',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.receiptDraftCreated':
+    '外注の領収書草案が作成されました{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnDraftsCreated':
+    '{{count}} 件のアウトソーシング資材返却草案を作成しました',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnDraftsCreated':
+    '{{count}} アウトソーシング製品返品草案を作成しました',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.multiDraftConfirmInList':
+    '{{count}} 件の下書きを作成しました。それぞれをリストで確認してください。',
   'app.kuaizhizao.warehouseOtherInbound.title': 'その他のインバウンド',
   'app.kuaizhizao.warehouseOtherInbound.create': '新しいその他のインバウンド',
   'app.kuaizhizao.warehouseOtherInbound.createModal': '新しいその他のインバウンド',
@@ -8488,12 +9340,15 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.field.quantityMin': '>0',
   'app.kuaizhizao.warehouseOtherInbound.field.dictManage': 'データディクショナリ',
   'app.kuaizhizao.warehouseOtherInbound.confirm.title': 'インバウンドの確認',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.content': '受信「{{code}}」を確認しますか?在庫は更新されます。',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.content':
+    '受信「{{code}}」を確認しますか?在庫は更新されます。',
   'app.kuaizhizao.warehouseOtherInbound.confirm.deleteTitle': 'インバウンドの削除',
   'app.kuaizhizao.warehouseOtherInbound.confirm.deleteContent': '受信「{{code}}」を削除しますか?',
   'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawTitle': 'インバウンド出金の確認',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawContent': '「{{code}}」の確認を取り消しますか?追加された在庫はロールバックされます。',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.batchDelete': '選択した {{count}} 個の他の受信伝票を削除しますか?',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawContent':
+    '「{{code}}」の確認を取り消しますか?追加された在庫はロールバックされます。',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.batchDelete':
+    '選択した {{count}} 個の他の受信伝票を削除しますか?',
   'app.kuaizhizao.warehouseOtherInbound.msg.loadDetailFailed': '他の受信詳細のロードに失敗しました',
   'app.kuaizhizao.warehouseOtherInbound.msg.confirmSuccess': 'インバウンド確認済み',
   'app.kuaizhizao.warehouseOtherInbound.msg.confirmFailed': '受信確認に失敗しました',
@@ -8503,7 +9358,8 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.msg.withdrawFailed': '出金に失敗しました',
   'app.kuaizhizao.warehouseOtherInbound.msg.loadListFailed': '他の受信リストのロードに失敗しました',
   'app.kuaizhizao.warehouseOtherInbound.msg.batchDeleteSuccess': '{{count}} レコードを削除しました',
-  'app.kuaizhizao.warehouseOtherInbound.msg.needValidLine': '少なくとも 1 つの有効な行 (材料と数量) を追加します。',
+  'app.kuaizhizao.warehouseOtherInbound.msg.needValidLine':
+    '少なくとも 1 つの有効な行 (材料と数量) を追加します。',
   'app.kuaizhizao.warehouseOtherInbound.msg.createSuccess': '作成しました',
   'app.kuaizhizao.warehouseOtherInbound.msg.createFailed': '作成に失敗しました',
   'app.kuaizhizao.warehouseOtherInbound.msg.selectMaterialFirst': 'まずは素材を選ぶ',
@@ -8511,7 +9367,8 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.msg.batchGenerateFailed': 'バッチ番号の生成に失敗しました',
   'app.kuaizhizao.warehouseOtherInbound.msg.serialMax100': '一度に最大 100 個のシリアル番号を生成',
   'app.kuaizhizao.warehouseOtherInbound.msg.serialGenerated': '生成された {{count}} シリアル番号',
-  'app.kuaizhizao.warehouseOtherInbound.msg.serialGenerateFailed': 'シリアル番号の生成に失敗しました',
+  'app.kuaizhizao.warehouseOtherInbound.msg.serialGenerateFailed':
+    'シリアル番号の生成に失敗しました',
   'app.kuaizhizao.warehouseMaterialReturn.title': '資材返却',
   'app.kuaizhizao.warehouseMaterialReturn.create': '新素材の返却',
   'app.kuaizhizao.warehouseMaterialReturn.createModal': '新素材の返却',
@@ -8545,23 +9402,32 @@ export default {
   'app.kuaizhizao.warehouseMaterialReturn.field.optional': 'オプション',
   'app.kuaizhizao.warehouseMaterialReturn.field.returnDetails': 'リターンライン',
   'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrow': '借用書類を選択してください',
-  'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowPlaceholder': '借用文書を選択（借用ステータスのみ）',
+  'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowPlaceholder':
+    '借用文書を選択（借用ステータスのみ）',
   'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowRequired': '借用書類を選択してください',
   'app.kuaizhizao.warehouseMaterialReturn.confirm.title': 'インバウンドの確認',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.content': '資材返却「{{code}}」を確認しますか?在庫が増えます。',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.content':
+    '資材返却「{{code}}」を確認しますか?在庫が増えます。',
   'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteTitle': 'マテリアル返却の削除',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteContent': 'マテリアルリターン「{{code}}」を削除しますか?',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.batchDelete': '選択した{{count}}資材返却書類を削除しますか?',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.loadDetailFailed': '資材返却の詳細をロードできませんでした',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.loadBorrowDetailFailed': '借用書類の詳細をロードできませんでした',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteContent':
+    'マテリアルリターン「{{code}}」を削除しますか?',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.batchDelete':
+    '選択した{{count}}資材返却書類を削除しますか?',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.loadDetailFailed':
+    '資材返却の詳細をロードできませんでした',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.loadBorrowDetailFailed':
+    '借用書類の詳細をロードできませんでした',
   'app.kuaizhizao.warehouseMaterialReturn.msg.confirmSuccess': 'インバウンド確認済み',
   'app.kuaizhizao.warehouseMaterialReturn.msg.confirmFailed': '受信確認に失敗しました',
   'app.kuaizhizao.warehouseMaterialReturn.msg.deleteSuccess': '削除しました',
   'app.kuaizhizao.warehouseMaterialReturn.msg.deleteFailed': '削除に失敗しました',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.loadListFailed': '資材返却リストの読み込みに失敗しました',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.batchDeleteSuccess': '{{count}} レコードを削除しました',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.loadListFailed':
+    '資材返却リストの読み込みに失敗しました',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.batchDeleteSuccess':
+    '{{count}} レコードを削除しました',
   'app.kuaizhizao.warehouseMaterialReturn.msg.selectBorrow': '借用書類を選択してください',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.needValidReturnQty': '少なくとも 1 行の返品数量を入力してください',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.needValidReturnQty':
+    '少なくとも 1 行の返品数量を入力してください',
   'app.kuaizhizao.warehouseMaterialReturn.msg.createSuccess': '作成しました',
   'app.kuaizhizao.warehouseMaterialReturn.msg.createFailed': '作成に失敗しました',
   'app.kuaizhizao.warehouseOutbound.title': 'アウトバウンド管理',
@@ -8652,50 +9518,73 @@ export default {
   'app.kuaizhizao.warehouseOutbound.detail.noOperationLog': '操作ログが無い',
   'app.kuaizhizao.warehouseOutbound.detail.docNo': '文書番号',
   'app.kuaizhizao.warehouseOutbound.msg.loadListFailed': '送信リストのロードに失敗しました',
-  'app.kuaizhizao.warehouseOutbound.msg.loadDetailFailed': 'アウトバウンドの詳細をロードできませんでした',
-  'app.kuaizhizao.warehouseOutbound.msg.selectSalesOrders': '少なくとも 1 つの受注を選択してください',
-  'app.kuaizhizao.warehouseOutbound.msg.selectWorkOrders': '少なくとも 1 つの作業指示を選択してください',
+  'app.kuaizhizao.warehouseOutbound.msg.loadDetailFailed':
+    'アウトバウンドの詳細をロードできませんでした',
+  'app.kuaizhizao.warehouseOutbound.msg.selectSalesOrders':
+    '少なくとも 1 つの受注を選択してください',
+  'app.kuaizhizao.warehouseOutbound.msg.selectWorkOrders':
+    '少なくとも 1 つの作業指示を選択してください',
   'app.kuaizhizao.warehouseOutbound.msg.selectWarehouse': '出荷倉庫を選択してください',
-  'app.kuaizhizao.warehouseOutbound.msg.salesOrderPullFailed': '受注 {{id}} のプルに失敗しました: {{message}}',
-  'app.kuaizhizao.warehouseOutbound.msg.batchSalesSuccess': 'アウトバウンドの一括販売が成功し、{{count}} 配送伝票が作成されました',
-  'app.kuaizhizao.warehouseOutbound.msg.batchPickingSuccess': 'バッチ生産ピッキングが成功し、{{count}} ピッキング 伝票が作成されました',
+  'app.kuaizhizao.warehouseOutbound.msg.salesOrderPullFailed':
+    '受注 {{id}} のプルに失敗しました: {{message}}',
+  'app.kuaizhizao.warehouseOutbound.msg.batchSalesSuccess':
+    'アウトバウンドの一括販売が成功し、{{count}} 配送伝票が作成されました',
+  'app.kuaizhizao.warehouseOutbound.msg.batchPickingSuccess':
+    'バッチ生産ピッキングが成功し、{{count}} ピッキング 伝票が作成されました',
   'app.kuaizhizao.warehouseOutbound.msg.batchOutboundFailed': 'バッチアウトバウンドが失敗しました',
   'app.kuaizhizao.warehouseOutbound.msg.attachmentsSaved': '添付ファイルが保存されました',
   'app.kuaizhizao.warehouseOutbound.msg.saveAttachmentsFailed': '添付ファイルの保存に失敗しました',
-  'app.kuaizhizao.warehouseOutbound.msg.selectPendingDocs': '最初に保留の送信伝票を選択してください',
+  'app.kuaizhizao.warehouseOutbound.msg.selectPendingDocs':
+    '最初に保留の送信伝票を選択してください',
   'app.kuaizhizao.warehouseOutbound.msg.noneConfirmable': '選択した文書はどれも確認できません',
-  'app.kuaizhizao.warehouseOutbound.msg.batchConfirmSuccess': '{{count}} 件の送信書類を確認しました',
-  'app.kuaizhizao.warehouseOutbound.msg.batchConfirmFailed': '{{count}} は失敗しました: {{details}}',
+  'app.kuaizhizao.warehouseOutbound.msg.batchConfirmSuccess':
+    '{{count}} 件の送信書類を確認しました',
+  'app.kuaizhizao.warehouseOutbound.msg.batchConfirmFailed':
+    '{{count}} は失敗しました: {{details}}',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawTitle': 'アウトバウンドの引き出し',
-  'app.kuaizhizao.warehouseOutbound.msg.withdrawConfirm': '文書「{{code}}」を撤回しますか?在庫は取り消され、ステータスは保留に戻ります。',
+  'app.kuaizhizao.warehouseOutbound.msg.withdrawConfirm':
+    '文書「{{code}}」を撤回しますか?在庫は取り消され、ステータスは保留に戻ります。',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawSuccess': '正常に出金されました',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawFailed': '出金に失敗しました',
-  'app.kuaizhizao.warehouseOutbound.msg.printNotSupported': 'このタイプでは印刷はサポートされていません',
-  'app.kuaizhizao.warehouseOutbound.msg.selectPickingDocs': '最初に生産ピッキング文書を選択してください',
+  'app.kuaizhizao.warehouseOutbound.msg.printNotSupported':
+    'このタイプでは印刷はサポートされていません',
+  'app.kuaizhizao.warehouseOutbound.msg.selectPickingDocs':
+    '最初に生産ピッキング文書を選択してください',
   'app.kuaizhizao.warehouseOutbound.msg.waveGenerated': 'ウェーブピッキングリストの生成',
-  'app.kuaizhizao.warehouseOutbound.msg.waveGenerateFailed': 'ウェーブピッキングリストの生成に失敗しました',
+  'app.kuaizhizao.warehouseOutbound.msg.waveGenerateFailed':
+    'ウェーブピッキングリストの生成に失敗しました',
   'app.kuaizhizao.warehouseOutbound.msg.deleteSuccess': '{{count}} レコードを削除しました',
   'app.kuaizhizao.warehouseOutbound.msg.deleteFailed': '削除に失敗しました',
-  'app.kuaizhizao.warehouseOutbound.msg.deleteConfirm': '選択した {{count}} 送信伝票を削除しますか?',
-  'app.kuaizhizao.warehouseOutbound.msg.noConfirmPickingPermission': '現在の設定では生産ピッキングを確認することはできません',
+  'app.kuaizhizao.warehouseOutbound.msg.deleteConfirm':
+    '選択した {{count}} 送信伝票を削除しますか?',
+  'app.kuaizhizao.warehouseOutbound.msg.noConfirmPickingPermission':
+    '現在の設定では生産ピッキングを確認することはできません',
   'app.kuaizhizao.warehouseOutbound.msg.unknownError': '不明なエラー',
   'app.kuaizhizao.warehouseOutbound.batch.title': 'バッチアウトバウンド',
-  'app.kuaizhizao.warehouseOutbound.batch.description': 'アップストリーム伝票からアウトバウンド伝票をバッチ作成します。生産ピッキング: 製造指示からのプッシュ。アウトバウンド販売: 受注から引き出します。',
+  'app.kuaizhizao.warehouseOutbound.batch.description':
+    'アップストリーム伝票からアウトバウンド伝票をバッチ作成します。生産ピッキング: 製造指示からのプッシュ。アウトバウンド販売: 受注から引き出します。',
   'app.kuaizhizao.warehouseOutbound.batch.typeProductionPicking': '生産ピッキング（製造指示から）',
   'app.kuaizhizao.warehouseOutbound.batch.typeSalesDelivery': 'アウトバウンド販売（受注から）',
   'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrders': '作業指示の選択',
-  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersRule': '少なくとも 1 つの作業指示を選択してください',
-  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersPlaceholder': '製造指示の選択 (リリース済み/進行中)',
+  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersRule':
+    '少なくとも 1 つの作業指示を選択してください',
+  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersPlaceholder':
+    '製造指示の選択 (リリース済み/進行中)',
   'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrders': '受注の選択',
-  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersRule': '少なくとも 1 つの受注を選択してください',
-  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersPlaceholder': '受注の選択 (監査/確認済み)',
+  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersRule':
+    '少なくとも 1 つの受注を選択してください',
+  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersPlaceholder':
+    '受注の選択 (監査/確認済み)',
   'app.kuaizhizao.warehouseOutbound.batch.selectWarehouseRule': '出荷倉庫を選択してください',
   'app.kuaizhizao.warehouseOutbound.batchConfirm.title': '{{count}} 伝票のバッチ送信を確認します',
-  'app.kuaizhizao.warehouseOutbound.batchConfirm.description': '文書タイプごとに一致確認 API を呼び出します。確認できない文書はスキップされ、失敗が要約されます。',
+  'app.kuaizhizao.warehouseOutbound.batchConfirm.description':
+    '文書タイプごとに一致確認 API を呼び出します。確認できない文書はスキップされ、失敗が要約されます。',
   'app.kuaizhizao.warehouseOutbound.wave.title': 'ウェーブピッキングリスト',
-  'app.kuaizhizao.warehouseOutbound.wave.summary': '{{sourceCount}} の生産ピッキング 伝票を {{itemCount}} ピッキング ルートに統合しました。',
+  'app.kuaizhizao.warehouseOutbound.wave.summary':
+    '{{sourceCount}} の生産ピッキング 伝票を {{itemCount}} ピッキング ルートに統合しました。',
   'app.kuaizhizao.warehouseOutbound.confirm.title': 'アウトバウンドの確認',
-  'app.kuaizhizao.warehouseOutbound.confirm.hint': '場所、バッチ番号を確認してください。そしてシリアルNo.バッチ/シリアル管理されたマテリアルは確認時に検証されます。',
+  'app.kuaizhizao.warehouseOutbound.confirm.hint':
+    '場所、バッチ番号を確認してください。そしてシリアルNo.バッチ/シリアル管理されたマテリアルは確認時に検証されます。',
   'app.kuaizhizao.warehouseOutbound.confirm.fifoHint': 'FIFO/LIFO およびその他の戦略を参照',
   'app.kuaizhizao.warehouseOutbound.confirm.fifoLink': '構成センター → ウェアハウスパラメータ',
   'app.kuaizhizao.warehouseOutbound.confirm.loadingBatches': 'バッチをロード中…',
@@ -8708,18 +9597,28 @@ export default {
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.searchPlaceholder': 'シリアル番号を検索',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectAll': 'すべて選択',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.clear': 'クリア',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectedCount': '選択 {{selected}} / {{required}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectedCount':
+    '選択 {{selected}} / {{required}}',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.summary': '{{count}} 件選択',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.maxReached': '出庫数量の上限に達しました（{{max}} 件）',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.noMatch': '一致するシリアル番号がありません',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.maxReached':
+    '出庫数量の上限に達しました（{{max}} 件）',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.noMatch':
+    '一致するシリアル番号がありません',
   'app.kuaizhizao.warehouseOutbound.confirm.batchAvailable': '{{batch}} ({{qty}} で入手可能)',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchAvailableWithWh': '{{batch}} ({{qty}} 利用可 · {{warehouse}})',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchRequired': '品目 {{material}}：在庫ロットから選択してください：{{batches}}',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchNotInStock': '品目 {{material}} は出庫倉庫「{{warehouse}}」に利用可能なロットがありません。倉庫または品目のデフォルト倉庫を確認してください',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchQtyInsufficient': '品目 {{material}} ロット {{batch}} の在庫 {{available}} が出庫数量 {{required}} より不足しています',
-  'app.kuaizhizao.warehouseOutbound.confirm.loadPreviewFailed': '確認プレビューの読み込みに失敗しました',
-  'app.kuaizhizao.warehouseOutbound.confirm.typeNotSupported': 'このタイプではアウトバウンドがサポートされていないことを確認します',
-  'app.kuaizhizao.warehouseOutbound.confirm.notPosted': 'アウトバウンドは投稿されていません (API ステータス: {{status}})',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchAvailableWithWh':
+    '{{batch}} ({{qty}} 利用可 · {{warehouse}})',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchRequired':
+    '品目 {{material}}：在庫ロットから選択してください：{{batches}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchNotInStock':
+    '品目 {{material}} は出庫倉庫「{{warehouse}}」に利用可能なロットがありません。倉庫または品目のデフォルト倉庫を確認してください',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchQtyInsufficient':
+    '品目 {{material}} ロット {{batch}} の在庫 {{available}} が出庫数量 {{required}} より不足しています',
+  'app.kuaizhizao.warehouseOutbound.confirm.loadPreviewFailed':
+    '確認プレビューの読み込みに失敗しました',
+  'app.kuaizhizao.warehouseOutbound.confirm.typeNotSupported':
+    'このタイプではアウトバウンドがサポートされていないことを確認します',
+  'app.kuaizhizao.warehouseOutbound.confirm.notPosted':
+    'アウトバウンドは投稿されていません (API ステータス: {{status}})',
   'app.kuaizhizao.warehouseOutbound.confirm.success': '出荷が確認され、在庫が更新されました',
   'app.kuaizhizao.warehouseOutbound.confirm.failed': '送信確認に失敗しました',
   'app.kuaizhizao.warehouseOutbound.pull.pullable': 'プル可能',
@@ -8731,7 +9630,8 @@ export default {
   'app.kuaizhizao.warehouseOutbound.pull.fromWorkOrder': '作業指示からのプル — 生産ピッキング',
   'app.kuaizhizao.warehouseOutbound.pull.fromSalesOrder': '受注からのプル - アウトバウンド販売',
   'app.kuaizhizao.warehouseOutbound.pull.fromShipmentNotice': '出荷通知からのアウトバウンドの作成',
-  'app.kuaizhizao.warehouseOutbound.pull.fromOutsource': 'アウトソーシング WO からのプル — アウトソーシングの問題',
+  'app.kuaizhizao.warehouseOutbound.pull.fromOutsource':
+    'アウトソーシング WO からのプル — アウトソーシングの問題',
   'app.kuaizhizao.warehouseOutbound.pull.searchWorkOrder': 'WO番号/製品/受注番号で検索',
   'app.kuaizhizao.warehouseOutbound.pull.searchSalesOrder': '注文番号/顧客から検索',
   'app.kuaizhizao.warehouseOutbound.pull.searchShipmentNotice': '通知番号/受注番号/顧客から検索',
@@ -8753,15 +9653,21 @@ export default {
   'app.kuaizhizao.warehouseOutbound.pull.colOutboundDate': '出発日',
   'app.kuaizhizao.warehouseOutbound.pull.loadWorkOrdersFailed': '製造指示の読み込みに失敗しました',
   'app.kuaizhizao.warehouseOutbound.pull.loadSalesOrdersFailed': '受注の読み込みに失敗しました',
-  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticesFailed': '出荷通知の読み込みに失敗しました',
-  'app.kuaizhizao.warehouseOutbound.pull.loadOutsourceFailed': 'アウトソーシング製造指示の読み込みに失敗しました',
+  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticesFailed':
+    '出荷通知の読み込みに失敗しました',
+  'app.kuaizhizao.warehouseOutbound.pull.loadOutsourceFailed':
+    'アウトソーシング製造指示の読み込みに失敗しました',
   'app.kuaizhizao.warehouseOutbound.pull.selectWorkOrder': '作業指示を選択してください',
   'app.kuaizhizao.warehouseOutbound.pull.selectSalesOrder': '受注を選択してください',
   'app.kuaizhizao.warehouseOutbound.pull.selectShipmentNotice': '発送通知を選択してください',
-  'app.kuaizhizao.warehouseOutbound.pull.selectOutsource': 'アウトソーシング製造指示を選択してください',
-  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeConverted': 'この出荷通知には販売アウトバウンド文書がすでに存在します',
-  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeNoSalesOrder': '出荷通知は受注にリンクされていません',
-  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticeFailed': '出荷通知の読み込みに失敗しました',
+  'app.kuaizhizao.warehouseOutbound.pull.selectOutsource':
+    'アウトソーシング製造指示を選択してください',
+  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeConverted':
+    'この出荷通知には販売アウトバウンド文書がすでに存在します',
+  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeNoSalesOrder':
+    '出荷通知は受注にリンクされていません',
+  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticeFailed':
+    '出荷通知の読み込みに失敗しました',
   'app.kuaizhizao.warehouseOutbound.entry.productionPicking': '生産ピッキング',
   'app.kuaizhizao.warehouseOutbound.entry.salesDelivery': 'アウトバウンド販売',
   'app.kuaizhizao.warehouseOutbound.entry.outsourceIssue': 'アウトソーシングの問題',
@@ -8770,11 +9676,16 @@ export default {
   'app.kuaizhizao.warehouseOutbound.entry.invalidOutsource': '無効なアウトソーシング作業指示',
   'app.kuaizhizao.warehouseOutbound.entry.loadWorkOrderFailed': '製造指示の読み込みに失敗しました',
   'app.kuaizhizao.warehouseOutbound.entry.loadSalesOrderFailed': '受注の読み込みに失敗しました',
-  'app.kuaizhizao.warehouseOutbound.entry.loadOutsourceFailed': 'アウトソーシング製造指示を読み込めませんでした',
-  'app.kuaizhizao.warehouseOutbound.entry.noPickingId': 'プッシュは成功しましたが、選択した伝票 ID が返されませんでした',
-  'app.kuaizhizao.warehouseOutbound.entry.noDeliveryId': 'プッシュは成功しましたが、送信伝票 ID が返されませんでした',
-  'app.kuaizhizao.warehouseOutbound.entry.draftPickingCreated': '生産ピッキングドラフトが作成されました{{code}}',
-  'app.kuaizhizao.warehouseOutbound.entry.draftDeliveryCreated': '営業アウトバウンド下書きが作成されました{{code}}',
+  'app.kuaizhizao.warehouseOutbound.entry.loadOutsourceFailed':
+    'アウトソーシング製造指示を読み込めませんでした',
+  'app.kuaizhizao.warehouseOutbound.entry.noPickingId':
+    'プッシュは成功しましたが、選択した伝票 ID が返されませんでした',
+  'app.kuaizhizao.warehouseOutbound.entry.noDeliveryId':
+    'プッシュは成功しましたが、送信伝票 ID が返されませんでした',
+  'app.kuaizhizao.warehouseOutbound.entry.draftPickingCreated':
+    '生産ピッキングドラフトが作成されました{{code}}',
+  'app.kuaizhizao.warehouseOutbound.entry.draftDeliveryCreated':
+    '営業アウトバウンド下書きが作成されました{{code}}',
   'app.kuaizhizao.warehouseOutbound.entry.saveFailed': '保存に失敗しました',
   'app.kuaizhizao.warehouseOutbound.entry.sourceDocNo': '出典文書番号',
   'app.kuaizhizao.warehouseOutbound.entry.product': '製品',
@@ -8793,10 +9704,14 @@ export default {
   'app.kuaizhizao.warehouseOutbound.entry.totalIssueQty': '合計発行数量: {{qty}}',
   'app.kuaizhizao.warehouseOutbound.entry.pendingIssueQty': '保留の発行数量',
   'app.kuaizhizao.warehouseOutbound.entry.thisIssue': 'この号',
-  'app.kuaizhizao.warehouseOutbound.entry.qtyExceedsPending': '資材 {{material}} の出荷数量は保留の {{max}} を超えることはできません',
-  'app.kuaizhizao.warehouseOutbound.entry.fillOutboundQty': '少なくとも 1 行の出荷数量を入力してください',
-  'app.kuaizhizao.warehouseOutbound.entry.fillIssueQty': '少なくとも 1 行の発行数量を入力してください',
-  'app.kuaizhizao.warehouseOutbound.entry.outsourceIssueCreated': 'アウトソーシングの問題伝票が作成されました',
+  'app.kuaizhizao.warehouseOutbound.entry.qtyExceedsPending':
+    '資材 {{material}} の出荷数量は保留の {{max}} を超えることはできません',
+  'app.kuaizhizao.warehouseOutbound.entry.fillOutboundQty':
+    '少なくとも 1 行の出荷数量を入力してください',
+  'app.kuaizhizao.warehouseOutbound.entry.fillIssueQty':
+    '少なくとも 1 行の発行数量を入力してください',
+  'app.kuaizhizao.warehouseOutbound.entry.outsourceIssueCreated':
+    'アウトソーシングの問題伝票が作成されました',
   'app.kuaizhizao.otherOutbound.title': 'その他のアウトバウンド',
   'app.kuaizhizao.otherOutbound.create': '新規その他のアウトバウンド',
   'app.kuaizhizao.otherOutbound.createModal': '新規その他のアウトバウンド',
@@ -8814,21 +9729,26 @@ export default {
   'app.kuaizhizao.otherOutbound.reason.other': '他の',
   'app.kuaizhizao.otherOutbound.field.dataDictionary': 'データディクショナリ',
   'app.kuaizhizao.otherOutbound.msg.loadListFailed': '他の送信リストのロードに失敗しました',
-  'app.kuaizhizao.otherOutbound.msg.loadDetailFailed': '他のアウトバウンドの詳細をロードできませんでした',
+  'app.kuaizhizao.otherOutbound.msg.loadDetailFailed':
+    '他のアウトバウンドの詳細をロードできませんでした',
   'app.kuaizhizao.otherOutbound.msg.confirmTitle': 'アウトバウンドの確認',
-  'app.kuaizhizao.otherOutbound.msg.confirmContent': '送信「{{code}}」を確認しますか?在庫は更新されます。',
+  'app.kuaizhizao.otherOutbound.msg.confirmContent':
+    '送信「{{code}}」を確認しますか?在庫は更新されます。',
   'app.kuaizhizao.otherOutbound.msg.confirmSuccess': 'アウトバウンドが確認されました',
   'app.kuaizhizao.otherOutbound.msg.confirmFailed': '送信確認に失敗しました',
   'app.kuaizhizao.otherOutbound.msg.withdrawTitle': 'アウトバウンドの引き出し',
-  'app.kuaizhizao.otherOutbound.msg.withdrawContent': '送信「{{code}}」を引き出しますか?在庫は取り消され、ステータスは保留に戻ります。',
+  'app.kuaizhizao.otherOutbound.msg.withdrawContent':
+    '送信「{{code}}」を引き出しますか?在庫は取り消され、ステータスは保留に戻ります。',
   'app.kuaizhizao.otherOutbound.msg.withdrawSuccess': '正常に出金されました',
   'app.kuaizhizao.otherOutbound.msg.withdrawFailed': '出金に失敗しました',
   'app.kuaizhizao.otherOutbound.msg.deleteTitle': 'アウトバウンドの削除',
   'app.kuaizhizao.otherOutbound.msg.deleteContent': '送信「{{code}}」を削除しますか?',
   'app.kuaizhizao.otherOutbound.msg.deleteSuccess': '削除しました',
   'app.kuaizhizao.otherOutbound.msg.deleteFailed': '削除に失敗しました',
-  'app.kuaizhizao.otherOutbound.msg.deleteConfirm': '選択した {{count}} 個の他の送信伝票を削除しますか?',
-  'app.kuaizhizao.otherOutbound.msg.needValidLines': '少なくとも 1 つの有効な行 (材料 + 数量) を追加します。',
+  'app.kuaizhizao.otherOutbound.msg.deleteConfirm':
+    '選択した {{count}} 個の他の送信伝票を削除しますか?',
+  'app.kuaizhizao.otherOutbound.msg.needValidLines':
+    '少なくとも 1 つの有効な行 (材料 + 数量) を追加します。',
   'app.kuaizhizao.otherOutbound.msg.createSuccess': '作成しました',
   'app.kuaizhizao.otherOutbound.msg.createFailed': '作成に失敗しました',
   'app.kuaizhizao.otherOutbound.msg.deleteBatchSuccess': '{{count}} レコードを削除しました',
@@ -8858,11 +9778,13 @@ export default {
   'app.kuaizhizao.materialBorrow.msg.loadListFailed': '資料借用リストの読み込みに失敗しました',
   'app.kuaizhizao.materialBorrow.msg.loadDetailFailed': '資料借用の詳細をロードできませんでした',
   'app.kuaizhizao.materialBorrow.msg.confirmTitle': '借用の確認',
-  'app.kuaizhizao.materialBorrow.msg.confirmContent': '「{{code}}」を借用することを確認しますか?在庫は差し引かれます。',
+  'app.kuaizhizao.materialBorrow.msg.confirmContent':
+    '「{{code}}」を借用することを確認しますか?在庫は差し引かれます。',
   'app.kuaizhizao.materialBorrow.msg.confirmSuccess': '借入が確認されました',
   'app.kuaizhizao.materialBorrow.msg.confirmFailed': '借入確認に失敗しました',
   'app.kuaizhizao.materialBorrow.msg.withdrawTitle': '借入の引き出し',
-  'app.kuaizhizao.materialBorrow.msg.withdrawContent': '「{{code}}」を借りて出金しますか?在庫は取り消され、ステータスは保留に戻ります。',
+  'app.kuaizhizao.materialBorrow.msg.withdrawContent':
+    '「{{code}}」を借りて出金しますか?在庫は取り消され、ステータスは保留に戻ります。',
   'app.kuaizhizao.materialBorrow.msg.withdrawSuccess': '正常に出金されました',
   'app.kuaizhizao.materialBorrow.msg.withdrawFailed': '出金に失敗しました',
   'app.kuaizhizao.materialBorrow.msg.deleteTitle': '借用素材の削除',
@@ -8874,7 +9796,8 @@ export default {
   'app.kuaizhizao.materialBorrow.msg.batchDeleteFailed': '一括削除に失敗しました',
   'app.kuaizhizao.materialBorrow.msg.syncSuccess': '同期された {{count}} 資料借用伝票',
   'app.kuaizhizao.materialBorrow.msg.syncFailed': '同期に失敗しました',
-  'app.kuaizhizao.materialBorrow.msg.needValidLines': '少なくとも 1 つの有効な行 (材料 + 数量) を追加します。',
+  'app.kuaizhizao.materialBorrow.msg.needValidLines':
+    '少なくとも 1 つの有効な行 (材料 + 数量) を追加します。',
   'app.kuaizhizao.materialBorrow.msg.needValidLinesRule': '少なくとも 1 つの有効な行を追加します',
   'app.kuaizhizao.materialBorrow.msg.createSuccess': '作成しました',
   'app.kuaizhizao.materialBorrow.msg.createFailed': '作成に失敗しました',
@@ -8899,9 +9822,11 @@ export default {
   'app.kuaizhizao.deliveryNote.field.contact': '接触',
   'app.kuaizhizao.deliveryNote.field.phone': '電話',
   'app.kuaizhizao.deliveryNote.field.linkedSalesDelivery': 'リンクされたアウトバウンド販売',
-  'app.kuaizhizao.deliveryNote.field.linkedSalesDeliveryPlaceholder': 'オプション。伝票番号を入力します。そして注文する',
+  'app.kuaizhizao.deliveryNote.field.linkedSalesDeliveryPlaceholder':
+    'オプション。伝票番号を入力します。そして注文する',
   'app.kuaizhizao.deliveryNote.field.linkedSalesOrder': 'リンクされた受注',
-  'app.kuaizhizao.deliveryNote.field.linkedSalesOrderPlaceholder': '送信伝票なしで注文を選択してください',
+  'app.kuaizhizao.deliveryNote.field.linkedSalesOrderPlaceholder':
+    '送信伝票なしで注文を選択してください',
   'app.kuaizhizao.deliveryNote.field.plannedDeliveryDate': '納品予定日',
   'app.kuaizhizao.deliveryNote.field.carrier': '運送業者・物流業者',
   'app.kuaizhizao.deliveryNote.field.carrierPlaceholder': '例えばSFエクスプレス、デッポン',
@@ -8931,9 +9856,11 @@ export default {
   'app.kuaizhizao.deliveryNote.msg.batchDeleteFailed': '一括削除に失敗しました',
   'app.kuaizhizao.deliveryNote.msg.syncSuccess': '{{count}} の配信通知を同期しました',
   'app.kuaizhizao.deliveryNote.msg.syncFailed': '同期に失敗しました',
-  'app.kuaizhizao.deliveryNote.msg.noCertificate': '品質証明書が見つかりません。まず完成品検査を完了し、証明書を発行します。',
+  'app.kuaizhizao.deliveryNote.msg.noCertificate':
+    '品質証明書が見つかりません。まず完成品検査を完了し、証明書を発行します。',
   'app.kuaizhizao.deliveryNote.msg.printCertificateTitle': '製品証明書を印刷する',
-  'app.kuaizhizao.deliveryNote.msg.multipleCertificates': '{{count}} 証明書が見つかりました。最初を開いた ({{name}})',
+  'app.kuaizhizao.deliveryNote.msg.multipleCertificates':
+    '{{count}} 証明書が見つかりました。最初を開いた ({{name}})',
   'app.kuaizhizao.deliveryNote.msg.resolveCertificateFailed': '証明書の解決に失敗しました',
   'app.kuaizhizao.deliveryNote.msg.needValidLines': '少なくとも 1 つの有効な行を追加します',
   'app.kuaizhizao.deliveryNote.msg.selectCustomer': '顧客を選択してください',
@@ -8945,10 +9872,13 @@ export default {
   'app.kuaizhizao.deliveryNote.msg.exportSuccess': '{{count}} レコードをエクスポートしました',
   'app.kuaizhizao.deliveryNote.msg.exportFailed': 'エクスポートに失敗しました',
   'app.kuaizhizao.deliveryNote.msg.selectSource': '{{label}} を選択してください',
-  'app.kuaizhizao.deliveryNote.msg.alreadyCreated': 'この {{source}} には {{target}} がすでに存在します',
-  'app.kuaizhizao.deliveryNote.msg.missingCustomerOrLines': 'アウトバウンド販売に顧客または有効な行がありません。納品書が作成できない',
+  'app.kuaizhizao.deliveryNote.msg.alreadyCreated':
+    'この {{source}} には {{target}} がすでに存在します',
+  'app.kuaizhizao.deliveryNote.msg.missingCustomerOrLines':
+    'アウトバウンド販売に顧客または有効な行がありません。納品書が作成できない',
   'app.kuaizhizao.deliveryNote.msg.pullCreateSuccess': '{{source}} から {{target}} を作成しました',
-  'app.kuaizhizao.deliveryNote.msg.pullCreateFailed': '{{source}} から {{target}} を作成できませんでした',
+  'app.kuaizhizao.deliveryNote.msg.pullCreateFailed':
+    '{{source}} から {{target}} を作成できませんでした',
   'app.kuaizhizao.deliveryNote.msg.noLineDetails': '回線詳細なし',
   'app.kuaizhizao.deliveryNote.msg.noOperationLog': '操作ログが無い',
   'app.kuaizhizao.deliveryNote.pull.searchPlaceholder': '出荷番号/受注番号/顧客から検索',
@@ -9072,7 +10002,8 @@ export default {
   'app.kuaizhizao.warehouseCommon.placeholderRemarks': '備考を入力してください',
   'app.kuaizhizao.warehouseCommon.enterQuantity': '数量を入力してください',
   'app.kuaizhizao.warehouseCommon.componentMaterial': '構成材料',
-  'app.kuaizhizao.warehouseCommon.selectComponentMaterial': 'コンポーネントの材質を選択してください',
+  'app.kuaizhizao.warehouseCommon.selectComponentMaterial':
+    'コンポーネントの材質を選択してください',
   'app.kuaizhizao.warehouseCommon.operationSuccess': '操作は成功しました',
   'app.kuaizhizao.warehouseCommon.edit': '編集',
   'app.kuaizhizao.warehouseCommon.delete': '消去',
@@ -9088,7 +10019,8 @@ export default {
   'app.kuaizhizao.warehouseCommon.deleteItemTitle': '行の削除',
   'app.kuaizhizao.warehouseCommon.deleteItemConfirm': '行「{{name}}」を削除しますか?',
   'app.kuaizhizao.warehouseCommon.batchDeleteTitle': '一括削除の確認 {{noun}}',
-  'app.kuaizhizao.warehouseCommon.batchDeleteConfirm': '選択した {{count}} {{noun}} を削除しますか?',
+  'app.kuaizhizao.warehouseCommon.batchDeleteConfirm':
+    '選択した {{count}} {{noun}} を削除しますか?',
   'app.kuaizhizao.warehouseCommon.deleteOrderTitle': '{{noun}} を削除',
   'app.kuaizhizao.warehouseCommon.deleteOrderConfirm': '{{noun}}「{{code}}」を削除しますか?',
   'app.kuaizhizao.warehouseCommon.deleteOrderSuccess': '{{noun}} が削除されました',
@@ -9100,14 +10032,17 @@ export default {
   'app.kuaizhizao.warehouseCommon.addItemFailed': '行の追加に失敗しました',
   'app.kuaizhizao.warehouseCommon.deleteItemSuccess': '行が削除されました',
   'app.kuaizhizao.warehouseCommon.deleteItemFailed': '行の削除に失敗しました',
-  'app.kuaizhizao.warehouseCommon.addItemBeforeExecute': '実行する前に、{{noun}} に少なくとも 1 行を追加してください。',
-  'app.kuaizhizao.warehouseCommon.executeConfirmContent': '「{{code}}」で{{action}}を実行しますか?在庫は更新されます。',
+  'app.kuaizhizao.warehouseCommon.addItemBeforeExecute':
+    '実行する前に、{{noun}} に少なくとも 1 行を追加してください。',
+  'app.kuaizhizao.warehouseCommon.executeConfirmContent':
+    '「{{code}}」で{{action}}を実行しますか?在庫は更新されます。',
   'app.kuaizhizao.warehouseCommon.executeFailed': '{{action}} は失敗しました',
   'app.kuaizhizao.warehouseCommon.editOrderTitle': '{{noun}} を編集',
   'app.kuaizhizao.warehouseCommon.editItemTitle': '{{noun}}行を編集',
   'app.kuaizhizao.warehouseCommon.addItemTitle': '{{noun}} 行を追加',
   'app.kuaizhizao.warehouseCommon.updateItemSuccess': '{{noun}} 行が更新されました',
-  'app.kuaizhizao.warehouseCommon.noDetailHint': 'まだ行はありません。テンプレートを適用するか、手動で追加します。',
+  'app.kuaizhizao.warehouseCommon.noDetailHint':
+    'まだ行はありません。テンプレートを適用するか、手動で追加します。',
   'app.kuaizhizao.warehouseCommon.selectDate': '{{label}} を選択してください',
   'app.kuaizhizao.warehouseCommon.enterField': '{{label}}と入力してください',
   'app.kuaizhizao.warehouseCommon.statusPartial': '部分的に納品されました',
@@ -9125,21 +10060,29 @@ export default {
   'app.kuaizhizao.warehouseCommon.createSuccessGeneric': '作成しました',
   'app.kuaizhizao.warehouseCommon.updateSuccessGeneric': '更新しました',
   'app.kuaizhizao.batchingCenter.tab.batchingDraft': 'バッチ実行',
-  'app.kuaizhizao.batchingCenter.tab.batchingDraftHint': '既存のバッチオーダー: 欠品を同期、バッチを選択、メインWHを完了 → ラインサイドピッキング',
+  'app.kuaizhizao.batchingCenter.tab.batchingDraftHint':
+    '既存のバッチオーダー: 欠品を同期、バッチを選択、メインWHを完了 → ラインサイドピッキング',
   'app.kuaizhizao.batchingCenter.tab.materialCall': 'ライン通話',
-  'app.kuaizhizao.batchingCenter.tab.materialCallHint': '迅速な納品が必要な生産ラインからの臨時の資材リクエスト',
+  'app.kuaizhizao.batchingCenter.tab.materialCallHint':
+    '迅速な納品が必要な生産ラインからの臨時の資材リクエスト',
   'app.kuaizhizao.batchingCenter.tab.outsourceIssue': 'アウトソーシングの問題',
-  'app.kuaizhizao.batchingCenter.tab.outsourceIssueHint': '外部委託の作業指示にリンクされた外部委託サプライヤーに原材料を発行します',
+  'app.kuaizhizao.batchingCenter.tab.outsourceIssueHint':
+    '外部委託の作業指示にリンクされた外部委託サプライヤーに原材料を発行します',
   'app.kuaizhizao.batchingCenter.tab.outsourceReceipt': '受領委託',
-  'app.kuaizhizao.batchingCenter.tab.outsourceReceiptHint': '外注加工後の半製品または完成品の受け取り',
+  'app.kuaizhizao.batchingCenter.tab.outsourceReceiptHint':
+    '外注加工後の半製品または完成品の受け取り',
   'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturn': '外部委託資材の返却',
-  'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturnHint': 'サプライヤーから発行された未使用の資材を在庫に戻します',
+  'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturnHint':
+    'サプライヤーから発行された未使用の資材を在庫に戻します',
   'app.kuaizhizao.batchingCenter.tab.outsourceProductReturn': '製品返品の委託',
-  'app.kuaizhizao.batchingCenter.tab.outsourceProductReturnHint': '不良品の外注品をサプライヤーに返品し、在庫を削減',
+  'app.kuaizhizao.batchingCenter.tab.outsourceProductReturnHint':
+    '不良品の外注品をサプライヤーに返品し、在庫を削減',
   'app.kuaizhizao.batchingCenter.tab.proactivePrep': '準備の提案',
-  'app.kuaizhizao.batchingCenter.tab.proactivePrepHint': '製造指示と在庫からのシステム不足アラート。バッチ注文を作成し、バッチ実行で処理します',
+  'app.kuaizhizao.batchingCenter.tab.proactivePrepHint':
+    '製造指示と在庫からのシステム不足アラート。バッチ注文を作成し、バッチ実行で処理します',
   'app.kuaizhizao.batchingCenter.tab.backflushAlert': 'バックフラッシュ例外',
-  'app.kuaizhizao.batchingCenter.tab.backflushAlertHint': 'レポートからのバックフラッシュ控除の失敗。在庫を確認して再試行してください',
+  'app.kuaizhizao.batchingCenter.tab.backflushAlertHint':
+    'レポートからのバックフラッシュ控除の失敗。在庫を確認して再試行してください',
   'app.kuaizhizao.batchingCenter.taskType.batchingDraft': 'バッチ実行',
   'app.kuaizhizao.batchingCenter.taskType.materialCall': 'ライン通話',
   'app.kuaizhizao.batchingCenter.taskType.proactivePrep': '準備の提案',
@@ -9162,25 +10105,31 @@ export default {
   'app.kuaizhizao.batchingCenter.detailTitle': 'バッチ注文の詳細',
   'app.kuaizhizao.batchingCenter.batchingCode': 'バッチ番号',
   'app.kuaizhizao.batchingCenter.pullFromWorkOrderSuccess': '製造指示から生成されたバッチ指示書',
-  'app.kuaizhizao.batchingCenter.manualNeedItems': '手動作成用に少なくとも 1 つのバッチ行を追加します',
+  'app.kuaizhizao.batchingCenter.manualNeedItems':
+    '手動作成用に少なくとも 1 つのバッチ行を追加します',
   'app.kuaizhizao.batchingCenter.createSuccess': 'バッチオーダーが作成されました',
   'app.kuaizhizao.batchingCenter.createFailed': 'バッチオーダーの作成に失敗しました',
   'app.kuaizhizao.batchingCenter.msg.pickingStarted': 'ピッキング開始',
   'app.kuaizhizao.batchingCenter.msg.callCompleted': 'マテリアルコールが完了しました',
   'app.kuaizhizao.batchingCenter.msg.callCancelled': 'マテリアルコールがキャンセルされました',
   'app.kuaizhizao.batchingCenter.confirmCompleteTitle': '完了の確認',
-  'app.kuaizhizao.batchingCenter.confirmCompleteNoItems': 'この通話には回線はありません。完了としてマークしますか?',
+  'app.kuaizhizao.batchingCenter.confirmCompleteNoItems':
+    'この通話には回線はありません。完了としてマークしますか?',
   'app.kuaizhizao.batchingCenter.allItemsPicked': 'すべての行が完全に選択されています',
   'app.kuaizhizao.batchingCenter.loadBatchingFailed': 'バッチ処理注文のロードに失敗しました',
   'app.kuaizhizao.batchingCenter.syncShortageSuccess': '{{count}} 個の不足アイテムを同期しました',
   'app.kuaizhizao.batchingCenter.syncShortageEmpty': '保留の不足明細はありません',
   'app.kuaizhizao.batchingCenter.syncShortageFailed': '不足分の同期に失敗しました',
   'app.kuaizhizao.batchingCenter.fillAllBatchNos': 'すべてのラインのバッチ番号を入力してください',
-  'app.kuaizhizao.batchingCenter.fillBatchOrSkip': '{{name}} のバッチ番号を入力するか、「今回を選択」を無効にしてスキップしてください',
-  'app.kuaizhizao.batchingCenter.selectAtLeastOnePick': '選択する行を少なくとも 1 つ選択してください',
+  'app.kuaizhizao.batchingCenter.fillBatchOrSkip':
+    '{{name}} のバッチ番号を入力するか、「今回を選択」を無効にしてスキップしてください',
+  'app.kuaizhizao.batchingCenter.selectAtLeastOnePick':
+    '選択する行を少なくとも 1 つ選択してください',
   'app.kuaizhizao.batchingCenter.confirmPickSuccess': 'バッチ処理が確認されました',
-  'app.kuaizhizao.batchingCenter.confirmPickPartial': '部分的に摘み取られました。残りの行は後で続行できます',
-  'app.kuaizhizao.batchingCenter.generateBatchingSuccess': 'バッチオーダーが作成されました。 「バッチ実行」で続行します',
+  'app.kuaizhizao.batchingCenter.confirmPickPartial':
+    '部分的に摘み取られました。残りの行は後で続行できます',
+  'app.kuaizhizao.batchingCenter.generateBatchingSuccess':
+    'バッチオーダーが作成されました。 「バッチ実行」で続行します',
   'app.kuaizhizao.batchingCenter.generateBatchingFailed': 'バッチオーダーの生成に失敗しました',
   'app.kuaizhizao.batchingCenter.backflushRetrySubmitted': 'バックフラッシュ再試行が送信されました',
   'app.kuaizhizao.batchingCenter.backflushRetryFailed': '再試行に失敗しました',
@@ -9190,13 +10139,16 @@ export default {
   'app.kuaizhizao.batchingCenter.skipThisPick': 'この選択をスキップします',
   'app.kuaizhizao.batchingCenter.batchPlaceholder': 'バッチ番号を選択またはスキャン/入力',
   'app.kuaizhizao.batchingCenter.loadingBatches': 'バッチをロード中…',
-  'app.kuaizhizao.batchingCenter.noMainWarehouseBatch': 'メインの WH バッチはありません。手動で入力する',
+  'app.kuaizhizao.batchingCenter.noMainWarehouseBatch':
+    'メインの WH バッチはありません。手動で入力する',
   'app.kuaizhizao.batchingCenter.selectOrEnterBatch': 'バッチ番号を選択または入力します',
   'app.kuaizhizao.batchingCenter.confirmCompleteCall': 'マテリアルコールの完了を確認する',
   'app.kuaizhizao.batchingCenter.continuePicking': 'ピッキング継続（メインWH→ラインサイド）',
   'app.kuaizhizao.batchingCenter.confirmPicking': 'Confirm Picking (Main WH → Line-side)',
-  'app.kuaizhizao.batchingCenter.batchingHint': '「今回選択」を無効にして、行をスキップしたり数量を調整したりできます。少なくとも 1 行は必要です。指定されていないバッチは、Config Center からの FIFO を使用します。',
-  'app.kuaizhizao.batchingCenter.callHint': 'バッチ番号を確認します。指定されていないバッチは、Config Center からの FIFO を使用します。',
+  'app.kuaizhizao.batchingCenter.batchingHint':
+    '「今回選択」を無効にして、行をスキップしたり数量を調整したりできます。少なくとも 1 行は必要です。指定されていないバッチは、Config Center からの FIFO を使用します。',
+  'app.kuaizhizao.batchingCenter.callHint':
+    'バッチ番号を確認します。指定されていないバッチは、Config Center からの FIFO を使用します。',
   'app.kuaizhizao.batchingCenter.configCenterHint': '倉庫設定',
   'app.kuaizhizao.batchingCenter.configCenter': '構成センター',
   'app.kuaizhizao.batchingCenter.createBatchingOrder': '新しいバッチ順序',
@@ -9218,9 +10170,11 @@ export default {
   'app.kuaizhizao.batchingCenter.createOutsourceProductReturn': '新しい外注製品の返品',
   'app.kuaizhizao.batchingCenter.confirmCompleteIssue': '完全なアウトソーシング問題？',
   'app.kuaizhizao.batchingCenter.confirmCompleteReceipt': '外注受領書を完成させますか?',
-  'app.kuaizhizao.batchingCenter.completeIssueReceiptHint': 'これにより、アウトソーシング製造指示の発行/受領数量が更新されます。',
+  'app.kuaizhizao.batchingCenter.completeIssueReceiptHint':
+    'これにより、アウトソーシング製造指示の発行/受領数量が更新されます。',
   'app.kuaizhizao.batchingCenter.loadIssuePreviewFailed': '問題のプレビューを読み込めませんでした',
-  'app.kuaizhizao.batchingCenter.selectOutsourceWorkOrder': 'アウトソーシング作業指示を選択してください',
+  'app.kuaizhizao.batchingCenter.selectOutsourceWorkOrder':
+    'アウトソーシング作業指示を選択してください',
   'app.kuaizhizao.batchingCenter.fillIssueQty': '少なくとも 1 行の発行数量を入力してください',
   'app.kuaizhizao.batchingCenter.selectOutboundWarehouse': '出荷倉庫を選択してください',
   'app.kuaizhizao.batchingCenter.fillReceiptQty': '入庫数量を入力してください',
@@ -9257,11 +10211,14 @@ export default {
   'app.kuaizhizao.assemblyOrder.assemblyTemplate': 'アセンブリテンプレート',
   'app.kuaizhizao.assemblyOrder.applyTemplate': 'テンプレートの適用',
   'app.kuaizhizao.assemblyOrder.applyTemplateTitle': 'テンプレートの適用',
-  'app.kuaizhizao.assemblyOrder.applyTemplateConfirm': 'この注文にはすでに明細が入っています。テンプレートを適用すると、保留の行が置き換えられます。続く？',
+  'app.kuaizhizao.assemblyOrder.applyTemplateConfirm':
+    'この注文にはすでに明細が入っています。テンプレートを適用すると、保留の行が置き換えられます。続く？',
   'app.kuaizhizao.assemblyOrder.applyTemplateSuccess': 'テンプレートが適用されました',
   'app.kuaizhizao.assemblyOrder.applyTemplateFailed': 'テンプレートの適用に失敗しました',
-  'app.kuaizhizao.assemblyOrder.selectTemplateFirst': '最初にアセンブリテンプレートを選択してください',
-  'app.kuaizhizao.assemblyOrder.enterQuantityBeforeTemplate': 'テンプレートを適用する前に {{label}} を入力してください',
+  'app.kuaizhizao.assemblyOrder.selectTemplateFirst':
+    '最初にアセンブリテンプレートを選択してください',
+  'app.kuaizhizao.assemblyOrder.enterQuantityBeforeTemplate':
+    'テンプレートを適用する前に {{label}} を入力してください',
   'app.kuaizhizao.assemblyOrder.selectTemplatePlaceholder': 'アセンブリテンプレートの選択',
   'app.kuaizhizao.assemblyOrder.selectTemplateOptional': 'オプション。詳細は後ほどお申込みください',
   'app.kuaizhizao.disassemblyOrder.headerTitle': '解体命令',
@@ -9295,13 +10252,15 @@ export default {
   'app.kuaizhizao.assemblyTemplate.componentItems': 'コンポーネントライン',
   'app.kuaizhizao.assemblyTemplate.colQtyPerBase': 'ベースあたりの数量',
   'app.kuaizhizao.assemblyTemplate.colDefaultUnitPrice': '既定の単価',
-  'app.kuaizhizao.assemblyTemplate.noItemsHint': 'まだ行はありません。手動で追加するか、BOM からインポートします。',
+  'app.kuaizhizao.assemblyTemplate.noItemsHint':
+    'まだ行はありません。手動で追加するか、BOM からインポートします。',
   'app.kuaizhizao.assemblyTemplate.bomPreviewTitle': 'BOM プレビュー',
   'app.kuaizhizao.assemblyTemplate.confirmImport': 'インポートの確認',
   'app.kuaizhizao.assemblyTemplate.addItemModalTitle': 'テンプレート行の追加',
   'app.kuaizhizao.assemblyTemplate.editItemModalTitle': 'テンプレート行の編集',
   'app.kuaizhizao.assemblyTemplate.productMaterial': '完成品/半製品材料',
-  'app.kuaizhizao.assemblyTemplate.selectProductMaterial': '完成品または半完成品の材料を選択してください',
+  'app.kuaizhizao.assemblyTemplate.selectProductMaterial':
+    '完成品または半完成品の材料を選択してください',
   'app.kuaizhizao.assemblyTemplate.enterTemplateName': 'テンプレート名を入力してください',
   'app.kuaizhizao.assemblyTemplate.enterBaseQuantity': '基本数量を入力してください',
   'app.kuaizhizao.assemblyTemplate.enterQtyPerBase': 'ベースごとの数量を入力してください',
@@ -9324,7 +10283,8 @@ export default {
   'app.kuaizhizao.assemblyTemplate.setProductFirst': '完成した素材を先にセットします',
   'app.kuaizhizao.assemblyTemplate.bomPreviewFailed': 'BOM プレビューに失敗しました',
   'app.kuaizhizao.assemblyTemplate.importFromBomTitle': 'BOM からインポート',
-  'app.kuaizhizao.assemblyTemplate.importFromBomConfirm': 'これにより、すべてのテンプレート行が置き換えられます。続く？',
+  'app.kuaizhizao.assemblyTemplate.importFromBomConfirm':
+    'これにより、すべてのテンプレート行が置き換えられます。続く？',
   'app.kuaizhizao.assemblyTemplate.importFromBomSuccess': 'BOM からインポートされたテンプレート行',
   'app.kuaizhizao.assemblyTemplate.importFromBomFailed': 'BOM のインポートに失敗しました',
   'app.kuaizhizao.assemblyTemplate.listEmpty': 'アセンブリテンプレートはありません。',
@@ -9343,19 +10303,25 @@ export default {
   'app.kuaizhizao.barcodeMapping.colEnabledStatus': '有効',
   'app.kuaizhizao.barcodeMapping.colPriority': '優先度',
   'app.kuaizhizao.barcodeMapping.deleteConfirm': 'このマッピング ルールを削除しますか?',
-  'app.kuaizhizao.barcodeMapping.deleteBatchConfirm': '選択した {{count}} マッピング ルールを削除しますか?',
+  'app.kuaizhizao.barcodeMapping.deleteBatchConfirm':
+    '選択した {{count}} マッピング ルールを削除しますか?',
   'app.kuaizhizao.barcodeMapping.loadDetailFailed': 'ルールの詳細をロードできませんでした',
   'app.kuaizhizao.barcodeMapping.loadListFailed': 'ルールリストのロードに失敗しました',
   'app.kuaizhizao.barcodeMapping.enterRuleName': 'ルール名を入力してください',
-  'app.kuaizhizao.barcodeMapping.selectCustomerOptional': '顧客を選択してください (空白 = すべての顧客)',
+  'app.kuaizhizao.barcodeMapping.selectCustomerOptional':
+    '顧客を選択してください (空白 = すべての顧客)',
   'app.kuaizhizao.barcodeMapping.selectBarcodeType': 'バーコードの種類を選択してください',
   'app.kuaizhizao.barcodeMapping.barcodePatternLabel': 'バーコード パターン (正規表現)',
-  'app.kuaizhizao.barcodeMapping.barcodePatternPlaceholder': 'パターンを入力します。例: ^CUST\\\\d+$',
+  'app.kuaizhizao.barcodeMapping.barcodePatternPlaceholder':
+    'パターンを入力します。例: ^CUST\\\\d+$',
   'app.kuaizhizao.barcodeMapping.enterBarcodePattern': 'バーコードパターンを入力してください',
-  'app.kuaizhizao.barcodeMapping.barcodePatternExtra': '正規表現を使用してバーコードを照合します。 ^CUST\\\\d+$ は、CUST で始まりその後に数字が続くコードに一致します',
+  'app.kuaizhizao.barcodeMapping.barcodePatternExtra':
+    '正規表現を使用してバーコードを照合します。 ^CUST\\\\d+$ は、CUST で始まりその後に数字が続くコードに一致します',
   'app.kuaizhizao.barcodeMapping.mappedMaterial': 'マッピングされたマテリアル',
-  'app.kuaizhizao.barcodeMapping.selectMappedMaterial': 'マッピングするマテリアルを選択してください',
-  'app.kuaizhizao.barcodeMapping.priorityPlaceholder': '優先度を入力してください (数値が大きいほど優先度が高くなります)',
+  'app.kuaizhizao.barcodeMapping.selectMappedMaterial':
+    'マッピングするマテリアルを選択してください',
+  'app.kuaizhizao.barcodeMapping.priorityPlaceholder':
+    '優先度を入力してください (数値が大きいほど優先度が高くなります)',
   'app.kuaizhizao.customerMaterialRegistration.headerTitle': '顧客マテリアルの登録',
   'app.kuaizhizao.customerMaterialRegistration.createButton': '顧客からの資材の受け取り',
   'app.kuaizhizao.customerMaterialRegistration.modalTitle': '顧客マテリアルの登録',
@@ -9366,51 +10332,74 @@ export default {
   'app.kuaizhizao.customerMaterialRegistration.entryScan': 'スキャンエントリ',
   'app.kuaizhizao.customerMaterialRegistration.selectCustomer': '顧客を選択してください',
   'app.kuaizhizao.customerMaterialRegistration.inboundWarehouse': '入荷倉庫',
-  'app.kuaizhizao.customerMaterialRegistration.selectInboundWarehouse': '入荷倉庫を選択してください',
+  'app.kuaizhizao.customerMaterialRegistration.selectInboundWarehouse':
+    '入荷倉庫を選択してください',
   'app.kuaizhizao.customerMaterialRegistration.customerBarcode': 'カスタマーバーコード',
   'app.kuaizhizao.customerMaterialRegistration.incomingMaterial': '入荷素材',
-  'app.kuaizhizao.customerMaterialRegistration.selectIncomingMaterial': 'マテリアルを選択またはクイック作成する',
+  'app.kuaizhizao.customerMaterialRegistration.selectIncomingMaterial':
+    'マテリアルを選択またはクイック作成する',
   'app.kuaizhizao.customerMaterialRegistration.incomingQty': '入荷数量',
   'app.kuaizhizao.customerMaterialRegistration.itemsTitle': 'ライン',
   'app.kuaizhizao.customerMaterialRegistration.minOneItem': '少なくとも 1 行追加します',
   'app.kuaizhizao.customerMaterialRegistration.confirmProcess': 'インバウンドを確認しますか？',
   'app.kuaizhizao.customerMaterialRegistration.confirmCancel': 'この登録をキャンセルしますか?',
-  'app.kuaizhizao.customerMaterialRegistration.confirmWithdraw': 'インバウンドを撤退しますか？顧客からの供給在庫は減少します。',
+  'app.kuaizhizao.customerMaterialRegistration.confirmWithdraw':
+    'インバウンドを撤退しますか？顧客からの供給在庫は減少します。',
   'app.kuaizhizao.customerMaterialRegistration.confirmInbound': 'インバウンドの確認',
   'app.kuaizhizao.customerMaterialRegistration.withdraw': '撤回する',
   'app.kuaizhizao.customerMaterialRegistration.batchConfirmInbound': 'インバウンドのバッチ確認',
   'app.kuaizhizao.customerMaterialRegistration.batchWithdraw': 'インバウンド一括引き出し',
   'app.kuaizhizao.customerMaterialRegistration.batchCancel': '一括キャンセル',
-  'app.kuaizhizao.customerMaterialRegistration.deleteConfirm': '選択した {{count}} 登録を削除しますか?',
+  'app.kuaizhizao.customerMaterialRegistration.deleteConfirm':
+    '選択した {{count}} 登録を削除しますか?',
   'app.kuaizhizao.customerMaterialRegistration.selectMaterialFirst': 'まずは素材を選ぶ',
   'app.kuaizhizao.customerMaterialRegistration.batchGenerated': '生成されたバッチ番号',
-  'app.kuaizhizao.customerMaterialRegistration.batchGenerateFailed': 'バッチ番号の生成に失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.serialMax100': '一度に最大 100 個のシリアル番号を生成',
-  'app.kuaizhizao.customerMaterialRegistration.serialGenerated': '生成された {{count}} シリアル番号',
-  'app.kuaizhizao.customerMaterialRegistration.serialGenerateFailed': 'シリアル番号の生成に失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.minOneValidItem': '少なくとも 1 つの有効な行を追加します',
-  'app.kuaizhizao.customerMaterialRegistration.selectMaterialOrCreate': '受信したマテリアルを選択するか、クイック作成します',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeMatched': 'バーコードが解析され、内部資料と照合されました',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeNotMatched': '一致する内部素材がありません。手動で選択または作成する',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeParseFailed': 'バーコード解析に失敗しました。手動で材料を充填する',
-  'app.kuaizhizao.customerMaterialRegistration.createFailed': '顧客資料の受信伝票の作成に失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.draftSaved': '登録は保留の受信ドラフトとして保存されました',
+  'app.kuaizhizao.customerMaterialRegistration.batchGenerateFailed':
+    'バッチ番号の生成に失敗しました',
+  'app.kuaizhizao.customerMaterialRegistration.serialMax100':
+    '一度に最大 100 個のシリアル番号を生成',
+  'app.kuaizhizao.customerMaterialRegistration.serialGenerated':
+    '生成された {{count}} シリアル番号',
+  'app.kuaizhizao.customerMaterialRegistration.serialGenerateFailed':
+    'シリアル番号の生成に失敗しました',
+  'app.kuaizhizao.customerMaterialRegistration.minOneValidItem':
+    '少なくとも 1 つの有効な行を追加します',
+  'app.kuaizhizao.customerMaterialRegistration.selectMaterialOrCreate':
+    '受信したマテリアルを選択するか、クイック作成します',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeMatched':
+    'バーコードが解析され、内部資料と照合されました',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeNotMatched':
+    '一致する内部素材がありません。手動で選択または作成する',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeParseFailed':
+    'バーコード解析に失敗しました。手動で材料を充填する',
+  'app.kuaizhizao.customerMaterialRegistration.createFailed':
+    '顧客資料の受信伝票の作成に失敗しました',
+  'app.kuaizhizao.customerMaterialRegistration.draftSaved':
+    '登録は保留の受信ドラフトとして保存されました',
   'app.kuaizhizao.customerMaterialRegistration.inboundFailed': '顧客資料の受信に失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.startProductionSuccess': 'インバウンドと生産開始: {{registration}} → {{workOrder}}{{batching}}',
-  'app.kuaizhizao.customerMaterialRegistration.startProductionFailed': '発行と本番の開始に失敗しました',
+  'app.kuaizhizao.customerMaterialRegistration.startProductionSuccess':
+    'インバウンドと生産開始: {{registration}} → {{workOrder}}{{batching}}',
+  'app.kuaizhizao.customerMaterialRegistration.startProductionFailed':
+    '発行と本番の開始に失敗しました',
   'app.kuaizhizao.customerMaterialRegistration.processSuccess': '登録確認済みインバウンド',
   'app.kuaizhizao.customerMaterialRegistration.processFailed': '受信失敗の確認',
   'app.kuaizhizao.customerMaterialRegistration.withdrawSuccess': 'インバウンド登録の取り消し',
   'app.kuaizhizao.customerMaterialRegistration.cancelSuccess': '登録がキャンセルされました',
-  'app.kuaizhizao.customerMaterialRegistration.selectRecordsFirst': '最初に登録レコードを選択してください',
-  'app.kuaizhizao.customerMaterialRegistration.batchProcessSuccess': '{{count}} レコードの受信を確認しました',
+  'app.kuaizhizao.customerMaterialRegistration.selectRecordsFirst':
+    '最初に登録レコードを選択してください',
+  'app.kuaizhizao.customerMaterialRegistration.batchProcessSuccess':
+    '{{count}} レコードの受信を確認しました',
   'app.kuaizhizao.customerMaterialRegistration.batchProcessFailed': '受信バッチ確認が失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.batchWithdrawSuccess': '{{count}} レコードの受信を取り消しました',
+  'app.kuaizhizao.customerMaterialRegistration.batchWithdrawSuccess':
+    '{{count}} レコードの受信を取り消しました',
   'app.kuaizhizao.customerMaterialRegistration.batchWithdrawFailed': '一括引き出しに失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.batchCancelSuccess': '{{count}} レコードをキャンセルしました',
+  'app.kuaizhizao.customerMaterialRegistration.batchCancelSuccess':
+    '{{count}} レコードをキャンセルしました',
   'app.kuaizhizao.customerMaterialRegistration.batchCancelFailed': '一括キャンセルに失敗しました',
-  'app.kuaizhizao.customerMaterialRegistration.batchDeleteSuccess': '{{count}} レコードを削除しました',
-  'app.kuaizhizao.customerMaterialRegistration.itemsAdded': '{{count}} マテリアル ラインを追加しました',
+  'app.kuaizhizao.customerMaterialRegistration.batchDeleteSuccess':
+    '{{count}} レコードを削除しました',
+  'app.kuaizhizao.customerMaterialRegistration.itemsAdded':
+    '{{count}} マテリアル ラインを追加しました',
   'app.kuaizhizao.customerMaterialRegistration.workOrderGroup': 'WO グループ {{code}}',
   'app.kuaizhizao.customerMaterialRegistration.batchingOrders': '、バッチ処理 {{codes}}',
   'app.kuaizhizao.warehouseInventory.headerTitle': 'リアルタイムの在庫',
@@ -9440,7 +10429,8 @@ export default {
   'app.kuaizhizao.backflushRecords.statusFailed': '失敗した',
   'app.kuaizhizao.backflushRecords.retry': 'リトライ',
   'app.kuaizhizao.backflushRecords.retryTitle': 'バックフラッシュを再試行します',
-  'app.kuaizhizao.backflushRecords.retryContent': '「{{material}}」のバックフラッシュを再試行しますか?ライン側在庫を十分に確保してください。',
+  'app.kuaizhizao.backflushRecords.retryContent':
+    '「{{material}}」のバックフラッシュを再試行しますか?ライン側在庫を十分に確保してください。',
   'app.kuaizhizao.backflushRecords.retrySuccess': '再試行が成功しました',
   'app.kuaizhizao.backflushRecords.retryFailed': '再試行に失敗しました',
   'app.kuaizhizao.inventoryAlert.headerTitleAlerts': '在庫アラート',
@@ -9452,7 +10442,8 @@ export default {
   'app.kuaizhizao.inventoryAlert.statLowStock': '在庫不足アラート',
   'app.kuaizhizao.inventoryAlert.statHighStock': '在庫高アラート',
   'app.kuaizhizao.inventoryAlert.statCriticalLevel': 'クリティカルレベル',
-  'app.kuaizhizao.inventoryAlert.deleteConfirmRules': '選択した {{count}} 個のアラート ルールを削除しますか?',
+  'app.kuaizhizao.inventoryAlert.deleteConfirmRules':
+    '選択した {{count}} 個のアラート ルールを削除しますか?',
   'app.kuaizhizao.inventoryAlert.colAlertType': 'アラートの種類',
   'app.kuaizhizao.inventoryAlert.alertTypeLowStock': '在庫僅少',
   'app.kuaizhizao.inventoryAlert.alertTypeHighStock': '高在庫',
@@ -9498,7 +10489,8 @@ export default {
   'app.kuaizhizao.inventoryAlert.formHandleStatus': 'ハンドルステータス',
   'app.kuaizhizao.inventoryAlert.formHandleStatusRequired': 'ハンドルステータスを選択してください',
   'app.kuaizhizao.inventoryAlert.formHandlingNotes': '取り扱い上の注意',
-  'app.kuaizhizao.inventoryAlert.formHandlingNotesPlaceholder': '取り扱い上の注意事項を入力してください',
+  'app.kuaizhizao.inventoryAlert.formHandlingNotesPlaceholder':
+    '取り扱い上の注意事項を入力してください',
   'app.kuaizhizao.inventoryAlert.colAlertMessage': '警告メッセージ',
   'app.kuaizhizao.inventoryAlert.colHandledBy': '取り扱い者',
   'app.kuaizhizao.inventoryAlert.colHandledAt': '取り扱い場所',
@@ -9530,7 +10522,8 @@ export default {
   'app.kuaizhizao.inventoryTransfer.detailItemsTitle': 'トランスファーライン',
   'app.kuaizhizao.inventoryTransfer.formTransferMode': '伝票モード',
   'app.kuaizhizao.inventoryTransfer.formTransferModeRequired': '伝票モードを選択します',
-  'app.kuaizhizao.inventoryTransfer.formFromWarehousePlaceholder': 'ソースウェアハウスを選択してください',
+  'app.kuaizhizao.inventoryTransfer.formFromWarehousePlaceholder':
+    'ソースウェアハウスを選択してください',
   'app.kuaizhizao.inventoryTransfer.formToWarehouseSame': '倉庫（同）',
   'app.kuaizhizao.inventoryTransfer.formToWarehousePlaceholder': '配送先倉庫を選択してください',
   'app.kuaizhizao.inventoryTransfer.formToWarehouseSamePlaceholder': 'ソースウェアハウスと同じ',
@@ -9551,28 +10544,39 @@ export default {
   'app.kuaizhizao.inventoryTransfer.statusInProgress': 'In Transfer',
   'app.kuaizhizao.inventoryTransfer.statusItemPending': '保留',
   'app.kuaizhizao.inventoryTransfer.statusItemTransferred': '転送されました',
-  'app.kuaizhizao.inventoryTransfer.msgSameWarehouseError': '倉庫間転送の場合、ソース倉庫と宛先倉庫は異なる必要があります',
-  'app.kuaizhizao.inventoryTransfer.msgBinSameWarehouseRequired': '棚の再配置では、ソース倉庫と宛先倉庫が同じである必要があります',
-  'app.kuaizhizao.inventoryTransfer.msgNoValidItems': '少なくとも 1 つの有効な行 (材料と数量) を追加します。',
-  'app.kuaizhizao.inventoryTransfer.msgBinAreasRequired': 'ビン再配置ラインには、元/先のエリアと場所が必要です',
-  'app.kuaizhizao.inventoryTransfer.msgSameLocationError': '出発地と到着地を同じにすることはできません',
+  'app.kuaizhizao.inventoryTransfer.msgSameWarehouseError':
+    '倉庫間転送の場合、ソース倉庫と宛先倉庫は異なる必要があります',
+  'app.kuaizhizao.inventoryTransfer.msgBinSameWarehouseRequired':
+    '棚の再配置では、ソース倉庫と宛先倉庫が同じである必要があります',
+  'app.kuaizhizao.inventoryTransfer.msgNoValidItems':
+    '少なくとも 1 つの有効な行 (材料と数量) を追加します。',
+  'app.kuaizhizao.inventoryTransfer.msgBinAreasRequired':
+    'ビン再配置ラインには、元/先のエリアと場所が必要です',
+  'app.kuaizhizao.inventoryTransfer.msgSameLocationError':
+    '出発地と到着地を同じにすることはできません',
   'app.kuaizhizao.inventoryTransfer.msgCreateSuccess': '転送が作成されました',
   'app.kuaizhizao.inventoryTransfer.msgBinCreateSuccess': 'ビンの再配置が作成されました',
   'app.kuaizhizao.inventoryTransfer.msgCreateFailed': '転送の作成に失敗しました',
   'app.kuaizhizao.inventoryTransfer.msgGetDetailFailed': '転送の詳細をロードできませんでした',
   'app.kuaizhizao.inventoryTransfer.msgExecuteTitle': '転送の実行',
-  'app.kuaizhizao.inventoryTransfer.msgExecuteContent': '転送「{{code}}」を実行しますか?在庫は更新されます。',
+  'app.kuaizhizao.inventoryTransfer.msgExecuteContent':
+    '転送「{{code}}」を実行しますか?在庫は更新されます。',
   'app.kuaizhizao.inventoryTransfer.msgExecuteSuccess': '転送が実行されました',
   'app.kuaizhizao.inventoryTransfer.msgExecuteFailed': '転送の実行に失敗しました',
   'app.kuaizhizao.inventoryTransfer.msgTransferIdNotFound': '引き継ぎIDが見つかりません',
-  'app.kuaizhizao.inventoryTransfer.msgBinAreasSelectRequired': 'ビンの再配置の開始/終了エリアおよび場所を選択します',
+  'app.kuaizhizao.inventoryTransfer.msgBinAreasSelectRequired':
+    'ビンの再配置の開始/終了エリアおよび場所を選択します',
   'app.kuaizhizao.inventoryTransfer.msgAddItemSuccess': '搬送ライン追加',
   'app.kuaizhizao.inventoryTransfer.msgAddItemFailed': '転送ラインの追加に失敗しました',
   'app.kuaizhizao.inventoryTransfer.msgMinOneItem': '少なくとも 1 つの有効な行を追加します',
-  'app.kuaizhizao.inventoryTransfer.msgBinFromAreaRequired': 'ビンを再配置するソース領域を選択してください',
-  'app.kuaizhizao.inventoryTransfer.msgBinFromLocationRequired': 'ビンを再配置するソースの場所を選択してください',
-  'app.kuaizhizao.inventoryTransfer.msgBinToAreaRequired': 'ビン再配置の宛先エリアを選択してください',
-  'app.kuaizhizao.inventoryTransfer.msgBinToLocationRequired': 'ビンの再配置先の場所を選択してください',
+  'app.kuaizhizao.inventoryTransfer.msgBinFromAreaRequired':
+    'ビンを再配置するソース領域を選択してください',
+  'app.kuaizhizao.inventoryTransfer.msgBinFromLocationRequired':
+    'ビンを再配置するソースの場所を選択してください',
+  'app.kuaizhizao.inventoryTransfer.msgBinToAreaRequired':
+    'ビン再配置の宛先エリアを選択してください',
+  'app.kuaizhizao.inventoryTransfer.msgBinToLocationRequired':
+    'ビンの再配置先の場所を選択してください',
   'app.kuaizhizao.inventoryTransfer.formFromStorageAreaPlaceholder': 'ソース領域の選択',
   'app.kuaizhizao.inventoryTransfer.formFromLocationPlaceholder': 'ソースの場所を選択してください',
   'app.kuaizhizao.inventoryTransfer.formToStorageAreaPlaceholder': '目的地エリアを選択してください',
@@ -9620,14 +10624,17 @@ export default {
   'app.kuaizhizao.stocktaking.statusItemAdjusted': '調整済み',
   'app.kuaizhizao.stocktaking.actionPickFromInventory': '在庫から選ぶ',
   'app.kuaizhizao.stocktaking.actionManualAddItem': '手動で行を追加',
-  'app.kuaizhizao.stocktaking.emptyDraftHint': '開始後、在庫ロードを自動的に予約するか (完全)、または倉庫在庫から明細を選択します (部分)。',
+  'app.kuaizhizao.stocktaking.emptyDraftHint':
+    '開始後、在庫ロードを自動的に予約するか (完全)、または倉庫在庫から明細を選択します (部分)。',
   'app.kuaizhizao.stocktaking.emptyNoItems': '棚卸ラインなし',
   'app.kuaizhizao.stocktaking.msgCreateSuccess': '棚卸が作成されました',
   'app.kuaizhizao.stocktaking.msgCreateFailed': '棚卸の作成に失敗しました',
   'app.kuaizhizao.stocktaking.msgGetDetailFailed': '棚卸の詳細をロードできませんでした',
   'app.kuaizhizao.stocktaking.msgStartTitle': '棚卸しを開始する',
-  'app.kuaizhizao.stocktaking.msgStartFullContent': '倉庫「{{warehouse}}」に{{granularity}}までに書籍在庫をロードして棚卸を開始しますか?',
-  'app.kuaizhizao.stocktaking.msgStartPartialContent': '「{{code}}」の棚卸を開始しますか?部分/サイクルの場合は、開始後に倉庫在庫から明細を選択します。',
+  'app.kuaizhizao.stocktaking.msgStartFullContent':
+    '倉庫「{{warehouse}}」に{{granularity}}までに書籍在庫をロードして棚卸を開始しますか?',
+  'app.kuaizhizao.stocktaking.msgStartPartialContent':
+    '「{{code}}」の棚卸を開始しますか?部分/サイクルの場合は、開始後に倉庫在庫から明細を選択します。',
   'app.kuaizhizao.stocktaking.msgStartSuccess': '棚卸しを開始しました',
   'app.kuaizhizao.stocktaking.msgStartFailed': '棚卸の開始に失敗しました',
   'app.kuaizhizao.stocktaking.msgNoWarehouse': '倉庫が指定されていない',
@@ -9641,12 +10648,15 @@ export default {
   'app.kuaizhizao.stocktaking.msgSaveActualSuccess': '実際に保存された数量',
   'app.kuaizhizao.stocktaking.msgSaveActualFailed': '実際の数量を保存できませんでした',
   'app.kuaizhizao.stocktaking.msgCompleteTitle': '完全な棚卸し',
-  'app.kuaizhizao.stocktaking.msgCompleteWithDiff': '棚卸し「{{code}}」には{{count}}個の違いがあります。在庫調整させていただきます。続く？',
-  'app.kuaizhizao.stocktaking.msgCompleteNoDiff': '棚卸し「{{code}}」は本の数量と一致します。棚卸しは完了ですか？',
+  'app.kuaizhizao.stocktaking.msgCompleteWithDiff':
+    '棚卸し「{{code}}」には{{count}}個の違いがあります。在庫調整させていただきます。続く？',
+  'app.kuaizhizao.stocktaking.msgCompleteNoDiff':
+    '棚卸し「{{code}}」は本の数量と一致します。棚卸しは完了ですか？',
   'app.kuaizhizao.stocktaking.msgCompleteSuccess': '棚卸し完了',
   'app.kuaizhizao.stocktaking.msgCompleteFailed': '棚卸を完了できませんでした',
   'app.kuaizhizao.stocktaking.msgWithdrawTitle': '棚卸しの撤回',
-  'app.kuaizhizao.stocktaking.msgWithdrawContent': '棚卸し「{{code}}」を下書きに引き出しますか?カウントされていない行はクリアされます。注文は後で削除できます。',
+  'app.kuaizhizao.stocktaking.msgWithdrawContent':
+    '棚卸し「{{code}}」を下書きに引き出しますか?カウントされていない行はクリアされます。注文は後で削除できます。',
   'app.kuaizhizao.stocktaking.msgWithdrawSuccess': '棚卸しをドラフトに撤回',
   'app.kuaizhizao.stocktaking.msgWithdrawFailed': '出金に失敗しました',
   'app.kuaizhizao.replenishmentSuggestions.headerTitle': '補充の提案',
@@ -9673,14 +10683,16 @@ export default {
   'app.kuaizhizao.replenishmentSuggestions.modalProcess': 'プロセスの提案',
   'app.kuaizhizao.replenishmentSuggestions.formProcessStatus': 'プロセスステータス',
   'app.kuaizhizao.replenishmentSuggestions.formProcessNotes': '処理メモ',
-  'app.kuaizhizao.replenishmentSuggestions.formProcessNotesPlaceholder': 'メモを入力します (オプション)',
+  'app.kuaizhizao.replenishmentSuggestions.formProcessNotesPlaceholder':
+    'メモを入力します (オプション)',
   'app.kuaizhizao.replenishmentSuggestions.formIgnore': '無視する',
   'app.kuaizhizao.replenishmentSuggestions.actionGenerateFromAlerts': 'アラートから生成',
   'app.kuaizhizao.replenishmentSuggestions.msgGetDetailFailed': '提案の詳細を読み込めませんでした',
   'app.kuaizhizao.replenishmentSuggestions.msgProcessSuccess': '提案が処理されました',
   'app.kuaizhizao.replenishmentSuggestions.msgProcessFailed': 'プロセスが失敗しました',
   'app.kuaizhizao.replenishmentSuggestions.msgGenerateTitle': '提案を生成する',
-  'app.kuaizhizao.replenishmentSuggestions.msgGenerateContent': '在庫アラートから補充提案を生成しますか?',
+  'app.kuaizhizao.replenishmentSuggestions.msgGenerateContent':
+    '在庫アラートから補充提案を生成しますか?',
   'app.kuaizhizao.replenishmentSuggestions.msgGenerateSuccess': '生成された提案',
   'app.kuaizhizao.replenishmentSuggestions.msgGenerateFailed': '生成に失敗しました',
   'app.kuaizhizao.replenishmentSuggestions.msgListFailed': '提案を読み込めませんでした',
@@ -9762,13 +10774,15 @@ export default {
   'app.kuaizhizao.equipmentFault.listFailed': '障害レコードのロードに失敗しました',
   'app.kuaizhizao.equipmentFault.incompleteInfo': '障害記録または機器情報が不完全です',
   'app.kuaizhizao.equipmentFault.batchDeleteTitle': '一括削除の確認',
-  'app.kuaizhizao.equipmentFault.batchDeleteContent': '選択した {{count}} 件の機器障害記録を削除しますか?',
+  'app.kuaizhizao.equipmentFault.batchDeleteContent':
+    '選択した {{count}} 件の機器障害記録を削除しますか?',
   'app.kuaizhizao.equipmentFault.deleteTitle': '削除の確認',
   'app.kuaizhizao.equipmentFault.deleteContent': '障害レコード「{{code}}」を削除しますか?',
   'app.kuaizhizao.equipmentFault.createSuccess': '障害レコードが作成されました',
   'app.kuaizhizao.equipmentFault.updateSuccess': '障害記録が更新されました',
   'app.kuaizhizao.equipmentFault.repairCreated': '修理記録が作成されました',
-  'app.kuaizhizao.equipmentFault.repairDescriptionTemplate': '修理障害: {{faultNo}} - {{description}}',
+  'app.kuaizhizao.equipmentFault.repairDescriptionTemplate':
+    '修理障害: {{faultNo}} - {{description}}',
   'app.kuaizhizao.equipmentFault.lifecycle.pending': '保留',
   'app.kuaizhizao.equipmentFault.lifecycle.processing': '進行中',
   'app.kuaizhizao.equipmentFault.lifecycle.repaired': '修理済み',
@@ -9818,7 +10832,8 @@ export default {
   'app.kuaizhizao.maintenancePlan.form.equipment': '関連機器',
   'app.kuaizhizao.maintenancePlan.form.selectEquipment': '装備の選択',
   'app.kuaizhizao.maintenancePlan.form.maintenanceType': 'メンテナンスタイプ',
-  'app.kuaizhizao.maintenancePlan.form.selectMaintenanceType': 'メンテナンスの種類を選択してください',
+  'app.kuaizhizao.maintenancePlan.form.selectMaintenanceType':
+    'メンテナンスの種類を選択してください',
   'app.kuaizhizao.maintenancePlan.form.maintenanceCycle': 'メンテナンスサイクル',
   'app.kuaizhizao.maintenancePlan.form.maintenanceCyclePlaceholder': 'メンテナンスサイクルに入る',
   'app.kuaizhizao.maintenancePlan.form.cycleUnit': 'サイクルユニット',
@@ -9846,7 +10861,8 @@ export default {
   'app.kuaizhizao.maintenancePlan.listFailed': 'メンテナンス計画の読み込みに失敗しました',
   'app.kuaizhizao.maintenancePlan.incompleteInfo': 'メンテナンス計画または機器情報が不完全です',
   'app.kuaizhizao.maintenancePlan.batchDeleteTitle': '一括削除の確認',
-  'app.kuaizhizao.maintenancePlan.batchDeleteContent': '選択した {{count}} メンテナンス プランを削除しますか?',
+  'app.kuaizhizao.maintenancePlan.batchDeleteContent':
+    '選択した {{count}} メンテナンス プランを削除しますか?',
   'app.kuaizhizao.maintenancePlan.deleteTitle': '削除の確認',
   'app.kuaizhizao.maintenancePlan.deleteContent': 'メンテナンス プラン「{{name}}」を削除しますか?',
   'app.kuaizhizao.maintenancePlan.createSuccess': 'メンテナンス計画が作成されました',
@@ -9879,28 +10895,38 @@ export default {
   'app.kuaizhizao.maintenanceReminder.action.markHandled': '処理済みとしてマーク',
   'app.kuaizhizao.maintenanceReminder.batchMarkRead': 'バッチを既読としてマーク ({{count}})',
   'app.kuaizhizao.maintenanceReminder.form.handleRemark': '取り扱い上の注意',
-  'app.kuaizhizao.maintenanceReminder.form.handleRemarkPlaceholder': '取扱い上の注意事項を入力してください（任意）',
+  'app.kuaizhizao.maintenanceReminder.form.handleRemarkPlaceholder':
+    '取扱い上の注意事項を入力してください（任意）',
   'app.kuaizhizao.maintenanceReminder.section.basicInfo': '基本情報',
   'app.kuaizhizao.maintenanceReminder.section.lifecycle': 'ライフサイクル',
   'app.kuaizhizao.maintenanceReminder.section.detailInfo': '品目',
   'app.kuaizhizao.maintenanceReminder.section.operationHistory': 'アクティビティログ',
-  'app.kuaizhizao.maintenanceReminder.empty.noDetailLines': 'メンテナンスリマインダーに項目がありません',
+  'app.kuaizhizao.maintenanceReminder.empty.noDetailLines':
+    'メンテナンスリマインダーに項目がありません',
   'app.kuaizhizao.maintenanceReminder.empty.noOperationRecords': '活動記録がない',
-  'app.kuaizhizao.maintenanceReminder.readHandleStatus': '読み取り/処理: {{read}}{{readAt}} を読み取ります。 {{handled}}{{handledAt}} を処理しました',
+  'app.kuaizhizao.maintenanceReminder.readHandleStatus':
+    '読み取り/処理: {{read}}{{readAt}} を読み取ります。 {{handled}}{{handledAt}} を処理しました',
   'app.kuaizhizao.maintenanceReminder.yes': 'はい',
   'app.kuaizhizao.maintenanceReminder.no': 'いいえ',
   'app.kuaizhizao.maintenanceReminder.notificationTitle': 'メンテナンスのリマインダー',
-  'app.kuaizhizao.maintenanceReminder.notificationDescription': '未読のメンテナンス通知が{{count}}件あります',
+  'app.kuaizhizao.maintenanceReminder.notificationDescription':
+    '未読のメンテナンス通知が{{count}}件あります',
   'app.kuaizhizao.maintenanceReminder.uuidNotFound': 'リマインダー UUID が見つかりません',
   'app.kuaizhizao.maintenanceReminder.markReadSuccess': '既読としてマークされました',
-  'app.kuaizhizao.maintenanceReminder.markReadFailed': '既読としてマークできませんでした: {{message}}',
+  'app.kuaizhizao.maintenanceReminder.markReadFailed':
+    '既読としてマークできませんでした: {{message}}',
   'app.kuaizhizao.maintenanceReminder.markHandledSuccess': '処理済みとしてマークされています',
-  'app.kuaizhizao.maintenanceReminder.markHandledFailed': '処理済みとしてマークできませんでした: {{message}}',
+  'app.kuaizhizao.maintenanceReminder.markHandledFailed':
+    '処理済みとしてマークできませんでした: {{message}}',
   'app.kuaizhizao.maintenanceReminder.selectReminders': 'マークするリマインダーを選択してください',
-  'app.kuaizhizao.maintenanceReminder.batchMarkReadSuccess': '{{count}} 件のリマインダーを既読としてマークしました',
-  'app.kuaizhizao.maintenanceReminder.batchMarkReadFailed': 'バッチを読み取り失敗としてマークしました: {{message}}',
-  'app.kuaizhizao.maintenanceReminder.checkSuccess': 'チェックが完了し、{{count}} リマインダーが作成されました',
-  'app.kuaizhizao.maintenanceReminder.checkFailed': 'メンテナンス計画を確認できませんでした: {{message}}',
+  'app.kuaizhizao.maintenanceReminder.batchMarkReadSuccess':
+    '{{count}} 件のリマインダーを既読としてマークしました',
+  'app.kuaizhizao.maintenanceReminder.batchMarkReadFailed':
+    'バッチを読み取り失敗としてマークしました: {{message}}',
+  'app.kuaizhizao.maintenanceReminder.checkSuccess':
+    'チェックが完了し、{{count}} リマインダーが作成されました',
+  'app.kuaizhizao.maintenanceReminder.checkFailed':
+    'メンテナンス計画を確認できませんでした: {{message}}',
   'app.kuaizhizao.maintenanceReminder.search': '検索',
   'app.kuaizhizao.maintenanceReminder.reset': 'リセット',
   'app.kuaizhizao.maintenanceReminder.lifecycle.notify': 'リマインダー',
@@ -9965,16 +10991,20 @@ export default {
   'app.kuaizhizao.equipmentStatus.form.selectStatus': '機器ステータスを選択してください',
   'app.kuaizhizao.equipmentStatus.form.onlineStatus': 'オンラインステータス',
   'app.kuaizhizao.equipmentStatus.form.changeReason': '変更理由',
-  'app.kuaizhizao.equipmentStatus.form.changeReasonPlaceholder': 'ステータス変更理由を入力してください',
+  'app.kuaizhizao.equipmentStatus.form.changeReasonPlaceholder':
+    'ステータス変更理由を入力してください',
   'app.kuaizhizao.equipmentStatus.form.remark': '述べる',
   'app.kuaizhizao.equipmentStatus.form.remarkPlaceholder': '備考を入力してください',
   'app.kuaizhizao.equipmentStatus.empty.noOperationRecords': '活動記録がない',
   'app.kuaizhizao.equipmentStatus.listFailed': '機器ステータスのロードに失敗しました: {{message}}',
-  'app.kuaizhizao.equipmentStatus.historyFailed': 'ステータス履歴のロードに失敗しました: {{message}}',
+  'app.kuaizhizao.equipmentStatus.historyFailed':
+    'ステータス履歴のロードに失敗しました: {{message}}',
   'app.kuaizhizao.equipmentStatus.updateSuccess': '設備状況を更新しました',
-  'app.kuaizhizao.equipmentStatus.updateFailed': '機器のステータスを更新できませんでした: {{message}}',
+  'app.kuaizhizao.equipmentStatus.updateFailed':
+    '機器のステータスを更新できませんでした: {{message}}',
   'app.kuaizhizao.equipmentInspection.title': '日常点検記入',
-  'app.kuaizhizao.equipmentInspection.subTitle': '主要な機器の日常点検。異常が発生すると自動的に修復がトリガーされます',
+  'app.kuaizhizao.equipmentInspection.subTitle':
+    '主要な機器の日常点検。異常が発生すると自動的に修復がトリガーされます',
   'app.kuaizhizao.equipmentInspection.selectEquipmentCard': '検査する機器の選択',
   'app.kuaizhizao.equipmentInspection.searchEquipment': '検索機器',
   'app.kuaizhizao.equipmentInspection.currentStatus': '現在のステータス:',
@@ -9985,7 +11015,8 @@ export default {
   'app.kuaizhizao.equipmentInspection.param.pressureNormal': '範囲内の空気/油圧',
   'app.kuaizhizao.equipmentInspection.param.lubricationGood': 'ガイドレール潤滑良好',
   'app.kuaizhizao.equipmentInspection.param.safetyDoorNormal': '安全ドアは正常です',
-  'app.kuaizhizao.equipmentInspection.hasAbnormality': '異常が見つかった？ (有効にすると自動修復がトリガーされます)',
+  'app.kuaizhizao.equipmentInspection.hasAbnormality':
+    '異常が見つかった？ (有効にすると自動修復がトリガーされます)',
   'app.kuaizhizao.equipmentInspection.abnormalityDescription': '異常の説明',
   'app.kuaizhizao.equipmentInspection.abnormalityRequired': '異常を簡単に説明すると',
   'app.kuaizhizao.equipmentInspection.remark': '備考',
@@ -10089,12 +11120,14 @@ export default {
   'app.kuaizhizao.equipment.updateSuccess': '設備を更新しました',
   'app.kuaizhizao.equipment.calibrationSaved': '校正記録が保存されました',
   'app.kuaizhizao.equipment.confirmBatchDeleteTitle': '一括削除の確認',
-  'app.kuaizhizao.equipment.confirmBatchDeleteContent': '選択した {{count}} 個の機器アイテムを削除しますか?',
+  'app.kuaizhizao.equipment.confirmBatchDeleteContent':
+    '選択した {{count}} 個の機器アイテムを削除しますか?',
   'app.kuaizhizao.equipment.confirmDeleteTitle': '削除の確認',
   'app.kuaizhizao.equipment.confirmDeleteContent': '機器「{{name}}」を削除しますか?',
   'app.kuaizhizao.equipment.importTitle': '輸入機器',
   'app.kuaizhizao.equipment.importEmpty': 'インポートデータが空か無効です',
-  'app.kuaizhizao.equipment.importHeaderMissingName': 'インポートヘッダーには機器名が含まれている必要があります',
+  'app.kuaizhizao.equipment.importHeaderMissingName':
+    'インポートヘッダーには機器名が含まれている必要があります',
   'app.kuaizhizao.equipment.importNoRows': 'インポートする有効な行がありません',
   'app.kuaizhizao.equipment.importSuccess': '{{count}} 個の機器アイテムを輸入しました',
   'app.kuaizhizao.equipment.importPartialFail': '{{count}} 行が失敗しました',
@@ -10228,7 +11261,8 @@ export default {
   'app.kuaizhizao.mold.confirmDeleteContent': '金型「{{name}}」を削除しますか?',
   'app.kuaizhizao.mold.importTitle': '金型の輸入',
   'app.kuaizhizao.mold.importEmpty': 'インポートデータが空か無効です',
-  'app.kuaizhizao.mold.importHeaderMissingName': 'インポートヘッダーには金型名が含まれている必要があります',
+  'app.kuaizhizao.mold.importHeaderMissingName':
+    'インポートヘッダーには金型名が含まれている必要があります',
   'app.kuaizhizao.mold.importNoRows': 'インポートする有効な行がありません',
   'app.kuaizhizao.mold.importSuccess': '{{count}} 個の金型をインポートしました',
   'app.kuaizhizao.mold.importPartialFail': '{{count}} 行が失敗しました',
@@ -10244,7 +11278,8 @@ export default {
   'app.kuaizhizao.mold.no': 'いいえ',
   'app.kuaizhizao.mold.lifetimeExpired': '有効期限が切れました。見直してください',
   'app.kuaizhizao.mold.lifetimeExpiring': 'もうすぐ有効期限が切れます。見直してください',
-  'app.kuaizhizao.mold.maintenanceDueSoon': 'メンテナンスがまもなく終了します (残り {{count}} サイクル)',
+  'app.kuaizhizao.mold.maintenanceDueSoon':
+    'メンテナンスがまもなく終了します (残り {{count}} サイクル)',
   'app.kuaizhizao.mold.calibrationExpired': '校正の期限が切れました。すぐに予定を立てる',
   'app.kuaizhizao.mold.calibrationExpiringSoon': '校正は{{days}}日以内に期限切れになります',
   'app.kuaizhizao.mold.tabUsages': '使用記録',
@@ -10371,7 +11406,8 @@ export default {
   'app.kuaizhizao.toolUsage.formSourceNo': 'ソース番号',
   'app.kuaizhizao.toolUsage.formRemark': '備考',
   'app.kuaizhizao.toolUsage.confirmCheckinTitle': 'チェックインの確認',
-  'app.kuaizhizao.toolUsage.confirmCheckinContent': 'ツール「{{code}} - {{name}}」をチェックインしますか?',
+  'app.kuaizhizao.toolUsage.confirmCheckinContent':
+    'ツール「{{code}} - {{name}}」をチェックインしますか?',
   'app.kuaizhizao.toolUsage.alreadyReturned': 'このレコードはすでにチェックインされています',
   'app.kuaizhizao.toolUsage.checkinSuccess': '正常にチェックインされました',
   'app.kuaizhizao.toolUsage.checkinFailed': 'チェックインに失敗しました',
@@ -10419,9 +11455,11 @@ export default {
   'app.kuaizhizao.toolMaintenance.formSelectTool': 'ツールの選択',
   'app.kuaizhizao.toolMaintenance.formSelectToolRequired': '工具を選択してください',
   'app.kuaizhizao.toolMaintenance.formMaintenanceType': 'メンテナンスタイプ',
-  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceTypeRequired': 'メンテナンスの種類を選択してください',
+  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceTypeRequired':
+    'メンテナンスの種類を選択してください',
   'app.kuaizhizao.toolMaintenance.formMaintenanceDate': 'メンテナンス日',
-  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceDateRequired': 'メンテナンス日を選択してください',
+  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceDateRequired':
+    'メンテナンス日を選択してください',
   'app.kuaizhizao.toolMaintenance.formExecutor': '執行者',
   'app.kuaizhizao.toolMaintenance.formResult': '結果',
   'app.kuaizhizao.toolMaintenance.formMaintenanceContent': 'メンテナンス内容',
@@ -10492,10 +11530,12 @@ export default {
   'app.kuaizhizao.toolLedger.maintenanceSaved': 'メンテナンス記録が保存されました',
   'app.kuaizhizao.toolLedger.calibrationSaved': '校正記録が保存されました',
   'app.kuaizhizao.toolLedger.confirmBatchDeleteTitle': '一括削除の確認',
-  'app.kuaizhizao.toolLedger.confirmBatchDeleteContent': '選択した {{count}} 個のツール アイテムを削除しますか?',
+  'app.kuaizhizao.toolLedger.confirmBatchDeleteContent':
+    '選択した {{count}} 個のツール アイテムを削除しますか?',
   'app.kuaizhizao.toolLedger.importTitle': 'ツールのインポート',
   'app.kuaizhizao.toolLedger.importEmpty': 'インポートデータが空か無効です',
-  'app.kuaizhizao.toolLedger.importHeaderMissingName': 'インポートヘッダーにはツール名が含まれている必要があります',
+  'app.kuaizhizao.toolLedger.importHeaderMissingName':
+    'インポートヘッダーにはツール名が含まれている必要があります',
   'app.kuaizhizao.toolLedger.importNoRows': 'インポートする有効な行がありません',
   'app.kuaizhizao.toolLedger.importSuccess': '{{count}} 個のツール項目をインポートしました',
   'app.kuaizhizao.toolLedger.importPartialFail': '{{count}} 行が失敗しました',
@@ -10597,26 +11637,34 @@ export default {
   'app.kuaizhizao.shipmentNotice.detailFailed': '出荷通知の詳細を読み込めませんでした',
   'app.kuaizhizao.shipmentNotice.loadDetailFailed': '詳細のロードに失敗しました',
   'app.kuaizhizao.shipmentNotice.listFailed': 'リストのロードに失敗しました',
-  'app.kuaizhizao.shipmentNotice.notifyConfirmContent': '「{{code}}」を出荷するよう倉庫に通知しますか?',
+  'app.kuaizhizao.shipmentNotice.notifyConfirmContent':
+    '「{{code}}」を出荷するよう倉庫に通知しますか?',
   'app.kuaizhizao.shipmentNotice.notifySuccess': '倉庫に通知されました',
   'app.kuaizhizao.shipmentNotice.notifyFailed': '通知に失敗しました',
   'app.kuaizhizao.shipmentNotice.batchNotifySuccess': '{{count}}件の出荷通知を通知しました',
-  'app.kuaizhizao.shipmentNotice.batchNotifyPartial': '{{count}} 通知に失敗しました (保留の出荷のみを通知できます)',
+  'app.kuaizhizao.shipmentNotice.batchNotifyPartial':
+    '{{count}} 通知に失敗しました (保留の出荷のみを通知できます)',
   'app.kuaizhizao.shipmentNotice.withdrawConfirmContent': '「{{code}}」を保留の出荷に戻しますか?',
   'app.kuaizhizao.shipmentNotice.withdrawSuccess': '保留の出荷に取り消されました',
   'app.kuaizhizao.shipmentNotice.withdrawFailed': '出金に失敗しました',
   'app.kuaizhizao.shipmentNotice.batchWithdrawSuccess': '{{count}}件の出荷通知を取り下げました',
-  'app.kuaizhizao.shipmentNotice.batchWithdrawPartial': '{{count}} 出金に失敗しました (通知されたもののみ出金可能)',
+  'app.kuaizhizao.shipmentNotice.batchWithdrawPartial':
+    '{{count}} 出金に失敗しました (通知されたもののみ出金可能)',
   'app.kuaizhizao.shipmentNotice.deleteConfirmContent': '「{{code}}」を削除しますか?',
   'app.kuaizhizao.shipmentNotice.batchDeleteSuccess': '{{count}} 件の出荷通知を削除しました',
   'app.kuaizhizao.shipmentNotice.selectNoticeFirst': '最初に出荷通知を選択してください',
   'app.kuaizhizao.shipmentNotice.pullFromSalesOrder': '受注から作成',
   'app.kuaizhizao.shipmentNotice.selectSource': '{{source}} を選択してください',
-  'app.kuaizhizao.shipmentNotice.sourceAlreadyConverted': '{{source}} にはすでに {{target}} があります。二度と作成しないでください',
-  'app.kuaizhizao.shipmentNotice.createFromSourceSuccess': '{{source}} から {{target}} を作成しました',
-  'app.kuaizhizao.shipmentNotice.createFromSourceFailed': '{{source}} から {{target}} を作成できませんでした',
-  'app.kuaizhizao.shipmentNotice.sourceMissingData': '{{source}} 顧客行または有効な行がありません。 {{target}} を作成できません',
-  'app.kuaizhizao.shipmentNotice.noMaterialItemsFromSource': '{{source}} には使用可能なマテリアル ラインがありません。注意行を手動で追加する',
+  'app.kuaizhizao.shipmentNotice.sourceAlreadyConverted':
+    '{{source}} にはすでに {{target}} があります。二度と作成しないでください',
+  'app.kuaizhizao.shipmentNotice.createFromSourceSuccess':
+    '{{source}} から {{target}} を作成しました',
+  'app.kuaizhizao.shipmentNotice.createFromSourceFailed':
+    '{{source}} から {{target}} を作成できませんでした',
+  'app.kuaizhizao.shipmentNotice.sourceMissingData':
+    '{{source}} 顧客行または有効な行がありません。 {{target}} を作成できません',
+  'app.kuaizhizao.shipmentNotice.noMaterialItemsFromSource':
+    '{{source}} には使用可能なマテリアル ラインがありません。注意行を手動で追加する',
   'app.kuaizhizao.shipmentNotice.createTarget': '{{target}} を作成する',
   'app.kuaizhizao.shipmentNotice.noticeCode': 'お知らせ番号',
   'app.kuaizhizao.shipmentNotice.codeRequired': '通知番号を入力してください。',
@@ -10624,7 +11672,8 @@ export default {
   'app.kuaizhizao.shipmentNotice.noticeItems': '通知ライン',
   'app.kuaizhizao.shipmentNotice.noticeItemsRequired': '少なくとも 1 つの通知行を追加する',
   'app.kuaizhizao.shipmentNotice.importItemsTitle': '通知行のインポート',
-  'app.kuaizhizao.shipmentNotice.closeEditBeforeImport': '最初に編集ダイアログを閉じるか、新しい出荷通知の行のインポートを使用してください',
+  'app.kuaizhizao.shipmentNotice.closeEditBeforeImport':
+    '最初に編集ダイアログを閉じるか、新しい出荷通知の行のインポートを使用してください',
   'app.kuaizhizao.shipmentNotice.quantityPositive': '0より大きくなければなりません',
   'app.kuaizhizao.shipmentNotice.itemsRequired': '少なくとも 1 つの有効な行を追加します',
   'app.kuaizhizao.shipmentNotice.importNoValidData': '有効なデータが見つかりませんでした',
@@ -10633,11 +11682,13 @@ export default {
   'app.kuaizhizao.shipmentNotice.noDetailItems': '項目がありません',
   'app.kuaizhizao.shipmentNotice.noOperationRecords': '活動記録がない',
   'app.kuaizhizao.shipmentNotice.amount': '額',
-  'app.kuaizhizao.shipmentNotice.confirmBatchDelete': '選択した {{count}} 件の出荷通知を削除しますか?',
+  'app.kuaizhizao.shipmentNotice.confirmBatchDelete':
+    '選択した {{count}} 件の出荷通知を削除しますか?',
   'app.kuaizhizao.shipmentNotice.defaultUnit': '個',
   'app.kuaizhizao.shipmentNotice.loadCustomersFailed': '顧客/受注の読み込みに失敗しました',
   'app.kuaizhizao.shipmentNotice.codePreviewFailed': '出荷通知コードのプレビューに失敗しました',
-  'app.kuaizhizao.shipmentNotice.codeGenerateFailed': '出荷通知コードの生成に失敗しました。現在の値を使用する',
+  'app.kuaizhizao.shipmentNotice.codeGenerateFailed':
+    '出荷通知コードの生成に失敗しました。現在の値を使用する',
   'app.kuaizhizao.receiptNotice.title': '受領通知',
   'app.kuaizhizao.receiptNotice.entityName': '受領通知',
   'app.kuaizhizao.receiptNotice.create': '新規受付通知',
@@ -10657,33 +11708,42 @@ export default {
   'app.kuaizhizao.receiptNotice.statusPendingReceipt': '保留の受信',
   'app.kuaizhizao.receiptNotice.statusReceived': '受け取った',
   'app.kuaizhizao.receiptNotice.notifyWarehouse': '倉庫に受領通知',
-  'app.kuaizhizao.receiptNotice.notifyConfirmContent': '「{{code}}」を受け取るように倉庫に通知しますか?倉庫検証のために、購入受領書の下書きが作成されます。',
-  'app.kuaizhizao.receiptNotice.notifySuccessWithDraft': '倉庫に通知されました。作成された受信領収書の下書き: {{receiptCode}}',
-  'app.kuaizhizao.receiptNotice.withdrawConfirmContent': 'Withdraw "{{code}}" to pending receipt? The linked draft inbound receipt will be removed if not yet confirmed.',
+  'app.kuaizhizao.receiptNotice.notifyConfirmContent':
+    '「{{code}}」を受け取るように倉庫に通知しますか?倉庫検証のために、購入受領書の下書きが作成されます。',
+  'app.kuaizhizao.receiptNotice.notifySuccessWithDraft':
+    '倉庫に通知されました。作成された受信領収書の下書き: {{receiptCode}}',
+  'app.kuaizhizao.receiptNotice.withdrawConfirmContent':
+    'Withdraw "{{code}}" to pending receipt? The linked draft inbound receipt will be removed if not yet confirmed.',
   'app.kuaizhizao.receiptNotice.withdrawSuccess': '保留の領収書に取り消されました',
   'app.kuaizhizao.receiptNotice.selectPurchaseOrder': '発注書を選択してください',
   'app.kuaizhizao.receiptNotice.supplierPlaceholder': 'サプライヤー名',
   'app.kuaizhizao.receiptNotice.supplierRequired': 'サプライヤーを入力してください',
   'app.kuaizhizao.receiptNotice.selectInboundWarehouse': '入荷倉庫を選択してください',
   'app.kuaizhizao.receiptNotice.loadPurchaseOrdersFailed': '発注書の読み込みに失敗しました',
-  'app.kuaizhizao.receiptNotice.codeAutoPlaceholder': 'コードはルールごとに自動生成されます。編集可能',
+  'app.kuaizhizao.receiptNotice.codeAutoPlaceholder':
+    'コードはルールごとに自動生成されます。編集可能',
   'app.kuaizhizao.receiptNotice.codeManualPlaceholder': '通知番号を入力してください。',
   'app.kuaizhizao.receiptNotice.createFailed': '作成に失敗しました',
   'app.kuaizhizao.receiptNotice.updateFailed': 'アップデートに失敗しました',
   'app.kuaizhizao.receiptNotice.statTotal': '合計伝票数',
-  'app.kuaizhizao.receiptNotice.pullSearchPlaceholder': '発注書番号で検索します。またはサプライヤー',
+  'app.kuaizhizao.receiptNotice.pullSearchPlaceholder':
+    '発注書番号で検索します。またはサプライヤー',
   'app.kuaizhizao.receiptNotice.orderDate': '注文日',
-  'app.kuaizhizao.receiptNotice.sourceMissingItems': '{{source}} には受信可能な回線がありません。 {{target}} を作成できません',
+  'app.kuaizhizao.receiptNotice.sourceMissingItems':
+    '{{source}} には受信可能な回線がありません。 {{target}} を作成できません',
   'app.kuaizhizao.receiptNotice.codePreviewFailed': '受信通知コードのプレビューに失敗しました',
-  'app.kuaizhizao.receiptNotice.codeGenerateFailed': '受信通知コードの生成に失敗しました。現在の値を使用する',
+  'app.kuaizhizao.receiptNotice.codeGenerateFailed':
+    '受信通知コードの生成に失敗しました。現在の値を使用する',
   'app.kuaizhizao.receiptNotice.deleteModalTitle': '受領通知の削除',
   'app.kuaizhizao.receiptNotice.detailFailed': '受領通知の詳細を読み込めませんでした',
   'app.kuaizhizao.receiptNotice.batchDeleteSuccess': '{{count}} 件の受領通知を削除しました',
   'app.kuaizhizao.receiptNotice.selectNoticeFirst': '最初に受領通知を選択してください',
   'app.kuaizhizao.receiptNotice.batchNotifySuccess': '{{count}} 件の受領通知を通知しました',
-  'app.kuaizhizao.receiptNotice.batchNotifyPartial': '{{count}} 通知に失敗しました (保留の受信のみ)',
+  'app.kuaizhizao.receiptNotice.batchNotifyPartial':
+    '{{count}} 通知に失敗しました (保留の受信のみ)',
   'app.kuaizhizao.receiptNotice.batchWithdrawSuccess': '{{count}} 件の受領通知が撤回されました',
-  'app.kuaizhizao.receiptNotice.confirmBatchDelete': '選択した {{count}} 件の受領通知を削除しますか?',
+  'app.kuaizhizao.receiptNotice.confirmBatchDelete':
+    '選択した {{count}} 件の受領通知を削除しますか?',
   'app.kuaicaiwu.financeDashboard.loadFailed': '財務ダッシュボードの読み込みに失敗しました',
   'app.kuaicaiwu.financeDashboard.kpi.pendingReceiptPayment': '保留の受領/支払い',
   'app.kuaicaiwu.financeDashboard.kpi.pendingSubtitle': '領収書 {{receipts}} · 支払い {{payments}}',
@@ -10702,7 +11762,8 @@ export default {
   'app.kuaicaiwu.financeDashboard.todosTitle': '財務関連の To-Do',
   'app.kuaicaiwu.financeDashboard.noTodos': '財務上のやるべきことはありません',
   'app.kuaicaiwu.financeDashboard.todo.pendingReceipts': '{{count}} 確認待ちの領収書',
-  'app.kuaicaiwu.financeDashboard.todo.overdueReceivables': '{{count}} の売掛金が期限を過ぎています',
+  'app.kuaicaiwu.financeDashboard.todo.overdueReceivables':
+    '{{count}} の売掛金が期限を過ぎています',
   'app.kuaicaiwu.financeDashboard.receivableAgingTitle': '債権の経年劣化',
   'app.kuaicaiwu.financeDashboard.payableAgingTitle': 'ペイアブル・エイジング',
   'app.kuaicaiwu.common.notes': '注意事項',
@@ -10726,7 +11787,8 @@ export default {
   'app.kuaicaiwu.common.batchApproveFailed': '一括承認に失敗しました',
   'app.kuaicaiwu.common.batchConfirmFailed': 'バッチ確認に失敗しました',
   'app.kuaicaiwu.common.batchVoidFailed': 'バッチ無効化に失敗しました',
-  'app.kuaicaiwu.common.batchOnlyPendingApprove': '保留の文書のみが承認されます。他のものはサーバーによって拒否されます。',
+  'app.kuaicaiwu.common.batchOnlyPendingApprove':
+    '保留の文書のみが承認されます。他のものはサーバーによって拒否されます。',
   'app.kuaicaiwu.common.loadListFailed': 'リストのロードに失敗しました',
   'app.kuaicaiwu.common.importEmpty': 'インポートデータが空か無効です',
   'app.kuaicaiwu.common.importNoValidRows': 'インポートする有効な行がありません',
@@ -10742,7 +11804,8 @@ export default {
   'app.kuaicaiwu.common.settle': '解決する',
   'app.kuaicaiwu.common.preview': 'プレビュー',
   'app.kuaicaiwu.common.selectSource': '{{source}} を選択してください',
-  'app.kuaicaiwu.common.sourceNoRemaining': '{{source}} には残高がありません。 {{target}} を作成できません',
+  'app.kuaicaiwu.common.sourceNoRemaining':
+    '{{source}} には残高がありません。 {{target}} を作成できません',
   'app.kuaicaiwu.common.createdFromSource': '{{target}} created from {{source}}',
   'app.kuaicaiwu.common.createdFromSourceNote': '{{source}} {{code}} から',
   'app.kuaicaiwu.common.createTarget': '{{target}} を作成する',
@@ -10795,11 +11858,13 @@ export default {
   'app.kuaicaiwu.receivable.col.receivedAmount': '集めた',
   'app.kuaicaiwu.receivable.col.remainingAmount': '残り',
   'app.kuaicaiwu.receivable.col.amount': '受取可能額',
-  'app.kuaicaiwu.receivable.deleteConfirm': '選択した{{count}}個の売掛金を削除しますか?削除できるのは、入金のない保留の債権のみです。',
+  'app.kuaicaiwu.receivable.deleteConfirm':
+    '選択した{{count}}個の売掛金を削除しますか?削除できるのは、入金のない保留の債権のみです。',
   'app.kuaicaiwu.receivable.batchApproveTitle': '{{count}} 件の売掛金を承認',
   'app.kuaicaiwu.receivable.importTitle': '輸入債権',
   'app.kuaicaiwu.receivable.importSuccess': '輸入された{{count}}売掛金',
-  'app.kuaicaiwu.receivable.importHeaderError': 'インポートヘッダーには顧客名と受取可能額を含める必要があります',
+  'app.kuaicaiwu.receivable.importHeaderError':
+    'インポートヘッダーには顧客名と受取可能額を含める必要があります',
   'app.kuaicaiwu.receivable.detailTitle': '売掛金',
   'app.kuaicaiwu.receivable.detailNotFound': '売掛金が見つかりません',
   'app.kuaicaiwu.receivable.invoiceStatus.label': '請求書のステータス',
@@ -10825,11 +11890,13 @@ export default {
   'app.kuaicaiwu.payable.col.paidAmount': '有料',
   'app.kuaicaiwu.payable.col.remainingAmount': '残り',
   'app.kuaicaiwu.payable.col.amount': '支払額',
-  'app.kuaicaiwu.payable.deleteConfirm': '選択した{{count}}個の買掛金を削除しますか?削除できるのは、支払いのない保留の買掛金のみです。',
+  'app.kuaicaiwu.payable.deleteConfirm':
+    '選択した{{count}}個の買掛金を削除しますか?削除できるのは、支払いのない保留の買掛金のみです。',
   'app.kuaicaiwu.payable.batchApproveTitle': '{{count}} 個の支払金を承認',
   'app.kuaicaiwu.payable.importTitle': 'Import Payables',
   'app.kuaicaiwu.payable.importSuccess': '{{count}}個の買掛金をインポートしました',
-  'app.kuaicaiwu.payable.importHeaderError': 'インポートヘッダーにはサプライヤー名と支払額を含める必要があります',
+  'app.kuaicaiwu.payable.importHeaderError':
+    'インポートヘッダーにはサプライヤー名と支払額を含める必要があります',
   'app.kuaicaiwu.payable.detailTitle': '買掛金勘定',
   'app.kuaicaiwu.payable.detailNotFound': '支払金額が見つかりません',
   'app.kuaicaiwu.payable.invoiceStatus.received': '請求書を受け取りました ({{number}})',
@@ -10868,14 +11935,19 @@ export default {
   'app.kuaicaiwu.receipt.confirmTitle': '受信確認',
   'app.kuaicaiwu.receipt.confirmContent': '受信確認{{code}}?確定後の編集はできません。',
   'app.kuaicaiwu.receipt.voidTitle': '領収書を無効にする',
-  'app.kuaicaiwu.receipt.voidContent': '領収書 {{code}} を無効にしますか?決済された領収書を無効にすることはできません。',
+  'app.kuaicaiwu.receipt.voidContent':
+    '領収書 {{code}} を無効にしますか?決済された領収書を無効にすることはできません。',
   'app.kuaicaiwu.receipt.deleteTitle': '領収書の削除',
-  'app.kuaicaiwu.receipt.deleteContent': 'レシート {{code}} を削除しますか?確認済みの領収書は削除できません。代わりに void を使用してください。',
-  'app.kuaicaiwu.receipt.deleteConfirm': '選択した {{count}} 件の領収書を削除しますか?確認済みの領収書は削除できません。代わりに void を使用してください。',
+  'app.kuaicaiwu.receipt.deleteContent':
+    'レシート {{code}} を削除しますか?確認済みの領収書は削除できません。代わりに void を使用してください。',
+  'app.kuaicaiwu.receipt.deleteConfirm':
+    '選択した {{count}} 件の領収書を削除しますか?確認済みの領収書は削除できません。代わりに void を使用してください。',
   'app.kuaicaiwu.receipt.batchConfirmTitle': '{{count}} 件の領収書をバッチ確認します',
-  'app.kuaicaiwu.receipt.batchConfirmDesc': '確認できるのはドラフト領収書のみです。他のものはサーバーによって拒否されます。',
+  'app.kuaicaiwu.receipt.batchConfirmDesc':
+    '確認できるのはドラフト領収書のみです。他のものはサーバーによって拒否されます。',
   'app.kuaicaiwu.receipt.batchVoidTitle': '{{count}} 件の領収書をバッチ無効にする',
-  'app.kuaicaiwu.receipt.batchVoidDesc': '決済された領収書を無効にすることはできません。他のものはサーバーによって拒否されます。',
+  'app.kuaicaiwu.receipt.batchVoidDesc':
+    '決済された領収書を無効にすることはできません。他のものはサーバーによって拒否されます。',
   'app.kuaicaiwu.receipt.pullSearchPlaceholder': '債権番号から検索します。 / お客様',
   'app.kuaicaiwu.receipt.pullCol.receivableCode': '受付番号',
   'app.kuaicaiwu.receipt.pullCol.canCreate': 'コンバーチブル',
@@ -10916,14 +11988,19 @@ export default {
   'app.kuaicaiwu.payment.confirmTitle': '支払いの確認',
   'app.kuaicaiwu.payment.confirmContent': '支払いを確認します{{code}}?確定後の編集はできません。',
   'app.kuaicaiwu.payment.voidTitle': '支払いを無効にする',
-  'app.kuaicaiwu.payment.voidContent': '支払い {{code}} を無効にしますか?決済された支払いを無効にすることはできません。',
+  'app.kuaicaiwu.payment.voidContent':
+    '支払い {{code}} を無効にしますか?決済された支払いを無効にすることはできません。',
   'app.kuaicaiwu.payment.deleteTitle': '支払いの削除',
-  'app.kuaicaiwu.payment.deleteContent': '支払い {{code}} を削除しますか?確認された支払いは削除できません。代わりに void を使用してください。',
-  'app.kuaicaiwu.payment.deleteConfirm': '選択した {{count}} 件の支払いを削除しますか?確認された支払いは削除できません。代わりに void を使用してください。',
+  'app.kuaicaiwu.payment.deleteContent':
+    '支払い {{code}} を削除しますか?確認された支払いは削除できません。代わりに void を使用してください。',
+  'app.kuaicaiwu.payment.deleteConfirm':
+    '選択した {{count}} 件の支払いを削除しますか?確認された支払いは削除できません。代わりに void を使用してください。',
   'app.kuaicaiwu.payment.batchConfirmTitle': '{{count}} 件の支払いを一括確認します',
-  'app.kuaicaiwu.payment.batchConfirmDesc': '手形の支払いのみを確認できます。他のものはサーバーによって拒否されます。',
+  'app.kuaicaiwu.payment.batchConfirmDesc':
+    '手形の支払いのみを確認できます。他のものはサーバーによって拒否されます。',
   'app.kuaicaiwu.payment.batchVoidTitle': '{{count}} 件の支払いを一括で無効にします',
-  'app.kuaicaiwu.payment.batchVoidDesc': '決済された支払いを無効にすることはできません。他のものはサーバーによって拒否されます。',
+  'app.kuaicaiwu.payment.batchVoidDesc':
+    '決済された支払いを無効にすることはできません。他のものはサーバーによって拒否されます。',
   'app.kuaicaiwu.payment.pullSearchPlaceholder': '支払番号で検索します。 / サプライヤー',
   'app.kuaicaiwu.payment.pullCol.payableCode': '支払い番号',
   'app.kuaicaiwu.payment.pullCol.docStatus': '文書のステータス',
@@ -10955,14 +12032,17 @@ export default {
   'app.kuaicaiwu.invoice.createTitle': '新しい請求書',
   'app.kuaicaiwu.invoice.importTitle': '請求書のインポート',
   'app.kuaicaiwu.invoice.importSuccess': '{{count}} 個の請求書をインポートしました',
-  'app.kuaicaiwu.invoice.importHeaderError': 'インポートヘッダーには請求書番号、パートナー、合計金額を含める必要があります',
-  'app.kuaicaiwu.invoice.importNoValidRows': '有効な行がありません (顧客/サプライヤーのマスター データにパートナーが存在することを確認してください)',
+  'app.kuaicaiwu.invoice.importHeaderError':
+    'インポートヘッダーには請求書番号、パートナー、合計金額を含める必要があります',
+  'app.kuaicaiwu.invoice.importNoValidRows':
+    '有効な行がありません (顧客/サプライヤーのマスター データにパートナーが存在することを確認してください)',
   'app.kuaicaiwu.invoice.batchDeleteSuccess': '{{count}} 件の請求書を削除しました',
   'app.kuaicaiwu.invoice.tabSales': '売上請求書',
   'app.kuaicaiwu.invoice.tabPurchase': '購入請求書',
   'app.kuaicaiwu.invoice.editTitle': '請求書の編集',
   'app.kuaicaiwu.invoice.batchDeleteConfirm': '選択した {{count}} 個の請求書を削除しますか?',
-  'app.kuaicaiwu.invoice.lifecycleHint': '請求書は文書追跡センターに接続されていません。ステージ名はリストのライフサイクル列と一致します。',
+  'app.kuaicaiwu.invoice.lifecycleHint':
+    '請求書は文書追跡センターに接続されていません。ステージ名はリストのライフサイクル列と一致します。',
   'app.kuaicaiwu.invoice.activityPlaceholder': '請求書を保存して、作成時間と更新時間を表示します',
   'app.kuaicaiwu.invoice.activityCreated': '{{time}} に作成されました',
   'app.kuaicaiwu.invoice.activityUpdated': '{{time}} に更新されました',
@@ -10974,7 +12054,8 @@ export default {
   'app.kuaicaiwu.invoice.form.partnerBankInfo': '銀行と口座',
   'app.kuaicaiwu.invoice.form.partnerAddressPhone': '住所と電話番号',
   'app.kuaicaiwu.invoice.form.partnerPlaceholder': 'サプライヤー名または顧客名を入力してください',
-  'app.kuaicaiwu.invoice.form.invoiceNumberPlaceholder': '請求書番号を入力してください。下書きでは空の可能性があります',
+  'app.kuaicaiwu.invoice.form.invoiceNumberPlaceholder':
+    '請求書番号を入力してください。下書きでは空の可能性があります',
   'app.kuaicaiwu.invoice.form.autoGenerate': '自動生成',
   'app.kuaicaiwu.invoice.line.itemName': 'アイテム・サービス名',
   'app.kuaicaiwu.invoice.line.specModel': '仕様',
@@ -11004,14 +12085,17 @@ export default {
   'app.kuaicaiwu.salesInvoice.approveContent': '請求書 {{number}} を承認しますか?',
   'app.kuaicaiwu.salesInvoice.approveSuccess': '承認された',
   'app.kuaicaiwu.salesInvoice.deleteTitle': '売上請求書の削除',
-  'app.kuaicaiwu.salesInvoice.deleteContent': '請求書 {{number}} を削除しますか?承認された請求書は削除できません。',
+  'app.kuaicaiwu.salesInvoice.deleteContent':
+    '請求書 {{number}} を削除しますか?承認された請求書は削除できません。',
   'app.kuaicaiwu.salesInvoice.batchDeleteSuccess': '{{count}} 件の売上請求書を削除しました',
-  'app.kuaicaiwu.salesInvoice.batchDeleteConfirm': '選択した {{count}} 個の売上請求書を削除しますか?承認された請求書は削除できません。',
+  'app.kuaicaiwu.salesInvoice.batchDeleteConfirm':
+    '選択した {{count}} 個の売上請求書を削除しますか?承認された請求書は削除できません。',
   'app.kuaicaiwu.salesInvoice.batchApproveTitle': '{{count}} 件の売上請求書を承認する',
   'app.kuaicaiwu.salesInvoice.batchApproveSuccess': '{{count}} 件の売上請求書を承認しました',
   'app.kuaicaiwu.salesInvoice.loadSourceFailed': 'ソース伝票のロードに失敗しました',
   'app.kuaicaiwu.salesInvoice.selectSource': '{{label}} を選択してください',
-  'app.kuaicaiwu.salesInvoice.sourceConverted': 'この {{source}} にはすでに {{target}} があります。二度と作成しないでください',
+  'app.kuaicaiwu.salesInvoice.sourceConverted':
+    'この {{source}} にはすでに {{target}} があります。二度と作成しないでください',
   'app.kuaicaiwu.salesInvoice.zeroAmount': 'ソース金額は 0 です。 {{target}} を作成できません',
   'app.kuaicaiwu.salesInvoice.amountRequired': '税抜金額税金は0より大きくなければなりません',
   'app.kuaicaiwu.salesInvoice.pullCreateSuccess': '{{target}} を作成しました',
@@ -11027,7 +12111,8 @@ export default {
   'app.kuaicaiwu.salesInvoice.pull.col.convertStatus': '変換ステータス',
   'app.kuaicaiwu.salesInvoice.pull.converted': '作成されました',
   'app.kuaicaiwu.salesInvoice.pull.convertible': '利用可能',
-  'app.kuaicaiwu.salesInvoice.form.invoiceNumberOptional': 'オプション。紙/電子請求書を受け取ってから入力してください',
+  'app.kuaicaiwu.salesInvoice.form.invoiceNumberOptional':
+    'オプション。紙/電子請求書を受け取ってから入力してください',
   'app.kuaicaiwu.salesInvoice.form.invoiceNumberRequired': '請求書番号を入力してください',
   'app.kuaicaiwu.salesInvoice.detailTitle': '売上請求書',
   'app.kuaicaiwu.salesInvoice.detailTitleWithNumber': '売上請求書 {{number}}',
@@ -11048,14 +12133,17 @@ export default {
   'app.kuaicaiwu.salesInvoice.approveConfirm': '{{number}} を承認しますか?',
   'app.kuaicaiwu.salesInvoice.approved': '承認された',
   'app.kuaicaiwu.salesInvoice.saved': '保存されました',
-  'app.kuaicaiwu.salesInvoice.deleteConfirm': 'この請求書を削除しますか?承認済み、無効化、または赤フラッシュされた請求書は削除できません。',
+  'app.kuaicaiwu.salesInvoice.deleteConfirm':
+    'この請求書を削除しますか?承認済み、無効化、または赤フラッシュされた請求書は削除できません。',
   'app.kuaicaiwu.salesInvoice.voidTitle': '請求書を無効にする',
-  'app.kuaicaiwu.salesInvoice.voidHint': '承認/予約前に発見されたエラーの場合。承認済みの請求書については、「レッド請求書の適用」を使用します。',
+  'app.kuaicaiwu.salesInvoice.voidHint':
+    '承認/予約前に発見されたエラーの場合。承認済みの請求書については、「レッド請求書の適用」を使用します。',
   'app.kuaicaiwu.salesInvoice.voidReasonRequired': '無効理由（必須）',
   'app.kuaicaiwu.salesInvoice.voidReasonMissing': '無効な理由を入力してください',
   'app.kuaicaiwu.salesInvoice.voided': '無効化されました',
   'app.kuaicaiwu.salesInvoice.redLetterTitle': 'レッドインボイスの適用',
-  'app.kuaicaiwu.salesInvoice.redLetterHint': '会計逆仕訳のためにマイナスの販売請求書草案が作成されます。税務システムでレッドレタープロセスを完了し、請求書番号を入力します。',
+  'app.kuaicaiwu.salesInvoice.redLetterHint':
+    '会計逆仕訳のためにマイナスの販売請求書草案が作成されます。税務システムでレッドレタープロセスを完了し、請求書番号を入力します。',
   'app.kuaicaiwu.salesInvoice.redLetterReasonRequired': '赤面の理由 (必須)',
   'app.kuaicaiwu.salesInvoice.redLetterReasonMissing': '赤面の理由を入力してください',
   'app.kuaicaiwu.salesInvoice.redLetterDraftCreated': '赤の請求書草稿が作成されました',
@@ -11064,7 +12152,8 @@ export default {
   'app.kuaicaiwu.salesInvoice.line.amountExcl': '金額（税抜）',
   'app.kuaicaiwu.salesInvoice.noLines': '明細行なし (統合された請求書入力によって維持)',
   'app.kuaicaiwu.salesInvoice.reasonPlaceholder': '監査証跡の理由を入力してください',
-  'app.kuaicaiwu.salesInvoice.form.invoiceNumberFace': '税制上の請求書番号を受け取ってから入力してください',
+  'app.kuaicaiwu.salesInvoice.form.invoiceNumberFace':
+    '税制上の請求書番号を受け取ってから入力してください',
   'app.kuaicaiwu.salesInvoice.form.sourceCode': 'ソース番号',
   'app.kuaicaiwu.salesInvoice.form.taxRate': '税率',
   'app.kuaicaiwu.salesInvoice.form.selectInvoiceType': '請求書の種類を選択してください',
@@ -11084,20 +12173,23 @@ export default {
   'app.kuaicaiwu.purchaseInvoice.batchApproveSuccess': '{{count}} 件の購入請求書が承認されました',
   'app.kuaicaiwu.purchaseInvoice.batchApproveTitle': '{{count}} 件の購入請求書を承認する',
   'app.kuaicaiwu.purchaseInvoice.createButton': '購入請求書の登録',
-  'app.kuaicaiwu.purchaseInvoice.createHint': '発注書から変換するには、PO ページの「プッシュ請求書」を使用します。入力された請求書を直接登録するフォームです。',
+  'app.kuaicaiwu.purchaseInvoice.createHint':
+    '発注書から変換するには、PO ページの「プッシュ請求書」を使用します。入力された請求書を直接登録するフォームです。',
   'app.kuaicaiwu.purchaseInvoice.col.code': '請求書コード',
   'app.kuaicaiwu.purchaseInvoice.col.purchaseOrder': '発注書',
   'app.kuaicaiwu.purchaseInvoice.col.invoiceAmount': '請求金額',
   'app.kuaicaiwu.purchaseInvoice.col.linkedPayable': '支払い可能',
   'app.kuaicaiwu.purchaseInvoice.pull.searchPlaceholder': '伝票番号で検索します。 / サプライヤー',
   'app.kuaicaiwu.purchaseInvoice.detailNotFound': '購入請求書が見つかりません',
-  'app.kuaicaiwu.purchaseInvoice.lifecycleHint': '購入請求書は文書追跡に関連付けられていません。 Payables および PO へのリンクでは文書コードが使用されます。',
+  'app.kuaicaiwu.purchaseInvoice.lifecycleHint':
+    '購入請求書は文書追跡に関連付けられていません。 Payables および PO へのリンクでは文書コードが使用されます。',
   'app.kuaicaiwu.purchaseInvoice.noLines': 'フェイスライン項目なし（ヘッダーのみ登録）',
   'app.kuaicaiwu.purchaseInvoice.activityCreated': '{{time}} に作成されました',
   'app.kuaicaiwu.purchaseInvoice.activityUpdated': '{{time}} に更新されました',
   'app.kuaicaiwu.purchaseInvoice.invoiceType.other': '他の',
   'app.kuaicaiwu.purchaseInvoice.loadSourceFailed': 'ソース伝票のロードに失敗しました',
-  'app.kuaicaiwu.purchaseInvoice.sourceConverted': '{{source}} にはすでに {{target}} があります。二度と作成しないでください',
+  'app.kuaicaiwu.purchaseInvoice.sourceConverted':
+    '{{source}} にはすでに {{target}} があります。二度と作成しないでください',
   'app.kuaicaiwu.purchaseInvoice.zeroAmount': 'ソース金額は 0 です。 {{target}} を作成できません',
   'app.kuaicaiwu.purchaseInvoice.amountRequired': '税抜金額税金は0より大きくなければなりません',
   'app.kuaicaiwu.purchaseInvoice.pullCreateSuccess': '{{target}} を作成しました',
@@ -11126,7 +12218,8 @@ export default {
   'app.kuaicaiwu.settlement.helpTitle': '決済ヘルプ',
   'app.kuaicaiwu.settlement.helpGotIt': 'わかった',
   'app.kuaicaiwu.settlement.arAlert': '残高のある入金と未払い金額のある売掛金を手動で照合します。',
-  'app.kuaicaiwu.settlement.apAlert': '残高のある支払いと未払い金額のある買掛金を手動で照合します。',
+  'app.kuaicaiwu.settlement.apAlert':
+    '残高のある支払いと未払い金額のある買掛金を手動で照合します。',
   'app.kuaicaiwu.settlement.pendingReceivables': '決済すべき債権',
   'app.kuaicaiwu.settlement.availableReceipts': '利用可能な領収書',
   'app.kuaicaiwu.settlement.pendingPayables': '決済すべき買掛金',
@@ -11138,19 +12231,25 @@ export default {
   'app.kuaicaiwu.settlement.match': 'マッチ',
   'app.kuaicaiwu.settlement.confirmArTitle': '売掛金決済の確認',
   'app.kuaicaiwu.settlement.confirmApTitle': '支払額の決済を確認する',
-  'app.kuaicaiwu.settlement.confirmArContent': '受取り{{receiptCode}}を売掛​​金{{receivableCode}}に対して決済します',
-  'app.kuaicaiwu.settlement.confirmApContent': '{{payableCode}} に対する支払い {{paymentCode}} を決済します',
+  'app.kuaicaiwu.settlement.confirmArContent':
+    '受取り{{receiptCode}}を売掛​​金{{receivableCode}}に対して決済します',
+  'app.kuaicaiwu.settlement.confirmApContent':
+    '{{payableCode}} に対する支払い {{paymentCode}} を決済します',
   'app.kuaicaiwu.settlement.settleAmount': '決済金額',
   'app.kuaicaiwu.settlement.invalidAmount': '書類を選択し、有効な決済金額を入力してください',
   'app.kuaicaiwu.settlement.settleSuccess': '決済成功',
   'app.kuaicaiwu.settlement.settleFailed': '決済が失敗しました: {{message}}',
   'app.kuaicaiwu.settlement.help': 'ヘルプ',
-  'app.kuaicaiwu.settlement.arAlertExtended': '残高のある入金と未払い金額のある売掛金を手動で照合します。入金が売掛金詳細から自動決済された場合、または伝票が完全に決済された場合、ここにはデータは表示されません。',
-  'app.kuaicaiwu.settlement.apAlertExtended': '残高のある支払いと未払い金額のある買掛金を手動で照合します。支払いが支払詳細から自動決済された場合、または書類が完全に決済された場合、ここにはデータは表示されません。',
+  'app.kuaicaiwu.settlement.arAlertExtended':
+    '残高のある入金と未払い金額のある売掛金を手動で照合します。入金が売掛金詳細から自動決済された場合、または伝票が完全に決済された場合、ここにはデータは表示されません。',
+  'app.kuaicaiwu.settlement.apAlertExtended':
+    '残高のある支払いと未払い金額のある買掛金を手動で照合します。支払いが支払詳細から自動決済された場合、または書類が完全に決済された場合、ここにはデータは表示されません。',
   'app.kuaicaiwu.settlement.helpArTitle': '売掛金の決済',
-  'app.kuaicaiwu.settlement.helpArDesc': '残高のある領収書と未払い金額のある売掛金を照合します。左側で債権を選択し、右側で領収書と照合し、決済金額を確認します。自動決済または完全決済の場合、リストは空になります。',
+  'app.kuaicaiwu.settlement.helpArDesc':
+    '残高のある領収書と未払い金額のある売掛金を照合します。左側で債権を選択し、右側で領収書と照合し、決済金額を確認します。自動決済または完全決済の場合、リストは空になります。',
   'app.kuaicaiwu.settlement.helpApTitle': '支払いの決済',
-  'app.kuaicaiwu.settlement.helpApDesc': '残高のある支払いと未払い金額のある買掛金を照合します。売掛金決済と同じワークフローです。自動決済または完全決済の場合、リストは空になります。',
+  'app.kuaicaiwu.settlement.helpApDesc':
+    '残高のある支払いと未払い金額のある買掛金を照合します。売掛金決済と同じワークフローです。自動決済または完全決済の場合、リストは空になります。',
   'app.kuaicaiwu.partnerStatement.tabCustomer': 'お客様の声',
   'app.kuaicaiwu.partnerStatement.tabSupplier': 'サプライヤーの声明',
   'app.kuaicaiwu.partnerStatement.col.code': 'ステートメント番号',
@@ -11174,14 +12273,20 @@ export default {
   'app.kuaicaiwu.partnerStatement.createButton': '新しい声明',
   'app.kuaicaiwu.partnerStatement.col.customerName': 'お客様',
   'app.kuaicaiwu.partnerStatement.col.supplierName': 'サプライヤー',
-  'app.kuaicaiwu.partnerStatement.batchDeleteCustomerConfirm': '選択した {{count}} 件の顧客明細を削除しますか?削除できるのは下書きのみです。',
-  'app.kuaicaiwu.partnerStatement.batchDeleteSupplierConfirm': '選択した {{count}} 個のサプライヤー ステートメントを削除しますか?削除できるのは下書きのみです。',
+  'app.kuaicaiwu.partnerStatement.batchDeleteCustomerConfirm':
+    '選択した {{count}} 件の顧客明細を削除しますか?削除できるのは下書きのみです。',
+  'app.kuaicaiwu.partnerStatement.batchDeleteSupplierConfirm':
+    '選択した {{count}} 個のサプライヤー ステートメントを削除しますか?削除できるのは下書きのみです。',
   'app.kuaicaiwu.partnerStatement.batchConfirmTitle': '{{count}} ステートメントを確認します',
-  'app.kuaicaiwu.partnerStatement.batchConfirmOnlyDraft': '確認できるのは草案のみです。他のものはサーバーによって拒否されます。',
-  'app.kuaicaiwu.partnerStatement.deleteConfirm': 'ステートメント {{code}} を削除しますか?削除できるのは下書きのみです。',
+  'app.kuaicaiwu.partnerStatement.batchConfirmOnlyDraft':
+    '確認できるのは草案のみです。他のものはサーバーによって拒否されます。',
+  'app.kuaicaiwu.partnerStatement.deleteConfirm':
+    'ステートメント {{code}} を削除しますか?削除できるのは下書きのみです。',
   'app.kuaicaiwu.partnerStatement.deleted': '削除されました',
-  'app.kuaicaiwu.partnerStatement.previewHint': 'パートナーと期間を選択し、「プレビュー」をクリックして詳細を表示します。',
-  'app.kuaicaiwu.partnerStatement.previewFooter': '明細書には、承認された売掛金/買掛金と確認された入金/支払いが要約されます。生成後に Excel/PDF をエクスポートしてパートナーに送信します。',
+  'app.kuaicaiwu.partnerStatement.previewHint':
+    'パートナーと期間を選択し、「プレビュー」をクリックして詳細を表示します。',
+  'app.kuaicaiwu.partnerStatement.previewFooter':
+    '明細書には、承認された売掛金/買掛金と確認された入金/支払いが要約されます。生成後に Excel/PDF をエクスポートしてパートナーに送信します。',
   'app.kuaicaiwu.partnerStatement.col.date': '日付',
   'app.kuaicaiwu.partnerStatement.col.docType': '文書の種類',
   'app.kuaicaiwu.partnerStatement.col.docCode': '文書番号',
@@ -11194,12 +12299,14 @@ export default {
   'app.kuaicaiwu.partnerStatement.selectCustomer': '顧客を選択してください',
   'app.kuaicaiwu.partnerStatement.selectSupplier': 'サプライヤーを選択してください',
   'app.kuaicaiwu.partnerStatement.detail.confirmTitle': 'ステートメントの確認',
-  'app.kuaicaiwu.partnerStatement.detail.confirmContent': 'ステートメント {{code}} が正しいことを確認しますか?',
+  'app.kuaicaiwu.partnerStatement.detail.confirmContent':
+    'ステートメント {{code}} が正しいことを確認しますか?',
   'app.kuaicaiwu.partnerStatement.detail.confirmed': '確認済み',
   'app.kuaicaiwu.partnerStatement.detail.internalConfirm': '内部確認',
   'app.kuaicaiwu.partnerStatement.detail.markSent': '送信済みとしてマークする',
   'app.kuaicaiwu.partnerStatement.detail.markSentTitle': '送信済みとしてマークする',
-  'app.kuaicaiwu.partnerStatement.detail.markSentHint': '明細書をエクスポートまたは印刷し、送信済みとしてマークする前に WeChat/電子メール経由で送信します。',
+  'app.kuaicaiwu.partnerStatement.detail.markSentHint':
+    '明細書をエクスポートまたは印刷し、送信済みとしてマークする前に WeChat/電子メール経由で送信します。',
   'app.kuaicaiwu.partnerStatement.detail.sentChannel': 'チャネル',
   'app.kuaicaiwu.partnerStatement.detail.sentNotes': '注記 (オプション)',
   'app.kuaicaiwu.partnerStatement.detail.markedSent': '送信済みとしてマークされました',
@@ -11210,7 +12317,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.print': '印刷する',
   'app.kuaicaiwu.partnerStatement.detail.recordDispute': '記録紛争',
   'app.kuaicaiwu.partnerStatement.detail.disputeTitle': '記録紛争',
-  'app.kuaicaiwu.partnerStatement.detail.disputePlaceholder': 'パートナーからの紛争の詳細を入力します',
+  'app.kuaicaiwu.partnerStatement.detail.disputePlaceholder':
+    'パートナーからの紛争の詳細を入力します',
   'app.kuaicaiwu.partnerStatement.detail.disputeMissing': '紛争の詳細を入力してください',
   'app.kuaicaiwu.partnerStatement.detail.disputeRecorded': '紛争が記録されました',
   'app.kuaicaiwu.partnerStatement.detail.sentAt': '送信元: {{channel}}{{time}}',
@@ -11219,7 +12327,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.disputeReason': '紛争の詳細',
   'app.kuaicaiwu.partnerStatement.detail.receivableBalance': '売掛金残高',
   'app.kuaicaiwu.partnerStatement.detail.payableBalance': '支払残高',
-  'app.kuaicaiwu.partnerStatement.detail.footer': '7 営業日以内に確認してください。あらゆる論争に注意してください。',
+  'app.kuaicaiwu.partnerStatement.detail.footer':
+    '7 営業日以内に確認してください。あらゆる論争に注意してください。',
   'app.kuaicaiwu.partnerStatement.detail.printTitle': '{{company}} — パートナーの声明',
   'app.kuaicaiwu.partnerStatement.detail.ourCompany': '当社について',
   'app.kuaicaiwu.bankAccount.col.accountCode': 'アカウントコード',
@@ -11253,10 +12362,12 @@ export default {
   'app.kuaicaiwu.bankAccount.status.enabled': 'アクティブ',
   'app.kuaicaiwu.bankAccount.status.disabled': '非アクティブ',
   'app.kuaicaiwu.bankAccount.form.accountNumber': '口座番号',
-  'app.kuaicaiwu.bankAccount.importHint': '以下に銀行取引明細書のエクスポートを貼り付けます (銀行との直接統合はありません)。ヘッダーの例: 日付、方向、金額、概要;方向: 流入/流出。',
+  'app.kuaicaiwu.bankAccount.importHint':
+    '以下に銀行取引明細書のエクスポートを貼り付けます (銀行との直接統合はありません)。ヘッダーの例: 日付、方向、金額、概要;方向: 流入/流出。',
   'app.kuaicaiwu.bankAccount.importContent': '発言内容',
   'app.kuaicaiwu.bankAccount.importContentRequired': 'ステートメントの内容を貼り付けます',
-  'app.kuaicaiwu.bankAccount.importPlaceholder': '日付、方向、金額、概要\\n2026-05-01,in,10000.00,開口部調整',
+  'app.kuaicaiwu.bankAccount.importPlaceholder':
+    '日付、方向、金額、概要\\n2026-05-01,in,10000.00,開口部調整',
   'app.kuaicaiwu.bankAccount.importTitleWithAccount': 'ステートメントのインポート · {{name}}',
   'app.kuaicaiwu.bankAccount.transactionsTitleWithAccount': '{{name}} · 銀行取引',
   'app.kuaicaiwu.prepayment.statCustomerTotal': '顧客の前払い総額',
@@ -11303,7 +12414,8 @@ export default {
   'app.kuaicaiwu.documentReconciliation.unlinked': 'リンクされていない',
   'app.kuaicaiwu.documentReconciliation.queryFailed': 'クエリが失敗しました',
   'app.kuaicaiwu.documentReconciliation.chainQueryFailed': 'チェーンクエリが失敗しました',
-  'app.kuaicaiwu.documentReconciliation.unsupportedChain': 'この伝票 タイプではチェーン ビューがサポートされていません',
+  'app.kuaicaiwu.documentReconciliation.unsupportedChain':
+    'この伝票 タイプではチェーン ビューがサポートされていません',
   'app.kuaicaiwu.documentReconciliation.businessDirection': '事業の方向性',
   'app.kuaicaiwu.documentReconciliation.directionSales': '販売',
   'app.kuaicaiwu.documentReconciliation.directionPurchase': '購入',
@@ -11319,7 +12431,8 @@ export default {
   'app.kuaicaiwu.documentReconciliation.chain.docId': '文書ID',
   'app.kuaicaiwu.documentReconciliation.chain.docIdTooltip': '詳細ページ URL からの数値伝票 ID',
   'app.kuaicaiwu.documentReconciliation.chain.docIdPlaceholder': 'ID',
-  'app.kuaicaiwu.documentReconciliation.chain.completion': 'チェーン完了: {{rate}}% ({{linked}}/{{total}} ステップがリンクされています)',
+  'app.kuaicaiwu.documentReconciliation.chain.completion':
+    'チェーン完了: {{rate}}% ({{linked}}/{{total}} ステップがリンクされています)',
   'app.kuaicaiwu.documentReconciliation.chain.missing': 'ない',
   'app.kuaicaiwu.documentReconciliation.chain.salesDelivery': '販売配送',
   'app.kuaicaiwu.documentReconciliation.chain.salesOrder': '受注',
@@ -11338,12 +12451,16 @@ export default {
   'app.kuaicaiwu.managementDashboard.kpi.laborSubtitle': '標準時間 / 実際の時間',
   'app.kuaicaiwu.managementDashboard.kpi.wipTitle': 'WIP評価',
   'app.kuaicaiwu.managementDashboard.kpi.wipSubtitle': '{{count}} 件のアクティブな作業指示',
-  'app.kuaicaiwu.managementDashboard.insight.qualityLossTitle': '品質損失 {{amount}}、売上の {{ratio}}%',
-  'app.kuaicaiwu.managementDashboard.insight.qualityLossDesc': 'プロセスの欠陥とスクラップの原因を確認する',
-  'app.kuaicaiwu.managementDashboard.insight.dsoHighTitle': '回収サイクル {{days}} 日 — 目標を上回りました',
+  'app.kuaicaiwu.managementDashboard.insight.qualityLossTitle':
+    '品質損失 {{amount}}、売上の {{ratio}}%',
+  'app.kuaicaiwu.managementDashboard.insight.qualityLossDesc':
+    'プロセスの欠陥とスクラップの原因を確認する',
+  'app.kuaicaiwu.managementDashboard.insight.dsoHighTitle':
+    '回収サイクル {{days}} 日 — 目標を上回りました',
   'app.kuaicaiwu.managementDashboard.insight.dsoHighDesc': '延滞債権と回収計画に優先順位を付ける',
   'app.kuaicaiwu.managementDashboard.insight.wipTitle': 'WIP 資本 {{amount}}',
-  'app.kuaicaiwu.managementDashboard.insight.wipDesc': 'アクティブな作業指示を追跡して資本の拘束を回避',
+  'app.kuaicaiwu.managementDashboard.insight.wipDesc':
+    'アクティブな作業指示を追跡して資本の拘束を回避',
   'app.kuaicaiwu.managementDashboard.actionPanelTitle': 'ビジネスの焦点 (過去 {{days}} 日)',
   'app.kuaicaiwu.managementDashboard.emptyInsights': '今期は重要なビジネス項目はありません',
   'app.kuaicaiwu.managementDashboard.chart.receivableAgingTitle': '債権年齢分布',
@@ -11352,9 +12469,11 @@ export default {
   'app.kuaicaiwu.managementDashboard.chart.scrapAmount': '直接スクラップ量',
   'app.kuaicaiwu.managementDashboard.chart.unqualifiedQty': '不適合数量',
   'app.kuaicaiwu.managementDashboard.chart.piecesUnit': '個',
-  'app.kuaicaiwu.managementDashboard.chart.qualityLossAlert': '品質損失は売上高の {{ratio}}% です - プロセスの欠陥を確認します',
+  'app.kuaicaiwu.managementDashboard.chart.qualityLossAlert':
+    '品質損失は売上高の {{ratio}}% です - プロセスの欠陥を確認します',
   'app.kuaicaiwu.managementDashboard.chart.qualityUnderControl': '今期の品質低下は許容範囲内',
-  'app.kuaicaiwu.managementDashboard.chart.noQualityLoss': '過去{{days}}日間に品質損失の記録はありません',
+  'app.kuaicaiwu.managementDashboard.chart.noQualityLoss':
+    '過去{{days}}日間に品質損失の記録はありません',
   'app.kuaicaiwu.marginReport.tab.product': '製品別',
   'app.kuaicaiwu.marginReport.tab.customer': '顧客別',
   'app.kuaicaiwu.marginReport.tab.order': '注文による',
@@ -11413,7 +12532,8 @@ export default {
   'app.kuaicaiwu.glVoucher.batchActions': 'バッチアクション',
   'app.kuaicaiwu.glVoucher.batchPost': 'バッチポスト',
   'app.kuaicaiwu.glVoucher.confirmBatchPost': '{{count}} 個のクーポンを投稿しますか?',
-  'app.kuaicaiwu.glVoucher.confirmBatchPostDesc': '未転記の伝票のみが成功します。すでに投稿されたレコードや不適格なレコードはサーバーによって拒否されます。',
+  'app.kuaicaiwu.glVoucher.confirmBatchPostDesc':
+    '未転記の伝票のみが成功します。すでに投稿されたレコードや不適格なレコードはサーバーによって拒否されます。',
   'app.kuaicaiwu.glVoucher.drawerTitle': 'クーポンエントリー · {{code}}',
   'app.kuaicaiwu.glVoucher.drawerTitleDefault': 'バウチャーエントリー',
   'app.kuaicaiwu.glVoucher.line.lineNo': 'ライン',
@@ -11542,7 +12662,8 @@ export default {
   'app.kuaicaiwu.costCalculation.workOrderModalTitle': '製造指示のコスト計算',
   'app.kuaicaiwu.costCalculation.productModalTitle': '製品原価計算',
   'app.kuaicaiwu.costCalculation.detailTitle': 'コスト計算の詳細',
-  'app.kuaicaiwu.costCalculation.lifecycleHint': '計算ステータスはリストと基本情報に従います。上流/下流の追跡が利用可能な場合、リンクされた伝票がここに表示されます。',
+  'app.kuaicaiwu.costCalculation.lifecycleHint':
+    '計算ステータスはリストと基本情報に従います。上流/下流の追跡が利用可能な場合、リンクされた伝票がここに表示されます。',
   'app.kuaicaiwu.costCalculation.field.workOrder': '作業命令',
   'app.kuaicaiwu.costCalculation.field.workOrderPlaceholder': '作業指示を選択してください',
   'app.kuaicaiwu.costCalculation.field.workOrderRequired': '製造指示を選択してください',
@@ -11553,7 +12674,8 @@ export default {
   'app.kuaicaiwu.costCalculation.field.calculationTypeRequired': '計算タイプを選択してください',
   'app.kuaicaiwu.costCalculation.compareTab.byProduct': '製品別',
   'app.kuaicaiwu.costCalculation.compareTab.byMaterial': '材料別・作業オーダー別',
-  'app.kuaicaiwu.costCalculation.compareByProductHint': '標準と実際のコストの概要をロードする製品 (材料) を選択します。',
+  'app.kuaicaiwu.costCalculation.compareByProductHint':
+    '標準と実際のコストの概要をロードする製品 (材料) を選択します。',
   'app.kuaicaiwu.costCalculation.productCompareResult': '製品コストの比較',
   'app.kuaicaiwu.costCalculation.costDifference': '原価差異',
   'app.kuaicaiwu.costCalculation.costDifferenceRate': '原価差異率',
@@ -11562,14 +12684,19 @@ export default {
   'app.kuaicaiwu.costCalculation.laborCostDifference': '人件費差異',
   'app.kuaicaiwu.costCalculation.manufacturingCostDifference': '製造間接費の差異',
   'app.kuaicaiwu.costCalculation.differenceAnalysis': '分散分析',
-  'app.kuaicaiwu.costCalculation.compareByProductEmpty': '製品を選択してクエリを実行すると、標準/実際のコストと差異が表示されます。',
-  'app.kuaicaiwu.costCalculation.compareByMaterialHint': '材質と数量を選択してください。必要に応じて、製造指示、発注書、またはアウトソーシング製造指示のフィルターを追加します (スタンドアロンの比較ページと同じ API)。',
+  'app.kuaicaiwu.costCalculation.compareByProductEmpty':
+    '製品を選択してクエリを実行すると、標準/実際のコストと差異が表示されます。',
+  'app.kuaicaiwu.costCalculation.compareByMaterialHint':
+    '材質と数量を選択してください。必要に応じて、製造指示、発注書、またはアウトソーシング製造指示のフィルターを追加します (スタンドアロンの比較ページと同じ API)。',
   'app.kuaicaiwu.costCalculation.materialCompareResult': '材料標準と実際の比較',
-  'app.kuaicaiwu.costCalculation.compareByMaterialEmpty': 'フォームに記入して比較し、標準/実際のコストと詳細を確認します。',
-  'app.kuaicaiwu.costCalculation.analyzeHint': '製品（素材）を選択し、構成・傾向・内訳を分析します。ソースタイプの提案については、「最適化」タブを使用してください。',
+  'app.kuaicaiwu.costCalculation.compareByMaterialEmpty':
+    'フォームに記入して比較し、標準/実際のコストと詳細を確認します。',
+  'app.kuaicaiwu.costCalculation.analyzeHint':
+    '製品（素材）を選択し、構成・傾向・内訳を分析します。ソースタイプの提案については、「最適化」タブを使用してください。',
   'app.kuaicaiwu.costCalculation.analyzeTab.composition': 'コスト構成',
   'app.kuaicaiwu.costCalculation.analyzeTab.trend': 'コストの推移',
-  'app.kuaicaiwu.costCalculation.analyzeTrendHint': '最近監査された計算レコード (計算日ごと) (昇順)。',
+  'app.kuaicaiwu.costCalculation.analyzeTrendHint':
+    '最近監査された計算レコード (計算日ごと) (昇順)。',
   'app.kuaicaiwu.costCalculation.noTrendData': 'トレンドデータがありません',
   'app.kuaicaiwu.costCalculation.noBreakdownData': '内訳データなし',
   'app.kuaicaiwu.costRule.ruleType.material': '材料費',
@@ -11595,7 +12722,8 @@ export default {
   'app.kuaicaiwu.costRule.batchDeleteDesc': '選択した {{count}} 個のコスト ルールを削除しますか?',
   'app.kuaicaiwu.costRule.batchEnable': 'バッチ有効化',
   'app.kuaicaiwu.costRule.batchDisable': 'バッチ無効化',
-  'app.kuaicaiwu.costRule.lifecycleHint': '構成データのみ。ライフサイクルには、伝票追跡が統合されるまでアクティブなステータスが表示されます。',
+  'app.kuaicaiwu.costRule.lifecycleHint':
+    '構成データのみ。ライフサイクルには、伝票追跡が統合されるまでアクティブなステータスが表示されます。',
   'app.kuaicaiwu.costRule.col.isActive': 'アクティブ',
   'app.kuaicaiwu.costRule.col.code': 'ルールコード',
   'app.kuaicaiwu.costRule.col.name': 'ルール名',
@@ -11613,7 +12741,8 @@ export default {
   'app.kuaicaiwu.costRule.field.nameRequired': 'ルール名を入力してください',
   'app.kuaicaiwu.costRule.field.ruleTypePlaceholder': 'ルールの種類を選択してください',
   'app.kuaicaiwu.costRule.field.ruleTypeRequired': 'ルールの種類を選択してください',
-  'app.kuaicaiwu.costRule.field.costTypePlaceholder': 'コストタイプを入力してください (例: 直接材料/間接材料)',
+  'app.kuaicaiwu.costRule.field.costTypePlaceholder':
+    'コストタイプを入力してください (例: 直接材料/間接材料)',
   'app.kuaicaiwu.costRule.field.costTypeRequired': 'コストタイプを入力してください',
   'app.kuaicaiwu.costRule.field.calculationMethodPlaceholder': '計算方法の選択',
   'app.kuaicaiwu.costRule.field.calculationMethodRequired': '計算方法を選択してください',
@@ -11622,9 +12751,11 @@ export default {
   'app.kuaicaiwu.costRule.field.wipValuationPlaceholder': 'WIP評価方法の選択',
   'app.kuaicaiwu.costRule.field.sourceModulePlaceholder': '経費ソースモジュールの選択',
   'app.kuaicaiwu.costRule.field.calculationFormulaJson': '計算式（JSON）',
-  'app.kuaicaiwu.costRule.field.calculationFormulaPlaceholder': '式 JSON を入力します。例: {"計算式": "数量 * 価格"}',
+  'app.kuaicaiwu.costRule.field.calculationFormulaPlaceholder':
+    '式 JSON を入力します。例: {"計算式": "数量 * 価格"}',
   'app.kuaicaiwu.costRule.field.ruleParametersJson': 'ルールパラメータ(JSON)',
-  'app.kuaicaiwu.costRule.field.ruleParametersPlaceholder': 'パラメータ JSON を入力します。例: {"レート": 0.1、"固定値": 100}',
+  'app.kuaicaiwu.costRule.field.ruleParametersPlaceholder':
+    'パラメータ JSON を入力します。例: {"レート": 0.1、"固定値": 100}',
   'app.kuaicaiwu.costRule.calculationMethod.byQuantity': '数量別',
   'app.kuaicaiwu.costRule.calculationMethod.byHours': '時間ごと',
   'app.kuaicaiwu.costRule.calculationMethod.byRatio': '比率による',
@@ -11665,7 +12796,8 @@ export default {
   'app.kuaicaiwu.standardCost.status.active': 'アクティブ',
   'app.kuaicaiwu.standardCost.status.inactive': '非アクティブ',
   'app.kuaicaiwu.standardCost.field.targetId': 'ターゲットID',
-  'app.kuaicaiwu.standardCost.field.targetIdTooltip': '材料、ワークセンター、またはワークステーションの数値 ID',
+  'app.kuaicaiwu.standardCost.field.targetIdTooltip':
+    '材料、ワークセンター、またはワークステーションの数値 ID',
   'app.kuaicaiwu.standardCost.field.effectiveDate': '発効日',
   'app.kuaicaiwu.standardCost.field.expiryDate': '有効期限',
   'app.kuaicaiwu.productionCost.title': '製造コスト',
@@ -11675,7 +12807,8 @@ export default {
   'app.kuaicaiwu.productionCost.calculateFailed': '生産コストの計算に失敗しました',
   'app.kuaicaiwu.productionCost.col.processingCost': '加工費',
   'app.kuaicaiwu.productionCost.field.variantAttributes': '属性（設定項目用）',
-  'app.kuaicaiwu.productionCost.field.variantAttributesPlaceholder': '属性 JSON を入力します。 {"色":"赤","サイズ":"大"}',
+  'app.kuaicaiwu.productionCost.field.variantAttributesPlaceholder':
+    '属性 JSON を入力します。 {"色":"赤","サイズ":"大"}',
   'app.kuaicaiwu.outsourceCost.title': '外注費',
   'app.kuaicaiwu.outsourceCost.calculateStandard': '標準外注費の計算',
   'app.kuaicaiwu.outsourceCost.calculateActual': '実際の外注費を計算する',
@@ -11687,8 +12820,10 @@ export default {
   'app.kuaicaiwu.outsourceCost.col.processingCost': '外注加工費',
   'app.kuaicaiwu.outsourceCost.field.materialPlaceholder': '外注素材を選択する',
   'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrder': '作業指示をアウトソーシングする',
-  'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderPlaceholder': 'アウトソーシング作業指示を選択してください',
-  'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderRequired': 'アウトソーシング作業指示を選択してください',
+  'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderPlaceholder':
+    'アウトソーシング作業指示を選択してください',
+  'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderRequired':
+    'アウトソーシング作業指示を選択してください',
   'app.kuaicaiwu.purchaseCost.title': '購入費用',
   'app.kuaicaiwu.purchaseCost.calculateStandard': '標準購入原価の計算',
   'app.kuaicaiwu.purchaseCost.calculateActualItem': '実際のコストを計算する（行）',
@@ -11721,15 +12856,19 @@ export default {
   'app.kuaicaiwu.qualityCost.field.startDatePlaceholder': '開始日を選択してください (オプション)',
   'app.kuaicaiwu.qualityCost.field.endDatePlaceholder': '終了日を選択してください (オプション)',
   'app.kuaicaiwu.qualityCost.field.materialOptional': '材質（オプション）',
-  'app.kuaicaiwu.qualityCost.field.materialOptionalPlaceholder': '特定の品質コスト分析のための材料の選択',
+  'app.kuaicaiwu.qualityCost.field.materialOptionalPlaceholder':
+    '特定の品質コスト分析のための材料の選択',
   'app.kuaicaiwu.qualityCost.field.workOrderOptional': '製造指示（オプション）',
-  'app.kuaicaiwu.qualityCost.field.workOrderOptionalPlaceholder': 'オプション: 特定の製造指示の品質コスト',
+  'app.kuaicaiwu.qualityCost.field.workOrderOptionalPlaceholder':
+    'オプション: 特定の製造指示の品質コスト',
   'app.kuaicaiwu.costComparison.title': 'コスト比較',
   'app.kuaicaiwu.costComparison.compareButton': '標準コストと実際のコストを比較する',
   'app.kuaicaiwu.costComparison.compareSuccess': '比較完了',
   'app.kuaicaiwu.costComparison.compareFailed': '比較に失敗しました',
-  'app.kuaicaiwu.costComparison.emptyHint': 'まだ比較はできません。 「比較」をクリックして開始します。',
-  'app.kuaicaiwu.costComparison.lifecycleHint': '分析的な比較のみ。伝票のライフサイクルはありません。',
+  'app.kuaicaiwu.costComparison.emptyHint':
+    'まだ比較はできません。 「比較」をクリックして開始します。',
+  'app.kuaicaiwu.costComparison.lifecycleHint':
+    '分析的な比較のみ。伝票のライフサイクルはありません。',
   'app.kuaicaiwu.costComparison.standardVsActual': '標準コストと実際のコスト',
   'app.kuaicaiwu.costComparison.totalVariance': '合計差異: ¥{{amount}}',
   'app.kuaicaiwu.costComparison.totalVarianceRate': '合計差異率: {{rate}}%',
@@ -11741,7 +12880,8 @@ export default {
   'app.kuaicaiwu.costComparison.compareCompleted': '比較完了',
   'app.kuaicaiwu.costComparison.modalTitle': '標準コストと実際のコストを比較する',
   'app.kuaicaiwu.costComparison.col.varianceType': '差異タイプ',
-  'app.kuaicaiwu.costComparison.field.quantityPlaceholder': '数量を入力してください (標準コストの場合)',
+  'app.kuaicaiwu.costComparison.field.quantityPlaceholder':
+    '数量を入力してください (標準コストの場合)',
   'app.kuaicaiwu.costComparison.field.workOrder': '製造指示（実際の作成/構成）',
   'app.kuaicaiwu.costComparison.field.purchaseOrder': '発注書（実際の購入 - 注文）',
   'app.kuaicaiwu.costComparison.field.purchaseOrderItem': '注文明細（実際の購入明細）',
@@ -11760,16 +12900,20 @@ export default {
   'app.kuaicaiwu.costOptimization.col.savingsRate': '貯蓄率',
   'app.kuaicaiwu.costOptimization.estimatedSavings': 'Est. savings: ¥{{amount}}',
   'app.kuaicaiwu.costOptimization.noSuggestions': '提案はありません',
-  'app.kuaicaiwu.costOptimization.noSuggestionsDesc': 'コストはすでに最適であるか、より良い代替手段が見つかりません。',
+  'app.kuaicaiwu.costOptimization.noSuggestionsDesc':
+    'コストはすでに最適であるか、より良い代替手段が見つかりません。',
   'app.kuaicaiwu.costOptimization.modalSingle': '1 つのマテリアルに対する提案を生成する',
   'app.kuaicaiwu.costOptimization.modalBatch': '提案をバッチ生成する',
-  'app.kuaicaiwu.costOptimization.field.quantityPlaceholder': 'コスト計算のための数量を入力してください',
+  'app.kuaicaiwu.costOptimization.field.quantityPlaceholder':
+    'コスト計算のための数量を入力してください',
   'app.kuaicaiwu.costOptimization.field.materialList': 'Material list',
   'app.kuaicaiwu.costOptimization.field.materialListPlaceholder': '複数のマテリアルを選択する',
   'app.kuaicaiwu.monthlySettlement.fetchSummaryFailed': 'Failed to load production summary',
-  'app.kuaicaiwu.monthlySettlement.payrollImportHint': '{{period}} 件の確認済み給与 ({{count}} 人、合計 {{amount}} 円) からインポートされました。必要に応じて手動で調整します。',
+  'app.kuaicaiwu.monthlySettlement.payrollImportHint':
+    '{{period}} 件の確認済み給与 ({{count}} 人、合計 {{amount}} 円) からインポートされました。必要に応じて手動で調整します。',
   'app.kuaicaiwu.monthlySettlement.payrollImportSuccess': '給与参照合計が入力されました',
-  'app.kuaicaiwu.monthlySettlement.payrollImportFailed': 'インポートに失敗しました。その月の給与計算が承認されていることを確認する',
+  'app.kuaicaiwu.monthlySettlement.payrollImportFailed':
+    'インポートに失敗しました。その月の給与計算が承認されていることを確認する',
   'app.kuaicaiwu.monthlySettlement.settlementSuccess': '月々の決済完了',
   'app.kuaicaiwu.monthlySettlement.settlementFailed': '決済失敗',
   'app.kuaicaiwu.monthlySettlement.col.productName': '製品',
@@ -11787,9 +12931,11 @@ export default {
   'app.kuaicaiwu.monthlySettlement.periodHint': '月次決済は通常、前月の翌月初めに実行されます。',
   'app.kuaicaiwu.monthlySettlement.field.period': '会計月',
   'app.kuaicaiwu.monthlySettlement.section.productionSummary': '{{period}} 制作概要',
-  'app.kuaicaiwu.monthlySettlement.productionReviewHint': 'レポート記録からの生産と時間。ご確認ください:',
+  'app.kuaicaiwu.monthlySettlement.productionReviewHint':
+    'レポート記録からの生産と時間。ご確認ください:',
   'app.kuaicaiwu.monthlySettlement.section.costEntry': '割り当てる期間コストを入力します',
-  'app.kuaicaiwu.monthlySettlement.costEntryHint': '製造諸経費と給与を入力します。割り当ては設定されたルールに従います。',
+  'app.kuaicaiwu.monthlySettlement.costEntryHint':
+    '製造諸経費と給与を入力します。割り当ては設定されたルールに従います。',
   'app.kuaicaiwu.monthlySettlement.importPayroll': 'パフォーマンスから給与総額をインポート',
   'app.kuaicaiwu.monthlySettlement.field.payroll': '生産給与総額',
   'app.kuaicaiwu.monthlySettlement.field.payrollPlaceholder': '給与総額を入力してください',
@@ -11798,7 +12944,8 @@ export default {
   'app.kuaicaiwu.monthlySettlement.field.rent': '家賃と減価償却費',
   'app.kuaicaiwu.monthlySettlement.field.rentPlaceholder': '家賃/減価償却費を入力してください',
   'app.kuaicaiwu.monthlySettlement.section.preview': '割り当てのプレビュー',
-  'app.kuaicaiwu.monthlySettlement.previewHint': 'シミュレートされた単価。確認して確定し、正式な記録を作成します。',
+  'app.kuaicaiwu.monthlySettlement.previewHint':
+    'シミュレートされた単価。確認して確定し、正式な記録を作成します。',
   'app.kuaicaiwu.monthlySettlement.section.done': '決済完了',
   'app.kuaicaiwu.monthlySettlement.doneTitle': '月々の決済完了',
   'app.kuaicaiwu.monthlySettlement.doneSubtitle': '{{period}} のコストレコードが保存されました。',
@@ -11820,7 +12967,8 @@ export default {
   'app.kuaicaiwu.costReport.bySourceType': 'ソースタイプ別',
   'app.kuaicaiwu.costReport.col.reportType': 'レポートの種類',
   'app.kuaicaiwu.costReport.col.generatedAt': '生成場所',
-  'app.kuaicaiwu.costReport.lifecycleHint': '分析スナップショット。伝票のライフサイクルはありません。',
+  'app.kuaicaiwu.costReport.lifecycleHint':
+    '分析スナップショット。伝票のライフサイクルはありません。',
   'app.kuaicaiwu.costReport.noTrendOrStructure': 'このレポートには傾向や構造データはありません',
   'app.kuaicaiwu.costReport.reportGenerated': '生成されたレポート',
   'app.kuaicaiwu.costReport.field.materialOptional': '材質（オプション）',
@@ -11838,7 +12986,8 @@ export default {
   'app.kuaicaiwu.costReport.submit.comprehensive': '包括的なレポートを生成する',
   'app.kuaicaiwu.costReport.submit.trend': '傾向分析の生成',
   'app.kuaicaiwu.costReport.submit.structure': '構造解析の生成',
-  'app.kuaicaiwu.costReport.empty.comprehensive': 'フィルターを設定し、包括的なレポートを生成します。',
+  'app.kuaicaiwu.costReport.empty.comprehensive':
+    'フィルターを設定し、包括的なレポートを生成します。',
   'app.kuaicaiwu.costReport.empty.trend': 'フィルターを設定し、傾向分析を生成します。',
   'app.kuaicaiwu.costReport.empty.structure': 'フィルターを設定し、構造解析を生成します。',
   'app.kuaicaiwu.receivable.import.customerName': '顧客名',
@@ -11911,11 +13060,14 @@ export default {
   'app.kuaizhizao.initialData.importInvSection': 'データインポート',
   'app.kuaizhizao.initialData.importTipsCollapse': 'メモをインポートする',
   'app.kuaizhizao.initialData.idempotencyTitle': '重複輸入リスク',
-  'app.kuaizhizao.initialData.nextHintNeedWip': '開始 WIP をインポートするか、「このステップをスキップ」を選択します。',
-  'app.kuaizhizao.initialData.nextHintNeedAr': 'オープニング AR/AP をインポートするか、[このステップをスキップ] を選択します。',
+  'app.kuaizhizao.initialData.nextHintNeedWip':
+    '開始 WIP をインポートするか、「このステップをスキップ」を選択します。',
+  'app.kuaizhizao.initialData.nextHintNeedAr':
+    'オープニング AR/AP をインポートするか、[このステップをスキップ] を選択します。',
   'app.kuaizhizao.initialData.openSheet': 'インポートシートを開く',
   'app.kuaizhizao.initialData.downloadTemplate': 'CSVテンプレートをダウンロード',
-  'app.kuaizhizao.initialData.inventoryDone': 'オープニングインベントリのインポートが完了しました。続行しても構いません。',
+  'app.kuaizhizao.initialData.inventoryDone':
+    'オープニングインベントリのインポートが完了しました。続行しても構いません。',
   'app.kuaizhizao.initialData.skipStep': 'このステップをスキップしてください',
   'app.kuaizhizao.initialData.skipWipTitle': 'WIP を開くのをスキップすることを確認します',
   'app.kuaizhizao.initialData.skipArTitle': 'AR/APのオープンをスキップすることを確認',
@@ -11923,9 +13075,11 @@ export default {
   'app.kuaizhizao.initialData.skippedWip': 'スキップされたマークが付けられた開始 WIP ステップ',
   'app.kuaizhizao.initialData.skippedAr': 'スキップされたとマークされた AR/AP ステップを開く',
   'app.kuaizhizao.initialData.wipImported': 'WIP インポートを開くと完了しました。',
-  'app.kuaizhizao.initialData.wipSkippedBanner': 'このステップはスキップされました。続けても構いません。',
+  'app.kuaizhizao.initialData.wipSkippedBanner':
+    'このステップはスキップされました。続けても構いません。',
   'app.kuaizhizao.initialData.arImported': 'AR/APインポートを開くことが完了しました。',
-  'app.kuaizhizao.initialData.arSkippedBanner': 'このステップはスキップされました。続けても構いません。',
+  'app.kuaizhizao.initialData.arSkippedBanner':
+    'このステップはスキップされました。続けても構いません。',
   'app.kuaizhizao.initialData.finishTitle': '初期データのインポートが完了しました',
   'app.kuaizhizao.initialData.prev': '戻る',
   'app.kuaizhizao.initialData.next': '次',
@@ -11935,7 +13089,8 @@ export default {
   'app.kuaizhizao.initialData.importInvOk': 'インポートされたインベントリ: {{n}} 行',
   'app.kuaizhizao.initialData.importWipOk': 'インポートされた WIP: {{n}} 行',
   'app.kuaizhizao.initialData.importArOk': 'インポートされた AR/AP: {{n}} 行',
-  'app.kuaizhizao.initialData.importPartial': '部分的: OK {{ok}}、失敗 {{bad}} — 詳細を参照してください。',
+  'app.kuaizhizao.initialData.importPartial':
+    '部分的: OK {{ok}}、失敗 {{bad}} — 詳細を参照してください。',
   'app.kuaizhizao.initialData.importFailed': 'インポートに失敗しました',
   'app.kuaizhizao.initialData.errorDrawerTitle': 'エラー',
   'app.kuaizhizao.initialData.copyErrors': 'コピー',
@@ -12032,8 +13187,10 @@ export default {
   'app.master-data.seqRules.seqResetRule': 'シーケンスリセットルール',
   'app.master-data.seqRules.getDetailFailed': '詳細のロードに失敗しました',
   'app.master-data.seqRules.deleteConfirm': 'このルールを削除してもよろしいですか?',
-  'app.master-data.seqRules.batchRuleSetActiveSuccess': '{{count}} バッチ ルールを {{status}} に設定します',
-  'app.master-data.seqRules.serialRuleSetActiveSuccess': '{{count}} シリアル ルールを {{status}} に設定します',
+  'app.master-data.seqRules.batchRuleSetActiveSuccess':
+    '{{count}} バッチ ルールを {{status}} に設定します',
+  'app.master-data.seqRules.serialRuleSetActiveSuccess':
+    '{{count}} シリアル ルールを {{status}} に設定します',
   'app.master-data.batchRules.builderTitle': 'バッチルール',
   'app.master-data.serialRules.builderTitle': 'シリアルルール',
   'app.master-data.inventoryStatus.inStock': '在庫あり',
@@ -12076,7 +13233,8 @@ export default {
   'app.master-data.drawings.editTitle': '図面の編集',
   'app.master-data.drawings.detailTitle': '図面の詳細',
   'app.master-data.drawings.release': 'リリース',
-  'app.master-data.drawings.releaseConfirm': 'この絵を公開しますか？同じ番号を持つ他のリリースされたリビジョンは廃止されます。',
+  'app.master-data.drawings.releaseConfirm':
+    'この絵を公開しますか？同じ番号を持つ他のリリースされたリビジョンは廃止されます。',
   'app.master-data.drawings.releaseSuccess': '図面公開',
   'app.master-data.drawings.obsolete': '廃止',
   'app.master-data.drawings.obsoleteSuccess': '図面が廃止されました',
@@ -12086,7 +13244,8 @@ export default {
   'app.master-data.drawings.preview': 'プレビュー',
   'app.master-data.drawings.uploadMain': 'プライマリファイルをアップロードする',
   'app.master-data.drawings.uploadSupplementary': '補足ページのアップロード',
-  'app.master-data.drawings.uploadDragHint': 'ここにファイルをクリックまたはドラッグしてアップロードします',
+  'app.master-data.drawings.uploadDragHint':
+    'ここにファイルをクリックまたはドラッグしてアップロードします',
   'app.master-data.drawings.uploadDragSubHint': 'PDF、DWG、DXF、STEP、STP、PNG、JPG',
   'app.master-data.drawings.uploadSupplementaryDragSubHint': '複数の補足ページをサポート',
   'app.master-data.drawings.listFailed': 'Failed to load drawings',
@@ -12105,18 +13264,22 @@ export default {
   'app.master-data.drawings.expandNav': 'ナビゲーションを展開する',
   'app.master-data.drawings.inlinePreview': '図面プレビュー',
   'app.master-data.drawings.openLargePreview': '大きなプレビュー',
-  'app.master-data.drawings.selectRowToPreview': '行をクリックしてプライマリ ファイルをプレビューします',
-  'app.master-data.drawings.previewUnsupported': 'このファイルではオンライン プレビューはサポートされていません',
+  'app.master-data.drawings.selectRowToPreview':
+    '行をクリックしてプライマリ ファイルをプレビューします',
+  'app.master-data.drawings.previewUnsupported':
+    'このファイルではオンライン プレビューはサポートされていません',
   'app.master-data.drawings.previewFailed': 'ファイルのプレビューに失敗しました',
   'app.master-data.drawings.stepPreviewLoading': '3D モデルを読み込み中…',
   'app.master-data.drawings.stepPreviewEmpty': 'STEP ファイルからジオメトリを解析できませんでした',
   'app.master-data.drawings.dwgPreviewLoading': 'CAD 図面をロードしています…',
-  'app.master-data.drawings.dwgPreviewEmpty': 'DWG/DXF ファイルからジオメトリを解析できませんでした',
+  'app.master-data.drawings.dwgPreviewEmpty':
+    'DWG/DXF ファイルからジオメトリを解析できませんでした',
   'app.master-data.drawings.previewFitView': 'フィットビュー',
   'app.master-data.drawings.previewZoomIn': 'ズームイン',
   'app.master-data.drawings.previewZoomOut': 'ズームアウト',
   'app.master-data.drawings.previewToggleEdges': 'エッジを表示',
-  'app.master-data.drawings.previewDwgHint': 'DWG/DXF プレビューが失敗しました。ファイル形式を確認するか、後でもう一度試してください',
+  'app.master-data.drawings.previewDwgHint':
+    'DWG/DXF プレビューが失敗しました。ファイル形式を確認するか、後でもう一度試してください',
   'app.master-data.drawings.importStepBom': 'STPからBOMを生成',
   'app.master-data.drawings.linkedBom': 'リンクされた BOM',
   'app.master-data.drawings.lastStepBomImportAt': '最後のSTPインポート',
@@ -12127,12 +13290,15 @@ export default {
   'app.master-data.drawings.stepBomWizard.parsing': 'STP アセンブリ構造を解析しています…',
   'app.master-data.drawings.stepBomWizard.noFile': '図面にはメインファイルがありません',
   'app.master-data.drawings.stepBomWizard.notStepFile': 'メインファイルがSTP/STEPではありません',
-  'app.master-data.drawings.stepBomWizard.noAssemblyStructure': 'アセンブリツリーを解析できませんでした',
+  'app.master-data.drawings.stepBomWizard.noAssemblyStructure':
+    'アセンブリツリーを解析できませんでした',
   'app.master-data.drawings.stepBomWizard.parseFailed': 'STPアセンブリの解析に失敗しました',
-  'app.master-data.drawings.stepBomWizard.parseSummary': 'ルート アセンブリ "{{name}}"、{{count}} BOM エッジ',
+  'app.master-data.drawings.stepBomWizard.parseSummary':
+    'ルート アセンブリ "{{name}}"、{{count}} BOM エッジ',
   'app.master-data.drawings.stepBomWizard.assemblyTree': 'アセンブリツリー',
   'app.master-data.drawings.stepBomWizard.rootMaterial': '根材',
-  'app.master-data.drawings.stepBomWizard.selectRootMaterial': 'ルート マテリアルを選択してください (アセンブリの最上位)',
+  'app.master-data.drawings.stepBomWizard.selectRootMaterial':
+    'ルート マテリアルを選択してください (アセンブリの最上位)',
   'app.master-data.drawings.stepBomWizard.defaultGroup': '既定のマテリアルグループ',
   'app.master-data.drawings.stepBomWizard.selectGroup': '自動作成マテリアルの既定グループを選択',
   'app.master-data.drawings.stepBomWizard.bomVersion': 'BOM バージョン',
@@ -12148,13 +13314,15 @@ export default {
   'app.master-data.drawings.stepBomWizard.statusManual': 'マニュアル',
   'app.master-data.drawings.stepBomWizard.selectMaterial': '素材を選ぶ',
   'app.master-data.drawings.stepBomWizard.rootMaterialRequired': '根元の材質を選択してください',
-  'app.master-data.drawings.stepBomWizard.groupRequired': '既定のマテリアル グループを選択してください',
+  'app.master-data.drawings.stepBomWizard.groupRequired':
+    '既定のマテリアル グループを選択してください',
   'app.master-data.drawings.stepBomWizard.confirmImport': 'インポートの確認',
   'app.master-data.drawings.stepBomWizard.importSuccess': 'BOM が正常にインポートされました',
   'app.master-data.drawings.stepBomWizard.importFailed': 'BOM のインポートに失敗しました',
   'app.master-data.drawings.stepBomWizard.openDesigner': 'BOM デザイナーを開く',
   'app.master-data.drawings.stepBomWizard.resultTitle': 'インポートが完了しました',
-  'app.master-data.drawings.stepBomWizard.resultSummary': '{{bom}} BOM 行が書き込まれ、{{created}} 材料が作成され、{{matched}} が一致しました',
+  'app.master-data.drawings.stepBomWizard.resultSummary':
+    '{{bom}} BOM 行が書き込まれ、{{created}} 材料が作成され、{{matched}} が一致しました',
   'app.master-data.menu.supply-chain': '顧客とサプライヤー',
   'app.master-data.menu.supply-chain.customers': 'お客様',
   'app.master-data.menu.supply-chain.suppliers': 'サプライヤー',
@@ -12164,38 +13332,48 @@ export default {
   'app.master-data.priceBook.createCustomer': '新規顧客価格表',
   'app.master-data.priceBook.createSupplier': '新しいサプライヤー価格表',
   'app.master-data.priceBook.effectiveTo': '有効期限',
-  'app.master-data.priceBook.noAliasHint': 'パートナーの部品番号/名前がマッピングされていません。最初に「マテリアル」→「コードマッピング」でメンテナンスします。',
-  'app.master-data.priceBook.aliasReadonlyHint': '品目マスタデータで管理されます (ここでは読み取り専用)。',
+  'app.master-data.priceBook.noAliasHint':
+    'パートナーの部品番号/名前がマッピングされていません。最初に「マテリアル」→「コードマッピング」でメンテナンスします。',
+  'app.master-data.priceBook.aliasReadonlyHint':
+    '品目マスタデータで管理されます (ここでは読み取り専用)。',
   'app.master-data.priceBook.syncPartnerAlias': 'マテリアルコードマッピングに同期',
-  'app.master-data.priceBook.syncPartnerAliasHint': 'このパートナーにマッピングが存在しない場合にのみ、保存時にマテリアル → コード マッピングに書き込みます。',
-  'app.master-data.priceBook.partnerCodeRequiredWhenSync': '同期が有効な場合は、パートナーの部品番号が必要です。',
+  'app.master-data.priceBook.syncPartnerAliasHint':
+    'このパートナーにマッピングが存在しない場合にのみ、保存時にマテリアル → コード マッピングに書き込みます。',
+  'app.master-data.priceBook.partnerCodeRequiredWhenSync':
+    '同期が有効な場合は、パートナーの部品番号が必要です。',
   'app.master-data.priceBook.standardUnitPrice': '標準価格',
   'app.master-data.priceBook.standardUnitPriceHint': '一致するバリアント SKU がない場合の統一価格',
   'app.master-data.priceBook.variantPricesSection': 'バリエーション SKU 価格',
-  'app.master-data.priceBook.variantPricesHint': '属性の組み合わせごとの価格 (例: 色)。スプレッドシートのカラー列にマップします',
+  'app.master-data.priceBook.variantPricesHint':
+    '属性の組み合わせごとの価格 (例: 色)。スプレッドシートのカラー列にマップします',
   'app.master-data.priceBook.variantPriceRow': 'SKU 価格 {{index}}',
   'app.master-data.priceBook.variantUnitPrice': 'SKU単価',
   'app.master-data.priceBook.addVariantPriceRow': '行を追加',
   'app.master-data.priceBook.batchSelectSku': 'SKUの選択',
   'app.master-data.priceBook.batchSelectSkuTitle': 'バリエーション SKU を選択する',
   'app.master-data.priceBook.batchSelectSkuSearch': 'SKU コードまたは属性を検索する',
-  'app.master-data.priceBook.batchSelectSkuEmpty': 'この素材にはバリエーション SKU がありません。まず品目マスタで組み合わせを更新します。',
+  'app.master-data.priceBook.batchSelectSkuEmpty':
+    'この素材にはバリエーション SKU がありません。まず品目マスタで組み合わせを更新します。',
   'app.master-data.priceBook.batchSelectSkuNone': '少なくとも 1 つの SKU を選択してください',
   'app.master-data.priceBook.batchSelectSkuAdded': '{{count}} SKU を追加しました',
-  'app.master-data.priceBook.batchSelectSkuAllDuplicate': '選択したすべての SKU はすでに存在するか、属性がありません',
-  'app.master-data.priceBook.batchSelectSkuHint': '維持されている属性の組み合わせをバッチ選択し、SKU ごとの単価を入力します',
+  'app.master-data.priceBook.batchSelectSkuAllDuplicate':
+    '選択したすべての SKU はすでに存在するか、属性がありません',
+  'app.master-data.priceBook.batchSelectSkuHint':
+    '維持されている属性の組み合わせをバッチ選択し、SKU ごとの単価を入力します',
   'app.master-data.priceBook.selectMaterialFirst': 'まずは内部素材を選択してください',
   'app.master-data.priceBook.variantPricesEmpty': '行を追加するか、SKU をバッチで選択します',
   'app.master-data.priceBook.skuCode': 'SKUコード',
   'app.master-data.priceBook.variantPriceCount': '{{count}} SKU 価格',
-  'app.master-data.priceBook.priceRequired': '標準価格および/または少なくとも 1 つのバリエーション SKU 価格を入力してください',
+  'app.master-data.priceBook.priceRequired':
+    '標準価格および/または少なくとも 1 つのバリエーション SKU 価格を入力してください',
   'app.master-data.menu.performance': 'パフォーマンスデータ',
   'app.master-data.menu.performance.holidays': '休日の設定',
   'app.master-data.menu.performance.skills': 'スキル',
   'app.master-data.plants.getDetailFailed': 'プラントの詳細を取得できませんでした',
   'app.master-data.plants.listFetchFailed': '植物リストの取得に失敗しました',
   'app.master-data.title': 'マスターデータ管理アプリ',
-  'app.master-data.welcome': 'マスターデータ管理システムへようこそ。左側のメニューから汎用モジュールを選択してください。',
+  'app.master-data.welcome':
+    'マスターデータ管理システムへようこそ。左側のメニューから汎用モジュールを選択してください。',
   'app.init.wizard.title': '初期化ウィザード',
   'app.master-data.workshops.getDetailFailed': '作業場の詳細をロードできませんでした',
   'app.master-data.productionLines.getDetailFailed': '生産ラインの詳細をロードできませんでした',
@@ -12205,19 +13383,24 @@ export default {
   'app.master-data.productionLines.codeRequired': '生産ラインコードが必要です',
   'app.master-data.productionLines.nameRequired': '生産ライン名は必須です',
   'app.master-data.productionLines.workshopRequired': '作業場は必須です',
-  'app.master-data.productionLines.workshopCodeNotExist': '作業場コード「{{value}}」が見つかりません',
+  'app.master-data.productionLines.workshopCodeNotExist':
+    '作業場コード「{{value}}」が見つかりません',
   'app.master-data.productionLines.dataParseFailed': 'データ解析に失敗しました',
   'app.master-data.productionLines.workshopName': '作業場',
   'app.master-data.productionLines.description': '説明',
   'app.master-data.productionLines.status': '状態',
   'app.master-data.productionLines.detailTitle': '生産ラインの詳細',
   'app.master-data.productionLines.deleteConfirm': 'この生産ラインを削除してもよろしいですか?',
-  'app.master-data.productionLines.deleteDescription': '削除する前に、関連するワークステーションを確認してください',
-  'app.master-data.productionLines.batchDeleteTitle': '選択した生産ラインを一括削除してもよろしいですか?',
-  'app.master-data.productionLines.batchDeleteDescription': '{{count}} 生産ラインは削除されます。この操作は元に戻すことができません。',
+  'app.master-data.productionLines.deleteDescription':
+    '削除する前に、関連するワークステーションを確認してください',
+  'app.master-data.productionLines.batchDeleteTitle':
+    '選択した生産ラインを一括削除してもよろしいですか?',
+  'app.master-data.productionLines.batchDeleteDescription':
+    '{{count}} 生産ラインは削除されます。この操作は元に戻すことができません。',
   'app.master-data.productionLines.create': '生産ラインの作成',
   'app.master-data.productionLines.exportFilenameSelected': 'Production_lines_selected_{{date}}',
-  'app.master-data.productionLines.exportFilenameCurrentPage': 'Production_lines_current_page_{{date}}',
+  'app.master-data.productionLines.exportFilenameCurrentPage':
+    'Production_lines_current_page_{{date}}',
   'app.master-data.productionLines.exportFilenameAll': '生産ライン_すべて_{{date}}',
   'app.master-data.productionLines.statusLabel': '状態',
   'app.master-data.productionLines.importTitle': '生産ラインの輸入',
@@ -12228,19 +13411,24 @@ export default {
   'app.master-data.workstations.codeRequired': 'ワークステーションコードが必要です',
   'app.master-data.workstations.nameRequired': 'ワークステーション名は必須です',
   'app.master-data.workstations.productionLineRequired': '生産ラインが必要',
-  'app.master-data.workstations.productionLineCodeNotExist': '生産ラインコード「{{value}}」が見つかりません',
+  'app.master-data.workstations.productionLineCodeNotExist':
+    '生産ラインコード「{{value}}」が見つかりません',
   'app.master-data.workstations.dataParseFailed': 'データ解析に失敗しました',
   'app.master-data.workstations.productionLineName': '生産ライン',
   'app.master-data.workstations.description': '説明',
   'app.master-data.workstations.status': '状態',
   'app.master-data.workstations.detailTitle': 'ワークステーションの詳細',
   'app.master-data.workstations.deleteConfirm': 'このワークステーションを削除してもよろしいですか?',
-  'app.master-data.workstations.deleteDescription': '削除する前に関連するワークセンターを確認してください',
-  'app.master-data.workstations.batchDeleteTitle': '選択したワークステーションを一括削除してもよろしいですか?',
-  'app.master-data.workstations.batchDeleteDescription': '{{count}} ワークステーションが削除されます。この操作は元に戻すことができません。',
+  'app.master-data.workstations.deleteDescription':
+    '削除する前に関連するワークセンターを確認してください',
+  'app.master-data.workstations.batchDeleteTitle':
+    '選択したワークステーションを一括削除してもよろしいですか?',
+  'app.master-data.workstations.batchDeleteDescription':
+    '{{count}} ワークステーションが削除されます。この操作は元に戻すことができません。',
   'app.master-data.workstations.create': 'ワークステーションの作成',
   'app.master-data.workstations.exportFilenameSelected': 'ワークステーション_選択済み_{{date}}',
-  'app.master-data.workstations.exportFilenameCurrentPage': 'ワークステーション_現在のページ_{{date}}',
+  'app.master-data.workstations.exportFilenameCurrentPage':
+    'ワークステーション_現在のページ_{{date}}',
   'app.master-data.workstations.exportFilenameAll': 'ワークステーション_すべて_{{date}}',
   'app.master-data.workstations.statusLabel': '状態',
   'app.master-data.workstations.importTitle': 'ワークステーションのインポート',
@@ -12248,7 +13436,8 @@ export default {
   'app.master-data.warehouses.getListFailed': '倉庫リストのロードに失敗しました',
   'app.master-data.storageAreas.getListFailed': 'ストレージ領域リストのロードに失敗しました',
   'app.master-data.storageLocations.getListFailed': '保管場所リストのロードに失敗しました',
-  'app.master-data.workstations.getDetailFailed': 'ワークステーションの詳細をロードできませんでした',
+  'app.master-data.workstations.getDetailFailed':
+    'ワークステーションの詳細をロードできませんでした',
   'app.master-data.workCenters.getDetailFailed': 'ワークセンターの詳細をロードできませんでした',
   'app.master-data.warehouses.getDetailFailed': '倉庫の詳細をロードできませんでした',
   'app.master-data.storageAreas.getDetailFailed': 'ストレージ領域の詳細をロードできませんでした',
@@ -12264,18 +13453,22 @@ export default {
   'app.master-data.warehouses.deleteConfirm': 'この倉庫を削除しますか?',
   'app.master-data.warehouses.deleteDescription': '削除する前に、関連するストレージ領域を確認する',
   'app.master-data.warehouses.batchDeleteTitle': '選択した倉庫を一括削除しますか?',
-  'app.master-data.warehouses.batchDeleteDescription': '{{count}} 倉庫を削除しますか?これを元に戻すことはできません。',
+  'app.master-data.warehouses.batchDeleteDescription':
+    '{{count}} 倉庫を削除しますか?これを元に戻すことはできません。',
   'app.master-data.warehouses.create': '倉庫の作成',
   'app.master-data.warehouses.exportFilenameSelected': '倉庫_選択済み_{{date}}',
   'app.master-data.warehouses.exportFilenameCurrentPage': '倉庫_現在のページ_{{date}}',
   'app.master-data.warehouses.exportFilenameAll': '倉庫_すべて_{{date}}',
   'app.master-data.warehouses.importTitle': '倉庫データのインポート',
   'app.master-data.warehouses.importValidationFailed': '検証に失敗しました',
-  'app.master-data.warehouses.importValidationIntro': '次の行にはエラーがあります。修正して再インポートしてください。',
+  'app.master-data.warehouses.importValidationIntro':
+    '次の行にはエラーがあります。修正して再インポートしてください。',
   'app.master-data.warehouses.importPartialFailure': 'インポート完了（部分的に失敗）',
-  'app.master-data.warehouses.importResult': '結果: {{success}} は成功し、{{failure}} は失敗しました',
+  'app.master-data.warehouses.importResult':
+    '結果: {{success}} は成功し、{{failure}} は失敗しました',
   'app.master-data.warehouses.rowError': '行 {{row}}: {{message}}',
-  'app.master-data.warehouses.headerMapError': 'ヘッダー マッピング エラー、必須項目が見つかりません',
+  'app.master-data.warehouses.headerMapError':
+    'ヘッダー マッピング エラー、必須項目が見つかりません',
   'app.master-data.warehouses.codeRequired': '倉庫コードが必要です',
   'app.master-data.warehouses.nameRequired': '倉庫名は必須です',
   'app.master-data.warehouses.workshopCodeNotExist': '作業場コード「{{value}}」が見つかりません',
@@ -12285,9 +13478,11 @@ export default {
   'app.master-data.storageAreas.warehouse': '倉庫',
   'app.master-data.storageAreas.detailTitle': 'ストレージ領域の詳細',
   'app.master-data.storageAreas.deleteConfirm': 'このストレージ領域を削除しますか?',
-  'app.master-data.storageAreas.deleteDescription': '削除する前に、関連するストレージの場所を確認する',
+  'app.master-data.storageAreas.deleteDescription':
+    '削除する前に、関連するストレージの場所を確認する',
   'app.master-data.storageAreas.batchDeleteTitle': '選択したストレージ領域を一括削除しますか?',
-  'app.master-data.storageAreas.batchDeleteDescription': '{{count}} ストレージ領域を削除しますか?これを元に戻すことはできません。',
+  'app.master-data.storageAreas.batchDeleteDescription':
+    '{{count}} ストレージ領域を削除しますか?これを元に戻すことはできません。',
   'app.master-data.storageAreas.create': 'ストレージ領域の作成',
   'app.master-data.storageAreas.exportFilenameSelected': 'StorageAreas_Selected_{{date}}',
   'app.master-data.storageAreas.exportFilenameCurrentPage': 'StorageAreas_CurrentPage_{{date}}',
@@ -12299,27 +13494,32 @@ export default {
   'app.master-data.storageAreas.warehouseRequired': '倉庫は必須です',
   'app.master-data.storageAreas.warehouseIdPrefix': '倉庫ID',
   'app.master-data.storageAreas.availableWarehouseList': '利用可能な倉庫:',
-  'app.master-data.storageAreas.importTip': 'ヒント: ウェアハウス コードのみがサポートされています (例: {{code}})',
+  'app.master-data.storageAreas.importTip':
+    'ヒント: ウェアハウス コードのみがサポートされています (例: {{code}})',
   'app.master-data.storageLocations.code': '保管場所コード',
   'app.master-data.storageLocations.name': '保管場所名',
   'app.master-data.storageLocations.storageArea': '保管エリア',
   'app.master-data.storageLocations.detailTitle': '保管場所の詳細',
   'app.master-data.storageLocations.deleteConfirm': 'この保存場所を削除しますか?',
   'app.master-data.storageLocations.batchDeleteTitle': '選択した保存場所を一括削除しますか?',
-  'app.master-data.storageLocations.batchDeleteDescription': '{{count}} の保存場所を削除しますか?これを元に戻すことはできません。',
+  'app.master-data.storageLocations.batchDeleteDescription':
+    '{{count}} の保存場所を削除しますか?これを元に戻すことはできません。',
   'app.master-data.storageLocations.create': '保管場所の作成',
   'app.master-data.storageLocations.batchCreate': 'ロケーションのバッチ作成',
   'app.master-data.storageLocations.exportFilenameSelected': 'StorageLocations_Selected_{{date}}',
-  'app.master-data.storageLocations.exportFilenameCurrentPage': 'ストレージロケーション_現在のページ_{{date}}',
+  'app.master-data.storageLocations.exportFilenameCurrentPage':
+    'ストレージロケーション_現在のページ_{{date}}',
   'app.master-data.storageLocations.exportFilenameAll': '保管場所_すべて_{{date}}',
   'app.master-data.storageLocations.importTitle': '保管場所データのインポート',
   'app.master-data.storageLocations.codeRequired': '保管場所コードが必要です',
   'app.master-data.storageLocations.nameRequired': '保管場所名は必須です',
-  'app.master-data.storageLocations.storageAreaCodeNotExist': 'ストレージエリアコード「{{value}}」が見つかりません',
+  'app.master-data.storageLocations.storageAreaCodeNotExist':
+    'ストレージエリアコード「{{value}}」が見つかりません',
   'app.master-data.storageLocations.storageAreaRequired': '保管場所が必要です',
   'app.master-data.storageLocations.storageAreaIdPrefix': 'ストレージエリアID',
   'app.master-data.storageLocations.availableStorageAreaList': '利用可能な保管場所:',
-  'app.master-data.storageLocations.importTip': 'ヒント: ストレージエリアコードのみがサポートされています (例: {{code}})',
+  'app.master-data.storageLocations.importTip':
+    'ヒント: ストレージエリアコードのみがサポートされています (例: {{code}})',
   'app.master-data.customers.getDetailFailed': '顧客の詳細をロードできませんでした',
   'app.master-data.customers.detailTitle': '顧客の詳細',
   'app.master-data.customers.deleteConfirm': 'この顧客を削除しますか?',
@@ -12371,7 +13571,8 @@ export default {
   'app.master-data.routes.operation': '手術',
   'app.master-data.routes.unknownOperation': '不明な操作',
   'app.master-data.routes.operationSequenceCount': '{{count}} 操作:',
-  'app.master-data.routes.operationSequenceParseFailed': '操作シーケンスの解析に失敗しました: {{message}}',
+  'app.master-data.routes.operationSequenceParseFailed':
+    '操作シーケンスの解析に失敗しました: {{message}}',
   'app.master-data.plants.code': 'プラントコード',
   'app.master-data.plants.name': '植物名',
   'app.master-data.plants.codeRequired': 'プラントコードは必須です',
@@ -12387,7 +13588,8 @@ export default {
   'app.master-data.plants.deleteConfirm': 'このプラントを削除してもよろしいですか?',
   'app.master-data.plants.deleteDescription': 'この操作は元に戻すことができません。',
   'app.master-data.plants.batchDeleteTitle': '選択した植物を一括削除してもよろしいですか?',
-  'app.master-data.plants.batchDeleteDescription': '{{count}} プラントが削除されます。この操作は元に戻すことができません。',
+  'app.master-data.plants.batchDeleteDescription':
+    '{{count}} プラントが削除されます。この操作は元に戻すことができません。',
   'app.master-data.plants.create': 'プラントの作成',
   'app.master-data.plants.batchDelete': '一括削除',
   'app.master-data.plants.exportFilenameSelected': '植物選択済み_{{date}}',
@@ -12481,8 +13683,10 @@ export default {
   'app.master-data.workCenters.importTitle': 'ワークセンターのインポート',
   'app.master-data.workCenters.deleteConfirm': 'このワークセンターを削除してもよろしいですか?',
   'app.master-data.workCenters.deleteDescription': 'この操作は元に戻すことができません。',
-  'app.master-data.workCenters.batchDeleteConfirm': '選択したワークセンターを一括削​​除してもよろしいですか?',
-  'app.master-data.workCenters.batchDeleteDescription': '{{count}} ワークセンターが削除されます。この操作は元に戻すことができません。',
+  'app.master-data.workCenters.batchDeleteConfirm':
+    '選択したワークセンターを一括削​​除してもよろしいですか?',
+  'app.master-data.workCenters.batchDeleteDescription':
+    '{{count}} ワークセンターが削除されます。この操作は元に戻すことができません。',
   'app.master-data.workCenters.exportFilenameSelected': 'work_centers_selected_{{date}}',
   'app.master-data.workCenters.exportFilenameCurrentPage': 'work_centers_current_page_{{date}}',
   'app.master-data.workCenters.exportFilenameAll': 'work_centers_all_{{date}}',
@@ -12491,8 +13695,10 @@ export default {
   'app.master-data.workGroups.listFetchFailed': 'ワークグループリストの読み込みに失敗しました',
   'app.master-data.workGroups.deleteConfirm': 'このワークグループを削除してもよろしいですか?',
   'app.master-data.workGroups.deleteDescription': 'この操作は元に戻すことができません。',
-  'app.master-data.workGroups.batchDeleteConfirm': '選択したワークグループを一括削除してもよろしいですか?',
-  'app.master-data.workGroups.batchDeleteDescription': '{{count}} work group(s) will be deleted. This action cannot be undone.',
+  'app.master-data.workGroups.batchDeleteConfirm':
+    '選択したワークグループを一括削除してもよろしいですか?',
+  'app.master-data.workGroups.batchDeleteDescription':
+    '{{count}} work group(s) will be deleted. This action cannot be undone.',
   'app.master-data.workGroups.importSuccess': '{{count}} ワークグループをインポートしました',
   'app.master-data.workGroups.importTitle': 'ワークグループのインポート',
   'app.master-data.workGroups.exportFilenameSelected': 'work_groups_selected_{{date}}',
@@ -12512,19 +13718,22 @@ export default {
   'app.master-data.workshops.deleteConfirm': 'この作業場を削除してもよろしいですか?',
   'app.master-data.workshops.deleteDescription': '削除する前に関連する生産ラインを確認してください',
   'app.master-data.workshops.batchDeleteTitle': '選択した作業場を一括削除してもよろしいですか?',
-  'app.master-data.workshops.batchDeleteDescription': '{{count}} 作業場は削除されます。この操作は元に戻すことができません。',
+  'app.master-data.workshops.batchDeleteDescription':
+    '{{count}} 作業場は削除されます。この操作は元に戻すことができません。',
   'app.master-data.workshops.create': '作業場の作成',
   'app.master-data.workshops.exportFilenameSelected': '作業場_選択済み_{{date}}',
   'app.master-data.workshops.exportFilenameCurrentPage': '作業場_現在のページ_{{date}}',
   'app.master-data.workshops.exportFilenameAll': '作業場_すべて_{{date}}',
-  'app.master-data.workshops.importNoPlant': '入手可能な植物データはありません。まずは植物を作成してください。',
+  'app.master-data.workshops.importNoPlant':
+    '入手可能な植物データはありません。まずは植物を作成してください。',
   'app.master-data.workshops.statusLabel': '状態',
   'app.master-data.workshops.listFetchFailed': '作業場リストの読み込みに失敗しました',
   'app.master-data.headerMappingError': 'ヘッダー マッピング エラー、必須項目が見つかりません',
   'app.master-data.dataParseFailed': 'データ解析に失敗しました',
   'app.master-data.plantCodeNotFound': 'プラントコード「{{code}}」が見つかりません',
   'app.master-data.availablePlantsList': '利用可能な植物:',
-  'app.master-data.plantImportHint': 'ヒント: プラント コードのみがサポートされています (例: {{code}})',
+  'app.master-data.plantImportHint':
+    'ヒント: プラント コードのみがサポートされています (例: {{code}})',
   'app.master-data.serials.serialNo': 'シリアルNo.',
   'app.master-data.serials.material': '材料',
   'app.master-data.serials.materialName': '材質名',
@@ -12535,15 +13744,19 @@ export default {
   'app.master-data.serials.enterSerialNo': 'シリアル番号を入力してください',
   'app.master-data.serials.getDetailFailed': 'シリアル詳細のロードに失敗しました',
   'app.master-data.serials.selectMaterial': 'まず素材を選択してください',
-  'app.master-data.serials.generateCountRange': '生成カウントは 1 ～ 1000 の間で指定する必要があります',
+  'app.master-data.serials.generateCountRange':
+    '生成カウントは 1 ～ 1000 の間で指定する必要があります',
   'app.master-data.serials.generateSuccess': '{{count}} シリアルを生成しました',
   'app.master-data.serials.generateFailed': 'シリアル生成に失敗しました',
   'app.master-data.variantAttributes.getDetailFailed': '属性定義の詳細をロードできませんでした',
-  'app.master-data.variantAttributes.enumValuesRequired': '列挙型には少なくとも 1 つの列挙値が必要です',
+  'app.master-data.variantAttributes.enumValuesRequired':
+    '列挙型には少なくとも 1 つの列挙値が必要です',
   'app.master-data.variantAttributes.loadPreset': 'プリセットをロードする',
   'app.master-data.variantAttributes.loadPresetModalTitle': 'プリセットをロードする',
-  'app.master-data.variantAttributes.loadPresetModalDesc': 'ロードするプリセット属性を選択します。不要な項目のチェックを外し、確認してください。',
-  'app.master-data.presetModalDesc': 'ロードする項目を選択します。不要な項目のチェックを外し、確認してください。',
+  'app.master-data.variantAttributes.loadPresetModalDesc':
+    'ロードするプリセット属性を選択します。不要な項目のチェックを外し、確認してください。',
+  'app.master-data.presetModalDesc':
+    'ロードする項目を選択します。不要な項目のチェックを外し、確認してください。',
   'app.master-data.variantAttributes.presetColName': '属性名',
   'app.master-data.variantAttributes.presetColDisplayName': '表示名',
   'app.master-data.variantAttributes.presetColType': 'タイプ',
@@ -12567,16 +13780,22 @@ export default {
   'app.master-data.variantAttributes.typeBoolean': 'ブール値',
   'app.master-data.variantAttributes.listFailed': '属性定義のロードに失敗しました',
   'app.master-data.variantAttributes.attributeNameRequired': '属性名を入力してください',
-  'app.master-data.variantAttributes.attributeNamePattern': '属性名には文字、数字、アンダースコア、漢字のみを含めることができます',
-  'app.master-data.variantAttributes.attributeNamePlaceholder': '属性名を入力してください (例: 色、サイズ)',
+  'app.master-data.variantAttributes.attributeNamePattern':
+    '属性名には文字、数字、アンダースコア、漢字のみを含めることができます',
+  'app.master-data.variantAttributes.attributeNamePlaceholder':
+    '属性名を入力してください (例: 色、サイズ)',
   'app.master-data.variantAttributes.attributeTypeRequired': '属性タイプを選択してください',
   'app.master-data.variantAttributes.attributeTypePlaceholder': '属性タイプの選択',
   'app.master-data.variantAttributes.displayNameRequired': '表示名を入力してください',
-  'app.master-data.variantAttributes.displayNamePlaceholder': '表示名を入力してください（例：製品の色）',
-  'app.master-data.variantAttributes.enumValuesPlaceholder': '列挙値をカンマで区切って入力します (例: 赤、青、緑)',
+  'app.master-data.variantAttributes.displayNamePlaceholder':
+    '表示名を入力してください（例：製品の色）',
+  'app.master-data.variantAttributes.enumValuesPlaceholder':
+    '列挙値をカンマで区切って入力します (例: 赤、青、緑)',
   'app.master-data.variantAttributes.enumValuesInputRequired': '列挙値を入力してください',
-  'app.master-data.variantAttributes.enumValuesExtra': '複数の値はカンマ (英語または中国語のカンマ) で区切ります。',
-  'app.master-data.variantAttributes.allowMultipleExtra': 'マテリアルでバリアント管理が有効になっている場合、複数の列挙値を選択できるかどうか',
+  'app.master-data.variantAttributes.enumValuesExtra':
+    '複数の値はカンマ (英語または中国語のカンマ) で区切ります。',
+  'app.master-data.variantAttributes.allowMultipleExtra':
+    'マテリアルでバリアント管理が有効になっている場合、複数の列挙値を選択できるかどうか',
   'app.master-data.variantAttributes.descriptionPlaceholder': '備考を入力してください',
   'app.master-data.variantAttributes.isActiveLabel': 'アクティブ',
   'app.master-data.sop.selectedNode': '選択した作業ステップ',
@@ -12585,9 +13804,12 @@ export default {
   'app.master-data.sop.autoLayout': '自動レイアウト',
   'app.master-data.sop.nodeAttachmentLabel': 'ノードのアタッチメント',
   'app.master-data.sop.addNodeAttachment': '添付ファイルの追加',
-  'app.master-data.sop.nodeAttachmentDropHint': 'ファイルをここにドラッグしてアップロードするか、「添付ファイルを追加」をクリックします',
-  'app.master-data.sop.nodeAttachmentHint': 'サポートされている: 画像、PDF、DWG、DXF、STEP/STP、XLS/XLSX、MP4/MOV/AVI',
-  'app.master-data.sop.nodeAttachmentTypeInvalid': '画像/PDF/DWG/DXF/STEP/STP/XLS/XLSX/MP4/MOV/AVI ファイルのみが許可されます',
+  'app.master-data.sop.nodeAttachmentDropHint':
+    'ファイルをここにドラッグしてアップロードするか、「添付ファイルを追加」をクリックします',
+  'app.master-data.sop.nodeAttachmentHint':
+    'サポートされている: 画像、PDF、DWG、DXF、STEP/STP、XLS/XLSX、MP4/MOV/AVI',
+  'app.master-data.sop.nodeAttachmentTypeInvalid':
+    '画像/PDF/DWG/DXF/STEP/STP/XLS/XLSX/MP4/MOV/AVI ファイルのみが許可されます',
   'app.master-data.sop.attachmentUploadFailed': '添付ファイルのアップロードに失敗しました',
   'app.master-data.sop.getDetailFailed': 'SOP詳細のロードに失敗しました',
   'app.master-data.sop.detailSectionBasic': '基本情報',
@@ -12606,7 +13828,8 @@ export default {
   'app.master-data.batches.supplierBatchNo': 'サプライヤーのバッチ番号',
   'app.master-data.batches.getDetailFailed': 'バッチ詳細のロードに失敗しました',
   'app.master-data.batches.getRecordFailed': 'バッチレコードのロードに失敗しました',
-  'app.master-data.batches.selectForQRCode': 'QRコードを生成するにはバッチレコードを選択してください',
+  'app.master-data.batches.selectForQRCode':
+    'QRコードを生成するにはバッチレコードを選択してください',
   'app.master-data.batches.getSelectedFailed': '選択したバッチ レコードのロードに失敗しました',
   'app.master-data.batches.qrCodeGenerated': '生成された {{count}} トレース QR コード',
   'app.master-data.batches.batchGenerateQrCodeFailed': 'QR コードのバッチ生成に失敗しました',
@@ -12617,38 +13840,51 @@ export default {
   'app.master-data.batches.createTitle': 'バッチの作成',
   'app.master-data.batches.editTitle': 'バッチの編集',
   'app.master-data.operations.codeRequired': 'オペレーションコードが必要です',
-  'app.master-data.codeRulePreviewHint': 'コードのプレビューは使用できません。コードルール設定を確認するか、手動で入力してください。',
-  'app.master-data.codeRuleAutoFailed': '自動コード化に失敗しました。手動で入力するか、コード ルールを構成します。',
+  'app.master-data.codeRulePreviewHint':
+    'コードのプレビューは使用できません。コードルール設定を確認するか、手動で入力してください。',
+  'app.master-data.codeRuleAutoFailed':
+    '自動コード化に失敗しました。手動で入力するか、コード ルールを構成します。',
   'app.master-data.customFields': 'カスタム項目',
   'app.master-data.operationsConfigured': '{{count}} 操作が構成されました',
   'app.master-data.importEmpty': 'インポートデータが空です',
-  'app.master-data.importNoRows': 'インポート可能な行がありません (行 3 から入力し、少なくとも 1 行は空でないことを確認してください)',
+  'app.master-data.importNoRows':
+    'インポート可能な行がありません (行 3 から入力し、少なくとも 1 行は空でないことを確認してください)',
   'app.master-data.importAllEmpty': 'インポート可能な行がありません (すべての行が空です)',
   'app.master-data.getSelectedFailed': '選択したデータを取得できませんでした。再試行してください',
   'app.master-data.noExportData': 'エクスポートするデータがありません',
   'app.master-data.exportSuccess': 'エクスポートに成功しました',
   'app.master-data.importDisabled': 'インポートできません',
-  'app.master-data.importNoWorkshop': '作業場のデータはありません。まずは作業場を作成してください。',
-  'app.master-data.importNoProductionLine': '生産ラインのデータはありません。まずは生産ラインを構築してください。',
-  'app.master-data.importNoWarehouse': '利用可能な倉庫データがありません。まず倉庫を作成してください。',
-  'app.master-data.importNoStorageArea': '利用可能なストレージ領域データがありません。最初にストレージ領域を作成してください。',
-  'app.master-data.importMissingField': '必須項目が欠落しています: {{field}}。ヘッダー: {{headers}}',
+  'app.master-data.importNoWorkshop':
+    '作業場のデータはありません。まずは作業場を作成してください。',
+  'app.master-data.importNoProductionLine':
+    '生産ラインのデータはありません。まずは生産ラインを構築してください。',
+  'app.master-data.importNoWarehouse':
+    '利用可能な倉庫データがありません。まず倉庫を作成してください。',
+  'app.master-data.importNoStorageArea':
+    '利用可能なストレージ領域データがありません。最初にストレージ領域を作成してください。',
+  'app.master-data.importMissingField':
+    '必須項目が欠落しています: {{field}}。ヘッダー: {{headers}}',
   'app.master-data.importSuccess': '{{count}} レコードをインポートしました',
   'app.master-data.importFailed': 'インポートに失敗しました',
   'app.master-data.exportFailed': 'エクスポートに失敗しました',
   'app.master-data.batchDeleteSuccess': '一括削除に成功しました',
   'app.master-data.batchDeletePartial': '部分削除に失敗しました',
   'app.master-data.dataValidationFailed': 'データ検証に失敗しました',
-  'app.master-data.validationFailedIntro': '次の行にはエラーがあります。修正して再インポートしてください:',
+  'app.master-data.validationFailedIntro':
+    '次の行にはエラーがあります。修正して再インポートしてください:',
   'app.master-data.availableWorkshopsList': '利用可能な作業場:',
-  'app.master-data.workshopImportHint': 'ヒント: 作業場 コードのみがサポートされています (例: {{code}})',
+  'app.master-data.workshopImportHint':
+    'ヒント: 作業場 コードのみがサポートされています (例: {{code}})',
   'app.master-data.availableProductionLinesList': '利用可能な生産ライン:',
-  'app.master-data.productionLineImportHint': 'ヒント: 生産ラインコードのみがサポートされています (例: {{code}})',
+  'app.master-data.productionLineImportHint':
+    'ヒント: 生産ラインコードのみがサポートされています (例: {{code}})',
   'app.master-data.importPartialResultTitle': 'インポート完了（部分的に失敗）',
   'app.master-data.importPartialResultIntro': 'インポート結果: {{success}} 成功、{{failure}} 失敗',
   'app.master-data.rowError': '行 {{row}}: {{message}}',
-  'app.master-data.operations.confirmBatchDeleteContent': '選択した {{count}} レコードを削除しますか?削除する前に、関連するルートまたは SOP を確認してください。これを元に戻すことはできません。',
-  'app.master-data.operations.deleteConfirmDesc': '削除する前に、関連するルートまたは SOP を確認してください',
+  'app.master-data.operations.confirmBatchDeleteContent':
+    '選択した {{count}} レコードを削除しますか?削除する前に、関連するルートまたは SOP を確認してください。これを元に戻すことはできません。',
+  'app.master-data.operations.deleteConfirmDesc':
+    '削除する前に、関連するルートまたは SOP を確認してください',
   'app.master-data.operations.selectForQRCode': 'QRコードを生成する操作を選択してください',
   'app.master-data.operations.getSelectedFailed': '選択したオペレーションをロードできませんでした',
   'app.master-data.operations.qrCodeGenerated': '生成された {{count}} オペレーション QR コード',
@@ -12665,7 +13901,8 @@ export default {
   'app.master-data.defectTypes.name': '欠陥種類名',
   'app.master-data.defectTypes.codeRequired': '欠陥タイプコードは必須です',
   'app.master-data.defectTypes.nameRequired': '欠陥タイプ名は必須です',
-  'app.master-data.defectTypes.codeRequiredAuto': '欠陥タイプ コードは必須です (自動コードが無効になっている場合はコード列を埋めます)',
+  'app.master-data.defectTypes.codeRequiredAuto':
+    '欠陥タイプ コードは必須です (自動コードが無効になっている場合はコード列を埋めます)',
   'app.master-data.defectTypes.importSuccess': 'インポートされた {{count}} の欠陥タイプ',
   'app.master-data.defectTypes.importTitle': '欠陥タイプのインポート',
   'app.master-data.defectTypes.status': '状態',
@@ -12728,10 +13965,12 @@ export default {
   'app.master-data.sop.nodeDescLabel': 'Work Step Description',
   'app.master-data.sop.nodeDescPlaceholder': 'Enter work step description',
   'app.master-data.sop.nodeKeyPointsLabel': '作業ステップのポイント',
-  'app.master-data.sop.nodeKeyPointsPlaceholder': '重要なポイント（重要なパラメータ、注意事項、検査ポイント）を入力します',
+  'app.master-data.sop.nodeKeyPointsPlaceholder':
+    '重要なポイント（重要なパラメータ、注意事項、検査ポイント）を入力します',
   'app.master-data.sop.formSchemaTitle': 'レポート項目',
   'app.master-data.sop.formConfigTitle': '情報収集構成',
-  'app.master-data.sop.formConfigHint': 'このノードの収集項目を構成します。ステップが実行されると表示されます',
+  'app.master-data.sop.formConfigHint':
+    'このノードの収集項目を構成します。ステップが実行されると表示されます',
   'app.master-data.sop.detailTitle': 'SOPの詳細',
   'app.master-data.sop.listFailed': 'SOPリストのロードに失敗しました',
   'app.master-data.sop.importTitle': 'SOPのインポート',
@@ -12749,9 +13988,12 @@ export default {
   'app.master-data.sop.filterByMaterialGroup': '材料グループ別',
   'app.master-data.sop.filterByRoute': 'プロセスルート別',
   'app.master-data.sop.filterOperationPlaceholder': '操作でフィルタリングする',
-  'app.master-data.sop.filterMaterialPlaceholder': 'このマテリアルにバインドされたSOPをフィルタリングする',
-  'app.master-data.sop.filterMaterialGroupPlaceholder': 'このマテリアルグループにバインドされたSOPをフィルタリングします',
-  'app.master-data.sop.filterRoutePlaceholder': 'このプロセスルートを使用してSOPをフィルタリングする',
+  'app.master-data.sop.filterMaterialPlaceholder':
+    'このマテリアルにバインドされたSOPをフィルタリングする',
+  'app.master-data.sop.filterMaterialGroupPlaceholder':
+    'このマテリアルグループにバインドされたSOPをフィルタリングします',
+  'app.master-data.sop.filterRoutePlaceholder':
+    'このプロセスルートを使用してSOPをフィルタリングする',
   'app.master-data.sop.bindingMaterialCount': '材料×{{count}}',
   'app.master-data.sop.bindingMaterialGroupCount': 'グループ×{{count}}',
   'app.master-data.sop.bindingRouteCount': 'ルート×{{count}}',
@@ -12778,7 +14020,8 @@ export default {
   'app.master-data.sop.versionMaxLength': 'バージョンは 20 文字を超えることはできません',
   'app.master-data.sop.operationPlaceholder': '連動操作の選択（オプション）',
   'app.master-data.sop.bindMaterialGroupPlaceholder': '材料グループの選択 (オプション、複数)',
-  'app.master-data.sop.bindMaterialPlaceholder': 'マテリアルの選択 (オプション、複数、グループをオーバーライド)',
+  'app.master-data.sop.bindMaterialPlaceholder':
+    'マテリアルの選択 (オプション、複数、グループをオーバーライド)',
   'app.master-data.sop.versionPlaceholder': 'バージョンを入力してください (例: v1.0)',
   'app.master-data.sop.remarkLabel': '備考',
   'app.master-data.sop.isActiveLabel': 'アクティブ',
@@ -12846,10 +14089,14 @@ export default {
   'app.master-data.materials.batchTrackingCardBatch': 'バッチ番号',
   'app.master-data.materials.batchTrackingCardSerial': 'シリアルナンバー',
   'app.master-data.materials.batchTrackingIncludeDimension': '含む',
-  'app.master-data.materials.batchTrackingDisableBatchHint': 'バッチ追跡を無効にし、既定のバッチ ルールをクリアします。',
-  'app.master-data.materials.batchTrackingDisableSerialHint': 'シリアル追跡を無効にし、既定のシリアル ルールをクリアします。',
-  'app.master-data.materials.batchTrackingNoCustomRulesBatch': 'カスタムのバッチ ルールはありません。システムの既定のみが使用可能です。',
-  'app.master-data.materials.batchTrackingNoCustomRulesSerial': 'カスタムのシリアル ルールはありません。システムの既定のみが使用可能です。',
+  'app.master-data.materials.batchTrackingDisableBatchHint':
+    'バッチ追跡を無効にし、既定のバッチ ルールをクリアします。',
+  'app.master-data.materials.batchTrackingDisableSerialHint':
+    'シリアル追跡を無効にし、既定のシリアル ルールをクリアします。',
+  'app.master-data.materials.batchTrackingNoCustomRulesBatch':
+    'カスタムのバッチ ルールはありません。システムの既定のみが使用可能です。',
+  'app.master-data.materials.batchTrackingNoCustomRulesSerial':
+    'カスタムのシリアル ルールはありません。システムの既定のみが使用可能です。',
   'app.master-data.materials.batchTrackingMode': 'アクション',
   'app.master-data.materials.batchTrackingEnable': '有効にする',
   'app.master-data.materials.batchTrackingDisable': '無効にする',
@@ -12857,62 +14104,84 @@ export default {
   'app.master-data.materials.batchTrackingApplySerial': 'シリアル番号管理',
   'app.master-data.materials.batchTrackingDefaultBatchRule': '既定のバッチルール',
   'app.master-data.materials.batchTrackingDefaultSerialRule': '既定のシリアルルール',
-  'app.master-data.materials.batchTrackingPickOneDimension': 'バッチまたはシリアルの少なくとも 1 つを選択します',
+  'app.master-data.materials.batchTrackingPickOneDimension':
+    'バッチまたはシリアルの少なくとも 1 つを選択します',
   'app.master-data.materials.selectForBatchSerial': '最初に素材を選択してください',
-  'app.master-data.materials.batchTrackingLoadRulesFailed': 'バッチ/シリアル ルールのロードに失敗しました',
-  'app.master-data.materials.batchTrackingNotFound': '{{count}} マテリアルが見つかりません (削除された可能性があります)。他が更新されました',
-  'app.master-data.materials.batchTrackingAllMissing': '一致するマテリアルが見つかりませんでした。何も更新されていません',
+  'app.master-data.materials.batchTrackingLoadRulesFailed':
+    'バッチ/シリアル ルールのロードに失敗しました',
+  'app.master-data.materials.batchTrackingNotFound':
+    '{{count}} マテリアルが見つかりません (削除された可能性があります)。他が更新されました',
+  'app.master-data.materials.batchTrackingAllMissing':
+    '一致するマテリアルが見つかりませんでした。何も更新されていません',
   'app.master-data.materials.batchTrackingSuccess': '{{count}} マテリアルを更新しました',
   'app.master-data.materials.batchTrackingNoop': 'マテリアルは更新されませんでした',
   'app.master-data.materials.batchDelete': '一括削除',
-  'app.master-data.materials.batchDeleteConfirm': '選択した {{count}} 個のマテリアルを削除しますか?',
+  'app.master-data.materials.batchDeleteConfirm':
+    '選択した {{count}} 個のマテリアルを削除しますか?',
   'app.master-data.materials.batchMoveGroup': 'グループに移動',
   'app.master-data.materials.batchMoveGroupTitle': 'グループに一括移動',
-  'app.master-data.materials.batchMoveGroupHint': '選択した {{count}} マテリアルをターゲット グループに移動します',
+  'app.master-data.materials.batchMoveGroupHint':
+    '選択した {{count}} マテリアルをターゲット グループに移動します',
   'app.master-data.materials.batchMoveGroupSelect': '対象者',
   'app.master-data.materials.batchMoveGroupSelectRequired': '対象グループを選択してください',
   'app.master-data.materials.batchMoveGroupSuccess': '{{count}} 個のマテリアルを移動しました',
-  'app.master-data.materials.batchMoveGroupNotFound': '{{count}} マテリアルが見つかりません。他の人は移動されました',
+  'app.master-data.materials.batchMoveGroupNotFound':
+    '{{count}} マテリアルが見つかりません。他の人は移動されました',
   'app.master-data.materials.batchMoveGroupFailed': 'グループへのバッチ移動が失敗しました',
   'app.master-data.materials.batchProcessRoute': '一括更新処理ルート',
   'app.master-data.materials.batchProcessRouteTitle': '一括更新処理ルート',
-  'app.master-data.materials.batchProcessRouteHint': '選択した {{count}} 個のマテリアルをプロセス ルートにバインドします',
+  'app.master-data.materials.batchProcessRouteHint':
+    '選択した {{count}} 個のマテリアルをプロセス ルートにバインドします',
   'app.master-data.materials.batchProcessRouteSelect': 'プロセスルート',
   'app.master-data.materials.batchProcessRouteSelectRequired': 'プロセスルートを選択してください',
-  'app.master-data.materials.batchProcessRouteClearHint': 'バインドされたプロセス ルートをクリアするには、空のままにします。',
-  'app.master-data.materials.batchProcessRouteSuccess': '{{count}} 材料のプロセス ルートを更新しました',
-  'app.master-data.materials.batchProcessRouteNotFound': '{{count}} マテリアルが見つかりません。他は更新されました',
+  'app.master-data.materials.batchProcessRouteClearHint':
+    'バインドされたプロセス ルートをクリアするには、空のままにします。',
+  'app.master-data.materials.batchProcessRouteSuccess':
+    '{{count}} 材料のプロセス ルートを更新しました',
+  'app.master-data.materials.batchProcessRouteNotFound':
+    '{{count}} マテリアルが見つかりません。他は更新されました',
   'app.master-data.materials.batchProcessRouteFailed': 'バッチ処理のルート更新に失敗しました',
   'app.master-data.materials.batchSourceType': 'バッチ更新ソースの種類',
   'app.master-data.materials.batchSourceTypeTitle': 'バッチ更新ソースの種類',
-  'app.master-data.materials.batchSourceTypeHint': '選択した {{count}} マテリアルのソース タイプを次のように変更します',
+  'app.master-data.materials.batchSourceTypeHint':
+    '選択した {{count}} マテリアルのソース タイプを次のように変更します',
   'app.master-data.materials.batchSourceTypeSelect': 'ソースの種類',
   'app.master-data.materials.batchSourceTypeSelectRequired': 'ソースの種類を選択してください',
-  'app.master-data.materials.batchSourceTypeSuccess': '{{count}} マテリアルのソース タイプを更新しました',
-  'app.master-data.materials.batchSourceTypeNotFound': '{{count}} マテリアルが見つかりません。他は更新されました',
+  'app.master-data.materials.batchSourceTypeSuccess':
+    '{{count}} マテリアルのソース タイプを更新しました',
+  'app.master-data.materials.batchSourceTypeNotFound':
+    '{{count}} マテリアルが見つかりません。他は更新されました',
   'app.master-data.materials.batchSourceTypeFailed': 'バッチソースタイプの更新に失敗しました',
   'app.master-data.materials.batchDefaults': 'バッチの既定',
   'app.master-data.materials.batchDefaultsTitle': 'バッチ更新の既定',
-  'app.master-data.materials.batchDefaultsHint': '選択した {{count}} マテリアルの既定を結合更新します。チェックを外した項目は変更されません。',
-  'app.master-data.materials.batchDefaultsPickOne': '更新する既定項目を少なくとも 1 つ選択してください',
+  'app.master-data.materials.batchDefaultsHint':
+    '選択した {{count}} マテリアルの既定を結合更新します。チェックを外した項目は変更されません。',
+  'app.master-data.materials.batchDefaultsPickOne':
+    '更新する既定項目を少なくとも 1 つ選択してください',
   'app.master-data.materials.batchDefaultsSuccess': '{{count}} マテリアルの既定を更新しました',
-  'app.master-data.materials.batchDefaultsNotFound': '{{count}} マテリアルが見つかりません。他は更新されました',
+  'app.master-data.materials.batchDefaultsNotFound':
+    '{{count}} マテリアルが見つかりません。他は更新されました',
   'app.master-data.materials.batchDefaultsFailed': '既定のバッチ更新に失敗しました',
   'app.master-data.materials.batchDefaultsApplyTax': '既定税率',
   'app.master-data.materials.batchDefaultsApplyWarehouse': '既定の倉庫',
   'app.master-data.materials.batchDefaultsApplySafetyStock': 'Safety stock',
   'app.master-data.materials.batchDefaultsApplyMaxStock': '最大在庫',
-  'app.master-data.materials.batchDefaultsClearWarehouse': '何も選択されていない場合は既定の倉庫をクリアします',
+  'app.master-data.materials.batchDefaultsClearWarehouse':
+    '何も選択されていない場合は既定の倉庫をクリアします',
   'app.master-data.materials.batchVariantToolbar': 'バッチバリアント管理',
   'app.master-data.materials.batchVariantTitle': 'バッチバリアント管理',
-  'app.master-data.materials.batchVariantHint': '{{count}} 選択したマテリアルのバリアント管理を有効または無効にします。 [バリアント]タブでマテリアルごとの組み合わせを管理します。',
+  'app.master-data.materials.batchVariantHint':
+    '{{count}} 選択したマテリアルのバリアント管理を有効または無効にします。 [バリアント]タブでマテリアルごとの組み合わせを管理します。',
   'app.master-data.materials.batchVariantMode': 'アクション',
   'app.master-data.materials.batchVariantEnable': 'バリアント管理を有効にする',
   'app.master-data.materials.batchVariantDisable': 'バリアント管理を無効にする',
-  'app.master-data.materials.batchVariantEnableHint': 'バリアント管理のみを有効にします。各マテリアルの [バリアント] タブに組み合わせ行を追加します。',
-  'app.master-data.materials.batchVariantDisableHint': '選択した行のバリアント属性をクリアします (既存のバリアント SKU 行は削除されません)。',
+  'app.master-data.materials.batchVariantEnableHint':
+    'バリアント管理のみを有効にします。各マテリアルの [バリアント] タブに組み合わせ行を追加します。',
+  'app.master-data.materials.batchVariantDisableHint':
+    '選択した行のバリアント属性をクリアします (既存のバリアント SKU 行は削除されません)。',
   'app.master-data.materials.batchVariantSuccess': '{{count}} マテリアルを更新しました',
-  'app.master-data.materials.batchVariantNotFound': '{{count}} マテリアルが見つかりません。他は更新されました',
+  'app.master-data.materials.batchVariantNotFound':
+    '{{count}} マテリアルが見つかりません。他は更新されました',
   'app.master-data.materials.batchVariantFailed': 'バリアントのバッチ更新に失敗しました',
   'app.master-data.materials.batchVariantLoadDefFailed': '属性定義のロードに失敗しました',
   'app.master-data.materials.deleteGroup': 'グループの削除',
@@ -12961,7 +14230,8 @@ export default {
   'app.master-data.materials.groupCodeMax': 'グループ番号最大50文字',
   'app.master-data.materials.groupCodeExtra': 'マテリアルコード生成で使用されます',
   'app.master-data.materials.groupAlias': 'グループエイリアス',
-  'app.master-data.materials.groupAliasPlaceholder': '英語のグループ エイリアスを入力します (オプション)',
+  'app.master-data.materials.groupAliasPlaceholder':
+    '英語のグループ エイリアスを入力します (オプション)',
   'app.master-data.materials.groupAliasMax': 'グループエイリアス最大100文字',
   'app.master-data.materials.groupName': 'グループ名',
   'app.master-data.materials.groupNamePlaceholder': 'グループ名を入力してください',
@@ -12977,26 +14247,34 @@ export default {
   'app.master-data.materials.loadStandardPreset': '標準パーツのプリセットをロードする',
   'app.master-data.materials.rewriteMainCodes': '材料コードを書き換える',
   'app.master-data.materials.rewriteMainCodesTitle': '材料コードを書き換える',
-  'app.master-data.materials.rewriteMainCodesDesc': 'これにより、既存のマテリアル コードが上書きされます。続行する前に、コーディング ルールが正しく構成されていることを確認してください。',
-  'app.master-data.materials.rewriteMainCodesSelectOrGroup': 'マテリアルを選択するか、左側のマテリアル グループを選択します',
+  'app.master-data.materials.rewriteMainCodesDesc':
+    'これにより、既存のマテリアル コードが上書きされます。続行する前に、コーディング ルールが正しく構成されていることを確認してください。',
+  'app.master-data.materials.rewriteMainCodesSelectOrGroup':
+    'マテリアルを選択するか、左側のマテリアル グループを選択します',
   'app.master-data.materials.rewriteResetSequence': 'グループごとのリセットシーケンス',
-  'app.master-data.materials.rewriteMainCodesPartialFail': '{{count}} 項目を書き換えられませんでした',
+  'app.master-data.materials.rewriteMainCodesPartialFail':
+    '{{count}} 項目を書き換えられませんでした',
   'app.master-data.materials.rewriteMainCodesFailed': '材質コードの書き換えに失敗しました',
-  'app.master-data.materials.standardPresetModalTitle': '標準パーツ（プリセットライブラリ）のインポート',
+  'app.master-data.materials.standardPresetModalTitle':
+    '標準パーツ（プリセットライブラリ）のインポート',
   'app.master-data.materials.standardPresetSectionImportSettings': 'インポート設定',
   'app.master-data.materials.standardPresetSectionPickItems': '行をフィルタリングして選択する',
   'app.master-data.materials.standardPresetMaterialAssignLabel': 'マテリアルのグループ化方法',
   'app.master-data.materials.standardPresetAssignFollowup': '上記のオプションのパラメータ',
   'app.master-data.materials.standardPresetImportGroupMode': 'インポートのグループ化',
   'app.master-data.materials.standardPresetGroupModeSingle': '単一グループ',
-  'app.master-data.materials.standardPresetGroupModePresetCategories': 'プリセットされたカテゴリからグループを作成する',
+  'app.master-data.materials.standardPresetGroupModePresetCategories':
+    'プリセットされたカテゴリからグループを作成する',
   'app.master-data.materials.standardPresetParentGroup': '親グループ (オプション)',
   'app.master-data.materials.standardPresetTargetGroup': '対象物質群',
-  'app.master-data.materials.standardPresetTargetGroupPlaceholder': '既存のグループを選択します (必須)',
+  'app.master-data.materials.standardPresetTargetGroupPlaceholder':
+    '既存のグループを選択します (必須)',
   'app.master-data.materials.standardPresetIndustryFilter': '業界',
   'app.master-data.materials.standardPresetIndustryAll': 'すべての産業',
-  'app.master-data.materials.standardPresetIndustryEmpty': '事前に設定された業界データはありません。バックエンドの標準パーツ カタログ構成を確認してください。',
-  'app.master-data.materials.standardPresetTaxonomyEmpty': '事前設定された分類データはありません。バックエンドの標準パーツ カタログ構成を確認してください。',
+  'app.master-data.materials.standardPresetIndustryEmpty':
+    '事前に設定された業界データはありません。バックエンドの標準パーツ カタログ構成を確認してください。',
+  'app.master-data.materials.standardPresetTaxonomyEmpty':
+    '事前設定された分類データはありません。バックエンドの標準パーツ カタログ構成を確認してください。',
   'app.master-data.materials.standardPresetPrimaryFilter': '最上位のカテゴリ',
   'app.master-data.materials.standardPresetSecondaryFilter': 'サブタイプ',
   'app.master-data.materials.standardPresetPrimaryAll': 'すべてトップレベル',
@@ -13019,7 +14297,8 @@ export default {
   'app.master-data.materials.standardPresetColCategory': 'カテゴリ',
   'app.master-data.materials.standardPresetColGbStandard': '標準',
   'app.master-data.materials.standardPresetColGbCode': '推奨されるメインコード',
-  'app.master-data.bom.codeRuleNotFound': 'コードルール {{ruleCode}} が見つからないか、無効になっています',
+  'app.master-data.bom.codeRuleNotFound':
+    'コードルール {{ruleCode}} が見つからないか、無効になっています',
   'app.master-data.bom.autoCodeFailed': '自動コード生成に失敗しました',
   'app.master-data.bom.bomNotFound': 'このマテリアル + バージョンの BOM が見つかりません',
   'app.master-data.bom.getRecordFailed': 'BOM レコードのロードに失敗しました',
@@ -13037,14 +14316,16 @@ export default {
   'app.master-data.bom.structureUpdated': 'BOM structure updated, {{count}} child item(s)',
   'app.master-data.bom.itemsCreated': 'Created {{count}} BOM item(s)',
   'app.master-data.bom.fillAtLeastOneRow': 'Please fill at least one row (excluding header)',
-  'app.master-data.bom.importHeadersRequired': 'ヘッダーには次のものが含まれている必要があります: 親コード、子コード、数量',
+  'app.master-data.bom.importHeadersRequired':
+    'ヘッダーには次のものが含まれている必要があります: 親コード、子コード、数量',
   'app.master-data.bom.importValidationFailed': '検証が失敗しました:\\n{{errors}}',
   'app.master-data.bom.noValidImportData': '有効なインポート データがありません',
   'app.master-data.bom.importSuccess': 'Imported {{count}} BOM record(s)',
   'app.master-data.bom.includeObsolete': 'Include obsolete versions',
   'app.master-data.bom.setObsolete': '古いものとして設定',
   'app.master-data.bom.setObsoleteTitle': 'BOM バージョンを古いものとして設定する',
-  'app.master-data.bom.setObsoleteConfirm': 'この BOM バージョンを古いものとして設定しますか?デマンドやスケジュールには使用されなくなります。',
+  'app.master-data.bom.setObsoleteConfirm':
+    'この BOM バージョンを古いものとして設定しますか?デマンドやスケジュールには使用されなくなります。',
   'app.master-data.bom.obsoleteReason': '理由（任意）',
   'app.master-data.bom.obsoleteSuccess': 'バージョンが古いものとして設定されました',
   'app.master-data.bom.obsoleteTag': '廃止',
@@ -13056,13 +14337,18 @@ export default {
   'app.master-data.bom.materialNotFound': 'マテリアルが見つかりません',
   'app.master-data.bom.missingMaterialId': 'マテリアル ID パラメータがありません',
   'app.master-data.bom.configUpdated': '構成が更新されました',
-  'app.master-data.bom.approvedCannotEdit': '承認された BOM は直接編集できません。「新しいバージョンとして保存」を使用してください。',
-  'app.master-data.bom.addAtLeastOneChildMaterial': '少なくとも 1 つの子マテリアルを追加してください',
-  'app.master-data.bom.cannotUpgrade': '現在の BOM バージョンを取得できないため、アップグレードできません',
-  'app.master-data.bom.noChangeNoNeedRevise': '変更は検出されないため、新しいバージョンを作成する必要はありません',
+  'app.master-data.bom.approvedCannotEdit':
+    '承認された BOM は直接編集できません。「新しいバージョンとして保存」を使用してください。',
+  'app.master-data.bom.addAtLeastOneChildMaterial':
+    '少なくとも 1 つの子マテリアルを追加してください',
+  'app.master-data.bom.cannotUpgrade':
+    '現在の BOM バージョンを取得できないため、アップグレードできません',
+  'app.master-data.bom.noChangeNoNeedRevise':
+    '変更は検出されないため、新しいバージョンを作成する必要はありません',
   'app.master-data.bom.saveAsNewVersion': '新しいバージョンとして保存されました: {{version}}',
   'app.master-data.bom.cannotGetMaterial': '素材情報を取得できません',
-  'app.master-data.bom.cannotMoveToPosition': 'この位置には移動できません (現在のノードの子である可能性があります)',
+  'app.master-data.bom.cannotMoveToPosition':
+    'この位置には移動できません (現在のノードの子である可能性があります)',
   'app.master-data.bom.cannotDeleteRoot': 'ルートノード（メインマテリアル）を削除できません',
   'app.master-data.bom.nodeDeleted': 'ノードが削除されました',
   'app.master-data.bom.subBomLoaded': '半製品のサブBOMがロードされました',
@@ -13072,10 +14358,12 @@ export default {
   'app.master-data.bom.copyFailed': 'BOM のコピーに失敗しました',
   'app.master-data.bom.copyBomBtn': 'コピー',
   'app.master-data.bom.copyBomTitle': 'BOM のコピー (ルートの変更)',
-  'app.master-data.bom.copyBomNewRootHint': 'コピーすると、選択したマテリアルをルートとして新しい BOM が作成されます。子の構造は変わりません。',
+  'app.master-data.bom.copyBomNewRootHint':
+    'コピーすると、選択したマテリアルをルートとして新しい BOM が作成されます。子の構造は変わりません。',
   'app.master-data.bom.copyBomNewRootLabel': '新しい根材',
   'app.master-data.bom.copyBomNewRootPlaceholder': '新しい BOM ルートとして材料を選択します',
-  'app.master-data.bom.copyBomNewRootMustDiff': '新しいルート マテリアルは現在のルートとは異なる必要があります',
+  'app.master-data.bom.copyBomNewRootMustDiff':
+    '新しいルート マテリアルは現在のルートとは異なる必要があります',
   'app.master-data.bom.copyBomSuccess': 'コピーが成功しました。新しい BOM デザインが開きます',
   'app.master-data.bom.getFailed': 'BOMの取得に失敗しました',
   'app.master-data.bom.unapproveFailed': '承認解除に失敗しました',
@@ -13113,15 +14401,18 @@ export default {
   'app.master-data.bom.saveFailed': '保存に失敗しました',
   'app.master-data.bom.saveAsNewVersionFailed': '新しいバージョンとして保存できませんでした',
   'app.master-data.bom.getMaterialDetailFailed': 'マテリアルの詳細を取得できませんでした',
-  'app.master-data.bom.approvedBomSaveAsNewVersion': '承認された BOM は新しいバージョンとして保存する必要があります',
+  'app.master-data.bom.approvedBomSaveAsNewVersion':
+    '承認された BOM は新しいバージョンとして保存する必要があります',
   'app.master-data.bom.save': '保存',
   'app.master-data.bom.saveDraft': '下書きの保存',
   'app.master-data.bom.saveDraftTitle': '下書きとしてのみ保存 (承認されていません)',
   'app.master-data.bom.saveAndPublish': '保存して有効化する',
-  'app.master-data.bom.saveAndPublishTitle': '保存して承認済みとしてマークします (リストの承認と同じ)',
+  'app.master-data.bom.saveAndPublishTitle':
+    '保存して承認済みとしてマークします (リストの承認と同じ)',
   'app.master-data.bom.saveAndPublishSuccess': '保存され、承認済みとしてマークされました',
   'app.master-data.bom.saveAndPublishComment': 'BOM デザイナー - 保存してアクティブ化',
-  'app.master-data.bom.saveAndPublishApproveFailed': '構造は保存されましたが、承認に失敗しました。このバージョンの BOM リストで [承認] を使用します。',
+  'app.master-data.bom.saveAndPublishApproveFailed':
+    '構造は保存されましたが、承認に失敗しました。このバージョンの BOM リストで [承認] を使用します。',
   'app.master-data.bom.collapseGuide': 'ガイドを折りたたむ',
   'app.master-data.bom.expandGuide': 'ガイドを展開する',
   'app.master-data.bom.mainMaterialInfo': '主な素材情報',
@@ -13142,7 +14433,8 @@ export default {
   'app.master-data.bom.selectMaterialFirst': '最初に素材を選択してください',
   'app.master-data.bom.wasteRate': '廃棄率 (%)',
   'app.master-data.bom.issueMethod': '発行方法',
-  'app.master-data.bom.issueMethodTooltip': 'ピック: 生産前にバッチをライン側に送ります。バックフラッシュ: レポート時にライン側から差し引かれます (最初にラインに配信されます)。なし: 重大な問題はありません (例: ファントム)',
+  'app.master-data.bom.issueMethodTooltip':
+    'ピック: 生産前にバッチをライン側に送ります。バックフラッシュ: レポート時にライン側から差し引かれます (最初にラインに配信されます)。なし: 重大な問題はありません (例: ファントム)',
   'app.master-data.bom.issueMethodPick': 'ピック＆バッチ',
   'app.master-data.bom.issueMethodBackflush': 'バックフラッシュ',
   'app.master-data.bom.issueMethodNone': '問題なし',
@@ -13152,7 +14444,8 @@ export default {
   'app.master-data.bom.isConfigurable': '設定可能',
   'app.master-data.bom.configurableGroupIdLabel': '設定可能なグループID',
   'app.master-data.bom.isConfigurableColumn': '設定可能です',
-  'app.master-data.bom.isConfigurableTooltip': '構成可能: ユーザーは、注文または製造指示を作成するときに、この位置で材料を選択します。代替と相互に排他的です。バリアント管理を備えたサブマテリアルは自動構成可能です。',
+  'app.master-data.bom.isConfigurableTooltip':
+    '構成可能: ユーザーは、注文または製造指示を作成するときに、この位置で材料を選択します。代替と相互に排他的です。バリアント管理を備えたサブマテリアルは自動構成可能です。',
   'app.master-data.bom.isDefaultConfigurable': '既定のオプション',
   'app.master-data.bom.isDefaultConfigurableTooltip': '設定可能なグループの既定のマテリアル',
   'app.master-data.bom.addConfigurableOption': 'オプションの素材を追加する',
@@ -13161,7 +14454,8 @@ export default {
   'app.master-data.bom.removeOption': '取り除く',
   'app.master-data.bom.setAsDefault': '既定として設定',
   'app.master-data.bom.optionalMaterialsList': 'オプションの材料',
-  'app.master-data.bom.variantDrivenConfigurable': 'バリアントが有効です。オプションはバリアント属性によって決定されます。',
+  'app.master-data.bom.variantDrivenConfigurable':
+    'バリアントが有効です。オプションはバリアント属性によって決定されます。',
   'app.master-data.bom.variantAttributesLabel': 'バリアント属性',
   'app.master-data.bom.alternativeMaterialsList': '代替材料（オーダー）',
   'app.master-data.bom.addAlternativeOption': '代替案を追加',
@@ -13184,17 +14478,21 @@ export default {
   'app.master-data.fabricationWizard.stepRawMaterial': '原材料',
   'app.master-data.fabricationWizard.stepBom': '使用法',
   'app.master-data.fabricationWizard.introTitle': '製造部品は通常、原材料を消費します',
-  'app.master-data.fabricationWizard.introDesc': '原材料 BOM をリンクすると、完全なエンジニアリング BOM を事前に構築しなくても、キッティング、MRP、ピッキングが正しく拡張されます。',
-  'app.master-data.fabricationWizard.autoGeneratedHint': 'クイック作成では、購入アイテムがウィザードによって生成されたものとしてマークされます。後で資材管理で仕様とサプライヤーを調整します。',
+  'app.master-data.fabricationWizard.introDesc':
+    '原材料 BOM をリンクすると、完全なエンジニアリング BOM を事前に構築しなくても、キッティング、MRP、ピッキングが正しく拡張されます。',
+  'app.master-data.fabricationWizard.autoGeneratedHint':
+    'クイック作成では、購入アイテムがウィザードによって生成されたものとしてマークされます。後で資材管理で仕様とサプライヤーを調整します。',
   'app.master-data.fabricationWizard.modeCreate': '原材料を素早く作成',
   'app.master-data.fabricationWizard.modeExisting': '既存の購入アイテムを選択してください',
   'app.master-data.fabricationWizard.rawMaterialName': '原材料名',
   'app.master-data.fabricationWizard.specPlaceholder': '例えば棒鋼仕様（オプション）',
   'app.master-data.fabricationWizard.selectBuyMaterial': '購入アイテムを検索する',
-  'app.master-data.fabricationWizard.selectExistingRequired': '原材料として購入アイテムを選択します',
+  'app.master-data.fabricationWizard.selectExistingRequired':
+    '原材料として購入アイテムを選択します',
   'app.master-data.fabricationWizard.quantity': '部品ごとの数量',
   'app.master-data.fabricationWizard.summaryTitle': 'ドラフトBOMが作成されます',
-  'app.master-data.fabricationWizard.draftBomHint': '下書きとして保存されました。準備ができたら、BOM デザイナーで承認します。',
+  'app.master-data.fabricationWizard.draftBomHint':
+    '下書きとして保存されました。準備ができたら、BOM デザイナーで承認します。',
   'app.master-data.fabricationWizard.skipLater': '後で',
   'app.master-data.fabricationWizard.confirmCreate': '仕上げる',
   'app.master-data.fabricationWizard.success': '原材料BOM作成（案）',
@@ -13202,7 +14500,8 @@ export default {
   'app.master-data.fabricationWizard.prev': '前の',
   'app.master-data.fabricationWizard.next': '次',
   'app.master-data.fabricationWizard.configureRawMaterial': '原材料の設定',
-  'app.master-data.fabricationWizard.promptAfterCreate': '製造材料が検出されました。今すぐ原材料を設定しますか?',
+  'app.master-data.fabricationWizard.promptAfterCreate':
+    '製造材料が検出されました。今すぐ原材料を設定しますか?',
   'app.master-data.bom.deleteNode': 'ノードの削除',
   'app.master-data.bom.mainMaterial': '主な素材:',
   'app.master-data.bom.version': 'バージョン:',
@@ -13220,8 +14519,10 @@ export default {
   'app.master-data.bom.editProcessRoute': 'プロセスルートの編集',
   'app.master-data.bom.noProcessRouteToEdit': 'この材料にはプロセス ルートがリンクされていません',
   'app.master-data.bom.processRouteNotFound': '処理ルートが見つかりません',
-  'app.master-data.bom.mainMaterialCannotEdit': 'メイン素材はここでは編集できません。編集するにはマテリアル管理に移動します。',
-  'app.master-data.bom.editCompleteHint': 'ヒント: 編集後に「保存」をクリックするか、「キャンバス」をクリックしてショートカットを復元します。',
+  'app.master-data.bom.mainMaterialCannotEdit':
+    'メイン素材はここでは編集できません。編集するにはマテリアル管理に移動します。',
+  'app.master-data.bom.editCompleteHint':
+    'ヒント: 編集後に「保存」をクリックするか、「キャンバス」をクリックしてショートカットを復元します。',
   'app.master-data.bom.operationGuide': '操作ガイド',
   'app.master-data.bom.shortcuts': 'ショートカット',
   'app.master-data.bom.editNodeMaterial': 'ノードマテリアルの編集',
@@ -13233,11 +14534,13 @@ export default {
   'app.master-data.bom.editMaterialShortcut': '素材を編集する',
   'app.master-data.bom.dragHandleLeft': '左にドラッグ',
   'app.master-data.bom.dragHandleRight': 'ノードを移動するためのハンドル',
-  'app.master-data.bom.shortcutsFocusHint': 'キャンバスにフォーカスがあるときにショートカットが機能する',
+  'app.master-data.bom.shortcutsFocusHint':
+    'キャンバスにフォーカスがあるときにショートカットが機能する',
   'app.master-data.bom.deselectEsc': '選択を解除 (Esc)',
   'app.master-data.bom.clickNodeToEdit': 'ノードをクリックして構成を表示および編集します',
   'app.master-data.bom.unapproveConfirmTitle': '承認しない 確認する',
-  'app.master-data.bom.unapproveConfirmContent': '{{bomCode}} バージョン {{version}} を承認解除しますか?',
+  'app.master-data.bom.unapproveConfirmContent':
+    '{{bomCode}} バージョン {{version}} を承認解除しますか?',
   'app.master-data.bom.unapproveResetDraft': '未承認後、ステータスはドラフトにリセットされます。',
   'app.master-data.bom.recursiveUnapprove': '子 BOM を再帰的に承認解除する',
   'app.master-data.bom.okUnapprove': '承認しない',
@@ -13247,15 +14550,18 @@ export default {
   'app.master-data.bom.statusApproved': '承認された',
   'app.master-data.bom.statusRejected': '拒否されました',
   'app.master-data.bom.deleteConfirmTitle': '削除の確認',
-  'app.master-data.bom.deleteConfirmContent': 'この BOM ({{count}} 項目) を削除しますか?これを元に戻すことはできません。',
+  'app.master-data.bom.deleteConfirmContent':
+    'この BOM ({{count}} 項目) を削除しますか?これを元に戻すことはできません。',
   'app.master-data.bom.ok': 'わかりました',
   'app.master-data.bom.batchDeleteConfirmTitle': '一括削除の確認',
-  'app.master-data.bom.batchDeleteConfirmContent': '選択した {{count}} 個の BOM レコードを削除しますか?これを元に戻すことはできません。',
+  'app.master-data.bom.batchDeleteConfirmContent':
+    '選択した {{count}} 個の BOM レコードを削除しますか?これを元に戻すことはできません。',
   'app.master-data.bom.deleteFailed': '削除に失敗しました',
   'app.master-data.bom.batchApproveTitle': '一括承認',
   'app.master-data.bom.okApprove': '承認する',
   'app.master-data.bom.batchUnapproveTitle': '一括不承認',
-  'app.master-data.bom.unapproveResetDraftTip': '未承認後、ステータスはドラフトにリセットされます。',
+  'app.master-data.bom.unapproveResetDraftTip':
+    '未承認後、ステータスはドラフトにリセットされます。',
   'app.master-data.bom.materialIdUnknown': 'マテリアル ID: 不明',
   'app.master-data.bom.selectChildMaterial': '子素材を選択してください',
   'app.master-data.bom.quantityMustBePositive': '数量は 0 より大きくなければなりません',
@@ -13286,7 +14592,8 @@ export default {
   'app.master-data.bom.versionHistory': 'バージョン履歴',
   'app.master-data.bom.delete': '消去',
   'app.master-data.bom.editTitle': '編集',
-  'app.master-data.bom.approvedCannotEditTitle': '承認された BOM を直接編集することはできません。まず修正するか承認を取り消してください。',
+  'app.master-data.bom.approvedCannotEditTitle':
+    '承認された BOM を直接編集することはできません。まず修正するか承認を取り消してください。',
   'app.master-data.bom.designerTitle': 'BOM 構造の設計',
   'app.master-data.bom.approvePassTitle': '承認する',
   'app.master-data.bom.unapproveTitle': '承認を取り消し、下書きにリセットします',
@@ -13298,7 +14605,8 @@ export default {
   'app.master-data.bom.effectiveDateTitle': '発効日',
   'app.master-data.bom.expiryDateTitle': '有効期限',
   'app.master-data.bom.alternativeTitle': '代替',
-  'app.master-data.bom.alternativeTitleTooltip': '構成可能と相互に排他的です。同じグループ ID = 運用環境で使用される代替の 1 つ。',
+  'app.master-data.bom.alternativeTitleTooltip':
+    '構成可能と相互に排他的です。同じグループ ID = 運用環境で使用される代替の 1 つ。',
   'app.master-data.bom.priorityTitle': '優先度',
   'app.master-data.bom.descTitle': '説明',
   'app.master-data.bom.remarkTitle': '述べる',
@@ -13360,7 +14668,8 @@ export default {
   'app.master-data.bom.versionHistoryTitle': 'BOM バージョン履歴',
   'app.master-data.bom.approvalCommentPlaceholder': '承認コメントを入力してください',
   'app.master-data.bom.createVersionTitle': '新しい BOM バージョンの作成',
-  'app.master-data.bom.createVersionHint': 'クイック作成: 現在のバージョンからワンクリックでコピーします。または、以下のフォームに記入してください（最新バージョンから）',
+  'app.master-data.bom.createVersionHint':
+    'クイック作成: 現在のバージョンからワンクリックでコピーします。または、以下のフォームに記入してください（最新バージョンから）',
   'app.master-data.bom.versionPlaceholderNew': 'バージョンを入力してください (例: v1.1)',
   'app.master-data.bom.versionDescLabel': 'バージョンメモ',
   'app.master-data.bom.versionDescPlaceholder': 'バージョンメモを入力してください (オプション)',
@@ -13369,12 +14678,14 @@ export default {
   'app.master-data.bom.versionStrategyNewOnly': '新規注文のみ（推奨）',
   'app.master-data.bom.versionStrategyAll': 'すべての注文 (慎重に使用してください)',
   'app.master-data.bom.versionStrategyRequired': 'バージョン戦略の選択',
-  'app.master-data.bom.versionStrategyExtra': '実行中の注文への影響を避けるために「新規注文のみ」を推奨します',
+  'app.master-data.bom.versionStrategyExtra':
+    '実行中の注文への影響を避けるために「新規注文のみ」を推奨します',
   'app.master-data.bom.parentQuantityLabel': '親数量',
   'app.master-data.bom.parentQuantityPlaceholder': '親数量を入力してください',
   'app.master-data.bom.parentQuantityRequired': '親数量を入力してください',
   'app.master-data.bom.parentQuantityMin': '数量は > 0 である必要があります',
-  'app.master-data.bom.parentQuantityExtra': '親数量を入力してください。システムは子数量 (廃棄物を含む) を計算します',
+  'app.master-data.bom.parentQuantityExtra':
+    '親数量を入力してください。システムは子数量 (廃棄物を含む) を計算します',
   'app.master-data.bom.versionPlaceholderOptional': '最新の場合は空のままにしておきます',
   'app.master-data.bom.versionPlaceholderExtra': 'オプション、空の場合は最新バージョン',
   'app.master-data.bom.defaultTag': '既定',
@@ -13383,12 +14694,15 @@ export default {
   'app.master-data.bom.approve': '承認する',
   'app.master-data.bom.unapprove': '承認しない',
   'app.master-data.bom.bomCode': 'BOM コード',
-  'app.master-data.bom.setDefaultVersionContent': '{{bomCode}} (v{{version}}) を既定の BOM バージョンとして設定しますか?デマンド計算は、マルチバージョンが許可されていない場合に使用します。',
+  'app.master-data.bom.setDefaultVersionContent':
+    '{{bomCode}} (v{{version}}) を既定の BOM バージョンとして設定しますか?デマンド計算は、マルチバージョンが許可されていない場合に使用します。',
   'app.master-data.bom.reviseConfirmTitle': 'BOM改訂確認',
-  'app.master-data.bom.reviseConfirmContent': '{{bomCode}} (v{{version}}) の新しいリビジョンを作成しますか?システムは BOM 構造をコピーし、新しいバージョン (ドラフト) を作成します。',
+  'app.master-data.bom.reviseConfirmContent':
+    '{{bomCode}} (v{{version}}) の新しいリビジョンを作成しますか?システムは BOM 構造をコピーし、新しいバージョン (ドラフト) を作成します。',
   'app.master-data.bom.batchApproveContent': '選択した {{count}} 個の BOM レコードを承認しますか?',
   'app.master-data.bom.recursiveApprove': '子BOMを再帰的に承認する',
-  'app.master-data.bom.batchUnapproveContent': '選択した {{count}} 個の BOM レコードを承認解除しますか?',
+  'app.master-data.bom.batchUnapproveContent':
+    '選択した {{count}} 個の BOM レコードを承認解除しますか?',
   'app.master-data.bom.recursiveUnapproveShort': '子 BOM を再帰的に承認解除する',
   'app.master-data.bom.batchApproveComment': 'バッチ承認済み',
   'app.master-data.bom.batchUnapproveComment': 'バッチは未承認です',
@@ -13399,7 +14713,8 @@ export default {
   'app.master-data.bom.materialIdPrefix': 'マテリアルID',
   'app.master-data.bom.noVersionDiff': 'バージョン間の違いはありません',
   'app.master-data.bom.noVersionHistory': 'バージョン履歴はありません',
-  'app.master-data.bom.versionCompareModalTitle': 'BOM バージョンの比較: {{version1}} と {{version2}}',
+  'app.master-data.bom.versionCompareModalTitle':
+    'BOM バージョンの比較: {{version1}} と {{version2}}',
   'app.master-data.bom.versionCompareAddedSection': '子アイテムを追加しました ({{count}})',
   'app.master-data.bom.versionCompareRemovedSection': '子アイテムを削除しました ({{count}})',
   'app.master-data.bom.versionCompareModifiedSection': '変更された子アイテム ({{count}})',
@@ -13422,7 +14737,8 @@ export default {
   'app.master-data.bom.versionCount': '{{count}} バージョン',
   'app.master-data.bom.viewAllBom': 'すべてのBOM',
   'app.master-data.materialForm.getSuggestionFailed': '提案の取得に失敗しました',
-  'app.master-data.materialForm.getSuggestionFailedWithError': '提案の取得に失敗しました: {{error}}',
+  'app.master-data.materialForm.getSuggestionFailedWithError':
+    '提案の取得に失敗しました: {{error}}',
   'app.master-data.materialForm.validationFailed': '検証に失敗しました',
   'app.master-data.materialForm.validationFailedWithError': '検証に失敗しました: {{error}}',
   'app.master-data.materialForm.checkFailed': 'チェックに失敗しました',
@@ -13432,10 +14748,12 @@ export default {
   'app.master-data.materialForm.fetchWarehousesFailed': 'ウェアハウスのロードに失敗しました',
   'app.master-data.materialForm.fetchProcessRoutesFailed': 'プロセスルートのロードに失敗しました',
   'app.master-data.materialForm.fetchOperationsFailed': 'オペレーションのロードに失敗しました',
-  'app.master-data.materialForm.fetchExternalMappingsFailed': '外部マッピングのロードに失敗しました',
+  'app.master-data.materialForm.fetchExternalMappingsFailed':
+    '外部マッピングのロードに失敗しました',
   'app.master-data.materialForm.codeRuleNotConfigured': '材料コードルールが設定されていません',
   'app.master-data.materialForm.autoGenerateCodeFailed': 'コードの自動生成に失敗しました',
-  'app.master-data.materialForm.codeRuleConfigError': 'コード ルール設定エラー: マテリアル ページではルート コード ルールを使用しないでください。キャッシュをクリアするか、管理者に連絡してください。',
+  'app.master-data.materialForm.codeRuleConfigError':
+    'コード ルール設定エラー: マテリアル ページではルート コード ルールを使用しないでください。キャッシュをクリアするか、管理者に連絡してください。',
   'app.master-data.materialForm.editMaterial': 'マテリアルの編集',
   'app.master-data.materialForm.createMaterial': 'マテリアルの作成',
   'app.master-data.materialForm.update': 'アップデート',
@@ -13450,7 +14768,8 @@ export default {
   'app.master-data.materialForm.inspectionModeNone': '検査なし',
   'app.master-data.materialForm.inspectionModeSimple': 'シンプル (限定数量のみ)',
   'app.master-data.materialForm.inspectionModePlan': '計画 (検査モジュールにリンク)',
-  'app.master-data.materialForm.inspectionModeSimpleHint': '簡単な検査では認定数量のみが記録され、追加の構成は必要ありません。',
+  'app.master-data.materialForm.inspectionModeSimpleHint':
+    '簡単な検査では認定数量のみが記録され、追加の構成は必要ありません。',
   'app.master-data.materialForm.defaultInspectionPlan': '既定の検査計画',
   'app.master-data.materialForm.gotoInspectionPlans': '新しい検査計画の作成',
   'app.master-data.materialForm.defaults': '既定',
@@ -13468,7 +14787,8 @@ export default {
   'app.master-data.materialForm.materialGroup': '材料グループ',
   'app.master-data.materialForm.materialGroupPlaceholder': '材料グループの選択 (オプション)',
   'app.master-data.materialForm.materialType': '材質の種類',
-  'app.master-data.materialForm.materialTypePlaceholder': '材質の種類を選択してください (オプション)',
+  'app.master-data.materialForm.materialTypePlaceholder':
+    '材質の種類を選択してください (オプション)',
   'app.master-data.materialForm.specification': '仕様',
   'app.master-data.materialForm.specificationPlaceholder': '仕様を入力してください',
   'app.master-data.materialForm.specificationMax': '仕様は 500 文字を超えることはできません',
@@ -13481,7 +14801,8 @@ export default {
   'app.master-data.materialForm.brandPlaceholder': 'ブランドを入力してください',
   'app.master-data.materialForm.brandMax': 'ブランドは 100 文字を超えることはできません',
   'app.master-data.materialForm.texture': '素材・質感',
-  'app.master-data.materialForm.texturePlaceholder': '素材を入力してください (例: スチール、プラスチック、アルミニウム)',
+  'app.master-data.materialForm.texturePlaceholder':
+    '素材を入力してください (例: スチール、プラスチック、アルミニウム)',
   'app.master-data.materialForm.textureMax': '資料は 100 文字を超えることはできません',
   'app.master-data.materialForm.weight': '重量(kg)',
   'app.master-data.materialForm.weightPlaceholder': '体重を入力してください',
@@ -13510,15 +14831,19 @@ export default {
   'app.master-data.materialForm.gotoBatchRules': 'バッチルールに移動',
   'app.master-data.materialForm.gotoSerialRules': 'シリアルルールに移動',
   'app.master-data.suspendedModal.returnToForm': '戻って充填を続ける',
-  'app.master-data.materialForm.defaultBatchRulePlaceholder': '選択されていない場合はシステムの既定を使用する',
+  'app.master-data.materialForm.defaultBatchRulePlaceholder':
+    '選択されていない場合はシステムの既定を使用する',
   'app.master-data.materialForm.defaultSerialRule': '既定のシリアルルール',
-  'app.master-data.materialForm.defaultSerialRulePlaceholder': '選択されていない場合はシステムの既定を使用する',
+  'app.master-data.materialForm.defaultSerialRulePlaceholder':
+    '選択されていない場合はシステムの既定を使用する',
   'app.master-data.materialForm.systemDefaultRule': 'システムの既定 (専用ルールなし)',
   'app.master-data.materialForm.variantManaged': 'バリアント管理',
   'app.master-data.materialForm.isActive': 'アクティブ',
   'app.master-data.materialForm.materialImages': '添付資料',
-  'app.master-data.materialForm.materialAttachmentsHint': '画像、PDF、または DWG。最大5ファイルまで',
-  'app.master-data.materialForm.attachmentInvalidType': '画像 (JPG/PNG/GIF/WebP/SVG)、PDF、DWG/DXF、STEP/STP、および XLS/XLSX のみが許可されます',
+  'app.master-data.materialForm.materialAttachmentsHint':
+    '画像、PDF、または DWG。最大5ファイルまで',
+  'app.master-data.materialForm.attachmentInvalidType':
+    '画像 (JPG/PNG/GIF/WebP/SVG)、PDF、DWG/DXF、STEP/STP、および XLS/XLSX のみが許可されます',
   'app.master-data.materialForm.description': '説明',
   'app.master-data.materialForm.descriptionPlaceholder': '説明を入力してください',
   'app.master-data.materialForm.submitFailed': '送信に失敗しました',
@@ -13548,10 +14873,12 @@ export default {
   'app.master-data.materialForm.unitNameDuplicate': 'ユニット「{{name}}」が重複しています',
   'app.master-data.materialForm.unitSameAsBase': 'ユニット「{{unit}}」はベースユニットと同じ',
   'app.master-data.materialForm.numeratorMin': '単位「{{unit}}」: 分子は > 0 でなければなりません',
-  'app.master-data.materialForm.denominatorMin': '単位「{{unit}}」: 分母は > 0 でなければなりません',
+  'app.master-data.materialForm.denominatorMin':
+    '単位「{{unit}}」: 分母は > 0 でなければなりません',
   'app.master-data.materialForm.setBaseUnitFirst': '最初に「基本情報」タブで基本単位を設定します',
   'app.master-data.materialForm.baseSettings': '基本設定',
-  'app.master-data.materialForm.conversionHint': '精度を高めるには分子/分母を使用します。例えば。 1 トン = 1000 kg: num=1000、den=1。\\n\\n計算式: 1 補助ユニット = (num/den) × 1 基本ユニット',
+  'app.master-data.materialForm.conversionHint':
+    '精度を高めるには分子/分母を使用します。例えば。 1 トン = 1000 kg: num=1000、den=1。\\n\\n計算式: 1 補助ユニット = (num/den) × 1 基本ユニット',
   'app.master-data.materialForm.conversionTitle': '変換',
   'app.master-data.materialForm.configValidation': '構成の検証',
   'app.master-data.materialForm.configOverview': '構成の概要',
@@ -13571,8 +14898,10 @@ export default {
   'app.master-data.materialForm.baseUnitLabel': 'ベースユニット',
   'app.master-data.materialForm.baseUnitColon': 'ベースユニット:',
   'app.master-data.materialForm.addAuxiliaryUnit': '補助ユニットの追加',
-  'app.master-data.materialForm.scenarioUnitMappingOptional': 'シナリオ単位のマッピング (オプション)',
-  'app.master-data.materialForm.scenarioUnitMappingHint': 'さまざまなシナリオに応じて単位を指定します。空の場合はベースユニットを使用します。',
+  'app.master-data.materialForm.scenarioUnitMappingOptional':
+    'シナリオ単位のマッピング (オプション)',
+  'app.master-data.materialForm.scenarioUnitMappingHint':
+    'さまざまなシナリオに応じて単位を指定します。空の場合はベースユニットを使用します。',
   'app.master-data.materialForm.purchaseUnit': '購入単位',
   'app.master-data.materialForm.saleUnit': '販売単位',
   'app.master-data.materialForm.productionUnit': '生産ユニット',
@@ -13581,17 +14910,20 @@ export default {
   'app.master-data.materialForm.loadVariantDefFailed': 'バリアント属性定義のロードに失敗しました',
   'app.master-data.materialForm.loading': '読み込み中...',
   'app.master-data.materialForm.noVariantDef': 'バリアント属性の定義がありません',
-  'app.master-data.materialForm.configVariantFirst': '最初にマテリアル データ → バリアント属性でバリアント属性を設定します',
+  'app.master-data.materialForm.configVariantFirst':
+    '最初にマテリアル データ → バリアント属性でバリアント属性を設定します',
   'app.master-data.materialForm.selectAttr': '{{name}}を選択してください',
   'app.master-data.materialForm.enterAttr': '{{name}} と入力してください',
   'app.master-data.materialForm.attrValidationFailed': '属性の検証に失敗しました',
   'app.master-data.materialForm.delete': '消去',
   'app.master-data.materialForm.sourceTypeLabel': '材料ソースの種類',
   'app.master-data.materialForm.sourceTypePlaceholder': '材料ソースのタイプを選択してください',
-  'app.master-data.materialForm.sourceTypeExtra': '材料の入手方法を決定します (製造/購入/外部委託など)。',
+  'app.master-data.materialForm.sourceTypeExtra':
+    '材料の入手方法を決定します (製造/購入/外部委託など)。',
   'app.master-data.materialForm.manufacturingMode': '製造モード',
   'app.master-data.materialForm.manufacturingModePlaceholder': '製造モードの選択',
-  'app.master-data.materialForm.manufacturingModeExtra': '製造にはルートが必要です。組み立てにはBOMが必要です',
+  'app.master-data.materialForm.manufacturingModeExtra':
+    '製造にはルートが必要です。組み立てにはBOMが必要です',
   'app.master-data.codeMapping.department': '部門コード',
   'app.master-data.codeMapping.customer': '顧客コード',
   'app.master-data.codeMapping.supplier': 'サプライヤーコード',
@@ -13635,7 +14967,8 @@ export default {
   'app.master-data.codeMapping.externalCodeRequired': '外部コードを入力してください',
   'app.master-data.codeMapping.externalCodePlaceholder': '外部システムの材料コード',
   'app.master-data.codeMapping.internalCodeOptional': '内部コード（オプション）',
-  'app.master-data.codeMapping.internalCodeTooltip': '空の場合はマテリアルのメインコードを使用します',
+  'app.master-data.codeMapping.internalCodeTooltip':
+    '空の場合はマテリアルのメインコードを使用します',
   'app.master-data.codeMapping.editExternal': '外部コードマッピングの編集',
   'app.master-data.defaults.finance': '財務不履行',
   'app.master-data.defaults.defaultTaxRate': '既定税率 (%)',
@@ -13648,7 +14981,8 @@ export default {
   'app.master-data.defaults.defaultAccount': '既定アカウント',
   'app.master-data.defaults.defaultAccountPlaceholder': '既定のアカウントを入力してください',
   'app.master-data.defaults.purchase': '既定の購入',
-  'app.master-data.defaults.purchaseAlert': '購入アイテムの主な既定サプライヤー: [基本情報] → [材料ソース] で設定します。ここでは、拡張使用のために既定 リスト (複数選択) を購入します。',
+  'app.master-data.defaults.purchaseAlert':
+    '購入アイテムの主な既定サプライヤー: [基本情報] → [材料ソース] で設定します。ここでは、拡張使用のために既定 リスト (複数選択) を購入します。',
   'app.master-data.defaults.defaultSuppliers': '既定のサプライヤー (優先順位による複数選択)',
   'app.master-data.defaults.selectSuppliers': '既定のサプライヤーを選択してください',
   'app.master-data.defaults.defaultPurchasePrice': '既定の購入価格',
@@ -13686,15 +15020,19 @@ export default {
   'app.master-data.source.routes': 'プロセスルート',
   'app.master-data.source.selectProcessRoute': '既定のプロセスルートを選択してください',
   'app.master-data.manufacturing.tabTitle': '製品プロセス',
-  'app.master-data.manufacturing.tabHint': 'この製造品目のプロセス ルート、作業順序と時間、既定のリソース、ピースレート、およびリンクされた労働パフォーマンスを構成します。マテリアル フォームを保存して、マテリアル上の既定 ルートを永続化します。',
+  'app.master-data.manufacturing.tabHint':
+    'この製造品目のプロセス ルート、作業順序と時間、既定のリソース、ピースレート、およびリンクされた労働パフォーマンスを構成します。マテリアル フォームを保存して、マテリアル上の既定 ルートを永続化します。',
   'app.master-data.manufacturing.sectionRoute': 'プロセスルート',
-  'app.master-data.manufacturing.sectionRouteDesc': 'この材料に既定のプロセス ルートを割り当てます。製造指示では資材上のルートが優先されます。',
+  'app.master-data.manufacturing.sectionRouteDesc':
+    'この材料に既定のプロセス ルートを割り当てます。製造指示では資材上のルートが優先されます。',
   'app.master-data.manufacturing.sectionSequence': '操作順序と回数',
   'app.master-data.manufacturing.sectionResources': '運用リソース (作業場 / オペレーター / 設備)',
-  'app.master-data.manufacturing.sectionResourcesDesc': '既定のリソースは、各操作マスター レコードで維持されます。以下のリストから編集してください。',
+  'app.master-data.manufacturing.sectionResourcesDesc':
+    '既定のリソースは、各操作マスター レコードで維持されます。以下のリストから編集してください。',
   'app.master-data.manufacturing.sectionPieceRates': '出来高率（本資料）',
   'app.master-data.manufacturing.sectionLabor': '労働パフォーマンス',
-  'app.master-data.manufacturing.sectionLaborDesc': 'Department/position hourly rates are maintained in Performance; the table lists configs for operators configured on route operations.',
+  'app.master-data.manufacturing.sectionLaborDesc':
+    'Department/position hourly rates are maintained in Performance; the table lists configs for operators configured on route operations.',
   'app.master-data.manufacturing.standardTime': '標準時間（分/個）',
   'app.master-data.manufacturing.setupTime': '段取時間（分）',
   'app.master-data.manufacturing.minuteUnit': '分',
@@ -13708,7 +15046,8 @@ export default {
   'app.master-data.manufacturing.saveRoute': 'シーケンスの保存',
   'app.master-data.manufacturing.routeSaved': '操作シーケンスをルートに保存',
   'app.master-data.manufacturing.selectRouteFirst': '最初にプロセスルートを選択してください',
-  'app.master-data.manufacturing.saveMaterialFirstForRates': 'ピースレートを維持する前に材料を保存してください',
+  'app.master-data.manufacturing.saveMaterialFirstForRates':
+    'ピースレートを維持する前に材料を保存してください',
   'app.master-data.manufacturing.pieceRateRequired': 'オペレーションを選択し、レートを入力します',
   'app.master-data.manufacturing.addPieceRate': '個数率の追加',
   'app.master-data.manufacturing.editPieceRate': '個数レートを編集する',
@@ -13717,12 +15056,14 @@ export default {
   'app.master-data.manufacturing.openPieceRatesPage': 'オープンな出来高管理',
   'app.master-data.manufacturing.openEmployeeConfigs': '従業員のパフォーマンス構成',
   'app.master-data.manufacturing.openHourlyRates': '部門時間給',
-  'app.master-data.manufacturing.noLinkedOperators': 'ルート操作にオペレーターがいない、またはリンクされた構成が存在しない',
+  'app.master-data.manufacturing.noLinkedOperators':
+    'ルート操作にオペレーターがいない、またはリンクされた構成が存在しない',
   'app.master-data.manufacturing.employeeName': '従業員',
   'app.master-data.manufacturing.calcMode': '計算モード',
   'app.master-data.manufacturing.hourlyRate': '時給',
   'app.master-data.routes.viewApplicableMaterials': '適用材質',
-  'app.master-data.productProcess.pageDesc': '既定のプロセスルートを割り当て、製造アイテムの順序、時間、リソース、および個数レートを維持します。 「プロセス ルート」でルート テンプレートを管理します。',
+  'app.master-data.productProcess.pageDesc':
+    '既定のプロセスルートを割り当て、製造アイテムの順序、時間、リソース、および個数レートを維持します。 「プロセス ルート」でルート テンプレートを管理します。',
   'app.master-data.productProcess.materialListTitle': 'アイテムを作る',
   'app.master-data.productProcess.searchMaterial': 'コードまたは名前を検索する',
   'app.master-data.productProcess.filterAll': '全て',
@@ -13730,24 +15071,32 @@ export default {
   'app.master-data.productProcess.filterUnassigned': 'ルートなし',
   'app.master-data.productProcess.selectMaterialHint': '左側のメイクアイテムを選択してください',
   'app.master-data.productProcess.loadingMaterials': 'メイクアイテムを読み込み中…',
-  'app.master-data.productProcess.routeNotFound': '割り当てられたプロセス ルートが見つからないか、削除されています。ルートを選択し、割り当てを再度保存します。',
+  'app.master-data.productProcess.routeNotFound':
+    '割り当てられたプロセス ルートが見つからないか、削除されています。ルートを選択し、割り当てを再度保存します。',
   'app.master-data.productProcess.noMaterials': 'メイクアイテムはありません',
   'app.master-data.productProcess.save': '保存',
   'app.master-data.productProcess.saved': '製品プロセス設定が保存されました',
-  'app.master-data.productProcess.panelHint': 'プロセスルートを選択し、以下の表で順序、時間、リソース、および個数レートを編集し、保存します。',
+  'app.master-data.productProcess.panelHint':
+    'プロセスルートを選択し、以下の表で順序、時間、リソース、および個数レートを編集し、保存します。',
   'app.master-data.productProcess.unifiedTableTitle': '工程明細',
   'app.master-data.productProcess.addOperation': '追加操作',
-  'app.master-data.productProcess.noLines': '操作はありません。ルートを選択してテンプレートをロードするか、操作を追加します。',
-  'app.master-data.productProcess.linesTableHint': '# 列のハンドルをドラッグして操作を並べ替えます (ルート エディターと同じ)。ルートを変更すると、テンプレートからリロードされます。空のリソース セルは操作の既定を継承します。保存する前に個数レートを確認してください。',
-  'app.master-data.productProcess.routeImportFailed': 'ルートから操作テンプレートをロードできませんでした',
+  'app.master-data.productProcess.noLines':
+    '操作はありません。ルートを選択してテンプレートをロードするか、操作を追加します。',
+  'app.master-data.productProcess.linesTableHint':
+    '# 列のハンドルをドラッグして操作を並べ替えます (ルート エディターと同じ)。ルートを変更すると、テンプレートからリロードされます。空のリソース セルは操作の既定を継承します。保存する前に個数レートを確認してください。',
+  'app.master-data.productProcess.routeImportFailed':
+    'ルートから操作テンプレートをロードできませんでした',
   'app.master-data.productProcess.filteredByRoute': 'ルートでフィルタリング: {{code}} — {{name}}',
   'app.master-data.productProcess.clearRouteFilter': 'ルートフィルターをクリア',
-  'app.master-data.productProcess.listTruncated': '{{total}} 項目を合計します。最初の{{limit}}を表示しています。検索を使用して絞り込みます。',
+  'app.master-data.productProcess.listTruncated':
+    '{{total}} 項目を合計します。最初の{{limit}}を表示しています。検索を使用して絞り込みます。',
   'app.master-data.routes.applicableMaterialsTitle': '適用材質',
-  'app.master-data.routes.applicableMaterialsHint': '主なエントリは、材料マスタ データの [製品プロセス] タブです。このダイアログを使用して、ルートのマテリアルとグループを表示またはバッチリンクします。',
+  'app.master-data.routes.applicableMaterialsHint':
+    '主なエントリは、材料マスタ データの [製品プロセス] タブです。このダイアログを使用して、ルートのマテリアルとグループを表示またはバッチリンクします。',
   'app.master-data.routes.applicableMaterialGroups': '適用可能な材料グループ',
   'app.master-data.routes.applicableMaterialsExact': '適用材質（正確）',
-  'app.master-data.routes.materialBindPriorityHint': 'マテリアル レベルの割り当てはグループ バインディングをオーバーライドします。マテリアル フォームで既定 ルートを設定することを好みます。',
+  'app.master-data.routes.materialBindPriorityHint':
+    'マテリアル レベルの割り当てはグループ バインディングをオーバーライドします。マテリアル フォームで既定 ルートを設定することを好みます。',
   'app.master-data.source.productionLeadTime': '生産リードタイム(日)',
   'app.master-data.source.leadTimePlaceholder': 'リードタイム',
   'app.master-data.source.minProductionBatch': '最小生産バッチ',
@@ -13771,18 +15120,23 @@ export default {
   'app.master-data.source.enterpriseProvide': '企業',
   'app.master-data.source.supplierProvide': 'サプライヤー',
   'app.master-data.source.configureTip': '項目の設定',
-  'app.master-data.source.configureTipDesc': 'アイテムの構成にはバリアント属性と BOM バリアントが必要です。バリアント管理タブで設定します。',
+  'app.master-data.source.configureTipDesc':
+    'アイテムの構成にはバリアント属性と BOM バリアントが必要です。バリアント管理タブで設定します。',
   'app.master-data.source.defaultVariant': '既定のバリアント',
   'app.master-data.source.defaultVariantPlaceholder': '既定のバリアントを入力してください',
   'app.master-data.source.bomVariantsLabel': 'BOM バリアント構成 (JSON)',
-  'app.master-data.source.bomVariantsPlaceholder': '形式: {"バリアント 1": {...}、"バリアント 2": {...}}',
+  'app.master-data.source.bomVariantsPlaceholder':
+    '形式: {"バリアント 1": {...}、"バリアント 2": {...}}',
   'app.master-data.source.phantomTip': '幻のアイテム',
-  'app.master-data.source.phantomTipDesc': 'ファントム項目は物理的に存在せず、BOM の拡張に使用されます。完全な BOM 構造を構成します。システムはファントムをスキップし、子マテリアルを展開します。',
+  'app.master-data.source.phantomTipDesc':
+    'ファントム項目は物理的に存在せず、BOM の拡張に使用されます。完全な BOM 構造を構成します。システムはファントムをスキップし、子マテリアルを展開します。',
   'app.master-data.source.serviceTip': 'サービスアイテム',
-  'app.master-data.source.serviceTipDesc': 'サービス資料はサービス項目を記録するためのものです。プロセスルートやサプライヤーの設定は必要ありません。',
+  'app.master-data.source.serviceTipDesc':
+    'サービス資料はサービス項目を記録するためのものです。プロセスルートやサプライヤーの設定は必要ありません。',
   'app.master-data.operationSequence.loadListFailed': '操作リストの読み込みに失敗しました',
   'app.master-data.operationSequence.selectToAdd': '追加するオペレーションを選択してください',
-  'app.master-data.operationSequence.allAddedOrNotFound': '選択した操作はすべてすでに追加されているか、見つかりません',
+  'app.master-data.operationSequence.allAddedOrNotFound':
+    '選択した操作はすべてすでに追加されているか、見つかりません',
   'app.master-data.operationSequence.addSuccess': '{{count}} オペレーションを追加しました',
   'app.master-data.operationSequence.selectToReplace': '置き換える操作を選択してください',
   'app.master-data.operationSequence.cannotReplaceSame': '同じ操作で置き換えることはできません',
@@ -13811,17 +15165,22 @@ export default {
   'app.master-data.operationSequence.selectOperation': '選択操作',
   'app.master-data.operationSequence.replaceOperation': '置換操作',
   'app.master-data.operationSequence.selectOperationPlaceholder': '検索および選択操作 (複数)...',
-  'app.master-data.operationSequence.pickSearchPlaceholder': 'オペレーションコードまたはオペレーション名で検索',
+  'app.master-data.operationSequence.pickSearchPlaceholder':
+    'オペレーションコードまたはオペレーション名で検索',
   'app.master-data.operationSequence.pickSelected': '{{count}} が選択されました',
   'app.master-data.operationSequence.pickSelectAll': 'リスト内のすべてを選択',
   'app.master-data.operationSequence.pickClear': 'クリア',
-  'app.master-data.operationSequence.selectReplacePlaceholder': '置換する操作を検索して選択します...',
+  'app.master-data.operationSequence.selectReplacePlaceholder':
+    '置換する操作を検索して選択します...',
   'app.master-data.operationSequence.loading': '読み込み中...',
   'app.master-data.operationSequence.noAvailableOperations': '利用可能な操作はありません',
-  'app.master-data.operationSequence.createOperationFirst': '利用可能な操作はありません。最初に「オペレーション」でオペレーションを作成してください',
+  'app.master-data.operationSequence.createOperationFirst':
+    '利用可能な操作はありません。最初に「オペレーション」でオペレーションを作成してください',
   'app.master-data.operationSequence.currentOperation': '現在の操作:',
-  'app.master-data.operationSequence.hint': 'ドラッグ アンド ドロップの並べ替えをサポートし、[削除] をクリックして削除します。',
-  'app.master-data.operationSequence.noDataAddHint': 'まだ操作がありません。下のボタンをクリックして追加してください',
+  'app.master-data.operationSequence.hint':
+    'ドラッグ アンド ドロップの並べ替えをサポートし、[削除] をクリックして削除します。',
+  'app.master-data.operationSequence.noDataAddHint':
+    'まだ操作がありません。下のボタンをクリックして追加してください',
   'app.master-data.formSchema.fieldConfig': 'コレクション項目構成',
   'app.master-data.formSchema.fieldCount': '{{count}} 項目',
   'app.master-data.formSchema.addField': '項目の追加',
@@ -13835,11 +15194,13 @@ export default {
   'app.master-data.formSchema.addFieldTitle': '項目の追加',
   'app.master-data.formSchema.fieldCode': '項目コード',
   'app.master-data.formSchema.fieldCodeRequired': '項目コードを入力してください',
-  'app.master-data.formSchema.fieldCodePattern': '項目 コードには文字、数字、アンダースコアのみを含めることができ、数字で始めることはできません',
+  'app.master-data.formSchema.fieldCodePattern':
+    '項目 コードには文字、数字、アンダースコアのみを含めることができ、数字で始めることはできません',
   'app.master-data.formSchema.fieldCodePlaceholder': '項目コードを入力してください (例: step_name)',
   'app.master-data.formSchema.fieldLabel': '項目ラベル',
   'app.master-data.formSchema.fieldLabelRequired': '項目ラベルを入力してください',
-  'app.master-data.formSchema.fieldLabelPlaceholder': '項目ラベルを入力してください (ステップ名など)',
+  'app.master-data.formSchema.fieldLabelPlaceholder':
+    '項目ラベルを入力してください (ステップ名など)',
   'app.master-data.formSchema.fieldType': '項目タイプ',
   'app.master-data.formSchema.fieldTypeRequired': '項目タイプを選択してください',
   'app.master-data.formSchema.componentType': 'コンポーネントの種類',
@@ -13858,7 +15219,8 @@ export default {
   'app.master-data.formSchema.optionsMustBeArray': 'オプションは配列である必要があります',
   'app.master-data.formSchema.optionsFormatError': '各オプションにはラベルと値が必要です',
   'app.master-data.formSchema.optionsJsonError': '無効な JSON 形式',
-  'app.master-data.formSchema.optionsTooltip': '選択のオプションを構成します。各行にはラベルと値があります。',
+  'app.master-data.formSchema.optionsTooltip':
+    '選択のオプションを構成します。各行にはラベルと値があります。',
   'app.master-data.formSchema.minValue': '分',
   'app.master-data.formSchema.minPlaceholder': '最小値 (オプション)',
   'app.master-data.formSchema.maxValue': 'マックス',
@@ -13867,7 +15229,8 @@ export default {
   'app.master-data.formSchema.unitPlaceholder': '単位（例：N・m、℃、kg）',
   'app.master-data.formSchema.precision': '精度',
   'app.master-data.formSchema.precisionPlaceholder': '小数点以下の桁数 (0 ～ 10)',
-  'app.master-data.formSchema.optionsFormatErrorMsg': '無効なオプション形式です。有効な JSON 配列を入力してください',
+  'app.master-data.formSchema.optionsFormatErrorMsg':
+    '無効なオプション形式です。有効な JSON 配列を入力してください',
   'app.master-data.formSchema.fieldCodeExists': '項目コードはすでに存在します',
   'app.master-data.formSchema.fieldUpdated': '項目が更新されました',
   'app.master-data.formSchema.fieldAdded': '項目が追加されました',
@@ -13941,7 +15304,8 @@ export default {
   'field.customer.assignedAt': '割り当て先',
   'field.customer.lastFollowUpAt': '最後のフォローアップ',
   'field.customer.assignToMe': '作成時に私に請求してください',
-  'field.customer.assignToMeDesc': '有効にすると、新しい顧客が割り当てられます。それ以外の場合はオープンプールに送られます',
+  'field.customer.assignToMeDesc':
+    '有効にすると、新しい顧客が割り当てられます。それ以外の場合はオープンプールに送られます',
   'field.customer.viewInPool': '顧客プールで見る',
   'field.customer.viewInMasterData': 'マスターデータの詳細',
   'field.customer.createTitle': '顧客の作成',
@@ -13953,7 +15317,8 @@ export default {
   'field.partner.taxRegistrationNo': '統一された社会信用コード/納税者番号',
   'field.partner.taxRegistrationNoPlaceholder': '18文字の統一コードまたは納税者ID',
   'field.partner.taxRegistrationNoMaxLength': '最大50文字',
-  'field.partner.taxRegistrationNoExtra': '企業は通常、統一された社会信用コードを使用します。 ID番号は個人でも使用できます。',
+  'field.partner.taxRegistrationNoExtra':
+    '企業は通常、統一された社会信用コードを使用します。 ID番号は個人でも使用できます。',
   'field.partner.invoiceTitle': '請求書のタイトル',
   'field.partner.invoiceTitlePlaceholder': '登録時に左揃えにした場合、既定で正式な名前になります',
   'field.partner.invoiceTitleMaxLength': '最大200文字',
@@ -13972,8 +15337,10 @@ export default {
   'field.partner.invoiceTypePlaceholder': '選択',
   'field.partner.invoiceType.digitalSpecial': '完全にデジタル化された VAT 特別請求書',
   'field.partner.invoiceType.digitalOrdinary': '完全にデジタル化された VAT 普通請求書',
-  'field.partner.invoiceType.legacyVatOrdinary': 'VAT の通常の請求書 (紙、レガシー - 現在は発行されていません)',
-  'field.partner.invoiceType.legacyVatSpecial': 'VAT 特別請求書 (紙、レガシー - 現在は発行されていません)',
+  'field.partner.invoiceType.legacyVatOrdinary':
+    'VAT の通常の請求書 (紙、レガシー - 現在は発行されていません)',
+  'field.partner.invoiceType.legacyVatSpecial':
+    'VAT 特別請求書 (紙、レガシー - 現在は発行されていません)',
   'field.partner.invoiceType.legacyVatESpecial': '従来の電子 VAT 特別請求書',
   'field.partner.invoiceType.legacyVatEOrdinary': '従来の電子 VAT 通常請求書',
   'field.partner.taxpayerType': '納税者の種類',
@@ -14124,7 +15491,8 @@ export default {
   'field.workCenter.name': 'ワークセンター名',
   'field.workCenter.description': '説明',
   'field.workCenter.workstationIds': '包含されたワークステーション',
-  'field.workCenter.workstationIdsPlaceholder': '含めるワークステーションを選択してください (オプション)',
+  'field.workCenter.workstationIdsPlaceholder':
+    '含めるワークステーションを選択してください (オプション)',
   'field.workCenter.quickAddWorkstation': 'ワークステーションのクイック追加',
   'field.workCenter.isActive': 'アクティブ',
   'field.workCenter.codePlaceholder': 'ワークセンターコードを入力してください',
@@ -14162,7 +15530,8 @@ export default {
   'field.warehouse.workshopIdPlaceholder': '作業場の選択 (ラインサイドの場合は必須)',
   'field.warehouse.workshopIdRequired': 'ライン側の倉庫は作業場に接続されている必要があります',
   'field.warehouse.workstationId': 'ワークステーション',
-  'field.warehouse.workstationIdPlaceholder': 'ワークステーションの選択 (オプション、ワークステーションレベルのライン側)',
+  'field.warehouse.workstationIdPlaceholder':
+    'ワークステーションの選択 (オプション、ワークステーションレベルのライン側)',
   'field.warehouse.workCenterId': 'ワークセンター',
   'field.warehouse.workCenterIdPlaceholder': 'ワークセンターの選択 (オプション)',
   'field.warehouse.workshopName': '作業場',
@@ -14213,25 +15582,30 @@ export default {
   'field.storageLocation.quickAddStorageArea': '保管エリアを追加',
   'field.storageLocation.batchCreateTitle': 'ロケーションのバッチ作成',
   'field.storageLocation.codePrefix': 'コードプレフィックス',
-  'field.storageLocation.codePrefixPlaceholder': '既定はストレージ市外局番です。プレフィックスがない場合は空のままにします',
-  'field.storageLocation.codePrefixExtra': '選択するとストレージの市外局番が自動入力され、編集可能またはクリア可能',
+  'field.storageLocation.codePrefixPlaceholder':
+    '既定はストレージ市外局番です。プレフィックスがない場合は空のままにします',
+  'field.storageLocation.codePrefixExtra':
+    '選択するとストレージの市外局番が自動入力され、編集可能またはクリア可能',
   'field.storageLocation.shelfRows': '棚の列',
   'field.storageLocation.shelfRowsPlaceholder': '1-99',
   'field.storageLocation.shelfLayers': '棚層',
   'field.storageLocation.shelfLayersPlaceholder': '無効にする場合は 0',
-  'field.storageLocation.shelfLayersExtra': '0 はこのディメンションを無効にし、行のみが使用されます',
+  'field.storageLocation.shelfLayersExtra':
+    '0 はこのディメンションを無効にし、行のみが使用されます',
   'field.storageLocation.layerPartitions': 'レイヤーパーティション',
   'field.storageLocation.layerPartitionsPlaceholder': '無効にする場合は 0',
   'field.storageLocation.layerPartitionsExtra': '0 はこのディメンションを無効にします',
   'field.storageLocation.shelfRowsRequired': '棚の行を入力してください',
-  'field.storageLocation.batchCreateNoItems': '位置情報が生成されません。パラメータを確認してください。',
+  'field.storageLocation.batchCreateNoItems':
+    '位置情報が生成されません。パラメータを確認してください。',
   'field.storageLocation.batchCreateTooMany': 'バッチあたり最大 {{max}} 個の場所',
   'field.storageLocation.batchCreateStepConfig': '設定する',
   'field.storageLocation.batchCreateStepPreview': 'プレビューと確認',
   'field.storageLocation.batchCreatePreview': 'プレビュー',
   'field.storageLocation.batchCreateBack': '戻る',
   'field.storageLocation.batchCreateConfirm': '作成の確認',
-  'field.storageLocation.batchCreatePreviewSummary': '{{count}} 個の場所が作成されます。確認して「作成を確認」をクリックしてください。',
+  'field.storageLocation.batchCreatePreviewSummary':
+    '{{count}} 個の場所が作成されます。確認して「作成を確認」をクリックしてください。',
   'field.storageLocation.batchCreatePreviewMore': '{{total}} の最初の {{shown}} を表示しています',
   'field.storageLocation.codePrefixNone': 'なし',
   'field.holiday.name': '祝日の名前',
@@ -14269,17 +15643,21 @@ export default {
   'field.operation.reportingType': 'レポートの種類',
   'field.operation.allowJump': 'ジャンプを許可する',
   'field.operation.isNodeOperation': 'ノードの操作',
-  'field.operation.isNodeOperationExtra': 'ノード操作: 作業指示または操作レベルでジャンプが許可されている場合でも、先行ノードをスキップすることはできません (出力があるか完了している必要があります)。',
+  'field.operation.isNodeOperationExtra':
+    'ノード操作: 作業指示または操作レベルでジャンプが許可されている場合でも、先行ノードをスキップすることはできません (出力があるか完了している必要があります)。',
   'field.operation.overReportMode': 'オーバーレポートモード',
   'field.operation.overReportModeNone': '許可されていません',
   'field.operation.overReportModeFixed': '数量別',
   'field.operation.overReportModePercent': '比率による',
   'field.operation.overReportValue': '過剰報告値',
-  'field.operation.overReportValuePlaceholder': '修正: 追加ユニット。パーセント: 作業指示数量の割合',
-  'field.operation.overReportValueExtra': '修正: 計画を超える追加完了数量は許可されます。パーセント: 計画 × 追加手当としてのこの %。',
+  'field.operation.overReportValuePlaceholder':
+    '修正: 追加ユニット。パーセント: 作業指示数量の割合',
+  'field.operation.overReportValueExtra':
+    '修正: 計画を超える追加完了数量は許可されます。パーセント: 計画 × 追加手当としてのこの %。',
   'field.route.overReportMode': 'ルート既定の過剰レポート',
   'field.route.overReportValue': 'ルートの既定値',
-  'field.route.overReportValueExtra': 'ステップに独自の設定がない場合は継承されます。ステップは上書きできます。',
+  'field.route.overReportValueExtra':
+    'ステップに独自の設定がない場合は継承されます。ステップは上書きできます。',
   'field.route.allowOperationJump': 'ジャンプ操作を許可する',
   'field.operation.isActive': 'アクティブ',
   'field.operation.inspectionMode': '検査モード',
@@ -14289,7 +15667,8 @@ export default {
   'field.operation.inspectionModePlan': '計画 (検査モジュールにリンク)',
   'field.operation.defaultInspectionPlan': '既定の検査計画',
   'field.operation.defaultInspectionPlanPlaceholder': '既定の検査計画を選択してください',
-  'field.operation.defectTypeUuidsSimpleHint': '簡易検査を使用する場合、不適格数量を記録するための欠陥タイプを設定します',
+  'field.operation.defectTypeUuidsSimpleHint':
+    '簡易検査を使用する場合、不適格数量を記録するための欠陥タイプを設定します',
   'field.operation.gotoInspectionPlans': '新しい検査計画の作成',
   'field.operation.defectTypeUuids': '欠陥の種類',
   'field.operation.quickAddDefectType': '不良品種別を追加',
@@ -14311,9 +15690,11 @@ export default {
   'field.operation.reportingTypeRequired': 'レポートの種類を選択してください',
   'field.operation.defectTypeUuidsPlaceholder': '欠陥タイプの選択 (複数)',
   'field.operation.defaultOperatorUuidsPlaceholder': '既定の演算子を選択します (複数)',
-  'field.operation.defaultPersonnelConfigsPlaceholder': '既定のオペレータまたはワークグループを選択します',
+  'field.operation.defaultPersonnelConfigsPlaceholder':
+    '既定のオペレータまたはワークグループを選択します',
   'field.operation.defaultWorkshopIdsPlaceholder': '既定の作業場を選択してください',
-  'field.operation.defaultResourceConfigsPlaceholder': '既定のワークステーションまたはワークセンターを選択してください',
+  'field.operation.defaultResourceConfigsPlaceholder':
+    '既定のワークステーションまたはワークセンターを選択してください',
   'field.operation.defaultEquipmentIdsPlaceholder': '既定の機器を選択（複数）',
   'field.operation.optionPersonnel': '【人事】',
   'field.operation.optionTeam': '[チーム]',
@@ -14322,7 +15703,8 @@ export default {
   'field.operation.reportingTypeQuantity': '量',
   'field.operation.reportingTypeStatus': '状態',
   'field.operation.reportingTypeExtra': '数量: 入力完了/条件付き数。ステータス: 完了/未完了のみ。',
-  'field.operation.allowJumpExtra': 'ジャンプを許可: 並列実行。禁止: 最初に前の操作を完了する必要があります。',
+  'field.operation.allowJumpExtra':
+    'ジャンプを許可: 並列実行。禁止: 最初に前の操作を完了する必要があります。',
   'field.operation.codeAutoGenerated': '{{label}} と入力してください',
   'field.operation.createTitle': 'オペレーションの作成',
   'field.operation.loadPreset': 'プリセットをロードする',
@@ -14355,17 +15737,21 @@ export default {
   'field.role.roleTypeExternal': '外部の役割',
   'field.role.externalPartnerType': '外付けタイプ',
   'field.role.externalPartnerTypePlaceholder': '顧客またはサプライヤーを選択してください',
-  'field.role.externalPartnerTypeExtra': '外部ロールの場合にのみ必要です。内部ロールはこれを自動的にクリアします。',
+  'field.role.externalPartnerTypeExtra':
+    '外部ロールの場合にのみ必要です。内部ロールはこれを自動的にクリアします。',
   'field.role.externalPartnerCustomer': 'お客様',
   'field.role.externalPartnerSupplier': 'サプライヤー',
   'field.role.createPosition': 'ロールからポジションを作成する',
   'field.role.createSuccessWithPosition': '役割とポジションが作成しました',
   'field.role.homePath': 'UniTabs ホームページ',
-  'field.role.homePathPlaceholder': 'ルートを選択するか、グローバル ルールの場合は空のままにしてください',
-  'field.role.homePathExtra': 'メニューホームよりも優先されます。それ以外の場合: メニュー ホーム → 職場 → 既定のホームページ。',
+  'field.role.homePathPlaceholder':
+    'ルートを選択するか、グローバル ルールの場合は空のままにしてください',
+  'field.role.homePathExtra':
+    'メニューホームよりも優先されます。それ以外の場合: メニュー ホーム → 職場 → 既定のホームページ。',
   'field.role.createTitle': 'ロールの作成',
   'pages.system.defaultHome.title': 'いらっしゃいませ',
-  'pages.system.defaultHome.description': 'ロールまたはメニュー ホームが構成されていません。サイドバーから機能を開くか、管理者に「役割」または「メニュー」でホームページを設定するよう依頼します。',
+  'pages.system.defaultHome.description':
+    'ロールまたはメニュー ホームが構成されていません。サイドバーから機能を開くか、管理者に「役割」または「メニュー」でホームページを設定するよう依頼します。',
   'pages.system.defaultHome.goWorkplace': '職場に行く',
   'pages.system.defaultHome.goApplications': 'アプリセンター',
   'pages.system.roles.saveRoleHome': 'ホームページを保存する',
@@ -14379,7 +15765,8 @@ export default {
   'field.role.permissions': '権限',
   'field.role.delete': '消去',
   'field.role.deleteConfirm': 'このロールを削除してもよろしいですか?',
-  'field.role.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?システム役割は削除できません。この操作は元に戻すことができません。',
+  'field.role.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?システム役割は削除できません。この操作は元に戻すことができません。',
   'field.role.systemRole': 'システムの役割',
   'field.role.permissionCount': '権限',
   'field.role.userCount': 'ユーザー',
@@ -14401,7 +15788,8 @@ export default {
   'field.department.nameRequired': '部署名を入力してください',
   'field.department.codePlaceholder': '部門コードを入力してください',
   'field.department.codeRequired': '部門コードを入力してください',
-  'field.department.parentIdPlaceholder': '親部門を選択します (オプション、最上位の場合は空白のままにします)',
+  'field.department.parentIdPlaceholder':
+    '親部門を選択します (オプション、最上位の場合は空白のままにします)',
   'field.department.descriptionPlaceholder': '備考を入力してください',
   'field.department.createTitle': '部門の作成',
   'field.department.loadPreset': 'プリセットをロードする',
@@ -14415,16 +15803,22 @@ export default {
   'field.department.delete': '消去',
   'field.department.deleteConfirm': '部門「{{name}}」を削除してもよろしいですか?',
   'field.department.deleteConfirmDesc': 'この操作は元に戻すことができません。',
-  'field.department.batchDeleteConfirm': '選択した{{count}}部門を削除してもよろしいですか?この操作は元に戻すことができません。',
+  'field.department.batchDeleteConfirm':
+    '選択した{{count}}部門を削除してもよろしいですか?この操作は元に戻すことができません。',
   'field.department.batchDeleteTitle': '選択した部門を一括削除してもよろしいですか?',
-  'field.department.batchDeleteDescription': '{{count}} 部門が削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'field.department.batchDeleteDescription':
+    '{{count}} 部門が削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'field.department.batchDeleteBlocked': '一括削除がブロックされました',
   'field.department.batchDeleteBlockedList': '以下の部門は削除できません。',
   'field.department.batchDeleteBlockedHint': '問題を解決して再試行してください。',
-  'field.department.checkHasChildren': '部門には子部門があります。最初にそれらを削除または移動します。',
-  'field.department.checkHasPositions': '部門にはリンクされたポジションがあります。まずはそれらを解決してください。',
-  'field.department.checkHasUsers': '部門にはユーザーがリンクされています。まずそれらを削除してください。',
-  'field.department.alreadyDeletedRefresh': 'この部門はすでに削除されているか、存在しません。リストが更新されました。',
+  'field.department.checkHasChildren':
+    '部門には子部門があります。最初にそれらを削除または移動します。',
+  'field.department.checkHasPositions':
+    '部門にはリンクされたポジションがあります。まずはそれらを解決してください。',
+  'field.department.checkHasUsers':
+    '部門にはユーザーがリンクされています。まずそれらを削除してください。',
+  'field.department.alreadyDeletedRefresh':
+    'この部門はすでに削除されているか、存在しません。リストが更新されました。',
   'field.department.childrenCount': '{{count}}人の子供たち',
   'field.department.userCount': 'ユーザー',
   'field.department.userCountTag': '{{count}} ユーザー',
@@ -14444,15 +15838,19 @@ export default {
   'field.department.queryCode': 'クエリコード',
   'field.department.datasetBindingModalTitle': '部門 · データセット バインディング',
   'field.department.datasetBindingDataset': 'データセット',
-  'field.department.datasetBindingDatasetPlaceholder': '部門を同期するデータセットを選択します (パラメータなしのクエリをサポートする必要があります)',
-  'field.department.datasetBindingLoadColumns': '列名をロードします (パラメータなしのクエリを 1 つ実行します)',
+  'field.department.datasetBindingDatasetPlaceholder':
+    '部門を同期するデータセットを選択します (パラメータなしのクエリをサポートする必要があります)',
+  'field.department.datasetBindingLoadColumns':
+    '列名をロードします (パラメータなしのクエリを 1 つ実行します)',
   'field.department.colDepartmentName': '部署名欄',
   'field.department.colDepartmentCode': 'Department code column',
   'field.department.colParentRef': '親参照列',
   'field.department.colDescription': '備考・説明欄',
   'field.department.syncIntroTitle': 'データセットから部門を同期する',
-  'field.department.syncNeedBinding': 'データセットを構成し、最初に少なくとも部門名の列マッピングを保存します。',
-  'field.department.bindingColumnsLoaded': '{{count}} 列がロードされました。ドロップダウンからマッピングを選択します',
+  'field.department.syncNeedBinding':
+    'データセットを構成し、最初に少なくとも部門名の列マッピングを保存します。',
+  'field.department.bindingColumnsLoaded':
+    '{{count}} 列がロードされました。ドロップダウンからマッピングを選択します',
   'field.position.name': '役職名',
   'field.position.code': '位置コード',
   'field.position.departmentUuid': '部門',
@@ -14477,9 +15875,11 @@ export default {
   'field.position.status': '状態',
   'field.position.userCount': 'ユーザー',
   'field.position.deleteConfirm': 'このポジションを削除してもよろしいですか?',
-  'field.position.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
+  'field.position.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
   'field.position.batchDeleteTitle': '選択したポジションを一括削除してもよろしいですか?',
-  'field.position.batchDeleteDescription': '{{count}} ポジションが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'field.position.batchDeleteDescription':
+    '{{count}} ポジションが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'field.tenant.name': 'テナント名',
   'field.tenant.code': 'テナントコード',
   'field.tenant.packageId': 'パッケージ',
@@ -14494,7 +15894,8 @@ export default {
   'field.language.isActive': '有効',
   'field.language.codePlaceholder': '言語コードを選択してください',
   'field.language.codeRequired': '言語コードを選択してください',
-  'field.language.codeExtra': '言語コードはプログラムを識別するためのものです。作成後に変更することはできません。',
+  'field.language.codeExtra':
+    '言語コードはプログラムを識別するためのものです。作成後に変更することはできません。',
   'field.language.namePlaceholder': '例えば中国語、英語、日本語',
   'field.language.nameRequired': '言語名を入力してください',
   'field.language.codeZhCN': '簡体字中国語 (zh-CN)',
@@ -14510,12 +15911,15 @@ export default {
   'field.language.edit': '編集',
   'field.language.delete': '消去',
   'field.language.deleteConfirm': 'この言語を削除してもよろしいですか?',
-  'field.language.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?既定言語は削除できません。この操作は元に戻すことができません。',
+  'field.language.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?既定言語は削除できません。この操作は元に戻すことができません。',
   'field.language.batchDeleteTitle': '選択した言語を一括削除してもよろしいですか?',
-  'field.language.batchDeleteDescription': '{{count}} 言語が削除されます。この操作は元に戻すことができません。既定言語は削除できません。',
+  'field.language.batchDeleteDescription':
+    '{{count}} 言語が削除されます。この操作は元に戻すことができません。既定言語は削除できません。',
   'field.language.translationCount': '翻訳',
   'field.language.loadSystemLanguages': 'システム言語をロードする',
-  'field.language.loadSystemLanguagesSuccess': 'システム言語がロードされました! {{created}} を作成し、既存の {{skipped}} をスキップしました',
+  'field.language.loadSystemLanguagesSuccess':
+    'システム言語がロードされました! {{created}} を作成し、既存の {{skipped}} をスキップしました',
   'field.language.syncFromLocale': 'ロケールから同期',
   'field.language.syncFromLocaleSuccess': 'ロケールからの {{count}} 翻訳の同期',
   'field.language.translationKey': '鍵',
@@ -14524,7 +15928,8 @@ export default {
   'field.language.translationValuePlaceholder': '換算値',
   'field.language.addTranslation': '追加',
   'field.language.keyExists': '翻訳キーはすでに存在します',
-  'field.language.noLocaleForCode': '{{code}} のロケールがありません。 zh-CN と en-US のみがサポートされています。',
+  'field.language.noLocaleForCode':
+    '{{code}} のロケールがありません。 zh-CN と en-US のみがサポートされています。',
   'field.invitationCode.code': '招待コード',
   'field.invitationCode.email': '招待メール',
   'field.invitationCode.roleId': '既定のロールID',
@@ -14544,7 +15949,8 @@ export default {
   'field.invitationCode.edit': '編集',
   'field.invitationCode.delete': '消去',
   'field.invitationCode.deleteConfirm': 'この招待コードを削除してもよろしいですか?',
-  'field.invitationCode.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
+  'field.invitationCode.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
   'field.invitationCode.copy': 'コピー',
   'field.invitationCode.copySuccess': '招待コードをクリップボードにコピーしました',
   'field.invitationCode.usedCount': '使用法',
@@ -14569,10 +15975,12 @@ export default {
   'field.dataDictionary.items': 'アイテム',
   'field.dataDictionary.delete': '消去',
   'field.dataDictionary.deleteConfirm': 'この辞書を削除してもよろしいですか?',
-  'field.dataDictionary.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?システム辞書は削除できません。この操作は元に戻すことができません。',
+  'field.dataDictionary.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?システム辞書は削除できません。この操作は元に戻すことができません。',
   'field.dataDictionary.systemDictionary': 'システム辞書',
   'field.dataDictionary.loadSystemDictionaries': 'システム辞書のロード',
-  'field.dataDictionary.loadSystemDictionariesSuccess': 'システム辞書が初期化されました! {{dictCount}} 個の辞書が作成され、{{itemsCreated}} 個のアイテムが作成され、{{itemsUpdated}} 個のアイテムが更新されました',
+  'field.dataDictionary.loadSystemDictionariesSuccess':
+    'システム辞書が初期化されました! {{dictCount}} 個の辞書が作成され、{{itemsCreated}} 個のアイテムが作成され、{{itemsUpdated}} 個のアイテムが更新されました',
   'field.dataDictionary.manageItems': 'アイテムの管理',
   'field.dataDictionary.createItem': 'アイテムの作成',
   'field.dataDictionary.editItem': '項目の編集',
@@ -14621,12 +16029,14 @@ export default {
   'field.systemParameter.edit': '編集',
   'field.systemParameter.delete': '消去',
   'field.systemParameter.deleteConfirm': 'このパラメータを削除してもよろしいですか?',
-  'field.systemParameter.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?システムパラメータは削除できません。この操作は元に戻すことができません。',
+  'field.systemParameter.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?システムパラメータは削除できません。この操作は元に戻すことができません。',
   'field.systemParameter.keyPlaceholder': 'パラメータキー(一意の識別子)を入力してください',
   'field.systemParameter.keyRequired': 'パラメータキーを入力してください',
   'field.systemParameter.typeRequired': 'パラメータのタイプを選択してください',
   'field.systemParameter.valueRequired': 'パラメータ値を入力してください',
-  'field.systemParameter.valueJsonPlaceholder': 'JSON 値を入力します。例: {"キー": "値"} または ["アイテム1"、"アイテム2"]',
+  'field.systemParameter.valueJsonPlaceholder':
+    'JSON 値を入力します。例: {"キー": "値"} または ["アイテム1"、"アイテム2"]',
   'field.systemParameter.valueStringPlaceholder': '文字列値を入力してください',
   'field.systemParameter.valueNumberPlaceholder': '番号を入力してください',
   'field.systemParameter.descriptionPlaceholder': 'パラメータの説明を入力してください',
@@ -14797,7 +16207,8 @@ export default {
   'pages.system.applications.dedicatedBindingTenantIdCol': 'テナントID',
   'pages.system.applications.dedicatedBindingCreatedAt': '行き先',
   'pages.system.applications.dedicatedBindingUnbind': 'バインドを解除する',
-  'pages.system.applications.dedicatedBindingUnbindConfirm': 'このテナントをこのカスタム アプリからバインド解除しますか?',
+  'pages.system.applications.dedicatedBindingUnbindConfirm':
+    'このテナントをこのカスタム アプリからバインド解除しますか?',
   'pages.system.applications.dedicatedBindingAddSection': 'より多くのテナントをバインドする',
   'pages.system.applications.dedicatedBindingTenantPlaceholder': 'キーワードでテナントを検索',
   'pages.system.applications.dedicatedBindingBind': '選択したテナントをバインドする',
@@ -14806,7 +16217,8 @@ export default {
   'pages.system.applications.dedicatedBindingPickTenant': 'バインドするテナントを選択してください',
   'pages.system.applications.dedicatedBindingBindSuccess': '正常にバインドされました',
   'pages.system.applications.dedicatedBindingBindFailed': 'バインドに失敗しました',
-  'pages.system.applications.dedicatedBindingNoCurrentTenant': 'このアカウントにはテナント コンテキストがありません。現在のテナントをバインドできません',
+  'pages.system.applications.dedicatedBindingNoCurrentTenant':
+    'このアカウントにはテナント コンテキストがありません。現在のテナントをバインドできません',
   'pages.system.applications.dedicatedBindingUnbindSuccess': '正常にバインド解除されました',
   'pages.system.applications.dedicatedBindingUnbindFailed': 'バインド解除に失敗しました',
   'pages.system.applications.syncFailed': '同期に失敗しました',
@@ -14851,25 +16263,30 @@ export default {
   'pages.system.applications.mutualExclusiveSwitchTitle': '相互に排他的なモードスイッチ',
   'pages.system.applications.mutualExclusiveSwitchingTo': '{{target}} に切り替えます。',
   'pages.system.applications.mutualExclusiveCurrentlyEnabled': '現在有効です',
-  'pages.system.applications.mutualExclusiveWillAutoDisable': 'は自動的に無効になり、メニューから非表示になります。',
-  'pages.system.applications.mutualExclusiveDataShared': 'どちらのモードも同じビジネス データを共有します。切り替えてもデータは失われません。',
+  'pages.system.applications.mutualExclusiveWillAutoDisable':
+    'は自動的に無効になり、メニューから非表示になります。',
+  'pages.system.applications.mutualExclusiveDataShared':
+    'どちらのモードも同じビジネス データを共有します。切り替えてもデータは失われません。',
   'pages.system.applications.mutualExclusiveConfirm': 'スイッチ',
   'pages.system.applications.customAppsEmptyTitle': '承認されたカスタム アプリはまだありません',
   'pages.system.applications.customAppsEmptyQrAlt': 'お問い合わせQRコード',
-  'pages.system.applications.customAppsEmptyQrHint': 'WeChat でスキャンしてカスタマイズについて話し合う',
+  'pages.system.applications.customAppsEmptyQrHint':
+    'WeChat でスキャンしてカスタマイズについて話し合う',
   'pages.system.applications.headerTitle': 'アプリセンター',
   'pages.system.applications.detailTitle': '申請詳細',
   'pages.system.applications.clientReleasesSectionTitle': 'クライアント',
   'pages.system.applications.clientReleasesLoading': 'クライアント リリースを読み込んでいます…',
   'pages.system.applications.clientReleasesLinkedTitle': 'リンクされたクライアント',
-  'pages.system.applications.clientReleasesManageLink': 'プラットフォーム コンソールでのリリースの管理 (プラットフォーム管理者が必要)',
+  'pages.system.applications.clientReleasesManageLink':
+    'プラットフォーム コンソールでのリリースの管理 (プラットフォーム管理者が必要)',
   'pages.system.applications.noDataExport': 'エクスポートするデータがありません',
   'pages.system.applications.exportSuccessCount': '{{count}} レコードをエクスポートしました',
   'pages.system.applications.exportFailed': 'エクスポートに失敗しました',
   'pages.system.applications.loadListFailed': 'アプリリストの読み込みに失敗しました',
   'pages.system.applications.scanApplications': 'スキャンアプリ',
   'pages.system.applications.scanSuccess': 'スキャンして登録した {{count}} アプリ',
-  'pages.system.applications.scanMenuHint': 'スキャンではアプリ カタログのみが更新されます。メニューまたは権限が古いと思われる場合は、「すべてのメニューを同期」を使用してください。',
+  'pages.system.applications.scanMenuHint':
+    'スキャンではアプリ カタログのみが更新されます。メニューまたは権限が古いと思われる場合は、「すべてのメニューを同期」を使用してください。',
   'pages.system.applications.scanFailed': 'アプリのスキャンに失敗しました',
   'pages.system.applications.syncAllMenus': 'すべてのメニューを同期する',
   'pages.system.applications.syncAllNoApps': 'アプリがインストールされていません',
@@ -14880,14 +16297,17 @@ export default {
   'pages.system.applications.editModalTitle': 'アプリ設定 - {{name}}',
   'pages.system.applications.upgradeModalTitle': 'アップグレード - {{name}}',
   'pages.system.applications.restoreDefault': '既定に戻す',
-  'pages.system.applications.restoreDefaultConfirm': '既定の名前と設定をmanifest.jsonから復元しますか?',
+  'pages.system.applications.restoreDefaultConfirm':
+    '既定の名前と設定をmanifest.jsonから復元しますか?',
   'pages.system.applications.restoreSuccess': '既定に復元されました',
   'pages.system.applications.restoreFailed': '復元に失敗しました',
   'pages.system.applications.nameLabel': 'アプリ名',
   'sys.app.kuaizhizao.name': 'クアイ・マニュファクチャリング',
-  'sys.app.kuaizhizao.desc': '製造業向けの全プロセス統合制御およびコラボレーション プラットフォーム',
+  'sys.app.kuaizhizao.desc':
+    '製造業向けの全プロセス統合制御およびコラボレーション プラットフォーム',
   'sys.app.kuaiplm.name': 'クアイPLM',
-  'sys.app.kuaiplm.desc': '研究開発プロジェクト / NPI ステージゲート、設計変更およびナレッジセンターコラボレーションプラットフォーム',
+  'sys.app.kuaiplm.desc':
+    '研究開発プロジェクト / NPI ステージゲート、設計変更およびナレッジセンターコラボレーションプラットフォーム',
   'sys.app.kuaicaiwu.name': 'クアイ・ファイナンス',
   'sys.app.kuaicaiwu.desc': '管理会計・経営分析連携プラットフォーム（総勘定元帳を除く）',
   'sys.app.kuaireport.name': 'クアイレポート',
@@ -14897,66 +16317,92 @@ export default {
   'sys.app.kuaierp.name': 'クアイERP',
   'sys.app.kuaierp.desc': '調達、販売、在庫のフルリンクコラボレーション管理プラットフォーム',
   'sys.app.kuaimes.name': 'クアイ MES',
-  'sys.app.kuaimes.desc': '無駄のない製造現場の実行と生産計画のリアルタイム コラボレーション プラットフォーム',
+  'sys.app.kuaimes.desc':
+    '無駄のない製造現場の実行と生産計画のリアルタイム コラボレーション プラットフォーム',
   'sys.app.kuaiiot.name': 'クアイIoT',
   'sys.app.kuaiiot.desc': '産業用 IoT デバイスのデータ収集・統合プラットフォーム（近日公開）',
   'sys.app.kuaiai.name': 'KU-AI',
-  'sys.app.kuaiai.desc': '業務シーンに組み込まれた AI 支援エンジン。対話アシスタントと業務インテリジェンス提案を提供',
+  'sys.app.kuaiai.desc':
+    '業務シーンに組み込まれた AI 支援エンジン。対話アシスタントと業務インテリジェンス提案を提供',
   'pages.system.applications.mock.kuaicrm.name': 'クアイCRM',
   'pages.system.applications.mock.kuaicrm.desc': '次世代のインテリジェント CRM システム、近日登場',
   'pages.system.applications.mock.kuaisrm.name': 'クアイ SRM',
-  'pages.system.applications.mock.kuaisrm.desc': '次世代のサプライチェーンとサプライヤーコラボレーションプラットフォーム、近日提供予定',
+  'pages.system.applications.mock.kuaisrm.desc':
+    '次世代のサプライチェーンとサプライヤーコラボレーションプラットフォーム、近日提供予定',
   'pages.system.applications.mock.kuaimachinery.name': 'マシニングアドオン',
-  'pages.system.applications.mock.kuaimachinery.desc': 'Exclusive capability package for the machining industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaimachinery.desc':
+    'Exclusive capability package for the machining industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaimolding.name': '射出成形アドオン',
-  'pages.system.applications.mock.kuaimolding.desc': 'Kuai Manufacturing に基づく射出成形業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaimolding.desc':
+    'Kuai Manufacturing に基づく射出成形業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaielectronics.name': '電子機器のアドオン',
-  'pages.system.applications.mock.kuaielectronics.desc': 'Kuai Manufacturing に基づいたエレクトロニクス業界専用の機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaielectronics.desc':
+    'Kuai Manufacturing に基づいたエレクトロニクス業界専用の機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaiautoparts.name': '自動車部品アドオン',
-  'pages.system.applications.mock.kuaiautoparts.desc': 'Exclusive capability package for the auto parts industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaiautoparts.desc':
+    'Exclusive capability package for the auto parts industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaimedical.name': '医療機器アドオン',
-  'pages.system.applications.mock.kuaimedical.desc': 'Kuai Manufacturing に基づいた医療機器業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaimedical.desc':
+    'Kuai Manufacturing に基づいた医療機器業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaifood.name': '食べ物と飲み物のアドオン',
-  'pages.system.applications.mock.kuaifood.desc': 'Kuai Manufacturing に基づいた食品および飲料業界向けの独自の機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaifood.desc':
+    'Kuai Manufacturing に基づいた食品および飲料業界向けの独自の機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaipackaging.name': 'パッケージングと印刷のアドオン',
-  'pages.system.applications.mock.kuaipackaging.desc': 'Kuai Manufacturing に基づく、パッケージングおよび印刷業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaipackaging.desc':
+    'Kuai Manufacturing に基づく、パッケージングおよび印刷業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaihardware.name': 'ハードウェアスタンピングアドオン',
-  'pages.system.applications.mock.kuaihardware.desc': 'Kuai Manufacturing に基づくハードウェア スタンピング業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaihardware.desc':
+    'Kuai Manufacturing に基づくハードウェア スタンピング業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaidiecasting.name': 'ダイカストアドオン',
-  'pages.system.applications.mock.kuaidiecasting.desc': 'Kuai Manufacturing をベースとしたダイカスト業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaidiecasting.desc':
+    'Kuai Manufacturing をベースとしたダイカスト業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaiwiring.name': 'ワイヤーハーネスアドオン',
-  'pages.system.applications.mock.kuaiwiring.desc': 'Kuai Manufacturing に基づくワイヤー ハーネス業界専用の機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaiwiring.desc':
+    'Kuai Manufacturing に基づくワイヤー ハーネス業界専用の機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaimotor.name': 'モーターアドオン',
-  'pages.system.applications.mock.kuaimotor.desc': 'Kuai Manufacturing に基づいたモーター業界専用の機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaimotor.desc':
+    'Kuai Manufacturing に基づいたモーター業界専用の機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaibattery.name': 'バッテリーアドオン',
-  'pages.system.applications.mock.kuaibattery.desc': 'Exclusive capability package for the battery industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaibattery.desc':
+    'Exclusive capability package for the battery industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuainewequipment.name': '新エネルギー設備アドオン',
-  'pages.system.applications.mock.kuainewequipment.desc': 'Kuai Manufacturing に基づく新エネルギー機器業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuainewequipment.desc':
+    'Kuai Manufacturing に基づく新エネルギー機器業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaisheetmetal.name': 'シートメタルアドオン',
-  'pages.system.applications.mock.kuaisheetmetal.desc': 'Kuai Manufacturing に基づく板金業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaisheetmetal.desc':
+    'Kuai Manufacturing に基づく板金業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaimold.name': 'モールドアドオン',
-  'pages.system.applications.mock.kuaimold.desc': 'Kuai Manufacturing に基づいた金型業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaimold.desc':
+    'Kuai Manufacturing に基づいた金型業界向けの独占的な機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuaisemiconductor.name': '半導体アドオン',
-  'pages.system.applications.mock.kuaisemiconductor.desc': 'Kuai Manufacturing に基づいた半導体業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
+  'pages.system.applications.mock.kuaisemiconductor.desc':
+    'Kuai Manufacturing に基づいた半導体業界向けの専用機能パッケージ。私たちとの共同創造へようこそ',
   'pages.system.applications.mock.kuailogistics.name': 'クアイロジスティクス',
-  'pages.system.applications.mock.kuailogistics.desc': '物流と生産能力のコラボレーション管理プラットフォーム、近日公開予定',
+  'pages.system.applications.mock.kuailogistics.desc':
+    '物流と生産能力のコラボレーション管理プラットフォーム、近日公開予定',
   'pages.system.applications.mock.kuaiaftersales.name': 'クアイアフターセールス',
-  'pages.system.applications.mock.kuaiaftersales.desc': 'アフターサービスとクローズドループ追跡管理プラットフォームは近日提供予定',
+  'pages.system.applications.mock.kuaiaftersales.desc':
+    'アフターサービスとクローズドループ追跡管理プラットフォームは近日提供予定',
   'pages.system.applications.mock.kuaiexperiment.name': 'クアイ実験',
-  'pages.system.applications.mock.kuaiexperiment.desc': '実験プロセスと結果のトレーサビリティ管理プラットフォーム、近日提供予定',
+  'pages.system.applications.mock.kuaiexperiment.desc':
+    '実験プロセスと結果のトレーサビリティ管理プラットフォーム、近日提供予定',
   'pages.system.applications.mock.kuaiip.name': 'クアイIP',
-  'pages.system.applications.mock.kuaiip.desc': '知的財産のフルライフサイクル管理プラットフォーム、近日提供予定',
+  'pages.system.applications.mock.kuaiip.desc':
+    '知的財産のフルライフサイクル管理プラットフォーム、近日提供予定',
   'pages.system.applications.mock.kuaienergy.name': 'クアイ・エナジー',
-  'pages.system.applications.mock.kuaienergy.desc': 'エネルギー データのモニタリングと効率分析のプラットフォーム、近日公開予定',
+  'pages.system.applications.mock.kuaienergy.desc':
+    'エネルギー データのモニタリングと効率分析のプラットフォーム、近日公開予定',
   'pages.system.applications.descriptionLabel': 'アプリの説明',
   'pages.system.applications.descriptionPlaceholder': 'アプリの説明を入力してください',
   'pages.system.applications.sortOrderHint': 'ソート順序 (下位 = 最初)',
-  'pages.system.applications.editHint': '表示名と説明をカスタマイズできます。 「既定に戻す」は、manifest.json から設定を再適用します。',
+  'pages.system.applications.editHint':
+    '表示名と説明をカスタマイズできます。 「既定に戻す」は、manifest.json から設定を再適用します。',
   'pages.system.applications.newVersionLabel': '新しいバージョン',
   'pages.system.applications.newVersionPlaceholder': '例えば1.0.1',
   'pages.system.applications.changelogLabel': '変更履歴',
   'pages.system.applications.changelogPlaceholder': '更新内容を入力してください...',
-  'pages.system.applications.upgradeHint': 'アップグレード後、このアプリを使用しているすべてのテナントに新しいバージョンが表示されます。',
+  'pages.system.applications.upgradeHint':
+    'アップグレード後、このアプリを使用しているすべてのテナントに新しいバージョンが表示されます。',
   'pages.system.applications.resetConfirmPhrase': 'データのリセットによる影響を理解しています',
   'pages.system.applications.resetData': 'データをリセットする',
   'pages.system.siteSettings.loadFailed': 'サイト設定の読み込みに失敗しました',
@@ -14967,26 +16413,34 @@ export default {
   'pages.system.siteSettings.logoClearFailed': 'ロゴをクリアできませんでした',
   'pages.system.siteSettings.logoUploadFailed': 'ロゴのアップロードに失敗しました',
   'pages.system.siteSettings.loginDecorationImage': 'ログイン装飾イメージ',
-  'pages.system.siteSettings.loginDecorationImagePlaceholder': '画像の URL またはファイルの UUID を入力してください',
+  'pages.system.siteSettings.loginDecorationImagePlaceholder':
+    '画像の URL またはファイルの UUID を入力してください',
   'pages.system.siteSettings.uploadDecorationImage': 'デコレーション画像をアップロードする',
   'pages.system.siteSettings.clearDecorationImage': 'クリア装飾イメージ',
   'pages.system.siteSettings.loginDecorationRecommendedSize': '推奨サイズ: 800 x 800 px',
-  'pages.system.siteSettings.loginDecorationUploadSuccess': 'デコレーション画像をアップロードしました',
-  'pages.system.siteSettings.loginDecorationUploadFailed': 'デコレーション画像のアップロードに失敗しました',
+  'pages.system.siteSettings.loginDecorationUploadSuccess':
+    'デコレーション画像をアップロードしました',
+  'pages.system.siteSettings.loginDecorationUploadFailed':
+    'デコレーション画像のアップロードに失敗しました',
   'pages.system.siteSettings.loginLogo': 'ログインロゴ',
-  'pages.system.siteSettings.loginLogoPlaceholder': 'ログインロゴURLまたはファイルUUIDを入力してください',
+  'pages.system.siteSettings.loginLogoPlaceholder':
+    'ログインロゴURLまたはファイルUUIDを入力してください',
   'pages.system.siteSettings.uploadLoginLogo': 'ログインロゴをアップロードする',
   'pages.system.siteSettings.clearLoginLogo': 'クリアなログインロゴ',
   'pages.system.siteSettings.loginLogoUploadSuccess': 'ログインロゴをアップロードしました',
   'pages.system.siteSettings.loginLogoUploadFailed': 'ログインロゴのアップロードに失敗しました',
-  'pages.system.siteSettings.loginLogoFollowSiteLogo': '個別に設定しない場合は、既定でサイトのロゴに従います',
+  'pages.system.siteSettings.loginLogoFollowSiteLogo':
+    '個別に設定しない場合は、既定でサイトのロゴに従います',
   'pages.system.siteSettings.loginLogoFollowingSiteLogo': '現在フォローしているサイトのロゴ',
   'pages.system.siteSettings.enableCustomLoginLogo': 'ログインロゴを別途設定する',
   'pages.system.siteSettings.disableCustomLoginLogo': 'サイトのロゴに戻す',
-  'pages.system.siteSettings.loginPageResetSuccess': 'ログインページのカスタム設定がリセットされました。プラットフォーム設定に従っています',
-  'pages.system.siteSettings.loginPageResetFailed': 'ログインページの設定をリセットできませんでした',
+  'pages.system.siteSettings.loginPageResetSuccess':
+    'ログインページのカスタム設定がリセットされました。プラットフォーム設定に従っています',
+  'pages.system.siteSettings.loginPageResetFailed':
+    'ログインページの設定をリセットできませんでした',
   'pages.system.siteSettings.loginLeftPreview': 'ログインの左列プレビュー',
-  'pages.system.siteSettings.loginLeftPreviewHint': 'ログインページの左側のブランドパネルのライブプレビュー。変更は保存後に適用されます。',
+  'pages.system.siteSettings.loginLeftPreviewHint':
+    'ログインページの左側のブランドパネルのライブプレビュー。変更は保存後に適用されます。',
   'pages.system.siteSettings.loginEditorVisual': 'ビジュアル',
   'pages.system.siteSettings.loginEditorCode': 'コード',
   'pages.system.siteSettings.uploadFailed': 'アップロードに失敗しました',
@@ -14994,7 +16448,8 @@ export default {
   'pages.system.siteSettings.refresh': 'リフレッシュ',
   'pages.system.siteSettings.save': '保存',
   'pages.system.siteSettings.siteLogo': 'サイトロゴ',
-  'pages.system.siteSettings.siteLogoTooltip': '画像をサイトのロゴとしてアップロード (テナント分離)',
+  'pages.system.siteSettings.siteLogoTooltip':
+    '画像をサイトのロゴとしてアップロード (テナント分離)',
   'pages.system.siteSettings.uploadLogo': 'ロゴをアップロードする',
   'pages.system.siteSettings.clearLogo': 'クリアロゴ',
   'pages.system.siteSettings.siteName': 'サイト名',
@@ -15032,12 +16487,17 @@ export default {
   'pages.system.siteSettings.integrationsDeepseekEnabled': 'DeepSeek を有効化',
   'pages.system.siteSettings.integrationsDeepseekApiKey': 'API Key',
   'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholder': 'DeepSeek API Key を入力',
-  'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholderConfigured': '設定済み。空欄のまま保存すると変更しません',
-  'pages.system.siteSettings.integrationsDeepseekApiKeyConfigured': 'API Key は保存済みです。空欄で保存しても上書きしません',
+  'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholderConfigured':
+    '設定済み。空欄のまま保存すると変更しません',
+  'pages.system.siteSettings.integrationsDeepseekApiKeyConfigured':
+    'API Key は保存済みです。空欄で保存しても上書きしません',
   'pages.system.siteSettings.integrationsDeepseekModel': 'モデル',
-  'pages.system.siteSettings.integrationsDeepseekModelTooltip': 'DeepSeek V4 モデル。公式ドキュメントを参照',
-  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-flash': 'deepseek-v4-flash（高速）',
-  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-pro': 'deepseek-v4-pro（高品質）',
+  'pages.system.siteSettings.integrationsDeepseekModelTooltip':
+    'DeepSeek V4 モデル。公式ドキュメントを参照',
+  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-flash':
+    'deepseek-v4-flash（高速）',
+  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-pro':
+    'deepseek-v4-pro（高品質）',
   'pages.system.siteSettings.integrationsDeepseekBaseUrl': 'API Base URL',
   'pages.system.siteSettings.integrationsDeepseekBaseUrlPlaceholder': 'https://api.deepseek.com',
   'pages.system.siteSettings.integrationsDeepseekAiTitle': 'KU-AI 機能設定',
@@ -15045,20 +16505,27 @@ export default {
     '会話で業務伝票ツール、ナレッジベース RAG、企業向けシステム説明を呼び出すかを制御します。',
   'pages.system.siteSettings.integrationsDeepseekToolsEnabled': '業務伝票ツールを有効化',
   'pages.system.siteSettings.integrationsDeepseekRagEnabled': 'ナレッジベース RAG を有効化',
-  'pages.system.siteSettings.integrationsDeepseekRagEmbedding': 'ベクトル検索を使用（DeepSeek Embedding）',
+  'pages.system.siteSettings.integrationsDeepseekRagEmbedding':
+    'ベクトル検索を使用（DeepSeek Embedding）',
   'pages.system.siteSettings.integrationsDeepseekRagTopK': 'RAG 取得件数',
-  'pages.system.siteSettings.integrationsDeepseekCustomPrompt': '企業システム説明（システムプロンプトに追加）',
+  'pages.system.siteSettings.integrationsDeepseekCustomPrompt':
+    '企業システム説明（システムプロンプトに追加）',
   'pages.system.siteSettings.integrationsDeepseekCustomPromptPlaceholder':
     '例：当社は主に快製造モジュールを利用；委外フローは先に委外発注を作成…',
   'pages.system.siteSettings.tabLoginPage': 'ログインページ',
   'pages.system.siteSettings.currentTenantDomain': '現在の組織ドメイン',
   'pages.system.siteSettings.currentTenantDomainEmpty': '未設定',
-  'pages.system.siteSettings.tenantDomainPlaceholder': '組織ドメインを入力してください (文字で始まり、a-z/0-9/_/- を使用でき、長さは 3-12)',
+  'pages.system.siteSettings.tenantDomainPlaceholder':
+    '組織ドメインを入力してください (文字で始まり、a-z/0-9/_/- を使用でき、長さは 3-12)',
   'pages.system.siteSettings.tenantDomainRequired': 'テナントドメインを入力してください',
-  'pages.system.siteSettings.tenantDomainPattern': 'ドメインは小文字で始まる必要があり、小文字、数字、アンダースコア、ハイフンのみを使用でき、中国語は使用できません',
-  'pages.system.siteSettings.tenantDomainMinLength': 'ドメインの長さは少なくとも 3 文字である必要があります',
-  'pages.system.siteSettings.tenantDomainMaxLength': 'ドメインの長さは 12 文字を超えることはできません',
-  'pages.system.siteSettings.tenantDomainReserved': 'テナント ドメインには予約済みキーワードを含めることはできません: {{keyword}}',
+  'pages.system.siteSettings.tenantDomainPattern':
+    'ドメインは小文字で始まる必要があり、小文字、数字、アンダースコア、ハイフンのみを使用でき、中国語は使用できません',
+  'pages.system.siteSettings.tenantDomainMinLength':
+    'ドメインの長さは少なくとも 3 文字である必要があります',
+  'pages.system.siteSettings.tenantDomainMaxLength':
+    'ドメインの長さは 12 文字を超えることはできません',
+  'pages.system.siteSettings.tenantDomainReserved':
+    'テナント ドメインには予約済みキーワードを含めることはできません: {{keyword}}',
   'pages.system.siteSettings.tenantDomainDuplicate': 'テナント ドメインはすでに使用されています',
   'pages.system.siteSettings.tenantPathAccessUrl': 'パスアクセスURL',
   'pages.system.siteSettings.loginPageThemeColor': 'ログインページのテーマカラー',
@@ -15084,10 +16551,12 @@ export default {
   'pages.system.siteSettings.branchOrgAdminDefaultLabel': '管理者アカウント (既定)',
   'pages.system.siteSettings.branchOrgAddAdminButton': '管理者の追加',
   'pages.system.siteSettings.branchOrgAdminUsernameLabel': '管理者のユーザー名',
-  'pages.system.siteSettings.branchOrgAdminUsernameRequired': '管理者のユーザー名を入力してください',
+  'pages.system.siteSettings.branchOrgAdminUsernameRequired':
+    '管理者のユーザー名を入力してください',
   'pages.system.siteSettings.branchOrgAdminPasswordLabel': '管理者パスワード',
   'pages.system.siteSettings.branchOrgAdminPasswordRequired': '管理者パスワードを入力してください',
-  'pages.system.siteSettings.branchOrgAdminPasswordMin': 'パスワードは8文字以上である必要があります',
+  'pages.system.siteSettings.branchOrgAdminPasswordMin':
+    'パスワードは8文字以上である必要があります',
   'pages.system.siteSettings.branchOrgAdminFullNameLabel': '管理者のフルネーム',
   'pages.system.siteSettings.branchOrgAdminPhoneLabel': '管理者の電話',
   'pages.system.siteSettings.branchOrgAdminPhonePattern': '電話番号の形式が無効です',
@@ -15121,45 +16590,59 @@ export default {
   'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_11': '(UTC-11:00) 協定世界時-11',
   'pages.system.siteSettings.timezoneValue.Pacific_Honolulu': '(UTC-10:00) ハワイ',
   'pages.system.siteSettings.timezoneValue.America_Anchorage': '(UTC-09:00) アラスカ',
-  'pages.system.siteSettings.timezoneValue.America_Los_Angeles': '(UTC-08:00) 太平洋時間 (米国およびカナダ)',
-  'pages.system.siteSettings.timezoneValue.America_Denver': '(UTC-07:00) 山岳時間 (米国およびカナダ)',
-  'pages.system.siteSettings.timezoneValue.America_Chicago': '(UTC-06:00) 中部時間 (米国およびカナダ)',
-  'pages.system.siteSettings.timezoneValue.America_New_York': '(UTC-05:00) 東部時間 (米国およびカナダ)',
+  'pages.system.siteSettings.timezoneValue.America_Los_Angeles':
+    '(UTC-08:00) 太平洋時間 (米国およびカナダ)',
+  'pages.system.siteSettings.timezoneValue.America_Denver':
+    '(UTC-07:00) 山岳時間 (米国およびカナダ)',
+  'pages.system.siteSettings.timezoneValue.America_Chicago':
+    '(UTC-06:00) 中部時間 (米国およびカナダ)',
+  'pages.system.siteSettings.timezoneValue.America_New_York':
+    '(UTC-05:00) 東部時間 (米国およびカナダ)',
   'pages.system.siteSettings.timezoneValue.America_Halifax': '(UTC-04:00) 大西洋時間 (カナダ)',
   'pages.system.siteSettings.timezoneValue.America_Sao_Paulo': '(UTC-03:00) ブラジリア',
-  'pages.system.siteSettings.timezoneValue.America_Argentina_Buenos_Aires': '(UTC-03:00) ブエノスアイレス',
+  'pages.system.siteSettings.timezoneValue.America_Argentina_Buenos_Aires':
+    '(UTC-03:00) ブエノスアイレス',
   'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_2': '(UTC-02:00) 協定世界時-02',
   'pages.system.siteSettings.timezoneValue.Atlantic_Azores': '(UTC-01:00) アゾレス諸島',
   'pages.system.siteSettings.timezoneValue.Etc_UTC': '(UTC+00:00) 協定世界時',
-  'pages.system.siteSettings.timezoneValue.Europe_London': '(UTC+00:00) ロンドン、ダブリン、リスボン',
-  'pages.system.siteSettings.timezoneValue.Europe_Paris': '(UTC+01:00) パリ、ベルリン、ローマ、マドリッド',
+  'pages.system.siteSettings.timezoneValue.Europe_London':
+    '(UTC+00:00) ロンドン、ダブリン、リスボン',
+  'pages.system.siteSettings.timezoneValue.Europe_Paris':
+    '(UTC+01:00) パリ、ベルリン、ローマ、マドリッド',
   'pages.system.siteSettings.timezoneValue.Europe_Athens': '(UTC+02:00) アテネ、ブカレスト',
   'pages.system.siteSettings.timezoneValue.Africa_Cairo': '(UTC+02:00) カイロ',
   'pages.system.siteSettings.timezoneValue.Asia_Jerusalem': '(UTC+02:00) エルサレム',
-  'pages.system.siteSettings.timezoneValue.Europe_Moscow': '(UTC+03:00) モスクワ、サンクトペテルブルク',
+  'pages.system.siteSettings.timezoneValue.Europe_Moscow':
+    '(UTC+03:00) モスクワ、サンクトペテルブルク',
   'pages.system.siteSettings.timezoneValue.Asia_Baghdad': '(UTC+03:00) バグダッド',
   'pages.system.siteSettings.timezoneValue.Asia_Dubai': '(UTC+04:00) ドバイ',
   'pages.system.siteSettings.timezoneValue.Asia_Karachi': '(UTC+05:00) カラチ',
   'pages.system.siteSettings.timezoneValue.Asia_Kolkata': '(UTC+05:30) ニューデリー、ムンバイ',
   'pages.system.siteSettings.timezoneValue.Asia_Dhaka': '(UTC+06:00) ダッカ',
-  'pages.system.siteSettings.timezoneValue.Asia_Bangkok': '(UTC+07:00) バンコク、ハノイ、ジャカルタ',
+  'pages.system.siteSettings.timezoneValue.Asia_Bangkok':
+    '(UTC+07:00) バンコク、ハノイ、ジャカルタ',
   'pages.system.siteSettings.timezoneValue.Asia_Shanghai': '(UTC+08:00) 北京、上海、香港、台北',
   'pages.system.siteSettings.timezoneValue.Asia_Singapore': '(UTC+08:00) シンガポール',
   'pages.system.siteSettings.timezoneValue.Australia_Perth': '(UTC+08:00) パース',
   'pages.system.siteSettings.timezoneValue.Asia_Tokyo': '(UTC+09:00) 東京、大阪、札幌',
   'pages.system.siteSettings.timezoneValue.Asia_Seoul': '(UTC+09:00) ソウル',
   'pages.system.siteSettings.timezoneValue.Australia_Darwin': '(UTC+09:30) ダーウィン',
-  'pages.system.siteSettings.timezoneValue.Australia_Sydney': '(UTC+10:00) シドニー、メルボルン、キャンベラ',
+  'pages.system.siteSettings.timezoneValue.Australia_Sydney':
+    '(UTC+10:00) シドニー、メルボルン、キャンベラ',
   'pages.system.siteSettings.timezoneValue.Australia_Brisbane': '(UTC+10:00) ブリスベン',
-  'pages.system.siteSettings.timezoneValue.Pacific_Guadalcanal': '(UTC+11:00) ソロモン諸島、マガダン。',
-  'pages.system.siteSettings.timezoneValue.Pacific_Auckland': '(UTC+12:00) オークランド、ウェリントン',
+  'pages.system.siteSettings.timezoneValue.Pacific_Guadalcanal':
+    '(UTC+11:00) ソロモン諸島、マガダン。',
+  'pages.system.siteSettings.timezoneValue.Pacific_Auckland':
+    '(UTC+12:00) オークランド、ウェリントン',
   'pages.system.siteSettings.timezoneValue.Pacific_Tongatapu': '(UTC+13:00) ヌクアロファ',
   'pages.system.configCenter.tabBlueprint': '青写真',
   'pages.system.configCenter.tabBlueprintDesc': 'ビジネス伝票機能の有効化/無効化を制御する',
   'pages.system.configCenter.tabProcess': 'プロセス',
-  'pages.system.configCenter.tabProcessDesc': 'ビジネス フローと前提条件を構成します (既定では伝票に人による監査は必要ありません。承認ワークフローを個別に有効にします)。',
+  'pages.system.configCenter.tabProcessDesc':
+    'ビジネス フローと前提条件を構成します (既定では伝票に人による監査は必要ありません。承認ワークフローを個別に有効にします)。',
   'pages.system.configCenter.tabParameters': 'パラメータ',
-  'pages.system.configCenter.tabParametersDesc': 'ビジネス文書の内部機能（製造指示、倉庫、品質など）を構成します。',
+  'pages.system.configCenter.tabParametersDesc':
+    'ビジネス文書の内部機能（製造指示、倉庫、品質など）を構成します。',
   'pages.system.configCenter.tabAudit': '監査',
   'pages.system.configCenter.tabAuditDesc': '文書監査の切り替えとワークフローの決定を制御する',
   'pages.system.configCenter.tabAutomation': 'オートメーション',
@@ -15167,21 +16650,27 @@ export default {
   'pages.system.configCenter.tabTemplates': 'テンプレート',
   'pages.system.configCenter.tabGraph': 'ビジネスの青写真',
   'pages.system.configCenter.processCategory.sales': '販売プロセス',
-  'pages.system.configCenter.processCategory.salesDesc': '販売予測、見積、注文、配送/返品の監査スイッチ',
+  'pages.system.configCenter.processCategory.salesDesc':
+    '販売予測、見積、注文、配送/返品の監査スイッチ',
   'pages.system.configCenter.processCategory.warehouse': '倉庫プロセス',
-  'pages.system.configCenter.processCategory.warehouseDesc': '倉庫の入庫/出庫および借入/返却の監査スイッチ',
+  'pages.system.configCenter.processCategory.warehouseDesc':
+    '倉庫の入庫/出庫および借入/返却の監査スイッチ',
   'pages.system.configCenter.processCategory.planning': '企画プロセス',
   'pages.system.configCenter.processCategory.planningDesc': '需要と生産計画の流れ',
   'pages.system.configCenter.processCategory.procurement': '調達プロセス',
-  'pages.system.configCenter.processCategory.procurementDesc': '購買依頼の前提条件などの調達フロー ルール (購買発注の人間による監査は承認ワークフローで制御されます)',
+  'pages.system.configCenter.processCategory.procurementDesc':
+    '購買依頼の前提条件などの調達フロー ルール (購買発注の人間による監査は承認ワークフローで制御されます)',
   'pages.system.configCenter.processCategory.work_order': '作業指示のプロセス',
-  'pages.system.configCenter.processCategory.work_orderDesc': 'ピッキング確認と開始・報告前の前提条件',
+  'pages.system.configCenter.processCategory.work_orderDesc':
+    'ピッキング確認と開始・報告前の前提条件',
   'pages.system.configCenter.processCategory.reporting': '報告プロセス',
   'pages.system.configCenter.processCategory.reportingDesc': '監査報告',
   'pages.system.configCenter.param.purchase_auto_approval': '購入の自動承認',
-  'pages.system.configCenter.param.purchase_auto_approval_desc': 'オンの場合、発注書は送信時に自動承認されます',
+  'pages.system.configCenter.param.purchase_auto_approval_desc':
+    'オンの場合、発注書は送信時に自動承認されます',
   'pages.system.configCenter.param.reporting_auto_approve': 'レポートの自動承認',
-  'pages.system.configCenter.param.reporting_auto_approve_desc': 'オンにすると、追加の承認クリックを行わなくても、レポート送信は有効としてマークされます。これは、伝票のテナント レベルの承認ワークフローとは別のものです。',
+  'pages.system.configCenter.param.reporting_auto_approve_desc':
+    'オンにすると、追加の承認クリックを行わなくても、レポート送信は有効としてマークされます。これは、伝票のテナント レベルの承認ワークフローとは別のものです。',
   'pages.system.configCenter.categoryTitle': 'カテゴリー',
   'pages.system.configCenter.processCategoryTitle': 'プロセスカテゴリ',
   'pages.system.configCenter.refresh': 'リフレッシュ',
@@ -15191,34 +16680,44 @@ export default {
   'pages.system.configCenter.templateNamePlaceholder': 'テンプレート名を入力してください',
   'pages.system.configCenter.templateNameRequired': 'テンプレート名を入力してください',
   'pages.system.configCenter.templateDescription': 'テンプレートの説明',
-  'pages.system.configCenter.templateDescriptionPlaceholder': 'テンプレートの説明を入力します (オプション)',
+  'pages.system.configCenter.templateDescriptionPlaceholder':
+    'テンプレートの説明を入力します (オプション)',
   'pages.system.configCenter.saveSuccess': '保存されました',
   'pages.system.configCenter.saveFailed': '保存に失敗しました',
   'pages.system.configCenter.loadFailed': '設定のロードに失敗しました',
   'pages.system.configCenter.processAuditGuidanceTitle': '書類監査について',
-  'pages.system.configCenter.processAuditGuidanceDesc': '既定では、伝票は人間による監査をスキップします。承認ワークフローで一致するワークフローを有効にした場合にのみ、保留/承認/拒否のステップが表示されます。このタブをオンにすると、監査の有無ではなく、計画、調達の前提条件、製造指示のピッキング ゲートなどを制御します。',
+  'pages.system.configCenter.processAuditGuidanceDesc':
+    '既定では、伝票は人間による監査をスキップします。承認ワークフローで一致するワークフローを有効にした場合にのみ、保留/承認/拒否のステップが表示されます。このタブをオンにすると、監査の有無ではなく、計画、調達の前提条件、製造指示のピッキング ゲートなどを制御します。',
   'pages.system.configCenter.auditSwitch.sectionTitle': '文書監査スイッチ (既定ではすべてオフ)',
   'pages.system.configCenter.auditBinding.document': '書類',
   'pages.system.configCenter.auditBinding.switch': '監査スイッチ',
   'pages.system.configCenter.auditBinding.process': '承認ワークフロー',
   'pages.system.configCenter.auditBinding.processPlaceholder': 'ワークフローの選択',
-  'pages.system.configCenter.auditBinding.sectionDesc': '人間による監査と承認ワークフローを伝票の種類ごとに設定します。伝票 リストは各アプリ マニフェストから取得されます。ハードコードされたフロントエンド リストはありません。',
-  'pages.system.configCenter.auditSwitch.sectionDesc': '文書タイプごとに人間による監査を有効にします。 OFF の場合、送信は次の実行可能状態 (確認済み/実行可能) に直接進みます。',
-  'pages.system.configCenter.auditSwitch.empty': 'このカテゴリには文書監査スイッチが定義されていません。',
+  'pages.system.configCenter.auditBinding.sectionDesc':
+    '人間による監査と承認ワークフローを伝票の種類ごとに設定します。伝票 リストは各アプリ マニフェストから取得されます。ハードコードされたフロントエンド リストはありません。',
+  'pages.system.configCenter.auditSwitch.sectionDesc':
+    '文書タイプごとに人間による監査を有効にします。 OFF の場合、送信は次の実行可能状態 (確認済み/実行可能) に直接進みます。',
+  'pages.system.configCenter.auditSwitch.empty':
+    'このカテゴリには文書監査スイッチが定義されていません。',
   'pages.system.configCenter.auditSwitch.updateSuccess': '監査スイッチが更新されました',
   'pages.system.configCenter.auditSwitch.updateFailed': '監査スイッチの更新に失敗しました',
   'pages.system.configCenter.notification.title': 'メッセージ通知',
-  'pages.system.configCenter.notification.desc': '伝票が構成可能なアクションをトリガーしたときに、選択したチャネルを通じて指定したユーザーに通知します。インストールされているアプリの伝票 タイプは自動的に含まれます。',
+  'pages.system.configCenter.notification.desc':
+    '伝票が構成可能なアクションをトリガーしたときに、選択したチャネルを通じて指定したユーザーに通知します。インストールされているアプリの伝票 タイプは自動的に含まれます。',
   'pages.system.configCenter.notification.preset.button': 'プリセットをロードする',
-  'pages.system.configCenter.notification.preset.loaded': '{{created}} 個のプリセット ルールをロードしました (合計 {{total}})',
-  'pages.system.configCenter.notification.preset.missingTemplate': 'ルールは追加されていません: [メッセージ] → [テンプレート] でアプリのメッセージ テンプレート プリセットをロードし、再試行してください。',
-  'pages.system.configCenter.notification.preset.alreadyExists': 'すべての事前設定ルールがすでに存在します',
+  'pages.system.configCenter.notification.preset.loaded':
+    '{{created}} 個のプリセット ルールをロードしました (合計 {{total}})',
+  'pages.system.configCenter.notification.preset.missingTemplate':
+    'ルールは追加されていません: [メッセージ] → [テンプレート] でアプリのメッセージ テンプレート プリセットをロードし、再試行してください。',
+  'pages.system.configCenter.notification.preset.alreadyExists':
+    'すべての事前設定ルールがすでに存在します',
   'pages.system.configCenter.notification.preset.failed': '通知プリセットのロードに失敗しました',
   'pages.system.configCenter.notification.create': '新しい通知ルール',
   'pages.system.configCenter.notification.column.scene': 'シーン',
   'pages.system.configCenter.notification.column.document': '書類',
   'pages.system.configCenter.notification.column.template': 'メッセージテンプレート',
-  'pages.system.configCenter.notification.template.unknown': '(テンプレートが見つからないか削除されました)',
+  'pages.system.configCenter.notification.template.unknown':
+    '(テンプレートが見つからないか削除されました)',
   'pages.system.configCenter.notification.column.action': 'トリガーアクション',
   'pages.system.configCenter.notification.column.channels': 'チャンネル',
   'pages.system.configCenter.notification.column.recipients': '受信者',
@@ -15231,7 +16730,8 @@ export default {
   'pages.system.configCenter.notification.action.delete': '消去',
   'pages.system.configCenter.notification.modal.detailTitle': '通知ルールの詳細',
   'pages.system.configCenter.notification.modal.deleteTitle': '通知ルールの削除',
-  'pages.system.configCenter.notification.modal.deleteConfirm': 'この通知ルールを削除してもよろしいですか?',
+  'pages.system.configCenter.notification.modal.deleteConfirm':
+    'この通知ルールを削除してもよろしいですか?',
   'pages.system.configCenter.notification.modal.editTitle': '通知ルールを編集する',
   'pages.system.configCenter.notification.modal.createTitle': '新しい通知ルール',
   'pages.system.configCenter.notification.detail.scene': 'シーン',
@@ -15247,10 +16747,12 @@ export default {
   'pages.system.configCenter.notification.message.deleted': '通知ルールが削除されました',
   'pages.system.configCenter.notification.message.deleteFailed': '通知ルールの削除に失敗しました',
   'pages.system.configCenter.notification.scene.default': '設定された通知ルール',
-  'pages.system.configCenter.notification.recipients.specifiedUsers': '指定されたユーザー ({{count}})',
+  'pages.system.configCenter.notification.recipients.specifiedUsers':
+    '指定されたユーザー ({{count}})',
   'pages.system.configCenter.notification.recipients.fixedUsers': '固定ユーザー ({{count}})',
   'pages.system.configCenter.notification.form.fixedUsers': '固定受信者',
-  'pages.system.configCenter.notification.form.formUserDefaultUsers': 'フォームユーザー指定・既定ユーザー',
+  'pages.system.configCenter.notification.form.formUserDefaultUsers':
+    'フォームユーザー指定・既定ユーザー',
   'pages.system.configCenter.notification.channel.inApp': 'アプリ内通知',
   'pages.system.configCenter.notification.channel.unknown': 'メッセージチャンネル',
   'pages.system.configCenter.notification.form.enabled': 'ルールを有効にする',
@@ -15267,11 +16769,13 @@ export default {
   'pages.system.configCenter.notification.scope.user_specified': '伝票で選択されたユーザー',
   'pages.system.configCenter.notification.form.roles': '役割',
   'pages.system.configCenter.notification.form.specifiedUsers': '特定のユーザー',
-  'pages.system.configCenter.notification.form.specifiedUsersPlaceholder': 'オプション: 特定のユーザーを追加します',
+  'pages.system.configCenter.notification.form.specifiedUsersPlaceholder':
+    'オプション: 特定のユーザーを追加します',
   'pages.system.configCenter.notification.scope.creator': 'クリエイター',
   'pages.system.configCenter.notification.scope.salesman': '販売員',
   'pages.system.configCenter.notification.scope.follower': 'フォロワー',
-  'pages.system.configCenter.notification.error.actionMismatch': 'アクションは選択した伝票と一致しません。再選択してください。',
+  'pages.system.configCenter.notification.error.actionMismatch':
+    'アクションは選択した伝票と一致しません。再選択してください。',
   'pages.system.configCenter.notification.document.sales_order': '受注',
   'pages.system.configCenter.notification.document.quotation': '引用',
   'pages.system.configCenter.notification.document.purchase_order': '発注書',
@@ -15285,16 +16789,20 @@ export default {
   'pages.system.configCenter.notification.document.outbound': 'アウトバウンド',
   'pages.system.configCenter.notification.action.sales_order.submitted': '提出済み',
   'pages.system.configCenter.notification.action.sales_order.approved': '承認された',
-  'pages.system.configCenter.notification.action.sales_order.pushed_to_work_order': '作業指示にプッシュされました',
+  'pages.system.configCenter.notification.action.sales_order.pushed_to_work_order':
+    '作業指示にプッシュされました',
   'pages.system.configCenter.notification.action.sales_order.delivery_delayed': '配達が遅れている',
   'pages.system.configCenter.notification.action.quotation.submitted': '提出済み',
   'pages.system.configCenter.notification.action.quotation.approved': '承認された',
-  'pages.system.configCenter.notification.action.quotation.customer_confirmed': 'お客様が確認しました',
+  'pages.system.configCenter.notification.action.quotation.customer_confirmed':
+    'お客様が確認しました',
   'pages.system.configCenter.notification.action.quotation.converted_to_order': '受注に変換される',
   'pages.system.configCenter.notification.action.purchase_order.submitted': '提出済み',
   'pages.system.configCenter.notification.action.purchase_order.approved': '承認された',
-  'pages.system.configCenter.notification.action.purchase_order.pushed_to_receipt': '受け取りにプッシュされました',
-  'pages.system.configCenter.notification.action.purchase_order.delivery_delayed': '配達が遅れている',
+  'pages.system.configCenter.notification.action.purchase_order.pushed_to_receipt':
+    '受け取りにプッシュされました',
+  'pages.system.configCenter.notification.action.purchase_order.delivery_delayed':
+    '配達が遅れている',
   'pages.system.configCenter.notification.action.work_order.released': 'リリースされました',
   'pages.system.configCenter.notification.action.work_order.started': '開始しました',
   'pages.system.configCenter.notification.action.work_order.completed': '完了',
@@ -15302,39 +16810,55 @@ export default {
   'pages.system.configCenter.notification.action.quality_inspection.submitted': '提出済み',
   'pages.system.configCenter.notification.action.quality_inspection.approved': '承認された',
   'pages.system.configCenter.notification.action.quality_inspection.rejected': '拒否されました',
-  'pages.system.configCenter.notification.action.quality_inspection.abnormal_detected': '異常を検出しました',
+  'pages.system.configCenter.notification.action.quality_inspection.abnormal_detected':
+    '異常を検出しました',
   'pages.system.configCenter.notification.action.quality_exception.created': '作成されました',
   'pages.system.configCenter.notification.action.quality_exception.assigned': '割り当て済み',
   'pages.system.configCenter.notification.action.quality_exception.closed': '閉店',
   'pages.system.configCenter.notification.action.equipment_fault.reported': '報告済み',
-  'pages.system.configCenter.notification.action.equipment_fault.assigned': '修理に割り当てられました',
+  'pages.system.configCenter.notification.action.equipment_fault.assigned':
+    '修理に割り当てられました',
   'pages.system.configCenter.notification.action.equipment_fault.resolved': '解決済み',
   'pages.system.configCenter.notification.action.maintenance_order.created': '作成されました',
   'pages.system.configCenter.notification.action.maintenance_order.started': '開始しました',
   'pages.system.configCenter.notification.action.maintenance_order.completed': '完了',
   'pages.system.configCenter.notification.action.shipment_notice.submitted': '提出済み',
   'pages.system.configCenter.notification.action.shipment_notice.confirmed': '出荷が確認されました',
-  'pages.system.configCenter.notification.action.shipment_notice.delivery_delayed': '発送が遅れています',
+  'pages.system.configCenter.notification.action.shipment_notice.delivery_delayed':
+    '発送が遅れています',
   'pages.system.configCenter.notification.action.inbound.submitted': '提出済み',
   'pages.system.configCenter.notification.action.inbound.confirmed': 'インバウンド確認済み',
   'pages.system.configCenter.notification.action.outbound.submitted': '提出済み',
-  'pages.system.configCenter.notification.action.outbound.confirmed': 'アウトバウンドが確認されました',
+  'pages.system.configCenter.notification.action.outbound.confirmed':
+    'アウトバウンドが確認されました',
   'pages.system.configCenter.scoreProfiles.title': 'APS-Lite 複合スコアリングウェイト',
-  'pages.system.configCenter.scoreProfiles.desc': 'スケジュールおよびピッキングのシナリオ用にディメンションの重みを構成します。ガント ソート、キッティング センター、ピッキング キューで使用されます。',
-  'pages.system.configCenter.scoreProfiles.schedulingTitle': 'スケジューリングシナリオ（スケジューリング）',
-  'pages.system.configCenter.scoreProfiles.schedulingDesc': 'インテリジェントなスケジューリング、既定のガント順序付け、および管制塔のリスク参照に使用されます。',
+  'pages.system.configCenter.scoreProfiles.desc':
+    'スケジュールおよびピッキングのシナリオ用にディメンションの重みを構成します。ガント ソート、キッティング センター、ピッキング キューで使用されます。',
+  'pages.system.configCenter.scoreProfiles.schedulingTitle':
+    'スケジューリングシナリオ（スケジューリング）',
+  'pages.system.configCenter.scoreProfiles.schedulingDesc':
+    'インテリジェントなスケジューリング、既定のガント順序付け、および管制塔のリスク参照に使用されます。',
   'pages.system.configCenter.scoreProfiles.pickingTitle': 'ピッキングシナリオ（ピッキング）',
-  'pages.system.configCenter.scoreProfiles.pickingDesc': 'キッティング センターのリマインダーとアウトバウンド管理でのピッキング注文に使用されます (不足分が多いものから順に)。',
+  'pages.system.configCenter.scoreProfiles.pickingDesc':
+    'キッティング センターのリマインダーとアウトバウンド管理でのピッキング注文に使用されます (不足分が多いものから順に)。',
   'pages.system.configCenter.scoreProfiles.kittingSemantic': 'キッティングセマンティクス',
-  'pages.system.configCenter.scoreProfiles.kittingMode.direct': 'キッティングの優先順位を高くする (スケジュール)',
-  'pages.system.configCenter.scoreProfiles.kittingMode.invert': '最初に不足分が増えます (ピッキング)',
-  'pages.system.configCenter.scoreProfiles.weightSum': '重量合計 {{sum}} (保存後、エンジンは正常化します)',
+  'pages.system.configCenter.scoreProfiles.kittingMode.direct':
+    'キッティングの優先順位を高くする (スケジュール)',
+  'pages.system.configCenter.scoreProfiles.kittingMode.invert':
+    '最初に不足分が増えます (ピッキング)',
+  'pages.system.configCenter.scoreProfiles.weightSum':
+    '重量合計 {{sum}} (保存後、エンジンは正常化します)',
   'pages.system.configCenter.scoreProfiles.saveButton': 'ウェイトを保存する',
-  'pages.system.configCenter.scoreProfiles.sumMustBePositive': '各シナリオの重みの合計は 0 より大きくなければなりません',
-  'pages.system.configCenter.scoreProfiles.savedSkippedRecalc': 'ウェイトが保存されました (複合スコアリングが無効になり、再計算がスキップされました)',
-  'pages.system.configCenter.scoreProfiles.savedRecalcedCount': '{{count}} 製造指示の重みが保存され、再計算された複合スコア',
-  'pages.system.configCenter.scoreProfiles.savedButRecalcFailedWithReason': '重みは保存されましたが、再計算に失敗しました: {{reason}}',
-  'pages.system.configCenter.scoreProfiles.savedButRecalcFailed': '重みは保存されましたが、再計算は失敗しました。後でスケジュール ページを更新してください。',
+  'pages.system.configCenter.scoreProfiles.sumMustBePositive':
+    '各シナリオの重みの合計は 0 より大きくなければなりません',
+  'pages.system.configCenter.scoreProfiles.savedSkippedRecalc':
+    'ウェイトが保存されました (複合スコアリングが無効になり、再計算がスキップされました)',
+  'pages.system.configCenter.scoreProfiles.savedRecalcedCount':
+    '{{count}} 製造指示の重みが保存され、再計算された複合スコア',
+  'pages.system.configCenter.scoreProfiles.savedButRecalcFailedWithReason':
+    '重みは保存されましたが、再計算に失敗しました: {{reason}}',
+  'pages.system.configCenter.scoreProfiles.savedButRecalcFailed':
+    '重みは保存されましたが、再計算は失敗しました。後でスケジュール ページを更新してください。',
   'pages.system.configCenter.scoreProfiles.saveFailed': '保存に失敗しました',
   'pages.system.configCenter.scoreProfiles.weight.manual_priority': '手動優先度',
   'pages.system.configCenter.scoreProfiles.weight.due_urgency': '期日の緊急性',
@@ -15342,58 +16866,83 @@ export default {
   'pages.system.configCenter.scoreProfiles.weight.kitting_readiness': 'キッティングの準備',
   'pages.system.configCenter.scoreProfiles.weight.plan_fidelity': '計画の忠実性',
   'pages.system.configCenter.auditSwitch.sales_forecast.label': '売上予測監査',
-  'pages.system.configCenter.auditSwitch.sales_forecast.desc': '販売予測が送信後に人による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.sales_forecast.desc':
+    '販売予測が送信後に人による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.sales_order.label': '受注監査',
-  'pages.system.configCenter.auditSwitch.sales_order.desc': '受注が送信後に人による監査を受けるかどうか',
+  'pages.system.configCenter.auditSwitch.sales_order.desc':
+    '受注が送信後に人による監査を受けるかどうか',
   'pages.system.configCenter.auditSwitch.quotation.label': '見積監査',
-  'pages.system.configCenter.auditSwitch.quotation.desc': '見積書の送信後に人による監査が行われるかどうか',
+  'pages.system.configCenter.auditSwitch.quotation.desc':
+    '見積書の送信後に人による監査が行われるかどうか',
   'pages.system.configCenter.auditSwitch.sales_delivery.label': '販売納品監査',
-  'pages.system.configCenter.auditSwitch.sales_delivery.desc': '販売納品に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.sales_delivery.desc':
+    '販売納品に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.sales_return.label': '売上返品監査',
-  'pages.system.configCenter.auditSwitch.sales_return.desc': '売上収益が人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.sales_return.desc':
+    '売上収益が人間による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.purchase_request.label': '購買要求の監査',
-  'pages.system.configCenter.auditSwitch.purchase_request.desc': '購入要求が送信後に人による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.purchase_request.desc':
+    '購入要求が送信後に人による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.purchase_order.label': '発注書の監査',
-  'pages.system.configCenter.auditSwitch.purchase_order.desc': '発注書が送信後に人による監査を受けるかどうか',
+  'pages.system.configCenter.auditSwitch.purchase_order.desc':
+    '発注書が送信後に人による監査を受けるかどうか',
   'pages.system.configCenter.auditSwitch.purchase_return.label': '購入返品監査',
-  'pages.system.configCenter.auditSwitch.purchase_return.desc': '購入返品に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.purchase_return.desc':
+    '購入返品に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.demand.label': '需要監査',
-  'pages.system.configCenter.auditSwitch.demand.desc': '要求文書が提出後に人による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.demand.desc':
+    '要求文書が提出後に人による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.production_plan.label': '生産計画監査',
-  'pages.system.configCenter.auditSwitch.production_plan.desc': '生産計画が提出後に人による監査を受けるかどうか',
+  'pages.system.configCenter.auditSwitch.production_plan.desc':
+    '生産計画が提出後に人による監査を受けるかどうか',
   'pages.system.configCenter.auditSwitch.quality_inspection.label': '品質検査監査',
-  'pages.system.configCenter.auditSwitch.quality_inspection.desc': '受入/工程/完成検査に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.quality_inspection.desc':
+    '受入/工程/完成検査に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.incoming_inspection.label': 'Incoming inspection audit',
-  'pages.system.configCenter.auditSwitch.incoming_inspection.desc': '受入検査に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.incoming_inspection.desc':
+    '受入検査に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.process_inspection.label': '工程検査監査',
-  'pages.system.configCenter.auditSwitch.process_inspection.desc': 'プロセス検査に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.process_inspection.desc':
+    'プロセス検査に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.finished_goods_inspection.label': '完成品検査監査',
-  'pages.system.configCenter.auditSwitch.finished_goods_inspection.desc': '完成品検査に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.finished_goods_inspection.desc':
+    '完成品検査に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.production_picking.label': '生産ピッキング監査',
-  'pages.system.configCenter.auditSwitch.production_picking.desc': '生産品のピッキングに人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.production_picking.desc':
+    '生産品のピッキングに人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.production_return.label': '生産返却監査',
-  'pages.system.configCenter.auditSwitch.production_return.desc': '生産資材の返品が人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.production_return.desc':
+    '生産資材の返品が人間による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.reporting_record.label': '監査報告',
-  'pages.system.configCenter.auditSwitch.reporting_record.desc': '報告記録が送信後に人による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.reporting_record.desc':
+    '報告記録が送信後に人による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.purchase_receipt.label': '購入レシートの監査',
-  'pages.system.configCenter.auditSwitch.purchase_receipt.desc': '購入レシートが人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.purchase_receipt.desc':
+    '購入レシートが人間による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.finished_goods_receipt.label': '完成品受領監査',
-  'pages.system.configCenter.auditSwitch.finished_goods_receipt.desc': '完成品の受領に人間による監査が入るかどうか',
+  'pages.system.configCenter.auditSwitch.finished_goods_receipt.desc':
+    '完成品の受領に人間による監査が入るかどうか',
   'pages.system.configCenter.auditSwitch.other_inbound.label': 'その他の受信監査',
-  'pages.system.configCenter.auditSwitch.other_inbound.desc': '他の受信が人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.other_inbound.desc':
+    '他の受信が人間による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.other_outbound.label': 'その他の外部監査',
-  'pages.system.configCenter.auditSwitch.other_outbound.desc': '他のアウトバウンドが人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.other_outbound.desc':
+    '他のアウトバウンドが人間による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.material_borrow.label': '資料借用監査',
-  'pages.system.configCenter.auditSwitch.material_borrow.desc': '資料の借用が人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.material_borrow.desc':
+    '資料の借用が人間による監査に入るかどうか',
   'pages.system.configCenter.auditSwitch.material_return.label': '資材返却監査',
-  'pages.system.configCenter.auditSwitch.material_return.desc': '重要な返品が人間による監査に入るかどうか',
+  'pages.system.configCenter.auditSwitch.material_return.desc':
+    '重要な返品が人間による監査に入るかどうか',
   'pages.system.configCenter.templateSaveSuccess': '構成テンプレートが保存されました',
   'pages.system.configCenter.templateApplied': '構成テンプレートが適用されました',
-  'pages.system.configCenter.templatesDesc': '構成テンプレート (ブループリント、プロセス、パラメーター) を保存、適用、またはインポート/エクスポートします。',
+  'pages.system.configCenter.templatesDesc':
+    '構成テンプレート (ブループリント、プロセス、パラメーター) を保存、適用、またはインポート/エクスポートします。',
   'pages.system.configCenter.saveCurrentAsTemplate': '現在の設定をテンプレートとして保存',
   'pages.system.configCenter.noTemplates': '構成テンプレートはありません',
   'pages.system.configCenter.apply': '適用する',
-  'pages.system.configCenter.refreshToApply': '一部の設定 (テーマなど) を有効にするには、ページの更新が必要な場合があります',
+  'pages.system.configCenter.refreshToApply':
+    '一部の設定 (テーマなど) を有効にするには、ページの更新が必要な場合があります',
   'pages.system.configCenter.category.production': '制作・企画',
   'pages.system.configCenter.category.productionDesc': '作業指示、レポート、BOM、計画',
   'pages.system.configCenter.category.common': '共通設定',
@@ -15409,9 +16958,11 @@ export default {
   'pages.system.configCenter.tenantInit.requiredTitle': '必須の初期化項目',
   'pages.system.configCenter.tenantInit.runRequiredButton': '必要な項目をロードする',
   'pages.system.configCenter.tenantInit.optionalTitle': 'オプションのサプリメント',
-  'pages.system.configCenter.tenantInit.optionalDesc': '部門、役職、役割、倉庫などのビジネス プリセットを読み込みます。',
+  'pages.system.configCenter.tenantInit.optionalDesc':
+    '部門、役職、役割、倉庫などのビジネス プリセットを読み込みます。',
   'pages.system.configCenter.tenantInit.runOptionalButton': '選択したサプリメントをロードする',
-  'pages.system.configCenter.tenantInit.selectOptionalFirst': '少なくとも 1 つのオプション項目を選択してください',
+  'pages.system.configCenter.tenantInit.selectOptionalFirst':
+    '少なくとも 1 つのオプション項目を選択してください',
   'pages.system.configCenter.tenantInit.refreshConfig': '構成を更新する',
   'pages.system.configCenter.tenantInit.runFailed': 'ロードに失敗しました',
   'pages.system.configCenter.tenantInit.lastResultTitle': '前回の実行結果',
@@ -15420,10 +16971,12 @@ export default {
   'pages.system.configCenter.tenantInit.colDetail': '詳細',
   'pages.system.configCenter.tenantInit.statusSuccess': '成功',
   'pages.system.configCenter.tenantInit.statusFailed': '失敗した',
-  'pages.system.configCenter.tenantInit.createdCount': '{{count}} レコードが書き込まれた/更新されました',
+  'pages.system.configCenter.tenantInit.createdCount':
+    '{{count}} レコードが書き込まれた/更新されました',
   'pages.system.configCenter.tenantInit.item.menu_sync': 'アプリメニューの同期',
   'components.tenantBootstrap.title': 'アプリの初期化',
-  'components.tenantBootstrap.runningHint': '初期化中です。このページを開いたままにしておいてください…',
+  'components.tenantBootstrap.runningHint':
+    '初期化中です。このページを開いたままにしておいてください…',
   'components.tenantBootstrap.enterSystem': 'システムに入る',
   'components.tenantBootstrap.stepFailed': '初期化ステップが失敗しました',
   'components.tenantBootstrap.completeFailed': '初期化を完了できませんでした',
@@ -15434,71 +16987,103 @@ export default {
   'pages.system.configCenter.tenantInit.item.system_parameter': 'システムパラメータ',
   'pages.system.configCenter.tenantInit.item.code_rule': 'コードルール',
   'pages.system.configCenter.tenantInit.item.approval_process_preset': '承認プロセスのプリセット',
-  'pages.system.configCenter.tenantInit.item.message_template_preset': 'メッセージテンプレートのプリセット',
+  'pages.system.configCenter.tenantInit.item.message_template_preset':
+    'メッセージテンプレートのプリセット',
   'pages.system.configCenter.tenantInit.item.print_template_preset': '印刷テンプレートのプリセット',
   'pages.system.configCenter.tenantInit.item.department_preset': '部門プリセット',
   'pages.system.configCenter.tenantInit.item.position_preset': '位置プリセット',
   'pages.system.configCenter.tenantInit.item.role_preset': '役割のプリセット',
   'pages.system.configCenter.tenantInit.item.warehouse_preset': 'ウェアハウスのプリセット',
   'pages.system.configCenter.tenantInit.item.operation_preset': '動作プリセット',
-  'pages.system.configCenter.tenantInit.item.variant_attribute_preset': 'バリアント属性のプリセット',
+  'pages.system.configCenter.tenantInit.item.variant_attribute_preset':
+    'バリアント属性のプリセット',
   'pages.system.configCenter.tenantInit.item.kuaiai_faq_preset': 'KU-AI 既定 FAQ',
   'pages.system.configCenter.tenantInit.itemDesc.kuaiai_faq_preset':
     '製造指図、報工、外注、在庫など 15 件の出荷時標準 FAQ',
-  'pages.system.configCenter.param.work_order_allow_production_without_material': '素材なしでの生産を可能にする',
-  'pages.system.configCenter.param.work_order_allow_production_without_material_desc': 'オンの場合、製造指示のリリースでは材料不足はチェックされません。オフの場合、不足ブロックは解放されます。',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level': '資材不足ブロックレベル',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level_desc': '0=ブロックなし、1=ブロック解除、2=ブロック解除+開始、3=ブロック解除+開始+レポート。',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level_guide': '推奨: 通常の使用にはレベル 1。レベル 2 はライン側の制御を強化します。レベル 3 をレポートする場合は、完全なキッティングを待つ必要があります。',
+  'pages.system.configCenter.param.work_order_allow_production_without_material':
+    '素材なしでの生産を可能にする',
+  'pages.system.configCenter.param.work_order_allow_production_without_material_desc':
+    'オンの場合、製造指示のリリースでは材料不足はチェックされません。オフの場合、不足ブロックは解放されます。',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level':
+    '資材不足ブロックレベル',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level_desc':
+    '0=ブロックなし、1=ブロック解除、2=ブロック解除+開始、3=ブロック解除+開始+レポート。',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level_guide':
+    '推奨: 通常の使用にはレベル 1。レベル 2 はライン側の制御を強化します。レベル 3 をレポートする場合は、完全なキッティングを待つ必要があります。',
   'pages.system.configCenter.param.work_order_auto_generate': '製造指示を自動生成する',
-  'pages.system.configCenter.param.work_order_auto_generate_desc': '需要に基づいて製造指示を自動生成する',
+  'pages.system.configCenter.param.work_order_auto_generate_desc':
+    '需要に基づいて製造指示を自動生成する',
   'pages.system.configCenter.param.automation_push_default_mode': '既定のプッシュ生成モード',
-  'pages.system.configCenter.param.automation_push_default_mode_desc': 'プッシュされたダウンストリーム文書の既定を正式文書にするかドラフトにするかを制御します',
+  'pages.system.configCenter.param.automation_push_default_mode_desc':
+    'プッシュされたダウンストリーム文書の既定を正式文書にするかドラフトにするかを制御します',
   'pages.system.configCenter.param.automation_push_default_mode_opt_confirm': '正式な文書',
   'pages.system.configCenter.param.automation_push_default_mode_opt_draft': '草案文書',
   'pages.system.configCenter.param.work_order_priority': '作業指示の優先順位',
   'pages.system.configCenter.param.work_order_priority_desc': '作業指示の優先順位を有効にする',
   'pages.system.configCenter.param.work_order_score_enabled': '作業指示の複合スコアリング',
-  'pages.system.configCenter.param.work_order_score_enabled_desc': 'スケジューリングと材料準備キューの並べ替えのための重み付けされた多次元スコア',
+  'pages.system.configCenter.param.work_order_score_enabled_desc':
+    'スケジューリングと材料準備キューの並べ替えのための重み付けされた多次元スコア',
   'pages.system.configCenter.param.work_order_score_stale_minutes': 'Score cache TTL (minutes)',
-  'pages.system.configCenter.param.work_order_score_stale_minutes_desc': '古いスコアは、この間隔の後に非同期で更新される場合があります (既定は 30)',
+  'pages.system.configCenter.param.work_order_score_stale_minutes_desc':
+    '古いスコアは、この間隔の後に非同期で更新される場合があります (既定は 30)',
   'pages.system.configCenter.param.work_order_split': '作業指示の分割',
   'pages.system.configCenter.param.work_order_split_desc': '作業指示の分割を許可する',
   'pages.system.configCenter.param.work_order_merge': '製造指示のマージ',
   'pages.system.configCenter.param.work_order_merge_desc': '製造指示のマージを許可する',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode': '最後の操作の自動受信',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode':
+    '最後の操作の自動受信',
   'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_none': 'オフ',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_direct': 'ダイレクトインバウンド',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_notice': '入荷通知（FG検査用予約）',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_direct':
+    'ダイレクトインバウンド',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_notice':
+    '入荷通知（FG検査用予約）',
   'pages.system.configCenter.param.reporting_quick_reporting': 'クイックレポート',
   'pages.system.configCenter.param.reporting_quick_reporting_desc': 'クイックレポートを有効にする',
   'pages.system.configCenter.param.reporting_parameter_reporting': 'パラメータレポート',
-  'pages.system.configCenter.param.reporting_parameter_reporting_desc': 'サポートパラメータレポート',
+  'pages.system.configCenter.param.reporting_parameter_reporting_desc':
+    'サポートパラメータレポート',
   'pages.system.configCenter.param.reporting_auto_fill': 'オートフィル',
   'pages.system.configCenter.param.reporting_auto_fill_desc': 'レポートデータの自動入力',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode': 'レポート用の既定の本番ワーカー',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_current_user': '既定は現在のユーザー',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_operation_assigned': '既定は操作の担当者',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_auto': '自動 (担当者 → 操作の既定 → 現在のユーザー)',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode':
+    'レポート用の既定の本番ワーカー',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_current_user':
+    '既定は現在のユーザー',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_operation_assigned':
+    '既定は操作の担当者',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_auto':
+    '自動 (担当者 → 操作の既定 → 現在のユーザー)',
   'pages.system.configCenter.param.reporting_data_correction': 'データ修正',
-  'pages.system.configCenter.param.reporting_data_correction_desc': '送信されたレポート データの修正を許可する',
+  'pages.system.configCenter.param.reporting_data_correction_desc':
+    '送信されたレポート データの修正を許可する',
   'pages.system.configCenter.param.bom_bom_multi_version_allowed': 'BOM マルチバージョン',
-  'pages.system.configCenter.param.bom_bom_multi_version_allowed_desc': 'オンの場合、要求は BOM バージョンを選択できます。オフの場合、既定の BOM バージョンが使用されます。',
+  'pages.system.configCenter.param.bom_bom_multi_version_allowed_desc':
+    'オンの場合、要求は BOM バージョンを選択できます。オフの場合、既定の BOM バージョンが使用されます。',
   'pages.system.configCenter.param.planning_require_production_plan': '生産計画が必要です',
-  'pages.system.configCenter.param.planning_require_production_plan_desc': 'オンの場合、需要は生産計画を通過する必要があります。オフの場合、製造指示に直接リンクできます。',
+  'pages.system.configCenter.param.planning_require_production_plan_desc':
+    'オンの場合、需要は生産計画を通過する必要があります。オフの場合、製造指示に直接リンクできます。',
   'pages.system.configCenter.param.procurement_require_purchase_requisition': '購入申請が必要',
-  'pages.system.configCenter.param.procurement_require_purchase_requisition_desc': '発注書には最初に要求が必要です',
+  'pages.system.configCenter.param.procurement_require_purchase_requisition_desc':
+    '発注書には最初に要求が必要です',
   'pages.system.configCenter.param.purchase_tolerance_percentage': '購入超過許容範囲 (%)',
-  'pages.system.configCenter.param.purchase_tolerance_percentage_desc': '発注数量に対する最大許容超過受入率 (0 ～ 100)。',
-  'pages.system.configCenter.param.purchase_tolerance_percentage_guide': '推奨: 標準部品の場合は 0 ～ 2%、外注の入荷については 3 ～ 5%。高すぎると、購入の逸脱が隠れてしまう可能性があります。',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt': '受け取り前に受入検査が必要',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt_desc': 'オンの場合、購入レシートは記入済みで受入検査に合格する必要があります。',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material': '顧客の資材を受け取る前に IQC が必要',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material_desc': 'オンの場合、OEM 顧客の材料の入荷には、完了して合格した入荷検査が必要です。',
-  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt': '完成品の受け取り前にFQCパスが必要です',
-  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt_desc': 'オンの場合、完成品受領確認には、製造指示に対して承認済みの合格した FQC が必要です (FQC ポリシーが付いている資材のみ≠ なしのみ)。',
+  'pages.system.configCenter.param.purchase_tolerance_percentage_desc':
+    '発注数量に対する最大許容超過受入率 (0 ～ 100)。',
+  'pages.system.configCenter.param.purchase_tolerance_percentage_guide':
+    '推奨: 標準部品の場合は 0 ～ 2%、外注の入荷については 3 ～ 5%。高すぎると、購入の逸脱が隠れてしまう可能性があります。',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt':
+    '受け取り前に受入検査が必要',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt_desc':
+    'オンの場合、購入レシートは記入済みで受入検査に合格する必要があります。',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material':
+    '顧客の資材を受け取る前に IQC が必要',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material_desc':
+    'オンの場合、OEM 顧客の材料の入荷には、完了して合格した入荷検査が必要です。',
+  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt':
+    '完成品の受け取り前にFQCパスが必要です',
+  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt_desc':
+    'オンの場合、完成品受領確認には、製造指示に対して承認済みの合格した FQC が必要です (FQC ポリシーが付いている資材のみ≠ なしのみ)。',
   'app.master-data.materialForm.inspectionStagesTitle': '段階別の検査方針',
-  'app.master-data.materialForm.inspectionStagesHint': '検査モード（なし/簡易/計画）を設定し、段階ごとに計画を立てます。プロセス検査 (IPQC) はオペレーションのみに設定されます。',
+  'app.master-data.materialForm.inspectionStagesHint':
+    '検査モード（なし/簡易/計画）を設定し、段階ごとに計画を立てます。プロセス検査 (IPQC) はオペレーションのみに設定されます。',
   'app.master-data.materialForm.inspectionStageColumn': 'ステージ',
   'app.master-data.materialForm.inspectionStageIqc': '受信IQC',
   'app.master-data.materialForm.inspectionStageFqc': '完了したFQC',
@@ -15506,19 +17091,29 @@ export default {
   'app.master-data.materialForm.inspectionStageIpqc': 'プロセス IPQC (フォールバック)',
   'app.master-data.materialForm.inspectionStageOrgStatus': '組織段階',
   'app.master-data.materialForm.inspectionStagePending': '保留',
-  'app.master-data.operationForm.inspectionStagesHint': 'この操作のプロセス検査 (IPQC)。レポートから自動作成するときに最初に使用されます。',
+  'app.master-data.operationForm.inspectionStagesHint':
+    'この操作のプロセス検査 (IPQC)。レポートから自動作成するときに最初に使用されます。',
   'app.master-data.operationForm.inspectionTitle': '工程検査（IPQC）',
   'app.master-data.operationForm.inspectionStageIpqc': 'プロセスIPQC',
-  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only': '倉庫のみピッキング確認可能',
-  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only_desc': 'オンの場合、ピッキング確認は倉庫ロールに制限されます。',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start': '作業開始前に確認ピッキングが必要',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start_desc': 'オンにすると、ピッキングが確認されるまで動作開始がブロックされます。',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting': '報告する前に確認済みのピッキングを要求する',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting_desc': 'オンにすると、ピッキングが確認されるまでレポートがブロックされます。',
+  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only':
+    '倉庫のみピッキング確認可能',
+  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only_desc':
+    'オンの場合、ピッキング確認は倉庫ロールに制限されます。',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start':
+    '作業開始前に確認ピッキングが必要',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start_desc':
+    'オンにすると、ピッキングが確認されるまで動作開始がブロックされます。',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting':
+    '報告する前に確認済みのピッキングを要求する',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting_desc':
+    'オンにすると、ピッキングが確認されるまでレポートがブロックされます。',
   'pages.system.configCenter.param.work_order_picking_issue_strategy': 'リリース後の自動問題選択',
-  'pages.system.configCenter.param.work_order_picking_issue_strategy_desc': 'オンの場合、ピッキング要求/オーダーは WO リリース時に生成されます。オフの場合、手動で作成する必要があります。',
-  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes': '倉庫以外のピッキング確認を許可する',
-  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes_desc': 'オンにすると、生産/作業場のロールは、倉庫スタッフ以外にピッキング確認を実行できます。',
+  'pages.system.configCenter.param.work_order_picking_issue_strategy_desc':
+    'オンの場合、ピッキング要求/オーダーは WO リリース時に生成されます。オフの場合、手動で作成する必要があります。',
+  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes':
+    '倉庫以外のピッキング確認を許可する',
+  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes_desc':
+    'オンにすると、生産/作業場のロールは、倉庫スタッフ以外にピッキング確認を実行できます。',
   'pages.system.configCenter.param.warehouse_batch_management': 'バッチ管理',
   'pages.system.configCenter.param.warehouse_batch_management_desc': 'バッチ管理を有効にする',
   'pages.system.configCenter.param.warehouse_serial_management': 'シリアル管理',
@@ -15534,37 +17129,63 @@ export default {
   'pages.system.configCenter.param.warehouse_auto_outbound': '自動発信',
   'pages.system.configCenter.param.warehouse_auto_outbound_desc': '自動アウトバウンドをサポート',
   'pages.system.configCenter.param.finance_auto_write_off_precision_limit': '自動消込精度制限',
-  'pages.system.configCenter.param.finance_auto_write_off_precision_limit_desc': '自動消込の最大許容差異 (現地通貨)。',
+  'pages.system.configCenter.param.finance_auto_write_off_precision_limit_desc':
+    '自動消込の最大許容差異 (現地通貨)。',
   'pages.system.configCenter.param.finance_revenue_recognition': '収益認識 (AR)',
-  'pages.system.configCenter.param.finance_revenue_recognition_desc': 'AR を出荷時 (配達確認) に作成するか、販売請求書に作成するかを選択します。 AR の重複を防ぐために相互に排他的です。',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_shipment': '出荷時（配達確認）',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_invoice': '売上請求書について',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_milestone': '契約のマイルストーンについて',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_mixed': '混合 (定義されている場合はマイルストーン、それ以外の場合は出荷)',
+  'pages.system.configCenter.param.finance_revenue_recognition_desc':
+    'AR を出荷時 (配達確認) に作成するか、販売請求書に作成するかを選択します。 AR の重複を防ぐために相互に排他的です。',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_shipment':
+    '出荷時（配達確認）',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_invoice':
+    '売上請求書について',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_milestone':
+    '契約のマイルストーンについて',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_mixed':
+    '混合 (定義されている場合はマイルストーン、それ以外の場合は出荷)',
   'pages.system.configCenter.param.finance_payable_recognition': '経費認識 (AP)',
-  'pages.system.configCenter.param.finance_payable_recognition_desc': 'AP を購入領収書の確認時に作成するか、購入請求書に作成するかを選択します。相互に排他的です。',
-  'pages.system.configCenter.param.finance_payable_recognition_opt_on_receipt': '購入時のレシートを確認する',
-  'pages.system.configCenter.param.finance_payable_recognition_opt_on_purchase_invoice': '購入時の請求書について',
-  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice': '売上請求書から AR を自動生成',
-  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice_desc': '収益認識が「請求書上」の場合のみ: 売上請求書の作成時に AR を自動作成します (オフにすることができます)。',
-  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice': '購入請求書から AP を自動生成',
-  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice_desc': '買掛金認識が「購買請求書上」の場合のみ: 購買請求書の作成時に AP を自動作成します。',
-  'pages.system.configCenter.param.sales_low_margin_threshold_percent': '低マージン警告しきい値 (%)',
-  'pages.system.configCenter.param.sales_low_margin_threshold_percent_desc': '受注マージンがこの値を下回ると、アラートまたは監査がトリガーされます。',
-  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent': '価格乖離承認閾値(%)',
-  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent_desc': '実際の価格が基準価格からこの比率で乖離すると、監査がトリガーされます。',
+  'pages.system.configCenter.param.finance_payable_recognition_desc':
+    'AP を購入領収書の確認時に作成するか、購入請求書に作成するかを選択します。相互に排他的です。',
+  'pages.system.configCenter.param.finance_payable_recognition_opt_on_receipt':
+    '購入時のレシートを確認する',
+  'pages.system.configCenter.param.finance_payable_recognition_opt_on_purchase_invoice':
+    '購入時の請求書について',
+  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice':
+    '売上請求書から AR を自動生成',
+  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice_desc':
+    '収益認識が「請求書上」の場合のみ: 売上請求書の作成時に AR を自動作成します (オフにすることができます)。',
+  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice':
+    '購入請求書から AP を自動生成',
+  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice_desc':
+    '買掛金認識が「購買請求書上」の場合のみ: 購買請求書の作成時に AP を自動作成します。',
+  'pages.system.configCenter.param.sales_low_margin_threshold_percent':
+    '低マージン警告しきい値 (%)',
+  'pages.system.configCenter.param.sales_low_margin_threshold_percent_desc':
+    '受注マージンがこの値を下回ると、アラートまたは監査がトリガーされます。',
+  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent':
+    '価格乖離承認閾値(%)',
+  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent_desc':
+    '実際の価格が基準価格からこの比率で乖離すると、監査がトリガーされます。',
   'pages.system.configCenter.param.sales_require_contract_before_order': '受注の前に契約が必要です',
-  'pages.system.configCenter.param.sales_require_contract_before_order_desc': 'オンの場合、新しい受注は有効な販売契約にリンクされている必要があります。',
+  'pages.system.configCenter.param.sales_require_contract_before_order_desc':
+    'オンの場合、新しい受注は有効な販売契約にリンクされている必要があります。',
   'pages.system.configCenter.param.sales_contract_expiry_alert_days': '契約期限切れアラート日数',
-  'pages.system.configCenter.param.sales_contract_expiry_alert_days_desc': '契約期限切れアラートを表示するには、valid_to の日前。',
-  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release': '完全にリリースされると契約は自動的に終了します',
-  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release_desc': '完全リリース後に単一/フレームワーク契約を自動的に終了します。',
-  'pages.system.configCenter.param.sales_contract_milestone_required': 'フレームワーク契約には支払いプランが必要です',
-  'pages.system.configCenter.param.sales_contract_milestone_required_desc': 'オンの場合、新しいフレームワーク契約には少なくとも 1 つのマイルストーンを含める必要があります。',
-  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent': '仕入価格変動閾値（％）',
-  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent_desc': 'PO価格が履歴/標準からこの値だけ逸脱するとアラートをトリガーします。',
+  'pages.system.configCenter.param.sales_contract_expiry_alert_days_desc':
+    '契約期限切れアラートを表示するには、valid_to の日前。',
+  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release':
+    '完全にリリースされると契約は自動的に終了します',
+  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release_desc':
+    '完全リリース後に単一/フレームワーク契約を自動的に終了します。',
+  'pages.system.configCenter.param.sales_contract_milestone_required':
+    'フレームワーク契約には支払いプランが必要です',
+  'pages.system.configCenter.param.sales_contract_milestone_required_desc':
+    'オンの場合、新しいフレームワーク契約には少なくとも 1 つのマイルストーンを含める必要があります。',
+  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent':
+    '仕入価格変動閾値（％）',
+  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent_desc':
+    'PO価格が履歴/標準からこの値だけ逸脱するとアラートをトリガーします。',
   'pages.system.configCenter.param.sales_audit_enabled': '受注監査',
-  'pages.system.configCenter.param.sales_audit_enabled_desc': 'オンにすると、受注は監査を受けます。オフの場合、送信時に有効になります。',
+  'pages.system.configCenter.param.sales_audit_enabled_desc':
+    'オンにすると、受注は監査を受けます。オフの場合、送信時に有効になります。',
   'pages.system.configCenter.param.quality_incoming_inspection': '受入検査',
   'pages.system.configCenter.param.quality_incoming_inspection_desc': '受信検査を有効にする',
   'pages.system.configCenter.param.quality_process_inspection': '工程検査',
@@ -15574,40 +17195,62 @@ export default {
   'pages.system.configCenter.param.quality_defect_handling': '不具合対応',
   'pages.system.configCenter.param.quality_defect_handling_desc': '欠陥処理を有効にする',
   'pages.system.configCenter.param.quality_stage_iqc_enabled': '受入検査段階（IQC）',
-  'pages.system.configCenter.param.quality_stage_iqc_enabled_desc': 'IQC が組織全体で有効になっているかどうか。オフの場合、IQC 未決注文は自動作成されず、手動プッシュはブロックされます。',
+  'pages.system.configCenter.param.quality_stage_iqc_enabled_desc':
+    'IQC が組織全体で有効になっているかどうか。オフの場合、IQC 未決注文は自動作成されず、手動プッシュはブロックされます。',
   'pages.system.configCenter.param.quality_stage_ipqc_enabled': '工程検査段階（IPQC）',
-  'pages.system.configCenter.param.quality_stage_ipqc_enabled_desc': 'IPQC が組織全体で有効になっているかどうか。オフの場合、レポートではプロセス検査オーダーは自動作成されません。',
+  'pages.system.configCenter.param.quality_stage_ipqc_enabled_desc':
+    'IPQC が組織全体で有効になっているかどうか。オフの場合、レポートではプロセス検査オーダーは自動作成されません。',
   'pages.system.configCenter.param.quality_stage_fqc_enabled': '完成検査段階（FQC）',
-  'pages.system.configCenter.param.quality_stage_fqc_enabled_desc': 'FQC が組織全体で有効になっているかどうか。オフの場合、最終作業レポートは完了した検査オーダーを自動作成しません。',
+  'pages.system.configCenter.param.quality_stage_fqc_enabled_desc':
+    'FQC が組織全体で有効になっているかどうか。オフの場合、最終作業レポートは完了した検査オーダーを自動作成しません。',
   'pages.system.configCenter.param.quality_stage_oqc_enabled': '出荷検査段階（OQC）',
-  'pages.system.configCenter.param.quality_stage_oqc_enabled_desc': 'OQC が組織全体で有効になっているかどうか。オフの場合、アウトバウンド/倉庫通知は OQC ゲートを強制しません。',
-  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt': '購入レシートに IQC を自動作成',
-  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt_desc': '購買受領書が保存されると (入荷待ち)、材料検査モードごとに入荷検査保留オーダーが自動作成されます。',
-  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting': 'レポート時に IPQC を自動作成',
-  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting_desc': 'レポートが有効になると (自動承認を含む)、操作/材料モードごとにプロセス検査保留オーダーが自動作成されます。',
-  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting': '最後のレポート時に FQC を自動作成する',
-  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting_desc': '製造指示の最後の操作が報告されると、材料モードごとに完成検査保留指示書が自動作成されます。',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify': '出荷通知通知時に OQC を自動作成',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify_desc': '出荷通知で倉庫に通知する場合、出荷ゲートチェックの前に OQC 保留の注文を自動作成します。',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery': '販売納品時に OQC を自動作成',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery_desc': '販売納品が作成されると、資材検査モードごとに OQC 未決注文が自動作成されます。',
+  'pages.system.configCenter.param.quality_stage_oqc_enabled_desc':
+    'OQC が組織全体で有効になっているかどうか。オフの場合、アウトバウンド/倉庫通知は OQC ゲートを強制しません。',
+  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt':
+    '購入レシートに IQC を自動作成',
+  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt_desc':
+    '購買受領書が保存されると (入荷待ち)、材料検査モードごとに入荷検査保留オーダーが自動作成されます。',
+  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting':
+    'レポート時に IPQC を自動作成',
+  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting_desc':
+    'レポートが有効になると (自動承認を含む)、操作/材料モードごとにプロセス検査保留オーダーが自動作成されます。',
+  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting':
+    '最後のレポート時に FQC を自動作成する',
+  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting_desc':
+    '製造指示の最後の操作が報告されると、材料モードごとに完成検査保留指示書が自動作成されます。',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify':
+    '出荷通知通知時に OQC を自動作成',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify_desc':
+    '出荷通知で倉庫に通知する場合、出荷ゲートチェックの前に OQC 保留の注文を自動作成します。',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery':
+    '販売納品時に OQC を自動作成',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery_desc':
+    '販売納品が作成されると、資材検査モードごとに OQC 未決注文が自動作成されます。',
   'pages.system.configCenter.quality.gateRecommendAutoIqcTitle': '自動作成も有効にしますか?',
-  'pages.system.configCenter.quality.gateRecommendAutoIqcContent': '受取ゲートがオンの場合、入荷確認には入荷検査に合格する必要があります。注文を見逃さないように、購入レシートで自動 IQC を有効にすることもお勧めします。',
+  'pages.system.configCenter.quality.gateRecommendAutoIqcContent':
+    '受取ゲートがオンの場合、入荷確認には入荷検査に合格する必要があります。注文を見逃さないように、購入レシートで自動 IQC を有効にすることもお勧めします。',
   'pages.system.configCenter.quality.gateRecommendAutoIqcEnableBoth': '自動作成も有効にする',
   'pages.system.configCenter.quality.gateRecommendAutoIqcSkip': '今じゃない',
-  'app.kuaizhizao.quality.masterDataHint.material': '受信/終了/送信の検査段階は組織全体では行われません。材料検査モード (簡易/計画) は、対応するステージが有効になった後にのみ有効になります。',
-  'app.kuaizhizao.quality.masterDataHint.operation': 'プロセス検査 (IPQC) は組織全体でオフになっています。動作検査モード（簡易/計画）は、IPQC が有効になった後にのみ有効になります。',
-  'app.kuaizhizao.quality.masterDataHint.stageIqc': '受信検査 (IQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
-  'app.kuaizhizao.quality.masterDataHint.stageFqc': '完成検査 (FQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
-  'app.kuaizhizao.quality.masterDataHint.stageOqc': '送信検査 (OQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
-  'app.kuaizhizao.quality.masterDataHint.stageIpqc': 'プロセス検査 (IPQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
+  'app.kuaizhizao.quality.masterDataHint.material':
+    '受信/終了/送信の検査段階は組織全体では行われません。材料検査モード (簡易/計画) は、対応するステージが有効になった後にのみ有効になります。',
+  'app.kuaizhizao.quality.masterDataHint.operation':
+    'プロセス検査 (IPQC) は組織全体でオフになっています。動作検査モード（簡易/計画）は、IPQC が有効になった後にのみ有効になります。',
+  'app.kuaizhizao.quality.masterDataHint.stageIqc':
+    '受信検査 (IQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
+  'app.kuaizhizao.quality.masterDataHint.stageFqc':
+    '完成検査 (FQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
+  'app.kuaizhizao.quality.masterDataHint.stageOqc':
+    '送信検査 (OQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
+  'app.kuaizhizao.quality.masterDataHint.stageIpqc':
+    'プロセス検査 (IPQC) は組織全体でオフになっています。この段階の設定は有効になるまで有効になりません。',
   'app.kuaizhizao.quality.masterDataHint.gotoConfigCenter': '構成センター',
   'app.kuaizhizao.quality.inspectionCenter.stageTogglesTitle': '検査ステージの切り替え',
   'app.kuaizhizao.quality.inspectionCenter.stageIqc': '受信（IQC）',
   'app.kuaizhizao.quality.inspectionCenter.stageIpqc': 'プロセス (IPQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageFqc': '完成(FQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageOqc': '発信 (OQC)',
-  'app.kuaizhizao.quality.inspectionCenter.stageReadonlyHint': 'ステージの切り替え、自動作成、ゲートは構成センターで管理されます。',
+  'app.kuaizhizao.quality.inspectionCenter.stageReadonlyHint':
+    'ステージの切り替え、自動作成、ゲートは構成センターで管理されます。',
   'app.kuaizhizao.quality.inspectionCenter.gotoConfigCenter': '設定センターに移動',
   'app.kuaizhizao.quality.common.disposal.return': '戻る',
   'app.kuaizhizao.quality.common.disposal.accept': '逸脱して受け入れる',
@@ -15723,11 +17366,14 @@ export default {
   'app.kuaizhizao.quality.common.placeholder.defectType': 'NCタイプを選択してください',
   'app.kuaizhizao.quality.common.placeholder.defectReason': 'NC理由を入力してください',
   'app.kuaizhizao.quality.common.validation.requiredQualifiedQty': '適格数量を入力してください',
-  'app.kuaizhizao.quality.common.validation.requiredUnqualifiedQty': '不適格な数量を入力してください',
+  'app.kuaizhizao.quality.common.validation.requiredUnqualifiedQty':
+    '不適格な数量を入力してください',
   'app.kuaizhizao.quality.common.validation.minZero': '0未満にすることはできません',
-  'app.kuaizhizao.quality.common.validation.qtySumExceeds': '認定数量と非認定数量が検査数量を超えることはできません',
+  'app.kuaizhizao.quality.common.validation.qtySumExceeds':
+    '認定数量と非認定数量が検査数量を超えることはできません',
   'app.kuaizhizao.quality.common.validation.requiredDefectQty': 'NC数量を入力してください',
-  'app.kuaizhizao.quality.common.validation.defectQtyExceeds': 'NC 数量は検査で不適格数量を超えることはできません',
+  'app.kuaizhizao.quality.common.validation.defectQtyExceeds':
+    'NC 数量は検査で不適格数量を超えることはできません',
   'app.kuaizhizao.quality.common.validation.requiredDefectType': 'NCタイプを選択してください',
   'app.kuaizhizao.quality.common.validation.requiredDefectReason': 'NC理由を入力してください',
   'app.kuaizhizao.quality.common.validation.requiredDisposition': '性質を選択してください',
@@ -15747,9 +17393,12 @@ export default {
   'app.kuaizhizao.quality.common.messages.loadListFailed': 'リストのロードに失敗しました',
   'app.kuaizhizao.quality.common.messages.createDefectSuccess': 'NCレコードが作成されました',
   'app.kuaizhizao.quality.common.messages.createDefectFailed': 'NCレコードの作成に失敗しました',
-  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnSuccess': '購買返品の作成に成功しました：{{code}}',
-  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnFailed': '購買返品への下推に失敗しました',
-  'app.kuaizhizao.quality.common.messages.pushReworkSuccess': 'リワーク指示の作成に成功しました：{{code}}',
+  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnSuccess':
+    '購買返品の作成に成功しました：{{code}}',
+  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnFailed':
+    '購買返品への下推に失敗しました',
+  'app.kuaizhizao.quality.common.messages.pushReworkSuccess':
+    'リワーク指示の作成に成功しました：{{code}}',
   'app.kuaizhizao.quality.common.messages.pushReworkFailed': 'リワーク指示への下推に失敗しました',
   'app.kuaizhizao.quality.common.modal.inspectTitle': '検査 - {{code}}',
   'app.kuaizhizao.quality.common.modal.detailTitle': '検査の詳細 - {{code}}',
@@ -15766,19 +17415,24 @@ export default {
   'app.kuaizhizao.quality.incoming.createFromReceipt': '購入レシートから作成',
   'app.kuaizhizao.quality.incoming.createFromCustomerMaterial': 'お客様の資料から作成',
   'app.kuaizhizao.quality.incoming.modal.createFromReceiptTitle': '購入レシートから IQC を作成する',
-  'app.kuaizhizao.quality.incoming.modal.createFromCustomerMaterialTitle': '顧客の資料から IQC を作成する',
+  'app.kuaizhizao.quality.incoming.modal.createFromCustomerMaterialTitle':
+    '顧客の資料から IQC を作成する',
   'app.kuaizhizao.quality.incoming.form.selectReceipt': '購入レシートを選択してください',
   'app.kuaizhizao.quality.incoming.form.selectCustomerMaterial': '顧客材料登録を選択',
   'app.kuaizhizao.quality.incoming.form.advancedSearchReceipt': '購入レシートの詳細検索',
   'app.kuaizhizao.quality.incoming.form.receiptCode': '受付番号',
   'app.kuaizhizao.quality.incoming.form.supplierName': 'サプライヤー名',
-  'app.kuaizhizao.quality.incoming.messages.loadReceiptFailed': '購入レシートの読み込みに失敗しました',
+  'app.kuaizhizao.quality.incoming.messages.loadReceiptFailed':
+    '購入レシートの読み込みに失敗しました',
   'app.kuaizhizao.quality.incoming.messages.createSuccess': '受信検査が作成されました',
   'app.kuaizhizao.quality.incoming.messages.createFailed': '受信検査の作成に失敗しました',
-  'app.kuaizhizao.quality.incoming.messages.loadCustomerMaterialFailed': '顧客のマテリアル登録をロードできませんでした',
-  'app.kuaizhizao.quality.incoming.messages.createFromCustomerMaterialSuccess': '顧客の資料から作成された受入検査',
+  'app.kuaizhizao.quality.incoming.messages.loadCustomerMaterialFailed':
+    '顧客のマテリアル登録をロードできませんでした',
+  'app.kuaizhizao.quality.incoming.messages.createFromCustomerMaterialSuccess':
+    '顧客の資料から作成された受入検査',
   'app.kuaizhizao.quality.incoming.messages.loadListFailed': '受信した検査をロードできませんでした',
-  'app.kuaizhizao.quality.incoming.messages.deleteConfirm': '選択した {{count}} 個の受信検査を削除しますか?',
+  'app.kuaizhizao.quality.incoming.messages.deleteConfirm':
+    '選択した {{count}} 個の受信検査を削除しますか?',
   'app.kuaizhizao.quality.process.pageTitle': 'プロセス検査 (IPQC)',
   'app.kuaizhizao.quality.process.createFromWorkOrder': '製造指示から作成',
   'app.kuaizhizao.quality.process.messages.inspectSuccess': '工程検査完了',
@@ -15786,7 +17440,8 @@ export default {
   'app.kuaizhizao.quality.process.messages.createFailed': 'プロセス検査の作成に失敗しました',
   'app.kuaizhizao.quality.process.messages.loadWorkOrderFailed': '製造指示の読み込みに失敗しました',
   'app.kuaizhizao.quality.process.messages.loadListFailed': 'プロセス検査のロードに失敗しました',
-  'app.kuaizhizao.quality.process.messages.deleteConfirm': '選択した {{count}} 個のプロセス検査を削除しますか?',
+  'app.kuaizhizao.quality.process.messages.deleteConfirm':
+    '選択した {{count}} 個のプロセス検査を削除しますか?',
   'app.kuaizhizao.quality.process.modal.createFromWorkOrderTitle': '製造指示からプロセス検査を作成',
   'app.kuaizhizao.quality.process.modal.inspectTitle': 'プロセス検査 - {{code}}',
   'app.kuaizhizao.quality.process.modal.detailTitle': 'プロセス検査の詳細 - {{code}}',
@@ -15802,9 +17457,11 @@ export default {
   'app.kuaizhizao.quality.finished.messages.inspectSuccess': '完成検査完了',
   'app.kuaizhizao.quality.finished.messages.createSuccess': '完成検査が作成されました',
   'app.kuaizhizao.quality.finished.messages.createFailed': '完成検査の作成に失敗しました',
-  'app.kuaizhizao.quality.finished.messages.loadWorkOrderFailed': '製造指示の読み込みに失敗しました',
+  'app.kuaizhizao.quality.finished.messages.loadWorkOrderFailed':
+    '製造指示の読み込みに失敗しました',
   'app.kuaizhizao.quality.finished.messages.loadListFailed': '完了した検査をロードできませんでした',
-  'app.kuaizhizao.quality.finished.messages.deleteConfirm': '選択した {{count}} 個の完了検査を削除しますか?',
+  'app.kuaizhizao.quality.finished.messages.deleteConfirm':
+    '選択した {{count}} 個の完了検査を削除しますか?',
   'app.kuaizhizao.quality.finished.modal.createFromWorkOrderTitle': '製造指示から完成検査を作成',
   'app.kuaizhizao.quality.finished.modal.inspectTitle': '検査終了 - {{code}}',
   'app.kuaizhizao.quality.finished.modal.detailTitle': '完成検査の詳細 - {{code}}',
@@ -15829,7 +17486,8 @@ export default {
   'app.kuaizhizao.quality.oqc.actions.createFromNotice': '出荷通知から作成',
   'app.kuaizhizao.quality.oqc.actions.createFromDelivery': '販売納品から作成',
   'app.kuaizhizao.quality.oqc.actions.createFromSource': '出荷検査票を作成',
-  'app.kuaizhizao.quality.oqc.messages.loadShipmentNoticeFailed': '出荷通知の読み込みに失敗しました',
+  'app.kuaizhizao.quality.oqc.messages.loadShipmentNoticeFailed':
+    '出荷通知の読み込みに失敗しました',
   'app.kuaizhizao.quality.oqc.messages.loadSalesDeliveryFailed': '販売納品の読み込みに失敗しました',
   'app.kuaizhizao.quality.oqc.messages.selectShipmentNotice': '発送通知を選択してください',
   'app.kuaizhizao.quality.oqc.messages.selectSalesDelivery': '販売配送を選択してください',
@@ -15838,8 +17496,10 @@ export default {
   'app.kuaizhizao.quality.oqc.messages.conductSuccess': '検査完了',
   'app.kuaizhizao.quality.oqc.messages.noConductPermission': '検査の許可が無い',
   'app.kuaizhizao.quality.oqc.messages.loadListFailed': 'OQC 検査のロードに失敗しました',
-  'app.kuaizhizao.quality.oqc.messages.deleteConfirm': '選択した {{count}} 個の OQC 検査を削除しますか?',
-  'app.kuaizhizao.quality.oqc.messages.deleteConfirmDescription': '削除できるのは保留の検査のみです。',
+  'app.kuaizhizao.quality.oqc.messages.deleteConfirm':
+    '選択した {{count}} 個の OQC 検査を削除しますか?',
+  'app.kuaizhizao.quality.oqc.messages.deleteConfirmDescription':
+    '削除できるのは保留の検査のみです。',
   'app.kuaizhizao.quality.oqc.modal.createFromNoticeTitle': '出荷通知から OQC を作成',
   'app.kuaizhizao.quality.oqc.modal.createFromDeliveryTitle': '販売納品から OQC を作成',
   'app.kuaizhizao.quality.oqc.modal.conductTitle': 'OQC を実施する - {{code}}',
@@ -15891,7 +17551,8 @@ export default {
   'app.kuaizhizao.quality.plans.lifecycle.active': 'アクティブ',
   'app.kuaizhizao.quality.plans.lifecycle.inactive': '非アクティブ',
   'app.kuaizhizao.quality.plans.lifecycle.enableSuggestion': 'リストからプランを有効にする',
-  'app.kuaizhizao.quality.plans.detail.noUpstreamDocs': '検査計画には上流/下流の文書リンクがありません',
+  'app.kuaizhizao.quality.plans.detail.noUpstreamDocs':
+    '検査計画には上流/下流の文書リンクがありません',
   'app.kuaizhizao.quality.plans.detail.noSteps': '検査手順はありません',
   'app.kuaizhizao.quality.plans.step.sequence': 'いいえ。',
   'app.kuaizhizao.quality.plans.step.inspectionItem': '検査項目',
@@ -15900,20 +17561,27 @@ export default {
   'app.kuaizhizao.quality.plans.step.samplingType': 'サンプリングの種類',
   'app.kuaizhizao.quality.plans.step.sampling': 'サンプリング',
   'app.kuaizhizao.quality.plans.step.fullInspection': '全数検査',
-  'app.kuaizhizao.quality.plans.stepEditor.dragHint': 'ドラッグして並べ替えます。ステップを削除するには、「削除」をクリックします',
+  'app.kuaizhizao.quality.plans.stepEditor.dragHint':
+    'ドラッグして並べ替えます。ステップを削除するには、「削除」をクリックします',
   'app.kuaizhizao.quality.plans.stepEditor.addStep': 'ステップの追加',
-  'app.kuaizhizao.quality.plans.stepEditor.emptyHint': 'まだ検査手順はありません。追加するには、下のボタンをクリックしてください。',
+  'app.kuaizhizao.quality.plans.stepEditor.emptyHint':
+    'まだ検査手順はありません。追加するには、下のボタンをクリックしてください。',
   'app.kuaizhizao.quality.plans.stepEditor.modalTitle': '検査ステップの追加',
-  'app.kuaizhizao.quality.plans.stepEditor.validation.requiredInspectionItem': '検査項目を入力してください',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionItem': '検査項目名を入力してください',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionMethod': '検査方法を入力してください',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteria': '受け入れ基準を入力してください',
+  'app.kuaizhizao.quality.plans.stepEditor.validation.requiredInspectionItem':
+    '検査項目を入力してください',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionItem':
+    '検査項目名を入力してください',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionMethod':
+    '検査方法を入力してください',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteria':
+    '受け入れ基準を入力してください',
   'app.kuaizhizao.quality.plans.stepEditor.placeholder.selectSamplingType': '選択',
   'app.kuaizhizao.quality.plans.stepEditor.placeholder.remarksOptional': '備考（任意）',
   'app.kuaizhizao.quality.plans.stepEditor.addSuccess': '検査ステップを追加',
   'app.kuaizhizao.quality.plans.stepEditor.editSuccess': '検査ステップを更新しました',
   'app.kuaizhizao.quality.plans.stepEditor.modalEditTitle': '検査ステップの編集',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteriaAuto': '空白のままにするとタイプ仕様から自動生成されます',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteriaAuto':
+    '空白のままにするとタイプ仕様から自動生成されます',
   'app.kuaizhizao.quality.plans.stepSpec.valueType': '値タイプ',
   'app.kuaizhizao.quality.plans.stepSpec.specSection': 'タイプ仕様',
   'app.kuaizhizao.quality.plans.stepSpec.typeBoolean': 'はい/いいえ',
@@ -15951,19 +17619,22 @@ export default {
   'app.kuaizhizao.quality.plans.placeholder.enterPlanName': 'プラン名を入力してください',
   'app.kuaizhizao.quality.plans.validation.requiredPlanName': 'プラン名を入力してください',
   'app.kuaizhizao.quality.plans.validation.requiredPlanType': 'プランタイプを選択',
-  'app.kuaizhizao.quality.plans.messages.loadDetailFailed': '検査計画の詳細をロードできませんでした',
+  'app.kuaizhizao.quality.plans.messages.loadDetailFailed':
+    '検査計画の詳細をロードできませんでした',
   'app.kuaizhizao.quality.plans.messages.loadListFailed': '検査計画のロードに失敗しました',
   'app.kuaizhizao.quality.plans.messages.createSuccess': 'Inspection plan created',
   'app.kuaizhizao.quality.plans.messages.updateSuccess': '検査計画を更新しました',
   'app.kuaizhizao.quality.plans.messages.deleteSuccess': '削除しました',
   'app.kuaizhizao.quality.plans.messages.operationFailed': '操作が失敗しました',
-  'app.kuaizhizao.quality.plans.messages.deleteConfirm': '選択した {{count}} 個の検査計画を削除しますか?',
+  'app.kuaizhizao.quality.plans.messages.deleteConfirm':
+    '選択した {{count}} 個の検査計画を削除しますか?',
   'app.kuaizhizao.quality.inspectionCenter.kpi.pendingTotal': '保留の検査',
   'app.kuaizhizao.quality.inspectionCenter.kpi.pendingSubtitle': 'すべての保留の検査命令/作業',
   'app.kuaizhizao.quality.inspectionCenter.kpi.incomingProcess': 'IQC / IPQC',
   'app.kuaizhizao.quality.inspectionCenter.kpi.finishedOqc': 'FQC / OQC',
   'app.kuaizhizao.quality.inspectionCenter.kpi.todayQualified': '今日の合格率',
-  'app.kuaizhizao.quality.inspectionCenter.kpi.todaySubtitle': '本日 {{count}} 個のバッチを検査しました',
+  'app.kuaizhizao.quality.inspectionCenter.kpi.todaySubtitle':
+    '本日 {{count}} 個のバッチを検査しました',
   'app.kuaizhizao.quality.inspectionCenter.kpi.todayReported': '今日報告されました',
   'app.kuaizhizao.quality.inspectionCenter.kpi.statusExcellent': '素晴らしい',
   'app.kuaizhizao.quality.inspectionCenter.kpi.statusControlled': '制御された',
@@ -15975,9 +17646,12 @@ export default {
   'app.kuaizhizao.quality.inspectionCenter.anomalyPanel': '品質異常',
   'app.kuaizhizao.quality.inspectionCenter.passRateTrend': '合格率の推移',
   'app.kuaizhizao.quality.inspectionCenter.anomalyDefaultReason': '品質判定不合格',
-  'app.kuaizhizao.quality.inspectionCenter.messages.loadSummaryFailed': '検査センターデータのロードに失敗しました',
-  'app.kuaizhizao.quality.inspectionCenter.messages.loadAnomaliesFailed': '品質異常のロードに失敗しました',
-  'app.kuaizhizao.quality.inspectionCenter.messages.loadStageTogglesFailed': 'ステージトグルのロードに失敗しました',
+  'app.kuaizhizao.quality.inspectionCenter.messages.loadSummaryFailed':
+    '検査センターデータのロードに失敗しました',
+  'app.kuaizhizao.quality.inspectionCenter.messages.loadAnomaliesFailed':
+    '品質異常のロードに失敗しました',
+  'app.kuaizhizao.quality.inspectionCenter.messages.loadStageTogglesFailed':
+    'ステージトグルのロードに失敗しました',
   'app.kuaizhizao.quality.reports.columns.handleCode': 'ハンドルNo.',
   'app.kuaizhizao.quality.reports.columns.disposalMethod': '配置',
   'app.kuaizhizao.quality.reports.columns.disposalDate': '処分日',
@@ -15991,17 +17665,23 @@ export default {
   'app.kuaizhizao.quality.reports.columns.fqcRate': 'FQC 合格率',
   'app.kuaizhizao.quality.reports.columns.overallRate': '全体の合格率',
   'pages.system.configCenter.param.security_token_check_interval': 'トークンチェック間隔(秒)',
-  'pages.system.configCenter.param.security_token_check_interval_desc': 'フロントエンドがトークンの有効期限をチェックする頻度',
+  'pages.system.configCenter.param.security_token_check_interval_desc':
+    'フロントエンドがトークンの有効期限をチェックする頻度',
   'pages.system.configCenter.param.security_inactivity_timeout': '非アクティブタイムアウト (秒)',
-  'pages.system.configCenter.param.security_inactivity_timeout_desc': 'アクティビティがない場合は自動ログアウトします。無効にする場合は 0',
+  'pages.system.configCenter.param.security_inactivity_timeout_desc':
+    'アクティビティがない場合は自動ログアウトします。無効にする場合は 0',
   'pages.system.configCenter.param.security_user_cache_time': 'ユーザーキャッシュ時間(秒)',
-  'pages.system.configCenter.param.security_user_cache_time_desc': 'フロントエンドのユーザー情報キャッシュTTL',
+  'pages.system.configCenter.param.security_user_cache_time_desc':
+    'フロントエンドのユーザー情報キャッシュTTL',
   'pages.system.configCenter.param.ui_max_tabs': '開いているタブの最大数',
-  'pages.system.configCenter.param.ui_max_tabs_desc': '制限を超えると、固定されていない最も古いタブが閉じます',
+  'pages.system.configCenter.param.ui_max_tabs_desc':
+    '制限を超えると、固定されていない最も古いタブが閉じます',
   'pages.system.configCenter.param.ui_default_page_size': '既定のテーブルページサイズ',
-  'pages.system.configCenter.param.ui_default_page_size_desc': 'テーブルの既定のページネーション サイズ',
+  'pages.system.configCenter.param.ui_default_page_size_desc':
+    'テーブルの既定のページネーション サイズ',
   'pages.system.configCenter.param.ui_table_loading_delay': 'テーブル読み込み遅延 (ミリ秒)',
-  'pages.system.configCenter.param.ui_table_loading_delay_desc': 'ちらつきを避けるために読み込みを表示するまでの遅延',
+  'pages.system.configCenter.param.ui_table_loading_delay_desc':
+    'ちらつきを避けるために読み込みを表示するまでの遅延',
   'pages.system.configCenter.param.theme_config_colorPrimary': '既定のテーマカラー',
   'pages.system.configCenter.param.theme_config_colorPrimary_desc': 'システムの原色',
   'pages.system.configCenter.param.network_timeout': 'リクエストのタイムアウト (ミリ秒)',
@@ -16014,18 +17694,24 @@ export default {
   'pages.system.codeRules.updateRuleFailed': 'ルールの更新に失敗しました',
   'pages.system.codeRules.createRuleFailed': 'ルールの作成に失敗しました',
   'pages.system.codeRules.saveRuleFailed': 'ルールの保存に失敗しました',
-  'pages.system.codeRules.ruleCodeExistsHint': 'ルール コード「{{code}}」はすでに存在しますが、ルールが見つかりませんでした。更新してもう一度お試しください。',
+  'pages.system.codeRules.ruleCodeExistsHint':
+    'ルール コード「{{code}}」はすでに存在しますが、ルールが見つかりませんでした。更新してもう一度お試しください。',
   'pages.system.codeRules.configSaved': '設定が保存されました',
   'pages.system.codeRules.searchPagePlaceholder': 'ページの検索',
   'pages.system.codeRules.loadingPageConfig': 'ページ構成を読み込んでいます...',
   'pages.system.codeRules.tip': 'ヒント',
-  'pages.system.codeRules.tipDescription': '新しい伝票 ページがこのリストに表示されない場合は、次の点を確認してください。',
-  'pages.system.codeRules.tipCheck1': 'ページが isAutoGenerateEnabled を使用するか getPageRuleCode を使用するか',
+  'pages.system.codeRules.tipDescription':
+    '新しい伝票 ページがこのリストに表示されない場合は、次の点を確認してください。',
+  'pages.system.codeRules.tipCheck1':
+    'ページが isAutoGenerateEnabled を使用するか getPageRuleCode を使用するか',
   'pages.system.codeRules.tipCheck2': 'ページが code_rule_pages.py に登録されているかどうか',
   'pages.system.codeRules.tipCheck3': 'ページが codeRulePages.ts に登録されているかどうか',
-  'pages.system.codeRules.tipAppFilter': 'インストールされ有効になっているアプリのページのみが表示されます。無効化されたアプリの下にあるページはここには表示されません。',
-  'pages.system.codeRules.tipExpandLabel': '新しい文書ページが見つからない場合は、展開してチェックリストを表示します',
-  'pages.system.codeRules.tipSuggestion': '伝票 ページを追加するときは、それに応じてコード ルール設定を更新します。',
+  'pages.system.codeRules.tipAppFilter':
+    'インストールされ有効になっているアプリのページのみが表示されます。無効化されたアプリの下にあるページはここには表示されません。',
+  'pages.system.codeRules.tipExpandLabel':
+    '新しい文書ページが見つからない場合は、展開してチェックリストを表示します',
+  'pages.system.codeRules.tipSuggestion':
+    '伝票 ページを追加するときは、それに応じてコード ルール設定を更新します。',
   'pages.system.codeRules.enabled': '有効',
   'pages.system.codeRules.saveRule': 'ルールの保存',
   'pages.system.codeRules.configTitle': 'コードルール構成',
@@ -16035,10 +17721,12 @@ export default {
   'pages.system.codeRules.expressionLabel': 'ルール式',
   'pages.system.codeRules.expressionRequired': 'ルール式を入力してください',
   'pages.system.codeRules.expressionPlaceholder': '例えば{YYYY}{MM}{DD}-{SEQ:4}',
-  'pages.system.codeRules.expressionExtra': '変数: {YYYY}、{YY}、{MM}、{DD}、{SEQ:数字}、{FIELD:項目名}',
+  'pages.system.codeRules.expressionExtra':
+    '変数: {YYYY}、{YY}、{MM}、{DD}、{SEQ:数字}、{FIELD:項目名}',
   'pages.system.codeRules.modeComponent': '成分',
   'pages.system.codeRules.modeAdvanced': '高度な',
-  'pages.system.codeRules.seqIntegratedHint': 'シーケンス設定は「自動カウンター」コンポーネントにあります。',
+  'pages.system.codeRules.seqIntegratedHint':
+    'シーケンス設定は「自動カウンター」コンポーネントにあります。',
   'pages.system.codeRules.seqStart': 'シーケンス開始',
   'pages.system.codeRules.seqStep': 'シーケンスステップ',
   'pages.system.codeRules.seqResetRule': 'シーケンスリセット',
@@ -16070,12 +17758,16 @@ export default {
   'components.codeRuleComponentBuilder.action.edit': '編集',
   'components.codeRuleComponentBuilder.action.delete': '消去',
   'components.codeRuleComponentBuilder.warning.singleInstance': '{{name}} は 1 回のみ追加できます',
-  'components.codeRuleComponentBuilder.warning.requiredCannotDelete': '{{name}} は必須なので削除できません',
+  'components.codeRuleComponentBuilder.warning.requiredCannotDelete':
+    '{{name}} は必須なので削除できません',
   'components.codeRuleComponentBuilder.modal.deleteTitle': '削除の確認',
-  'components.codeRuleComponentBuilder.modal.deleteContent': '「{{name}}」を削除してもよろしいですか?',
+  'components.codeRuleComponentBuilder.modal.deleteContent':
+    '「{{name}}」を削除してもよろしいですか?',
   'components.codeRuleComponentBuilder.preview.title': 'コードのプレビュー',
-  'components.codeRuleComponentBuilder.preview.placeholder': 'ルールコンポーネントを設定してください',
-  'components.codeRuleComponentBuilder.preview.hint': 'このプレビューは現在の設定から生成されます。実際の生成では、実際のシーケンス番号と日付が使用されます。',
+  'components.codeRuleComponentBuilder.preview.placeholder':
+    'ルールコンポーネントを設定してください',
+  'components.codeRuleComponentBuilder.preview.hint':
+    'このプレビューは現在の設定から生成されます。実際の生成では、実際のシーケンス番号と日付が使用されます。',
   'components.codeRuleComponent.type.autoCounter': 'オートカウンター',
   'components.codeRuleComponent.type.date': '日付',
   'components.codeRuleComponent.type.fixedText': '固定テキスト',
@@ -16101,38 +17793,53 @@ export default {
   'components.codeRuleComponentConfig.autoCounter.digitsRequired': '数字を入力してください',
   'components.codeRuleComponentConfig.autoCounter.digitsExtra': '桁の範囲: 2 ～ 12',
   'components.codeRuleComponentConfig.autoCounter.fixedWidth': '固定幅',
-  'components.codeRuleComponentConfig.autoCounter.fixedWidthExtra': 'オンの場合、ゼロが埋め込まれます (例: 00001)。オフの場合、自然な幅 (例: 1) が使用されます。',
+  'components.codeRuleComponentConfig.autoCounter.fixedWidthExtra':
+    'オンの場合、ゼロが埋め込まれます (例: 00001)。オフの場合、自然な幅 (例: 1) が使用されます。',
   'components.codeRuleComponentConfig.autoCounter.resetCycle': 'リセットサイクル',
-  'components.codeRuleComponentConfig.autoCounter.resetCycleRequired': 'リセットサイクルを選択してください',
-  'components.codeRuleComponentConfig.autoCounter.resetCycleExtra': 'シーケンスカウンターをリセットするタイミング',
+  'components.codeRuleComponentConfig.autoCounter.resetCycleRequired':
+    'リセットサイクルを選択してください',
+  'components.codeRuleComponentConfig.autoCounter.resetCycleExtra':
+    'シーケンスカウンターをリセットするタイミング',
   'components.codeRuleComponentConfig.autoCounter.initialValue': '初期値',
   'components.codeRuleComponentConfig.autoCounter.initialValueRequired': '初期値を入力してください',
   'components.codeRuleComponentConfig.autoCounter.initialValueExtra': 'カウンターの開始番号',
-  'components.codeRuleComponentConfig.autoCounter.scopeFields': 'スコープ項目 (パーティションカウント)',
-  'components.codeRuleComponentConfig.autoCounter.scopeFieldsPlaceholder': 'カウントを分割する項目を選択してください',
-  'components.codeRuleComponentConfig.autoCounter.scopeFieldsExtra': '例: 部門を選択した場合、シーケンスは部門ごとに独立しています (例: 営業 0001、マーケティング 0001)。',
+  'components.codeRuleComponentConfig.autoCounter.scopeFields':
+    'スコープ項目 (パーティションカウント)',
+  'components.codeRuleComponentConfig.autoCounter.scopeFieldsPlaceholder':
+    'カウントを分割する項目を選択してください',
+  'components.codeRuleComponentConfig.autoCounter.scopeFieldsExtra':
+    '例: 部門を選択した場合、シーケンスは部門ごとに独立しています (例: 営業 0001、マーケティング 0001)。',
   'components.codeRuleComponentConfig.date.formatType': 'フォーマットの種類',
   'components.codeRuleComponentConfig.date.formatTypeRequired': '形式の種類を選択してください',
   'components.codeRuleComponentConfig.date.formatTypePreset': 'プリセットフォーマット',
   'components.codeRuleComponentConfig.date.formatTypeCustom': 'カスタムフォーマット',
   'components.codeRuleComponentConfig.date.presetFormat': 'プリセットフォーマット',
-  'components.codeRuleComponentConfig.date.presetFormatRequired': 'プリセット形式を選択してください',
+  'components.codeRuleComponentConfig.date.presetFormatRequired':
+    'プリセット形式を選択してください',
   'components.codeRuleComponentConfig.date.presetFormatExtra': 'プリセットの日付形式を選択します',
   'components.codeRuleComponentConfig.date.customFormat': 'カスタムフォーマット',
   'components.codeRuleComponentConfig.date.customFormatRequired': 'カスタム形式を入力してください',
-  'components.codeRuleComponentConfig.date.customFormatPlaceholder': '例えばyMd は Y/M/D を表します。 yyyyMMdd (4 桁の年 + 2 桁の月 + 2 桁の日)',
-  'components.codeRuleComponentConfig.date.customFormatExtra': '年には y、月には M、日には d を使用します。',
+  'components.codeRuleComponentConfig.date.customFormatPlaceholder':
+    '例えばyMd は Y/M/D を表します。 yyyyMMdd (4 桁の年 + 2 桁の月 + 2 桁の日)',
+  'components.codeRuleComponentConfig.date.customFormatExtra':
+    '年には y、月には M、日には d を使用します。',
   'components.codeRuleComponentConfig.fixedText.text': '固定テキスト',
   'components.codeRuleComponentConfig.fixedText.textRequired': '定型文を入力してください',
-  'components.codeRuleComponentConfig.fixedText.textPlaceholder': '追加するテキストを入力してください',
-  'components.codeRuleComponentConfig.fixedText.textExtra': 'ビジネスコンテキスト全体でコードを区別するのに役立ちます',
+  'components.codeRuleComponentConfig.fixedText.textPlaceholder':
+    '追加するテキストを入力してください',
+  'components.codeRuleComponentConfig.fixedText.textExtra':
+    'ビジネスコンテキスト全体でコードを区別するのに役立ちます',
   'components.codeRuleComponentConfig.formField.fieldName': 'フォーム項目',
-  'components.codeRuleComponentConfig.formField.fieldNameRequired': 'フォーム項目を選択してください',
-  'components.codeRuleComponentConfig.formField.fieldNamePlaceholder': '参照するフォーム項目を選択してください',
-  'components.codeRuleComponentConfig.formField.fieldNameExtra': '選択した項目値をコードに追加します',
+  'components.codeRuleComponentConfig.formField.fieldNameRequired':
+    'フォーム項目を選択してください',
+  'components.codeRuleComponentConfig.formField.fieldNamePlaceholder':
+    '参照するフォーム項目を選択してください',
+  'components.codeRuleComponentConfig.formField.fieldNameExtra':
+    '選択した項目値をコードに追加します',
   'pages.system.pluginManager.title': 'プラグインマネージャー',
   'pages.system.pluginManager.fetchFailed': 'プラグインのロードに失敗しました',
-  'pages.system.pluginManager.discoverSuccess': '検出が完了しました: {{registered}} が登録され、{{updated}} が更新されました',
+  'pages.system.pluginManager.discoverSuccess':
+    '検出が完了しました: {{registered}} が登録され、{{updated}} が更新されました',
   'pages.system.pluginManager.discoverFailed': 'プラグインの検出に失敗しました',
   'pages.system.pluginManager.enableFailed': 'プラグインを有効にできませんでした',
   'pages.system.pluginManager.disableFailed': 'プラグインを無効にできませんでした',
@@ -16150,9 +17857,11 @@ export default {
   'pages.system.pluginManager.disabled': '無効',
   'pages.system.pluginManager.actions': 'アクション',
   'pages.system.pluginManager.disableConfirmTitle': 'プラグイン「{{name}}」を無効にしますか?',
-  'pages.system.pluginManager.disableConfirmDesc': 'プラグイン機能は無効化すると利用できなくなります。',
+  'pages.system.pluginManager.disableConfirmDesc':
+    'プラグイン機能は無効化すると利用できなくなります。',
   'pages.system.pluginManager.enableConfirmTitle': 'プラグイン「{{name}}」を有効にしますか?',
-  'pages.system.pluginManager.enableConfirmDesc': 'プラグイン機能は有効化後に利用できるようになります。',
+  'pages.system.pluginManager.enableConfirmDesc':
+    'プラグイン機能は有効化後に利用できるようになります。',
   'pages.system.pluginManager.disable': '無効にする',
   'pages.system.pluginManager.enable': '有効にする',
   'pages.system.pluginManager.viewError': 'ビューエラー',
@@ -16178,7 +17887,8 @@ export default {
   'pages.infra.clientReleases.detailPackageSize': 'パッケージサイズ',
   'pages.infra.clientReleases.detailPackageSha256': 'SHA256',
   'pages.infra.clientReleases.detailOtaPath': 'OTAパス',
-  'pages.infra.clientReleases.detailActivateHint': '「アップロード後にアクティブ化」がチェックされている場合、同じクライアントおよびプラットフォームに対する以前のアクティブなリリースが履歴になります。それ以外の場合は手動でアクティブ化してください。',
+  'pages.infra.clientReleases.detailActivateHint':
+    '「アップロード後にアクティブ化」がチェックされている場合、同じクライアントおよびプラットフォームに対する以前のアクティブなリリースが履歴になります。それ以外の場合は手動でアクティブ化してください。',
   'pages.infra.clientReleases.columnClient': 'クライアント',
   'pages.infra.clientReleases.columnPlatform': 'プラットフォーム',
   'pages.infra.clientReleases.columnVersion': 'バージョン',
@@ -16200,15 +17910,20 @@ export default {
   'pages.infra.clientReleases.uploadFailed': 'アップロードに失敗しました',
   'pages.infra.clientReleases.formClientRequired': 'クライアントを選択してください',
   'pages.infra.clientReleases.formVersionRequired': 'バージョンを入力してください',
-  'pages.infra.clientReleases.formIncomplete': 'クライアント、プラットフォーム、バージョンは必須です',
+  'pages.infra.clientReleases.formIncomplete':
+    'クライアント、プラットフォーム、バージョンは必須です',
   'pages.infra.clientReleases.activateAfterUpload': 'アップロード後にアクティブ化する',
   'pages.infra.clientReleases.uploadDragHint': 'ここにパッケージをクリックまたはドラッグします',
-  'pages.infra.clientReleases.uploadDragSubHint': 'Android: .apk (ドロップ時にバージョンと versionCode が自動検出) · Windows: .exe / .msi / .zip · ファイルあたり最大 500MB',
+  'pages.infra.clientReleases.uploadDragSubHint':
+    'Android: .apk (ドロップ時にバージョンと versionCode が自動検出) · Windows: .exe / .msi / .zip · ファイルあたり最大 500MB',
   'pages.infra.clientReleases.formVersionCode': 'バージョンコード',
-  'pages.infra.clientReleases.formVersionCodeTooltip': 'Android バージョンパッケージのビルドを比較するために使用されるコード',
-  'pages.infra.clientReleases.formVersionCodeRequired': 'バージョンコードは必須です（Android versionCode）',
+  'pages.infra.clientReleases.formVersionCodeTooltip':
+    'Android バージョンパッケージのビルドを比較するために使用されるコード',
+  'pages.infra.clientReleases.formVersionCodeRequired':
+    'バージョンコードは必須です（Android versionCode）',
   'pages.infra.clientReleases.formRuntimeVersion': 'ランタイムバージョン',
-  'pages.infra.clientReleases.formRuntimeVersionPlaceholder': 'OTA アップデートの場合。アプリのバージョンを使用するには空白のままにしてください',
+  'pages.infra.clientReleases.formRuntimeVersionPlaceholder':
+    'OTA アップデートの場合。アプリのバージョンを使用するには空白のままにしてください',
   'pages.infra.clientReleases.formVersionPlaceholder': '例えば1.0.6',
   'pages.infra.clientReleases.formPlatformRequired': 'プラットフォームを選択してください',
   'pages.infra.clientReleases.formForceUpdate': '強制更新',
@@ -16219,10 +17934,13 @@ export default {
   'pages.infra.clientReleases.platformAndroid': 'アンドロイド',
   'pages.infra.clientReleases.platformIos': 'iOS',
   'pages.infra.clientReleases.platformWindows': '窓',
-  'pages.infra.clientReleases.packageParsed': 'パッケージから検出されました: {{version}} (バージョンコード {{code}})',
-  'pages.infra.clientReleases.packageParseFailed': 'APK からバージョンを読み取れませんでした。ファイルを確認するか、手動で入力してください',
+  'pages.infra.clientReleases.packageParsed':
+    'パッケージから検出されました: {{version}} (バージョンコード {{code}})',
+  'pages.infra.clientReleases.packageParseFailed':
+    'APK からバージョンを読み取れませんでした。ファイルを確認するか、手動で入力してください',
   'pages.infra.clientReleases.packageDetectedTitle': 'パッケージのバージョンが検出されました',
-  'pages.infra.clientReleases.formVersionAutoTooltip': 'APK をドロップすると自動的に入力されます。編集内容は引き続きファイルと一致する必要があります',
+  'pages.infra.clientReleases.formVersionAutoTooltip':
+    'APK をドロップすると自動的に入力されます。編集内容は引き続きファイルと一致する必要があります',
   'pages.infra.clientReleases.deleteSuccess': '過去のリリースとパッケージ ファイルが削除されました',
   'pages.infra.clientReleases.deleteFailed': '削除に失敗しました',
   'pages.infra.clientReleases.deleteConfirmTitle': '過去のリリースを削除しますか?',
@@ -16247,30 +17965,41 @@ export default {
   'pages.infra.clientReleases.configSaveSuccess': 'クライアント設定が保存されました',
   'pages.infra.clientReleases.configSaveFailed': 'クライアント設定の保存に失敗しました',
   'pages.infra.clientReleases.configPushEnabled': 'JPushを有効にする',
-  'pages.infra.clientReleases.configPushEnabledTooltip': 'オフの場合、システム プッシュ通知はこのクライアントに送信されません',
+  'pages.infra.clientReleases.configPushEnabledTooltip':
+    'オフの場合、システム プッシュ通知はこのクライアントに送信されません',
   'pages.infra.clientReleases.configJpushAppKey': 'JPush AppKey',
-  'pages.infra.clientReleases.configJpushAppKeyPlaceholder': 'モバイルアプリのビルドと一致する必要があります',
+  'pages.infra.clientReleases.configJpushAppKeyPlaceholder':
+    'モバイルアプリのビルドと一致する必要があります',
   'pages.infra.clientReleases.configJpushAppKeyRequired': 'AppKey が必要です',
   'pages.infra.clientReleases.configJpushMasterSecret': 'JPush マスター シークレット',
-  'pages.infra.clientReleases.configJpushMasterSecretPlaceholder': 'サーバー側のプッシュ シークレット',
-  'pages.infra.clientReleases.configJpushMasterSecretKeep': '保存されたシークレットを保持するには空白のままにします',
-  'pages.infra.clientReleases.configJpushMasterSecretConfigured': 'マスター シークレットが設定されている (セキュリティのため表示されていません)',
+  'pages.infra.clientReleases.configJpushMasterSecretPlaceholder':
+    'サーバー側のプッシュ シークレット',
+  'pages.infra.clientReleases.configJpushMasterSecretKeep':
+    '保存されたシークレットを保持するには空白のままにします',
+  'pages.infra.clientReleases.configJpushMasterSecretConfigured':
+    'マスター シークレットが設定されている (セキュリティのため表示されていません)',
   'pages.infra.clientReleases.configPushReady': 'プッシュ認証情報の準備ができました',
-  'pages.infra.clientReleases.configPushNotReady': 'プッシュの準備ができていません: AppKey とマスター シークレットを設定し、サーバー上で PUSH_ENABLED=true であることを確認します。',
-  'pages.infra.clientReleases.configEnvFallbackHint': '現在、一部の資格情報はサーバー .env から取得されます。ここで保存された値が優先されます',
+  'pages.infra.clientReleases.configPushNotReady':
+    'プッシュの準備ができていません: AppKey とマスター シークレットを設定し、サーバー上で PUSH_ENABLED=true であることを確認します。',
+  'pages.infra.clientReleases.configEnvFallbackHint':
+    '現在、一部の資格情報はサーバー .env から取得されます。ここで保存された値が優先されます',
   'pages.infra.clientReleases.configPushTestTenant': 'テストテナント',
   'pages.infra.clientReleases.configPushTestTenantPlaceholder': 'テナントを検索して選択します',
   'pages.infra.clientReleases.configPushTestUser': 'テストユーザー',
-  'pages.infra.clientReleases.configPushTestUserPlaceholder': '最初にテナントを選択し、次にユーザーを検索します',
+  'pages.infra.clientReleases.configPushTestUserPlaceholder':
+    '最初にテナントを選択し、次にユーザーを検索します',
   'pages.infra.clientReleases.configPushTestAliasPreview': 'プッシュエイリアス: {{alias}}',
   'pages.infra.clientReleases.configPushTestTenantId': 'テストテナントID',
   'pages.infra.clientReleases.configPushTestUserId': 'テストユーザーID',
   'pages.infra.clientReleases.configPushTestAction': 'テストプッシュを送信する',
-  'pages.infra.clientReleases.configPushTestNeedIds': 'テナントとそのテナント内のユーザーを選択します',
+  'pages.infra.clientReleases.configPushTestNeedIds':
+    'テナントとそのテナント内のユーザーを選択します',
   'pages.infra.clientReleases.configPushTestSent': 'テストプッシュが送信されました',
   'pages.infra.clientReleases.configPushTestFailed': 'テストプッシュに失敗しました',
-  'pages.infra.clientReleases.configPushTestOk': 'JPush が受け入れられました (エイリアス={{alias}})',
-  'pages.infra.clientReleases.configPushTestFail': 'JPush が配信されませんでした (エイリアス={{alias}})',
+  'pages.infra.clientReleases.configPushTestOk':
+    'JPush が受け入れられました (エイリアス={{alias}})',
+  'pages.infra.clientReleases.configPushTestFail':
+    'JPush が配信されませんでした (エイリアス={{alias}})',
   'pages.infra.scripts.getDetailFailed': 'スクリプトの詳細をロードできませんでした',
   'pages.infra.scripts.executeSuccess': 'スクリプトは正常に実行されました',
   'pages.infra.scripts.executeFailed': 'スクリプトの実行に失敗しました',
@@ -16319,7 +18048,8 @@ export default {
   'pages.infra.scripts.nameRequired': 'スクリプト名を入力してください',
   'pages.infra.scripts.labelCode': 'コード',
   'pages.infra.scripts.codeRequired': 'スクリプトコードを入力してください',
-  'pages.infra.scripts.codePattern': 'コードは文字で始まり、文字、数字、アンダースコアのみを含む必要があります',
+  'pages.infra.scripts.codePattern':
+    'コードは文字で始まり、文字、数字、アンダースコアのみを含む必要があります',
   'pages.infra.scripts.codeTooltip': 'コードは識別に使用され、作成後に変更することはできません',
   'pages.infra.scripts.labelType': 'タイプ',
   'pages.infra.scripts.typeRequired': 'スクリプトの種類を選択してください',
@@ -16334,7 +18064,8 @@ export default {
   'pages.infra.scripts.paramsPlaceholder': '{"キー": "値"}',
   'pages.infra.scripts.paramsTooltip': 'JSON の実行パラメータ',
   'pages.infra.scripts.labelAsync': '非同期実行 (Taskiq)',
-  'pages.infra.scripts.asyncTooltip': '有効にすると、スクリプトは Taskiq バックグラウンド ジョブとして非同期的に実行されます。',
+  'pages.infra.scripts.asyncTooltip':
+    '有効にすると、スクリプトは Taskiq バックグラウンド ジョブとして非同期的に実行されます。',
   'pages.infra.scripts.submitExecute': '実行する',
   'pages.infra.scripts.resultTitle': '結果：',
   'pages.infra.scripts.resultSuccess': '✓ 成功',
@@ -16351,7 +18082,8 @@ export default {
   'pages.system.dataBackups.getDetailFailed': 'バックアップの詳細をロードできませんでした',
   'pages.system.dataBackups.createFailed': 'バックアップタスクの作成に失敗しました',
   'pages.system.dataBackups.restoreCompletedSuccess': 'バックアップが正常に復元されました',
-  'pages.system.dataBackups.restorePollingTimeout': '復元はまだ実行中です。後で更新してステータスを確認する',
+  'pages.system.dataBackups.restorePollingTimeout':
+    '復元はまだ実行中です。後で更新してステータスを確認する',
   'pages.system.dataBackups.restoreFailed': '復元に失敗しました',
   'pages.system.dataBackups.deleteSuccess': 'バックアップが削除されました',
   'pages.system.dataBackups.deleteFailed': 'バックアップの削除に失敗しました',
@@ -16375,7 +18107,8 @@ export default {
   'pages.system.dataBackups.downloadBackup': 'ダウンロード',
   'pages.system.dataBackups.restoreBackup': '復元する',
   'pages.system.dataBackups.restoreConfirmTitle': 'このバックアップを復元しますか?',
-  'pages.system.dataBackups.restoreConfirmContent': 'これにより、現在のデータベース データが上書きされます。続く？',
+  'pages.system.dataBackups.restoreConfirmContent':
+    'これにより、現在のデータベース データが上書きされます。続く？',
   'pages.system.dataBackups.deleteConfirmTitle': 'このバックアップを削除しますか?',
   'pages.system.dataBackups.deleteTooltip': '消去',
   'pages.system.dataBackups.restore': '復元する',
@@ -16412,7 +18145,8 @@ export default {
   'pages.system.dataBackups.contentDataOnly': 'データテーブルのみ',
   'pages.system.dataBackups.contentDataAndFiles': 'データテーブル + ファイル',
   'pages.system.dataBackups.contentDataOnlyLabel': 'データ テーブルのみ (小さい、添付ファイルなし)',
-  'pages.system.dataBackups.contentDataAndFilesLabel': 'データテーブル + ファイル (アップロードを含む)',
+  'pages.system.dataBackups.contentDataAndFilesLabel':
+    'データテーブル + ファイル (アップロードを含む)',
   'pages.system.dataBackups.contentScopePlaceholder': 'バックアップコンテンツの選択',
   'pages.system.dataBackups.labelScopeField': '範囲',
   'pages.system.dataBackups.scopeRequired': '範囲を選択してください',
@@ -16444,25 +18178,37 @@ export default {
   'pages.system.dataBackups.uploadSuccess': 'バックアップファイルが正常にアップロードされました',
   'pages.system.dataBackups.uploadFailed': 'バックアップのアップロードに失敗しました',
   'pages.system.dataBackups.uploadHint': '.zip バックアップ ファイルのみがサポートされています',
-  'pages.system.dataBackups.restoreUploadedConfirmTitle': '2 番目の確認: アップロードされたバックアップを復元する',
-  'pages.system.dataBackups.restoreUploadedConfirmContent': 'このバックアップはアップロードされました。復元すると現在のデータが上書きされます。ロールバック用に復元前のバックアップが自動的に作成されます。もう一度確認しますか？',
-  'pages.system.dataBackups.preRestoreBackupHint': 'ロールバック用に復元前のバックアップが自動的に作成されます',
+  'pages.system.dataBackups.restoreUploadedConfirmTitle':
+    '2 番目の確認: アップロードされたバックアップを復元する',
+  'pages.system.dataBackups.restoreUploadedConfirmContent':
+    'このバックアップはアップロードされました。復元すると現在のデータが上書きされます。ロールバック用に復元前のバックアップが自動的に作成されます。もう一度確認しますか？',
+  'pages.system.dataBackups.preRestoreBackupHint':
+    'ロールバック用に復元前のバックアップが自動的に作成されます',
   'pages.system.dataBackups.columnSource': 'ソース',
   'pages.system.dataBackups.sourceUploaded': 'アップロードされました',
   'pages.system.dataBackups.sourceGenerated': '生成された',
   'pages.system.dataBackups.sourceTenantIdLabel': 'バックアップ内のソース テナント ID',
-  'pages.system.dataBackups.sourceTenantIdExtra': 'エクスポート テナント ID は現在のテナントと異なる場合があります。交換用に指定します。メタデータから推測するには空のままにします。',
-  'pages.system.dataBackups.sourceTenantIdPlaceholder': 'オプション、自動推論するには空のままにしておきます',
+  'pages.system.dataBackups.sourceTenantIdExtra':
+    'エクスポート テナント ID は現在のテナントと異なる場合があります。交換用に指定します。メタデータから推測するには空のままにします。',
+  'pages.system.dataBackups.sourceTenantIdPlaceholder':
+    'オプション、自動推論するには空のままにしておきます',
   'pages.system.dataBackups.restoreTenantMappingTitle': 'テナント復元マッピング',
   'pages.system.dataBackups.restoreTargetTenantLabel': '復元先',
-  'pages.system.dataBackups.restoreTargetTenantDesc': '現在サインインしている組織 (テナント ID {{id}})',
-  'pages.system.dataBackups.restoreSourceTenantLabel': 'このバックアップはどのテナントからエクスポートされましたか?',
-  'pages.system.dataBackups.restoreSourceTenantExtra': 'バックアップ メタデータから事前入力 — 確認してください。システム間移行の場合は、古いシステムのテナント ID を入力します (数字のみ、矢印形式なし)。',
-  'pages.system.dataBackups.restoreSourceTenantRequired': 'このバックアップをエクスポートするときに使用したテナント ID を入力してください',
+  'pages.system.dataBackups.restoreTargetTenantDesc':
+    '現在サインインしている組織 (テナント ID {{id}})',
+  'pages.system.dataBackups.restoreSourceTenantLabel':
+    'このバックアップはどのテナントからエクスポートされましたか?',
+  'pages.system.dataBackups.restoreSourceTenantExtra':
+    'バックアップ メタデータから事前入力 — 確認してください。システム間移行の場合は、古いシステムのテナント ID を入力します (数字のみ、矢印形式なし)。',
+  'pages.system.dataBackups.restoreSourceTenantRequired':
+    'このバックアップをエクスポートするときに使用したテナント ID を入力してください',
   'pages.system.dataBackups.restoreSourceTenantPlaceholder': '例えば15',
-  'pages.system.dataBackups.restoreMigrationHint': 'テナント {{source}} からのビジネス データと添付ファイルは移行され、テナント {{target}} を上書きします。',
-  'pages.system.dataBackups.restoreSameTenantHint': 'バックアップは現在の組織と一致します - 現在の組織のビジネス データは上書きされます。',
-  'pages.system.dataBackups.restorePlatformSafeHint': 'プラットフォームレベルのデータはエクスポートされたり上書きされたりすることはありません。現在の組織のビジネス データのみが影響を受けます。',
+  'pages.system.dataBackups.restoreMigrationHint':
+    'テナント {{source}} からのビジネス データと添付ファイルは移行され、テナント {{target}} を上書きします。',
+  'pages.system.dataBackups.restoreSameTenantHint':
+    'バックアップは現在の組織と一致します - 現在の組織のビジネス データは上書きされます。',
+  'pages.system.dataBackups.restorePlatformSafeHint':
+    'プラットフォームレベルのデータはエクスポートされたり上書きされたりすることはありません。現在の組織のビジネス データのみが影響を受けます。',
   'pages.system.dataBackups.workerHealthLoadFailed': 'ワーカーステータスのロードに失敗しました',
   'pages.system.dataBackups.workerStatusTitle': '労働者のステータス',
   'pages.system.dataBackups.workerStatusOnline': 'オンライン',
@@ -16484,7 +18230,8 @@ export default {
   'pages.system.datasets.operationFailed': '操作が失敗しました',
   'pages.system.datasets.selectToDelete': '削除するデータセットを選択してください',
   'pages.system.datasets.confirmBatchDelete': '選択した {{count}} データセットを削除しますか?',
-  'pages.system.datasets.batchDeletePartial': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.datasets.batchDeletePartial':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
   'pages.system.datasets.batchDeleteSuccess': '{{count}} データセットが削除されました',
   'pages.system.datasets.batchDeleteFailed': '一括削除に失敗しました',
   'pages.system.datasets.copySuccess': 'コピー、オープニングデザイナー',
@@ -16517,7 +18264,8 @@ export default {
   'pages.system.datasets.more': 'もっと',
   'pages.system.datasets.confirmDelete': 'このデータセットを削除しますか?',
   'pages.system.datasets.loadListFailed': 'データセットリストのロードに失敗しました',
-  'pages.system.datasets.loadDataConnectionsFailed': 'データ接続のロードに失敗しました。もう一度試してください。',
+  'pages.system.datasets.loadDataConnectionsFailed':
+    'データ接続のロードに失敗しました。もう一度試してください。',
   'pages.system.datasets.createButton': '新しいデータセット',
   'pages.system.datasets.batchDelete': '一括削除',
   'pages.system.datasets.batchEnable': 'バッチ有効化',
@@ -16553,7 +18301,8 @@ export default {
   'pages.system.datasets.labelDescription': '説明',
   'pages.system.datasets.descriptionOptional': 'オプション',
   'pages.system.datasets.labelDisplayConfig': '表示設定(JSON)',
-  'pages.system.datasets.displayConfigPlaceholder': '{"列":[{"キー":"カウント","ラベル":"カウント","フォーマッタ":"数値","カラー":"#1890ff"}]}',
+  'pages.system.datasets.displayConfigPlaceholder':
+    '{"列":[{"キー":"カウント","ラベル":"カウント","フォーマッタ":"数値","カラー":"#1890ff"}]}',
   'pages.system.datasets.labelRemark': '述べる',
   'pages.system.datasets.remarkOptional': 'オプション',
   'pages.system.datasets.labelEnabled': '有効',
@@ -16610,9 +18359,12 @@ export default {
   'pages.system.reportTemplates.loadFailed': 'データのロードに失敗しました',
   'pages.system.reportTemplates.selectToDelete': '削除するテンプレートを選択してください',
   'pages.system.reportTemplates.confirmDelete': '削除の確認',
-  'pages.system.reportTemplates.confirmDeleteContent': '選択した {{count}} 個のテンプレートを削除しますか?',
-  'pages.system.reportTemplates.batchDeleteTitle': '選択したレポート テンプレートを一括削除してもよろしいですか?',
-  'pages.system.reportTemplates.batchDeleteDescription': '{{count}} レポート テンプレートは削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.reportTemplates.confirmDeleteContent':
+    '選択した {{count}} 個のテンプレートを削除しますか?',
+  'pages.system.reportTemplates.batchDeleteTitle':
+    '選択したレポート テンプレートを一括削除してもよろしいですか?',
+  'pages.system.reportTemplates.batchDeleteDescription':
+    '{{count}} レポート テンプレートは削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'pages.system.reportTemplates.deleteSuccess': '削除されました',
   'pages.system.reportTemplates.deleteFailed': '削除に失敗しました',
   'pages.system.reportTemplates.updateSuccess': '更新されました',
@@ -16673,11 +18425,16 @@ export default {
   'pages.system.maintenancePlans.deleteSuccess': '削除されました',
   'pages.system.maintenancePlans.deleteFailed': '削除に失敗しました',
   'pages.system.maintenancePlans.selectToDelete': '削除するメンテナンス プランを選択してください',
-  'pages.system.maintenancePlans.confirmBatchDelete': '選択した {{count}} 件のメンテナンス プランを削除しますか?',
-  'pages.system.maintenancePlans.batchDeleteTitle': '選択したメンテナンス プランを一括削除してもよろしいですか?',
-  'pages.system.maintenancePlans.batchDeleteDescription': '{{count}} メンテナンス プランは削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.maintenancePlans.batchDeletePartial': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
-  'pages.system.maintenancePlans.batchDeleteSuccess': '{{count}} メンテナンス プランが削除されました',
+  'pages.system.maintenancePlans.confirmBatchDelete':
+    '選択した {{count}} 件のメンテナンス プランを削除しますか?',
+  'pages.system.maintenancePlans.batchDeleteTitle':
+    '選択したメンテナンス プランを一括削除してもよろしいですか?',
+  'pages.system.maintenancePlans.batchDeleteDescription':
+    '{{count}} メンテナンス プランは削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.maintenancePlans.batchDeletePartial':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.maintenancePlans.batchDeleteSuccess':
+    '{{count}} メンテナンス プランが削除されました',
   'pages.system.maintenancePlans.batchDeleteFailed': '一括削除に失敗しました',
   'pages.system.maintenancePlans.updateSuccess': '更新されました',
   'pages.system.maintenancePlans.createSuccess': '作成されました',
@@ -16820,7 +18577,8 @@ export default {
   'pages.system.files.newFolderButton': '新しいフォルダー',
   'pages.system.files.deleteButton': '消去',
   'pages.system.files.imageTierBackfillButton': '既存の画像を圧縮する',
-  'pages.system.files.imageTierBackfillSuccess': 'イメージ層の圧縮が完了しました。 {{count}} ファイル用に生成された階層。',
+  'pages.system.files.imageTierBackfillSuccess':
+    'イメージ層の圧縮が完了しました。 {{count}} ファイル用に生成された階層。',
   'pages.system.files.imageTierBackfillFailed': '既存の画像の圧縮に失敗しました',
   'pages.system.files.selectAll': 'すべて選択',
   'pages.system.files.sortLabel': '選別：',
@@ -16831,7 +18589,8 @@ export default {
   'pages.system.files.fileType.drawing': '図面',
   'pages.system.files.fileType.other': '他の',
   'pages.system.files.selectFiles': 'ファイルの選択',
-  'pages.system.files.dragDropHint': 'ここにファイルをドラッグ アンド ドロップしてアップロードします',
+  'pages.system.files.dragDropHint':
+    'ここにファイルをドラッグ アンド ドロップしてアップロードします',
   'pages.system.files.clickOrDragHint': 'またはクリックしてファイルを選択します',
   'pages.system.files.selectedCount': '{{n}} 個が選択され、合計 {{size}} 個が選択されました',
   'pages.system.files.totalCount': '{{n}} 個のアイテム',
@@ -16863,7 +18622,8 @@ export default {
   'pages.system.files.category.receipt_notice_attachments': '受領通知の添付ファイル',
   'pages.system.files.category.purchase_return_attachments': '返品添付ファイルを購入する',
   'pages.system.files.category.rework_order_attachments': 'オーダーの添付ファイルを再加工する',
-  'pages.system.files.category.outsource_work_order_attachments': '製造指示の添付ファイルをアウトソーシングする',
+  'pages.system.files.category.outsource_work_order_attachments':
+    '製造指示の添付ファイルをアウトソーシングする',
   'pages.system.files.category.outsource_order_attachments': 'アウトソーシング注文の添付ファイル',
   'pages.system.files.category.packing_binding_attachments': '梱包バインディングアタッチメント',
   'pages.system.files.category.incoming_inspection_attachments': '検査添付ファイルの入荷',
@@ -16881,7 +18641,8 @@ export default {
   'pages.system.files.category.equipment_repair_attachments': '機器修理用アタッチメント',
   'pages.system.files.category.maintenance_plan_attachments': '保守計画の添付ファイル',
   'pages.system.files.category.maintenance_execution_attachments': 'メンテナンス実施アタッチメント',
-  'pages.system.files.category.maintenance_reminder_attachments': 'メンテナンスリマインダーの添付ファイル',
+  'pages.system.files.category.maintenance_reminder_attachments':
+    'メンテナンスリマインダーの添付ファイル',
   'pages.system.files.category.equipment_status_attachments': '装備ステータス添付ファイル',
   'pages.system.files.category.mold_usage_attachments': '金型使用アタッチメント',
   'pages.system.files.category.mold_calibration_attachments': '金型校正アタッチメント',
@@ -16892,7 +18653,8 @@ export default {
   'pages.system.files.category.purchase_receipt_attachments': '購入時の領収書の添付ファイル',
   'pages.system.files.category.other_inbound_attachments': 'その他の受信添付ファイル',
   'pages.system.files.category.material_return_attachments': '資料返却用添付ファイル',
-  'pages.system.files.category.customer_material_registration_attachments': '顧客材料登録添付ファイル',
+  'pages.system.files.category.customer_material_registration_attachments':
+    '顧客材料登録添付ファイル',
   'pages.system.files.category.sales_delivery_attachments': '販売納品添付ファイル',
   'pages.system.files.category.other_outbound_attachments': 'その他の送信添付ファイル',
   'pages.system.files.category.material_borrow_attachments': '資料借用添付ファイル',
@@ -16901,8 +18663,10 @@ export default {
   'pages.system.files.category.inventory_transfer_attachments': '在庫転送の添付ファイル',
   'pages.system.files.category.assembly_order_attachments': '組立順序添付ファイル',
   'pages.system.files.category.disassembly_order_attachments': '分解指示添付ファイル',
-  'pages.system.files.category.inventory_alert_rule_attachments': 'インベントリアラートルールの添付ファイル',
-  'pages.system.files.category.barcode_mapping_rule_attachments': 'バーコードマッピングルールの添付ファイル',
+  'pages.system.files.category.inventory_alert_rule_attachments':
+    'インベントリアラートルールの添付ファイル',
+  'pages.system.files.category.barcode_mapping_rule_attachments':
+    'バーコードマッピングルールの添付ファイル',
   'pages.system.files.category.receivable_attachments': '受信可能な添付ファイル',
   'pages.system.files.category.receipt_attachments': '領収書の添付ファイル',
   'pages.system.files.category.payable_attachments': '有料添付ファイル',
@@ -16919,8 +18683,10 @@ export default {
   'pages.system.equipment.selectToDelete': '削除する機器を選択してください',
   'pages.system.equipment.confirmDeleteContent': '選択した{{count}}機器を削除しますか?',
   'pages.system.equipment.batchDeleteTitle': '選択した機器を一括削除してもよろしいですか?',
-  'pages.system.equipment.batchDeleteDescription': '{{count}} 個の機器アイテムが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.equipment.batchDeletePartial': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.equipment.batchDeleteDescription':
+    '{{count}} 個の機器アイテムが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.equipment.batchDeletePartial':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
   'pages.system.equipment.batchDeleteSuccess': '{{count}} 装備を削除しました',
   'pages.system.equipment.confirmDeleteOne': 'この機器を削除しますか?',
   'pages.system.equipment.columnCode': 'コード',
@@ -16975,9 +18741,11 @@ export default {
   'pages.system.equipment.labelWarranty': '保証期間（月）',
   'pages.system.equipment.warrantyPlaceholder': '保証期間を入力してください',
   'pages.system.equipment.labelWorkstationCode': 'ワークステーションコード',
-  'pages.system.equipment.workstationCodePlaceholder': 'ワークステーション コードを入力します (オプション)',
+  'pages.system.equipment.workstationCodePlaceholder':
+    'ワークステーション コードを入力します (オプション)',
   'pages.system.equipment.labelWorkstationName': 'ワークステーション名',
-  'pages.system.equipment.workstationNamePlaceholder': 'ワークステーション名を入力してください (オプション)',
+  'pages.system.equipment.workstationNamePlaceholder':
+    'ワークステーション名を入力してください (オプション)',
   'pages.system.equipment.statusRequired': 'ステータスを選択してください',
   'pages.system.equipment.labelDescription': '説明',
   'pages.system.equipment.descPlaceholder': '説明を入力してください',
@@ -16994,8 +18762,10 @@ export default {
   'pages.system.molds.selectToDelete': '削除する金型を選択してください',
   'pages.system.molds.confirmDeleteContent': '選択した {{count}} 個の金型を削除しますか?',
   'pages.system.molds.batchDeleteTitle': '選択した金型を一括削除してもよろしいですか?',
-  'pages.system.molds.batchDeleteDescription': '{{count}} 個のモールドが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.molds.batchDeletePartial': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.molds.batchDeleteDescription':
+    '{{count}} 個のモールドが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.molds.batchDeletePartial':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
   'pages.system.molds.batchDeleteSuccess': '{{count}} 個の金型を削除しました',
   'pages.system.molds.confirmDeleteOne': 'この金型を削除しますか?',
   'pages.system.molds.columnCode': 'コード',
@@ -17054,10 +18824,14 @@ export default {
   'pages.system.molds.labelUpdatedAt': '更新されました',
   'pages.system.equipmentFaults.getDetailFailed': '障害レコードの詳細をロードできませんでした',
   'pages.system.equipmentFaults.selectToDelete': '削除する障害レコードを選択してください',
-  'pages.system.equipmentFaults.confirmDeleteContent': '選択した{{count}}件の障害レコードを削除しますか?',
-  'pages.system.equipmentFaults.batchDeleteTitle': '選択した障害レコードを一括削除してもよろしいですか?',
-  'pages.system.equipmentFaults.batchDeleteDescription': '{{count}} 件の障害レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.equipmentFaults.batchDeletePartial': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.equipmentFaults.confirmDeleteContent':
+    '選択した{{count}}件の障害レコードを削除しますか?',
+  'pages.system.equipmentFaults.batchDeleteTitle':
+    '選択した障害レコードを一括削除してもよろしいですか?',
+  'pages.system.equipmentFaults.batchDeleteDescription':
+    '{{count}} 件の障害レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.equipmentFaults.batchDeletePartial':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
   'pages.system.equipmentFaults.batchDeleteSuccess': '{{count}} 障害レコードが削除されました',
   'pages.system.equipmentFaults.confirmDeleteOne': 'この障害記録を削除しますか?',
   'pages.system.equipmentFaults.columnFaultNo': '故障番号',
@@ -17110,17 +18884,23 @@ export default {
   'pages.system.equipmentFaults.labelRepairRequired': '修理が必要です',
   'pages.system.equipmentFaults.remarkPlaceholder': '備考を入力してください',
   'pages.system.applicationConnections.getDetailFailed': '詳細のロードに失敗しました',
-  'pages.system.applicationConnections.selectToOperate': '操作するアプリ コネクタを選択してください',
+  'pages.system.applicationConnections.selectToOperate':
+    '操作するアプリ コネクタを選択してください',
   'pages.system.applicationConnections.batchStatusSuccess': '{{action}} {{count}} アプリ コネクタ',
   'pages.system.applicationConnections.actionEnable': '有効',
   'pages.system.applicationConnections.actionDisable': '無効',
   'pages.system.applicationConnections.selectToTest': 'テストするアプリ コネクタを選択してください',
   'pages.system.applicationConnections.selectToDelete': '削除するアプリ コネクタを選択してください',
-  'pages.system.applicationConnections.confirmDeleteContent': '選択した {{count}} 個のアプリ コネクタを削除しますか?',
-  'pages.system.applicationConnections.batchDeleteTitle': '選択したアプリ コネクタを一括削除してもよろしいですか?',
-  'pages.system.applicationConnections.batchDeleteDescription': '{{count}} アプリ コネクタが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.applicationConnections.batchDeletePartial': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
-  'pages.system.applicationConnections.batchDeleteSuccess': '{{count}} アプリ コネクタが削除されました',
+  'pages.system.applicationConnections.confirmDeleteContent':
+    '選択した {{count}} 個のアプリ コネクタを削除しますか?',
+  'pages.system.applicationConnections.batchDeleteTitle':
+    '選択したアプリ コネクタを一括削除してもよろしいですか?',
+  'pages.system.applicationConnections.batchDeleteDescription':
+    '{{count}} アプリ コネクタが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.applicationConnections.batchDeletePartial':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.applicationConnections.batchDeleteSuccess':
+    '{{count}} アプリ コネクタが削除されました',
   'pages.system.applicationConnections.testSuccess': '接続テストに成功しました',
   'pages.system.applicationConnections.testFailed': '接続テストに失敗しました',
   'pages.system.applicationConnections.fillConfigFirst': '完全な接続構成を入力してください',
@@ -17142,7 +18922,8 @@ export default {
   'pages.system.applicationConnections.statusConnected': '接続済み',
   'pages.system.applicationConnections.statusFailed': '接続に失敗しました',
   'pages.system.applicationConnections.statusDisconnected': '切断されました',
-  'pages.system.applicationConnections.testComplete': 'テスト完了: {{ok}} は成功、{{fail}} は失敗しました',
+  'pages.system.applicationConnections.testComplete':
+    'テスト完了: {{ok}} は成功、{{fail}} は失敗しました',
   'pages.system.applicationConnections.statTotal': '合計',
   'pages.system.applicationConnections.statConnected': '接続済み',
   'pages.system.applicationConnections.statDisconnected': '切断されました',
@@ -17207,19 +18988,22 @@ export default {
   'pages.system.applicationConnections.edit': '編集',
   'pages.system.applicationConnections.testConnection': 'テスト接続',
   'pages.system.applicationConnections.delete': '消去',
-  'pages.system.applicationConnections.deleteConfirmTitle': 'このアプリ接続を削除してもよろしいですか?',
+  'pages.system.applicationConnections.deleteConfirmTitle':
+    'このアプリ接続を削除してもよろしいですか?',
   'pages.system.applicationConnections.more': 'もっと',
   'pages.system.applicationConnections.createButton': '新しい接続',
   'pages.system.applicationConnections.batchDeleteButton': '一括削除',
   'pages.system.applicationConnections.batchTestButton': 'バッチテスト接続',
   'pages.system.applicationConnections.batchEnableButton': 'バッチ有効化',
   'pages.system.applicationConnections.batchDisableButton': '一括無効化',
-  'pages.system.applicationConnections.noVisualForm': '{{type}} タイプには視覚的なフォームは提供されません',
+  'pages.system.applicationConnections.noVisualForm':
+    '{{type}} タイプには視覚的なフォームは提供されません',
   'pages.system.applicationConnections.editModalTitle': 'アプリ接続の編集',
   'pages.system.applicationConnections.createModalTitle': '新しいアプリ接続',
   'pages.system.applicationConnections.namePlaceholder': '例えば生産接続',
   'pages.system.applicationConnections.codePlaceholder': '例えばprod_connection',
-  'pages.system.applicationConnections.codePattern': '小文字、数字、アンダースコアのみが使用できます',
+  'pages.system.applicationConnections.codePattern':
+    '小文字、数字、アンダースコアのみが使用できます',
   'pages.system.applicationConnections.descPlaceholder': 'オプション',
   'pages.system.applicationConnections.formAesKeyLabel': 'AESキー',
   'pages.system.applicationConnections.formTokenLabel': 'トークン',
@@ -17241,8 +19025,10 @@ export default {
   'pages.system.applicationConnections.descFeishu': 'Feishuオープンプラットフォームカスタムアプリ',
   'pages.system.applicationConnections.descDingtalk': 'DingTalk 社内アプリ',
   'pages.system.applicationConnections.descWecom': 'WeComカスタムアプリ',
-  'pages.system.applicationConnections.descKingdee': 'Kingdee Cloud コズミック / ギャラクシー / KIS クラウド API',
-  'pages.system.applicationConnections.descYonyou': 'Yony​​ou YonBIP / U8 / U9 / NCオープンプラットフォーム',
+  'pages.system.applicationConnections.descKingdee':
+    'Kingdee Cloud コズミック / ギャラクシー / KIS クラウド API',
+  'pages.system.applicationConnections.descYonyou':
+    'Yony​​ou YonBIP / U8 / U9 / NCオープンプラットフォーム',
   'pages.system.applicationConnections.descSap': 'SAP S/4HANA クラウド / ビジネス ワン',
   'pages.system.applicationConnections.descOracle_netsuite': 'Oracle NetSuiteクラウドERP',
   'pages.system.applicationConnections.descOdoo': 'Odoo ERP 外部 API',
@@ -17250,7 +19036,8 @@ export default {
   'pages.system.applicationConnections.descDsc': 'Digiwin T100 / E-Go / E-Helper REST API',
   'pages.system.applicationConnections.descDigiwin_e10': 'Digiwin E10 ERPオープンAPI',
   'pages.system.applicationConnections.descChanjet_tplus': 'Chanjet T+ クラウド / ローカル版',
-  'pages.system.applicationConnections.descGrasp_erp': 'Grasp ERP Brilliantシリーズ（クラウド/ローカル）',
+  'pages.system.applicationConnections.descGrasp_erp':
+    'Grasp ERP Brilliantシリーズ（クラウド/ローカル）',
   'pages.system.applicationConnections.descKingdee_kis': 'Kingdee KIS API',
   'pages.system.applicationConnections.descSuper_erp': 'スーパーERP APIサービス',
   'pages.system.applicationConnections.descErpnext': 'ERPNext / Frappe フレームワーク API',
@@ -17263,21 +19050,27 @@ export default {
   'pages.system.applicationConnections.descSunlike_plm': 'Sunlike PLM 管理システム',
   'pages.system.applicationConnections.descInteplm': 'IntelPLM データ サービス',
   'pages.system.applicationConnections.descXiaoshouyi': 'Xiaoshouyi オープン API (Neocrm)',
-  'pages.system.applicationConnections.descFenxiang': 'フェンシアンオープンプラットフォーム（FXIAOKE）',
+  'pages.system.applicationConnections.descFenxiang':
+    'フェンシアンオープンプラットフォーム（FXIAOKE）',
   'pages.system.applicationConnections.descSalesforce': 'Salesforce CRM',
   'pages.system.applicationConnections.descQidian': 'Tencent Qidian CRM API',
   'pages.system.applicationConnections.descSupra_crm': 'Supra CRM 統合クラウド プラットフォーム',
   'pages.system.applicationConnections.descWeaver': 'Weaver e-cology API',
   'pages.system.applicationConnections.descSeeyon': 'Seeyon コラボレーション API',
-  'pages.system.applicationConnections.descLandray': 'Landray EKp コラボレーション プラットフォーム',
+  'pages.system.applicationConnections.descLandray':
+    'Landray EKp コラボレーション プラットフォーム',
   'pages.system.applicationConnections.descCloudhub': 'Cloudhubオープンプラットフォーム',
   'pages.system.applicationConnections.descTongda_oa': '通達OAオフィスシステム',
   'pages.system.applicationConnections.descAlicloud_iot': 'アリババクラウドIoTプラットフォームAPI',
-  'pages.system.applicationConnections.descHuaweicloud_iot': 'ファーウェイクラウドIoT（OceanConnect）',
-  'pages.system.applicationConnections.descRootcloud': 'ROOTCLOUD 産業用インターネット プラットフォーム',
+  'pages.system.applicationConnections.descHuaweicloud_iot':
+    'ファーウェイクラウドIoT（OceanConnect）',
+  'pages.system.applicationConnections.descRootcloud':
+    'ROOTCLOUD 産業用インターネット プラットフォーム',
   'pages.system.applicationConnections.descCasicloud': 'CASICloud INDICS プラットフォーム',
-  'pages.system.applicationConnections.descThingsboard': 'ThingsBoard オープンソース IoT プラットフォーム',
-  'pages.system.applicationConnections.descJetlinks': 'JetLinks オープンソース IoT プラットフォーム',
+  'pages.system.applicationConnections.descThingsboard':
+    'ThingsBoard オープンソース IoT プラットフォーム',
+  'pages.system.applicationConnections.descJetlinks':
+    'JetLinks オープンソース IoT プラットフォーム',
   'pages.system.applicationConnections.descFlux_wms': 'FLUX WMS 在庫倉庫システム',
   'pages.system.applicationConnections.descDigiwin_wms': 'Digiwin WMS 在庫倉庫システム',
   'pages.system.applicationConnections.descKejian_wms': 'Kejian クラウド WMS',
@@ -17292,7 +19085,8 @@ export default {
   'pages.system.dataQuality.reportSuccess': 'データ品質レポートが生成されました',
   'pages.system.dataQuality.reportFailed': 'データ品質レポートの生成に失敗しました',
   'pages.system.dataQuality.pageTitle': 'データ品質',
-  'pages.system.dataQuality.pageDesc': 'インポートデータの品質を保証するためのデータ検証、クリーニング提案、および品質レポート。',
+  'pages.system.dataQuality.pageDesc':
+    'インポートデータの品質を保証するためのデータ検証、クリーニング提案、および品質レポート。',
   'pages.system.dataQuality.importTitle': 'データインポート',
   'pages.system.dataQuality.importData': 'データのインポート',
   'pages.system.dataQuality.runValidate': '検証する',
@@ -17349,7 +19143,8 @@ export default {
   'pages.system.operationGuide.saveSuccess': '操作ガイドが保存しました',
   'pages.system.operationGuide.saveFailed': '操作ガイドの保存に失敗しました',
   'pages.system.operationGuide.pageTitle': '操作ガイド＆ヘルプシステム',
-  'pages.system.operationGuide.pageDesc': 'ユーザーがシステムの機能をすぐに理解できるように、操作ガイドとヘルプ 伝票を管理します。',
+  'pages.system.operationGuide.pageDesc':
+    'ユーザーがシステムの機能をすぐに理解できるように、操作ガイドとヘルプ 伝票を管理します。',
   'pages.system.operationGuide.tabGuides': '操作ガイド',
   'pages.system.operationGuide.tabHelp': 'ヘルプ伝票',
   'pages.system.operationGuide.tabPreview': 'プレビュー',
@@ -17367,10 +19162,12 @@ export default {
   'pages.system.operationGuide.columnDocTitle': 'タイトル',
   'pages.system.operationGuide.columnSectionCount': 'セクション',
   'pages.system.operationGuide.guideComponentTitle': 'Operation guide component',
-  'pages.system.operationGuide.guideComponentDesc': 'Ant Design Tour を使用して、ステップバイステップのガイダンスを提供し、主要なアクションを強調表示します。',
+  'pages.system.operationGuide.guideComponentDesc':
+    'Ant Design Tour を使用して、ステップバイステップのガイダンスを提供し、主要なアクションを強調表示します。',
   'pages.system.operationGuide.previewGuide': 'プレビューガイド',
   'pages.system.operationGuide.helpComponentTitle': 'ヘルプセンターコンポーネント',
-  'pages.system.operationGuide.helpComponentDesc': '検索およびカテゴリの参照を使用した統合されたヘルプ 伝票の表示を提供します。',
+  'pages.system.operationGuide.helpComponentDesc':
+    '検索およびカテゴリの参照を使用した統合されたヘルプ 伝票の表示を提供します。',
   'pages.system.operationGuide.modalEdit': '編集操作ガイド',
   'pages.system.operationGuide.modalCreate': '新しい操作ガイド',
   'pages.system.operationGuide.labelPageKey': 'ページキー',
@@ -17389,7 +19186,8 @@ export default {
   'pages.system.operationGuide.guideTitlePlaceholder': '例えばユーザーの作成',
   'pages.system.operationGuide.labelGuideContent': 'ガイド内容',
   'pages.system.operationGuide.guideContentRequired': 'ガイド内容を入力してください',
-  'pages.system.operationGuide.guideContentPlaceholder': '例えば新しいユーザーを作成するには、このボタンをクリックしてください',
+  'pages.system.operationGuide.guideContentPlaceholder':
+    '例えば新しいユーザーを作成するには、このボタンをクリックしてください',
   'pages.system.operationGuide.labelPlacement': '配置',
   'pages.system.operationGuide.placementTop': 'トップ',
   'pages.system.operationGuide.placementRight': '右',
@@ -17398,7 +19196,8 @@ export default {
   'pages.system.operationGuide.removeStep': 'ステップの削除',
   'pages.system.operationGuide.addStep': 'ステップの追加',
   'pages.system.operationGuide.exampleButton': 'ボタンの例',
-  'pages.system.operationGuide.exampleDesc': 'これはボタンの例です。クリックするとアクションが実行されます',
+  'pages.system.operationGuide.exampleDesc':
+    'これはボタンの例です。クリックするとアクションが実行されます',
   'pages.system.launchProgress.loadTrackingFailed': '進行状況追跡のロードに失敗しました',
   'pages.system.launchProgress.generateReportFailed': '進捗レポートの生成に失敗しました',
   'pages.system.launchProgress.loadChecklistFailed': 'チェックリストの読み込みに失敗しました',
@@ -17406,7 +19205,8 @@ export default {
   'pages.system.launchProgress.checkFailed': 'チェックの実行に失敗しました',
   'pages.system.launchProgress.generateCheckReportFailed': 'チェックレポートの生成に失敗しました',
   'pages.system.launchProgress.pageTitle': '進捗状況の追跡とチェックリストを開始する',
-  'pages.system.launchProgress.pageDesc': '立ち上げの進行状況を追跡し、チェックリストを管理し、スムーズな立ち上げを保証します。',
+  'pages.system.launchProgress.pageDesc':
+    '立ち上げの進行状況を追跡し、チェックリストを管理し、スムーズな立ち上げを保証します。',
   'pages.system.launchProgress.tabTracking': '進捗状況の追跡',
   'pages.system.launchProgress.tabChecklist': 'チェックリスト',
   'pages.system.launchProgress.trackingTitle': '進捗状況の追跡を開始する',
@@ -17417,7 +19217,8 @@ export default {
   'pages.system.launchProgress.stageProgress': 'ステージ進行状況',
   'pages.system.launchProgress.taskList': 'タスクリスト',
   'pages.system.launchProgress.noCountdown': '打ち上げカウントダウンが開始されていない',
-  'pages.system.launchProgress.noCountdownDesc': '進捗状況の追跡を確認するには、発売カウントダウンを開始してください。',
+  'pages.system.launchProgress.noCountdownDesc':
+    '進捗状況の追跡を確認するには、発売カウントダウンを開始してください。',
   'pages.system.launchProgress.progressReport': '進捗報告',
   'pages.system.launchProgress.statsTitle': '統計',
   'pages.system.launchProgress.totalTasks': 'タスクの合計',
@@ -17452,7 +19253,8 @@ export default {
   'pages.system.launchProgress.tagCritical': '致命的',
   'pages.system.launchProgress.tagDueSoon': 'もうすぐ期限',
   'pages.system.onboardingWizard.title': 'オンボーディングウィザード',
-  'pages.system.onboardingWizard.subtitle': 'システムの立ち上げ: デジタル ファクトリーを 0 から 1 まで構築します。4 つの主要なフェーズ (環境の準備、マスター データの構築、ビジネス ロジックの構成、フルリンクの検証) に従って、初日からスムーズな運用を確保します。',
+  'pages.system.onboardingWizard.subtitle':
+    'システムの立ち上げ: デジタル ファクトリーを 0 から 1 まで構築します。4 つの主要なフェーズ (環境の準備、マスター データの構築、ビジネス ロジックの構成、フルリンクの検証) に従って、初日からスムーズな運用を確保します。',
   'pages.system.onboardingWizard.tabSystem': 'システム起動ウィザード',
   'pages.system.onboardingWizard.roleSales': '販売業務ガイド',
   'pages.system.onboardingWizard.rolePurchase': '調達ガイド',
@@ -17471,7 +19273,8 @@ export default {
   'pages.system.onboardingWizard.emptySystem': 'システム起動タスクデータが見つかりません',
   'pages.system.onboardingWizard.emptyRole': '現在の役割にはタスク チェックリストがありません',
   'pages.system.onboardingWizard.alertInitTitle': '主なタスク: 組織の初期化を完了する',
-  'pages.system.onboardingWizard.alertInitDesc': '組織の初期化はシステム運用の物理的な基盤であり、業界標準のテンプレート、既定のビジネスパラメータ、番号付けルール、初期管理者権限をカバーします。',
+  'pages.system.onboardingWizard.alertInitDesc':
+    '組織の初期化はシステム運用の物理的な基盤であり、業界標準のテンプレート、既定のビジネスパラメータ、番号付けルール、初期管理者権限をカバーします。',
   'pages.system.onboardingWizard.goToInit': '初期化ウィザードの起動',
   'pages.system.onboardingWizard.systemProgress': '世界的な発売の進捗状況',
   'pages.system.onboardingWizard.refresh': '最新ステータスを同期する',
@@ -17479,20 +19282,25 @@ export default {
   'pages.system.onboardingWizard.required': 'コアタスク',
   'pages.system.onboardingWizard.goToConfig': '今すぐ行動を起こす',
   'pages.system.onboardingWizard.systemComplete': '✨ システム環境の準備完了!',
-  'pages.system.onboardingWizard.systemCompleteDesc': 'おめでとう！基本的な環境とコアパラメータの設定がすべて完了しました。これで、最初の販売/購入文書を作成し、デジタル運用の旅を始めることができます。',
+  'pages.system.onboardingWizard.systemCompleteDesc':
+    'おめでとう！基本的な環境とコアパラメータの設定がすべて完了しました。これで、最初の販売/購入文書を作成し、デジタル運用の旅を始めることができます。',
   'pages.system.onboardingWizard.roleProgress': '役割の準備状況',
   'pages.system.onboardingWizard.roleChecklist': 'ビジネス準備チェックリスト',
   'pages.system.onboardingWizard.roleTip': '操作ガイド',
-  'pages.system.onboardingWizard.roleTipDesc1': '次のタスクを順番に完了してください。 「中核タスク」とマークされた項目は、事業の閉鎖に直接影響するため、優先順位を付ける必要があります。',
-  'pages.system.onboardingWizard.roleTipDesc2': 'すべてのコアタスクが完了すると、あなたの役割には完全な運用権限とデータ基盤が与えられ、正式な運用運用を開始できるようになります。',
+  'pages.system.onboardingWizard.roleTipDesc1':
+    '次のタスクを順番に完了してください。 「中核タスク」とマークされた項目は、事業の閉鎖に直接影響するため、優先順位を付ける必要があります。',
+  'pages.system.onboardingWizard.roleTipDesc2':
+    'すべてのコアタスクが完了すると、あなたの役割には完全な運用権限とデータ基盤が与えられ、正式な運用運用を開始できるようになります。',
   'pages.system.onboardingWizard.roleComplete': '🎉 ロールのリリース準備完了!',
-  'pages.system.onboardingWizard.roleCompleteDesc': '素晴らしい！この役割の準備はすべて完了しました。ダッシュボードから特定のモジュールを入力したり、監視を開始したりできます。',
+  'pages.system.onboardingWizard.roleCompleteDesc':
+    '素晴らしい！この役割の準備はすべて完了しました。ダッシュボードから特定のモジュールを入力したり、監視を開始したりできます。',
   'pages.system.onboardingWizard.tabImplementer': 'システム設定ガイド',
   'pages.system.onboardingWizard.implementerProgress': 'セットアップの進行状況',
   'pages.system.onboardingWizard.prerequisiteData': '前提となるマスターデータ',
   'pages.system.onboardingWizard.businessDocs': '操作できるビジネス文書',
   'pages.system.onboardingWizard.implementationTipLabel': '実装のヒント:',
-  'pages.system.onboardingWizard.implementationTip': 'システムの立ち上げは、デジタル変革における重要なマイルストーンです。ガイド付きの手順に従って、エンドツーエンドのビジネス運営の前提条件である基本的なデータ モデリングを完了します。',
+  'pages.system.onboardingWizard.implementationTip':
+    'システムの立ち上げは、デジタル変革における重要なマイルストーンです。ガイド付きの手順に従って、エンドツーエンドのビジネス運営の前提条件である基本的なデータ モデリングを完了します。',
   'pages.system.onboardingWizard.empowermentTitle': 'システムの強化とメリット',
   'pages.system.onboardingWizard.progressRequired': '進捗状況 (必須)',
   'pages.system.onboardingWizard.allModules': 'すべてのモジュール',
@@ -17507,299 +19315,481 @@ export default {
   'pages.system.onboardingWizard.revokeVerifiedSuccess': '開始在庫確認が取り消されました',
   'pages.system.onboardingWizard.modal.detailTitleSuffix': '機能チェックリスト',
   'pages.system.onboardingWizard.modal.back': 'ガイドに戻る',
-  'pages.system.onboardingWizard.modal.intro': '以下の各サブ機能の構成とデータ入力を完了して、「{{name}}」ステージを終了します。',
+  'pages.system.onboardingWizard.modal.intro':
+    '以下の各サブ機能の構成とデータ入力を完了して、「{{name}}」ステージを終了します。',
   'pages.system.onboardingWizard.modal.columnFeature': '特徴',
   'pages.system.onboardingWizard.modal.columnDesc': '説明',
   'pages.system.onboardingWizard.modal.columnRequired': '必須',
   'pages.system.onboardingWizard.modal.columnAction': 'アクション',
   'pages.system.onboardingWizard.modal.required': '必須',
   'pages.system.onboardingWizard.modal.optional': 'オプション',
-  'pages.system.onboardingWizard.system.mission': '主な使命: 標準化された工場、資材、倉庫、プロセスのモデルを構築し、デジタル運用の強固な基盤を構築します。',
-  'pages.system.onboardingWizard.system.prerequisiteData': '工場組織、倉庫の場所、材料マスターファイル、顧客およびサプライヤーの記録',
+  'pages.system.onboardingWizard.system.mission':
+    '主な使命: 標準化された工場、資材、倉庫、プロセスのモデルを構築し、デジタル運用の強固な基盤を構築します。',
+  'pages.system.onboardingWizard.system.prerequisiteData':
+    '工場組織、倉庫の場所、材料マスターファイル、顧客およびサプライヤーの記録',
   'pages.system.onboardingWizard.system.businessDocs': '製品BOM、プロセスルート、期首在庫残高',
-  'pages.system.onboardingWizard.system.empowermentValue': '工場全体でデータ言語を統一し、サイロを排除し、販売から生産までのエンドツーエンドの自動化を可能にします。',
+  'pages.system.onboardingWizard.system.empowermentValue':
+    '工場全体でデータ言語を統一し、サイロを排除し、販売から生産までのエンドツーエンドの自動化を可能にします。',
   'pages.system.onboardingWizard.system.phase.infrastructure': 'フェーズ1：製造基盤（工場・倉庫）',
-  'pages.system.onboardingWizard.system.phase.modeling': 'フェーズ 2: コアリソース (材料とパートナー)',
-  'pages.system.onboardingWizard.system.phase.process': 'フェーズ 3: 生産プロセス モデル (BOM とルート)',
+  'pages.system.onboardingWizard.system.phase.modeling':
+    'フェーズ 2: コアリソース (材料とパートナー)',
+  'pages.system.onboardingWizard.system.phase.process':
+    'フェーズ 3: 生産プロセス モデル (BOM とルート)',
   'pages.system.onboardingWizard.system.phase.validation': 'フェーズ 4: エンドツーエンドの検証',
   'pages.system.onboardingWizard.system.task.factoryData.name': '工場データを確立する',
-  'pages.system.onboardingWizard.system.task.factoryData.desc': 'Factory Data でワーク センター、作業場、生産ラインを定義する',
+  'pages.system.onboardingWizard.system.task.factoryData.desc':
+    'Factory Data でワーク センター、作業場、生産ラインを定義する',
   'pages.system.onboardingWizard.system.task.warehouseData.name': 'ウェアハウスデータを計画する',
-  'pages.system.onboardingWizard.system.task.warehouseData.desc': 'Warehouse Data で物理的な倉庫、場所、論理的なストレージ関係を定義する',
+  'pages.system.onboardingWizard.system.task.warehouseData.desc':
+    'Warehouse Data で物理的な倉庫、場所、論理的なストレージ関係を定義する',
   'pages.system.onboardingWizard.system.task.materialData.name': '完全な素材データ',
-  'pages.system.onboardingWizard.system.task.materialData.desc': '製品マスターファイル、カテゴリー、主要属性を材料データに入力します。',
-  'pages.system.onboardingWizard.system.task.partnerData.name': '顧客とサプライヤーを入力してください',
-  'pages.system.onboardingWizard.system.task.partnerData.desc': '「顧客とサプライヤー」で顧客記録と認定サプライヤーのリストを作成します。',
+  'pages.system.onboardingWizard.system.task.materialData.desc':
+    '製品マスターファイル、カテゴリー、主要属性を材料データに入力します。',
+  'pages.system.onboardingWizard.system.task.partnerData.name':
+    '顧客とサプライヤーを入力してください',
+  'pages.system.onboardingWizard.system.task.partnerData.desc':
+    '「顧客とサプライヤー」で顧客記録と認定サプライヤーのリストを作成します。',
   'pages.system.onboardingWizard.system.task.bomConfig.name': 'プロセスデータ (BOM) のインポート',
-  'pages.system.onboardingWizard.system.task.bomConfig.desc': '原価計算と計画の中核として、プロセス データ内の部品表を確立します。',
-  'pages.system.onboardingWizard.system.task.processRouting.name': 'プロセスデータ（ルート）を設定する',
-  'pages.system.onboardingWizard.system.task.processRouting.desc': 'プロセスデータで生産業務、標準時間、業務フローを計画',
+  'pages.system.onboardingWizard.system.task.bomConfig.desc':
+    '原価計算と計画の中核として、プロセス データ内の部品表を確立します。',
+  'pages.system.onboardingWizard.system.task.processRouting.name':
+    'プロセスデータ（ルート）を設定する',
+  'pages.system.onboardingWizard.system.task.processRouting.desc':
+    'プロセスデータで生産業務、標準時間、業務フローを計画',
   'pages.system.onboardingWizard.system.task.firstOrderRun.name': '最初のビジネス試行を完了する',
-  'pages.system.onboardingWizard.system.task.firstOrderRun.desc': '販売から始まる完全なシミュレートされた注文を使用して、マスター データの精度と接続性を検証します。',
-  'pages.system.onboardingWizard.system.task.initialDataVerified.name': 'オープニングデータ認証完了',
-  'pages.system.onboardingWizard.system.task.initialDataVerified.desc': '期首在庫、WIP、AR/AP、およびその他の期首残高がオフライン記録と一致することを確認する',
+  'pages.system.onboardingWizard.system.task.firstOrderRun.desc':
+    '販売から始まる完全なシミュレートされた注文を使用して、マスター データの精度と接続性を検証します。',
+  'pages.system.onboardingWizard.system.task.initialDataVerified.name':
+    'オープニングデータ認証完了',
+  'pages.system.onboardingWizard.system.task.initialDataVerified.desc':
+    '期首在庫、WIP、AR/AP、およびその他の期首残高がオフライン記録と一致することを確認する',
   'pages.system.onboardingWizard.system.sub.factoryPlants.name': '工場管理',
-  'pages.system.onboardingWizard.system.sub.factoryPlants.desc': '工場の場所、サイトのレイアウト、基本情報を定義する',
+  'pages.system.onboardingWizard.system.sub.factoryPlants.desc':
+    '工場の場所、サイトのレイアウト、基本情報を定義する',
   'pages.system.onboardingWizard.system.sub.factoryWorkshops.name': '作業場の管理',
-  'pages.system.onboardingWizard.system.sub.factoryWorkshops.desc': '社内の生産作業場と物理的な生産エリアを分割する',
+  'pages.system.onboardingWizard.system.sub.factoryWorkshops.desc':
+    '社内の生産作業場と物理的な生産エリアを分割する',
   'pages.system.onboardingWizard.system.sub.factoryLines.name': '生産ライン管理',
-  'pages.system.onboardingWizard.system.sub.factoryLines.desc': '並行稼働をサポートするように生産ラインを構成する',
+  'pages.system.onboardingWizard.system.sub.factoryLines.desc':
+    '並行稼働をサポートするように生産ラインを構成する',
   'pages.system.onboardingWizard.system.sub.factoryWorkCenters.name': 'ワークセンター',
-  'pages.system.onboardingWizard.system.sub.factoryWorkCenters.desc': '生産リソース（人材/設備）をスケジュールとコスト計算の中核単位として集約',
+  'pages.system.onboardingWizard.system.sub.factoryWorkCenters.desc':
+    '生産リソース（人材/設備）をスケジュールとコスト計算の中核単位として集約',
   'pages.system.onboardingWizard.system.sub.factoryStations.name': 'ワークステーション管理',
-  'pages.system.onboardingWizard.system.sub.factoryStations.desc': '詳細なレポートを作成するために、ライン上の最小の作業単位を定義します。',
+  'pages.system.onboardingWizard.system.sub.factoryStations.desc':
+    '詳細なレポートを作成するために、ライン上の最小の作業単位を定義します。',
   'pages.system.onboardingWizard.system.sub.factoryWorkGroups.name': '作業グループ',
-  'pages.system.onboardingWizard.system.sub.factoryWorkGroups.desc': '出来高払いと効率追跡のための現場チームの割り当てを管理する',
+  'pages.system.onboardingWizard.system.sub.factoryWorkGroups.desc':
+    '出来高払いと効率追跡のための現場チームの割り当てを管理する',
   'pages.system.onboardingWizard.system.sub.warehouseMain.name': '在庫倉庫',
-  'pages.system.onboardingWizard.system.sub.warehouseMain.desc': '原材料倉庫や完成品倉庫などの物理倉庫を定義する',
+  'pages.system.onboardingWizard.system.sub.warehouseMain.desc':
+    '原材料倉庫や完成品倉庫などの物理倉庫を定義する',
   'pages.system.onboardingWizard.system.sub.warehouseAreas.name': 'ストレージ領域の管理',
-  'pages.system.onboardingWizard.system.sub.warehouseAreas.desc': '資材を分類するために倉庫内の論理保管領域を分割する',
+  'pages.system.onboardingWizard.system.sub.warehouseAreas.desc':
+    '資材を分類するために倉庫内の論理保管領域を分割する',
   'pages.system.onboardingWizard.system.sub.warehouseLocations.name': '保管場所の管理',
-  'pages.system.onboardingWizard.system.sub.warehouseLocations.desc': 'スキャンベースの在庫受入とピッキングのための正確な棚座標を定義します',
+  'pages.system.onboardingWizard.system.sub.warehouseLocations.desc':
+    'スキャンベースの在庫受入とピッキングのための正確な棚座標を定義します',
   'pages.system.onboardingWizard.system.sub.materialMain.name': '資材管理',
-  'pages.system.onboardingWizard.system.sub.materialMain.desc': 'コード、名前、基本属性を含む材料マスター ファイルを入力します',
+  'pages.system.onboardingWizard.system.sub.materialMain.desc':
+    'コード、名前、基本属性を含む材料マスター ファイルを入力します',
   'pages.system.onboardingWizard.system.sub.materialVariants.name': 'バリアント属性',
-  'pages.system.onboardingWizard.system.sub.materialVariants.desc': 'マルチ SKU 管理のための仕様属性 (色、サイズなど) を定義します。',
+  'pages.system.onboardingWizard.system.sub.materialVariants.desc':
+    'マルチ SKU 管理のための仕様属性 (色、サイズなど) を定義します。',
   'pages.system.onboardingWizard.system.sub.materialBatchRules.name': 'バッチルール',
-  'pages.system.onboardingWizard.system.sub.materialBatchRules.desc': 'FIFO と品質トレーサビリティのためのバッチ生成ルールを設定する',
+  'pages.system.onboardingWizard.system.sub.materialBatchRules.desc':
+    'FIFO と品質トレーサビリティのためのバッチ生成ルールを設定する',
   'pages.system.onboardingWizard.system.sub.materialSerialRules.name': 'シリアル番号のルール',
-  'pages.system.onboardingWizard.system.sub.materialSerialRules.desc': '品目レベルの追跡のための一意のシリアル番号ルールを定義する',
+  'pages.system.onboardingWizard.system.sub.materialSerialRules.desc':
+    '品目レベルの追跡のための一意のシリアル番号ルールを定義する',
   'pages.system.onboardingWizard.system.sub.partnerCustomers.name': '顧客管理',
-  'pages.system.onboardingWizard.system.sub.partnerCustomers.desc': '支払条件、与信限度額、配送先住所などの顧客記録を維持します',
+  'pages.system.onboardingWizard.system.sub.partnerCustomers.desc':
+    '支払条件、与信限度額、配送先住所などの顧客記録を維持します',
   'pages.system.onboardingWizard.system.sub.partnerSuppliers.name': 'サプライヤー管理',
-  'pages.system.onboardingWizard.system.sub.partnerSuppliers.desc': '購入価格と納期の信頼性を備えた適格なサプライヤー リストを作成します',
+  'pages.system.onboardingWizard.system.sub.partnerSuppliers.desc':
+    '購入価格と納期の信頼性を備えた適格なサプライヤー リストを作成します',
   'pages.system.onboardingWizard.system.sub.processBom.name': '部品表 (BOM)',
-  'pages.system.onboardingWizard.system.sub.processBom.desc': '親子関係を備えた製品構造のデジタルツインを構築する',
+  'pages.system.onboardingWizard.system.sub.processBom.desc':
+    '親子関係を備えた製品構造のデジタルツインを構築する',
   'pages.system.onboardingWizard.system.sub.processOperations.name': '運用管理',
-  'pages.system.onboardingWizard.system.sub.processOperations.desc': '切断、組み立て、検査などの標準的な生産作業を定義する',
+  'pages.system.onboardingWizard.system.sub.processOperations.desc':
+    '切断、組み立て、検査などの標準的な生産作業を定義する',
   'pages.system.onboardingWizard.system.sub.processRoutes.name': 'プロセスルート',
-  'pages.system.onboardingWizard.system.sub.processRoutes.desc': '操作シーケンスを連鎖させ、標準時間とリソース要件を構成する',
+  'pages.system.onboardingWizard.system.sub.processRoutes.desc':
+    '操作シーケンスを連鎖させ、標準時間とリソース要件を構成する',
   'pages.system.onboardingWizard.system.sub.processDefects.name': '欠陥の種類',
-  'pages.system.onboardingWizard.system.sub.processDefects.desc': '統計をレポートするための製造例外と品質欠陥カテゴリを定義する',
+  'pages.system.onboardingWizard.system.sub.processDefects.desc':
+    '統計をレポートするための製造例外と品質欠陥カテゴリを定義する',
   'pages.system.onboardingWizard.system.sub.processSop.name': '標準作業手順（SOP）',
-  'pages.system.onboardingWizard.system.sub.processSop.desc': '図面や製造指示を添付して現場作業を標準化',
-  'pages.system.onboardingWizard.guide.warehouse_main.mission': '工場の物理保管センターを定義して、原材料、WIP、完成品のデジタル送受信フローをサポートします。',
-  'pages.system.onboardingWizard.guide.warehouse_main.standard': '基本的なインバウンド/アウトバウンドポリシーを備えた中核となる原材料および完成品倉庫を確立します。',
-  'pages.system.onboardingWizard.guide.warehouse_main.tip': '製造現場の仕掛品在庫をより適切に管理するために、ライン側倉庫と原材料倉庫を分離します。',
-  'pages.system.onboardingWizard.guide.warehouse_locations.mission': '倉庫内の物理座標を調整して、材料の正確な位置決めとスキャンベースの自動化を実現します。',
-  'pages.system.onboardingWizard.guide.warehouse_locations.standard': '棚ラベルと同期したビンコードを使用して、高頻度エリアの場所を定義します。',
-  'pages.system.onboardingWizard.guide.warehouse_locations.tip': '動きの速い素材の場合は、専用のピック位置を設定して歩行距離を短縮します。',
-  'pages.system.onboardingWizard.guide.material_main.mission': '購入/販売価格や生産の BOM/プロセス リンクなど、材料のデジタル ツイン属性を定義します。',
-  'pages.system.onboardingWizard.guide.material_main.standard': '一次/二次単位を設定して、中核の未加工材料、半製品、完成品を入力します。',
-  'pages.system.onboardingWizard.guide.material_main.tip': 'リード タイムの設定は計画の精度に直接影響します。過去の平均を使用します。',
-  'pages.system.onboardingWizard.guide.material_main.dependency': '材料のコーディング標準と分類を最初に定義する必要があります。',
-  'pages.system.onboardingWizard.guide.partner_customers.mission': '顧客レコード、価格設定、注文フローのルールを定義して、販売から製造までのソースを確立します。',
-  'pages.system.onboardingWizard.guide.partner_customers.standard': '主要な顧客データを入力し、販売から製造までの注文トリガーを構成します。',
-  'pages.system.onboardingWizard.guide.partner_customers.tip': '与信限度額管理を有効にして、注文入力時の財務リスクを軽減します。',
-  'pages.system.onboardingWizard.guide.partner_suppliers.mission': 'サプライヤー記録、購入テンプレート、入荷検査フローを定義することで、安定した資材供給を確保します。',
-  'pages.system.onboardingWizard.guide.partner_suppliers.standard': '主要なサプライヤーを入力し、購入から受け取りまでのインバウンド フローを確認します。',
-  'pages.system.onboardingWizard.guide.partner_suppliers.tip': '受信側 QC ゾーンを設定して、100% 合格した受信資材を確保します。',
-  'pages.system.onboardingWizard.guide.process_operations.mission': '各ステップの品質基準と能力要件を備えた標準作業を定義します。',
-  'pages.system.onboardingWizard.guide.process_operations.standard': '物理的な作業現場の手順に合わせたコードを使用して、完全な運用アーカイブを構築します。',
-  'pages.system.onboardingWizard.guide.process_operations.tip': 'リアルタイムの生産の進行状況を把握するために、運用におけるレポート トリガーを定義します。',
-  'pages.system.onboardingWizard.guide.process_routes.mission': '作業シーケンス、標準時間、および作業拠点をロックします。これは原価計算と進捗状況の追跡の中核となります。',
-  'pages.system.onboardingWizard.guide.process_routes.standard': '製造現場の慣行に一致するシリアル/パラレル ロジックを使用して製品ルートを構成します。',
-  'pages.system.onboardingWizard.guide.process_routes.tip': '時間データの精度は APS の有効性に影響します。推定から始めて、レポート データによって調整します。',
-  'pages.system.onboardingWizard.guide.process_routes.dependency': 'ワークセンターとリソースグループを最初に定義する必要があります。',
-  'pages.system.onboardingWizard.guide.first_order_run.mission': 'エンドツーエンドの検証: 受注 -> 計画 -> 生産/レポート -> 完成品の受領 -> 出荷。',
-  'pages.system.onboardingWizard.guide.first_order_run.standard': '正確な在庫と生産記録を使用して、少なくとも 1 つの完全な調達、販売、店舗、生産サイクルを完了します。',
-  'pages.system.onboardingWizard.guide.first_order_run.tip': '究極の稼働テスト - 主要なビジネス関係者が参加して、データと価値のフローの継続性を確認します。',
-  'pages.system.onboardingWizard.guide.first_order_run.dependency': '調達/販売/在庫基盤、MES モデリング、権限が準備されている必要があります。',
+  'pages.system.onboardingWizard.system.sub.processSop.desc':
+    '図面や製造指示を添付して現場作業を標準化',
+  'pages.system.onboardingWizard.guide.warehouse_main.mission':
+    '工場の物理保管センターを定義して、原材料、WIP、完成品のデジタル送受信フローをサポートします。',
+  'pages.system.onboardingWizard.guide.warehouse_main.standard':
+    '基本的なインバウンド/アウトバウンドポリシーを備えた中核となる原材料および完成品倉庫を確立します。',
+  'pages.system.onboardingWizard.guide.warehouse_main.tip':
+    '製造現場の仕掛品在庫をより適切に管理するために、ライン側倉庫と原材料倉庫を分離します。',
+  'pages.system.onboardingWizard.guide.warehouse_locations.mission':
+    '倉庫内の物理座標を調整して、材料の正確な位置決めとスキャンベースの自動化を実現します。',
+  'pages.system.onboardingWizard.guide.warehouse_locations.standard':
+    '棚ラベルと同期したビンコードを使用して、高頻度エリアの場所を定義します。',
+  'pages.system.onboardingWizard.guide.warehouse_locations.tip':
+    '動きの速い素材の場合は、専用のピック位置を設定して歩行距離を短縮します。',
+  'pages.system.onboardingWizard.guide.material_main.mission':
+    '購入/販売価格や生産の BOM/プロセス リンクなど、材料のデジタル ツイン属性を定義します。',
+  'pages.system.onboardingWizard.guide.material_main.standard':
+    '一次/二次単位を設定して、中核の未加工材料、半製品、完成品を入力します。',
+  'pages.system.onboardingWizard.guide.material_main.tip':
+    'リード タイムの設定は計画の精度に直接影響します。過去の平均を使用します。',
+  'pages.system.onboardingWizard.guide.material_main.dependency':
+    '材料のコーディング標準と分類を最初に定義する必要があります。',
+  'pages.system.onboardingWizard.guide.partner_customers.mission':
+    '顧客レコード、価格設定、注文フローのルールを定義して、販売から製造までのソースを確立します。',
+  'pages.system.onboardingWizard.guide.partner_customers.standard':
+    '主要な顧客データを入力し、販売から製造までの注文トリガーを構成します。',
+  'pages.system.onboardingWizard.guide.partner_customers.tip':
+    '与信限度額管理を有効にして、注文入力時の財務リスクを軽減します。',
+  'pages.system.onboardingWizard.guide.partner_suppliers.mission':
+    'サプライヤー記録、購入テンプレート、入荷検査フローを定義することで、安定した資材供給を確保します。',
+  'pages.system.onboardingWizard.guide.partner_suppliers.standard':
+    '主要なサプライヤーを入力し、購入から受け取りまでのインバウンド フローを確認します。',
+  'pages.system.onboardingWizard.guide.partner_suppliers.tip':
+    '受信側 QC ゾーンを設定して、100% 合格した受信資材を確保します。',
+  'pages.system.onboardingWizard.guide.process_operations.mission':
+    '各ステップの品質基準と能力要件を備えた標準作業を定義します。',
+  'pages.system.onboardingWizard.guide.process_operations.standard':
+    '物理的な作業現場の手順に合わせたコードを使用して、完全な運用アーカイブを構築します。',
+  'pages.system.onboardingWizard.guide.process_operations.tip':
+    'リアルタイムの生産の進行状況を把握するために、運用におけるレポート トリガーを定義します。',
+  'pages.system.onboardingWizard.guide.process_routes.mission':
+    '作業シーケンス、標準時間、および作業拠点をロックします。これは原価計算と進捗状況の追跡の中核となります。',
+  'pages.system.onboardingWizard.guide.process_routes.standard':
+    '製造現場の慣行に一致するシリアル/パラレル ロジックを使用して製品ルートを構成します。',
+  'pages.system.onboardingWizard.guide.process_routes.tip':
+    '時間データの精度は APS の有効性に影響します。推定から始めて、レポート データによって調整します。',
+  'pages.system.onboardingWizard.guide.process_routes.dependency':
+    'ワークセンターとリソースグループを最初に定義する必要があります。',
+  'pages.system.onboardingWizard.guide.first_order_run.mission':
+    'エンドツーエンドの検証: 受注 -> 計画 -> 生産/レポート -> 完成品の受領 -> 出荷。',
+  'pages.system.onboardingWizard.guide.first_order_run.standard':
+    '正確な在庫と生産記録を使用して、少なくとも 1 つの完全な調達、販売、店舗、生産サイクルを完了します。',
+  'pages.system.onboardingWizard.guide.first_order_run.tip':
+    '究極の稼働テスト - 主要なビジネス関係者が参加して、データと価値のフローの継続性を確認します。',
+  'pages.system.onboardingWizard.guide.first_order_run.dependency':
+    '調達/販売/在庫基盤、MES モデリング、権限が準備されている必要があります。',
   'pages.system.onboardingWizard.adminCoreDuties': '管理者の主な責任',
-  'pages.system.onboardingWizard.adminCoreDutiesValue': '組織構造、アカウントと権限、ワークフローエンジン、システムセキュリティ',
+  'pages.system.onboardingWizard.adminCoreDutiesValue':
+    '組織構造、アカウントと権限、ワークフローエンジン、システムセキュリティ',
   'pages.system.onboardingWizard.deliveryAcceptance': '納品の受け入れ基準',
-  'pages.system.onboardingWizard.deliveryAcceptanceValue': 'すべてのアカウントがプロビジョニングされ、コア フローが検証され、伝票 テンプレートが標準を満たしています',
-  'pages.system.onboardingWizard.implementerExpertTip': 'システム管理者は、設定によってシステムのバックボーンを定義します。最初にフェーズ 1 の組織と権限を完了します。これは、すべてのビジネス モジュールの前提条件です。必須とマークされたサブ項目が欠落している場合、下流で検証エラーが発生する可能性があります。マークのない項目は主にエクスペリエンスまたは拡張機能の設定です。',
+  'pages.system.onboardingWizard.deliveryAcceptanceValue':
+    'すべてのアカウントがプロビジョニングされ、コア フローが検証され、伝票 テンプレートが標準を満たしています',
+  'pages.system.onboardingWizard.implementerExpertTip':
+    'システム管理者は、設定によってシステムのバックボーンを定義します。最初にフェーズ 1 の組織と権限を完了します。これは、すべてのビジネス モジュールの前提条件です。必須とマークされたサブ項目が欠落している場合、下流で検証エラーが発生する可能性があります。マークのない項目は主にエクスペリエンスまたは拡張機能の設定です。',
   'pages.system.onboardingWizard.implementerEmpowermentTitle': '管理者の権限付与とメリット',
-  'pages.system.onboardingWizard.implementerEmpowermentValue': '標準化されたシステム設定を通じて、エンドツーエンドのガバナンスとリスク管理のための堅牢なデジタル基盤を構築します。',
+  'pages.system.onboardingWizard.implementerEmpowermentValue':
+    '標準化されたシステム設定を通じて、エンドツーエンドのガバナンスとリスク管理のための堅牢なデジタル基盤を構築します。',
   'pages.system.onboardingWizard.coreOperationGuide': 'コア操作ガイド',
   'pages.system.onboardingWizard.keyTaskCount': '— {{count}} 主要なタスク',
-  'pages.system.onboardingWizard.businessStandard': 'ビジネスの準備: データ入力の完全性と適時性を確保します。',
-  'pages.system.onboardingWizard.roleExpertTip': 'ロールの起動は、権限を有効にするだけではなく、ビジネス データのループを閉じます。前提条件となるデータの正確性を検証します。正式な運用の前にデモガイドをご利用ください。',
-  'pages.system.onboardingWizard.roleMissionFallback': '中心的な使命: システム内の完全なビジネス プロセス フローを保証します。',
+  'pages.system.onboardingWizard.businessStandard':
+    'ビジネスの準備: データ入力の完全性と適時性を確保します。',
+  'pages.system.onboardingWizard.roleExpertTip':
+    'ロールの起動は、権限を有効にするだけではなく、ビジネス データのループを閉じます。前提条件となるデータの正確性を検証します。正式な運用の前にデモガイドをご利用ください。',
+  'pages.system.onboardingWizard.roleMissionFallback':
+    '中心的な使命: システム内の完全なビジネス プロセス フローを保証します。',
   'pages.system.onboardingWizard.markItemComplete': '完了とマークされました: {{name}}',
-  'pages.system.onboardingWizard.role.sales.mission': '主な使命: 問い合わせから配送までエンドツーエンドで結び付け、予定通りの出荷を保証します。',
+  'pages.system.onboardingWizard.role.sales.mission':
+    '主な使命: 問い合わせから配送までエンドツーエンドで結び付け、予定通りの出荷を保証します。',
   'pages.system.onboardingWizard.role.sales.prerequisiteData': '顧客記録、製品見積書、販売価格表',
   'pages.system.onboardingWizard.role.sales.businessDocs': '販売見積、受注、納品通知、販売返品',
-  'pages.system.onboardingWizard.role.sales.empowermentValue': '注文漏れや価格設定ミスを防ぎます。生産と配送をリアルタイムで追跡し、顧客満足度を向上させます。',
+  'pages.system.onboardingWizard.role.sales.empowermentValue':
+    '注文漏れや価格設定ミスを防ぎます。生産と配送をリアルタイムで追跡し、顧客満足度を向上させます。',
   'pages.system.onboardingWizard.role.sales.task.sales_customer.name': '顧客記録の維持',
-  'pages.system.onboardingWizard.role.sales.task.sales_customer.desc': '基本的な顧客情報、連絡先、支払い条件を入力します',
+  'pages.system.onboardingWizard.role.sales.task.sales_customer.desc':
+    '基本的な顧客情報、連絡先、支払い条件を入力します',
   'pages.system.onboardingWizard.role.sales.task.sales_price.name': '製品の見積もりを作成する',
-  'pages.system.onboardingWizard.role.sales.task.sales_price.desc': '顧客ごとに目標販売価格を設定する',
+  'pages.system.onboardingWizard.role.sales.task.sales_price.desc':
+    '顧客ごとに目標販売価格を設定する',
   'pages.system.onboardingWizard.role.sales.task.sales_order.name': '受注を入力する',
-  'pages.system.onboardingWizard.role.sales.task.sales_order.desc': '顧客の需要を捉え、正式な受注を作成し、生産または配送を開始します',
+  'pages.system.onboardingWizard.role.sales.task.sales_order.desc':
+    '顧客の需要を捉え、正式な受注を作成し、生産または配送を開始します',
   'pages.system.onboardingWizard.role.sales.task.sales_delivery.name': '配送の進捗状況を追跡する',
-  'pages.system.onboardingWizard.role.sales.task.sales_delivery.desc': '在庫や生産状況に応じて納期通知を発行します',
-  'pages.system.onboardingWizard.role.purchase.mission': '主な使命: 適切なサプライヤーを見つけ、調達の進捗を管理し、生産の供給を維持します。',
-  'pages.system.onboardingWizard.role.purchase.prerequisiteData': 'サプライヤーの記録、購入価格表、調達リードタイム',
+  'pages.system.onboardingWizard.role.sales.task.sales_delivery.desc':
+    '在庫や生産状況に応じて納期通知を発行します',
+  'pages.system.onboardingWizard.role.purchase.mission':
+    '主な使命: 適切なサプライヤーを見つけ、調達の進捗を管理し、生産の供給を維持します。',
+  'pages.system.onboardingWizard.role.purchase.prerequisiteData':
+    'サプライヤーの記録、購入価格表、調達リードタイム',
   'pages.system.onboardingWizard.role.purchase.businessDocs': '購買依頼、発注書、受領QC、購入返品',
-  'pages.system.onboardingWizard.role.purchase.empowermentValue': 'スマートな不足計算と購入推奨により、ライン停止や過剰在庫を回避します。',
+  'pages.system.onboardingWizard.role.purchase.empowermentValue':
+    'スマートな不足計算と購入推奨により、ライン停止や過剰在庫を回避します。',
   'pages.system.onboardingWizard.role.purchase.task.pur_supplier.name': 'サプライヤー記録の構築',
-  'pages.system.onboardingWizard.role.purchase.task.pur_supplier.desc': 'サプライヤーのマスターデータを入力し、資格を管理します',
+  'pages.system.onboardingWizard.role.purchase.task.pur_supplier.desc':
+    'サプライヤーのマスターデータを入力し、資格を管理します',
   'pages.system.onboardingWizard.role.purchase.task.pur_price.name': '購入価格を維持する',
-  'pages.system.onboardingWizard.role.purchase.task.pur_price.desc': '購入コストと購入履歴データを記録する',
+  'pages.system.onboardingWizard.role.purchase.task.pur_price.desc':
+    '購入コストと購入履歴データを記録する',
   'pages.system.onboardingWizard.role.purchase.task.pur_order.name': '発注書を発行する',
-  'pages.system.onboardingWizard.role.purchase.task.pur_order.desc': '納期を明確にした発注書を正式に発行する',
+  'pages.system.onboardingWizard.role.purchase.task.pur_order.desc':
+    '納期を明確にした発注書を正式に発行する',
   'pages.system.onboardingWizard.role.purchase.task.pur_receipt.name': '受信と受信を追跡する',
-  'pages.system.onboardingWizard.role.purchase.task.pur_receipt.desc': '納品を確認し、QCと倉庫への入荷を調整します',
-  'pages.system.onboardingWizard.role.warehouse.mission': '主な使命: 在庫が本と一致するように倉庫を運営し、見つけやすく、迅速に発送します。',
-  'pages.system.onboardingWizard.role.warehouse.prerequisiteData': '倉庫/場所のレイアウト、期首在庫、安全在庫',
-  'pages.system.onboardingWizard.role.warehouse.businessDocs': '購買入庫、生産出庫、生産入庫、出荷販売、在庫数',
-  'pages.system.onboardingWizard.role.warehouse.empowermentValue': '手動の台帳をスキャンベースのリアルタイムの在庫更新と正確な在庫データに置き換えます。',
+  'pages.system.onboardingWizard.role.purchase.task.pur_receipt.desc':
+    '納品を確認し、QCと倉庫への入荷を調整します',
+  'pages.system.onboardingWizard.role.warehouse.mission':
+    '主な使命: 在庫が本と一致するように倉庫を運営し、見つけやすく、迅速に発送します。',
+  'pages.system.onboardingWizard.role.warehouse.prerequisiteData':
+    '倉庫/場所のレイアウト、期首在庫、安全在庫',
+  'pages.system.onboardingWizard.role.warehouse.businessDocs':
+    '購買入庫、生産出庫、生産入庫、出荷販売、在庫数',
+  'pages.system.onboardingWizard.role.warehouse.empowermentValue':
+    '手動の台帳をスキャンベースのリアルタイムの在庫更新と正確な在庫データに置き換えます。',
   'pages.system.onboardingWizard.role.warehouse.task.wh_setup.name': '物理倉庫を計画する',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_setup.desc': '原材料、WIP、完成品の倉庫を定義する',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_setup.desc':
+    '原材料、WIP、完成品の倉庫を定義する',
   'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.name': '購入の受け取りを処理する',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.desc': '到着通知を確認し、物理的な到着を完了します',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.desc':
+    '到着通知を確認し、物理的な到着を完了します',
   'pages.system.onboardingWizard.role.warehouse.task.wh_picking.name': 'プロセス生産の問題',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_picking.desc': '現場の要求に応じて正確に資材を発行します',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_picking.desc':
+    '現場の要求に応じて正確に資材を発行します',
   'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.name': '販売の発送を処理する',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.desc': '完成品をピッキング、梱包し、顧客に発送する',
-  'pages.system.onboardingWizard.role.technician.mission': '主な使命: 製品データと研究開発プロセスを標準化し、明確な基準に従って生産できるようにします。',
-  'pages.system.onboardingWizard.role.technician.prerequisiteData': '材料マスター、製品BOM、研究開発図面、サンプルパラメータ',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.desc':
+    '完成品をピッキング、梱包し、顧客に発送する',
+  'pages.system.onboardingWizard.role.technician.mission':
+    '主な使命: 製品データと研究開発プロセスを標準化し、明確な基準に従って生産できるようにします。',
+  'pages.system.onboardingWizard.role.technician.prerequisiteData':
+    '材料マスター、製品BOM、研究開発図面、サンプルパラメータ',
   'pages.system.onboardingWizard.role.technician.businessDocs': 'ECO、技術基準、工程図添付',
-  'pages.system.onboardingWizard.role.technician.empowermentValue': 'バージョン管理された研究開発データと BOM により、製造現場では常に最新の標準が使用されることが保証されます。',
+  'pages.system.onboardingWizard.role.technician.empowermentValue':
+    'バージョン管理された研究開発データと BOM により、製造現場では常に最新の標準が使用されることが保証されます。',
   'pages.system.onboardingWizard.role.technician.task.tech_material.name': '材料マスターを定義する',
-  'pages.system.onboardingWizard.role.technician.task.tech_material.desc': '工場全体の材料コードと属性を標準化する',
+  'pages.system.onboardingWizard.role.technician.task.tech_material.desc':
+    '工場全体の材料コードと属性を標準化する',
   'pages.system.onboardingWizard.role.technician.task.tech_bom.name': '製品BOMの作成',
-  'pages.system.onboardingWizard.role.technician.task.tech_bom.desc': '製品構造 (BOM) のデジタルツインを構築する',
+  'pages.system.onboardingWizard.role.technician.task.tech_bom.desc':
+    '製品構造 (BOM) のデジタルツインを構築する',
   'pages.system.onboardingWizard.role.technician.task.tech_route.name': 'プロセスルートの設計',
-  'pages.system.onboardingWizard.role.technician.task.tech_route.desc': '動作順序と標準時間を定義する',
-  'pages.system.onboardingWizard.role.planner.mission': '主な使命: 生産を計画し、注文と生産能力のバランスをとり、製造現場のボトルネックを解消します。',
-  'pages.system.onboardingWizard.role.planner.prerequisiteData': '作業拠点、ライン能力、カレンダー、シフト',
+  'pages.system.onboardingWizard.role.technician.task.tech_route.desc':
+    '動作順序と標準時間を定義する',
+  'pages.system.onboardingWizard.role.planner.mission':
+    '主な使命: 生産を計画し、注文と生産能力のバランスをとり、製造現場のボトルネックを解消します。',
+  'pages.system.onboardingWizard.role.planner.prerequisiteData':
+    '作業拠点、ライン能力、カレンダー、シフト',
   'pages.system.onboardingWizard.role.planner.businessDocs': '生産計画、作業指示、下請け発注',
-  'pages.system.onboardingWizard.role.planner.empowermentValue': 'スマート スケジューリングにより、納期を予測し、負荷のバランスをとり、生産量を最大化します。',
+  'pages.system.onboardingWizard.role.planner.empowermentValue':
+    'スマート スケジューリングにより、納期を予測し、負荷のバランスをとり、生産量を最大化します。',
   'pages.system.onboardingWizard.role.planner.task.plan_wc.name': 'ワークセンターの能力を維持する',
-  'pages.system.onboardingWizard.role.planner.task.plan_wc.desc': 'ラインまたはマシンのベースライン容量を定義する',
+  'pages.system.onboardingWizard.role.planner.task.plan_wc.desc':
+    'ラインまたはマシンのベースライン容量を定義する',
   'pages.system.onboardingWizard.role.planner.task.plan_mrp.name': 'MRPの実行',
-  'pages.system.onboardingWizard.role.planner.task.plan_mrp.desc': '不足分を計算し、購入提案を生成します',
+  'pages.system.onboardingWizard.role.planner.task.plan_mrp.desc':
+    '不足分を計算し、購入提案を生成します',
   'pages.system.onboardingWizard.role.planner.task.plan_order.name': '製造指示をリリースする',
-  'pages.system.onboardingWizard.role.planner.task.plan_order.desc': '受注を実行可能な現場の作業指示に変換する',
-  'pages.system.onboardingWizard.role.supervisor.mission': '主な使命: 製造現場の進捗状況を監視し、例外を解決し、生産ペースを制御します。',
-  'pages.system.onboardingWizard.role.supervisor.prerequisiteData': '製造現場のスタッフ、チームのスケジュール、欠陥理由コード',
-  'pages.system.onboardingWizard.role.supervisor.businessDocs': 'オペレーションディスパッチ、生産レポート、例外レポート',
-  'pages.system.onboardingWizard.role.supervisor.empowermentValue': 'ペーパーレスのディスパッチとスキャンレポートをリアルタイムの進行状況と例外アラートで提供します。',
+  'pages.system.onboardingWizard.role.planner.task.plan_order.desc':
+    '受注を実行可能な現場の作業指示に変換する',
+  'pages.system.onboardingWizard.role.supervisor.mission':
+    '主な使命: 製造現場の進捗状況を監視し、例外を解決し、生産ペースを制御します。',
+  'pages.system.onboardingWizard.role.supervisor.prerequisiteData':
+    '製造現場のスタッフ、チームのスケジュール、欠陥理由コード',
+  'pages.system.onboardingWizard.role.supervisor.businessDocs':
+    'オペレーションディスパッチ、生産レポート、例外レポート',
+  'pages.system.onboardingWizard.role.supervisor.empowermentValue':
+    'ペーパーレスのディスパッチとスキャンレポートをリアルタイムの進行状況と例外アラートで提供します。',
   'pages.system.onboardingWizard.role.supervisor.task.sup_team.name': '製造現場のチームを管理する',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_team.desc': 'スケジュールとオペレーターの記録を維持する',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_team.desc':
+    'スケジュールとオペレーターの記録を維持する',
   'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.name': '派遣業務',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.desc': '作業命令をステーションと従業員に細分化する',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.name': 'プロダクションダッシュボード',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.desc': '回線ステータスを監視し、リアルタイムで例外を報告します',
-  'pages.system.onboardingWizard.role.operator.mission': '主な使命: 品質と量の目標を達成して、派遣されたタスクを効率的に実行します。',
-  'pages.system.onboardingWizard.role.operator.prerequisiteData': 'なし (実行層 - 通常、維持するマスター データはありません)',
-  'pages.system.onboardingWizard.role.operator.businessDocs': 'タスクの受信、スキャン完了レポート、欠陥ログ',
-  'pages.system.onboardingWizard.role.operator.empowermentValue': '携帯電話またはタブレットでスキャンして資料を発行し、作業を報告します。出来高給は自動計算されます。',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.desc':
+    '作業命令をステーションと従業員に細分化する',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.name':
+    'プロダクションダッシュボード',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.desc':
+    '回線ステータスを監視し、リアルタイムで例外を報告します',
+  'pages.system.onboardingWizard.role.operator.mission':
+    '主な使命: 品質と量の目標を達成して、派遣されたタスクを効率的に実行します。',
+  'pages.system.onboardingWizard.role.operator.prerequisiteData':
+    'なし (実行層 - 通常、維持するマスター データはありません)',
+  'pages.system.onboardingWizard.role.operator.businessDocs':
+    'タスクの受信、スキャン完了レポート、欠陥ログ',
+  'pages.system.onboardingWizard.role.operator.empowermentValue':
+    '携帯電話またはタブレットでスキャンして資料を発行し、作業を報告します。出来高給は自動計算されます。',
   'pages.system.onboardingWizard.role.operator.task.op_receive.name': '制作タスクを受け取る',
-  'pages.system.onboardingWizard.role.operator.task.op_receive.desc': '割り当てられたタスクをモバイルまたはタブレットで表示する',
+  'pages.system.onboardingWizard.role.operator.task.op_receive.desc':
+    '割り当てられたタスクをモバイルまたはタブレットで表示する',
   'pages.system.onboardingWizard.role.operator.task.op_report.name': 'スキャンして完了を報告する',
-  'pages.system.onboardingWizard.role.operator.task.op_report.desc': '自動出来高計算によりワンタップでレポート完了',
-  'pages.system.onboardingWizard.role.quality.mission': '主な使命: 厳格な品質管理、完全なトレーサビリティ、およびスクラップコストの削減。',
-  'pages.system.onboardingWizard.role.quality.prerequisiteData': '検査基準（AQL）、QC計画書、検査項目辞書',
+  'pages.system.onboardingWizard.role.operator.task.op_report.desc':
+    '自動出来高計算によりワンタップでレポート完了',
+  'pages.system.onboardingWizard.role.quality.mission':
+    '主な使命: 厳格な品質管理、完全なトレーサビリティ、およびスクラップコストの削減。',
+  'pages.system.onboardingWizard.role.quality.prerequisiteData':
+    '検査基準（AQL）、QC計画書、検査項目辞書',
   'pages.system.onboardingWizard.role.quality.businessDocs': 'IQC、工程内QC（PQC）、出荷検査',
-  'pages.system.onboardingWizard.role.quality.empowermentValue': '完全なライフサイクル トレーサビリティとワンクリック QC レポートにより、発生源で欠陥をブロックします。',
+  'pages.system.onboardingWizard.role.quality.empowermentValue':
+    '完全なライフサイクル トレーサビリティとワンクリック QC レポートにより、発生源で欠陥をブロックします。',
   'pages.system.onboardingWizard.role.quality.task.qa_standard.name': '検査基準の定義',
-  'pages.system.onboardingWizard.role.quality.task.qa_standard.desc': '材料と製品の AQL およびサンプリング計画を設定する',
+  'pages.system.onboardingWizard.role.quality.task.qa_standard.desc':
+    '材料と製品の AQL およびサンプリング計画を設定する',
   'pages.system.onboardingWizard.role.quality.task.qa_iqc.name': '受入検査（IQC）',
   'pages.system.onboardingWizard.role.quality.task.qa_iqc.desc': '外部委託または購入した材料の検査',
   'pages.system.onboardingWizard.role.quality.task.qa_oqc.name': '出荷検査',
   'pages.system.onboardingWizard.role.quality.task.qa_oqc.desc': '完成品の出荷前最終検査',
-  'pages.system.onboardingWizard.role.equipment.mission': '主な使命: 機器を保守し、計画外のダウンタイムを削減し、生産を継続します。',
-  'pages.system.onboardingWizard.role.equipment.prerequisiteData': '設備台帳、スペアパーツ、保守計画テンプレート',
-  'pages.system.onboardingWizard.role.equipment.businessDocs': '設備の点検、修理、メンテナンスの指示',
-  'pages.system.onboardingWizard.role.equipment.empowermentValue': '事後修理から予防保守への移行。故障率が低くなります。',
+  'pages.system.onboardingWizard.role.equipment.mission':
+    '主な使命: 機器を保守し、計画外のダウンタイムを削減し、生産を継続します。',
+  'pages.system.onboardingWizard.role.equipment.prerequisiteData':
+    '設備台帳、スペアパーツ、保守計画テンプレート',
+  'pages.system.onboardingWizard.role.equipment.businessDocs':
+    '設備の点検、修理、メンテナンスの指示',
+  'pages.system.onboardingWizard.role.equipment.empowermentValue':
+    '事後修理から予防保守への移行。故障率が低くなります。',
   'pages.system.onboardingWizard.role.equipment.task.eq_ledger.name': '設備台帳の作成',
-  'pages.system.onboardingWizard.role.equipment.task.eq_ledger.desc': 'すべてのプラント設備を設備ごとに 1 つのコードで登録',
+  'pages.system.onboardingWizard.role.equipment.task.eq_ledger.desc':
+    'すべてのプラント設備を設備ごとに 1 つのコードで登録',
   'pages.system.onboardingWizard.role.equipment.task.eq_maintain.name': '点検・整備',
-  'pages.system.onboardingWizard.role.equipment.task.eq_maintain.desc': '日常点検と予防保守を実行する',
-  'pages.system.onboardingWizard.role.finance.mission': '主な使命: あらゆるトランザクションを考慮し、コストをリアルタイムで追跡し、経営上の意思決定をサポートします。',
-  'pages.system.onboardingWizard.role.finance.prerequisiteData': '口座残高、収入/支出カテゴリ、原価計算ルール',
+  'pages.system.onboardingWizard.role.equipment.task.eq_maintain.desc':
+    '日常点検と予防保守を実行する',
+  'pages.system.onboardingWizard.role.finance.mission':
+    '主な使命: あらゆるトランザクションを考慮し、コストをリアルタイムで追跡し、経営上の意思決定をサポートします。',
+  'pages.system.onboardingWizard.role.finance.prerequisiteData':
+    '口座残高、収入/支出カテゴリ、原価計算ルール',
   'pages.system.onboardingWizard.role.finance.businessDocs': 'AR/AP、領収書/支払い、原価計算書類',
-  'pages.system.onboardingWizard.role.finance.empowermentValue': 'ビジネス 伝票は財務エントリを自動生成します。注文コストとマージンがリアルタイムで表示されます。',
+  'pages.system.onboardingWizard.role.finance.empowermentValue':
+    'ビジネス 伝票は財務エントリを自動生成します。注文コストとマージンがリアルタイムで表示されます。',
   'pages.system.onboardingWizard.role.finance.task.fi_ap.name': 'AP調整',
-  'pages.system.onboardingWizard.role.finance.task.fi_ap.desc': 'AP とサプライヤーを調整し、支払い注文を作成します',
+  'pages.system.onboardingWizard.role.finance.task.fi_ap.desc':
+    'AP とサプライヤーを調整し、支払い注文を作成します',
   'pages.system.onboardingWizard.role.finance.task.fi_ar.name': 'AR調整',
-  'pages.system.onboardingWizard.role.finance.task.fi_ar.desc': 'AR を顧客と調整し、領収書を適用する',
+  'pages.system.onboardingWizard.role.finance.task.fi_ar.desc':
+    'AR を顧客と調整し、領収書を適用する',
   'pages.system.onboardingWizard.role.finance.task.fi_cost.name': '注文原価計算',
-  'pages.system.onboardingWizard.role.finance.task.fi_cost.desc': '材料、労働力、諸経費を合計して真の製品コストを算出する',
-  'pages.system.onboardingWizard.role.manager.mission': '主な使命: デジタル ダッシュボードを使用して、いつでもどこでもプラント全体を監視します。',
-  'pages.system.onboardingWizard.role.manager.prerequisiteData': '承認フロー、データディクショナリ計画、KPIターゲット',
-  'pages.system.onboardingWizard.role.manager.businessDocs': 'コアビジネスの承認、エグゼクティブダッシュボード',
-  'pages.system.onboardingWizard.role.manager.empowermentValue': '収益、生産能力、在庫が一目でわかるエグゼクティブ コックピット。',
+  'pages.system.onboardingWizard.role.finance.task.fi_cost.desc':
+    '材料、労働力、諸経費を合計して真の製品コストを算出する',
+  'pages.system.onboardingWizard.role.manager.mission':
+    '主な使命: デジタル ダッシュボードを使用して、いつでもどこでもプラント全体を監視します。',
+  'pages.system.onboardingWizard.role.manager.prerequisiteData':
+    '承認フロー、データディクショナリ計画、KPIターゲット',
+  'pages.system.onboardingWizard.role.manager.businessDocs':
+    'コアビジネスの承認、エグゼクティブダッシュボード',
+  'pages.system.onboardingWizard.role.manager.empowermentValue':
+    '収益、生産能力、在庫が一目でわかるエグゼクティブ コックピット。',
   'pages.system.onboardingWizard.role.manager.task.mgr_approve.name': '事業承認',
-  'pages.system.onboardingWizard.role.manager.task.mgr_approve.desc': '部門間の承認フローを一元的に処理',
-  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.name': 'ビジネス分析ダッシュボード',
-  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.desc': '収益、利益、在庫回転率、主要な指標を表示する',
-  'pages.system.onboardingWizard.role.implementer.mission': '中心的な使命: 安定したランタイム環境のためにシステム アーキテクチャとグローバル パラメーターを構成します。',
-  'pages.system.onboardingWizard.role.implementer.prerequisiteData': '組織構造、権限モデル、承認ワークフロー、文書番号付け',
-  'pages.system.onboardingWizard.role.implementer.businessDocs': 'システムパラメータ、監査ログ、カスタム項目定義',
-  'pages.system.onboardingWizard.role.implementer.empowermentValue': '標準化された構成を使用してデジタル基盤を構築し、運用コストを削減し、コンプライアンスを遵守します。',
-  'pages.system.onboardingWizard.implementer.phase.security': 'フェーズ 1: 基盤とユーザー システムにアクセスする',
-  'pages.system.onboardingWizard.implementer.phase.config': 'フェーズ 2: コア ビジネス モデリング ルール',
-  'pages.system.onboardingWizard.implementer.phase.process': 'フェーズ 3: ワークフロー エンジンと配信テンプレート',
+  'pages.system.onboardingWizard.role.manager.task.mgr_approve.desc':
+    '部門間の承認フローを一元的に処理',
+  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.name':
+    'ビジネス分析ダッシュボード',
+  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.desc':
+    '収益、利益、在庫回転率、主要な指標を表示する',
+  'pages.system.onboardingWizard.role.implementer.mission':
+    '中心的な使命: 安定したランタイム環境のためにシステム アーキテクチャとグローバル パラメーターを構成します。',
+  'pages.system.onboardingWizard.role.implementer.prerequisiteData':
+    '組織構造、権限モデル、承認ワークフロー、文書番号付け',
+  'pages.system.onboardingWizard.role.implementer.businessDocs':
+    'システムパラメータ、監査ログ、カスタム項目定義',
+  'pages.system.onboardingWizard.role.implementer.empowermentValue':
+    '標準化された構成を使用してデジタル基盤を構築し、運用コストを削減し、コンプライアンスを遵守します。',
+  'pages.system.onboardingWizard.implementer.phase.security':
+    'フェーズ 1: 基盤とユーザー システムにアクセスする',
+  'pages.system.onboardingWizard.implementer.phase.config':
+    'フェーズ 2: コア ビジネス モデリング ルール',
+  'pages.system.onboardingWizard.implementer.phase.process':
+    'フェーズ 3: ワークフロー エンジンと配信テンプレート',
   'pages.system.onboardingWizard.implementer.phase.data': 'フェーズ 4: データ ガバナンスと統合',
   'pages.system.onboardingWizard.implementer.phase.ops': 'フェーズ 5: 運用とセキュリティの監視',
-  'pages.system.onboardingWizard.implementer.phase.app': 'フェーズ 6: アプリの拡張機能と個人の生産性',
-  'pages.system.onboardingWizard.implementer.task.securityGroup.name': 'ユーザーと権限の基盤を構築する',
-  'pages.system.onboardingWizard.implementer.task.securityGroup.desc': '部門、役職、役割ベースのアクセス制御を構成します。',
+  'pages.system.onboardingWizard.implementer.phase.app':
+    'フェーズ 6: アプリの拡張機能と個人の生産性',
+  'pages.system.onboardingWizard.implementer.task.securityGroup.name':
+    'ユーザーと権限の基盤を構築する',
+  'pages.system.onboardingWizard.implementer.task.securityGroup.desc':
+    '部門、役職、役割ベースのアクセス制御を構成します。',
   'pages.system.onboardingWizard.implementer.task.standardGroup.name': 'ビジネスモデリングと標準化',
-  'pages.system.onboardingWizard.implementer.task.standardGroup.desc': 'バックボーンとしての番号付けルール。辞書とパラメータのほとんどは事前に構築されており、調整することができます。',
+  'pages.system.onboardingWizard.implementer.task.standardGroup.desc':
+    'バックボーンとしての番号付けルール。辞書とパラメータのほとんどは事前に構築されており、調整することができます。',
   'pages.system.onboardingWizard.implementer.task.siteGroup.name': 'UIレイアウトとサイト設定',
-  'pages.system.onboardingWizard.implementer.task.siteGroup.desc': 'サイドバー、ロゴ、テナント名、およびグローバル ビジュアルを構成します (コアの投稿フローには影響しません)。',
+  'pages.system.onboardingWizard.implementer.task.siteGroup.desc':
+    'サイドバー、ロゴ、テナント名、およびグローバル ビジュアルを構成します (コアの投稿フローには影響しません)。',
   'pages.system.onboardingWizard.implementer.task.workflowGroup.name': '承認と納品の基準を定義する',
-  'pages.system.onboardingWizard.implementer.task.workflowGroup.desc': 'ビジネス チェーン全体で承認フロー、アラート トリガー、印刷テンプレートを構成します。',
-  'pages.system.onboardingWizard.implementer.task.integrationGroup.name': '外部統合とデータガバナンス',
-  'pages.system.onboardingWizard.implementer.task.integrationGroup.desc': 'API、データセット、ファイル センターを構成してデータ サイロを解消します。',
+  'pages.system.onboardingWizard.implementer.task.workflowGroup.desc':
+    'ビジネス チェーン全体で承認フロー、アラート トリガー、印刷テンプレートを構成します。',
+  'pages.system.onboardingWizard.implementer.task.integrationGroup.name':
+    '外部統合とデータガバナンス',
+  'pages.system.onboardingWizard.implementer.task.integrationGroup.desc':
+    'API、データセット、ファイル センターを構成してデータ サイロを解消します。',
   'pages.system.onboardingWizard.implementer.task.opsGroup.name': '完全な運用と監視',
-  'pages.system.onboardingWizard.implementer.task.opsGroup.desc': '監査、ログイン/セッション監視、バックアップ — ガバナンス項目。コンプライアンスのために稼働前に推奨されます。',
-  'pages.system.onboardingWizard.implementer.task.extGroup.name': '拡張機能とパーソナライゼーション',
-  'pages.system.onboardingWizard.implementer.task.extGroup.desc': 'App Center 経由で拡張し、各ユーザーのワークスペースをパーソナライズします。',
+  'pages.system.onboardingWizard.implementer.task.opsGroup.desc':
+    '監査、ログイン/セッション監視、バックアップ — ガバナンス項目。コンプライアンスのために稼働前に推奨されます。',
+  'pages.system.onboardingWizard.implementer.task.extGroup.name':
+    '拡張機能とパーソナライゼーション',
+  'pages.system.onboardingWizard.implementer.task.extGroup.desc':
+    'App Center 経由で拡張し、各ユーザーのワークスペースをパーソナライズします。',
   'pages.system.onboardingWizard.implementer.sub.imp_dept.name': '部門',
-  'pages.system.onboardingWizard.implementer.sub.imp_dept.desc': '管理組織の構造と部門ツリーを定義します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_dept.desc':
+    '管理組織の構造と部門ツリーを定義します。',
   'pages.system.onboardingWizard.implementer.sub.imp_post.name': 'ポジション',
   'pages.system.onboardingWizard.implementer.sub.imp_post.desc': '役職範囲と職務等級を定義します。',
   'pages.system.onboardingWizard.implementer.sub.imp_role.name': '役割と権限',
-  'pages.system.onboardingWizard.implementer.sub.imp_role.desc': 'セキュリティ分離のためのメニューとアクションの権限を割り当てます。',
+  'pages.system.onboardingWizard.implementer.sub.imp_role.desc':
+    'セキュリティ分離のためのメニューとアクションの権限を割り当てます。',
   'pages.system.onboardingWizard.implementer.sub.imp_user.name': 'ユーザーアカウント',
-  'pages.system.onboardingWizard.implementer.sub.imp_user.desc': 'アカウントを作成し、ロールをバインドし、ユーザーをアクティブ化します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_user.desc':
+    'アカウントを作成し、ロールをバインドし、ユーザーをアクティブ化します。',
   'pages.system.onboardingWizard.implementer.sub.imp_rule.name': '番号付けのルール',
-  'pages.system.onboardingWizard.implementer.sub.imp_rule.desc': '材料と注文の自動番号付けロジック。',
+  'pages.system.onboardingWizard.implementer.sub.imp_rule.desc':
+    '材料と注文の自動番号付けロジック。',
   'pages.system.onboardingWizard.implementer.sub.imp_dict.name': 'データ辞書',
-  'pages.system.onboardingWizard.implementer.sub.imp_dict.desc': '事前定義された列挙型 (支払い方法、伝票 タイプ)。通常は事前に構築されており、必要に応じて拡張します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_dict.desc':
+    '事前定義された列挙型 (支払い方法、伝票 タイプ)。通常は事前に構築されており、必要に応じて拡張します。',
   'pages.system.onboardingWizard.implementer.sub.imp_business.name': 'ビジネス環境',
-  'pages.system.onboardingWizard.implementer.sub.imp_business.desc': '倉庫ポリシー、マイナス在庫、バッチ/シリアル/ロケーションの切り替え。既定は起動時に機能します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_business.desc':
+    '倉庫ポリシー、マイナス在庫、バッチ/シリアル/ロケーションの切り替え。既定は起動時に機能します。',
   'pages.system.onboardingWizard.implementer.sub.imp_lang.name': '言語',
-  'pages.system.onboardingWizard.implementer.sub.imp_lang.desc': 'グローバルな運用のために翻訳辞書を維持します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_lang.desc':
+    'グローバルな運用のために翻訳辞書を維持します。',
   'pages.system.onboardingWizard.implementer.sub.imp_field.name': 'カスタム項目',
-  'pages.system.onboardingWizard.implementer.sub.imp_field.desc': '動的な項目拡張と伝票のデータ キャプチャ。',
+  'pages.system.onboardingWizard.implementer.sub.imp_field.desc':
+    '動的な項目拡張と伝票のデータ キャプチャ。',
   'pages.system.onboardingWizard.implementer.sub.imp_menu.name': 'メニュー管理',
-  'pages.system.onboardingWizard.implementer.sub.imp_menu.desc': 'サイドバーの順序、アイコン、表示名をカスタマイズします。',
+  'pages.system.onboardingWizard.implementer.sub.imp_menu.desc':
+    'サイドバーの順序、アイコン、表示名をカスタマイズします。',
   'pages.system.onboardingWizard.implementer.sub.imp_site.name': 'サイト設定',
-  'pages.system.onboardingWizard.implementer.sub.imp_site.desc': 'システム名、ロゴ、およびマルチテナントのパラメータを構成します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_site.desc':
+    'システム名、ロゴ、およびマルチテナントのパラメータを構成します。',
   'pages.system.onboardingWizard.implementer.sub.imp_workflow.name': '承認ワークフロー',
-  'pages.system.onboardingWizard.implementer.sub.imp_workflow.desc': '販売および購入伝票のマルチレベルの承認チェーン。',
+  'pages.system.onboardingWizard.implementer.sub.imp_workflow.desc':
+    '販売および購入伝票のマルチレベルの承認チェーン。',
   'pages.system.onboardingWizard.implementer.sub.imp_msg.name': 'メッセージとチャンネル',
-  'pages.system.onboardingWizard.implementer.sub.imp_msg.desc': 'メッセージ テンプレートと通知チャネルのセットアップ。',
+  'pages.system.onboardingWizard.implementer.sub.imp_msg.desc':
+    'メッセージ テンプレートと通知チャネルのセットアップ。',
   'pages.system.onboardingWizard.implementer.sub.imp_print.name': '印刷とデバイス',
-  'pages.system.onboardingWizard.implementer.sub.imp_print.desc': '納品書テンプレートと現場のプリンターへのリンク。',
+  'pages.system.onboardingWizard.implementer.sub.imp_print.desc':
+    '納品書テンプレートと現場のプリンターへのリンク。',
   'pages.system.onboardingWizard.implementer.sub.imp_file.name': 'ファイル管理',
-  'pages.system.onboardingWizard.implementer.sub.imp_file.desc': '図面、SOP、非構造化ファイルを一元管理します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_file.desc':
+    '図面、SOP、非構造化ファイルを一元管理します。',
   'pages.system.onboardingWizard.implementer.sub.imp_api.name': 'APIとデータソース',
-  'pages.system.onboardingWizard.implementer.sub.imp_api.desc': '外部 API の登録とデータベース接続。',
+  'pages.system.onboardingWizard.implementer.sub.imp_api.desc':
+    '外部 API の登録とデータベース接続。',
   'pages.system.onboardingWizard.implementer.sub.imp_connector.name': 'アプリコネクタ',
-  'pages.system.onboardingWizard.implementer.sub.imp_connector.desc': 'サードパーティの SaaS データ用の標準コネクタ。',
+  'pages.system.onboardingWizard.implementer.sub.imp_connector.desc':
+    'サードパーティの SaaS データ用の標準コネクタ。',
   'pages.system.onboardingWizard.implementer.sub.imp_dataset.name': 'データセット',
-  'pages.system.onboardingWizard.implementer.sub.imp_dataset.desc': 'BI ダッシュボードとレポートのデータセット ロジック。',
+  'pages.system.onboardingWizard.implementer.sub.imp_dataset.desc':
+    'BI ダッシュボードとレポートのデータセット ロジック。',
   'pages.system.onboardingWizard.implementer.sub.imp_audit.name': '操作ログ',
-  'pages.system.onboardingWizard.implementer.sub.imp_audit.desc': 'セキュリティ監査のために操作の証跡をクエリします (投稿の前提条件ではありません)。',
+  'pages.system.onboardingWizard.implementer.sub.imp_audit.desc':
+    'セキュリティ監査のために操作の証跡をクエリします (投稿の前提条件ではありません)。',
   'pages.system.onboardingWizard.implementer.sub.imp_login.name': 'ログインログ',
-  'pages.system.onboardingWizard.implementer.sub.imp_login.desc': 'アクセス記録を監視し、異常なログインを検出します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_login.desc':
+    'アクセス記録を監視し、異常なログインを検出します。',
   'pages.system.onboardingWizard.implementer.sub.imp_online.name': 'オンラインユーザー',
-  'pages.system.onboardingWizard.implementer.sub.imp_online.desc': 'ログインのセキュリティのためにアクティブなユーザーをリアルタイムで追跡します。',
+  'pages.system.onboardingWizard.implementer.sub.imp_online.desc':
+    'ログインのセキュリティのためにアクティブなユーザーをリアルタイムで追跡します。',
   'pages.system.onboardingWizard.implementer.sub.imp_backup.name': 'データのバックアップ',
-  'pages.system.onboardingWizard.implementer.sub.imp_backup.desc': 'スケジュールされたバックアップとリカバリ。通常、日常の操作には必要ありません。',
+  'pages.system.onboardingWizard.implementer.sub.imp_backup.desc':
+    'スケジュールされたバックアップとリカバリ。通常、日常の操作には必要ありません。',
   'pages.system.onboardingWizard.implementer.sub.imp_app_center.name': 'アプリセンター',
-  'pages.system.onboardingWizard.implementer.sub.imp_app_center.desc': 'アプリモジュールをインストール、アップグレード、バージョンアップします。',
+  'pages.system.onboardingWizard.implementer.sub.imp_app_center.desc':
+    'アプリモジュールをインストール、アップグレード、バージョンアップします。',
   'pages.system.onboardingWizard.implementer.sub.imp_personal.name': '個人プロフィール',
-  'pages.system.onboardingWizard.implementer.sub.imp_personal.desc': 'プロファイル、言語/テーマの設定、およびタスク センター。',
+  'pages.system.onboardingWizard.implementer.sub.imp_personal.desc':
+    'プロファイル、言語/テーマの設定、およびタスク センター。',
   'pages.system.equipmentTrace.uuidRequired': '機器のUUIDが必要です',
   'pages.system.equipmentTrace.loadFailed': '機器トレースデータのロードに失敗しました',
   'pages.system.equipmentTrace.backToList': '装備一覧に戻る',
@@ -17869,13 +19859,16 @@ export default {
   'pages.system.printTemplatesDesign.headerFormat': 'ヘッダー形式',
   'pages.system.printTemplatesDesign.footerFormat': 'フッターの形式',
   'pages.system.printTemplatesDesign.customPlaceholder': 'カスタムコンテンツまたは変数',
-  'pages.system.printTemplatesDesign.headerFooterHint': '{currentPage}、{totalPages}、{dateTime} などをサポートします。',
+  'pages.system.printTemplatesDesign.headerFooterHint':
+    '{currentPage}、{totalPages}、{dateTime} などをサポートします。',
   'pages.system.printTemplatesDesign.uploadPdf': 'PDFをアップロードする',
-  'pages.system.printTemplatesDesign.uploadPdfExtra': '既存の PDF を背景として使用します。クリアするには「空白ページ」を選択します。',
+  'pages.system.printTemplatesDesign.uploadPdfExtra':
+    '既存の PDF を背景として使用します。クリアするには「空白ページ」を選択します。',
   'pages.system.printTemplatesDesign.selectPdfFile': 'PDFファイルを選択',
   'pages.system.printTemplatesDesign.replacePdfFile': 'PDF ファイルを置き換える',
   'pages.system.printTemplatesDesign.previewTitle': 'テンプレートのプレビュー',
-  'pages.system.printTemplatesDesign.previewTitleWithData': 'テンプレートのプレビュー（サンプルデータ付き）',
+  'pages.system.printTemplatesDesign.previewTitleWithData':
+    'テンプレートのプレビュー（サンプルデータ付き）',
   'pages.system.printTemplatesDesign.documentTitle': 'ユニプリントデザイナー',
   'pages.system.printTemplatesDesign.added': '追加した',
   'pages.system.printTemplatesDesign.paperSizeA4': 'A4(210×297mm)',
@@ -17917,7 +19910,8 @@ export default {
   'pages.system.printTemplatesDesign.keyPlaceholder': '例: 材料名',
   'pages.system.printTemplatesDesign.widthPlaceholder': '例: 18%、120px',
   'pages.system.printTemplatesDesign.dropToColumn': '↓この欄へドロップ',
-  'pages.system.printTemplatesDesign.clickOrDragToInsert': 'クリックまたはドラッグしてコンポーネントを挿入します',
+  'pages.system.printTemplatesDesign.clickOrDragToInsert':
+    'クリックまたはドラッグしてコンポーネントを挿入します',
   'pages.system.printTemplatesDesign.dropToBottom': '⬇ ここにドロップすると伝票の最後に移動します',
   'pages.system.printTemplatesDesign.searchVariables': '変数を検索...',
   'pages.system.printTemplatesDesign.compBase': '基本コンポーネント',
@@ -17929,7 +19923,8 @@ export default {
   'pages.system.printTemplatesDesign.lineColumnsModalTitle': '詳細テーブルの列',
   'pages.system.printTemplatesDesign.lineColumnsTableLabel': 'テーブル',
   'pages.system.printTemplatesDesign.lineColumnsVisibilityOrderSection': '表示される列と順序',
-  'pages.system.printTemplatesDesign.lineColumnsCheckboxShowColumn': 'この列を印刷テーブルに表示します',
+  'pages.system.printTemplatesDesign.lineColumnsCheckboxShowColumn':
+    'この列を印刷テーブルに表示します',
   'pages.system.printTemplatesDesign.lineColumnsApply': 'キャンバスに適用する',
   'pages.system.printTemplatesDesign.lineColumnsMoveUp': '上',
   'pages.system.printTemplatesDesign.lineColumnsMoveDown': '下',
@@ -17941,7 +19936,8 @@ export default {
   'pages.system.printTemplatesDesign.detailTableBadge': 'テーブル',
   'pages.system.printTemplatesDesign.detailTableAdded': '挿入された詳細テーブル: {{label}}',
   'pages.system.printTemplatesDesign.detailTableDataBindingHint': '完全なテーブル・行配列',
-  'pages.system.printTemplatesDesign.cleanupLegacyDetailTexts': 'ラインアイテムのテキストボックスを削除する',
+  'pages.system.printTemplatesDesign.cleanupLegacyDetailTexts':
+    'ラインアイテムのテキストボックスを削除する',
   'pages.system.printTemplatesDesign.insertedDetailTable': '挿入された詳細テーブル: {{label}}',
   'pages.system.printTemplatesDesign.headerFontWeight': 'ヘッダーの重み',
   'pages.system.printTemplatesDesign.headerBackground': 'ヘッダーBG',
@@ -17964,7 +19960,8 @@ export default {
   'pages.system.printTemplatesDesign.typeH3': '見出し 3 (H3)',
   'pages.system.printTemplatesDesign.typeH4': '見出し 4 (H4)',
   'pages.system.printTemplatesDesign.textContent': 'テキストコンテンツ',
-  'pages.system.printTemplatesDesign.textContentPlaceholder': 'コンテンツを入力します (複数行をサポート)',
+  'pages.system.printTemplatesDesign.textContentPlaceholder':
+    'コンテンツを入力します (複数行をサポート)',
   'pages.system.printTemplatesDesign.showLabel': 'ラベルを表示',
   'pages.system.printTemplatesDesign.on': 'の上',
   'pages.system.printTemplatesDesign.off': 'オフ',
@@ -17996,7 +19993,8 @@ export default {
   'pages.system.printTemplatesDesign.headerFontSize': 'ヘッダーのフォントサイズ',
   'pages.system.printTemplatesDesign.defaultFontSize': '既定の13ピクセル',
   'pages.system.printTemplatesDesign.sameAsBody': '本体と同じ',
-  'pages.system.printTemplatesDesign.dragToStart': 'コンポーネントをクリックまたはドラッグして設計を開始します',
+  'pages.system.printTemplatesDesign.dragToStart':
+    'コンポーネントをクリックまたはドラッグして設計を開始します',
   'pages.system.printTemplatesDesign.templateNameFallback': '見積書テンプレート（新規）',
   'pages.system.printTemplatesDesign.colLayout': '列のレイアウト',
   'pages.system.printTemplatesDesign.compText': 'テキストコンテンツ',
@@ -18028,10 +20026,12 @@ export default {
   'pages.system.printTemplatesDesign.paperOrientation': '向き',
   'pages.system.printTemplatesDesign.itemSpacingLabel': '項目間隔 (mm)',
   'pages.system.printTemplatesDesign.itemSpacingPlaceholder': '例: 2',
-  'pages.system.printTemplatesDesign.itemSpacingHint': '各コンポーネントの下にスペースを自動的に追加します。',
+  'pages.system.printTemplatesDesign.itemSpacingHint':
+    '各コンポーネントの下にスペースを自動的に追加します。',
   'pages.system.printTemplatesDesign.tableRowLimitLabel': 'テーブルの行制限',
   'pages.system.printTemplatesDesign.tableRowLimitPlaceholder': '例: 10',
-  'pages.system.printTemplatesDesign.tableRowLimitHint': '行を固定しました。データが少ない場合は空の行を表示します。自動の場合は 0。',
+  'pages.system.printTemplatesDesign.tableRowLimitHint':
+    '行を固定しました。データが少ない場合は空の行を表示します。自動の場合は 0。',
   'pages.system.printTemplatesDesign.paperMargins': '用紙余白 (mm)',
   'pages.system.printTemplatesDesign.modeDesign': 'デザイン',
   'pages.system.printTemplatesDesign.modePreview': 'プレビュー',
@@ -18069,9 +20069,12 @@ export default {
   'pages.system.printTemplatesDesign.insertAsQRTitle': 'QR として挿入: {{key}}',
   'pages.system.printTemplatesDesign.compMoveSuccess': 'コンポーネントは正常に移動されました',
   'pages.system.printTemplatesDesign.movedToEnd': '文書の最後に移動しました',
-  'pages.system.printTemplatesDesign.compNotSupported': '現在のブロックはインライン変数をサポートしていないため、代わりに項目 ブロックを追加しました。',
-  'pages.system.printTemplatesDesign.saveSuccessWithWarnings': 'テンプレートは {{count}} コンパイル警告とともに保存されました。',
-  'pages.system.printTemplatesDesign.compilePreviewUpdated': 'Uni-Print 編集プレビューが更新されました',
+  'pages.system.printTemplatesDesign.compNotSupported':
+    '現在のブロックはインライン変数をサポートしていないため、代わりに項目 ブロックを追加しました。',
+  'pages.system.printTemplatesDesign.saveSuccessWithWarnings':
+    'テンプレートは {{count}} コンパイル警告とともに保存されました。',
+  'pages.system.printTemplatesDesign.compilePreviewUpdated':
+    'Uni-Print 編集プレビューが更新されました',
   'pages.system.printTemplatesDesign.compilePreviewFailed': 'コンパイルプレビューに失敗しました',
   'pages.system.printTemplatesDesign.sampleDataError': 'サンプルデータのJSON形式エラー',
   'pages.system.printTemplatesDesign.previewGenerated': '生成されたプレビュー結果',
@@ -18091,24 +20094,29 @@ export default {
   'pages.system.printTemplatesDesign.compIndustrialId': '産業用ID',
   'pages.system.printTemplatesDesign.spacing': '間隔',
   'pages.system.printTemplatesDesign.border': '国境',
-  'pages.system.printTemplatesDesign.compDetailTableHint': '詳細テーブル コンポーネント: 動的リスト データをレンダリングするために使用されます。',
+  'pages.system.printTemplatesDesign.compDetailTableHint':
+    '詳細テーブル コンポーネント: 動的リスト データをレンダリングするために使用されます。',
   'pages.system.printTemplatesDesign.sampleCustomer1': '深セン製造クライアント',
   'pages.system.printTemplatesDesign.sampleNotes1': '7 日間の配達 (送料込み)税金と送料。',
   'pages.system.printTemplatesDesign.sampleMaterial1': 'アルミニウムシェル',
   'pages.system.printTemplatesDesign.sampleUnit1': '個',
   'pages.system.printTemplatesDesign.sampleCustomer2': '南華電子集団有限公司',
-  'pages.system.printTemplatesDesign.sampleNotes2': '長いテーブルのページネーション、ヘッダーの繰り返し、全体的な配置をテストするために使用されます。',
+  'pages.system.printTemplatesDesign.sampleNotes2':
+    '長いテーブルのページネーション、ヘッダーの繰り返し、全体的な配置をテストするために使用されます。',
   'pages.system.printTemplatesDesign.sampleCustomer3': '華東自動化設備有限公司',
-  'pages.system.printTemplatesDesign.sampleNotes3': '注1：付加価値税 13%。\\n注 2: 支払い期間は 30 日です。\\n注3：金型代は別途ご確認ください。\\n注4: 有効期限は15日間です。',
+  'pages.system.printTemplatesDesign.sampleNotes3':
+    '注1：付加価値税 13%。\\n注 2: 支払い期間は 30 日です。\\n注3：金型代は別途ご確認ください。\\n注4: 有効期限は15日間です。',
   'pages.system.printTemplatesDesign.sampleMaterial2': 'コントロールパネルの組み立て',
   'pages.system.printTemplatesDesign.sampleUnit2': 'セット',
   'pages.system.printTemplatesDesign.sampleMaterial3': 'ブラケットコンポーネント',
   'pages.system.printTemplatesDesign.sampleCustomer4': '北華設備製造有限公司',
-  'pages.system.printTemplatesDesign.sampleNotes4': '生産スケジュールに合わせてバッチで納品します。',
+  'pages.system.printTemplatesDesign.sampleNotes4':
+    '生産スケジュールに合わせてバッチで納品します。',
   'pages.system.printTemplatesDesign.sampleSupplier1': '蘇州金属材料有限公司',
   'pages.system.printTemplatesDesign.sampleNotes5': '材料証明書とQAレポートを添付してください。',
   'pages.system.printTemplatesDesign.sampleName1': 'サンプル伝票',
-  'pages.system.printTemplatesDesign.sampleNotes6': '実際の伝票項目ごとにサンプル JSON を調整します。',
+  'pages.system.printTemplatesDesign.sampleNotes6':
+    '実際の伝票項目ごとにサンプル JSON を調整します。',
   'pages.system.printTemplatesDesign.sampleMaterial4': '高精度部品',
   'pages.system.printTemplatesDesign.sampleSpec': 'スペック',
   'pages.system.printTemplatesDesign.sampleUnit3': 'シート',
@@ -18145,9 +20153,11 @@ export default {
   'pages.system.printTemplatesDesign.compIndentLabel': '産業用ID',
   'pages.system.printTemplatesDesign.exportPortable': 'デザインのエクスポート',
   'pages.system.printTemplatesDesign.importPortable': 'デザインをインポート',
-  'pages.system.printTemplatesDesign.exportPortableSuccess': 'デザイン ファイルがエクスポートされました (テナントまたは UUID なし)',
+  'pages.system.printTemplatesDesign.exportPortableSuccess':
+    'デザイン ファイルがエクスポートされました (テナントまたは UUID なし)',
   'pages.system.printTemplatesDesign.exportPortableFailed': 'エクスポートに失敗しました',
-  'pages.system.printTemplatesDesign.importPortableSuccess': 'デザインが読み込まれました。 「保存」をクリックして永続化します',
+  'pages.system.printTemplatesDesign.importPortableSuccess':
+    'デザインが読み込まれました。 「保存」をクリックして永続化します',
   'pages.system.printTemplatesDesign.importPortableParseFailed': '無効な JSON',
   'pages.system.printTemplatesDesign.importConfirmTitle': '設計ファイルをインポートする',
   'pages.system.printTemplates.getDetailFailed': '印刷テンプレートの詳細をロードできませんでした',
@@ -18158,7 +20168,8 @@ export default {
   'pages.system.printTemplates.selectToDelete': '削除する印刷テンプレートを選択してください',
   'pages.system.printTemplates.batchDeleteSuccess': '一括削除に成功しました',
   'pages.system.printTemplates.batchDeleteFailed': '一括削除に失敗しました',
-  'pages.system.printTemplates.workOrderTemplateCreated': '製造指示テンプレートが作成されました。デザイナーで調整できます。',
+  'pages.system.printTemplates.workOrderTemplateCreated':
+    '製造指示テンプレートが作成されました。デザイナーで調整できます。',
   'pages.system.printTemplates.createWorkOrderFailed': '製造指示テンプレートの作成に失敗しました',
   'pages.system.printTemplates.updateSuccess': '更新されました',
   'pages.system.printTemplates.createSuccess': '作成されました',
@@ -18227,20 +20238,26 @@ export default {
   'pages.system.printTemplates.selectPresetType': 'ロードする伝票の種類を選択してください',
   'pages.system.printTemplates.selectPresetTypePlaceholder': '一般的な伝票の種類を選択してください',
   'pages.system.printTemplates.presetTemplateNameSuffix': '印刷テンプレート',
-  'pages.system.printTemplates.presetTemplateDescription': 'プリセット {{name}} 印刷テンプレート;デザイナーで調整できます。',
-  'pages.system.printTemplates.presetCreated': 'プリセットテンプレートが作成されました。デザイナーで調整できます。',
-  'pages.system.printTemplates.presetAllLoaded': '{{count}} プリセット テンプレートをロードしました',
-  'pages.system.printTemplates.presetPartiallyLoaded': '{{success}} は成功しました、{{failed}} はスキップまたは失敗しました',
+  'pages.system.printTemplates.presetTemplateDescription':
+    'プリセット {{name}} 印刷テンプレート;デザイナーで調整できます。',
+  'pages.system.printTemplates.presetCreated':
+    'プリセットテンプレートが作成されました。デザイナーで調整できます。',
+  'pages.system.printTemplates.presetAllLoaded':
+    '{{count}} プリセット テンプレートをロードしました',
+  'pages.system.printTemplates.presetPartiallyLoaded':
+    '{{success}} は成功しました、{{failed}} はスキップまたは失敗しました',
   'pages.system.printTemplates.modalEdit': '印刷テンプレートを編集する',
   'pages.system.printTemplates.modalCreate': '新しい印刷テンプレート',
   'pages.system.printTemplates.labelName': '名前',
   'pages.system.printTemplates.nameRequired': 'テンプレート名を入力してください',
   'pages.system.printTemplates.labelDocumentType': '文書の種類',
   'pages.system.printTemplates.documentTypeRequired': '書類の種類を選択してください',
-  'pages.system.printTemplates.documentTypeTooltip': 'コードは自動生成されます。デザイナーは利用可能な変数を表示します',
+  'pages.system.printTemplates.documentTypeTooltip':
+    'コードは自動生成されます。デザイナーは利用可能な変数を表示します',
   'pages.system.printTemplates.labelCode': 'コード',
   'pages.system.printTemplates.codeRequired': '最初に文書タイプを選択してください',
-  'pages.system.printTemplates.codeTooltip': 'シリアルサフィックスが付加された伝票タイプから自動生成されます (QUOTATION_PRINT_001 など)。作成後に変更することはできません',
+  'pages.system.printTemplates.codeTooltip':
+    'シリアルサフィックスが付加された伝票タイプから自動生成されます (QUOTATION_PRINT_001 など)。作成後に変更することはできません',
   'pages.system.printTemplates.labelOutputFormat': '出力フォーマット',
   'pages.system.printTemplates.outputFormatRequired': '出力形式を選択してください',
   'pages.system.printTemplates.labelDescription': '説明',
@@ -18251,10 +20268,12 @@ export default {
   'pages.system.printTemplates.submitRender': '与える',
   'pages.system.printTemplates.labelTemplateData': 'テンプレートデータ(JSON)',
   'pages.system.printTemplates.templateDataRequired': 'テンプレートデータを入力してください',
-  'pages.system.printTemplates.templateDataPlaceholder': '{"title": "タイトル", "content": "コンテンツ"}',
+  'pages.system.printTemplates.templateDataPlaceholder':
+    '{"title": "タイトル", "content": "コンテンツ"}',
   'pages.system.printTemplates.templateDataTooltip': 'テンプレート変数を置き換える JSON データ',
   'pages.system.printTemplates.labelAsync': '非同期実行 (Taskiq)',
-  'pages.system.printTemplates.asyncTooltip': '有効にすると、レンダリングが Taskiq バックグラウンド ジョブとして非同期で実行されます。',
+  'pages.system.printTemplates.asyncTooltip':
+    '有効にすると、レンダリングが Taskiq バックグラウンド ジョブとして非同期で実行されます。',
   'pages.system.printTemplates.resultTitle': '結果：',
   'pages.system.printTemplates.resultSuccess': '✓ 成功',
   'pages.system.printTemplates.resultFailed': '✗ 失敗しました',
@@ -18264,25 +20283,31 @@ export default {
   'pages.system.printTemplates.columnConfig': '構成',
   'pages.system.printTemplates.columnUpdatedAt': '更新日時',
   'pages.system.printTemplates.workOrderTemplateName': '製造指示の印刷テンプレート（QRコード付き）',
-  'pages.system.printTemplates.workOrderTemplateDescription': 'QR コード、基本情報、プロセス リストを含む PDFme ベースの製造指示印刷テンプレート。',
+  'pages.system.printTemplates.workOrderTemplateDescription':
+    'QR コード、基本情報、プロセス リストを含む PDFme ベースの製造指示印刷テンプレート。',
   'pages.system.printTemplates.cardViewTitle': 'Uni-Print テンプレート',
   'pages.system.printTemplates.cardViewEmpty': '印刷テンプレートはありません',
   'pages.system.printTemplates.createFailed': 'テンプレートの作成に失敗しました',
   'pages.system.printTemplates.templateDataFormatError': 'テンプレートデータ形式エラー',
   'pages.system.printTemplates.jsonFormatError': 'JSONフォーマットエラー',
-  'pages.system.printTemplates.oldFormatMessage': 'このテンプレートは従来の形式です。デザイナーで表示または再設計してください。',
+  'pages.system.printTemplates.oldFormatMessage':
+    'このテンプレートは従来の形式です。デザイナーで表示または再設計してください。',
   'pages.system.printTemplates.previewAlertTitle': 'プレビューノート',
-  'pages.system.printTemplates.previewAlertDesc': '以下のコンテンツは、変数がサンプル値に置き換えられたテンプレートを示しています。実際の値は実行時に提供されます。',
+  'pages.system.printTemplates.previewAlertDesc':
+    '以下のコンテンツは、変数がサンプル値に置き換えられたテンプレートを示しています。実際の値は実行時に提供されます。',
   'pages.system.printTemplates.rawContentLabel': '生のテンプレートの内容:',
   'pages.system.printTemplates.variablesAlertTitle': 'テンプレート変数',
-  'pages.system.printTemplates.variablesAlertDesc': 'テンプレートから抽出された変数。 {{variable_name}} 形式を使用します。',
+  'pages.system.printTemplates.variablesAlertDesc':
+    'テンプレートから抽出された変数。 {{variable_name}} 形式を使用します。',
   'pages.system.printTemplates.noVariables': 'テンプレートに変数がありません',
   'pages.system.printTemplates.variableNameLabel': '変数：',
   'pages.system.printTemplates.templateContentLabel': 'テンプレートの内容:',
   'pages.system.printTemplates.templateVariablesLabel': 'テンプレート変数:',
-  'pages.system.printTemplates.renderAlertDesc': 'テンプレートデータ（JSON形式）を提供します。システムは変数を置き換えて出力を生成します。',
+  'pages.system.printTemplates.renderAlertDesc':
+    'テンプレートデータ（JSON形式）を提供します。システムは変数を置き換えて出力を生成します。',
   'pages.system.printTemplates.noVariablesShort': '変数なし',
-  'pages.system.printTemplates.templateRenderedSuccess': 'テンプレートが正常にレンダリングされました',
+  'pages.system.printTemplates.templateRenderedSuccess':
+    'テンプレートが正常にレンダリングされました',
   'pages.system.printTemplates.downloadFile': 'ファイルをダウンロードする',
   'pages.system.printTemplates.byTypeStats': 'タイプ別:',
   'pages.system.printTemplates.variablesCount': '{{count}}',
@@ -18352,15 +20377,19 @@ export default {
   'pages.system.printDevices.nameRequired': 'デバイス名を入力してください',
   'pages.system.printDevices.labelCode': 'デバイスコード',
   'pages.system.printDevices.codeRequired': 'デバイスコードを入力してください',
-  'pages.system.printDevices.codePattern': 'デバイス コードには文字、数字、アンダースコアのみを含めることができ、文字で始める必要があります',
-  'pages.system.printDevices.codeTooltip': 'デバイスコードはプログラムの識別に使用され、作成後に変更することはできません',
+  'pages.system.printDevices.codePattern':
+    'デバイス コードには文字、数字、アンダースコアのみを含めることができ、文字で始める必要があります',
+  'pages.system.printDevices.codeTooltip':
+    'デバイスコードはプログラムの識別に使用され、作成後に変更することはできません',
   'pages.system.printDevices.labelType': 'デバイスの種類',
   'pages.system.printDevices.typeRequired': 'デバイスの種類を選択してください',
   'pages.system.printDevices.labelDescription': '説明',
   'pages.system.printDevices.labelConfig': 'デバイス構成 (JSON)',
   'pages.system.printDevices.configRequired': 'デバイス構成を入力してください',
-  'pages.system.printDevices.configTooltip': 'JSON 形式のデバイス構成。構造はデバイスの種類によって異なります',
-  'pages.system.printDevices.configPlaceholder': '{"ホスト": "192.168.1.100"、"ポート": 9100、"プロトコル": "生"}',
+  'pages.system.printDevices.configTooltip':
+    'JSON 形式のデバイス構成。構造はデバイスの種類によって異なります',
+  'pages.system.printDevices.configPlaceholder':
+    '{"ホスト": "192.168.1.100"、"ポート": 9100、"プロトコル": "生"}',
   'pages.system.printDevices.configHost': 'ホスト/アドレス',
   'pages.system.printDevices.configHostPlaceholder': '例えば192.168.1.100',
   'pages.system.printDevices.configPort': 'ポート',
@@ -18375,10 +20404,13 @@ export default {
   'pages.system.printDevices.templateUuidRequired': '印刷テンプレートの UUID を入力してください',
   'pages.system.printDevices.labelPrintData': '印刷データ(JSON)',
   'pages.system.printDevices.printDataRequired': '印刷データを入力してください',
-  'pages.system.printDevices.printDataPlaceholder': '{"title": "タイトル", "content": "コンテンツ"}',
-  'pages.system.printDevices.printDataTooltip': 'テンプレート変数の置き換えに使用される JSON 形式の印刷データ',
+  'pages.system.printDevices.printDataPlaceholder':
+    '{"title": "タイトル", "content": "コンテンツ"}',
+  'pages.system.printDevices.printDataTooltip':
+    'テンプレート変数の置き換えに使用される JSON 形式の印刷データ',
   'pages.system.printDevices.labelAsync': '非同期実行 (Taskiq)',
-  'pages.system.printDevices.asyncTooltip': '有効にすると、印刷ジョブは Taskiq バックグラウンド ジョブとして非同期で実行されます。',
+  'pages.system.printDevices.asyncTooltip':
+    '有効にすると、印刷ジョブは Taskiq バックグラウンド ジョブとして非同期で実行されます。',
   'pages.system.printDevices.printResultTitle': '印刷結果:',
   'pages.system.printDevices.printSuccess': '印刷タスクが送信されました',
   'pages.system.printDevices.detailTitle': 'デバイスの詳細を印刷する',
@@ -18450,14 +20482,16 @@ export default {
   'pages.system.workingHoursConfigs.scopeTypePlaceholder': 'スコープの種類を選択してください',
   'pages.system.workingHoursConfigs.scopeTypeRequired': 'スコープのタイプを選択してください',
   'pages.system.workingHoursConfigs.labelDayOfWeek': '曜日',
-  'pages.system.workingHoursConfigs.dayOfWeekPlaceholder': '曜日を選択してください（平日はすべて空いています）',
+  'pages.system.workingHoursConfigs.dayOfWeekPlaceholder':
+    '曜日を選択してください（平日はすべて空いています）',
   'pages.system.workingHoursConfigs.labelStartDate': '開始日',
   'pages.system.workingHoursConfigs.startDatePlaceholder': '開始日を選択してください (オプション)',
   'pages.system.workingHoursConfigs.labelEndDate': '終了日',
   'pages.system.workingHoursConfigs.endDatePlaceholder': '終了日を選択してください (オプション)',
   'pages.system.workingHoursConfigs.labelEnabled': '有効',
   'pages.system.workingHoursConfigs.labelPriority': '優先度',
-  'pages.system.workingHoursConfigs.priorityPlaceholder': '優先度を入力してください (数値が大きいほど優先度が高くなります)',
+  'pages.system.workingHoursConfigs.priorityPlaceholder':
+    '優先度を入力してください (数値が大きいほど優先度が高くなります)',
   'pages.system.workingHoursConfigs.labelRemarks': '備考',
   'pages.system.workingHoursConfigs.remarksPlaceholder': '備考を入力してください',
   'pages.system.workingHoursConfigs.detailTitle': '構成の詳細',
@@ -18469,8 +20503,10 @@ export default {
   'pages.system.apis.selectToDelete': '削除する API を選択してください',
   'pages.system.apis.batchDeleteConfirm': '選択した {{count}} 個の API を削除してもよろしいですか?',
   'pages.system.apis.batchDeleteTitle': '選択した API を一括削除してもよろしいですか?',
-  'pages.system.apis.batchDeleteDescription': '{{count}} API は削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.apis.batchDeleteDone': '削除完了: {{done}} 成功、{{fail}} 失敗 (システム API は削除できません)',
+  'pages.system.apis.batchDeleteDescription':
+    '{{count}} API は削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.apis.batchDeleteDone':
+    '削除完了: {{done}} 成功、{{fail}} 失敗 (システム API は削除できません)',
   'pages.system.apis.batchDeleteSuccessCount': '{{count}} API が削除されました',
   'pages.system.apis.batchDeleteFailed': '一括削除に失敗しました',
   'pages.system.apis.openTestFailed': 'テストパネルを開けませんでした',
@@ -18511,11 +20547,13 @@ export default {
   'pages.system.apis.namePlaceholder': 'API名を入力してください',
   'pages.system.apis.labelCode': 'APIコード',
   'pages.system.apis.codeRequired': 'APIコードを入力してください',
-  'pages.system.apis.codePattern': 'API コードには小文字、数字、アンダースコアのみを含めることができます',
+  'pages.system.apis.codePattern':
+    'API コードには小文字、数字、アンダースコアのみを含めることができます',
   'pages.system.apis.codePlaceholder': 'API コードを入力します (一意の ID、例: get_user_info)',
   'pages.system.apis.labelPath': 'パス',
   'pages.system.apis.pathRequired': 'パスを入力してください',
-  'pages.system.apis.pathPlaceholder': 'パスを入力します (例: /api/v1/users または https://api.example.com/users)',
+  'pages.system.apis.pathPlaceholder':
+    'パスを入力します (例: /api/v1/users または https://api.example.com/users)',
   'pages.system.apis.labelMethod': '方法',
   'pages.system.apis.methodRequired': '方法を選択してください',
   'pages.system.apis.labelRequestHeaders': 'リクエストヘッダー',
@@ -18562,7 +20600,8 @@ export default {
   'pages.system.apis.testDrawerTitle': 'APIテスト',
   'pages.system.apis.executeTest': 'テストの実行',
   'pages.system.apis.testRequestLabel': 'テストリクエスト(JSON)',
-  'pages.system.apis.testRequestPlaceholder': 'テスト リクエスト (JSON) を入力します。例: {"headers": {"Authorization": "Bearer token"}、"params": {"page": 1}、"body": {"name": "test"}}',
+  'pages.system.apis.testRequestPlaceholder':
+    'テスト リクエスト (JSON) を入力します。例: {"headers": {"Authorization": "Bearer token"}、"params": {"page": 1}、"body": {"name": "test"}}',
   'pages.system.apis.testResultLabel': '試験結果',
   'pages.system.apis.statusCodeLabel': 'ステータスコード:',
   'pages.system.apis.elapsedLabel': '経過時間:',
@@ -18577,15 +20616,20 @@ export default {
   'pages.system.dataSources.deleteSuccess': '削除しました',
   'pages.system.dataSources.deleteFailed': '削除に失敗しました',
   'pages.system.dataSources.selectToDelete': '削除するデータ ソースを選択してください',
-  'pages.system.dataSources.batchDeleteConfirm': '選択した {{count}} データ ソースを削除してもよろしいですか?',
-  'pages.system.dataSources.batchDeleteTitle': '選択したデータ ソースを一括削除してもよろしいですか?',
-  'pages.system.dataSources.batchDeleteDescription': '{{count}} データ ソースが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
-  'pages.system.dataSources.batchDeleteDone': '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
+  'pages.system.dataSources.batchDeleteConfirm':
+    '選択した {{count}} データ ソースを削除してもよろしいですか?',
+  'pages.system.dataSources.batchDeleteTitle':
+    '選択したデータ ソースを一括削除してもよろしいですか?',
+  'pages.system.dataSources.batchDeleteDescription':
+    '{{count}} データ ソースが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.dataSources.batchDeleteDone':
+    '削除が完了しました: {{done}} は成功しました、{{fail}} は失敗しました',
   'pages.system.dataSources.batchDeleteSuccessCount': '{{count}} データ ソースが削除されました',
   'pages.system.dataSources.batchDeleteFailed': '一括削除に失敗しました',
   'pages.system.dataSources.testSuccess': '接続テストに成功しました',
   'pages.system.dataSources.testFailed': '接続テストに失敗しました',
-  'pages.system.dataSources.testConfigOnlyTitle': '構成チェックに合格しました (ライブ接続テストなし)',
+  'pages.system.dataSources.testConfigOnlyTitle':
+    '構成チェックに合格しました (ライブ接続テストなし)',
   'pages.system.dataSources.fillConfigFirst': '最初に完全な接続構成を入力してください',
   'pages.system.dataSources.updateSuccess': '更新しました',
   'pages.system.dataSources.createSuccess': '作成しました',
@@ -18639,7 +20683,8 @@ export default {
   'pages.system.dataSources.namePlaceholder': 'データソース名を入力してください',
   'pages.system.dataSources.labelCode': 'データソースコード',
   'pages.system.dataSources.codeRequired': 'データソースコードを入力してください',
-  'pages.system.dataSources.codePattern': 'データ ソース コードには小文字、数字、アンダースコアのみを含めることができます',
+  'pages.system.dataSources.codePattern':
+    'データ ソース コードには小文字、数字、アンダースコアのみを含めることができます',
   'pages.system.dataSources.codePlaceholder': 'コードを入力してください (例: main_db)',
   'pages.system.dataSources.labelType': 'データソースの種類',
   'pages.system.dataSources.typeRequired': 'データソースの種類を選択してください',
@@ -18647,19 +20692,24 @@ export default {
   'pages.system.dataSources.hostRequired': 'ホストを入力してください',
   'pages.system.dataSources.hostPlaceholder': 'ローカルホストまたはホスト名',
   'pages.system.dataSources.labelPort': 'ポート',
-  'pages.system.dataSources.sqlserverHostPlaceholder': 'Navicat と同じ: ホスト、ポート (例: example.com,30198)。ホストのみの既定は TCP 1433 です。',
+  'pages.system.dataSources.sqlserverHostPlaceholder':
+    'Navicat と同じ: ホスト、ポート (例: example.com,30198)。ホストのみの既定は TCP 1433 です。',
   'pages.system.dataSources.labelSqlServerEncryption': '暗号化',
-  'pages.system.dataSources.sqlserverEncryptionTooltip': 'pymssql 暗号化にマップします。従来の SQL Server または奇妙な NAT セットアップの場合はオフにしてください。',
-  'pages.system.dataSources.sqlserverEncryptionDefault': '指定なし (サーバーは複数の戦略を試行します)',
+  'pages.system.dataSources.sqlserverEncryptionTooltip':
+    'pymssql 暗号化にマップします。従来の SQL Server または奇妙な NAT セットアップの場合はオフにしてください。',
+  'pages.system.dataSources.sqlserverEncryptionDefault':
+    '指定なし (サーバーは複数の戦略を試行します)',
   'pages.system.dataSources.sqlserverEncryptionOff': 'オフ',
   'pages.system.dataSources.sqlserverEncryptionRequest': 'リクエスト',
   'pages.system.dataSources.sqlserverEncryptionRequire': '必須 (TLS)',
   'pages.system.dataSources.sqlserverEncryptionDriverDefault': 'ドライバーの既定',
   'pages.system.dataSources.labelSqlServerTdsVersion': 'TDSバージョン',
-  'pages.system.dataSources.sqlserverTdsVersionTooltip': 'オーバーライドする必要がない限り、空のままにしておきます (例: SQL Server 2008 R2 の場合は 7.2)。',
+  'pages.system.dataSources.sqlserverTdsVersionTooltip':
+    'オーバーライドする必要がない限り、空のままにしておきます (例: SQL Server 2008 R2 の場合は 7.2)。',
   'pages.system.dataSources.sqlserverTdsDefault': '空 (バックエンドの既定 7.2)',
   'pages.system.dataSources.labelSqlServerLoginTimeout': 'ログインタイムアウト(秒)',
-  'pages.system.dataSources.sqlserverLoginTimeoutTooltip': '接続/ログインのタイムアウト、既定は 15 秒です。',
+  'pages.system.dataSources.sqlserverLoginTimeoutTooltip':
+    '接続/ログインのタイムアウト、既定は 15 秒です。',
   'pages.system.dataSources.portRequired': 'ポートを入力してください',
   'pages.system.dataSources.labelDatabase': 'データベース',
   'pages.system.dataSources.databaseRequired': 'データベース名を入力してください',
@@ -18668,7 +20718,8 @@ export default {
   'pages.system.dataSources.usernameRequired': 'ユーザー名を入力してください',
   'pages.system.dataSources.usernamePlaceholder': 'ユーザー',
   'pages.system.dataSources.labelPassword': 'パスワード',
-  'pages.system.dataSources.passwordPlaceholder': 'オプション (一部の DB ではパスワードが許可されていません)',
+  'pages.system.dataSources.passwordPlaceholder':
+    'オプション (一部の DB ではパスワードが許可されていません)',
   'pages.system.dataSources.passwordPlaceholderShort': 'オプション',
   'pages.system.dataSources.labelAuthSource': '認証元',
   'pages.system.dataSources.labelDbIndex': 'DBインデックス',
@@ -18683,7 +20734,8 @@ export default {
   'pages.system.dataSources.labelToken': 'トークン',
   'pages.system.dataSources.labelBasicUser': 'ユーザー',
   'pages.system.dataSources.labelBasicPass': 'パスワード',
-  'pages.system.dataSources.typeFormNotSupported': 'タイプ {{type}} のフォームはまだありません。管理者に連絡してください。',
+  'pages.system.dataSources.typeFormNotSupported':
+    'タイプ {{type}} のフォームはまだありません。管理者に連絡してください。',
   'pages.system.dataSources.labelDescription': '説明',
   'pages.system.dataSources.descriptionPlaceholder': 'オプション',
   'pages.system.dataSources.labelActive': 'アクティブ',
@@ -18724,7 +20776,8 @@ export default {
   'pages.system.dataSources.cardView.resultFailure': '失敗した',
   'pages.system.dataSources.cardView.resultConfigOnly': '構成のみ (ライブテストなし)',
   'pages.system.dataSources.connectors.postgresql.name': 'PostgreSQL',
-  'pages.system.dataSources.connectors.postgresql.desc': 'オープンソースのリレーショナルデータベース',
+  'pages.system.dataSources.connectors.postgresql.desc':
+    'オープンソースのリレーショナルデータベース',
   'pages.system.dataSources.connectors.mysql.name': 'MySQL',
   'pages.system.dataSources.connectors.mysql.desc': '人気のリレーショナル データベース',
   'pages.system.dataSources.connectors.mongodb.name': 'モンゴDB',
@@ -18760,14 +20813,17 @@ export default {
   'pages.system.messageConfig.createSuccess': '作成されました',
   'pages.system.messageConfig.operationFailed': '操作が失敗しました',
   'pages.system.messageConfig.batchDeleteConfirmTitle': '一括削除の確認',
-  'pages.system.messageConfig.batchDeleteConfirmContent': '選択した {{count}} レコードを削除しますか?これを元に戻すことはできません。',
+  'pages.system.messageConfig.batchDeleteConfirmContent':
+    '選択した {{count}} レコードを削除しますか?これを元に戻すことはできません。',
   'pages.system.messageConfig.batchDeleteTitle': '選択したレコードを一括削除してもよろしいですか?',
-  'pages.system.messageConfig.batchDeleteDescription': '{{count}} レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.messageConfig.batchDeleteDescription':
+    '{{count}} レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'pages.system.messageConfig.batchDeleteSuccessCount': '{{count}} レコードを削除しました',
   'pages.system.messageConfig.batchDeleteFailCount': '{{count}} レコードの削除に失敗しました',
   'pages.system.messageConfig.batchDeleteFailed': '一括削除に失敗しました',
   'pages.system.messageConfig.testTitle': 'テストメッセージ構成',
-  'pages.system.messageConfig.testInputLabel': '{{target}} と入力してテスト メッセージを受信します。',
+  'pages.system.messageConfig.testInputLabel':
+    '{{target}} と入力してテスト メッセージを受信します。',
   'pages.system.messageConfig.testTargetEmail': '電子メール',
   'pages.system.messageConfig.testTargetPhone': '電話番号',
   'pages.system.messageConfig.testTargetPlaceholderEmail': 'your-email@example.com',
@@ -18841,7 +20897,8 @@ export default {
   'pages.system.messageConfig.signNamePlaceholder': '例えばブランド',
   'pages.system.messageConfig.region': '地域',
   'pages.system.messageConfig.regionPlaceholder': '例えば中国杭州',
-  'pages.system.messageTemplate.getDetailFailed': 'メッセージテンプレートの詳細をロードできませんでした',
+  'pages.system.messageTemplate.getDetailFailed':
+    'メッセージテンプレートの詳細をロードできませんでした',
   'pages.system.messageTemplate.templateName': 'テンプレート名',
   'pages.system.messageTemplate.templateCode': 'テンプレートコード',
   'pages.system.messageTemplate.subject': '主題',
@@ -18855,7 +20912,8 @@ export default {
   'pages.system.messageTemplate.createTitle': '新しいメッセージテンプレート',
   'pages.system.messageTemplate.detailTitle': 'メッセージテンプレートの詳細',
   'pages.system.messageTemplate.deleteConfirm': 'このメッセージ テンプレートを削除しますか?',
-  'pages.system.messageTemplate.loadListFailed': 'メッセージテンプレートリストのロードに失敗しました',
+  'pages.system.messageTemplate.loadListFailed':
+    'メッセージテンプレートリストのロードに失敗しました',
   'pages.system.messageTemplate.noDataExport': 'エクスポートするデータがありません',
   'pages.system.messageTemplate.exportSuccessCount': '{{count}} レコードをエクスポートしました',
   'pages.system.messageTemplate.exportFailed': 'エクスポートに失敗しました',
@@ -18863,7 +20921,8 @@ export default {
   'pages.system.messageTemplate.codePlaceholder': '例えばMATERIAL_CHANGE_NOTIFY',
   'pages.system.messageTemplate.namePlaceholder': '例えば材質変更通知',
   'pages.system.messageTemplate.subjectPlaceholder': '電子メールまたはプッシュの件名',
-  'pages.system.messageTemplate.contentPlaceholder': '変数をサポートします。こんにちは、{名前}、コード: {code}',
+  'pages.system.messageTemplate.contentPlaceholder':
+    '変数をサポートします。こんにちは、{名前}、コード: {code}',
   'pages.system.messageTemplate.variableDeclaration': '変数',
   'pages.system.messageTemplate.varKeyPlaceholder': '変数名 (例: name)',
   'pages.system.messageTemplate.varLabelPlaceholder': '説明 (例: ユーザー名)',
@@ -18882,7 +20941,8 @@ export default {
   'pages.system.menus.appMenuSuffix': 'アプリメニュー',
   'pages.system.menus.batchDeleteConfirm': '一括削除の確認',
   'pages.system.menus.batchDeleteTitle': '選択したメニューを一括削​​除してもよろしいですか?',
-  'pages.system.menus.batchDeleteDescription': '{{count}} メニューが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'pages.system.menus.batchDeleteDescription':
+    '{{count}} メニューが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'pages.system.menus.batchDeleteSuccess': '一括削除に成功しました',
   'pages.system.menus.batchDeleteFailed': '一括削除に失敗しました',
   'pages.system.menus.getDetailFailed': 'メニューの詳細をロードできませんでした',
@@ -18896,7 +20956,8 @@ export default {
   'pages.system.menus.source': 'ソース',
   'pages.system.menus.deleteConfirm': '消去？',
   'pages.system.menus.cannotDeleteMenus': '次のメニューは削除できません: {{names}}',
-  'pages.system.menus.batchDeleteCountConfirm': '{{count}} 個の選択したメニューを削除してもよろしいですか?',
+  'pages.system.menus.batchDeleteCountConfirm':
+    '{{count}} 個の選択したメニューを削除してもよろしいですか?',
   'pages.system.menus.externalYes': 'はい',
   'pages.system.menus.externalNo': 'いいえ',
   'pages.system.menus.view': 'ビュー',
@@ -18925,11 +20986,14 @@ export default {
   'pages.system.menus.editMenu': '編集メニュー',
   'pages.system.menus.menuNamePlaceholder': 'メニュー名を入力してください',
   'pages.system.menus.menuNameRequired': 'メニュー名を入力してください',
-  'pages.system.menus.parentAppMenuForbidden': 'アプリメニューに子を追加できません。親としてシステム メニューを選択します。',
+  'pages.system.menus.parentAppMenuForbidden':
+    'アプリメニューに子を追加できません。親としてシステム メニューを選択します。',
   'pages.system.menus.externalUrlRequired': '外部リンクが有効な場合は外部リンク URL が必要です',
   'pages.system.menus.permissionCodeRequired': 'パスを含む非外部メニューには許可コードが必要です',
-  'pages.system.menus.relatedAppInheritedHint': '選択した親メニューから継承されます。システムの親の場合は空です',
-  'pages.system.menus.sortOrderAppMenuHint': 'マニフェストで宣言されていないアプリ メニューの下のカスタム項目については、この順序を使用します (マニフェスト項目の後)',
+  'pages.system.menus.relatedAppInheritedHint':
+    '選択した親メニューから継承されます。システムの親の場合は空です',
+  'pages.system.menus.sortOrderAppMenuHint':
+    'マニフェストで宣言されていないアプリ メニューの下のカスタム項目については、この順序を使用します (マニフェスト項目の後)',
   'pages.system.menus.pathPlaceholder': '/システム/例',
   'pages.system.menus.iconPickerPlaceholder': 'クリックしてアイコンを選択します',
   'pages.system.menus.iconSearchPlaceholder': '検索アイコン名',
@@ -18966,7 +21030,8 @@ export default {
   'pages.system.roles.loadPermissionsFailed': '権限の読み込みに失敗しました',
   'pages.system.roles.permissionTypeField': '分野',
   'pages.system.roles.permissionTypeData': 'データ',
-  'pages.system.roles.templateApplied': 'テンプレート「{{name}}」が適用されました ({{count}} 権限)。 「保存」をクリックして適用します。',
+  'pages.system.roles.templateApplied':
+    'テンプレート「{{name}}」が適用されました ({{count}} 権限)。 「保存」をクリックして適用します。',
   'pages.system.roles.loadRolePermissionsFailed': '役割権限のロードに失敗しました',
   'pages.system.roles.selectRoleFirst': '最初に役割を選択してください',
   'pages.system.roles.assignSuccess': '権限が正常に割り当てられました',
@@ -18974,7 +21039,8 @@ export default {
   'pages.system.roles.updateSuccess': '更新しました',
   'pages.system.roles.createSuccess': '作成しました',
   'pages.system.roles.operationFailed': '操作が失敗しました',
-  'pages.system.roles.copySuccess': 'ソースロールからコピーされた権限。 「保存」をクリックして適用します。',
+  'pages.system.roles.copySuccess':
+    'ソースロールからコピーされた権限。 「保存」をクリックして適用します。',
   'pages.system.roles.copySourceFailed': 'ソースロールの権限をロードできませんでした',
   'pages.system.roles.searchRole': '役割を検索する',
   'pages.system.roles.createRole': 'ロールの作成',
@@ -18991,8 +21057,10 @@ export default {
   'pages.system.roles.permissionCount': '権限:',
   'pages.system.roles.userCount': 'ユーザー:',
   'pages.system.roles.searchPermission': 'L3+ メニュー、パス、コード、またはアクションを検索します',
-  'pages.system.roles.searchPermissionEmpty': '一致する権限がありません。別のキーワードを試してください。',
-  'pages.system.roles.searchPermissionNeedKeyword': 'キーワードを入力してレベル 3 以上のメニューとアクションを検索します',
+  'pages.system.roles.searchPermissionEmpty':
+    '一致する権限がありません。別のキーワードを試してください。',
+  'pages.system.roles.searchPermissionNeedKeyword':
+    'キーワードを入力してレベル 3 以上のメニューとアクションを検索します',
   'pages.system.roles.filterAll': '全て',
   'pages.system.roles.filterByApp': 'アプリ別',
   'pages.system.roles.filterByModule': 'モジュール別',
@@ -19006,7 +21074,8 @@ export default {
   'pages.system.roles.templateEditor': 'エディタ',
   'pages.system.roles.templateManager': 'マネージャー',
   'pages.system.roles.selectScopeFirst': '最初にフィルター範囲を選択してください',
-  'pages.system.roles.templateAppliedToVisible': '「{{name}}」テンプレートを現在のスコープに適用しました',
+  'pages.system.roles.templateAppliedToVisible':
+    '「{{name}}」テンプレートを現在のスコープに適用しました',
   'pages.system.roles.searchDataResource': 'リソース名またはコードを検索する',
   'pages.system.roles.searchDataNeedKeyword': 'キーワードを入力してデータリソースを検索します',
   'pages.system.roles.searchDataEmpty': '現在のフィルターに一致するデータ リソースはありません',
@@ -19014,15 +21083,19 @@ export default {
   'pages.system.roles.dataScopeApplied': 'データ スコープを {{count}} リソースに適用しました',
   'pages.system.roles.dataNotConfigured': '未設定',
   'pages.system.roles.searchFieldPolicy': 'リソースまたは項目名の検索',
-  'pages.system.roles.searchFieldNeedKeyword': 'キーワードを入力してリソースまたは項目名を検索します',
+  'pages.system.roles.searchFieldNeedKeyword':
+    'キーワードを入力してリソースまたは項目名を検索します',
   'pages.system.roles.searchFieldEmpty': '現在のフィルタに一致する項目 ポリシーはありません',
   'pages.system.roles.applyFieldMaskToSelected': '選択したものに適用',
-  'pages.system.roles.selectFieldPolicyFirst': '最初にバッチ更新する項目 ポリシーを選択してください',
+  'pages.system.roles.selectFieldPolicyFirst':
+    '最初にバッチ更新する項目 ポリシーを選択してください',
   'pages.system.roles.fieldMaskApplied': '{{count}} 項目 ポリシーを更新しました',
   'pages.system.roles.fieldTemplateAmount': 'マスク量項目',
   'pages.system.roles.fieldTemplateCustomer': '顧客名項目をマスクする',
-  'pages.system.roles.fieldTemplateAmountApplied': '現在のスコープ内のマスクされた {{count}} 金額関連項目',
-  'pages.system.roles.fieldTemplateCustomerApplied': '現在のスコープ内のマスクされた {{count}} 顧客名項目',
+  'pages.system.roles.fieldTemplateAmountApplied':
+    '現在のスコープ内のマスクされた {{count}} 金額関連項目',
+  'pages.system.roles.fieldTemplateCustomerApplied':
+    '現在のスコープ内のマスクされた {{count}} 顧客名項目',
   'pages.system.roles.addFieldPolicy': '項目ポリシーの追加',
   'pages.system.roles.permissionsNotInMenu': 'どのメニューにもリンクされていない権限',
   'pages.system.roles.orphanNoAppPrefix': 'アプリプレフィックスなし',
@@ -19046,7 +21119,8 @@ export default {
   'pages.system.roles.roleNameRequired': 'ロール名を入力してください',
   'pages.system.roles.roleCode': 'ロールコード',
   'pages.system.roles.roleCodeRequired': '役割コードを入力してください',
-  'pages.system.roles.roleCodePattern': '役割コードには文字、数字、アンダースコアのみを含めることができます',
+  'pages.system.roles.roleCodePattern':
+    '役割コードには文字、数字、アンダースコアのみを含めることができます',
   'pages.system.roles.roleCodePlaceholder': 'ロールコードを入力してください (例: 管理者、ユーザー)',
   'pages.system.roles.description': '述べる',
   'pages.system.roles.descriptionPlaceholder': '備考を入力してください',
@@ -19054,17 +21128,21 @@ export default {
   'pages.system.roles.copyFromRoleTitle': '別の役割から権限をコピーする',
   'pages.system.roles.copySourceHint': '権限をコピーするロールを選択します:',
   'pages.system.roles.selectSourceRole': 'ソースの役割を選択してください',
-  'pages.system.roles.copyWarning': 'これにより、現在の選択内容が上書きされます。 [保存] をクリックして保存します。',
+  'pages.system.roles.copyWarning':
+    'これにより、現在の選択内容が上書きされます。 [保存] をクリックして保存します。',
   'pages.system.roles.loadingRoles': '役割を読み込んでいます...',
-  'pages.system.roles.externalRoleTypeRequired': '外部ロールはバインディング タイプ (顧客またはサプライヤー) を選択する必要があります',
+  'pages.system.roles.externalRoleTypeRequired':
+    '外部ロールはバインディング タイプ (顧客またはサプライヤー) を選択する必要があります',
   'pages.system.roles.enFieldName': '英語項目: {{name}}',
   'pages.system.roles.enFieldNamePlaceholder': '英語の項目名',
   'pages.system.roles.functionGrantSuccess': '関数の権限が保存されました: {{count}}',
   'pages.system.roles.dataGrantSuccess': '保存されたデータ権限: {{count}}',
   'pages.system.roles.fieldGrantSuccess': '保存された項目権限: {{count}} (重複排除)',
   'pages.system.roles.cleanOldRoles': '古い役割を一掃する',
-  'pages.system.roles.cleanOldRolesResult': '{{message}} ({{renamed}} に名前変更、{{merged}} を統合、{{deleted}} を削除)',
-  'pages.system.roles.noFunctionTree': '機能権限ツリーはありません。メニューと権限の同期を確認してください',
+  'pages.system.roles.cleanOldRolesResult':
+    '{{message}} ({{renamed}} に名前変更、{{merged}} を統合、{{deleted}} を削除)',
+  'pages.system.roles.noFunctionTree':
+    '機能権限ツリーはありません。メニューと権限の同期を確認してください',
   'pages.system.roles.systemFunctionPermissions': 'システム機能の権限:',
   'pages.system.roles.currentAssigned': '現在割り当てられている:',
   'pages.system.roles.assignedDetail': '(ツリー内に表示: {{visible}}、アンマウント: {{unmounted}})',
@@ -19127,24 +21205,36 @@ export default {
   'pages.dashboard.statQualityRateSuffix': '合格率',
   'pages.dashboard.unitOrder': '',
   'pages.dashboard.unitPiece': '',
-  'pages.dashboard.tip1': '需要計算と製造指示の生成をよりスムーズにするために、資材管理で資材ソースと既定のルート/サプライヤーを構成します。',
-  'pages.dashboard.tip2': '需要計算後、ワンクリックで製造指示と発注書を生成できます。最初に材料ソースの検証を実行します。',
-  'pages.dashboard.tip3': '[本番実行] > [レポート] でレポートを作成します。バーコードとバッチレポートがサポートされています。',
-  'pages.dashboard.tip4': '通知には重大な変更と承認が含まれます。右上のベルのアイコンを確認してください。',
-  'pages.dashboard.tip5': 'ダッシュボードの日付範囲を使用して、さまざまな期間 (今日、過去 7 日間、過去 30 日間) の作業指示と出力統計を表示します。',
-  'pages.dashboard.tip6': '簡単にアクセスできるように、ドラッグして左側のクイック アクションの順序を変更できます。',
-  'pages.dashboard.tip7': '受注が承認されたら、需要管理で需要を作成し、需要計算を実行して、作業注文と発注書を生成します。',
-  'pages.dashboard.tip8': 'ルートと BOM のセットアップを完了すると、より正確な作業指示のスケジュールと材料の計算が可能になります。',
-  'pages.dashboard.tip9': '[システム] > [カスタム 項目] でカスタム 項目を設定し、フォーム 項目を伝票全体に拡張します。',
+  'pages.dashboard.tip1':
+    '需要計算と製造指示の生成をよりスムーズにするために、資材管理で資材ソースと既定のルート/サプライヤーを構成します。',
+  'pages.dashboard.tip2':
+    '需要計算後、ワンクリックで製造指示と発注書を生成できます。最初に材料ソースの検証を実行します。',
+  'pages.dashboard.tip3':
+    '[本番実行] > [レポート] でレポートを作成します。バーコードとバッチレポートがサポートされています。',
+  'pages.dashboard.tip4':
+    '通知には重大な変更と承認が含まれます。右上のベルのアイコンを確認してください。',
+  'pages.dashboard.tip5':
+    'ダッシュボードの日付範囲を使用して、さまざまな期間 (今日、過去 7 日間、過去 30 日間) の作業指示と出力統計を表示します。',
+  'pages.dashboard.tip6':
+    '簡単にアクセスできるように、ドラッグして左側のクイック アクションの順序を変更できます。',
+  'pages.dashboard.tip7':
+    '受注が承認されたら、需要管理で需要を作成し、需要計算を実行して、作業注文と発注書を生成します。',
+  'pages.dashboard.tip8':
+    'ルートと BOM のセットアップを完了すると、より正確な作業指示のスケジュールと材料の計算が可能になります。',
+  'pages.dashboard.tip9':
+    '[システム] > [カスタム 項目] でカスタム 項目を設定し、フォーム 項目を伝票全体に拡張します。',
   'pages.dashboard.tip10': '資材管理で単位変換を維持します。注文と在庫は自動的に変換されます。',
-  'pages.dashboard.tip11': 'マテリアルの変更はダウンストリーム通知をトリガーします。メッセージ通知で影響と推奨されるアクションを確認してください。',
-  'pages.dashboard.tip12': '需要計算では、ソースごとにモードを選択します (予測と注文)。作成時にシステムがタイプを提案します。',
+  'pages.dashboard.tip11':
+    'マテリアルの変更はダウンストリーム通知をトリガーします。メッセージ通知で影響と推奨されるアクションを確認してください。',
+  'pages.dashboard.tip12':
+    '需要計算では、ソースごとにモードを選択します (予測と注文)。作成時にシステムがタイプを提案します。',
   'pages.dashboard.todoList': 'やるべきこと',
   'pages.dashboard.todoPendingShort': 'やるべきこと',
   'pages.dashboard.todo.workOrder': '製造指示を処理します {{code}}',
   'pages.dashboard.todo.workOrderDesc': '製品: {{product}}、数量: {{quantity}}',
   'pages.dashboard.todo.materialShortage': '資材不足: {{name}}',
-  'pages.dashboard.todo.materialShortageDesc': '不足数量: {{quantity}}、作業オーダー: {{workOrder}}',
+  'pages.dashboard.todo.materialShortageDesc':
+    '不足数量: {{quantity}}、作業オーダー: {{workOrder}}',
   'pages.dashboard.todo.deliveryDelay': '配送遅延: {{code}}',
   'pages.dashboard.todo.deliveryDelayDesc': '遅延: {{days}} 日',
   'pages.dashboard.todo.qualityException': '品質の問題: {{title}}',
@@ -19206,7 +21296,8 @@ export default {
   'pages.dashboard.quickEntry': 'クイックエントリー',
   'pages.dashboard.quickEntryCustomize': 'カスタマイズ',
   'pages.dashboard.configQuickEntry': 'クイックエントリーをカスタマイズする',
-  'pages.dashboard.configQuickEntryHint': 'クイックエントリーに追加するメニュー項目を選択します。パスのある項目のみ選択できます。',
+  'pages.dashboard.configQuickEntryHint':
+    'クイックエントリーに追加するメニュー項目を選択します。パスのある項目のみ選択できます。',
   'pages.dashboard.quickEntryEmpty': 'まだクイックエントリーはありません',
   'pages.dashboard.quickEntryAdd': 'クイックエントリーを追加',
   'pages.dashboard.quickEntrySaved': 'クイックエントリーが保存されました',
@@ -19242,7 +21333,8 @@ export default {
   'pages.dashboard.defaultEquipment': '装置',
   'pages.dashboard.defaultPlan': '企画',
   'pages.dashboard.configQuickActions': 'クイックアクションを設定する',
-  'pages.dashboard.configQuickActionsHint': 'クイックアクションとして表示するメニュー項目を選択します。パスのある項目のみ選択できます。',
+  'pages.dashboard.configQuickActionsHint':
+    'クイックアクションとして表示するメニュー項目を選択します。パスのある項目のみ選択できます。',
   'pages.dashboard.save': '保存',
   'pages.dashboard.cancel': 'キャンセル',
   'pages.dashboard.viewMore': 'もっと見る',
@@ -19282,7 +21374,8 @@ export default {
   'pages.dashboard.toolkit.cnyAmount': '元￥',
   'pages.dashboard.toolkit.estimatedCny': 'EST（東部基準時。人民元',
   'pages.dashboard.toolkit.estimatedForeign': 'EST（東部基準時。 {{currency}}',
-  'pages.dashboard.toolkit.exchangeRateHint': '料金は参考値です。決済には銀行/契約レートをご利用ください。',
+  'pages.dashboard.toolkit.exchangeRateHint':
+    '料金は参考値です。決済には銀行/契約レートをご利用ください。',
   'pages.dashboard.toolkit.unitConversionTitle': '単位換算ツール',
   'pages.dashboard.toolkit.unitLength': '長さ',
   'pages.dashboard.toolkit.unitWeight': '重さ',
@@ -19290,7 +21383,8 @@ export default {
   'pages.dashboard.toolkit.unitPressure': 'プレッシャー',
   'pages.dashboard.toolkit.unitTemp': '温度',
   'pages.dashboard.toolkit.oneKeyReverse': '逆行する',
-  'pages.dashboard.toolkit.tempConversionHint': '温度は線形変換を使用します。プロセス管理については、標準手順に従ってください。',
+  'pages.dashboard.toolkit.tempConversionHint':
+    '温度は線形変換を使用します。プロセス管理については、標準手順に従ってください。',
   'pages.dashboard.toolkit.uppercaseTitle': 'CNY 大文字コンバータ',
   'pages.dashboard.toolkit.inputAmountPlaceholder': '金額を入力してください...',
   'pages.dashboard.toolkit.thousandsSeparator': 'フォーマット済み:',
@@ -19314,8 +21408,10 @@ export default {
   'pages.dashboard.toolkit.side160': '160 (インクセーブ)',
   'pages.dashboard.toolkit.side200': '200 (既定)',
   'pages.dashboard.toolkit.side280': '280（ポスター）',
-  'pages.dashboard.toolkit.qrcodeHint': 'プレビューをクリックすると拡大します。印刷には大きなサイズを使用してください。',
-  'pages.dashboard.toolkit.selectConversionHint': '変換を選択するか、「↔」でペアになっている項目に切り替えてください',
+  'pages.dashboard.toolkit.qrcodeHint':
+    'プレビューをクリックすると拡大します。印刷には大きなサイズを使用してください。',
+  'pages.dashboard.toolkit.selectConversionHint':
+    '変換を選択するか、「↔」でペアになっている項目に切り替えてください',
   'pages.dashboard.toolkit.vatCalculatorTitle': 'VAT 計算機',
   'pages.dashboard.toolkit.forwardCalc': 'フォワード',
   'pages.dashboard.toolkit.reverseCalc': '逆行する',
@@ -19339,8 +21435,10 @@ export default {
   'pages.dashboard.toolkit.outerDiameter': '外径する(mm)',
   'pages.dashboard.toolkit.innerDiameter': '内径直径(mm)',
   'pages.dashboard.toolkit.pipeLength': '長さL(mm)',
-  'pages.dashboard.toolkit.pipeRequirement': '外径内径より大きくなければならず、すべての値は正でなければなりません。',
-  'pages.dashboard.toolkit.pipeFormula': '中空パイプ: 体積 = π/4 × (Do² - Di²) × L;密度はプレートと同じ計算式を使用します。',
+  'pages.dashboard.toolkit.pipeRequirement':
+    '外径内径より大きくなければならず、すべての値は正でなければなりません。',
+  'pages.dashboard.toolkit.pipeFormula':
+    '中空パイプ: 体積 = π/4 × (Do² - Di²) × L;密度はプレートと同じ計算式を使用します。',
   'pages.dashboard.toolkit.quantity': '量',
   'pages.dashboard.toolkit.volume': '体積 (m3)',
   'pages.dashboard.toolkit.singleTotalWeight': '単位 / 総重量',
@@ -19417,10 +21515,12 @@ export default {
   'field.customField.editTitle': '項目の編集',
   'field.customField.detailTitle': '項目の詳細',
   'field.customField.deleteConfirm': 'この項目を削除してもよろしいですか?',
-  'field.customField.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
+  'field.customField.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
   'field.customField.batchDeleteTitle': '一括削除の確認',
   'field.customField.batchDeleteConfirmTitle': '選択したレコードを一括削除してもよろしいですか?',
-  'field.customField.batchDeleteConfirmDescription': '{{count}} レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'field.customField.batchDeleteConfirmDescription':
+    '{{count}} レコードが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'field.customField.createButton': '項目の作成',
   'field.customField.sidebarCountTitle': '{{count}} カスタム 項目が構成されました',
   'field.customField.batchDeleteButton': '一括削除',
@@ -19428,7 +21528,8 @@ export default {
   'field.customField.nameRequired': '項目名を入力してください',
   'field.customField.codePlaceholder': '項目コード（一意の識別子）を入力してください',
   'field.customField.codeRequired': '項目コードを入力してください',
-  'field.customField.codeExtra': '項目 コードはアプリによって使用されます。作成後に変更することはできません',
+  'field.customField.codeExtra':
+    '項目 コードはアプリによって使用されます。作成後に変更することはできません',
   'field.customField.tableNamePlaceholder': '例えばsys_users',
   'field.customField.tableNameExtraEdit': '関連テーブルは作成後に変更できません',
   'field.customField.tableNameExtraCreate': '選択したページから入力されました',
@@ -19484,19 +21585,24 @@ export default {
   'field.customField.associatedFieldRequired': '関連する項目を選択してください',
   'field.customField.associatedFieldPlaceholder': '表示項目の選択',
   'field.customField.associatedFieldExtra': '表示に使用される項目',
-  'field.customField.associatedFieldDropdownExtra': 'ソース項目が空の場合に関連レコードを選択するためのドロップダウン',
+  'field.customField.associatedFieldDropdownExtra':
+    'ソース項目が空の場合に関連レコードを選択するためのドロップダウン',
   'field.customField.typeAssociatedAttribute': 'Related Attribute',
-  'field.customField.typeAssociatedAttributeDesc': 'Read option values from a column on the related table for single/multi select. No XLOOKUP matching.',
-  'field.customField.typeAssociatedObjectDesc': 'Like XLOOKUP: match a value from this form in a related table and fill a column (usually record id).',
+  'field.customField.typeAssociatedAttributeDesc':
+    'Read option values from a column on the related table for single/multi select. No XLOOKUP matching.',
+  'field.customField.typeAssociatedObjectDesc':
+    'Like XLOOKUP: match a value from this form in a related table and fill a column (usually record id).',
   'field.customField.sourceField': 'Source Field',
   'field.customField.sourceFieldPlaceholder': 'Select a field on the current form',
-  'field.customField.sourceFieldExtra': 'Use this field value to match in the related table (XLOOKUP); leave empty to pick a record from dropdown',
+  'field.customField.sourceFieldExtra':
+    'Use this field value to match in the related table (XLOOKUP); leave empty to pick a record from dropdown',
   'field.customField.sourceFieldSystemTag': 'システム',
   'field.customField.sourceFieldCustomTag': 'カスタム',
   'field.customField.matchField': 'Match Field',
   'field.customField.matchFieldRequired': 'Select match field',
   'field.customField.matchFieldPlaceholder': 'Field in related table used for matching',
-  'field.customField.matchFieldExtra': 'Column in related table to match source value (XLOOKUP lookup column), e.g. code',
+  'field.customField.matchFieldExtra':
+    'Column in related table to match source value (XLOOKUP lookup column), e.g. code',
   'field.customField.returnField': 'Return Field',
   'field.customField.returnFieldRequired': 'Select return field',
   'field.customField.returnFieldPlaceholder': 'Field value to write after match',
@@ -19504,16 +21610,20 @@ export default {
   'field.customField.linkField': '関連オブジェクト項目',
   'field.customField.linkFieldRequired': '関連オブジェクト項目を選択してください',
   'field.customField.linkFieldPlaceholder': 'Optional: system or custom field on this table',
-  'field.customField.linkFieldExtra': 'Same pool as associated object source field: match a record in the related table, then read the attribute; leave empty to list all attribute values',
+  'field.customField.linkFieldExtra':
+    'Same pool as associated object source field: match a record in the related table, then read the attribute; leave empty to list all attribute values',
   'field.customField.linkMatchField': 'Match field',
   'field.customField.linkMatchFieldRequired': 'Select match field',
   'field.customField.linkMatchFieldPlaceholder': 'Select column to match in related table',
-  'field.customField.linkMatchFieldExtra': 'When link field value is not a record ID, match via this column (VLOOKUP)',
+  'field.customField.linkMatchFieldExtra':
+    'When link field value is not a record ID, match via this column (VLOOKUP)',
   'field.customField.attributeField': '属性項目',
   'field.customField.attributeFieldRequired': '属性項目を選択してください',
   'field.customField.attributeFieldPlaceholder': '関連レコードから読み取る項目',
-  'field.customField.attributeFieldExtra': 'この列の個別の値がフォーム オプション (単一/複数選択) になります。',
-  'field.customField.associatedAttributeTableExtra': '関連する属性オプションのソース テーブルを選択してください',
+  'field.customField.attributeFieldExtra':
+    'この列の個別の値がフォーム オプション (単一/複数選択) になります。',
+  'field.customField.associatedAttributeTableExtra':
+    '関連する属性オプションのソース テーブルを選択してください',
   'field.customField.displayMode': '表示モード',
   'field.customField.displayModePlaceholder': 'フォーム上での項目の表示方法を選択します',
   'field.customField.displayModeSelect': '単一選択',
@@ -19522,7 +21632,8 @@ export default {
   'field.customField.displayModeDisplay': '読み取り専用表示',
   'field.customField.displayModeInput': '編集可能なテキスト',
   'field.customField.displayModeNumber': '数値入力',
-  'field.customField.displayModeAssociatedObjectExtra': 'ソースなし: セレクト/ラジオ/マルチ。 XLOOKUP の場合: 読み取り専用 / 編集可能 / 数値',
+  'field.customField.displayModeAssociatedObjectExtra':
+    'ソースなし: セレクト/ラジオ/マルチ。 XLOOKUP の場合: 読み取り専用 / 編集可能 / 数値',
   'field.customField.displayModeAssociatedAttributeExtra': '関連属性: セレクト / ラジオ / マルチ',
   'field.customField.optionId': 'ID（ID）',
   'field.customField.optionName': '名前（名前）',
@@ -19536,10 +21647,12 @@ export default {
   'field.customField.formulaExpressionPlaceholder': '例えば{項目1} + {項目2} * 2',
   'field.customField.formulaExpressionExtra': '他の項目を参照するには {fieldName} を使用します',
   'field.customField.formulaOperands': '計算可能な項目',
-  'field.customField.formulaOperandsHint': '項目をクリックして数式に挿入します (このテーブルのアクティブな数値項目のみ)',
+  'field.customField.formulaOperandsHint':
+    '項目をクリックして数式に挿入します (このテーブルのアクティブな数値項目のみ)',
   'field.customField.formulaOperandNameLabel': '項目名:',
   'field.customField.formulaOperandCodeLabel': '項目コード:',
-  'field.customField.formulaOperandsEmpty': 'このテーブルにはまだ数値項目がありません。最初に数値項目を追加します。',
+  'field.customField.formulaOperandsEmpty':
+    'このテーブルにはまだ数値項目がありません。最初に数値項目を追加します。',
   'field.customField.formulaOperandsNoTable': '最初に関連するテーブルを選択してください',
   'field.customField.textareaRows': '行',
   'field.customField.textareaRowsPlaceholder': '行数を入力してください',
@@ -19606,16 +21719,20 @@ export default {
   'field.scheduledTask.start': '始める',
   'field.scheduledTask.stop': '停止',
   'field.scheduledTask.deleteConfirm': 'このタスクを削除してもよろしいですか?',
-  'field.scheduledTask.batchDeleteConfirm': '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
+  'field.scheduledTask.batchDeleteConfirm':
+    '選択した {{count}} レコードを削除してもよろしいですか?この操作は元に戻すことができません。',
   'field.scheduledTask.batchDeleteTitle': '一括削除の確認',
-  'field.scheduledTask.batchDeleteConfirmTitle': '選択したスケジュール済みタスクを一括削除してもよろしいですか?',
-  'field.scheduledTask.batchDeleteConfirmDescription': '{{count}} スケジュールされたタスクが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'field.scheduledTask.batchDeleteConfirmTitle':
+    '選択したスケジュール済みタスクを一括削除してもよろしいですか?',
+  'field.scheduledTask.batchDeleteConfirmDescription':
+    '{{count}} スケジュールされたタスクが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'field.scheduledTask.createButton': 'タスクの作成',
   'field.scheduledTask.batchDeleteButton': '一括削除',
   'field.scheduledTask.nameRequired': 'タスク名を入力してください',
   'field.scheduledTask.namePlaceholder': 'タスク名を入力してください',
   'field.scheduledTask.codeRequired': 'タスクコードを入力してください',
-  'field.scheduledTask.codePattern': 'タスク コードには小文字、数字、アンダースコアのみを含めることができます',
+  'field.scheduledTask.codePattern':
+    'タスク コードには小文字、数字、アンダースコアのみを含めることができます',
   'field.scheduledTask.codePlaceholder': 'タスクコードを入力してください (例: daily_report)',
   'field.scheduledTask.typeRequired': 'タスクの種類を選択してください',
   'field.scheduledTask.triggerTypeRequired': 'トリガータイプを選択してください',
@@ -19623,7 +21740,8 @@ export default {
   'field.scheduledTask.triggerConfigPlaceholderCron': '例えば{"cron": "0 0 * * *"}',
   'field.scheduledTask.triggerConfigPlaceholderInterval': '例えば{"秒": 300}',
   'field.scheduledTask.triggerConfigPlaceholderDate': '例えば{"at": "2025-01-01T00:00:00Z"}',
-  'field.scheduledTask.taskConfigPlaceholder': '例えば{"url": "..."、"メソッド": "POST"、"ヘッダー": {}、"データ": {}}',
+  'field.scheduledTask.taskConfigPlaceholder':
+    '例えば{"url": "..."、"メソッド": "POST"、"ヘッダー": {}、"データ": {}}',
   'field.scheduledTask.triggerCronLabel': 'クロン式',
   'field.scheduledTask.triggerIntervalLabel': '間隔(秒)',
   'field.scheduledTask.triggerDateLabel': 'で実行します',
@@ -19665,9 +21783,11 @@ export default {
   'field.user.batchDeleteTitle': '一括削除',
   'field.user.batchDeleteConfirm': '選択した {{count}} ユーザーを削除してもよろしいですか?',
   'field.user.batchDeleteConfirmTitle': 'Are you sure you want to batch delete the selected users?',
-  'field.user.batchDeleteConfirmDescription': '{{count}} ユーザーが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
+  'field.user.batchDeleteConfirmDescription':
+    '{{count}} ユーザーが削除されます。この操作は元に戻すことができません。慎重に進めてください。',
   'field.user.batchDeleteSuccess': '{{count}} レコードが削除しました',
-  'field.user.batchDeletePartial': '削除が完了しました: {{success}} は成功しました、{{fail}} は失敗しました',
+  'field.user.batchDeletePartial':
+    '削除が完了しました: {{success}} は成功しました、{{fail}} は失敗しました',
   'field.user.resetPasswordTitle': 'パスワードのリセット',
   'field.user.resetPasswordConfirm': '「{{username}}」のパスワードをリセットしてもよろしいですか?',
   'field.user.createButton': 'ユーザーの作成',
@@ -19679,17 +21799,21 @@ export default {
   'field.user.importSuccess': '{{count}} レコードが正常にインポートされました',
   'field.user.importSuccessCount': '成功: {{count}}',
   'field.user.importFailCount': '失敗しました: {{count}}',
-  'field.user.importPartialFail': 'インポートが完了しました: {{success}} は成功しました、{{fail}} は失敗しました',
+  'field.user.importPartialFail':
+    'インポートが完了しました: {{success}} は成功しました、{{fail}} は失敗しました',
   'field.user.selectUsersForQrcode': 'QRコードを生成するユーザーを選択してください',
   'field.user.cannotGetSelectedUsers': '選択したユーザーデータを取得できません',
   'field.user.qrcodeGenerateSuccess': '生成された {{count}} QR コード',
   'field.user.qrcodeGenerateFailed': 'QRコードの生成に失敗しました',
   'field.user.passwordRequired': '新規ユーザーにはパスワードが必要です',
-  'field.user.resetPasswordSuccess': 'パスワードが正常にリセットされました。既定のパスワードは 123456 です。',
+  'field.user.resetPasswordSuccess':
+    'パスワードが正常にリセットされました。既定のパスワードは 123456 です。',
   'field.user.resetPasswordFailed': 'パスワードのリセットに失敗しました',
-  'field.user.errorUsernameExists': 'ユーザー名はすでに使用されています。別のユーザー名を選択してください',
+  'field.user.errorUsernameExists':
+    'ユーザー名はすでに使用されています。別のユーザー名を選択してください',
   'field.user.errorDepartmentInvalid': '選択した部門が存在しないか、現在のテナントに属していません',
-  'field.user.errorPositionInvalid': '選択したポジションは存在しないか、現在のテナントに属していません',
+  'field.user.errorPositionInvalid':
+    '選択したポジションは存在しないか、現在のテナントに属していません',
   'field.user.errorRoleInvalid': '選択したロールが存在しないか無効です',
   'field.user.errorPhoneInvalid': '電話番号が無効か、すでに使用されています',
   'field.user.errorEmailInvalid': 'メールアドレスが無効か、すでに使用されています',
@@ -19709,7 +21833,8 @@ export default {
   'field.user.usernameRequired': 'ユーザー名を入力してください',
   'field.user.usernameMin': 'ユーザー名は少なくとも 2 文字である必要があります',
   'field.user.usernameMax': 'ユーザー名は50文字を超えることはできません',
-  'field.user.usernamePattern': 'ユーザー名には中国語、文字、数字、アンダースコア、ハイフンのみを含めることができます',
+  'field.user.usernamePattern':
+    'ユーザー名には中国語、文字、数字、アンダースコア、ハイフンのみを含めることができます',
   'field.user.usernamePlaceholder': 'ユーザー名を入力してください (2 ～ 50 文字)',
   'field.user.fullNameMax': 'フルネームは100文字を超えることはできません',
   'field.user.fullNamePlaceholder': 'フルネームを入力してください',
@@ -19791,8 +21916,10 @@ export default {
   'pages.infra.operation.suspendedTenants': '一時停止中',
   'pages.infra.operation.loginFirst': 'Please login first',
   'pages.infra.operation.noPermission': '権限が不十分です',
-  'pages.infra.operation.loginHint': '操作ダッシュボードにはプラットフォームのスーパー管理者が必要です。まずログインしてください。',
-  'pages.infra.operation.noPermissionHint': 'アクセス権がありません。プラットフォームのスーパー管理者が必要です。',
+  'pages.infra.operation.loginHint':
+    '操作ダッシュボードにはプラットフォームのスーパー管理者が必要です。まずログインしてください。',
+  'pages.infra.operation.noPermissionHint':
+    'アクセス権がありません。プラットフォームのスーパー管理者が必要です。',
   'pages.infra.operation.goLogin': 'ログインに移動',
   'pages.infra.operation.noDataExport': 'エクスポートするデータがありません',
   'pages.infra.operation.exportStatsTitle': '運用ダッシュボードの統計',
@@ -19812,7 +21939,8 @@ export default {
   'pages.infra.operation.exportSuccess': 'エクスポートに成功しました',
   'pages.infra.operation.exportFailed': 'エクスポートに失敗しました: {{message}}',
   'pages.infra.operation.unknownError': '不明なエラー',
-  'pages.infra.operation.loadFailedCached': 'ロードに失敗しました。キャッシュされたデータを表示しています。',
+  'pages.infra.operation.loadFailedCached':
+    'ロードに失敗しました。キャッシュされたデータを表示しています。',
   'pages.infra.operation.dataUpdatedAt': 'データ更新日',
   'pages.infra.operation.reload': 'リロード',
   'pages.infra.operation.loadFailed': 'データのロードに失敗しました',
@@ -19880,10 +22008,12 @@ export default {
   'pages.infra.package.maxUsers': 'ユーザー制限',
   'pages.infra.package.maxStorage': 'ストレージ (MB)',
   'pages.infra.package.maxBranchOrganizations': '支店組織制限',
-  'pages.infra.package.maxBranchOrganizationsHelp': '無制限の場合は空のままにします。 0 はブランチの作成が無効であることを意味します',
+  'pages.infra.package.maxBranchOrganizationsHelp':
+    '無制限の場合は空のままにします。 0 はブランチの作成が無効であることを意味します',
   'pages.infra.package.allowProApps': 'PRO アプリを許可する',
   'pages.infra.package.allowedApps': '許可されたアプリ',
-  'pages.infra.package.allowedAppsHelp': '空は制限がないことを意味します。それ以外の場合は、選択したアプリのみが許可されます',
+  'pages.infra.package.allowedAppsHelp':
+    '空は制限がないことを意味します。それ以外の場合は、選択したアプリのみが許可されます',
   'pages.infra.package.allowedAppsCount': '{{count}} 個のアプリが許可されています',
   'pages.infra.package.unlimited': '無制限',
   'pages.infra.package.yes': 'はい',
@@ -19946,12 +22076,15 @@ export default {
   'pages.infra.tenant.detailTitle': '組織の詳細',
   'pages.infra.tenant.importEmpty': 'インポートデータが空です',
   'pages.infra.tenant.importNoRows': 'インポートするデータ行がありません (行 3 から入力)',
-  'pages.infra.tenant.importNoRowsAllEmpty': 'インポートするデータ行がありません (すべての行が空です)',
-  'pages.infra.tenant.importMissingFields': '必須列が欠落しています: {{fields}}。ヘッダーに「組織名」と「ドメイン」が含まれていることを確認してください。',
+  'pages.infra.tenant.importNoRowsAllEmpty':
+    'インポートするデータ行がありません (すべての行が空です)',
+  'pages.infra.tenant.importMissingFields':
+    '必須列が欠落しています: {{fields}}。ヘッダーに「組織名」と「ドメイン」が含まれていることを確認してください。',
   'pages.infra.tenant.importRowMissing': '行 {{row}}: 必須項目 (名前またはドメイン) がありません',
   'pages.infra.tenant.importRowDomainInvalid': '行 {{row}}: 無効なドメイン形式',
   'pages.infra.tenant.importValidationFailed': '検証に失敗しました',
-  'pages.infra.tenant.importValidationHint': '次の行にはエラーがあります。修正して再インポートしてください:',
+  'pages.infra.tenant.importValidationHint':
+    '次の行にはエラーがあります。修正して再インポートしてください:',
   'pages.infra.tenant.importing': '組織を輸入する',
   'pages.infra.tenant.importPreparing': '{{count}} 組織をインポートする準備をしています...',
   'pages.infra.tenant.importProgress': '{{current}} / {{total}} をインポートしています...',
@@ -19969,9 +22102,11 @@ export default {
   'pages.infra.tenant.operationFailed': '操作が失敗しました',
   'pages.infra.tenant.selectToDelete': '削除する組織を選択してください',
   'pages.infra.tenant.deleteConfirmTitle': '削除の確認',
-  'pages.infra.tenant.deleteConfirmContent': 'この組織を削除しますか?削除できるのは、ビジネス文書のない非アクティブな組織のみです。これらは一時停止されます (論理的な削除)。',
+  'pages.infra.tenant.deleteConfirmContent':
+    'この組織を削除しますか?削除できるのは、ビジネス文書のない非アクティブな組織のみです。これらは一時停止されます (論理的な削除)。',
   'pages.infra.tenant.deleteRowConfirmTitle': '組織の削除',
-  'pages.infra.tenant.deleteRowConfirmContent': '削除できるのは、ビジネス文書のない一時停止された組織のみです。続く？',
+  'pages.infra.tenant.deleteRowConfirmContent':
+    '削除できるのは、ビジネス文書のない一時停止された組織のみです。続く？',
   'pages.infra.tenant.deleteConfirmOk': '削除の確認',
   'pages.infra.tenant.deleting': '組織の削除',
   'pages.infra.tenant.deletePreparing': '{{count}} 組織を削除する準備をしています...',
@@ -19990,7 +22125,8 @@ export default {
   'pages.infra.tenant.exportCurrentPage': '現在のページ {{count}} レコード',
   'pages.infra.tenant.exportAll': 'すべてのデータ',
   'pages.infra.tenant.namePlaceholder': '組織名を入力してください',
-  'pages.infra.tenant.domainPlaceholder': 'ドメインを入力してください (文字、数字、アンダースコア、ハイフンのみ)',
+  'pages.infra.tenant.domainPlaceholder':
+    'ドメインを入力してください (文字、数字、アンダースコア、ハイフンのみ)',
   'pages.infra.tenant.nameRequired': '組織名を入力してください',
   'pages.infra.tenant.domainRequired': 'ドメインを入力してください',
   'pages.infra.tenant.detail': '詳細',
@@ -20007,7 +22143,8 @@ export default {
   'pages.infra.tenant.formPlanLabel': '組織計画',
   'pages.infra.tenant.formDomainPlaceholder': 'ドメインを入力してください (サブドメインアクセス用)',
   'pages.infra.tenant.formDomainRequired': '組織のドメインを入力してください',
-  'pages.infra.tenant.formDomainPattern': 'ドメインには小文字、数字、ハイフンのみを含めることができます',
+  'pages.infra.tenant.formDomainPattern':
+    'ドメインには小文字、数字、ハイフンのみを含めることができます',
   'pages.infra.tenant.nameLength': '組織名は 1 ～ 100 文字である必要があります',
   'pages.infra.tenant.domainLength': 'Domain must be 1-100 characters',
   'pages.infra.tenant.formStatusPlaceholder': 'Select organization status',
@@ -20016,7 +22153,8 @@ export default {
   'pages.infra.tenant.formMaxUsersRequired': '最大ユーザー数を入力してください',
   'pages.infra.tenant.formMaxStoragePlaceholder': 'プランごとに自動設定',
   'pages.infra.tenant.formMaxStorageRequired': '最大ストレージを入力してください',
-  'pages.infra.tenant.formExpiresAtPlaceholder': '有効期限を選択します (有効期限を設定しない場合は空白のままにします)',
+  'pages.infra.tenant.formExpiresAtPlaceholder':
+    '有効期限を選択します (有効期限を設定しない場合は空白のままにします)',
   'pages.infra.tenant.formExpiresAtLabel': '有効期限 (オプション)',
   'pages.infra.tenant.formMaxStorageLabel': '最大ストレージ (MB)',
   'pages.infra.tenant.basicInfoTitle': '基本情報',
@@ -20026,7 +22164,8 @@ export default {
   'pages.infra.tenant.adminFullName': '管理者名',
   'pages.infra.tenant.formPlanExtra': '計画による自動設定、または手動で調整',
   'pages.infra.tenant.initDataOptions': '初期データ (オプション)',
-  'pages.infra.tenant.initDataOptionsExtra': 'システム データ (辞書、言語、無料アプリ、コード ルール、承認フロー、メッセージ/印刷テンプレートなど) は自動的にロードされます。ビジネスプリセットを追加するには、以下の項目をチェックしてください',
+  'pages.infra.tenant.initDataOptionsExtra':
+    'システム データ (辞書、言語、無料アプリ、コード ルール、承認フロー、メッセージ/印刷テンプレートなど) は自動的にロードされます。ビジネスプリセットを追加するには、以下の項目をチェックしてください',
   'pages.infra.tenant.back': '戻る',
   'pages.infra.tenant.notFound': '組織が見つかりません',
   'pages.infra.tenant.detailTitleSuperAdmin': '組織の詳細 (スーパー管理者)',
@@ -20043,7 +22182,8 @@ export default {
   'pages.infra.tenant.importHeaderMaxUsers': '最大ユーザー数',
   'pages.infra.tenant.importHeaderMaxStorage': 'ストレージ (MB)',
   'pages.infra.tenant.importHeaderExpiresAt': '有効期限は次のとおりです',
-  'pages.infra.tenant.planDescriptionExtra': 'プラン: {{description}} (最大ユーザー数: {{maxUsers}}、最大ストレージ: {{maxStorage}} MB)',
+  'pages.infra.tenant.planDescriptionExtra':
+    'プラン: {{description}} (最大ユーザー数: {{maxUsers}}、最大ストレージ: {{maxStorage}} MB)',
   'pages.infra.tenant.planDescriptionTrial': '限られたユーザーとストレージでのクイックトライアル',
   'pages.infra.tenant.planDescriptionBasic': '基本的な機能を備えた小規模チーム向け',
   'pages.infra.tenant.planDescriptionProfessional': 'フル機能と PRO アプリを備えた中規模向け',
@@ -20065,7 +22205,8 @@ export default {
   'pages.infra.platform.platformNameRequired': 'プラットフォーム名を入力してください',
   'pages.infra.platform.platformNameMax': 'プラットフォーム名は 200 文字を超えることはできません',
   'pages.infra.platform.platformLogo': 'プラットフォームのロゴ',
-  'pages.infra.platform.platformLogoTooltip': '画像をプラットフォームのロゴとしてアップロードします。 UUID または URL をサポートします。',
+  'pages.infra.platform.platformLogoTooltip':
+    '画像をプラットフォームのロゴとしてアップロードします。 UUID または URL をサポートします。',
   'pages.infra.platform.uploadLogo': 'ロゴをアップロードする',
   'pages.infra.platform.clearLogo': 'クリアロゴ',
   'pages.infra.platform.logoUrlPlaceholder': 'またはロゴの URL を入力してください',
@@ -20074,7 +22215,8 @@ export default {
   'pages.infra.platform.logoUploadFailed': 'ロゴのアップロードに失敗しました',
   'pages.infra.platform.logoCleared': 'ロゴがクリアされました',
   'pages.infra.platform.favicon': 'ファビコン',
-  'pages.infra.platform.faviconTooltip': '画像をブラウザのタブアイコンとしてアップロードします。 32x32 または 64x64 を推奨します。 UUID または URL をサポートします。',
+  'pages.infra.platform.faviconTooltip':
+    '画像をブラウザのタブアイコンとしてアップロードします。 32x32 または 64x64 を推奨します。 UUID または URL をサポートします。',
   'pages.infra.platform.uploadFavicon': 'ファビコンをアップロードする',
   'pages.infra.platform.clearFavicon': 'ファビコンをクリアする',
   'pages.infra.platform.faviconUrlPlaceholder': 'または、ファビコンの URL を入力してください',
@@ -20104,15 +22246,18 @@ export default {
   'pages.infra.platform.loginContentEn': 'ログインコンテンツ（英語）',
   'pages.infra.platform.loginContentEnPlaceholder': '英語版のログインコンテンツの説明を入力します',
   'pages.infra.platform.loginDecorationImage': 'ログイン装飾イメージ',
-  'pages.infra.platform.loginDecorationImagePlaceholder': '画像の URL またはファイルの UUID を入力してください',
+  'pages.infra.platform.loginDecorationImagePlaceholder':
+    '画像の URL またはファイルの UUID を入力してください',
   'pages.infra.platform.uploadDecorationImage': 'デコレーション画像をアップロードする',
   'pages.infra.platform.clearDecorationImage': 'クリア装飾イメージ',
   'pages.infra.platform.loginDecorationRecommendedSize': '推奨サイズ: 800 x 800 px',
   'pages.infra.platform.loginDecorationUploadSuccess': 'デコレーション画像をアップロードしました',
-  'pages.infra.platform.loginDecorationUploadFailed': 'デコレーション画像のアップロードに失敗しました',
+  'pages.infra.platform.loginDecorationUploadFailed':
+    'デコレーション画像のアップロードに失敗しました',
   'pages.infra.platform.loginDecorationCleared': '装飾画像をクリアしました',
   'pages.infra.platform.themeColor': 'テーマカラー',
-  'pages.infra.platform.themeColorTooltip': 'ログインとプラットフォームの既定のテーマカラー (既定: #1890ff)',
+  'pages.infra.platform.themeColorTooltip':
+    'ログインとプラットフォームの既定のテーマカラー (既定: #1890ff)',
   'pages.infra.platform.recommendedColors': '推奨',
   'pages.infra.platform.icpLicense': 'ICPライセンス',
   'pages.infra.platform.icpLicensePlaceholder': '例えば 京ICP备12345678号',
@@ -20123,17 +22268,25 @@ export default {
   'pages.infra.platform.cropFaviconTitle': 'クロップファビコン（正方形推奨）',
   'pages.infra.platform.tenantConfig': 'テナント登録',
   'pages.infra.platform.tenantAutoApprove': 'テナント登録の自動承認',
-  'pages.infra.platform.tenantAutoApproveTooltip': '有効にすると、新しく登録されたテナント組織は手動レビューなしで自動的に承認されます。',
+  'pages.infra.platform.tenantAutoApproveTooltip':
+    '有効にすると、新しく登録されたテナント組織は手動レビューなしで自動的に承認されます。',
   'pages.infra.platform.floatButtonEnabled': 'フローティングボタンを表示',
-  'pages.infra.platform.floatButtonEnabledTooltip': '有効にすると、イテレーション情報、バージョンの詳細、フィードバックを表示するフローティング ボタンがメイン インターフェイスの右下に表示されます。',
+  'pages.infra.platform.floatButtonEnabledTooltip':
+    '有効にすると、イテレーション情報、バージョンの詳細、フィードバックを表示するフローティング ボタンがメイン インターフェイスの右下に表示されます。',
   'pages.infra.platform.loginGuestEnabled': 'サインイン ページにゲスト ログインを表示する',
-  'pages.infra.platform.loginGuestEnabledTooltip': '無効にすると、ゲスト アクセス ボタンが非表示になり、ゲスト ログイン API がブロックされます。',
+  'pages.infra.platform.loginGuestEnabledTooltip':
+    '無効にすると、ゲスト アクセス ボタンが非表示になり、ゲスト ログイン API がブロックされます。',
   'pages.infra.platform.loginQuickEnabled': 'クイックログインを有効にする',
-  'pages.infra.platform.loginQuickEnabledTooltip': '無効にすると、サインイン ページの WeChat、QQ、WeCom、DingTalk、Feishu などのクイック ログインが非表示になります',
-  'pages.infra.platform.loginClientWinEnabled': 'サインイン ページに Windows ワークステーションのダウンロードを表示する',
-  'pages.infra.platform.loginClientWinEnabledTooltip': '無効にすると、サインイン ページの Windows HMI インストーラー タイルが非表示になります。',
-  'pages.infra.platform.loginClientAndroidEnabled': 'サインイン ページに Android PDA のダウンロードを表示する',
-  'pages.infra.platform.loginClientAndroidEnabledTooltip': '無効にすると、サインイン ページの Android PDA インストーラー タイルが非表示になります',
+  'pages.infra.platform.loginQuickEnabledTooltip':
+    '無効にすると、サインイン ページの WeChat、QQ、WeCom、DingTalk、Feishu などのクイック ログインが非表示になります',
+  'pages.infra.platform.loginClientWinEnabled':
+    'サインイン ページに Windows ワークステーションのダウンロードを表示する',
+  'pages.infra.platform.loginClientWinEnabledTooltip':
+    '無効にすると、サインイン ページの Windows HMI インストーラー タイルが非表示になります。',
+  'pages.infra.platform.loginClientAndroidEnabled':
+    'サインイン ページに Android PDA のダウンロードを表示する',
+  'pages.infra.platform.loginClientAndroidEnabledTooltip':
+    '無効にすると、サインイン ページの Android PDA インストーラー タイルが非表示になります',
   'app.kuaireport.name': 'クアレポート',
   'app.kuaireport.menu.selfMadeReports': '自作レポート',
   'app.kuaireport.menu.reports': 'レポートセンター',
@@ -20158,12 +22311,14 @@ export default {
   'pages.approval.designer.selectNodeTip': '構成するノードを選択してください',
   'pages.approval.designer.label': 'ノード名',
   'pages.approval.designer.approvalType': '承認方法',
-  'pages.approval.designer.approvalTypeToolTip': 'ALL 署名: 選択した全員が同意する必要があります。 ANY 記号: 誰でも承認できます。',
+  'pages.approval.designer.approvalTypeToolTip':
+    'ALL 署名: 選択した全員が同意する必要があります。 ANY 記号: 誰でも承認できます。',
   'pages.approval.designer.approvalTypeOr': '任意の署名 (1 人のメンバーが承認して次へ進みます)',
   'pages.approval.designer.approvalTypeAnd': '全員署名（メンバー全員の承認が必要）',
   'pages.approval.designer.approverType': '承認者の種類',
   'pages.approval.designer.approverTypeUser': '指定ユーザー（リストから選択）',
-  'pages.approval.designer.approverTypeRole': '指定されたロール (ロール内のすべてのユーザーが承認可能)',
+  'pages.approval.designer.approverTypeRole':
+    '指定されたロール (ロール内のすべてのユーザーが承認可能)',
   'pages.approval.designer.approverTypeManager': '直属のマネージャー（提出者のリーダー）',
   'pages.approval.designer.approverTypeDept': '部長（提出者の部長）',
   'pages.approval.designer.approverTypeOptional': 'オプション (提出者が選択)',
@@ -20190,33 +22345,44 @@ export default {
   'pages.approval.designer.opGreater': 'より大きい',
   'pages.approval.designer.opLess': '未満',
   'pages.approval.designer.opContains': '含まれています',
-  'pages.approval.designer.addNodeHint': '次のノードを先頭から追加します。新しいノードは自動的に接続され、垂直方向に整列します。',
-  'pages.approval.designer.addFromCurrentHint': '現在のノードから次のノードを追加します。自動的に接続され、中央揃えになります。',
+  'pages.approval.designer.addNodeHint':
+    '次のノードを先頭から追加します。新しいノードは自動的に接続され、垂直方向に整列します。',
+  'pages.approval.designer.addFromCurrentHint':
+    '現在のノードから次のノードを追加します。自動的に接続され、中央揃えになります。',
   'pages.approval.designer.addByBranchTitle': '条件分岐ごとに次のノードを追加',
   'pages.approval.designer.addByBranchHint': 'ブランチごとに異なる承認/CC/条件ノードを追加します。',
   'pages.approval.designer.branchLabel': 'ブランチ {{index}}',
   'pages.approval.designer.branchAfterCondition': 'ブランチ {{index}} (上記の条件に従います)',
-  'pages.approval.designer.branchAddFirst': '条件 {{index}}: 最初のノードを追加します (最後に接続します)',
-  'pages.approval.designer.extraBranchesHint': '以下のブランチにはまだ一致する条件がありません。次のノードを追加できます。',
+  'pages.approval.designer.branchAddFirst':
+    '条件 {{index}}: 最初のノードを追加します (最後に接続します)',
+  'pages.approval.designer.extraBranchesHint':
+    '以下のブランチにはまだ一致する条件がありません。次のノードを追加できます。',
   'pages.approval.designer.deleteEdge': 'エッジの削除',
   'pages.approval.designer.edgeDeleted': 'エッジが削除されました',
   'pages.approval.designer.cannotDeleteStartEnd': '開始ノードと終了ノードは削除できません',
   'pages.system.parameters.title': 'システムパラメータの設定',
-  'pages.system.parameters.description': 'セキュリティ設定、UI インタラクション、ネットワーク タイムアウトなどのグローバル システム パラメータを構成します。',
+  'pages.system.parameters.description':
+    'セキュリティ設定、UI インタラクション、ネットワーク タイムアウトなどのグローバル システム パラメータを構成します。',
   'pages.system.parameters.security': 'セキュリティとセッション',
   'pages.system.parameters.security.tokenCheckInterval': 'トークンチェック間隔(秒)',
-  'pages.system.parameters.security.tokenCheckIntervalTooltip': 'トークンの有効期限が切れているかどうかを確認する頻度',
+  'pages.system.parameters.security.tokenCheckIntervalTooltip':
+    'トークンの有効期限が切れているかどうかを確認する頻度',
   'pages.system.parameters.security.inactivityTimeout': 'ユーザーの非アクティブなタイムアウト (秒)',
-  'pages.system.parameters.security.inactivityTimeoutTooltip': '非アクティブ期間後の自動ログアウト、無効にする場合は 0',
+  'pages.system.parameters.security.inactivityTimeoutTooltip':
+    '非アクティブ期間後の自動ログアウト、無効にする場合は 0',
   'pages.system.parameters.security.userCacheTime': 'ユーザー情報キャッシュ時間 (秒)',
-  'pages.system.parameters.security.userCacheTimeTooltip': 'フロントエンドでユーザー情報をキャッシュする時間',
+  'pages.system.parameters.security.userCacheTimeTooltip':
+    'フロントエンドでユーザー情報をキャッシュする時間',
   'pages.system.parameters.ui': 'インターフェースとインタラクション',
   'pages.system.parameters.ui.maxTabs': '開いているタブの最大数',
-  'pages.system.parameters.ui.maxTabsTooltip': '制限に達した場合、ピン留めされていない最も古いタブを自動的に閉じる',
+  'pages.system.parameters.ui.maxTabsTooltip':
+    '制限に達した場合、ピン留めされていない最も古いタブを自動的に閉じる',
   'pages.system.parameters.ui.defaultPageSize': '既定の表のページサイズ',
-  'pages.system.parameters.ui.defaultPageSizeTooltip': 'すべてのテーブルの初期ページネーション サイズ',
+  'pages.system.parameters.ui.defaultPageSizeTooltip':
+    'すべてのテーブルの初期ページネーション サイズ',
   'pages.system.parameters.ui.tableLoadingDelay': 'テーブルのロード遅延 (ミリ秒)',
-  'pages.system.parameters.ui.tableLoadingDelayTooltip': 'ちらつきを避けるため、読み込み状態を表示するまでの遅延',
+  'pages.system.parameters.ui.tableLoadingDelayTooltip':
+    'ちらつきを避けるため、読み込み状態を表示するまでの遅延',
   'pages.system.parameters.ui.primaryColor': '既定のテーマカラー',
   'pages.system.parameters.ui.primaryColorTooltip': 'システムの既定の原色',
   'pages.system.parameters.network': 'ネットワークとシステム',
@@ -20226,7 +22392,8 @@ export default {
   'pages.system.parameters.system.maxRetriesTooltip': 'リクエスト失敗時の自動再試行の最大数',
   'pages.system.parameters.saveSuccess': '保存しました',
   'pages.system.parameters.saveFailed': '保存に失敗しました',
-  'pages.system.parameters.saveInfo': '一部の設定 (テーマの色、ページ サイズなど) を完全に有効にするには、ページの更新が必要な場合があります。',
+  'pages.system.parameters.saveInfo':
+    '一部の設定 (テーマの色、ページ サイズなど) を完全に有効にするには、ページの更新が必要な場合があります。',
   'pages.system.parameters.grouped.pageTitle': 'システムパラメータ',
   'pages.system.parameters.grouped.changeHistory': '変更履歴',
   'pages.system.parameters.grouped.export': '輸出',
@@ -20243,7 +22410,8 @@ export default {
   'pages.system.parameters.grouped.importFailed': 'インポートに失敗しました',
   'pages.system.parameters.grouped.loadHistoryFailed': '履歴のロードに失敗しました',
   'pages.system.parameters.grouped.groupFile': 'ファイル管理',
-  'pages.system.parameters.grouped.groupFileDesc': 'ファイルのアップロード、プレビュー、ストレージ構成',
+  'pages.system.parameters.grouped.groupFileDesc':
+    'ファイルのアップロード、プレビュー、ストレージ構成',
   'pages.system.parameters.grouped.groupBackup': 'バックアップ管理',
   'pages.system.parameters.grouped.groupBackupDesc': 'データのバックアップ戦略と構成',
   'pages.system.parameters.grouped.groupMessage': 'メッセージ通知',
@@ -20269,7 +22437,8 @@ export default {
   'pages.system.parameters.grouped.enterJson': 'JSON を入力します。例: {"キー": "値"}',
   'pages.system.parameters.grouped.enterValue': '値を入力してください',
   'pages.system.parameters.grouped.paramJsonInvalid': 'パラメータ {{key}}: 無効な JSON',
-  'pages.system.parameters.grouped.paramMustBeNumber': 'パラメータ {{key}}: 有効な数値である必要があります',
+  'pages.system.parameters.grouped.paramMustBeNumber':
+    'パラメータ {{key}}: 有効な数値である必要があります',
   'common.docTitleSuffix': 'マルチテナント管理フレームワーク',
   'common.autoLogoutInactivity': '非アクティブのため、自動的にログアウトされました。',
   'common.unknownError': '不明なエラー',
@@ -20281,20 +22450,25 @@ export default {
   'appRoutes.viewDetails': 'エラーの詳細を表示する',
   'appRoutes.reload': 'リロード',
   'appRoutes.loadFailed': 'アプリのロードに失敗しました',
-  'appRoutes.loadFailedDesc': 'アプリのロード中にエラーが発生しました。コアシステムの機能には影響しません。',
+  'appRoutes.loadFailedDesc':
+    'アプリのロード中にエラーが発生しました。コアシステムの機能には影響しません。',
   'appRoutes.errorDetail': 'エラーの詳細',
   'appRoutes.retryLoad': 'リトライ',
   'appRoutes.noAppRoutes': '利用可能な申請ルートがありません',
   'appRoutes.currentPath': '現在のパス',
   'appRoutes.loadedRoutesCount': 'ロードされたアプリルート',
-  'appRoutes.noAppRoutesHint': 'これがアプリ パスの場合は、アプリが正しくインストールされ、有効になっているかどうかを確認してください。',
+  'appRoutes.noAppRoutesHint':
+    'これがアプリ パスの場合は、アプリが正しくインストールされ、有効になっているかどうかを確認してください。',
   'appRoutes.troubleshootTitle': 'トラブルシューティング',
   'appRoutes.troubleshoot1': 'ブラウザ コンソール (F12) を開き、エラー メッセージを確認します。',
-  'appRoutes.troubleshoot2': '「システム管理」→「アプリ管理」に進み、「アプリのスキャン」をクリックします。',
-  'appRoutes.troubleshoot3': 'アプリがインストールされ (is_installed = true)、有効になっている (is_active = true) ことを確認します。',
+  'appRoutes.troubleshoot2':
+    '「システム管理」→「アプリ管理」に進み、「アプリのスキャン」をクリックします。',
+  'appRoutes.troubleshoot3':
+    'アプリがインストールされ (is_installed = true)、有効になっている (is_active = true) ことを確認します。',
   'appRoutes.troubleshoot4': 'Verify entry_point and route_path are correctly configured',
   'appRoutes.troubleshoot5': '[AppRoutes] と [pluginLoader] のコンソール ログを確認します。',
-  'appRoutes.troubleshootTip': 'ヒント: システムはアプリを自動的にスキャンしようとしました。問題が解決しない場合は、アプリ管理で手動でスキャンしてください。',
+  'appRoutes.troubleshootTip':
+    'ヒント: システムはアプリを自動的にスキャンしようとしました。問題が解決しない場合は、アプリ管理で手動でスキャンしてください。',
   'components.documentRelationGraph.title': '文書関係の視覚化',
   'components.documentRelationGraph.noDocuments': '関連文書はありません',
   'components.documentRelationGraph.detailTitle': '文書の詳細',
@@ -20309,7 +22483,8 @@ export default {
   'components.documentRelationGraph.refresh': 'リフレッシュ',
   'components.documentRelationGraph.fullscreen': '全画面表示',
   'components.documentRelationGraph.exitFullscreen': '全画面表示を終了する',
-  'components.documentRelationGraph.fullscreenUnsupported': 'Fullscreen is not available in this browser',
+  'components.documentRelationGraph.fullscreenUnsupported':
+    'Fullscreen is not available in this browser',
   'components.documentTrackingPanel.loadingTip': '操作を読み込み中...',
   'components.documentTrackingPanel.noData': 'データなし',
   'components.documentTrackingPanel.noOperations': '運行記録が無い',
@@ -20318,14 +22493,18 @@ export default {
   'components.documentTrackingPanel.relationsFullChainTitle': '完全な関係チェーン',
   'components.documentTrackingPanel.openFullChainLink': 'フルチェーン',
   'components.documentTrackingPanel.traceBriefTitle': 'Linked document snapshot',
-  'components.documentTrackingPanel.traceBriefSelectNode': 'Click a node in the graph above to view basic fields and line items here.',
+  'components.documentTrackingPanel.traceBriefSelectNode':
+    'Click a node in the graph above to view basic fields and line items here.',
   'components.documentTrackingPanel.traceBriefDismiss': '却下する',
-  'components.documentTrackingPanel.traceBriefClickHint': '上のグラフ内のノードをクリックします。下部のフローティング パネルには、コンパクトなビュー (基本項目と明細項目) が表示されます。受注の場合は、下部のバーから詳細を開きます。',
+  'components.documentTrackingPanel.traceBriefClickHint':
+    '上のグラフ内のノードをクリックします。下部のフローティング パネルには、コンパクトなビュー (基本項目と明細項目) が表示されます。受注の場合は、下部のバーから詳細を開きます。',
   'components.documentTrackingPanel.traceBriefBasic': '基本情報',
   'components.documentTrackingPanel.traceBriefItems': '品目',
   'components.documentTrackingPanel.traceBriefNoItems': '項目がありません',
-  'components.documentTrackingPanel.traceBriefUnsupported': '「{{type}}」のスナップショットの読み込みはまだサポートされていません。',
-  'components.documentTrackingPanel.traceBriefLoadFailed': '伝票のスナップショットのロードに失敗しました',
+  'components.documentTrackingPanel.traceBriefUnsupported':
+    '「{{type}}」のスナップショットの読み込みはまだサポートされていません。',
+  'components.documentTrackingPanel.traceBriefLoadFailed':
+    '伝票のスナップショットのロードに失敗しました',
   'components.documentTrackingPanel.traceBriefOpenSalesOrder': '受注の詳細を開く',
   'components.documentTrackingPanel.traceBriefOpenQuotation': '見積書の詳細を開く',
   'components.documentTrackingPanel.traceBriefOpenSalesInvoice': '販売請求書の詳細を開く',
@@ -20342,11 +22521,14 @@ export default {
   'components.documentTrackingPanel.traceBriefOpenDemand': 'オープンデマンド管理',
   'components.documentTrackingPanel.traceBriefOpenDemandComputation': 'オープンデマンド計算',
   'components.documentTrackingPanel.traceBriefOpenPurchaseRequisition': 'オープンな購入要求',
-  'components.documentTrackingPanel.traceBriefOpenOutsourceOrder': 'オープンアウトソーシングオペレーションオーダー',
-  'components.documentTrackingPanel.traceBriefOpenOutsourceWorkOrder': 'オープンアウトソーシング製造指示',
+  'components.documentTrackingPanel.traceBriefOpenOutsourceOrder':
+    'オープンアウトソーシングオペレーションオーダー',
+  'components.documentTrackingPanel.traceBriefOpenOutsourceWorkOrder':
+    'オープンアウトソーシング製造指示',
   'components.documentTrackingPanel.traceBriefOpenReworkOrder': 'オープンなリ製造指示',
   'components.documentTrackingPanel.traceBriefOpenReporting': 'オープンワークレポート',
-  'components.documentTrackingPanel.traceBriefOpenPackingBinding': 'オープンパッキングバインディング',
+  'components.documentTrackingPanel.traceBriefOpenPackingBinding':
+    'オープンパッキングバインディング',
   'components.documentTrackingPanel.traceBriefOpenWorkOrder': '製造指示を開く',
   'components.documentTrackingPanel.traceBriefOpenReceiptNotice': 'オープンレシート通知',
   'components.documentTrackingPanel.traceBriefOpenOtherInbound': 'その他のインバウンドを開く',
@@ -20355,7 +22537,8 @@ export default {
   'components.documentTrackingPanel.traceBriefOpenOtherOutbound': 'その他のアウトバウンドを開く',
   'components.documentTrackingPanel.traceBriefOpenMaterialBorrow': '公開資料の借用',
   'components.documentTrackingPanel.traceBriefOpenMaterialReturn': 'オープンマテリアルの返品',
-  'components.documentTrackingPanel.traceBriefOpenMaintenanceReminder': 'メンテナンスリマインダーを開く',
+  'components.documentTrackingPanel.traceBriefOpenMaintenanceReminder':
+    'メンテナンスリマインダーを開く',
   'components.documentTrackingPanel.traceBriefOpenEquipment': '設備台帳を開く',
   'components.documentTrackingPanel.traceBriefOpenEquipmentFault': 'オープン機器の故障',
   'components.documentTrackingPanel.traceBriefOpenMaintenancePlan': 'オープンなメンテナンスプラン',
@@ -20477,7 +22660,8 @@ export default {
   'app.kuaizhizao.salesForecast.materialName': '材質名',
   'app.kuaizhizao.salesForecast.materialSpec': '仕様',
   'app.kuaizhizao.salesForecast.variantAttributes': '属性',
-  'app.kuaizhizao.salesForecast.attributePlaceholder': '設定可能な項目に必須です。 {"カラー":"レッド","サイズ":"M"}',
+  'app.kuaizhizao.salesForecast.attributePlaceholder':
+    '設定可能な項目に必須です。 {"カラー":"レッド","サイズ":"M"}',
   'app.kuaizhizao.salesForecast.forecastQuantity': '量',
   'app.kuaizhizao.salesForecast.forecastDate': '予報日',
   'app.kuaizhizao.salesForecast.notes': '注意事項',
@@ -20488,11 +22672,14 @@ export default {
   'app.kuaizhizao.salesForecast.syncTip': '売上予測を同期する',
   'app.kuaizhizao.salesForecast.pushToMrp': 'プッシュ・トゥ・デマンドの計算',
   'app.kuaizhizao.salesForecast.pushToComputation': 'プッシュ・トゥ・デマンドの計算',
-  'app.kuaizhizao.salesForecast.pushToMrpConfirm': 'この売上予測を需要計算にプッシュしてもよろしいですか?',
-  'app.kuaizhizao.salesForecast.pushToComputationConfirm': 'この売上予測を需要計算にプッシュしてもよろしいですか?',
+  'app.kuaizhizao.salesForecast.pushToMrpConfirm':
+    'この売上予測を需要計算にプッシュしてもよろしいですか?',
+  'app.kuaizhizao.salesForecast.pushToComputationConfirm':
+    'この売上予測を需要計算にプッシュしてもよろしいですか?',
   'app.kuaizhizao.salesForecast.pushSuccess': 'プッシュ成功',
   'app.kuaizhizao.salesForecast.pushDisabledAlreadyPushed': 'すでに計算の要求に追い込まれています',
-  'app.kuaizhizao.salesForecast.pushDisabledLifecycle': 'このライフサイクル段階ではプッシュできません',
+  'app.kuaizhizao.salesForecast.pushDisabledLifecycle':
+    'このライフサイクル段階ではプッシュできません',
   'app.kuaizhizao.salesForecast.pushFailed': 'プッシュに失敗しました',
   'app.kuaizhizao.salesForecast.lifecycleStatus': 'ライフサイクルステータス',
   'app.kuaizhizao.salesForecast.status': '状態',
@@ -20509,8 +22696,10 @@ export default {
   'app.kuaizhizao.salesForecast.lifecycleDemandCompute': 'デマンド計算',
   'app.kuaizhizao.salesForecast.lifecycleSupplyExecution': '供給実行',
   'app.kuaizhizao.salesForecast.lifecycleForecastReview': '予測レビュー',
-  'app.kuaizhizao.salesForecast.editDisabledTip': 'このライフサイクル段階では編集は許可されていません',
-  'app.kuaizhizao.salesForecast.deleteDisabledTip': '削除できるのは下書きまたは保留のレコードのみです',
+  'app.kuaizhizao.salesForecast.editDisabledTip':
+    'このライフサイクル段階では編集は許可されていません',
+  'app.kuaizhizao.salesForecast.deleteDisabledTip':
+    '削除できるのは下書きまたは保留のレコードのみです',
   'app.kuaizhizao.salesForecast.create': '売上予測の作成',
   'app.kuaizhizao.salesForecast.draftSaved': '下書きが保存されました',
   'app.kuaizhizao.salesForecast.operationHistory': '運用履歴',
@@ -20518,9 +22707,11 @@ export default {
   'app.kuaizhizao.salesForecast.period.monthly': '毎月',
   'app.kuaizhizao.salesForecast.period.quarterly': '四半期ごと',
   'app.kuaizhizao.salesForecast.demandSynced': '需要に同期',
-  'app.kuaizhizao.salesForecast.importResult': 'インポートが完了しました: {{success_count}} 成功、{{failure_count}} 失敗',
+  'app.kuaizhizao.salesForecast.importResult':
+    'インポートが完了しました: {{success_count}} 成功、{{failure_count}} 失敗',
   'app.kuaizhizao.salesForecast.importSuccess': 'インポートが成功しました: {{count}} 個のアイテム',
-  'app.kuaizhizao.salesForecast.deleteConfirmContent': '選択した {{count}} レコードを削除してもよろしいですか?',
+  'app.kuaizhizao.salesForecast.deleteConfirmContent':
+    '選択した {{count}} レコードを削除してもよろしいですか?',
   'app.kuaizhizao.salesForecast.executingFullLink': '実行中・フルリンク',
   'app.kuaizhizao.codeRule.setting': 'コードルールの設定',
   'app.kuaizhizao.common.fieldNotes': '注意事項',
@@ -20531,7 +22722,8 @@ export default {
   'apps.kuaizhizao.workOrder.quickReport.planRemainingTitle': '残りの計画',
   'apps.kuaizhizao.workOrder.quickReport.materialRemainingTitle': '材料残り',
   'apps.kuaizhizao.workOrder.quickReport.effectiveReportableTitle': 'このレポートを最大化する',
-  'app.kuaizhizao.customerFollowUp.activityTypePlaceholder': 'アクティビティの種類を選択してください',
+  'app.kuaizhizao.customerFollowUp.activityTypePlaceholder':
+    'アクティビティの種類を選択してください',
   'app.kuaizhizao.customerFollowUp.quickAddCustomer': '顧客のクイック追加',
   'app.kuaizhizao.salesForecast.importTitle': '輸入売上予測',
   'app.kuaizhizao.salesForecast.statInProgress': '進行中',
@@ -20539,17 +22731,25 @@ export default {
   'app.kuaizhizao.salesForecast.statPending': '保留',
   'app.kuaizhizao.salesForecast.statTodayNew': '今日の新しい',
   'app.kuaizhizao.salesForecast.statPendingAction': '直ちに対応が必要です',
-  'app.kuaizhizao.salesForecast.noValidImportData': '有効なデータが検出されませんでした (材料コードが必要です)',
-  'app.kuaizhizao.salesForecast.importItemsSuccess': '{{count}} 件の広告申込情報をインポートしました',
+  'app.kuaizhizao.salesForecast.noValidImportData':
+    '有効なデータが検出されませんでした (材料コードが必要です)',
+  'app.kuaizhizao.salesForecast.importItemsSuccess':
+    '{{count}} 件の広告申込情報をインポートしました',
   'app.kuaizhizao.salesForecast.importItemsTitle': '輸入予測の詳細',
   'app.kuaizhizao.salesForecast.draftRestored': '下書きコンテンツが復元されました',
-  'app.kuaizhizao.salesForecast.nodeDisabledCreate': '売上予測ノードは無効になっています。作成できません',
-  'app.kuaizhizao.salesForecast.nodeDisabledSave': '売上予測ノードは無効になっています。保存できません',
-  'app.kuaizhizao.salesForecast.demandComputationDisabled': 'デマンド計算ノードは無効になっています。押すことができません',
-  'app.kuaizhizao.salesForecast.addItemsFirst': '最初に少なくとも 1 つのマテリアル行を追加してください',
-  'app.kuaizhizao.salesForecast.matrixNoValidMaterial': '詳細について有効な資料はありません。マトリックスのエントリを開けません',
+  'app.kuaizhizao.salesForecast.nodeDisabledCreate':
+    '売上予測ノードは無効になっています。作成できません',
+  'app.kuaizhizao.salesForecast.nodeDisabledSave':
+    '売上予測ノードは無効になっています。保存できません',
+  'app.kuaizhizao.salesForecast.demandComputationDisabled':
+    'デマンド計算ノードは無効になっています。押すことができません',
+  'app.kuaizhizao.salesForecast.addItemsFirst':
+    '最初に少なくとも 1 つのマテリアル行を追加してください',
+  'app.kuaizhizao.salesForecast.matrixNoValidMaterial':
+    '詳細について有効な資料はありません。マトリックスのエントリを開けません',
   'app.kuaizhizao.salesForecast.matrixEmpty': 'Matrix is empty; cannot apply',
-  'app.kuaizhizao.salesForecast.matrixQtyRequired': '0 より大きい予測数量を少なくとも 1 つ入力してください',
+  'app.kuaizhizao.salesForecast.matrixQtyRequired':
+    '0 より大きい予測数量を少なくとも 1 つ入力してください',
   'app.kuaizhizao.salesForecast.matrixApplySuccess': 'マトリックスから生成された {{count}} 予測線',
   'app.kuaizhizao.salesForecast.exportFilename': '売上予測_{{date}}',
   'app.kuaizhizao.salesForecast.importItems': 'インポートの詳細',
@@ -20569,7 +22769,8 @@ export default {
   'app.kuaizhizao.salesForecast.helpViewTable': 'テーブルビュー',
   'app.kuaizhizao.salesForecast.helpViewTableDesc': '伝票レベルでの予測を表示します。',
   'app.kuaizhizao.salesForecast.helpViewDetail': '詳細表',
-  'app.kuaizhizao.salesForecast.helpViewDetailDesc': '各予測明細行を展開して、材料、数量、日付を確認します。',
+  'app.kuaizhizao.salesForecast.helpViewDetailDesc':
+    '各予測明細行を展開して、材料、数量、日付を確認します。',
   'app.kuaizhizao.salesForecast.totalForecastQuantity': '合計予測数量',
   'app.kuaizhizao.salesForecast.importHeaderMaterialCode': '材質コード',
   'app.kuaizhizao.salesForecast.importHeaderSpec': '仕様',
@@ -20613,8 +22814,10 @@ export default {
   'app.kuaizhizao.demandManagement.detailTitle': '需要の詳細',
   'app.kuaizhizao.demandManagement.detailTitleWithCode': '需要の詳細 - {{code}}',
   'app.kuaizhizao.demandManagement.planItems': '計画線',
-  'app.kuaizhizao.demandManagement.planItemsRequired': '少なくとも 1 つのラインアイテムを追加します',
-  'app.kuaizhizao.demandManagement.planItemsQtyRequired': '必要な数量の品目を少なくとも 1 つ追加します',
+  'app.kuaizhizao.demandManagement.planItemsRequired':
+    '少なくとも 1 つのラインアイテムを追加します',
+  'app.kuaizhizao.demandManagement.planItemsQtyRequired':
+    '必要な数量の品目を少なくとも 1 つ追加します',
   'app.kuaizhizao.demandManagement.addPlanItem': '行を追加',
   'app.kuaizhizao.demandManagement.planNamePlaceholder': 'プラン名を入力してください',
   'app.kuaizhizao.demandManagement.planNameRequired': 'プラン名を入力してください',
@@ -20644,8 +22847,10 @@ export default {
   'app.kuaizhizao.demandManagement.pushToMrp': 'MRPへのプッシュ',
   'app.kuaizhizao.demandManagement.withdrawTitle': 'プッシュの撤回',
   'app.kuaizhizao.demandManagement.withdrawPush': 'プッシュの撤回',
-  'app.kuaizhizao.demandManagement.alertPushedDescription': 'この需要は計算の需要に押し上げられています',
-  'app.kuaizhizao.demandManagement.alertPushedMiddle': '。アップストリームの変更が同期されていた場合、',
+  'app.kuaizhizao.demandManagement.alertPushedDescription':
+    'この需要は計算の需要に押し上げられています',
+  'app.kuaizhizao.demandManagement.alertPushedMiddle':
+    '。アップストリームの変更が同期されていた場合、',
   'app.kuaizhizao.demandManagement.goToComputation': 'デマンド計算へ',
   'app.kuaizhizao.demandManagement.recomputeSuffix': '計算を再実行します。',
   'app.kuaizhizao.demandManagement.lifecycleEmpty': '表示するライフサイクル ステップがありません',
@@ -20734,10 +22939,12 @@ export default {
   'app.kuaizhizao.salesReturn.loadSalesOrdersFailed': '受注の読み込みに失敗しました',
   'app.kuaizhizao.salesReturn.pullSuccess': '注文から売上返品を作成しました',
   'app.kuaizhizao.salesReturn.pullFailed': 'オーダーからの作成に失敗しました',
-  'app.kuaizhizao.salesReturn.editOnlyPending': '編集できるのは保留の返品または下書きの返品のみです',
+  'app.kuaizhizao.salesReturn.editOnlyPending':
+    '編集できるのは保留の返品または下書きの返品のみです',
   'app.kuaizhizao.salesReturn.loadDetailFailed': 'リターンのロードに失敗しました',
   'app.kuaizhizao.salesReturn.confirmTitle': '売上返品の確認',
-  'app.kuaizhizao.salesReturn.confirmContent': '「{{code}}」を返すことを確認しますか?在庫は更新されます。',
+  'app.kuaizhizao.salesReturn.confirmContent':
+    '「{{code}}」を返すことを確認しますか?在庫は更新されます。',
   'app.kuaizhizao.salesReturn.confirmSuccess': '返品確認済み',
   'app.kuaizhizao.salesReturn.confirmFailed': '確認に失敗しました',
   'app.kuaizhizao.salesReturn.withdrawTitle': '出金確認',
@@ -20846,7 +23053,8 @@ export default {
   'app.kuaizhizao.purchaseReturn.editOnlyPending': '編集できるのは保留の返品またはドラフトのみです',
   'app.kuaizhizao.purchaseReturn.loadDetailFailed': 'リターンのロードに失敗しました',
   'app.kuaizhizao.purchaseReturn.confirmTitle': '購入返品の確認',
-  'app.kuaizhizao.purchaseReturn.confirmContent': '購入返品「{{code}}」を確認しますか?在庫は自動的に更新されます。',
+  'app.kuaizhizao.purchaseReturn.confirmContent':
+    '購入返品「{{code}}」を確認しますか?在庫は自動的に更新されます。',
   'app.kuaizhizao.purchaseReturn.confirmSuccess': '返品確認済み',
   'app.kuaizhizao.purchaseReturn.confirmFailed': '確認に失敗しました',
   'app.kuaizhizao.purchaseReturn.withdrawTitle': '出金確認',
@@ -20911,4 +23119,4 @@ export default {
   ...presetEntityJa,
   ...codeRulePageJa,
   ...customFieldPageJa,
-};
+}

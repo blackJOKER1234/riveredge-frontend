@@ -86,38 +86,85 @@ export const HeaderQuickEntryPopover: React.FC<HeaderQuickEntryPopoverProps> = (
     ? 'rgba(0, 0, 0, 0.85)'
     : 'rgba(255, 255, 255, 0.85)';
 
-  const trigger = variant === 'icon-button' ? (
-    <Button
-      type="text"
-      size="small"
-      icon={<AppstoreOutlined />}
-      aria-label={t('pages.dashboard.quickEntry')}
-    />
-  ) : (
-    <span
-      role="button"
-      tabIndex={0}
-      className="riveredge-header-quick-entry-trigger"
-      style={{
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: 32,
-        height: 32,
-        borderRadius: token.borderRadius,
-        cursor: 'pointer',
-        flexShrink: 0,
-        color: headerIconColor,
-        fontSize: 18,
-        transition: 'background 0.2s ease',
-      }}
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') e.currentTarget.click();
-      }}
-    >
-      <AppstoreOutlined />
-    </span>
-  );
+  const trigger =
+    variant === 'icon-button' ? (
+      <Button
+        type="text"
+        size="small"
+        // icon={<AppstoreOutlined />}
+        icon={
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="4"
+              y="4"
+              width="5"
+              height="5"
+              rx="1"
+              stroke="#1F1F1F"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect
+              x="4"
+              y="11"
+              width="5"
+              height="5"
+              rx="1"
+              stroke="#1F1F1F"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect
+              x="11"
+              y="11"
+              width="5"
+              height="5"
+              rx="1"
+              stroke="#1F1F1F"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11.5996 8.40002L15.5996 4.40002M15.5996 8.40002V4.40002H11.5996"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        }
+        aria-label={t('pages.dashboard.quickEntry')}
+      />
+    ) : (
+      <span
+        role="button"
+        tabIndex={0}
+        className="riveredge-header-quick-entry-trigger"
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: 32,
+          height: 32,
+          borderRadius: token.borderRadius,
+          cursor: 'pointer',
+          flexShrink: 0,
+          color: headerIconColor,
+          fontSize: 18,
+          transition: 'background 0.2s ease',
+        }}
+        onKeyDown={e => {
+          if (e.key === 'Enter' || e.key === ' ') e.currentTarget.click()
+        }}
+      >
+        <AppstoreOutlined />
+      </span>
+    )
 
   return (
     <span

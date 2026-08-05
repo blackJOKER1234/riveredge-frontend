@@ -1,13 +1,13 @@
 /**
  * 中文语言包
- * 
+ *
  * 定义应用的中文文本
  */
 
-import systemDictionaryZh from './generated/systemDictionary/zh-CN';
-import presetEntityZh from './generated/presetEntity/zh-CN';
-import codeRulePageZh from './generated/codeRulePage/zh-CN';
-import customFieldPageZh from './generated/customFieldPage/zh-CN';
+import systemDictionaryZh from './generated/systemDictionary/zh-CN'
+import presetEntityZh from './generated/presetEntity/zh-CN'
+import codeRulePageZh from './generated/codeRulePage/zh-CN'
+import customFieldPageZh from './generated/customFieldPage/zh-CN'
 
 export default {
   // 菜单翻译
@@ -81,24 +81,32 @@ export default {
   'dashboard.businessBoard.feed.equipCalib': '探针标定提醒',
   'dashboard.businessBoard.feed.equipCalibDetail': '三坐标 CMM-02 建议本周内完成探针校验',
   'dashboard.businessBoard.feed.equipNcUpload': 'NC 程序版本回执',
-  'dashboard.businessBoard.feed.equipNcUploadDetail': '加工中心 MC-12 已签收程序包 V2.3.1（SHA 校验通过）',
+  'dashboard.businessBoard.feed.equipNcUploadDetail':
+    '加工中心 MC-12 已签收程序包 V2.3.1（SHA 校验通过）',
   'dashboard.businessBoard.feed.equipToolLife': '刀具寿命预警',
-  'dashboard.businessBoard.feed.equipToolLifeDetail': 'T 型铣刀 T-884 剩余寿命 12% · 产线 L4 建议换刀窗口 30min 内',
+  'dashboard.businessBoard.feed.equipToolLifeDetail':
+    'T 型铣刀 T-884 剩余寿命 12% · 产线 L4 建议换刀窗口 30min 内',
   'dashboard.businessBoard.feed.equipVisionReject': '视觉复检计数',
-  'dashboard.businessBoard.feed.equipVisionRejectDetail': '外观工位 V-05 本班累计 NG 23 件 · 已触发 SPC 子组 5/5',
+  'dashboard.businessBoard.feed.equipVisionRejectDetail':
+    '外观工位 V-05 本班累计 NG 23 件 · 已触发 SPC 子组 5/5',
   'dashboard.businessBoard.feed.equipMesHeartbeat': '数采链路正常',
-  'dashboard.businessBoard.feed.equipMesHeartbeatDetail': '边缘网关 EG-East-03 延迟 P95 38ms · 报文丢失率 0.00%',
+  'dashboard.businessBoard.feed.equipMesHeartbeatDetail':
+    '边缘网关 EG-East-03 延迟 P95 38ms · 报文丢失率 0.00%',
   'dashboard.businessBoard.feed.equipCoolantLow': '切削液液位低',
-  'dashboard.businessBoard.feed.equipCoolantLowDetail': '磨削单元 G-02 液位 32% · 已通知保全补给工单 #F-908',
+  'dashboard.businessBoard.feed.equipCoolantLowDetail':
+    '磨削单元 G-02 液位 32% · 已通知保全补给工单 #F-908',
   'dashboard.businessBoard.feed.equipEnergyReport': '能耗峰谷简报',
-  'dashboard.businessBoard.feed.equipEnergyReportDetail': '白班尖峰负荷 2.38MW · 较昨日 −3.1%（空压联控策略生效）',
+  'dashboard.businessBoard.feed.equipEnergyReportDetail':
+    '白班尖峰负荷 2.38MW · 较昨日 −3.1%（空压联控策略生效）',
   'dashboard.businessBoard.feed.equipOtaOk': '固件 OTA 完成',
-  'dashboard.businessBoard.feed.equipOtaOkDetail': '机器人 R-18 驱动栈 4.7.2 → 4.7.3 升级成功 · 自检通过',
+  'dashboard.businessBoard.feed.equipOtaOkDetail':
+    '机器人 R-18 驱动栈 4.7.2 → 4.7.3 升级成功 · 自检通过',
   'dashboard.businessBoard.customizeTitle': '自定义看板标题',
   'dashboard.businessBoard.titleSettingsModal': '看板设置',
   'dashboard.businessBoard.titleInputPlaceholder': '输入显示在顶栏中间的标题',
   'dashboard.businessBoard.heroImageLabel': '中间区域配图',
-  'dashboard.businessBoard.heroImageHint': '不上传则使用系统默认配图；建议横图，显示在中心球体前方。',
+  'dashboard.businessBoard.heroImageHint':
+    '不上传则使用系统默认配图；建议横图，显示在中心球体前方。',
   'dashboard.businessBoard.uploadHeroImage': '上传图片',
   'dashboard.businessBoard.resetHeroImage': '使用系统默认配图',
   'dashboard.businessBoard.heroImageInvalidType': '请上传图片文件（PNG、JPG、WebP 等）',
@@ -237,8 +245,10 @@ export default {
   'menu.system.process-management': '流程管理',
   'menu.system.appMenu': '应用',
   'menu.system.systemMenu': '系统',
-  'menu.system.appMenuTip': '应用菜单（来源为「应用」）由各应用的 manifest.json 同步，不可在此编辑或删除。如需修改，请前往应用中心同步菜单。系统菜单可在此直接编辑。',
-  'menu.system.appMenuSyncTip': '应用菜单结构由 manifest 同步；在本页关闭的项会保留，不再被后台同步强行改回启用（除非在应用中心重新「启用应用」整包对齐）',
+  'menu.system.appMenuTip':
+    '应用菜单（来源为「应用」）由各应用的 manifest.json 同步，不可在此编辑或删除。如需修改，请前往应用中心同步菜单。系统菜单可在此直接编辑。',
+  'menu.system.appMenuSyncTip':
+    '应用菜单结构由 manifest 同步；在本页关闭的项会保留，不再被后台同步强行改回启用（除非在应用中心重新「启用应用」整包对齐）',
   'menu.system.appMenuEditDisabled': '应用菜单由 manifest 同步，不可在此编辑',
   'menu.system.appMenuAddDisabled': '应用菜单由 manifest 同步，不可在此添加子项',
   'menu.system.appMenuDeleteDisabled': '应用菜单由 manifest 同步，不可删除',
@@ -283,11 +293,14 @@ export default {
   'ui.aiAssistant.chatRequestFailed': '请求失败 ({{status}})',
   'ui.header.clientDownload.tooltip': '扫码下载客户端',
   'ui.header.clientDownload.title': '客户端下载',
+  'ui.header.clientDownload.mobileTitle': '移动端下载',
   'ui.header.clientDownload.subtitle': '使用手机浏览器扫描二维码安装',
   'ui.header.clientDownload.scanHint': '请用手机浏览器扫码下载',
   'ui.header.clientDownload.scanTip': '勿用微信扫一扫，链接可能被拦截',
-  'ui.header.clientDownload.lanOriginFailed': '无法解析局域网地址，请配置 BASE_URL 或改用局域网 IP 打开本页',
-  'ui.header.clientDownload.loopbackBlocked': '下载地址仍为 127.0.0.1，手机无法访问，请重启后端或配置 BASE_URL',
+  'ui.header.clientDownload.lanOriginFailed':
+    '无法解析局域网地址，请配置 BASE_URL 或改用局域网 IP 打开本页',
+  'ui.header.clientDownload.loopbackBlocked':
+    '下载地址仍为 127.0.0.1，手机无法访问，请重启后端或配置 BASE_URL',
   'ui.message.switchedTenant': '已切换组织上下文',
   'ui.message.autoSelectedTenant': '已自动选择组织: {{name}}',
   'ui.message.notSupportFavorite': '该页面不支持收藏到快捷入口',
@@ -316,16 +329,19 @@ export default {
   'components.themeEditor.colorMode.light': '浅色模式',
   'components.themeEditor.colorMode.dark': '深色模式',
   'components.themeEditor.colorMode.auto': '跟随系统',
-  'components.themeEditor.primaryColor.hint': '选择您喜欢的主题颜色，这将应用于按钮、链接和选中状态等界面元素',
+  'components.themeEditor.primaryColor.hint':
+    '选择您喜欢的主题颜色，这将应用于按钮、链接和选中状态等界面元素',
   'components.themeEditor.common.quickSelect': '快速选择',
   'components.themeEditor.common.customColor': '自定义颜色',
   'components.themeEditor.lightModeOnly': '提示：仅在浅色模式下生效',
   'components.themeEditor.siderBg.title': '左侧菜单栏',
   'components.themeEditor.siderBg.hint': '自定义左侧菜单栏的背景颜色',
   'components.themeEditor.headerBg.title': '顶栏背景色',
-  'components.themeEditor.headerBg.hint': '自定义顶栏的背景颜色，使用 hex 格式（如：#ffffff，带透明度为 8 位 #rrggbbaa）',
+  'components.themeEditor.headerBg.hint':
+    '自定义顶栏的背景颜色，使用 hex 格式（如：#ffffff，带透明度为 8 位 #rrggbbaa）',
   'components.themeEditor.tabsBg.title': '标签栏背景色',
-  'components.themeEditor.tabsBg.hint': '自定义标签栏的背景颜色，使用 hex 格式（如：#ffffff，带透明度为 8 位 #rrggbbaa）',
+  'components.themeEditor.tabsBg.hint':
+    '自定义标签栏的背景颜色，使用 hex 格式（如：#ffffff，带透明度为 8 位 #rrggbbaa）',
   'components.themeEditor.interface.title': '界面样式',
   'components.themeEditor.interface.hint': '调整界面的圆角和间距，让界面更符合您的使用习惯',
   'components.themeEditor.borderRadius.label': '圆角大小',
@@ -353,12 +369,14 @@ export default {
   'components.themeEditor.preview.button.link': '链接按钮',
   'components.themeEditor.preview.textSection': '文字样式预览',
   'components.themeEditor.preview.sampleText': '这是一段预览文本',
-  'components.themeEditor.preview.current': '当前字体大小：{{fontSize}}px，圆角大小：{{borderRadius}}px',
+  'components.themeEditor.preview.current':
+    '当前字体大小：{{fontSize}}px，圆角大小：{{borderRadius}}px',
   'components.themeEditor.preview.colorSection': '主题色预览',
   'components.themeEditor.message.loadFailed': '加载主题配置失败',
   'components.themeEditor.message.colorModeSwitched': '颜色模式已切换',
   'components.themeEditor.message.switchFailed': '切换失败',
-  'components.themeEditor.message.appliedButNotSaved': '主题已应用；当前无法保存到服务器（可能尚未完成租户初始化），仅对当前会话有效。',
+  'components.themeEditor.message.appliedButNotSaved':
+    '主题已应用；当前无法保存到服务器（可能尚未完成租户初始化），仅对当前会话有效。',
   'components.themeEditor.message.applied': '主题配置已应用',
   'components.themeEditor.message.saveFailed': '保存失败',
   'components.themeEditor.message.resetDone': '已恢复默认配置并关闭面板',
@@ -426,14 +444,16 @@ export default {
   'pages.login.passwordPlaceholder': '请输入密码',
   'pages.login.passwordRequired': '请输入密码',
   'pages.login.descriptionTitle': '多组织管理框架',
-  'pages.login.descriptionText': '专注多组织多租户架构的企业级数字化底座，内置高性能应用治理引擎。支持插件化生态热插拔、全维度权限精细化隔离与跨系统数据集成，为大规模业务运行提供安全、敏捷、可无限扩展的底层支撑。',
+  'pages.login.descriptionText':
+    '专注多组织多租户架构的企业级数字化底座，内置高性能应用治理引擎。支持插件化生态热插拔、全维度权限精细化隔离与跨系统数据集成，为大规模业务运行提供安全、敏捷、可无限扩展的底层支撑。',
   'pages.login.guestLogin': '免注册体验登录',
   'pages.login.noAccount': '还没有账号？',
   'pages.login.registerNow': '立即注册',
   'pages.login.userTerms': '用户条款',
   'pages.login.privacyTerms': '隐私条款',
   'pages.login.icpLicense': 'ICP备案：',
-  'pages.login.browserHintShort': '为获得最佳使用体验，建议使用 Chrome、Microsoft Edge 等基于 Chromium 内核的浏览器。Safari 尚未完全适配，部分功能可能无法正常使用。',
+  'pages.login.browserHintShort':
+    '为获得最佳使用体验，建议使用 Chrome、Microsoft Edge 等基于 Chromium 内核的浏览器。Safari 尚未完全适配，部分功能可能无法正常使用。',
   'common.none': '无',
   'common.start': '开始',
   'common.end': '结束',
@@ -679,7 +699,8 @@ export default {
   'pages.personal.preferences.densityMiddle': '中等',
   'pages.personal.preferences.densitySmall': '紧凑',
   'pages.personal.preferences.maxTabs': '最大标签页数',
-  'pages.personal.preferences.tableColumnsHint': '表格列展示：在各表格的列设置中自定义显示列、顺序和固定列，将自动同步到偏好设置（跨设备生效）',
+  'pages.personal.preferences.tableColumnsHint':
+    '表格列展示：在各表格的列设置中自定义显示列、顺序和固定列，将自动同步到偏好设置（跨设备生效）',
   'pages.personal.preferences.styleCustomization': '样式微调',
   'pages.personal.preferences.colorScheme': '颜色方案',
   'pages.personal.preferences.miscOptions': '界面辅助',
@@ -803,15 +824,18 @@ export default {
   'pages.personal.tasks.exportFileName': '我的任务-{{date}}.json',
   'pages.dashboard.pendingTasksAlarm': '你有 {{count}} 个待处理任务',
 
-  'pages.system.integrationConfigs.subtitle': '配置外部 API 或数据库连接，用于与 MES、计划、仓储等模块数据对齐。支持 API、数据库、OAuth、Webhook 等类型。',
+  'pages.system.integrationConfigs.subtitle':
+    '配置外部 API 或数据库连接，用于与 MES、计划、仓储等模块数据对齐。支持 API、数据库、OAuth、Webhook 等类型。',
   'pages.system.integrationConfigs.getDetailFailed': '获取集成配置详情失败',
   'pages.system.integrationConfigs.deleteSuccess': '删除成功',
   'pages.system.integrationConfigs.deleteFailed': '删除失败',
   'pages.system.integrationConfigs.selectToDelete': '请先选择要删除的记录',
   'pages.system.integrationConfigs.confirmBatchDelete': '确认批量删除',
-  'pages.system.integrationConfigs.confirmBatchDeleteContent': '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
+  'pages.system.integrationConfigs.confirmBatchDeleteContent':
+    '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
   'pages.system.integrationConfigs.batchDeleteTitle': '确定要批量删除选中的集成配置吗？',
-  'pages.system.integrationConfigs.batchDeleteDescription': '将删除 {{count}} 条集成配置，删除后无法恢复，请谨慎操作。',
+  'pages.system.integrationConfigs.batchDeleteDescription':
+    '将删除 {{count}} 条集成配置，删除后无法恢复，请谨慎操作。',
   'pages.system.integrationConfigs.batchDeleteSuccess': '成功删除 {{count}} 条记录',
   'pages.system.integrationConfigs.batchDeleteFailed': '删除失败 {{count}} 条记录',
   'pages.system.integrationConfigs.batchDeleteError': '批量删除失败',
@@ -864,7 +888,8 @@ export default {
   'pages.system.integrationConfigs.typeRequired': '请选择集成类型',
   'pages.system.integrationConfigs.descPlaceholder': '请输入备注',
   'pages.system.integrationConfigs.configJsonLabel': '配置信息（JSON）',
-  'pages.system.integrationConfigs.configJsonPlaceholder': '请输入配置信息（JSON 格式），例如：{"url": "https://api.example.com", "method": "GET", "headers": {}}',
+  'pages.system.integrationConfigs.configJsonPlaceholder':
+    '请输入配置信息（JSON 格式），例如：{"url": "https://api.example.com", "method": "GET", "headers": {}}',
   'pages.system.integrationConfigs.isActive': '启用',
   'pages.system.integrationConfigs.totalCount': '总集成数',
   'pages.system.integrationConfigs.connectedCount': '已连接',
@@ -1056,7 +1081,8 @@ export default {
   'pages.system.businessConfig.templateImportFailed': '导入配置模板失败：{{reason}}',
   'pages.system.businessConfig.invalidFileFormat': '文件格式错误',
   'pages.system.businessConfig.templateManagementTitle': '配置模板管理',
-  'pages.system.businessConfig.templateManagementDesc': '保存当前配置为模板，方便后续复用。支持导入、导出配置模板。',
+  'pages.system.businessConfig.templateManagementDesc':
+    '保存当前配置为模板，方便后续复用。支持导入、导出配置模板。',
   'pages.system.businessConfig.importTemplate': '导入模板',
   'pages.system.businessConfig.saveCurrentConfig': '保存当前配置',
   'pages.system.businessConfig.noTemplates': '暂无配置模板',
@@ -1100,28 +1126,35 @@ export default {
   'pages.system.businessConfig.paramCategory.procurement': '采购申请参数',
   'pages.system.businessConfig.paramCategory.purchase': '采购参数',
   'pages.system.businessConfig.param.work_order.auto_generate.name': '自动生成工单',
-  'pages.system.businessConfig.param.work_order.auto_generate.description': '是否自动根据需求生成工单',
+  'pages.system.businessConfig.param.work_order.auto_generate.description':
+    '是否自动根据需求生成工单',
   'pages.system.businessConfig.param.work_order.priority.name': '工单优先级',
   'pages.system.businessConfig.param.work_order.priority.description': '是否启用工单优先级管理',
   'pages.system.businessConfig.param.work_order.split.name': '工单拆分',
   'pages.system.businessConfig.param.work_order.split.description': '是否支持工单拆分',
   'pages.system.businessConfig.param.work_order.merge.name': '工单合并',
   'pages.system.businessConfig.param.work_order.merge.description': '是否支持工单合并',
-  'pages.system.businessConfig.param.work_order.allow_production_without_material.name': '允许不带料生产',
-  'pages.system.businessConfig.param.work_order.allow_production_without_material.description': '开启时，工单下达不检查缺料，只管制造过程；关闭时，缺料则禁止下达。',
-  'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.name': '末道工序自动入库',
+  'pages.system.businessConfig.param.work_order.allow_production_without_material.name':
+    '允许不带料生产',
+  'pages.system.businessConfig.param.work_order.allow_production_without_material.description':
+    '开启时，工单下达不检查缺料，只管制造过程；关闭时，缺料则禁止下达。',
+  'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.name':
+    '末道工序自动入库',
   'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.description':
     '末道工序每笔已审核报工按合格数量各建一张待入库单；关闭、直接入库，或入库通知（成品入库检验预留）。',
   'pages.system.businessConfig.param.reporting.quick_reporting.name': '快速报工',
   'pages.system.businessConfig.param.reporting.quick_reporting.description': '是否启用快速报工功能',
   'pages.system.businessConfig.param.reporting.parameter_reporting.name': '带参数报工',
-  'pages.system.businessConfig.param.reporting.parameter_reporting.description': '是否支持带参数报工',
+  'pages.system.businessConfig.param.reporting.parameter_reporting.description':
+    '是否支持带参数报工',
   'pages.system.businessConfig.param.reporting.auto_fill.name': '自动填充',
   'pages.system.businessConfig.param.reporting.auto_fill.description': '是否自动填充报工数据',
   'pages.system.businessConfig.param.reporting.data_correction.name': '报工数据修正',
-  'pages.system.businessConfig.param.reporting.data_correction.description': '是否允许修正已提交的报工数据',
+  'pages.system.businessConfig.param.reporting.data_correction.description':
+    '是否允许修正已提交的报工数据',
   'pages.system.businessConfig.param.reporting.auto_approve.name': '自动审核',
-  'pages.system.businessConfig.param.reporting.auto_approve.description': '开启后，提交的报工记录将自动通过审核，无需人工确认。',
+  'pages.system.businessConfig.param.reporting.auto_approve.description':
+    '开启后，提交的报工记录将自动通过审核，无需人工确认。',
   'pages.system.businessConfig.param.warehouse.batch_management.name': '批号管理',
   'pages.system.businessConfig.param.warehouse.batch_management.description': '是否启用批号管理',
   'pages.system.businessConfig.param.warehouse.serial_management.name': '序列号管理',
@@ -1141,23 +1174,32 @@ export default {
   'pages.system.businessConfig.param.quality.defect_handling.name': '不合格品处理',
   'pages.system.businessConfig.param.quality.defect_handling.description': '是否启用不合格品处理',
   'pages.system.businessConfig.param.sales.audit_enabled.name': '销售订单审核',
-  'pages.system.businessConfig.param.sales.audit_enabled.description': '是否启用销售订单审核流程。若关闭，订单提交后将自动通过/生效。',
+  'pages.system.businessConfig.param.sales.audit_enabled.description':
+    '是否启用销售订单审核流程。若关闭，订单提交后将自动通过/生效。',
   'pages.system.businessConfig.param.bom.bom_multi_version_allowed.name': 'BOM 允许多版本共存',
-  'pages.system.businessConfig.param.bom.bom_multi_version_allowed.description': '开启时，需求计算时可选择 BOM 版本；关闭时，统一使用各物料的默认 BOM 版本。',
+  'pages.system.businessConfig.param.bom.bom_multi_version_allowed.description':
+    '开启时，需求计算时可选择 BOM 版本；关闭时，统一使用各物料的默认 BOM 版本。',
   'pages.system.businessConfig.param.planning.require_production_plan.name': '需生产计划',
-  'pages.system.businessConfig.param.planning.require_production_plan.description': '是否要求有生产计划才能排产',
+  'pages.system.businessConfig.param.planning.require_production_plan.description':
+    '是否要求有生产计划才能排产',
   'pages.system.businessConfig.param.procurement.require_purchase_requisition.name': '需采购申请',
-  'pages.system.businessConfig.param.procurement.require_purchase_requisition.description': '是否要求有采购申请才能下采购订单',
+  'pages.system.businessConfig.param.procurement.require_purchase_requisition.description':
+    '是否要求有采购申请才能下采购订单',
   'pages.system.businessConfig.param.purchase.auto_approval.name': '采购自动审批',
   'pages.system.businessConfig.param.purchase.auto_approval.description': '是否自动审批采购订单',
   'pages.system.businessConfig.param.warehouse.location_management.name': '库位管理',
-  'pages.system.businessConfig.param.warehouse.location_management.description': '启用库位主数据与业务选填库位，不强制每笔入库必须填写',
+  'pages.system.businessConfig.param.warehouse.location_management.description':
+    '启用库位主数据与业务选填库位，不强制每笔入库必须填写',
   'pages.system.businessConfig.param.warehouse.auto_outbound.name': '自动出库',
   'pages.system.businessConfig.param.warehouse.auto_outbound.description': '是否支持自动出库',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.name': '收货需来料检验',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.description': '收货时是否必须先完成来料检验',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.name': '代工来料需来料检验',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.description': '代工来料确认入库前是否必须先完成来料检验',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.name':
+    '收货需来料检验',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.description':
+    '收货时是否必须先完成来料检验',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.name':
+    '代工来料需来料检验',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.description':
+    '代工来料确认入库前是否必须先完成来料检验',
   'pages.system.businessConfig.blueprint.loadFailed': '加载配置失败',
   'pages.system.businessConfig.blueprint.saveSuccess': '配置已保存',
   'pages.system.businessConfig.blueprint.saveFailed': '保存配置失败',
@@ -1170,7 +1212,8 @@ export default {
   'pages.system.businessConfig.blueprint.componentLibrary': '组件库',
   'pages.system.businessConfig.blueprint.globalConfig': '全局配置',
   'pages.system.businessConfig.blueprint.noNodeSelected': '未选择节点',
-  'pages.system.businessConfig.blueprint.noNodeSelectedDesc': '请点击左侧组件库或画布中的节点以配置其属性，也可在左上方选择预设模版。',
+  'pages.system.businessConfig.blueprint.noNodeSelectedDesc':
+    '请点击左侧组件库或画布中的节点以配置其属性，也可在左上方选择预设模版。',
   'pages.system.businessConfig.blueprint.currentEnv': '当前环境：',
   'pages.system.businessConfig.blueprint.businessMode': '业务模式：',
   'pages.system.businessConfig.blueprint.industry': '行业：',
@@ -1191,7 +1234,8 @@ export default {
   'pages.system.businessConfig.blueprint.auditFlow': '审核流程',
   'pages.system.businessConfig.blueprint.auditRequired': '需要审核',
   'pages.system.businessConfig.blueprint.autoPass': '自动通过',
-  'pages.system.businessConfig.blueprint.auditTip': '开启审核后，单据提交后需要主管审批才能生效；关闭则自动生效。',
+  'pages.system.businessConfig.blueprint.auditTip':
+    '开启审核后，单据提交后需要主管审批才能生效；关闭则自动生效。',
   'pages.system.businessConfig.blueprint.nodeId': '节点 ID:',
   'pages.system.businessConfig.blueprint.businessModeLabel': '业务模式：',
   'pages.system.businessConfig.blueprint.complexityPlaceholder': '选择业务复杂度预设',
@@ -1777,7 +1821,8 @@ export default {
   // 迭代悬浮按钮
   'components.iterationFloatButton.tooltip': '系统说明与反馈',
   'components.iterationFloatButton.modalTitle': '系统说明与反馈',
-  'components.iterationFloatButton.iterationNotice': '本系统持续迭代优化中，如有意见或需求反馈，欢迎通过下方入口联系。',
+  'components.iterationFloatButton.iterationNotice':
+    '本系统持续迭代优化中，如有意见或需求反馈，欢迎通过下方入口联系。',
   'components.iterationFloatButton.buildTime': '当前部署版本更新时间',
   'components.iterationFloatButton.gitLatestTime': '代码仓库最新提交时间',
   'components.iterationFloatButton.viewRepo': '查看代码仓库',
@@ -1850,7 +1895,8 @@ export default {
   'components.uniImport.relationStrategy.strict_fail': '严格失败（缺失即失败）',
   'components.uniImport.relationMissingRequiredColumns': '缺少关联导入必填列：{{columns}}',
   'components.uniImport.relationMissingEntityColumns': '{{entity}} 关联导入缺少列：{{columns}}',
-  'components.uniImport.relationMissingEntityValue': '第 {{row}} 行缺少 {{entity}} 必填字段：{{field}}',
+  'components.uniImport.relationMissingEntityValue':
+    '第 {{row}} 行缺少 {{entity}} 必填字段：{{field}}',
   'components.uniImport.relationPrecheck': '预检',
   'components.uniImport.relationSubmit': '执行导入',
   'components.uniImport.relationSummaryCreated': '创建',
@@ -1861,7 +1907,8 @@ export default {
   'components.uniImport.relationErrors': '预检错误',
   'components.uniImport.previewNextStep': '预检并继续',
   'components.uniImport.previewModalTitle': '导入预检',
-  'components.uniImport.previewSummary': '共 {{total}} 行待导入，以下预览前 {{shown}} 行（最多 {{max}} 行）',
+  'components.uniImport.previewSummary':
+    '共 {{total}} 行待导入，以下预览前 {{shown}} 行（最多 {{max}} 行）',
   'components.uniImport.previewRowNo': '行号',
   'components.uniImport.previewMoreRowsHint': '另有 {{rest}} 行未在预览中展示，确认后将一并导入',
   'components.uniImport.previewBackEdit': '返回修改',
@@ -1921,12 +1968,14 @@ export default {
   'components.uniBatch.audit.revokeNotAllowed': '当前选中单据不可批量撤销审核。',
   'components.uniBatch.audit.success': '{{action}}成功：{{count}} 条',
   'components.uniBatch.audit.partial': '{{action}}完成：成功 {{success}} 条，失败 {{failed}} 条',
-  'components.uniBatch.audit.partialWithReason': '{{action}}完成：成功 {{success}} 条，失败 {{failed}} 条（{{reason}}）',
+  'components.uniBatch.audit.partialWithReason':
+    '{{action}}完成：成功 {{success}} 条，失败 {{failed}} 条（{{reason}}）',
   'components.uniBatch.audit.failed': '{{action}}失败',
   'components.uniBatch.capability.notAllowed': '当前选中单据不可执行该操作。',
   'components.uniBatch.capability.success': '操作成功：{{count}} 条',
   'components.uniBatch.capability.partial': '操作完成：成功 {{success}} 条，失败 {{failed}} 条',
-  'components.uniBatch.capability.partialWithReason': '操作完成：成功 {{success}} 条，失败 {{failed}} 条（{{reason}}）',
+  'components.uniBatch.capability.partialWithReason':
+    '操作完成：成功 {{success}} 条，失败 {{failed}} 条（{{reason}}）',
   'components.uniBatch.capability.failed': '操作失败',
   'components.uniPush.push': '下推',
   'components.uniTable.configOnImport': '请配置 onImport 回调函数来处理导入数据',
@@ -1946,7 +1995,8 @@ export default {
   'components.uniTable.chartDeveloping': '图表功能开发中...',
   'components.uniTable.ganttViewHint': '请配置 ganttViewConfig.renderGantt 来自定义甘特图渲染',
   'components.uniTable.helpTitle': '使用帮助',
-  'components.uniTable.helpHint': '可通过顶部搜索栏筛选数据，支持导入导出。如需页面专属帮助，可配置 helpViewConfig.content。',
+  'components.uniTable.helpHint':
+    '可通过顶部搜索栏筛选数据，支持导入导出。如需页面专属帮助，可配置 helpViewConfig.content。',
   'components.uniTable.touchViewTitle': '触屏视图',
   'components.uniTable.touchViewHint': '请配置 touchViewConfig.renderCard 来启用触屏视图',
   'components.uniTable.exampleValue': '示例值',
@@ -2075,7 +2125,8 @@ export default {
   'components.dictionarySelect.enterValue': '请输入值',
   'components.dictionarySelect.enterLabelAndValue': '请输入标签和值',
   'components.dictionarySelect.maxLength100': '最长 100 个字符',
-  'components.dictionarySelect.valueMirrorsLabelHint': '保存后存储值与单位项相同，无需单独填写「值」。',
+  'components.dictionarySelect.valueMirrorsLabelHint':
+    '保存后存储值与单位项相同，无需单独填写「值」。',
   'components.dictionarySelect.valueExists': '该值已存在，请使用其他值',
   'components.dictionarySelect.createFailed': '创建失败',
 
@@ -2142,7 +2193,8 @@ export default {
   'pages.init.templateSelect.enabled': '启用',
   'pages.init.templateSelect.disabled': '禁用',
   'pages.init.templateSelect.title': '选择行业模板',
-  'pages.init.templateSelect.subtitle': '选择一个适合您行业的模板，一键完成基础配置，包括编号规则、系统参数等。',
+  'pages.init.templateSelect.subtitle':
+    '选择一个适合您行业的模板，一键完成基础配置，包括编号规则、系统参数等。',
   'pages.init.templateSelect.noTemplates': '暂无可用模板',
   'pages.init.templateSelect.previewTitle': '模板预览',
   'pages.init.templateSelect.templateName': '模板名称',
@@ -2157,8 +2209,9 @@ export default {
   'pages.init.templateSelect.confirmApply': '确认应用',
   'pages.init.templateSelect.cancel': '取消',
   'pages.init.templateSelect.confirmApplyTitle': '确定要应用模板 {{name}} 吗？',
-  'pages.init.templateSelect.confirmApplyDesc': '应用模板后，将自动配置编号规则、系统参数等基础设置。',
- 
+  'pages.init.templateSelect.confirmApplyDesc':
+    '应用模板后，将自动配置编号规则、系统参数等基础设置。',
+
   // Lock Screen
   'pages.lockScreen.userInfoNotFound': '用户信息不存在，请重新登录',
   'pages.lockScreen.unlockSuccess': '解锁成功',
@@ -2196,52 +2249,73 @@ export default {
   'components.techStackModal.overview.coreTitle': '核心技术栈',
   'components.techStackModal.overview.intro': 'RiverEdge SaaS 多组织框架采用现代化的技术栈：',
   'components.techStackModal.overview.fastapi': '高性能异步 Web 框架',
-  'components.techStackModal.overview.taskiq': '异步任务队列（PostgreSQL broker），由独立 worker 消费；定时任务由 scheduler 投递。',
+  'components.techStackModal.overview.taskiq':
+    '异步任务队列（PostgreSQL broker），由独立 worker 消费；定时任务由 scheduler 投递。',
   'components.techStackModal.overview.react': '现代化前端框架',
   'components.techStackModal.overview.tortoise': '异步 ORM 框架',
   'components.techStackModal.overview.antd': '企业级 UI 组件库',
   'components.techStackModal.overview.expo': 'React Native 开发平台，构建与 OTA 更新',
   'components.techStackModal.overview.reactNative': '跨平台移动端与 Web 应用框架',
   'components.techStackModal.overview.licenseTitle': '许可协议说明',
-  'components.techStackModal.overview.licenseIntro': '所有核心技术均采用宽松的开源许可证（MIT、Apache 2.0、BSD 等），可放心用于商业项目。',
-  'components.techStackModal.overview.redisWarning': '⚠️ 重要提示：Redis 服务器必须使用 6.2.6+ 版本（BSD 3-Clause 许可证），避免使用 Redis 7.0+（RSAL 许可证限制商业使用）。',
+  'components.techStackModal.overview.licenseIntro':
+    '所有核心技术均采用宽松的开源许可证（MIT、Apache 2.0、BSD 等），可放心用于商业项目。',
+  'components.techStackModal.overview.redisWarning':
+    '⚠️ 重要提示：Redis 服务器必须使用 6.2.6+ 版本（BSD 3-Clause 许可证），避免使用 Redis 7.0+（RSAL 许可证限制商业使用）。',
   'components.techStackModal.copyright.important': '重要说明',
-  'components.techStackModal.copyright.importantDesc': '使用、修改或分发本项目前，请务必阅读并遵守以下版权与许可声明。',
+  'components.techStackModal.copyright.importantDesc':
+    '使用、修改或分发本项目前，请务必阅读并遵守以下版权与许可声明。',
   'components.techStackModal.copyright.projectTitle': '本项目版权声明',
-  'components.techStackModal.copyright.projectScope': '本声明适用于 RiverEdge SaaS 多组织框架及其相关源代码、文档、插件式应用与衍生产物。',
+  'components.techStackModal.copyright.projectScope':
+    '本声明适用于 RiverEdge SaaS 多组织框架及其相关源代码、文档、插件式应用与衍生产物。',
   'components.techStackModal.copyright.ownershipTitle': '版权归属',
-  'components.techStackModal.copyright.ownershipDesc': '{{company}}拥有本项目的著作权。使用、修改、分发等权利由下方 Apache License 2.0 许可协议规定。',
+  'components.techStackModal.copyright.ownershipDesc':
+    '{{company}}拥有本项目的著作权。使用、修改、分发等权利由下方 Apache License 2.0 许可协议规定。',
   'components.techStackModal.copyright.trademarkTitle': '商标',
-  'components.techStackModal.copyright.trademarkDesc': '{{trademark}} 为{{company}}注册商标，受《中华人民共和国商标法》保护。',
-  'components.techStackModal.copyright.trademarkNoGrant': 'Apache License 2.0 不授予商标使用权。未经书面许可，不得：',
-  'components.techStackModal.copyright.trademarkItem1': '使用 "{{trademark}}" 进行商业推广或声称与本公司存在合作关系',
-  'components.techStackModal.copyright.trademarkItem2': '将 "{{trademark}}" 作为自研产品或服务名称使用',
+  'components.techStackModal.copyright.trademarkDesc':
+    '{{trademark}} 为{{company}}注册商标，受《中华人民共和国商标法》保护。',
+  'components.techStackModal.copyright.trademarkNoGrant':
+    'Apache License 2.0 不授予商标使用权。未经书面许可，不得：',
+  'components.techStackModal.copyright.trademarkItem1':
+    '使用 "{{trademark}}" 进行商业推广或声称与本公司存在合作关系',
+  'components.techStackModal.copyright.trademarkItem2':
+    '将 "{{trademark}}" 作为自研产品或服务名称使用',
   'components.techStackModal.copyright.softwareTitle': '软件许可',
   'components.techStackModal.copyright.softwareIntro': '本项目采用 Apache License 2.0。您可：',
-  'components.techStackModal.copyright.softwareItem1': '商业使用、修改、私有使用、分发源代码或二进制',
+  'components.techStackModal.copyright.softwareItem1':
+    '商业使用、修改、私有使用、分发源代码或二进制',
   'components.techStackModal.copyright.softwareItem2': '获得明确的专利使用权',
   'components.techStackModal.copyright.softwareNote': '完整协议详见项目根目录 LICENSE 文件。',
   'components.techStackModal.copyright.model3dTitle': '3D 模型来源',
-  'components.techStackModal.copyright.model3dDesc': '当前版本未内置需单独署名的第三方 3D 建筑资产。',
+  'components.techStackModal.copyright.model3dDesc':
+    '当前版本未内置需单独署名的第三方 3D 建筑资产。',
   'components.techStackModal.copyright.fontTitle': '字体版权',
   'components.techStackModal.copyright.fontDesc': '本项目使用的字体及其许可如下：',
-  'components.techStackModal.copyright.fontJetBrains': '来源：https://www.jetbrains.com/lp/mono/。SIL Open Font License 1.1，可免费用于商业与非商业用途。',
-  'components.techStackModal.copyright.fontSystem': '界面正文使用系统字体（如 PingFang SC、Microsoft YaHei、Segoe UI、Roboto 等），无需额外授权。',
-  'components.techStackModal.copyright.fontWxIcons': '来源：SVAR (https://cdn.svar.dev/fonts/wxi/)，MIT 许可证，用于甘特图等组件图标。',
+  'components.techStackModal.copyright.fontJetBrains':
+    '来源：https://www.jetbrains.com/lp/mono/。SIL Open Font License 1.1，可免费用于商业与非商业用途。',
+  'components.techStackModal.copyright.fontSystem':
+    '界面正文使用系统字体（如 PingFang SC、Microsoft YaHei、Segoe UI、Roboto 等），无需额外授权。',
+  'components.techStackModal.copyright.fontWxIcons':
+    '来源：SVAR (https://cdn.svar.dev/fonts/wxi/)，MIT 许可证，用于甘特图等组件图标。',
   'components.techStackModal.copyright.assetsTitle': '其他资源',
   'components.techStackModal.copyright.assetsDesc': '以下资源及其许可说明：',
-  'components.techStackModal.copyright.assetsLottie': 'lottie-react 库为 MIT 许可。动画 JSON 若来自 LottieFiles 等第三方，请遵守其各自许可。',
-  'components.techStackModal.copyright.assetsSocial': '微信、QQ、钉钉、飞书、企业微信等图标用于第三方登录品牌识别，请遵守各平台品牌使用规范。',
+  'components.techStackModal.copyright.assetsLottie':
+    'lottie-react 库为 MIT 许可。动画 JSON 若来自 LottieFiles 等第三方，请遵守其各自许可。',
+  'components.techStackModal.copyright.assetsSocial':
+    '微信、QQ、钉钉、飞书、企业微信等图标用于第三方登录品牌识别，请遵守各平台品牌使用规范。',
   'components.techStackModal.copyright.complianceTitle': '合规要求',
-  'components.techStackModal.copyright.complianceDesc': '商业使用时须保留：版权声明、商标说明及 Apache 2.0 许可文本。',
-  'components.techStackModal.copyright.complianceAuth': '经本公司书面授权，被授权方可去除或替换版权声明、商标等公司标识，用于白标部署、私有化或定制化产品。',
-  'components.techStackModal.copyright.warning': '删除或篡改版权/商标声明将违反许可协议并可能承担法律责任。',
+  'components.techStackModal.copyright.complianceDesc':
+    '商业使用时须保留：版权声明、商标说明及 Apache 2.0 许可文本。',
+  'components.techStackModal.copyright.complianceAuth':
+    '经本公司书面授权，被授权方可去除或替换版权声明、商标等公司标识，用于白标部署、私有化或定制化产品。',
+  'components.techStackModal.copyright.warning':
+    '删除或篡改版权/商标声明将违反许可协议并可能承担法律责任。',
   'components.techStackModal.aiAssist.title': 'AI 辅助编制声明',
   'components.techStackModal.aiAssist.intro': '本项目在以下 IDE 及其编程模型的辅助下编制：',
   'components.techStackModal.aiAssist.cursor': 'Cursor —— Composer 1.5',
   'components.techStackModal.aiAssist.antigravity': 'Antigravity —— Gemini 3 Pro',
   'components.techStackModal.aiAssist.trae': 'Trae —— GPT-5.3-Codex',
-  'components.techStackModal.aiAssist.note': '部分代码与文档在 AI 辅助下完成编写，开发过程中由人工主导设计与决策，AI 用于提高效率与辅助实现。',
+  'components.techStackModal.aiAssist.note':
+    '部分代码与文档在 AI 辅助下完成编写，开发过程中由人工主导设计与决策，AI 用于提高效率与辅助实现。',
   'components.uniQuery.clearAll': '清除全部',
   'components.uniQuery.addFilterGroup': '添加筛选条件组',
   'components.uniQuery.addConditionGroup': '添加条件组',
@@ -2417,7 +2491,8 @@ export default {
   'app.kuaiplm.phase2.designReviews.columns.scheduledAt': '计划时间',
   'app.kuaiplm.phase2.designReviews.deleteOneTitle': '删除该评审记录？',
   'app.kuaiplm.phase2.designReviews.createButton': '新建评审',
-  'app.kuaiplm.phase2.designReviews.deleteConfirmTitle': '确定要删除选中的 {{count}} 条设计评审吗？',
+  'app.kuaiplm.phase2.designReviews.deleteConfirmTitle':
+    '确定要删除选中的 {{count}} 条设计评审吗？',
   'app.kuaiplm.phase2.designReviews.batchSetInProgress': '批量设为进行中',
   'app.kuaiplm.phase2.designReviews.batchSetCompleted': '批量设为已完成',
   'app.kuaiplm.phase2.designReviews.createTitle': '新建设计评审',
@@ -2553,7 +2628,8 @@ export default {
   'app.kuaiplm.common.messages.batchExecuteSuccess': '已执行 {{count}} 条变更',
   'app.kuaiplm.common.messages.batchDeleteSuccess': '已删除 {{count}} 条变更',
   'app.kuaiplm.dashboard.kpi.activeProjects': '在研项目',
-  'app.kuaiplm.dashboard.kpi.activeProjectsSubtitle': '全部 {{total}} · 研发 {{rd}} · 交付 {{delivery}}',
+  'app.kuaiplm.dashboard.kpi.activeProjectsSubtitle':
+    '全部 {{total}} · 研发 {{rd}} · 交付 {{delivery}}',
   'app.kuaiplm.dashboard.kpi.onHold': '暂停',
   'app.kuaiplm.dashboard.kpi.pendingGates': '待审门',
   'app.kuaiplm.dashboard.kpi.pendingChanges': '设计变更待办',
@@ -2602,10 +2678,12 @@ export default {
   'app.kuaiplm.rdProjects.detail.loadFailed': '加载项目工作台失败',
   'app.kuaiplm.rdProjects.detail.notFound': '项目不存在或无权访问',
   'app.kuaiplm.rdProjects.detail.startConfirmTitle': '启动项目？',
-  'app.kuaiplm.rdProjects.detail.startConfirmContent': '启动后项目状态将变为「进行中」，可正式推进 NPI 阶段门、任务与交付物。此操作不可撤销为草稿。',
+  'app.kuaiplm.rdProjects.detail.startConfirmContent':
+    '启动后项目状态将变为「进行中」，可正式推进 NPI 阶段门、任务与交付物。此操作不可撤销为草稿。',
   'app.kuaiplm.rdProjects.detail.startSuccess': '项目已启动',
   'app.kuaiplm.rdProjects.detail.createDeliveryTitle': '创建交付项目？',
-  'app.kuaiplm.rdProjects.detail.createDeliveryContent': '将从当前研发项目下推交付项目，继承物料与工程资料关联。',
+  'app.kuaiplm.rdProjects.detail.createDeliveryContent':
+    '将从当前研发项目下推交付项目，继承物料与工程资料关联。',
   'app.kuaiplm.rdProjects.detail.createDeliverySuccess': '交付项目已创建',
   'app.kuaiplm.rdProjects.detail.gatePassConfirm': '若存在未批准的阻塞交付物，将无法通过。',
   'app.kuaiplm.rdProjects.detail.gatePassSuccess': '阶段门已通过',
@@ -2786,11 +2864,15 @@ export default {
   'app.haoligo.menu.workspace': '工作台',
   'app.haoligo.menu.settings.notifications': '消息提醒',
   'app.haoligo.settings.notifications.title': '消息提醒',
-  'app.haoligo.settings.notifications.desc': '配置本应用单据在提交、审核、上报等环节的站内消息与通知对象。',
-  'app.haoligo.settings.notifications.preset.hint': '首次使用可点击「加载预设」生成默认规则（不会覆盖已存在的同单据+动作规则）；需先在「系统设置 → 消息管理 → 消息模板」加载本应用模板预设。',
+  'app.haoligo.settings.notifications.desc':
+    '配置本应用单据在提交、审核、上报等环节的站内消息与通知对象。',
+  'app.haoligo.settings.notifications.preset.hint':
+    '首次使用可点击「加载预设」生成默认规则（不会覆盖已存在的同单据+动作规则）；需先在「系统设置 → 消息管理 → 消息模板」加载本应用模板预设。',
   'app.haoligo.settings.notifications.preset.button': '加载预设',
-  'app.haoligo.settings.notifications.preset.loaded': '已加载 {{created}} 条预设规则（当前共 {{total}} 条）',
-  'app.haoligo.settings.notifications.preset.missingTemplate': '未新增规则：请先在「消息管理 → 消息模板」中加载本应用模板预设，再点此按钮',
+  'app.haoligo.settings.notifications.preset.loaded':
+    '已加载 {{created}} 条预设规则（当前共 {{total}} 条）',
+  'app.haoligo.settings.notifications.preset.missingTemplate':
+    '未新增规则：请先在「消息管理 → 消息模板」中加载本应用模板预设，再点此按钮',
   'app.haoligo.settings.notifications.preset.alreadyExists': '预设规则均已存在，无需重复加载',
   'app.haoligo.settings.notifications.preset.failed': '加载消息提醒预设失败',
   'app.haoligo.settings.notifications.document.mold_trial': '试模单',
@@ -2809,7 +2891,8 @@ export default {
   'app.haoligo.settings.notifications.action.equipment_acceptance.trial_failed': '试产不合格退回',
   'app.haoligo.settings.notifications.action.equipment_acceptance.accepted': '验收合格',
   'app.haoligo.settings.notifications.action.mold_trial.trial_failure_pending': '试模不合格·待处理',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_repair': '试模不合格·立即送修/已发出',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_repair':
+    '试模不合格·立即送修/已发出',
   'app.haoligo.settings.notifications.action.mold_trial.trial_adjustment_complete': '调整完成',
   'app.haoligo.settings.notifications.action.mold_trial.trial_production_pending': '待填试产',
   'app.haoligo.settings.notifications.action.mold_trial.trial_recalled': '已收回结案',
@@ -2842,10 +2925,14 @@ export default {
   'app.haoligo.molds.trial.pendingNotifyUsers': '待处理通知接收人',
   'app.haoligo.molds.trial.submittedNotifyUsers': '待审核通知人员',
   'app.haoligo.settings.notifications.action.mold_trial.submitted': '提交待审',
-  'app.haoligo.settings.notifications.hint.trialPending': '规则需勾选「开单用户指定」；此处选择实际接收人。亦可在「系统设置 → 配置中心 → 消息提醒」配置固定角色。',
-  'app.haoligo.settings.notifications.hint.spotCheckReport': '上报通知接收人请在「系统设置 → 配置中心 → 消息提醒」中配置（设备点检单 / 点检上报）。',
-  'app.haoligo.settings.notifications.hint.routePatrolReport': '上报通知接收人请在「系统设置 → 配置中心 → 消息提醒」中配置（设备巡检单 / 巡检上报）。',
-  'app.haoligo.settings.notifications.hint.issueRegisterReport': '上报通知的接收人请在「系统设置 → 配置中心 → 消息提醒」中按「问题登记 / 上报」配置。',
+  'app.haoligo.settings.notifications.hint.trialPending':
+    '规则需勾选「开单用户指定」；此处选择实际接收人。亦可在「系统设置 → 配置中心 → 消息提醒」配置固定角色。',
+  'app.haoligo.settings.notifications.hint.spotCheckReport':
+    '上报通知接收人请在「系统设置 → 配置中心 → 消息提醒」中配置（设备点检单 / 点检上报）。',
+  'app.haoligo.settings.notifications.hint.routePatrolReport':
+    '上报通知接收人请在「系统设置 → 配置中心 → 消息提醒」中配置（设备巡检单 / 巡检上报）。',
+  'app.haoligo.settings.notifications.hint.issueRegisterReport':
+    '上报通知的接收人请在「系统设置 → 配置中心 → 消息提醒」中按「问题登记 / 上报」配置。',
   'app.haoligo.menu.equipment': '设备管理',
   'app.haoligo.menu.equipment.group.masterData': '基础数据',
   'app.haoligo.menu.equipment.masterDataWorkshops': '车间管理',
@@ -2892,11 +2979,14 @@ export default {
   'app.haoligo.equipment.upkeepParamSets.pickParamRequired': '请至少选择一条保养项',
   'app.haoligo.equipment.upkeepParamSets.noParamsToAdd': '暂无可添加的保养项',
   'app.haoligo.equipment.upkeepParamSets.detailTitle': '保养方案详情',
-  'app.haoligo.equipment.inspectionParamSets.drawerHintMain': '调整排序与是否必检后立即生效；请先在「点检项」中维护参数主数据。',
-  'app.haoligo.equipment.inspectionParamSets.drawerHintProcessRoute': '类比工艺路线：点检方案由有序点检项组成，顺序与必检在下表中体现。',
+  'app.haoligo.equipment.inspectionParamSets.drawerHintMain':
+    '调整排序与是否必检后立即生效；请先在「点检项」中维护参数主数据。',
+  'app.haoligo.equipment.inspectionParamSets.drawerHintProcessRoute':
+    '类比工艺路线：点检方案由有序点检项组成，顺序与必检在下表中体现。',
   'app.haoligo.equipment.inspectionParamSets.editorTitleNew': '新建点检方案',
   'app.haoligo.equipment.inspectionParamSets.editorTitleEdit': '编辑点检方案 · {{code}}',
-  'app.haoligo.equipment.inspectionParamSets.hintEditorShort': '在同一窗口维护方案头与点检项顺序；新建保存时将一并写入服务器。',
+  'app.haoligo.equipment.inspectionParamSets.hintEditorShort':
+    '在同一窗口维护方案头与点检项顺序；新建保存时将一并写入服务器。',
   'app.haoligo.equipment.inspectionParamSets.sectionSequence': '点检项序列',
   'app.haoligo.equipment.inspectionParamSets.btnAddItem': '添加点检项',
   'app.haoligo.equipment.inspectionParamSets.btnCreatePlan': '创建方案',
@@ -2917,10 +3007,12 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.codeRequired': '请输入方案编码',
   'app.haoligo.equipment.inspectionParamSets.nameRequired': '请输入方案名称',
   'app.haoligo.equipment.inspectionParamSets.atLeastOneItem': '请至少添加一个点检项后再创建方案',
-  'app.haoligo.equipment.inspectionParamSets.noParamsToAdd': '暂无可添加的点检项（已全部加入或请先在「点检项」中维护主数据）',
+  'app.haoligo.equipment.inspectionParamSets.noParamsToAdd':
+    '暂无可添加的点检项（已全部加入或请先在「点检项」中维护主数据）',
   'app.haoligo.equipment.inspectionParamSets.pickParam': '请选择点检项',
   'app.haoligo.equipment.inspectionParamSets.addItemTitle': '向方案添加点检项',
-  'app.haoligo.equipment.inspectionParamSets.addItemParamPh': '选择尚未加入本方案的点检项（可多选）',
+  'app.haoligo.equipment.inspectionParamSets.addItemParamPh':
+    '选择尚未加入本方案的点检项（可多选）',
   'app.haoligo.equipment.inspectionParamSets.moveUp': '上移',
   'app.haoligo.equipment.inspectionParamSets.moveDown': '下移',
   'app.haoligo.equipment.inspectionParamSets.removeFromPlan': '移除',
@@ -2928,11 +3020,13 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.orderUpdated': '顺序已更新',
   'app.haoligo.equipment.inspectionParamSets.loadLinesFailed': '加载方案明细失败',
   'app.haoligo.equipment.inspectionParamSets.deleteTitle': '确认删除',
-  'app.haoligo.equipment.inspectionParamSets.deleteContent': '确定删除点检方案「{{name}}」（{{code}}）吗？若已被设备或类别引用将无法删除。',
+  'app.haoligo.equipment.inspectionParamSets.deleteContent':
+    '确定删除点检方案「{{name}}」（{{code}}）吗？若已被设备或类别引用将无法删除。',
   'app.haoligo.equipment.inspectionParamSets.emptySequence': '暂无点检项，请点击「添加点检项」',
   'app.haoligo.equipment.inspectionParamSets.linkInspectionParams': '维护点检项主数据',
   'app.haoligo.equipment.inspectionParamSets.importTitle': '导入点检方案',
-  'app.haoligo.equipment.inspectionParamSets.importErrorHeaders': '导入表头需包含：方案编码、方案名称、点检项名称',
+  'app.haoligo.equipment.inspectionParamSets.importErrorHeaders':
+    '导入表头需包含：方案编码、方案名称、点检项名称',
   'app.haoligo.equipment.inspectionParamSets.importColSetCode': '*方案编码',
   'app.haoligo.equipment.inspectionParamSets.importColSetName': '*方案名称',
   'app.haoligo.equipment.inspectionParamSets.importColParamCode': '点检编号（可留空 自动编写）',
@@ -2947,7 +3041,8 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.importColNumericMax': '取值上限',
   'app.haoligo.equipment.inspectionParamSets.importColUnit': '单位',
   'app.haoligo.equipment.inspectionParamSets.importColRequired': '是否必检',
-  'app.haoligo.equipment.inspectionParamSets.importSuccess': '导入完成：新建方案 {{created}} 个，更新 {{updated}} 个；新建点检项 {{paramsCreated}} 个，更新 {{paramsUpdated}} 个',
+  'app.haoligo.equipment.inspectionParamSets.importSuccess':
+    '导入完成：新建方案 {{created}} 个，更新 {{updated}} 个；新建点检项 {{paramsCreated}} 个，更新 {{paramsUpdated}} 个',
   'app.haoligo.equipment.ledger.linkInspectionPlans': '前往点检方案维护',
   'app.haoligo.equipment.ledger.linkMasterDataWorkshops': '前往主数据车间维护',
   'app.haoligo.equipment.ledger.title': '设备台账',
@@ -3019,8 +3114,10 @@ export default {
   'app.haoligo.equipment.ledger.importColDate': '出厂日期',
   'app.haoligo.equipment.ledger.importColRemark': '备注',
   'app.haoligo.equipment.ledger.importColCriticality': '重要等级',
-  'app.haoligo.equipment.ledger.importErrorCoreCols': '导入表头需包含：设备代号、设备名称、类别编码、车间编码',
-  'app.haoligo.equipment.ledger.importErrorEncoding': '没有可导入的有效数据（请检查编码是否与主数据一致）',
+  'app.haoligo.equipment.ledger.importErrorCoreCols':
+    '导入表头需包含：设备代号、设备名称、类别编码、车间编码',
+  'app.haoligo.equipment.ledger.importErrorEncoding':
+    '没有可导入的有效数据（请检查编码是否与主数据一致）',
   'app.haoligo.equipment.ledger.commonDash': '—',
   'app.haoligo.equipment.ledger.actionEdit': '编辑',
   'app.haoligo.equipment.ledger.actionDelete': '删除',
@@ -3028,7 +3125,8 @@ export default {
   'app.haoligo.equipment.manufacturers.colCode': '厂商代号',
   'app.haoligo.equipment.manufacturers.colName': '厂商名称',
   'app.haoligo.equipment.manufacturers.deleteTitle': '确认删除',
-  'app.haoligo.equipment.manufacturers.deleteContent': '确定删除制造厂商「{{name}}」（{{code}}）吗？',
+  'app.haoligo.equipment.manufacturers.deleteContent':
+    '确定删除制造厂商「{{name}}」（{{code}}）吗？',
   'app.haoligo.equipment.manufacturers.modalCreate': '新增制造厂商',
   'app.haoligo.equipment.manufacturers.modalEdit': '编辑制造厂商',
   'app.haoligo.equipment.manufacturers.formCode': '厂商代号',
@@ -3056,7 +3154,8 @@ export default {
   'app.haoligo.equipment.inspectionParams.batchCategoryPick': '请选择一级分类',
   'app.haoligo.equipment.inspectionParams.batchCategoryClear': '清除分类（未分类）',
   'app.haoligo.equipment.inspectionParams.batchCategorySelectRows': '请先勾选要点检项',
-  'app.haoligo.equipment.inspectionParams.batchCategorySuccess': '已更新 {{count}} 条点检项的一级分类',
+  'app.haoligo.equipment.inspectionParams.batchCategorySuccess':
+    '已更新 {{count}} 条点检项的一级分类',
   'app.haoligo.equipment.inspectionParams.importColCategory': '一级分类',
   'app.haoligo.equipment.inspectionParams.colRequirement': '点检要求',
   'app.haoligo.equipment.inspectionParams.colUnit': '单位',
@@ -3066,13 +3165,15 @@ export default {
   'app.haoligo.equipment.inspectionParams.valueTypeBoolean': '是否',
   'app.haoligo.equipment.inspectionParams.valueTypeMultiselect': '多选',
   'app.haoligo.equipment.inspectionParams.deleteTitle': '确认删除',
-  'app.haoligo.equipment.inspectionParams.deleteContent': '确定删除点检项「{{name}}」（{{code}}）吗？若已被点检方案引用将无法删除。',
+  'app.haoligo.equipment.inspectionParams.deleteContent':
+    '确定删除点检项「{{name}}」（{{code}}）吗？若已被点检方案引用将无法删除。',
   'app.haoligo.equipment.inspectionParams.modalCreate': '新增点检项',
   'app.haoligo.equipment.inspectionParams.modalEdit': '编辑点检项',
   'app.haoligo.equipment.inspectionParams.formCode': '点检编号',
   'app.haoligo.equipment.inspectionParams.formCodePh': '如 VIB、TEMP',
   'app.haoligo.equipment.inspectionParams.formCodeReq': '请输入点检编号',
-  'app.haoligo.equipment.inspectionParams.formCodeDuplicate': '点检编号「{{code}}」已存在，请使用其他编号',
+  'app.haoligo.equipment.inspectionParams.formCodeDuplicate':
+    '点检编号「{{code}}」已存在，请使用其他编号',
   'app.haoligo.equipment.inspectionParams.formName': '点检项名称',
   'app.haoligo.equipment.inspectionParams.formNamePh': '如 主轴振动',
   'app.haoligo.equipment.inspectionParams.formNameReq': '请输入点检项名称',
@@ -3102,18 +3203,21 @@ export default {
   'app.haoligo.equipment.documents.spotCheckNumericRange': '取值范围：{{range}}',
   'app.haoligo.equipment.documents.spotCheckOutOfRangeHint': '实测超出取值范围，已自动判定为异常',
   'app.haoligo.equipment.inspectionParams.formDefaultValueTextPh': '可选，如 正常、无泄漏',
-  'app.haoligo.equipment.inspectionParams.formDefaultValueMultiselectPh': '可选，输入标签后回车，多个用逗号分隔',
+  'app.haoligo.equipment.inspectionParams.formDefaultValueMultiselectPh':
+    '可选，输入标签后回车，多个用逗号分隔',
   'app.haoligo.equipment.inspectionParams.defaultBoolYes': '是',
   'app.haoligo.equipment.inspectionParams.defaultBoolNo': '否',
   'app.haoligo.equipment.inspectionParams.importColDefaultValue': '默认值',
   'app.haoligo.equipment.inspectionParams.importTitle': '导入点检项',
-  'app.haoligo.equipment.inspectionParams.importErrorHeaders': '导入表头需包含：点检编号、点检项名称',
+  'app.haoligo.equipment.inspectionParams.importErrorHeaders':
+    '导入表头需包含：点检编号、点检项名称',
   'app.haoligo.equipment.inspectionParams.importColCode': '*点检编号',
   'app.haoligo.equipment.inspectionParams.importColName': '*点检项名称',
   'app.haoligo.equipment.inspectionParams.importColRequirement': '点检要求',
   'app.haoligo.equipment.inspectionParams.importColUnit': '单位',
   'app.haoligo.equipment.inspectionParams.importColValueType': '取值类型',
-  'app.haoligo.equipment.inspectionParams.syncInfo': '与标准点检库 / ERP 同步能力接入后将在此执行；已刷新当前列表。',
+  'app.haoligo.equipment.inspectionParams.syncInfo':
+    '与标准点检库 / ERP 同步能力接入后将在此执行；已刷新当前列表。',
   'app.haoligo.equipment.inspectionParams.actionEdit': '编辑',
   'app.haoligo.equipment.inspectionParams.actionDelete': '删除',
   'app.haoligo.equipment.patrolRoutes.title': '巡检路线',
@@ -3128,7 +3232,8 @@ export default {
   'app.haoligo.equipment.patrolRoutes.actionEdit': '编辑',
   'app.haoligo.equipment.patrolRoutes.actionDelete': '删除',
   'app.haoligo.equipment.patrolRoutes.deleteTitle': '确认删除',
-  'app.haoligo.equipment.patrolRoutes.deleteContent': '确定删除巡检路线「{{name}}」（{{code}}）吗？步骤将一并作废。',
+  'app.haoligo.equipment.patrolRoutes.deleteContent':
+    '确定删除巡检路线「{{name}}」（{{code}}）吗？步骤将一并作废。',
   'app.haoligo.equipment.patrolRoutes.modalCreate': '新建巡检路线',
   'app.haoligo.equipment.patrolRoutes.modalEdit': '编辑巡检路线',
   'app.haoligo.equipment.patrolRoutes.formCode': '路线编码',
@@ -3138,8 +3243,10 @@ export default {
   'app.haoligo.equipment.patrolRoutes.formNamePh': '如 A 线早班巡检',
   'app.haoligo.equipment.patrolRoutes.formNameReq': '请输入路线名称',
   'app.haoligo.equipment.patrolRoutes.formWorkshop': '关联车间',
-  'app.haoligo.equipment.patrolRoutes.workshopEmptyHint': '暂无车间，请先在主数据 → 厂区数据 → 车间中维护并启用',
-  'app.haoligo.equipment.patrolRoutes.workshopReuseHint': '同一路线仅选一个车间；多条路线可关联同一车间',
+  'app.haoligo.equipment.patrolRoutes.workshopEmptyHint':
+    '暂无车间，请先在主数据 → 厂区数据 → 车间中维护并启用',
+  'app.haoligo.equipment.patrolRoutes.workshopReuseHint':
+    '同一路线仅选一个车间；多条路线可关联同一车间',
   'app.haoligo.equipment.patrolRoutes.loadStepsFailed': '加载步骤失败',
   'app.haoligo.equipment.patrolRoutes.stepColSeq': '顺序',
   'app.haoligo.equipment.patrolRoutes.stepColEquipment': '设备',
@@ -3148,18 +3255,23 @@ export default {
   'app.haoligo.equipment.patrolRoutes.moveUp': '上移',
   'app.haoligo.equipment.patrolRoutes.moveDown': '下移',
   'app.haoligo.equipment.patrolRoutes.stepDelete': '删除',
-  'app.haoligo.equipment.patrolRoutes.stepWarnPickOrRemove': '请为每一行选择设备，或删除空行后再保存',
-  'app.haoligo.equipment.patrolRoutes.stepErrDuplicateEquipment': '同一路线中不能重复选择同一台设备',
+  'app.haoligo.equipment.patrolRoutes.stepWarnPickOrRemove':
+    '请为每一行选择设备，或删除空行后再保存',
+  'app.haoligo.equipment.patrolRoutes.stepErrDuplicateEquipment':
+    '同一路线中不能重复选择同一台设备',
   'app.haoligo.equipment.patrolRoutes.stepsSaved': '步骤已保存',
   'app.haoligo.equipment.patrolRoutes.drawerTitle': '编辑步骤',
   'app.haoligo.equipment.patrolRoutes.drawerTitleWithRoute': '编辑步骤：{{code}} · {{name}}',
   'app.haoligo.equipment.patrolRoutes.addStep': '添加步骤',
   'app.haoligo.equipment.patrolRoutes.saveSteps': '保存步骤',
-  'app.haoligo.equipment.patrolRoutes.drawerHint': '按现场行走顺序排列设备；保存时将覆盖服务器上的步骤列表。设备来自「设备台账」。',
-  'app.haoligo.equipment.patrolRoutes.syncMobilePlaceholder': '与移动端模板同步能力接入后将在此执行；已刷新列表。',
+  'app.haoligo.equipment.patrolRoutes.drawerHint':
+    '按现场行走顺序排列设备；保存时将覆盖服务器上的步骤列表。设备来自「设备台账」。',
+  'app.haoligo.equipment.patrolRoutes.syncMobilePlaceholder':
+    '与移动端模板同步能力接入后将在此执行；已刷新列表。',
   'app.haoligo.equipment.patrolRoutes.editorTitleNew': '新建巡检路线',
   'app.haoligo.equipment.patrolRoutes.editorTitleEdit': '编辑巡检路线 · {{code}}',
-  'app.haoligo.equipment.patrolRoutes.hintEditorShort': '在同一窗口维护路线头与设备顺序；新建保存时将路线与步骤一并写入服务器。',
+  'app.haoligo.equipment.patrolRoutes.hintEditorShort':
+    '在同一窗口维护路线头与设备顺序；新建保存时将路线与步骤一并写入服务器。',
   'app.haoligo.equipment.patrolRoutes.sectionSequence': '巡检设备顺序',
   'app.haoligo.equipment.patrolRoutes.btnAddEquipment': '添加设备',
   'app.haoligo.equipment.patrolRoutes.emptySequence': '暂无设备，请点击「添加设备」',
@@ -3169,7 +3281,8 @@ export default {
   'app.haoligo.equipment.patrolRoutes.actionEditRoute': '编辑路线',
   'app.haoligo.equipment.patrolRoutes.addEquipmentTitle': '添加巡检设备',
   'app.haoligo.equipment.patrolRoutes.pickEquipment': '请选择设备',
-  'app.haoligo.equipment.patrolRoutes.noEquipmentToAdd': '暂无可添加的设备（已全部加入或请先维护设备台账）',
+  'app.haoligo.equipment.patrolRoutes.noEquipmentToAdd':
+    '暂无可添加的设备（已全部加入或请先维护设备台账）',
   'app.haoligo.equipment.patrolRoutes.linkEquipmentLedger': '维护设备台账',
   'app.haoligo.menu.equipment.ledger': '设备台账',
   'app.haoligo.menu.equipment.patrol-routes': '巡检路线',
@@ -3195,7 +3308,8 @@ export default {
   'app.haoligo.equipment.documents.acceptance.workflow.closed': '已结案',
   'app.haoligo.equipment.documents.acceptance.modalCreate': '新建设备验收单',
   'app.haoligo.equipment.documents.acceptance.modalView': '设备验收单详情',
-  'app.haoligo.equipment.documents.acceptance.mobileHint': '试产提交、多轮调试等操作请在手机 APP 完成。',
+  'app.haoligo.equipment.documents.acceptance.mobileHint':
+    '试产提交、多轮调试等操作请在手机 APP 完成。',
   'app.haoligo.equipment.documents.acceptance.roundTitle': '第 {{round}} 轮',
   'app.haoligo.equipment.documents.acceptance.colPassRate': '合格率',
   'app.haoligo.equipment.documents.acceptance.colCommissioningContent': '调试内容',
@@ -3217,7 +3331,8 @@ export default {
   'app.haoligo.equipment.documents.acceptance.commissioningContentPh': '可选',
   'app.haoligo.equipment.documents.acceptance.commissioningContentPhRequired': '第2轮起必填',
   'app.haoligo.equipment.documents.acceptance.commissioningPassRequired': '请先选择调试结果为合格',
-  'app.haoligo.equipment.documents.acceptance.commissioningContentRequired': '第2轮起请填写调试内容',
+  'app.haoligo.equipment.documents.acceptance.commissioningContentRequired':
+    '第2轮起请填写调试内容',
   'app.haoligo.equipment.documents.acceptance.saveCommissioning': '保存调试',
   'app.haoligo.equipment.documents.acceptance.actionCommissioning': '调试',
   'app.haoligo.equipment.documents.acceptance.actionTrial': '试产',
@@ -3232,7 +3347,8 @@ export default {
   'app.haoligo.equipment.documents.acceptance.finalizeLedger': '台账结案',
   'app.haoligo.equipment.documents.acceptance.ledgerSuccess': '台账已处理',
   'app.haoligo.equipment.documents.acceptance.ledgerLinkRequired': '请选择要关联的设备',
-  'app.haoligo.equipment.documents.acceptance.ledgerCategoryWorkshopRequired': '请选择设备类别与车间',
+  'app.haoligo.equipment.documents.acceptance.ledgerCategoryWorkshopRequired':
+    '请选择设备类别与车间',
   'app.haoligo.equipment.documents.acceptance.ledgerMode': '方式',
   'app.haoligo.equipment.documents.acceptance.ledgerModeCreate': '创建台账',
   'app.haoligo.equipment.documents.acceptance.ledgerModeLink': '关联已有设备',
@@ -3263,7 +3379,8 @@ export default {
   'app.haoligo.equipment.statusBoard.shutdownDuration': '停机 {{duration}}',
   'app.haoligo.menu.equipment.reports.capacity': '产能查询',
   'app.haoligo.menu.equipment.reports.maintenance-plan': '设备保养计划表',
-  'app.haoligo.equipment.reports.capacity.lead': '数据口径：设备产出单；可按时间、设备、制令单号筛选',
+  'app.haoligo.equipment.reports.capacity.lead':
+    '数据口径：设备产出单；可按时间、设备、制令单号筛选',
   'app.haoligo.equipment.reports.capacity.kpiRecords': '产出单数',
   'app.haoligo.equipment.reports.capacity.kpiPlanned': '计划数量合计',
   'app.haoligo.equipment.reports.capacity.kpiCompleted': '完成数量合计',
@@ -3292,8 +3409,10 @@ export default {
   'app.haoligo.equipment.documents.actionDelete': '删除',
   'app.haoligo.equipment.documents.deleteConfirm': '确定删除该单据吗？',
   'app.haoligo.equipment.documents.batchDeleteTitle': '确定要批量删除选中的状态调整单吗？',
-  'app.haoligo.equipment.documents.batchDeleteDescription': '将删除 {{count}} 条记录，删除后无法恢复，请谨慎操作。',
-  'app.haoligo.equipment.documents.batchDeletePartial': '删除完成：成功 {{done}} 条，失败 {{fail}} 条',
+  'app.haoligo.equipment.documents.batchDeleteDescription':
+    '将删除 {{count}} 条记录，删除后无法恢复，请谨慎操作。',
+  'app.haoligo.equipment.documents.batchDeletePartial':
+    '删除完成：成功 {{done}} 条，失败 {{fail}} 条',
   'app.haoligo.equipment.documents.statusAdjColOldStatus': '调整前状态',
   'app.haoligo.equipment.documents.statusAdjColNewStatus': '调整后状态',
   'app.haoligo.equipment.documents.statusAdjCurrentStatus': '当前状态',
@@ -3335,17 +3454,23 @@ export default {
   'app.haoligo.equipment.documents.spotCheckPreviewBtn': '预览方案行',
   'app.haoligo.equipment.documents.spotCheckSelectEquipmentFirst': '请先选择设备',
   'app.haoligo.equipment.documents.spotCheckPlanPickerTitle': '选择点检方案',
-  'app.haoligo.equipment.documents.spotCheckPlanPickerHint': '该设备绑定了多个点检方案，请选择本次点检使用的方案。',
+  'app.haoligo.equipment.documents.spotCheckPlanPickerHint':
+    '该设备绑定了多个点检方案，请选择本次点检使用的方案。',
   'app.haoligo.equipment.documents.spotCheckPlanPickerRequired': '请选择点检方案',
-  'app.haoligo.equipment.ledger.formPlanMultiple': '可选；未绑定时开点检单需手动选择方案；绑定多个时将弹出选择',
+  'app.haoligo.equipment.ledger.formPlanMultiple':
+    '可选；未绑定时开点检单需手动选择方案；绑定多个时将弹出选择',
   'app.haoligo.equipment.documents.spotCheckPreviewOk': '预览已更新',
-  'app.haoligo.equipment.documents.spotCheckPreviewHint': '当前预览方案：{{code}} {{name}}（创建后将按此行结构生成点检明细）',
+  'app.haoligo.equipment.documents.spotCheckPreviewHint':
+    '当前预览方案：{{code}} {{name}}（创建后将按此行结构生成点检明细）',
   'app.haoligo.equipment.documents.spotCheckRequiredResult': '必检项「{{name}}」请选择正常或异常',
   'app.haoligo.equipment.documents.spotCheckAbnormalRemark': '项「{{name}}」为异常时请填写备注说明',
-  'app.haoligo.equipment.documents.spotCheckAbnormalDescRequired': '项「{{name}}」为异常时请填写异常描述',
-  'app.haoligo.equipment.documents.spotCheckAutoLoadedHint': '已带出 {{count}} 项点检明细（{{plan}}）',
+  'app.haoligo.equipment.documents.spotCheckAbnormalDescRequired':
+    '项「{{name}}」为异常时请填写异常描述',
+  'app.haoligo.equipment.documents.spotCheckAutoLoadedHint':
+    '已带出 {{count}} 项点检明细（{{plan}}）',
   'app.haoligo.equipment.documents.formInspectionPlanShort': '点检方案',
-  'app.haoligo.equipment.documents.formInspectionPlanTooltip': '未在台账绑定方案时须在此选择；已绑定单个方案时将自动带出，多个绑定时可改选',
+  'app.haoligo.equipment.documents.formInspectionPlanTooltip':
+    '未在台账绑定方案时须在此选择；已绑定单个方案时将自动带出，多个绑定时可改选',
   'app.haoligo.equipment.documents.spotCheckHandlingGroup': '设备状态',
   'app.haoligo.equipment.documents.spotCheckReportGroup': '上报',
   'app.haoligo.equipment.documents.formAppliedOperationalStatus': '调整后运行状态',
@@ -3387,12 +3512,15 @@ export default {
   'app.haoligo.equipment.documents.colReportRequired': '需上报',
   'app.haoligo.equipment.documents.yes': '是',
   'app.haoligo.equipment.documents.no': '否',
-  'app.haoligo.equipment.documents.routePatrolCreatedFillLines': '已创建，请填写各设备巡检结果后保存',
+  'app.haoligo.equipment.documents.routePatrolCreatedFillLines':
+    '已创建，请填写各设备巡检结果后保存',
   'app.haoligo.equipment.documents.routePatrolLinesTitle': '路线设备',
   'app.haoligo.equipment.documents.routePatrolNoSteps': '该路线下没有设备步骤，无法巡检',
   'app.haoligo.equipment.documents.routePatrolSelectRouteFirst': '请选择巡检路线以加载设备列表',
-  'app.haoligo.equipment.documents.routePatrolAutoLoadedHint': '已带出 {{count}} 台设备（{{route}} · 车间 {{workshop}}）',
-  'app.haoligo.equipment.documents.routePatrolAbnormalDescRequired': '设备「{{name}}」异常时请填写异常说明',
+  'app.haoligo.equipment.documents.routePatrolAutoLoadedHint':
+    '已带出 {{count}} 台设备（{{route}} · 车间 {{workshop}}）',
+  'app.haoligo.equipment.documents.routePatrolAbnormalDescRequired':
+    '设备「{{name}}」异常时请填写异常说明',
   'app.haoligo.equipment.documents.colSequence': '顺序',
   'app.haoligo.equipment.documents.colEquipmentCode': '设备代号',
   'app.haoligo.equipment.documents.colEquipmentName': '设备名称',
@@ -3460,7 +3588,8 @@ export default {
   'app.haoligo.equipment.upkeepComplete.beforeStrip': '来源维保单 — 保养前附件',
   'app.haoligo.equipment.upkeepComplete.sourceDesc': '来源保养要求',
   'app.haoligo.equipment.upkeepComplete.noneOpen': '暂无可确认完成的设备维保单',
-  'app.haoligo.equipment.upkeepComplete.noneOpenDesc': '请先创建设备维保单且尚未登记维保完成单后再新增。',
+  'app.haoligo.equipment.upkeepComplete.noneOpenDesc':
+    '请先创建设备维保单且尚未登记维保完成单后再新增。',
   'app.haoligo.equipment.upkeepComplete.sourceRequired': '请选择来源维保单',
   'app.haoligo.equipment.upkeepComplete.confirmDeleteContent': '确定删除该设备维保完成单吗？',
   'app.haoligo.equipment.upkeepComplete.pickModalTitle': '选择来源维保单',
@@ -3482,12 +3611,14 @@ export default {
   'app.haoligo.equipment.documents.outputPrefillInlineBtn': '带出',
   'app.haoligo.equipment.documents.outputPrefillOk': '已从数据集带出字段',
   'app.haoligo.equipment.documents.outputDatasetBindingTitle': '设备产出单 · 数据集关联',
-  'app.haoligo.equipment.documents.outputDatasetBindingNeedConfig': '请先在列表工具栏点击「数据集」配置数据集与制令单号参数名',
+  'app.haoligo.equipment.documents.outputDatasetBindingNeedConfig':
+    '请先在列表工具栏点击「数据集」配置数据集与制令单号参数名',
   'app.haoligo.equipment.documents.outputDatasetBindingHintTitle': '说明',
   'app.haoligo.equipment.documents.outputDatasetLoadColumns': '加载列名（自动解析，无需探测单号）',
   'app.haoligo.equipment.documents.outputDatasetLoadColumnsOk': '已加载 {{count}} 个列',
   'app.haoligo.equipment.documents.outputDatasetLoadColumnsEmpty': '未能解析出列名',
-  'app.haoligo.equipment.documents.outputDatasetParamRequired': '请选择或填写与 SQL 占位符一致的参数名',
+  'app.haoligo.equipment.documents.outputDatasetParamRequired':
+    '请选择或填写与 SQL 占位符一致的参数名',
   'app.haoligo.equipment.documents.outputDatasetParamPh': '下拉选择参数名，或直接输入',
   'app.haoligo.equipment.documents.outputDatasetParamSaved': '已保存',
   'app.haoligo.equipment.documents.outputWorkOrderRequired': '请先填写制令单号',
@@ -3519,8 +3650,10 @@ export default {
   'app.haoligo.equipment.importNoRows': '没有可导入的有效数据（请检查必填列是否完整）',
   'app.haoligo.equipment.importSuccess': '成功导入 {{count}} 条',
   'app.haoligo.equipment.importPartialFail': '部分失败 {{count}} 条',
-  'app.haoligo.equipment.syncPlaceholder': '与 ERP / 主数据同步能力接入后将在此执行；已刷新当前列表。',
-  'app.haoligo.equipment.categories.intro': '维护设备类别及默认点检方案；二级分类对应原类别名称，一级分类可选；新建台账时若未指定方案，可按类别默认解析。',
+  'app.haoligo.equipment.syncPlaceholder':
+    '与 ERP / 主数据同步能力接入后将在此执行；已刷新当前列表。',
+  'app.haoligo.equipment.categories.intro':
+    '维护设备类别及默认点检方案；二级分类对应原类别名称，一级分类可选；新建台账时若未指定方案，可按类别默认解析。',
   'app.haoligo.equipment.categories.colCode': '类别编码',
   'app.haoligo.equipment.categories.colLevel1': '一级分类',
   'app.haoligo.equipment.categories.colLevel2': '二级分类',
@@ -3673,8 +3806,10 @@ export default {
   'app.haoligo.quality.workOrder.datasetBindingTitle': '品质制令单 · ERP 数据集关联',
   'app.haoligo.quality.workOrder.datasetSelect': '数据集',
   'app.haoligo.quality.workOrder.datasetSelectPh': '选择 ERP 制令单查询数据集',
-  'app.haoligo.quality.workOrder.datasetBindingNeedConfig': '请先在列表工具栏点击「数据集」配置制令单号参数与列映射',
-  'app.haoligo.quality.workOrder.datasetParamRequired': '请选择或填写与 SQL 占位符一致的制令单号参数名',
+  'app.haoligo.quality.workOrder.datasetBindingNeedConfig':
+    '请先在列表工具栏点击「数据集」配置制令单号参数与列映射',
+  'app.haoligo.quality.workOrder.datasetParamRequired':
+    '请选择或填写与 SQL 占位符一致的制令单号参数名',
   'app.haoligo.quality.workOrder.datasetIntro':
     '配置后，在登记弹窗输入制令单号并点「带出」，将按参数查询 ERP 数据集并写入车间、产线、设备、模具、物料号、型号等字段（车间/设备按本系统名称或编号匹配）；各字段仍可手工修改。',
   'app.haoligo.quality.workOrder.scanTooltip':
@@ -3705,7 +3840,8 @@ export default {
   'app.haoligo.patrol.reports.axisPerson': '人员',
   'app.haoligo.patrol.reports.axisCategory': '类别',
   'app.haoligo.patrol.reports.axisSeries': '系列',
-  'app.haoligo.patrol.reports.keywordCloudHint': '字号与词频正相关：字体越大，表示该词在问题描述中出现次数越多。',
+  'app.haoligo.patrol.reports.keywordCloudHint':
+    '字号与词频正相关：字体越大，表示该词在问题描述中出现次数越多。',
   'app.haoligo.patrol.reports.chartTitle.issueTypeShare': '问题类型分布',
   'app.haoligo.patrol.reports.chartDesc.issueTypeShare':
     '按系统维护的问题类型统计占比，用于识别高发类型并指导检查要点与培训重点。',
@@ -3807,11 +3943,13 @@ export default {
   'app.kuaizhizao.workReporting.quantityMustBePositive': '报工数量须大于 0',
   'app.kuaizhizao.workReporting.createSuccess': '报工成功',
   'app.kuaizhizao.workReporting.createFailed': '报工失败',
-  'app.kuaizhizao.workReporting.noUnqualifiedForScrap': '该报工记录没有不合格数量，无法创建报废记录',
+  'app.kuaizhizao.workReporting.noUnqualifiedForScrap':
+    '该报工记录没有不合格数量，无法创建报废记录',
   'app.kuaizhizao.workReporting.recordNotFound': '报工记录信息不存在',
   'app.kuaizhizao.workReporting.scrapCreateSuccess': '报废记录创建成功',
   'app.kuaizhizao.workReporting.scrapCreateFailed': '创建报废记录失败',
-  'app.kuaizhizao.workReporting.noUnqualifiedForDefect': '该报工记录没有不合格数量，无法创建不良品记录',
+  'app.kuaizhizao.workReporting.noUnqualifiedForDefect':
+    '该报工记录没有不合格数量，无法创建不良品记录',
   'app.kuaizhizao.workReporting.defectCreateSuccess': '不良品记录创建成功',
   'app.kuaizhizao.workReporting.defectCreateFailed': '创建不良品记录失败',
   'app.kuaizhizao.workReporting.loadDetailFailed': '获取报工记录详情失败',
@@ -3822,10 +3960,12 @@ export default {
   'app.kuaizhizao.workReporting.listLoadFailed': '获取报工记录失败',
   'app.kuaizhizao.workReporting.correct': '修正',
   'app.kuaizhizao.workReporting.confirmDeleteTitle': '确认删除',
-  'app.kuaizhizao.workReporting.confirmDeletePendingContent': '确定要删除这条待审核的报工记录吗？删除后将扣减工单/工序相应的完成数量。',
+  'app.kuaizhizao.workReporting.confirmDeletePendingContent':
+    '确定要删除这条待审核的报工记录吗？删除后将扣减工单/工序相应的完成数量。',
   'app.kuaizhizao.workReporting.confirmDeleteRejectedContent': '确定要删除这条被驳回的报工记录吗？',
   'app.kuaizhizao.workReporting.confirmRevokeTitle': '确认撤回审核',
-  'app.kuaizhizao.workReporting.confirmRevokeContent': '撤回审核后，该报工记录将变为"待审核"状态，且不再计入工单已完成数量。确定要撤回吗？',
+  'app.kuaizhizao.workReporting.confirmRevokeContent':
+    '撤回审核后，该报工记录将变为"待审核"状态，且不再计入工单已完成数量。确定要撤回吗？',
   'app.kuaizhizao.workReporting.revokeSuccess': '已撤回审核',
   'app.kuaizhizao.workReporting.revokeFailed': '撤回失败',
   'app.kuaizhizao.workReporting.revokeReview': '撤回审核',
@@ -3833,7 +3973,8 @@ export default {
   'app.kuaizhizao.workReporting.scrap': '报废',
   'app.kuaizhizao.workReporting.batchRevoke': '批量撤回审核',
   'app.kuaizhizao.workReporting.confirmBatchRevokeTitle': '确认批量撤回审核',
-  'app.kuaizhizao.workReporting.confirmBatchRevokeContent': '确定要撤回选中的 {{count}} 条报工记录的审核吗？只有"已审核"状态的记录会被执行。',
+  'app.kuaizhizao.workReporting.confirmBatchRevokeContent':
+    '确定要撤回选中的 {{count}} 条报工记录的审核吗？只有"已审核"状态的记录会被执行。',
   'app.kuaizhizao.workReporting.batchRevokeSuccess': '成功撤回 {{count}} 条记录审核',
   'app.kuaizhizao.workReporting.batchRevokePartialFailed': '{{count}} 条记录操作失败',
   'app.kuaizhizao.workReporting.batchRevokeFailed': '批量撤回失败',
@@ -3869,7 +4010,8 @@ export default {
   'app.kuaizhizao.workReporting.formOperationPlaceholder': '请选择工序',
   'app.kuaizhizao.workReporting.formOperationSelectWorkOrderFirst': '请先选择工单',
   'app.kuaizhizao.workReporting.formProxyWorker': '生产人员',
-  'app.kuaizhizao.workReporting.formProxyWorkerPlaceholder': '选择实际完成报工的生产人员（不选则按派工/本人默认）',
+  'app.kuaizhizao.workReporting.formProxyWorkerPlaceholder':
+    '选择实际完成报工的生产人员（不选则按派工/本人默认）',
   'app.kuaizhizao.workReporting.formRecordedByLogin': '记录人员（本次登录）：{{name}}',
   'app.kuaizhizao.workReporting.formCompletedStatus': '完成状态',
   'app.kuaizhizao.workReporting.formCompletedStatusRequired': '请选择完成状态',
@@ -4174,9 +4316,12 @@ export default {
   'app.kuaizhizao.salesOrderChange.batchSubmitSuccess': '已提交 {{count}} 条销售变更单',
   'app.kuaizhizao.salesOrderChange.batchSubmitPartial': '{{count}} 条提交失败（仅草稿可提交）',
   'app.kuaizhizao.salesOrderChange.batchSubmit': '批量提交',
-  'app.kuaizhizao.salesOrderChange.batchSubmitNotAllowed': '当前选中变更单不可批量提交（仅草稿且有变更内容可提交）。',
-  'app.kuaizhizao.salesOrderChange.batchApproveNotAllowed': '当前选中变更单不可批量审核（仅待审核可操作）。',
-  'app.kuaizhizao.salesOrderChange.batchWithdrawNotAllowed': '当前选中变更单不可批量撤回（仅待审核可撤回）。',
+  'app.kuaizhizao.salesOrderChange.batchSubmitNotAllowed':
+    '当前选中变更单不可批量提交（仅草稿且有变更内容可提交）。',
+  'app.kuaizhizao.salesOrderChange.batchApproveNotAllowed':
+    '当前选中变更单不可批量审核（仅待审核可操作）。',
+  'app.kuaizhizao.salesOrderChange.batchWithdrawNotAllowed':
+    '当前选中变更单不可批量撤回（仅待审核可撤回）。',
   'app.kuaizhizao.salesOrderChange.selectToApprove': '请先选择需要审核的记录',
   'app.kuaizhizao.salesOrderChange.batchApproveSuccess': '已审核 {{count}} 条销售变更单',
   'app.kuaizhizao.salesOrderChange.batchApprovePartial': '{{count}} 条审核失败（仅待审核可操作）',
@@ -4218,14 +4363,16 @@ export default {
   'app.kuaizhizao.purchaseOrderChange.selectToDelete': '请先选择需要删除的记录',
   'app.kuaizhizao.purchaseOrderChange.batchDeleteSuccess': '已删除 {{count}} 条采购变更单',
   'app.kuaizhizao.purchaseOrderChange.batchDeletePartial': '{{count}} 条删除失败（仅草稿可删除）',
-  'app.kuaizhizao.purchaseOrderChange.confirmBatchDelete': '确认删除选中的 {{count}} 条采购变更单？',
+  'app.kuaizhizao.purchaseOrderChange.confirmBatchDelete':
+    '确认删除选中的 {{count}} 条采购变更单？',
   'app.kuaizhizao.purchaseOrderChange.selectToSubmit': '请先选择需要提交的记录',
   'app.kuaizhizao.purchaseOrderChange.batchSubmitSuccess': '已提交 {{count}} 条采购变更单',
   'app.kuaizhizao.purchaseOrderChange.batchSubmitPartial': '{{count}} 条提交失败（仅草稿可提交）',
   'app.kuaizhizao.purchaseOrderChange.batchSubmit': '批量提交',
   'app.kuaizhizao.purchaseOrderChange.selectToApprove': '请先选择需要审核的记录',
   'app.kuaizhizao.purchaseOrderChange.batchApproveSuccess': '已审核 {{count}} 条采购变更单',
-  'app.kuaizhizao.purchaseOrderChange.batchApprovePartial': '{{count}} 条审核失败（仅待审核可操作）',
+  'app.kuaizhizao.purchaseOrderChange.batchApprovePartial':
+    '{{count}} 条审核失败（仅待审核可操作）',
   'app.kuaizhizao.purchaseOrderChange.batchApprove': '批量审核通过',
   'app.kuaizhizao.purchaseOrderChange.selectToWithdraw': '请先选择需要撤回的记录',
   'app.kuaizhizao.purchaseOrderChange.batchWithdrawSuccess': '已撤回 {{count}} 条采购变更单',
@@ -4254,7 +4401,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.selectAwardQuote': '请选择定标报价',
   'app.kuaizhizao.purchaseInquiry.awardSuccess': '定标成功',
   'app.kuaizhizao.purchaseInquiry.pushPurchaseOrder': '下推采购订单',
-  'app.kuaizhizao.purchaseInquiry.pushPurchaseOrderConfirm': '将按定标供应商自动生成采购订单，是否继续？',
+  'app.kuaizhizao.purchaseInquiry.pushPurchaseOrderConfirm':
+    '将按定标供应商自动生成采购订单，是否继续？',
   'app.kuaizhizao.purchaseInquiry.purchaseOrdersGenerated': '已生成 {{count}} 张采购订单',
   'app.kuaizhizao.purchaseInquiry.loadRequisitionsFailed': '加载采购申请列表失败',
   'app.kuaizhizao.purchaseInquiry.selectRequisitionLinesFirst': '请先选择采购申请明细',
@@ -4297,7 +4445,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.selectVendorTitle': '选择供应商',
   'app.kuaizhizao.purchaseInquiry.searchVendorPlaceholder': '搜索并选择供应商（可多选）',
   'app.kuaizhizao.purchaseInquiry.noAvailableVendors': '暂无可选供应商（可能已全部添加）',
-  'app.kuaizhizao.purchaseInquiry.noSuppliersHint': '没有可用的供应商，请先在「供应商档案」中维护供应商。',
+  'app.kuaizhizao.purchaseInquiry.noSuppliersHint':
+    '没有可用的供应商，请先在「供应商档案」中维护供应商。',
   'app.kuaizhizao.purchaseInquiry.selectSuppliersFirst': '请选择要添加的供应商',
   'app.kuaizhizao.purchaseInquiry.suppliersAlreadyAdded': '所选供应商均已添加',
   'app.kuaizhizao.purchaseInquiry.vendorsAdded': '已添加 {{count}} 家供应商',
@@ -4312,7 +4461,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.compareAward': '比价定标',
   'app.kuaizhizao.purchaseInquiry.source': '来源',
   'app.kuaizhizao.purchaseInquiry.hintAfterPublish': '发布询价后，请在此逐行录入各供应商报价。',
-  'app.kuaizhizao.purchaseInquiry.hintQuoting': '请逐行选择供应商，点击「在此录入报价」填写单价与交期。',
+  'app.kuaizhizao.purchaseInquiry.hintQuoting':
+    '请逐行选择供应商，点击「在此录入报价」填写单价与交期。',
   'app.kuaizhizao.purchaseInquiry.quoteStatus': '报价状态',
   'app.kuaizhizao.purchaseInquiry.quoted': '已报价',
   'app.kuaizhizao.purchaseInquiry.pendingQuote': '待报价',
@@ -4336,11 +4486,13 @@ export default {
   'app.kuaizhizao.purchaseInquiry.promisedDeliveryDate': '承诺交期',
   'app.kuaizhizao.purchaseInquiry.quoteNotesPlaceholder': '可填写报价说明、付款条件等',
   'app.kuaizhizao.purchaseInquiry.compareAwardTitle': '比价定标',
-  'app.kuaizhizao.purchaseInquiry.compareAwardHint': '绿色「最低」为系统推荐；点击价格按钮选定本条物料的中标报价（选中后显示勾选）。',
+  'app.kuaizhizao.purchaseInquiry.compareAwardHint':
+    '绿色「最低」为系统推荐；点击价格按钮选定本条物料的中标报价（选中后显示勾选）。',
   'app.kuaizhizao.purchaseInquiry.supplierFallback': '供应商{{index}}',
   'app.kuaizhizao.purchaseInquiry.lowest': '最低',
   'app.kuaizhizao.purchaseInquiry.createInquiryOk': '创建询价单',
-  'app.kuaizhizao.purchaseInquiry.searchRequisitionPlaceholder': '搜索采购申请明细（申请单号/申请名称）',
+  'app.kuaizhizao.purchaseInquiry.searchRequisitionPlaceholder':
+    '搜索采购申请明细（申请单号/申请名称）',
   'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionLines': '暂无可选采购申请明细',
   'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionSearchResults': '未找到匹配采购申请明细',
   'app.kuaizhizao.purchaseInquiry.colRequisitionCode': '申请单号',
@@ -4351,7 +4503,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.colConvertStatus': '转单状态',
   'app.kuaizhizao.purchaseInquiry.convertedToPurchaseOrder': '已转采购订单#{{id}}',
   'app.kuaizhizao.purchaseInquiry.eligibleForInquiry': '可询价',
-  'app.kuaizhizao.purchaseInquiry.pullSelectionHint': '已选择 {{count}} 条明细，同一采购申请将合并创建一张询价单。',
+  'app.kuaizhizao.purchaseInquiry.pullSelectionHint':
+    '已选择 {{count}} 条明细，同一采购申请将合并创建一张询价单。',
   'app.kuaizhizao.orderChange.impactTitle': '变更影响预览',
   'app.kuaizhizao.orderChange.blockingTitle': '存在阻断项',
   'app.kuaizhizao.orderChange.recommendedActions': '建议操作',
@@ -4367,7 +4520,8 @@ export default {
   'app.kuaizhizao.orderChange.loadSalesOrdersFailed': '加载销售订单失败',
   'app.kuaizhizao.orderChange.loadPurchaseOrdersFailed': '加载采购订单失败',
   'app.kuaizhizao.orderChange.selectOrderTitle': '选择{{orderLabel}}',
-  'app.kuaizhizao.orderChange.searchOrderPlaceholder': '搜索{{orderLabel}}（单号/{{partnerLabel}}）',
+  'app.kuaizhizao.orderChange.searchOrderPlaceholder':
+    '搜索{{orderLabel}}（单号/{{partnerLabel}}）',
   'app.kuaizhizao.orderChange.search': '搜索',
   'app.kuaizhizao.orderChange.emptyNoEligibleOrders': '暂无可变更的{{orderLabel}}',
   'app.kuaizhizao.orderChange.emptyNoSearchResults': '未找到可变更的{{orderLabel}}',
@@ -4414,8 +4568,7 @@ export default {
   'app.kuaizhizao.agileQuoting.adviceTitle': '核价建议：',
   'app.kuaizhizao.agileQuoting.adviceContent':
     '当前产品材料成本占比为 {{ratio}}%。近期原材料价格波动较大，建议在报价单中增加"有效期"条款（建议 7 天）。',
-  'app.kuaizhizao.agileQuoting.noData':
-    '未找到核价数据，请确保产品已配置 BOM 和工艺路线。',
+  'app.kuaizhizao.agileQuoting.noData': '未找到核价数据，请确保产品已配置 BOM 和工艺路线。',
   'app.kuaizhizao.quotation.title': '报价单',
   'app.kuaizhizao.quotation.entityName': '报价单',
   'app.kuaizhizao.quotation.colCustomerQuotation': '客户 / 报价单',
@@ -4438,7 +4591,8 @@ export default {
   'app.kuaizhizao.quotation.alreadyLinkedContract': '该报价单已关联销售合同，请从合同下推销售订单',
   'app.kuaizhizao.quotation.alreadyLinkedSalesOrder': '该报价单已关联销售订单，无法重复下推',
   'app.kuaizhizao.quotation.historyVersionPushHint': '此为历史修订版，请从系列最新版下推',
-  'app.kuaizhizao.quotation.pushBlockedStatus': '当前状态「{{status}}」不可下推，请先提交并完成审核或客户确认',
+  'app.kuaizhizao.quotation.pushBlockedStatus':
+    '当前状态「{{status}}」不可下推，请先提交并完成审核或客户确认',
   'app.kuaizhizao.quotation.customerConfirm': '客户确认',
   'app.kuaizhizao.quotation.reopenEdit': '重新编辑',
   'app.kuaizhizao.quotation.revokePush': '撤回下推',
@@ -4534,8 +4688,10 @@ export default {
   'app.kuaizhizao.salesContract.sourceQuotation': '来源报价',
   'app.kuaizhizao.salesContract.contractItems': '产品明细',
   'app.kuaizhizao.salesContract.itemsRequired': '请至少添加一条有效合同明细',
-  'app.kuaizhizao.salesContract.lineMaterialMissing': '明细行缺少产品编号、名称或单位，请重新选择产品',
-  'app.kuaizhizao.salesContract.milestonePlannedDateRequired': '收款节点已填写名称时，须同时选择计划日期',
+  'app.kuaizhizao.salesContract.lineMaterialMissing':
+    '明细行缺少产品编号、名称或单位，请重新选择产品',
+  'app.kuaizhizao.salesContract.milestonePlannedDateRequired':
+    '收款节点已填写名称时，须同时选择计划日期',
   'app.kuaizhizao.salesContract.noImportPermission': '无导入权限',
   'app.kuaizhizao.salesContract.restoredDraft': '已恢复暂存内容',
   'app.kuaizhizao.salesContract.loadContractFailed': '加载合同失败',
@@ -4546,7 +4702,8 @@ export default {
   'app.kuaizhizao.salesContract.saveDraftFailed': '保存草稿失败',
   'app.kuaizhizao.salesContract.createFailed': '创建销售合同失败',
   'app.kuaizhizao.salesContract.deleteTitle': '删除销售合同',
-  'app.kuaizhizao.salesContract.deleteDraftConfirm': '确定删除草稿合同「{{code}}」？此操作不可恢复。',
+  'app.kuaizhizao.salesContract.deleteDraftConfirm':
+    '确定删除草稿合同「{{code}}」？此操作不可恢复。',
   'app.kuaizhizao.salesContract.deleted': '已删除',
   'app.kuaizhizao.salesContract.submitReview': '提交审核',
   'app.kuaizhizao.salesContract.submitReviewConfirm': '确定提交合同「{{code}}」？',
@@ -4557,21 +4714,26 @@ export default {
   'app.kuaizhizao.salesContract.batchDeleteSuccess': '已删除 {{count}} 条销售合同',
   'app.kuaizhizao.salesContract.batchDeletePartial': '{{count}} 条删除失败（仅草稿可删除）',
   'app.kuaizhizao.salesContract.batchDeleteConfirm': '确认删除选中的 {{count}} 条销售合同？',
-  'app.kuaizhizao.salesContract.batchDeleteNotAllowed': '当前选中合同不可批量删除（仅草稿可删除）。',
+  'app.kuaizhizao.salesContract.batchDeleteNotAllowed':
+    '当前选中合同不可批量删除（仅草稿可删除）。',
   'app.kuaizhizao.salesContract.batchSubmit': '批量提交',
-  'app.kuaizhizao.salesContract.batchSubmitNotAllowed': '当前选中合同不可批量提交（仅草稿可提交）。',
+  'app.kuaizhizao.salesContract.batchSubmitNotAllowed':
+    '当前选中合同不可批量提交（仅草稿可提交）。',
   'app.kuaizhizao.salesContract.batchSubmitSuccess': '已提交 {{count}} 条销售合同',
   'app.kuaizhizao.salesContract.batchSubmitPartial': '{{count}} 条提交失败（仅草稿可提交）',
   'app.kuaizhizao.salesContract.batchWithdraw': '批量撤回',
-  'app.kuaizhizao.salesContract.batchWithdrawNotAllowed': '当前选中合同不可批量撤回（仅待审核可撤回）。',
+  'app.kuaizhizao.salesContract.batchWithdrawNotAllowed':
+    '当前选中合同不可批量撤回（仅待审核可撤回）。',
   'app.kuaizhizao.salesContract.batchWithdrawSuccess': '已撤回 {{count}} 条销售合同',
   'app.kuaizhizao.salesContract.batchWithdrawPartial': '{{count}} 条撤回失败（仅待审核可撤回）',
   'app.kuaizhizao.salesContract.batchApprove': '批量审核',
-  'app.kuaizhizao.salesContract.batchApproveNotAllowed': '当前选中合同不可批量审核（仅待审核可操作）。',
+  'app.kuaizhizao.salesContract.batchApproveNotAllowed':
+    '当前选中合同不可批量审核（仅待审核可操作）。',
   'app.kuaizhizao.salesContract.batchApproveSuccess': '已审核 {{count}} 条销售合同',
   'app.kuaizhizao.salesContract.batchApprovePartial': '{{count}} 条审核失败（仅待审核可操作）',
   'app.kuaizhizao.salesContract.batchRevoke': '批量撤销审核',
-  'app.kuaizhizao.salesContract.batchRevokeNotAllowed': '当前选中合同不可批量撤销审核（仅已生效且无释放记录可撤销审核）。',
+  'app.kuaizhizao.salesContract.batchRevokeNotAllowed':
+    '当前选中合同不可批量撤销审核（仅已生效且无释放记录可撤销审核）。',
   'app.kuaizhizao.salesContract.batchRevokeSuccess': '已撤销审核 {{count}} 条销售合同',
   'app.kuaizhizao.salesContract.batchRevokePartial': '{{count}} 条撤销审核失败',
   'app.kuaizhizao.salesContract.closed': '合同已关闭',
@@ -4687,16 +4849,21 @@ export default {
   'app.kuaizhizao.quotation.confirmDelete': '确定要删除报价单 "{{code}}" 吗？',
   'app.kuaizhizao.quotation.batchDeleteSuccess': '已删除 {{count}} 条报价单',
   'app.kuaizhizao.quotation.batchOperationSuccess': '{{action}}成功：{{count}} 条',
-  'app.kuaizhizao.quotation.batchOperationPartial': '{{action}}完成：成功 {{success}} 条，失败 {{failed}} 条',
+  'app.kuaizhizao.quotation.batchOperationPartial':
+    '{{action}}完成：成功 {{success}} 条，失败 {{failed}} 条',
   'app.kuaizhizao.quotation.batchOperationFailed': '{{action}}失败',
   'app.kuaizhizao.quotation.batchApprove': '批量审核',
-  'app.kuaizhizao.quotation.batchApproveNotAllowed': '当前选中报价单不可批量审核（仅待审核可审核）。',
+  'app.kuaizhizao.quotation.batchApproveNotAllowed':
+    '当前选中报价单不可批量审核（仅待审核可审核）。',
   'app.kuaizhizao.quotation.batchSubmit': '批量提交',
-  'app.kuaizhizao.quotation.batchSubmitNotAllowed': '当前选中报价单不可批量提交（仅草稿或已驳回可提交）。',
+  'app.kuaizhizao.quotation.batchSubmitNotAllowed':
+    '当前选中报价单不可批量提交（仅草稿或已驳回可提交）。',
   'app.kuaizhizao.quotation.batchWithdraw': '批量撤回',
-  'app.kuaizhizao.quotation.batchWithdrawNotAllowed': '当前选中报价单不可批量撤回（仅待审核可撤回提交）。',
+  'app.kuaizhizao.quotation.batchWithdrawNotAllowed':
+    '当前选中报价单不可批量撤回（仅待审核可撤回提交）。',
   'app.kuaizhizao.quotation.batchRevoke': '批量撤销审核',
-  'app.kuaizhizao.quotation.batchRevokeNotAllowed': '当前选中报价单不可批量撤销审核（仅已审核通过可撤销审核）。',
+  'app.kuaizhizao.quotation.batchRevokeNotAllowed':
+    '当前选中报价单不可批量撤销审核（仅已审核通过可撤销审核）。',
   'app.kuaizhizao.quotation.batchConfirm': '批量确认',
   'app.kuaizhizao.quotation.batchConfirmCustomer': '批量客户确认',
   'app.kuaizhizao.quotation.batchConfirmCustomerConfirm':
@@ -4704,7 +4871,8 @@ export default {
   'app.kuaizhizao.quotation.syncSuccess': '已同步 {{count}} 条报价单',
   'app.kuaizhizao.quotation.importDataInvalid': '导入数据为空或格式不正确',
   'app.kuaizhizao.quotation.noImportRows': '没有可导入的数据行（请从第3行开始填写）',
-  'app.kuaizhizao.quotation.missingRequiredColumns': '缺少必需列：客户名称、报价日期、产品编号、数量',
+  'app.kuaizhizao.quotation.missingRequiredColumns':
+    '缺少必需列：客户名称、报价日期、产品编号、数量',
   'app.kuaizhizao.quotation.validation.customerRequired': '客户名称不能为空',
   'app.kuaizhizao.quotation.validation.dateRequired': '报价日期不能为空',
   'app.kuaizhizao.quotation.validation.materialRequired': '产品编号不能为空',
@@ -4799,7 +4967,8 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.welcomeTitle': '对话式录单',
   'app.kuaizhizao.salesOrder.aiCreate.welcomeDesc':
     '可直接描述订单，或上传单据图片识别。支持多轮补充，例如修改数量、追加明细后再次发送。',
-  'app.kuaizhizao.salesOrder.aiCreate.senderPlaceholder': '描述客户、产品与数量，或补充修改上一版识别结果…',
+  'app.kuaizhizao.salesOrder.aiCreate.senderPlaceholder':
+    '描述客户、产品与数量，或补充修改上一版识别结果…',
   'app.kuaizhizao.salesOrder.aiCreate.newChat': '新对话',
   'app.kuaizhizao.salesOrder.aiCreate.uploadImage': '上传单据图片',
   'app.kuaizhizao.salesOrder.aiCreate.uploadImageTooltip': '可上传单据图片',
@@ -4809,7 +4978,8 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.parseSuccess': '已解析订单草稿，请核对后填入表单。',
   'app.kuaizhizao.salesOrder.aiCreate.promptSampleOrder':
     '为客户华东机械下 100 件 M8 螺栓，单价 0.5 元，交货下周五',
-  'app.kuaizhizao.salesOrder.aiCreate.promptSampleSupplement': '把数量改成 120 件，并增加一行垫片 50 个',
+  'app.kuaizhizao.salesOrder.aiCreate.promptSampleSupplement':
+    '把数量改成 120 件，并增加一行垫片 50 个',
   'app.kuaizhizao.salesOrder.aiCreate.uploadTitle': '点击或拖拽图片到此处',
   'app.kuaizhizao.salesOrder.aiCreate.uploadHint': '支持 JPG、PNG、WEBP，单张不超过 12MB',
   'app.kuaizhizao.salesOrder.aiCreate.uploadRequired': '请先上传单据图片',
@@ -4822,8 +4992,10 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.itemCount': '识别明细行数',
   'app.kuaizhizao.salesOrder.aiCreate.applyToForm': '填入表单',
   'app.kuaizhizao.salesOrder.aiCreate.applySuccess': '已填入表单，请核对后保存',
-  'app.kuaizhizao.salesOrder.aiCreate.customerNotMatched': '未匹配到系统客户，已保留识别到的客户名称，请手动选择客户',
-  'app.kuaizhizao.salesOrder.aiCreate.materialNotMatched': '部分产品未匹配且无法新建，已保留识别名称，请在明细中手动选择物料',
+  'app.kuaizhizao.salesOrder.aiCreate.customerNotMatched':
+    '未匹配到系统客户，已保留识别到的客户名称，请手动选择客户',
+  'app.kuaizhizao.salesOrder.aiCreate.materialNotMatched':
+    '部分产品未匹配且无法新建，已保留识别名称，请在明细中手动选择物料',
   'app.kuaizhizao.salesOrder.aiCreate.customerCodeRuleRequired':
     '无法自动新建客户：请先在编号规则中为客户启用自动编号，或手动创建客户后再录单',
   'app.kuaizhizao.salesOrder.aiCreate.matchMatched': '已匹配',
@@ -4847,10 +5019,13 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialPending': '待创建',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialCreated': '已创建',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterOpenMaterialForm': '打开物料新建',
-  'app.kuaizhizao.salesOrder.aiCreate.customerCreateDenied': '无客户新建权限，请取消勾选或联系管理员',
-  'app.kuaizhizao.salesOrder.aiCreate.materialCreateDenied': '无物料新建权限，请取消勾选或联系管理员',
+  'app.kuaizhizao.salesOrder.aiCreate.customerCreateDenied':
+    '无客户新建权限，请取消勾选或联系管理员',
+  'app.kuaizhizao.salesOrder.aiCreate.materialCreateDenied':
+    '无物料新建权限，请取消勾选或联系管理员',
   'app.kuaizhizao.salesOrder.aiCreate.matchUnresolved': '未匹配',
-  'app.kuaizhizao.salesOrder.aiCreate.applyWithCreated': '已新建客户 {{customer}} 个、物料 {{material}} 个，并填入表单，请核对后保存',
+  'app.kuaizhizao.salesOrder.aiCreate.applyWithCreated':
+    '已新建客户 {{customer}} 个、物料 {{material}} 个，并填入表单，请核对后保存',
   'app.kuaizhizao.salesOrder.printPdf': '打印',
   'app.kuaizhizao.salesOrder.totalFeeAmount': '总费用金额',
   'app.kuaizhizao.salesOrder.feeDetailsTitle': '费用明细',
@@ -4903,7 +5078,8 @@ export default {
   'app.kuaizhizao.customerFollowUp.lifecycle.noRevisitNeeded': '无需回访',
   'app.kuaizhizao.customerFollowUp.lifecycle.recorded': '跟进记录',
   'app.kuaizhizao.customerFollowUp.lifecycle.suggestionNextPlan': '下次回访计划：{{datetime}}',
-  'app.kuaizhizao.customerFollowUp.lifecycle.suggestionOverdue': '已到计划回访时间，请尽快联系客户或调整下次跟进计划',
+  'app.kuaizhizao.customerFollowUp.lifecycle.suggestionOverdue':
+    '已到计划回访时间，请尽快联系客户或调整下次跟进计划',
   'app.kuaizhizao.customerFollowUp.createTitle': '新建客户跟进',
   'app.kuaizhizao.customerFollowUp.editTitle': '编辑客户跟进',
   'app.kuaizhizao.customerFollowUp.detailTitle': '客户跟进详情{{suffix}}',
@@ -4925,8 +5101,10 @@ export default {
   'app.kuaizhizao.salesOpportunity.fieldTitle': '商机名称',
   'app.kuaizhizao.salesOpportunity.titlePlaceholder': '如：XX项目 / 报价 BJ…',
   'app.kuaizhizao.salesOpportunity.closeStageConfirmTitle': '确认关闭商机',
-  'app.kuaizhizao.salesOpportunity.closeStageConfirmContent': '确定将商机阶段变更为「{{stage}}」？关闭后不可再推进阶段。',
-  'app.kuaizhizao.salesOpportunity.stageWillChange': '本次跟进将把阶段从「{{from}}」变更为「{{to}}」',
+  'app.kuaizhizao.salesOpportunity.closeStageConfirmContent':
+    '确定将商机阶段变更为「{{stage}}」？关闭后不可再推进阶段。',
+  'app.kuaizhizao.salesOpportunity.stageWillChange':
+    '本次跟进将把阶段从「{{from}}」变更为「{{to}}」',
   'app.kuaizhizao.salesOpportunity.colTitle': '商机名称',
   'app.kuaizhizao.salesOpportunity.colExpectedAmount': '预计金额',
   'app.kuaizhizao.salesOpportunity.colNextFollowUp': '下次跟进',
@@ -4941,7 +5119,8 @@ export default {
   'app.kuaizhizao.customerStage.closeStageConfirmContent': '确定将客户阶段标记为「{{stage}}」？',
   'app.kuaizhizao.customerStage.dictMissing': '客户阶段字典未初始化，请联系管理员同步系统字典',
   'app.kuaizhizao.quotationStage.fieldLabel': '报价阶段',
-  'app.kuaizhizao.quotationStage.stageWillChange': '本次跟进将把该报价阶段从「{{from}}」调整为「{{to}}」',
+  'app.kuaizhizao.quotationStage.stageWillChange':
+    '本次跟进将把该报价阶段从「{{from}}」调整为「{{to}}」',
   'app.kuaizhizao.quotationStage.closeStageConfirmTitle': '确认变更报价阶段',
   'app.kuaizhizao.quotationStage.closeStageConfirmContent': '确定将该报价阶段标记为「{{stage}}」？',
   'app.kuaizhizao.quotationStage.detailHint': '关联报价单跟进时可标记该报价的销售阶段',
@@ -5198,7 +5377,8 @@ export default {
   'app.kuaizhizao.salesDashboard.shortcut.customers': '客户管理',
   'app.kuaizhizao.salesDashboard.tasksTitle': '今日任务与提醒',
   'app.kuaizhizao.salesDashboard.pendingQuotationsAlert': '您有待审核报价单',
-  'app.kuaizhizao.salesDashboard.pendingQuotationsDetail': '共有 {{count}} 份报价单处于待审核状态，请尽快处理。',
+  'app.kuaizhizao.salesDashboard.pendingQuotationsDetail':
+    '共有 {{count}} 份报价单处于待审核状态，请尽快处理。',
   'app.kuaizhizao.salesDashboard.noFollowUpToday': '今日暂无到期待跟进客户',
   'app.kuaizhizao.salesDashboard.pendingFollowUp': '待跟进',
   'app.kuaizhizao.salesDashboard.noFollowUpContent': '无跟进任务描述',
@@ -5443,7 +5623,8 @@ export default {
   'app.kuaizhizao.performance.shifts.columns.standardHours': '标准工时',
   'app.kuaizhizao.performance.shifts.messages.selectFirst': '请先选择班次',
   'app.kuaizhizao.performance.shifts.messages.deleteConfirm': '确定删除该班次？',
-  'app.kuaizhizao.performance.shifts.messages.deleteBatchConfirm': '确定要删除选中的 {{count}} 条班次吗？',
+  'app.kuaizhizao.performance.shifts.messages.deleteBatchConfirm':
+    '确定要删除选中的 {{count}} 条班次吗？',
   'app.kuaizhizao.performance.rosters.label.workGroup': '工作小组',
   'app.kuaizhizao.performance.rosters.label.employee': '工人人员',
   'app.kuaizhizao.performance.rosters.label.rosterWeek': '排班周',
@@ -5451,7 +5632,8 @@ export default {
   'app.kuaizhizao.performance.rosters.scope.employee': '工人人员',
   'app.kuaizhizao.performance.rosters.placeholder.workGroup': '选择工作小组',
   'app.kuaizhizao.performance.rosters.placeholder.employee': '选择工人人员',
-  'app.kuaizhizao.performance.rosters.hint.period': '周期：{{start}} ~ {{end}}。未排班单元格留空；选择「休息」表示当日不上班。',
+  'app.kuaizhizao.performance.rosters.hint.period':
+    '周期：{{start}} ~ {{end}}。未排班单元格留空；选择「休息」表示当日不上班。',
   'app.kuaizhizao.performance.rosters.messages.loadBaseFailed': '加载基础数据失败',
   'app.kuaizhizao.performance.rosters.messages.loadRosterFailed': '加载排班表失败',
   'app.kuaizhizao.performance.rosters.messages.selectWorkGroup': '请先选择工作小组',
@@ -5474,7 +5656,8 @@ export default {
   'app.kuaizhizao.performance.employeeConfigs.columns.defaultPieceRate': '默认计件单价（元/件）',
   'app.kuaizhizao.performance.employeeConfigs.columns.baseSalary': '月保障工资（元）',
   'app.kuaizhizao.performance.employeeConfigs.messages.deleteConfirm': '确定删除？',
-  'app.kuaizhizao.performance.employeeConfigs.messages.deleteBatchConfirm': '确定要删除选中的 {{count}} 条员工配置吗？',
+  'app.kuaizhizao.performance.employeeConfigs.messages.deleteBatchConfirm':
+    '确定要删除选中的 {{count}} 条员工配置吗？',
   'app.kuaizhizao.performance.hourlyRates.pageTitle': '工时单价',
   'app.kuaizhizao.performance.hourlyRates.createButton': '新建工时单价',
   'app.kuaizhizao.performance.hourlyRates.modal.createTitle': '新建工时单价',
@@ -5482,15 +5665,18 @@ export default {
   'app.kuaizhizao.performance.hourlyRates.columns.rate': '工时单价（元/时）',
   'app.kuaizhizao.performance.hourlyRates.form.rate': '工时单价（元/小时）',
   'app.kuaizhizao.performance.hourlyRates.messages.deleteConfirm': '确定删除？',
-  'app.kuaizhizao.performance.hourlyRates.messages.deleteBatchConfirm': '确定要删除选中的 {{count}} 条时薪单价吗？',
+  'app.kuaizhizao.performance.hourlyRates.messages.deleteBatchConfirm':
+    '确定要删除选中的 {{count}} 条时薪单价吗？',
   'app.kuaizhizao.performance.kpi.pageTitle': 'KPI 指标定义',
   'app.kuaizhizao.performance.kpi.createButton': '新建KPI指标定义',
   'app.kuaizhizao.performance.kpi.modal.createTitle': '新建KPI指标',
   'app.kuaizhizao.performance.kpi.modal.editTitle': '编辑KPI指标',
   'app.kuaizhizao.performance.kpi.form.formulaJson': '公式配置 (JSON)',
-  'app.kuaizhizao.performance.kpi.form.formulaPlaceholder': '质量/效率/出勤/产量示例: {"targets":{"min_rate":0.95}}\n自定义公式: {"expression":"quality_rate * 100"}',
+  'app.kuaizhizao.performance.kpi.form.formulaPlaceholder':
+    '质量/效率/出勤/产量示例: {"targets":{"min_rate":0.95}}\n自定义公式: {"expression":"quality_rate * 100"}',
   'app.kuaizhizao.performance.kpi.messages.deleteConfirm': '确定删除？',
-  'app.kuaizhizao.performance.kpi.messages.deleteBatchConfirm': '确定要删除选中的 {{count}} 条KPI定义吗？',
+  'app.kuaizhizao.performance.kpi.messages.deleteBatchConfirm':
+    '确定要删除选中的 {{count}} 条KPI定义吗？',
   'app.kuaizhizao.performance.summaries.pageTitle': '绩效汇总',
   'app.kuaizhizao.performance.summaries.actions.calculate': '计算绩效',
   'app.kuaizhizao.performance.summaries.actions.batchConfirm': '批量确认',
@@ -5514,7 +5700,8 @@ export default {
   'app.kuaizhizao.performance.summaries.messages.confirmFailed': '确认失败',
   'app.kuaizhizao.performance.summaries.messages.reopenSuccess': '已退回重算',
   'app.kuaizhizao.performance.summaries.messages.reopenFailed': '退回失败',
-  'app.kuaizhizao.performance.summaries.messages.batchConfirmSuccess': '已确认 {{confirmed}} 条，跳过 {{skipped}} 条',
+  'app.kuaizhizao.performance.summaries.messages.batchConfirmSuccess':
+    '已确认 {{confirmed}} 条，跳过 {{skipped}} 条',
   'app.kuaizhizao.performance.summaries.messages.batchConfirmFailed': '批量确认失败',
   'app.kuaizhizao.performance.summaries.messages.exportFailed': '导出失败',
   'app.kuaizhizao.performance.reports.columns.workerName': '员工',
@@ -5547,7 +5734,8 @@ export default {
   'app.kuaizhizao.salesOrder.entityName': '销售订单',
   'app.kuaizhizao.salesOrder.unitDays': '天',
   'app.kuaizhizao.salesOrder.unitHours': '小时',
-  'app.kuaizhizao.salesOrder.deleteConfirm': '确定要删除选中 {{count}} 个销售订单吗？此操作不可恢复。',
+  'app.kuaizhizao.salesOrder.deleteConfirm':
+    '确定要删除选中 {{count}} 个销售订单吗？此操作不可恢复。',
   'app.kuaizhizao.salesOrder.deleteSuccess': '成功删除 {{count}} 个销售订单',
   'app.kuaizhizao.salesOrder.deletePartial': '删除完成：成功 {{success}} 个，失败 {{failed}} 个',
   'app.kuaizhizao.salesOrder.syncSuccess': '已同步 {{count}} 条销售订单',
@@ -5561,7 +5749,8 @@ export default {
   'app.kuaizhizao.salesOrder.pushConfirm': '确定要将此销售订单下推到需求计算吗？',
   'app.kuaizhizao.salesOrder.pushSuccess': '下推成功，已创建需求计算任务',
   'app.kuaizhizao.salesOrder.withdrawTitle': '撤回需求计算',
-  'app.kuaizhizao.salesOrder.withdrawConfirm': '确定要撤回此销售订单的需求计算吗？撤回后仍为已审核状态，可重新下推。',
+  'app.kuaizhizao.salesOrder.withdrawConfirm':
+    '确定要撤回此销售订单的需求计算吗？撤回后仍为已审核状态，可重新下推。',
   'app.kuaizhizao.salesOrder.withdrawSuccess': '撤回成功',
   'app.kuaizhizao.salesOrder.submitConfirmAudit': '确定要提交此销售订单吗？提交后将进入审核流程。',
   'app.kuaizhizao.salesOrder.submitConfirmAuto': '确定要提交此销售订单吗？提交后将自动通过审核。',
@@ -5641,7 +5830,8 @@ export default {
   'app.kuaizhizao.salesOrder.confirmDelete': '确认删除',
   'app.kuaizhizao.salesOrder.material': '产品',
   'app.kuaizhizao.salesOrder.variantAttributes': '属性组合',
-  'app.kuaizhizao.salesOrder.variantAttributesPlaceholder': '配置件需填写，如 {"color":"red","size":"M"}',
+  'app.kuaizhizao.salesOrder.variantAttributesPlaceholder':
+    '配置件需填写，如 {"color":"red","size":"M"}',
   'app.kuaizhizao.salesOrder.selectVariantSku': '选择 SKU',
   'app.kuaizhizao.salesOrder.selectVariantSkuTitle': '选择属性 SKU',
   'app.kuaizhizao.salesOrder.setVariantAttrs': '设置属性组合',
@@ -5671,18 +5861,21 @@ export default {
   'app.kuaizhizao.salesOrder.syncFailed': '同步失败',
   'app.kuaizhizao.salesOrder.operationFailed': '操作失败',
   'app.kuaizhizao.salesOrder.completeRequired': '请完善必填项',
-  'app.kuaizhizao.quotation.validLineHint': '请至少添加一条有效明细（选择产品、填写数量与大于 0 的单价）',
+  'app.kuaizhizao.quotation.validLineHint':
+    '请至少添加一条有效明细（选择产品、填写数量与大于 0 的单价）',
   'app.kuaizhizao.salesOrder.orderUpdatedAndAutoApproved': '订单已更新并自动通过审核。{{syncTip}}',
   'app.kuaizhizao.salesOrder.orderCreatedAndAutoApproved': '订单已创建并自动通过审核。{{syncTip}}',
   'app.kuaizhizao.salesOrder.orderResubmitted': '订单已重新提交，请等待审核',
   'app.kuaizhizao.salesOrder.orderCreatedAndSubmitted': '订单已创建并提交，请等待审核',
   'app.kuaizhizao.salesOrder.saveSuccessSubmitFailed': '订单保存成功，但提交失败: {{message}}',
   'app.kuaizhizao.salesOrder.unknownError': '未知错误',
-  'app.kuaizhizao.salesOrder.demandSyncTip': '已同步至关联需求，若已下推计算请前往需求计算重新执行。',
+  'app.kuaizhizao.salesOrder.demandSyncTip':
+    '已同步至关联需求，若已下推计算请前往需求计算重新执行。',
   'app.kuaizhizao.salesOrder.loadPreviewFailed': '加载预览失败',
   'app.kuaizhizao.salesOrder.pushFailed': '下推失败',
   'app.kuaizhizao.salesOrder.pushToShipmentTitle': '下推到发货通知单',
-  'app.kuaizhizao.salesOrder.pushToShipmentConfirm': '确定要将该销售订单下推到发货通知单吗？下推后将自动通知仓库并生成待出库单。',
+  'app.kuaizhizao.salesOrder.pushToShipmentConfirm':
+    '确定要将该销售订单下推到发货通知单吗？下推后将自动通知仓库并生成待出库单。',
   'app.kuaizhizao.salesOrder.shipmentNoticeCreated': '已生成发货通知单并已通知仓库',
   'app.kuaizhizao.salesOrder.pushToInvoiceTitle': '下推到销售发票',
   'app.kuaizhizao.salesOrder.pushToInvoiceConfirm': '确定要将该销售订单下推到销售发票吗？',
@@ -5703,8 +5896,10 @@ export default {
   'app.kuaizhizao.salesOrder.demandComputation': '需求计算',
   'app.kuaizhizao.salesOrder.pushToProductionPlan': '直推生产计划',
   'app.kuaizhizao.salesOrder.pushToWorkOrder': '直推工单',
-  'app.kuaizhizao.salesOrder.pushMutualExclusiveComputationBlocked': '已使用直推工单，无法再下推需求计算',
-  'app.kuaizhizao.salesOrder.pushMutualExclusiveWorkOrderBlocked': '已下推需求计算，请从需求计算单下推工单，不可再直推工单',
+  'app.kuaizhizao.salesOrder.pushMutualExclusiveComputationBlocked':
+    '已使用直推工单，无法再下推需求计算',
+  'app.kuaizhizao.salesOrder.pushMutualExclusiveWorkOrderBlocked':
+    '已下推需求计算，请从需求计算单下推工单，不可再直推工单',
   'app.kuaizhizao.salesOrder.shipmentNotice': '发货通知',
   'app.kuaizhizao.salesOrder.salesDelivery': '销售出库单',
   'app.kuaizhizao.salesOrder.salesInvoice': '销售发票',
@@ -5755,16 +5950,23 @@ export default {
   'app.kuaizhizao.salesOrder.lifecycleClosed': '已关闭',
   'app.kuaizhizao.salesOrder.batchClose': '批量关闭',
   'app.kuaizhizao.salesOrder.batchCloseConfirmTitle': '确认批量关闭',
-  'app.kuaizhizao.salesOrder.batchCloseConfirmDescription': '关闭后剩余未交货/未执行部分将不再继续履约，确定关闭选中的 {{count}} 条销售订单吗？',
-  'app.kuaizhizao.salesOrder.batchWithdrawNotAllowed': '当前选中订单不可批量撤回（「待审核」请在行内使用审核撤回；「已生效」可批量撤回至草稿；「已审核」请用「批量撤销审核」）。',
-  'app.kuaizhizao.salesOrder.batchSubmitNotAllowed': '当前选中订单不可批量提交（仅草稿可提交；已提交待审核请使用「批量审核」）。',
-  'app.kuaizhizao.salesOrder.batchApproveNotAllowed': '当前选中订单不可批量审核（仅待审核状态可审核）。',
-  'app.kuaizhizao.salesOrder.batchCloseNotAllowed': '当前选中订单不可批量关闭（仅已审核通过且未完结的订单可关闭）。',
-  'app.kuaizhizao.salesOrder.batchUnapproveOnlyAudited': '「批量撤销审核」用于撤销审核（已审核 → 待审核）。',
+  'app.kuaizhizao.salesOrder.batchCloseConfirmDescription':
+    '关闭后剩余未交货/未执行部分将不再继续履约，确定关闭选中的 {{count}} 条销售订单吗？',
+  'app.kuaizhizao.salesOrder.batchWithdrawNotAllowed':
+    '当前选中订单不可批量撤回（「待审核」请在行内使用审核撤回；「已生效」可批量撤回至草稿；「已审核」请用「批量撤销审核」）。',
+  'app.kuaizhizao.salesOrder.batchSubmitNotAllowed':
+    '当前选中订单不可批量提交（仅草稿可提交；已提交待审核请使用「批量审核」）。',
+  'app.kuaizhizao.salesOrder.batchApproveNotAllowed':
+    '当前选中订单不可批量审核（仅待审核状态可审核）。',
+  'app.kuaizhizao.salesOrder.batchCloseNotAllowed':
+    '当前选中订单不可批量关闭（仅已审核通过且未完结的订单可关闭）。',
+  'app.kuaizhizao.salesOrder.batchUnapproveOnlyAudited':
+    '「批量撤销审核」用于撤销审核（已审核 → 待审核）。',
   'app.kuaizhizao.salesOrder.lifecycleConfirmed': '已确认',
   'app.kuaizhizao.salesOrder.importHeaderCustomerId': '客户ID',
   'app.kuaizhizao.salesOrder.importHeaderSalesmanId': '销售员ID',
-  'app.kuaizhizao.salesOrder.importPartialSuccess': '批量导入完成，成功 {{success}} 条，失败 {{failed}} 条',
+  'app.kuaizhizao.salesOrder.importPartialSuccess':
+    '批量导入完成，成功 {{success}} 条，失败 {{failed}} 条',
   'app.kuaizhizao.salesOrder.importRowError': '第 {{row}} 行: {{error}}',
   'app.kuaizhizao.salesOrder.exportSuccess': '已导出 {{count}} 条记录',
   'app.kuaizhizao.salesOrder.importExampleCustomer': '客户A',
@@ -5819,14 +6021,18 @@ export default {
   'app.kuaizhizao.purchaseRequisition.col.converted': '已转单',
   'app.kuaizhizao.purchaseRequisition.convertedYes': '是',
   'app.kuaizhizao.purchaseRequisition.convertedNo': '否',
-  'app.kuaizhizao.purchaseRequisition.workflowRevokeConfirm': '撤回后状态将变为待审核，可重新提交审核。',
+  'app.kuaizhizao.purchaseRequisition.workflowRevokeConfirm':
+    '撤回后状态将变为待审核，可重新提交审核。',
   'app.kuaizhizao.purchaseRequisition.submitTitle': '提交采购申请',
   'app.kuaizhizao.purchaseRequisition.submitContentAudit': '提交后将进入审核流程，是否继续？',
-  'app.kuaizhizao.purchaseRequisition.submitContentAuto': '提交后将直接生效（无需审核），是否继续？',
+  'app.kuaizhizao.purchaseRequisition.submitContentAuto':
+    '提交后将直接生效（无需审核），是否继续？',
   'app.kuaizhizao.purchaseRequisition.confirmDelete': '确认删除',
   'app.kuaizhizao.purchaseRequisition.confirmDeleteContent': '确定要删除采购申请 {{code}} 吗？',
-  'app.kuaizhizao.purchaseRequisition.confirmBatchDelete': '确定要删除选中的 {{count}} 条采购申请吗？',
-  'app.kuaizhizao.purchaseRequisition.importNoValidData': '未检测到有效数据（请确保物料编号不为空）',
+  'app.kuaizhizao.purchaseRequisition.confirmBatchDelete':
+    '确定要删除选中的 {{count}} 条采购申请吗？',
+  'app.kuaizhizao.purchaseRequisition.importNoValidData':
+    '未检测到有效数据（请确保物料编号不为空）',
   'app.kuaizhizao.purchaseRequisition.onlyDraftEditable': '仅草稿状态的采购申请可编辑',
   'app.kuaizhizao.purchaseRequisition.loadFailed': '加载采购申请失败',
   'app.kuaizhizao.purchaseRequisition.detailFailed': '获取详情失败',
@@ -5852,7 +6058,8 @@ export default {
   'app.kuaizhizao.purchaseRequisition.viewPurchaseOrder': '查看 {{code}}',
   'app.kuaizhizao.purchaseRequisition.noInquiryLines': '无可询价的明细，所有明细已转采购单',
   'app.kuaizhizao.purchaseRequisition.pushInquiryTitle': '下推询价单',
-  'app.kuaizhizao.purchaseRequisition.pushInquiryContent': '将为 {{count}} 条未转单明细创建询价单，是否继续？',
+  'app.kuaizhizao.purchaseRequisition.pushInquiryContent':
+    '将为 {{count}} 条未转单明细创建询价单，是否继续？',
   'app.kuaizhizao.purchaseRequisition.inquiryCreated': '已创建询价单 {{code}}',
   'app.kuaizhizao.purchaseRequisition.inquiryCreateFailed': '创建询价单失败',
   'app.kuaizhizao.purchaseRequisition.pushPO': '下推采购单',
@@ -5910,14 +6117,17 @@ export default {
   'app.kuaizhizao.purchaseRequisition.pull.noPurchaseItems': '无可转采购明细',
   'app.kuaizhizao.purchaseRequisition.pull.requisitionExists': '采购申请已生成或当前不可转',
   'app.kuaizhizao.purchaseRequisition.pull.selectComputation': '请选择需求运算单',
-  'app.kuaizhizao.purchaseRequisition.pull.computationUnavailable': '该需求运算单当前不可用于创建采购申请',
+  'app.kuaizhizao.purchaseRequisition.pull.computationUnavailable':
+    '该需求运算单当前不可用于创建采购申请',
   'app.kuaizhizao.purchaseRequisition.pull.success': '已从需求运算创建采购申请',
   'app.kuaizhizao.purchaseRequisition.pull.failed': '从需求运算创建采购申请失败',
   'app.kuaizhizao.purchaseRequisition.convert.batchSupplier': '批量默认供应商',
   'app.kuaizhizao.purchaseRequisition.convert.batchPlaceholder': '选择供应商后应用到勾选行',
   'app.kuaizhizao.purchaseRequisition.convert.applyToSelected': '应用到选中的行',
-  'app.kuaizhizao.purchaseRequisition.convert.noSuppliers': '暂无供应商，请先在主数据中维护供应商档案',
-  'app.kuaizhizao.purchaseRequisition.convert.persistSupplier': '将各行所选供应商写回物料主数据中的默认供应商（仅「采购件」生效，便于下次自动带出）',
+  'app.kuaizhizao.purchaseRequisition.convert.noSuppliers':
+    '暂无供应商，请先在主数据中维护供应商档案',
+  'app.kuaizhizao.purchaseRequisition.convert.persistSupplier':
+    '将各行所选供应商写回物料主数据中的默认供应商（仅「采购件」生效，便于下次自动带出）',
   'app.kuaizhizao.purchaseRequisition.convert.col.supplier': '供应商',
   'app.kuaizhizao.purchaseRequisition.convert.col.demandQty': '需求数量',
   'app.kuaizhizao.purchaseRequisition.convert.col.pushedQty': '已下推数量',
@@ -5971,26 +6181,32 @@ export default {
   'app.kuaizhizao.purchaseOrder.highlightOverdue': '高亮逾期',
   'app.kuaizhizao.purchaseOrder.loadRequisitionListFailed': '加载采购申请列表失败',
   'app.kuaizhizao.purchaseOrder.allReceived': '采购单已全部入库，无可下推明细',
-  'app.kuaizhizao.purchaseOrder.pushReceiptSuccess': '成功生成采购入库单：{{code}}，仓库将在看板中处理入库',
+  'app.kuaizhizao.purchaseOrder.pushReceiptSuccess':
+    '成功生成采购入库单：{{code}}，仓库将在看板中处理入库',
   'app.kuaizhizao.purchaseOrder.pushReceiptFailed': '下推采购入库失败',
   'app.kuaizhizao.purchaseOrder.pushNoticeSuccess': '成功生成收货通知单：{{code}}',
   'app.kuaizhizao.purchaseOrder.pushNoticeFailed': '下推收货通知失败',
-  'app.kuaizhizao.purchaseOrder.pushInvoiceSuccess': '成功生成采购发票：{{code}}，请前往财务管理完善发票号码等信息',
+  'app.kuaizhizao.purchaseOrder.pushInvoiceSuccess':
+    '成功生成采购发票：{{code}}，请前往财务管理完善发票号码等信息',
   'app.kuaizhizao.purchaseOrder.pushInvoiceFailed': '下推采购发票失败',
   'app.kuaizhizao.purchaseOrder.noReturnableQty': '采购单暂无可退货数量（已到货数量为 0）',
   'app.kuaizhizao.purchaseOrder.returnWarehouseRequired': '请先填写退货仓库ID',
   'app.kuaizhizao.purchaseOrder.pushReturnSuccess': '成功生成采购退货单：{{code}}',
   'app.kuaizhizao.purchaseOrder.pushReturnFailed': '下推采购退货失败',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsUnreceived': '物料 {{material}} 的入库数量不能超过未入库数量 {{max}}',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsNotice': '物料 {{material}} 的通知数量不能超过未入库数量 {{max}}',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsReturnable': '物料 {{material}} 的退货数量不能超过可退数量 {{max}}',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsUnreceived':
+    '物料 {{material}} 的入库数量不能超过未入库数量 {{max}}',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsNotice':
+    '物料 {{material}} 的通知数量不能超过未入库数量 {{max}}',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsReturnable':
+    '物料 {{material}} 的退货数量不能超过可退数量 {{max}}',
   'app.kuaizhizao.purchaseOrder.push.receiptNotice': '收货通知',
   'app.kuaizhizao.purchaseOrder.push.receipt': '采购入库',
   'app.kuaizhizao.purchaseOrder.push.invoice': '采购发票',
   'app.kuaizhizao.purchaseOrder.push.return': '采购退货单',
   'app.kuaizhizao.purchaseOrder.push.dropdown': '下推',
   'app.kuaizhizao.purchaseOrder.deleteTitle': '删除采购订单',
-  'app.kuaizhizao.purchaseOrder.deleteContent': '确定要删除采购订单 "{{code}}" 吗？此操作不可恢复。',
+  'app.kuaizhizao.purchaseOrder.deleteContent':
+    '确定要删除采购订单 "{{code}}" 吗？此操作不可恢复。',
   'app.kuaizhizao.purchaseOrder.deleteSuccess': '采购订单删除成功',
   'app.kuaizhizao.purchaseOrder.deleteFailed': '采购订单删除失败',
   'app.kuaizhizao.purchaseOrder.submitTitle': '提交采购订单',
@@ -6012,7 +6228,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.syncFailed': '同步失败',
   'app.kuaizhizao.purchaseOrder.importEmpty': '导入数据为空或格式不正确',
   'app.kuaizhizao.purchaseOrder.importNoRows': '没有可导入的数据行（请从第3行开始填写）',
-  'app.kuaizhizao.purchaseOrder.importMissingColumns': '缺少必需列：供应商名称、订单日期、物料编号、数量',
+  'app.kuaizhizao.purchaseOrder.importMissingColumns':
+    '缺少必需列：供应商名称、订单日期、物料编号、数量',
   'app.kuaizhizao.purchaseOrder.importValidationTitle': '数据验证失败',
   'app.kuaizhizao.purchaseOrder.importValidationIntro': '以下行存在错误，请修正后重新导入：',
   'app.kuaizhizao.purchaseOrder.importRowError': '第 {{row}} 行：{{message}}',
@@ -6024,7 +6241,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.importNoData': '没有可导入的数据',
   'app.kuaizhizao.purchaseOrder.importingTitle': '正在导入采购订单',
   'app.kuaizhizao.purchaseOrder.importPartialTitle': '导入完成（部分失败）',
-  'app.kuaizhizao.purchaseOrder.importPartialSummary': '导入结果：成功 {{success}} 条，失败 {{failed}} 条',
+  'app.kuaizhizao.purchaseOrder.importPartialSummary':
+    '导入结果：成功 {{success}} 条，失败 {{failed}} 条',
   'app.kuaizhizao.purchaseOrder.importPartialRowError': '第 {{row}} 行：{{error}}',
   'app.kuaizhizao.purchaseOrder.importSuccess': '成功导入 {{count}} 条采购订单',
   'app.kuaizhizao.purchaseOrder.importFailed': '导入失败',
@@ -6039,7 +6257,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.saveSubmitPending': '采购订单已保存并提交审核',
   'app.kuaizhizao.purchaseOrder.createSubmitAutoApproved': '采购订单已创建并提交，已自动审核通过',
   'app.kuaizhizao.purchaseOrder.createSubmitPending': '采购订单已创建并提交审核',
-  'app.kuaizhizao.purchaseOrder.saveSubmitFailed': '保存成功，但提交失败：{{message}}。您可在列表中点击「提交审核」重试。',
+  'app.kuaizhizao.purchaseOrder.saveSubmitFailed':
+    '保存成功，但提交失败：{{message}}。您可在列表中点击「提交审核」重试。',
   'app.kuaizhizao.purchaseOrder.saveDraft': '保存为草稿',
   'app.kuaizhizao.purchaseOrder.createAndSubmit': '创建并提交',
   'app.kuaizhizao.purchaseOrder.saveAndSubmit': '保存并提交',
@@ -6104,7 +6323,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.pull.searchPlaceholder': '搜索采购申请明细（申请单号/申请名称）',
   'app.kuaizhizao.purchaseOrder.pull.empty': '暂无可选采购申请明细',
   'app.kuaizhizao.purchaseOrder.pull.emptySearch': '未找到匹配采购申请明细',
-  'app.kuaizhizao.purchaseOrder.pull.selectedSummary': '已选择 {{count}} 条明细，将按采购申请与供应商自动拆分创建采购订单草稿。',
+  'app.kuaizhizao.purchaseOrder.pull.selectedSummary':
+    '已选择 {{count}} 条明细，将按采购申请与供应商自动拆分创建采购订单草稿。',
   'app.kuaizhizao.purchaseOrder.pull.supplierAssigned': '已指定({{id}})',
   'app.kuaizhizao.purchaseOrder.pull.supplierPending': '待定（草稿中补充）',
   'app.kuaizhizao.purchaseOrder.pull.convertedTag': '已转采购订单#{{id}}',
@@ -6143,11 +6363,14 @@ export default {
   'app.kuaizhizao.purchaseOrder.landingCost.title': '采购杂费分摊 - {{code}}',
   'app.kuaizhizao.purchaseOrder.landingCost.confirm': '确认分摊',
   'app.kuaizhizao.purchaseOrder.landingCost.method': '分摊算法/维度',
-  'app.kuaizhizao.purchaseOrder.landingCost.methodTooltip': '系统将根据所选维度，按比例将总杂费分配到各明细行',
+  'app.kuaizhizao.purchaseOrder.landingCost.methodTooltip':
+    '系统将根据所选维度，按比例将总杂费分配到各明细行',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByValue': '按金额比例 (Value Weighted)',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByQuantity': '按数量比例 (Quantity Weighted)',
-  'app.kuaizhizao.purchaseOrder.landingCost.methodByWeight': '按重量比例 (Weight Weighted - 需维护物料重量)',
-  'app.kuaizhizao.purchaseOrder.landingCost.methodByVolume': '按体积比例 (Volume Weighted - 需维护物料体积)',
+  'app.kuaizhizao.purchaseOrder.landingCost.methodByWeight':
+    '按重量比例 (Weight Weighted - 需维护物料重量)',
+  'app.kuaizhizao.purchaseOrder.landingCost.methodByVolume':
+    '按体积比例 (Volume Weighted - 需维护物料体积)',
   'app.kuaizhizao.purchaseOrder.landingCost.feeListDivider': '待分摊费用清单',
   'app.kuaizhizao.purchaseOrder.landingCost.feeNameRequired': '请输入费用名称',
   'app.kuaizhizao.purchaseOrder.landingCost.feeNamePlaceholder': '费用名称 (如: 报关费, 包装费)',
@@ -6155,9 +6378,12 @@ export default {
   'app.kuaizhizao.purchaseOrder.landingCost.feeAmount': '金额',
   'app.kuaizhizao.purchaseOrder.landingCost.addFee': '继续添加费用项',
   'app.kuaizhizao.purchaseOrder.landingCost.notesTitle': '说明：',
-  'app.kuaizhizao.purchaseOrder.landingCost.note1': '分摊后的杂费将记录在明细行的 landing_cost 字段中。',
-  'app.kuaizhizao.purchaseOrder.landingCost.note2': '系统会自动重新计算该订单的实际综合成本 (Actual Total Cost)。',
-  'app.kuaizhizao.purchaseOrder.landingCost.note3': '如果选择重量/体积分摊但物料资料未维护相关数据，将自动降级为按行等额分摊。',
+  'app.kuaizhizao.purchaseOrder.landingCost.note1':
+    '分摊后的杂费将记录在明细行的 landing_cost 字段中。',
+  'app.kuaizhizao.purchaseOrder.landingCost.note2':
+    '系统会自动重新计算该订单的实际综合成本 (Actual Total Cost)。',
+  'app.kuaizhizao.purchaseOrder.landingCost.note3':
+    '如果选择重量/体积分摊但物料资料未维护相关数据，将自动降级为按行等额分摊。',
   'app.kuaizhizao.purchaseOrder.landingCost.success': '费用分摊成功，已更新明细落地成本',
   'app.kuaizhizao.purchaseOrder.landingCost.failed': '费用分摊失败，请检查网络或后端日志',
   'app.kuaizhizao.purchaseOrder.landingCost.defaultFeeName': '运费',
@@ -6192,19 +6418,23 @@ export default {
   'app.kuaizhizao.purchaseOrder.pushNoticeModalTitle': '下推到收货通知',
   'app.kuaizhizao.purchaseOrder.pushReturnModalTitle': '下推到采购退货',
   'app.kuaizhizao.purchaseOrder.confirmPush': '确认下推',
-  'app.kuaizhizao.purchaseOrder.pushReceiptIntro': '从采购订单 {{code}} 下推生成采购入库单。各明细可指定不同入库仓库与库位，上方默认仓库可批量填充；请核对入库数量（不超过未入库数量）。后续由仓库在看板确认入库。',
+  'app.kuaizhizao.purchaseOrder.pushReceiptIntro':
+    '从采购订单 {{code}} 下推生成采购入库单。各明细可指定不同入库仓库与库位，上方默认仓库可批量填充；请核对入库数量（不超过未入库数量）。后续由仓库在看板确认入库。',
   'app.kuaizhizao.purchaseOrder.pushReceiptWarehouse': '入库仓库',
   'app.kuaizhizao.purchaseOrder.pushReceiptLocation': '入库库位',
   'app.kuaizhizao.purchaseOrder.pushReceiptDefaultWarehouse': '默认仓库（批量填充明细）',
   'app.kuaizhizao.purchaseOrder.pushReceiptBatchWarehousePlaceholder': '选择后填充全部明细行',
   'app.kuaizhizao.purchaseOrder.pushReceiptSelectWarehouse': '请选择入库仓库',
-  'app.kuaizhizao.purchaseOrder.pushReceiptSelectLineWarehouse': '请为物料 {{material}} 选择入库仓库',
+  'app.kuaizhizao.purchaseOrder.pushReceiptSelectLineWarehouse':
+    '请为物料 {{material}} 选择入库仓库',
   'app.kuaizhizao.purchaseOrder.pushReceiptSelectLocation': '请选择库位（选填）',
   'app.kuaizhizao.purchaseOrder.pushReceiptSelectWarehouseFirst': '请先选择入库仓库',
   'app.kuaizhizao.purchaseOrder.pushReceiptNoWarehouse': '未配置可用仓库，请先在主数据维护仓库',
   'app.kuaizhizao.purchaseOrder.pushReceiptQtyRequired': '请至少填写一行入库数量',
-  'app.kuaizhizao.purchaseOrder.pushNoticeIntro': '从采购订单 {{code}} 下推生成收货通知单，可修改各明细的通知数量（不超过未入库数量）：',
-  'app.kuaizhizao.purchaseOrder.pushReturnIntro': '从采购订单 {{code}} 下推生成采购退货单，可修改各明细退货数量（不超过已到货数量）：',
+  'app.kuaizhizao.purchaseOrder.pushNoticeIntro':
+    '从采购订单 {{code}} 下推生成收货通知单，可修改各明细的通知数量（不超过未入库数量）：',
+  'app.kuaizhizao.purchaseOrder.pushReturnIntro':
+    '从采购订单 {{code}} 下推生成采购退货单，可修改各明细退货数量（不超过已到货数量）：',
   'app.kuaizhizao.purchaseOrder.loading': '加载中...',
   'app.kuaizhizao.purchaseOrder.returnWarehouseIdPlaceholder': '退货仓库ID',
   'app.kuaizhizao.purchaseOrder.returnWarehouseNamePlaceholder': '退货仓库名称（可选）',
@@ -6448,27 +6678,39 @@ export default {
   'app.kuaizhizao.productionException.quality.message.start8DSuccess': '已发起 8D 报告',
   'app.kuaizhizao.productionException.quality.message.start8DFailed': '发起8D失败',
   'app.kuaizhizao.productionException.quality.placeholder.rootCause': '请输入根本原因（可选）',
-  'app.kuaizhizao.productionException.quality.placeholder.correctiveAction': '请输入纠正措施（可选）',
-  'app.kuaizhizao.productionException.quality.placeholder.preventiveAction': '请输入预防措施（可选）',
-  'app.kuaizhizao.productionException.quality.placeholder.responsiblePerson': '请选择责任人（可选）',
-  'app.kuaizhizao.productionException.quality.placeholder.plannedCompletionDate': '请选择计划完成日期（可选）',
-  'app.kuaizhizao.productionException.quality.placeholder.verificationResult': '请输入验证结果（可选）',
+  'app.kuaizhizao.productionException.quality.placeholder.correctiveAction':
+    '请输入纠正措施（可选）',
+  'app.kuaizhizao.productionException.quality.placeholder.preventiveAction':
+    '请输入预防措施（可选）',
+  'app.kuaizhizao.productionException.quality.placeholder.responsiblePerson':
+    '请选择责任人（可选）',
+  'app.kuaizhizao.productionException.quality.placeholder.plannedCompletionDate':
+    '请选择计划完成日期（可选）',
+  'app.kuaizhizao.productionException.quality.placeholder.verificationResult':
+    '请输入验证结果（可选）',
   'app.kuaizhizao.productionException.quality.defaultReportTitle': '质量异常',
   'app.kuaizhizao.productionException.quality.defaultReportSuffix': '8D报告',
   'app.kuaizhizao.productionException.materialShortage.pageTitle': '缺料异常',
   'app.kuaizhizao.productionException.materialShortage.detailTitle': '缺料异常详情 - {{code}}',
   'app.kuaizhizao.productionException.materialShortage.modal.handlePurchase': '处理缺料异常 - 采购',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleSubstitute': '处理缺料异常 - 替代物料',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleResolve': '处理缺料异常 - 已解决',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleSubstitute':
+    '处理缺料异常 - 替代物料',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleResolve':
+    '处理缺料异常 - 已解决',
   'app.kuaizhizao.productionException.materialShortage.modal.handleCancel': '处理缺料异常 - 取消',
   'app.kuaizhizao.productionException.materialShortage.modal.handleDefault': '处理缺料异常',
-  'app.kuaizhizao.productionException.materialShortage.placeholder.alternativeMaterial': '请选择替代物料',
-  'app.kuaizhizao.productionException.materialShortage.validation.alternativeMaterialRequired': '请选择替代物料',
+  'app.kuaizhizao.productionException.materialShortage.placeholder.alternativeMaterial':
+    '请选择替代物料',
+  'app.kuaizhizao.productionException.materialShortage.validation.alternativeMaterialRequired':
+    '请选择替代物料',
   'app.kuaizhizao.productionException.deliveryDelay.pageTitle': '延期异常',
   'app.kuaizhizao.productionException.deliveryDelay.detailTitle': '延期异常详情 - {{code}}',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleAdjustPlan': '处理延期异常 - 调整计划',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleIncreaseResources': '处理延期异常 - 增加资源',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleExpedite': '处理延期异常 - 加急处理',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleAdjustPlan':
+    '处理延期异常 - 调整计划',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleIncreaseResources':
+    '处理延期异常 - 增加资源',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleExpedite':
+    '处理延期异常 - 加急处理',
   'app.kuaizhizao.productionException.deliveryDelay.modal.handleResolve': '处理延期异常 - 已解决',
   'app.kuaizhizao.productionException.deliveryDelay.modal.handleCancel': '处理延期异常 - 取消',
   'app.kuaizhizao.productionException.deliveryDelay.modal.handleDefault': '处理延期异常',
@@ -6487,8 +6729,10 @@ export default {
   'app.kuaizhizao.productionException.process.validation.assigneeRequired': '请选择分配给谁',
   'app.kuaizhizao.productionException.process.validation.targetStepRequired': '请选择目标步骤',
   'app.kuaizhizao.productionException.process.confirm.cancelTitle': '确认取消',
-  'app.kuaizhizao.productionException.process.confirm.cancelContent': '确定要取消该异常处理流程吗？',
-  'app.kuaizhizao.productionException.process.confirm.batchCancel': '确定要取消选中的 {{count}} 条异常处理流程吗？',
+  'app.kuaizhizao.productionException.process.confirm.cancelContent':
+    '确定要取消该异常处理流程吗？',
+  'app.kuaizhizao.productionException.process.confirm.batchCancel':
+    '确定要取消选中的 {{count}} 条异常处理流程吗？',
   'app.kuaizhizao.productionException.process.message.startSuccess': '异常处理流程启动成功',
   'app.kuaizhizao.productionException.process.message.startFailed': '启动异常处理流程失败',
   'app.kuaizhizao.productionException.process.message.assignSuccess': '分配成功',
@@ -6499,9 +6743,12 @@ export default {
   'app.kuaizhizao.productionException.process.message.resolveFailed': '解决失败',
   'app.kuaizhizao.productionException.process.message.cancelSuccess': '已取消',
   'app.kuaizhizao.productionException.process.message.cancelFailed': '取消失败',
-  'app.kuaizhizao.productionException.process.message.batchCancelSuccess': '成功取消 {{count}} 条记录',
-  'app.kuaizhizao.productionException.process.message.batchCancelPartialSuccess': '成功取消 {{success}} 条流程',
-  'app.kuaizhizao.productionException.process.message.batchCancelPartialFailed': '{{failed}} 条取消失败',
+  'app.kuaizhizao.productionException.process.message.batchCancelSuccess':
+    '成功取消 {{count}} 条记录',
+  'app.kuaizhizao.productionException.process.message.batchCancelPartialSuccess':
+    '成功取消 {{success}} 条流程',
+  'app.kuaizhizao.productionException.process.message.batchCancelPartialFailed':
+    '{{failed}} 条取消失败',
   'app.kuaizhizao.productionException.process.message.selectFirst': '请先选择异常处理流程',
   'app.kuaizhizao.productionException.process.batch.cancel': '批量取消流程',
   'app.kuaizhizao.productionException.process.displayName.materialShortage': '缺料异常 - {{code}}',
@@ -6524,7 +6771,8 @@ export default {
   'app.kuaizhizao.productionException.statistics.chart.typeMaterialShortage': '缺料异常',
   'app.kuaizhizao.productionException.statistics.chart.typeDeliveryDelay': '延期异常',
   'app.kuaizhizao.productionException.statistics.chart.typeQuality': '质量异常',
-  'app.kuaizhizao.productionException.statistics.message.triggerSuccess': '异常检测已触发，请稍后查看结果',
+  'app.kuaizhizao.productionException.statistics.message.triggerSuccess':
+    '异常检测已触发，请稍后查看结果',
   'app.kuaizhizao.productionException.statistics.message.triggerFailed': '触发异常检测失败',
   'app.kuaizhizao.productionException.statistics.message.fetchFailed': '获取统计数据失败',
   'app.kuaizhizao.outsourceWorkOrder.title': '工单委外',
@@ -6532,7 +6780,8 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.createTitle': '新建工单委外',
   'app.kuaizhizao.outsourceWorkOrder.editTitle': '编辑工单委外',
   'app.kuaizhizao.outsourceWorkOrder.detailTitle': '工单委外详情',
-  'app.kuaizhizao.outsourceWorkOrder.confirmBatchDelete': '确定要删除选中的 {{count}} 条工单委外吗？',
+  'app.kuaizhizao.outsourceWorkOrder.confirmBatchDelete':
+    '确定要删除选中的 {{count}} 条工单委外吗？',
   'app.kuaizhizao.outsourceWorkOrder.statTotal': '工单委外总数',
   'app.kuaizhizao.outsourceWorkOrder.statDraft': '草稿',
   'app.kuaizhizao.outsourceWorkOrder.statInProgress': '执行中',
@@ -6577,14 +6826,18 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.createSuccess': '工单委外创建成功',
   'app.kuaizhizao.outsourceWorkOrder.updateSuccess': '工单委外更新成功',
   'app.kuaizhizao.outsourceWorkOrder.operationFailed': '操作失败',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowed': '该物料来源类型不允许创建工单委外，请选择其他物料',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowed':
+    '该物料来源类型不允许创建工单委外，请选择其他物料',
   'app.kuaizhizao.outsourceWorkOrder.materialSourceType': '物料来源类型：',
   'app.kuaizhizao.outsourceWorkOrder.materialSourceNotConfigured': '未配置',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowedHint': '该物料来源类型不允许创建工单委外，请选择委外件物料',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceValidationPass': '物料来源验证通过，可以创建工单委外',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowedHint':
+    '该物料来源类型不允许创建工单委外，请选择委外件物料',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceValidationPass':
+    '物料来源验证通过，可以创建工单委外',
   'app.kuaizhizao.outsourceWorkOrder.defaultSupplier': '默认供应商：',
   'app.kuaizhizao.outsourceWorkOrder.outsourceOperationLabel': '委外工序：',
-  'app.kuaizhizao.outsourceWorkOrder.validationNotOutsource': '物料来源类型不是委外件（Outsource），当前类型：{{type}}',
+  'app.kuaizhizao.outsourceWorkOrder.validationNotOutsource':
+    '物料来源类型不是委外件（Outsource），当前类型：{{type}}',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypeMake': '自制件',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypeBuy': '采购件',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypePhantom': '虚拟件',
@@ -6604,7 +6857,8 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.placeholderProduct': '请选择产品（委外件）',
   'app.kuaizhizao.outsourceWorkOrder.placeholderQuantity': '请输入计划委外数量',
   'app.kuaizhizao.outsourceWorkOrder.placeholderSupplier': '请选择委外供应商',
-  'app.kuaizhizao.outsourceWorkOrder.placeholderUnitPrice': '请输入委外单价（将从物料配置中自动填充）',
+  'app.kuaizhizao.outsourceWorkOrder.placeholderUnitPrice':
+    '请输入委外单价（将从物料配置中自动填充）',
   'app.kuaizhizao.outsourceWorkOrder.placeholderPriority': '请选择优先级',
   'app.kuaizhizao.outsourceWorkOrder.placeholderPlannedStart': '请选择计划开始时间',
   'app.kuaizhizao.outsourceWorkOrder.placeholderPlannedEnd': '请选择计划结束时间',
@@ -6669,7 +6923,8 @@ export default {
   'app.kuaizhizao.outsourceOrder.confirmDeleteTitle': '确认删除',
   'app.kuaizhizao.outsourceOrder.confirmDeleteContent': '确定要删除工序委外单 "{{code}}" 吗？',
   'app.kuaizhizao.outsourceOrder.createGuideTitle': '创建方式说明',
-  'app.kuaizhizao.outsourceOrder.createGuideContent': '工序委外单请从「工单详情 > 工序 > 创建委外」发起，以保证工单工序与可委外数量一致。',
+  'app.kuaizhizao.outsourceOrder.createGuideContent':
+    '工序委外单请从「工单详情 > 工序 > 创建委外」发起，以保证工单工序与可委外数量一致。',
   'app.kuaizhizao.outsourceOrder.goToWorkOrders': '前往工单页',
   'app.kuaizhizao.outsourceOrder.createFromWorkOrder': '请从工单详情页创建工序委外单',
   'app.kuaizhizao.outsourceOrder.updateSuccess': '工序委外单更新成功',
@@ -6700,12 +6955,14 @@ export default {
   'app.kuaizhizao.packingBinding.title': '装箱绑定',
   'app.kuaizhizao.packingBinding.editTitle': '编辑装箱绑定记录',
   'app.kuaizhizao.packingBinding.detailTitle': '装箱绑定详情',
-  'app.kuaizhizao.packingBinding.confirmBatchDelete': '确定要删除选中的 {{count}} 条装箱绑定记录吗？',
+  'app.kuaizhizao.packingBinding.confirmBatchDelete':
+    '确定要删除选中的 {{count}} 条装箱绑定记录吗？',
   'app.kuaizhizao.packingBinding.confirmDeleteOne': '确定要删除这个装箱绑定记录吗？',
   'app.kuaizhizao.packingBinding.statTotal': '装箱绑定总数',
   'app.kuaizhizao.packingBinding.statScan': '扫码绑定',
   'app.kuaizhizao.packingBinding.statManual': '手动绑定',
-  'app.kuaizhizao.packingBinding.scopeAlert': '口径说明：本页"装箱绑定总数"仅统计已创建的装箱绑定记录；"待装箱任务池"统计来自销售出库单待审核/待出库任务。',
+  'app.kuaizhizao.packingBinding.scopeAlert':
+    '口径说明：本页"装箱绑定总数"仅统计已创建的装箱绑定记录；"待装箱任务池"统计来自销售出库单待审核/待出库任务。',
   'app.kuaizhizao.packingBinding.colBoxNo': '箱号',
   'app.kuaizhizao.packingBinding.colProductCode': '产品编号',
   'app.kuaizhizao.packingBinding.colProductName': '产品名称',
@@ -6758,7 +7015,8 @@ export default {
   'app.kuaizhizao.packingBinding.taskPoolButton': '待装箱任务池',
   'app.kuaizhizao.packingBinding.batchGenerateQrcode': '批量生成二维码',
   'app.kuaizhizao.packingBinding.taskPoolTitle': '待装箱任务池（只读）',
-  'app.kuaizhizao.packingBinding.taskPoolSummary': '待审核 {{pendingReview}} / 待出库 {{pendingOutbound}} / 总计 {{total}}',
+  'app.kuaizhizao.packingBinding.taskPoolSummary':
+    '待审核 {{pendingReview}} / 待出库 {{pendingOutbound}} / 总计 {{total}}',
   'app.kuaizhizao.packingBinding.taskPoolFetchFailed': '获取待装箱任务池失败',
   'app.kuaizhizao.packingBinding.taskPoolColDeliveryCode': '出库单号',
   'app.kuaizhizao.packingBinding.taskPoolColCustomer': '客户',
@@ -6829,7 +7087,8 @@ export default {
   'app.kuaizhizao.workOrder.actionSwitchStation': '切换工位',
   'app.kuaizhizao.workOrder.actionUnfreeze': '解冻工单',
   'app.kuaizhizao.workOrder.actionWithdraw': '撤回',
-  'app.kuaizhizao.workOrder.barcodePrintSelectTemplateHint': '选择打印模板（工序流转卡、工序标签等）',
+  'app.kuaizhizao.workOrder.barcodePrintSelectTemplateHint':
+    '选择打印模板（工序流转卡、工序标签等）',
   'app.kuaizhizao.workOrder.callReasonEngineeringChange': '工艺或设计变更换料',
   'app.kuaizhizao.workOrder.callReasonLineSideShortage': '线边仓缺料',
   'app.kuaizhizao.workOrder.callReasonOther': '其他',
@@ -6930,7 +7189,8 @@ export default {
     '默认随所选工艺路线；可再修改。关闭时须按序报工且下道数量不超过上道；开启时路线中的节点工序仍不可跳过。',
   'app.kuaizhizao.workOrder.formAttributes': '属性',
   'app.kuaizhizao.workOrder.formAttributesJsonFormatInvalid': '请输入有效的 JSON 格式',
-  'app.kuaizhizao.workOrder.formAttributesJsonInvalid': '请输入有效的 JSON 对象，如 {"color":"red","size":"M"}',
+  'app.kuaizhizao.workOrder.formAttributesJsonInvalid':
+    '请输入有效的 JSON 对象，如 {"color":"red","size":"M"}',
   'app.kuaizhizao.workOrder.formAttributesPlaceholder': '配置件必填，如 {"color":"red","size":"M"}',
   'app.kuaizhizao.workOrder.formAttributesRequired': '配置件必须填写属性',
   'app.kuaizhizao.workOrder.formCreateMode': '创建方式',
@@ -7115,20 +7375,23 @@ export default {
   'app.kuaizhizao.workOrder.modalSmartRelease': '齐套自动下达',
   'app.kuaizhizao.workOrder.modalSopTitle': '作业指导书',
   'app.kuaizhizao.workOrder.modalWarehouseAndCall': '库位与叫料',
-  'app.kuaizhizao.workOrder.modalWithdrawCallContent': '确定撤回该叫料申请吗？仅仓库未开始处理时可撤回。',
+  'app.kuaizhizao.workOrder.modalWithdrawCallContent':
+    '确定撤回该叫料申请吗？仅仓库未开始处理时可撤回。',
   'app.kuaizhizao.workOrder.msgAddAtLeastOneMaterial': '请至少添加一行物料并填写数量',
   'app.kuaizhizao.workOrder.msgAddOpsManually': '可手工添加工序，或选择工艺路线自动加载',
   'app.kuaizhizao.workOrder.msgLoadProcessRouteOpsFailed': '获取工艺路线工序失败',
   'app.kuaizhizao.workOrder.msgOperationsLoaded': '已加载 {{count}} 个工序',
   'app.kuaizhizao.workOrder.msgProcessRouteNoSequence': '该工艺路线未配置工序序列',
   'app.kuaizhizao.workOrder.msgProcessRouteNotFound': '未找到工艺路线信息',
-  'app.kuaizhizao.workOrder.msgProcessRouteParseFailed': '该工艺路线工序数据无法解析，请检查工序主数据是否完整',
+  'app.kuaizhizao.workOrder.msgProcessRouteParseFailed':
+    '该工艺路线工序数据无法解析，请检查工序主数据是否完整',
   'app.kuaizhizao.workOrder.msgBatchingTaskCreated': '已生成配料任务，请在物料中心确认',
   'app.kuaizhizao.workOrder.msgBatchingTaskFailed': '生成配料任务失败',
   'app.kuaizhizao.workOrder.msgCallFailed': '发起叫料失败',
   'app.kuaizhizao.workOrder.msgCallSubmitted': '叫料申请已提交',
   'app.kuaizhizao.workOrder.msgCannotGetWorkOrderCode': '无法获取工单编号，请稍后重试',
-  'app.kuaizhizao.workOrder.msgCompleteTrackingHint': '可修改批号/序列号；留空将沿用计划值或在服务端按规则生成。',
+  'app.kuaizhizao.workOrder.msgCompleteTrackingHint':
+    '可修改批号/序列号；留空将沿用计划值或在服务端按规则生成。',
   'app.kuaizhizao.workOrder.msgComputingKitting': '计算齐套性中...',
   'app.kuaizhizao.workOrder.msgConfirmBatchNo': '确认批号',
   'app.kuaizhizao.workOrder.msgConfirmDeleteCount': '确定要删除 {{count}} 个工单吗？',
@@ -7139,7 +7402,8 @@ export default {
   'app.kuaizhizao.workOrder.msgExportNoData': '暂无数据可导出',
   'app.kuaizhizao.workOrder.msgExportSuccess': '已导出 {{count}} 条记录',
   'app.kuaizhizao.workOrder.msgFullOrderCallSuccess': '整单叫料已生成（一张叫料单）',
-  'app.kuaizhizao.workOrder.msgFullOrderCallSuccessWithCode': '整单叫料已生成：{{code}}（含多行明细）',
+  'app.kuaizhizao.workOrder.msgFullOrderCallSuccessWithCode':
+    '整单叫料已生成：{{code}}（含多行明细）',
   'app.kuaizhizao.workOrder.msgGenerateOnRelease': '下达/完工时生成',
   'app.kuaizhizao.workOrder.msgKittingAnalysis': '齐套分析',
   'app.kuaizhizao.workOrder.msgKittingAnalysisFailed': '齐套分析加载失败',
@@ -7184,7 +7448,8 @@ export default {
   'app.kuaizhizao.workOrder.validationMaterialMake': '自制件需配置BOM和工艺路线',
   'app.kuaizhizao.workOrder.validationMaterialOutsource': '委外件需配置委外供应商和工序',
   'app.kuaizhizao.workOrder.validationMaterialPhantom': '虚拟件不应创建工单',
-  'app.kuaizhizao.workOrder.validationMaterialSourceNotAllowed': '该物料来源类型不允许创建生产工单，请选择其他物料或使用相应的功能模块',
+  'app.kuaizhizao.workOrder.validationMaterialSourceNotAllowed':
+    '该物料来源类型不允许创建生产工单，请选择其他物料或使用相应的功能模块',
   'app.kuaizhizao.workOrder.batchGenerateQrcode': '批量生成二维码',
   'app.kuaizhizao.workOrder.batchSetPriority': '批量设置优先级',
   'app.kuaizhizao.workOrder.batchFreeze': '批量冻结',
@@ -7202,9 +7467,11 @@ export default {
   'app.kuaizhizao.workOrder.priorityUrgent': '紧急',
   'app.kuaizhizao.workOrder.productionModeMTO': '按订单生产',
   'app.kuaizhizao.workOrder.productionModeMTS': '按库存生产',
-  'app.kuaizhizao.workOrder.readinessCallsHint': '由生产现场向仓库发起；仓库部门在物料中心主动备货、配送。物料中心及可用仓库范围以仓储关联中的配置为准。',
+  'app.kuaizhizao.workOrder.readinessCallsHint':
+    '由生产现场向仓库发起；仓库部门在物料中心主动备货、配送。物料中心及可用仓库范围以仓储关联中的配置为准。',
   'app.kuaizhizao.workOrder.readinessCustomCallHint': '可添加多行，自选物料与数量。',
-  'app.kuaizhizao.workOrder.readinessFullOrderHint': '将按工单齐套分析，对缺料数量大于 0 的物料生成一张叫料单，每行一种缺料物料（整单叫料）。',
+  'app.kuaizhizao.workOrder.readinessFullOrderHint':
+    '将按工单齐套分析，对缺料数量大于 0 的物料生成一张叫料单，每行一种缺料物料（整单叫料）。',
   'app.kuaizhizao.workOrder.readinessLineSidePrefix': '线边',
   'app.kuaizhizao.workOrder.readinessMainWarehouseLineSide': '主仓 / 线边',
   'app.kuaizhizao.workOrder.readinessMainWarehousePrefix': '主仓',
@@ -7217,7 +7484,8 @@ export default {
   'app.kuaizhizao.workOrder.readinessNoWarehouseConfigured': '未配置仓库',
   'app.kuaizhizao.workOrder.readinessTabCalls': '叫料申请',
   'app.kuaizhizao.workOrder.readinessTabWarehouse': '物料所在仓库',
-  'app.kuaizhizao.workOrder.readinessWarehouseHint': '仓库可在物料中心按齐套缺料主动配料（领料 + 倒冲物料）；现场缺料亦可发起叫料。',
+  'app.kuaizhizao.workOrder.readinessWarehouseHint':
+    '仓库可在物料中心按齐套缺料主动配料（领料 + 倒冲物料）；现场缺料亦可发起叫料。',
   'app.kuaizhizao.workOrder.reportParamEnterContent': '请输入内容',
   'app.kuaizhizao.workOrder.reportParamEnterNumber': '请输入数值',
   'app.kuaizhizao.workOrder.reportParamRequired': '为必填项',
@@ -7280,13 +7548,15 @@ export default {
   'app.kuaizhizao.productionPlan.executePlan': '执行计划',
   'app.kuaizhizao.productionPlan.detailFailed': '获取生产计划详情失败',
   'app.kuaizhizao.productionPlan.executeConfirmTitle': '执行生产计划',
-  'app.kuaizhizao.productionPlan.executeConfirmContent': '确定要执行生产计划 "{{name}}" 吗？执行后将生成相应的工单。',
+  'app.kuaizhizao.productionPlan.executeConfirmContent':
+    '确定要执行生产计划 "{{name}}" 吗？执行后将生成相应的工单。',
   'app.kuaizhizao.productionPlan.executeSuccess': '生产计划执行成功，已生成工单',
   'app.kuaizhizao.productionPlan.executeFailed': '生产计划执行失败',
   'app.kuaizhizao.productionPlan.cannotEditExecuted': '已执行的生产计划不可修改',
   'app.kuaizhizao.productionPlan.loadFailed': '加载生产计划失败',
   'app.kuaizhizao.productionPlan.deleteConfirmTitle': '删除生产计划',
-  'app.kuaizhizao.productionPlan.deleteConfirmContent': '确定要删除生产计划 "{{code}}" 吗？此操作不可撤销。',
+  'app.kuaizhizao.productionPlan.deleteConfirmContent':
+    '确定要删除生产计划 "{{code}}" 吗？此操作不可撤销。',
   'app.kuaizhizao.productionPlan.batchDeleteSuccess': '已删除 {{count}} 条生产计划',
   'app.kuaizhizao.productionPlan.confirmBatchDelete': '确定要删除选中的 {{count}} 条生产计划吗？',
   'app.kuaizhizao.productionPlan.selectFirst': '请先选择生产计划',
@@ -7312,7 +7582,8 @@ export default {
   'app.kuaizhizao.productionPlan.importPartialFailed': '部分失败 {{count}} 条',
   'app.kuaizhizao.productionPlan.defaultUnit': '件',
   'app.kuaizhizao.productionPlan.suggestedActionProduction': '生产',
-  'app.kuaizhizao.productionPlan.updateSuccess': '生产计划已更新（明细行请在下游工单或需求计算中调整）',
+  'app.kuaizhizao.productionPlan.updateSuccess':
+    '生产计划已更新（明细行请在下游工单或需求计算中调整）',
   'app.kuaizhizao.productionPlan.createSuccess': '创建生产计划成功',
   'app.kuaizhizao.productionPlan.updateFailed': '更新生产计划失败',
   'app.kuaizhizao.productionPlan.createFailed': '创建生产计划失败',
@@ -7480,7 +7751,8 @@ export default {
   'app.kuaizhizao.demandComputation.readinessReady': '就绪',
   'app.kuaizhizao.demandComputation.readinessPartial': '部分',
   'app.kuaizhizao.demandComputation.readinessShortage': '缺料',
-  'app.kuaizhizao.demandComputation.readinessTooltip': '就绪率 = 可用库存 ÷ 毛需求；毛需求很大时，即使有库存也可能显示缺料或比例很小（非即时库存无数据）',
+  'app.kuaizhizao.demandComputation.readinessTooltip':
+    '就绪率 = 可用库存 ÷ 毛需求；毛需求很大时，即使有库存也可能显示缺料或比例很小（非即时库存无数据）',
   'app.kuaizhizao.demandComputation.pushDocWorkOrder': '工单',
   'app.kuaizhizao.demandComputation.pushDocOutsourceWorkOrder': '委外工单',
   'app.kuaizhizao.demandComputation.pushDocPurchaseOrder': '采购单',
@@ -7523,7 +7795,8 @@ export default {
   'app.kuaizhizao.demandComputation.drawerTabRecords': '下推与历史',
   'app.kuaizhizao.demandComputation.pushRecords': '下推记录',
   'app.kuaizhizao.demandComputation.recalcHistory': '重算历史',
-  'app.kuaizhizao.demandComputation.recalcHistoryHint': '每次重算前会保存计算结果节选；有「重算前快照」时可点击查看详情。',
+  'app.kuaizhizao.demandComputation.recalcHistoryHint':
+    '每次重算前会保存计算结果节选；有「重算前快照」时可点击查看详情。',
   'app.kuaizhizao.demandComputation.statTotal': '总计算数',
   'app.kuaizhizao.demandComputation.statInProgress': '进行中',
   'app.kuaizhizao.demandComputation.statCompleted': '已完成',
@@ -7544,7 +7817,8 @@ export default {
   'app.kuaizhizao.demandComputation.paramsGlobalBomVersion': '全局 BOM 版本',
   'app.kuaizhizao.demandComputation.paramsBomByMaterial': '按物料指定 BOM 版本',
   'app.kuaizhizao.demandComputation.paramsBomByMaterialHint': '留空则使用该物料默认版本',
-  'app.kuaizhizao.demandComputation.paramsGrossHint': '当前为「毛需求」：建议工单/采购/委外量按 BOM 汇总需求，不参与安全库存、在途、预留、再订货点等供需抵扣参数（本组开关已隐藏并关闭）。',
+  'app.kuaizhizao.demandComputation.paramsGrossHint':
+    '当前为「毛需求」：建议工单/采购/委外量按 BOM 汇总需求，不参与安全库存、在途、预留、再订货点等供需抵扣参数（本组开关已隐藏并关闭）。',
   'app.kuaizhizao.demandComputation.placeholderPlanningHorizon': '不填表示纳入全部有交期的需求行',
   'app.kuaizhizao.demandComputation.placeholderScheduleBuffer': '0 表示仅用物料来源提前期',
   'app.kuaizhizao.demandComputation.placeholderWarehouses': '默认已选全部普通仓，可增选其他仓',
@@ -7555,19 +7829,23 @@ export default {
   'app.kuaizhizao.demandComputation.selectDemands': '选择需求（可多选）',
   'app.kuaizhizao.demandComputation.selectDemandsPlaceholder': '支持多选需求合并计算',
   'app.kuaizhizao.demandComputation.selectDemandsRequired': '请至少选择一个需求',
-  'app.kuaizhizao.demandComputation.selectDemandsTooltip': '多需求合并时，相同物料的需求数量会自动汇总；含 MTO 时计算头为 MTO，否则含 ATO 时为 ATO，否则为 MTS',
+  'app.kuaizhizao.demandComputation.selectDemandsTooltip':
+    '多需求合并时，相同物料的需求数量会自动汇总；含 MTO 时计算头为 MTO，否则含 ATO 时为 ATO，否则为 MTS',
   'app.kuaizhizao.demandComputation.notesPlaceholder': '请输入备注',
   'app.kuaizhizao.demandComputation.searchDemandPlaceholder': '按需求单号/需求名称搜索',
   'app.kuaizhizao.demandComputation.executeConfirmHint': '确认执行前请核对关联需求与计算编号。',
-  'app.kuaizhizao.demandComputation.executeParamsHint': '以下设置仅作用于本次执行，不会写回需求计算单据的已保存参数。',
-  'app.kuaizhizao.demandComputation.previewItemCount': '预计将生成 {{count}} 条计算结果，请确认后执行。',
+  'app.kuaizhizao.demandComputation.executeParamsHint':
+    '以下设置仅作用于本次执行，不会写回需求计算单据的已保存参数。',
+  'app.kuaizhizao.demandComputation.previewItemCount':
+    '预计将生成 {{count}} 条计算结果，请确认后执行。',
   'app.kuaizhizao.demandComputation.totalItems': '共 {{count}} 条',
   'app.kuaizhizao.demandComputation.productionPath': '生产路径',
   'app.kuaizhizao.demandComputation.productionPathDesc': '直接生成工单（与委外工单）',
   'app.kuaizhizao.demandComputation.purchasePath': '采购路径',
   'app.kuaizhizao.demandComputation.purchaseRequisition': '转采购申请',
   'app.kuaizhizao.demandComputation.purchaseOrderOnly': '仅采购单',
-  'app.kuaizhizao.demandComputation.pushOutsourceHint': '委外工单将一并下推，验证失败的将生成草稿单由下游补全。',
+  'app.kuaizhizao.demandComputation.pushOutsourceHint':
+    '委外工单将一并下推，验证失败的将生成草稿单由下游补全。',
   'app.kuaizhizao.demandComputation.pushWillGenerate': '将生成以下单据：',
   'app.kuaizhizao.demandComputation.pushWorkOrderGroups': '工单组 {{count}} 个',
   'app.kuaizhizao.demandComputation.pushWorkOrders': '生产工单 {{count}} 个',
@@ -7589,13 +7867,15 @@ export default {
   'app.kuaizhizao.demandComputation.traceTitle': '需求溯源',
   'app.kuaizhizao.demandComputation.traceContent': '此物料需求由以下原始单据触发汇总：',
   'app.kuaizhizao.demandComputation.traceItemId': '原始需求明细 ID: {{id}}',
-  'app.kuaizhizao.demandComputation.traceHint': '提示：完整溯源功能开发中，将支持点击跳转至对应订单。',
+  'app.kuaizhizao.demandComputation.traceHint':
+    '提示：完整溯源功能开发中，将支持点击跳转至对应订单。',
   'app.kuaizhizao.demandComputation.snapshotAt': '快照时间：{{time}}',
   'app.kuaizhizao.demandComputation.snapshotTrigger': ' · 触发：{{trigger}}',
   'app.kuaizhizao.demandComputation.snapshotSummary': '计算汇总',
   'app.kuaizhizao.demandComputation.snapshotItems': '明细（重算前节选）',
   'app.kuaizhizao.demandComputation.snapshotEmpty': '无快照内容',
-  'app.kuaizhizao.demandComputation.inventoryNoDetail': '暂无明细。请重新执行计算后查看；历史结果可能无仓库拆分数据。',
+  'app.kuaizhizao.demandComputation.inventoryNoDetail':
+    '暂无明细。请重新执行计算后查看；历史结果可能无仓库拆分数据。',
   'app.kuaizhizao.demandComputation.inventoryComposition': '库存构成（与「可用库存」列一致）',
   'app.kuaizhizao.demandComputation.mainBatchDefault': '主仓批次',
   'app.kuaizhizao.demandComputation.lineSideScope': '线边范围：{{scope}}',
@@ -7617,7 +7897,8 @@ export default {
   'app.kuaizhizao.demandComputation.fetchRecalcHistoryFailed': '获取重算历史失败',
   'app.kuaizhizao.demandComputation.fetchSnapshotFailed': '获取重算前快照失败',
   'app.kuaizhizao.demandComputation.loadPushConfigFailed': '加载下推配置失败',
-  'app.kuaizhizao.demandComputation.noAuditedDemands': '暂无已审核通过的需求，请先在需求管理中提交并审核需求',
+  'app.kuaizhizao.demandComputation.noAuditedDemands':
+    '暂无已审核通过的需求，请先在需求管理中提交并审核需求',
   'app.kuaizhizao.demandComputation.loadDemandListFailed': '加载需求列表失败',
   'app.kuaizhizao.demandComputation.selectSource': '请选择{{source}}',
   'app.kuaizhizao.demandComputation.alreadyPushed': '该{{source}}已下推过{{target}}，请勿重复创建',
@@ -7629,11 +7910,13 @@ export default {
   'app.kuaizhizao.demandComputation.executeSuccess': '计算执行成功',
   'app.kuaizhizao.demandComputation.executeFailed': '计算执行失败',
   'app.kuaizhizao.demandComputation.recomputeTitle': '重新计算',
-  'app.kuaizhizao.demandComputation.recomputeConfirm': '确认要对计算 {{code}} 重新执行吗？将清空当前结果并按原需求重新计算。',
+  'app.kuaizhizao.demandComputation.recomputeConfirm':
+    '确认要对计算 {{code}} 重新执行吗？将清空当前结果并按原需求重新计算。',
   'app.kuaizhizao.demandComputation.recomputeSubmitted': '重新计算已提交，请稍后刷新查看结果',
   'app.kuaizhizao.demandComputation.recomputeFailed': '重新计算失败',
   'app.kuaizhizao.demandComputation.deleteTitle': '删除需求计算',
-  'app.kuaizhizao.demandComputation.deleteConfirm': '确定要删除计算 {{code}} 吗？仅当尚未下推工单/采购单等下游单据时可删除，删除后关联需求可重新下推计算。',
+  'app.kuaizhizao.demandComputation.deleteConfirm':
+    '确定要删除计算 {{code}} 吗？仅当尚未下推工单/采购单等下游单据时可删除，删除后关联需求可重新下推计算。',
   'app.kuaizhizao.demandComputation.deleteSuccess': '删除成功',
   'app.kuaizhizao.demandComputation.deleteFailed': '删除失败',
   'app.kuaizhizao.demandComputation.openFailed': '打开需求计算失败',
@@ -7643,56 +7926,77 @@ export default {
   'app.kuaizhizao.demandComputation.selectOneFirst': '请先选择一条需求计算',
   'app.kuaizhizao.demandComputation.pushSingleOnly': '下推仅支持单条需求计算，请只保留一条选中记录',
   'app.kuaizhizao.demandComputation.selectedNotInList': '所选记录不在当前列表，请刷新后重新选择',
-  'app.kuaizhizao.demandComputation.pushOnlyCompleted': '仅"已完成"的需求计算可下推（当前状态：{{status}}）',
+  'app.kuaizhizao.demandComputation.pushOnlyCompleted':
+    '仅"已完成"的需求计算可下推（当前状态：{{status}}）',
   'app.kuaizhizao.demandComputation.selectComputationFirst': '请先选择需求计算',
   'app.kuaizhizao.demandComputation.batchExecuteSuccess': '已触发 {{count}} 条需求计算执行',
-  'app.kuaizhizao.demandComputation.batchExecuteFailed': '{{count}} 条执行失败（仅进行中/待执行状态可操作）',
+  'app.kuaizhizao.demandComputation.batchExecuteFailed':
+    '{{count}} 条执行失败（仅进行中/待执行状态可操作）',
   'app.kuaizhizao.demandComputation.batchRecomputeSuccess': '已触发 {{count}} 条需求计算重算',
-  'app.kuaizhizao.demandComputation.batchRecomputeFailed': '{{count}} 条重算失败（仅已完成/失败状态可操作）',
+  'app.kuaizhizao.demandComputation.batchRecomputeFailed':
+    '{{count}} 条重算失败（仅已完成/失败状态可操作）',
   'app.kuaizhizao.demandComputation.batchDeleteSuccess': '成功删除 {{count}} 条记录',
-  'app.kuaizhizao.demandComputation.batchDeleteConfirm': '确定要删除选中的 {{count}} 条需求计算吗？',
-  'app.kuaizhizao.demandComputation.batchDeleteDescription': '仅当尚未下推工单/采购单等下游单据时可删除。',
+  'app.kuaizhizao.demandComputation.batchDeleteConfirm':
+    '确定要删除选中的 {{count}} 条需求计算吗？',
+  'app.kuaizhizao.demandComputation.batchDeleteDescription':
+    '仅当尚未下推工单/采购单等下游单据时可删除。',
   'app.kuaizhizao.demandComputation.createSuccessMerged': '创建成功，已合并 {{count}} 个需求',
   'app.kuaizhizao.demandComputation.createFailed': '创建失败',
   'app.kuaizhizao.demandComputation.mrpGuideTrigger': 'MRP 参数解决什么问题',
   'app.kuaizhizao.demandComputation.mrpGuideTitle': 'MRP 计算参数一页纸说明',
-  'app.kuaizhizao.demandComputation.mrpGuideIntro': '面向计划、采购、生产及管理层：说明各参数<strong>解决的现场问题</strong>。采购/自制/委外<strong>基础提前期</strong>在物料来源配置中维护；以下为每次运算可选的<strong>策略与缓冲</strong>。',
+  'app.kuaizhizao.demandComputation.mrpGuideIntro':
+    '面向计划、采购、生产及管理层：说明各参数<strong>解决的现场问题</strong>。采购/自制/委外<strong>基础提前期</strong>在物料来源配置中维护；以下为每次运算可选的<strong>策略与缓冲</strong>。',
   'app.kuaizhizao.demandComputation.mrpGuideSection1': '一、我们帮您解决什么问题？',
   'app.kuaizhizao.demandComputation.mrpGuideProblem1Title': '库存与在途对不上',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem1Desc': '通过仓库范围、在途/在制、预留、安全库存、再订货点，把可供应量算清楚。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem1Desc':
+    '通过仓库范围、在途/在制、预留、安全库存、再订货点，把可供应量算清楚。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem2Title': '远期预测不准',
   'app.kuaizhizao.demandComputation.mrpGuideProblem2Desc': '用计划展望期聚焦近期可执行需求。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem3Title': 'BOM 改版频繁',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem3Desc': '用 BOM 版本与展开层级控制用哪套清单、展多深。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem3Desc':
+    '用 BOM 版本与展开层级控制用哪套清单、展多深。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem4Title': '有 MOQ/整包装',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem4Desc': '用批量规则（结合物料主数据）圆整建议量。',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem4Desc':
+    '用批量规则（结合物料主数据）圆整建议量。',
   'app.kuaizhizao.demandComputation.mrpGuideProblem5Title': '提前期仍偏紧',
   'app.kuaizhizao.demandComputation.mrpGuideProblem5Desc': '用排程缓冲天数在整体排程上多留余地。',
   'app.kuaizhizao.demandComputation.mrpGuideSection2': '二、参数与「解决什么问题」对照',
   'app.kuaizhizao.demandComputation.mrpGuideSection3': '三、落地建议',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice1': '先保证 BOM、物料来源与提前期、仓库与库存习惯、开放单状态四类主数据可靠。',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice2': '建议先启用展望期、仓库范围、在途，再按需打开安全库存与再订货点。',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice3': '批量规则与供应商/现场凑单习惯对齐后再强制圆整。',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice4': '缓冲天数宜小步调整（如 1～3 天），结合历史延期迭代。',
-  'app.kuaizhizao.demandComputation.mrpGuideFooter': '完整可打印版见项目内文档：docs/mrp-parameters-customer-one-pager-zh.md。参数含义以当前系统版本及实施配置为准。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice1':
+    '先保证 BOM、物料来源与提前期、仓库与库存习惯、开放单状态四类主数据可靠。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice2':
+    '建议先启用展望期、仓库范围、在途，再按需打开安全库存与再订货点。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice3':
+    '批量规则与供应商/现场凑单习惯对齐后再强制圆整。',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice4':
+    '缓冲天数宜小步调整（如 1～3 天），结合历史延期迭代。',
+  'app.kuaizhizao.demandComputation.mrpGuideFooter':
+    '完整可打印版见项目内文档：docs/mrp-parameters-customer-one-pager-zh.md。参数含义以当前系统版本及实施配置为准。',
   'app.kuaizhizao.demandComputation.mrpParamSafetyStock': '考虑安全库存',
-  'app.kuaizhizao.demandComputation.mrpParamSafetyStockProblem': '净算是否体现安全库存策略，避免过度消耗可用量。',
+  'app.kuaizhizao.demandComputation.mrpParamSafetyStockProblem':
+    '净算是否体现安全库存策略，避免过度消耗可用量。',
   'app.kuaizhizao.demandComputation.mrpParamInTransit': '考虑在途/在制',
-  'app.kuaizhizao.demandComputation.mrpParamInTransitProblem': '是否把未结案采购、在制工单等计入供应，减少重复请购/投产。',
+  'app.kuaizhizao.demandComputation.mrpParamInTransitProblem':
+    '是否把未结案采购、在制工单等计入供应，减少重复请购/投产。',
   'app.kuaizhizao.demandComputation.mrpParamReserved': '考虑预留量',
   'app.kuaizhizao.demandComputation.mrpParamReservedProblem': '已预留库存是否从可用量中扣除。',
   'app.kuaizhizao.demandComputation.mrpParamReorderPoint': '考虑再订货点',
   'app.kuaizhizao.demandComputation.mrpParamReorderPointProblem': '是否按再订货点规则放大净需求。',
   'app.kuaizhizao.demandComputation.mrpParamWarehouses': '参与计算的仓库',
-  'app.kuaizhizao.demandComputation.mrpParamWarehousesProblem': '哪些仓库参与库存汇总（默认普通仓，可增选）。',
+  'app.kuaizhizao.demandComputation.mrpParamWarehousesProblem':
+    '哪些仓库参与库存汇总（默认普通仓，可增选）。',
   'app.kuaizhizao.demandComputation.mrpParamPlanningHorizon': '计划展望期',
-  'app.kuaizhizao.demandComputation.mrpParamPlanningHorizonProblem': '超出窗口的需求行可不参与运算，减少远期噪声。',
+  'app.kuaizhizao.demandComputation.mrpParamPlanningHorizonProblem':
+    '超出窗口的需求行可不参与运算，减少远期噪声。',
   'app.kuaizhizao.demandComputation.mrpParamBomVersion': 'BOM 版本与展开层级',
-  'app.kuaizhizao.demandComputation.mrpParamBomVersionProblem': '用对清单、控制展开深度，降低错料与异常深展风险。',
+  'app.kuaizhizao.demandComputation.mrpParamBomVersionProblem':
+    '用对清单、控制展开深度，降低错料与异常深展风险。',
   'app.kuaizhizao.demandComputation.mrpParamLotSizing': '建议量按批量规则',
-  'app.kuaizhizao.demandComputation.mrpParamLotSizingProblem': '建议量是否按最小量、倍数、上限圆整，便于直接下单。',
+  'app.kuaizhizao.demandComputation.mrpParamLotSizingProblem':
+    '建议量是否按最小量、倍数、上限圆整，便于直接下单。',
   'app.kuaizhizao.demandComputation.mrpParamScheduleBuffer': '排程缓冲天数',
-  'app.kuaizhizao.demandComputation.mrpParamScheduleBufferProblem': '在物料提前期基础上，开工/请购再整体前置若干天，应对波动。',
+  'app.kuaizhizao.demandComputation.mrpParamScheduleBufferProblem':
+    '在物料提前期基础上，开工/请购再整体前置若干天，应对波动。',
   'app.kuaizhizao.coordinationPipeline.relatedDocuments': '关联单据',
   'app.kuaizhizao.coordinationPipeline.purchaseRequisition': '采购申请',
   'app.kuaizhizao.coordinationPipeline.purchaseOrder': '采购订单',
@@ -7729,7 +8033,8 @@ export default {
   'app.kuaizhizao.coordinationPipeline.noKittedWorkOrders': '当前无符合齐套条件的草稿工单',
   'app.kuaizhizao.coordinationPipeline.releaseFailed': '齐套下达失败',
   'app.kuaizhizao.coordinationPipeline.loading': '加载协调数据...',
-  'app.kuaizhizao.coordinationPipeline.noActiveOrders': '暂无已审核的销售订单，请先在「销售订单」中创建并审核订单',
+  'app.kuaizhizao.coordinationPipeline.noActiveOrders':
+    '暂无已审核的销售订单，请先在「销售订单」中创建并审核订单',
   'app.kuaizhizao.coordinationPipeline.goToSalesOrders': '前往销售订单',
   'app.kuaizhizao.coordinationPipeline.incompleteOrders': '未完成订单',
   'app.kuaizhizao.coordinationPipeline.wipCount': '{{count}} 单在制',
@@ -7755,7 +8060,8 @@ export default {
   'app.kuaizhizao.scheduling.headerBand.scheduleAdherenceRate': '开工率 {{rate}}%',
   'app.kuaizhizao.scheduling.pool.title': '待排工单区',
   'app.kuaizhizao.scheduling.pool.countAriaLabel': '共 {{count}} 条',
-  'app.kuaizhizao.scheduling.pool.hint': '拖拽工单至上方排产区；排产问题列中的缺项可通过补充排产对话框填写',
+  'app.kuaizhizao.scheduling.pool.hint':
+    '拖拽工单至上方排产区；排产问题列中的缺项可通过补充排产对话框填写',
   'app.kuaizhizao.scheduling.pool.loadingGantt': '加载甘特图…',
   'app.kuaizhizao.scheduling.poolToolbar.statusAll': '全部',
   'app.kuaizhizao.scheduling.poolToolbar.statusDraft': '草稿',
@@ -7768,15 +8074,19 @@ export default {
   'app.kuaizhizao.scheduling.poolToolbar.toException': '转异常',
   'app.kuaizhizao.scheduling.poolToolbar.applyUnfreeze': '解冻申请',
   'app.kuaizhizao.scheduling.ganttToolbar.title': '可视排产',
-  'app.kuaizhizao.scheduling.ganttToolbar.fullscreenTip': '建议点击 UniTab 右上角全屏按钮，扩大排产可操作区域（甘特拖拽与资源调度更顺畅）',
+  'app.kuaizhizao.scheduling.ganttToolbar.fullscreenTip':
+    '建议点击 UniTab 右上角全屏按钮，扩大排产可操作区域（甘特拖拽与资源调度更顺畅）',
   'app.kuaizhizao.scheduling.ganttToolbar.stationOpStats': '工位 {{stations}}｜工序 {{operations}}',
-  'app.kuaizhizao.scheduling.ganttToolbar.selectedStats': '｜已选 {{workOrders}} 工单 / {{operations}} 工序',
+  'app.kuaizhizao.scheduling.ganttToolbar.selectedStats':
+    '｜已选 {{workOrders}} 工单 / {{operations}} 工序',
   'app.kuaizhizao.scheduling.ganttToolbar.selectedWorkOrdersOnly': '｜已选 {{workOrders}} 工单',
   'app.kuaizhizao.scheduling.ganttToolbar.draft': '暂存',
-  'app.kuaizhizao.scheduling.ganttToolbar.draftTooltip': '开启后，仅甘特条拖拽调整会先暂存；从待排区排入并在弹窗点「更新」会立即保存',
+  'app.kuaizhizao.scheduling.ganttToolbar.draftTooltip':
+    '开启后，仅甘特条拖拽调整会先暂存；从待排区排入并在弹窗点「更新」会立即保存',
   'app.kuaizhizao.scheduling.ganttToolbar.applyChanges': '应用更改',
   'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltip': '将暂存的拖拽调整校验后写入数据库',
-  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltipEmpty': '暂无待保存的拖拽调整；从待排区排入的数据已在弹窗「更新」时保存',
+  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltipEmpty':
+    '暂无待保存的拖拽调整；从待排区排入的数据已在弹窗「更新」时保存',
   'app.kuaizhizao.scheduling.ganttToolbar.undo': '撤销',
   'app.kuaizhizao.scheduling.ganttToolbar.settings': '排产设置',
   'app.kuaizhizao.scheduling.ganttToolbar.batchFreeze': '批量冻结',
@@ -7801,7 +8111,8 @@ export default {
   'app.kuaizhizao.scheduling.gantt.empty.title.work_order': '暂无待排产工单',
   'app.kuaizhizao.scheduling.gantt.empty.hint.operation': '请先在工单中维护工序并排定计划时间',
   'app.kuaizhizao.scheduling.gantt.empty.hint.work_order': '请先在需求计算或生产计划中生成工单',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.resource': '当前无已排工序，可在下方工单列表中设置计划时间',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.resource':
+    '当前无已排工序，可在下方工单列表中设置计划时间',
   'app.kuaizhizao.scheduling.gantt.unassignedStation': '未分配工位',
   'app.kuaizhizao.scheduling.col.workOrderCode': '工单编号',
   'app.kuaizhizao.scheduling.col.operationCount': '工序数',
@@ -7842,11 +8153,13 @@ export default {
   'app.kuaizhizao.scheduling.batch.label.operationStations': '工序工位',
   'app.kuaizhizao.scheduling.batch.updated': '{{label}}：已更新 {{count}} 条',
   'app.kuaizhizao.scheduling.batch.skippedFrozen': '{{label}}：{{count}} 条因工单冻结未更新',
-  'app.kuaizhizao.scheduling.batch.skippedFreezeWindow': '{{label}}：{{count}} 条因落在冻结窗内未更新',
+  'app.kuaizhizao.scheduling.batch.skippedFreezeWindow':
+    '{{label}}：{{count}} 条因落在冻结窗内未更新',
   'app.kuaizhizao.scheduling.batch.failed': '{{label}}：{{count}} 条失败{{detail}}',
   'app.kuaizhizao.scheduling.batch.failedDetail': '（{{detail}}）',
   'app.kuaizhizao.scheduling.batch.noUpdate': '{{label}}：无有效更新',
-  'app.kuaizhizao.scheduling.batch.notSavedFreezeWindow': '{{label}}未保存：计划开始落在冻结窗内，请将开始时间调到冻结窗之后或缩短冻结天数',
+  'app.kuaizhizao.scheduling.batch.notSavedFreezeWindow':
+    '{{label}}未保存：计划开始落在冻结窗内，请将开始时间调到冻结窗之后或缩短冻结天数',
   'app.kuaizhizao.scheduling.batch.notSavedFrozen': '{{label}}未保存：工单已冻结，请先解冻后再排产',
   'app.kuaizhizao.scheduling.batch.notSavedFailed': '{{label}}未保存：{{detail}}',
   'app.kuaizhizao.scheduling.batch.notSavedServerRejected': '服务器拒绝更新',
@@ -7866,8 +8179,10 @@ export default {
   'app.kuaizhizao.scheduling.msg.stationReassignFailed': '改派工位失败',
   'app.kuaizhizao.scheduling.msg.quickActionFailed': '快捷处置失败',
   'app.kuaizhizao.scheduling.msg.quickActionConfirm': '已选 {{count}} 张工单，是否继续？',
-  'app.kuaizhizao.scheduling.msg.quickActionConfirmOverdue': '已选 {{count}} 张工单，其中 {{overdue}} 张已逾期。是否继续？',
-  'app.kuaizhizao.scheduling.msg.quickActionResult': '{{prefix}}：顺延 {{updated}}，转异常 {{converted}}，解冻 {{unfreezed}}，跳过 {{skipped}}{{failedPart}}',
+  'app.kuaizhizao.scheduling.msg.quickActionConfirmOverdue':
+    '已选 {{count}} 张工单，其中 {{overdue}} 张已逾期。是否继续？',
+  'app.kuaizhizao.scheduling.msg.quickActionResult':
+    '{{prefix}}：顺延 {{updated}}，转异常 {{converted}}，解冻 {{unfreezed}}，跳过 {{skipped}}{{failedPart}}',
   'app.kuaizhizao.scheduling.msg.quickActionResultFailed': '，失败 {{count}}',
   'app.kuaizhizao.scheduling.msg.confirmDelayTitle': '延期确认',
   'app.kuaizhizao.scheduling.msg.confirmDelayReason': '可视排产延期确认',
@@ -7879,10 +8194,12 @@ export default {
   'app.kuaizhizao.scheduling.msg.applyUnfreezeReason': '可视排产解冻申请',
   'app.kuaizhizao.scheduling.msg.applyUnfreezeSuccess': '已处理解冻申请',
   'app.kuaizhizao.scheduling.msg.validationFailed': '排产校验未通过',
-  'app.kuaizhizao.scheduling.msg.stationsSavedPending': '工位已保存，{{pending}} 道工序仍缺工位；{{scheduledPart}}请继续补充',
+  'app.kuaizhizao.scheduling.msg.stationsSavedPending':
+    '工位已保存，{{pending}} 道工序仍缺工位；{{scheduledPart}}请继续补充',
   'app.kuaizhizao.scheduling.msg.stationsSavedScheduledPart': '已排入 {{count}} 道工序，',
   'app.kuaizhizao.scheduling.msg.savedToGantt': '已保存并排入甘特图 {{count}} 道工序',
-  'app.kuaizhizao.scheduling.msg.stationsSavedDisplay': '工位已保存，工序将按工单计划时间展示在甘特图',
+  'app.kuaizhizao.scheduling.msg.stationsSavedDisplay':
+    '工位已保存，工序将按工单计划时间展示在甘特图',
   'app.kuaizhizao.scheduling.msg.loadOperationsFailed': '加载工序失败',
   'app.kuaizhizao.scheduling.msg.workOrderNotFound': '未找到该工单',
   'app.kuaizhizao.scheduling.msg.alreadyOnBoard': '该工单已在排产区',
@@ -7892,21 +8209,26 @@ export default {
   'app.kuaizhizao.scheduling.msg.batchFreezeFailed': '批量冻结失败',
   'app.kuaizhizao.scheduling.msg.batchUnfreezeSuccess': '已批量解冻选中工单',
   'app.kuaizhizao.scheduling.msg.batchUnfreezeFailed': '批量解冻失败',
-  'app.kuaizhizao.scheduling.msg.freezeDragBlocked': '冻结窗内或已冻结工单禁止拖拽，请先解冻或移出冻结窗',
+  'app.kuaizhizao.scheduling.msg.freezeDragBlocked':
+    '冻结窗内或已冻结工单禁止拖拽，请先解冻或移出冻结窗',
   'app.kuaizhizao.scheduling.msg.configSaved': '排产设置已保存',
   'app.kuaizhizao.scheduling.msg.configSaveFailed': '保存失败',
   'app.kuaizhizao.scheduling.msg.freezeReason': '可视排产锁定',
   'app.kuaizhizao.scheduling.tour.fullscreenTitle': '建议全屏排产',
-  'app.kuaizhizao.scheduling.tour.fullscreenDescription': '拖拽甘特条调整计划 → 查看冲突与负荷 → 冻结锁定本周计划。',
-  'app.kuaizhizao.scheduling.alert.fromCoordinationCenter': '已从协调中心带入 {{count}} 个工单进行可视排产',
+  'app.kuaizhizao.scheduling.tour.fullscreenDescription':
+    '拖拽甘特条调整计划 → 查看冲突与负荷 → 冻结锁定本周计划。',
+  'app.kuaizhizao.scheduling.alert.fromCoordinationCenter':
+    '已从协调中心带入 {{count}} 个工单进行可视排产',
   'app.kuaizhizao.scheduling.alert.returnCoordinationCenter': '返回协调中心',
   'app.kuaizhizao.scheduling.alert.filterByPlanDate': '已按滚动计划日 {{date}} 过滤待排池',
   'app.kuaizhizao.scheduling.alert.returnRollingPlan': '返回滚动计划',
-  'app.kuaizhizao.scheduling.alert.ganttLimitWarning': '甘特图仅展示前 {{limit}} 条工单，请用筛选或深链缩小范围',
+  'app.kuaizhizao.scheduling.alert.ganttLimitWarning':
+    '甘特图仅展示前 {{limit}} 条工单，请用筛选或深链缩小范围',
   'app.kuaizhizao.scheduling.config.title': '可视排产设置',
   'app.kuaizhizao.scheduling.config.restoreDefault': '恢复默认',
   'app.kuaizhizao.scheduling.config.freezeWindowDays': '冻结窗口（天）',
-  'app.kuaizhizao.scheduling.config.freezeWindowHint': '窗口内工单不可拖拽调整，甘特图左侧紫色区域为冻结窗',
+  'app.kuaizhizao.scheduling.config.freezeWindowHint':
+    '窗口内工单不可拖拽调整，甘特图左侧紫色区域为冻结窗',
   'app.kuaizhizao.scheduling.config.scanHorizonDays': '诊断扫描范围（天）',
   'app.kuaizhizao.scheduling.config.dragValidationTitle': '拖拽校验（冲突检测）',
   'app.kuaizhizao.scheduling.config.considerHuman': '工位时间重叠',
@@ -7914,17 +8236,20 @@ export default {
   'app.kuaizhizao.scheduling.config.considerMaterial': '缺料齐套提示',
   'app.kuaizhizao.scheduling.config.considerMoldTool': '模具/工装重叠',
   'app.kuaizhizao.scheduling.draft.closeTitle': '关闭暂存模式',
-  'app.kuaizhizao.scheduling.draft.closeContent': '仍有 {{count}} 项未应用更改，关闭将丢弃本地暂存。',
+  'app.kuaizhizao.scheduling.draft.closeContent':
+    '仍有 {{count}} 项未应用更改，关闭将丢弃本地暂存。',
   'app.kuaizhizao.scheduling.draft.discardAndClose': '丢弃并关闭',
   'app.kuaizhizao.scheduling.prep.title': '补充排产信息',
-  'app.kuaizhizao.scheduling.prep.description': '工单 {{code}} 缺少排产必备信息，补充后将自动排入上方排产区。工序未填开始时间时默认接上道工序结束；若开始时间早于前道结束，将自动顺延以保持顺序时间线。',
+  'app.kuaizhizao.scheduling.prep.description':
+    '工单 {{code}} 缺少排产必备信息，补充后将自动排入上方排产区。工序未填开始时间时默认接上道工序结束；若开始时间早于前道结束，将自动顺延以保持顺序时间线。',
   'app.kuaizhizao.scheduling.prep.operationScheduling': '工序排产',
   'app.kuaizhizao.scheduling.prep.colOperation': '工序',
   'app.kuaizhizao.scheduling.prep.colStation': '工位',
   'app.kuaizhizao.scheduling.prep.colStart': '开始时间',
   'app.kuaizhizao.scheduling.prep.colEnd': '结束时间',
   'app.kuaizhizao.scheduling.prep.noOperations': '该工单暂无工序，无法排产',
-  'app.kuaizhizao.scheduling.prep.noRouteWarning': '该工单暂无工序，请先在工单中维护工艺路线后再排产。',
+  'app.kuaizhizao.scheduling.prep.noRouteWarning':
+    '该工单暂无工序，请先在工单中维护工艺路线后再排产。',
   'app.kuaizhizao.scheduling.prep.plannedStart': '计划开始时间',
   'app.kuaizhizao.scheduling.prep.plannedEnd': '计划结束时间',
   'app.kuaizhizao.scheduling.prep.selectStartRequired': '请选择计划开始时间',
@@ -7949,13 +8274,15 @@ export default {
   'app.kuaizhizao.rollingScheduling.generateEmpty': '已生成空计划：工单池无结转/已排明日/可排工单',
   'app.kuaizhizao.rollingScheduling.generateFailed': '生成失败',
   'app.kuaizhizao.rollingScheduling.closeDayTitle': '关账 {{date}}',
-  'app.kuaizhizao.rollingScheduling.closeDayContent': '关账将锁定当日已发布计划并统计完成实绩，是否继续？',
+  'app.kuaizhizao.rollingScheduling.closeDayContent':
+    '关账将锁定当日已发布计划并统计完成实绩，是否继续？',
   'app.kuaizhizao.rollingScheduling.closeDaySuccess': '关账完成',
   'app.kuaizhizao.rollingScheduling.closeDayFailed': '关账失败',
   'app.kuaizhizao.rollingScheduling.saveLinesSuccess': '计划行已保存',
   'app.kuaizhizao.rollingScheduling.saveFailed': '保存失败',
   'app.kuaizhizao.rollingScheduling.publishTitle': '发布日计划',
-  'app.kuaizhizao.rollingScheduling.publishContent': '将 {{date}} 计划写入工单计划开始日（不下达），是否继续？',
+  'app.kuaizhizao.rollingScheduling.publishContent':
+    '将 {{date}} 计划写入工单计划开始日（不下达），是否继续？',
   'app.kuaizhizao.rollingScheduling.publishSuccess': '发布成功，已更新 {{count}} 个工单计划日',
   'app.kuaizhizao.rollingScheduling.publishFailed': '发布失败',
   'app.kuaizhizao.rollingScheduling.col.sequence': '序',
@@ -7983,10 +8310,12 @@ export default {
   'app.kuaizhizao.rollingScheduling.closeHintPublished': '当日计划已发布，下班后可关账',
   'app.kuaizhizao.rollingScheduling.closeHintNoData': '当日无已发布计划或无数据',
   'app.kuaizhizao.rollingScheduling.nextDayPlanTitle': '次日计划（{{date}}）',
-  'app.kuaizhizao.rollingScheduling.emptyGenerated': '计划已生成，但候选池为空（无结转/已排明日/可排工单）',
+  'app.kuaizhizao.rollingScheduling.emptyGenerated':
+    '计划已生成，但候选池为空（无结转/已排明日/可排工单）',
   'app.kuaizhizao.rollingScheduling.emptyGenerateFirst': '请先生成次日计划',
   'app.kuaizhizao.rollingScheduling.poolEmptyTitle': '候选池为空',
-  'app.kuaizhizao.rollingScheduling.poolEmptyDesc': '请确认存在草稿/已下达/进行中工单，或先发布并关账当日计划以结转未完单据。',
+  'app.kuaizhizao.rollingScheduling.poolEmptyDesc':
+    '请确认存在草稿/已下达/进行中工单，或先发布并关账当日计划以结转未完单据。',
   'app.kuaizhizao.rollingScheduling.capacityTitle': '粗产能提示',
   'app.kuaizhizao.rollingScheduling.capacity.availableHours': '可用工时',
   'app.kuaizhizao.rollingScheduling.capacity.requiredHours': '候选工时',
@@ -8096,10 +8425,12 @@ export default {
   'app.kuaizhizao.demandReplan.col.failureReason': '失败原因',
   'app.kuaizhizao.demandReplan.action.viewFailure': '查看失败',
   'app.kuaizhizao.demandReplan.failureItem': '计算单 {{id}}：{{error}}',
-  'app.kuaizhizao.demandReplan.emptyTargetComputations': '未找到可重算的需求计算，请确认上游单据已下推需求计算',
+  'app.kuaizhizao.demandReplan.emptyTargetComputations':
+    '未找到可重算的需求计算，请确认上游单据已下推需求计算',
   'app.kuaizhizao.demandReplan.failureModal.title': '重算失败 - {{code}}',
   'app.kuaizhizao.demandReplan.failureModal.noDetail': '暂无详细错误信息',
-  'app.kuaizhizao.demandReplan.failureModal.summary': '目标 {{target}} 条，成功 {{success}} 条，失败 {{failed}} 条',
+  'app.kuaizhizao.demandReplan.failureModal.summary':
+    '目标 {{target}} 条，成功 {{success}} 条，失败 {{failed}} 条',
   'app.kuaizhizao.demandReplan.col.actions': '操作',
   'app.kuaizhizao.demandReplan.action.execute': '执行',
   'app.kuaizhizao.demandReplan.action.createTask': '生成重算任务',
@@ -8210,11 +8541,14 @@ export default {
   'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValueSubtitle': '按物料标准成本/均价估算',
   'app.kuaizhizao.warehouseDashboard.kpi.totalQuantity': '总数量',
   'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealth': '库存健康度',
-  'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealthSubtitle': '低库存 {{lowStock}} · 缺料 {{outOfStock}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealthSubtitle':
+    '低库存 {{lowStock}} · 缺料 {{outOfStock}}',
   'app.kuaizhizao.warehouseDashboard.kpi.skuCount': 'SKU 数',
   'app.kuaizhizao.warehouseDashboard.kpi.pendingInOut': '待办出入库',
-  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitleOverdue': '待入库 {{pendingInbound}} · 逾期 {{overdueInbound}} 单',
-  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitle': '待入库 {{pendingInbound}} · 待出库 {{pendingOutbound}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitleOverdue':
+    '待入库 {{pendingInbound}} · 逾期 {{overdueInbound}} 单',
+  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitle':
+    '待入库 {{pendingInbound}} · 待出库 {{pendingOutbound}}',
   'app.kuaizhizao.warehouseDashboard.kpi.pendingOutbound': '待出库',
   'app.kuaizhizao.warehouseDashboard.shortcut.purchaseInbound': '采购入库',
   'app.kuaizhizao.warehouseDashboard.shortcut.salesOutbound': '销售出库',
@@ -8275,97 +8609,134 @@ export default {
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.label': '从报价单创建销售订单',
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.source': '报价单',
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.target': '销售订单',
-  'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.label': '从销售合同创建销售订单',
+  'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.label':
+    '从销售合同创建销售订单',
   'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.source': '销售合同',
   'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.target': '销售订单',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.label': '从报价单创建销售合同',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.source': '报价单',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.target': '销售合同',
-  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.label': '从销售订单创建销售变更单',
+  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.label':
+    '从销售订单创建销售变更单',
   'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.target': '销售变更单',
-  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.label': '从采购订单创建采购变更单',
+  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.label':
+    '从采购订单创建采购变更单',
   'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.source': '采购订单',
-  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.target': '采购变更单',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.label': '从采购订单创建采购入库单',
+  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.target':
+    '采购变更单',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.label':
+    '从采购订单创建采购入库单',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.source': '采购订单',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.target': '采购入库单',
-  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.label': '从采购订单创建采购发票',
+  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.label':
+    '从采购订单创建采购发票',
   'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.source': '采购订单',
   'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.target': '采购发票',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.label': '从采购订单创建采购退货单',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.label':
+    '从采购订单创建采购退货单',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.source': '采购订单',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.target': '采购退货单',
-  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.label': '从采购申请创建采购订单',
+  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.label':
+    '从采购申请创建采购订单',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.source': '采购申请',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.target': '采购订单',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.label': '从采购询价创建采购订单',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.source': '采购询价',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.target': '采购订单',
-  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.label': '从采购申请创建询价单',
+  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.label':
+    '从采购申请创建询价单',
   'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.source': '采购申请',
   'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.target': '询价单',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.label': '从工单创建配料单',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.source': '工单',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.target': '配料单',
-  'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.label': '从销售订单创建发货通知单',
+  'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.label':
+    '从销售订单创建发货通知单',
   'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.target': '发货通知单',
-  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.label': '从销售出库单创建送货单',
+  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.label':
+    '从销售出库单创建送货单',
   'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.source': '销售出库单',
   'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.target': '送货单',
-  'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.label': '从销售订单创建销售发票',
+  'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.label':
+    '从销售订单创建销售发票',
   'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.target': '销售发票',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.label': '从销售订单创建销售出库单',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.label':
+    '从销售订单创建销售出库单',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.target': '销售出库单',
-  'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.label': '从销售订单创建销售退货单',
+  'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.label':
+    '从销售订单创建销售退货单',
   'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.target': '销售退货单',
-  'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.label': '从采购订单创建收货通知单',
+  'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.label':
+    '从采购订单创建收货通知单',
   'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.source': '采购订单',
   'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.target': '收货通知单',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.label': '从收货通知单创建采购入库单',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.label':
+    '从收货通知单创建采购入库单',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.source': '收货通知单',
   'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.target': '采购入库单',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.label': '从来料检验创建采购退货单',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.label':
+    '从来料检验创建采购退货单',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.source': '来料检验',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.target': '采购退货单',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.label': '从采购入库单创建来料检验单',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.source': '采购入库单',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.target': '来料检验单',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.label': '从客户来料登记创建来料检验单',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.source': '客户来料登记',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.target': '来料检验单',
-  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.label': '从工单创建过程检验单',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.target':
+    '采购退货单',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.label':
+    '从采购入库单创建来料检验单',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.source':
+    '采购入库单',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.target':
+    '来料检验单',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.label':
+    '从客户来料登记创建来料检验单',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.source':
+    '客户来料登记',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.target':
+    '来料检验单',
+  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.label':
+    '从工单创建过程检验单',
   'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.source': '工单',
   'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.target': '过程检验单',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.label': '从工单创建成品检验单',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.label':
+    '从工单创建成品检验单',
   'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.source': '工单',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.target': '成品检验单',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.label': '从发货通知单创建出货检验单',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.target':
+    '成品检验单',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.label':
+    '从发货通知单创建出货检验单',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.source': '发货通知单',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.target': '出货检验单',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.label': '从销售出库单创建出货检验单',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.label':
+    '从销售出库单创建出货检验单',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.source': '销售出库单',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.target': '出货检验单',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.label': '从成品检验创建返工单',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.source': '成品检验',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.label':
+    '从成品检验创建返工单',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.source':
+    '成品检验',
   'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.target': '返工单',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.label': '从需求运算创建采购申请单',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.source': '需求运算',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.target': '采购申请单',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.label': '从销售预测创建需求运算',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.label':
+    '从需求运算创建采购申请单',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.source':
+    '需求运算',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.target':
+    '采购申请单',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.label':
+    '从销售预测创建需求运算',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.source': '销售预测',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.target': '需求运算',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.label': '从需求创建需求运算',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.source': '需求',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.target': '需求运算',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.label': '从销售订单创建需求运算',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.label':
+    '从销售订单创建需求运算',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.target': '需求运算',
-  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.label': '从需求运算创建工单',
+  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.label':
+    '从需求运算创建工单',
   'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.source': '需求运算',
   'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.target': '工单',
   'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.label': '从生产计划创建工单',
@@ -8380,13 +8751,16 @@ export default {
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.label': '从销售订单创建销售出库单',
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.target': '销售出库单',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.label': '从发货通知单创建销售出库单',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.label':
+    '从发货通知单创建销售出库单',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.source': '发货通知单',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.target': '销售出库单',
-  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.label': '从委外工单创建委外发料单',
+  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.label':
+    '从委外工单创建委外发料单',
   'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.source': '委外工单',
   'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.target': '委外发料单',
-  'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.label': '从采购订单创建采购入库单',
+  'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.label':
+    '从采购订单创建采购入库单',
   'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.source': '采购订单',
   'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.target': '采购入库单',
   'app.kuaizhizao.documentAction.inbound.pull_from_work_order.label': '从工单创建成品入库单',
@@ -8395,12 +8769,15 @@ export default {
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.label': '从销售订单创建销售退货单',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.source': '销售订单',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.target': '销售退货单',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.label': '从委外工单创建委外入库单',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.label':
+    '从委外工单创建委外入库单',
   'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.source': '委外工单',
   'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.target': '委外入库单',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.label': '从工单创建生产退料单',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.label':
+    '从工单创建生产退料单',
   'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.source': '工单',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.target': '生产退料单',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.target':
+    '生产退料单',
   'app.kuaizhizao.warehouseInbound.title': '入库管理',
   'app.kuaizhizao.warehouseInbound.fallbackDoc': '入库单',
   'app.kuaizhizao.warehouseInbound.fallbackProductionReturnDoc': '生产退料单',
@@ -8430,7 +8807,8 @@ export default {
   'app.kuaizhizao.warehouseInbound.col.warehouse': '入库仓库',
   'app.kuaizhizao.warehouseInbound.col.operator': '操作员',
   'app.kuaizhizao.warehouseInbound.iqcReview.title': '来料检验确认',
-  'app.kuaizhizao.warehouseInbound.iqcReview.hint': '按明细物料展示检验策略与当前状态；检验合格的物料可继续确认入库。',
+  'app.kuaizhizao.warehouseInbound.iqcReview.hint':
+    '按明细物料展示检验策略与当前状态；检验合格的物料可继续确认入库。',
   'app.kuaizhizao.warehouseInbound.iqcReview.iqcStage': '来料检验环节',
   'app.kuaizhizao.warehouseInbound.iqcReview.gate': '收货前检验门禁',
   'app.kuaizhizao.warehouseInbound.iqcReview.enabled': '已开启',
@@ -8450,14 +8828,17 @@ export default {
   'app.kuaizhizao.warehouseInbound.iqcReview.statusNotCreated': '未建单',
   'app.kuaizhizao.warehouseInbound.iqcReview.continueConfirm': '继续确认入库',
   'app.kuaizhizao.warehouseInbound.cmIqcReview.title': '代工来料检验确认',
-  'app.kuaizhizao.warehouseInbound.cmIqcReview.hint': '按明细物料展示检验策略与当前状态；检验合格后可确认代工来料入库。',
+  'app.kuaizhizao.warehouseInbound.cmIqcReview.hint':
+    '按明细物料展示检验策略与当前状态；检验合格后可确认代工来料入库。',
   'app.kuaizhizao.warehouseInbound.cmIqcReview.gate': '代工来料入库前检验门禁',
   'app.kuaizhizao.warehouseInbound.cmIqcReview.registrationCode': '代工来料单号',
   'app.kuaizhizao.warehouseInbound.cmIqcReview.continueConfirm': '确认入库',
   'app.kuaizhizao.warehouseInbound.cmIqc.ensureFailed': '代工来料检验检查失败，请稍后重试',
-  'app.kuaizhizao.warehouseInbound.cmIqc.ensureBlocked.content': '相关物料须完成来料检验并合格后方可确认代工来料入库',
+  'app.kuaizhizao.warehouseInbound.cmIqc.ensureBlocked.content':
+    '相关物料须完成来料检验并合格后方可确认代工来料入库',
   'app.kuaizhizao.warehouseInbound.fqcReview.title': '成品检验确认',
-  'app.kuaizhizao.warehouseInbound.fqcReview.hint': '按明细物料展示成品检验策略与当前状态；检验合格后可继续确认入库。',
+  'app.kuaizhizao.warehouseInbound.fqcReview.hint':
+    '按明细物料展示成品检验策略与当前状态；检验合格后可继续确认入库。',
   'app.kuaizhizao.warehouseInbound.fqcReview.fqcStage': '成品检验环节',
   'app.kuaizhizao.warehouseInbound.fqcReview.gate': '入库前检验门禁',
   'app.kuaizhizao.warehouseInbound.fqcReview.enabled': '已开启',
@@ -8643,32 +9024,42 @@ export default {
   'app.kuaizhizao.warehouseInbound.detail.serialCount': '{{count}} 个',
   'app.kuaizhizao.warehouseInbound.confirmPreview.titleInbound': '确认入库预览',
   'app.kuaizhizao.warehouseInbound.confirmPreview.titleReturn': '确认退料预览',
-  'app.kuaizhizao.warehouseInbound.confirmPreview.description': '请逐行核对入库仓库、库位（可选）、批号与序列号（如物料启用管理）及明细数量后再确认；确认后将按行更新库存。',
+  'app.kuaizhizao.warehouseInbound.confirmPreview.description':
+    '请逐行核对入库仓库、库位（可选）、批号与序列号（如物料启用管理）及明细数量后再确认；确认后将按行更新库存。',
   'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.title': '确认代工来料入库',
-  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.content': '确定确认入库单据「{{code}}」吗？',
+  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.content':
+    '确定确认入库单据「{{code}}」吗？',
   'app.kuaizhizao.warehouseInbound.confirm.salesReturn.title': '确认销售退货入库',
   'app.kuaizhizao.warehouseInbound.confirm.salesReturn.content': '确定确认入库单据「{{code}}」吗？',
   'app.kuaizhizao.warehouseInbound.confirm.otherInbound.title': '确认其他入库',
-  'app.kuaizhizao.warehouseInbound.confirm.otherInbound.content': '确定确认入库单据「{{code}}」吗？',
+  'app.kuaizhizao.warehouseInbound.confirm.otherInbound.content':
+    '确定确认入库单据「{{code}}」吗？',
   'app.kuaizhizao.warehouseInbound.confirm.materialReturn.title': '确认还料入库',
-  'app.kuaizhizao.warehouseInbound.confirm.materialReturn.content': '确定确认还料单据「{{code}}」吗？',
+  'app.kuaizhizao.warehouseInbound.confirm.materialReturn.content':
+    '确定确认还料单据「{{code}}」吗？',
   'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.title': '确认委外收货入库',
-  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.content': '确定确认委外收货单据「{{code}}」吗？',
+  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.content':
+    '确定确认委外收货单据「{{code}}」吗？',
   'app.kuaizhizao.warehouseInbound.confirm.withdrawInbound.title': '撤回入库',
   'app.kuaizhizao.warehouseInbound.confirm.withdrawReturn.title': '撤回退料',
-  'app.kuaizhizao.warehouseInbound.confirm.withdraw.content': '确定撤回单据「{{code}}」吗？将按明细冲减即时库存；若某批次库存不足将无法撤回。',
+  'app.kuaizhizao.warehouseInbound.confirm.withdraw.content':
+    '确定撤回单据「{{code}}」吗？将按明细冲减即时库存；若某批次库存不足将无法撤回。',
   'app.kuaizhizao.warehouseInbound.confirm.delete.title': '删除{{type}}',
-  'app.kuaizhizao.warehouseInbound.confirm.delete.content': '确定要删除「{{code}}」吗？删除后不可恢复（未确认入库的单据不涉及库存冲减）。',
+  'app.kuaizhizao.warehouseInbound.confirm.delete.content':
+    '确定要删除「{{code}}」吗？删除后不可恢复（未确认入库的单据不涉及库存冲减）。',
   'app.kuaizhizao.warehouseInbound.confirm.batch.title': '确认批量入库 {{count}} 张单据',
-  'app.kuaizhizao.warehouseInbound.confirm.batch.description': '将按单据类型调用对应确认接口；不可确认的单据会跳过并汇总失败原因。',
+  'app.kuaizhizao.warehouseInbound.confirm.batch.description':
+    '将按单据类型调用对应确认接口；不可确认的单据会跳过并汇总失败原因。',
   'app.kuaizhizao.warehouseInbound.confirm.batchDelete': '确定要删除选中的 {{count}} 条入库单吗？',
   'app.kuaizhizao.warehouseInbound.msg.recordsNotFound': '未找到所选单据，请刷新列表后重试',
   'app.kuaizhizao.warehouseInbound.msg.batchConfirmSuccess': '已成功确认 {{count}} 张单据',
-  'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailedMany': '{{count}} 张单据确认失败：{{detail}}…',
+  'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailedMany':
+    '{{count}} 张单据确认失败：{{detail}}…',
   'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailed': '确认失败：{{detail}}',
   'app.kuaizhizao.warehouseInbound.msg.loadDetailFailed': '获取入库单详情失败',
   'app.kuaizhizao.warehouseInbound.msg.noEditableLines': '暂无可编辑明细',
-  'app.kuaizhizao.warehouseInbound.msg.actualQtyMustBePositive': '物料 {{material}} 的实际数量必须大于 0',
+  'app.kuaizhizao.warehouseInbound.msg.actualQtyMustBePositive':
+    '物料 {{material}} 的实际数量必须大于 0',
   'app.kuaizhizao.warehouseInbound.msg.actualQtySaved': '实际数量已保存',
   'app.kuaizhizao.warehouseInbound.msg.saveFailed': '保存失败',
   'app.kuaizhizao.warehouseInbound.msg.serialMax100': '单次最多生成100个序列号',
@@ -8676,7 +9067,8 @@ export default {
   'app.kuaizhizao.warehouseInbound.msg.serialGenerateFailed': '序列号生成失败',
   'app.kuaizhizao.warehouseInbound.msg.loadConfirmPreviewFailed': '加载入库单详情失败',
   'app.kuaizhizao.warehouseInbound.msg.noInboundLines': '暂无可入库明细',
-  'app.kuaizhizao.warehouseInbound.msg.selectWarehouseForMaterial': '请为物料 {{material}} 选择入库仓库',
+  'app.kuaizhizao.warehouseInbound.msg.selectWarehouseForMaterial':
+    '请为物料 {{material}} 选择入库仓库',
   'app.kuaizhizao.warehouseInbound.msg.checkLines': '请检查明细',
   'app.kuaizhizao.warehouseInbound.msg.lineCountMismatch': '保存后明细行数不一致，请关闭预览后重试',
   'app.kuaizhizao.warehouseInbound.msg.lineIdAbnormal': '保存后明细 id 异常，请关闭预览后重试',
@@ -8688,7 +9080,8 @@ export default {
   'app.kuaizhizao.warehouseInbound.msg.otherInboundConfirmed': '其他入库已确认',
   'app.kuaizhizao.warehouseInbound.msg.materialReturnConfirmed': '还料单已确认入库',
   'app.kuaizhizao.warehouseInbound.msg.outsourceReceiptConfirmed': '委外收货已确认入库',
-  'app.kuaizhizao.warehouseInbound.msg.useConfirmPreviewForOutsource': '委外退料/退货请使用确认入库预览',
+  'app.kuaizhizao.warehouseInbound.msg.useConfirmPreviewForOutsource':
+    '委外退料/退货请使用确认入库预览',
   'app.kuaizhizao.warehouseInbound.iqc.ensureBlocked.title': '需先完成来料检验',
   'app.kuaizhizao.warehouseInbound.iqc.ensureBlocked.content':
     '相关物料须完成来料检验并合格后方可确认入库；未完成时将引导前往来料检验。',
@@ -8710,9 +9103,11 @@ export default {
   'app.kuaizhizao.warehouseInbound.msg.batchDeleteSuccess': '成功删除 {{count}} 条记录',
   'app.kuaizhizao.warehouseInbound.msg.loadUsersFailed': '加载人员列表失败，请稍后重试',
   'app.kuaizhizao.warehouseInbound.msg.noLinesToSetWarehouse': '没有可设置的明细行',
-  'app.kuaizhizao.warehouseInbound.msg.batchWarehouseApplied': '已将 {{count}} 行入库仓库设置为同一仓库',
+  'app.kuaizhizao.warehouseInbound.msg.batchWarehouseApplied':
+    '已将 {{count}} 行入库仓库设置为同一仓库',
   'app.kuaizhizao.warehouseInbound.batchConfirm.loadDetailFailed': '加载单据详情失败',
-  'app.kuaizhizao.warehouseInbound.batchConfirm.useSinglePreview': '委外退料/退货请使用单行确认预览',
+  'app.kuaizhizao.warehouseInbound.batchConfirm.useSinglePreview':
+    '委外退料/退货请使用单行确认预览',
   'app.kuaizhizao.warehouseInbound.batchConfirm.unsupportedType': '不支持的单据类型',
   'app.kuaizhizao.warehouseInbound.batchConfirm.notConfirmable': '当前状态不可确认入库',
   'app.kuaizhizao.warehouseInbound.batchConfirm.failed': '确认失败',
@@ -8733,13 +9128,16 @@ export default {
   'app.kuaizhizao.warehouseInbound.pull.po.selectOnlyOne': '入库请仅选择一个采购订单',
   'app.kuaizhizao.warehouseInbound.pull.po.loadFailed': '加载采购订单失败',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.title': '从收货通知开入库单',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.searchPlaceholder': '按通知单号/采购订单号/供应商搜索',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.searchPlaceholder':
+    '按通知单号/采购订单号/供应商搜索',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.selectRequired': '请选择收货通知单',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.alreadyConverted': '该收货通知单已创建采购入库单，请勿重复创建',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.alreadyConverted':
+    '该收货通知单已创建采购入库单，请勿重复创建',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.noLinkedPo': '收货通知单未关联采购订单',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.loadFailed': '加载收货通知单失败',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.title': '从生产工单开入库单',
-  'app.kuaizhizao.warehouseInbound.pull.workOrder.searchPlaceholder': '按工单号/产品/销售订单号搜索',
+  'app.kuaizhizao.warehouseInbound.pull.workOrder.searchPlaceholder':
+    '按工单号/产品/销售订单号搜索',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.selectRequired': '请选择生产工单',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.loadFailed': '加载生产工单失败',
   'app.kuaizhizao.warehouseInbound.pull.productionReturn.title': '从工单开生产退料单',
@@ -8748,7 +9146,8 @@ export default {
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.selectRequired': '请选择销售订单',
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.loadFailed': '加载销售订单失败',
   'app.kuaizhizao.warehouseInbound.pull.outsource.title': '从委外工单开入库单',
-  'app.kuaizhizao.warehouseInbound.pull.outsource.searchPlaceholder': '按委外工单号/产品/供应商搜索',
+  'app.kuaizhizao.warehouseInbound.pull.outsource.searchPlaceholder':
+    '按委外工单号/产品/供应商搜索',
   'app.kuaizhizao.warehouseInbound.pull.outsource.selectRequired': '请选择委外工单',
   'app.kuaizhizao.warehouseInbound.pull.outsource.loadFailed': '加载委外工单失败',
   'app.kuaizhizao.warehouseInbound.entry.purchase.title': '采购入库',
@@ -8756,7 +9155,8 @@ export default {
   'app.kuaizhizao.warehouseInbound.entry.purchase.invalidPo': '无效的采购订单',
   'app.kuaizhizao.warehouseInbound.entry.purchase.allReceived': '采购单已全部入库，无可下推明细',
   'app.kuaizhizao.warehouseInbound.entry.purchase.loadFailed': '加载采购订单失败',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.qtyExceedsOutstanding': '物料 {{material}} 的本次入库数量不能超过未入库数量 {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.qtyExceedsOutstanding':
+    '物料 {{material}} 的本次入库数量不能超过未入库数量 {{max}}',
   'app.kuaizhizao.warehouseInbound.entry.purchase.fillReceiptQty': '请至少填写一行本次入库数量',
   'app.kuaizhizao.warehouseInbound.entry.purchase.noReceiptId': '下推成功但未返回入库单 ID',
   'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreated': '已生成采购入库草稿{{code}}',
@@ -8766,46 +9166,63 @@ export default {
   'app.kuaizhizao.warehouseInbound.entry.workOrder.noLines': '该工单无可入库明细',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.loadFailed': '加载工单入库预览失败',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.fillReceiptQty': '请填写本次入库数量',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.qtyExceedsPending': '本次入库数量不能超过待入库数量 {{max}}',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.noPendingQty': '该工单可入库数量已用尽，无法再次下推入库',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.qtyExceedsPending':
+    '本次入库数量不能超过待入库数量 {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.noPendingQty':
+    '该工单可入库数量已用尽，无法再次下推入库',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.selectWarehouse': '请选择入库仓库',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.semiDraftCreated': '已生成半成品入库草稿{{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.finishedDraftCreated': '已生成成品入库草稿{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.semiDraftCreated':
+    '已生成半成品入库草稿{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.finishedDraftCreated':
+    '已生成成品入库草稿{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.title': '生产退料',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.titleWithCode': '生产退料 — {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingFailed': '加载领料单失败',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnLines': '所选领料单无可用退料明细',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingLinesFailed': '加载领料明细失败',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnLines':
+    '所选领料单无可用退料明细',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingLinesFailed':
+    '加载领料明细失败',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectPicking': '请选择领料单',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectWarehouse': '请选择退料仓库',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.fillReturnQty': '请至少填写一行退料数量',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.qtyExceedsPicked': '物料 {{material}} 的退料数量不能超过已领数量 {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.qtyExceedsPicked':
+    '物料 {{material}} 的退料数量不能超过已领数量 {{max}}',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnId': '创建成功但未返回退料单 ID',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.draftCreated': '已生成生产退料草稿{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.draftCreated':
+    '已生成生产退料草稿{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.title': '销售退货',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.titleWithCode': '销售退货 — {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.invalidOrder': '无效的销售订单',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.noLines': '该销售订单无可退货明细',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.loadFailed': '加载销售订单退货预览失败',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.qtyExceedsReturnable': '物料 {{material}} 的本次退货数量不能超过可退数量 {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.qtyExceedsReturnable':
+    '物料 {{material}} 的本次退货数量不能超过可退数量 {{max}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.fillReturnQty': '请至少填写一行本次退货数量',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.selectWarehouse': '请选择退入仓库',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.noReturnId': '下推成功但未返回退货单 ID',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.draftCreated': '已生成销售退货草稿{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.outsource.invalid': '无效的委外工单',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noMaterialReturnLines': '该委外工单暂无可退料明细',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noProductReturnLines': '该委外工单暂无可退货明细',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noMaterialReturnLines':
+    '该委外工单暂无可退料明细',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noProductReturnLines':
+    '该委外工单暂无可退货明细',
   'app.kuaizhizao.warehouseInbound.entry.outsource.loadFailed': '加载委外工单失败',
   'app.kuaizhizao.warehouseInbound.entry.outsource.selectWarehouse': '请选择仓库',
   'app.kuaizhizao.warehouseInbound.entry.outsource.noReceiptQty': '该委外工单暂无可收货数量',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnQtyExceeds': '物料 {{material}} 的退料数量不能超过可退数量',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnQtyExceeds': '退货数量不能超过可退数量',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnQtyExceeds':
+    '物料 {{material}} 的退料数量不能超过可退数量',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnQtyExceeds':
+    '退货数量不能超过可退数量',
   'app.kuaizhizao.warehouseInbound.entry.outsource.fillMaterialReturnQty': '请至少填写一行退料数量',
   'app.kuaizhizao.warehouseInbound.entry.outsource.fillProductReturnQty': '请至少填写一行退货数量',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.receiptDraftCreated': '已生成委外收货草稿{{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnDraftsCreated': '已生成 {{count}} 张委外退料草稿',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnDraftsCreated': '已生成 {{count}} 张委外退货草稿',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.multiDraftConfirmInList': '已生成 {{count}} 张草稿，请在列表中分别确认',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.receiptDraftCreated':
+    '已生成委外收货草稿{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnDraftsCreated':
+    '已生成 {{count}} 张委外退料草稿',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnDraftsCreated':
+    '已生成 {{count}} 张委外退货草稿',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.multiDraftConfirmInList':
+    '已生成 {{count}} 张草稿，请在列表中分别确认',
   'app.kuaizhizao.warehouseOtherInbound.title': '其他入库',
   'app.kuaizhizao.warehouseOtherInbound.create': '新建其他入库单',
   'app.kuaizhizao.warehouseOtherInbound.createModal': '新建其他入库单',
@@ -8862,12 +9279,15 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.field.quantityMin': '>0',
   'app.kuaizhizao.warehouseOtherInbound.field.dictManage': '数据字典管理',
   'app.kuaizhizao.warehouseOtherInbound.confirm.title': '确认入库',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.content': '确定要确认入库单 "{{code}}" 吗？确认后将更新库存。',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.content':
+    '确定要确认入库单 "{{code}}" 吗？确认后将更新库存。',
   'app.kuaizhizao.warehouseOtherInbound.confirm.deleteTitle': '删除入库单',
   'app.kuaizhizao.warehouseOtherInbound.confirm.deleteContent': '确定要删除入库单 "{{code}}" 吗？',
   'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawTitle': '确认撤销入库',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawContent': '确定要撤销入库单 "{{code}}" 的确认状态吗？撤销后将物理回滚已增加的库存数量。',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.batchDelete': '确定要删除选中的 {{count}} 条其他入库单吗？',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawContent':
+    '确定要撤销入库单 "{{code}}" 的确认状态吗？撤销后将物理回滚已增加的库存数量。',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.batchDelete':
+    '确定要删除选中的 {{count}} 条其他入库单吗？',
   'app.kuaizhizao.warehouseOtherInbound.msg.loadDetailFailed': '获取其他入库单详情失败',
   'app.kuaizhizao.warehouseOtherInbound.msg.confirmSuccess': '入库确认成功',
   'app.kuaizhizao.warehouseOtherInbound.msg.confirmFailed': '入库确认失败',
@@ -8877,7 +9297,8 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.msg.withdrawFailed': '撤销失败',
   'app.kuaizhizao.warehouseOtherInbound.msg.loadListFailed': '获取其他入库单列表失败',
   'app.kuaizhizao.warehouseOtherInbound.msg.batchDeleteSuccess': '成功删除 {{count}} 条记录',
-  'app.kuaizhizao.warehouseOtherInbound.msg.needValidLine': '请至少添加一条有效明细（选择物料并填写数量）',
+  'app.kuaizhizao.warehouseOtherInbound.msg.needValidLine':
+    '请至少添加一条有效明细（选择物料并填写数量）',
   'app.kuaizhizao.warehouseOtherInbound.msg.createSuccess': '创建成功',
   'app.kuaizhizao.warehouseOtherInbound.msg.createFailed': '创建失败',
   'app.kuaizhizao.warehouseOtherInbound.msg.selectMaterialFirst': '请先选择物料',
@@ -8919,13 +9340,17 @@ export default {
   'app.kuaizhizao.warehouseMaterialReturn.field.optional': '可选',
   'app.kuaizhizao.warehouseMaterialReturn.field.returnDetails': '归还明细',
   'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrow': '请选择借料单',
-  'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowPlaceholder': '请选择借料单（仅显示已借出状态）',
+  'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowPlaceholder':
+    '请选择借料单（仅显示已借出状态）',
   'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowRequired': '请选择借料单',
   'app.kuaizhizao.warehouseMaterialReturn.confirm.title': '确认入库',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.content': '确定要确认还料单 "{{code}}" 吗？确认后将增加库存。',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.content':
+    '确定要确认还料单 "{{code}}" 吗？确认后将增加库存。',
   'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteTitle': '删除还料单',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteContent': '确定要删除还料单 "{{code}}" 吗？',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.batchDelete': '确定要删除选中的 {{count}} 条还料单吗？',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteContent':
+    '确定要删除还料单 "{{code}}" 吗？',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.batchDelete':
+    '确定要删除选中的 {{count}} 条还料单吗？',
   'app.kuaizhizao.warehouseMaterialReturn.msg.loadDetailFailed': '获取还料单详情失败',
   'app.kuaizhizao.warehouseMaterialReturn.msg.loadBorrowDetailFailed': '获取借料单详情失败',
   'app.kuaizhizao.warehouseMaterialReturn.msg.confirmSuccess': '确认入库成功',
@@ -9088,7 +9513,8 @@ export default {
   'app.kuaizhizao.warehouseCommon.deleteItemSuccess': '明细删除成功',
   'app.kuaizhizao.warehouseCommon.deleteItemFailed': '明细删除失败',
   'app.kuaizhizao.warehouseCommon.addItemBeforeExecute': '请先为{{noun}}添加至少一条明细，再执行。',
-  'app.kuaizhizao.warehouseCommon.executeConfirmContent': '确定{{action}} "{{code}}" 吗？系统将更新库存。',
+  'app.kuaizhizao.warehouseCommon.executeConfirmContent':
+    '确定{{action}} "{{code}}" 吗？系统将更新库存。',
   'app.kuaizhizao.warehouseCommon.executeFailed': '{{action}}失败',
   'app.kuaizhizao.warehouseCommon.editOrderTitle': '编辑{{noun}}',
   'app.kuaizhizao.warehouseCommon.editItemTitle': '编辑{{noun}}明细',
@@ -9112,7 +9538,8 @@ export default {
   'app.kuaizhizao.warehouseCommon.createSuccessGeneric': '创建成功',
   'app.kuaizhizao.warehouseCommon.updateSuccessGeneric': '更新成功',
   'app.kuaizhizao.batchingCenter.tab.batchingDraft': '配料执行',
-  'app.kuaizhizao.batchingCenter.tab.batchingDraftHint': '已有配料单：同步缺料、选批号并完成主仓→线边拣选',
+  'app.kuaizhizao.batchingCenter.tab.batchingDraftHint':
+    '已有配料单：同步缺料、选批号并完成主仓→线边拣选',
   'app.kuaizhizao.batchingCenter.tab.materialCall': '产线叫料',
   'app.kuaizhizao.batchingCenter.tab.materialCallHint': '产线临时发起的要料请求，需尽快配料送达',
   'app.kuaizhizao.batchingCenter.tab.outsourceIssue': '委外发料',
@@ -9120,11 +9547,14 @@ export default {
   'app.kuaizhizao.batchingCenter.tab.outsourceReceipt': '委外收货',
   'app.kuaizhizao.batchingCenter.tab.outsourceReceiptHint': '委外加工完成后收回半成品/成品入库',
   'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturn': '委外退料',
-  'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturnHint': '供应商退回未使用的委外发料原料，增加库存',
+  'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturnHint':
+    '供应商退回未使用的委外发料原料，增加库存',
   'app.kuaizhizao.batchingCenter.tab.outsourceProductReturn': '委外退货',
-  'app.kuaizhizao.batchingCenter.tab.outsourceProductReturnHint': '委外成品不合格退回供应商，扣减库存',
+  'app.kuaizhizao.batchingCenter.tab.outsourceProductReturnHint':
+    '委外成品不合格退回供应商，扣减库存',
   'app.kuaizhizao.batchingCenter.tab.proactivePrep': '备料建议',
-  'app.kuaizhizao.batchingCenter.tab.proactivePrepHint': '系统根据工单与库存推算的缺料提醒，可生成配料单后再到「配料执行」处理',
+  'app.kuaizhizao.batchingCenter.tab.proactivePrepHint':
+    '系统根据工单与库存推算的缺料提醒，可生成配料单后再到「配料执行」处理',
   'app.kuaizhizao.batchingCenter.tab.backflushAlert': '倒冲异常',
   'app.kuaizhizao.batchingCenter.tab.backflushAlertHint': '报工倒冲扣账失败记录，需核对库存后重试',
   'app.kuaizhizao.batchingCenter.taskType.batchingDraft': '配料执行',
@@ -9182,7 +9612,8 @@ export default {
   'app.kuaizhizao.batchingCenter.confirmCompleteCall': '确认完成叫料',
   'app.kuaizhizao.batchingCenter.continuePicking': '继续配料（主仓→线边）',
   'app.kuaizhizao.batchingCenter.confirmPicking': '确认配料（主仓→线边）',
-  'app.kuaizhizao.batchingCenter.batchingHint': '可关闭「本次配料」跳过部分行，或调整数量；至少需确认一行。未指定批号时按配置中心 FIFO 策略出库。',
+  'app.kuaizhizao.batchingCenter.batchingHint':
+    '可关闭「本次配料」跳过部分行，或调整数量；至少需确认一行。未指定批号时按配置中心 FIFO 策略出库。',
   'app.kuaizhizao.batchingCenter.callHint': '请核对批号；未指定时按配置中心 FIFO 策略出库。',
   'app.kuaizhizao.batchingCenter.configCenterHint': '仓储参数见',
   'app.kuaizhizao.batchingCenter.configCenter': '配置中心',
@@ -9244,7 +9675,8 @@ export default {
   'app.kuaizhizao.assemblyOrder.assemblyTemplate': '组装模板',
   'app.kuaizhizao.assemblyOrder.applyTemplate': '套用模板',
   'app.kuaizhizao.assemblyOrder.applyTemplateTitle': '套用模板',
-  'app.kuaizhizao.assemblyOrder.applyTemplateConfirm': '当前组装单已有明细，套用模板将覆盖现有 pending 明细，是否继续？',
+  'app.kuaizhizao.assemblyOrder.applyTemplateConfirm':
+    '当前组装单已有明细，套用模板将覆盖现有 pending 明细，是否继续？',
   'app.kuaizhizao.assemblyOrder.applyTemplateSuccess': '套用模板成功',
   'app.kuaizhizao.assemblyOrder.applyTemplateFailed': '套用模板失败',
   'app.kuaizhizao.assemblyOrder.selectTemplateFirst': '请先选择组装模板',
@@ -9330,7 +9762,8 @@ export default {
   'app.kuaizhizao.barcodeMapping.colEnabledStatus': '启用状态',
   'app.kuaizhizao.barcodeMapping.colPriority': '优先级',
   'app.kuaizhizao.barcodeMapping.deleteConfirm': '确定要删除这条映射规则吗？',
-  'app.kuaizhizao.barcodeMapping.deleteBatchConfirm': '确定要删除选中的 {{count}} 条条码映射规则吗？',
+  'app.kuaizhizao.barcodeMapping.deleteBatchConfirm':
+    '确定要删除选中的 {{count}} 条条码映射规则吗？',
   'app.kuaizhizao.barcodeMapping.loadDetailFailed': '获取规则详情失败',
   'app.kuaizhizao.barcodeMapping.loadListFailed': '获取规则列表失败',
   'app.kuaizhizao.barcodeMapping.enterRuleName': '请输入规则名称',
@@ -9339,7 +9772,8 @@ export default {
   'app.kuaizhizao.barcodeMapping.barcodePatternLabel': '条码模式（正则表达式）',
   'app.kuaizhizao.barcodeMapping.barcodePatternPlaceholder': '请输入条码模式，例如：^CUST\\d+$',
   'app.kuaizhizao.barcodeMapping.enterBarcodePattern': '请输入条码模式',
-  'app.kuaizhizao.barcodeMapping.barcodePatternExtra': '使用正则表达式匹配条码，例如：^CUST\\d+$ 匹配以CUST开头的数字条码',
+  'app.kuaizhizao.barcodeMapping.barcodePatternExtra':
+    '使用正则表达式匹配条码，例如：^CUST\\d+$ 匹配以CUST开头的数字条码',
   'app.kuaizhizao.barcodeMapping.mappedMaterial': '映射物料',
   'app.kuaizhizao.barcodeMapping.selectMappedMaterial': '请选择要映射的物料',
   'app.kuaizhizao.barcodeMapping.priorityPlaceholder': '请输入优先级（数字越大优先级越高）',
@@ -9368,7 +9802,8 @@ export default {
   'app.kuaizhizao.customerMaterialRegistration.batchConfirmInbound': '批量确认入库',
   'app.kuaizhizao.customerMaterialRegistration.batchWithdraw': '批量撤回入库',
   'app.kuaizhizao.customerMaterialRegistration.batchCancel': '批量取消',
-  'app.kuaizhizao.customerMaterialRegistration.deleteConfirm': '确定要删除选中的 {{count}} 条代工来料吗？',
+  'app.kuaizhizao.customerMaterialRegistration.deleteConfirm':
+    '确定要删除选中的 {{count}} 条代工来料吗？',
   'app.kuaizhizao.customerMaterialRegistration.selectMaterialFirst': '请先选择物料',
   'app.kuaizhizao.customerMaterialRegistration.batchGenerated': '批号生成成功',
   'app.kuaizhizao.customerMaterialRegistration.batchGenerateFailed': '批号生成失败',
@@ -9376,14 +9811,18 @@ export default {
   'app.kuaizhizao.customerMaterialRegistration.serialGenerated': '已生成 {{count}} 个序列号',
   'app.kuaizhizao.customerMaterialRegistration.serialGenerateFailed': '序列号生成失败',
   'app.kuaizhizao.customerMaterialRegistration.minOneValidItem': '请至少添加一条有效明细',
-  'app.kuaizhizao.customerMaterialRegistration.selectMaterialOrCreate': '请选择来料物料，或快速新建物料',
+  'app.kuaizhizao.customerMaterialRegistration.selectMaterialOrCreate':
+    '请选择来料物料，或快速新建物料',
   'app.kuaizhizao.customerMaterialRegistration.barcodeMatched': '条码解析成功，已匹配内部物料',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeNotMatched': '未匹配到内部物料，请手动选择或快速新建物料',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeParseFailed': '条码解析失败，请手动填写物料信息',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeNotMatched':
+    '未匹配到内部物料，请手动选择或快速新建物料',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeParseFailed':
+    '条码解析失败，请手动填写物料信息',
   'app.kuaizhizao.customerMaterialRegistration.createFailed': '客供料入库单创建失败',
   'app.kuaizhizao.customerMaterialRegistration.draftSaved': '代工来料已保存为待入库草稿',
   'app.kuaizhizao.customerMaterialRegistration.inboundFailed': '客供料入库失败',
-  'app.kuaizhizao.customerMaterialRegistration.startProductionSuccess': '已客供入库并开工：{{registration}} → {{workOrder}}{{batching}}',
+  'app.kuaizhizao.customerMaterialRegistration.startProductionSuccess':
+    '已客供入库并开工：{{registration}} → {{workOrder}}{{batching}}',
   'app.kuaizhizao.customerMaterialRegistration.startProductionFailed': '直接发料开工失败',
   'app.kuaizhizao.customerMaterialRegistration.processSuccess': '代工来料已确认入库',
   'app.kuaizhizao.customerMaterialRegistration.processFailed': '确认入库失败',
@@ -9436,7 +9875,8 @@ export default {
   'app.kuaizhizao.backflushRecords.statusFailed': '失败',
   'app.kuaizhizao.backflushRecords.retry': '重试',
   'app.kuaizhizao.backflushRecords.retryTitle': '重试倒冲',
-  'app.kuaizhizao.backflushRecords.retryContent': '确定要重试物料 "{{material}}" 的倒冲吗？请确保线边仓已有足够库存。',
+  'app.kuaizhizao.backflushRecords.retryContent':
+    '确定要重试物料 "{{material}}" 的倒冲吗？请确保线边仓已有足够库存。',
   'app.kuaizhizao.backflushRecords.retrySuccess': '重试成功',
   'app.kuaizhizao.backflushRecords.retryFailed': '重试失败',
   // inventory alert
@@ -9549,9 +9989,12 @@ export default {
   'app.kuaizhizao.inventoryTransfer.statusInProgress': '调拨中',
   'app.kuaizhizao.inventoryTransfer.statusItemPending': '待调拨',
   'app.kuaizhizao.inventoryTransfer.statusItemTransferred': '已调拨',
-  'app.kuaizhizao.inventoryTransfer.msgSameWarehouseError': '跨仓调拨时，调出仓库和调入仓库不能相同',
-  'app.kuaizhizao.inventoryTransfer.msgBinSameWarehouseRequired': '库内移位时，调出仓库和调入仓库必须相同',
-  'app.kuaizhizao.inventoryTransfer.msgNoValidItems': '请至少添加一条有效明细（选择物料并填写数量）',
+  'app.kuaizhizao.inventoryTransfer.msgSameWarehouseError':
+    '跨仓调拨时，调出仓库和调入仓库不能相同',
+  'app.kuaizhizao.inventoryTransfer.msgBinSameWarehouseRequired':
+    '库内移位时，调出仓库和调入仓库必须相同',
+  'app.kuaizhizao.inventoryTransfer.msgNoValidItems':
+    '请至少添加一条有效明细（选择物料并填写数量）',
   'app.kuaizhizao.inventoryTransfer.msgBinAreasRequired': '库内移位明细须填写调出/调入库区与库位',
   'app.kuaizhizao.inventoryTransfer.msgSameLocationError': '库内移位时调出库位和调入库位不能相同',
   'app.kuaizhizao.inventoryTransfer.msgCreateSuccess': '调拨单创建成功',
@@ -9559,11 +10002,13 @@ export default {
   'app.kuaizhizao.inventoryTransfer.msgCreateFailed': '创建调拨单失败',
   'app.kuaizhizao.inventoryTransfer.msgGetDetailFailed': '获取调拨单详情失败',
   'app.kuaizhizao.inventoryTransfer.msgExecuteTitle': '执行调拨',
-  'app.kuaizhizao.inventoryTransfer.msgExecuteContent': '确定要执行调拨单 "{{code}}" 吗？执行后将更新库存。',
+  'app.kuaizhizao.inventoryTransfer.msgExecuteContent':
+    '确定要执行调拨单 "{{code}}" 吗？执行后将更新库存。',
   'app.kuaizhizao.inventoryTransfer.msgExecuteSuccess': '调拨执行成功',
   'app.kuaizhizao.inventoryTransfer.msgExecuteFailed': '执行调拨失败',
   'app.kuaizhizao.inventoryTransfer.msgTransferIdNotFound': '调拨单ID不存在',
-  'app.kuaizhizao.inventoryTransfer.msgBinAreasSelectRequired': '库内移位必须选择调出/调入库区与库位',
+  'app.kuaizhizao.inventoryTransfer.msgBinAreasSelectRequired':
+    '库内移位必须选择调出/调入库区与库位',
   'app.kuaizhizao.inventoryTransfer.msgAddItemSuccess': '调拨明细添加成功',
   'app.kuaizhizao.inventoryTransfer.msgAddItemFailed': '添加调拨明细失败',
   'app.kuaizhizao.inventoryTransfer.msgMinOneItem': '请至少添加一条有效明细',
@@ -9619,14 +10064,17 @@ export default {
   'app.kuaizhizao.stocktaking.statusItemAdjusted': '已调整',
   'app.kuaizhizao.stocktaking.actionPickFromInventory': '从仓库库存选择',
   'app.kuaizhizao.stocktaking.actionManualAddItem': '手工添加明细',
-  'app.kuaizhizao.stocktaking.emptyDraftHint': '开始盘点后将自动载入账面库存（全盘）或从仓库库存勾选明细（抽盘）。',
+  'app.kuaizhizao.stocktaking.emptyDraftHint':
+    '开始盘点后将自动载入账面库存（全盘）或从仓库库存勾选明细（抽盘）。',
   'app.kuaizhizao.stocktaking.emptyNoItems': '暂无盘点明细',
   'app.kuaizhizao.stocktaking.msgCreateSuccess': '盘点单创建成功',
   'app.kuaizhizao.stocktaking.msgCreateFailed': '创建盘点单失败',
   'app.kuaizhizao.stocktaking.msgGetDetailFailed': '获取盘点单详情失败',
   'app.kuaizhizao.stocktaking.msgStartTitle': '开始盘点',
-  'app.kuaizhizao.stocktaking.msgStartFullContent': '将按【{{granularity}}】载入仓库「{{warehouse}}」的账面库存并进入盘点，确定开始吗？',
-  'app.kuaizhizao.stocktaking.msgStartPartialContent': '确定要开始盘点单 "{{code}}" 吗？抽盘/循环盘点可在开始后从仓库库存勾选明细。',
+  'app.kuaizhizao.stocktaking.msgStartFullContent':
+    '将按【{{granularity}}】载入仓库「{{warehouse}}」的账面库存并进入盘点，确定开始吗？',
+  'app.kuaizhizao.stocktaking.msgStartPartialContent':
+    '确定要开始盘点单 "{{code}}" 吗？抽盘/循环盘点可在开始后从仓库库存勾选明细。',
   'app.kuaizhizao.stocktaking.msgStartSuccess': '盘点已开始',
   'app.kuaizhizao.stocktaking.msgStartFailed': '开始盘点失败',
   'app.kuaizhizao.stocktaking.msgNoWarehouse': '盘点单未指定仓库',
@@ -9640,12 +10088,14 @@ export default {
   'app.kuaizhizao.stocktaking.msgSaveActualSuccess': '实盘数量已保存',
   'app.kuaizhizao.stocktaking.msgSaveActualFailed': '保存实盘数量失败',
   'app.kuaizhizao.stocktaking.msgCompleteTitle': '完成盘点',
-  'app.kuaizhizao.stocktaking.msgCompleteWithDiff': '盘点单 "{{code}}" 存在 {{count}} 处差异，完成后将调整库存。确定吗？',
+  'app.kuaizhizao.stocktaking.msgCompleteWithDiff':
+    '盘点单 "{{code}}" 存在 {{count}} 处差异，完成后将调整库存。确定吗？',
   'app.kuaizhizao.stocktaking.msgCompleteNoDiff': '盘点单 "{{code}}" 账实相符，确定完成盘点吗？',
   'app.kuaizhizao.stocktaking.msgCompleteSuccess': '盘点已完成',
   'app.kuaizhizao.stocktaking.msgCompleteFailed': '完成盘点失败',
   'app.kuaizhizao.stocktaking.msgWithdrawTitle': '撤回盘点',
-  'app.kuaizhizao.stocktaking.msgWithdrawContent': '确定将盘点单 "{{code}}" 撤回到草稿吗？未录入实盘的明细将被清空，之后可删除该盘点单。',
+  'app.kuaizhizao.stocktaking.msgWithdrawContent':
+    '确定将盘点单 "{{code}}" 撤回到草稿吗？未录入实盘的明细将被清空，之后可删除该盘点单。',
   'app.kuaizhizao.stocktaking.msgWithdrawSuccess': '盘点单已撤回为草稿',
   'app.kuaizhizao.stocktaking.msgWithdrawFailed': '撤回失败',
   // replenishment suggestions
@@ -9778,9 +10228,12 @@ export default {
   'app.kuaizhizao.warehouseOutbound.msg.selectSalesOrders': '请选择至少一个销售订单',
   'app.kuaizhizao.warehouseOutbound.msg.selectWorkOrders': '请选择至少一个工单',
   'app.kuaizhizao.warehouseOutbound.msg.selectWarehouse': '请选择出库仓库',
-  'app.kuaizhizao.warehouseOutbound.msg.salesOrderPullFailed': '销售订单 {{id}} 上拉失败：{{message}}',
-  'app.kuaizhizao.warehouseOutbound.msg.batchSalesSuccess': '批量销售出库成功，共创建 {{count}} 张销售出库单',
-  'app.kuaizhizao.warehouseOutbound.msg.batchPickingSuccess': '批量生产领料成功，共创建 {{count}} 张领料单',
+  'app.kuaizhizao.warehouseOutbound.msg.salesOrderPullFailed':
+    '销售订单 {{id}} 上拉失败：{{message}}',
+  'app.kuaizhizao.warehouseOutbound.msg.batchSalesSuccess':
+    '批量销售出库成功，共创建 {{count}} 张销售出库单',
+  'app.kuaizhizao.warehouseOutbound.msg.batchPickingSuccess':
+    '批量生产领料成功，共创建 {{count}} 张领料单',
   'app.kuaizhizao.warehouseOutbound.msg.batchOutboundFailed': '批量出库失败',
   'app.kuaizhizao.warehouseOutbound.msg.attachmentsSaved': '附件已保存',
   'app.kuaizhizao.warehouseOutbound.msg.saveAttachmentsFailed': '保存附件失败',
@@ -9789,7 +10242,8 @@ export default {
   'app.kuaizhizao.warehouseOutbound.msg.batchConfirmSuccess': '成功确认 {{count}} 张出库单',
   'app.kuaizhizao.warehouseOutbound.msg.batchConfirmFailed': '{{count}} 张失败：{{details}}',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawTitle': '撤回出库',
-  'app.kuaizhizao.warehouseOutbound.msg.withdrawConfirm': '确定撤回单据 "{{code}}" 吗？系统将回冲库存并恢复待出库状态。',
+  'app.kuaizhizao.warehouseOutbound.msg.withdrawConfirm':
+    '确定撤回单据 "{{code}}" 吗？系统将回冲库存并恢复待出库状态。',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawSuccess': '撤回成功',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawFailed': '撤回失败',
   'app.kuaizhizao.warehouseOutbound.msg.printNotSupported': '该类型暂不支持打印',
@@ -9799,25 +10253,32 @@ export default {
   'app.kuaizhizao.warehouseOutbound.msg.deleteSuccess': '成功删除 {{count}} 条记录',
   'app.kuaizhizao.warehouseOutbound.msg.deleteFailed': '删除失败',
   'app.kuaizhizao.warehouseOutbound.msg.deleteConfirm': '确定要删除选中的 {{count}} 条出库单吗？',
-  'app.kuaizhizao.warehouseOutbound.msg.noConfirmPickingPermission': '当前业务配置下，您无权限确认生产领料',
+  'app.kuaizhizao.warehouseOutbound.msg.noConfirmPickingPermission':
+    '当前业务配置下，您无权限确认生产领料',
   'app.kuaizhizao.warehouseOutbound.msg.unknownError': '未知错误',
   'app.kuaizhizao.warehouseOutbound.batch.title': '批量出库',
-  'app.kuaizhizao.warehouseOutbound.batch.description': '根据上游单据批量创建出库单。生产领料：从工单下推；销售出库：从销售订单上拉。',
+  'app.kuaizhizao.warehouseOutbound.batch.description':
+    '根据上游单据批量创建出库单。生产领料：从工单下推；销售出库：从销售订单上拉。',
   'app.kuaizhizao.warehouseOutbound.batch.typeProductionPicking': '生产领料（从工单）',
   'app.kuaizhizao.warehouseOutbound.batch.typeSalesDelivery': '销售出库（从销售订单）',
   'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrders': '选择工单',
   'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersRule': '请选择至少一个工单',
-  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersPlaceholder': '请选择工单（已下达/进行中）',
+  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersPlaceholder':
+    '请选择工单（已下达/进行中）',
   'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrders': '选择销售订单',
   'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersRule': '请选择至少一个销售订单',
-  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersPlaceholder': '请选择销售订单（已审核/已确认）',
+  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersPlaceholder':
+    '请选择销售订单（已审核/已确认）',
   'app.kuaizhizao.warehouseOutbound.batch.selectWarehouseRule': '请选择出库仓库',
   'app.kuaizhizao.warehouseOutbound.batchConfirm.title': '确认批量出库 {{count}} 张单据',
-  'app.kuaizhizao.warehouseOutbound.batchConfirm.description': '将按单据类型调用对应确认接口；不可确认的单据会跳过并汇总失败原因。',
+  'app.kuaizhizao.warehouseOutbound.batchConfirm.description':
+    '将按单据类型调用对应确认接口；不可确认的单据会跳过并汇总失败原因。',
   'app.kuaizhizao.warehouseOutbound.wave.title': '波次拣货单',
-  'app.kuaizhizao.warehouseOutbound.wave.summary': '已合并 {{sourceCount}} 张生产领料单，生成 {{itemCount}} 条拣货路线。',
+  'app.kuaizhizao.warehouseOutbound.wave.summary':
+    '已合并 {{sourceCount}} 张生产领料单，生成 {{itemCount}} 条拣货路线。',
   'app.kuaizhizao.warehouseOutbound.confirm.title': '确认出库',
-  'app.kuaizhizao.warehouseOutbound.confirm.hint': '请核对库位、批号与序列号。启用批号/序列号管理的物料在确认时会校验。',
+  'app.kuaizhizao.warehouseOutbound.confirm.hint':
+    '请核对库位、批号与序列号。启用批号/序列号管理的物料在确认时会校验。',
   'app.kuaizhizao.warehouseOutbound.confirm.fifoHint': '先进先出/后进先出等策略见',
   'app.kuaizhizao.warehouseOutbound.confirm.fifoLink': '配置中心 → 仓储参数',
   'app.kuaizhizao.warehouseOutbound.confirm.loadingBatches': '加载批次…',
@@ -9830,15 +10291,21 @@ export default {
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.searchPlaceholder': '搜索序列号',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectAll': '全选',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.clear': '清空',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectedCount': '已选 {{selected}} / {{required}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectedCount':
+    '已选 {{selected}} / {{required}}',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.summary': '已选 {{count}} 个',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.maxReached': '已达出库数量上限（{{max}} 个）',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.maxReached':
+    '已达出库数量上限（{{max}} 个）',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.noMatch': '无匹配的序列号',
   'app.kuaizhizao.warehouseOutbound.confirm.batchAvailable': '{{batch}}（可用 {{qty}}）',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchAvailableWithWh': '{{batch}}（可用 {{qty}} · {{warehouse}}）',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchRequired': '物料 {{material}} 请从在库批号中选择：{{batches}}',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchNotInStock': '物料 {{material}} 在出库仓库「{{warehouse}}」无可用批号，请核对仓库或调整物料默认仓库',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchQtyInsufficient': '物料 {{material}} 批号 {{batch}} 可用 {{available}}，不足出库数量 {{required}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchAvailableWithWh':
+    '{{batch}}（可用 {{qty}} · {{warehouse}}）',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchRequired':
+    '物料 {{material}} 请从在库批号中选择：{{batches}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchNotInStock':
+    '物料 {{material}} 在出库仓库「{{warehouse}}」无可用批号，请核对仓库或调整物料默认仓库',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchQtyInsufficient':
+    '物料 {{material}} 批号 {{batch}} 可用 {{available}}，不足出库数量 {{required}}',
   'app.kuaizhizao.warehouseOutbound.confirm.loadPreviewFailed': '加载确认预览失败',
   'app.kuaizhizao.warehouseOutbound.confirm.typeNotSupported': '该类型不支持确认出库',
   'app.kuaizhizao.warehouseOutbound.confirm.notPosted': '出库未生效（接口返回状态：{{status}}）',
@@ -9881,7 +10348,8 @@ export default {
   'app.kuaizhizao.warehouseOutbound.pull.selectSalesOrder': '请选择销售订单',
   'app.kuaizhizao.warehouseOutbound.pull.selectShipmentNotice': '请选择发货通知单',
   'app.kuaizhizao.warehouseOutbound.pull.selectOutsource': '请选择委外工单',
-  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeConverted': '该发货通知单已创建销售出库单，请勿重复创建',
+  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeConverted':
+    '该发货通知单已创建销售出库单，请勿重复创建',
   'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeNoSalesOrder': '发货通知单未关联销售订单',
   'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticeFailed': '加载发货通知单失败',
   'app.kuaizhizao.warehouseOutbound.entry.productionPicking': '生产领料',
@@ -9915,7 +10383,8 @@ export default {
   'app.kuaizhizao.warehouseOutbound.entry.totalIssueQty': '合计发料数量：{{qty}}',
   'app.kuaizhizao.warehouseOutbound.entry.pendingIssueQty': '待发数量',
   'app.kuaizhizao.warehouseOutbound.entry.thisIssue': '本次发料',
-  'app.kuaizhizao.warehouseOutbound.entry.qtyExceedsPending': '物料 {{material}} 出库数量不能超过待交 {{max}}',
+  'app.kuaizhizao.warehouseOutbound.entry.qtyExceedsPending':
+    '物料 {{material}} 出库数量不能超过待交 {{max}}',
   'app.kuaizhizao.warehouseOutbound.entry.fillOutboundQty': '请至少填写一行出库数量',
   'app.kuaizhizao.warehouseOutbound.entry.fillIssueQty': '请至少填写一行本次发料数量',
   'app.kuaizhizao.warehouseOutbound.entry.outsourceIssueCreated': '委外发料单已创建',
@@ -9939,11 +10408,13 @@ export default {
   'app.kuaizhizao.otherOutbound.msg.loadListFailed': '获取其他出库单列表失败',
   'app.kuaizhizao.otherOutbound.msg.loadDetailFailed': '获取其他出库单详情失败',
   'app.kuaizhizao.otherOutbound.msg.confirmTitle': '确认出库',
-  'app.kuaizhizao.otherOutbound.msg.confirmContent': '确定要确认出库单 "{{code}}" 吗？确认后将更新库存。',
+  'app.kuaizhizao.otherOutbound.msg.confirmContent':
+    '确定要确认出库单 "{{code}}" 吗？确认后将更新库存。',
   'app.kuaizhizao.otherOutbound.msg.confirmSuccess': '出库确认成功',
   'app.kuaizhizao.otherOutbound.msg.confirmFailed': '出库确认失败',
   'app.kuaizhizao.otherOutbound.msg.withdrawTitle': '撤回出库',
-  'app.kuaizhizao.otherOutbound.msg.withdrawContent': '确定撤回出库单 "{{code}}" 吗？系统将回冲库存并恢复待出库状态。',
+  'app.kuaizhizao.otherOutbound.msg.withdrawContent':
+    '确定撤回出库单 "{{code}}" 吗？系统将回冲库存并恢复待出库状态。',
   'app.kuaizhizao.otherOutbound.msg.withdrawSuccess': '撤回成功',
   'app.kuaizhizao.otherOutbound.msg.withdrawFailed': '撤回失败',
   'app.kuaizhizao.otherOutbound.msg.deleteTitle': '删除出库单',
@@ -9982,11 +10453,13 @@ export default {
   'app.kuaizhizao.materialBorrow.msg.loadListFailed': '获取借料单列表失败',
   'app.kuaizhizao.materialBorrow.msg.loadDetailFailed': '获取借料单详情失败',
   'app.kuaizhizao.materialBorrow.msg.confirmTitle': '确认借出',
-  'app.kuaizhizao.materialBorrow.msg.confirmContent': '确定要确认借料单 "{{code}}" 吗？确认后将扣减库存。',
+  'app.kuaizhizao.materialBorrow.msg.confirmContent':
+    '确定要确认借料单 "{{code}}" 吗？确认后将扣减库存。',
   'app.kuaizhizao.materialBorrow.msg.confirmSuccess': '借出确认成功',
   'app.kuaizhizao.materialBorrow.msg.confirmFailed': '借出确认失败',
   'app.kuaizhizao.materialBorrow.msg.withdrawTitle': '撤回借出',
-  'app.kuaizhizao.materialBorrow.msg.withdrawContent': '确定撤回借料单 "{{code}}" 吗？系统将回冲库存并恢复待借出状态。',
+  'app.kuaizhizao.materialBorrow.msg.withdrawContent':
+    '确定撤回借料单 "{{code}}" 吗？系统将回冲库存并恢复待借出状态。',
   'app.kuaizhizao.materialBorrow.msg.withdrawSuccess': '撤回成功',
   'app.kuaizhizao.materialBorrow.msg.withdrawFailed': '撤回失败',
   'app.kuaizhizao.materialBorrow.msg.deleteTitle': '删除借料单',
@@ -9998,7 +10471,8 @@ export default {
   'app.kuaizhizao.materialBorrow.msg.batchDeleteFailed': '批量删除失败',
   'app.kuaizhizao.materialBorrow.msg.syncSuccess': '已同步 {{count}} 条借料单',
   'app.kuaizhizao.materialBorrow.msg.syncFailed': '同步失败',
-  'app.kuaizhizao.materialBorrow.msg.needValidLines': '请至少添加一条有效明细（选择物料并填写数量）',
+  'app.kuaizhizao.materialBorrow.msg.needValidLines':
+    '请至少添加一条有效明细（选择物料并填写数量）',
   'app.kuaizhizao.materialBorrow.msg.needValidLinesRule': '请至少添加一条有效明细',
   'app.kuaizhizao.materialBorrow.msg.createSuccess': '创建成功',
   'app.kuaizhizao.materialBorrow.msg.createFailed': '创建失败',
@@ -10056,9 +10530,11 @@ export default {
   'app.kuaizhizao.deliveryNote.msg.batchDeleteFailed': '批量删除失败',
   'app.kuaizhizao.deliveryNote.msg.syncSuccess': '已同步 {{count}} 条发货通知',
   'app.kuaizhizao.deliveryNote.msg.syncFailed': '同步失败',
-  'app.kuaizhizao.deliveryNote.msg.noCertificate': '未找到已出具合格证的成品检验单，请先完成成品检验并出具合格证',
+  'app.kuaizhizao.deliveryNote.msg.noCertificate':
+    '未找到已出具合格证的成品检验单，请先完成成品检验并出具合格证',
   'app.kuaizhizao.deliveryNote.msg.printCertificateTitle': '打印产品合格证',
-  'app.kuaizhizao.deliveryNote.msg.multipleCertificates': '找到 {{count}} 份合格证，已打开第一份（{{name}}）',
+  'app.kuaizhizao.deliveryNote.msg.multipleCertificates':
+    '找到 {{count}} 份合格证，已打开第一份（{{name}}）',
   'app.kuaizhizao.deliveryNote.msg.resolveCertificateFailed': '解析合格证失败',
   'app.kuaizhizao.deliveryNote.msg.needValidLines': '请至少添加一条有效明细',
   'app.kuaizhizao.deliveryNote.msg.selectCustomer': '请选择客户',
@@ -10071,7 +10547,8 @@ export default {
   'app.kuaizhizao.deliveryNote.msg.exportFailed': '导出失败',
   'app.kuaizhizao.deliveryNote.msg.selectSource': '请选择{{label}}',
   'app.kuaizhizao.deliveryNote.msg.alreadyCreated': '该{{source}}已创建{{target}}，请勿重复创建',
-  'app.kuaizhizao.deliveryNote.msg.missingCustomerOrLines': '该销售出库单缺少客户或有效明细，无法创建送货单',
+  'app.kuaizhizao.deliveryNote.msg.missingCustomerOrLines':
+    '该销售出库单缺少客户或有效明细，无法创建送货单',
   'app.kuaizhizao.deliveryNote.msg.pullCreateSuccess': '已从{{source}}创建{{target}}',
   'app.kuaizhizao.deliveryNote.msg.pullCreateFailed': '从{{source}}创建{{target}}失败',
   'app.kuaizhizao.deliveryNote.msg.noLineDetails': '暂无明细',
@@ -10156,13 +10633,15 @@ export default {
   'app.kuaizhizao.equipmentFault.listFailed': '获取故障记录列表失败',
   'app.kuaizhizao.equipmentFault.incompleteInfo': '故障记录或设备信息不完整',
   'app.kuaizhizao.equipmentFault.batchDeleteTitle': '确认批量删除',
-  'app.kuaizhizao.equipmentFault.batchDeleteContent': '确定要删除选中的 {{count}} 条设备故障记录吗？',
+  'app.kuaizhizao.equipmentFault.batchDeleteContent':
+    '确定要删除选中的 {{count}} 条设备故障记录吗？',
   'app.kuaizhizao.equipmentFault.deleteTitle': '确认删除',
   'app.kuaizhizao.equipmentFault.deleteContent': '确定要删除故障记录"{{code}}"吗？',
   'app.kuaizhizao.equipmentFault.createSuccess': '故障记录创建成功',
   'app.kuaizhizao.equipmentFault.updateSuccess': '故障记录更新成功',
   'app.kuaizhizao.equipmentFault.repairCreated': '维修记录已创建',
-  'app.kuaizhizao.equipmentFault.repairDescriptionTemplate': '维修故障：{{faultNo}} - {{description}}',
+  'app.kuaizhizao.equipmentFault.repairDescriptionTemplate':
+    '维修故障：{{faultNo}} - {{description}}',
   'app.kuaizhizao.equipmentFault.lifecycle.pending': '待处理',
   'app.kuaizhizao.equipmentFault.lifecycle.processing': '处理中',
   'app.kuaizhizao.equipmentFault.lifecycle.repaired': '已修复',
@@ -10280,7 +10759,8 @@ export default {
   'app.kuaizhizao.maintenanceReminder.section.operationHistory': '操作记录',
   'app.kuaizhizao.maintenanceReminder.empty.noDetailLines': '维护提醒无明细行',
   'app.kuaizhizao.maintenanceReminder.empty.noOperationRecords': '暂无操作记录',
-  'app.kuaizhizao.maintenanceReminder.readHandleStatus': '已读/处理状态：已读 {{read}}{{readAt}}；已处理 {{handled}}{{handledAt}}',
+  'app.kuaizhizao.maintenanceReminder.readHandleStatus':
+    '已读/处理状态：已读 {{read}}{{readAt}}；已处理 {{handled}}{{handledAt}}',
   'app.kuaizhizao.maintenanceReminder.yes': '是',
   'app.kuaizhizao.maintenanceReminder.no': '否',
   'app.kuaizhizao.maintenanceReminder.notificationTitle': '维护提醒',
@@ -11008,30 +11488,39 @@ export default {
   'app.kuaizhizao.shipmentNotice.listFailed': '获取列表失败',
   'app.kuaizhizao.shipmentNotice.notifyConfirmContent': '确定要通知仓库发货 "{{code}}" 吗？',
   'app.kuaizhizao.shipmentNotice.notifyWarehouseSelectTitle': '选择出库仓库',
-  'app.kuaizhizao.shipmentNotice.notifyWarehouseSelectContent': '发货通知单「{{code}}」尚未指定出库仓库，请选择后再通知仓库。',
-  'app.kuaizhizao.shipmentNotice.batchNotifyMissingWarehouse': '所选单据中存在未指定仓库的记录，请逐条通知并选择仓库，或先编辑补全仓库。',
+  'app.kuaizhizao.shipmentNotice.notifyWarehouseSelectContent':
+    '发货通知单「{{code}}」尚未指定出库仓库，请选择后再通知仓库。',
+  'app.kuaizhizao.shipmentNotice.batchNotifyMissingWarehouse':
+    '所选单据中存在未指定仓库的记录，请逐条通知并选择仓库，或先编辑补全仓库。',
   'app.kuaizhizao.shipmentNotice.notifySuccess': '已通知仓库',
-  'app.kuaizhizao.shipmentNotice.notifySuccessWithDelivery': '已通知仓库，已生成销售出库单：{{deliveryCode}}',
+  'app.kuaizhizao.shipmentNotice.notifySuccessWithDelivery':
+    '已通知仓库，已生成销售出库单：{{deliveryCode}}',
   'app.kuaizhizao.shipmentNotice.notifyFailed': '通知失败',
   'app.kuaizhizao.shipmentNotice.batchNotifySuccess': '已通知 {{count}} 条发货通知单',
   'app.kuaizhizao.shipmentNotice.batchNotifyPartial': '{{count}} 条通知失败（仅待发货状态可通知）',
-  'app.kuaizhizao.shipmentNotice.batchNotifyNotAllowed': '当前选中通知单不可批量通知仓库（仅待发货可通知）。',
-  'app.kuaizhizao.shipmentNotice.batchWithdrawNotAllowed': '当前选中通知单不可批量撤回通知（仅已通知可撤回）。',
+  'app.kuaizhizao.shipmentNotice.batchNotifyNotAllowed':
+    '当前选中通知单不可批量通知仓库（仅待发货可通知）。',
+  'app.kuaizhizao.shipmentNotice.batchWithdrawNotAllowed':
+    '当前选中通知单不可批量撤回通知（仅已通知可撤回）。',
   'app.kuaizhizao.shipmentNotice.withdrawConfirmContent': '确定将 "{{code}}" 撤回到待发货吗？',
   'app.kuaizhizao.shipmentNotice.withdrawSuccess': '已撤回到待发货',
   'app.kuaizhizao.shipmentNotice.withdrawFailed': '撤回失败',
   'app.kuaizhizao.shipmentNotice.batchWithdrawSuccess': '已撤回 {{count}} 条发货通知单',
-  'app.kuaizhizao.shipmentNotice.batchWithdrawPartial': '{{count}} 条撤回失败（仅已通知状态可撤回）',
+  'app.kuaizhizao.shipmentNotice.batchWithdrawPartial':
+    '{{count}} 条撤回失败（仅已通知状态可撤回）',
   'app.kuaizhizao.shipmentNotice.deleteConfirmContent': '确定要删除 "{{code}}" 吗？',
   'app.kuaizhizao.shipmentNotice.batchDeleteSuccess': '已删除 {{count}} 条发货通知单',
   'app.kuaizhizao.shipmentNotice.selectNoticeFirst': '请先选择发货通知单',
   'app.kuaizhizao.shipmentNotice.pullFromSalesOrder': '从销售订单创建发货通知单',
   'app.kuaizhizao.shipmentNotice.selectSource': '请选择{{source}}',
-  'app.kuaizhizao.shipmentNotice.sourceAlreadyConverted': '该{{source}}已创建{{target}}，请勿重复创建',
+  'app.kuaizhizao.shipmentNotice.sourceAlreadyConverted':
+    '该{{source}}已创建{{target}}，请勿重复创建',
   'app.kuaizhizao.shipmentNotice.createFromSourceSuccess': '已从{{source}}创建{{target}}',
   'app.kuaizhizao.shipmentNotice.createFromSourceFailed': '从{{source}}创建{{target}}失败',
-  'app.kuaizhizao.shipmentNotice.sourceMissingData': '该{{source}}缺少客户或有效明细，无法创建{{target}}',
-  'app.kuaizhizao.shipmentNotice.noMaterialItemsFromSource': '该{{source}}无可用产品明细，请手动补充通知明细',
+  'app.kuaizhizao.shipmentNotice.sourceMissingData':
+    '该{{source}}缺少客户或有效明细，无法创建{{target}}',
+  'app.kuaizhizao.shipmentNotice.noMaterialItemsFromSource':
+    '该{{source}}无可用产品明细，请手动补充通知明细',
   'app.kuaizhizao.shipmentNotice.createTarget': '创建{{target}}',
   'app.kuaizhizao.shipmentNotice.noticeCode': '通知单号',
   'app.kuaizhizao.shipmentNotice.codeRequired': '请输入通知单号',
@@ -11039,7 +11528,8 @@ export default {
   'app.kuaizhizao.shipmentNotice.noticeItems': '通知明细',
   'app.kuaizhizao.shipmentNotice.noticeItemsRequired': '请至少添加一条通知明细',
   'app.kuaizhizao.shipmentNotice.importItemsTitle': '导入通知明细',
-  'app.kuaizhizao.shipmentNotice.closeEditBeforeImport': '请先关闭编辑窗口，或在「新建发货通知单」弹窗内使用「导入明细」',
+  'app.kuaizhizao.shipmentNotice.closeEditBeforeImport':
+    '请先关闭编辑窗口，或在「新建发货通知单」弹窗内使用「导入明细」',
   'app.kuaizhizao.shipmentNotice.quantityPositive': '须大于 0',
   'app.kuaizhizao.shipmentNotice.itemsRequired': '请至少添加一条有效明细',
   'app.kuaizhizao.shipmentNotice.importNoValidData': '未发现有效数据',
@@ -11072,9 +11562,12 @@ export default {
   'app.kuaizhizao.receiptNotice.statusPendingReceipt': '待收货',
   'app.kuaizhizao.receiptNotice.statusReceived': '已入库',
   'app.kuaizhizao.receiptNotice.notifyWarehouse': '通知仓库收货',
-  'app.kuaizhizao.receiptNotice.notifyConfirmContent': '确定要通知仓库收货「{{code}}」吗？将同步生成一张「草稿」状态的采购入库单，仓库可在采购入库中核对后确认入库。',
-  'app.kuaizhizao.receiptNotice.notifySuccessWithDraft': '已通知仓库，已生成采购入库草稿：{{receiptCode}}',
-  'app.kuaizhizao.receiptNotice.withdrawConfirmContent': '确定将「{{code}}」撤回到待收货吗？将移除关联的采购入库草稿（若尚未确认入库）。',
+  'app.kuaizhizao.receiptNotice.notifyConfirmContent':
+    '确定要通知仓库收货「{{code}}」吗？将同步生成一张「草稿」状态的采购入库单，仓库可在采购入库中核对后确认入库。',
+  'app.kuaizhizao.receiptNotice.notifySuccessWithDraft':
+    '已通知仓库，已生成采购入库草稿：{{receiptCode}}',
+  'app.kuaizhizao.receiptNotice.withdrawConfirmContent':
+    '确定将「{{code}}」撤回到待收货吗？将移除关联的采购入库草稿（若尚未确认入库）。',
   'app.kuaizhizao.receiptNotice.withdrawSuccess': '已撤回到待收货',
   'app.kuaizhizao.receiptNotice.selectPurchaseOrder': '请选择采购订单',
   'app.kuaizhizao.receiptNotice.supplierPlaceholder': '供应商名称',
@@ -11141,7 +11634,8 @@ export default {
   'app.kuaicaiwu.common.batchApproveFailed': '批量审核失败',
   'app.kuaicaiwu.common.batchConfirmFailed': '批量确认失败',
   'app.kuaicaiwu.common.batchVoidFailed': '批量作废失败',
-  'app.kuaicaiwu.common.batchOnlyPendingApprove': '仅待审核单据会审核通过，不满足条件的单据会在后端返回错误。',
+  'app.kuaicaiwu.common.batchOnlyPendingApprove':
+    '仅待审核单据会审核通过，不满足条件的单据会在后端返回错误。',
   'app.kuaicaiwu.common.loadListFailed': '获取列表失败',
   'app.kuaicaiwu.common.importEmpty': '导入数据为空或格式不正确',
   'app.kuaicaiwu.common.importNoValidRows': '没有可导入的有效数据',
@@ -11210,7 +11704,8 @@ export default {
   'app.kuaicaiwu.receivable.col.receivedAmount': '已收金额',
   'app.kuaicaiwu.receivable.col.remainingAmount': '剩余应收',
   'app.kuaicaiwu.receivable.col.amount': '应收金额',
-  'app.kuaicaiwu.receivable.deleteConfirm': '确定要删除选中的 {{count}} 条应收单吗？仅待审核且无收款记录的应收单可删除。',
+  'app.kuaicaiwu.receivable.deleteConfirm':
+    '确定要删除选中的 {{count}} 条应收单吗？仅待审核且无收款记录的应收单可删除。',
   'app.kuaicaiwu.receivable.batchApproveTitle': '确认审核 {{count}} 条应收单',
   'app.kuaicaiwu.receivable.importTitle': '导入应收单',
   'app.kuaicaiwu.receivable.importSuccess': '成功导入 {{count}} 条应收单',
@@ -11240,7 +11735,8 @@ export default {
   'app.kuaicaiwu.payable.col.paidAmount': '已付金额',
   'app.kuaicaiwu.payable.col.remainingAmount': '剩余应付',
   'app.kuaicaiwu.payable.col.amount': '应付金额',
-  'app.kuaicaiwu.payable.deleteConfirm': '确定要删除选中的 {{count}} 条应付单吗？仅待审核且无付款记录的应付单可删除。',
+  'app.kuaicaiwu.payable.deleteConfirm':
+    '确定要删除选中的 {{count}} 条应付单吗？仅待审核且无付款记录的应付单可删除。',
   'app.kuaicaiwu.payable.batchApproveTitle': '确认审核 {{count}} 条应付单',
   'app.kuaicaiwu.payable.importTitle': '导入应付单',
   'app.kuaicaiwu.payable.importSuccess': '成功导入 {{count}} 条应付单',
@@ -11285,8 +11781,10 @@ export default {
   'app.kuaicaiwu.receipt.voidTitle': '作废收款单',
   'app.kuaicaiwu.receipt.voidContent': '确定要作废收款单 {{code}} 吗？已核销的收款单不能作废。',
   'app.kuaicaiwu.receipt.deleteTitle': '删除收款单',
-  'app.kuaicaiwu.receipt.deleteContent': '确定删除收款单 {{code}}？已确认的收款单不能删除，请使用作废。',
-  'app.kuaicaiwu.receipt.deleteConfirm': '确定删除选中的 {{count}} 条收款单吗？已确认单据不能删除，请使用作废。',
+  'app.kuaicaiwu.receipt.deleteContent':
+    '确定删除收款单 {{code}}？已确认的收款单不能删除，请使用作废。',
+  'app.kuaicaiwu.receipt.deleteConfirm':
+    '确定删除选中的 {{count}} 条收款单吗？已确认单据不能删除，请使用作废。',
   'app.kuaicaiwu.receipt.batchConfirmTitle': '确认批量确认 {{count}} 条收款单',
   'app.kuaicaiwu.receipt.batchConfirmDesc': '仅草稿收款单可确认，不满足条件的记录会由后端拒绝。',
   'app.kuaicaiwu.receipt.batchVoidTitle': '确认批量作废 {{count}} 条收款单',
@@ -11333,8 +11831,10 @@ export default {
   'app.kuaicaiwu.payment.voidTitle': '作废付款单',
   'app.kuaicaiwu.payment.voidContent': '确定要作废付款单 {{code}} 吗？已核销的付款单不能作废。',
   'app.kuaicaiwu.payment.deleteTitle': '删除付款单',
-  'app.kuaicaiwu.payment.deleteContent': '确定删除付款单 {{code}}？已确认的付款单不能删除，请使用作废。',
-  'app.kuaicaiwu.payment.deleteConfirm': '确定删除选中的 {{count}} 条付款单吗？已确认单据不能删除，请使用作废。',
+  'app.kuaicaiwu.payment.deleteContent':
+    '确定删除付款单 {{code}}？已确认的付款单不能删除，请使用作废。',
+  'app.kuaicaiwu.payment.deleteConfirm':
+    '确定删除选中的 {{count}} 条付款单吗？已确认单据不能删除，请使用作废。',
   'app.kuaicaiwu.payment.batchConfirmTitle': '确认批量确认 {{count}} 条付款单',
   'app.kuaicaiwu.payment.batchConfirmDesc': '仅草稿付款单可确认，不满足条件的记录会由后端拒绝。',
   'app.kuaicaiwu.payment.batchVoidTitle': '确认批量作废 {{count}} 条付款单',
@@ -11371,7 +11871,8 @@ export default {
   'app.kuaicaiwu.invoice.importTitle': '导入发票',
   'app.kuaicaiwu.invoice.importSuccess': '成功导入 {{count}} 张发票',
   'app.kuaicaiwu.invoice.importHeaderError': '导入表头需包含发票号码、往来单位、价税合计',
-  'app.kuaicaiwu.invoice.importNoValidRows': '没有可导入的有效数据（请确保往来单位在客户/供应商中存在）',
+  'app.kuaicaiwu.invoice.importNoValidRows':
+    '没有可导入的有效数据（请确保往来单位在客户/供应商中存在）',
   'app.kuaicaiwu.invoice.batchDeleteSuccess': '成功删除 {{count}} 张发票',
   'app.kuaicaiwu.invoice.tabSales': '销售发票',
   'app.kuaicaiwu.invoice.tabPurchase': '采购发票',
@@ -11421,7 +11922,8 @@ export default {
   'app.kuaicaiwu.salesInvoice.deleteTitle': '删除销售发票',
   'app.kuaicaiwu.salesInvoice.deleteContent': '确定删除发票 {{number}}？已审核的发票不能删除。',
   'app.kuaicaiwu.salesInvoice.batchDeleteSuccess': '已删除 {{count}} 张销售发票',
-  'app.kuaicaiwu.salesInvoice.batchDeleteConfirm': '确定删除选中的 {{count}} 张销售发票吗？已审核的发票不能删除。',
+  'app.kuaicaiwu.salesInvoice.batchDeleteConfirm':
+    '确定删除选中的 {{count}} 张销售发票吗？已审核的发票不能删除。',
   'app.kuaicaiwu.salesInvoice.batchApproveTitle': '确认审核 {{count}} 张销售发票',
   'app.kuaicaiwu.salesInvoice.batchApproveSuccess': '已审核 {{count}} 张销售发票',
   'app.kuaicaiwu.salesInvoice.loadSourceFailed': '加载来源单失败',
@@ -11463,14 +11965,17 @@ export default {
   'app.kuaicaiwu.salesInvoice.approveConfirm': '确认审核通过 {{number}}？',
   'app.kuaicaiwu.salesInvoice.approved': '已审核',
   'app.kuaicaiwu.salesInvoice.saved': '已保存',
-  'app.kuaicaiwu.salesInvoice.deleteConfirm': '确定删除该发票？已审核、已作废或已红冲的发票不能删除。',
+  'app.kuaicaiwu.salesInvoice.deleteConfirm':
+    '确定删除该发票？已审核、已作废或已红冲的发票不能删除。',
   'app.kuaicaiwu.salesInvoice.voidTitle': '发票作废',
-  'app.kuaicaiwu.salesInvoice.voidHint': '适用于未审核/草稿阶段发现开票信息有误、尚未确认记账的情形。已审核发票请使用「申请红字发票」。',
+  'app.kuaicaiwu.salesInvoice.voidHint':
+    '适用于未审核/草稿阶段发现开票信息有误、尚未确认记账的情形。已审核发票请使用「申请红字发票」。',
   'app.kuaicaiwu.salesInvoice.voidReasonRequired': '作废原因（必填）',
   'app.kuaicaiwu.salesInvoice.voidReasonMissing': '请填写作废原因',
   'app.kuaicaiwu.salesInvoice.voided': '已作废',
   'app.kuaicaiwu.salesInvoice.redLetterTitle': '申请红字发票',
-  'app.kuaicaiwu.salesInvoice.redLetterHint': '系统将生成一张金额为负数的销项发票草稿，用于账务冲销；请在税控系统完成红字信息表及开票后，回填票面号码。',
+  'app.kuaicaiwu.salesInvoice.redLetterHint':
+    '系统将生成一张金额为负数的销项发票草稿，用于账务冲销；请在税控系统完成红字信息表及开票后，回填票面号码。',
   'app.kuaicaiwu.salesInvoice.redLetterReasonRequired': '红冲原因（必填）',
   'app.kuaicaiwu.salesInvoice.redLetterReasonMissing': '请填写红冲原因',
   'app.kuaicaiwu.salesInvoice.redLetterDraftCreated': '已生成红字发票草稿',
@@ -11499,14 +12004,16 @@ export default {
   'app.kuaicaiwu.purchaseInvoice.batchApproveSuccess': '已审核 {{count}} 张采购发票',
   'app.kuaicaiwu.purchaseInvoice.batchApproveTitle': '确认审核 {{count}} 张采购发票',
   'app.kuaicaiwu.purchaseInvoice.createButton': '登记采购发票',
-  'app.kuaicaiwu.purchaseInvoice.createHint': '提示：如果是从采购订单转发票，请在采购订单页面点击“下推发票”。此操作用于直接登记收到的进项发票。',
+  'app.kuaicaiwu.purchaseInvoice.createHint':
+    '提示：如果是从采购订单转发票，请在采购订单页面点击“下推发票”。此操作用于直接登记收到的进项发票。',
   'app.kuaicaiwu.purchaseInvoice.col.code': '发票编号',
   'app.kuaicaiwu.purchaseInvoice.col.purchaseOrder': '采购订单',
   'app.kuaicaiwu.purchaseInvoice.col.invoiceAmount': '发票金额',
   'app.kuaicaiwu.purchaseInvoice.col.linkedPayable': '应付单',
   'app.kuaicaiwu.purchaseInvoice.pull.searchPlaceholder': '按单号/供应商搜索',
   'app.kuaicaiwu.purchaseInvoice.detailNotFound': '未找到采购发票',
-  'app.kuaicaiwu.purchaseInvoice.lifecycleHint': '采购发票未接入单据跟踪中心；与应付单、采购订单的关联以编号跳转业务系统为准。',
+  'app.kuaicaiwu.purchaseInvoice.lifecycleHint':
+    '采购发票未接入单据跟踪中心；与应付单、采购订单的关联以编号跳转业务系统为准。',
   'app.kuaicaiwu.purchaseInvoice.noLines': '暂无票面明细行（单头登记模式）',
   'app.kuaicaiwu.purchaseInvoice.activityCreated': '创建于 {{time}}',
   'app.kuaicaiwu.purchaseInvoice.activityUpdated': '更新于 {{time}}',
@@ -11540,8 +12047,10 @@ export default {
   'app.kuaicaiwu.settlement.tabPayable': '应付核销',
   'app.kuaicaiwu.settlement.helpTitle': '往来核销帮助',
   'app.kuaicaiwu.settlement.helpGotIt': '知道了',
-  'app.kuaicaiwu.settlement.arAlert': '将「有余额的收款单」手动匹配到「有待收金额的应收单」，完成核销。',
-  'app.kuaicaiwu.settlement.apAlert': '将「有余额的付款单」手动匹配到「有待付金额的应付单」，完成核销。',
+  'app.kuaicaiwu.settlement.arAlert':
+    '将「有余额的收款单」手动匹配到「有待收金额的应收单」，完成核销。',
+  'app.kuaicaiwu.settlement.apAlert':
+    '将「有余额的付款单」手动匹配到「有待付金额的应付单」，完成核销。',
   'app.kuaicaiwu.settlement.pendingReceivables': '待核销应收单',
   'app.kuaicaiwu.settlement.availableReceipts': '可用收款单',
   'app.kuaicaiwu.settlement.pendingPayables': '待核销应付单',
@@ -11553,19 +12062,25 @@ export default {
   'app.kuaicaiwu.settlement.match': '匹配',
   'app.kuaicaiwu.settlement.confirmArTitle': '确认手动核销（应收）',
   'app.kuaicaiwu.settlement.confirmApTitle': '确认手动核销（应付）',
-  'app.kuaicaiwu.settlement.confirmArContent': '将收款单 {{receiptCode}} 核销至应收单 {{receivableCode}}',
-  'app.kuaicaiwu.settlement.confirmApContent': '将付款单 {{paymentCode}} 核销至应付单 {{payableCode}}',
+  'app.kuaicaiwu.settlement.confirmArContent':
+    '将收款单 {{receiptCode}} 核销至应收单 {{receivableCode}}',
+  'app.kuaicaiwu.settlement.confirmApContent':
+    '将付款单 {{paymentCode}} 核销至应付单 {{payableCode}}',
   'app.kuaicaiwu.settlement.settleAmount': '核销金额',
   'app.kuaicaiwu.settlement.invalidAmount': '请选择单据并输入正确的核销金额',
   'app.kuaicaiwu.settlement.settleSuccess': '核销成功',
   'app.kuaicaiwu.settlement.settleFailed': '核销失败: {{message}}',
   'app.kuaicaiwu.settlement.help': '帮助',
-  'app.kuaicaiwu.settlement.arAlertExtended': '将「有余额的收款单」手动匹配到「有待收金额的应收单」。若已在应收详情登记收款并自动核销，或单据已全部结清，则此处不会显示数据。',
-  'app.kuaicaiwu.settlement.apAlertExtended': '将「有余额的付款单」手动匹配到「有待付金额的应付单」。若已在应付详情登记付款并自动核销，或单据已全部结清，则此处不会显示数据。',
+  'app.kuaicaiwu.settlement.arAlertExtended':
+    '将「有余额的收款单」手动匹配到「有待收金额的应收单」。若已在应收详情登记收款并自动核销，或单据已全部结清，则此处不会显示数据。',
+  'app.kuaicaiwu.settlement.apAlertExtended':
+    '将「有余额的付款单」手动匹配到「有待付金额的应付单」。若已在应付详情登记付款并自动核销，或单据已全部结清，则此处不会显示数据。',
   'app.kuaicaiwu.settlement.helpArTitle': '应收核销',
-  'app.kuaicaiwu.settlement.helpArDesc': '将「有余额的收款单」手动匹配到「有待收金额的应收单」。左侧选择应收单，右侧匹配收款单，确认核销金额即可。若已在应收详情登记收款并自动核销，或单据已全部结清，则列表不会显示数据。',
+  'app.kuaicaiwu.settlement.helpArDesc':
+    '将「有余额的收款单」手动匹配到「有待收金额的应收单」。左侧选择应收单，右侧匹配收款单，确认核销金额即可。若已在应收详情登记收款并自动核销，或单据已全部结清，则列表不会显示数据。',
   'app.kuaicaiwu.settlement.helpApTitle': '应付核销',
-  'app.kuaicaiwu.settlement.helpApDesc': '将「有余额的付款单」手动匹配到「有待付金额的应付单」。操作方式与应收核销相同。若已在应付详情登记付款并自动核销，或单据已全部结清，则列表不会显示数据。',
+  'app.kuaicaiwu.settlement.helpApDesc':
+    '将「有余额的付款单」手动匹配到「有待付金额的应付单」。操作方式与应收核销相同。若已在应付详情登记付款并自动核销，或单据已全部结清，则列表不会显示数据。',
   'app.kuaicaiwu.partnerStatement.tabCustomer': '客户对账',
   'app.kuaicaiwu.partnerStatement.tabSupplier': '供应商对账',
   'app.kuaicaiwu.partnerStatement.col.code': '对账单号',
@@ -11589,14 +12104,18 @@ export default {
   'app.kuaicaiwu.partnerStatement.createButton': '新建对账单',
   'app.kuaicaiwu.partnerStatement.col.customerName': '客户名称',
   'app.kuaicaiwu.partnerStatement.col.supplierName': '供应商名称',
-  'app.kuaicaiwu.partnerStatement.batchDeleteCustomerConfirm': '确定删除选中的 {{count}} 条客户对账单吗？仅草稿可删除。',
-  'app.kuaicaiwu.partnerStatement.batchDeleteSupplierConfirm': '确定删除选中的 {{count}} 条供应商对账单吗？仅草稿可删除。',
+  'app.kuaicaiwu.partnerStatement.batchDeleteCustomerConfirm':
+    '确定删除选中的 {{count}} 条客户对账单吗？仅草稿可删除。',
+  'app.kuaicaiwu.partnerStatement.batchDeleteSupplierConfirm':
+    '确定删除选中的 {{count}} 条供应商对账单吗？仅草稿可删除。',
   'app.kuaicaiwu.partnerStatement.batchConfirmTitle': '确认批量确认 {{count}} 条对账单',
-  'app.kuaicaiwu.partnerStatement.batchConfirmOnlyDraft': '仅草稿对账单可确认，不满足条件的记录会由后端拒绝。',
+  'app.kuaicaiwu.partnerStatement.batchConfirmOnlyDraft':
+    '仅草稿对账单可确认，不满足条件的记录会由后端拒绝。',
   'app.kuaicaiwu.partnerStatement.deleteConfirm': '确定删除对账单 {{code}}？仅草稿可删除。',
   'app.kuaicaiwu.partnerStatement.deleted': '已删除',
   'app.kuaicaiwu.partnerStatement.previewHint': '选择往来单位与对账月份后，点击「预览」查看明细。',
-  'app.kuaicaiwu.partnerStatement.previewFooter': '对账单汇总已审核应收/应付与已确认收/付款；确认生成后可导出 Excel/PDF 发送给对方核对。',
+  'app.kuaicaiwu.partnerStatement.previewFooter':
+    '对账单汇总已审核应收/应付与已确认收/付款；确认生成后可导出 Excel/PDF 发送给对方核对。',
   'app.kuaicaiwu.partnerStatement.col.date': '日期',
   'app.kuaicaiwu.partnerStatement.col.docType': '单据类型',
   'app.kuaicaiwu.partnerStatement.col.docCode': '单号',
@@ -11614,7 +12133,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.internalConfirm': '内部确认',
   'app.kuaicaiwu.partnerStatement.detail.markSent': '标记已发送',
   'app.kuaicaiwu.partnerStatement.detail.markSentTitle': '标记已发送',
-  'app.kuaicaiwu.partnerStatement.detail.markSentHint': '请先将对账单导出或打印后，通过微信/邮件等方式发送给对方，再标记发送记录。',
+  'app.kuaicaiwu.partnerStatement.detail.markSentHint':
+    '请先将对账单导出或打印后，通过微信/邮件等方式发送给对方，再标记发送记录。',
   'app.kuaicaiwu.partnerStatement.detail.sentChannel': '发送方式',
   'app.kuaicaiwu.partnerStatement.detail.sentNotes': '备注（可选）',
   'app.kuaicaiwu.partnerStatement.detail.markedSent': '已标记发送',
@@ -11634,7 +12154,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.disputeReason': '异议说明',
   'app.kuaicaiwu.partnerStatement.detail.receivableBalance': '应收余额',
   'app.kuaicaiwu.partnerStatement.detail.payableBalance': '应付余额',
-  'app.kuaicaiwu.partnerStatement.detail.footer': '请于收到本对账单后 7 个工作日内核对并回复；如有异议请注明。',
+  'app.kuaicaiwu.partnerStatement.detail.footer':
+    '请于收到本对账单后 7 个工作日内核对并回复；如有异议请注明。',
   'app.kuaicaiwu.partnerStatement.detail.printTitle': '{{company}} — 往来对账单',
   'app.kuaicaiwu.partnerStatement.detail.ourCompany': '本公司',
   'app.kuaicaiwu.partnerStatement.col.partner': '往来单位',
@@ -11682,10 +12203,12 @@ export default {
   'app.kuaicaiwu.bankAccount.status.enabled': '启用',
   'app.kuaicaiwu.bankAccount.status.disabled': '停用',
   'app.kuaicaiwu.bankAccount.form.accountNumber': '银行账号',
-  'app.kuaicaiwu.bankAccount.importHint': '将网银或柜台导出的对账单粘贴到下方（暂不支持银企直联）。首行表头示例：交易日期,收支方向,金额,摘要；收支方向填「收入」或「支出」。',
+  'app.kuaicaiwu.bankAccount.importHint':
+    '将网银或柜台导出的对账单粘贴到下方（暂不支持银企直联）。首行表头示例：交易日期,收支方向,金额,摘要；收支方向填「收入」或「支出」。',
   'app.kuaicaiwu.bankAccount.importContent': '对账单内容',
   'app.kuaicaiwu.bankAccount.importContentRequired': '请粘贴对账单内容',
-  'app.kuaicaiwu.bankAccount.importPlaceholder': '交易日期,收支方向,金额,摘要\n2026-05-01,收入,10000.00,期初调账',
+  'app.kuaicaiwu.bankAccount.importPlaceholder':
+    '交易日期,收支方向,金额,摘要\n2026-05-01,收入,10000.00,期初调账',
   'app.kuaicaiwu.bankAccount.importTitleWithAccount': '导入对账单 · {{name}}',
   'app.kuaicaiwu.bankAccount.transactionsTitleWithAccount': '{{name}} · 银行流水',
   'app.kuaicaiwu.prepayment.statCustomerTotal': '客户预收余额合计',
@@ -11746,9 +12269,11 @@ export default {
   'app.kuaicaiwu.documentReconciliation.docType.payable': '应付单',
   'app.kuaicaiwu.documentReconciliation.docType.payment': '付款单',
   'app.kuaicaiwu.documentReconciliation.chain.docId': '单据内码',
-  'app.kuaicaiwu.documentReconciliation.chain.docIdTooltip': '系统中该单据的数字编号，可在单据详情页地址栏查看',
+  'app.kuaicaiwu.documentReconciliation.chain.docIdTooltip':
+    '系统中该单据的数字编号，可在单据详情页地址栏查看',
   'app.kuaicaiwu.documentReconciliation.chain.docIdPlaceholder': '编号',
-  'app.kuaicaiwu.documentReconciliation.chain.completion': '单据链条完整度：{{rate}}%（已关联 {{linked}}/{{total}} 个环节）',
+  'app.kuaicaiwu.documentReconciliation.chain.completion':
+    '单据链条完整度：{{rate}}%（已关联 {{linked}}/{{total}} 个环节）',
   'app.kuaicaiwu.documentReconciliation.chain.missing': '缺失',
   'app.kuaicaiwu.documentReconciliation.chain.salesDelivery': '销售出库',
   'app.kuaicaiwu.documentReconciliation.chain.salesOrder': '销售订单',
@@ -11767,7 +12292,8 @@ export default {
   'app.kuaicaiwu.managementDashboard.kpi.laborSubtitle': '标准工时 / 实际工时',
   'app.kuaicaiwu.managementDashboard.kpi.wipTitle': '在制品估值',
   'app.kuaicaiwu.managementDashboard.kpi.wipSubtitle': '在产工单 {{count}} 单',
-  'app.kuaicaiwu.managementDashboard.insight.qualityLossTitle': '质量损失 {{amount}}，占销售额 {{ratio}}%',
+  'app.kuaicaiwu.managementDashboard.insight.qualityLossTitle':
+    '质量损失 {{amount}}，占销售额 {{ratio}}%',
   'app.kuaicaiwu.managementDashboard.insight.qualityLossDesc': '建议排查制程缺陷与报废原因',
   'app.kuaicaiwu.managementDashboard.insight.dsoHighTitle': '回款周期 {{days}} 天，偏长',
   'app.kuaicaiwu.managementDashboard.insight.dsoHighDesc': '可优先跟进逾期应收与催收计划',
@@ -11781,7 +12307,8 @@ export default {
   'app.kuaicaiwu.managementDashboard.chart.scrapAmount': '报废直接金额',
   'app.kuaicaiwu.managementDashboard.chart.unqualifiedQty': '不合格品数',
   'app.kuaicaiwu.managementDashboard.chart.piecesUnit': '件',
-  'app.kuaicaiwu.managementDashboard.chart.qualityLossAlert': '质量损失占销售额 {{ratio}}%，建议排查制程缺陷',
+  'app.kuaicaiwu.managementDashboard.chart.qualityLossAlert':
+    '质量损失占销售额 {{ratio}}%，建议排查制程缺陷',
   'app.kuaicaiwu.managementDashboard.chart.qualityUnderControl': '本期质量损失在可控范围内',
   'app.kuaicaiwu.managementDashboard.chart.noQualityLoss': '近 {{days}} 天暂无质量损失记录',
   'app.kuaicaiwu.marginReport.tab.product': '按产品',
@@ -11842,7 +12369,8 @@ export default {
   'app.kuaicaiwu.glVoucher.batchActions': '批量操作',
   'app.kuaicaiwu.glVoucher.batchPost': '批量过账',
   'app.kuaicaiwu.glVoucher.confirmBatchPost': '确认过账 {{count}} 张凭证',
-  'app.kuaicaiwu.glVoucher.confirmBatchPostDesc': '仅未过账凭证会执行成功，已过账或不满足条件的记录会由后端拒绝。',
+  'app.kuaicaiwu.glVoucher.confirmBatchPostDesc':
+    '仅未过账凭证会执行成功，已过账或不满足条件的记录会由后端拒绝。',
   'app.kuaicaiwu.glVoucher.drawerTitle': '凭证分录 · {{code}}',
   'app.kuaicaiwu.glVoucher.drawerTitleDefault': '凭证分录',
   'app.kuaicaiwu.glVoucher.line.lineNo': '行号',
@@ -11971,7 +12499,8 @@ export default {
   'app.kuaicaiwu.costCalculation.workOrderModalTitle': '工单成本核算',
   'app.kuaicaiwu.costCalculation.productModalTitle': '产品成本核算',
   'app.kuaicaiwu.costCalculation.detailTitle': '成本核算记录详情',
-  'app.kuaicaiwu.costCalculation.lifecycleHint': '核算状态以列表与基本信息为准；完整上下游跟踪接入后可在此展示关联单据。',
+  'app.kuaicaiwu.costCalculation.lifecycleHint':
+    '核算状态以列表与基本信息为准；完整上下游跟踪接入后可在此展示关联单据。',
   'app.kuaicaiwu.costCalculation.field.workOrder': '工单',
   'app.kuaicaiwu.costCalculation.field.workOrderPlaceholder': '请选择工单',
   'app.kuaicaiwu.costCalculation.field.workOrderRequired': '请选择工单',
@@ -11982,7 +12511,8 @@ export default {
   'app.kuaicaiwu.costCalculation.field.calculationTypeRequired': '请选择核算类型',
   'app.kuaicaiwu.costCalculation.compareTab.byProduct': '按产品',
   'app.kuaicaiwu.costCalculation.compareTab.byMaterial': '按物料 / 工单',
-  'app.kuaicaiwu.costCalculation.compareByProductHint': '选择产品（物料）拉取该产品标准与实际成本汇总。',
+  'app.kuaicaiwu.costCalculation.compareByProductHint':
+    '选择产品（物料）拉取该产品标准与实际成本汇总。',
   'app.kuaicaiwu.costCalculation.productCompareResult': '产品成本对比结果',
   'app.kuaicaiwu.costCalculation.costDifference': '成本差异',
   'app.kuaicaiwu.costCalculation.costDifferenceRate': '成本差异率',
@@ -11991,14 +12521,19 @@ export default {
   'app.kuaicaiwu.costCalculation.laborCostDifference': '人工成本差异',
   'app.kuaicaiwu.costCalculation.manufacturingCostDifference': '制造费用差异',
   'app.kuaicaiwu.costCalculation.differenceAnalysis': '差异原因分析',
-  'app.kuaicaiwu.costCalculation.compareByProductEmpty': '选择产品并查询后，将在此展示标准/实际成本与差异',
-  'app.kuaicaiwu.costCalculation.compareByMaterialHint': '选择物料并填写数量；可按来源补充工单、采购订单或委外工单等条件，与独立「成本对比」页同一接口。',
+  'app.kuaicaiwu.costCalculation.compareByProductEmpty':
+    '选择产品并查询后，将在此展示标准/实际成本与差异',
+  'app.kuaicaiwu.costCalculation.compareByMaterialHint':
+    '选择物料并填写数量；可按来源补充工单、采购订单或委外工单等条件，与独立「成本对比」页同一接口。',
   'app.kuaicaiwu.costCalculation.materialCompareResult': '物料标准与实际对比结果',
-  'app.kuaicaiwu.costCalculation.compareByMaterialEmpty': '填写表单并点击对比后，将在此展示标准/实际成本与明细',
-  'app.kuaicaiwu.costCalculation.analyzeHint': '选择产品（物料）查询该产品成本构成、趋势与明细。物料来源维度的优化建议请使用「优化建议」页签。',
+  'app.kuaicaiwu.costCalculation.compareByMaterialEmpty':
+    '填写表单并点击对比后，将在此展示标准/实际成本与明细',
+  'app.kuaicaiwu.costCalculation.analyzeHint':
+    '选择产品（物料）查询该产品成本构成、趋势与明细。物料来源维度的优化建议请使用「优化建议」页签。',
   'app.kuaicaiwu.costCalculation.analyzeTab.composition': '成本构成',
   'app.kuaicaiwu.costCalculation.analyzeTab.trend': '成本趋势',
-  'app.kuaicaiwu.costCalculation.analyzeTrendHint': '最近若干次「已审核」核算记录的成本构成与单位成本（按核算日期升序）。',
+  'app.kuaicaiwu.costCalculation.analyzeTrendHint':
+    '最近若干次「已审核」核算记录的成本构成与单位成本（按核算日期升序）。',
   'app.kuaicaiwu.costCalculation.noTrendData': '暂无趋势数据',
   'app.kuaicaiwu.costCalculation.noBreakdownData': '暂无明细',
   'app.kuaicaiwu.costRule.ruleType.material': '材料成本',
@@ -12024,7 +12559,8 @@ export default {
   'app.kuaicaiwu.costRule.batchDeleteDesc': '确定删除选中的 {{count}} 条成本核算规则吗？',
   'app.kuaicaiwu.costRule.batchEnable': '批量启用',
   'app.kuaicaiwu.costRule.batchDisable': '批量禁用',
-  'app.kuaicaiwu.costRule.lifecycleHint': '规则配置类数据；上下游单据跟踪未接入时仅展示启用状态生命周期。',
+  'app.kuaicaiwu.costRule.lifecycleHint':
+    '规则配置类数据；上下游单据跟踪未接入时仅展示启用状态生命周期。',
   'app.kuaicaiwu.costRule.col.isActive': '是否启用',
   'app.kuaicaiwu.costRule.col.code': '规则编号',
   'app.kuaicaiwu.costRule.col.name': '规则名称',
@@ -12051,9 +12587,11 @@ export default {
   'app.kuaicaiwu.costRule.field.wipValuationPlaceholder': '请选择在产品核算方法',
   'app.kuaicaiwu.costRule.field.sourceModulePlaceholder': '请选择费用来源模块',
   'app.kuaicaiwu.costRule.field.calculationFormulaJson': '计算公式（JSON格式）',
-  'app.kuaicaiwu.costRule.field.calculationFormulaPlaceholder': '请输入计算公式，JSON格式，例如：{"formula": "quantity * price"}',
+  'app.kuaicaiwu.costRule.field.calculationFormulaPlaceholder':
+    '请输入计算公式，JSON格式，例如：{"formula": "quantity * price"}',
   'app.kuaicaiwu.costRule.field.ruleParametersJson': '规则参数（JSON格式）',
-  'app.kuaicaiwu.costRule.field.ruleParametersPlaceholder': '请输入规则参数，JSON格式，例如：{"rate": 0.1, "fixed_value": 100}',
+  'app.kuaicaiwu.costRule.field.ruleParametersPlaceholder':
+    '请输入规则参数，JSON格式，例如：{"rate": 0.1, "fixed_value": 100}',
   'app.kuaicaiwu.costRule.calculationMethod.byQuantity': '按数量',
   'app.kuaicaiwu.costRule.calculationMethod.byHours': '按工时',
   'app.kuaicaiwu.costRule.calculationMethod.byRatio': '按比例',
@@ -12104,7 +12642,8 @@ export default {
   'app.kuaicaiwu.productionCost.calculateFailed': '生产成本核算失败',
   'app.kuaicaiwu.productionCost.col.processingCost': '加工成本',
   'app.kuaicaiwu.productionCost.field.variantAttributes': '属性（配置件需要）',
-  'app.kuaicaiwu.productionCost.field.variantAttributesPlaceholder': '请输入属性JSON，例如：{"颜色":"红色","尺寸":"大"}',
+  'app.kuaicaiwu.productionCost.field.variantAttributesPlaceholder':
+    '请输入属性JSON，例如：{"颜色":"红色","尺寸":"大"}',
   'app.kuaicaiwu.outsourceCost.title': '委外成本核算',
   'app.kuaicaiwu.outsourceCost.calculateStandard': '核算标准委外成本',
   'app.kuaicaiwu.outsourceCost.calculateActual': '核算实际委外成本',
@@ -12150,15 +12689,19 @@ export default {
   'app.kuaicaiwu.qualityCost.field.startDatePlaceholder': '请选择开始日期（可选）',
   'app.kuaicaiwu.qualityCost.field.endDatePlaceholder': '请选择结束日期（可选）',
   'app.kuaicaiwu.qualityCost.field.materialOptional': '物料（可选）',
-  'app.kuaicaiwu.qualityCost.field.materialOptionalPlaceholder': '请选择物料（可选，用于核算特定物料的质量成本）',
+  'app.kuaicaiwu.qualityCost.field.materialOptionalPlaceholder':
+    '请选择物料（可选，用于核算特定物料的质量成本）',
   'app.kuaicaiwu.qualityCost.field.workOrderOptional': '工单（可选）',
-  'app.kuaicaiwu.qualityCost.field.workOrderOptionalPlaceholder': '可选，用于核算特定工单的质量成本',
+  'app.kuaicaiwu.qualityCost.field.workOrderOptionalPlaceholder':
+    '可选，用于核算特定工单的质量成本',
   'app.kuaicaiwu.costComparison.title': '成本对比',
   'app.kuaicaiwu.costComparison.compareButton': '对比标准成本和实际成本',
   'app.kuaicaiwu.costComparison.compareSuccess': '成本对比成功',
   'app.kuaicaiwu.costComparison.compareFailed': '成本对比失败',
-  'app.kuaicaiwu.costComparison.emptyHint': '暂无对比结果，请点击「对比标准成本和实际成本」发起对比',
-  'app.kuaicaiwu.costComparison.lifecycleHint': '本页为分析型对比结果，无单据生命周期；差异类型已在基本信息中展示。',
+  'app.kuaicaiwu.costComparison.emptyHint':
+    '暂无对比结果，请点击「对比标准成本和实际成本」发起对比',
+  'app.kuaicaiwu.costComparison.lifecycleHint':
+    '本页为分析型对比结果，无单据生命周期；差异类型已在基本信息中展示。',
   'app.kuaicaiwu.costComparison.standardVsActual': '标准成本与实际成本',
   'app.kuaicaiwu.costComparison.totalVariance': '总成本差异：¥{{amount}}',
   'app.kuaicaiwu.costComparison.totalVarianceRate': '总成本差异率：{{rate}}%',
@@ -12189,14 +12732,16 @@ export default {
   'app.kuaicaiwu.costOptimization.col.savingsRate': '节约率',
   'app.kuaicaiwu.costOptimization.estimatedSavings': '预计节约：¥{{amount}}',
   'app.kuaicaiwu.costOptimization.noSuggestions': '暂无优化建议',
-  'app.kuaicaiwu.costOptimization.noSuggestionsDesc': '当前物料的成本已经是最优的，或者无法找到更优的替代方案。',
+  'app.kuaicaiwu.costOptimization.noSuggestionsDesc':
+    '当前物料的成本已经是最优的，或者无法找到更优的替代方案。',
   'app.kuaicaiwu.costOptimization.modalSingle': '生成单个物料优化建议',
   'app.kuaicaiwu.costOptimization.modalBatch': '批量生成优化建议',
   'app.kuaicaiwu.costOptimization.field.quantityPlaceholder': '请输入数量（用于计算成本）',
   'app.kuaicaiwu.costOptimization.field.materialList': '物料列表',
   'app.kuaicaiwu.costOptimization.field.materialListPlaceholder': '请选择多个物料',
   'app.kuaicaiwu.monthlySettlement.fetchSummaryFailed': '获取生产摘要失败',
-  'app.kuaicaiwu.monthlySettlement.payrollImportHint': '已从 {{period}} 绩效已确认汇总导入（{{count}} 人，合计 ¥{{amount}}），可手工调整',
+  'app.kuaicaiwu.monthlySettlement.payrollImportHint':
+    '已从 {{period}} 绩效已确认汇总导入（{{count}} 人，合计 ¥{{amount}}），可手工调整',
   'app.kuaicaiwu.monthlySettlement.payrollImportSuccess': '已填入绩效薪资参考总额',
   'app.kuaicaiwu.monthlySettlement.payrollImportFailed': '导入失败，请确认该月绩效已确认',
   'app.kuaicaiwu.monthlySettlement.settlementSuccess': '月度成本结转成功',
@@ -12216,9 +12761,11 @@ export default {
   'app.kuaicaiwu.monthlySettlement.periodHint': '通常在次月初对上月的成本进行结转核算。',
   'app.kuaicaiwu.monthlySettlement.field.period': '核算月份',
   'app.kuaicaiwu.monthlySettlement.section.productionSummary': '{{period}} 生产数据摘要',
-  'app.kuaicaiwu.monthlySettlement.productionReviewHint': '系统已根据当期报工记录提取以下产量与总工时数据，请核对：',
+  'app.kuaicaiwu.monthlySettlement.productionReviewHint':
+    '系统已根据当期报工记录提取以下产量与总工时数据，请核对：',
   'app.kuaicaiwu.monthlySettlement.section.costEntry': '录入当期待分摊费用',
-  'app.kuaicaiwu.monthlySettlement.costEntryHint': '请输入当期发生的制造费用、人工工资等，系统将按照预设规则进行自动分摊。',
+  'app.kuaicaiwu.monthlySettlement.costEntryHint':
+    '请输入当期发生的制造费用、人工工资等，系统将按照预设规则进行自动分摊。',
   'app.kuaicaiwu.monthlySettlement.importPayroll': '从绩效导入薪资总额',
   'app.kuaicaiwu.monthlySettlement.field.payroll': '当期生产人员薪资总额',
   'app.kuaicaiwu.monthlySettlement.field.payrollPlaceholder': '请输入薪资总额',
@@ -12227,7 +12774,8 @@ export default {
   'app.kuaicaiwu.monthlySettlement.field.rent': '厂房租赁及折旧费',
   'app.kuaicaiwu.monthlySettlement.field.rentPlaceholder': '请输入租赁折旧费',
   'app.kuaicaiwu.monthlySettlement.section.preview': '预分摊结果预览',
-  'app.kuaicaiwu.monthlySettlement.previewHint': '以下是模拟分摊后的单位成本预览，确认无误后点击结转按钮生成正式记录。',
+  'app.kuaicaiwu.monthlySettlement.previewHint':
+    '以下是模拟分摊后的单位成本预览，确认无误后点击结转按钮生成正式记录。',
   'app.kuaicaiwu.monthlySettlement.section.done': '结转完成',
   'app.kuaicaiwu.monthlySettlement.doneTitle': '月度成本结转完成',
   'app.kuaicaiwu.monthlySettlement.doneSubtitle': '{{period}} 的成本核算记录已成功存入系统。',
@@ -12253,7 +12801,8 @@ export default {
   'app.kuaicaiwu.costReport.noTrendOrStructure': '当前报表未返回趋势或结构数据',
   'app.kuaicaiwu.costReport.reportGenerated': '报表生成',
   'app.kuaicaiwu.costReport.field.materialOptional': '物料（可选）',
-  'app.kuaicaiwu.costReport.field.materialOptionalPlaceholder': '请选择物料（可选，用于分析特定物料）',
+  'app.kuaicaiwu.costReport.field.materialOptionalPlaceholder':
+    '请选择物料（可选，用于分析特定物料）',
   'app.kuaicaiwu.costReport.field.sourceTypeOptional': '物料来源类型（可选）',
   'app.kuaicaiwu.costReport.field.sourceTypeOptionalPlaceholder': '请选择物料来源类型（可选）',
   'app.kuaicaiwu.costReport.field.groupBy': '分组方式',
@@ -12267,7 +12816,8 @@ export default {
   'app.kuaicaiwu.costReport.submit.comprehensive': '生成综合报表',
   'app.kuaicaiwu.costReport.submit.trend': '生成趋势分析',
   'app.kuaicaiwu.costReport.submit.structure': '生成结构分析',
-  'app.kuaicaiwu.costReport.empty.comprehensive': '填写条件后点击「生成综合报表」查看趋势与结构汇总。',
+  'app.kuaicaiwu.costReport.empty.comprehensive':
+    '填写条件后点击「生成综合报表」查看趋势与结构汇总。',
   'app.kuaicaiwu.costReport.empty.trend': '填写条件后点击「生成趋势分析」查看成本趋势。',
   'app.kuaicaiwu.costReport.empty.structure': '填写条件后点击「生成结构分析」查看成本结构。',
   'app.kuaicaiwu.receivable.import.customerName': '客户名称',
@@ -12361,7 +12911,8 @@ export default {
   'app.kuaizhizao.initialData.idempotencyTitle': '重复导入风险',
   'app.kuaizhizao.initialData.idempotencyBody':
     '每次校验通过的导入将生成独立期初入库单；重复导入将导致库存重复入账。异常需在仓储模块处理或联系管理员。',
-  'app.kuaizhizao.initialData.nextHintNeedInventory': '须完成期初库存导入且全部数据行校验通过后，方可进入下一步。',
+  'app.kuaizhizao.initialData.nextHintNeedInventory':
+    '须完成期初库存导入且全部数据行校验通过后，方可进入下一步。',
   'app.kuaizhizao.initialData.nextHintNeedWip': '请先完成在制品导入，或执行「跳过本步骤」。',
   'app.kuaizhizao.initialData.nextHintNeedAr': '请先完成应收应付导入，或执行「跳过本步骤」。',
   'app.kuaizhizao.initialData.openSheet': '打开导入表格',
@@ -12374,7 +12925,8 @@ export default {
   'app.kuaizhizao.initialData.skipWipBody':
     '请确认当前无可导入的在制品数据，或将于后续在工单模块补录。跳过后仍可返回本向导执行导入。',
   'app.kuaizhizao.initialData.skipArTitle': '确认跳过应收应付导入',
-  'app.kuaizhizao.initialData.skipArBody': '若无期初应收应付数据，或将于财务模块另行处理，可跳过本步骤。',
+  'app.kuaizhizao.initialData.skipArBody':
+    '若无期初应收应付数据，或将于财务模块另行处理，可跳过本步骤。',
   'app.kuaizhizao.initialData.skipConfirm': '确认跳过',
   'app.kuaizhizao.initialData.skippedWip': '已标记跳过在制品导入',
   'app.kuaizhizao.initialData.skippedAr': '已标记跳过应收应付导入',
@@ -12385,7 +12937,8 @@ export default {
   'app.kuaizhizao.initialData.arImported': '期初应收应付导入已完成。',
   'app.kuaizhizao.initialData.arSkippedBanner': '当前步骤已跳过，可继续后续流程。',
   'app.kuaizhizao.initialData.finishTitle': '期初数据导入已完成',
-  'app.kuaizhizao.initialData.finishBody': '建议在完成与财务数据核对后，于上线助手中标记「期初数据已核对」。',
+  'app.kuaizhizao.initialData.finishBody':
+    '建议在完成与财务数据核对后，于上线助手中标记「期初数据已核对」。',
   'app.kuaizhizao.initialData.finishHint':
     '存在失败数据行时可修正后重新导入。请注意：每次完整成功的库存导入均生成新的期初入库单，应避免重复执行。',
   'app.kuaizhizao.initialData.prev': '上一步',
@@ -12396,7 +12949,8 @@ export default {
   'app.kuaizhizao.initialData.importInvOk': '期初库存导入成功，共 {{n}} 条',
   'app.kuaizhizao.initialData.importWipOk': '期初在制品导入成功，共 {{n}} 条',
   'app.kuaizhizao.initialData.importArOk': '期初应收应付导入成功，共 {{n}} 条',
-  'app.kuaizhizao.initialData.importPartial': '部分失败：成功 {{ok}} 条，失败 {{bad}} 条，请查看错误明细。',
+  'app.kuaizhizao.initialData.importPartial':
+    '部分失败：成功 {{ok}} 条，失败 {{bad}} 条，请查看错误明细。',
   'app.kuaizhizao.initialData.importFailed': '导入失败',
   'app.kuaizhizao.initialData.errorDrawerTitle': '错误明细',
   'app.kuaizhizao.initialData.copyErrors': '复制错误',
@@ -12500,7 +13054,8 @@ export default {
   'app.master-data.seqRules.getDetailFailed': '获取详情失败',
   'app.master-data.seqRules.deleteConfirm': '确定删除此规则？',
   'app.master-data.seqRules.batchRuleSetActiveSuccess': '已将 {{count}} 条批号规则设为{{status}}',
-  'app.master-data.seqRules.serialRuleSetActiveSuccess': '已将 {{count}} 条序列号规则设为{{status}}',
+  'app.master-data.seqRules.serialRuleSetActiveSuccess':
+    '已将 {{count}} 条序列号规则设为{{status}}',
   'app.master-data.batchRules.builderTitle': '批号规则',
   'app.master-data.serialRules.builderTitle': '序列号规则',
   'app.master-data.inventoryStatus.inStock': '在库',
@@ -12596,7 +13151,8 @@ export default {
   'app.master-data.drawings.stepBomWizard.notStepFile': '主文件不是 STP/STEP 格式',
   'app.master-data.drawings.stepBomWizard.noAssemblyStructure': '未能解析出装配树结构',
   'app.master-data.drawings.stepBomWizard.parseFailed': 'STP 装配解析失败',
-  'app.master-data.drawings.stepBomWizard.parseSummary': '根装配「{{name}}」，共 {{count}} 条 BOM 边',
+  'app.master-data.drawings.stepBomWizard.parseSummary':
+    '根装配「{{name}}」，共 {{count}} 条 BOM 边',
   'app.master-data.drawings.stepBomWizard.assemblyTree': '装配树',
   'app.master-data.drawings.stepBomWizard.rootMaterial': '根物料',
   'app.master-data.drawings.stepBomWizard.selectRootMaterial': '选择根物料（对应装配顶层）',
@@ -12621,7 +13177,8 @@ export default {
   'app.master-data.drawings.stepBomWizard.importFailed': 'BOM 导入失败',
   'app.master-data.drawings.stepBomWizard.openDesigner': '打开 BOM 设计器',
   'app.master-data.drawings.stepBomWizard.resultTitle': '导入完成',
-  'app.master-data.drawings.stepBomWizard.resultSummary': '写入 {{bom}} 条 BOM 行，新建 {{created}} 个物料，匹配 {{matched}} 个物料',
+  'app.master-data.drawings.stepBomWizard.resultSummary':
+    '写入 {{bom}} 条 BOM 行，新建 {{created}} 个物料，匹配 {{matched}} 个物料',
   'app.master-data.menu.supply-chain': '客户供应商',
   'app.master-data.menu.supply-chain.customers': '客户',
   'app.master-data.menu.supply-chain.suppliers': '供应商',
@@ -12634,15 +13191,18 @@ export default {
   'app.master-data.priceBook.noAliasHint': '未维护伙伴料号/品名，请先在物料主数据的编号映射中维护',
   'app.master-data.priceBook.aliasReadonlyHint': '已在物料主数据维护，此处只读',
   'app.master-data.priceBook.syncPartnerAlias': '同步到物料编号映射',
-  'app.master-data.priceBook.syncPartnerAliasHint': '保存价格本时写入物料「编号映射」，仅在该客户/供应商尚无映射时生效',
+  'app.master-data.priceBook.syncPartnerAliasHint':
+    '保存价格本时写入物料「编号映射」，仅在该客户/供应商尚无映射时生效',
   'app.master-data.priceBook.partnerCodeRequiredWhenSync': '开启同步时请填写伙伴料号',
   'app.master-data.priceBook.standardUnitPrice': '标准价',
   'app.master-data.priceBook.standardUnitPriceHint': '统一价；未匹配到属性 SKU 时使用',
-  'app.master-data.priceBook.standardUnitPriceTypeHint': '标准价与下方 SKU 单价共用价类；切换时按税率换算',
+  'app.master-data.priceBook.standardUnitPriceTypeHint':
+    '标准价与下方 SKU 单价共用价类；切换时按税率换算',
   'app.master-data.priceBook.variantPricesInclHint': 'SKU 单价与标准价同为含税价',
   'app.master-data.priceBook.variantPricesExclHint': 'SKU 单价与标准价同为不含税价',
   'app.master-data.priceBook.variantPricesSection': '属性 SKU 单价',
-  'app.master-data.priceBook.variantPricesHint': '按属性组合定价（如颜色、规格等）；可对应 Excel 中「黑色/灰色/配色」列',
+  'app.master-data.priceBook.variantPricesHint':
+    '按属性组合定价（如颜色、规格等）；可对应 Excel 中「黑色/灰色/配色」列',
   'app.master-data.priceBook.variantPriceRow': 'SKU 单价 {{index}}',
   'app.master-data.priceBook.variantUnitPrice': 'SKU 单价',
   'app.master-data.priceBook.addVariantPriceRow': '添加明细',
@@ -12653,7 +13213,8 @@ export default {
   'app.master-data.priceBook.batchSelectSkuNone': '请至少选择一条 SKU',
   'app.master-data.priceBook.batchSelectSkuAdded': '已添加 {{count}} 条 SKU',
   'app.master-data.priceBook.batchSelectSkuAllDuplicate': '所选 SKU 均已存在或未维护属性',
-  'app.master-data.priceBook.batchSelectSkuHint': '从物料已维护的属性组合中批量勾选，再填写各 SKU 单价',
+  'app.master-data.priceBook.batchSelectSkuHint':
+    '从物料已维护的属性组合中批量勾选，再填写各 SKU 单价',
   'app.master-data.priceBook.selectMaterialFirst': '请先选择内部物料',
   'app.master-data.priceBook.variantPricesEmpty': '请添加明细或多选 SKU',
   'app.master-data.priceBook.skuCode': 'SKU 编码',
@@ -12675,7 +13236,8 @@ export default {
   'app.master-data.productionLines.codeRequired': '产线编号不能为空',
   'app.master-data.productionLines.nameRequired': '产线名称不能为空',
   'app.master-data.productionLines.workshopRequired': '所属车间不能为空',
-  'app.master-data.productionLines.workshopCodeNotExist': '车间编号 "{{value}}" 不存在，请检查车间编号是否正确',
+  'app.master-data.productionLines.workshopCodeNotExist':
+    '车间编号 "{{value}}" 不存在，请检查车间编号是否正确',
   'app.master-data.productionLines.dataParseFailed': '数据解析失败',
   'app.master-data.productionLines.workshopName': '所属车间',
   'app.master-data.productionLines.description': '备注',
@@ -12684,7 +13246,8 @@ export default {
   'app.master-data.productionLines.deleteConfirm': '确定要删除这个产线吗？',
   'app.master-data.productionLines.deleteDescription': '删除产线前需要检查是否有关联的工位',
   'app.master-data.productionLines.batchDeleteTitle': '确定要批量删除选中的产线吗？',
-  'app.master-data.productionLines.batchDeleteDescription': '将删除 {{count}} 个产线，删除后无法恢复，请谨慎操作。',
+  'app.master-data.productionLines.batchDeleteDescription':
+    '将删除 {{count}} 个产线，删除后无法恢复，请谨慎操作。',
   'app.master-data.productionLines.create': '新建产线',
   'app.master-data.productionLines.exportFilenameSelected': '产线数据_选中_{{date}}',
   'app.master-data.productionLines.exportFilenameCurrentPage': '产线数据_当前页_{{date}}',
@@ -12698,7 +13261,8 @@ export default {
   'app.master-data.workstations.codeRequired': '工位编号不能为空',
   'app.master-data.workstations.nameRequired': '工位名称不能为空',
   'app.master-data.workstations.productionLineRequired': '所属产线不能为空',
-  'app.master-data.workstations.productionLineCodeNotExist': '产线编号 "{{value}}" 不存在，请检查产线编号是否正确',
+  'app.master-data.workstations.productionLineCodeNotExist':
+    '产线编号 "{{value}}" 不存在，请检查产线编号是否正确',
   'app.master-data.workstations.dataParseFailed': '数据解析失败',
   'app.master-data.workstations.productionLineName': '所属产线',
   'app.master-data.workstations.description': '备注',
@@ -12707,7 +13271,8 @@ export default {
   'app.master-data.workstations.deleteConfirm': '确定要删除这个工位吗？',
   'app.master-data.workstations.deleteDescription': '删除工位前需要检查是否有关联的工作中心',
   'app.master-data.workstations.batchDeleteTitle': '确定要批量删除选中的工位吗？',
-  'app.master-data.workstations.batchDeleteDescription': '将删除 {{count}} 个工位，删除后无法恢复，请谨慎操作。',
+  'app.master-data.workstations.batchDeleteDescription':
+    '将删除 {{count}} 个工位，删除后无法恢复，请谨慎操作。',
   'app.master-data.workstations.create': '新建工位',
   'app.master-data.workstations.exportFilenameSelected': '工位数据_选中_{{date}}',
   'app.master-data.workstations.exportFilenameCurrentPage': '工位数据_当前页_{{date}}',
@@ -12734,7 +13299,8 @@ export default {
   'app.master-data.warehouses.deleteConfirm': '确定要删除这个仓库吗？',
   'app.master-data.warehouses.deleteDescription': '删除仓库前需要检查是否有关联的库区',
   'app.master-data.warehouses.batchDeleteTitle': '确定要批量删除选中的仓库吗？',
-  'app.master-data.warehouses.batchDeleteDescription': '将删除 {{count}} 个仓库，删除后无法恢复，请谨慎操作。',
+  'app.master-data.warehouses.batchDeleteDescription':
+    '将删除 {{count}} 个仓库，删除后无法恢复，请谨慎操作。',
   'app.master-data.warehouses.create': '新建仓库',
   'app.master-data.warehouses.exportFilenameSelected': '仓库数据_选中_{{date}}',
   'app.master-data.warehouses.exportFilenameCurrentPage': '仓库数据_当前页_{{date}}',
@@ -12748,7 +13314,8 @@ export default {
   'app.master-data.warehouses.headerMapError': '表头映射错误，无法找到必需字段',
   'app.master-data.warehouses.codeRequired': '仓库编号不能为空',
   'app.master-data.warehouses.nameRequired': '仓库名称不能为空',
-  'app.master-data.warehouses.workshopCodeNotExist': '车间编号 "{{value}}" 不存在，请检查车间编号是否正确',
+  'app.master-data.warehouses.workshopCodeNotExist':
+    '车间编号 "{{value}}" 不存在，请检查车间编号是否正确',
   'app.master-data.warehouses.dataParseFailed': '数据解析失败',
   'app.master-data.storageAreas.code': '库区编号',
   'app.master-data.storageAreas.name': '库区名称',
@@ -12757,7 +13324,8 @@ export default {
   'app.master-data.storageAreas.deleteConfirm': '确定要删除这个库区吗？',
   'app.master-data.storageAreas.deleteDescription': '删除库区前需要检查是否有关联的库位',
   'app.master-data.storageAreas.batchDeleteTitle': '确定要批量删除选中的库区吗？',
-  'app.master-data.storageAreas.batchDeleteDescription': '将删除 {{count}} 个库区，删除后无法恢复，请谨慎操作。',
+  'app.master-data.storageAreas.batchDeleteDescription':
+    '将删除 {{count}} 个库区，删除后无法恢复，请谨慎操作。',
   'app.master-data.storageAreas.create': '新建库区',
   'app.master-data.storageAreas.exportFilenameSelected': '库区数据_选中_{{date}}',
   'app.master-data.storageAreas.exportFilenameCurrentPage': '库区数据_当前页_{{date}}',
@@ -12765,7 +13333,8 @@ export default {
   'app.master-data.storageAreas.importTitle': '正在导入库区数据',
   'app.master-data.storageAreas.codeRequired': '库区编号不能为空',
   'app.master-data.storageAreas.nameRequired': '库区名称不能为空',
-  'app.master-data.storageAreas.warehouseCodeNotExist': '仓库编号 "{{value}}" 不存在，请检查仓库编号是否正确',
+  'app.master-data.storageAreas.warehouseCodeNotExist':
+    '仓库编号 "{{value}}" 不存在，请检查仓库编号是否正确',
   'app.master-data.storageAreas.warehouseRequired': '所属仓库不能为空',
   'app.master-data.storageAreas.warehouseIdPrefix': '仓库ID',
   'app.master-data.storageAreas.availableWarehouseList': '当前可用的仓库列表：',
@@ -12776,7 +13345,8 @@ export default {
   'app.master-data.storageLocations.detailTitle': '库位详情',
   'app.master-data.storageLocations.deleteConfirm': '确定要删除这个库位吗？',
   'app.master-data.storageLocations.batchDeleteTitle': '确定要批量删除选中的库位吗？',
-  'app.master-data.storageLocations.batchDeleteDescription': '将删除 {{count}} 个库位，删除后无法恢复，请谨慎操作。',
+  'app.master-data.storageLocations.batchDeleteDescription':
+    '将删除 {{count}} 个库位，删除后无法恢复，请谨慎操作。',
   'app.master-data.storageLocations.create': '新建库位',
   'app.master-data.storageLocations.batchCreate': '批量建位',
   'app.master-data.storageLocations.exportFilenameSelected': '库位数据_选中_{{date}}',
@@ -12785,11 +13355,13 @@ export default {
   'app.master-data.storageLocations.importTitle': '正在导入库位数据',
   'app.master-data.storageLocations.codeRequired': '库位编号不能为空',
   'app.master-data.storageLocations.nameRequired': '库位名称不能为空',
-  'app.master-data.storageLocations.storageAreaCodeNotExist': '库区编号 "{{value}}" 不存在，请检查库区编号是否正确',
+  'app.master-data.storageLocations.storageAreaCodeNotExist':
+    '库区编号 "{{value}}" 不存在，请检查库区编号是否正确',
   'app.master-data.storageLocations.storageAreaRequired': '所属库区不能为空',
   'app.master-data.storageLocations.storageAreaIdPrefix': '库区ID',
   'app.master-data.storageLocations.availableStorageAreaList': '当前可用的库区列表：',
-  'app.master-data.storageLocations.importTip': '提示：所属库区列仅支持填写库区编号（如：{{code}}）',
+  'app.master-data.storageLocations.importTip':
+    '提示：所属库区列仅支持填写库区编号（如：{{code}}）',
   'app.master-data.customers.getDetailFailed': '获取客户详情失败',
   'app.master-data.customers.detailTitle': '客户详情',
   'app.master-data.customers.deleteConfirm': '确定要删除这个客户吗？',
@@ -12857,7 +13429,8 @@ export default {
   'app.master-data.plants.deleteConfirm': '确定要删除这个厂区吗？',
   'app.master-data.plants.deleteDescription': '删除后无法恢复，请谨慎操作。',
   'app.master-data.plants.batchDeleteTitle': '确定要批量删除选中的厂区吗？',
-  'app.master-data.plants.batchDeleteDescription': '将删除 {{count}} 个厂区，删除后无法恢复，请谨慎操作。',
+  'app.master-data.plants.batchDeleteDescription':
+    '将删除 {{count}} 个厂区，删除后无法恢复，请谨慎操作。',
   'app.master-data.plants.create': '新建厂区',
   'app.master-data.plants.batchDelete': '批量删除',
   'app.master-data.plants.exportFilenameSelected': '厂区数据_选中_{{date}}',
@@ -12953,7 +13526,8 @@ export default {
   'app.master-data.workCenters.deleteConfirm': '确定要删除这个工作中心吗？',
   'app.master-data.workCenters.deleteDescription': '删除后无法恢复，请谨慎操作。',
   'app.master-data.workCenters.batchDeleteConfirm': '确定要批量删除选中的工作中心吗？',
-  'app.master-data.workCenters.batchDeleteDescription': '将删除 {{count}} 个工作中心，删除后无法恢复，请谨慎操作。',
+  'app.master-data.workCenters.batchDeleteDescription':
+    '将删除 {{count}} 个工作中心，删除后无法恢复，请谨慎操作。',
   'app.master-data.workCenters.exportFilenameSelected': '工作中心数据_选中_{{date}}',
   'app.master-data.workCenters.exportFilenameCurrentPage': '工作中心数据_当前页_{{date}}',
   'app.master-data.workCenters.exportFilenameAll': '工作中心数据_全部_{{date}}',
@@ -12963,7 +13537,8 @@ export default {
   'app.master-data.workGroups.deleteConfirm': '确定要删除这个工作小组吗？',
   'app.master-data.workGroups.deleteDescription': '删除后无法恢复，请谨慎操作。',
   'app.master-data.workGroups.batchDeleteConfirm': '确定要批量删除选中的工作小组吗？',
-  'app.master-data.workGroups.batchDeleteDescription': '将删除 {{count}} 个工作小组，删除后无法恢复，请谨慎操作。',
+  'app.master-data.workGroups.batchDeleteDescription':
+    '将删除 {{count}} 个工作小组，删除后无法恢复，请谨慎操作。',
   'app.master-data.workGroups.importSuccess': '成功导入 {{count}} 条工作小组数据',
   'app.master-data.workGroups.importTitle': '正在导入工作小组数据',
   'app.master-data.workGroups.exportFilenameSelected': '工作小组数据_选中_{{date}}',
@@ -12983,12 +13558,14 @@ export default {
   'app.master-data.workshops.deleteConfirm': '确定要删除这个车间吗？',
   'app.master-data.workshops.deleteDescription': '删除车间前需要检查是否有关联的产线',
   'app.master-data.workshops.batchDeleteTitle': '确定要批量删除选中的车间吗？',
-  'app.master-data.workshops.batchDeleteDescription': '将删除 {{count}} 个车间，删除后无法恢复，请谨慎操作。',
+  'app.master-data.workshops.batchDeleteDescription':
+    '将删除 {{count}} 个车间，删除后无法恢复，请谨慎操作。',
   'app.master-data.workshops.create': '新建车间',
   'app.master-data.workshops.exportFilenameSelected': '车间数据_选中_{{date}}',
   'app.master-data.workshops.exportFilenameCurrentPage': '车间数据_当前页_{{date}}',
   'app.master-data.workshops.exportFilenameAll': '车间数据_全部_{{date}}',
-  'app.master-data.workshops.importNoPlant': '当前没有可用的厂区数据，请先创建厂区后再导入车间数据。',
+  'app.master-data.workshops.importNoPlant':
+    '当前没有可用的厂区数据，请先创建厂区后再导入车间数据。',
   'app.master-data.workshops.statusLabel': '启用状态',
   'app.master-data.workshops.listFetchFailed': '获取车间列表失败',
   'app.master-data.headerMappingError': '表头映射错误，无法找到必需字段',
@@ -13015,7 +13592,8 @@ export default {
   'app.master-data.variantAttributes.enumValuesRequired': '枚举类型必须提供至少一个枚举值',
   'app.master-data.variantAttributes.loadPreset': '加载预设',
   'app.master-data.variantAttributes.loadPresetModalTitle': '加载预设',
-  'app.master-data.variantAttributes.loadPresetModalDesc': '勾选需要加载的预设属性，去掉不需要的项后点击确认。',
+  'app.master-data.variantAttributes.loadPresetModalDesc':
+    '勾选需要加载的预设属性，去掉不需要的项后点击确认。',
   'app.master-data.presetModalDesc': '勾选需要加载的项，去掉不需要的项后点击确认。',
   'app.master-data.variantAttributes.presetColName': '属性名称',
   'app.master-data.variantAttributes.presetColDisplayName': '显示名称',
@@ -13040,16 +13618,19 @@ export default {
   'app.master-data.variantAttributes.typeBoolean': '布尔',
   'app.master-data.variantAttributes.listFailed': '加载属性定义失败',
   'app.master-data.variantAttributes.attributeNameRequired': '请输入属性名称',
-  'app.master-data.variantAttributes.attributeNamePattern': '属性名称只能包含字母、数字、下划线和中文',
+  'app.master-data.variantAttributes.attributeNamePattern':
+    '属性名称只能包含字母、数字、下划线和中文',
   'app.master-data.variantAttributes.attributeNamePlaceholder': '请输入属性名称（如：颜色、尺寸）',
   'app.master-data.variantAttributes.attributeTypeRequired': '请选择属性类型',
   'app.master-data.variantAttributes.attributeTypePlaceholder': '请选择属性类型',
   'app.master-data.variantAttributes.displayNameRequired': '请输入显示名称',
   'app.master-data.variantAttributes.displayNamePlaceholder': '请输入显示名称（如：产品颜色）',
-  'app.master-data.variantAttributes.enumValuesPlaceholder': '请输入枚举值，多个值用逗号分隔（如：红色,蓝色,绿色）',
+  'app.master-data.variantAttributes.enumValuesPlaceholder':
+    '请输入枚举值，多个值用逗号分隔（如：红色,蓝色,绿色）',
   'app.master-data.variantAttributes.enumValuesInputRequired': '请输入枚举值',
   'app.master-data.variantAttributes.enumValuesExtra': '多个值用逗号分隔，中英文逗号均可',
-  'app.master-data.variantAttributes.allowMultipleExtra': '物料启用属性管理时，该属性是否支持选择多个枚举值',
+  'app.master-data.variantAttributes.allowMultipleExtra':
+    '物料启用属性管理时，该属性是否支持选择多个枚举值',
   'app.master-data.variantAttributes.descriptionPlaceholder': '请输入备注',
   'app.master-data.variantAttributes.isActiveLabel': '是否启用',
   'app.master-data.sop.getDetailFailed': '获取SOP详情失败',
@@ -13079,19 +13660,23 @@ export default {
   'app.master-data.batches.createTitle': '新建批号',
   'app.master-data.batches.editTitle': '编辑批号',
   'app.master-data.operations.codeRequired': '工序编号不能为空',
-  'app.master-data.codeRulePreviewHint': '未获取到编号预览，请检查「编号规则」中是否已为当前组织配置并启用对应规则；也可直接手动输入编号。',
-  'app.master-data.codeRuleAutoFailed': '自动编号获取失败，请手动输入编号，或在「编号规则」中配置后重试。',
+  'app.master-data.codeRulePreviewHint':
+    '未获取到编号预览，请检查「编号规则」中是否已为当前组织配置并启用对应规则；也可直接手动输入编号。',
+  'app.master-data.codeRuleAutoFailed':
+    '自动编号获取失败，请手动输入编号，或在「编号规则」中配置后重试。',
   'app.master-data.customFields': '自定义字段',
   'app.master-data.operationsConfigured': '已配置 {{count}} 个工序',
   'app.master-data.importEmpty': '导入数据为空',
-  'app.master-data.importNoRows': '没有可导入的数据行（请从第3行开始填写数据，并确保至少有一行非空数据）',
+  'app.master-data.importNoRows':
+    '没有可导入的数据行（请从第3行开始填写数据，并确保至少有一行非空数据）',
   'app.master-data.importAllEmpty': '没有可导入的数据行（所有行都为空）',
   'app.master-data.getSelectedFailed': '无法获取选中数据，请重试',
   'app.master-data.noExportData': '没有可导出的数据',
   'app.master-data.exportSuccess': '导出成功',
   'app.master-data.importDisabled': '无法导入',
   'app.master-data.importNoWorkshop': '当前没有可用的车间数据，请先创建车间后再导入产线数据。',
-  'app.master-data.importNoProductionLine': '当前没有可用的产线数据，请先创建产线后再导入工位数据。',
+  'app.master-data.importNoProductionLine':
+    '当前没有可用的产线数据，请先创建产线后再导入工位数据。',
   'app.master-data.importNoWarehouse': '当前没有可用的仓库数据，请先创建仓库后再导入库区数据。',
   'app.master-data.importNoStorageArea': '当前没有可用的库区数据，请先创建库区后再导入库位数据。',
   'app.master-data.importMissingField': '缺少必需字段：{{field}}。当前表头：{{headers}}',
@@ -13114,7 +13699,8 @@ export default {
   'app.master-data.importPartialResultTitle': '导入完成（部分失败）',
   'app.master-data.importPartialResultIntro': '导入结果：成功 {{success}} 条，失败 {{failure}} 条',
   'app.master-data.rowError': '第 {{row}} 行：{{message}}',
-  'app.master-data.operations.confirmBatchDeleteContent': '确定要删除选中的 {{count}} 条记录吗？删除工序前需要检查是否有关联的工艺路线或SOP。此操作不可恢复。',
+  'app.master-data.operations.confirmBatchDeleteContent':
+    '确定要删除选中的 {{count}} 条记录吗？删除工序前需要检查是否有关联的工艺路线或SOP。此操作不可恢复。',
   'app.master-data.operations.deleteConfirmDesc': '删除工序前需要检查是否有关联的工艺路线或SOP',
   'app.master-data.operations.selectForQRCode': '请先选择要生成二维码的工序',
   'app.master-data.operations.getSelectedFailed': '无法获取选中的工序数据',
@@ -13134,7 +13720,8 @@ export default {
   'app.master-data.defectTypes.name': '不良品名称',
   'app.master-data.defectTypes.codeRequired': '不良品编号不能为空',
   'app.master-data.defectTypes.nameRequired': '不良品名称不能为空',
-  'app.master-data.defectTypes.codeRequiredAuto': '不良品编号不能为空（未启用自动编号时请填写编号列）',
+  'app.master-data.defectTypes.codeRequiredAuto':
+    '不良品编号不能为空（未启用自动编号时请填写编号列）',
   'app.master-data.defectTypes.importSuccess': '成功导入 {{count}} 条不良品数据',
   'app.master-data.defectTypes.importTitle': '正在导入不良品数据',
   'app.master-data.defectTypes.status': '启用状态',
@@ -13159,8 +13746,10 @@ export default {
   'app.master-data.sop.nodeAttachmentLabel': '节点附件',
   'app.master-data.sop.addNodeAttachment': '添加附件',
   'app.master-data.sop.nodeAttachmentDropHint': '可拖拽文件到此区域上传，或点击添加附件',
-  'app.master-data.sop.nodeAttachmentHint': '支持：图片、PDF、DWG、DXF、STEP/STP、XLS/XLSX、MP4/MOV/AVI',
-  'app.master-data.sop.nodeAttachmentTypeInvalid': '仅支持图片/PDF/DWG/DXF/STEP/STP/XLS/XLSX/MP4/MOV/AVI 文件',
+  'app.master-data.sop.nodeAttachmentHint':
+    '支持：图片、PDF、DWG、DXF、STEP/STP、XLS/XLSX、MP4/MOV/AVI',
+  'app.master-data.sop.nodeAttachmentTypeInvalid':
+    '仅支持图片/PDF/DWG/DXF/STEP/STP/XLS/XLSX/MP4/MOV/AVI 文件',
   'app.master-data.sop.attachmentUploadFailed': '附件上传失败',
   'app.master-data.sop.missingUuid': '缺少SOP UUID参数',
   'app.master-data.sop.loadFailed': '加载SOP数据失败',
@@ -13207,10 +13796,12 @@ export default {
   'app.master-data.sop.nodeDescLabel': '工步描述',
   'app.master-data.sop.nodeDescPlaceholder': '请输入工步描述',
   'app.master-data.sop.nodeKeyPointsLabel': '工步要点',
-  'app.master-data.sop.nodeKeyPointsPlaceholder': '请输入工步要点（如关键参数、注意事项、检验要点）',
+  'app.master-data.sop.nodeKeyPointsPlaceholder':
+    '请输入工步要点（如关键参数、注意事项、检验要点）',
   'app.master-data.sop.formSchemaTitle': '报工数据采集项',
   'app.master-data.sop.formConfigTitle': '信息收集配置',
-  'app.master-data.sop.formConfigHint': '为当前节点配置收集字段，这些字段将在执行该步骤时显示给用户填写',
+  'app.master-data.sop.formConfigHint':
+    '为当前节点配置收集字段，这些字段将在执行该步骤时显示给用户填写',
   'app.master-data.sop.detailTitle': 'SOP详情',
   'app.master-data.sop.listFailed': '获取SOP列表失败',
   'app.master-data.sop.importTitle': '正在导入SOP',
@@ -13292,7 +13883,8 @@ export default {
     '已选 {{count}} 个物料：将生成约 {{preview}} 条 SOP（每个物料 × 每道工序各一条），编号格式为「路线编码-工序编码-M-主编码」，名称中带物料名与主编码。',
   'app.master-data.sop.batchRulesGroupDesc':
     '已选 {{count}} 个物料组：将生成约 {{preview}} 条 SOP（每组 × 每道工序各一条），编号含「G-物料组编码」，名称中带组名与编码。',
-  'app.master-data.sop.batchConfirmHint': '将按以下 {{count}} 个工序批量创建 SOP 草稿，再逐条进入设计器完善流程。',
+  'app.master-data.sop.batchConfirmHint':
+    '将按以下 {{count}} 个工序批量创建 SOP 草稿，再逐条进入设计器完善流程。',
   'app.master-data.sop.createSopsForOps': '为工序创建 SOP',
   'app.master-data.sop.batchCreatedHint':
     '已创建 {{count}} 个 SOP 草稿。建议逐条进入「编辑」完善基本信息、作业指导与报工采集。',
@@ -13338,10 +13930,14 @@ export default {
   'app.master-data.materials.batchTrackingCardBatch': '批号追踪',
   'app.master-data.materials.batchTrackingCardSerial': '序列号追踪',
   'app.master-data.materials.batchTrackingIncludeDimension': '包含此项',
-  'app.master-data.materials.batchTrackingDisableBatchHint': '关闭后将停用批号管理并清空默认批号规则。',
-  'app.master-data.materials.batchTrackingDisableSerialHint': '关闭后将停用序列号管理并清空默认序列号规则。',
-  'app.master-data.materials.batchTrackingNoCustomRulesBatch': '暂无自定义批号规则，下拉仅「系统默认」。',
-  'app.master-data.materials.batchTrackingNoCustomRulesSerial': '暂无自定义序列号规则，下拉仅「系统默认」。',
+  'app.master-data.materials.batchTrackingDisableBatchHint':
+    '关闭后将停用批号管理并清空默认批号规则。',
+  'app.master-data.materials.batchTrackingDisableSerialHint':
+    '关闭后将停用序列号管理并清空默认序列号规则。',
+  'app.master-data.materials.batchTrackingNoCustomRulesBatch':
+    '暂无自定义批号规则，下拉仅「系统默认」。',
+  'app.master-data.materials.batchTrackingNoCustomRulesSerial':
+    '暂无自定义序列号规则，下拉仅「系统默认」。',
   'app.master-data.materials.batchTrackingMode': '操作',
   'app.master-data.materials.batchTrackingEnable': '批量开启',
   'app.master-data.materials.batchTrackingDisable': '批量关闭',
@@ -13349,10 +13945,12 @@ export default {
   'app.master-data.materials.batchTrackingApplySerial': '序列号管理',
   'app.master-data.materials.batchTrackingDefaultBatchRule': '默认批号规则',
   'app.master-data.materials.batchTrackingDefaultSerialRule': '默认序列号规则',
-  'app.master-data.materials.batchTrackingPickOneDimension': '请至少勾选「批号管理」或「序列号管理」中的一项',
+  'app.master-data.materials.batchTrackingPickOneDimension':
+    '请至少勾选「批号管理」或「序列号管理」中的一项',
   'app.master-data.materials.selectForBatchSerial': '请先选择要批量设置的物料',
   'app.master-data.materials.batchTrackingLoadRulesFailed': '加载批号/序列号规则列表失败',
-  'app.master-data.materials.batchTrackingNotFound': '有 {{count}} 个物料未找到（可能已删除），其余已更新',
+  'app.master-data.materials.batchTrackingNotFound':
+    '有 {{count}} 个物料未找到（可能已删除），其余已更新',
   'app.master-data.materials.batchTrackingAllMissing': '所选物料均未找到，未作任何更新',
   'app.master-data.materials.batchTrackingSuccess': '已更新 {{count}} 条物料',
   'app.master-data.materials.batchTrackingNoop': '没有可更新的物料',
@@ -13385,7 +13983,8 @@ export default {
   'app.master-data.materials.batchSourceTypeFailed': '批量修改物料来源类型失败',
   'app.master-data.materials.batchDefaults': '批量默认值',
   'app.master-data.materials.batchDefaultsTitle': '批量设置默认值',
-  'app.master-data.materials.batchDefaultsHint': '将合并更新选中的 {{count}} 条物料的默认值（未勾选的项目不会改动）',
+  'app.master-data.materials.batchDefaultsHint':
+    '将合并更新选中的 {{count}} 条物料的默认值（未勾选的项目不会改动）',
   'app.master-data.materials.batchDefaultsPickOne': '请至少勾选并填写一项要批量更新的默认值',
   'app.master-data.materials.batchDefaultsSuccess': '已更新 {{count}} 条物料的默认值',
   'app.master-data.materials.batchDefaultsNotFound': '有 {{count}} 个物料未找到，其余已更新',
@@ -13397,12 +13996,15 @@ export default {
   'app.master-data.materials.batchDefaultsClearWarehouse': '清除默认仓库（不选仓库即清空）',
   'app.master-data.materials.batchVariantToolbar': '批量属性管理',
   'app.master-data.materials.batchVariantTitle': '批量属性管理',
-  'app.master-data.materials.batchVariantHint': '将选中的 {{count}} 条物料批量开启或关闭属性管理；具体组合请在各物料「属性管理」页手工维护',
+  'app.master-data.materials.batchVariantHint':
+    '将选中的 {{count}} 条物料批量开启或关闭属性管理；具体组合请在各物料「属性管理」页手工维护',
   'app.master-data.materials.batchVariantMode': '操作类型',
   'app.master-data.materials.batchVariantEnable': '开启属性管理',
   'app.master-data.materials.batchVariantDisable': '关闭属性管理',
-  'app.master-data.materials.batchVariantEnableHint': '仅开启属性管理开关；属性组合请在物料编辑页的「属性管理」中逐条维护',
-  'app.master-data.materials.batchVariantDisableHint': '关闭后将清空该物料上的属性值（不含已生成的属性 SKU 子行，需单独处理）',
+  'app.master-data.materials.batchVariantEnableHint':
+    '仅开启属性管理开关；属性组合请在物料编辑页的「属性管理」中逐条维护',
+  'app.master-data.materials.batchVariantDisableHint':
+    '关闭后将清空该物料上的属性值（不含已生成的属性 SKU 子行，需单独处理）',
   'app.master-data.materials.batchVariantSuccess': '已更新 {{count}} 条物料',
   'app.master-data.materials.batchVariantNotFound': '有 {{count}} 个物料未找到，其余已更新',
   'app.master-data.materials.batchVariantFailed': '批量属性管理失败',
@@ -13474,7 +14076,8 @@ export default {
     '将按各物料所属末级分组的「分组编号」及物料编码规则，为选中的 {{count}} 条物料重新生成主编码。同一主编码下的属性变体将一并更新。',
   'app.master-data.materials.rewriteMainCodesHintGroup':
     '将按各物料所属末级分组的「分组编号」及物料编码规则，为当前分组（含子分组）下全部物料重新生成主编码。未勾选物料时按左侧所选分组执行。',
-  'app.master-data.materials.rewriteMainCodesDesc': '此操作将覆盖现有物料编号，执行前请确认编码规则配置正确。',
+  'app.master-data.materials.rewriteMainCodesDesc':
+    '此操作将覆盖现有物料编号，执行前请确认编码规则配置正确。',
   'app.master-data.materials.rewriteMainCodesSelectOrGroup': '请勾选物料，或在左侧选择物料分组',
   'app.master-data.materials.rewriteResetSequence': '重置各分组的流水号',
   'app.master-data.materials.rewriteResetSequenceDesc':
@@ -13494,7 +14097,8 @@ export default {
   'app.master-data.materials.standardPresetGroupModeSingle': '指定分组',
   'app.master-data.materials.standardPresetGroupModePresetCategories': '按预设分类建分组',
   'app.master-data.materials.standardPresetParentGroup': '父级分组（可选）',
-  'app.master-data.materials.standardPresetParentGroupPlaceholder': '不选则建在顶级；选中则在所选分组下创建预设分类子组',
+  'app.master-data.materials.standardPresetParentGroupPlaceholder':
+    '不选则建在顶级；选中则在所选分组下创建预设分类子组',
   'app.master-data.materials.standardPresetPresetGroupHint':
     '将按预设库「二级类型」自动创建或复用物料分组（分组编码以 SP_ 开头），物料分别归入对应分组。',
   'app.master-data.materials.standardPresetTargetGroup': '目标物料分组',
@@ -13527,7 +14131,8 @@ export default {
   'app.master-data.materials.standardPresetColGbCode': '推荐主编码',
 
   // BOM
-  'app.master-data.bom.codeRuleNotFound': '编号规则 {{ruleCode}} 不存在或未启用，请检查编号规则配置',
+  'app.master-data.bom.codeRuleNotFound':
+    '编号规则 {{ruleCode}} 不存在或未启用，请检查编号规则配置',
   'app.master-data.bom.autoCodeFailed': '自动生成编号失败',
   'app.master-data.bom.bomNotFound': '未找到该主物料+版本的 BOM 数据',
   'app.master-data.bom.getRecordFailed': '无法获取该 BOM 记录',
@@ -13552,7 +14157,8 @@ export default {
   'app.master-data.bom.includeObsolete': '包含失效版本',
   'app.master-data.bom.setObsolete': '设为失效',
   'app.master-data.bom.setObsoleteTitle': '设为失效',
-  'app.master-data.bom.setObsoleteConfirm': '确定将该 BOM 版本设为失效吗？失效后需求计算与排产将不再使用此版本。',
+  'app.master-data.bom.setObsoleteConfirm':
+    '确定将该 BOM 版本设为失效吗？失效后需求计算与排产将不再使用此版本。',
   'app.master-data.bom.obsoleteReason': '失效原因（选填）',
   'app.master-data.bom.obsoleteSuccess': '已设为失效',
   'app.master-data.bom.obsoleteTag': '失效',
@@ -13580,7 +14186,8 @@ export default {
   'app.master-data.bom.copyFailed': '复制BOM失败',
   'app.master-data.bom.copyBomBtn': '复制',
   'app.master-data.bom.copyBomTitle': '复制BOM（更换根节点）',
-  'app.master-data.bom.copyBomNewRootHint': '复制后将生成一份新BOM，根节点必须更换为所选物料，子件结构保持不变。',
+  'app.master-data.bom.copyBomNewRootHint':
+    '复制后将生成一份新BOM，根节点必须更换为所选物料，子件结构保持不变。',
   'app.master-data.bom.copyBomNewRootLabel': '新根物料',
   'app.master-data.bom.copyBomNewRootPlaceholder': '请选择作为新BOM根节点的物料',
   'app.master-data.bom.copyBomNewRootMustDiff': '新根物料不能与当前根物料相同',
@@ -13626,10 +14233,12 @@ export default {
   'app.master-data.bom.saveDraft': '保存草稿',
   'app.master-data.bom.saveDraftTitle': '仅保存为草稿（未审核），下游仍按草稿处理',
   'app.master-data.bom.saveAndPublish': '保存并生效',
-  'app.master-data.bom.saveAndPublishTitle': '保存并标记为已审核（正式版），等同列表中的「审核通过」',
+  'app.master-data.bom.saveAndPublishTitle':
+    '保存并标记为已审核（正式版），等同列表中的「审核通过」',
   'app.master-data.bom.saveAndPublishSuccess': '已保存并标记为已审核',
   'app.master-data.bom.saveAndPublishComment': 'BOM设计器保存并生效',
-  'app.master-data.bom.saveAndPublishApproveFailed': '结构已保存，但标记已审核失败，请在 BOM 列表中对本版本执行「审核」',
+  'app.master-data.bom.saveAndPublishApproveFailed':
+    '结构已保存，但标记已审核失败，请在 BOM 列表中对本版本执行「审核」',
   'app.master-data.bom.collapseGuide': '收起操作指南',
   'app.master-data.bom.expandGuide': '展开操作指南',
   'app.master-data.bom.mainMaterialInfo': '主物料信息',
@@ -13650,7 +14259,8 @@ export default {
   'app.master-data.bom.selectMaterialFirst': '请先选择物料',
   'app.master-data.bom.wasteRate': '损耗率（%）',
   'app.master-data.bom.issueMethod': '发料方式',
-  'app.master-data.bom.issueMethodTooltip': '领料配料：配料中心拣选送至线边；倒冲：报工时从线边仓扣账（需先配料上线边）；不发料：虚拟件等不参与发料',
+  'app.master-data.bom.issueMethodTooltip':
+    '领料配料：配料中心拣选送至线边；倒冲：报工时从线边仓扣账（需先配料上线边）；不发料：虚拟件等不参与发料',
   'app.master-data.bom.issueMethodPick': '领料配料',
   'app.master-data.bom.issueMethodBackflush': '倒冲',
   'app.master-data.bom.issueMethodNone': '不发料',
@@ -13660,7 +14270,8 @@ export default {
   'app.master-data.bom.isConfigurable': '配置位',
   'app.master-data.bom.configurableGroupIdLabel': '配置位组ID',
   'app.master-data.bom.isConfigurableColumn': '是否配置件',
-  'app.master-data.bom.isConfigurableTooltip': '配置位：用户在下单或开工单时选择该位置的物料。与替代料互斥。子件若启用属性管理则自动视为配置位。',
+  'app.master-data.bom.isConfigurableTooltip':
+    '配置位：用户在下单或开工单时选择该位置的物料。与替代料互斥。子件若启用属性管理则自动视为配置位。',
   'app.master-data.bom.isDefaultConfigurable': '默认选项',
   'app.master-data.bom.isDefaultConfigurableTooltip': '配置位组内默认选中的物料',
   'app.master-data.bom.addConfigurableOption': '添加可选物料',
@@ -13692,8 +14303,10 @@ export default {
   'app.master-data.fabricationWizard.stepRawMaterial': '原料',
   'app.master-data.fabricationWizard.stepBom': '用量',
   'app.master-data.fabricationWizard.introTitle': '工艺型物料建议配置加工原料',
-  'app.master-data.fabricationWizard.introDesc': '机加工类零件通常由原材料加工而成。配置原料 BOM 后，齐套分析、MRP 与领料可正确展开，无需手工维护完整工程 BOM。',
-  'app.master-data.fabricationWizard.autoGeneratedHint': '若选择「快速新建」，系统将创建采购件并标记为向导生成，后续可在物料管理中完善规格与供应商。',
+  'app.master-data.fabricationWizard.introDesc':
+    '机加工类零件通常由原材料加工而成。配置原料 BOM 后，齐套分析、MRP 与领料可正确展开，无需手工维护完整工程 BOM。',
+  'app.master-data.fabricationWizard.autoGeneratedHint':
+    '若选择「快速新建」，系统将创建采购件并标记为向导生成，后续可在物料管理中完善规格与供应商。',
   'app.master-data.fabricationWizard.modeCreate': '快速新建原料',
   'app.master-data.fabricationWizard.modeExisting': '选择已有采购件',
   'app.master-data.fabricationWizard.rawMaterialName': '原料名称',
@@ -13702,7 +14315,8 @@ export default {
   'app.master-data.fabricationWizard.selectExistingRequired': '请选择采购件作为加工原料',
   'app.master-data.fabricationWizard.quantity': '单件用量',
   'app.master-data.fabricationWizard.summaryTitle': '即将创建草稿 BOM',
-  'app.master-data.fabricationWizard.draftBomHint': 'BOM 将以草稿保存，可在 BOM 设计器中审核发布；原料信息可随时修改。',
+  'app.master-data.fabricationWizard.draftBomHint':
+    'BOM 将以草稿保存，可在 BOM 设计器中审核发布；原料信息可随时修改。',
   'app.master-data.fabricationWizard.skipLater': '稍后再说',
   'app.master-data.fabricationWizard.confirmCreate': '完成配置',
   'app.master-data.fabricationWizard.success': '加工原料 BOM 已创建（草稿）',
@@ -13729,7 +14343,8 @@ export default {
   'app.master-data.bom.noProcessRouteToEdit': '该物料未关联工艺路线',
   'app.master-data.bom.processRouteNotFound': '未找到对应工艺路线',
   'app.master-data.bom.mainMaterialCannotEdit': '主物料信息不可修改，如需修改请返回物料管理页面',
-  'app.master-data.bom.editCompleteHint': '提示：编辑完成后请点击保存按钮，或重新点击画布区域以恢复快捷键功能。',
+  'app.master-data.bom.editCompleteHint':
+    '提示：编辑完成后请点击保存按钮，或重新点击画布区域以恢复快捷键功能。',
   'app.master-data.bom.operationGuide': '操作指南',
   'app.master-data.bom.shortcuts': '快捷键',
   'app.master-data.bom.editNodeMaterial': '编辑节点物料',
@@ -13755,10 +14370,12 @@ export default {
   'app.master-data.bom.statusApproved': '已审核',
   'app.master-data.bom.statusRejected': '已拒绝',
   'app.master-data.bom.deleteConfirmTitle': '确认删除',
-  'app.master-data.bom.deleteConfirmContent': '确定要删除该 BOM（共 {{count}} 项子件）吗？此操作不可恢复。',
+  'app.master-data.bom.deleteConfirmContent':
+    '确定要删除该 BOM（共 {{count}} 项子件）吗？此操作不可恢复。',
   'app.master-data.bom.ok': '确定',
   'app.master-data.bom.batchDeleteConfirmTitle': '确认批量删除',
-  'app.master-data.bom.batchDeleteConfirmContent': '确定要删除选中的 {{count}} 条BOM记录吗？此操作不可恢复。',
+  'app.master-data.bom.batchDeleteConfirmContent':
+    '确定要删除选中的 {{count}} 条BOM记录吗？此操作不可恢复。',
   'app.master-data.bom.deleteFailed': '删除失败',
   'app.master-data.bom.batchApproveTitle': '批量审核',
   'app.master-data.bom.okApprove': '确定通过',
@@ -13819,7 +14436,8 @@ export default {
   'app.master-data.bom.effectiveDateTitle': '生效日期',
   'app.master-data.bom.expiryDateTitle': '失效日期',
   'app.master-data.bom.alternativeTitle': '替代料',
-  'app.master-data.bom.alternativeTitleTooltip': '与配置位互斥。同组替代料组ID相同，生产时择一使用。',
+  'app.master-data.bom.alternativeTitleTooltip':
+    '与配置位互斥。同组替代料组ID相同，生产时择一使用。',
   'app.master-data.bom.priorityTitle': '优先级',
   'app.master-data.bom.descTitle': '备注',
   'app.master-data.bom.remarkTitle': '备注',
@@ -13885,7 +14503,8 @@ export default {
   'app.master-data.bom.versionHistoryTitle': 'BOM版本历史',
   'app.master-data.bom.approvalCommentPlaceholder': '请输入审核意见',
   'app.master-data.bom.createVersionTitle': '创建BOM新版本',
-  'app.master-data.bom.createVersionHint': '快速创建：一键基于当前版本复制；或填写下方信息（基于最新版本）创建',
+  'app.master-data.bom.createVersionHint':
+    '快速创建：一键基于当前版本复制；或填写下方信息（基于最新版本）创建',
   'app.master-data.bom.versionPlaceholderNew': '请输入版本号（如：v1.1）',
   'app.master-data.bom.versionDescLabel': '版本说明',
   'app.master-data.bom.versionDescPlaceholder': '请输入版本说明（可选）',
@@ -13894,12 +14513,14 @@ export default {
   'app.master-data.bom.versionStrategyNewOnly': '仅新工单使用新版本（推荐）',
   'app.master-data.bom.versionStrategyAll': '所有工单使用新版本（谨慎使用）',
   'app.master-data.bom.versionStrategyRequired': '请选择版本应用策略',
-  'app.master-data.bom.versionStrategyExtra': '建议选择\'仅新工单使用新版本\'，避免影响正在执行的工单',
+  'app.master-data.bom.versionStrategyExtra':
+    "建议选择'仅新工单使用新版本'，避免影响正在执行的工单",
   'app.master-data.bom.parentQuantityLabel': '父物料数量',
   'app.master-data.bom.parentQuantityPlaceholder': '请输入父物料数量',
   'app.master-data.bom.parentQuantityRequired': '请输入父物料数量',
   'app.master-data.bom.parentQuantityMin': '数量必须大于0',
-  'app.master-data.bom.parentQuantityExtra': '输入要生产的父物料数量，系统将自动计算所需子物料数量（考虑损耗率）',
+  'app.master-data.bom.parentQuantityExtra':
+    '输入要生产的父物料数量，系统将自动计算所需子物料数量（考虑损耗率）',
   'app.master-data.bom.versionPlaceholderOptional': '留空则使用最新版本',
   'app.master-data.bom.versionPlaceholderExtra': '可选，如果不填写则使用最新版本',
   'app.master-data.bom.defaultTag': '默认',
@@ -13908,9 +14529,11 @@ export default {
   'app.master-data.bom.approve': '审核',
   'app.master-data.bom.unapprove': '反审核',
   'app.master-data.bom.bomCode': 'BOM编号',
-  'app.master-data.bom.setDefaultVersionContent': '确定将 {{bomCode}} (版本 {{version}}) 设为该物料的默认 BOM 版本吗？需求计算在「不允许多版本」时将使用此版本。',
+  'app.master-data.bom.setDefaultVersionContent':
+    '确定将 {{bomCode}} (版本 {{version}}) 设为该物料的默认 BOM 版本吗？需求计算在「不允许多版本」时将使用此版本。',
   'app.master-data.bom.reviseConfirmTitle': 'BOM 升版确认',
-  'app.master-data.bom.reviseConfirmContent': '确定要为 {{bomCode}} (当前版本 {{version}}) 创建一个新的修订版本吗？系统将自动复制整个 BOM 结构并生成新版本（Draft状态）。',
+  'app.master-data.bom.reviseConfirmContent':
+    '确定要为 {{bomCode}} (当前版本 {{version}}) 创建一个新的修订版本吗？系统将自动复制整个 BOM 结构并生成新版本（Draft状态）。',
   'app.master-data.bom.batchApproveContent': '确定要批量通过选中的 {{count}} 条BOM记录吗？',
   'app.master-data.bom.recursiveApprove': '同时审核子BOM (递归)',
   'app.master-data.bom.batchUnapproveContent': '确定要批量撤销审核选中的 {{count}} 条BOM记录吗？',
@@ -13962,7 +14585,8 @@ export default {
   'app.master-data.materialForm.fetchExternalMappingsFailed': '加载外部系统编号映射失败',
   'app.master-data.materialForm.codeRuleNotConfigured': '物料编号规则未配置',
   'app.master-data.materialForm.autoGenerateCodeFailed': '自动生成编号失败',
-  'app.master-data.materialForm.codeRuleConfigError': '编号规则配置错误：物料页面不应使用工艺路线的编号规则。请清除浏览器缓存或联系管理员。',
+  'app.master-data.materialForm.codeRuleConfigError':
+    '编号规则配置错误：物料页面不应使用工艺路线的编号规则。请清除浏览器缓存或联系管理员。',
   'app.master-data.materialForm.editMaterial': '编辑物料',
   'app.master-data.materialForm.createMaterial': '新建物料',
   'app.master-data.materialForm.update': '更新',
@@ -14051,7 +14675,8 @@ export default {
   'app.master-data.materialForm.isActive': '是否启用',
   'app.master-data.materialForm.materialImages': '物料附件',
   'app.master-data.materialForm.materialAttachmentsHint': '支持常见图片、PDF、DWG，最多 5 个文件',
-  'app.master-data.materialForm.attachmentInvalidType': '仅支持图片（JPG/PNG/GIF/WebP/SVG）、PDF、DWG/DXF、STEP/STP、XLS/XLSX',
+  'app.master-data.materialForm.attachmentInvalidType':
+    '仅支持图片（JPG/PNG/GIF/WebP/SVG）、PDF、DWG/DXF、STEP/STP、XLS/XLSX',
   'app.master-data.materialForm.description': '备注',
   'app.master-data.materialForm.descriptionPlaceholder': '请输入备注',
   'app.master-data.materialForm.submitFailed': '提交失败',
@@ -14079,12 +14704,14 @@ export default {
   'app.master-data.materialForm.action': '操作',
   'app.master-data.materialForm.unitNameEmpty': '第{{index}}行的单位名称不能为空',
   'app.master-data.materialForm.unitNameDuplicate': '单位"{{name}}"重复，请使用不同的单位名称',
-  'app.master-data.materialForm.unitSameAsBase': '单位"{{unit}}"与基础单位重复，辅助单位不能与基础单位相同',
+  'app.master-data.materialForm.unitSameAsBase':
+    '单位"{{unit}}"与基础单位重复，辅助单位不能与基础单位相同',
   'app.master-data.materialForm.numeratorMin': '单位"{{unit}}"的换算分子必须大于0',
   'app.master-data.materialForm.denominatorMin': '单位"{{unit}}"的换算分母必须大于0',
   'app.master-data.materialForm.setBaseUnitFirst': '请先在「基本信息」标签页设置基础单位',
   'app.master-data.materialForm.baseSettings': '基础设置',
-  'app.master-data.materialForm.conversionHint': '换算关系设置：使用分子/分母表示，避免精度丢失。例如1吨=1000kg，则分子=1000，分母=1。\n\n换算公式：1个辅助单位 = (分子/分母) × 1个基础单位',
+  'app.master-data.materialForm.conversionHint':
+    '换算关系设置：使用分子/分母表示，避免精度丢失。例如1吨=1000kg，则分子=1000，分母=1。\n\n换算公式：1个辅助单位 = (分子/分母) × 1个基础单位',
   'app.master-data.materialForm.conversionTitle': '换算说明',
   'app.master-data.materialForm.configValidation': '配置验证',
   'app.master-data.materialForm.configOverview': '配置概览',
@@ -14105,7 +14732,8 @@ export default {
   'app.master-data.materialForm.baseUnitColon': '基础单位：',
   'app.master-data.materialForm.addAuxiliaryUnit': '添加辅助单位',
   'app.master-data.materialForm.scenarioUnitMappingOptional': '场景单位映射（可选）',
-  'app.master-data.materialForm.scenarioUnitMappingHint': '为不同业务场景指定默认使用的单位，如果不指定，则使用基础单位',
+  'app.master-data.materialForm.scenarioUnitMappingHint':
+    '为不同业务场景指定默认使用的单位，如果不指定，则使用基础单位',
   'app.master-data.materialForm.purchaseUnit': '采购单位',
   'app.master-data.materialForm.saleUnit': '销售单位',
   'app.master-data.materialForm.productionUnit': '生产单位',
@@ -14121,7 +14749,8 @@ export default {
   'app.master-data.materialForm.delete': '删除',
   'app.master-data.materialForm.sourceTypeLabel': '物料来源类型',
   'app.master-data.materialForm.sourceTypePlaceholder': '请选择物料来源类型',
-  'app.master-data.materialForm.sourceTypeExtra': '物料来源类型决定了物料的获取方式（自制/采购/委外等）',
+  'app.master-data.materialForm.sourceTypeExtra':
+    '物料来源类型决定了物料的获取方式（自制/采购/委外等）',
   'app.master-data.materialForm.manufacturingMode': '制造模式',
   'app.master-data.materialForm.manufacturingModePlaceholder': '请选择制造模式',
   'app.master-data.materialForm.manufacturingModeExtra': '工艺型需工艺路线；组合型需BOM',
@@ -14185,12 +14814,14 @@ export default {
   'app.master-data.defaults.defaultAccount': '默认科目',
   'app.master-data.defaults.defaultAccountPlaceholder': '请输入默认科目',
   'app.master-data.defaults.purchase': '采购默认值',
-  'app.master-data.defaults.purchaseAlert': '采购件的主默认供应商请在【基本信息】中的物料来源区域配置；此处为采购默认值列表（多选），用于扩展用途。',
+  'app.master-data.defaults.purchaseAlert':
+    '采购件的主默认供应商请在【基本信息】中的物料来源区域配置；此处为采购默认值列表（多选），用于扩展用途。',
   'app.master-data.defaults.defaultSuppliers': '默认供应商（可多选，按优先级排序）',
   'app.master-data.defaults.selectSuppliers': '请选择默认供应商',
   'app.master-data.defaults.defaultPurchasePrice': '默认采购价格',
   'app.master-data.defaults.defaultPurchasePricePlaceholder': '请输入默认采购价格',
-  'app.master-data.defaults.defaultPurchasePriceTypeHint': '录入价格为含税或不含税；带入采购单据时会按单据价类与税率换算',
+  'app.master-data.defaults.defaultPurchasePriceTypeHint':
+    '录入价格为含税或不含税；带入采购单据时会按单据价类与税率换算',
   'app.master-data.defaults.defaultPurchaseUnit': '默认采购单位',
   'app.master-data.defaults.defaultPurchaseUnitPlaceholder': '请输入默认采购单位',
   'app.master-data.defaults.defaultPurchaseLeadTime': '默认采购周期（天）',
@@ -14198,7 +14829,8 @@ export default {
   'app.master-data.defaults.sale': '销售默认值',
   'app.master-data.defaults.defaultSalePrice': '默认销售价格',
   'app.master-data.defaults.defaultSalePricePlaceholder': '请输入默认销售价格',
-  'app.master-data.defaults.defaultSalePriceTypeHint': '录入价格为含税或不含税；带入销售单据时会按单据价类与税率换算',
+  'app.master-data.defaults.defaultSalePriceTypeHint':
+    '录入价格为含税或不含税；带入销售单据时会按单据价类与税率换算',
   'app.master-data.defaults.defaultSaleUnit': '默认销售单位',
   'app.master-data.defaults.defaultSaleUnitPlaceholder': '请输入默认销售单位',
   'app.master-data.defaults.defaultCustomers': '默认客户（可多选）',
@@ -14238,15 +14870,19 @@ export default {
   'app.master-data.source.selectDefaultBomVersion': '请选择默认 BOM 版本',
   'app.master-data.source.saveMaterialFirstForBom': '请先保存物料后再维护 BOM',
   'app.master-data.manufacturing.tabTitle': '产品工艺',
-  'app.master-data.manufacturing.tabHint': '在此维护该自制件的工艺路线、工序序列与工时、工序默认资源、计件单价及关联的工时绩效。保存物料表单后，默认工艺路线会写入物料主数据。',
+  'app.master-data.manufacturing.tabHint':
+    '在此维护该自制件的工艺路线、工序序列与工时、工序默认资源、计件单价及关联的工时绩效。保存物料表单后，默认工艺路线会写入物料主数据。',
   'app.master-data.manufacturing.sectionRoute': '工艺路线',
-  'app.master-data.manufacturing.sectionRouteDesc': '为物料指派默认工艺路线；工单展开工序时优先使用物料上的路线。',
+  'app.master-data.manufacturing.sectionRouteDesc':
+    '为物料指派默认工艺路线；工单展开工序时优先使用物料上的路线。',
   'app.master-data.manufacturing.sectionSequence': '工序序列与工时',
   'app.master-data.manufacturing.sectionResources': '工序资源（车间 / 人员 / 设备）',
-  'app.master-data.manufacturing.sectionResourcesDesc': '资源默认值在工序主数据中维护；此处按当前路线序列列出，可点编辑跳转工序表单。',
+  'app.master-data.manufacturing.sectionResourcesDesc':
+    '资源默认值在工序主数据中维护；此处按当前路线序列列出，可点编辑跳转工序表单。',
   'app.master-data.manufacturing.sectionPieceRates': '计件单价（本物料）',
   'app.master-data.manufacturing.sectionLabor': '工时绩效',
-  'app.master-data.manufacturing.sectionLaborDesc': '部门/职位工时单价在绩效管理维护；下表为工序明细中已配置操作员关联的员工绩效配置（只读）。计件单价请在上方工序明细表维护。',
+  'app.master-data.manufacturing.sectionLaborDesc':
+    '部门/职位工时单价在绩效管理维护；下表为工序明细中已配置操作员关联的员工绩效配置（只读）。计件单价请在上方工序明细表维护。',
   'app.master-data.manufacturing.standardTime': '标准工时（分钟/件）',
   'app.master-data.manufacturing.setupTime': '准备时间（分钟）',
   'app.master-data.manufacturing.minuteUnit': '分钟',
@@ -14273,7 +14909,8 @@ export default {
   'app.master-data.manufacturing.calcMode': '计薪方式',
   'app.master-data.manufacturing.hourlyRate': '工时单价',
   'app.master-data.routes.viewApplicableMaterials': '适用物料',
-  'app.master-data.productProcess.pageDesc': '为自制件指派默认工艺路线，并维护工序序列、工时、资源与计件单价。工艺路线主数据请在「工艺路线」菜单维护。',
+  'app.master-data.productProcess.pageDesc':
+    '为自制件指派默认工艺路线，并维护工序序列、工时、资源与计件单价。工艺路线主数据请在「工艺路线」菜单维护。',
   'app.master-data.productProcess.materialListTitle': '自制件列表',
   'app.master-data.productProcess.searchMaterial': '搜索物料编号或名称',
   'app.master-data.productProcess.filterAll': '全部',
@@ -14281,25 +14918,31 @@ export default {
   'app.master-data.productProcess.filterUnassigned': '未指派路线',
   'app.master-data.productProcess.selectMaterialHint': '请从左侧选择自制件',
   'app.master-data.productProcess.loadingMaterials': '加载自制件列表…',
-  'app.master-data.productProcess.routeNotFound': '物料指派的工艺路线不存在或已删除，请重新选择并保存指派',
+  'app.master-data.productProcess.routeNotFound':
+    '物料指派的工艺路线不存在或已删除，请重新选择并保存指派',
   'app.master-data.productProcess.noMaterials': '暂无自制件',
   'app.master-data.productProcess.save': '保存',
   'app.master-data.productProcess.noChangesToSave': '没有未保存的修改',
   'app.master-data.productProcess.saved': '已保存产品工艺配置',
-  'app.master-data.productProcess.panelHint': '先选工艺路线，在工序明细表中维护序列、工时、资源与计件单价，点保存写入产品工艺配置。',
+  'app.master-data.productProcess.panelHint':
+    '先选工艺路线，在工序明细表中维护序列、工时、资源与计件单价，点保存写入产品工艺配置。',
   'app.master-data.productProcess.unifiedTableTitle': '工序明细',
   'app.master-data.productProcess.addOperation': '添加工序',
   'app.master-data.productProcess.noLines': '暂无工序，请从路线模板加载或添加工序',
-  'app.master-data.productProcess.linesTableHint': '拖拽序号列可调整工序顺序（与工艺路线编辑一致）。切换路线会按模板重载；未单独配置的资源自动带入工序主数据默认值。保存前请确认计件单价。',
+  'app.master-data.productProcess.linesTableHint':
+    '拖拽序号列可调整工序顺序（与工艺路线编辑一致）。切换路线会按模板重载；未单独配置的资源自动带入工序主数据默认值。保存前请确认计件单价。',
   'app.master-data.productProcess.routeImportFailed': '无法加载工艺路线工序模板',
   'app.master-data.productProcess.filteredByRoute': '当前筛选路线：{{code}} — {{name}}',
   'app.master-data.productProcess.clearRouteFilter': '清除路线筛选',
-  'app.master-data.productProcess.listTruncated': '自制件共 {{total}} 条，当前仅加载前 {{limit}} 条，请用搜索缩小范围',
+  'app.master-data.productProcess.listTruncated':
+    '自制件共 {{total}} 条，当前仅加载前 {{limit}} 条，请用搜索缩小范围',
   'app.master-data.routes.applicableMaterialsTitle': '适用物料',
-  'app.master-data.routes.applicableMaterialsHint': '物料主数据「产品工艺」Tab 中指派的默认工艺路线为主入口；此处用于按路线查看/批量关联物料或物料组（分组绑定为补充）。',
+  'app.master-data.routes.applicableMaterialsHint':
+    '物料主数据「产品工艺」Tab 中指派的默认工艺路线为主入口；此处用于按路线查看/批量关联物料或物料组（分组绑定为补充）。',
   'app.master-data.routes.applicableMaterialGroups': '适用物料分组',
   'app.master-data.routes.applicableMaterialsExact': '适用物料（精确）',
-  'app.master-data.routes.materialBindPriorityHint': '物料单独指派优先于物料分组；建议在物料表单的产品工艺 Tab 维护默认路线。',
+  'app.master-data.routes.materialBindPriorityHint':
+    '物料单独指派优先于物料分组；建议在物料表单的产品工艺 Tab 维护默认路线。',
   'app.master-data.source.productionLeadTime': '生产提前期（天）',
   'app.master-data.source.leadTimePlaceholder': '提前期',
   'app.master-data.source.minProductionBatch': '最小生产批量',
@@ -14323,15 +14966,18 @@ export default {
   'app.master-data.source.enterpriseProvide': '企业提供',
   'app.master-data.source.supplierProvide': '供应商提供',
   'app.master-data.source.configureTip': '配置件说明',
-  'app.master-data.source.configureTipDesc': '配置件需要配置属性和BOM配置，请在「属性管理」标签页配置属性。',
+  'app.master-data.source.configureTipDesc':
+    '配置件需要配置属性和BOM配置，请在「属性管理」标签页配置属性。',
   'app.master-data.source.defaultVariant': '默认配置',
   'app.master-data.source.defaultVariantPlaceholder': '请输入默认配置',
   'app.master-data.source.bomVariantsLabel': 'BOM属性配置（JSON格式）',
   'app.master-data.source.bomVariantsPlaceholder': '格式：{"config1": {...}, "config2": {...}}',
   'app.master-data.source.phantomTip': '虚拟件说明',
-  'app.master-data.source.phantomTipDesc': '虚拟件不实际存在，仅用于BOM展开。须配置完整BOM结构，系统将自动跳过虚拟件展开下层物料。',
+  'app.master-data.source.phantomTipDesc':
+    '虚拟件不实际存在，仅用于BOM展开。须配置完整BOM结构，系统将自动跳过虚拟件展开下层物料。',
   'app.master-data.source.serviceTip': '服务说明',
-  'app.master-data.source.serviceTipDesc': '服务类物料用于记录服务项目，无需配置工艺路线、供应商等。',
+  'app.master-data.source.serviceTipDesc':
+    '服务类物料用于记录服务项目，无需配置工艺路线、供应商等。',
 
   // 工序序列编辑器
   'app.master-data.operationSequence.loadListFailed': '加载工序列表失败',
@@ -14373,7 +15019,8 @@ export default {
   'app.master-data.operationSequence.loading': '加载中...',
   'app.master-data.operationSequence.noAvailableOperations': '暂无可用工序',
   'app.master-data.operationSequence.quickAddOperation': '快速新增工序',
-  'app.master-data.operationSequence.createOperationFirst': '没有可用的工序，可点击上方「快速新增工序」创建',
+  'app.master-data.operationSequence.createOperationFirst':
+    '没有可用的工序，可点击上方「快速新增工序」创建',
   'app.master-data.operationSequence.currentOperation': '当前工序：',
   'app.master-data.operationSequence.hint': '支持拖拽排序，点击删除移除工序',
   'app.master-data.operationSequence.noDataAddHint': '暂无工序，点击下方按钮添加',
@@ -14392,7 +15039,8 @@ export default {
   'app.master-data.formSchema.addFieldTitle': '添加字段',
   'app.master-data.formSchema.fieldCode': '字段代码',
   'app.master-data.formSchema.fieldCodeRequired': '请输入字段代码',
-  'app.master-data.formSchema.fieldCodePattern': '字段代码只能包含字母、数字和下划线，且不能以数字开头',
+  'app.master-data.formSchema.fieldCodePattern':
+    '字段代码只能包含字母、数字和下划线，且不能以数字开头',
   'app.master-data.formSchema.fieldCodePlaceholder': '请输入字段代码（如：step_name）',
   'app.master-data.formSchema.fieldLabel': '字段标签',
   'app.master-data.formSchema.fieldLabelRequired': '请输入字段标签',
@@ -14515,7 +15163,8 @@ export default {
   'field.partner.taxRegistrationNo': '统一社会信用代码/税号',
   'field.partner.taxRegistrationNoPlaceholder': '18 位统一社会信用代码或纳税人识别号',
   'field.partner.taxRegistrationNoMaxLength': '不能超过50个字符',
-  'field.partner.taxRegistrationNoExtra': '企业与个体工商户常见为统一社会信用代码；个人可为身份证号。',
+  'field.partner.taxRegistrationNoExtra':
+    '企业与个体工商户常见为统一社会信用代码；个人可为身份证号。',
   'field.partner.invoiceTitle': '发票抬头',
   'field.partner.invoiceTitlePlaceholder': '可与客户名称一致，不一致时请单独填写',
   'field.partner.invoiceTitleMaxLength': '不能超过200个字符',
@@ -14795,7 +15444,8 @@ export default {
   'field.storageLocation.batchCreatePreview': '生成预览',
   'field.storageLocation.batchCreateBack': '上一步',
   'field.storageLocation.batchCreateConfirm': '确认创建',
-  'field.storageLocation.batchCreatePreviewSummary': '将创建 {{count}} 个库位，请确认无误后点击「确认创建」。',
+  'field.storageLocation.batchCreatePreviewSummary':
+    '将创建 {{count}} 个库位，请确认无误后点击「确认创建」。',
   'field.storageLocation.batchCreatePreviewMore': '已展示前 {{shown}} 条，共 {{total}} 条',
   'field.storageLocation.codePrefixNone': '无',
   'field.holiday.name': '假期名称',
@@ -14833,14 +15483,16 @@ export default {
   'field.operation.reportingType': '报工类型',
   'field.operation.allowJump': '是否允许跳转',
   'field.operation.isNodeOperation': '节点工序',
-  'field.operation.isNodeOperationExtra': '节点工序：在工单或工序允许跳转时，仍不可跳过此前序节点（须先有产出或完成）',
+  'field.operation.isNodeOperationExtra':
+    '节点工序：在工单或工序允许跳转时，仍不可跳过此前序节点（须先有产出或完成）',
   'field.operation.overReportMode': '超报方式',
   'field.operation.overReportModeNone': '不允许',
   'field.operation.overReportModeFixed': '按数量',
   'field.operation.overReportModePercent': '按比例',
   'field.operation.overReportValue': '超报数值',
   'field.operation.overReportValuePlaceholder': '固定模式为额外件数；比例模式为百分数',
-  'field.operation.overReportValueExtra': '固定：在计划数量上额外允许完成的件数。比例：按工单计划数量乘以该百分数作为额外上限。',
+  'field.operation.overReportValueExtra':
+    '固定：在计划数量上额外允许完成的件数。比例：按工单计划数量乘以该百分数作为额外上限。',
   'field.route.overReportMode': '路线默认超报',
   'field.route.overReportValue': '路线默认超报数值',
   'field.route.overReportValueExtra': '工序行未单独配置时继承；序列中可逐行覆盖。',
@@ -14855,7 +15507,8 @@ export default {
   'field.operation.inspectionModePlan': '方案质检（与质检模块联动）',
   'field.operation.defaultInspectionPlan': '默认质检方案',
   'field.operation.defaultInspectionPlanPlaceholder': '请选择默认质检方案',
-  'field.operation.defectTypeUuidsSimpleHint': '选择简易质检时，请配置不良品类型用于报工时记录不合格数量',
+  'field.operation.defectTypeUuidsSimpleHint':
+    '选择简易质检时，请配置不良品类型用于报工时记录不合格数量',
   'field.operation.gotoInspectionPlans': '前往新建质检方案',
   'field.operation.defectTypeUuids': '绑定不良品项',
   'field.operation.quickAddDefectType': '快速新增不良品项',
@@ -14887,8 +15540,10 @@ export default {
   'field.operation.optionWorkstation': '[工位]',
   'field.operation.reportingTypeQuantity': '按数量报工',
   'field.operation.reportingTypeStatus': '按状态报工',
-  'field.operation.reportingTypeExtra': '按数量报工：需要输入完成数量、合格数量（如：注塑、组装、包装）。按状态报工：只有完成/未完成状态，无数量概念（如：检验、测试、审批）',
-  'field.operation.allowJumpExtra': '允许跳转：可以并行进行，不依赖上道工序完成。不允许跳转：必须完成上道工序才能开始下道工序（默认）',
+  'field.operation.reportingTypeExtra':
+    '按数量报工：需要输入完成数量、合格数量（如：注塑、组装、包装）。按状态报工：只有完成/未完成状态，无数量概念（如：检验、测试、审批）',
+  'field.operation.allowJumpExtra':
+    '允许跳转：可以并行进行，不依赖上道工序完成。不允许跳转：必须完成上道工序才能开始下道工序（默认）',
   'field.operation.codeAutoGenerated': '请输入{{label}}',
   'field.operation.createTitle': '新建工序',
   'field.operation.loadPreset': '加载预设',
@@ -14927,14 +15582,17 @@ export default {
   'field.role.externalPartnerCustomer': '客户',
   'field.role.externalPartnerSupplier': '供应商',
   'field.role.createPosition': '根据角色创建职位',
-  'field.role.createPositionExtra': '勾选后将同步创建同名、同代码的职位（备注与启用状态与角色一致）',
+  'field.role.createPositionExtra':
+    '勾选后将同步创建同名、同代码的职位（备注与启用状态与角色一致）',
   'field.role.createSuccessWithPosition': '角色与职位创建成功',
   'field.role.homePath': '角色首页',
   'field.role.homePathPlaceholder': '选择页面路径，留空则按全局规则',
-  'field.role.homePathExtra': '优先级高于「菜单设为主页」；未设置时依次使用菜单主页、系统工作台或系统兜底页。',
+  'field.role.homePathExtra':
+    '优先级高于「菜单设为主页」；未设置时依次使用菜单主页、系统工作台或系统兜底页。',
   'field.role.createTitle': '新建角色',
   'pages.system.defaultHome.title': '欢迎使用',
-  'pages.system.defaultHome.description': '当前未配置角色首页或菜单主页。请从左侧菜单进入业务功能，或由管理员在「角色权限」或「菜单管理」中配置首页。',
+  'pages.system.defaultHome.description':
+    '当前未配置角色首页或菜单主页。请从左侧菜单进入业务功能，或由管理员在「角色权限」或「菜单管理」中配置首页。',
   'pages.system.defaultHome.goWorkplace': '前往工作台',
   'pages.system.defaultHome.goApplications': '应用中心',
   'pages.system.roles.saveRoleHome': '保存首页',
@@ -14948,7 +15606,8 @@ export default {
   'field.role.permissions': '权限',
   'field.role.delete': '删除',
   'field.role.deleteConfirm': '确定要删除这个角色吗？',
-  'field.role.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？系统角色无法删除。此操作不可恢复。',
+  'field.role.batchDeleteConfirm':
+    '确定要删除选中的 {{count}} 条记录吗？系统角色无法删除。此操作不可恢复。',
   'field.role.systemRole': '系统角色',
   'field.role.permissionCount': '权限数',
   'field.role.userCount': '用户数',
@@ -14986,7 +15645,8 @@ export default {
   'field.department.deleteConfirmDesc': '删除后不可恢复。',
   'field.department.batchDeleteConfirm': '确定要删除选中的 {{count}} 个部门吗？此操作不可恢复。',
   'field.department.batchDeleteTitle': '确定要批量删除选中的部门吗？',
-  'field.department.batchDeleteDescription': '将删除 {{count}} 个部门，删除后无法恢复，请谨慎操作。',
+  'field.department.batchDeleteDescription':
+    '将删除 {{count}} 个部门，删除后无法恢复，请谨慎操作。',
   'field.department.batchDeleteBlocked': '批量删除受阻',
   'field.department.batchDeleteBlockedList': '以下部门不满足删除条件：',
   'field.department.batchDeleteBlockedHint': '请处理后再试。',
@@ -15027,7 +15687,8 @@ export default {
   'field.department.syncIntroWarning':
     '同步耗时与数据集行数、数据库与网络状况有关，可能从数十秒到数分钟不等。开始同步后请勿关闭或刷新本页直至完成。',
   'field.department.syncNeedBinding': '请先在「数据集」中选择数据集，并填写部门名称列映射后保存',
-  'field.department.syncComplete': '同步完成：新增 {{created}} 条，更新 {{updated}} 条，跳过 {{skipped}} 行（无部门名称）',
+  'field.department.syncComplete':
+    '同步完成：新增 {{created}} 条，更新 {{updated}} 条，跳过 {{skipped}} 行（无部门名称）',
   'field.department.bindingColumnsLoaded': '已加载 {{count}} 个列，可从下拉选择映射',
   'field.position.name': '职位名称',
   'field.position.code': '职位代码',
@@ -15090,12 +15751,15 @@ export default {
   'field.language.edit': '编辑',
   'field.language.delete': '删除',
   'field.language.deleteConfirm': '确定要删除这个语言吗？',
-  'field.language.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？默认语言无法删除。此操作不可恢复。',
+  'field.language.batchDeleteConfirm':
+    '确定要删除选中的 {{count}} 条记录吗？默认语言无法删除。此操作不可恢复。',
   'field.language.batchDeleteTitle': '确定要批量删除选中的语言吗？',
-  'field.language.batchDeleteDescription': '将删除 {{count}} 个语言，删除后无法恢复，请谨慎操作。默认语言无法删除。',
+  'field.language.batchDeleteDescription':
+    '将删除 {{count}} 个语言，删除后无法恢复，请谨慎操作。默认语言无法删除。',
   'field.language.translationCount': '翻译数量',
   'field.language.loadSystemLanguages': '加载系统语言',
-  'field.language.loadSystemLanguagesSuccess': '系统语言加载完成！创建 {{created}} 个语言，跳过 {{skipped}} 个已存在',
+  'field.language.loadSystemLanguagesSuccess':
+    '系统语言加载完成！创建 {{created}} 个语言，跳过 {{skipped}} 个已存在',
   'field.language.syncFromLocale': '从本地同步',
   'field.language.syncFromLocaleSuccess': '已从本地同步 {{count}} 条翻译',
   'field.language.translationKey': '翻译键',
@@ -15126,7 +15790,8 @@ export default {
   'field.invitationCode.edit': '编辑',
   'field.invitationCode.delete': '删除',
   'field.invitationCode.deleteConfirm': '确定要删除这个邀请码吗？',
-  'field.invitationCode.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
+  'field.invitationCode.batchDeleteConfirm':
+    '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
   'field.invitationCode.copy': '复制',
   'field.invitationCode.copySuccess': '邀请码已复制到剪贴板',
   'field.invitationCode.usedCount': '使用次数',
@@ -15153,10 +15818,12 @@ export default {
   'field.dataDictionary.items': '字典项',
   'field.dataDictionary.delete': '删除',
   'field.dataDictionary.deleteConfirm': '确定要删除这个字典吗？',
-  'field.dataDictionary.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？系统字典无法删除。此操作不可恢复。',
+  'field.dataDictionary.batchDeleteConfirm':
+    '确定要删除选中的 {{count}} 条记录吗？系统字典无法删除。此操作不可恢复。',
   'field.dataDictionary.systemDictionary': '系统字典',
   'field.dataDictionary.loadSystemDictionaries': '加载系统字典',
-  'field.dataDictionary.loadSystemDictionariesSuccess': '系统字典初始化完成！创建 {{dictCount}} 个字典，创建 {{itemsCreated}} 个字典项，更新 {{itemsUpdated}} 个字典项',
+  'field.dataDictionary.loadSystemDictionariesSuccess':
+    '系统字典初始化完成！创建 {{dictCount}} 个字典，创建 {{itemsCreated}} 个字典项，更新 {{itemsUpdated}} 个字典项',
   'field.dataDictionary.manageItems': '字典项管理',
   'field.dataDictionary.createItem': '新建字典项',
   'field.dataDictionary.editItem': '编辑字典项',
@@ -15172,7 +15839,8 @@ export default {
   'field.dataDictionary.itemIconPlaceholder': '请输入图标名称',
   'field.dataDictionary.itemDeleteConfirm': '确定要删除这个字典项吗？',
   'field.dataDictionary.systemItemNoDelete': '系统字典项不允许删除',
-  'field.dataDictionary.systemPresetItemNoDelete': '系统预置字典项不允许删除；本字典下自行新增的项可删除',
+  'field.dataDictionary.systemPresetItemNoDelete':
+    '系统预置字典项不允许删除；本字典下自行新增的项可删除',
   'field.dataDictionary.systemDictionaryNoDelete': '系统字典不可删除',
 
   // 权限管理（只读列表）
@@ -15210,12 +15878,14 @@ export default {
   'field.systemParameter.edit': '编辑',
   'field.systemParameter.delete': '删除',
   'field.systemParameter.deleteConfirm': '确定要删除这个参数吗？',
-  'field.systemParameter.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？系统参数无法删除。此操作不可恢复。',
+  'field.systemParameter.batchDeleteConfirm':
+    '确定要删除选中的 {{count}} 条记录吗？系统参数无法删除。此操作不可恢复。',
   'field.systemParameter.keyPlaceholder': '请输入参数键（唯一标识）',
   'field.systemParameter.keyRequired': '请输入参数键',
   'field.systemParameter.typeRequired': '请选择参数类型',
   'field.systemParameter.valueRequired': '请输入参数值',
-  'field.systemParameter.valueJsonPlaceholder': '请输入 JSON 格式的值，例如：{"key": "value"} 或 ["item1", "item2"]',
+  'field.systemParameter.valueJsonPlaceholder':
+    '请输入 JSON 格式的值，例如：{"key": "value"} 或 ["item1", "item2"]',
   'field.systemParameter.valueStringPlaceholder': '请输入字符串值',
   'field.systemParameter.valueNumberPlaceholder': '请输入数字',
   'field.systemParameter.descriptionPlaceholder': '请输入备注',
@@ -15452,15 +16122,18 @@ export default {
   'pages.system.applications.mutualExclusiveSwitchTitle': '互斥模式切换确认',
   'pages.system.applications.mutualExclusiveSwitchingTo': '您正在切换至 {{target}}。',
   'pages.system.applications.mutualExclusiveCurrentlyEnabled': '当前已启用的',
-  'pages.system.applications.mutualExclusiveWillAutoDisable': '将被自动禁用，其菜单入口将对用户隐藏。',
-  'pages.system.applications.mutualExclusiveDataShared': '两种模式共享同一套业务数据，切换不会丢失数据。',
+  'pages.system.applications.mutualExclusiveWillAutoDisable':
+    '将被自动禁用，其菜单入口将对用户隐藏。',
+  'pages.system.applications.mutualExclusiveDataShared':
+    '两种模式共享同一套业务数据，切换不会丢失数据。',
   'pages.system.applications.mutualExclusiveConfirm': '确认切换',
   'pages.system.applications.customAppsEmptyTitle': '当前暂无已授权的定制应用',
   'pages.system.applications.customAppsEmptyDescription':
     '若您需要贴合业务的专属功能或行业化方案，我们可提供软件定制与集成服务。欢迎联系我方商务或客户经理，沟通需求并探讨合作机会。',
   'pages.system.applications.customAppsEmptyQrAlt': '商务咨询二维码',
   'pages.system.applications.customAppsEmptyQrHint': '微信扫码，咨询软件定制与合作',
-  'pages.system.applications.platformAdminOnlyLifecycle': '仅平台管理员可安装、卸载、启用或禁用应用。',
+  'pages.system.applications.platformAdminOnlyLifecycle':
+    '仅平台管理员可安装、卸载、启用或禁用应用。',
   'pages.system.applications.headerTitle': '应用中心',
   'pages.system.applications.detailTitle': '应用详情',
   'pages.system.applications.clientReleasesSectionTitle': '客户端',
@@ -15473,13 +16146,13 @@ export default {
   'pages.system.applications.loadListFailed': '获取应用列表失败',
   'pages.system.applications.scanApplications': '扫描应用',
   'pages.system.applications.scanSuccess': '已扫描并注册 {{count}} 个应用',
-  'pages.system.applications.scanMenuHint': '扫描仅更新应用注册信息。若侧边栏菜单未更新，请点击「一键同步菜单」。',
+  'pages.system.applications.scanMenuHint':
+    '扫描仅更新应用注册信息。若侧边栏菜单未更新，请点击「一键同步菜单」。',
   'pages.system.applications.scanFailed': '扫描应用失败',
   'pages.system.applications.syncAllMenus': '一键同步菜单',
   'pages.system.applications.syncAllNoApps': '暂无已安装的应用',
   'pages.system.applications.syncAllLoading': '正在同步菜单，请稍候…',
-  'pages.system.applications.syncAllSuccess':
-    '已完成 {{count}} 个应用的菜单同步，导航菜单已更新。',
+  'pages.system.applications.syncAllSuccess': '已完成 {{count}} 个应用的菜单同步，导航菜单已更新。',
   'pages.system.applications.syncAllPartial':
     '菜单同步部分完成（{{success}}/{{total}}）。\n{{errors}}',
   'pages.system.applications.syncAllErrManifest': '应用「{{code}}」：{{detail}}',
@@ -15490,7 +16163,8 @@ export default {
   'pages.system.applications.editModalTitle': '应用设置 - {{name}}',
   'pages.system.applications.upgradeModalTitle': '应用升版 - {{name}}',
   'pages.system.applications.restoreDefault': '恢复默认',
-  'pages.system.applications.restoreDefaultConfirm': '确定要恢复默认排序吗？将从 manifest.json 重新同步排序。',
+  'pages.system.applications.restoreDefaultConfirm':
+    '确定要恢复默认排序吗？将从 manifest.json 重新同步排序。',
   'pages.system.applications.restoreSuccess': '已恢复默认设置',
   'pages.system.applications.restoreFailed': '恢复失败',
   'pages.system.applications.nameLabel': '应用名称',
@@ -15513,43 +16187,58 @@ export default {
   'sys.app.kuaiai.name': 'KU-AI',
   'sys.app.kuaiai.desc': '嵌入业务场景的 AI 智能辅助引擎，提供对话助手与业务智能建议',
 
-
   'pages.system.applications.mock.kuaicrm.name': '快客户',
   'pages.system.applications.mock.kuaicrm.desc': '新一代智能客户关系管理系统，敬请期待',
   'pages.system.applications.mock.kuaisrm.name': '快协同',
   'pages.system.applications.mock.kuaisrm.desc': '新一代供应链与供应商协同平台，敬请期待',
   'pages.system.applications.mock.kuaimachinery.name': '机械加工增值包',
-  'pages.system.applications.mock.kuaimachinery.desc': '基于快制造的机械加工行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaimachinery.desc':
+    '基于快制造的机械加工行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaimolding.name': '注塑增值包',
-  'pages.system.applications.mock.kuaimolding.desc': '基于快制造的注塑行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaimolding.desc':
+    '基于快制造的注塑行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaielectronics.name': '电子增值包',
-  'pages.system.applications.mock.kuaielectronics.desc': '基于快制造的电子行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaielectronics.desc':
+    '基于快制造的电子行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaiautoparts.name': '汽配增值包',
-  'pages.system.applications.mock.kuaiautoparts.desc': '基于快制造的汽配行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaiautoparts.desc':
+    '基于快制造的汽配行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaimedical.name': '医疗器械增值包',
-  'pages.system.applications.mock.kuaimedical.desc': '基于快制造的医疗器械行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaimedical.desc':
+    '基于快制造的医疗器械行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaifood.name': '食品饮料增值包',
-  'pages.system.applications.mock.kuaifood.desc': '基于快制造的食品饮料行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaifood.desc':
+    '基于快制造的食品饮料行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaipackaging.name': '包装印刷增值包',
-  'pages.system.applications.mock.kuaipackaging.desc': '基于快制造的包装印刷行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaipackaging.desc':
+    '基于快制造的包装印刷行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaihardware.name': '五金冲压增值包',
-  'pages.system.applications.mock.kuaihardware.desc': '基于快制造的五金冲压行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaihardware.desc':
+    '基于快制造的五金冲压行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaidiecasting.name': '压铸增值包',
-  'pages.system.applications.mock.kuaidiecasting.desc': '基于快制造的压铸行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaidiecasting.desc':
+    '基于快制造的压铸行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaiwiring.name': '线束增值包',
-  'pages.system.applications.mock.kuaiwiring.desc': '基于快制造的线束行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaiwiring.desc':
+    '基于快制造的线束行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaimotor.name': '电机增值包',
-  'pages.system.applications.mock.kuaimotor.desc': '基于快制造的电机行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaimotor.desc':
+    '基于快制造的电机行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaibattery.name': '电池增值包',
-  'pages.system.applications.mock.kuaibattery.desc': '基于快制造的电池行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaibattery.desc':
+    '基于快制造的电池行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuainewequipment.name': '新能源设备增值包',
-  'pages.system.applications.mock.kuainewequipment.desc': '基于快制造的新能源设备行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuainewequipment.desc':
+    '基于快制造的新能源设备行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaisheetmetal.name': '钣金增值包',
-  'pages.system.applications.mock.kuaisheetmetal.desc': '基于快制造的钣金行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaisheetmetal.desc':
+    '基于快制造的钣金行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaimold.name': '模具增值包',
-  'pages.system.applications.mock.kuaimold.desc': '基于快制造的模具行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaimold.desc':
+    '基于快制造的模具行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuaisemiconductor.name': '半导体增值包',
-  'pages.system.applications.mock.kuaisemiconductor.desc': '基于快制造的半导体行业专属能力包，欢迎客户联合共创',
+  'pages.system.applications.mock.kuaisemiconductor.desc':
+    '基于快制造的半导体行业专属能力包，欢迎客户联合共创',
   'pages.system.applications.mock.kuailogistics.name': '快物流',
   'pages.system.applications.mock.kuailogistics.desc': '物流与运力协同管理平台，敬请期待',
   'pages.system.applications.mock.kuaiaftersales.name': '快售后',
@@ -15564,12 +16253,14 @@ export default {
   'pages.system.applications.descriptionLabel': '应用描述',
   'pages.system.applications.descriptionPlaceholder': '请输入应用描述',
   'pages.system.applications.sortOrderHint': '排序顺序 (越小越靠前)',
-  'pages.system.applications.editHint': '提示：仅可调整应用在应用中心的排序；名称与描述以 manifest.json 为准，不可修改。',
+  'pages.system.applications.editHint':
+    '提示：仅可调整应用在应用中心的排序；名称与描述以 manifest.json 为准，不可修改。',
   'pages.system.applications.newVersionLabel': '新版本号',
   'pages.system.applications.newVersionPlaceholder': '例如: 1.0.1',
   'pages.system.applications.changelogLabel': '更新内容',
   'pages.system.applications.changelogPlaceholder': '请输入本次更新的内容...',
-  'pages.system.applications.upgradeHint': '提示：版本升级后，所有使用该应用的组织都将看到最新的版本和更新内容。',
+  'pages.system.applications.upgradeHint':
+    '提示：版本升级后，所有使用该应用的组织都将看到最新的版本和更新内容。',
   'pages.system.applications.resetConfirmPhrase': '我已知晓重置数据会造成的影响',
 
   // 站点设置
@@ -15607,7 +16298,8 @@ export default {
   'pages.system.siteSettings.loginBackgroundEnabled': '启用背景图',
   'pages.system.siteSettings.loginBackgroundImage': '登录页背景图',
   'pages.system.siteSettings.loginBackgroundImagePlaceholder': '背景图 URL 或文件 UUID',
-  'pages.system.siteSettings.loginBackgroundRecommendedSize': '建议尺寸：960 x 1080 px（半屏 1920×1080），将铺满左栏背景',
+  'pages.system.siteSettings.loginBackgroundRecommendedSize':
+    '建议尺寸：960 x 1080 px（半屏 1920×1080），将铺满左栏背景',
   'pages.system.siteSettings.uploadBackgroundImage': '上传背景图',
   'pages.system.siteSettings.clearBackgroundImage': '清除背景图',
   'pages.system.siteSettings.loginBackgroundUploadSuccess': '背景图上传成功',
@@ -15618,7 +16310,8 @@ export default {
   'pages.system.siteSettings.refresh': '刷新',
   'pages.system.siteSettings.save': '保存',
   'pages.system.siteSettings.siteLogo': '站点 Logo',
-  'pages.system.siteSettings.siteLogoTooltip': '上传图片作为站点Logo，未配置时将使用默认Logo（支持租户隔离）',
+  'pages.system.siteSettings.siteLogoTooltip':
+    '上传图片作为站点Logo，未配置时将使用默认Logo（支持租户隔离）',
   'pages.system.siteSettings.uploadLogo': '上传Logo',
   'pages.system.siteSettings.clearLogo': '清除Logo',
   'pages.system.siteSettings.siteName': '站点名称',
@@ -15660,11 +16353,14 @@ export default {
   'pages.system.siteSettings.integrationsDeepseekEnabled': '启用 DeepSeek',
   'pages.system.siteSettings.integrationsDeepseekApiKey': 'API Key',
   'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholder': '请输入 DeepSeek API Key',
-  'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholderConfigured': '已配置，留空则不修改',
-  'pages.system.siteSettings.integrationsDeepseekApiKeyConfigured': 'API Key 已保存，留空保存不会覆盖原值',
+  'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholderConfigured':
+    '已配置，留空则不修改',
+  'pages.system.siteSettings.integrationsDeepseekApiKeyConfigured':
+    'API Key 已保存，留空保存不会覆盖原值',
   'pages.system.siteSettings.integrationsDeepseekModel': '模型',
   'pages.system.siteSettings.integrationsDeepseekModelTooltip': 'DeepSeek V4 模型，详见官方文档',
-  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-flash': 'deepseek-v4-flash（快速）',
+  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-flash':
+    'deepseek-v4-flash（快速）',
   'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-pro': 'deepseek-v4-pro（高质）',
   'pages.system.siteSettings.integrationsDeepseekBaseUrl': 'API Base URL',
   'pages.system.siteSettings.integrationsDeepseekBaseUrlPlaceholder': 'https://api.deepseek.com',
@@ -15676,13 +16372,15 @@ export default {
   'pages.system.siteSettings.integrationsDeepseekOcrApiKey': 'OCR API Key（可选）',
   'pages.system.siteSettings.integrationsDeepseekOcrApiKeyTooltip':
     '与 OCR 端点配套的 API Key；留空则使用上方 DeepSeek API Key（仅当同一服务商时适用）',
-  'pages.system.siteSettings.integrationsDeepseekOcrApiKeyPlaceholder': '留空则沿用 DeepSeek API Key',
+  'pages.system.siteSettings.integrationsDeepseekOcrApiKeyPlaceholder':
+    '留空则沿用 DeepSeek API Key',
   'pages.system.siteSettings.integrationsDeepseekAiTitle': 'KU-AI 能力配置',
   'pages.system.siteSettings.integrationsDeepseekAiHint':
     '控制对话是否调用业务单据工具、知识库 RAG，以及企业专属系统说明。',
   'pages.system.siteSettings.integrationsDeepseekToolsEnabled': '启用业务单据工具',
   'pages.system.siteSettings.integrationsDeepseekRagEnabled': '启用知识库 RAG',
-  'pages.system.siteSettings.integrationsDeepseekRagEmbedding': '使用向量检索（DeepSeek Embedding）',
+  'pages.system.siteSettings.integrationsDeepseekRagEmbedding':
+    '使用向量检索（DeepSeek Embedding）',
   'pages.system.siteSettings.integrationsDeepseekRagTopK': 'RAG 检索条数',
   'pages.system.siteSettings.integrationsDeepseekCustomPrompt': '企业系统说明（追加到系统提示词）',
   'pages.system.siteSettings.integrationsDeepseekCustomPromptPlaceholder':
@@ -15690,9 +16388,11 @@ export default {
   'pages.system.siteSettings.tabLoginPage': '登录页配置',
   'pages.system.siteSettings.currentTenantDomain': '当前组织域名',
   'pages.system.siteSettings.currentTenantDomainEmpty': '未配置',
-  'pages.system.siteSettings.tenantDomainPlaceholder': '请输入组织域名（字母开头，支持小写字母/数字/_/-，长度3-12位）',
+  'pages.system.siteSettings.tenantDomainPlaceholder':
+    '请输入组织域名（字母开头，支持小写字母/数字/_/-，长度3-12位）',
   'pages.system.siteSettings.tenantDomainRequired': '请输入组织域名',
-  'pages.system.siteSettings.tenantDomainPattern': '组织域名必须以小写字母开头，仅支持小写字母、数字、下划线和中划线，且不允许中文',
+  'pages.system.siteSettings.tenantDomainPattern':
+    '组织域名必须以小写字母开头，仅支持小写字母、数字、下划线和中划线，且不允许中文',
   'pages.system.siteSettings.tenantDomainMinLength': '组织域名长度不能少于3位',
   'pages.system.siteSettings.tenantDomainMaxLength': '组织域名长度不能超过12位',
   'pages.system.siteSettings.tenantDomainReserved': '组织域名不能包含保留关键词：{{keyword}}',
@@ -15702,7 +16402,8 @@ export default {
   'pages.system.siteSettings.tabBranchOrganizations': '分支组织',
   'pages.system.siteSettings.tabInitData': '初始项加载',
   'pages.system.siteSettings.branchOrgTitle': '分支组织管理',
-  'pages.system.siteSettings.branchOrgHint': '仅主组织可创建分支组织；分支组织不可继续创建下级组织。',
+  'pages.system.siteSettings.branchOrgHint':
+    '仅主组织可创建分支组织；分支组织不可继续创建下级组织。',
   'pages.system.siteSettings.branchOrgCreateButton': '新增分支组织',
   'pages.system.siteSettings.branchOrgColumnName': '组织名称',
   'pages.system.siteSettings.branchOrgColumnDomain': '域名',
@@ -15760,13 +16461,15 @@ export default {
   'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_11': '(UTC-11:00) 协调世界时-11',
   'pages.system.siteSettings.timezoneValue.Pacific_Honolulu': '(UTC-10:00) 夏威夷',
   'pages.system.siteSettings.timezoneValue.America_Anchorage': '(UTC-09:00) 阿拉斯加',
-  'pages.system.siteSettings.timezoneValue.America_Los_Angeles': '(UTC-08:00) 太平洋时间 (美国和加拿大)',
+  'pages.system.siteSettings.timezoneValue.America_Los_Angeles':
+    '(UTC-08:00) 太平洋时间 (美国和加拿大)',
   'pages.system.siteSettings.timezoneValue.America_Denver': '(UTC-07:00) 山地时间 (美国和加拿大)',
   'pages.system.siteSettings.timezoneValue.America_Chicago': '(UTC-06:00) 中部时间 (美国和加拿大)',
   'pages.system.siteSettings.timezoneValue.America_New_York': '(UTC-05:00) 东部时间 (美国和加拿大)',
   'pages.system.siteSettings.timezoneValue.America_Halifax': '(UTC-04:00) 大西洋时间 (加拿大)',
   'pages.system.siteSettings.timezoneValue.America_Sao_Paulo': '(UTC-03:00) 巴西利亚',
-  'pages.system.siteSettings.timezoneValue.America_Argentina_Buenos_Aires': '(UTC-03:00) 布宜诺斯艾利斯',
+  'pages.system.siteSettings.timezoneValue.America_Argentina_Buenos_Aires':
+    '(UTC-03:00) 布宜诺斯艾利斯',
   'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_2': '(UTC-02:00) 协调世界时-02',
   'pages.system.siteSettings.timezoneValue.Atlantic_Azores': '(UTC-01:00) 亚速尔群岛',
   'pages.system.siteSettings.timezoneValue.Etc_UTC': '(UTC+00:00) 协调世界时',
@@ -15798,7 +16501,8 @@ export default {
   'pages.system.configCenter.tabBlueprint': '蓝图设置',
   'pages.system.configCenter.tabBlueprintDesc': '控制业务单据功能的启用与关闭',
   'pages.system.configCenter.tabProcess': '流程设置',
-  'pages.system.configCenter.tabProcessDesc': '配置业务流转与前置条件（默认不经过人工审核；需审核时在「审批流程」中启用对应流程）',
+  'pages.system.configCenter.tabProcessDesc':
+    '配置业务流转与前置条件（默认不经过人工审核；需审核时在「审批流程」中启用对应流程）',
   'pages.system.configCenter.tabParameters': '参数设置',
   'pages.system.configCenter.tabParametersDesc': '设置业务本身的基础规则与属性',
   'pages.system.configCenter.tabAudit': '审核设置',
@@ -15817,15 +16521,18 @@ export default {
   'pages.system.configCenter.processCategory.planning': '计划流程',
   'pages.system.configCenter.processCategory.planningDesc': '需求与生产计划流转',
   'pages.system.configCenter.processCategory.procurement': '采购流程',
-  'pages.system.configCenter.processCategory.procurementDesc': '采购申请前置等流转规则（采购单是否人工审核请在「审批流程」中启用）',
+  'pages.system.configCenter.processCategory.procurementDesc':
+    '采购申请前置等流转规则（采购单是否人工审核请在「审批流程」中启用）',
   'pages.system.configCenter.processCategory.work_order': '工单流程',
   'pages.system.configCenter.processCategory.work_orderDesc': '领料确认与开工/报工前置条件',
   'pages.system.configCenter.processCategory.reporting': '报工流程',
   'pages.system.configCenter.processCategory.reportingDesc': '报工审核',
   'pages.system.configCenter.param.purchase_auto_approval': '采购自动审批',
-  'pages.system.configCenter.param.purchase_auto_approval_desc': '开启后，采购订单提交后自动通过审核',
+  'pages.system.configCenter.param.purchase_auto_approval_desc':
+    '开启后，采购订单提交后自动通过审核',
   'pages.system.configCenter.param.reporting_auto_approve': '报工自动审核',
-  'pages.system.configCenter.param.reporting_auto_approve_desc': '开启后，报工记录提交后自动记为有效，无需再点「通过」。与「审批流程」中的单据人工审核无关。',
+  'pages.system.configCenter.param.reporting_auto_approve_desc':
+    '开启后，报工记录提交后自动记为有效，无需再点「通过」。与「审批流程」中的单据人工审核无关。',
   'pages.system.configCenter.categoryTitle': '参数分类',
   'pages.system.configCenter.processCategoryTitle': '流程分类',
   'pages.system.configCenter.refresh': '刷新',
@@ -15840,7 +16547,8 @@ export default {
   'pages.system.configCenter.saveFailed': '保存失败',
   'pages.system.configCenter.loadFailed': '加载配置失败',
   'pages.system.configCenter.processAuditGuidanceTitle': '关于单据审核',
-  'pages.system.configCenter.processAuditGuidanceDesc': '各业务单据默认不进入人工审核；仅在「审批流程」中为对应单据启用流程后，才会出现待审/通过/驳回等审核环节。本页开关用于计划、采购前置、工单领料等业务流转，不再承担「开关审核」的含义。',
+  'pages.system.configCenter.processAuditGuidanceDesc':
+    '各业务单据默认不进入人工审核；仅在「审批流程」中为对应单据启用流程后，才会出现待审/通过/驳回等审核环节。本页开关用于计划、采购前置、工单领料等业务流转，不再承担「开关审核」的含义。',
   'pages.system.configCenter.auditSwitch.sectionTitle': '单据审核',
   'pages.system.configCenter.auditBinding.document': '单据',
   'pages.system.configCenter.auditBinding.switch': '审核开关',
@@ -15853,16 +16561,19 @@ export default {
   'pages.system.configCenter.auditSwitch.updateSuccess': '审核开关已更新',
   'pages.system.configCenter.auditSwitch.updateFailed': '审核开关更新失败',
   'pages.system.configCenter.notification.title': '消息提醒',
-  'pages.system.configCenter.notification.desc': '当单据发生可配置动作时，通过可配置渠道通知指定人员。已开通应用的相关单据类型将一并显示。',
+  'pages.system.configCenter.notification.desc':
+    '当单据发生可配置动作时，通过可配置渠道通知指定人员。已开通应用的相关单据类型将一并显示。',
   'pages.system.configCenter.notification.preset.button': '加载预设',
-  'pages.system.configCenter.notification.preset.loaded': '已加载 {{created}} 条预设规则（当前共 {{total}} 条）',
+  'pages.system.configCenter.notification.preset.loaded':
+    '已加载 {{created}} 条预设规则（当前共 {{total}} 条）',
   'pages.system.configCenter.notification.preset.scopesUpdated':
     '已按预设补齐 {{updated}} 条规则的收件范围（当前共 {{total}} 条）',
   'pages.system.configCenter.notification.preset.repairedTemplates':
     '已新建 {{templatesCreated}} 个消息模板，并为 {{repaired}} 条规则补绑模板（当前共 {{total}} 条规则）',
   'pages.system.configCenter.notification.preset.loadedAndUpdated':
     '新增 {{created}} 条、补齐 {{updated}} 条收件范围（当前共 {{total}} 条）',
-  'pages.system.configCenter.notification.preset.missingTemplate': '未新增规则：请先在「消息管理 → 消息模板」中加载对应应用模板预设，再点此按钮',
+  'pages.system.configCenter.notification.preset.missingTemplate':
+    '未新增规则：请先在「消息管理 → 消息模板」中加载对应应用模板预设，再点此按钮',
   'pages.system.configCenter.notification.preset.alreadyExists': '预设规则均已存在，无需重复加载',
   'pages.system.configCenter.notification.preset.failed': '加载消息提醒预设失败',
   'pages.system.configCenter.notification.create': '新建通知规则',
@@ -15900,7 +16611,8 @@ export default {
   'pages.system.configCenter.notification.scene.default': '已配置通知规则',
   'pages.system.configCenter.notification.recipients.specifiedUsers': '指定人员({{count}})',
   'pages.system.configCenter.notification.recipients.fixedUsers': '固定人员({{count}})',
-  'pages.system.configCenter.notification.recipients.formUserWithDefaults': '开单用户指定(默认{{count}}人)',
+  'pages.system.configCenter.notification.recipients.formUserWithDefaults':
+    '开单用户指定(默认{{count}}人)',
   'pages.system.configCenter.notification.form.fixedUsers': '固定人员',
   'pages.system.configCenter.notification.form.fixedUsersPlaceholder':
     '每次均通知，开单人不可改；可不勾选开单用户指定',
@@ -15918,7 +16630,8 @@ export default {
   'pages.system.configCenter.notification.form.selectDocumentFirst': '请先选择单据类型',
   'pages.system.configCenter.notification.form.template': '消息模板',
   'pages.system.configCenter.notification.form.channels': '通知渠道',
-  'pages.system.configCenter.notification.form.channelsPlaceholder': '默认站内通知，可多选其它已配置渠道',
+  'pages.system.configCenter.notification.form.channelsPlaceholder':
+    '默认站内通知，可多选其它已配置渠道',
   'pages.system.configCenter.notification.form.designatedSection': '指定通知',
   'pages.system.configCenter.notification.form.formUserSection': '用户指定',
   'pages.system.configCenter.notification.form.formUserSectionDesc':
@@ -15930,7 +16643,8 @@ export default {
   'pages.system.configCenter.notification.scope.creator': '创建人',
   'pages.system.configCenter.notification.scope.salesman': '业务员',
   'pages.system.configCenter.notification.scope.follower': '跟单员',
-  'pages.system.configCenter.notification.error.actionMismatch': '触发动作与单据类型不匹配，请重新选择',
+  'pages.system.configCenter.notification.error.actionMismatch':
+    '触发动作与单据类型不匹配，请重新选择',
   'pages.system.configCenter.notification.document.sales_order': '销售订单',
   'pages.system.configCenter.notification.document.quotation': '报价单',
   'pages.system.configCenter.notification.document.purchase_order': '采购订单',
@@ -15979,21 +16693,28 @@ export default {
   'pages.system.configCenter.notification.action.outbound.submitted': '提交',
   'pages.system.configCenter.notification.action.outbound.confirmed': '确认出库',
   'pages.system.configCenter.scoreProfiles.title': 'APS-Lite 综合打分权重模板',
-  'pages.system.configCenter.scoreProfiles.desc': '分别配置排程（scheduling）与备料（picking）场景的维度权重；消费端包括甘特排序、配料中心与出库领料队列。',
+  'pages.system.configCenter.scoreProfiles.desc':
+    '分别配置排程（scheduling）与备料（picking）场景的维度权重；消费端包括甘特排序、配料中心与出库领料队列。',
   'pages.system.configCenter.scoreProfiles.schedulingTitle': '排程场景 scheduling',
-  'pages.system.configCenter.scoreProfiles.schedulingDesc': '用于甘特默认排序与控制塔风险参考，不触发自动排程。',
+  'pages.system.configCenter.scoreProfiles.schedulingDesc':
+    '用于甘特默认排序与控制塔风险参考，不触发自动排程。',
   'pages.system.configCenter.scoreProfiles.pickingTitle': '备料场景 picking',
-  'pages.system.configCenter.scoreProfiles.pickingDesc': '用于配料中心提醒与出库管理生产领料排序（缺料多先备）。',
+  'pages.system.configCenter.scoreProfiles.pickingDesc':
+    '用于配料中心提醒与出库管理生产领料排序（缺料多先备）。',
   'pages.system.configCenter.scoreProfiles.kittingSemantic': '齐套语义',
   'pages.system.configCenter.scoreProfiles.kittingMode.direct': '齐套高优先（排程开产）',
   'pages.system.configCenter.scoreProfiles.kittingMode.invert': '缺料多优先（备料）',
   'pages.system.configCenter.scoreProfiles.weightSum': '权重合计 {{sum}}（保存后引擎会自动归一化）',
   'pages.system.configCenter.scoreProfiles.saveButton': '保存权重模板',
   'pages.system.configCenter.scoreProfiles.sumMustBePositive': '各场景权重之和须大于 0',
-  'pages.system.configCenter.scoreProfiles.savedSkippedRecalc': '打分权重模板已保存（综合打分未启用，跳过重算）',
-  'pages.system.configCenter.scoreProfiles.savedRecalcedCount': '打分权重模板已保存，已重算 {{count}} 个工单的综合分',
-  'pages.system.configCenter.scoreProfiles.savedButRecalcFailedWithReason': '权重已保存，但综合分重算失败：{{reason}}',
-  'pages.system.configCenter.scoreProfiles.savedButRecalcFailed': '权重已保存，但综合分重算失败，请稍后在排程页手动刷新',
+  'pages.system.configCenter.scoreProfiles.savedSkippedRecalc':
+    '打分权重模板已保存（综合打分未启用，跳过重算）',
+  'pages.system.configCenter.scoreProfiles.savedRecalcedCount':
+    '打分权重模板已保存，已重算 {{count}} 个工单的综合分',
+  'pages.system.configCenter.scoreProfiles.savedButRecalcFailedWithReason':
+    '权重已保存，但综合分重算失败：{{reason}}',
+  'pages.system.configCenter.scoreProfiles.savedButRecalcFailed':
+    '权重已保存，但综合分重算失败，请稍后在排程页手动刷新',
   'pages.system.configCenter.scoreProfiles.saveFailed': '保存失败',
   'pages.system.configCenter.scoreProfiles.weight.manual_priority': '人工优先级',
   'pages.system.configCenter.scoreProfiles.weight.due_urgency': '交期紧迫度',
@@ -16021,13 +16742,15 @@ export default {
   'pages.system.configCenter.auditSwitch.production_plan.label': '生产计划审核',
   'pages.system.configCenter.auditSwitch.production_plan.desc': '生产计划提交后是否进入人工审核',
   'pages.system.configCenter.auditSwitch.quality_inspection.label': '质检审核',
-  'pages.system.configCenter.auditSwitch.quality_inspection.desc': '来料/过程/成品质检是否进入人工审核',
+  'pages.system.configCenter.auditSwitch.quality_inspection.desc':
+    '来料/过程/成品质检是否进入人工审核',
   'pages.system.configCenter.auditSwitch.incoming_inspection.label': '来料检验审核',
   'pages.system.configCenter.auditSwitch.incoming_inspection.desc': '来料检验单是否进入人工审核',
   'pages.system.configCenter.auditSwitch.process_inspection.label': '过程检验审核',
   'pages.system.configCenter.auditSwitch.process_inspection.desc': '过程检验单是否进入人工审核',
   'pages.system.configCenter.auditSwitch.finished_goods_inspection.label': '成品检验审核',
-  'pages.system.configCenter.auditSwitch.finished_goods_inspection.desc': '成品检验单是否进入人工审核',
+  'pages.system.configCenter.auditSwitch.finished_goods_inspection.desc':
+    '成品检验单是否进入人工审核',
   'pages.system.configCenter.auditSwitch.production_picking.label': '生产领料审核',
   'pages.system.configCenter.auditSwitch.production_picking.desc': '生产领料单是否进入人工审核',
   'pages.system.configCenter.auditSwitch.production_return.label': '生产退料审核',
@@ -16074,7 +16797,8 @@ export default {
     '不含应用注册（由平台管理员处理）：语言、系统字典、系统参数、编码规则、审批/消息/打印模板预设，以及已安装应用的菜单同步。',
   'pages.system.configCenter.tenantInit.runRequiredButton': '加载必备初始项',
   'pages.system.configCenter.tenantInit.optionalTitle': '补充初始项（可选）',
-  'pages.system.configCenter.tenantInit.optionalDesc': '按需加载部门、职位、角色、仓库等业务预置数据。',
+  'pages.system.configCenter.tenantInit.optionalDesc':
+    '按需加载部门、职位、角色、仓库等业务预置数据。',
   'pages.system.configCenter.tenantInit.runOptionalButton': '加载选中补充项',
   'pages.system.configCenter.tenantInit.selectOptionalFirst': '请先勾选要加载的补充项',
   'pages.system.configCenter.tenantInit.refreshConfig': '刷新配置',
@@ -16114,10 +16838,13 @@ export default {
   'pages.system.configCenter.tenantInit.itemDesc.language': '简体中文、English 等系统语言',
   'pages.system.configCenter.tenantInit.itemDesc.data_dictionary':
     'CURRENCY、TIMEZONE 及已安装应用归属的系统字典',
-  'pages.system.configCenter.tenantInit.itemDesc.system_parameter': '系统名称、时区、货币等参数（必选）',
+  'pages.system.configCenter.tenantInit.itemDesc.system_parameter':
+    '系统名称、时区、货币等参数（必选）',
   'pages.system.configCenter.tenantInit.itemDesc.code_rule': '工单、物料、销售单等编码规则',
-  'pages.system.configCenter.tenantInit.itemDesc.approval_process_preset': '采购单、销售单等审批流程',
-  'pages.system.configCenter.tenantInit.itemDesc.message_template_preset': '审批通知、验证码等消息模板',
+  'pages.system.configCenter.tenantInit.itemDesc.approval_process_preset':
+    '采购单、销售单等审批流程',
+  'pages.system.configCenter.tenantInit.itemDesc.message_template_preset':
+    '审批通知、验证码等消息模板',
   'pages.system.configCenter.tenantInit.itemDesc.print_template_preset': '通用标签、收据等打印模板',
   'pages.system.configCenter.tenantInit.itemDesc.menu_sync':
     '按已安装应用将 manifest 菜单写入侧栏（不安装/启用应用，由平台管理员处理）',
@@ -16126,7 +16853,8 @@ export default {
   'pages.system.configCenter.tenantInit.itemDesc.department_preset': '中国中小制造业极简部门结构',
   'pages.system.configCenter.tenantInit.itemDesc.position_preset': '总经理、生产经理等常用职位',
   'pages.system.configCenter.tenantInit.itemDesc.role_preset': '部门经理、普通员工等常用角色',
-  'pages.system.configCenter.tenantInit.itemDesc.warehouse_preset': '原料仓、成品仓、半成品仓、不良品仓等',
+  'pages.system.configCenter.tenantInit.itemDesc.warehouse_preset':
+    '原料仓、成品仓、半成品仓、不良品仓等',
   'pages.system.configCenter.tenantInit.itemDesc.operation_preset':
     '已改为在「工序管理」中按行业加载；勾选此项不会自动写入数据，请到工序页选择行业与工序预设。',
   'pages.system.configCenter.tenantInit.itemDesc.variant_attribute_preset':
@@ -16134,22 +16862,28 @@ export default {
   'pages.system.configCenter.tenantInit.itemDesc.kuaiai_faq_preset':
     '生产工单、报工、委外、库存等 15 条出厂操作问答',
   'pages.system.configCenter.param.work_order_allow_production_without_material': '允许不带料生产',
-  'pages.system.configCenter.param.work_order_allow_production_without_material_desc': '开启时，工单下达不检查缺料，只管制造过程；关闭时，缺料则禁止下达。',
+  'pages.system.configCenter.param.work_order_allow_production_without_material_desc':
+    '开启时，工单下达不检查缺料，只管制造过程；关闭时，缺料则禁止下达。',
   'pages.system.configCenter.param.work_order_material_shortage_block_level': '缺料拦截级别',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level_desc': '0=不拦截，1=下达拦截，2=下达+开工拦截，3=下达+开工+报工拦截。',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level_guide': '建议：常规生产用 1；对线边库存严格控制可用 2；必须先齐套再报工可用 3。',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level_desc':
+    '0=不拦截，1=下达拦截，2=下达+开工拦截，3=下达+开工+报工拦截。',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level_guide':
+    '建议：常规生产用 1；对线边库存严格控制可用 2；必须先齐套再报工可用 3。',
   'pages.system.configCenter.param.work_order_auto_generate': '自动生成工单',
   'pages.system.configCenter.param.work_order_auto_generate_desc': '是否自动根据需求生成工单',
   'pages.system.configCenter.param.automation_push_default_mode': '下推默认生成方式',
-  'pages.system.configCenter.param.automation_push_default_mode_desc': '控制下推生成下游单据时默认是正式单据还是草稿单据',
+  'pages.system.configCenter.param.automation_push_default_mode_desc':
+    '控制下推生成下游单据时默认是正式单据还是草稿单据',
   'pages.system.configCenter.param.automation_push_default_mode_opt_confirm': '正式单据',
   'pages.system.configCenter.param.automation_push_default_mode_opt_draft': '草稿单据',
   'pages.system.configCenter.param.work_order_priority': '工单优先级',
   'pages.system.configCenter.param.work_order_priority_desc': '是否启用工单优先级管理',
   'pages.system.configCenter.param.work_order_score_enabled': '工单综合打分',
-  'pages.system.configCenter.param.work_order_score_enabled_desc': '启用后按多维度加权计算排程/备料综合分，供排程排序与备料队列使用',
+  'pages.system.configCenter.param.work_order_score_enabled_desc':
+    '启用后按多维度加权计算排程/备料综合分，供排程排序与备料队列使用',
   'pages.system.configCenter.param.work_order_score_stale_minutes': '综合分缓存时长（分钟）',
-  'pages.system.configCenter.param.work_order_score_stale_minutes_desc': '超过该时长后列表/排程页可触发异步重算，默认 30 分钟',
+  'pages.system.configCenter.param.work_order_score_stale_minutes_desc':
+    '超过该时长后列表/排程页可触发异步重算，默认 30 分钟',
   'pages.system.configCenter.param.work_order_split': '工单拆分',
   'pages.system.configCenter.param.work_order_split_desc': '是否支持工单拆分',
   'pages.system.configCenter.param.work_order_merge': '工单合并',
@@ -16158,8 +16892,10 @@ export default {
   'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_desc':
     '末道工序每笔已审核报工按合格数量各建一张待入库单（无需等工单全部报满）。「入库通知」为成品入库检验流程预留，当前可先选「关闭」或「直接入库」。',
   'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_none': '关闭',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_direct': '直接入库',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_notice': '入库通知（成品入库检验预留）',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_direct':
+    '直接入库',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_notice':
+    '入库通知（成品入库检验预留）',
   'pages.system.configCenter.param.reporting_quick_reporting': '快速报工',
   'pages.system.configCenter.param.reporting_quick_reporting_desc': '是否启用快速报工功能',
   'pages.system.configCenter.param.reporting_parameter_reporting': '带参数报工',
@@ -16169,22 +16905,31 @@ export default {
   'pages.system.configCenter.param.reporting_default_production_worker_mode': '报工默认生产人员',
   'pages.system.configCenter.param.reporting_default_production_worker_mode_desc':
     '代报工或快捷报工打开表单时，生产人员字段的默认策略：当前用户、工序派工人员，或自动（派工优先，否则工序档案默认人员，再否则当前用户）。工序档案默认人员在人员下拉中显示「默认」标记。',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_current_user': '默认当前登录用户',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_operation_assigned': '默认工序派工人员',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_auto': '自动（派工 → 工序默认 → 当前用户）',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_current_user':
+    '默认当前登录用户',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_operation_assigned':
+    '默认工序派工人员',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_auto':
+    '自动（派工 → 工序默认 → 当前用户）',
   'pages.system.configCenter.param.reporting_data_correction': '报工数据修正',
   'pages.system.configCenter.param.reporting_data_correction_desc': '是否允许修正已提交的报工数据',
   'pages.system.configCenter.param.bom_bom_multi_version_allowed': 'BOM 允许多版本共存',
-  'pages.system.configCenter.param.bom_bom_multi_version_allowed_desc': '开启时，需求计算时可选择 BOM 版本；关闭时，统一使用各物料的默认 BOM 版本。',
+  'pages.system.configCenter.param.bom_bom_multi_version_allowed_desc':
+    '开启时，需求计算时可选择 BOM 版本；关闭时，统一使用各物料的默认 BOM 版本。',
   'pages.system.configCenter.param.planning_require_production_plan': '需求必须经生产计划',
-  'pages.system.configCenter.param.planning_require_production_plan_desc': '开启时，需求计算必须生成生产计划再下工单；关闭时可直连工单。',
+  'pages.system.configCenter.param.planning_require_production_plan_desc':
+    '开启时，需求计算必须生成生产计划再下工单；关闭时可直连工单。',
   'pages.system.configCenter.param.procurement_require_purchase_requisition': '必须采购申请',
-  'pages.system.configCenter.param.procurement_require_purchase_requisition_desc': '是否必须先创建采购申请才能下达采购订单',
+  'pages.system.configCenter.param.procurement_require_purchase_requisition_desc':
+    '是否必须先创建采购申请才能下达采购订单',
   'pages.system.configCenter.param.purchase_tolerance_percentage': '采购超收容差(%)',
-  'pages.system.configCenter.param.purchase_tolerance_percentage_desc': '采购入库相对订单数量允许的超收百分比上限（0-100）。',
-  'pages.system.configCenter.param.purchase_tolerance_percentage_guide': '建议：标准件 0-2%，外协来料可 3-5%；设置过大可能掩盖采购执行偏差。',
+  'pages.system.configCenter.param.purchase_tolerance_percentage_desc':
+    '采购入库相对订单数量允许的超收百分比上限（0-100）。',
+  'pages.system.configCenter.param.purchase_tolerance_percentage_guide':
+    '建议：标准件 0-2%，外协来料可 3-5%；设置过大可能掩盖采购执行偏差。',
   'app.master-data.materialForm.inspectionStagesTitle': '分场景质检策略',
-  'app.master-data.materialForm.inspectionStagesHint': '按业务场景分别配置质检模式（无/简易/方案）及检验方案；过程检验（IPQC）请在工序资料中配置。',
+  'app.master-data.materialForm.inspectionStagesHint':
+    '按业务场景分别配置质检模式（无/简易/方案）及检验方案；过程检验（IPQC）请在工序资料中配置。',
   'app.master-data.materialForm.inspectionStageColumn': '场景',
   'app.master-data.materialForm.inspectionStageIqc': '来料 IQC',
   'app.master-data.materialForm.inspectionStageFqc': '成品 FQC',
@@ -16192,25 +16937,40 @@ export default {
   'app.master-data.materialForm.inspectionStageIpqc': '过程 IPQC',
   'app.master-data.materialForm.inspectionStageOrgStatus': '组织环节',
   'app.master-data.materialForm.inspectionStagePending': '待生效',
-  'app.master-data.operationForm.inspectionStagesHint': '工序过程检验（IPQC）配置；报工自动建单时优先使用本工序设置。',
+  'app.master-data.operationForm.inspectionStagesHint':
+    '工序过程检验（IPQC）配置；报工自动建单时优先使用本工序设置。',
   'app.master-data.operationForm.inspectionTitle': '过程检验（IPQC）',
   'app.master-data.operationForm.inspectionStageIpqc': '过程 IPQC',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt': '收货前必须来料检验',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt_desc': '开启后，采购收货前必须完成来料检验并通过。',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material': '代工来料入库前必须来料检验',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material_desc': '开启后，代工来料确认入库前必须完成来料检验并通过。',
-  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt': '成品检验合格才入库',
-  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt_desc': '开启后，成品入库确认前须存在该工单下合格且已审核的成品检验单（仅对 FQC 策略≠无 的物料生效）。',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt':
+    '收货前必须来料检验',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt_desc':
+    '开启后，采购收货前必须完成来料检验并通过。',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material':
+    '代工来料入库前必须来料检验',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material_desc':
+    '开启后，代工来料确认入库前必须完成来料检验并通过。',
+  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt':
+    '成品检验合格才入库',
+  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt_desc':
+    '开启后，成品入库确认前须存在该工单下合格且已审核的成品检验单（仅对 FQC 策略≠无 的物料生效）。',
   'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only': '仅仓库可确认领料',
-  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only_desc': '开启后，领料确认仅允许仓储角色执行。',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start': '开工前必须确认领料',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start_desc': '开启后，未确认领料的工单不允许开工。',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting': '报工前必须确认领料',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting_desc': '开启后，未确认领料的工单不允许报工。',
+  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only_desc':
+    '开启后，领料确认仅允许仓储角色执行。',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start':
+    '开工前必须确认领料',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start_desc':
+    '开启后，未确认领料的工单不允许开工。',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting':
+    '报工前必须确认领料',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting_desc':
+    '开启后，未确认领料的工单不允许报工。',
   'pages.system.configCenter.param.work_order_picking_issue_strategy': '下达后自动生成领料单',
-  'pages.system.configCenter.param.work_order_picking_issue_strategy_desc': '开启后，工单下达时自动生成领料申请/领料单；关闭则需手动创建。',
-  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes': '允许非仓库人员确认领料',
-  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes_desc': '开启后，除了仓库人员，允许生产/车间相关角色执行领料确认。',
+  'pages.system.configCenter.param.work_order_picking_issue_strategy_desc':
+    '开启后，工单下达时自动生成领料申请/领料单；关闭则需手动创建。',
+  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes':
+    '允许非仓库人员确认领料',
+  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes_desc':
+    '开启后，除了仓库人员，允许生产/车间相关角色执行领料确认。',
   'pages.system.configCenter.param.warehouse_batch_management': '批号管理',
   'pages.system.configCenter.param.warehouse_batch_management_desc': '是否启用批号管理',
   'pages.system.configCenter.param.warehouse_serial_management': '序列号管理',
@@ -16222,43 +16982,68 @@ export default {
   'pages.system.configCenter.param.warehouse_lifo': '后进先出（LIFO）',
   'pages.system.configCenter.param.warehouse_lifo_desc': '是否启用后进先出规则',
   'pages.system.configCenter.param.warehouse_location_management': '库位管理',
-  'pages.system.configCenter.param.warehouse_location_management_desc': '启用库位主数据与业务选填库位，不强制每笔入库必须填写',
+  'pages.system.configCenter.param.warehouse_location_management_desc':
+    '启用库位主数据与业务选填库位，不强制每笔入库必须填写',
   'pages.system.configCenter.param.warehouse_auto_outbound': '自动出库',
   'pages.system.configCenter.param.warehouse_auto_outbound_desc': '是否支持自动出库',
   'pages.system.configCenter.param.finance_auto_write_off_precision_limit': '财务尾差自动冲平限额',
-  'pages.system.configCenter.param.finance_auto_write_off_precision_limit_desc': '核销时允许的尾差自动平衡限额（本位币），超过此值需人工干预。',
+  'pages.system.configCenter.param.finance_auto_write_off_precision_limit_desc':
+    '核销时允许的尾差自动平衡限额（本位币），超过此值需人工干预。',
   'pages.system.configCenter.param.finance_revenue_recognition': '收入确认时点（应收）',
-  'pages.system.configCenter.param.finance_revenue_recognition_desc': '决定应收由销售出库确认生成，还是由销项发票生成；二者互斥，避免重复记账。',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_shipment': '以出库确认（发货）为准',
+  'pages.system.configCenter.param.finance_revenue_recognition_desc':
+    '决定应收由销售出库确认生成，还是由销项发票生成；二者互斥，避免重复记账。',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_shipment':
+    '以出库确认（发货）为准',
   'pages.system.configCenter.param.finance_revenue_recognition_opt_on_invoice': '以销项发票为准',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_milestone': '以合同里程碑为准',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_mixed': '混合（有里程碑按节点，否则按发货）',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_milestone':
+    '以合同里程碑为准',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_mixed':
+    '混合（有里程碑按节点，否则按发货）',
   'pages.system.configCenter.param.finance_payable_recognition': '应付确认时点（应付）',
-  'pages.system.configCenter.param.finance_payable_recognition_desc': '决定应付由采购入库确认生成，还是由进项发票生成；二者互斥。',
-  'pages.system.configCenter.param.finance_payable_recognition_opt_on_receipt': '以采购入库确认为准',
-  'pages.system.configCenter.param.finance_payable_recognition_opt_on_purchase_invoice': '以进项发票为准',
-  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice': '销售开票自动生成应收',
-  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice_desc': '仅在「收入确认=销项发票」时生效：创建销售发票时自动生成应收（可关闭改为手工建应收）。',
-  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice': '采购开票自动生成应付',
-  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice_desc': '仅在「应付确认=进项发票」时生效：创建采购发票时自动生成应付。',
+  'pages.system.configCenter.param.finance_payable_recognition_desc':
+    '决定应付由采购入库确认生成，还是由进项发票生成；二者互斥。',
+  'pages.system.configCenter.param.finance_payable_recognition_opt_on_receipt':
+    '以采购入库确认为准',
+  'pages.system.configCenter.param.finance_payable_recognition_opt_on_purchase_invoice':
+    '以进项发票为准',
+  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice':
+    '销售开票自动生成应收',
+  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice_desc':
+    '仅在「收入确认=销项发票」时生效：创建销售发票时自动生成应收（可关闭改为手工建应收）。',
+  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice':
+    '采购开票自动生成应付',
+  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice_desc':
+    '仅在「应付确认=进项发票」时生效：创建采购发票时自动生成应付。',
   'pages.system.configCenter.param.finance_credit_limit_enabled': '启用客户信用额度管控',
-  'pages.system.configCenter.param.finance_credit_limit_enabled_desc': '开启后，销售订单审核与出库确认将校验客户信用额度（主数据维护额度）。',
+  'pages.system.configCenter.param.finance_credit_limit_enabled_desc':
+    '开启后，销售订单审核与出库确认将校验客户信用额度（主数据维护额度）。',
   'pages.system.configCenter.param.sales_low_margin_threshold_percent': '低毛利预警阈值 (%)',
-  'pages.system.configCenter.param.sales_low_margin_threshold_percent_desc': '销售订单毛利率低于此值时触发预警或审批。',
-  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent': '价格偏差触发审批阈值 (%)',
-  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent_desc': '实际定价与基准价偏差超过此比例时触发审批。',
+  'pages.system.configCenter.param.sales_low_margin_threshold_percent_desc':
+    '销售订单毛利率低于此值时触发预警或审批。',
+  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent':
+    '价格偏差触发审批阈值 (%)',
+  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent_desc':
+    '实际定价与基准价偏差超过此比例时触发审批。',
   'pages.system.configCenter.param.sales_require_contract_before_order': '新建销售订单须关联合同',
-  'pages.system.configCenter.param.sales_require_contract_before_order_desc': '开启后，手工新建销售订单必须选择已生效的销售合同。',
+  'pages.system.configCenter.param.sales_require_contract_before_order_desc':
+    '开启后，手工新建销售订单必须选择已生效的销售合同。',
   'pages.system.configCenter.param.sales_contract_expiry_alert_days': '合同到期预警天数',
-  'pages.system.configCenter.param.sales_contract_expiry_alert_days_desc': '合同失效日前多少天开始在预警面板提示。',
-  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release': '释放完毕自动关闭合同',
-  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release_desc': '单次或框架合同金额/数量全部释放后自动置为已关闭。',
+  'pages.system.configCenter.param.sales_contract_expiry_alert_days_desc':
+    '合同失效日前多少天开始在预警面板提示。',
+  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release':
+    '释放完毕自动关闭合同',
+  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release_desc':
+    '单次或框架合同金额/数量全部释放后自动置为已关闭。',
   'pages.system.configCenter.param.sales_contract_milestone_required': '框架合同须维护收款计划',
-  'pages.system.configCenter.param.sales_contract_milestone_required_desc': '开启后，新建框架合同必须至少维护一条里程碑收款计划。',
-  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent': '采购价格波动阈值 (%)',
-  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent_desc': '采购价相对于标准/历史价格波动超过此值时预警。',
+  'pages.system.configCenter.param.sales_contract_milestone_required_desc':
+    '开启后，新建框架合同必须至少维护一条里程碑收款计划。',
+  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent':
+    '采购价格波动阈值 (%)',
+  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent_desc':
+    '采购价相对于标准/历史价格波动超过此值时预警。',
   'pages.system.configCenter.param.sales_audit_enabled': '销售订单审核',
-  'pages.system.configCenter.param.sales_audit_enabled_desc': '是否启用销售订单审核流程。若关闭，订单提交后将自动通过/生效。',
+  'pages.system.configCenter.param.sales_audit_enabled_desc':
+    '是否启用销售订单审核流程。若关闭，订单提交后将自动通过/生效。',
   'pages.system.configCenter.param.quality_incoming_inspection': '来料检验',
   'pages.system.configCenter.param.quality_incoming_inspection_desc': '是否启用来料检验',
   'pages.system.configCenter.param.quality_process_inspection': '过程检验',
@@ -16268,40 +17053,61 @@ export default {
   'pages.system.configCenter.param.quality_defect_handling': '不合格品处理',
   'pages.system.configCenter.param.quality_defect_handling_desc': '是否启用不合格品处理',
   'pages.system.configCenter.param.quality_stage_iqc_enabled': '来料检验环节 (IQC)',
-  'pages.system.configCenter.param.quality_stage_iqc_enabled_desc': '组织是否启用来料检验环节；关闭后不会自动创建 IQC 待检单，且无法手动下推来料检验。',
+  'pages.system.configCenter.param.quality_stage_iqc_enabled_desc':
+    '组织是否启用来料检验环节；关闭后不会自动创建 IQC 待检单，且无法手动下推来料检验。',
   'pages.system.configCenter.param.quality_stage_ipqc_enabled': '过程检验环节 (IPQC)',
-  'pages.system.configCenter.param.quality_stage_ipqc_enabled_desc': '组织是否启用过程检验环节；关闭后报工不会自动创建过程检验单。',
+  'pages.system.configCenter.param.quality_stage_ipqc_enabled_desc':
+    '组织是否启用过程检验环节；关闭后报工不会自动创建过程检验单。',
   'pages.system.configCenter.param.quality_stage_fqc_enabled': '成品检验环节 (FQC)',
-  'pages.system.configCenter.param.quality_stage_fqc_enabled_desc': '组织是否启用成品检验环节；关闭后末道报工不会自动创建成品检验单。',
+  'pages.system.configCenter.param.quality_stage_fqc_enabled_desc':
+    '组织是否启用成品检验环节；关闭后末道报工不会自动创建成品检验单。',
   'pages.system.configCenter.param.quality_stage_oqc_enabled': '出货检验环节 (OQC)',
-  'pages.system.configCenter.param.quality_stage_oqc_enabled_desc': '组织是否启用出货检验环节；关闭后出库/通知仓库不会触发 OQC 门禁。',
-  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt': '采购入库自动创建 IQC',
-  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt_desc': '采购入库单保存（待入库）时，按物料质检模式自动创建来料检验待检单。',
+  'pages.system.configCenter.param.quality_stage_oqc_enabled_desc':
+    '组织是否启用出货检验环节；关闭后出库/通知仓库不会触发 OQC 门禁。',
+  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt':
+    '采购入库自动创建 IQC',
+  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt_desc':
+    '采购入库单保存（待入库）时，按物料质检模式自动创建来料检验待检单。',
   'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting': '报工自动创建 IPQC',
-  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting_desc': '报工生效（含自动审核）时，按工序/物料质检模式自动创建过程检验待检单。',
-  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting': '末道报工自动创建 FQC',
-  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting_desc': '工单末道工序报工生效时，按物料质检模式自动创建成品检验待检单。',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify': '发货通知自动创建 OQC',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify_desc': '发货通知「通知仓库」时，按物料质检模式自动创建出货检验待检单（先于出库门禁校验）。',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery': '销售出库自动创建 OQC',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery_desc': '销售出库单创建时，按物料质检模式自动创建出货检验待检单。',
+  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting_desc':
+    '报工生效（含自动审核）时，按工序/物料质检模式自动创建过程检验待检单。',
+  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting':
+    '末道报工自动创建 FQC',
+  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting_desc':
+    '工单末道工序报工生效时，按物料质检模式自动创建成品检验待检单。',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify':
+    '发货通知自动创建 OQC',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify_desc':
+    '发货通知「通知仓库」时，按物料质检模式自动创建出货检验待检单（先于出库门禁校验）。',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery':
+    '销售出库自动创建 OQC',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery_desc':
+    '销售出库单创建时，按物料质检模式自动创建出货检验待检单。',
   'pages.system.configCenter.quality.gateRecommendAutoIqcTitle': '建议同时开启自动建单',
-  'pages.system.configCenter.quality.gateRecommendAutoIqcContent': '开启收货门禁后，须先完成来料检验才能确认入库。建议同时开启「采购入库自动创建 IQC」，避免收货后忘记下推检验单。',
+  'pages.system.configCenter.quality.gateRecommendAutoIqcContent':
+    '开启收货门禁后，须先完成来料检验才能确认入库。建议同时开启「采购入库自动创建 IQC」，避免收货后忘记下推检验单。',
   'pages.system.configCenter.quality.gateRecommendAutoIqcEnableBoth': '同时开启自动建单',
   'pages.system.configCenter.quality.gateRecommendAutoIqcSkip': '暂不开启',
-  'app.kuaizhizao.quality.masterDataHint.material': '组织未启用来料/成品/出货检验环节，物料质检模式（简易/方案）仅在开启对应环节后才会生效。',
-  'app.kuaizhizao.quality.masterDataHint.operation': '组织未启用过程检验环节，工序质检模式（简易/方案）仅在开启 IPQC 后才会生效。',
-  'app.kuaizhizao.quality.masterDataHint.stageIqc': '组织未启用来料检验（IQC）环节，该场景配置保存后不会生效。',
-  'app.kuaizhizao.quality.masterDataHint.stageFqc': '组织未启用成品检验（FQC）环节，该场景配置保存后不会生效。',
-  'app.kuaizhizao.quality.masterDataHint.stageOqc': '组织未启用出货检验（OQC）环节，该场景配置保存后不会生效。',
-  'app.kuaizhizao.quality.masterDataHint.stageIpqc': '组织未启用过程检验（IPQC）环节，该场景配置保存后不会生效。',
+  'app.kuaizhizao.quality.masterDataHint.material':
+    '组织未启用来料/成品/出货检验环节，物料质检模式（简易/方案）仅在开启对应环节后才会生效。',
+  'app.kuaizhizao.quality.masterDataHint.operation':
+    '组织未启用过程检验环节，工序质检模式（简易/方案）仅在开启 IPQC 后才会生效。',
+  'app.kuaizhizao.quality.masterDataHint.stageIqc':
+    '组织未启用来料检验（IQC）环节，该场景配置保存后不会生效。',
+  'app.kuaizhizao.quality.masterDataHint.stageFqc':
+    '组织未启用成品检验（FQC）环节，该场景配置保存后不会生效。',
+  'app.kuaizhizao.quality.masterDataHint.stageOqc':
+    '组织未启用出货检验（OQC）环节，该场景配置保存后不会生效。',
+  'app.kuaizhizao.quality.masterDataHint.stageIpqc':
+    '组织未启用过程检验（IPQC）环节，该场景配置保存后不会生效。',
   'app.kuaizhizao.quality.masterDataHint.gotoConfigCenter': '配置中心',
   'app.kuaizhizao.quality.inspectionCenter.stageTogglesTitle': '质检环节开关',
   'app.kuaizhizao.quality.inspectionCenter.stageIqc': '来料检验 (IQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageIpqc': '过程检验 (IPQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageFqc': '成品检验 (FQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageOqc': '出货检验 (OQC)',
-  'app.kuaizhizao.quality.inspectionCenter.stageReadonlyHint': '环节开关、自动建单与门禁请在配置中心维护。',
+  'app.kuaizhizao.quality.inspectionCenter.stageReadonlyHint':
+    '环节开关、自动建单与门禁请在配置中心维护。',
   'app.kuaizhizao.quality.inspectionCenter.gotoConfigCenter': '前往配置中心',
   'app.kuaizhizao.quality.common.disposal.return': '退货',
   'app.kuaizhizao.quality.common.disposal.accept': '让步接收',
@@ -16421,7 +17227,8 @@ export default {
   'app.kuaizhizao.quality.common.validation.minZero': '不能小于0',
   'app.kuaizhizao.quality.common.validation.qtySumExceeds': '合格数量 + 不合格数量不能超过检验数量',
   'app.kuaizhizao.quality.common.validation.requiredDefectQty': '请输入不合格品数量',
-  'app.kuaizhizao.quality.common.validation.defectQtyExceeds': '不合格品数量不能超过检验单的不合格数量',
+  'app.kuaizhizao.quality.common.validation.defectQtyExceeds':
+    '不合格品数量不能超过检验单的不合格数量',
   'app.kuaizhizao.quality.common.validation.requiredDefectType': '请选择不合格品类型',
   'app.kuaizhizao.quality.common.validation.requiredDefectReason': '请输入不合格原因',
   'app.kuaizhizao.quality.common.validation.requiredDisposition': '请选择处理方式',
@@ -16441,14 +17248,16 @@ export default {
   'app.kuaizhizao.quality.common.messages.loadListFailed': '获取列表失败',
   'app.kuaizhizao.quality.common.messages.createDefectSuccess': '不合格品记录创建成功',
   'app.kuaizhizao.quality.common.messages.createDefectFailed': '创建不合格品记录失败',
-  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnSuccess': '下推采购退货单成功：{{code}}',
+  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnSuccess':
+    '下推采购退货单成功：{{code}}',
   'app.kuaizhizao.quality.common.messages.pushPurchaseReturnFailed': '下推采购退货单失败',
   'app.kuaizhizao.quality.common.messages.pushReworkSuccess': '下推返工单成功：{{code}}',
   'app.kuaizhizao.quality.common.messages.pushReworkFailed': '下推返工单失败',
   'app.kuaizhizao.quality.common.modal.inspectTitle': '来料检验 - {{code}}',
   'app.kuaizhizao.quality.common.modal.detailTitle': '检验详情 - {{code}}',
   'app.kuaizhizao.quality.common.modal.createDefectTitle': '创建不合格品记录',
-  'app.kuaizhizao.quality.common.modal.deleteConfirm': '确定要删除选中的 {{count}} 条来料检验单吗？',
+  'app.kuaizhizao.quality.common.modal.deleteConfirm':
+    '确定要删除选中的 {{count}} 条来料检验单吗？',
   'app.kuaizhizao.quality.common.label.materialCode': '物料编号',
   'app.kuaizhizao.quality.common.label.materialName': '物料名称',
   'app.kuaizhizao.quality.common.label.inspectionQty': '检验数量',
@@ -16460,7 +17269,8 @@ export default {
   'app.kuaizhizao.quality.incoming.createFromReceipt': '从采购入库单创建',
   'app.kuaizhizao.quality.incoming.createFromCustomerMaterial': '从代工来料单创建',
   'app.kuaizhizao.quality.incoming.modal.createFromReceiptTitle': '从采购入库单创建来料检验单',
-  'app.kuaizhizao.quality.incoming.modal.createFromCustomerMaterialTitle': '从代工来料单创建来料检验单',
+  'app.kuaizhizao.quality.incoming.modal.createFromCustomerMaterialTitle':
+    '从代工来料单创建来料检验单',
   'app.kuaizhizao.quality.incoming.form.selectReceipt': '选择采购入库单',
   'app.kuaizhizao.quality.incoming.form.selectCustomerMaterial': '选择代工来料单',
   'app.kuaizhizao.quality.incoming.form.advancedSearchReceipt': '高级搜索采购入库单',
@@ -16470,16 +17280,19 @@ export default {
   'app.kuaizhizao.quality.incoming.messages.createSuccess': '成功创建来料检验单',
   'app.kuaizhizao.quality.incoming.messages.createFailed': '创建来料检验单失败',
   'app.kuaizhizao.quality.incoming.messages.loadCustomerMaterialFailed': '加载代工来料单失败',
-  'app.kuaizhizao.quality.incoming.messages.createFromCustomerMaterialSuccess': '成功从代工来料单创建来料检验单',
+  'app.kuaizhizao.quality.incoming.messages.createFromCustomerMaterialSuccess':
+    '成功从代工来料单创建来料检验单',
   'app.kuaizhizao.quality.incoming.messages.loadListFailed': '获取来料检验列表失败',
-  'app.kuaizhizao.quality.incoming.messages.deleteConfirm': '确定要删除选中的 {{count}} 条来料检验单吗？',
+  'app.kuaizhizao.quality.incoming.messages.deleteConfirm':
+    '确定要删除选中的 {{count}} 条来料检验单吗？',
   'app.kuaizhizao.quality.process.pageTitle': '过程检验',
   'app.kuaizhizao.quality.process.createFromWorkOrder': '从工单创建',
   'app.kuaizhizao.quality.process.form.selectWorkOrder': '选择工单',
   'app.kuaizhizao.quality.process.form.selectOperation': '选择工序',
   'app.kuaizhizao.quality.process.form.selectWorkOrderFirst': '请先选择工单',
   'app.kuaizhizao.quality.process.messages.loadListFailed': '获取过程检验列表失败',
-  'app.kuaizhizao.quality.process.messages.deleteConfirm': '确定要删除选中的 {{count}} 条过程检验单吗？',
+  'app.kuaizhizao.quality.process.messages.deleteConfirm':
+    '确定要删除选中的 {{count}} 条过程检验单吗？',
   'app.kuaizhizao.quality.finished.pageTitle': '成品检验',
   'app.kuaizhizao.quality.finished.createFromWorkOrder': '从工单创建',
   'app.kuaizhizao.quality.finished.form.selectWorkOrder': '选择工单',
@@ -16487,7 +17300,8 @@ export default {
   'app.kuaizhizao.quality.finished.form.workOrderCode': '工单编号',
   'app.kuaizhizao.quality.finished.form.workOrderName': '工单名称',
   'app.kuaizhizao.quality.finished.messages.loadListFailed': '获取成品检验列表失败',
-  'app.kuaizhizao.quality.finished.messages.deleteConfirm': '确定要删除选中的 {{count}} 条成品检验单吗？',
+  'app.kuaizhizao.quality.finished.messages.deleteConfirm':
+    '确定要删除选中的 {{count}} 条成品检验单吗？',
   'app.kuaizhizao.quality.oqc.pageTitle': '出货检验 (OQC)',
   'app.kuaizhizao.quality.oqc.columns.shipmentNoticeSalesOrder': '发货通知 / 销售订单',
   'app.kuaizhizao.quality.oqc.columns.shipmentNotice': '发货通知',
@@ -16511,7 +17325,8 @@ export default {
   'app.kuaizhizao.quality.oqc.messages.conductSuccess': '检验执行成功',
   'app.kuaizhizao.quality.oqc.messages.noConductPermission': '无执行检验权限',
   'app.kuaizhizao.quality.oqc.messages.loadListFailed': '获取出货检验列表失败',
-  'app.kuaizhizao.quality.oqc.messages.deleteConfirm': '确定要删除选中的 {{count}} 条出货检验单吗？',
+  'app.kuaizhizao.quality.oqc.messages.deleteConfirm':
+    '确定要删除选中的 {{count}} 条出货检验单吗？',
   'app.kuaizhizao.quality.oqc.messages.deleteConfirmDescription': '仅「待检验」状态可删除。',
   'app.kuaizhizao.quality.oqc.modal.createFromNoticeTitle': '从发货通知创建 OQC',
   'app.kuaizhizao.quality.oqc.modal.createFromDeliveryTitle': '从销售出库创建 OQC',
@@ -16586,7 +17401,8 @@ export default {
   'app.kuaizhizao.quality.plans.stepEditor.addSuccess': '已添加检验步骤',
   'app.kuaizhizao.quality.plans.stepEditor.editSuccess': '已更新检验步骤',
   'app.kuaizhizao.quality.plans.stepEditor.modalEditTitle': '编辑检验步骤',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteriaAuto': '留空则根据类型规格自动生成',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteriaAuto':
+    '留空则根据类型规格自动生成',
   'app.kuaizhizao.quality.plans.stepSpec.valueType': '值类型',
   'app.kuaizhizao.quality.plans.stepSpec.specSection': '类型规格',
   'app.kuaizhizao.quality.plans.stepSpec.typeBoolean': '是否',
@@ -16628,13 +17444,16 @@ export default {
   'app.kuaizhizao.quality.plans.stepSpec.requirePhoto': '须拍照',
   'app.kuaizhizao.quality.plans.stepSpec.formula': '计算公式',
   'app.kuaizhizao.quality.plans.stepSpec.formulaPlaceholder': '如 {步骤key} - {步骤key}',
-  'app.kuaizhizao.quality.plans.stepSpec.formulaHint': '用 {step_key} 引用其他数值步骤，支持 + - * / 与括号',
+  'app.kuaizhizao.quality.plans.stepSpec.formulaHint':
+    '用 {step_key} 引用其他数值步骤，支持 + - * / 与括号',
   'app.kuaizhizao.quality.plans.stepSpec.insertFormulaRef': '插入步骤引用',
   'app.kuaizhizao.quality.plans.stepSpec.criteriaDerived': '派生：{{formula}}',
   'app.kuaizhizao.quality.plans.versionBump.title': '步骤已变更，是否升版？',
-  'app.kuaizhizao.quality.plans.versionBump.content': '检验步骤已修改。建议将版本从 {{from}} 升至 {{to}}；已开检验单仍使用快照，不受影响。',
+  'app.kuaizhizao.quality.plans.versionBump.content':
+    '检验步骤已修改。建议将版本从 {{from}} 升至 {{to}}；已开检验单仍使用快照，不受影响。',
   'app.kuaizhizao.quality.plans.versionBump.confirm': '升版并保存',
-  'app.kuaizhizao.quality.plans.form.versionHint': '修改步骤后保存时将提示升版；在检单据使用开单时快照版本。',
+  'app.kuaizhizao.quality.plans.form.versionHint':
+    '修改步骤后保存时将提示升版；在检单据使用开单时快照版本。',
   'app.kuaizhizao.quality.template.derivedValueHint': '根据公式自动计算，不可手工修改',
   'app.kuaizhizao.quality.template.stepPhoto': '现场照片',
   'app.kuaizhizao.quality.template.stepPhotoRequired': '「{{label}}」须上传现场照片',
@@ -16653,7 +17472,8 @@ export default {
   'app.kuaizhizao.quality.plans.messages.updateSuccess': '质检方案更新成功',
   'app.kuaizhizao.quality.plans.messages.deleteSuccess': '删除成功',
   'app.kuaizhizao.quality.plans.messages.operationFailed': '操作失败',
-  'app.kuaizhizao.quality.plans.messages.deleteConfirm': '确定要删除选中的 {{count}} 条质检方案吗？',
+  'app.kuaizhizao.quality.plans.messages.deleteConfirm':
+    '确定要删除选中的 {{count}} 条质检方案吗？',
   'app.kuaizhizao.quality.traceability.searchPlaceholder': '请输入序列号 / 批号 / 工单号',
   'app.kuaizhizao.quality.traceability.forward': '正向 (-> 成品)',
   'app.kuaizhizao.quality.traceability.backward': '反向 (-> 原料)',
@@ -16729,7 +17549,8 @@ export default {
   'app.kuaizhizao.quality.template.planItemsTitle': '检验方案项',
   'app.kuaizhizao.quality.template.planItemsTitleWithName': '检验方案项（{{planName}}）',
   'app.kuaizhizao.quality.template.planModeHint': '方案模式下须逐项填写检验结果后方可提交。',
-  'app.kuaizhizao.quality.template.planModeHintTyped': '按步骤类型填写检验值；除文本项外系统将自动判定合格与否。',
+  'app.kuaizhizao.quality.template.planModeHintTyped':
+    '按步骤类型填写检验值；除文本项外系统将自动判定合格与否。',
   'app.kuaizhizao.quality.template.inspectionItemFallback': '检验项 {{index}}',
   'app.kuaizhizao.quality.template.judgment': '判定',
   'app.kuaizhizao.quality.template.judgmentRequired': '请填写「{{label}}」的判定结果',
@@ -16746,7 +17567,8 @@ export default {
   'app.kuaizhizao.quality.template.overallJudgmentRequired': '请填写检验判定',
   'app.kuaizhizao.quality.template.conductValue': '检验值',
   'app.kuaizhizao.quality.template.noStepResults': '暂无分项检验结果',
-  'app.kuaizhizao.quality.template.stepFailHint': '有 {{count}} 项不合格（{{items}}），请确认单据判定',
+  'app.kuaizhizao.quality.template.stepFailHint':
+    '有 {{count}} 项不合格（{{items}}），请确认单据判定',
   'app.kuaizhizao.quality.template.criticalFailAlert': '关键检验项不合格：{{items}}，无法提交',
   'app.kuaizhizao.quality.linked.loadingIqc': '加载来料检验…',
   'app.kuaizhizao.quality.linked.noLinkedIqc': '暂无关联来料检验',
@@ -16792,17 +17614,22 @@ export default {
   'app.kuaizhizao.quality.reports.columns.fqcRate': 'FQC合格率',
   'app.kuaizhizao.quality.reports.columns.overallRate': '综合合格率',
   'pages.system.configCenter.param.security_token_check_interval': 'Token 检查间隔 (秒)',
-  'pages.system.configCenter.param.security_token_check_interval_desc': '前端检查 Token 是否过期的频率',
+  'pages.system.configCenter.param.security_token_check_interval_desc':
+    '前端检查 Token 是否过期的频率',
   'pages.system.configCenter.param.security_inactivity_timeout': '用户不活动超时 (秒)',
-  'pages.system.configCenter.param.security_inactivity_timeout_desc': '用户无操作多长时间后自动登出，0 表示禁用',
+  'pages.system.configCenter.param.security_inactivity_timeout_desc':
+    '用户无操作多长时间后自动登出，0 表示禁用',
   'pages.system.configCenter.param.security_user_cache_time': '用户信息缓存时间 (秒)',
-  'pages.system.configCenter.param.security_user_cache_time_desc': '用户信息在前端缓存的时间，过期后会重新获取',
+  'pages.system.configCenter.param.security_user_cache_time_desc':
+    '用户信息在前端缓存的时间，过期后会重新获取',
   'pages.system.configCenter.param.ui_max_tabs': '最大打开标签页数',
-  'pages.system.configCenter.param.ui_max_tabs_desc': '超过限制数量时，最旧的未固定标签将被自动关闭',
+  'pages.system.configCenter.param.ui_max_tabs_desc':
+    '超过限制数量时，最旧的未固定标签将被自动关闭',
   'pages.system.configCenter.param.ui_default_page_size': '表格默认每页条数',
   'pages.system.configCenter.param.ui_default_page_size_desc': '所有表格默认的分页大小',
   'pages.system.configCenter.param.ui_table_loading_delay': '表格加载延迟 (毫秒)',
-  'pages.system.configCenter.param.ui_table_loading_delay_desc': '设置加载状态显示的延迟时间，避免快速请求时的闪烁',
+  'pages.system.configCenter.param.ui_table_loading_delay_desc':
+    '设置加载状态显示的延迟时间，避免快速请求时的闪烁',
   'pages.system.configCenter.param.theme_config_colorPrimary': '默认主题色',
   'pages.system.configCenter.param.theme_config_colorPrimary_desc': '系统的默认主色调',
   'pages.system.configCenter.param.network_timeout': '请求超时时间 (毫秒)',
@@ -16817,16 +17644,19 @@ export default {
   'pages.system.codeRules.updateRuleFailed': '更新规则失败',
   'pages.system.codeRules.createRuleFailed': '创建规则失败',
   'pages.system.codeRules.saveRuleFailed': '保存规则失败',
-  'pages.system.codeRules.ruleCodeExistsHint': '规则代码 "{{code}}" 已存在，但无法找到该规则。请刷新页面后重试。',
+  'pages.system.codeRules.ruleCodeExistsHint':
+    '规则代码 "{{code}}" 已存在，但无法找到该规则。请刷新页面后重试。',
   'pages.system.codeRules.configSaved': '配置已保存',
   'pages.system.codeRules.searchPagePlaceholder': '搜索功能页面',
   'pages.system.codeRules.loadingPageConfig': '加载页面配置中...',
   'pages.system.codeRules.tip': '提示',
   'pages.system.codeRules.tipDescription': '如果发现新增的单据页面未显示在此列表中，请检查：',
-  'pages.system.codeRules.tipCheck1': '是否在页面代码中使用了 isAutoGenerateEnabled 或 getPageRuleCode',
+  'pages.system.codeRules.tipCheck1':
+    '是否在页面代码中使用了 isAutoGenerateEnabled 或 getPageRuleCode',
   'pages.system.codeRules.tipCheck2': '是否在后端配置文件 code_rule_pages.py 中添加了页面配置',
   'pages.system.codeRules.tipCheck3': '是否在前端配置文件 codeRulePages.ts 中添加了页面配置',
-  'pages.system.codeRules.tipAppFilter': '此处仅显示已安装且启用的应用下的页面；若某应用未启用，其下页面不会出现在列表中。',
+  'pages.system.codeRules.tipAppFilter':
+    '此处仅显示已安装且启用的应用下的页面；若某应用未启用，其下页面不会出现在列表中。',
   'pages.system.codeRules.tipExpandLabel': '若新增单据页未出现在列表中，点击展开查看排查步骤',
   'pages.system.codeRules.tipSuggestion': '建议：新增单据页面时，请同步更新编号规则配置文件',
   'pages.system.codeRules.enabled': '已启用',
@@ -16838,10 +17668,12 @@ export default {
   'pages.system.codeRules.expressionLabel': '规则表达式',
   'pages.system.codeRules.expressionRequired': '请输入规则表达式',
   'pages.system.codeRules.expressionPlaceholder': '例如：{YYYY}{MM}{DD}-{SEQ:4}',
-  'pages.system.codeRules.expressionExtra': '支持变量：{YYYY}、{YY}、{MM}、{DD}、{SEQ:位数}、{FIELD:字段名}',
+  'pages.system.codeRules.expressionExtra':
+    '支持变量：{YYYY}、{YY}、{MM}、{DD}、{SEQ:位数}、{FIELD:字段名}',
   'pages.system.codeRules.modeComponent': '组件配置',
   'pages.system.codeRules.modeAdvanced': '高级模式',
-  'pages.system.codeRules.seqIntegratedHint': '序号配置已集成到"自动计数"组件中，请在组件配置中设置',
+  'pages.system.codeRules.seqIntegratedHint':
+    '序号配置已集成到"自动计数"组件中，请在组件配置中设置',
   'pages.system.codeRules.seqStart': '序号起始值',
   'pages.system.codeRules.seqStep': '序号步长',
   'pages.system.codeRules.seqResetRule': '序号重置规则',
@@ -16874,12 +17706,14 @@ export default {
   'components.codeRuleComponentBuilder.action.edit': '编辑',
   'components.codeRuleComponentBuilder.action.delete': '删除',
   'components.codeRuleComponentBuilder.warning.singleInstance': '{{name}}组件只能添加一个',
-  'components.codeRuleComponentBuilder.warning.requiredCannotDelete': '{{name}}组件是必选的，不能删除',
+  'components.codeRuleComponentBuilder.warning.requiredCannotDelete':
+    '{{name}}组件是必选的，不能删除',
   'components.codeRuleComponentBuilder.modal.deleteTitle': '确认删除',
   'components.codeRuleComponentBuilder.modal.deleteContent': '确定要删除"{{name}}"组件吗？',
   'components.codeRuleComponentBuilder.preview.title': '编号预览',
   'components.codeRuleComponentBuilder.preview.placeholder': '请配置规则组件',
-  'components.codeRuleComponentBuilder.preview.hint': '这是根据当前配置生成的编号预览，实际生成时会使用真实的序号和日期',
+  'components.codeRuleComponentBuilder.preview.hint':
+    '这是根据当前配置生成的编号预览，实际生成时会使用真实的序号和日期',
 
   'components.codeRuleComponent.type.autoCounter': '自动计数',
   'components.codeRuleComponent.type.date': '提交日期',
@@ -16907,16 +17741,20 @@ export default {
   'components.codeRuleComponentConfig.autoCounter.digitsRequired': '请输入计数位数',
   'components.codeRuleComponentConfig.autoCounter.digitsExtra': '计数位数范围：2-12',
   'components.codeRuleComponentConfig.autoCounter.fixedWidth': '位数固定',
-  'components.codeRuleComponentConfig.autoCounter.fixedWidthExtra': '开启后显示固定位数，如00001；关闭后显示实际位数，如1',
+  'components.codeRuleComponentConfig.autoCounter.fixedWidthExtra':
+    '开启后显示固定位数，如00001；关闭后显示实际位数，如1',
   'components.codeRuleComponentConfig.autoCounter.resetCycle': '重置周期',
   'components.codeRuleComponentConfig.autoCounter.resetCycleRequired': '请选择重置周期',
-  'components.codeRuleComponentConfig.autoCounter.resetCycleExtra': '重置周期是指流水号重新计数的条件',
+  'components.codeRuleComponentConfig.autoCounter.resetCycleExtra':
+    '重置周期是指流水号重新计数的条件',
   'components.codeRuleComponentConfig.autoCounter.initialValue': '初始值',
   'components.codeRuleComponentConfig.autoCounter.initialValueRequired': '请输入初始值',
-  'components.codeRuleComponentConfig.autoCounter.initialValueExtra': '计数的初始数值，也就是从哪一个数字开始计数',
+  'components.codeRuleComponentConfig.autoCounter.initialValueExtra':
+    '计数的初始数值，也就是从哪一个数字开始计数',
   'components.codeRuleComponentConfig.autoCounter.scopeFields': '隔离字段 (分类计数)',
   'components.codeRuleComponentConfig.autoCounter.scopeFieldsPlaceholder': '选择按哪些字段隔离计数',
-  'components.codeRuleComponentConfig.autoCounter.scopeFieldsExtra': '例如：如果选择“部门”字段，则不同部门的流水号相互独立（如销售部0001，市场部0001）',
+  'components.codeRuleComponentConfig.autoCounter.scopeFieldsExtra':
+    '例如：如果选择“部门”字段，则不同部门的流水号相互独立（如销售部0001，市场部0001）',
   'components.codeRuleComponentConfig.date.formatType': '格式类型',
   'components.codeRuleComponentConfig.date.formatTypeRequired': '请选择格式类型',
   'components.codeRuleComponentConfig.date.formatTypePreset': '预定义格式',
@@ -16926,8 +17764,10 @@ export default {
   'components.codeRuleComponentConfig.date.presetFormatExtra': '选择预定义的日期格式',
   'components.codeRuleComponentConfig.date.customFormat': '自定义格式',
   'components.codeRuleComponentConfig.date.customFormatRequired': '请输入自定义格式',
-  'components.codeRuleComponentConfig.date.customFormatPlaceholder': '例如：yMd 表示年月日，yyyyMMdd 表示4位年+2位月+2位日',
-  'components.codeRuleComponentConfig.date.customFormatExtra': '使用 y 表示年，M 表示月，d 表示日。例如：yMd 表示年月日',
+  'components.codeRuleComponentConfig.date.customFormatPlaceholder':
+    '例如：yMd 表示年月日，yyyyMMdd 表示4位年+2位月+2位日',
+  'components.codeRuleComponentConfig.date.customFormatExtra':
+    '使用 y 表示年，M 表示月，d 表示日。例如：yMd 表示年月日',
   'components.codeRuleComponentConfig.fixedText.text': '固定字符',
   'components.codeRuleComponentConfig.fixedText.textRequired': '请输入固定字符',
   'components.codeRuleComponentConfig.fixedText.textPlaceholder': '请输入要添加的字符',
@@ -16940,7 +17780,8 @@ export default {
   // 插件管理
   'pages.system.pluginManager.title': '插件管理',
   'pages.system.pluginManager.fetchFailed': '获取插件列表失败',
-  'pages.system.pluginManager.discoverSuccess': '插件发现完成：注册 {{registered}} 个，更新 {{updated}} 个',
+  'pages.system.pluginManager.discoverSuccess':
+    '插件发现完成：注册 {{registered}} 个，更新 {{updated}} 个',
   'pages.system.pluginManager.discoverFailed': '插件发现失败',
   'pages.system.pluginManager.enableFailed': '启用插件失败',
   'pages.system.pluginManager.disableFailed': '停用插件失败',
@@ -16988,7 +17829,8 @@ export default {
   'pages.infra.clientReleases.detailPackageSize': '安装包大小',
   'pages.infra.clientReleases.detailPackageSha256': 'SHA256',
   'pages.infra.clientReleases.detailOtaPath': 'OTA 路径',
-  'pages.infra.clientReleases.detailActivateHint': '勾选「上传后立即激活」时，同客户端同平台的旧生效版本会自动变为历史；未勾选则需手动点「激活」。',
+  'pages.infra.clientReleases.detailActivateHint':
+    '勾选「上传后立即激活」时，同客户端同平台的旧生效版本会自动变为历史；未勾选则需手动点「激活」。',
   'pages.infra.clientReleases.columnClient': '客户端',
   'pages.infra.clientReleases.columnPlatform': '平台',
   'pages.infra.clientReleases.columnVersion': '版本',
@@ -17013,7 +17855,8 @@ export default {
   'pages.infra.clientReleases.formIncomplete': '请填写客户端、平台与版本号',
   'pages.infra.clientReleases.activateAfterUpload': '上传后立即激活',
   'pages.infra.clientReleases.uploadDragHint': '点击或拖拽安装包到此处',
-  'pages.infra.clientReleases.uploadDragSubHint': 'Android：.apk（拖入后自动识别版本号与内部版本号）· Windows：.exe / .msi / .zip · 单文件最大 500MB',
+  'pages.infra.clientReleases.uploadDragSubHint':
+    'Android：.apk（拖入后自动识别版本号与内部版本号）· Windows：.exe / .msi / .zip · 单文件最大 500MB',
   'pages.infra.clientReleases.formVersionCode': '内部版本号',
   'pages.infra.clientReleases.formVersionCodeTooltip': 'Android versionCode，用于比较安装包新旧',
   'pages.infra.clientReleases.formVersionCodeRequired': '请填写内部版本号（Android versionCode）',
@@ -17034,7 +17877,8 @@ export default {
   'pages.infra.clientReleases.packageDetectedTitle': '已识别安装包版本',
   'pages.infra.clientReleases.packageDetectedDesc':
     '版本 {{version}} · 内部版本号 {{code}} · 包名 {{package}}。提交时将校验与 APK 内信息一致。',
-  'pages.infra.clientReleases.formVersionAutoTooltip': '拖入 APK 后自动填写；也可手动修改，但须与安装包内版本一致',
+  'pages.infra.clientReleases.formVersionAutoTooltip':
+    '拖入 APK 后自动填写；也可手动修改，但须与安装包内版本一致',
   'pages.infra.clientReleases.packageVersionMismatch':
     '安装包版本为 {{version}}（{{code}}），与当前发布记录 {{expectedVersion}}（{{expectedCode}}）不一致',
   'pages.infra.clientReleases.packageReplaceMismatch':
@@ -17072,10 +17916,13 @@ export default {
   'pages.infra.clientReleases.configJpushMasterSecret': '极光 Master Secret',
   'pages.infra.clientReleases.configJpushMasterSecretPlaceholder': '服务端推送密钥',
   'pages.infra.clientReleases.configJpushMasterSecretKeep': '留空表示不修改已保存的密钥',
-  'pages.infra.clientReleases.configJpushMasterSecretConfigured': '已配置 Master Secret（出于安全不在此展示）',
+  'pages.infra.clientReleases.configJpushMasterSecretConfigured':
+    '已配置 Master Secret（出于安全不在此展示）',
   'pages.infra.clientReleases.configPushReady': '推送凭据已就绪，可发送系统通知',
-  'pages.infra.clientReleases.configPushNotReady': '推送未就绪：请填写 AppKey 与 Master Secret，并确认服务端 PUSH_ENABLED=true',
-  'pages.infra.clientReleases.configEnvFallbackHint': '部分凭据当前来自服务端 .env，保存后将优先使用此处配置',
+  'pages.infra.clientReleases.configPushNotReady':
+    '推送未就绪：请填写 AppKey 与 Master Secret，并确认服务端 PUSH_ENABLED=true',
+  'pages.infra.clientReleases.configEnvFallbackHint':
+    '部分凭据当前来自服务端 .env，保存后将优先使用此处配置',
   'pages.infra.clientReleases.configPushTestHint':
     '测试前请手机已安装正式 APK、已登录对应账号，并允许通知。先选租户，再选该租户下的用户。',
   'pages.infra.clientReleases.configPushTestTenant': '测试租户',
@@ -17281,24 +18128,30 @@ export default {
   'pages.system.dataBackups.uploadFailed': '上传备份失败',
   'pages.system.dataBackups.uploadHint': '仅支持 .zip 格式的备份文件',
   'pages.system.dataBackups.restoreUploadedConfirmTitle': '二次确认：恢复上传的备份',
-  'pages.system.dataBackups.restoreUploadedConfirmContent': '该备份为上传文件，恢复后将覆盖当前数据。系统已自动创建恢复前备份，误操作时可撤回。请再次确认是否继续？',
+  'pages.system.dataBackups.restoreUploadedConfirmContent':
+    '该备份为上传文件，恢复后将覆盖当前数据。系统已自动创建恢复前备份，误操作时可撤回。请再次确认是否继续？',
   'pages.system.dataBackups.preRestoreBackupHint': '恢复前将自动创建当前状态备份，便于误覆盖时撤回',
   'pages.system.dataBackups.columnSource': '来源',
   'pages.system.dataBackups.sourceUploaded': '上传',
   'pages.system.dataBackups.sourceGenerated': '系统生成',
   'pages.system.dataBackups.sourceTenantIdLabel': '备份中的租户 ID',
-  'pages.system.dataBackups.sourceTenantIdExtra': '导出时的租户 ID 与当前租户可能不一致，恢复时需替换。不填则从备份元数据或记录推断。',
+  'pages.system.dataBackups.sourceTenantIdExtra':
+    '导出时的租户 ID 与当前租户可能不一致，恢复时需替换。不填则从备份元数据或记录推断。',
   'pages.system.dataBackups.sourceTenantIdPlaceholder': '可选，留空则自动推断',
   'pages.system.dataBackups.restoreTenantMappingTitle': '租户数据恢复说明',
   'pages.system.dataBackups.restoreTargetTenantLabel': '恢复到',
   'pages.system.dataBackups.restoreTargetTenantDesc': '当前登录的组织（租户编号 {{id}}）',
   'pages.system.dataBackups.restoreSourceTenantLabel': '这份备份是在哪个租户下导出的？',
-  'pages.system.dataBackups.restoreSourceTenantExtra': '系统已从备份文件自动预填，请核对。若从其他系统迁入，填写旧系统导出时的租户编号即可（只填数字，不需要输入箭头）。',
+  'pages.system.dataBackups.restoreSourceTenantExtra':
+    '系统已从备份文件自动预填，请核对。若从其他系统迁入，填写旧系统导出时的租户编号即可（只填数字，不需要输入箭头）。',
   'pages.system.dataBackups.restoreSourceTenantRequired': '请填写备份导出时的租户编号',
   'pages.system.dataBackups.restoreSourceTenantPlaceholder': '例如：15',
-  'pages.system.dataBackups.restoreMigrationHint': '将把租户 {{source}} 的业务数据与附件，迁移并覆盖到当前租户 {{target}}。',
-  'pages.system.dataBackups.restoreSameTenantHint': '备份与当前组织一致，将覆盖当前组织的业务数据。',
-  'pages.system.dataBackups.restorePlatformSafeHint': '平台级数据不会被导出或覆盖，仅影响当前组织的业务数据。',
+  'pages.system.dataBackups.restoreMigrationHint':
+    '将把租户 {{source}} 的业务数据与附件，迁移并覆盖到当前租户 {{target}}。',
+  'pages.system.dataBackups.restoreSameTenantHint':
+    '备份与当前组织一致，将覆盖当前组织的业务数据。',
+  'pages.system.dataBackups.restorePlatformSafeHint':
+    '平台级数据不会被导出或覆盖，仅影响当前组织的业务数据。',
   'pages.system.dataBackups.workerHealthLoadFailed': '获取 Worker 状态失败',
   'pages.system.dataBackups.workerStatusTitle': 'Worker 状态',
   'pages.system.dataBackups.workerStatusOnline': '运行中',
@@ -17391,7 +18244,8 @@ export default {
   'pages.system.datasets.labelDescription': '备注',
   'pages.system.datasets.descriptionOptional': '选填',
   'pages.system.datasets.labelDisplayConfig': '指标展示配置(JSON)',
-  'pages.system.datasets.displayConfigPlaceholder': '{"columns":[{"key":"count","label":"数量","formatter":"number","color":"#1890ff"}]}',
+  'pages.system.datasets.displayConfigPlaceholder':
+    '{"columns":[{"key":"count","label":"数量","formatter":"number","color":"#1890ff"}]}',
   'pages.system.datasets.labelRemark': '备注',
   'pages.system.datasets.remarkOptional': '选填',
   'pages.system.datasets.labelEnabled': '启用',
@@ -17456,7 +18310,8 @@ export default {
   'pages.system.reportTemplates.confirmDelete': '确认删除',
   'pages.system.reportTemplates.confirmDeleteContent': '确定要删除选中的 {{count}} 个模板吗？',
   'pages.system.reportTemplates.batchDeleteTitle': '确定要批量删除选中的报表模板吗？',
-  'pages.system.reportTemplates.batchDeleteDescription': '将删除 {{count}} 个报表模板，删除后无法恢复，请谨慎操作。',
+  'pages.system.reportTemplates.batchDeleteDescription':
+    '将删除 {{count}} 个报表模板，删除后无法恢复，请谨慎操作。',
   'pages.system.reportTemplates.deleteSuccess': '删除成功',
   'pages.system.reportTemplates.deleteFailed': '删除失败',
   'pages.system.reportTemplates.updateSuccess': '更新成功',
@@ -17521,8 +18376,10 @@ export default {
   'pages.system.maintenancePlans.selectToDelete': '请先选择要删除的维护计划',
   'pages.system.maintenancePlans.confirmBatchDelete': '确定要删除选中的 {{count}} 个维护计划吗？',
   'pages.system.maintenancePlans.batchDeleteTitle': '确定要批量删除选中的维护计划吗？',
-  'pages.system.maintenancePlans.batchDeleteDescription': '将删除 {{count}} 个维护计划，删除后无法恢复，请谨慎操作。',
-  'pages.system.maintenancePlans.batchDeletePartial': '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
+  'pages.system.maintenancePlans.batchDeleteDescription':
+    '将删除 {{count}} 个维护计划，删除后无法恢复，请谨慎操作。',
+  'pages.system.maintenancePlans.batchDeletePartial':
+    '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
   'pages.system.maintenancePlans.batchDeleteSuccess': '已删除 {{count}} 个维护计划',
   'pages.system.maintenancePlans.batchDeleteFailed': '批量删除失败',
   'pages.system.maintenancePlans.updateSuccess': '更新成功',
@@ -17668,7 +18525,8 @@ export default {
   'pages.system.files.newFolderButton': '新建文件夹',
   'pages.system.files.deleteButton': '删除',
   'pages.system.files.imageTierBackfillButton': '压缩存量图片',
-  'pages.system.files.imageTierBackfillSuccess': '已完成存量图片压缩，新生成 {{count}} 个文件的缩略图/预览图',
+  'pages.system.files.imageTierBackfillSuccess':
+    '已完成存量图片压缩，新生成 {{count}} 个文件的缩略图/预览图',
   'pages.system.files.imageTierBackfillFailed': '存量图片压缩失败',
   'pages.system.files.selectAll': '全选',
   'pages.system.files.sortLabel': '排序：',
@@ -17769,7 +18627,8 @@ export default {
   'pages.system.equipment.selectToDelete': '请先选择要删除的设备',
   'pages.system.equipment.confirmDeleteContent': '确定要删除选中的 {{count}} 个设备吗？',
   'pages.system.equipment.batchDeleteTitle': '确定要批量删除选中的设备吗？',
-  'pages.system.equipment.batchDeleteDescription': '将删除 {{count}} 个设备，删除后无法恢复，请谨慎操作。',
+  'pages.system.equipment.batchDeleteDescription':
+    '将删除 {{count}} 个设备，删除后无法恢复，请谨慎操作。',
   'pages.system.equipment.batchDeletePartial': '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
   'pages.system.equipment.batchDeleteSuccess': '已删除 {{count}} 个设备',
   'pages.system.equipment.confirmDeleteOne': '确定要删除这个设备吗？',
@@ -17846,7 +18705,8 @@ export default {
   'pages.system.molds.selectToDelete': '请先选择要删除的模具',
   'pages.system.molds.confirmDeleteContent': '确定要删除选中的 {{count}} 个模具吗？',
   'pages.system.molds.batchDeleteTitle': '确定要批量删除选中的模具吗？',
-  'pages.system.molds.batchDeleteDescription': '将删除 {{count}} 个模具，删除后无法恢复，请谨慎操作。',
+  'pages.system.molds.batchDeleteDescription':
+    '将删除 {{count}} 个模具，删除后无法恢复，请谨慎操作。',
   'pages.system.molds.batchDeletePartial': '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
   'pages.system.molds.batchDeleteSuccess': '已删除 {{count}} 个模具',
   'pages.system.molds.confirmDeleteOne': '确定要删除这个模具吗？',
@@ -17910,7 +18770,8 @@ export default {
   'pages.system.equipmentFaults.selectToDelete': '请先选择要删除的故障记录',
   'pages.system.equipmentFaults.confirmDeleteContent': '确定要删除选中的 {{count}} 条故障记录吗？',
   'pages.system.equipmentFaults.batchDeleteTitle': '确定要批量删除选中的故障记录吗？',
-  'pages.system.equipmentFaults.batchDeleteDescription': '将删除 {{count}} 条故障记录，删除后无法恢复，请谨慎操作。',
+  'pages.system.equipmentFaults.batchDeleteDescription':
+    '将删除 {{count}} 条故障记录，删除后无法恢复，请谨慎操作。',
   'pages.system.equipmentFaults.batchDeletePartial': '删除完成：成功 {{done}} 条，失败 {{fail}} 条',
   'pages.system.equipmentFaults.batchDeleteSuccess': '已删除 {{count}} 条故障记录',
   'pages.system.equipmentFaults.confirmDeleteOne': '确定要删除这个故障记录吗？',
@@ -17972,10 +18833,13 @@ export default {
   'pages.system.applicationConnections.actionDisable': '禁用',
   'pages.system.applicationConnections.selectToTest': '请先选择要测试的应用连接器',
   'pages.system.applicationConnections.selectToDelete': '请先选择要删除的应用连接器',
-  'pages.system.applicationConnections.confirmDeleteContent': '确定要删除选中的 {{count}} 个应用连接器吗？',
+  'pages.system.applicationConnections.confirmDeleteContent':
+    '确定要删除选中的 {{count}} 个应用连接器吗？',
   'pages.system.applicationConnections.batchDeleteTitle': '确定要批量删除选中的应用连接器吗？',
-  'pages.system.applicationConnections.batchDeleteDescription': '将删除 {{count}} 个应用连接器，删除后无法恢复，请谨慎操作。',
-  'pages.system.applicationConnections.batchDeletePartial': '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
+  'pages.system.applicationConnections.batchDeleteDescription':
+    '将删除 {{count}} 个应用连接器，删除后无法恢复，请谨慎操作。',
+  'pages.system.applicationConnections.batchDeletePartial':
+    '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
   'pages.system.applicationConnections.batchDeleteSuccess': '已删除 {{count}} 个应用连接器',
   'pages.system.applicationConnections.testSuccess': '连接测试成功',
   'pages.system.applicationConnections.testFailed': '连接测试失败',
@@ -18150,7 +19014,8 @@ export default {
   'pages.system.dataQuality.reportSuccess': '数据质量报告生成完成',
   'pages.system.dataQuality.reportFailed': '生成数据质量报告失败',
   'pages.system.dataQuality.pageTitle': '数据质量保障',
-  'pages.system.dataQuality.pageDesc': '提供数据验证、数据清洗建议、数据质量报告等功能，确保导入数据的质量和准确性。',
+  'pages.system.dataQuality.pageDesc':
+    '提供数据验证、数据清洗建议、数据质量报告等功能，确保导入数据的质量和准确性。',
   'pages.system.dataQuality.importTitle': '数据导入',
   'pages.system.dataQuality.importData': '导入数据',
   'pages.system.dataQuality.runValidate': '执行验证',
@@ -18211,7 +19076,8 @@ export default {
   'pages.system.operationGuide.saveSuccess': '操作引导保存成功',
   'pages.system.operationGuide.saveFailed': '保存操作引导失败',
   'pages.system.operationGuide.pageTitle': '操作引导和帮助系统',
-  'pages.system.operationGuide.pageDesc': '管理系统中的操作引导配置和帮助文档，帮助用户快速了解系统功能和使用方法。',
+  'pages.system.operationGuide.pageDesc':
+    '管理系统中的操作引导配置和帮助文档，帮助用户快速了解系统功能和使用方法。',
   'pages.system.operationGuide.tabGuides': '操作引导',
   'pages.system.operationGuide.tabHelp': '帮助文档',
   'pages.system.operationGuide.tabPreview': '功能预览',
@@ -18229,10 +19095,12 @@ export default {
   'pages.system.operationGuide.columnDocTitle': '文档标题',
   'pages.system.operationGuide.columnSectionCount': '章节数',
   'pages.system.operationGuide.guideComponentTitle': '操作引导组件',
-  'pages.system.operationGuide.guideComponentDesc': '操作引导组件使用 Ant Design Tour 组件实现，支持分步引导、高亮显示关键操作。',
+  'pages.system.operationGuide.guideComponentDesc':
+    '操作引导组件使用 Ant Design Tour 组件实现，支持分步引导、高亮显示关键操作。',
   'pages.system.operationGuide.previewGuide': '预览操作引导',
   'pages.system.operationGuide.helpComponentTitle': '帮助中心组件',
-  'pages.system.operationGuide.helpComponentDesc': '帮助中心组件提供统一的帮助文档查看功能，支持搜索和分类浏览。',
+  'pages.system.operationGuide.helpComponentDesc':
+    '帮助中心组件提供统一的帮助文档查看功能，支持搜索和分类浏览。',
   'pages.system.operationGuide.modalEdit': '编辑操作引导',
   'pages.system.operationGuide.modalCreate': '新建操作引导',
   'pages.system.operationGuide.labelPageKey': '页面标识',
@@ -18318,7 +19186,8 @@ export default {
 
   // 自助式上线向导
   'pages.system.onboardingWizard.title': '自助式上线向导',
-  'pages.system.onboardingWizard.subtitle': '系统上线：从0到1构建您的数字工厂。通过四个关键阶段（环境就绪、主数据构建、业务逻辑配置、全链路验证）确保您的系统在上线首日即可平稳运行。',
+  'pages.system.onboardingWizard.subtitle':
+    '系统上线：从0到1构建您的数字工厂。通过四个关键阶段（环境就绪、主数据构建、业务逻辑配置、全链路验证）确保您的系统在上线首日即可平稳运行。',
   'pages.system.onboardingWizard.tabSystem': '系统上线向导',
   'pages.system.onboardingWizard.roleSales': '销售业务向导',
   'pages.system.onboardingWizard.rolePurchase': '采购业务向导',
@@ -18337,7 +19206,8 @@ export default {
   'pages.system.onboardingWizard.emptySystem': '暂无系统上线任务数据',
   'pages.system.onboardingWizard.emptyRole': '暂无当前角色的任务清单',
   'pages.system.onboardingWizard.alertInitTitle': '首要任务：完成组织底座初始化',
-  'pages.system.onboardingWizard.alertInitDesc': '组织初始化是系统运行的物理基础，涵盖了行业标准模板配置、默认业务参数、编号规则及管理员权限的初始分发。',
+  'pages.system.onboardingWizard.alertInitDesc':
+    '组织初始化是系统运行的物理基础，涵盖了行业标准模板配置、默认业务参数、编号规则及管理员权限的初始分发。',
   'pages.system.onboardingWizard.goToInit': '启动初始化向导',
   'pages.system.onboardingWizard.systemProgress': '全局上线达成度',
   'pages.system.onboardingWizard.refresh': '同步最新状态',
@@ -18345,14 +19215,18 @@ export default {
   'pages.system.onboardingWizard.required': '核心必办',
   'pages.system.onboardingWizard.goToConfig': '立即办理',
   'pages.system.onboardingWizard.systemComplete': '✨ 系统上线环境准备完成！',
-  'pages.system.onboardingWizard.systemCompleteDesc': '恭喜！您已完成所有基础环境与核心参数配置。现在您可以发起第一张销售/采购单据，开始您的数字化运营之旅。建议优先进行“全链路业务流程”验证。',
+  'pages.system.onboardingWizard.systemCompleteDesc':
+    '恭喜！您已完成所有基础环境与核心参数配置。现在您可以发起第一张销售/采购单据，开始您的数字化运营之旅。建议优先进行“全链路业务流程”验证。',
   'pages.system.onboardingWizard.roleProgress': '业务角色就绪度',
   'pages.system.onboardingWizard.roleChecklist': '业务准备任务清单',
   'pages.system.onboardingWizard.roleTip': '操作指南',
-  'pages.system.onboardingWizard.roleTipDesc1': '请按顺序完成以下任务。标注“核心必办”的项直接影响该角色在系统中的业务闭环，建议优先处理。',
-  'pages.system.onboardingWizard.roleTipDesc2': '完成所有必办项后，您的角色将具备完整的系统操作权限与数据基础，可以开始正式的生产经营作业。',
+  'pages.system.onboardingWizard.roleTipDesc1':
+    '请按顺序完成以下任务。标注“核心必办”的项直接影响该角色在系统中的业务闭环，建议优先处理。',
+  'pages.system.onboardingWizard.roleTipDesc2':
+    '完成所有必办项后，您的角色将具备完整的系统操作权限与数据基础，可以开始正式的生产经营作业。',
   'pages.system.onboardingWizard.roleComplete': '🎉 角色上线准备已就绪！',
-  'pages.system.onboardingWizard.roleCompleteDesc': '出色！该角色的所有准备工作已圆满完成。您可以点击右侧任务进入具体功能模块，或通过仪表盘开始监控业务动态。',
+  'pages.system.onboardingWizard.roleCompleteDesc':
+    '出色！该角色的所有准备工作已圆满完成。您可以点击右侧任务进入具体功能模块，或通过仪表盘开始监控业务动态。',
 
   // 系统上线向导 — 系统 Tab
   'pages.system.onboardingWizard.tabImplementer': '系统设定向导',
@@ -18360,7 +19234,8 @@ export default {
   'pages.system.onboardingWizard.prerequisiteData': '需要录入的基础数据',
   'pages.system.onboardingWizard.businessDocs': '可以操作的业务单据',
   'pages.system.onboardingWizard.implementationTipLabel': '实施建议：',
-  'pages.system.onboardingWizard.implementationTip': '系统上线是数字化转型的关键里程碑。请按照引导顺序逐步完成基础数据建模，这是后续业务全链路跑通的先决条件。',
+  'pages.system.onboardingWizard.implementationTip':
+    '系统上线是数字化转型的关键里程碑。请按照引导顺序逐步完成基础数据建模，这是后续业务全链路跑通的先决条件。',
   'pages.system.onboardingWizard.empowermentTitle': '系统使用赋能与收益',
   'pages.system.onboardingWizard.progressRequired': '进度 (必选)',
   'pages.system.onboardingWizard.allModules': '全部模块',
@@ -18375,231 +19250,366 @@ export default {
   'pages.system.onboardingWizard.revokeVerifiedSuccess': '已撤销「期初数据已核对」标记',
   'pages.system.onboardingWizard.modal.detailTitleSuffix': '功能详情清单',
   'pages.system.onboardingWizard.modal.back': '返回向导',
-  'pages.system.onboardingWizard.modal.intro': '完成以下各项核心子功能的配置与数据录入，即可完成「{{name}}」阶段的任务。',
+  'pages.system.onboardingWizard.modal.intro':
+    '完成以下各项核心子功能的配置与数据录入，即可完成「{{name}}」阶段的任务。',
   'pages.system.onboardingWizard.modal.columnFeature': '功能清单',
   'pages.system.onboardingWizard.modal.columnDesc': '功能简介',
   'pages.system.onboardingWizard.modal.columnRequired': '是否必填',
   'pages.system.onboardingWizard.modal.columnAction': '操作',
   'pages.system.onboardingWizard.modal.required': '必填',
   'pages.system.onboardingWizard.modal.optional': '可选',
-  'pages.system.onboardingWizard.system.mission': '核心使命：通过建立标准化的工厂、物料、仓库与工艺模型，为数字化运营奠定坚实底座。',
-  'pages.system.onboardingWizard.system.prerequisiteData': '工厂组织、仓库库位、物料主文件、客户供应商档案',
+  'pages.system.onboardingWizard.system.mission':
+    '核心使命：通过建立标准化的工厂、物料、仓库与工艺模型，为数字化运营奠定坚实底座。',
+  'pages.system.onboardingWizard.system.prerequisiteData':
+    '工厂组织、仓库库位、物料主文件、客户供应商档案',
   'pages.system.onboardingWizard.system.businessDocs': '产品 BOM、工艺路线、期初库存建账',
-  'pages.system.onboardingWizard.system.empowermentValue': '统一全厂数据语言，消除信息孤岛，支撑从销售到生产的全链路自动化流转。',
-  'pages.system.onboardingWizard.system.phase.infrastructure': '第一阶段：制造基建建模 (工厂与仓库)',
+  'pages.system.onboardingWizard.system.empowermentValue':
+    '统一全厂数据语言，消除信息孤岛，支撑从销售到生产的全链路自动化流转。',
+  'pages.system.onboardingWizard.system.phase.infrastructure':
+    '第一阶段：制造基建建模 (工厂与仓库)',
   'pages.system.onboardingWizard.system.phase.modeling': '第二阶段：核心资源定义 (物料与伙伴)',
   'pages.system.onboardingWizard.system.phase.process': '第三阶段：生产工艺模型 (BOM 与路线)',
   'pages.system.onboardingWizard.system.phase.validation': '第四阶段：全链路闭环验证',
   'pages.system.onboardingWizard.system.task.factoryData.name': '建立工厂数据',
-  'pages.system.onboardingWizard.system.task.factoryData.desc': '在「工厂数据」中定义工作中心、车间与产线建模',
+  'pages.system.onboardingWizard.system.task.factoryData.desc':
+    '在「工厂数据」中定义工作中心、车间与产线建模',
   'pages.system.onboardingWizard.system.task.warehouseData.name': '规划仓库数据',
-  'pages.system.onboardingWizard.system.task.warehouseData.desc': '在「仓库数据」中划分物理仓库、库位与逻辑仓储关系',
+  'pages.system.onboardingWizard.system.task.warehouseData.desc':
+    '在「仓库数据」中划分物理仓库、库位与逻辑仓储关系',
   'pages.system.onboardingWizard.system.task.materialData.name': '完善物料数据',
-  'pages.system.onboardingWizard.system.task.materialData.desc': '在「物料数据」中录入产品主文件、分类及关键属性',
+  'pages.system.onboardingWizard.system.task.materialData.desc':
+    '在「物料数据」中录入产品主文件、分类及关键属性',
   'pages.system.onboardingWizard.system.task.partnerData.name': '录入客户供应商',
-  'pages.system.onboardingWizard.system.task.partnerData.desc': '在「客户供应商」中建立客户档案与供应商合格名录',
+  'pages.system.onboardingWizard.system.task.partnerData.desc':
+    '在「客户供应商」中建立客户档案与供应商合格名录',
   'pages.system.onboardingWizard.system.task.bomConfig.name': '导入工艺数据 (BOM)',
-  'pages.system.onboardingWizard.system.task.bomConfig.desc': '在「工艺数据」中确立物料清单，作为成本与计划的核心',
+  'pages.system.onboardingWizard.system.task.bomConfig.desc':
+    '在「工艺数据」中确立物料清单，作为成本与计划的核心',
   'pages.system.onboardingWizard.system.task.processRouting.name': '配置工艺数据 (路线)',
-  'pages.system.onboardingWizard.system.task.processRouting.desc': '在「工艺数据」中规划生产工序、工时标准与工序流转',
+  'pages.system.onboardingWizard.system.task.processRouting.desc':
+    '在「工艺数据」中规划生产工序、工时标准与工序流转',
   'pages.system.onboardingWizard.system.task.firstOrderRun.name': '完成首笔业务试运行',
-  'pages.system.onboardingWizard.system.task.firstOrderRun.desc': '通过一笔完整的模拟订单（从销售下单开始）验证所有主数据的准确性与连通性',
+  'pages.system.onboardingWizard.system.task.firstOrderRun.desc':
+    '通过一笔完整的模拟订单（从销售下单开始）验证所有主数据的准确性与连通性',
   'pages.system.onboardingWizard.system.task.initialDataVerified.name': '期初数据核对完成',
-  'pages.system.onboardingWizard.system.task.initialDataVerified.desc': '确认期初库存 / 在制 / 应收应付等期初数据已与线下账目核对一致',
+  'pages.system.onboardingWizard.system.task.initialDataVerified.desc':
+    '确认期初库存 / 在制 / 应收应付等期初数据已与线下账目核对一致',
   'pages.system.onboardingWizard.system.sub.factoryPlants.name': '厂区管理',
-  'pages.system.onboardingWizard.system.sub.factoryPlants.desc': '定义工厂的地理位置、厂区分布与基本信息',
+  'pages.system.onboardingWizard.system.sub.factoryPlants.desc':
+    '定义工厂的地理位置、厂区分布与基本信息',
   'pages.system.onboardingWizard.system.sub.factoryWorkshops.name': '车间管理',
-  'pages.system.onboardingWizard.system.sub.factoryWorkshops.desc': '划分工厂内部的生产车间，建立物理生产区域',
+  'pages.system.onboardingWizard.system.sub.factoryWorkshops.desc':
+    '划分工厂内部的生产车间，建立物理生产区域',
   'pages.system.onboardingWizard.system.sub.factoryLines.name': '产线管理',
-  'pages.system.onboardingWizard.system.sub.factoryLines.desc': '配置具体的生产线，支持多产线并行作业',
+  'pages.system.onboardingWizard.system.sub.factoryLines.desc':
+    '配置具体的生产线，支持多产线并行作业',
   'pages.system.onboardingWizard.system.sub.factoryWorkCenters.name': '工作中心',
-  'pages.system.onboardingWizard.system.sub.factoryWorkCenters.desc': '聚合生产资源（人员/设备），作为排程与成本核算的核心单元',
+  'pages.system.onboardingWizard.system.sub.factoryWorkCenters.desc':
+    '聚合生产资源（人员/设备），作为排程与成本核算的核心单元',
   'pages.system.onboardingWizard.system.sub.factoryStations.name': '工位管理',
-  'pages.system.onboardingWizard.system.sub.factoryStations.desc': '定义产线上的最小作业单元（工位），实现精细化报工',
+  'pages.system.onboardingWizard.system.sub.factoryStations.desc':
+    '定义产线上的最小作业单元（工位），实现精细化报工',
   'pages.system.onboardingWizard.system.sub.factoryWorkGroups.name': '工作小组',
-  'pages.system.onboardingWizard.system.sub.factoryWorkGroups.desc': '管理车间班组人员分配，支持计件工资与效率统计',
+  'pages.system.onboardingWizard.system.sub.factoryWorkGroups.desc':
+    '管理车间班组人员分配，支持计件工资与效率统计',
   'pages.system.onboardingWizard.system.sub.warehouseMain.name': '仓库管理',
-  'pages.system.onboardingWizard.system.sub.warehouseMain.desc': '定义物理仓库，如原材料仓、成品仓等',
+  'pages.system.onboardingWizard.system.sub.warehouseMain.desc':
+    '定义物理仓库，如原材料仓、成品仓等',
   'pages.system.onboardingWizard.system.sub.warehouseAreas.name': '库区管理',
-  'pages.system.onboardingWizard.system.sub.warehouseAreas.desc': '在仓库内划分逻辑库区，方便物料归类存放',
+  'pages.system.onboardingWizard.system.sub.warehouseAreas.desc':
+    '在仓库内划分逻辑库区，方便物料归类存放',
   'pages.system.onboardingWizard.system.sub.warehouseLocations.name': '库位管理',
-  'pages.system.onboardingWizard.system.sub.warehouseLocations.desc': '定义精确的货位坐标，实现扫码精准上下架',
+  'pages.system.onboardingWizard.system.sub.warehouseLocations.desc':
+    '定义精确的货位坐标，实现扫码精准上下架',
   'pages.system.onboardingWizard.system.sub.materialMain.name': '物料管理',
-  'pages.system.onboardingWizard.system.sub.materialMain.desc': '录入物料主文件，定义编码、名称及基本属性',
+  'pages.system.onboardingWizard.system.sub.materialMain.desc':
+    '录入物料主文件，定义编码、名称及基本属性',
   'pages.system.onboardingWizard.system.sub.materialVariants.name': '变体属性',
-  'pages.system.onboardingWizard.system.sub.materialVariants.desc': '定义物料的规格属性（如颜色、尺寸），支持多 SKU 管理',
+  'pages.system.onboardingWizard.system.sub.materialVariants.desc':
+    '定义物料的规格属性（如颜色、尺寸），支持多 SKU 管理',
   'pages.system.onboardingWizard.system.sub.materialBatchRules.name': '批次规则',
-  'pages.system.onboardingWizard.system.sub.materialBatchRules.desc': '设置物料的批次生成规则，支持先进先出与质量追溯',
+  'pages.system.onboardingWizard.system.sub.materialBatchRules.desc':
+    '设置物料的批次生成规则，支持先进先出与质量追溯',
   'pages.system.onboardingWizard.system.sub.materialSerialRules.name': '序列号规则',
-  'pages.system.onboardingWizard.system.sub.materialSerialRules.desc': '定义唯一序列号规则，实现单品级的精准追踪',
+  'pages.system.onboardingWizard.system.sub.materialSerialRules.desc':
+    '定义唯一序列号规则，实现单品级的精准追踪',
   'pages.system.onboardingWizard.system.sub.partnerCustomers.name': '客户管理',
-  'pages.system.onboardingWizard.system.sub.partnerCustomers.desc': '维护客户档案，配置账期、信用额度与收货地址',
+  'pages.system.onboardingWizard.system.sub.partnerCustomers.desc':
+    '维护客户档案，配置账期、信用额度与收货地址',
   'pages.system.onboardingWizard.system.sub.partnerSuppliers.name': '供应商管理',
-  'pages.system.onboardingWizard.system.sub.partnerSuppliers.desc': '建立合格供应商库，管理采购单价与交期可靠性',
+  'pages.system.onboardingWizard.system.sub.partnerSuppliers.desc':
+    '建立合格供应商库，管理采购单价与交期可靠性',
   'pages.system.onboardingWizard.system.sub.processBom.name': '物料清单BOM',
-  'pages.system.onboardingWizard.system.sub.processBom.desc': '构建产品结构的数字孪生，定义父项与子项的组成关系',
+  'pages.system.onboardingWizard.system.sub.processBom.desc':
+    '构建产品结构的数字孪生，定义父项与子项的组成关系',
   'pages.system.onboardingWizard.system.sub.processOperations.name': '工序管理',
-  'pages.system.onboardingWizard.system.sub.processOperations.desc': '定义标准生产工序，如切割、组装、检验等',
+  'pages.system.onboardingWizard.system.sub.processOperations.desc':
+    '定义标准生产工序，如切割、组装、检验等',
   'pages.system.onboardingWizard.system.sub.processRoutes.name': '工艺路线',
-  'pages.system.onboardingWizard.system.sub.processRoutes.desc': '串联工序流转顺序，配置标准工时与资源需求',
+  'pages.system.onboardingWizard.system.sub.processRoutes.desc':
+    '串联工序流转顺序，配置标准工时与资源需求',
   'pages.system.onboardingWizard.system.sub.processDefects.name': '不良品项',
-  'pages.system.onboardingWizard.system.sub.processDefects.desc': '定义生产异常与质量缺陷分类，支撑报工时的质量统计',
+  'pages.system.onboardingWizard.system.sub.processDefects.desc':
+    '定义生产异常与质量缺陷分类，支撑报工时的质量统计',
   'pages.system.onboardingWizard.system.sub.processSop.name': '标准操作SOP',
-  'pages.system.onboardingWizard.system.sub.processSop.desc': '挂载图纸与作业指导书，确保车间操作规范化',
-  'pages.system.onboardingWizard.guide.warehouse_main.mission': '定义工厂的物理仓储中心，支撑原材料、在制品与成品的数字化入出库流转。',
-  'pages.system.onboardingWizard.guide.warehouse_main.standard': '完成核心原材料仓与成品仓的建立，确立基本的出入库策略。',
-  'pages.system.onboardingWizard.guide.warehouse_main.tip': '建议将线边仓与原材料仓分开定义，便于实现生产现场的 WIP 在制品库存管理。',
-  'pages.system.onboardingWizard.guide.warehouse_locations.mission': '细化仓库内的物理坐标，实现物料的精准定位与扫码自动化作业。',
-  'pages.system.onboardingWizard.guide.warehouse_locations.standard': '完成高频作业区域的货位定义，且货位编码规则已与货架标牌同步。',
-  'pages.system.onboardingWizard.guide.warehouse_locations.tip': '对于快速流转物料，建议设置「拣货位」，缩短作业人员的步行距离。',
-  'pages.system.onboardingWizard.guide.material_main.mission': '定义物料的「数字孪生」属性，包括进销存端的采购/销售单价，及生产端的 BOM/工艺关联关系。',
-  'pages.system.onboardingWizard.guide.material_main.standard': '完成核心原料、半成品、成品的分类录入，且计量单位体系（主/辅单位）已确立。',
-  'pages.system.onboardingWizard.guide.material_main.tip': '物料的「提前期」设置将直接影响后续计划系统的准确性，请根据历史平均值填写。',
-  'pages.system.onboardingWizard.guide.material_main.dependency': '需预先确立物料编码规范与分类体系。',
-  'pages.system.onboardingWizard.guide.partner_customers.mission': '建立以销定产的源头，定义客户档案、价格体系及销售订单流转规则。',
-  'pages.system.onboardingWizard.guide.partner_customers.standard': '完成核心客户数据录入，且销售订单到生产订单的触发逻辑已配置。',
-  'pages.system.onboardingWizard.guide.partner_customers.tip': '建议开启「信用额度」控制，将财务风险防范前置到销售录单阶段。',
-  'pages.system.onboardingWizard.guide.partner_suppliers.mission': '确保生产物料的稳定供应，定义供应商档案、采购合同模板及入库检验流程。',
-  'pages.system.onboardingWizard.guide.partner_suppliers.standard': '完成核心供应商录入，且采购到收货入库的流程已跑通。',
-  'pages.system.onboardingWizard.guide.partner_suppliers.tip': '配置「收货待检区」能有效配合质量管理（QC）流程，确保入库物料 100% 合格。',
-  'pages.system.onboardingWizard.guide.process_operations.mission': '定义标准作业工序，确立每一道加工环节的质量标准与能力要求。',
-  'pages.system.onboardingWizard.guide.process_operations.standard': '完成全流程工序档案建立，且工序代码与车间物理工序一一对应。',
-  'pages.system.onboardingWizard.guide.process_operations.tip': '在工序中定义「报工触发器」，可实现生产进度的实时感知。',
-  'pages.system.onboardingWizard.guide.process_routes.mission': '锁定生产工序流转顺序、标准工时及工作中心。这是生产成本核算与进度跟踪的核心。',
-  'pages.system.onboardingWizard.guide.process_routes.standard': '完成产品工艺路线配置，且工序间的逻辑关系（串行/并行）与车间实操一致。',
-  'pages.system.onboardingWizard.guide.process_routes.tip': '工时数据的精度直接影响排产（APS）的有效性，初期可使用经验值，后期通过报工数据优化。',
-  'pages.system.onboardingWizard.guide.process_routes.dependency': '需预先定义【工作中心】与【资源组】。',
-  'pages.system.onboardingWizard.guide.first_order_run.mission': '快格云制造全链路闭环验证：销售下单 -> 计划排产 -> 车间生产/报工 -> 完工入库 -> 销售发货。',
-  'pages.system.onboardingWizard.guide.first_order_run.standard': '完成至少一笔完整的「进-销-存-产」一体化业务循环，且库存台账与生产档案准确。',
-  'pages.system.onboardingWizard.guide.first_order_run.tip': '这是系统正式上线的终极考核，务必邀请各部门业务骨干参与，确认数据流与价值流的连贯性。',
-  'pages.system.onboardingWizard.guide.first_order_run.dependency': '需保证【进销存基础、MES 建模、权限配置】均已就绪。',
+  'pages.system.onboardingWizard.system.sub.processSop.desc':
+    '挂载图纸与作业指导书，确保车间操作规范化',
+  'pages.system.onboardingWizard.guide.warehouse_main.mission':
+    '定义工厂的物理仓储中心，支撑原材料、在制品与成品的数字化入出库流转。',
+  'pages.system.onboardingWizard.guide.warehouse_main.standard':
+    '完成核心原材料仓与成品仓的建立，确立基本的出入库策略。',
+  'pages.system.onboardingWizard.guide.warehouse_main.tip':
+    '建议将线边仓与原材料仓分开定义，便于实现生产现场的 WIP 在制品库存管理。',
+  'pages.system.onboardingWizard.guide.warehouse_locations.mission':
+    '细化仓库内的物理坐标，实现物料的精准定位与扫码自动化作业。',
+  'pages.system.onboardingWizard.guide.warehouse_locations.standard':
+    '完成高频作业区域的货位定义，且货位编码规则已与货架标牌同步。',
+  'pages.system.onboardingWizard.guide.warehouse_locations.tip':
+    '对于快速流转物料，建议设置「拣货位」，缩短作业人员的步行距离。',
+  'pages.system.onboardingWizard.guide.material_main.mission':
+    '定义物料的「数字孪生」属性，包括进销存端的采购/销售单价，及生产端的 BOM/工艺关联关系。',
+  'pages.system.onboardingWizard.guide.material_main.standard':
+    '完成核心原料、半成品、成品的分类录入，且计量单位体系（主/辅单位）已确立。',
+  'pages.system.onboardingWizard.guide.material_main.tip':
+    '物料的「提前期」设置将直接影响后续计划系统的准确性，请根据历史平均值填写。',
+  'pages.system.onboardingWizard.guide.material_main.dependency':
+    '需预先确立物料编码规范与分类体系。',
+  'pages.system.onboardingWizard.guide.partner_customers.mission':
+    '建立以销定产的源头，定义客户档案、价格体系及销售订单流转规则。',
+  'pages.system.onboardingWizard.guide.partner_customers.standard':
+    '完成核心客户数据录入，且销售订单到生产订单的触发逻辑已配置。',
+  'pages.system.onboardingWizard.guide.partner_customers.tip':
+    '建议开启「信用额度」控制，将财务风险防范前置到销售录单阶段。',
+  'pages.system.onboardingWizard.guide.partner_suppliers.mission':
+    '确保生产物料的稳定供应，定义供应商档案、采购合同模板及入库检验流程。',
+  'pages.system.onboardingWizard.guide.partner_suppliers.standard':
+    '完成核心供应商录入，且采购到收货入库的流程已跑通。',
+  'pages.system.onboardingWizard.guide.partner_suppliers.tip':
+    '配置「收货待检区」能有效配合质量管理（QC）流程，确保入库物料 100% 合格。',
+  'pages.system.onboardingWizard.guide.process_operations.mission':
+    '定义标准作业工序，确立每一道加工环节的质量标准与能力要求。',
+  'pages.system.onboardingWizard.guide.process_operations.standard':
+    '完成全流程工序档案建立，且工序代码与车间物理工序一一对应。',
+  'pages.system.onboardingWizard.guide.process_operations.tip':
+    '在工序中定义「报工触发器」，可实现生产进度的实时感知。',
+  'pages.system.onboardingWizard.guide.process_routes.mission':
+    '锁定生产工序流转顺序、标准工时及工作中心。这是生产成本核算与进度跟踪的核心。',
+  'pages.system.onboardingWizard.guide.process_routes.standard':
+    '完成产品工艺路线配置，且工序间的逻辑关系（串行/并行）与车间实操一致。',
+  'pages.system.onboardingWizard.guide.process_routes.tip':
+    '工时数据的精度直接影响排产（APS）的有效性，初期可使用经验值，后期通过报工数据优化。',
+  'pages.system.onboardingWizard.guide.process_routes.dependency':
+    '需预先定义【工作中心】与【资源组】。',
+  'pages.system.onboardingWizard.guide.first_order_run.mission':
+    '快格云制造全链路闭环验证：销售下单 -> 计划排产 -> 车间生产/报工 -> 完工入库 -> 销售发货。',
+  'pages.system.onboardingWizard.guide.first_order_run.standard':
+    '完成至少一笔完整的「进-销-存-产」一体化业务循环，且库存台账与生产档案准确。',
+  'pages.system.onboardingWizard.guide.first_order_run.tip':
+    '这是系统正式上线的终极考核，务必邀请各部门业务骨干参与，确认数据流与价值流的连贯性。',
+  'pages.system.onboardingWizard.guide.first_order_run.dependency':
+    '需保证【进销存基础、MES 建模、权限配置】均已就绪。',
   'pages.system.onboardingWizard.adminCoreDuties': '管理员核心职责',
   'pages.system.onboardingWizard.adminCoreDutiesValue': '组织架构、账号权限、流程引擎、系统安全',
   'pages.system.onboardingWizard.deliveryAcceptance': '交付验收标准',
-  'pages.system.onboardingWizard.deliveryAcceptanceValue': '全员账号开通、核心流程走通、单据样式符合标准',
-  'pages.system.onboardingWizard.implementerExpertTip': '作为系统管理员，您的配置决定了系统的“骨架”。请务必先行完成第一阶段的组织与权限设定，这是所有业务模块运行的前置条件。清单中标记为「必填」的子项表示若缺失，下游建单、过账或派工等环节容易出现校验失败；未标记项多为体验或扩展类配置。',
+  'pages.system.onboardingWizard.deliveryAcceptanceValue':
+    '全员账号开通、核心流程走通、单据样式符合标准',
+  'pages.system.onboardingWizard.implementerExpertTip':
+    '作为系统管理员，您的配置决定了系统的“骨架”。请务必先行完成第一阶段的组织与权限设定，这是所有业务模块运行的前置条件。清单中标记为「必填」的子项表示若缺失，下游建单、过账或派工等环节容易出现校验失败；未标记项多为体验或扩展类配置。',
   'pages.system.onboardingWizard.implementerEmpowermentTitle': '管理员赋能与收益',
-  'pages.system.onboardingWizard.implementerEmpowermentValue': '通过标准化的系统设定，您将建立起稳健的数字化底座，实现全流程的规范化管理与风险管控。',
+  'pages.system.onboardingWizard.implementerEmpowermentValue':
+    '通过标准化的系统设定，您将建立起稳健的数字化底座，实现全流程的规范化管理与风险管控。',
   'pages.system.onboardingWizard.coreOperationGuide': '核心操作指引',
   'pages.system.onboardingWizard.keyTaskCount': '— 共 {{count}} 项关键任务',
   'pages.system.onboardingWizard.businessStandard': '业务准则：确保数据录入的完整性与及时性',
-  'pages.system.onboardingWizard.roleExpertTip': '角色上线不仅是权限的开启，更代表了业务数据的闭环。请务必检查前置数据是否准确，建议在正式操作前先通过“演示引导”熟悉核心流程。',
+  'pages.system.onboardingWizard.roleExpertTip':
+    '角色上线不仅是权限的开启，更代表了业务数据的闭环。请务必检查前置数据是否准确，建议在正式操作前先通过“演示引导”熟悉核心流程。',
   'pages.system.onboardingWizard.roleMissionFallback': '核心使命：确保业务流程在系统中的完整流转。',
   'pages.system.onboardingWizard.markItemComplete': '已标记完成: {{name}}',
-  'pages.system.onboardingWizard.role.sales.mission': '核心使命：打通从客户询价到订单交付的全过程，确保交货不延期。',
+  'pages.system.onboardingWizard.role.sales.mission':
+    '核心使命：打通从客户询价到订单交付的全过程，确保交货不延期。',
   'pages.system.onboardingWizard.role.sales.prerequisiteData': '客户档案、产品报价单、销售价格表',
-  'pages.system.onboardingWizard.role.sales.businessDocs': '销售报价单、销售订单、发货通知单、销售退货单',
-  'pages.system.onboardingWizard.role.sales.empowermentValue': '防漏单防错价，实时跟踪订单生产和发货进度，提升客户满意度。',
+  'pages.system.onboardingWizard.role.sales.businessDocs':
+    '销售报价单、销售订单、发货通知单、销售退货单',
+  'pages.system.onboardingWizard.role.sales.empowermentValue':
+    '防漏单防错价，实时跟踪订单生产和发货进度，提升客户满意度。',
   'pages.system.onboardingWizard.role.sales.task.sales_customer.name': '维护客户档案',
-  'pages.system.onboardingWizard.role.sales.task.sales_customer.desc': '录入客户的基本信息、联系人与账期',
+  'pages.system.onboardingWizard.role.sales.task.sales_customer.desc':
+    '录入客户的基本信息、联系人与账期',
   'pages.system.onboardingWizard.role.sales.task.sales_price.name': '制定产品报价',
-  'pages.system.onboardingWizard.role.sales.task.sales_price.desc': '为不同的客户设定针对性的销售价格',
+  'pages.system.onboardingWizard.role.sales.task.sales_price.desc':
+    '为不同的客户设定针对性的销售价格',
   'pages.system.onboardingWizard.role.sales.task.sales_order.name': '录入销售订单',
-  'pages.system.onboardingWizard.role.sales.task.sales_order.desc': '承接客户需求，生成正式的销售订单，触发生产或发货需求',
+  'pages.system.onboardingWizard.role.sales.task.sales_order.desc':
+    '承接客户需求，生成正式的销售订单，触发生产或发货需求',
   'pages.system.onboardingWizard.role.sales.task.sales_delivery.name': '跟进发货进度',
-  'pages.system.onboardingWizard.role.sales.task.sales_delivery.desc': '根据库存和生产情况，开具发货通知单',
-  'pages.system.onboardingWizard.role.purchase.mission': '核心使命：找准供应商，管好采购进度，确保生产不缺料。',
-  'pages.system.onboardingWizard.role.purchase.prerequisiteData': '供应商档案、物料采购价目表、采购周期设置',
-  'pages.system.onboardingWizard.role.purchase.businessDocs': '采购申请单、采购订单、到货质检单、采购退货单',
-  'pages.system.onboardingWizard.role.purchase.empowermentValue': '系统智能计算缺料并推荐采购，避免停工待料或库存积压。',
+  'pages.system.onboardingWizard.role.sales.task.sales_delivery.desc':
+    '根据库存和生产情况，开具发货通知单',
+  'pages.system.onboardingWizard.role.purchase.mission':
+    '核心使命：找准供应商，管好采购进度，确保生产不缺料。',
+  'pages.system.onboardingWizard.role.purchase.prerequisiteData':
+    '供应商档案、物料采购价目表、采购周期设置',
+  'pages.system.onboardingWizard.role.purchase.businessDocs':
+    '采购申请单、采购订单、到货质检单、采购退货单',
+  'pages.system.onboardingWizard.role.purchase.empowermentValue':
+    '系统智能计算缺料并推荐采购，避免停工待料或库存积压。',
   'pages.system.onboardingWizard.role.purchase.task.pur_supplier.name': '建立供应商档案',
-  'pages.system.onboardingWizard.role.purchase.task.pur_supplier.desc': '录入供应商库，进行资质管理',
+  'pages.system.onboardingWizard.role.purchase.task.pur_supplier.desc':
+    '录入供应商库，进行资质管理',
   'pages.system.onboardingWizard.role.purchase.task.pur_price.name': '维护采购价目',
-  'pages.system.onboardingWizard.role.purchase.task.pur_price.desc': '记录物料的采购成本价与历史采购记录',
+  'pages.system.onboardingWizard.role.purchase.task.pur_price.desc':
+    '记录物料的采购成本价与历史采购记录',
   'pages.system.onboardingWizard.role.purchase.task.pur_order.name': '下达采购订单',
-  'pages.system.onboardingWizard.role.purchase.task.pur_order.desc': '向供应商正式下达采购任务，明确交期',
+  'pages.system.onboardingWizard.role.purchase.task.pur_order.desc':
+    '向供应商正式下达采购任务，明确交期',
   'pages.system.onboardingWizard.role.purchase.task.pur_receipt.name': '跟踪到货入库',
-  'pages.system.onboardingWizard.role.purchase.task.pur_receipt.desc': '确认供应商送货情况，协同质检与仓储入库',
-  'pages.system.onboardingWizard.role.warehouse.mission': '核心使命：管好仓库，确保存货账实相符，物料找得到、发得快。',
-  'pages.system.onboardingWizard.role.warehouse.prerequisiteData': '仓库/储位划分、期初库存建账、安全库存设置',
-  'pages.system.onboardingWizard.role.warehouse.businessDocs': '采购入库单、生产领料单、生产入库单、销售出库单、盘点单',
-  'pages.system.onboardingWizard.role.warehouse.empowermentValue': '告别手工做账，实现库存流水扫码即时更新，库存数据 100% 准确。',
+  'pages.system.onboardingWizard.role.purchase.task.pur_receipt.desc':
+    '确认供应商送货情况，协同质检与仓储入库',
+  'pages.system.onboardingWizard.role.warehouse.mission':
+    '核心使命：管好仓库，确保存货账实相符，物料找得到、发得快。',
+  'pages.system.onboardingWizard.role.warehouse.prerequisiteData':
+    '仓库/储位划分、期初库存建账、安全库存设置',
+  'pages.system.onboardingWizard.role.warehouse.businessDocs':
+    '采购入库单、生产领料单、生产入库单、销售出库单、盘点单',
+  'pages.system.onboardingWizard.role.warehouse.empowermentValue':
+    '告别手工做账，实现库存流水扫码即时更新，库存数据 100% 准确。',
   'pages.system.onboardingWizard.role.warehouse.task.wh_setup.name': '规划物理仓库',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_setup.desc': '定义原材料仓、半成品仓及成品仓',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_setup.desc':
+    '定义原材料仓、半成品仓及成品仓',
   'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.name': '处理采购入库',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.desc': '核对采购到货单，完成物料实物入库',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.desc':
+    '核对采购到货单，完成物料实物入库',
   'pages.system.onboardingWizard.role.warehouse.task.wh_picking.name': '处理生产领料',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_picking.desc': '根据车间领料申请，精准发料出库',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_picking.desc':
+    '根据车间领料申请，精准发料出库',
   'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.name': '处理销售发货',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.desc': '拣货打包，完成成品出库发给客户',
-  'pages.system.onboardingWizard.role.technician.mission': '核心使命：规范产品资料与研发工艺，让生产有标准可循，提升产品竞争力。',
-  'pages.system.onboardingWizard.role.technician.prerequisiteData': '物料主数据、产品 BOM、研发图纸、打样参数',
-  'pages.system.onboardingWizard.role.technician.businessDocs': '工程变更单 (ECO)、技术标准书、工艺图纸挂载',
-  'pages.system.onboardingWizard.role.technician.empowermentValue': '实现研发资料与 BOM 的版本管控，确保车间拿到的永远是最新标准。',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.desc':
+    '拣货打包，完成成品出库发给客户',
+  'pages.system.onboardingWizard.role.technician.mission':
+    '核心使命：规范产品资料与研发工艺，让生产有标准可循，提升产品竞争力。',
+  'pages.system.onboardingWizard.role.technician.prerequisiteData':
+    '物料主数据、产品 BOM、研发图纸、打样参数',
+  'pages.system.onboardingWizard.role.technician.businessDocs':
+    '工程变更单 (ECO)、技术标准书、工艺图纸挂载',
+  'pages.system.onboardingWizard.role.technician.empowermentValue':
+    '实现研发资料与 BOM 的版本管控，确保车间拿到的永远是最新标准。',
   'pages.system.onboardingWizard.role.technician.task.tech_material.name': '定义物料主数据',
-  'pages.system.onboardingWizard.role.technician.task.tech_material.desc': '统一下发全厂的物料编码与属性',
+  'pages.system.onboardingWizard.role.technician.task.tech_material.desc':
+    '统一下发全厂的物料编码与属性',
   'pages.system.onboardingWizard.role.technician.task.tech_bom.name': '搭建产品 BOM',
-  'pages.system.onboardingWizard.role.technician.task.tech_bom.desc': '构建产品结构的数字孪生（物料清单）',
+  'pages.system.onboardingWizard.role.technician.task.tech_bom.desc':
+    '构建产品结构的数字孪生（物料清单）',
   'pages.system.onboardingWizard.role.technician.task.tech_route.name': '设计工艺路线',
-  'pages.system.onboardingWizard.role.technician.task.tech_route.desc': '梳理生产工序先后顺序与标准工时',
-  'pages.system.onboardingWizard.role.planner.mission': '核心使命：排好生产计划，平衡订单与产能，解决车间堵点。',
-  'pages.system.onboardingWizard.role.planner.prerequisiteData': '工作中心定义、产线产能配置、日历与排班',
+  'pages.system.onboardingWizard.role.technician.task.tech_route.desc':
+    '梳理生产工序先后顺序与标准工时',
+  'pages.system.onboardingWizard.role.planner.mission':
+    '核心使命：排好生产计划，平衡订单与产能，解决车间堵点。',
+  'pages.system.onboardingWizard.role.planner.prerequisiteData':
+    '工作中心定义、产线产能配置、日历与排班',
   'pages.system.onboardingWizard.role.planner.businessDocs': '生产计划表、生产工单、委外加工单',
-  'pages.system.onboardingWizard.role.planner.empowermentValue': '系统智能排程推算交期，平衡产能负荷，最大化车间产出。',
+  'pages.system.onboardingWizard.role.planner.empowermentValue':
+    '系统智能排程推算交期，平衡产能负荷，最大化车间产出。',
   'pages.system.onboardingWizard.role.planner.task.plan_wc.name': '维护工作中心产能',
   'pages.system.onboardingWizard.role.planner.task.plan_wc.desc': '定义产线或机台的基础产能信息',
   'pages.system.onboardingWizard.role.planner.task.plan_mrp.name': '运行物料需求计划',
   'pages.system.onboardingWizard.role.planner.task.plan_mrp.desc': '一键推算缺料情况，生成采购建议',
   'pages.system.onboardingWizard.role.planner.task.plan_order.name': '下达生产工单',
-  'pages.system.onboardingWizard.role.planner.task.plan_order.desc': '将销售订单转化为车间可执行的生产工单',
-  'pages.system.onboardingWizard.role.supervisor.mission': '核心使命：盯着现场进度，及时解决异常，把控生产节奏。',
-  'pages.system.onboardingWizard.role.supervisor.prerequisiteData': '车间人员档案、班组排班表、不良品原因字典',
+  'pages.system.onboardingWizard.role.planner.task.plan_order.desc':
+    '将销售订单转化为车间可执行的生产工单',
+  'pages.system.onboardingWizard.role.supervisor.mission':
+    '核心使命：盯着现场进度，及时解决异常，把控生产节奏。',
+  'pages.system.onboardingWizard.role.supervisor.prerequisiteData':
+    '车间人员档案、班组排班表、不良品原因字典',
   'pages.system.onboardingWizard.role.supervisor.businessDocs': '工序派工单、生产报工单、异常报告',
-  'pages.system.onboardingWizard.role.supervisor.empowermentValue': '无纸化派工与扫码报工，实时掌控产线进度，异常随时预警。',
+  'pages.system.onboardingWizard.role.supervisor.empowermentValue':
+    '无纸化派工与扫码报工，实时掌控产线进度，异常随时预警。',
   'pages.system.onboardingWizard.role.supervisor.task.sup_team.name': '管理车间班组',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_team.desc': '维护排班信息与车间操作人员档案',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_team.desc':
+    '维护排班信息与车间操作人员档案',
   'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.name': '工序派工下发',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.desc': '将工单拆解到具体工位和工人',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.desc':
+    '将工单拆解到具体工位和工人',
   'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.name': '生产进度看板',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.desc': '实时监控产线运行情况与报工异常',
-  'pages.system.onboardingWizard.role.operator.mission': '核心使命：高效执行派工任务，保质保量完成工序作业。',
-  'pages.system.onboardingWizard.role.operator.prerequisiteData': '无（作为执行层，通常无需维护主数据）',
-  'pages.system.onboardingWizard.role.operator.businessDocs': '生产任务接收、完工扫码报工、不良品登记',
-  'pages.system.onboardingWizard.role.operator.empowermentValue': '用手机或平板扫一扫即可领料和报工，绩效工资自动统计。',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.desc':
+    '实时监控产线运行情况与报工异常',
+  'pages.system.onboardingWizard.role.operator.mission':
+    '核心使命：高效执行派工任务，保质保量完成工序作业。',
+  'pages.system.onboardingWizard.role.operator.prerequisiteData':
+    '无（作为执行层，通常无需维护主数据）',
+  'pages.system.onboardingWizard.role.operator.businessDocs':
+    '生产任务接收、完工扫码报工、不良品登记',
+  'pages.system.onboardingWizard.role.operator.empowermentValue':
+    '用手机或平板扫一扫即可领料和报工，绩效工资自动统计。',
   'pages.system.onboardingWizard.role.operator.task.op_receive.name': '接收生产任务',
-  'pages.system.onboardingWizard.role.operator.task.op_receive.desc': '在移动端/平板上查看自己的派工任务',
+  'pages.system.onboardingWizard.role.operator.task.op_receive.desc':
+    '在移动端/平板上查看自己的派工任务',
   'pages.system.onboardingWizard.role.operator.task.op_report.name': '扫码完工报工',
-  'pages.system.onboardingWizard.role.operator.task.op_report.desc': '工序做完后，一键报工并自动计算计件工资',
-  'pages.system.onboardingWizard.role.quality.mission': '核心使命：严控产品质量，实现全过程追溯，降低废品成本。',
-  'pages.system.onboardingWizard.role.quality.prerequisiteData': '检验标准 (AQL)、质检方案、检验项目字典',
-  'pages.system.onboardingWizard.role.quality.businessDocs': '来料检验单 (IQC)、过程检验单 (PQC)、出货检验单',
-  'pages.system.onboardingWizard.role.quality.empowermentValue': '全生命周期质量追溯，一键生成质检报告，从源头卡死不良品。',
+  'pages.system.onboardingWizard.role.operator.task.op_report.desc':
+    '工序做完后，一键报工并自动计算计件工资',
+  'pages.system.onboardingWizard.role.quality.mission':
+    '核心使命：严控产品质量，实现全过程追溯，降低废品成本。',
+  'pages.system.onboardingWizard.role.quality.prerequisiteData':
+    '检验标准 (AQL)、质检方案、检验项目字典',
+  'pages.system.onboardingWizard.role.quality.businessDocs':
+    '来料检验单 (IQC)、过程检验单 (PQC)、出货检验单',
+  'pages.system.onboardingWizard.role.quality.empowermentValue':
+    '全生命周期质量追溯，一键生成质检报告，从源头卡死不良品。',
   'pages.system.onboardingWizard.role.quality.task.qa_standard.name': '制定检验标准',
-  'pages.system.onboardingWizard.role.quality.task.qa_standard.desc': '设置物料与产品的 AQL 与抽样方案',
+  'pages.system.onboardingWizard.role.quality.task.qa_standard.desc':
+    '设置物料与产品的 AQL 与抽样方案',
   'pages.system.onboardingWizard.role.quality.task.qa_iqc.name': '来料检验 (IQC)',
   'pages.system.onboardingWizard.role.quality.task.qa_iqc.desc': '对外协或采购回来的物料进行质检',
   'pages.system.onboardingWizard.role.quality.task.qa_oqc.name': '出货检验',
-  'pages.system.onboardingWizard.role.quality.task.qa_oqc.desc': '对即将发货的成品进行最终出厂前检验',
-  'pages.system.onboardingWizard.role.equipment.mission': '核心使命：保养好机器设备，减少临时停机，保障生产不停工。',
-  'pages.system.onboardingWizard.role.equipment.prerequisiteData': '设备台账、备品备件库、保养计划模板',
+  'pages.system.onboardingWizard.role.quality.task.qa_oqc.desc':
+    '对即将发货的成品进行最终出厂前检验',
+  'pages.system.onboardingWizard.role.equipment.mission':
+    '核心使命：保养好机器设备，减少临时停机，保障生产不停工。',
+  'pages.system.onboardingWizard.role.equipment.prerequisiteData':
+    '设备台账、备品备件库、保养计划模板',
   'pages.system.onboardingWizard.role.equipment.businessDocs': '设备点检单、设备维修单、设备保养单',
-  'pages.system.onboardingWizard.role.equipment.empowermentValue': '变“事后抢修”为“事前预防”，降低设备故障率，保障产线运转。',
+  'pages.system.onboardingWizard.role.equipment.empowermentValue':
+    '变“事后抢修”为“事前预防”，降低设备故障率，保障产线运转。',
   'pages.system.onboardingWizard.role.equipment.task.eq_ledger.name': '建立设备台账',
-  'pages.system.onboardingWizard.role.equipment.task.eq_ledger.desc': '对全厂机器设备进行一物一码建档',
+  'pages.system.onboardingWizard.role.equipment.task.eq_ledger.desc':
+    '对全厂机器设备进行一物一码建档',
   'pages.system.onboardingWizard.role.equipment.task.eq_maintain.name': '设备巡检与保养',
-  'pages.system.onboardingWizard.role.equipment.task.eq_maintain.desc': '执行设备日常点检与预防性保养任务',
-  'pages.system.onboardingWizard.role.finance.mission': '核心使命：算清每一笔账，实时掌握成本，为老板提供决策参考。',
-  'pages.system.onboardingWizard.role.finance.prerequisiteData': '科目余额表、收支类别、成本核算规则',
-  'pages.system.onboardingWizard.role.finance.businessDocs': '应收/应付单、收款/付款单、成本核算单据',
-  'pages.system.onboardingWizard.role.finance.empowermentValue': '业务单据自动生成财务凭证，订单成本/毛利实时可见。',
+  'pages.system.onboardingWizard.role.equipment.task.eq_maintain.desc':
+    '执行设备日常点检与预防性保养任务',
+  'pages.system.onboardingWizard.role.finance.mission':
+    '核心使命：算清每一笔账，实时掌握成本，为老板提供决策参考。',
+  'pages.system.onboardingWizard.role.finance.prerequisiteData':
+    '科目余额表、收支类别、成本核算规则',
+  'pages.system.onboardingWizard.role.finance.businessDocs':
+    '应收/应付单、收款/付款单、成本核算单据',
+  'pages.system.onboardingWizard.role.finance.empowermentValue':
+    '业务单据自动生成财务凭证，订单成本/毛利实时可见。',
   'pages.system.onboardingWizard.role.finance.task.fi_ap.name': '应付账款对账',
   'pages.system.onboardingWizard.role.finance.task.fi_ap.desc': '与供应商核对应付款项，生成付款单',
   'pages.system.onboardingWizard.role.finance.task.fi_ar.name': '应收账款对账',
   'pages.system.onboardingWizard.role.finance.task.fi_ar.desc': '与客户核对销售账单，进行收款核销',
   'pages.system.onboardingWizard.role.finance.task.fi_cost.name': '订单成本核算',
-  'pages.system.onboardingWizard.role.finance.task.fi_cost.desc': '自动归集料工费，核算产品真实成本',
-  'pages.system.onboardingWizard.role.manager.mission': '核心使命：通过数字化看板，随时随地掌握工厂全局动态。',
-  'pages.system.onboardingWizard.role.manager.prerequisiteData': '审批流程设置、数据字典规划、企业目标 (KPI) 设定',
+  'pages.system.onboardingWizard.role.finance.task.fi_cost.desc':
+    '自动归集料工费，核算产品真实成本',
+  'pages.system.onboardingWizard.role.manager.mission':
+    '核心使命：通过数字化看板，随时随地掌握工厂全局动态。',
+  'pages.system.onboardingWizard.role.manager.prerequisiteData':
+    '审批流程设置、数据字典规划、企业目标 (KPI) 设定',
   'pages.system.onboardingWizard.role.manager.businessDocs': '各类核心业务单据的审批、总经理看板',
-  'pages.system.onboardingWizard.role.manager.empowermentValue': '随时随地通过数字驾驶舱掌握工厂经营全貌（营收/产能/库存）。',
+  'pages.system.onboardingWizard.role.manager.empowermentValue':
+    '随时随地通过数字驾驶舱掌握工厂经营全貌（营收/产能/库存）。',
   'pages.system.onboardingWizard.role.manager.task.mgr_approve.name': '业务单据审批',
-  'pages.system.onboardingWizard.role.manager.task.mgr_approve.desc': '集中处理各部门提交的核心业务审批流',
+  'pages.system.onboardingWizard.role.manager.task.mgr_approve.desc':
+    '集中处理各部门提交的核心业务审批流',
   'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.name': '经营分析看板',
-  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.desc': '查看营收、利润、库存周转等核心指标',
-  'pages.system.onboardingWizard.role.implementer.mission': '核心使命：负责系统底层架构配置与全局参数设定，确保软件运行环境稳健。',
-  'pages.system.onboardingWizard.role.implementer.prerequisiteData': '组织架构、权限模型、审批工作流、单据流水号规则',
-  'pages.system.onboardingWizard.role.implementer.businessDocs': '系统参数配置表、审计日志、自定义字段定义',
-  'pages.system.onboardingWizard.role.implementer.empowermentValue': '建立工厂数字底座，通过标准化配置降低运维成本，确保数据安全合规。',
+  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.desc':
+    '查看营收、利润、库存周转等核心指标',
+  'pages.system.onboardingWizard.role.implementer.mission':
+    '核心使命：负责系统底层架构配置与全局参数设定，确保软件运行环境稳健。',
+  'pages.system.onboardingWizard.role.implementer.prerequisiteData':
+    '组织架构、权限模型、审批工作流、单据流水号规则',
+  'pages.system.onboardingWizard.role.implementer.businessDocs':
+    '系统参数配置表、审计日志、自定义字段定义',
+  'pages.system.onboardingWizard.role.implementer.empowermentValue':
+    '建立工厂数字底座，通过标准化配置降低运维成本，确保数据安全合规。',
   'pages.system.onboardingWizard.implementer.phase.security': '第一阶段：权限基建与用户体系',
   'pages.system.onboardingWizard.implementer.phase.config': '第二阶段：核心业务建模规则',
   'pages.system.onboardingWizard.implementer.phase.process': '第三阶段：流程引擎与交付模板',
@@ -18607,67 +19617,91 @@ export default {
   'pages.system.onboardingWizard.implementer.phase.ops': '第五阶段：系统运维与安全监控',
   'pages.system.onboardingWizard.implementer.phase.app': '第六阶段：应用扩展与个人效能',
   'pages.system.onboardingWizard.implementer.task.securityGroup.name': '建立用户与权限基座',
-  'pages.system.onboardingWizard.implementer.task.securityGroup.desc': '配置公司的部门架构、岗位体系以及基于角色的权限访问控制。',
+  'pages.system.onboardingWizard.implementer.task.securityGroup.desc':
+    '配置公司的部门架构、岗位体系以及基于角色的权限访问控制。',
   'pages.system.onboardingWizard.implementer.task.standardGroup.name': '业务建模与标准化',
-  'pages.system.onboardingWizard.implementer.task.standardGroup.desc': '以编号规则为主干；数据字典与业务参数多为系统预置，可按企业规则再细化。',
+  'pages.system.onboardingWizard.implementer.task.standardGroup.desc':
+    '以编号规则为主干；数据字典与业务参数多为系统预置，可按企业规则再细化。',
   'pages.system.onboardingWizard.implementer.task.siteGroup.name': '界面布局与站点配置',
-  'pages.system.onboardingWizard.implementer.task.siteGroup.desc': '配置左侧菜单布局、系统 LOGO、租户名称等全局性视觉属性（不影响核心过账链路）。',
+  'pages.system.onboardingWizard.implementer.task.siteGroup.desc':
+    '配置左侧菜单布局、系统 LOGO、租户名称等全局性视觉属性（不影响核心过账链路）。',
   'pages.system.onboardingWizard.implementer.task.workflowGroup.name': '定义审批与交付标准',
-  'pages.system.onboardingWizard.implementer.task.workflowGroup.desc': '配置全业务全链路的审批流、消息预警触发以及单据打印模板。',
+  'pages.system.onboardingWizard.implementer.task.workflowGroup.desc':
+    '配置全业务全链路的审批流、消息预警触发以及单据打印模板。',
   'pages.system.onboardingWizard.implementer.task.integrationGroup.name': '外部集成与数据治理',
-  'pages.system.onboardingWizard.implementer.task.integrationGroup.desc': '配置外部 API、数据集管理以及文件中心，打通系统间数据壁垒。',
+  'pages.system.onboardingWizard.implementer.task.integrationGroup.desc':
+    '配置外部 API、数据集管理以及文件中心，打通系统间数据壁垒。',
   'pages.system.onboardingWizard.implementer.task.opsGroup.name': '全方位运维与监控',
-  'pages.system.onboardingWizard.implementer.task.opsGroup.desc': '安全审计、登录与会话监控、备份策略等治理与灾备项；不参与业务单据硬门禁，建议在上线前按合规要求落实。',
+  'pages.system.onboardingWizard.implementer.task.opsGroup.desc':
+    '安全审计、登录与会话监控、备份策略等治理与灾备项；不参与业务单据硬门禁，建议在上线前按合规要求落实。',
   'pages.system.onboardingWizard.implementer.task.extGroup.name': '功能扩展与个人定制',
-  'pages.system.onboardingWizard.implementer.task.extGroup.desc': '通过应用中心动态扩展功能，并为个人定制专属的作业环境。',
+  'pages.system.onboardingWizard.implementer.task.extGroup.desc':
+    '通过应用中心动态扩展功能，并为个人定制专属的作业环境。',
   'pages.system.onboardingWizard.implementer.sub.imp_dept.name': '部门管理',
   'pages.system.onboardingWizard.implementer.sub.imp_dept.desc': '定义行政组织架构，建立部门树。',
   'pages.system.onboardingWizard.implementer.sub.imp_post.name': '职位管理',
   'pages.system.onboardingWizard.implementer.sub.imp_post.desc': '定义企业岗位的职责边界与职等。',
   'pages.system.onboardingWizard.implementer.sub.imp_role.name': '角色权限',
-  'pages.system.onboardingWizard.implementer.sub.imp_role.desc': '分配菜单与操作权限，实现安全隔离。',
+  'pages.system.onboardingWizard.implementer.sub.imp_role.desc':
+    '分配菜单与操作权限，实现安全隔离。',
   'pages.system.onboardingWizard.implementer.sub.imp_user.name': '账户管理',
   'pages.system.onboardingWizard.implementer.sub.imp_user.desc': '开通人员账号，绑定角色并激活。',
   'pages.system.onboardingWizard.implementer.sub.imp_rule.name': '编号规则',
   'pages.system.onboardingWizard.implementer.sub.imp_rule.desc': '物料、订单的自动编号逻辑设定。',
   'pages.system.onboardingWizard.implementer.sub.imp_dict.name': '数据字典',
-  'pages.system.onboardingWizard.implementer.sub.imp_dict.desc': '预定义枚举项（支付方式、单据分类等）；通常已预置，可按需增补。',
+  'pages.system.onboardingWizard.implementer.sub.imp_dict.desc':
+    '预定义枚举项（支付方式、单据分类等）；通常已预置，可按需增补。',
   'pages.system.onboardingWizard.implementer.sub.imp_business.name': '业务配置',
-  'pages.system.onboardingWizard.implementer.sub.imp_business.desc': '仓储策略、负库存、批号/序列号/库位等开关；默认即可起步，启用进阶能力后再逐项对齐。',
+  'pages.system.onboardingWizard.implementer.sub.imp_business.desc':
+    '仓储策略、负库存、批号/序列号/库位等开关；默认即可起步，启用进阶能力后再逐项对齐。',
   'pages.system.onboardingWizard.implementer.sub.imp_lang.name': '语言管理',
-  'pages.system.onboardingWizard.implementer.sub.imp_lang.desc': '多语言翻译字典维护，支撑全球化作业。',
+  'pages.system.onboardingWizard.implementer.sub.imp_lang.desc':
+    '多语言翻译字典维护，支撑全球化作业。',
   'pages.system.onboardingWizard.implementer.sub.imp_field.name': '自定义字段',
-  'pages.system.onboardingWizard.implementer.sub.imp_field.desc': '单据动态字段扩展与数据采集配置。',
+  'pages.system.onboardingWizard.implementer.sub.imp_field.desc':
+    '单据动态字段扩展与数据采集配置。',
   'pages.system.onboardingWizard.implementer.sub.imp_menu.name': '菜单管理',
   'pages.system.onboardingWizard.implementer.sub.imp_menu.desc': '自定义侧栏排序、图标与显示名称。',
   'pages.system.onboardingWizard.implementer.sub.imp_site.name': '站点设置',
-  'pages.system.onboardingWizard.implementer.sub.imp_site.desc': '配置系统名称、LOGO 与多租户参数。',
+  'pages.system.onboardingWizard.implementer.sub.imp_site.desc':
+    '配置系统名称、LOGO 与多租户参数。',
   'pages.system.onboardingWizard.implementer.sub.imp_workflow.name': '审批流程',
-  'pages.system.onboardingWizard.implementer.sub.imp_workflow.desc': '销售、采购单据的多级审批链路定义。',
+  'pages.system.onboardingWizard.implementer.sub.imp_workflow.desc':
+    '销售、采购单据的多级审批链路定义。',
   'pages.system.onboardingWizard.implementer.sub.imp_msg.name': '消息与渠道',
   'pages.system.onboardingWizard.implementer.sub.imp_msg.desc': '消息模板设定与通知渠道配置。',
   'pages.system.onboardingWizard.implementer.sub.imp_print.name': '打印与设备',
-  'pages.system.onboardingWizard.implementer.sub.imp_print.desc': '送货单等模板设计及车间打印设备关联。',
+  'pages.system.onboardingWizard.implementer.sub.imp_print.desc':
+    '送货单等模板设计及车间打印设备关联。',
   'pages.system.onboardingWizard.implementer.sub.imp_file.name': '文件管理',
-  'pages.system.onboardingWizard.implementer.sub.imp_file.desc': '集中管理图纸、SOP 等非结构化文件。',
+  'pages.system.onboardingWizard.implementer.sub.imp_file.desc':
+    '集中管理图纸、SOP 等非结构化文件。',
   'pages.system.onboardingWizard.implementer.sub.imp_api.name': '接口与数据源',
   'pages.system.onboardingWizard.implementer.sub.imp_api.desc': '外部 API 注册与数据库连接配置。',
   'pages.system.onboardingWizard.implementer.sub.imp_connector.name': '应用连接器',
-  'pages.system.onboardingWizard.implementer.sub.imp_connector.desc': '标准连接器快速打通第三方 SaaS 数据。',
+  'pages.system.onboardingWizard.implementer.sub.imp_connector.desc':
+    '标准连接器快速打通第三方 SaaS 数据。',
   'pages.system.onboardingWizard.implementer.sub.imp_dataset.name': '数据集管理',
-  'pages.system.onboardingWizard.implementer.sub.imp_dataset.desc': '定义 BI 看板与报表底层的数据集逻辑。',
+  'pages.system.onboardingWizard.implementer.sub.imp_dataset.desc':
+    '定义 BI 看板与报表底层的数据集逻辑。',
   'pages.system.onboardingWizard.implementer.sub.imp_audit.name': '操作日志',
-  'pages.system.onboardingWizard.implementer.sub.imp_audit.desc': '查询操作留痕，支撑安全审计（非业务过账前置条件）。',
+  'pages.system.onboardingWizard.implementer.sub.imp_audit.desc':
+    '查询操作留痕，支撑安全审计（非业务过账前置条件）。',
   'pages.system.onboardingWizard.implementer.sub.imp_login.name': '登录日志',
-  'pages.system.onboardingWizard.implementer.sub.imp_login.desc': '监控系统访问记录，识别异常登录。',
+  'pages.system.onboardingWizard.implementer.sub.imp_login.desc':
+    '监控系统访问记录，识别异常登录。',
   'pages.system.onboardingWizard.implementer.sub.imp_online.name': '在线用户',
-  'pages.system.onboardingWizard.implementer.sub.imp_online.desc': '实时掌握活跃人员状态，保障登录安全。',
+  'pages.system.onboardingWizard.implementer.sub.imp_online.desc':
+    '实时掌握活跃人员状态，保障登录安全。',
   'pages.system.onboardingWizard.implementer.sub.imp_backup.name': '数据备份',
-  'pages.system.onboardingWizard.implementer.sub.imp_backup.desc': '定时备份与恢复策略，降低丢失风险（不做一般不阻塞日常开单）。',
+  'pages.system.onboardingWizard.implementer.sub.imp_backup.desc':
+    '定时备份与恢复策略，降低丢失风险（不做一般不阻塞日常开单）。',
   'pages.system.onboardingWizard.implementer.sub.imp_app_center.name': '应用中心',
-  'pages.system.onboardingWizard.implementer.sub.imp_app_center.desc': '功能模块的安装、升级与版本管理。',
+  'pages.system.onboardingWizard.implementer.sub.imp_app_center.desc':
+    '功能模块的安装、升级与版本管理。',
   'pages.system.onboardingWizard.implementer.sub.imp_personal.name': '个人资料',
-  'pages.system.onboardingWizard.implementer.sub.imp_personal.desc': '个人资料设置、语言主题偏好及任务中心。',
+  'pages.system.onboardingWizard.implementer.sub.imp_personal.desc':
+    '个人资料设置、语言主题偏好及任务中心。',
 
   // 设备追溯
   'pages.system.equipmentTrace.uuidRequired': '设备UUID不能为空',
@@ -18743,9 +19777,11 @@ export default {
   'pages.system.printTemplatesDesign.headerFormat': '页眉格式',
   'pages.system.printTemplatesDesign.footerFormat': '页脚格式',
   'pages.system.printTemplatesDesign.customPlaceholder': '自定义内容或变量',
-  'pages.system.printTemplatesDesign.headerFooterHint': '提示：支持 `{currentPage}`、`{totalPages}`、`{dateTime}` 等变量',
+  'pages.system.printTemplatesDesign.headerFooterHint':
+    '提示：支持 `{currentPage}`、`{totalPages}`、`{dateTime}` 等变量',
   'pages.system.printTemplatesDesign.uploadPdf': '上传 PDF',
-  'pages.system.printTemplatesDesign.uploadPdfExtra': '使用现有 PDF 作为背景，可在其上放置变量字段。选择「空白页」可清除并恢复为可配置纸张。',
+  'pages.system.printTemplatesDesign.uploadPdfExtra':
+    '使用现有 PDF 作为背景，可在其上放置变量字段。选择「空白页」可清除并恢复为可配置纸张。',
   'pages.system.printTemplatesDesign.selectPdfFile': '选择 PDF 文件',
   'pages.system.printTemplatesDesign.replacePdfFile': '更换 PDF 文件',
   'pages.system.printTemplatesDesign.previewTitle': '模板预览',
@@ -18814,7 +19850,8 @@ export default {
   'pages.system.printTemplatesDesign.lineColumnsAtLeastOne': '请至少保留一列',
   'pages.system.printTemplatesDesign.lineColumnsApplied': '明细列已应用到画板',
   'pages.system.printTemplatesDesign.detailTableRowHeightSection': '表格行高',
-  'pages.system.printTemplatesDesign.rowHeightModeAuto': '自适应（随内容增高，以下为表头/表体最小行高）',
+  'pages.system.printTemplatesDesign.rowHeightModeAuto':
+    '自适应（随内容增高，以下为表头/表体最小行高）',
   'pages.system.printTemplatesDesign.rowHeightModeFixed': '固定（表头/表体行高一致、偏紧凑排版）',
   'pages.system.printTemplatesDesign.detailTableHeadRowMm': '表头',
   'pages.system.printTemplatesDesign.detailTableBodyRowMm': '表体',
@@ -18824,7 +19861,8 @@ export default {
     '表头与表体可分别设置固定行高（单位 mm）；与模板表格单元格最小高度一致，适合单行明细。',
   'pages.system.printTemplatesDesign.detailTableBadge': '明细表',
   'pages.system.printTemplatesDesign.detailTableAdded': '已插入明细表：{{label}}',
-  'pages.system.printTemplatesDesign.detailTableConfigMissing': '当前单据类型未配置明细表列，无法插入表格',
+  'pages.system.printTemplatesDesign.detailTableConfigMissing':
+    '当前单据类型未配置明细表列，无法插入表格',
   'pages.system.printTemplatesDesign.detailTableDataBindingHint': '整块表格 · 绑定明细数组',
   'pages.system.printTemplatesDesign.cleanupLegacyDetailTexts': '清理零散明细字段',
   'pages.system.printTemplatesDesign.insertedDetailTable': '已插入明细表：{{label}}',
@@ -18915,10 +19953,12 @@ export default {
   'pages.system.printTemplatesDesign.paperOrientation': '纸张方向',
   'pages.system.printTemplatesDesign.itemSpacingLabel': '组件间距 (mm)',
   'pages.system.printTemplatesDesign.itemSpacingPlaceholder': '例如: 2',
-  'pages.system.printTemplatesDesign.itemSpacingHint': '设计和打印时自动为每个组件添加底部间距 (mm)',
+  'pages.system.printTemplatesDesign.itemSpacingHint':
+    '设计和打印时自动为每个组件添加底部间距 (mm)',
   'pages.system.printTemplatesDesign.tableRowLimitLabel': '明细行数',
   'pages.system.printTemplatesDesign.tableRowLimitPlaceholder': '例如: 10',
-  'pages.system.printTemplatesDesign.tableRowLimitHint': '固定明细行数。不足时显示空行，为 0 时自动伸缩。',
+  'pages.system.printTemplatesDesign.tableRowLimitHint':
+    '固定明细行数。不足时显示空行，为 0 时自动伸缩。',
   'pages.system.printTemplatesDesign.paperMargins': '纸张边距 (mm)',
   'pages.system.printTemplatesDesign.modeDesign': '设计模式',
   'pages.system.printTemplatesDesign.modePreview': '预览模式',
@@ -18986,7 +20026,8 @@ export default {
   'pages.system.printTemplatesDesign.sampleCustomer2': '华南电子装备集团有限公司',
   'pages.system.printTemplatesDesign.sampleNotes2': '用于测试长明细分页、表头重复、尾部金额对齐。',
   'pages.system.printTemplatesDesign.sampleCustomer3': '华东自动化设备有限公司',
-  'pages.system.printTemplatesDesign.sampleNotes3': '备注第一行：本报价含13%增值税。\n备注第二行：付款方式月结30天。\n备注第三行：如需开模费用请另行确认。\n备注第四行：报价有效期15天。',
+  'pages.system.printTemplatesDesign.sampleNotes3':
+    '备注第一行：本报价含13%增值税。\n备注第二行：付款方式月结30天。\n备注第三行：如需开模费用请另行确认。\n备注第四行：报价有效期15天。',
   'pages.system.printTemplatesDesign.sampleMaterial2': '控制面板总成',
   'pages.system.printTemplatesDesign.sampleUnit2': '套',
   'pages.system.printTemplatesDesign.sampleMaterial3': '支架组件',
@@ -19034,7 +20075,8 @@ export default {
   'pages.system.printTemplatesDesign.importPortable': '导入设计',
   'pages.system.printTemplatesDesign.exportPortableSuccess': '已导出设计文件（不含租户与 UUID）',
   'pages.system.printTemplatesDesign.exportPortableFailed': '导出失败',
-  'pages.system.printTemplatesDesign.importPortableSuccess': '设计已载入画布，保存模板后将写入服务端',
+  'pages.system.printTemplatesDesign.importPortableSuccess':
+    '设计已载入画布，保存模板后将写入服务端',
   'pages.system.printTemplatesDesign.importPortableParseFailed': 'JSON 解析失败',
   'pages.system.printTemplatesDesign.importConfirmTitle': '导入设计文件',
   'pages.system.printTemplatesDesign.importConfirmDesc':
@@ -19051,7 +20093,8 @@ export default {
   'pages.system.printTemplates.selectToDelete': '请选择要删除的打印模板',
   'pages.system.printTemplates.batchDeleteSuccess': '批量删除成功',
   'pages.system.printTemplates.batchDeleteFailed': '批量删除失败',
-  'pages.system.printTemplates.workOrderTemplateCreated': '工单模板创建成功，可在设计器中进一步调整',
+  'pages.system.printTemplates.workOrderTemplateCreated':
+    '工单模板创建成功，可在设计器中进一步调整',
   'pages.system.printTemplates.createWorkOrderFailed': '创建工单模板失败',
   'pages.system.printTemplates.updateSuccess': '更新成功',
   'pages.system.printTemplates.createSuccess': '创建成功',
@@ -19120,20 +20163,25 @@ export default {
   'pages.system.printTemplates.selectPresetType': '选择要加载的单据类型',
   'pages.system.printTemplates.selectPresetTypePlaceholder': '请选择常见单据类型',
   'pages.system.printTemplates.presetTemplateNameSuffix': '打印模板',
-  'pages.system.printTemplates.presetTemplateDescription': '预设的 {{name}} 打印模板，可在设计器中调整',
+  'pages.system.printTemplates.presetTemplateDescription':
+    '预设的 {{name}} 打印模板，可在设计器中调整',
   'pages.system.printTemplates.presetCreated': '预设模板已创建，可在设计器中进一步调整',
   'pages.system.printTemplates.presetAllLoaded': '已加载 {{count}} 个预设模板',
-  'pages.system.printTemplates.presetPartiallyLoaded': '成功 {{success}} 个，{{failed}} 个已存在或失败',
+  'pages.system.printTemplates.presetPartiallyLoaded':
+    '成功 {{success}} 个，{{failed}} 个已存在或失败',
   'pages.system.printTemplates.modalEdit': '编辑打印模板',
   'pages.system.printTemplates.modalCreate': '新建打印模板',
   'pages.system.printTemplates.labelName': '模板名称',
   'pages.system.printTemplates.nameRequired': '请输入模板名称',
   'pages.system.printTemplates.labelDocumentType': '关联业务单据',
-  'pages.system.printTemplates.documentTypeRequired': '请选择关联的业务单据类型，设计时可绑定对应变量',
-  'pages.system.printTemplates.documentTypeTooltip': '选择后，模板代码将自动生成，设计器将显示该单据的可用变量',
+  'pages.system.printTemplates.documentTypeRequired':
+    '请选择关联的业务单据类型，设计时可绑定对应变量',
+  'pages.system.printTemplates.documentTypeTooltip':
+    '选择后，模板代码将自动生成，设计器将显示该单据的可用变量',
   'pages.system.printTemplates.labelCode': '模板代码',
   'pages.system.printTemplates.codeRequired': '请先选择关联业务单据',
-  'pages.system.printTemplates.codeTooltip': '根据关联业务单据自动生成，系统会自动追加 _流水号（如 QUOTATION_PRINT_001），创建后不可修改',
+  'pages.system.printTemplates.codeTooltip':
+    '根据关联业务单据自动生成，系统会自动追加 _流水号（如 QUOTATION_PRINT_001），创建后不可修改',
   'pages.system.printTemplates.labelOutputFormat': '输出格式',
   'pages.system.printTemplates.outputFormatRequired': '请选择输出格式',
   'pages.system.printTemplates.labelDescription': '备注',
@@ -19157,7 +20205,8 @@ export default {
   'pages.system.printTemplates.columnConfig': '模板配置',
   'pages.system.printTemplates.columnUpdatedAt': '更新时间',
   'pages.system.printTemplates.workOrderTemplateName': '工单打印模板（含二维码）',
-  'pages.system.printTemplates.workOrderTemplateDescription': '工单打印模板，包含工单二维码、基本信息及工序列表。',
+  'pages.system.printTemplates.workOrderTemplateDescription':
+    '工单打印模板，包含工单二维码、基本信息及工序列表。',
   'pages.system.printTemplates.cardViewTitle': 'Uni-Print 模板管理',
   'pages.system.printTemplates.cardViewEmpty': '暂无打印模板',
   'pages.system.printTemplates.createFailed': '创建模板失败',
@@ -19165,15 +20214,18 @@ export default {
   'pages.system.printTemplates.jsonFormatError': 'JSON 格式错误',
   'pages.system.printTemplates.oldFormatMessage': '该模板为旧格式，请在设计器中查看或重新设计',
   'pages.system.printTemplates.previewAlertTitle': '预览说明',
-  'pages.system.printTemplates.previewAlertDesc': '以下内容是将模板中的变量替换为示例值后的预览效果。实际变量值需要在使用时提供。',
+  'pages.system.printTemplates.previewAlertDesc':
+    '以下内容是将模板中的变量替换为示例值后的预览效果。实际变量值需要在使用时提供。',
   'pages.system.printTemplates.rawContentLabel': '原始模板内容：',
   'pages.system.printTemplates.variablesAlertTitle': '模板变量',
-  'pages.system.printTemplates.variablesAlertDesc': '以下是从模板内容中自动提取的变量列表。变量使用 {{variable_name}} 格式定义。',
+  'pages.system.printTemplates.variablesAlertDesc':
+    '以下是从模板内容中自动提取的变量列表。变量使用 {{variable_name}} 格式定义。',
   'pages.system.printTemplates.noVariables': '模板中没有变量',
   'pages.system.printTemplates.variableNameLabel': '变量名:',
   'pages.system.printTemplates.templateContentLabel': '模板内容：',
   'pages.system.printTemplates.templateVariablesLabel': '模板变量：',
-  'pages.system.printTemplates.renderAlertDesc': '提供模板数据（JSON 格式），系统将使用这些数据替换模板中的变量并生成输出文件。',
+  'pages.system.printTemplates.renderAlertDesc':
+    '提供模板数据（JSON 格式），系统将使用这些数据替换模板中的变量并生成输出文件。',
   'pages.system.printTemplates.noVariablesShort': '无变量',
   'pages.system.printTemplates.templateRenderedSuccess': '模板已成功渲染',
   'pages.system.printTemplates.downloadFile': '下载文件',
@@ -19258,7 +20310,8 @@ export default {
   'pages.system.printDevices.labelConfig': '设备配置（JSON）',
   'pages.system.printDevices.configRequired': '请输入设备配置',
   'pages.system.printDevices.configTooltip': '设备配置，JSON 格式，根据设备类型不同而不同',
-  'pages.system.printDevices.configPlaceholder': '{"host": "192.168.1.100", "port": 9100, "protocol": "raw"}',
+  'pages.system.printDevices.configPlaceholder':
+    '{"host": "192.168.1.100", "port": 9100, "protocol": "raw"}',
   'pages.system.printDevices.configHost': '连接地址',
   'pages.system.printDevices.configHostPlaceholder': '如 192.168.1.100',
   'pages.system.printDevices.configPort': '端口',
@@ -19371,8 +20424,10 @@ export default {
   'pages.system.apis.selectToDelete': '请先选择要删除的接口',
   'pages.system.apis.batchDeleteConfirm': '确定要删除选中的 {{count}} 个接口吗？',
   'pages.system.apis.batchDeleteTitle': '确定要批量删除选中的接口吗？',
-  'pages.system.apis.batchDeleteDescription': '将删除 {{count}} 个接口，删除后无法恢复，请谨慎操作。',
-  'pages.system.apis.batchDeleteDone': '删除完成：成功 {{done}} 个，失败 {{fail}} 个（系统接口不可删除）',
+  'pages.system.apis.batchDeleteDescription':
+    '将删除 {{count}} 个接口，删除后无法恢复，请谨慎操作。',
+  'pages.system.apis.batchDeleteDone':
+    '删除完成：成功 {{done}} 个，失败 {{fail}} 个（系统接口不可删除）',
   'pages.system.apis.batchDeleteSuccessCount': '已删除 {{count}} 个接口',
   'pages.system.apis.batchDeleteFailed': '批量删除失败',
   'pages.system.apis.openTestFailed': '打开测试面板失败',
@@ -19417,7 +20472,8 @@ export default {
   'pages.system.apis.codePlaceholder': '请输入接口代码（唯一标识，如：get_user_info）',
   'pages.system.apis.labelPath': '接口路径',
   'pages.system.apis.pathRequired': '请输入接口路径',
-  'pages.system.apis.pathPlaceholder': '请输入接口路径（如：/api/v1/users 或 https://api.example.com/users）',
+  'pages.system.apis.pathPlaceholder':
+    '请输入接口路径（如：/api/v1/users 或 https://api.example.com/users）',
   'pages.system.apis.labelMethod': '请求方法',
   'pages.system.apis.methodRequired': '请选择请求方法',
   'pages.system.apis.labelRequestHeaders': '请求头',
@@ -19464,7 +20520,8 @@ export default {
   'pages.system.apis.testDrawerTitle': '接口测试',
   'pages.system.apis.executeTest': '执行测试',
   'pages.system.apis.testRequestLabel': '测试请求（JSON）',
-  'pages.system.apis.testRequestPlaceholder': '请输入测试请求（JSON 格式），例如：{"headers": {"Authorization": "Bearer token"}, "params": {"page": 1}, "body": {"name": "test"}}',
+  'pages.system.apis.testRequestPlaceholder':
+    '请输入测试请求（JSON 格式），例如：{"headers": {"Authorization": "Bearer token"}, "params": {"page": 1}, "body": {"name": "test"}}',
   'pages.system.apis.testResultLabel': '测试结果',
   'pages.system.apis.statusCodeLabel': '状态码：',
   'pages.system.apis.elapsedLabel': '耗时：',
@@ -19483,7 +20540,8 @@ export default {
   'pages.system.dataSources.selectToDelete': '请先选择要删除的数据源',
   'pages.system.dataSources.batchDeleteConfirm': '确定要删除选中的 {{count}} 个数据源吗？',
   'pages.system.dataSources.batchDeleteTitle': '确定要批量删除选中的数据源吗？',
-  'pages.system.dataSources.batchDeleteDescription': '将删除 {{count}} 个数据源，删除后无法恢复，请谨慎操作。',
+  'pages.system.dataSources.batchDeleteDescription':
+    '将删除 {{count}} 个数据源，删除后无法恢复，请谨慎操作。',
   'pages.system.dataSources.batchDeleteDone': '删除完成：成功 {{done}} 个，失败 {{fail}} 个',
   'pages.system.dataSources.batchDeleteSuccessCount': '已删除 {{count}} 个数据源',
   'pages.system.dataSources.batchDeleteFailed': '批量删除失败',
@@ -19551,19 +20609,23 @@ export default {
   'pages.system.dataSources.hostRequired': '请输入主机地址',
   'pages.system.dataSources.hostPlaceholder': 'localhost 或 域名',
   'pages.system.dataSources.labelPort': '端口',
-  'pages.system.dataSources.sqlserverHostPlaceholder': '与 Navicat 相同：域名,端口（如 vicp.fun,30198）；仅域名时默认 TCP 1433',
+  'pages.system.dataSources.sqlserverHostPlaceholder':
+    '与 Navicat 相同：域名,端口（如 vicp.fun,30198）；仅域名时默认 TCP 1433',
   'pages.system.dataSources.labelSqlServerEncryption': '加密 (encryption)',
-  'pages.system.dataSources.sqlserverEncryptionTooltip': '对应 pymssql 的 encryption 参数；老版本 SQL Server 或内网穿透异常时可先试「关闭加密」。',
+  'pages.system.dataSources.sqlserverEncryptionTooltip':
+    '对应 pymssql 的 encryption 参数；老版本 SQL Server 或内网穿透异常时可先试「关闭加密」。',
   'pages.system.dataSources.sqlserverEncryptionDefault': '未指定（由后端自动尝试多种策略）',
   'pages.system.dataSources.sqlserverEncryptionOff': '关闭 (off)',
   'pages.system.dataSources.sqlserverEncryptionRequest': '协商请求 (request)',
   'pages.system.dataSources.sqlserverEncryptionRequire': '强制 TLS (require)',
   'pages.system.dataSources.sqlserverEncryptionDriverDefault': '驱动默认 (default)',
   'pages.system.dataSources.labelSqlServerTdsVersion': 'TDS 协议版本',
-  'pages.system.dataSources.sqlserverTdsVersionTooltip': '一般留空即可；仅当连接异常时再尝试切换（如 SQL Server 2008 R2 常用 7.2）。',
+  'pages.system.dataSources.sqlserverTdsVersionTooltip':
+    '一般留空即可；仅当连接异常时再尝试切换（如 SQL Server 2008 R2 常用 7.2）。',
   'pages.system.dataSources.sqlserverTdsDefault': '留空（后端默认 7.2）',
   'pages.system.dataSources.labelSqlServerLoginTimeout': '登录超时 (秒)',
-  'pages.system.dataSources.sqlserverLoginTimeoutTooltip': '建立连接与登录阶段的超时时间，默认 15 秒。',
+  'pages.system.dataSources.sqlserverLoginTimeoutTooltip':
+    '建立连接与登录阶段的超时时间，默认 15 秒。',
   'pages.system.dataSources.portRequired': '请输入端口',
   'pages.system.dataSources.labelDatabase': '数据库名',
   'pages.system.dataSources.databaseRequired': '请输入数据库名',
@@ -19587,7 +20649,8 @@ export default {
   'pages.system.dataSources.labelToken': 'Token',
   'pages.system.dataSources.labelBasicUser': 'User',
   'pages.system.dataSources.labelBasicPass': 'Password',
-  'pages.system.dataSources.typeFormNotSupported': '暂未为 {{type}} 类型提供可视化表单，请联系管理员。',
+  'pages.system.dataSources.typeFormNotSupported':
+    '暂未为 {{type}} 类型提供可视化表单，请联系管理员。',
   'pages.system.dataSources.labelDescription': '备注',
   'pages.system.dataSources.descriptionPlaceholder': '选填',
   'pages.system.dataSources.labelActive': '启用',
@@ -19666,9 +20729,11 @@ export default {
   'pages.system.messageConfig.createSuccess': '创建成功',
   'pages.system.messageConfig.operationFailed': '操作失败',
   'pages.system.messageConfig.batchDeleteConfirmTitle': '确认批量删除',
-  'pages.system.messageConfig.batchDeleteConfirmContent': '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
+  'pages.system.messageConfig.batchDeleteConfirmContent':
+    '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
   'pages.system.messageConfig.batchDeleteTitle': '确定要批量删除选中的记录吗？',
-  'pages.system.messageConfig.batchDeleteDescription': '将删除 {{count}} 条记录，删除后无法恢复，请谨慎操作。',
+  'pages.system.messageConfig.batchDeleteDescription':
+    '将删除 {{count}} 条记录，删除后无法恢复，请谨慎操作。',
   'pages.system.messageConfig.batchDeleteSuccessCount': '成功删除 {{count}} 条记录',
   'pages.system.messageConfig.batchDeleteFailCount': '删除失败 {{count}} 条记录',
   'pages.system.messageConfig.batchDeleteFailed': '批量删除失败',
@@ -19771,7 +20836,8 @@ export default {
   'pages.system.messageTemplate.codePlaceholder': '例如：MATERIAL_CHANGE_NOTIFY',
   'pages.system.messageTemplate.namePlaceholder': '例如：物料变更通知',
   'pages.system.messageTemplate.subjectPlaceholder': '请输入邮件或推送消息的主题',
-  'pages.system.messageTemplate.contentPlaceholder': '支持变量替换，例如：您好 {name}，验证码为 {code}',
+  'pages.system.messageTemplate.contentPlaceholder':
+    '支持变量替换，例如：您好 {name}，验证码为 {code}',
   'pages.system.messageTemplate.variableDeclaration': '变量声明',
   'pages.system.messageTemplate.varKeyPlaceholder': '变量名 (如: name)',
   'pages.system.messageTemplate.varLabelPlaceholder': '变量描述 (如: 用户姓名)',
@@ -19792,7 +20858,8 @@ export default {
   'pages.system.menus.appMenuSuffix': '应用菜单',
   'pages.system.menus.batchDeleteConfirm': '确认批量删除',
   'pages.system.menus.batchDeleteTitle': '确定要批量删除选中的菜单吗？',
-  'pages.system.menus.batchDeleteDescription': '将删除 {{count}} 个菜单，删除后无法恢复，请谨慎操作。',
+  'pages.system.menus.batchDeleteDescription':
+    '将删除 {{count}} 个菜单，删除后无法恢复，请谨慎操作。',
   'pages.system.menus.batchDeleteSuccess': '批量删除成功',
   'pages.system.menus.batchDeleteFailed': '批量删除失败',
   'pages.system.menus.getDetailFailed': '获取菜单详情失败',
@@ -19824,7 +20891,8 @@ export default {
   'pages.system.menus.setBackendHomeFailed': '设置失败',
   'pages.system.menus.setBackendHomeDisabled': '需为已启用、非外部链接且已填写路径的菜单',
   'pages.system.menus.restoreDefaultBackendHome': '恢复默认首页',
-  'pages.system.menus.clearBackendHomeConfirm': '恢复后点击 Logo 将打开系统默认工作台（或应用中心），确定？',
+  'pages.system.menus.clearBackendHomeConfirm':
+    '恢复后点击 Logo 将打开系统默认工作台（或应用中心），确定？',
   'pages.system.menus.clearBackendHomeSuccess': '已恢复默认首页',
   'pages.system.menus.clearBackendHomeFailed': '恢复失败',
   'pages.system.menus.createMenu': '新建菜单',
@@ -19840,7 +20908,8 @@ export default {
   'pages.system.menus.externalUrlRequired': '开启外部链接时请填写外部链接 URL',
   'pages.system.menus.permissionCodeRequired': '填写路径的非外部链接菜单须配置权限代码',
   'pages.system.menus.relatedAppInheritedHint': '由所选父菜单自动继承；系统菜单父级时为空',
-  'pages.system.menus.sortOrderAppMenuHint': '挂在应用菜单下的自定义子项未在 manifest 声明时，靠此排序（排在 manifest 菜单之后）',
+  'pages.system.menus.sortOrderAppMenuHint':
+    '挂在应用菜单下的自定义子项未在 manifest 声明时，靠此排序（排在 manifest 菜单之后）',
   'pages.system.menus.pathPlaceholder': '/system/example',
   'pages.system.menus.iconPickerPlaceholder': '点击选择图标',
   'pages.system.menus.iconSearchPlaceholder': '搜索图标名称',
@@ -19873,12 +20942,14 @@ export default {
   'pages.system.menus.customLayoutAddSubGroup': '添加子分组',
   'pages.system.menus.customLayoutNoGroups': '暂无分组，可先添加 APP 级分组或普通分组',
   'pages.system.menus.customLayoutNoApps': '暂无 APP，请先添加 APP',
-  'pages.system.menus.customLayoutAppMenuHint': '仅显示应用菜单；系统菜单由「系统配置」固定管理，不参与自组',
+  'pages.system.menus.customLayoutAppMenuHint':
+    '仅显示应用菜单；系统菜单由「系统配置」固定管理，不参与自组',
   'pages.system.menus.customLayoutSelectTargetGroup': '请先点击选中一个分组，再使用「加入」',
   'pages.system.menus.customLayoutAppCannotHoldMenus': 'APP 级不能直接放菜单，请先添加子分组',
   'pages.system.menus.customLayoutMaxGroupDepth': '分组最多支持两层嵌套',
   'pages.system.menus.customLayoutSystemTray': '系统级菜单托盘',
-  'pages.system.menus.customLayoutSystemTrayHint': '管理系统级菜单（/system/*）的展示顺序与标题覆盖',
+  'pages.system.menus.customLayoutSystemTrayHint':
+    '管理系统级菜单（/system/*）的展示顺序与标题覆盖',
   'pages.system.menus.customLayoutSystemTrayEmpty': '暂无系统级菜单，可从下拉框添加',
   'pages.system.menus.customLayoutAddSystemMenu': '添加系统级菜单',
   'pages.system.menus.customLayoutGroupSelectForQuickAdd': '选择目标分组（用于快速加入）',
@@ -19959,8 +21030,7 @@ export default {
   'pages.system.roles.templateAppliedToVisible': '已对当前范围应用「{{name}}」模板',
   'pages.system.roles.dataGrantHint':
     '仅展示已在「功能权限」中勾选的业务资源。数据范围在能访问该功能的前提下生效；可用全部、按 APP、按模块或搜索在当前列表内筛选，勾选后批量设置范围并保存。',
-  'pages.system.roles.dataGrantNeedFunction':
-    '请先在「功能权限」中勾选至少一项，再配置数据范围',
+  'pages.system.roles.dataGrantNeedFunction': '请先在「功能权限」中勾选至少一项，再配置数据范围',
   'pages.system.roles.searchDataResource': '搜索资源名称或编码',
   'pages.system.roles.searchDataNeedKeyword': '请输入关键词搜索数据资源',
   'pages.system.roles.searchDataEmpty': '当前筛选下无匹配的数据资源',
@@ -19980,7 +21050,8 @@ export default {
   'pages.system.roles.fieldTemplateAmount': '金额字段脱敏',
   'pages.system.roles.fieldTemplateCustomer': '客户名称脱敏',
   'pages.system.roles.fieldTemplateAmountApplied': '已对当前范围内 {{count}} 条金额类字段应用脱敏',
-  'pages.system.roles.fieldTemplateCustomerApplied': '已对当前范围内 {{count}} 条客户名称字段应用脱敏',
+  'pages.system.roles.fieldTemplateCustomerApplied':
+    '已对当前范围内 {{count}} 条客户名称字段应用脱敏',
   'pages.system.roles.addFieldPolicy': '新增字段权限策略',
   'pages.system.roles.permissionsNotInMenu': '未挂载到菜单的权限',
   'pages.system.roles.orphanPermissionsTooltip':
@@ -20023,7 +21094,8 @@ export default {
   'pages.system.roles.dataGrantSuccess': '数据权限保存成功：{{count}} 条',
   'pages.system.roles.fieldGrantSuccess': '字段权限保存成功：{{count}} 条（已自动去重）',
   'pages.system.roles.cleanOldRoles': '清理旧角色',
-  'pages.system.roles.cleanOldRolesResult': '{{message}}（重命名{{renamed}}，合并{{merged}}，删除{{deleted}}）',
+  'pages.system.roles.cleanOldRolesResult':
+    '{{message}}（重命名{{renamed}}，合并{{merged}}，删除{{deleted}}）',
   'pages.system.roles.noFunctionTree': '暂无功能权限树，请检查菜单与权限同步',
   'pages.system.roles.systemFunctionPermissions': '系统功能权限：',
   'pages.system.roles.currentAssigned': '当前已授权：',
@@ -20089,7 +21161,8 @@ export default {
   'pages.dashboard.statQualityRateSuffix': '合格率',
   'pages.dashboard.unitOrder': '单',
   'pages.dashboard.unitPiece': '件',
-  'pages.dashboard.tip1': '物料管理中配置好「物料来源」和默认工艺路线/供应商，需求计算与工单生成会更顺畅。',
+  'pages.dashboard.tip1':
+    '物料管理中配置好「物料来源」和默认工艺路线/供应商，需求计算与工单生成会更顺畅。',
   'pages.dashboard.tip2': '需求计算完成后可一键生成工单与采购单，建议先做「物料来源验证」再生成。',
   'pages.dashboard.tip3': '工单报工可在「生产执行-报工」快速录入，支持扫码与批量报工。',
   'pages.dashboard.tip4': '消息通知会推送物料变更、审批等，请留意右上角铃铛图标。',
@@ -20100,7 +21173,8 @@ export default {
   'pages.dashboard.tip9': '自定义字段在「系统-自定义字段」中配置，可扩展各单据的显示与录入项。',
   'pages.dashboard.tip10': '多单位物料在物料管理中维护换算关系，下单与库存会按单位自动换算。',
   'pages.dashboard.tip11': '物料变更后会触发下游提示，可在「消息通知」中查看影响范围与建议操作。',
-  'pages.dashboard.tip12': '需求计算按需求来源自动选择计算模式（按预测/按订单），创建时系统会按需求类型推荐。',
+  'pages.dashboard.tip12':
+    '需求计算按需求来源自动选择计算模式（按预测/按订单），创建时系统会按需求类型推荐。',
   'pages.dashboard.todoList': '待办事项',
   'pages.dashboard.todoPendingShort': '待办',
   'pages.dashboard.todo.workOrder': '处理工单 {{code}}',
@@ -20168,7 +21242,8 @@ export default {
   'pages.dashboard.quickEntry': '快捷入口',
   'pages.dashboard.quickEntryCustomize': '自定义',
   'pages.dashboard.configQuickEntry': '自定义快捷入口',
-  'pages.dashboard.configQuickEntryHint': '请选择要添加到快捷入口的菜单项。只能选择有路径的菜单项。',
+  'pages.dashboard.configQuickEntryHint':
+    '请选择要添加到快捷入口的菜单项。只能选择有路径的菜单项。',
   'pages.dashboard.quickEntryEmpty': '暂无快捷入口',
   'pages.dashboard.quickEntryAdd': '添加快捷入口',
   'pages.dashboard.quickEntrySaved': '快捷入口配置已保存',
@@ -20204,7 +21279,8 @@ export default {
   'pages.dashboard.defaultEquipment': '设备管理',
   'pages.dashboard.defaultPlan': '计划管理',
   'pages.dashboard.configQuickActions': '配置快捷操作',
-  'pages.dashboard.configQuickActionsHint': '请选择要添加到快捷操作的菜单项。只能选择有路径的菜单项。',
+  'pages.dashboard.configQuickActionsHint':
+    '请选择要添加到快捷操作的菜单项。只能选择有路径的菜单项。',
   'pages.dashboard.save': '保存',
   'pages.dashboard.cancel': '取消',
   'pages.dashboard.viewMore': '查看更多',
@@ -20288,7 +21364,8 @@ export default {
   'pages.dashboard.toolkit.taxAmount': '税额 (￥)',
   'pages.dashboard.toolkit.totalInclTax': '含税总计',
   'pages.dashboard.toolkit.reverseExclTax': '倒推不含税',
-  'pages.dashboard.toolkit.vatCalcHint': '一般计税：税额 = 不含税×税率；反算：不含税 = 含税÷(1+税率)',
+  'pages.dashboard.toolkit.vatCalcHint':
+    '一般计税：税额 = 不含税×税率；反算：不含税 = 含税÷(1+税率)',
   'pages.dashboard.toolkit.metalWeightTitle': '金属重量计算',
   'pages.dashboard.toolkit.plate': '板材',
   'pages.dashboard.toolkit.pipe': '管材',
@@ -20331,8 +21408,6 @@ export default {
   'pages.dashboard.toolkit.browserOnlyHint': '仅保存在本浏览器',
   'pages.dashboard.toolkit.memoPlaceholder': '待办、分机、临时单号…',
   'pages.dashboard.toolkit.clear': '清空',
-
-
 
   // 工作台 - 分析页
   'pages.dashboard.analysis.title': '分析页',
@@ -20389,7 +21464,8 @@ export default {
   'field.customField.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
   'field.customField.batchDeleteTitle': '确认批量删除',
   'field.customField.batchDeleteConfirmTitle': '确定要批量删除选中的记录吗？',
-  'field.customField.batchDeleteConfirmDescription': '将删除 {{count}} 条记录，删除后无法恢复，请谨慎操作。',
+  'field.customField.batchDeleteConfirmDescription':
+    '将删除 {{count}} 条记录，删除后无法恢复，请谨慎操作。',
   'field.customField.createButton': '新建字段',
   'field.customField.sidebarCountTitle': '已配置 {{count}} 个自定义字段',
   'field.customField.batchDeleteButton': '批量删除',
@@ -20423,9 +21499,11 @@ export default {
   'field.customField.datetimeFormat': '日期时间格式',
   'field.customField.datetimeFormatPlaceholder': '例如：YYYY-MM-DD HH:mm:ss',
   'field.customField.datetimeFormatExtra': '支持的格式：YYYY-MM-DD HH:mm:ss、YYYY/MM/DD HH:mm等',
-  'field.customField.datetimeDefaultPlaceholder': '请输入默认日期时间，例如：2025-01-01 14:30:00（可选）',
+  'field.customField.datetimeDefaultPlaceholder':
+    '请输入默认日期时间，例如：2025-01-01 14:30:00（可选）',
   'field.customField.selectOptions': '选项列表',
-  'field.customField.selectOptionsPlaceholder': '请输入选项 JSON，例如：[{"label": "选项1", "value": "1"}, {"label": "选项2", "value": "2"}]',
+  'field.customField.selectOptionsPlaceholder':
+    '请输入选项 JSON，例如：[{"label": "选项1", "value": "1"}, {"label": "选项2", "value": "2"}]',
   'field.customField.selectOptionsHint': '添加选项，每行填写显示名称和对应的值',
   'field.customField.optionLabelPlaceholder': '显示名称',
   'field.customField.optionValuePlaceholder': '值',
@@ -20455,11 +21533,14 @@ export default {
   'field.customField.associatedFieldExtra': '选择用于显示的字段名称',
   'field.customField.associatedFieldDropdownExtra': '未配置源字段时，下拉选择关联表记录',
   'field.customField.typeAssociatedAttribute': '关联属性',
-  'field.customField.typeAssociatedAttributeDesc': '从关联表指定列读取可选值，供表单单选或多选；不做 XLOOKUP 匹配计算。',
-  'field.customField.typeAssociatedObjectDesc': '相当于 XLOOKUP：用当前表字段值到关联表匹配，并回填指定列（通常为记录 ID）。',
+  'field.customField.typeAssociatedAttributeDesc':
+    '从关联表指定列读取可选值，供表单单选或多选；不做 XLOOKUP 匹配计算。',
+  'field.customField.typeAssociatedObjectDesc':
+    '相当于 XLOOKUP：用当前表字段值到关联表匹配，并回填指定列（通常为记录 ID）。',
   'field.customField.sourceField': '源字段',
   'field.customField.sourceFieldPlaceholder': '请选择当前表单的源字段',
-  'field.customField.sourceFieldExtra': '用该字段的值到关联表匹配（XLOOKUP）；留空则下拉选择关联记录',
+  'field.customField.sourceFieldExtra':
+    '用该字段的值到关联表匹配（XLOOKUP）；留空则下拉选择关联记录',
   'field.customField.sourceFieldSystemTag': '系统',
   'field.customField.sourceFieldCustomTag': '自定义',
   'field.customField.matchField': '匹配字段',
@@ -20473,11 +21554,13 @@ export default {
   'field.customField.linkField': '关联对象字段',
   'field.customField.linkFieldRequired': '请选择关联对象字段',
   'field.customField.linkFieldPlaceholder': '可选：选择同表的系统字段或自定义字段',
-  'field.customField.linkFieldExtra': '与关联对象的「源字段」同源：用该字段的值在关联表匹配记录，再读取属性；留空则列出属性字段全部可选值',
+  'field.customField.linkFieldExtra':
+    '与关联对象的「源字段」同源：用该字段的值在关联表匹配记录，再读取属性；留空则列出属性字段全部可选值',
   'field.customField.linkMatchField': '匹配字段',
   'field.customField.linkMatchFieldRequired': '请选择匹配字段',
   'field.customField.linkMatchFieldPlaceholder': '请选择关联表匹配字段',
-  'field.customField.linkMatchFieldExtra': '当关联对象字段的值不是记录 ID 时，用该字段在关联表中匹配（同 VLOOKUP）',
+  'field.customField.linkMatchFieldExtra':
+    '当关联对象字段的值不是记录 ID 时，用该字段在关联表中匹配（同 VLOOKUP）',
   'field.customField.attributeField': '属性字段',
   'field.customField.attributeFieldRequired': '请选择属性字段',
   'field.customField.attributeFieldPlaceholder': '请选择属性字段',
@@ -20491,7 +21574,8 @@ export default {
   'field.customField.displayModeDisplay': '只读展示',
   'field.customField.displayModeInput': '可编辑文本',
   'field.customField.displayModeNumber': '数字输入',
-  'field.customField.displayModeAssociatedObjectExtra': '无源字段：单选下拉 / 单选按钮 / 多选；有源字段（XLOOKUP）：只读 / 可编辑 / 数字',
+  'field.customField.displayModeAssociatedObjectExtra':
+    '无源字段：单选下拉 / 单选按钮 / 多选；有源字段（XLOOKUP）：只读 / 可编辑 / 数字',
   'field.customField.displayModeAssociatedAttributeExtra': '关联属性：单选下拉 / 单选按钮 / 多选',
   'field.customField.optionId': 'ID (id)',
   'field.customField.optionName': '名称 (name)',
@@ -20513,7 +21597,8 @@ export default {
   'field.customField.textareaRows': '行数',
   'field.customField.textareaRowsPlaceholder': '请输入行数',
   'field.customField.defaultValueJson': '默认值（JSON）',
-  'field.customField.defaultValueJsonPlaceholder': '请输入 JSON 格式的默认值，例如：{"key": "value"}',
+  'field.customField.defaultValueJsonPlaceholder':
+    '请输入 JSON 格式的默认值，例如：{"key": "value"}',
   'field.customField.defaultValueJsonExtra': '请输入有效的 JSON 格式',
   'field.customField.typeText': '文本',
   'field.customField.typeNumber': '数值',
@@ -20580,7 +21665,8 @@ export default {
   'field.scheduledTask.batchDeleteConfirm': '确定要删除选中的 {{count}} 条记录吗？此操作不可恢复。',
   'field.scheduledTask.batchDeleteTitle': '确认批量删除',
   'field.scheduledTask.batchDeleteConfirmTitle': '确定要批量删除选中的定时任务吗？',
-  'field.scheduledTask.batchDeleteConfirmDescription': '将删除 {{count}} 个定时任务，删除后无法恢复，请谨慎操作。',
+  'field.scheduledTask.batchDeleteConfirmDescription':
+    '将删除 {{count}} 个定时任务，删除后无法恢复，请谨慎操作。',
   'field.scheduledTask.createButton': '新建定时任务',
   'field.scheduledTask.batchDeleteButton': '批量删除',
   'field.scheduledTask.nameRequired': '请输入任务名称',
@@ -20591,10 +21677,14 @@ export default {
   'field.scheduledTask.typeRequired': '请选择任务类型',
   'field.scheduledTask.triggerTypeRequired': '请选择触发器类型',
   'field.scheduledTask.descriptionPlaceholder': '请输入备注',
-  'field.scheduledTask.triggerConfigPlaceholderCron': '请输入 Cron 表达式，例如：{"cron": "0 0 * * *"}',
-  'field.scheduledTask.triggerConfigPlaceholderInterval': '请输入间隔时间（秒），例如：{"seconds": 300}',
-  'field.scheduledTask.triggerConfigPlaceholderDate': '请输入执行时间，例如：{"at": "2025-01-01T00:00:00Z"}',
-  'field.scheduledTask.taskConfigPlaceholder': '请输入任务配置（JSON 格式），例如：{"url": "https://api.example.com/endpoint", "method": "POST", "headers": {}, "data": {}}',
+  'field.scheduledTask.triggerConfigPlaceholderCron':
+    '请输入 Cron 表达式，例如：{"cron": "0 0 * * *"}',
+  'field.scheduledTask.triggerConfigPlaceholderInterval':
+    '请输入间隔时间（秒），例如：{"seconds": 300}',
+  'field.scheduledTask.triggerConfigPlaceholderDate':
+    '请输入执行时间，例如：{"at": "2025-01-01T00:00:00Z"}',
+  'field.scheduledTask.taskConfigPlaceholder':
+    '请输入任务配置（JSON 格式），例如：{"url": "https://api.example.com/endpoint", "method": "POST", "headers": {}, "data": {}}',
   'field.scheduledTask.triggerCronLabel': 'Cron 表达式',
   'field.scheduledTask.triggerIntervalLabel': '间隔（秒）',
   'field.scheduledTask.triggerDateLabel': '执行时间',
@@ -20638,7 +21728,8 @@ export default {
   'field.user.batchDeleteTitle': '批量删除',
   'field.user.batchDeleteConfirm': '确定要删除选中的 {{count}} 个用户吗？',
   'field.user.batchDeleteConfirmTitle': '确定要批量删除选中的用户吗？',
-  'field.user.batchDeleteConfirmDescription': '将删除 {{count}} 个用户，删除后无法恢复，请谨慎操作。',
+  'field.user.batchDeleteConfirmDescription':
+    '将删除 {{count}} 个用户，删除后无法恢复，请谨慎操作。',
   'field.user.batchDeleteSuccess': '成功删除 {{count}} 条记录',
   'field.user.batchDeletePartial': '删除完成：成功 {{success}} 条，失败 {{fail}} 条',
   'field.user.resetPasswordTitle': '重置密码',
@@ -20932,9 +22023,11 @@ export default {
   'pages.infra.tenant.importEmpty': '导入数据为空',
   'pages.infra.tenant.importNoRows': '没有可导入的数据行（请从第3行开始填写数据）',
   'pages.infra.tenant.importNoRowsAllEmpty': '没有可导入的数据行（所有行都为空）',
-  'pages.infra.tenant.importMissingFields': '缺少必需字段：{{fields}}。请确保表头包含"组织名称"和"域名"列。',
+  'pages.infra.tenant.importMissingFields':
+    '缺少必需字段：{{fields}}。请确保表头包含"组织名称"和"域名"列。',
   'pages.infra.tenant.importRowMissing': '第 {{row}} 行：缺少必需字段（组织名称或域名）',
-  'pages.infra.tenant.importRowDomainInvalid': '第 {{row}} 行：域名格式不正确（只能包含字母、数字、下划线、连字符）',
+  'pages.infra.tenant.importRowDomainInvalid':
+    '第 {{row}} 行：域名格式不正确（只能包含字母、数字、下划线、连字符）',
   'pages.infra.tenant.importValidationFailed': '数据验证失败',
   'pages.infra.tenant.importValidationHint': '以下数据行存在错误，请修正后重新导入：',
   'pages.infra.tenant.importing': '正在导入组织数据',
@@ -20954,7 +22047,8 @@ export default {
   'pages.infra.tenant.operationFailed': '操作失败',
   'pages.infra.tenant.selectToDelete': '请先选择要删除的组织',
   'pages.infra.tenant.deleteConfirmTitle': '确认删除',
-  'pages.infra.tenant.deleteConfirmContent': '确定要删除该组织吗？仅停用且无业务单据的组织可删除；删除后组织将被暂停（软删除）。',
+  'pages.infra.tenant.deleteConfirmContent':
+    '确定要删除该组织吗？仅停用且无业务单据的组织可删除；删除后组织将被暂停（软删除）。',
   'pages.infra.tenant.deleteRowConfirmTitle': '确认删除组织',
   'pages.infra.tenant.deleteRowConfirmContent': '仅已暂停且无业务单据的组织可删除，确定继续吗？',
   'pages.infra.tenant.deleteConfirmOk': '确认删除',
@@ -21011,7 +22105,8 @@ export default {
   'pages.infra.tenant.adminFullName': '管理员姓名',
   'pages.infra.tenant.formPlanExtra': '选择套餐后将自动设置，也可手动调整',
   'pages.infra.tenant.initDataOptions': '初始化数据（可选）',
-  'pages.infra.tenant.initDataOptionsExtra': '系统级数据（数据字典、语言、免费应用、编号规则、审批流程、消息/打印模板等）将自动加载；勾选下方项可额外加载业务预置数据',
+  'pages.infra.tenant.initDataOptionsExtra':
+    '系统级数据（数据字典、语言、免费应用、编号规则、审批流程、消息/打印模板等）将自动加载；勾选下方项可额外加载业务预置数据',
   'pages.infra.tenant.back': '返回',
   'pages.infra.tenant.notFound': '组织不存在',
   'pages.infra.tenant.detailTitleSuperAdmin': '组织详情（超级管理员）',
@@ -21027,7 +22122,8 @@ export default {
   'pages.infra.tenant.importHeaderMaxUsers': '最大用户数',
   'pages.infra.tenant.importHeaderMaxStorage': '存储空间(MB)',
   'pages.infra.tenant.importHeaderExpiresAt': '过期时间',
-  'pages.infra.tenant.planDescriptionExtra': '套餐说明：{{description}}（最大用户数：{{maxUsers}}，最大存储：{{maxStorage}} MB）',
+  'pages.infra.tenant.planDescriptionExtra':
+    '套餐说明：{{description}}（最大用户数：{{maxUsers}}，最大存储：{{maxStorage}} MB）',
   'pages.infra.tenant.planDescriptionTrial': '适合快速体验系统功能，限制用户数和存储空间',
   'pages.infra.tenant.planDescriptionBasic': '适合小型团队使用，提供基础功能',
   'pages.infra.tenant.planDescriptionProfessional': '适合中型企业使用，提供完整功能和 PRO 应用支持',
@@ -21060,7 +22156,8 @@ export default {
   'pages.infra.platform.logoUploadFailed': 'LOGO上传失败',
   'pages.infra.platform.logoCleared': 'LOGO已清除',
   'pages.infra.platform.favicon': 'Favicon',
-  'pages.infra.platform.faviconTooltip': '上传图片作为浏览器标签页图标，建议尺寸 32x32 或 64x64 像素，支持 UUID 和 URL 两种格式',
+  'pages.infra.platform.faviconTooltip':
+    '上传图片作为浏览器标签页图标，建议尺寸 32x32 或 64x64 像素，支持 UUID 和 URL 两种格式',
   'pages.infra.platform.uploadFavicon': '上传 Favicon',
   'pages.infra.platform.clearFavicon': '清除 Favicon',
   'pages.infra.platform.faviconUrlPlaceholder': '或直接输入 Favicon URL',
@@ -21088,7 +22185,8 @@ export default {
   'pages.infra.platform.loginTitleEn': '登录页标题 (英文)',
   'pages.infra.platform.loginTitleEnPlaceholder': '请输入登录页标题的英文版本',
   'pages.infra.platform.loginContent': '登录页内容',
-  'pages.infra.platform.loginContentPlaceholder': '请输入登录页内容描述（将显示在登录页左侧标题下方）',
+  'pages.infra.platform.loginContentPlaceholder':
+    '请输入登录页内容描述（将显示在登录页左侧标题下方）',
   'pages.infra.platform.loginContentEn': '登录页内容 (英文)',
   'pages.infra.platform.loginContentEnPlaceholder': '请输入登录页内容描述的英文版本',
   'pages.infra.platform.loginDecorationImage': '登录页装饰图',
@@ -21099,7 +22197,8 @@ export default {
   'pages.infra.platform.loginBackgroundEnabled': '启用背景图',
   'pages.infra.platform.loginBackgroundImage': '登录页背景图',
   'pages.infra.platform.loginBackgroundImagePlaceholder': '请输入背景图 URL 或文件 UUID',
-  'pages.infra.platform.loginBackgroundRecommendedSize': '建议尺寸：960 x 1080 px（半屏 1920×1080），将铺满左栏背景',
+  'pages.infra.platform.loginBackgroundRecommendedSize':
+    '建议尺寸：960 x 1080 px（半屏 1920×1080），将铺满左栏背景',
   'pages.infra.platform.uploadBackgroundImage': '上传背景图',
   'pages.infra.platform.clearBackgroundImage': '清除背景图',
   'pages.infra.platform.loginBackgroundUploadSuccess': '背景图上传成功',
@@ -21121,17 +22220,23 @@ export default {
   'pages.infra.platform.cropFaviconTitle': '剪裁 Favicon（建议正方形）',
   'pages.infra.platform.tenantConfig': '组织注册配置',
   'pages.infra.platform.tenantAutoApprove': '自动审核组织注册',
-  'pages.infra.platform.tenantAutoApproveTooltip': '开启后，新注册的租户组织将自动通过审核，无需管理员手动审核',
+  'pages.infra.platform.tenantAutoApproveTooltip':
+    '开启后，新注册的租户组织将自动通过审核，无需管理员手动审核',
   'pages.infra.platform.floatButtonEnabled': '显示右下角悬浮按钮',
-  'pages.infra.platform.floatButtonEnabledTooltip': '开启后，系统主界面右下角将显示悬浮按钮，用于展示迭代说明、版本信息及意见反馈入口',
+  'pages.infra.platform.floatButtonEnabledTooltip':
+    '开启后，系统主界面右下角将显示悬浮按钮，用于展示迭代说明、版本信息及意见反馈入口',
   'pages.infra.platform.loginGuestEnabled': '登录页显示免注册体验登录',
-  'pages.infra.platform.loginGuestEnabledTooltip': '关闭后，登录页不再显示「免注册体验登录」按钮，且接口拒绝体验登录',
+  'pages.infra.platform.loginGuestEnabledTooltip':
+    '关闭后，登录页不再显示「免注册体验登录」按钮，且接口拒绝体验登录',
   'pages.infra.platform.loginQuickEnabled': '是否开启快捷登录',
-  'pages.infra.platform.loginQuickEnabledTooltip': '关闭后，登录页不再显示微信、QQ、企业微信、钉钉、飞书等快捷登录入口',
+  'pages.infra.platform.loginQuickEnabledTooltip':
+    '关闭后，登录页不再显示微信、QQ、企业微信、钉钉、飞书等快捷登录入口',
   'pages.infra.platform.loginClientWinEnabled': '登录页显示 Windows 工位机下载',
-  'pages.infra.platform.loginClientWinEnabledTooltip': '关闭后，登录页不再显示触屏工位机 Windows 安装包入口',
+  'pages.infra.platform.loginClientWinEnabledTooltip':
+    '关闭后，登录页不再显示触屏工位机 Windows 安装包入口',
   'pages.infra.platform.loginClientAndroidEnabled': '登录页显示 Android PDA 下载',
-  'pages.infra.platform.loginClientAndroidEnabledTooltip': '关闭后，登录页不再显示移动端 PDA Android 安装包入口',
+  'pages.infra.platform.loginClientAndroidEnabledTooltip':
+    '关闭后，登录页不再显示移动端 PDA Android 安装包入口',
 
   // 报表与看板应用
   'app.kuaireport.name': '快报表',
@@ -21188,7 +22293,8 @@ export default {
   'pages.approval.designer.selectNodeTip': '请选择画布中的节点进行配置',
   'pages.approval.designer.label': '节点名称',
   'pages.approval.designer.approvalType': '审批方式',
-  'pages.approval.designer.approvalTypeToolTip': '会签：所有选定人员都必须同意；或签：选定人员中任一人同意即可通过。',
+  'pages.approval.designer.approvalTypeToolTip':
+    '会签：所有选定人员都必须同意；或签：选定人员中任一人同意即可通过。',
   'pages.approval.designer.approvalTypeOr': '或签 (一名成员通过即进入下一节点)',
   'pages.approval.designer.approvalTypeAnd': '会签 (所有成员通过才进入下一节点)',
   'pages.approval.designer.approverType': '审批人类型',
@@ -21216,7 +22322,8 @@ export default {
   'pages.approval.designer.branchLabel': '分支 {{index}}',
   'pages.approval.designer.branchAfterCondition': '分支 {{index}}（紧跟上方条件）',
   'pages.approval.designer.branchAddFirst': '条件 {{index}}：添加第一个节点（将连到结束）',
-  'pages.approval.designer.extraBranchesHint': '以下分支数多于已配置条件，可为这些分支单独添加下一节点。',
+  'pages.approval.designer.extraBranchesHint':
+    '以下分支数多于已配置条件，可为这些分支单独添加下一节点。',
   'pages.approval.designer.deleteEdge': '删除连线',
   'pages.approval.designer.edgeDeleted': '连线已删除',
   'pages.approval.designer.cannotDeleteStartEnd': '开始节点和结束节点不可删除',
@@ -21242,16 +22349,19 @@ export default {
   'pages.system.parameters.security.tokenCheckInterval': 'Token 检查间隔 (秒)',
   'pages.system.parameters.security.tokenCheckIntervalTooltip': '前端检查 Token 是否过期的频率',
   'pages.system.parameters.security.inactivityTimeout': '用户不活动超时 (秒)',
-  'pages.system.parameters.security.inactivityTimeoutTooltip': '用户无操作多长时间后自动登出，0表示禁用',
+  'pages.system.parameters.security.inactivityTimeoutTooltip':
+    '用户无操作多长时间后自动登出，0表示禁用',
   'pages.system.parameters.security.userCacheTime': '用户信息缓存时间 (秒)',
-  'pages.system.parameters.security.userCacheTimeTooltip': '用户信息在前端缓存的时间，过期后会重新获取',
+  'pages.system.parameters.security.userCacheTimeTooltip':
+    '用户信息在前端缓存的时间，过期后会重新获取',
   'pages.system.parameters.ui': '界面与交互',
   'pages.system.parameters.ui.maxTabs': '最大打开标签页数',
   'pages.system.parameters.ui.maxTabsTooltip': '超过限制数量时，最旧的未固定标签将被自动关闭',
   'pages.system.parameters.ui.defaultPageSize': '表格默认每页条数',
   'pages.system.parameters.ui.defaultPageSizeTooltip': '所有表格默认的分页大小',
   'pages.system.parameters.ui.tableLoadingDelay': '表格加载延迟 (毫秒)',
-  'pages.system.parameters.ui.tableLoadingDelayTooltip': '设置加载状态显示的延迟时间，避免快速请求时的闪烁',
+  'pages.system.parameters.ui.tableLoadingDelayTooltip':
+    '设置加载状态显示的延迟时间，避免快速请求时的闪烁',
   'pages.system.parameters.ui.primaryColor': '默认主题色',
   'pages.system.parameters.ui.primaryColorTooltip': '系统的默认主色调',
   'pages.system.parameters.network': '网络与系统',
@@ -21335,7 +22445,8 @@ export default {
   'appRoutes.troubleshoot3': '确保应用已安装（is_installed = true）且已启用（is_active = true）',
   'appRoutes.troubleshoot4': '确认应用的 entry_point 和 route_path 配置正确',
   'appRoutes.troubleshoot5': '查看控制台中的 [AppRoutes] 和 [pluginLoader] 日志',
-  'appRoutes.troubleshootTip': '提示：系统已自动尝试扫描应用。如果仍然没有应用，请手动在"应用管理"页面扫描应用。',
+  'appRoutes.troubleshootTip':
+    '提示：系统已自动尝试扫描应用。如果仍然没有应用，请手动在"应用管理"页面扫描应用。',
 
   // 组织选择弹窗
   'components.tenantSelection.title': '选择组织',
@@ -21380,13 +22491,16 @@ export default {
   'components.documentTrackingPanel.relationsFullChainTitle': '关联全链路',
   'components.documentTrackingPanel.openFullChainLink': '全链路',
   'components.documentTrackingPanel.traceBriefTitle': '关联单据简览',
-  'components.documentTrackingPanel.traceBriefSelectNode': '点击上方全链路中的节点，在此查看单据基本信息与明细',
+  'components.documentTrackingPanel.traceBriefSelectNode':
+    '点击上方全链路中的节点，在此查看单据基本信息与明细',
   'components.documentTrackingPanel.traceBriefDismiss': '收起简览',
-  'components.documentTrackingPanel.traceBriefClickHint': '点击上图关联节点，在下方独立悬浮窗中查看简版（基本信息与明细）；销售订单可使用底部按钮打开完整详情。',
+  'components.documentTrackingPanel.traceBriefClickHint':
+    '点击上图关联节点，在下方独立悬浮窗中查看简版（基本信息与明细）；销售订单可使用底部按钮打开完整详情。',
   'components.documentTrackingPanel.traceBriefBasic': '基本信息',
   'components.documentTrackingPanel.traceBriefItems': '明细信息',
   'components.documentTrackingPanel.traceBriefNoItems': '暂无明细',
-  'components.documentTrackingPanel.traceBriefUnsupported': '暂不支持加载「{{type}}」的简览，仅展示节点标签信息',
+  'components.documentTrackingPanel.traceBriefUnsupported':
+    '暂不支持加载「{{type}}」的简览，仅展示节点标签信息',
   'components.documentTrackingPanel.traceBriefLoadFailed': '加载单据简览失败',
   'components.documentTrackingPanel.traceBriefOpenSalesOrder': '打开销售订单详情',
   'components.documentTrackingPanel.traceBriefOpenQuotation': '打开报价单详情',
@@ -21582,10 +22696,13 @@ export default {
   'app.kuaizhizao.salesForecast.operationHistory': '操作历史',
   'app.kuaizhizao.salesForecast.lifecycleStatus': '生命周期状态',
   'app.kuaizhizao.salesForecast.demandSynced': '已同步至关联需求',
-  'app.kuaizhizao.salesForecast.attributePlaceholder': '配置件需填写，如 {"color":"red","size":"M"}',
-  'app.kuaizhizao.salesForecast.importResult': '导入完成：成功 {{success_count}} 条，失败 {{failure_count}} 条',
+  'app.kuaizhizao.salesForecast.attributePlaceholder':
+    '配置件需填写，如 {"color":"red","size":"M"}',
+  'app.kuaizhizao.salesForecast.importResult':
+    '导入完成：成功 {{success_count}} 条，失败 {{failure_count}} 条',
   'app.kuaizhizao.salesForecast.importSuccess': '导入成功：成功 {{count}} 条',
-  'app.kuaizhizao.salesForecast.deleteConfirmContent': '确定要删除选中的 {{count}} 条销售预测吗？此操作不可恢复。',
+  'app.kuaizhizao.salesForecast.deleteConfirmContent':
+    '确定要删除选中的 {{count}} 条销售预测吗？此操作不可恢复。',
   'app.kuaizhizao.salesForecast.pushToMrpConfirm': '确定要将此销售预测下推到需求计算吗？',
   'app.kuaizhizao.salesForecast.pushToComputationConfirm': '确定要将此销售预测下推到需求计算吗？',
   'app.kuaizhizao.salesForecast.title': '销售预测',
@@ -21626,7 +22743,8 @@ export default {
   'app.kuaizhizao.salesForecast.unit': '单位',
   'app.kuaizhizao.salesForecast.selectOne': '请先选择一条销售预测',
   'app.kuaizhizao.salesForecast.batchSubmit': '批量提交',
-  'app.kuaizhizao.salesForecast.batchSubmitNotAllowed': '当前选中预测不可批量提交（仅草稿可提交）。',
+  'app.kuaizhizao.salesForecast.batchSubmitNotAllowed':
+    '当前选中预测不可批量提交（仅草稿可提交）。',
   'app.kuaizhizao.salesForecast.batchSubmitSuccess': '已提交 {{count}} 条',
   'app.kuaizhizao.salesForecast.batchSubmitFailed': '提交失败 {{count}} 条',
   'app.kuaizhizao.salesForecast.emptyItems': '暂无明细',
@@ -21634,7 +22752,8 @@ export default {
   'app.kuaizhizao.salesForecast.helpViewTable': '表格视图',
   'app.kuaizhizao.salesForecast.helpViewTableDesc': '按预测单据维度展示。',
   'app.kuaizhizao.salesForecast.helpViewDetail': '明细表格',
-  'app.kuaizhizao.salesForecast.helpViewDetailDesc': '按每条预测明细展开，便于核对产品、数量与预测日期。',
+  'app.kuaizhizao.salesForecast.helpViewDetailDesc':
+    '按每条预测明细展开，便于核对产品、数量与预测日期。',
   'app.kuaizhizao.salesForecast.totalForecastQuantity': '总预测数量',
   'app.kuaizhizao.salesForecast.importHeaderMaterialCode': '产品编号',
   'app.kuaizhizao.salesForecast.importHeaderSpec': '规格',
@@ -21847,7 +22966,8 @@ export default {
   'app.kuaizhizao.salesReturn.editOnlyPending': '仅「待退货」或「草稿」状态可编辑',
   'app.kuaizhizao.salesReturn.loadDetailFailed': '加载退货单失败',
   'app.kuaizhizao.salesReturn.confirmTitle': '确认销售退货',
-  'app.kuaizhizao.salesReturn.confirmContent': '确定要确认销售退货单 "{{code}}" 吗？确认后将自动更新库存。',
+  'app.kuaizhizao.salesReturn.confirmContent':
+    '确定要确认销售退货单 "{{code}}" 吗？确认后将自动更新库存。',
   'app.kuaizhizao.salesReturn.confirmSuccess': '销售退货确认成功',
   'app.kuaizhizao.salesReturn.confirmFailed': '销售退货确认失败',
   'app.kuaizhizao.salesReturn.withdrawTitle': '撤回退货确认',
@@ -21859,8 +22979,10 @@ export default {
   'app.kuaizhizao.salesReturn.selectReturnsFirst': '请先选择销售退货单',
   'app.kuaizhizao.salesReturn.batchConfirmSuccess': '已确认 {{count}} 条销售退货单',
   'app.kuaizhizao.salesReturn.batchConfirmPartial': '{{count}} 条确认失败（仅待退货状态可确认）',
-  'app.kuaizhizao.salesReturn.batchConfirmNotAllowed': '当前选中退货单不可批量确认（仅待退货可确认）。',
-  'app.kuaizhizao.salesReturn.batchWithdrawNotAllowed': '当前选中退货单不可批量撤回（仅已退货可撤回）。',
+  'app.kuaizhizao.salesReturn.batchConfirmNotAllowed':
+    '当前选中退货单不可批量确认（仅待退货可确认）。',
+  'app.kuaizhizao.salesReturn.batchWithdrawNotAllowed':
+    '当前选中退货单不可批量撤回（仅已退货可撤回）。',
   'app.kuaizhizao.salesReturn.batchWithdrawSuccess': '已撤回 {{count}} 条销售退货单',
   'app.kuaizhizao.salesReturn.batchWithdrawPartial': '{{count}} 条撤回失败（仅已退货状态可撤回）',
   'app.kuaizhizao.salesReturn.editNotAllowed': '当前状态不允许编辑',
@@ -21958,7 +23080,8 @@ export default {
   'app.kuaizhizao.purchaseReturn.editOnlyPending': '仅「待退货」或「草稿」状态可编辑',
   'app.kuaizhizao.purchaseReturn.loadDetailFailed': '加载退货单失败',
   'app.kuaizhizao.purchaseReturn.confirmTitle': '确认采购退货',
-  'app.kuaizhizao.purchaseReturn.confirmContent': '确定要确认采购退货单 "{{code}}" 吗？确认后将自动更新库存。',
+  'app.kuaizhizao.purchaseReturn.confirmContent':
+    '确定要确认采购退货单 "{{code}}" 吗？确认后将自动更新库存。',
   'app.kuaizhizao.purchaseReturn.confirmSuccess': '采购退货确认成功',
   'app.kuaizhizao.purchaseReturn.confirmFailed': '采购退货确认失败',
   'app.kuaizhizao.purchaseReturn.withdrawTitle': '撤回退货确认',
@@ -21971,7 +23094,8 @@ export default {
   'app.kuaizhizao.purchaseReturn.batchConfirmSuccess': '已确认 {{count}} 条采购退货单',
   'app.kuaizhizao.purchaseReturn.batchConfirmPartial': '{{count}} 条确认失败（仅待退货状态可确认）',
   'app.kuaizhizao.purchaseReturn.batchWithdrawSuccess': '已撤回 {{count}} 条采购退货单',
-  'app.kuaizhizao.purchaseReturn.batchWithdrawPartial': '{{count}} 条撤回失败（仅已退货状态可撤回）',
+  'app.kuaizhizao.purchaseReturn.batchWithdrawPartial':
+    '{{count}} 条撤回失败（仅已退货状态可撤回）',
   'app.kuaizhizao.purchaseReturn.editNotAllowed': '当前状态不允许编辑',
   'app.kuaizhizao.purchaseReturn.updateSuccess': '采购退货单已更新',
   'app.kuaizhizao.purchaseReturn.createSuccess': '采购退货单创建成功',
@@ -22033,8 +23157,10 @@ export default {
   'app.kuaizhizao.salesOrder.defaultPayment.cod': '货到付款',
   'app.kuaizhizao.salesOrder.defaultPayment.net30': '月结30天',
   'app.kuaizhizao.salesOrder.defaultPayment.net60': '月结60天',
-  'app.kuaizhizao.salesOrder.shippingMethodDictFallback': '发货方式数据字典未加载，已使用内置常用选项',
-  'app.kuaizhizao.salesOrder.paymentTermsDictFallback': '付款条件数据字典未加载，已使用内置常用选项',
+  'app.kuaizhizao.salesOrder.shippingMethodDictFallback':
+    '发货方式数据字典未加载，已使用内置常用选项',
+  'app.kuaizhizao.salesOrder.paymentTermsDictFallback':
+    '付款条件数据字典未加载，已使用内置常用选项',
   'app.kuaizhizao.salesOrder.draftRestored': '已恢复暂存内容',
   'app.kuaizhizao.salesOrder.nodeCreateDisabled': '销售订单节点未启用，无法新建',
   'app.kuaizhizao.salesOrder.batchSubmit': '批量提交',
@@ -22042,19 +23168,23 @@ export default {
   'app.kuaizhizao.salesOrder.batchWithdraw': '批量撤回',
   'app.kuaizhizao.salesOrder.batchUnapprove': '批量撤销审核',
   'app.kuaizhizao.salesOrder.batchActionAllSuccess': '{{action}}成功: {{count}}条',
-  'app.kuaizhizao.salesOrder.batchActionPartial': '{{action}}部分成功: {{success}}成功, {{failed}}失败',
-  'app.kuaizhizao.salesOrder.batchActionPartialWithReason': '{{action}}部分成功: {{success}}成功, {{failed}}失败（{{reason}}）',
+  'app.kuaizhizao.salesOrder.batchActionPartial':
+    '{{action}}部分成功: {{success}}成功, {{failed}}失败',
+  'app.kuaizhizao.salesOrder.batchActionPartialWithReason':
+    '{{action}}部分成功: {{success}}成功, {{failed}}失败（{{reason}}）',
   'app.kuaizhizao.salesOrder.batchActionFailed': '{{action}}失败',
   'app.kuaizhizao.salesOrder.batchActionFailedDetails': '{{action}}失败详情',
   'app.kuaizhizao.salesOrder.generateCodeFailed': '生成订单编号失败',
   'app.kuaizhizao.salesOrder.saveAndSubmit': '保存并提交',
-  'app.kuaizhizao.salesOrder.computationAlreadyPushed': '该销售订单已下推需求计算，如需重推请先「撤回计算」',
+  'app.kuaizhizao.salesOrder.computationAlreadyPushed':
+    '该销售订单已下推需求计算，如需重推请先「撤回计算」',
   'app.kuaizhizao.salesOrder.loadProductionLinesFailed': '加载产线列表失败',
   'app.kuaizhizao.salesOrder.selectAtLeastOneLine': '请至少选择一条产品明细',
   'app.kuaizhizao.salesOrder.pushQtyFullyUsed': '该销售订单可下推数量已全部用完',
   'app.kuaizhizao.salesOrder.pushQtyInvalid': '请填写有效下推数量：{{code}}',
   'app.kuaizhizao.salesOrder.pushQtyExceedsRemaining': '下推数量不能超过可下推剩余量：{{code}}',
-  'app.kuaizhizao.salesOrder.masterDataMissingForConfirmPush': '存在主数据缺项，当前为「正式下推」不可继续，请先补齐或改为「草稿下推」。',
+  'app.kuaizhizao.salesOrder.masterDataMissingForConfirmPush':
+    '存在主数据缺项，当前为「正式下推」不可继续，请先补齐或改为「草稿下推」。',
   'app.kuaizhizao.salesOrder.shippableQtyFullyUsed': '该销售订单可通知发货数量已全部用完',
   'app.kuaizhizao.salesOrder.pushQtyExceedsShippable': '下推数量不能超过可发货数量：{{code}}',
   'app.kuaizhizao.salesOrder.nodeComputationDisabled': '需求计算节点未启用，无法下推',
@@ -22066,7 +23196,8 @@ export default {
   'app.kuaizhizao.salesOrder.pushDeliveryFailed': '下推销售出库失败',
   'app.kuaizhizao.salesOrder.noReturnableQty': '销售订单暂无可退货数量（已交货数量为 0）',
   'app.kuaizhizao.salesOrder.returnWarehouseRequired': '请先填写退货仓库ID',
-  'app.kuaizhizao.salesOrder.returnQtyExceedsMax': '产品 {{material}} 的退货数量不能超过可退数量 {{max}}',
+  'app.kuaizhizao.salesOrder.returnQtyExceedsMax':
+    '产品 {{material}} 的退货数量不能超过可退数量 {{max}}',
   'app.kuaizhizao.salesOrder.returnCreated': '成功生成销售退货单：{{code}}',
   'app.kuaizhizao.salesOrder.createdFallback': '已创建',
   'app.kuaizhizao.salesOrder.pushReturnFailed': '下推销售退货失败',
@@ -22079,7 +23210,8 @@ export default {
   'app.kuaizhizao.salesOrder.pullCreateFailed': '从{{source}}创建{{target}}失败',
   'app.kuaizhizao.salesOrder.pushRequiresApproved': '仅已审核/已确认且未关闭的销售订单可下推',
   'app.kuaizhizao.salesOrder.pushRatio': '下推占比',
-  'app.kuaizhizao.salesOrder.pushRatioTooltip': '{{percent}}%（已下推 {{pushed}} / 总量 {{total}}，剩余 {{remaining}}）',
+  'app.kuaizhizao.salesOrder.pushRatioTooltip':
+    '{{percent}}%（已下推 {{pushed}} / 总量 {{total}}，剩余 {{remaining}}）',
   'app.kuaizhizao.salesOrder.statComparedYesterday': '较昨日',
   'app.kuaizhizao.salesOrder.statTodayPrefix': '今日',
   'app.kuaizhizao.salesOrder.statNeedImmediate': '需即时处理',
@@ -22103,7 +23235,8 @@ export default {
   'app.kuaizhizao.salesOrder.attachments': '附件',
   'app.kuaizhizao.salesOrder.notesPlaceholder': '请输入备注',
   'app.kuaizhizao.salesOrder.helpTableView': '：按订单维度展示。',
-  'app.kuaizhizao.salesOrder.helpDetailTableView': '：以每行订单明细为展示维度，纯查看用途，支持库存/BOM 检查。',
+  'app.kuaizhizao.salesOrder.helpDetailTableView':
+    '：以每行订单明细为展示维度，纯查看用途，支持库存/BOM 检查。',
   'app.kuaizhizao.salesOrder.searchQuotationPlaceholder': '搜索报价单（编号/客户）',
   'app.kuaizhizao.salesOrder.quotationNotFound': '未找到匹配报价单',
   'app.kuaizhizao.salesOrder.noQuotationAvailable': '暂无可选报价单',
@@ -22111,13 +23244,15 @@ export default {
   'app.kuaizhizao.salesOrder.duplicateGuardHint': '防重提示',
   'app.kuaizhizao.salesOrder.alreadyCreated': '已创建：{{code}}',
   'app.kuaizhizao.salesOrder.canCreate': '可创建',
-  'app.kuaizhizao.salesOrder.pullQuotationNotAllowed': '当前报价单不可转销售订单，请审核通过后再取单',
+  'app.kuaizhizao.salesOrder.pullQuotationNotAllowed':
+    '当前报价单不可转销售订单，请审核通过后再取单',
   'app.kuaizhizao.salesOrder.pullContract.notAllowed': '当前销售合同不可创建销售订单',
   'app.kuaizhizao.salesOrder.pullContract.loadFailed': '加载销售合同列表失败',
   'app.kuaizhizao.salesOrder.pullDuplicateAlert': '该{{source}}已创建过{{target}}，已禁止重复创建',
   'app.kuaizhizao.salesOrder.linkedSalesOrder': '关联销售订单：{{code}}',
   'app.kuaizhizao.salesOrder.pushReturnTitle': '下推销售退货单',
-  'app.kuaizhizao.salesOrder.pushReturnDescription': '从销售订单 {{orderCode}} 下推生成销售退货单，可调整各明细退货数量（不超过已交货数量）。',
+  'app.kuaizhizao.salesOrder.pushReturnDescription':
+    '从销售订单 {{orderCode}} 下推生成销售退货单，可调整各明细退货数量（不超过已交货数量）。',
   'app.kuaizhizao.salesOrder.returnWarehouseIdPlaceholder': '退货仓库ID',
   'app.kuaizhizao.salesOrder.returnWarehouseNamePlaceholder': '退货仓库名称（可选）',
   'app.kuaizhizao.salesOrder.returnQty': '退货数量',
@@ -22127,7 +23262,8 @@ export default {
   'app.kuaizhizao.salesOrder.workOrderTypeLabel': '工单类型：',
   'app.kuaizhizao.salesOrder.workOrderTypeGrouped': '普通工单',
   'app.kuaizhizao.salesOrder.workOrderTypePerUnit': '平级组工单',
-  'app.kuaizhizao.salesOrder.masterDataMissingAlert': '检测到部分产品缺少主数据配置（如工艺路线/BOM）。可先草稿下推，补齐后再下达。',
+  'app.kuaizhizao.salesOrder.masterDataMissingAlert':
+    '检测到部分产品缺少主数据配置（如工艺路线/BOM）。可先草稿下推，补齐后再下达。',
   'app.kuaizhizao.salesOrder.colPushedQty': '已下推',
   'app.kuaizhizao.salesOrder.colPushableQty': '可下推',
   'app.kuaizhizao.salesOrder.productionLine': '生产产线',
@@ -22143,4 +23279,4 @@ export default {
   ...presetEntityZh,
   ...codeRulePageZh,
   ...customFieldPageZh,
-};
+}

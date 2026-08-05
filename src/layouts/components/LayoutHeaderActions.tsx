@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
 import { Button, Tooltip, Space, message } from 'antd'
-import { BgColorsOutlined, MoonOutlined, SunOutlined } from '@ant-design/icons'
+import { MoonOutlined, SunOutlined } from '@ant-design/icons'
 import type { NavigateFunction } from 'react-router-dom'
 import type { MenuProps } from 'antd'
 import TenantSelector from '../../components/tenant-selector'
@@ -8,6 +8,7 @@ import { HeaderQuickEntryPopover } from '../../components/quick-entry'
 import { useThemeStore } from '../../stores/themeStore'
 import { NotificationDropdown } from './NotificationDropdown'
 import { UserAvatarDropdown } from './UserAvatarDropdown'
+import MobilePopover from './MobilePopover'
 
 export interface LayoutHeaderActionsProps {
   isMobileOrTablet: boolean
@@ -23,6 +24,7 @@ export interface LayoutHeaderActionsProps {
   unreadCount: number
   refetchRecentMessages: () => void
   refetchMessageStats: () => void
+  onLockScreen: () => void
   // theme
   onThemeChange: () => void
 
@@ -49,6 +51,7 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
   unreadCount,
   refetchRecentMessages,
   refetchMessageStats,
+  onLockScreen,
   onThemeChange,
   currentUser,
   avatarUrl,
@@ -77,7 +80,7 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
       <Button
         type="text"
         size="small"
-        className="riveredge-back-to-coc-button !flex !h-11 !min-h-11 !max-h-11 !w-auto !min-w-0 !max-w-none !items-center !gap-2.5 !rounded-[22px] !bg-[#F3F5F7] !px-5 !py-3 !font-['Source_Han_Sans_CN'] !text-[14px] !font-normal !leading-5 !text-[rgba(0,0,0,0.88)] !whitespace-nowrap hover:!bg-[#E9EDF1]"
+        className="!flex !items-center !gap-2.5 !bg-[#F3F5F7] hover:!bg-[#E9EDF1] riveredge-back-to-coc-button !px-5 !py-3 !rounded-[22px] !w-auto !min-w-0 !max-w-none !h-11 !min-h-11 !max-h-11 !font-['Source_Han_Sans_CN'] !font-normal !text-[14px] !text-[rgba(0,0,0,0.88)] !leading-5 !whitespace-nowrap"
         onClick={() => navigate('/')}
         aria-label={t('ui.coc')}
       >
@@ -97,29 +100,7 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
   )
 
   // 移动端
-  actions.push(
-    <Tooltip title={"1234"}>
-      <Button
-        icon={
-          <svg
-            width="22"
-            height="22"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13 2.5C14.3807 2.5 15.5 3.61929 15.5 5V15C15.5 16.3807 14.3807 17.5 13 17.5H7C5.61929 17.5 4.5 16.3807 4.5 15V5C4.5 3.61929 5.61929 2.5 7 2.5H13ZM7 3.5C6.17157 3.5 5.5 4.17157 5.5 5V15C5.5 15.8284 6.17157 16.5 7 16.5H13C13.8284 16.5 14.5 15.8284 14.5 15V5C14.5 4.17157 13.8284 3.5 13 3.5H7ZM12 13.5C12.2761 13.5 12.5 13.7239 12.5 14C12.5 14.2761 12.2761 14.5 12 14.5H8C7.72386 14.5 7.5 14.2761 7.5 14C7.5 13.7239 7.72386 13.5 8 13.5H12Z"
-              fill="#1D1D1E"
-            />
-          </svg>
-        }
-        type="text"
-        size="small"
-        onClick={() => {}}
-      />
-    </Tooltip>
-  )
+  actions.push(<MobilePopover />)
 
   // 暗色/亮色主题切换（位于通知铃铛前）
   actions.push(
@@ -154,6 +135,33 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
     />
   )
 
+  // 锁定屏幕
+  actions.push(
+    <Tooltip key="lock-screen" title={t('ui.lock.screen')}>
+      <Button
+        type="text"
+        size="small"
+        icon={
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 3.5C11.3807 3.5 12.5 4.61929 12.5 6V7.5H13C14.3807 7.5 15.5 8.61929 15.5 10V14C15.5 15.3807 14.3807 16.5 13 16.5H7C5.61929 16.5 4.5 15.3807 4.5 14V10C4.5 8.61929 5.61929 7.5 7 7.5H7.5V6C7.5 4.61929 8.61929 3.5 10 3.5ZM7 8.5C6.17157 8.5 5.5 9.17157 5.5 10V14C5.5 14.8284 6.17157 15.5 7 15.5H13C13.8284 15.5 14.5 14.8284 14.5 14V10C14.5 9.17157 13.8284 8.5 13 8.5H7ZM10 4.5C9.17157 4.5 8.5 5.17157 8.5 6V7.5H11.5V6C11.5 5.17157 10.8284 4.5 10 4.5Z"
+              fill="black"
+              fillOpacity="0.88"
+            />
+          </svg>
+        }
+        onClick={onLockScreen}
+        aria-label={t('ui.lock.screen')}
+      />
+    </Tooltip>
+  )
+
   if (!isMobileOrTablet) {
     // 完整配色 / 主题编辑入口（桌面端）
     actions.push(
@@ -164,8 +172,8 @@ export const LayoutHeaderActions: React.FC<LayoutHeaderActionsProps> = ({
           // icon={<BgColorsOutlined />}
           icon={
             <svg
-              width="20"
-              height="20"
+              width="22"
+              height="22"
               viewBox="0 0 20 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

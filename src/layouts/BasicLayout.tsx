@@ -697,6 +697,7 @@ export default function BasicLayout({ children }: { children: React.ReactNode })
             unreadCount={unreadCount}
             refetchRecentMessages={refetchRecentMessages}
             refetchMessageStats={refetchMessageStats}
+            onLockScreen={handleLockScreen}
             onThemeChange={handleThemeChange}
             currentUser={currentUser}
             avatarUrl={avatarUrl}

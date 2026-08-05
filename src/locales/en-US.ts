@@ -1,13 +1,13 @@
 /**
  * English language pack
- * 
+ *
  * Define English texts for the application
  */
 
-import systemDictionaryEn from './generated/systemDictionary/en-US';
-import presetEntityEn from './generated/presetEntity/en-US';
-import codeRulePageEn from './generated/codeRulePage/en-US';
-import customFieldPageEn from './generated/customFieldPage/en-US';
+import systemDictionaryEn from './generated/systemDictionary/en-US'
+import presetEntityEn from './generated/presetEntity/en-US'
+import codeRulePageEn from './generated/codeRulePage/en-US'
+import customFieldPageEn from './generated/customFieldPage/en-US'
 
 export default {
   // Menu translations
@@ -70,29 +70,39 @@ export default {
   'dashboard.businessBoard.kpi.trendDown': 'Down vs prior',
   'dashboard.businessBoard.kpi.trendFlat': 'Flat vs prior',
   'dashboard.businessBoard.feed.equipFault': 'Spindle drive alarm',
-  'dashboard.businessBoard.feed.equipFaultDetail': 'CNC-07 servo overcurrent; auto derate on, awaiting electrical check',
+  'dashboard.businessBoard.feed.equipFaultDetail':
+    'CNC-07 servo overcurrent; auto derate on, awaiting electrical check',
   'dashboard.businessBoard.feed.equipMaintDue': 'Lubrication due',
-  'dashboard.businessBoard.feed.equipMaintDueDetail': 'Press line P2 lubrication cycle due within 48h',
+  'dashboard.businessBoard.feed.equipMaintDueDetail':
+    'Press line P2 lubrication cycle due within 48h',
   'dashboard.businessBoard.feed.equipDowntime': 'Unplanned downtime',
-  'dashboard.businessBoard.feed.equipDowntimeDetail': 'Weld station W3 wire feed jam; ticket #M-2041',
+  'dashboard.businessBoard.feed.equipDowntimeDetail':
+    'Weld station W3 wire feed jam; ticket #M-2041',
   'dashboard.businessBoard.feed.equipReset': 'Reset complete',
-  'dashboard.businessBoard.feed.equipResetDetail': 'Assembly line A interlock cleared; auto mode restored',
+  'dashboard.businessBoard.feed.equipResetDetail':
+    'Assembly line A interlock cleared; auto mode restored',
   'dashboard.businessBoard.feed.equipCalib': 'Probe calibration',
   'dashboard.businessBoard.feed.equipCalibDetail': 'CMM-02 probe calibration recommended this week',
   'dashboard.businessBoard.feed.equipNcUpload': 'NC program ack',
   'dashboard.businessBoard.feed.equipNcUploadDetail': 'MC-12 acknowledged package V2.3.1 (hash OK)',
   'dashboard.businessBoard.feed.equipToolLife': 'Tool life warning',
-  'dashboard.businessBoard.feed.equipToolLifeDetail': 'T-884 remaining 12% · L4 suggests change within 30 min',
+  'dashboard.businessBoard.feed.equipToolLifeDetail':
+    'T-884 remaining 12% · L4 suggests change within 30 min',
   'dashboard.businessBoard.feed.equipVisionReject': 'Vision reject tally',
-  'dashboard.businessBoard.feed.equipVisionRejectDetail': 'Station V-05 shift NG 23 · SPC subgroup 5/5 triggered',
+  'dashboard.businessBoard.feed.equipVisionRejectDetail':
+    'Station V-05 shift NG 23 · SPC subgroup 5/5 triggered',
   'dashboard.businessBoard.feed.equipMesHeartbeat': 'MES link healthy',
-  'dashboard.businessBoard.feed.equipMesHeartbeatDetail': 'EG-East-03 P95 latency 38ms · frame loss 0.00%',
+  'dashboard.businessBoard.feed.equipMesHeartbeatDetail':
+    'EG-East-03 P95 latency 38ms · frame loss 0.00%',
   'dashboard.businessBoard.feed.equipCoolantLow': 'Coolant level low',
-  'dashboard.businessBoard.feed.equipCoolantLowDetail': 'G-02 level 32% · maint. ticket #F-908 created',
+  'dashboard.businessBoard.feed.equipCoolantLowDetail':
+    'G-02 level 32% · maint. ticket #F-908 created',
   'dashboard.businessBoard.feed.equipEnergyReport': 'Energy peak report',
-  'dashboard.businessBoard.feed.equipEnergyReportDetail': 'Day peak 2.38MW · −3.1% vs yesterday (air logic)',
+  'dashboard.businessBoard.feed.equipEnergyReportDetail':
+    'Day peak 2.38MW · −3.1% vs yesterday (air logic)',
   'dashboard.businessBoard.feed.equipOtaOk': 'Firmware OTA done',
-  'dashboard.businessBoard.feed.equipOtaOkDetail': 'Robot R-18 stack 4.7.2 → 4.7.3 · self-test passed',
+  'dashboard.businessBoard.feed.equipOtaOkDetail':
+    'Robot R-18 stack 4.7.2 → 4.7.3 · self-test passed',
   'dashboard.businessBoard.customizeTitle': 'Customize board title',
   'dashboard.businessBoard.titleSettingsModal': 'Board appearance',
   'dashboard.businessBoard.titleInputPlaceholder': 'Title shown in the center of the header',
@@ -236,11 +246,15 @@ export default {
   'menu.system.process-management': 'Workflows',
   'menu.system.appMenu': 'Application',
   'menu.system.systemMenu': 'System',
-  'menu.system.appMenuTip': 'Application menus (source: Application) are synced from manifest.json and cannot be edited or deleted here. To modify, go to Application Center and sync menus. System menus can be edited here directly.',
-  'menu.system.appMenuSyncTip': 'Menu structure syncs from manifest; disabled items stay disabled (not reset by background sync). Use Enable application in Application Center to align all items with the app.',
+  'menu.system.appMenuTip':
+    'Application menus (source: Application) are synced from manifest.json and cannot be edited or deleted here. To modify, go to Application Center and sync menus. System menus can be edited here directly.',
+  'menu.system.appMenuSyncTip':
+    'Menu structure syncs from manifest; disabled items stay disabled (not reset by background sync). Use Enable application in Application Center to align all items with the app.',
   'menu.system.appMenuEditDisabled': 'Application menu synced from manifest; editing is disabled',
-  'menu.system.appMenuAddDisabled': 'Application menu synced from manifest; adding child items is disabled',
-  'menu.system.appMenuDeleteDisabled': 'Application menu synced from manifest; deletion is disabled',
+  'menu.system.appMenuAddDisabled':
+    'Application menu synced from manifest; adding child items is disabled',
+  'menu.system.appMenuDeleteDisabled':
+    'Application menu synced from manifest; deletion is disabled',
 
   // UI text translations
   'ui.sidebar.expand': 'Expand Sidebar',
@@ -287,11 +301,14 @@ export default {
   'ui.aiAssistant.chatRequestFailed': 'Request failed ({{status}})',
   'ui.header.clientDownload.tooltip': 'Download client apps',
   'ui.header.clientDownload.title': 'Client downloads',
+  'ui.header.clientDownload.mobileTitle': 'Mobile download',
   'ui.header.clientDownload.subtitle': 'Scan the QR code with your phone browser to install',
   'ui.header.clientDownload.scanHint': 'Scan with your phone browser to download',
   'ui.header.clientDownload.scanTip': 'Do not use WeChat scan — the link may be blocked',
-  'ui.header.clientDownload.lanOriginFailed': 'Cannot resolve LAN address. Set BASE_URL or open this site via your LAN IP.',
-  'ui.header.clientDownload.loopbackBlocked': 'Download URL still uses 127.0.0.1. Restart the API or set BASE_URL.',
+  'ui.header.clientDownload.lanOriginFailed':
+    'Cannot resolve LAN address. Set BASE_URL or open this site via your LAN IP.',
+  'ui.header.clientDownload.loopbackBlocked':
+    'Download URL still uses 127.0.0.1. Restart the API or set BASE_URL.',
   'ui.message.switchedTenant': 'Organization context switched',
   'ui.message.autoSelectedTenant': 'Auto-selected organization: {{name}}',
   'ui.message.notSupportFavorite': 'This page does not support adding to quick entry',
@@ -320,20 +337,24 @@ export default {
   'components.themeEditor.colorMode.light': 'Light',
   'components.themeEditor.colorMode.dark': 'Dark',
   'components.themeEditor.colorMode.auto': 'System',
-  'components.themeEditor.primaryColor.hint': 'Choose your preferred theme color. It applies to buttons, links, and selected states.',
+  'components.themeEditor.primaryColor.hint':
+    'Choose your preferred theme color. It applies to buttons, links, and selected states.',
   'components.themeEditor.common.quickSelect': 'Quick select',
   'components.themeEditor.common.customColor': 'Custom color',
   'components.themeEditor.lightModeOnly': 'Note: only effective in light mode',
   'components.themeEditor.siderBg.title': 'Sidebar',
   'components.themeEditor.siderBg.hint': 'Customize the sidebar background color',
   'components.themeEditor.headerBg.title': 'Header background',
-  'components.themeEditor.headerBg.hint': 'Customize the header background color using hex (e.g. #ffffff, with alpha use 8-digit #rrggbbaa)',
+  'components.themeEditor.headerBg.hint':
+    'Customize the header background color using hex (e.g. #ffffff, with alpha use 8-digit #rrggbbaa)',
   'components.themeEditor.tabsBg.title': 'Tabs bar background',
-  'components.themeEditor.tabsBg.hint': 'Customize the tabs bar background color using hex (e.g. #ffffff, with alpha use 8-digit #rrggbbaa)',
+  'components.themeEditor.tabsBg.hint':
+    'Customize the tabs bar background color using hex (e.g. #ffffff, with alpha use 8-digit #rrggbbaa)',
   'components.themeEditor.interface.title': 'Interface',
   'components.themeEditor.interface.hint': 'Adjust radius and spacing to fit your preferences',
   'components.themeEditor.borderRadius.label': 'Border radius',
-  'components.themeEditor.borderRadius.desc': 'Controls the rounding of buttons and cards ({{value}}px)',
+  'components.themeEditor.borderRadius.desc':
+    'Controls the rounding of buttons and cards ({{value}}px)',
   'components.themeEditor.borderRadius.mark.0': 'Square',
   'components.themeEditor.borderRadius.mark.8': 'Moderate',
   'components.themeEditor.borderRadius.mark.16': 'Rounded',
@@ -357,12 +378,14 @@ export default {
   'components.themeEditor.preview.button.link': 'Link',
   'components.themeEditor.preview.textSection': 'Text preview',
   'components.themeEditor.preview.sampleText': 'This is a preview text',
-  'components.themeEditor.preview.current': 'Current font size: {{fontSize}}px, radius: {{borderRadius}}px',
+  'components.themeEditor.preview.current':
+    'Current font size: {{fontSize}}px, radius: {{borderRadius}}px',
   'components.themeEditor.preview.colorSection': 'Theme color preview',
   'components.themeEditor.message.loadFailed': 'Failed to load theme settings',
   'components.themeEditor.message.colorModeSwitched': 'Color mode updated',
   'components.themeEditor.message.switchFailed': 'Failed to switch',
-  'components.themeEditor.message.appliedButNotSaved': 'Theme applied but cannot be saved to server (tenant may not be initialized). Effective for this session only.',
+  'components.themeEditor.message.appliedButNotSaved':
+    'Theme applied but cannot be saved to server (tenant may not be initialized). Effective for this session only.',
   'components.themeEditor.message.applied': 'Theme applied',
   'components.themeEditor.message.saveFailed': 'Failed to save',
   'components.themeEditor.message.resetDone': 'Restored defaults and closed panel',
@@ -430,14 +453,16 @@ export default {
   'pages.login.passwordPlaceholder': 'Enter your password',
   'pages.login.passwordRequired': 'Password is required',
   'pages.login.descriptionTitle': 'Multi-tenant Framework',
-  'pages.login.descriptionText': 'An enterprise-grade SaaS framework for multi-tenant architecture and application governance. Features modular plugin hot-swapping, granular permission isolation, and unified data integration to provide a secure, agile, and infinitely scalable foundation for large-scale digital operations.',
+  'pages.login.descriptionText':
+    'An enterprise-grade SaaS framework for multi-tenant architecture and application governance. Features modular plugin hot-swapping, granular permission isolation, and unified data integration to provide a secure, agile, and infinitely scalable foundation for large-scale digital operations.',
   'pages.login.guestLogin': 'Try Guest Access',
   'pages.login.noAccount': "Don't have an account?",
   'pages.login.registerNow': 'Create one',
   'pages.login.userTerms': 'Terms of Service',
   'pages.login.privacyTerms': 'Privacy Policy',
   'pages.login.icpLicense': 'ICP: ',
-  'pages.login.browserHintShort': 'For the best experience, we recommend using Chrome or Microsoft Edge. Some features may be limited in Safari.',
+  'pages.login.browserHintShort':
+    'For the best experience, we recommend using Chrome or Microsoft Edge. Some features may be limited in Safari.',
   'pages.login.clientDownloadsTitle': 'On-site client apps',
   'pages.login.clientDownloadsSub': 'Workstation & mobile field devices',
   'pages.login.clientDownloadWinTitle': 'Workstation HMI',
@@ -455,10 +480,12 @@ export default {
   'pages.login.loginFailed': 'Login failed. Please try again later',
   'pages.login.loginFailedCheck': 'Login failed. Check username and password',
   'pages.login.registerSuccessLogin': 'Registration successful. Logging in...',
-  'pages.login.registerSuccessManual': 'Registration successful but auto-login failed. Please log in manually',
+  'pages.login.registerSuccessManual':
+    'Registration successful but auto-login failed. Please log in manually',
   'pages.login.registerFailed': 'Registration failed. Please try again later',
   'pages.login.passwordMismatch': 'Passwords do not match',
-  'pages.login.selectTenantHint': 'Select an organization from the results, or clear the field to use the default workspace',
+  'pages.login.selectTenantHint':
+    'Select an organization from the results, or clear the field to use the default workspace',
   'pages.login.verificationCodeInvalid': 'Invalid code. Must be 6 digits',
   'pages.login.tenantSelected': 'Organization selected',
   'pages.login.tenantSelectFailed': 'Failed to select organization. Please try again',
@@ -482,13 +509,18 @@ export default {
   'pages.login.stepFillInfo': 'Account Details',
   'pages.login.stepVerifyEmail': 'Verify email',
   'pages.login.fillInfoHint': 'Enter your username, phone, and password to sign up.',
-  'pages.login.registerIllustrationPlaceholder': 'Illustration placeholder — replace with your image',
+  'pages.login.registerIllustrationPlaceholder':
+    'Illustration placeholder — replace with your image',
   'pages.login.registerNoticeTitle': 'Registration notice',
-  'pages.login.registerNoticeNoOrg': 'No organization: you will join the default workspace with full access',
-  'pages.login.registerNoticeWithOrg': 'With organization: you can apply to join an existing workspace; admin approval required',
-  'pages.login.registerNoticeTip': 'Tip: search by tenant code or name; switch to Organization registration if not found.',
+  'pages.login.registerNoticeNoOrg':
+    'No organization: you will join the default workspace with full access',
+  'pages.login.registerNoticeWithOrg':
+    'With organization: you can apply to join an existing workspace; admin approval required',
+  'pages.login.registerNoticeTip':
+    'Tip: search by tenant code or name; switch to Organization registration if not found.',
   'pages.login.registerNoticeBullet1': 'Leave blank: join the default tenant.',
-  'pages.login.registerNoticeBullet2': 'Search and pick one: apply to join that tenant (admin approval).',
+  'pages.login.registerNoticeBullet2':
+    'Search and pick one: apply to join that tenant (admin approval).',
   'pages.login.registerNoticeBullet3': 'Not found? Switch to Organization registration.',
   'pages.login.userInfoGroup': 'User information',
   'pages.login.selectOrgGroupTitle': 'Organization (optional)',
@@ -501,7 +533,8 @@ export default {
   'pages.login.orgAdminNameLen': '1–100 characters',
   'pages.login.usernameLen': 'Username must be 3–50 characters',
   'pages.login.usernamePattern': 'Username may contain letters, numbers, underscore, hyphen',
-  'pages.login.usernameReserved': 'This username is not available. Avoid reserved names such as admin or root.',
+  'pages.login.usernameReserved':
+    'This username is not available. Avoid reserved names such as admin or root.',
   'pages.login.usernamePlaceholderLong': 'Enter username (3–50 characters)',
   'pages.login.usernameExtra': 'Login username; cannot be changed later.',
   'pages.login.phone': 'Phone',
@@ -532,7 +565,8 @@ export default {
   'pages.login.confirmPasswordPlaceholder': 'Re-enter password to confirm',
   'pages.login.orgInfoGroup': 'Organization (optional)',
   'pages.login.joinOrgOptional': 'Join organization (optional)',
-  'pages.login.joinOrgExtra': 'Search by organization name or code; leave blank to use the default workspace.',
+  'pages.login.joinOrgExtra':
+    'Search by organization name or code; leave blank to use the default workspace.',
   'pages.login.selectedTenant': 'Selected: {{name}}',
   'pages.login.foundTenants': 'Found {{count}} matching tenant(s). Select one from the list',
   'pages.login.noTenantFound': 'No matching tenant found',
@@ -548,13 +582,18 @@ export default {
   'pages.login.tenantSearchPlaceholder': 'Search by organization code or name',
   'pages.login.inviteCodeOptional': 'Invite code (optional)',
   'pages.login.inviteCodePlaceholder': 'Enter invite code from the organization',
-  'pages.login.inviteCodeExtra': 'Invite code allows direct join without approval; organization code is also required',
-  'pages.login.inviteCodeWithTenantRequired': 'Organization code is required when using an invite code',
+  'pages.login.inviteCodeExtra':
+    'Invite code allows direct join without approval; organization code is also required',
+  'pages.login.inviteCodeWithTenantRequired':
+    'Organization code is required when using an invite code',
   'pages.login.inviteCodeMaxLen': 'Invite code must not exceed 100 characters',
-  'pages.login.orgRegisterSubtitle': 'Enter the organization details and admin credentials to create your workspace.',
+  'pages.login.orgRegisterSubtitle':
+    'Enter the organization details and admin credentials to create your workspace.',
   'pages.login.orgRegisterNotice1': 'You will be the organization admin.',
-  'pages.login.orgRegisterNotice2': 'Enter the organization name and your sign-in details to finish.',
-  'pages.login.orgRegisterNotice3': 'After creation, you can sign in and start managing your organization.',
+  'pages.login.orgRegisterNotice2':
+    'Enter the organization name and your sign-in details to finish.',
+  'pages.login.orgRegisterNotice3':
+    'After creation, you can sign in and start managing your organization.',
   'pages.login.tenantName': 'Organization name',
   'pages.login.tenantNameRequired': 'Please enter organization name',
   'pages.login.tenantNameLen': 'Organization name must be 1–100 characters',
@@ -562,7 +601,8 @@ export default {
   'pages.login.tenantNameExtra': 'Display name shown for your organization.',
   'pages.login.orgPhoneExtra': 'Used as the login account.',
   'pages.login.orgPasswordExtra': 'At least 8 characters; mix letters and numbers.',
-  'pages.login.wechatNotConfigured': 'WeChat login is not configured. Contact admin to set VITE_WECHAT_APPID',
+  'pages.login.wechatNotConfigured':
+    'WeChat login is not configured. Contact admin to set VITE_WECHAT_APPID',
   'pages.login.wechatRedirectFailed': 'WeChat login redirect failed. Please try again later',
   'pages.login.wechatVerifyFailed': 'WeChat login verification failed. Please retry',
   'pages.login.wechatLoginFailed': 'WeChat login failed. Please try again later',
@@ -581,7 +621,8 @@ export default {
 
   // Tenant Selection Modal
   'components.tenantSelection.title': 'Select Organization',
-  'components.tenantSelection.hint': 'You are a member of multiple organizations. Please select one to continue:',
+  'components.tenantSelection.hint':
+    'You are a member of multiple organizations. Please select one to continue:',
   'components.tenantSelection.statusActive': 'Active',
   'components.tenantSelection.statusInactive': 'Inactive',
   'components.tenantSelection.statusExpired': 'Expired',
@@ -592,7 +633,8 @@ export default {
   'pages.personal.profile.tenantRequired': 'Tenant not set. Please log in again',
   'pages.personal.profile.loadFailed': 'Failed to load profile',
   'pages.personal.profile.avatarName': 'Avatar',
-  'pages.personal.profile.avatarSaveFailed': 'Avatar uploaded but save to server failed. Please retry later',
+  'pages.personal.profile.avatarSaveFailed':
+    'Avatar uploaded but save to server failed. Please retry later',
   'pages.personal.profile.avatarUploadSuccess': 'Avatar uploaded and saved',
   'pages.personal.profile.avatarCleared': 'Avatar cleared',
   'pages.personal.profile.avatarClearFailed': 'Failed to clear avatar',
@@ -693,7 +735,8 @@ export default {
   'pages.personal.preferences.densityMiddle': 'Middle',
   'pages.personal.preferences.densitySmall': 'Compact',
   'pages.personal.preferences.maxTabs': 'Max tabs',
-  'pages.personal.preferences.tableColumnsHint': 'Table columns: Customize visible columns, order, and pinned columns in each table\'s column settings. Changes sync to preferences (cross-device).',
+  'pages.personal.preferences.tableColumnsHint':
+    "Table columns: Customize visible columns, order, and pinned columns in each table's column settings. Changes sync to preferences (cross-device).",
   'pages.personal.preferences.styleCustomization': 'Style Customization',
   'pages.personal.preferences.colorScheme': 'Color Scheme',
   'pages.personal.preferences.miscOptions': 'Interface Options',
@@ -816,21 +859,26 @@ export default {
   'pages.personal.tasks.currentNode': 'Current Node',
   'pages.personal.tasks.exportFileName': 'my-tasks-{{date}}.json',
 
-  'pages.system.integrationConfigs.subtitle': 'Configure external API or database connections for MES, planning, warehouse, etc. Supports API, Database, OAuth, Webhook.',
+  'pages.system.integrationConfigs.subtitle':
+    'Configure external API or database connections for MES, planning, warehouse, etc. Supports API, Database, OAuth, Webhook.',
   'pages.system.integrationConfigs.getDetailFailed': 'Failed to get integration config detail',
   'pages.system.integrationConfigs.deleteSuccess': 'Deleted',
   'pages.system.integrationConfigs.deleteFailed': 'Delete failed',
   'pages.system.integrationConfigs.selectToDelete': 'Please select records to delete',
   'pages.system.integrationConfigs.confirmBatchDelete': 'Confirm batch delete',
-  'pages.system.integrationConfigs.confirmBatchDeleteContent': 'Delete {{count}} selected record(s)? This cannot be undone.',
-  'pages.system.integrationConfigs.batchDeleteTitle': 'Are you sure you want to batch delete the selected integration configs?',
-  'pages.system.integrationConfigs.batchDeleteDescription': '{{count}} integration config(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.integrationConfigs.confirmBatchDeleteContent':
+    'Delete {{count}} selected record(s)? This cannot be undone.',
+  'pages.system.integrationConfigs.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected integration configs?',
+  'pages.system.integrationConfigs.batchDeleteDescription':
+    '{{count}} integration config(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'pages.system.integrationConfigs.batchDeleteSuccess': 'Deleted {{count}} record(s)',
   'pages.system.integrationConfigs.batchDeleteFailed': 'Failed to delete {{count}} record(s)',
   'pages.system.integrationConfigs.batchDeleteError': 'Batch delete failed',
   'pages.system.integrationConfigs.testSuccess': 'Connection test succeeded',
   'pages.system.integrationConfigs.testFailed': 'Connection test failed',
-  'pages.system.integrationConfigs.testConfigOnlyTitle': 'Config check passed (no live connection test)',
+  'pages.system.integrationConfigs.testConfigOnlyTitle':
+    'Config check passed (no live connection test)',
   'pages.system.integrationConfigs.resultConfigOnly': 'Config only (no live test)',
   'pages.system.integrationConfigs.configJsonInvalid': 'Invalid config JSON',
   'pages.system.integrationConfigs.updateSuccess': 'Updated',
@@ -873,11 +921,13 @@ export default {
   'pages.system.integrationConfigs.nameRequired': 'Please enter name',
   'pages.system.integrationConfigs.codePlaceholder': 'Enter code (e.g. wechat_oauth)',
   'pages.system.integrationConfigs.codeRequired': 'Please enter code',
-  'pages.system.integrationConfigs.codePattern': 'Code: lowercase letters, numbers, underscore only',
+  'pages.system.integrationConfigs.codePattern':
+    'Code: lowercase letters, numbers, underscore only',
   'pages.system.integrationConfigs.typeRequired': 'Please select type',
   'pages.system.integrationConfigs.descPlaceholder': 'Enter description',
   'pages.system.integrationConfigs.configJsonLabel': 'Config (JSON)',
-  'pages.system.integrationConfigs.configJsonPlaceholder': 'JSON config, e.g. {"url": "https://api.example.com", "method": "GET"}',
+  'pages.system.integrationConfigs.configJsonPlaceholder':
+    'JSON config, e.g. {"url": "https://api.example.com", "method": "GET"}',
   'pages.system.integrationConfigs.isActive': 'Enabled',
   'pages.system.integrationConfigs.totalCount': 'Total',
   'pages.system.integrationConfigs.connectedCount': 'Connected',
@@ -932,7 +982,8 @@ export default {
   'pages.system.integrationConfigs.connectionNamePlaceholder': 'e.g. ERP API',
   'pages.system.integrationConfigs.connectionCodeLabel': 'Connection code',
   'pages.system.integrationConfigs.connectionCodeRequired': 'Please enter connection code',
-  'pages.system.integrationConfigs.connectionCodePattern': 'Lowercase letters, numbers, underscore only',
+  'pages.system.integrationConfigs.connectionCodePattern':
+    'Lowercase letters, numbers, underscore only',
   'pages.system.integrationConfigs.connectionCodePlaceholder': 'e.g. erp_api',
   'pages.system.integrationConfigs.descLabel': 'Description',
   'pages.system.integrationConfigs.descOptional': 'Optional',
@@ -981,7 +1032,8 @@ export default {
   'pages.system.approvalProcesses.codeLabel': 'Process Code',
   'pages.system.approvalProcesses.codePlaceholder': 'Enter unique code',
   'pages.system.approvalProcesses.codeRequired': 'Please enter process code',
-  'pages.system.approvalProcesses.codePattern': 'Start with letter, letters, numbers and underscore only',
+  'pages.system.approvalProcesses.codePattern':
+    'Start with letter, letters, numbers and underscore only',
   'pages.system.approvalProcesses.codeTooltip': 'Cannot be changed after creation',
   'pages.system.approvalProcesses.descLabel': 'Process Description',
   'pages.system.approvalProcesses.descPlaceholder': 'Enter process description...',
@@ -1034,7 +1086,8 @@ export default {
   'pages.system.approvalInstances.transferTargetRequired': 'Please enter transfer target user ID',
   'pages.system.approvalInstances.commentLabel': 'Comment',
   'pages.system.approvalInstances.commentLabelReject': 'Rejection reason',
-  'pages.system.approvalInstances.commentRequiredWhenReject': 'Please provide a reason when rejecting',
+  'pages.system.approvalInstances.commentRequiredWhenReject':
+    'Please provide a reason when rejecting',
   'pages.system.approvalInstances.commentPlaceholderReject': 'Explain why this is rejected',
   'pages.system.approvalInstances.cancelOnlySubmitter': 'Only the submitter can withdraw',
   'pages.system.approvalInstances.detailTitle': 'Matter Detail',
@@ -1066,10 +1119,12 @@ export default {
   'pages.system.businessConfig.templateDeleteFailed': 'Failed to delete config template',
   'pages.system.businessConfig.templateExported': 'Config template exported',
   'pages.system.businessConfig.templateImportedApplied': 'Config template imported and applied',
-  'pages.system.businessConfig.templateImportFailed': 'Failed to import config template: {{reason}}',
+  'pages.system.businessConfig.templateImportFailed':
+    'Failed to import config template: {{reason}}',
   'pages.system.businessConfig.invalidFileFormat': 'Invalid file format',
   'pages.system.businessConfig.templateManagementTitle': 'Config Template Management',
-  'pages.system.businessConfig.templateManagementDesc': 'Save current config as template for reuse. Import and export supported.',
+  'pages.system.businessConfig.templateManagementDesc':
+    'Save current config as template for reuse. Import and export supported.',
   'pages.system.businessConfig.importTemplate': 'Import Template',
   'pages.system.businessConfig.saveCurrentConfig': 'Save Current Config',
   'pages.system.businessConfig.noTemplates': 'No config templates',
@@ -1083,7 +1138,8 @@ export default {
   'pages.system.businessConfig.flowParamsTitle': 'Process Parameters',
   'pages.system.businessConfig.flowParamsDesc': 'Configure parameters for each process module.',
   'pages.system.businessConfig.saveFlowParams': 'Save Process Parameters',
-  'pages.system.businessConfig.qualityStageTogglesTitle': 'Quality inspection stage toggles (tenant)',
+  'pages.system.businessConfig.qualityStageTogglesTitle':
+    'Quality inspection stage toggles (tenant)',
   'pages.system.businessConfig.qualityStageTogglesDesc':
     'When a stage is off, the API rejects creating/pushing related inspection documents (works together with material/operation inspection modes). When OQC is on: confirming sales outbound delivery and notifying warehouse from a shipment notice require an inspected-and-qualified finished-goods inspection per line material that needs QC, matched by sales order or customer. When OQC is off, this check is skipped.',
   'pages.system.businessConfig.qualityStageToggles.iqc': 'Incoming (IQC)',
@@ -1113,64 +1169,90 @@ export default {
   'pages.system.businessConfig.paramCategory.procurement': 'Procurement Parameters',
   'pages.system.businessConfig.paramCategory.purchase': 'Purchase Parameters',
   'pages.system.businessConfig.param.work_order.auto_generate.name': 'Auto Generate Work Orders',
-  'pages.system.businessConfig.param.work_order.auto_generate.description': 'Auto generate work orders from demand',
+  'pages.system.businessConfig.param.work_order.auto_generate.description':
+    'Auto generate work orders from demand',
   'pages.system.businessConfig.param.work_order.priority.name': 'Work Order Priority',
   'pages.system.businessConfig.param.work_order.priority.description': 'Enable work order priority',
   'pages.system.businessConfig.param.work_order.split.name': 'Work Order Split',
   'pages.system.businessConfig.param.work_order.split.description': 'Allow splitting work orders',
   'pages.system.businessConfig.param.work_order.merge.name': 'Work Order Merge',
   'pages.system.businessConfig.param.work_order.merge.description': 'Allow merging work orders',
-  'pages.system.businessConfig.param.work_order.allow_production_without_material.name': 'Allow Production Without Material',
-  'pages.system.businessConfig.param.work_order.allow_production_without_material.description': 'When on, release without material check; when off, block release if short.',
-  'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.name': 'Last operation auto inbound',
+  'pages.system.businessConfig.param.work_order.allow_production_without_material.name':
+    'Allow Production Without Material',
+  'pages.system.businessConfig.param.work_order.allow_production_without_material.description':
+    'When on, release without material check; when off, block release if short.',
+  'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.name':
+    'Last operation auto inbound',
   'pages.system.businessConfig.param.work_order.last_operation_auto_inbound_mode.description':
     'After the last operation completes: off, direct inbound, or inbound notice (reserved for finished-goods inspection).',
   'pages.system.businessConfig.param.reporting.quick_reporting.name': 'Quick Reporting',
-  'pages.system.businessConfig.param.reporting.quick_reporting.description': 'Enable quick reporting',
+  'pages.system.businessConfig.param.reporting.quick_reporting.description':
+    'Enable quick reporting',
   'pages.system.businessConfig.param.reporting.parameter_reporting.name': 'Parameter Reporting',
-  'pages.system.businessConfig.param.reporting.parameter_reporting.description': 'Support parameter-based reporting',
+  'pages.system.businessConfig.param.reporting.parameter_reporting.description':
+    'Support parameter-based reporting',
   'pages.system.businessConfig.param.reporting.auto_fill.name': 'Auto Fill',
   'pages.system.businessConfig.param.reporting.auto_fill.description': 'Auto fill reporting data',
   'pages.system.businessConfig.param.reporting.data_correction.name': 'Data Correction',
-  'pages.system.businessConfig.param.reporting.data_correction.description': 'Allow correcting submitted reports',
+  'pages.system.businessConfig.param.reporting.data_correction.description':
+    'Allow correcting submitted reports',
   'pages.system.businessConfig.param.reporting.auto_approve.name': 'Auto Approve',
-  'pages.system.businessConfig.param.reporting.auto_approve.description': 'Submitted reports are auto-approved.',
+  'pages.system.businessConfig.param.reporting.auto_approve.description':
+    'Submitted reports are auto-approved.',
   'pages.system.businessConfig.param.warehouse.batch_management.name': 'Batch Management',
-  'pages.system.businessConfig.param.warehouse.batch_management.description': 'Enable batch management',
+  'pages.system.businessConfig.param.warehouse.batch_management.description':
+    'Enable batch management',
   'pages.system.businessConfig.param.warehouse.serial_management.name': 'Serial Number Management',
-  'pages.system.businessConfig.param.warehouse.serial_management.description': 'Enable serial number management',
+  'pages.system.businessConfig.param.warehouse.serial_management.description':
+    'Enable serial number management',
   'pages.system.businessConfig.param.warehouse.multi_unit.name': 'Multi-Unit',
-  'pages.system.businessConfig.param.warehouse.multi_unit.description': 'Enable multi-unit management',
+  'pages.system.businessConfig.param.warehouse.multi_unit.description':
+    'Enable multi-unit management',
   'pages.system.businessConfig.param.warehouse.fifo.name': 'FIFO',
   'pages.system.businessConfig.param.warehouse.fifo.description': 'Enable FIFO rule',
   'pages.system.businessConfig.param.warehouse.lifo.name': 'LIFO',
   'pages.system.businessConfig.param.warehouse.lifo.description': 'Enable LIFO rule',
   'pages.system.businessConfig.param.quality.incoming_inspection.name': 'Incoming Inspection',
-  'pages.system.businessConfig.param.quality.incoming_inspection.description': 'Enable incoming inspection',
+  'pages.system.businessConfig.param.quality.incoming_inspection.description':
+    'Enable incoming inspection',
   'pages.system.businessConfig.param.quality.process_inspection.name': 'Process Inspection',
-  'pages.system.businessConfig.param.quality.process_inspection.description': 'Enable process inspection',
+  'pages.system.businessConfig.param.quality.process_inspection.description':
+    'Enable process inspection',
   'pages.system.businessConfig.param.quality.finished_inspection.name': 'Finished Goods Inspection',
-  'pages.system.businessConfig.param.quality.finished_inspection.description': 'Enable finished goods inspection',
+  'pages.system.businessConfig.param.quality.finished_inspection.description':
+    'Enable finished goods inspection',
   'pages.system.businessConfig.param.quality.defect_handling.name': 'Defect Handling',
   'pages.system.businessConfig.param.quality.defect_handling.description': 'Enable defect handling',
   'pages.system.businessConfig.param.sales.audit_enabled.name': 'Sales Order Audit',
-  'pages.system.businessConfig.param.sales.audit_enabled.description': 'Enable sales order audit; when off, orders take effect automatically.',
+  'pages.system.businessConfig.param.sales.audit_enabled.description':
+    'Enable sales order audit; when off, orders take effect automatically.',
   'pages.system.businessConfig.param.bom.bom_multi_version_allowed.name': 'BOM Multi-Version',
-  'pages.system.businessConfig.param.bom.bom_multi_version_allowed.description': 'When on, demand calc can choose BOM version; when off, use default BOM.',
-  'pages.system.businessConfig.param.planning.require_production_plan.name': 'Require Production Plan',
-  'pages.system.businessConfig.param.planning.require_production_plan.description': 'Require production plan before scheduling',
-  'pages.system.businessConfig.param.procurement.require_purchase_requisition.name': 'Require Purchase Requisition',
-  'pages.system.businessConfig.param.procurement.require_purchase_requisition.description': 'Require purchase requisition before creating PO',
+  'pages.system.businessConfig.param.bom.bom_multi_version_allowed.description':
+    'When on, demand calc can choose BOM version; when off, use default BOM.',
+  'pages.system.businessConfig.param.planning.require_production_plan.name':
+    'Require Production Plan',
+  'pages.system.businessConfig.param.planning.require_production_plan.description':
+    'Require production plan before scheduling',
+  'pages.system.businessConfig.param.procurement.require_purchase_requisition.name':
+    'Require Purchase Requisition',
+  'pages.system.businessConfig.param.procurement.require_purchase_requisition.description':
+    'Require purchase requisition before creating PO',
   'pages.system.businessConfig.param.purchase.auto_approval.name': 'Purchase Auto Approval',
-  'pages.system.businessConfig.param.purchase.auto_approval.description': 'Auto approve purchase orders',
+  'pages.system.businessConfig.param.purchase.auto_approval.description':
+    'Auto approve purchase orders',
   'pages.system.businessConfig.param.warehouse.location_management.name': 'Location Management',
-  'pages.system.businessConfig.param.warehouse.location_management.description': 'Enable warehouse location management',
+  'pages.system.businessConfig.param.warehouse.location_management.description':
+    'Enable warehouse location management',
   'pages.system.businessConfig.param.warehouse.auto_outbound.name': 'Auto Outbound',
   'pages.system.businessConfig.param.warehouse.auto_outbound.description': 'Enable auto outbound',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.name': 'Require Incoming Inspection for Receipt',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.description': 'Receipt must complete incoming inspection first',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.name': 'Require IQC for Customer Material Inbound',
-  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.description': 'Customer material inbound must complete incoming inspection first',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.name':
+    'Require Incoming Inspection for Receipt',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_receipt.description':
+    'Receipt must complete incoming inspection first',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.name':
+    'Require IQC for Customer Material Inbound',
+  'pages.system.businessConfig.param.quality.require_incoming_inspection_for_customer_material.description':
+    'Customer material inbound must complete incoming inspection first',
   'pages.system.businessConfig.blueprint.loadFailed': 'Failed to load config',
   'pages.system.businessConfig.blueprint.saveSuccess': 'Config saved',
   'pages.system.businessConfig.blueprint.saveFailed': 'Failed to save config',
@@ -1183,7 +1265,8 @@ export default {
   'pages.system.businessConfig.blueprint.componentLibrary': 'Component Library',
   'pages.system.businessConfig.blueprint.globalConfig': 'Global Config',
   'pages.system.businessConfig.blueprint.noNodeSelected': 'No node selected',
-  'pages.system.businessConfig.blueprint.noNodeSelectedDesc': 'Click a node in the library or canvas to configure, or choose a preset above.',
+  'pages.system.businessConfig.blueprint.noNodeSelectedDesc':
+    'Click a node in the library or canvas to configure, or choose a preset above.',
   'pages.system.businessConfig.blueprint.currentEnv': 'Current environment:',
   'pages.system.businessConfig.blueprint.businessMode': 'Business mode:',
   'pages.system.businessConfig.blueprint.industry': 'Industry:',
@@ -1200,11 +1283,13 @@ export default {
   'pages.system.businessConfig.blueprint.enabledOn': 'On',
   'pages.system.businessConfig.blueprint.enabledOff': 'Off',
   'pages.system.businessConfig.blueprint.enabledAlert': 'Feature is enabled',
-  'pages.system.businessConfig.blueprint.disabledAlert': 'Feature is disabled; related menus are hidden',
+  'pages.system.businessConfig.blueprint.disabledAlert':
+    'Feature is disabled; related menus are hidden',
   'pages.system.businessConfig.blueprint.auditFlow': 'Audit',
   'pages.system.businessConfig.blueprint.auditRequired': 'Require audit',
   'pages.system.businessConfig.blueprint.autoPass': 'Auto pass',
-  'pages.system.businessConfig.blueprint.auditTip': 'When audit is on, documents need approval; when off, they take effect automatically.',
+  'pages.system.businessConfig.blueprint.auditTip':
+    'When audit is on, documents need approval; when off, they take effect automatically.',
   'pages.system.businessConfig.blueprint.nodeId': 'Node ID:',
   'pages.system.businessConfig.blueprint.businessModeLabel': 'Business mode:',
   'pages.system.businessConfig.blueprint.complexityPlaceholder': 'Select complexity preset',
@@ -1681,7 +1766,8 @@ export default {
   'common.weekdays.friday': 'Friday',
   'common.weekdays.saturday': 'Saturday',
   'common.confirmBatchDelete': 'Are you sure you want to batch delete the selected records?',
-  'common.confirmBatchDeleteContent': '{{count}} record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'common.confirmBatchDeleteContent':
+    '{{count}} record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'common.batchDeleteSuccess': '{{count}} record(s) deleted',
   'common.batchDeletePartial': '{{count}} record(s) failed to delete{{errors}}',
   'common.batchDeleteFailed': 'Batch delete failed',
@@ -1782,15 +1868,18 @@ export default {
   // Iteration Float Button
   'components.iterationFloatButton.tooltip': 'System info & feedback',
   'components.iterationFloatButton.modalTitle': 'System info & feedback',
-  'components.iterationFloatButton.iterationNotice': 'This system is under continuous iteration. For feedback or feature requests, please contact us via the channel below.',
+  'components.iterationFloatButton.iterationNotice':
+    'This system is under continuous iteration. For feedback or feature requests, please contact us via the channel below.',
   'components.iterationFloatButton.buildTime': 'Current deployment update time',
   'components.iterationFloatButton.gitLatestTime': 'Latest commit time (repository)',
   'components.iterationFloatButton.viewRepo': 'View repository',
   'components.iterationFloatButton.feedbackTitle': 'Feedback & feature requests',
-  'components.iterationFloatButton.feedbackDesc': 'Scan the QR code to add WeChat. We will respond to your feedback promptly.',
+  'components.iterationFloatButton.feedbackDesc':
+    'Scan the QR code to add WeChat. We will respond to your feedback promptly.',
 
   'components.proUpgradePrompt.title': '{{name}} is a PRO app',
-  'components.proUpgradePrompt.description': 'Upgrade your plan to Professional or Enterprise to unlock this app.',
+  'components.proUpgradePrompt.description':
+    'Upgrade your plan to Professional or Enterprise to unlock this app.',
   'components.proUpgradePrompt.upgradeButton': 'Upgrade plan',
 
   // UniTable component
@@ -1826,7 +1915,8 @@ export default {
   'components.uniImport.mappingSelectColumn': 'Select Excel column',
   'components.uniImport.mappingAutoMatch': 'Auto match',
   'components.uniImport.mappingApplyPreview': 'Apply & preview',
-  'components.uniImport.mappingApplySuccess': 'Mapping applied. Review the sheet and confirm import.',
+  'components.uniImport.mappingApplySuccess':
+    'Mapping applied. Review the sheet and confirm import.',
   'components.uniImport.mappingNoColumns': 'Map at least one field',
   'components.uniImport.mappingNoDataRows': 'No data rows after mapping',
   'components.uniImport.customImport': 'Custom import',
@@ -1851,11 +1941,15 @@ export default {
   'components.uniImport.relationStrategyTitle': 'Write strategy',
   'components.uniImport.relationStrategy.upsert': 'Upsert (update if exists, create if missing)',
   'components.uniImport.relationStrategy.create_only': 'Create only (do not update existing)',
-  'components.uniImport.relationStrategy.link_only': 'Link master data only (BOM rows still imported)',
+  'components.uniImport.relationStrategy.link_only':
+    'Link master data only (BOM rows still imported)',
   'components.uniImport.relationStrategy.strict_fail': 'Strict fail (missing dependency fails)',
-  'components.uniImport.relationMissingRequiredColumns': 'Missing required relation columns: {{columns}}',
-  'components.uniImport.relationMissingEntityColumns': '{{entity}} relation import is missing columns: {{columns}}',
-  'components.uniImport.relationMissingEntityValue': 'Row {{row}} is missing {{entity}} required field: {{field}}',
+  'components.uniImport.relationMissingRequiredColumns':
+    'Missing required relation columns: {{columns}}',
+  'components.uniImport.relationMissingEntityColumns':
+    '{{entity}} relation import is missing columns: {{columns}}',
+  'components.uniImport.relationMissingEntityValue':
+    'Row {{row}} is missing {{entity}} required field: {{field}}',
   'components.uniImport.relationPrecheck': 'Precheck',
   'components.uniImport.relationSubmit': 'Run import',
   'components.uniImport.relationSummaryCreated': 'Created',
@@ -1866,7 +1960,8 @@ export default {
   'components.uniImport.relationErrors': 'Precheck errors',
   'components.uniImport.previewNextStep': 'Preview & continue',
   'components.uniImport.previewModalTitle': 'Import preview',
-  'components.uniImport.previewSummary': '{{total}} row(s) to import. Previewing first {{shown}} (max {{max}}).',
+  'components.uniImport.previewSummary':
+    '{{total}} row(s) to import. Previewing first {{shown}} (max {{max}}).',
   'components.uniImport.previewRowNo': 'Row',
   'components.uniImport.previewMoreRowsHint': '{{rest}} more row(s) will be imported on confirm.',
   'components.uniImport.previewBackEdit': 'Back to edit',
@@ -1925,13 +2020,16 @@ export default {
   'components.uniBatch.audit.approveNotAllowed': 'Selected documents cannot be batch approved.',
   'components.uniBatch.audit.revokeNotAllowed': 'Selected documents cannot be batch revoked.',
   'components.uniBatch.audit.success': '{{action}} succeeded: {{count}}',
-  'components.uniBatch.audit.partial': '{{action}} completed: {{success}} succeeded, {{failed}} failed',
-  'components.uniBatch.audit.partialWithReason': '{{action}} completed: {{success}} succeeded, {{failed}} failed ({{reason}})',
+  'components.uniBatch.audit.partial':
+    '{{action}} completed: {{success}} succeeded, {{failed}} failed',
+  'components.uniBatch.audit.partialWithReason':
+    '{{action}} completed: {{success}} succeeded, {{failed}} failed ({{reason}})',
   'components.uniBatch.audit.failed': '{{action}} failed',
   'components.uniBatch.capability.notAllowed': 'The selected documents cannot perform this action.',
   'components.uniBatch.capability.success': 'Succeeded: {{count}}',
   'components.uniBatch.capability.partial': 'Completed: {{success}} succeeded, {{failed}} failed',
-  'components.uniBatch.capability.partialWithReason': 'Completed: {{success}} succeeded, {{failed}} failed ({{reason}})',
+  'components.uniBatch.capability.partialWithReason':
+    'Completed: {{success}} succeeded, {{failed}} failed ({{reason}})',
   'components.uniBatch.capability.failed': 'Operation failed',
   'components.uniPush.push': 'Push',
   'components.uniTable.configOnImport': 'Configure onImport callback to handle import data',
@@ -1943,15 +2041,18 @@ export default {
   'components.uniTable.emptyCard': 'No app data',
   'components.uniTable.emptyData': 'No data',
   'components.uniTable.cardViewTitle': 'Card view',
-  'components.uniTable.cardViewHint': 'Configure cardViewConfig.renderCard to customize card rendering',
+  'components.uniTable.cardViewHint':
+    'Configure cardViewConfig.renderCard to customize card rendering',
   'components.uniTable.kanbanViewTitle': 'Kanban view',
   'components.uniTable.kanbanViewHint': 'Configure kanbanViewConfig to enable kanban view',
   'components.uniTable.statsViewTitle': 'Stats view',
   'components.uniTable.statsViewHint': 'Configure statsViewConfig.metrics to enable stats view',
   'components.uniTable.chartDeveloping': 'Chart feature in development...',
-  'components.uniTable.ganttViewHint': 'Configure ganttViewConfig.renderGantt to customize Gantt chart rendering',
+  'components.uniTable.ganttViewHint':
+    'Configure ganttViewConfig.renderGantt to customize Gantt chart rendering',
   'components.uniTable.helpTitle': 'Usage help',
-  'components.uniTable.helpHint': 'Use the search bar to filter data. Import and export are supported. Configure helpViewConfig.content for page-specific help.',
+  'components.uniTable.helpHint':
+    'Use the search bar to filter data. Import and export are supported. Configure helpViewConfig.content for page-specific help.',
   'components.uniTable.touchViewTitle': 'Touch view',
   'components.uniTable.touchViewHint': 'Configure touchViewConfig.renderCard to enable touch view',
   'components.uniTable.exampleValue': 'Example',
@@ -1969,8 +2070,10 @@ export default {
   'components.layoutTemplates.formModal.submitUpdate': 'Update',
   'components.layoutTemplates.documentFormPage.saveDraft': 'Save as Draft',
   'components.layoutTemplates.documentFormPage.saveAndSubmit': 'Save and Submit',
-  'components.layoutTemplates.formModal.checkFormHint': 'Please check that the form is filled in correctly',
-  'components.layoutTemplates.formModal.formNotReady': 'The form is not ready yet. Please try again in a moment.',
+  'components.layoutTemplates.formModal.checkFormHint':
+    'Please check that the form is filled in correctly',
+  'components.layoutTemplates.formModal.formNotReady':
+    'The form is not ready yet. Please try again in a moment.',
   'components.secureImage.viewOriginal': 'View original',
   'components.secureImage.loadingOriginal': 'Loading original…',
   'components.secureImage.switchedToOriginal': 'Showing full resolution',
@@ -2080,7 +2183,8 @@ export default {
   'components.dictionarySelect.enterValue': 'Please enter the value',
   'components.dictionarySelect.enterLabelAndValue': 'Please enter label and value',
   'components.dictionarySelect.maxLength100': 'Max 100 characters',
-  'components.dictionarySelect.valueMirrorsLabelHint': 'The stored value will match this field; no separate value.',
+  'components.dictionarySelect.valueMirrorsLabelHint':
+    'The stored value will match this field; no separate value.',
   'components.dictionarySelect.valueExists': 'Value already exists, use another',
   'components.dictionarySelect.createFailed': 'Create failed',
 
@@ -2123,7 +2227,8 @@ export default {
   'pages.init.wizard.dateFormat': 'Date Format',
   'pages.init.wizard.selectDateFormat': 'Please select date format',
   'pages.init.wizard.configComplete': 'Initialization Configuration Completed',
-  'pages.init.wizard.configConfirm': 'Please confirm all information is correct, then click "Finish" to complete initialization',
+  'pages.init.wizard.configConfirm':
+    'Please confirm all information is correct, then click "Finish" to complete initialization',
   'pages.init.wizard.configSummary': 'Configuration Summary:',
   'pages.init.wizard.basicSettings': 'Basic Settings:',
   'pages.init.wizard.summaryTimezone': 'Timezone:',
@@ -2131,7 +2236,8 @@ export default {
   'pages.init.wizard.summaryLanguage': 'Default Language:',
   'pages.init.wizard.summaryDateFormat': 'Date Format:',
   'pages.init.wizard.tabBasic': 'Basic Settings',
-  'pages.init.wizard.tabBasicDesc': 'Configure core settings such as timezone, currency, and language',
+  'pages.init.wizard.tabBasicDesc':
+    'Configure core settings such as timezone, currency, and language',
   'pages.init.wizard.tabFinish': 'Finish',
   'pages.init.wizard.tabFinishDesc': 'Confirm and complete initialization',
   'pages.init.templateSelect.loadListFailed': 'Failed to load template list, please try again',
@@ -2147,7 +2253,8 @@ export default {
   'pages.init.templateSelect.enabled': 'Enabled',
   'pages.init.templateSelect.disabled': 'Disabled',
   'pages.init.templateSelect.title': 'Select Industry Template',
-  'pages.init.templateSelect.subtitle': 'Select a template suitable for your industry to complete basic configurations such as code rules and system parameters in one click.',
+  'pages.init.templateSelect.subtitle':
+    'Select a template suitable for your industry to complete basic configurations such as code rules and system parameters in one click.',
   'pages.init.templateSelect.noTemplates': 'No templates available',
   'pages.init.templateSelect.previewTitle': 'Template Preview',
   'pages.init.templateSelect.templateName': 'Template Name',
@@ -2161,9 +2268,11 @@ export default {
   'pages.init.templateSelect.applyIndustryTemplate': 'Apply Industry Template',
   'pages.init.templateSelect.confirmApply': 'Confirm Apply',
   'pages.init.templateSelect.cancel': 'Cancel',
-  'pages.init.templateSelect.confirmApplyTitle': 'Are you sure you want to apply the template {{name}}?',
-  'pages.init.templateSelect.confirmApplyDesc': 'After applying the template, basic settings such as coding rules and system parameters will be automatically configured.',
- 
+  'pages.init.templateSelect.confirmApplyTitle':
+    'Are you sure you want to apply the template {{name}}?',
+  'pages.init.templateSelect.confirmApplyDesc':
+    'After applying the template, basic settings such as coding rules and system parameters will be automatically configured.',
+
   // Lock Screen
   'pages.lockScreen.userInfoNotFound': 'User info not found, please login again',
   'pages.lockScreen.unlockSuccess': 'Unlocked successfully',
@@ -2199,54 +2308,79 @@ export default {
   'components.techStackModal.tabDatabase': 'Database ({{count}})',
   'components.techStackModal.tabInfrastructure': 'Infrastructure ({{count}})',
   'components.techStackModal.overview.coreTitle': 'Core Tech Stack',
-  'components.techStackModal.overview.intro': 'RiverEdge SaaS multi-tenant framework uses modern tech stack:',
+  'components.techStackModal.overview.intro':
+    'RiverEdge SaaS multi-tenant framework uses modern tech stack:',
   'components.techStackModal.overview.fastapi': 'High-performance async web framework',
-  'components.techStackModal.overview.taskiq': 'Async task queue on PostgreSQL; workers consume jobs; cron-style work is driven by the Taskiq scheduler.',
+  'components.techStackModal.overview.taskiq':
+    'Async task queue on PostgreSQL; workers consume jobs; cron-style work is driven by the Taskiq scheduler.',
   'components.techStackModal.overview.react': 'Modern frontend framework',
   'components.techStackModal.overview.tortoise': 'Async ORM for Python',
   'components.techStackModal.overview.antd': 'Enterprise UI component library',
-  'components.techStackModal.overview.expo': 'React Native development platform, build & OTA updates',
+  'components.techStackModal.overview.expo':
+    'React Native development platform, build & OTA updates',
   'components.techStackModal.overview.reactNative': 'Cross-platform mobile & web framework',
   'components.techStackModal.overview.licenseTitle': 'License Overview',
-  'components.techStackModal.overview.licenseIntro': 'All core technologies use permissive licenses (MIT, Apache 2.0, BSD). Safe for commercial use.',
-  'components.techStackModal.overview.redisWarning': '⚠️ Important: Redis server must use 6.2.6+ (BSD 3-Clause). Avoid Redis 7.0+ (RSAL license restricts commercial use).',
+  'components.techStackModal.overview.licenseIntro':
+    'All core technologies use permissive licenses (MIT, Apache 2.0, BSD). Safe for commercial use.',
+  'components.techStackModal.overview.redisWarning':
+    '⚠️ Important: Redis server must use 6.2.6+ (BSD 3-Clause). Avoid Redis 7.0+ (RSAL license restricts commercial use).',
   'components.techStackModal.copyright.important': 'Important',
-  'components.techStackModal.copyright.importantDesc': 'Please read and comply with the following copyright and license before using, modifying, or distributing this project.',
+  'components.techStackModal.copyright.importantDesc':
+    'Please read and comply with the following copyright and license before using, modifying, or distributing this project.',
   'components.techStackModal.copyright.projectTitle': 'Copyright Notice',
-  'components.techStackModal.copyright.projectScope': 'This notice applies to RiverEdge SaaS multi-tenant framework and its source code, docs, plugins, and derivatives.',
+  'components.techStackModal.copyright.projectScope':
+    'This notice applies to RiverEdge SaaS multi-tenant framework and its source code, docs, plugins, and derivatives.',
   'components.techStackModal.copyright.ownershipTitle': 'Copyright',
-  'components.techStackModal.copyright.ownershipDesc': '{{company}} owns the copyright. Use, modification, and distribution rights are governed by Apache License 2.0 below.',
+  'components.techStackModal.copyright.ownershipDesc':
+    '{{company}} owns the copyright. Use, modification, and distribution rights are governed by Apache License 2.0 below.',
   'components.techStackModal.copyright.trademarkTitle': 'Trademark',
-  'components.techStackModal.copyright.trademarkDesc': '{{trademark}} is a registered trademark of {{company}}, protected by trademark law.',
-  'components.techStackModal.copyright.trademarkNoGrant': 'Apache License 2.0 does not grant trademark rights. Without written permission, you may not:',
-  'components.techStackModal.copyright.trademarkItem1': 'Use "{{trademark}}" for commercial promotion or claim partnership',
-  'components.techStackModal.copyright.trademarkItem2': 'Use "{{trademark}}" as your product or service name',
+  'components.techStackModal.copyright.trademarkDesc':
+    '{{trademark}} is a registered trademark of {{company}}, protected by trademark law.',
+  'components.techStackModal.copyright.trademarkNoGrant':
+    'Apache License 2.0 does not grant trademark rights. Without written permission, you may not:',
+  'components.techStackModal.copyright.trademarkItem1':
+    'Use "{{trademark}}" for commercial promotion or claim partnership',
+  'components.techStackModal.copyright.trademarkItem2':
+    'Use "{{trademark}}" as your product or service name',
   'components.techStackModal.copyright.softwareTitle': 'Software License',
-  'components.techStackModal.copyright.softwareIntro': 'This project uses Apache License 2.0. You may:',
-  'components.techStackModal.copyright.softwareItem1': 'Use commercially, modify, use privately, distribute source or binary',
+  'components.techStackModal.copyright.softwareIntro':
+    'This project uses Apache License 2.0. You may:',
+  'components.techStackModal.copyright.softwareItem1':
+    'Use commercially, modify, use privately, distribute source or binary',
   'components.techStackModal.copyright.softwareItem2': 'Receive explicit patent license grant',
-  'components.techStackModal.copyright.softwareNote': 'See LICENSE file in project root for full text.',
+  'components.techStackModal.copyright.softwareNote':
+    'See LICENSE file in project root for full text.',
   'components.techStackModal.copyright.model3dTitle': '3D Model Attribution',
-  'components.techStackModal.copyright.model3dDesc': 'This build does not bundle third-party 3D building assets that require separate attribution.',
+  'components.techStackModal.copyright.model3dDesc':
+    'This build does not bundle third-party 3D building assets that require separate attribution.',
   'components.techStackModal.copyright.fontTitle': 'Font Attribution',
   'components.techStackModal.copyright.fontDesc': 'Fonts used in this project and their licenses:',
-  'components.techStackModal.copyright.fontJetBrains': 'Source: https://www.jetbrains.com/lp/mono/. SIL Open Font License 1.1 — free for commercial and non-commercial use.',
-  'components.techStackModal.copyright.fontSystem': 'UI body text uses system fonts (e.g. PingFang SC, Microsoft YaHei, Segoe UI, Roboto). No additional license required.',
-  'components.techStackModal.copyright.fontWxIcons': 'Source: SVAR (https://cdn.svar.dev/fonts/wxi/), MIT License. Used for Gantt chart and other component icons.',
+  'components.techStackModal.copyright.fontJetBrains':
+    'Source: https://www.jetbrains.com/lp/mono/. SIL Open Font License 1.1 — free for commercial and non-commercial use.',
+  'components.techStackModal.copyright.fontSystem':
+    'UI body text uses system fonts (e.g. PingFang SC, Microsoft YaHei, Segoe UI, Roboto). No additional license required.',
+  'components.techStackModal.copyright.fontWxIcons':
+    'Source: SVAR (https://cdn.svar.dev/fonts/wxi/), MIT License. Used for Gantt chart and other component icons.',
   'components.techStackModal.copyright.assetsTitle': 'Other Assets',
   'components.techStackModal.copyright.assetsDesc': 'The following assets and their licenses:',
-  'components.techStackModal.copyright.assetsLottie': 'lottie-react library is MIT licensed. Animation JSON files from LottieFiles or other third parties must comply with their respective licenses.',
-  'components.techStackModal.copyright.assetsSocial': 'WeChat, QQ, DingTalk, Feishu, WeCom icons are used for third-party login brand display. Please comply with each platform\'s brand guidelines.',
+  'components.techStackModal.copyright.assetsLottie':
+    'lottie-react library is MIT licensed. Animation JSON files from LottieFiles or other third parties must comply with their respective licenses.',
+  'components.techStackModal.copyright.assetsSocial':
+    "WeChat, QQ, DingTalk, Feishu, WeCom icons are used for third-party login brand display. Please comply with each platform's brand guidelines.",
   'components.techStackModal.copyright.complianceTitle': 'Compliance',
-  'components.techStackModal.copyright.complianceDesc': 'Commercial use must retain: copyright notice, trademark notice, and Apache 2.0 license text.',
-  'components.techStackModal.copyright.complianceAuth': 'With written authorization from the company, licensees may remove or replace copyright/trademark for white-label deployment or custom products.',
-  'components.techStackModal.copyright.warning': 'Removing or tampering with copyright/trademark notices violates the license and may result in legal liability.',
+  'components.techStackModal.copyright.complianceDesc':
+    'Commercial use must retain: copyright notice, trademark notice, and Apache 2.0 license text.',
+  'components.techStackModal.copyright.complianceAuth':
+    'With written authorization from the company, licensees may remove or replace copyright/trademark for white-label deployment or custom products.',
+  'components.techStackModal.copyright.warning':
+    'Removing or tampering with copyright/trademark notices violates the license and may result in legal liability.',
   'components.techStackModal.aiAssist.title': 'AI-Assisted Development',
   'components.techStackModal.aiAssist.intro': 'This project was developed with assistance from:',
   'components.techStackModal.aiAssist.cursor': 'Cursor — Composer 1.5',
   'components.techStackModal.aiAssist.antigravity': 'Antigravity — Gemini 3 Pro',
   'components.techStackModal.aiAssist.trae': 'Trae — GPT-5.3-Codex',
-  'components.techStackModal.aiAssist.note': 'Some code and docs were written with AI assistance. Human-led design and decisions; AI used for efficiency and implementation support.',
+  'components.techStackModal.aiAssist.note':
+    'Some code and docs were written with AI assistance. Human-led design and decisions; AI used for efficiency and implementation support.',
 
   'components.uniQuery.clearAll': 'Clear all',
   'components.uniQuery.addFilterGroup': 'Add filter group',
@@ -2418,7 +2552,8 @@ export default {
   'app.kuaiplm.phase2.designReviews.columns.scheduledAt': 'Scheduled At',
   'app.kuaiplm.phase2.designReviews.deleteOneTitle': 'Delete this review record?',
   'app.kuaiplm.phase2.designReviews.createButton': 'New Review',
-  'app.kuaiplm.phase2.designReviews.deleteConfirmTitle': 'Delete {{count}} selected design review(s)?',
+  'app.kuaiplm.phase2.designReviews.deleteConfirmTitle':
+    'Delete {{count}} selected design review(s)?',
   'app.kuaiplm.phase2.designReviews.batchSetInProgress': 'Set selected to In Progress',
   'app.kuaiplm.phase2.designReviews.batchSetCompleted': 'Set selected to Completed',
   'app.kuaiplm.phase2.designReviews.createTitle': 'Create Design Review',
@@ -2553,27 +2688,32 @@ export default {
   'app.kuaiplm.common.messages.batchExecuteSuccess': 'Executed {{count}} change(s)',
   'app.kuaiplm.common.messages.batchDeleteSuccess': 'Deleted {{count}} change(s)',
   'app.kuaiplm.dashboard.kpi.activeProjects': 'Active Projects',
-  'app.kuaiplm.dashboard.kpi.activeProjectsSubtitle': 'Total {{total}} · R&D {{rd}} · Delivery {{delivery}}',
+  'app.kuaiplm.dashboard.kpi.activeProjectsSubtitle':
+    'Total {{total}} · R&D {{rd}} · Delivery {{delivery}}',
   'app.kuaiplm.dashboard.kpi.onHold': 'On Hold',
   'app.kuaiplm.dashboard.kpi.pendingGates': 'Pending Gates',
   'app.kuaiplm.dashboard.kpi.pendingChanges': 'Pending Changes',
-  'app.kuaiplm.dashboard.kpi.pendingChangesSubtitle': 'BOM and route changes pending approval/execution',
+  'app.kuaiplm.dashboard.kpi.pendingChangesSubtitle':
+    'BOM and route changes pending approval/execution',
   'app.kuaiplm.dashboard.kpi.route': 'Route',
   'app.kuaiplm.dashboard.kpi.collaborationTodos': 'Collaboration Todos',
-  'app.kuaiplm.dashboard.kpi.collaborationSubtitle': 'Articles {{articles}} · Design reviews {{reviews}}',
+  'app.kuaiplm.dashboard.kpi.collaborationSubtitle':
+    'Articles {{articles}} · Design reviews {{reviews}}',
   'app.kuaiplm.dashboard.kpi.requirements': 'Requirements',
   'app.kuaiplm.dashboard.panel.activeProjects': 'Active Projects',
   'app.kuaiplm.dashboard.panel.pendingChanges': 'Pending Changes',
   'app.kuaiplm.dashboard.panel.myTasks': 'My Tasks',
   'app.kuaiplm.dashboard.panel.changeTarget': 'Change Target',
-  'app.kuaiplm.dashboard.empty.activeProjects': 'No active projects. Create an NPI project to get started.',
+  'app.kuaiplm.dashboard.empty.activeProjects':
+    'No active projects. Create an NPI project to get started.',
   'app.kuaiplm.dashboard.empty.pendingChanges': 'No pending design changes',
   'app.kuaiplm.dashboard.empty.myTasks': 'No tasks assigned to you',
   'app.kuaiplm.dashboard.chart.ganttTitle': 'Project Progress Gantt',
   'app.kuaiplm.dashboard.shortcut.engineeringBom': 'Engineering BOM',
   'app.kuaiplm.gantt.scale.month': '%b %Y',
   'app.kuaiplm.gantt.scale.week': 'W%W',
-  'app.kuaiplm.gantt.empty': 'No active projects. NPI timeline will appear here after project creation.',
+  'app.kuaiplm.gantt.empty':
+    'No active projects. NPI timeline will appear here after project creation.',
   'app.kuaiplm.gantt.columns.projectGate': 'Project / Gate',
   'app.kuaiplm.gantt.columns.plannedStart': 'Planned Start',
   'app.kuaiplm.gantt.columns.plannedEnd': 'Planned End',
@@ -2584,7 +2724,8 @@ export default {
   'app.kuaiplm.rdProjects.modal.createTitle': 'New Project',
   'app.kuaiplm.rdProjects.form.projectType': 'Project Type',
   'app.kuaiplm.rdProjects.form.sourceProject': 'Source R&D Project',
-  'app.kuaiplm.rdProjects.form.sourceProjectHint': 'Optional: inherit material and engineering links',
+  'app.kuaiplm.rdProjects.form.sourceProjectHint':
+    'Optional: inherit material and engineering links',
   'app.kuaiplm.rdProjects.form.projectCode': 'Project Code',
   'app.kuaiplm.rdProjects.form.projectName': 'Project Name',
   'app.kuaiplm.rdProjects.form.owner': 'Project Owner',
@@ -2602,12 +2743,15 @@ export default {
   'app.kuaiplm.rdProjects.detail.loadFailed': 'Failed to load project workspace',
   'app.kuaiplm.rdProjects.detail.notFound': 'Project not found or access denied',
   'app.kuaiplm.rdProjects.detail.startConfirmTitle': 'Start project?',
-  'app.kuaiplm.rdProjects.detail.startConfirmContent': 'After start, status becomes In Progress and NPI gates, tasks, and deliverables can proceed. Cannot revert to draft.',
+  'app.kuaiplm.rdProjects.detail.startConfirmContent':
+    'After start, status becomes In Progress and NPI gates, tasks, and deliverables can proceed. Cannot revert to draft.',
   'app.kuaiplm.rdProjects.detail.startSuccess': 'Project started',
   'app.kuaiplm.rdProjects.detail.createDeliveryTitle': 'Create delivery project?',
-  'app.kuaiplm.rdProjects.detail.createDeliveryContent': 'Push a delivery project from this R&D project, inheriting material and engineering links.',
+  'app.kuaiplm.rdProjects.detail.createDeliveryContent':
+    'Push a delivery project from this R&D project, inheriting material and engineering links.',
   'app.kuaiplm.rdProjects.detail.createDeliverySuccess': 'Delivery project created',
-  'app.kuaiplm.rdProjects.detail.gatePassConfirm': 'Unapproved blocking deliverables will prevent passing.',
+  'app.kuaiplm.rdProjects.detail.gatePassConfirm':
+    'Unapproved blocking deliverables will prevent passing.',
   'app.kuaiplm.rdProjects.detail.gatePassSuccess': 'Gate passed',
   'app.kuaiplm.rdProjects.detail.gatePassFailed': 'Gate update failed',
   'app.kuaiplm.rdProjects.detail.section.gateInfo': 'Gate Info',
@@ -2667,7 +2811,8 @@ export default {
   'app.kuaiplm.rdProjects.gateStepper.deliveryTitle': 'Delivery Project Stages',
   'app.kuaiplm.rdProjects.gateStepper.npiTitle': 'NPI Project Stages',
   'app.kuaiplm.rdProjects.gateStepper.passedCount': '{{passed}}/{{total}} passed',
-  'app.kuaiplm.rdProjects.gateStepper.failedHint': 'Current gate review failed. Complete deliverables and re-review.',
+  'app.kuaiplm.rdProjects.gateStepper.failedHint':
+    'Current gate review failed. Complete deliverables and re-review.',
   'app.kuaiplm.change.pageTitle': 'Design Changes',
   'app.kuaiplm.change.createBomButton': 'Create BOM Change in Master Data',
   'app.kuaiplm.change.createRouteButton': 'Create Route Change in Master Data',
@@ -2675,7 +2820,8 @@ export default {
   'app.kuaiplm.change.tab.bom': 'BOM Changes',
   'app.kuaiplm.change.tab.route': 'Route Changes',
   'app.kuaiplm.change.approveConfirm': 'Approve this change?',
-  'app.kuaiplm.change.executeConfirm': 'Execute this change? It will be written to production engineering data.',
+  'app.kuaiplm.change.executeConfirm':
+    'Execute this change? It will be written to production engineering data.',
   'app.kuaiplm.change.batchApproveConfirm': 'Approve {{count}} selected change(s)?',
   'app.kuaiplm.change.batchExecuteConfirm': 'Execute {{count}} selected change(s)?',
   'app.kuaiplm.change.deleteConfirm': 'Delete {{count}} selected change record(s)?',
@@ -2722,7 +2868,8 @@ export default {
   'app.master-data.name': 'Master-data',
   'app.system.name': 'Settings',
   'app.kuaiai.name': 'KU-AI',
-  'app.kuaiai.noMenuHint': 'This app has no sidebar menu. Use the AI assistant icon in the top bar, or press F1.',
+  'app.kuaiai.noMenuHint':
+    'This app has no sidebar menu. Use the AI assistant icon in the top bar, or press F1.',
   'app.kuaiai.menu.agents': 'Agents',
   'app.kuaiai.menu.hub': 'Hub',
   'app.kuaiai.menu.knowledge': 'Knowledge',
@@ -2756,11 +2903,15 @@ export default {
   'app.haoligo.menu.workspace': 'Workspace',
   'app.haoligo.menu.settings.notifications': 'Notifications',
   'app.haoligo.settings.notifications.title': 'Notifications',
-  'app.haoligo.settings.notifications.desc': 'Configure in-app messages and recipients when documents are submitted, approved, or reported in this app.',
-  'app.haoligo.settings.notifications.preset.hint': 'On first use, click "Load presets" to create default rules (existing document+action pairs are not overwritten). Load this app\'s message templates under System → Messages → Templates first.',
+  'app.haoligo.settings.notifications.desc':
+    'Configure in-app messages and recipients when documents are submitted, approved, or reported in this app.',
+  'app.haoligo.settings.notifications.preset.hint':
+    'On first use, click "Load presets" to create default rules (existing document+action pairs are not overwritten). Load this app\'s message templates under System → Messages → Templates first.',
   'app.haoligo.settings.notifications.preset.button': 'Load presets',
-  'app.haoligo.settings.notifications.preset.loaded': 'Loaded {{created}} preset rule(s) ({{total}} total)',
-  'app.haoligo.settings.notifications.preset.missingTemplate': 'No rules added: load this app\'s message template presets under Messages → Templates, then try again.',
+  'app.haoligo.settings.notifications.preset.loaded':
+    'Loaded {{created}} preset rule(s) ({{total}} total)',
+  'app.haoligo.settings.notifications.preset.missingTemplate':
+    "No rules added: load this app's message template presets under Messages → Templates, then try again.",
   'app.haoligo.settings.notifications.preset.alreadyExists': 'All preset rules already exist',
   'app.haoligo.settings.notifications.preset.failed': 'Failed to load notification presets',
   'app.haoligo.settings.notifications.document.mold_trial': 'Mold trial sheet',
@@ -2769,15 +2920,22 @@ export default {
   'app.haoligo.settings.notifications.document.equipment_route_patrol': 'Route patrol',
   'app.haoligo.settings.notifications.document.patrol_issue_register': 'Issue register',
   'app.haoligo.settings.notifications.document.mold_maintenance': 'In-house maintenance',
-  'app.haoligo.settings.notifications.document.mold_maintenance_complete': 'In-house complete sheet',
-  'app.haoligo.settings.notifications.document.outsource_maintenance_complete': 'Outsource repair complete sheet',
+  'app.haoligo.settings.notifications.document.mold_maintenance_complete':
+    'In-house complete sheet',
+  'app.haoligo.settings.notifications.document.outsource_maintenance_complete':
+    'Outsource repair complete sheet',
   'app.haoligo.settings.notifications.document.equipment_upkeep_sheet': 'Equipment upkeep sheet',
-  'app.haoligo.settings.notifications.document.equipment_upkeep_complete': 'Equipment upkeep complete',
+  'app.haoligo.settings.notifications.document.equipment_upkeep_complete':
+    'Equipment upkeep complete',
   'app.haoligo.settings.notifications.document.equipment_output_record': 'Equipment output record',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_pending': 'Trial failed · pending',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_repair': 'Trial failed · repair dispatched',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_adjustment_complete': 'Adjustment complete',
-  'app.haoligo.settings.notifications.action.mold_trial.trial_production_pending': 'Production trial pending',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_pending':
+    'Trial failed · pending',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_failure_repair':
+    'Trial failed · repair dispatched',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_adjustment_complete':
+    'Adjustment complete',
+  'app.haoligo.settings.notifications.action.mold_trial.trial_production_pending':
+    'Production trial pending',
   'app.haoligo.settings.notifications.action.mold_trial.trial_recalled': 'Recalled and closed',
   'app.haoligo.settings.notifications.action.mold_trial.revoked': 'Approval revoked',
   'app.haoligo.settings.notifications.action.mold_trial.approved': 'Approved',
@@ -2787,7 +2945,8 @@ export default {
   'app.haoligo.settings.notifications.action.mold_maintenance.rejected': 'Rejected',
   'app.haoligo.settings.notifications.action.mold_maintenance.revoked': 'Approval revoked',
   'app.haoligo.settings.notifications.action.mold_maintenance_complete.created': 'Created',
-  'app.haoligo.settings.notifications.action.outsource_complete.submitted': 'Outsource repair completed',
+  'app.haoligo.settings.notifications.action.outsource_complete.submitted':
+    'Outsource repair completed',
   'app.haoligo.settings.notifications.action.outsource_complete.approved': 'Approved',
   'app.haoligo.settings.notifications.action.outsource_complete.rejected': 'Rejected',
   'app.haoligo.settings.notifications.action.outsource_complete.revoked': 'Approval revoked',
@@ -2808,10 +2967,14 @@ export default {
   'app.haoligo.molds.trial.pendingNotifyUsers': 'Pending notification recipients',
   'app.haoligo.molds.trial.submittedNotifyUsers': 'Pending audit notification recipients',
   'app.haoligo.settings.notifications.action.mold_trial.submitted': 'Submitted for review',
-  'app.haoligo.settings.notifications.hint.trialPending': 'Enable "Users chosen on document" in notification rules, then select recipients here. Fixed roles can be set under Config Center → Notifications.',
-  'app.haoligo.settings.notifications.hint.spotCheckReport': 'Configure report recipients under System Settings → Config Center → Notifications (spot check / reported).',
-  'app.haoligo.settings.notifications.hint.routePatrolReport': 'Configure report recipients under System Settings → Config Center → Notifications (route patrol / reported).',
-  'app.haoligo.settings.notifications.hint.issueRegisterReport': 'Configure issue report recipients under System Settings → Config Center → Notifications (issue register / reported).',
+  'app.haoligo.settings.notifications.hint.trialPending':
+    'Enable "Users chosen on document" in notification rules, then select recipients here. Fixed roles can be set under Config Center → Notifications.',
+  'app.haoligo.settings.notifications.hint.spotCheckReport':
+    'Configure report recipients under System Settings → Config Center → Notifications (spot check / reported).',
+  'app.haoligo.settings.notifications.hint.routePatrolReport':
+    'Configure report recipients under System Settings → Config Center → Notifications (route patrol / reported).',
+  'app.haoligo.settings.notifications.hint.issueRegisterReport':
+    'Configure issue report recipients under System Settings → Config Center → Notifications (issue register / reported).',
   'app.haoligo.menu.equipment': 'Equipment',
   'app.haoligo.menu.equipment.group.masterData': 'Basic Data',
   'app.haoligo.menu.equipment.masterDataWorkshops': 'Workshop Management',
@@ -2836,7 +2999,8 @@ export default {
   'app.haoligo.equipment.upkeepParams.valueTypeText': 'Text',
   'app.haoligo.equipment.upkeepParams.valueTypeMultiselect': 'Multi-select',
   'app.haoligo.equipment.upkeepParams.valueTypeRequired': 'Select a value type',
-  'app.haoligo.equipment.upkeepParams.optionsPh': 'Type an option and press Enter, e.g. Clean, Lubricate',
+  'app.haoligo.equipment.upkeepParams.optionsPh':
+    'Type an option and press Enter, e.g. Clean, Lubricate',
   'app.haoligo.equipment.upkeepParams.optionsRequired': 'Add at least one option for multi-select',
   'app.haoligo.equipment.upkeepParams.defaultTextHint': 'Default hint (optional)',
   'app.haoligo.equipment.upkeepParams.defaultTextPh': 'Placeholder when recording upkeep',
@@ -2858,11 +3022,14 @@ export default {
   'app.haoligo.equipment.upkeepParamSets.pickParamRequired': 'Select at least one upkeep item',
   'app.haoligo.equipment.upkeepParamSets.noParamsToAdd': 'No upkeep items available to add',
   'app.haoligo.equipment.upkeepParamSets.detailTitle': 'Upkeep plan detail',
-  'app.haoligo.equipment.inspectionParamSets.drawerHintMain': 'Sort order and required flags apply immediately; maintain inspection parameters in master data first.',
-  'app.haoligo.equipment.inspectionParamSets.drawerHintProcessRoute': 'Like a process route: a plan is an ordered list of inspection items; order and required flags are shown below.',
+  'app.haoligo.equipment.inspectionParamSets.drawerHintMain':
+    'Sort order and required flags apply immediately; maintain inspection parameters in master data first.',
+  'app.haoligo.equipment.inspectionParamSets.drawerHintProcessRoute':
+    'Like a process route: a plan is an ordered list of inspection items; order and required flags are shown below.',
   'app.haoligo.equipment.inspectionParamSets.editorTitleNew': 'New inspection plan',
   'app.haoligo.equipment.inspectionParamSets.editorTitleEdit': 'Edit inspection plan · {{code}}',
-  'app.haoligo.equipment.inspectionParamSets.hintEditorShort': 'Edit the plan header and ordered inspection items in one place. On create, everything is saved together.',
+  'app.haoligo.equipment.inspectionParamSets.hintEditorShort':
+    'Edit the plan header and ordered inspection items in one place. On create, everything is saved together.',
   'app.haoligo.equipment.inspectionParamSets.sectionSequence': 'Inspection item sequence',
   'app.haoligo.equipment.inspectionParamSets.btnAddItem': 'Add inspection item',
   'app.haoligo.equipment.inspectionParamSets.btnCreatePlan': 'Create plan',
@@ -2882,11 +3049,14 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.fieldNamePh': 'e.g. CNC daily inspection',
   'app.haoligo.equipment.inspectionParamSets.codeRequired': 'Plan code is required',
   'app.haoligo.equipment.inspectionParamSets.nameRequired': 'Plan name is required',
-  'app.haoligo.equipment.inspectionParamSets.atLeastOneItem': 'Add at least one inspection item before creating the plan',
-  'app.haoligo.equipment.inspectionParamSets.noParamsToAdd': 'No items left to add (all added, or maintain inspection parameters first)',
+  'app.haoligo.equipment.inspectionParamSets.atLeastOneItem':
+    'Add at least one inspection item before creating the plan',
+  'app.haoligo.equipment.inspectionParamSets.noParamsToAdd':
+    'No items left to add (all added, or maintain inspection parameters first)',
   'app.haoligo.equipment.inspectionParamSets.pickParam': 'Select an inspection item',
   'app.haoligo.equipment.inspectionParamSets.addItemTitle': 'Add item to plan',
-  'app.haoligo.equipment.inspectionParamSets.addItemParamPh': 'Choose items not yet in this plan (multi-select)',
+  'app.haoligo.equipment.inspectionParamSets.addItemParamPh':
+    'Choose items not yet in this plan (multi-select)',
   'app.haoligo.equipment.inspectionParamSets.moveUp': 'Move up',
   'app.haoligo.equipment.inspectionParamSets.moveDown': 'Move down',
   'app.haoligo.equipment.inspectionParamSets.removeFromPlan': 'Remove',
@@ -2894,11 +3064,15 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.orderUpdated': 'Order updated',
   'app.haoligo.equipment.inspectionParamSets.loadLinesFailed': 'Failed to load plan lines',
   'app.haoligo.equipment.inspectionParamSets.deleteTitle': 'Confirm delete',
-  'app.haoligo.equipment.inspectionParamSets.deleteContent': 'Delete plan "{{name}}" ({{code}})? Deletion may fail if referenced by equipment or categories.',
-  'app.haoligo.equipment.inspectionParamSets.emptySequence': 'No items yet. Click "Add inspection item".',
-  'app.haoligo.equipment.inspectionParamSets.linkInspectionParams': 'Maintain inspection parameters',
+  'app.haoligo.equipment.inspectionParamSets.deleteContent':
+    'Delete plan "{{name}}" ({{code}})? Deletion may fail if referenced by equipment or categories.',
+  'app.haoligo.equipment.inspectionParamSets.emptySequence':
+    'No items yet. Click "Add inspection item".',
+  'app.haoligo.equipment.inspectionParamSets.linkInspectionParams':
+    'Maintain inspection parameters',
   'app.haoligo.equipment.inspectionParamSets.importTitle': 'Import inspection plans',
-  'app.haoligo.equipment.inspectionParamSets.importErrorHeaders': 'Import must include: plan code, plan name, item name',
+  'app.haoligo.equipment.inspectionParamSets.importErrorHeaders':
+    'Import must include: plan code, plan name, item name',
   'app.haoligo.equipment.inspectionParamSets.importColSetCode': '*Plan code',
   'app.haoligo.equipment.inspectionParamSets.importColSetName': '*Plan name',
   'app.haoligo.equipment.inspectionParamSets.importColParamCode': 'Inspection no. (auto if blank)',
@@ -2913,7 +3087,8 @@ export default {
   'app.haoligo.equipment.inspectionParamSets.importColNumericMax': 'Max',
   'app.haoligo.equipment.inspectionParamSets.importColUnit': 'Unit',
   'app.haoligo.equipment.inspectionParamSets.importColRequired': 'Required',
-  'app.haoligo.equipment.inspectionParamSets.importSuccess': 'Import done: {{created}} plan(s) created, {{updated}} updated; {{paramsCreated}} item(s) created, {{paramsUpdated}} updated',
+  'app.haoligo.equipment.inspectionParamSets.importSuccess':
+    'Import done: {{created}} plan(s) created, {{updated}} updated; {{paramsCreated}} item(s) created, {{paramsUpdated}} updated',
   'app.haoligo.equipment.ledger.linkInspectionPlans': 'Open inspection plan maintenance',
   'app.haoligo.equipment.ledger.linkMasterDataWorkshops': 'Open master-data workshop maintenance',
   'app.haoligo.equipment.ledger.title': 'Equipment register',
@@ -2957,7 +3132,8 @@ export default {
   'app.haoligo.equipment.ledger.formCriticality': 'Criticality (A/B/C)',
   'app.haoligo.equipment.ledger.formCriticalityPh': 'Optional; for cadence and filters',
   'app.haoligo.equipment.ledger.formOperationalStatus': 'Operational status',
-  'app.haoligo.equipment.ledger.formOperationalStatusPh': 'running / repair / shutdown / standby; optional',
+  'app.haoligo.equipment.ledger.formOperationalStatusPh':
+    'running / repair / shutdown / standby; optional',
   'app.haoligo.equipment.ledger.operationalStatusNone': 'Unset',
   'app.haoligo.equipment.ledger.operationalStatusRunning': 'Running',
   'app.haoligo.equipment.ledger.operationalStatusRepair': 'Under repair',
@@ -2985,8 +3161,10 @@ export default {
   'app.haoligo.equipment.ledger.importColDate': 'Manufacture date',
   'app.haoligo.equipment.ledger.importColRemark': 'Remark',
   'app.haoligo.equipment.ledger.importColCriticality': 'Criticality',
-  'app.haoligo.equipment.ledger.importErrorCoreCols': 'Import must include: asset code, name, category code, workshop code',
-  'app.haoligo.equipment.ledger.importErrorEncoding': 'No valid rows (check codes against master data)',
+  'app.haoligo.equipment.ledger.importErrorCoreCols':
+    'Import must include: asset code, name, category code, workshop code',
+  'app.haoligo.equipment.ledger.importErrorEncoding':
+    'No valid rows (check codes against master data)',
   'app.haoligo.equipment.ledger.commonDash': '—',
   'app.haoligo.equipment.ledger.actionEdit': 'Edit',
   'app.haoligo.equipment.ledger.actionDelete': 'Delete',
@@ -3004,7 +3182,8 @@ export default {
   'app.haoligo.equipment.manufacturers.formNamePh': 'Manufacturer name',
   'app.haoligo.equipment.manufacturers.formNameReq': 'Enter name',
   'app.haoligo.equipment.manufacturers.importTitle': 'Import manufacturers',
-  'app.haoligo.equipment.manufacturers.importErrorHeaders': 'Import must include: manufacturer code, name',
+  'app.haoligo.equipment.manufacturers.importErrorHeaders':
+    'Import must include: manufacturer code, name',
   'app.haoligo.equipment.manufacturers.importColCode': '*Code',
   'app.haoligo.equipment.manufacturers.importColName': '*Name',
   'app.haoligo.equipment.manufacturers.actionEdit': 'Edit',
@@ -3015,14 +3194,16 @@ export default {
   'app.haoligo.equipment.inspectionParams.colCategory': 'Level-1 category',
   'app.haoligo.equipment.inspectionParams.categoryUncategorized': 'Uncategorized',
   'app.haoligo.equipment.inspectionParams.formCategory': 'Level-1 category',
-  'app.haoligo.equipment.inspectionParams.formCategoryPh': 'Maintain level-1 categories under Equipment categories first',
+  'app.haoligo.equipment.inspectionParams.formCategoryPh':
+    'Maintain level-1 categories under Equipment categories first',
   'app.haoligo.equipment.inspectionParams.batchCategoryBtn': 'Batch edit category',
   'app.haoligo.equipment.inspectionParams.batchCategoryTitle': 'Batch edit level-1 category',
   'app.haoligo.equipment.inspectionParams.batchCategoryHint': '{{count}} item(s) selected',
   'app.haoligo.equipment.inspectionParams.batchCategoryPick': 'Select a level-1 category',
   'app.haoligo.equipment.inspectionParams.batchCategoryClear': 'Clear category (uncategorized)',
   'app.haoligo.equipment.inspectionParams.batchCategorySelectRows': 'Select inspection items first',
-  'app.haoligo.equipment.inspectionParams.batchCategorySuccess': 'Updated level-1 category on {{count}} item(s)',
+  'app.haoligo.equipment.inspectionParams.batchCategorySuccess':
+    'Updated level-1 category on {{count}} item(s)',
   'app.haoligo.equipment.inspectionParams.importColCategory': 'Level-1 category',
   'app.haoligo.equipment.inspectionParams.colRequirement': 'Requirement',
   'app.haoligo.equipment.inspectionParams.colUnit': 'Unit',
@@ -3032,18 +3213,21 @@ export default {
   'app.haoligo.equipment.inspectionParams.valueTypeBoolean': 'Yes/No',
   'app.haoligo.equipment.inspectionParams.valueTypeMultiselect': 'Multi-select',
   'app.haoligo.equipment.inspectionParams.deleteTitle': 'Confirm delete',
-  'app.haoligo.equipment.inspectionParams.deleteContent': 'Delete parameter "{{name}}" ({{code}})? Deletion may fail if referenced by plans.',
+  'app.haoligo.equipment.inspectionParams.deleteContent':
+    'Delete parameter "{{name}}" ({{code}})? Deletion may fail if referenced by plans.',
   'app.haoligo.equipment.inspectionParams.modalCreate': 'New parameter',
   'app.haoligo.equipment.inspectionParams.modalEdit': 'Edit parameter',
   'app.haoligo.equipment.inspectionParams.formCode': 'Inspection no.',
   'app.haoligo.equipment.inspectionParams.formCodePh': 'e.g. VIB, TEMP',
   'app.haoligo.equipment.inspectionParams.formCodeReq': 'Enter inspection no.',
-  'app.haoligo.equipment.inspectionParams.formCodeDuplicate': 'Inspection no. "{{code}}" already exists',
+  'app.haoligo.equipment.inspectionParams.formCodeDuplicate':
+    'Inspection no. "{{code}}" already exists',
   'app.haoligo.equipment.inspectionParams.formName': 'Item name',
   'app.haoligo.equipment.inspectionParams.formNamePh': 'e.g. spindle vibration',
   'app.haoligo.equipment.inspectionParams.formNameReq': 'Enter item name',
   'app.haoligo.equipment.inspectionParams.formRequirement': 'Requirement',
-  'app.haoligo.equipment.inspectionParams.formRequirementPh': 'Optional, e.g. no visible leaks, ≤0.5 mm/s',
+  'app.haoligo.equipment.inspectionParams.formRequirementPh':
+    'Optional, e.g. no visible leaks, ≤0.5 mm/s',
   'app.haoligo.equipment.inspectionParams.formUnit': 'Unit',
   'app.haoligo.equipment.inspectionParams.formUnitPh': 'Optional, e.g. mm/s, °C',
   'app.haoligo.equipment.inspectionParams.formValueType': 'Value type',
@@ -3056,30 +3240,36 @@ export default {
   'app.haoligo.equipment.inspectionParams.textDefaultNormal': 'Normal',
   'app.haoligo.equipment.inspectionParams.colDefaultValue': 'Default value',
   'app.haoligo.equipment.inspectionParams.formDefaultValue': 'Default value',
-  'app.haoligo.equipment.inspectionParams.formDefaultValuePh': 'Optional; pre-fills measured value on new spot checks',
+  'app.haoligo.equipment.inspectionParams.formDefaultValuePh':
+    'Optional; pre-fills measured value on new spot checks',
   'app.haoligo.equipment.inspectionParams.formDefaultValueNumericPh': 'Optional, e.g. 0, 25.5',
   'app.haoligo.equipment.inspectionParams.formNumericRange': 'Value range',
   'app.haoligo.equipment.inspectionParams.formNumericMin': 'Min',
   'app.haoligo.equipment.inspectionParams.formNumericMinPh': 'Optional, inclusive',
   'app.haoligo.equipment.inspectionParams.formNumericMax': 'Max',
   'app.haoligo.equipment.inspectionParams.formNumericMaxPh': 'Optional, inclusive',
-  'app.haoligo.equipment.inspectionParams.formNumericRangeInvalid': 'Min cannot be greater than max',
+  'app.haoligo.equipment.inspectionParams.formNumericRangeInvalid':
+    'Min cannot be greater than max',
   'app.haoligo.equipment.inspectionParams.colNumericRange': 'Value range',
   'app.haoligo.equipment.documents.spotCheckNumericRange': 'Range: {{range}}',
-  'app.haoligo.equipment.documents.spotCheckOutOfRangeHint': 'Measured value is out of range; marked abnormal automatically',
+  'app.haoligo.equipment.documents.spotCheckOutOfRangeHint':
+    'Measured value is out of range; marked abnormal automatically',
   'app.haoligo.equipment.inspectionParams.formDefaultValueTextPh': 'Optional, e.g. OK, no leak',
-  'app.haoligo.equipment.inspectionParams.formDefaultValueMultiselectPh': 'Optional; type a tag and press Enter, comma-separated',
+  'app.haoligo.equipment.inspectionParams.formDefaultValueMultiselectPh':
+    'Optional; type a tag and press Enter, comma-separated',
   'app.haoligo.equipment.inspectionParams.defaultBoolYes': 'Yes',
   'app.haoligo.equipment.inspectionParams.defaultBoolNo': 'No',
   'app.haoligo.equipment.inspectionParams.importColDefaultValue': 'Default value',
   'app.haoligo.equipment.inspectionParams.importTitle': 'Import parameters',
-  'app.haoligo.equipment.inspectionParams.importErrorHeaders': 'Import must include: inspection no., item name',
+  'app.haoligo.equipment.inspectionParams.importErrorHeaders':
+    'Import must include: inspection no., item name',
   'app.haoligo.equipment.inspectionParams.importColCode': '*Inspection no.',
   'app.haoligo.equipment.inspectionParams.importColName': '*Item name',
   'app.haoligo.equipment.inspectionParams.importColRequirement': 'Requirement',
   'app.haoligo.equipment.inspectionParams.importColUnit': 'Unit',
   'app.haoligo.equipment.inspectionParams.importColValueType': 'Value type',
-  'app.haoligo.equipment.inspectionParams.syncInfo': 'Standard library / ERP sync will run here when connected; list refreshed.',
+  'app.haoligo.equipment.inspectionParams.syncInfo':
+    'Standard library / ERP sync will run here when connected; list refreshed.',
   'app.haoligo.equipment.inspectionParams.actionEdit': 'Edit',
   'app.haoligo.equipment.inspectionParams.actionDelete': 'Delete',
   'app.haoligo.equipment.patrolRoutes.title': 'Patrol routes',
@@ -3094,7 +3284,8 @@ export default {
   'app.haoligo.equipment.patrolRoutes.actionEdit': 'Edit',
   'app.haoligo.equipment.patrolRoutes.actionDelete': 'Delete',
   'app.haoligo.equipment.patrolRoutes.deleteTitle': 'Confirm delete',
-  'app.haoligo.equipment.patrolRoutes.deleteContent': 'Delete route "{{name}}" ({{code}})? Steps will be removed.',
+  'app.haoligo.equipment.patrolRoutes.deleteContent':
+    'Delete route "{{name}}" ({{code}})? Steps will be removed.',
   'app.haoligo.equipment.patrolRoutes.modalCreate': 'New patrol route',
   'app.haoligo.equipment.patrolRoutes.modalEdit': 'Edit patrol route',
   'app.haoligo.equipment.patrolRoutes.formCode': 'Route code',
@@ -3104,38 +3295,48 @@ export default {
   'app.haoligo.equipment.patrolRoutes.formNamePh': 'e.g. Line A morning patrol',
   'app.haoligo.equipment.patrolRoutes.formNameReq': 'Enter route name',
   'app.haoligo.equipment.patrolRoutes.formWorkshop': 'Workshop',
-  'app.haoligo.equipment.patrolRoutes.workshopEmptyHint': 'No workshops. Add and enable them under Master Data → Factory → Workshops.',
-  'app.haoligo.equipment.patrolRoutes.workshopReuseHint': 'One workshop per route; multiple routes may share the same workshop.',
+  'app.haoligo.equipment.patrolRoutes.workshopEmptyHint':
+    'No workshops. Add and enable them under Master Data → Factory → Workshops.',
+  'app.haoligo.equipment.patrolRoutes.workshopReuseHint':
+    'One workshop per route; multiple routes may share the same workshop.',
   'app.haoligo.equipment.patrolRoutes.loadStepsFailed': 'Failed to load steps',
   'app.haoligo.equipment.patrolRoutes.stepColSeq': 'Seq.',
   'app.haoligo.equipment.patrolRoutes.stepColEquipment': 'Equipment',
   'app.haoligo.equipment.patrolRoutes.stepColActions': 'Actions',
-  'app.haoligo.equipment.patrolRoutes.stepEquipmentPh': 'Select equipment from register (multi-select)',
+  'app.haoligo.equipment.patrolRoutes.stepEquipmentPh':
+    'Select equipment from register (multi-select)',
   'app.haoligo.equipment.patrolRoutes.moveUp': 'Up',
   'app.haoligo.equipment.patrolRoutes.moveDown': 'Down',
   'app.haoligo.equipment.patrolRoutes.stepDelete': 'Delete',
-  'app.haoligo.equipment.patrolRoutes.stepWarnPickOrRemove': 'Pick equipment on each row or remove empty rows before saving',
-  'app.haoligo.equipment.patrolRoutes.stepErrDuplicateEquipment': 'The same equipment cannot appear twice in one route',
+  'app.haoligo.equipment.patrolRoutes.stepWarnPickOrRemove':
+    'Pick equipment on each row or remove empty rows before saving',
+  'app.haoligo.equipment.patrolRoutes.stepErrDuplicateEquipment':
+    'The same equipment cannot appear twice in one route',
   'app.haoligo.equipment.patrolRoutes.stepsSaved': 'Steps saved',
   'app.haoligo.equipment.patrolRoutes.drawerTitle': 'Edit steps',
   'app.haoligo.equipment.patrolRoutes.drawerTitleWithRoute': 'Edit steps: {{code}} · {{name}}',
   'app.haoligo.equipment.patrolRoutes.addStep': 'Add step',
   'app.haoligo.equipment.patrolRoutes.saveSteps': 'Save steps',
-  'app.haoligo.equipment.patrolRoutes.drawerHint': 'Order equipment as walked on site; save replaces steps on the server. Equipment comes from the register.',
-  'app.haoligo.equipment.patrolRoutes.syncMobilePlaceholder': 'Mobile template sync will run here when connected; list refreshed.',
+  'app.haoligo.equipment.patrolRoutes.drawerHint':
+    'Order equipment as walked on site; save replaces steps on the server. Equipment comes from the register.',
+  'app.haoligo.equipment.patrolRoutes.syncMobilePlaceholder':
+    'Mobile template sync will run here when connected; list refreshed.',
   'app.haoligo.equipment.patrolRoutes.editorTitleNew': 'New patrol route',
   'app.haoligo.equipment.patrolRoutes.editorTitleEdit': 'Edit patrol route · {{code}}',
-  'app.haoligo.equipment.patrolRoutes.hintEditorShort': 'Edit route header and device sequence in one dialog; create saves header and steps together.',
+  'app.haoligo.equipment.patrolRoutes.hintEditorShort':
+    'Edit route header and device sequence in one dialog; create saves header and steps together.',
   'app.haoligo.equipment.patrolRoutes.sectionSequence': 'Device sequence',
   'app.haoligo.equipment.patrolRoutes.btnAddEquipment': 'Add device',
   'app.haoligo.equipment.patrolRoutes.emptySequence': 'No devices yet. Click Add device.',
-  'app.haoligo.equipment.patrolRoutes.atLeastOneStep': 'Add at least one device before creating the route.',
+  'app.haoligo.equipment.patrolRoutes.atLeastOneStep':
+    'Add at least one device before creating the route.',
   'app.haoligo.equipment.patrolRoutes.btnCreateRoute': 'Create route',
   'app.haoligo.equipment.patrolRoutes.btnSaveRoute': 'Save route',
   'app.haoligo.equipment.patrolRoutes.actionEditRoute': 'Edit route',
   'app.haoligo.equipment.patrolRoutes.addEquipmentTitle': 'Add patrol device',
   'app.haoligo.equipment.patrolRoutes.pickEquipment': 'Select a device',
-  'app.haoligo.equipment.patrolRoutes.noEquipmentToAdd': 'No devices to add (all added or maintain equipment ledger first).',
+  'app.haoligo.equipment.patrolRoutes.noEquipmentToAdd':
+    'No devices to add (all added or maintain equipment ledger first).',
   'app.haoligo.equipment.patrolRoutes.linkEquipmentLedger': 'Equipment ledger',
   'app.haoligo.menu.equipment.ledger': 'Equipment Register',
   'app.haoligo.menu.equipment.patrol-routes': 'Patrol Routes',
@@ -3164,11 +3365,13 @@ export default {
   'app.haoligo.equipment.statusBoard.empty': 'No equipment',
   'app.haoligo.equipment.statusBoard.statusUnset': 'Not set',
   'app.haoligo.equipment.statusBoard.quickSwitchRemark': 'Quick switch from status board',
-  'app.haoligo.equipment.statusBoard.switchSuccess': 'Status updated; adjustment {{sheetNo}} created',
+  'app.haoligo.equipment.statusBoard.switchSuccess':
+    'Status updated; adjustment {{sheetNo}} created',
   'app.haoligo.equipment.statusBoard.shutdownDuration': 'Down {{duration}}',
   'app.haoligo.menu.equipment.reports.capacity': 'Capacity',
   'app.haoligo.menu.equipment.reports.maintenance-plan': 'Equipment maintenance plan',
-  'app.haoligo.equipment.reports.capacity.lead': 'Based on equipment output records; filter by date, equipment, or work order',
+  'app.haoligo.equipment.reports.capacity.lead':
+    'Based on equipment output records; filter by date, equipment, or work order',
   'app.haoligo.equipment.reports.capacity.kpiRecords': 'Output sheets',
   'app.haoligo.equipment.reports.capacity.kpiPlanned': 'Planned qty total',
   'app.haoligo.equipment.reports.capacity.kpiCompleted': 'Completed qty total',
@@ -3197,7 +3400,8 @@ export default {
   'app.haoligo.equipment.documents.actionDelete': 'Delete',
   'app.haoligo.equipment.documents.deleteConfirm': 'Delete this document?',
   'app.haoligo.equipment.documents.batchDeleteTitle': 'Delete selected status adjustment sheets?',
-  'app.haoligo.equipment.documents.batchDeleteDescription': '{{count}} record(s) will be deleted. This cannot be undone.',
+  'app.haoligo.equipment.documents.batchDeleteDescription':
+    '{{count}} record(s) will be deleted. This cannot be undone.',
   'app.haoligo.equipment.documents.batchDeletePartial': 'Done: {{done}} deleted, {{fail}} failed',
   'app.haoligo.equipment.documents.statusAdjColOldStatus': 'Previous status',
   'app.haoligo.equipment.documents.statusAdjColNewStatus': 'New status',
@@ -3214,7 +3418,8 @@ export default {
   'app.haoligo.print.printButton': 'Print',
   'app.haoligo.print.templateLabel': 'Print template',
   'app.haoligo.print.templatePlaceholder': 'Select a template',
-  'app.haoligo.print.noTemplates': 'No templates available. Ensure HaoliGO is installed and the backend is up to date.',
+  'app.haoligo.print.noTemplates':
+    'No templates available. Ensure HaoliGO is installed and the backend is up to date.',
   'app.haoligo.print.defaultTag': 'default',
   'app.haoligo.print.previewEmpty': 'Select a template to preview the report',
   'app.haoligo.print.loadTemplatesFailed': 'Failed to load print templates',
@@ -3233,21 +3438,28 @@ export default {
   'app.haoligo.equipment.documents.phaseNew': 'New',
   'app.haoligo.equipment.documents.phaseHeader': 'Header',
   'app.haoligo.equipment.documents.phaseLines': 'Lines',
-  'app.haoligo.equipment.documents.spotCheckCreatedFillLines': 'Created. Fill each parameter result then save.',
+  'app.haoligo.equipment.documents.spotCheckCreatedFillLines':
+    'Created. Fill each parameter result then save.',
   'app.haoligo.equipment.documents.spotCheckLinesTitle': 'Inspection items',
   'app.haoligo.equipment.documents.searchRecordedFrom': 'Recorded from',
   'app.haoligo.equipment.documents.searchRecordedTo': 'Recorded to',
   'app.haoligo.equipment.documents.spotCheckPreviewBtn': 'Preview plan lines',
   'app.haoligo.equipment.documents.spotCheckSelectEquipmentFirst': 'Select equipment first',
   'app.haoligo.equipment.documents.spotCheckPlanPickerTitle': 'Select inspection plan',
-  'app.haoligo.equipment.documents.spotCheckPlanPickerHint': 'This equipment has multiple inspection plans. Choose one for this spot check.',
+  'app.haoligo.equipment.documents.spotCheckPlanPickerHint':
+    'This equipment has multiple inspection plans. Choose one for this spot check.',
   'app.haoligo.equipment.documents.spotCheckPlanPickerRequired': 'Please select an inspection plan',
-  'app.haoligo.equipment.ledger.formPlanMultiple': 'Optional; pick a plan when creating a spot check if none bound; picker if multiple bound',
+  'app.haoligo.equipment.ledger.formPlanMultiple':
+    'Optional; pick a plan when creating a spot check if none bound; picker if multiple bound',
   'app.haoligo.equipment.documents.spotCheckPreviewOk': 'Preview updated',
-  'app.haoligo.equipment.documents.spotCheckPreviewHint': 'Preview plan: {{code}} {{name}} (lines will match this when created)',
-  'app.haoligo.equipment.documents.spotCheckRequiredResult': 'Required item "{{name}}": choose normal or abnormal',
-  'app.haoligo.equipment.documents.spotCheckAbnormalRemark': 'Item "{{name}}" is abnormal: add a remark',
-  'app.haoligo.equipment.documents.spotCheckAbnormalDescRequired': 'Item "{{name}}" is abnormal: enter a description',
+  'app.haoligo.equipment.documents.spotCheckPreviewHint':
+    'Preview plan: {{code}} {{name}} (lines will match this when created)',
+  'app.haoligo.equipment.documents.spotCheckRequiredResult':
+    'Required item "{{name}}": choose normal or abnormal',
+  'app.haoligo.equipment.documents.spotCheckAbnormalRemark':
+    'Item "{{name}}" is abnormal: add a remark',
+  'app.haoligo.equipment.documents.spotCheckAbnormalDescRequired':
+    'Item "{{name}}" is abnormal: enter a description',
   'app.haoligo.equipment.documents.spotCheckAutoLoadedHint': '{{count}} item(s) loaded ({{plan}})',
   'app.haoligo.equipment.documents.formInspectionPlanShort': 'Inspection plan',
   'app.haoligo.equipment.documents.formInspectionPlanTooltip':
@@ -3255,14 +3467,17 @@ export default {
   'app.haoligo.equipment.documents.spotCheckHandlingGroup': 'Equipment status',
   'app.haoligo.equipment.documents.spotCheckReportGroup': 'Report',
   'app.haoligo.equipment.documents.formAppliedOperationalStatus': 'Operational status after check',
-  'app.haoligo.equipment.documents.formAppliedOperationalStatusPh': 'Optional; updates equipment ledger on save',
+  'app.haoligo.equipment.documents.formAppliedOperationalStatusPh':
+    'Optional; updates equipment ledger on save',
   'app.haoligo.equipment.documents.formReportNotifyUsers': 'Report recipients',
   'app.haoligo.equipment.documents.formReportNotifyUsersPh': 'Multi-select; sends in-app messages',
   'app.haoligo.equipment.documents.formNotifyUsers': 'Notify recipients',
-  'app.haoligo.equipment.documents.formNotifyUsersPh': 'Multi-select; sends in-app messages on save',
+  'app.haoligo.equipment.documents.formNotifyUsersPh':
+    'Multi-select; sends in-app messages on save',
   'app.haoligo.equipment.documents.colAppliedOperationalStatus': 'Status after',
   'app.haoligo.equipment.documents.colReportEnabled': 'Reported',
-  'app.haoligo.equipment.documents.spotCheckNoLines': 'Select equipment and an inspection plan with checklist items',
+  'app.haoligo.equipment.documents.spotCheckNoLines':
+    'Select equipment and an inspection plan with checklist items',
   'app.haoligo.equipment.documents.spotCheckMultiselectPh': 'Type and press Enter; comma-separated',
   'app.haoligo.equipment.documents.formLineAbnormalDesc': 'Abnormal description',
   'app.haoligo.equipment.documents.formLineAbnormalDescPh': 'Required when result is abnormal',
@@ -3293,12 +3508,16 @@ export default {
   'app.haoligo.equipment.documents.colReportRequired': 'Report required',
   'app.haoligo.equipment.documents.yes': 'Yes',
   'app.haoligo.equipment.documents.no': 'No',
-  'app.haoligo.equipment.documents.routePatrolCreatedFillLines': 'Created. Fill each stop then save.',
+  'app.haoligo.equipment.documents.routePatrolCreatedFillLines':
+    'Created. Fill each stop then save.',
   'app.haoligo.equipment.documents.routePatrolLinesTitle': 'Route equipment',
   'app.haoligo.equipment.documents.routePatrolNoSteps': 'This route has no equipment steps',
-  'app.haoligo.equipment.documents.routePatrolSelectRouteFirst': 'Select a patrol route to load equipment',
-  'app.haoligo.equipment.documents.routePatrolAutoLoadedHint': '{{count}} equipment loaded ({{route}} · workshop {{workshop}})',
-  'app.haoligo.equipment.documents.routePatrolAbnormalDescRequired': 'Abnormal description required for «{{name}}»',
+  'app.haoligo.equipment.documents.routePatrolSelectRouteFirst':
+    'Select a patrol route to load equipment',
+  'app.haoligo.equipment.documents.routePatrolAutoLoadedHint':
+    '{{count}} equipment loaded ({{route}} · workshop {{workshop}})',
+  'app.haoligo.equipment.documents.routePatrolAbnormalDescRequired':
+    'Abnormal description required for «{{name}}»',
   'app.haoligo.equipment.documents.colSequence': 'Seq.',
   'app.haoligo.equipment.documents.colEquipmentCode': 'Asset code',
   'app.haoligo.equipment.documents.colEquipmentName': 'Name',
@@ -3309,7 +3528,8 @@ export default {
   'app.haoligo.equipment.documents.formReportToUserIdPh': 'Optional numeric user id',
   'app.haoligo.equipment.documents.formReportToUser': 'Report recipient',
   'app.haoligo.equipment.documents.formReportToUserPh': 'Select recipient',
-  'app.haoligo.equipment.documents.selectReportToUser': 'Select at least one recipient when reporting is enabled',
+  'app.haoligo.equipment.documents.selectReportToUser':
+    'Select at least one recipient when reporting is enabled',
   'app.haoligo.equipment.documents.colDescription': 'Description',
   'app.haoligo.equipment.upkeep.serviceType': 'Repair / upkeep',
   'app.haoligo.equipment.upkeep.serviceTypeRepair': 'Repair',
@@ -3317,7 +3537,8 @@ export default {
   'app.haoligo.equipment.upkeep.descRepair': 'Repair reason',
   'app.haoligo.equipment.upkeep.attachBeforeRepair': 'Photos (before repair)',
   'app.haoligo.equipment.upkeep.keyword': 'Keyword',
-  'app.haoligo.equipment.upkeep.keywordPh': 'Sheet no. / type / dept. / applicant / requirements / equipment',
+  'app.haoligo.equipment.upkeep.keywordPh':
+    'Sheet no. / type / dept. / applicant / requirements / equipment',
   'app.haoligo.equipment.upkeep.applicant': 'Applicant',
   'app.haoligo.equipment.upkeep.department': 'Department',
   'app.haoligo.equipment.upkeep.equipmentWorkshopAutoPh': 'Auto-filled after selecting equipment',
@@ -3335,7 +3556,8 @@ export default {
   'app.haoligo.equipment.upkeep.submitted': 'Submitted',
   'app.haoligo.equipment.upkeep.confirmDelete': 'Confirm delete',
   'app.haoligo.equipment.upkeep.confirmDeleteContent': 'Delete this equipment maintenance sheet?',
-  'app.haoligo.equipment.upkeepComplete.keywordPh': 'Sheet no. / type / dept. / applicant / completion text',
+  'app.haoligo.equipment.upkeepComplete.keywordPh':
+    'Sheet no. / type / dept. / applicant / completion text',
   'app.haoligo.equipment.upkeepComplete.repairContent': 'Repair details',
   'app.haoligo.equipment.upkeepComplete.repairContentRequired': 'Enter repair details',
   'app.haoligo.equipment.upkeepComplete.repairResult': 'Repair result',
@@ -3345,8 +3567,10 @@ export default {
   'app.haoligo.equipment.upkeepComplete.sourceDescRepair': 'Source repair reason',
   'app.haoligo.equipment.upkeepComplete.tabRepair': 'Repair',
   'app.haoligo.equipment.upkeepComplete.tabUpkeep': 'Upkeep',
-  'app.haoligo.equipment.upkeepComplete.noneOpenRepair': 'No repair maintenance sheets open for completion',
-  'app.haoligo.equipment.upkeepComplete.noneOpenUpkeep': 'No upkeep maintenance sheets open for completion',
+  'app.haoligo.equipment.upkeepComplete.noneOpenRepair':
+    'No repair maintenance sheets open for completion',
+  'app.haoligo.equipment.upkeepComplete.noneOpenUpkeep':
+    'No upkeep maintenance sheets open for completion',
   'app.haoligo.equipment.upkeepComplete.colSourceNo': 'Source sheet no.',
   'app.haoligo.equipment.upkeepComplete.sectionSource': 'Source maintenance sheet',
   'app.haoligo.equipment.upkeepComplete.sectionComplete': 'Equipment completion',
@@ -3366,9 +3590,11 @@ export default {
   'app.haoligo.equipment.upkeepComplete.beforeStrip': 'Source sheet — photos before upkeep',
   'app.haoligo.equipment.upkeepComplete.sourceDesc': 'Source upkeep requirements',
   'app.haoligo.equipment.upkeepComplete.noneOpen': 'No maintenance sheets open for completion',
-  'app.haoligo.equipment.upkeepComplete.noneOpenDesc': 'Create an equipment maintenance sheet with no completion sheet first.',
+  'app.haoligo.equipment.upkeepComplete.noneOpenDesc':
+    'Create an equipment maintenance sheet with no completion sheet first.',
   'app.haoligo.equipment.upkeepComplete.sourceRequired': 'Select a source maintenance sheet',
-  'app.haoligo.equipment.upkeepComplete.confirmDeleteContent': 'Delete this maintenance completion sheet?',
+  'app.haoligo.equipment.upkeepComplete.confirmDeleteContent':
+    'Delete this maintenance completion sheet?',
   'app.haoligo.equipment.upkeepComplete.pickModalTitle': 'Pick source maintenance sheet',
   'app.haoligo.equipment.documents.formMaintenanceDesc': 'Maintenance description',
   'app.haoligo.equipment.documents.colWorkOrderNo': 'Work order no.',
@@ -3388,16 +3614,19 @@ export default {
   'app.haoligo.equipment.documents.outputPrefillInlineBtn': 'Fetch',
   'app.haoligo.equipment.documents.outputPrefillOk': 'Prefilled from dataset',
   'app.haoligo.equipment.documents.outputDatasetBindingTitle': 'Output record · dataset binding',
-  'app.haoligo.equipment.documents.outputDatasetBindingNeedConfig': 'Configure dataset and work-order parameter in the toolbar「Dataset」button first',
+  'app.haoligo.equipment.documents.outputDatasetBindingNeedConfig':
+    'Configure dataset and work-order parameter in the toolbar「Dataset」button first',
   'app.haoligo.equipment.documents.outputDatasetBindingHintTitle': 'Note',
   'app.haoligo.equipment.documents.outputDatasetLoadColumns': 'Load column names',
   'app.haoligo.equipment.documents.outputDatasetLoadColumnsOk': 'Loaded {{count}} columns',
   'app.haoligo.equipment.documents.outputDatasetLoadColumnsEmpty': 'No columns resolved',
-  'app.haoligo.equipment.documents.outputDatasetParamRequired': 'Select or enter a parameter name matching the SQL placeholder',
+  'app.haoligo.equipment.documents.outputDatasetParamRequired':
+    'Select or enter a parameter name matching the SQL placeholder',
   'app.haoligo.equipment.documents.outputDatasetParamPh': 'Pick from list or type manually',
   'app.haoligo.equipment.documents.outputDatasetParamSaved': 'saved',
   'app.haoligo.equipment.documents.outputWorkOrderRequired': 'Enter work order no. first',
-  'app.haoligo.equipment.documents.outputWorkOrderPh': 'Optional; leave blank to record equipment output only',
+  'app.haoligo.equipment.documents.outputWorkOrderPh':
+    'Optional; leave blank to record equipment output only',
   'app.haoligo.equipment.documents.outputWorkOrderTooltip':
     'Optional. Enter a work order and click "Fetch" to load product fields from the dataset, or leave blank and select equipment with completed quantity only.',
   'app.haoligo.equipment.documents.outputPrefilledPlaceholder': 'Filled via Fetch',
@@ -3411,8 +3640,10 @@ export default {
   'app.haoligo.equipment.settings.workOrderParamKey': 'Work order SQL parameter name',
   'app.haoligo.equipment.settings.customerColumn': 'Customer column',
   'app.haoligo.equipment.settings.productColumn': 'Product column',
-  'app.haoligo.equipment.settings.finishedProductCodeColumn': 'Finished product code column (optional)',
-  'app.haoligo.equipment.settings.finishedProductNameColumn': 'Finished product name column (optional)',
+  'app.haoligo.equipment.settings.finishedProductCodeColumn':
+    'Finished product code column (optional)',
+  'app.haoligo.equipment.settings.finishedProductNameColumn':
+    'Finished product name column (optional)',
   'app.haoligo.equipment.settings.plannedQtyColumn': 'Planned qty column (optional)',
   'app.haoligo.equipment.settings.clearBinding': 'Clear binding',
   'app.haoligo.equipment.updateSuccess': 'Saved',
@@ -3425,7 +3656,8 @@ export default {
   'app.haoligo.equipment.importNoRows': 'No valid rows to import (check required columns)',
   'app.haoligo.equipment.importSuccess': 'Imported {{count}} row(s)',
   'app.haoligo.equipment.importPartialFail': '{{count}} row(s) failed',
-  'app.haoligo.equipment.syncPlaceholder': 'ERP / master-data sync will run here when connected; list refreshed.',
+  'app.haoligo.equipment.syncPlaceholder':
+    'ERP / master-data sync will run here when connected; list refreshed.',
   'app.haoligo.equipment.categories.intro':
     'Maintain equipment categories and optional default inspection templates; used when the register omits a template.',
   'app.haoligo.equipment.categories.colCode': 'Category code',
@@ -3443,13 +3675,15 @@ export default {
   'app.haoligo.equipment.categories.formLevel1Ph': 'e.g. production, auxiliary',
   'app.haoligo.equipment.categories.formLevel1Required': 'Level 1 category is required',
   'app.haoligo.equipment.categories.formLevel2': 'Level 2 category',
-  'app.haoligo.equipment.categories.formLevel2Ph': 'Former category name, e.g. CNC, injection molding',
+  'app.haoligo.equipment.categories.formLevel2Ph':
+    'Former category name, e.g. CNC, injection molding',
   'app.haoligo.equipment.categories.formLevel2Required': 'Level 2 category is required',
   'app.haoligo.equipment.categories.formName': 'Category name',
   'app.haoligo.equipment.categories.formNamePh': 'Enter category name',
   'app.haoligo.equipment.categories.formNameRequired': 'Category name is required',
   'app.haoligo.equipment.categories.formDefaultSet': 'Default inspection template',
-  'app.haoligo.equipment.categories.formDefaultSetPh': 'Optional; same list as Inspection Templates',
+  'app.haoligo.equipment.categories.formDefaultSetPh':
+    'Optional; same list as Inspection Templates',
   'app.haoligo.equipment.hub.title': 'Equipment',
   'app.haoligo.equipment.hub.lead':
     'Maintain inspection templates and the equipment register; use the links below for reports and dashboards. Tables use the haoligo_* prefix and are isolated from Kuaizhizao equipment.',
@@ -3478,7 +3712,8 @@ export default {
   'app.haoligo.molds.upkeepParams.valueTypeText': 'Text',
   'app.haoligo.molds.upkeepParams.valueTypeMultiselect': 'Multi-select',
   'app.haoligo.molds.upkeepParams.valueTypeRequired': 'Select a value type',
-  'app.haoligo.molds.upkeepParams.optionsPh': 'Type an option and press Enter, e.g. Clean, Lubricate',
+  'app.haoligo.molds.upkeepParams.optionsPh':
+    'Type an option and press Enter, e.g. Clean, Lubricate',
   'app.haoligo.molds.upkeepParams.optionsRequired': 'Add at least one option for multi-select',
   'app.haoligo.molds.upkeepParams.defaultTextHint': 'Default hint (optional)',
   'app.haoligo.molds.upkeepParams.defaultTextPh': 'Placeholder when recording upkeep',
@@ -3680,16 +3915,19 @@ export default {
   'app.kuaizhizao.workReporting.fallbackCurrentUser': 'Current user',
   'app.kuaizhizao.workReporting.loadWorkOrdersFailed': 'Failed to load work orders',
   'app.kuaizhizao.workReporting.loadOperationsFailed': 'Failed to load operations',
-  'app.kuaizhizao.workReporting.pickingGateWarning': 'Picking must be confirmed before reporting per current settings',
+  'app.kuaizhizao.workReporting.pickingGateWarning':
+    'Picking must be confirmed before reporting per current settings',
   'app.kuaizhizao.workReporting.workOrderOrOperationMissing': 'Work order or operation not found',
   'app.kuaizhizao.workReporting.quantityMustBePositive': 'Reported quantity must be greater than 0',
   'app.kuaizhizao.workReporting.createSuccess': 'Reporting submitted',
   'app.kuaizhizao.workReporting.createFailed': 'Reporting failed',
-  'app.kuaizhizao.workReporting.noUnqualifiedForScrap': 'No unqualified quantity; cannot create scrap record',
+  'app.kuaizhizao.workReporting.noUnqualifiedForScrap':
+    'No unqualified quantity; cannot create scrap record',
   'app.kuaizhizao.workReporting.recordNotFound': 'Reporting record not found',
   'app.kuaizhizao.workReporting.scrapCreateSuccess': 'Scrap record created',
   'app.kuaizhizao.workReporting.scrapCreateFailed': 'Failed to create scrap record',
-  'app.kuaizhizao.workReporting.noUnqualifiedForDefect': 'No unqualified quantity; cannot create defect record',
+  'app.kuaizhizao.workReporting.noUnqualifiedForDefect':
+    'No unqualified quantity; cannot create defect record',
   'app.kuaizhizao.workReporting.defectCreateSuccess': 'Defect record created',
   'app.kuaizhizao.workReporting.defectCreateFailed': 'Failed to create defect record',
   'app.kuaizhizao.workReporting.loadDetailFailed': 'Failed to load reporting record details',
@@ -3700,10 +3938,13 @@ export default {
   'app.kuaizhizao.workReporting.listLoadFailed': 'Failed to load reporting records',
   'app.kuaizhizao.workReporting.correct': 'Correct',
   'app.kuaizhizao.workReporting.confirmDeleteTitle': 'Confirm delete',
-  'app.kuaizhizao.workReporting.confirmDeletePendingContent': 'Delete this pending reporting record? Completed quantities on the work order/operation will be reduced.',
-  'app.kuaizhizao.workReporting.confirmDeleteRejectedContent': 'Delete this rejected reporting record?',
+  'app.kuaizhizao.workReporting.confirmDeletePendingContent':
+    'Delete this pending reporting record? Completed quantities on the work order/operation will be reduced.',
+  'app.kuaizhizao.workReporting.confirmDeleteRejectedContent':
+    'Delete this rejected reporting record?',
   'app.kuaizhizao.workReporting.confirmRevokeTitle': 'Confirm revoke approval',
-  'app.kuaizhizao.workReporting.confirmRevokeContent': 'After revoking, this record returns to pending review and no longer counts toward completed quantity. Continue?',
+  'app.kuaizhizao.workReporting.confirmRevokeContent':
+    'After revoking, this record returns to pending review and no longer counts toward completed quantity. Continue?',
   'app.kuaizhizao.workReporting.revokeSuccess': 'Approval revoked',
   'app.kuaizhizao.workReporting.revokeFailed': 'Revoke failed',
   'app.kuaizhizao.workReporting.revokeReview': 'Revoke approval',
@@ -3711,11 +3952,13 @@ export default {
   'app.kuaizhizao.workReporting.scrap': 'Scrap',
   'app.kuaizhizao.workReporting.batchRevoke': 'Batch revoke approval',
   'app.kuaizhizao.workReporting.confirmBatchRevokeTitle': 'Confirm batch revoke',
-  'app.kuaizhizao.workReporting.confirmBatchRevokeContent': 'Revoke approval for {{count}} selected record(s)? Only approved records will be affected.',
+  'app.kuaizhizao.workReporting.confirmBatchRevokeContent':
+    'Revoke approval for {{count}} selected record(s)? Only approved records will be affected.',
   'app.kuaizhizao.workReporting.batchRevokeSuccess': 'Revoked approval for {{count}} record(s)',
   'app.kuaizhizao.workReporting.batchRevokePartialFailed': '{{count}} record(s) failed',
   'app.kuaizhizao.workReporting.batchRevokeFailed': 'Batch revoke failed',
-  'app.kuaizhizao.workReporting.deleteSelectedConfirm': 'Delete {{count}} selected reporting record(s)?',
+  'app.kuaizhizao.workReporting.deleteSelectedConfirm':
+    'Delete {{count}} selected reporting record(s)?',
   'app.kuaizhizao.workReporting.createButton': 'New reporting record',
   'app.kuaizhizao.workReporting.createModalTitle': 'New reporting record',
   'app.kuaizhizao.workReporting.colWorkOrderStacked': 'Work order name / code',
@@ -3747,7 +3990,8 @@ export default {
   'app.kuaizhizao.workReporting.formOperationPlaceholder': 'Select an operation',
   'app.kuaizhizao.workReporting.formOperationSelectWorkOrderFirst': 'Select a work order first',
   'app.kuaizhizao.workReporting.formProxyWorker': 'Worker',
-  'app.kuaizhizao.workReporting.formProxyWorkerPlaceholder': 'Select the worker who performed this reporting (defaults to assignment/current user)',
+  'app.kuaizhizao.workReporting.formProxyWorkerPlaceholder':
+    'Select the worker who performed this reporting (defaults to assignment/current user)',
   'app.kuaizhizao.workReporting.formRecordedByLogin': 'Recorded by (this session): {{name}}',
   'app.kuaizhizao.workReporting.formCompletedStatus': 'Completion status',
   'app.kuaizhizao.workReporting.formCompletedStatusRequired': 'Select completion status',
@@ -3794,11 +4038,13 @@ export default {
   'app.kuaizhizao.workReporting.dispositionScrap': 'Scrap',
   'app.kuaizhizao.workReporting.dispositionAccept': 'Accept',
   'app.kuaizhizao.workReporting.dispositionOther': 'Other',
-  'app.kuaizhizao.workReporting.quarantineLocation': 'Quarantine location (when disposition is quarantine)',
+  'app.kuaizhizao.workReporting.quarantineLocation':
+    'Quarantine location (when disposition is quarantine)',
   'app.kuaizhizao.workReporting.quarantineLocationPlaceholder': 'Enter quarantine location',
   'app.kuaizhizao.workReporting.correctModalTitle': 'Correct reporting record',
   'app.kuaizhizao.workReporting.unqualifiedQtyRequired': 'Enter unqualified quantity',
-  'app.kuaizhizao.workReporting.qualifiedExceedsReported': 'Qualified quantity cannot exceed reported quantity',
+  'app.kuaizhizao.workReporting.qualifiedExceedsReported':
+    'Qualified quantity cannot exceed reported quantity',
   'app.kuaizhizao.workReporting.correctionReason': 'Correction reason',
   'app.kuaizhizao.workReporting.correctionReasonPlaceholder': 'Enter correction reason (required)',
   'app.kuaizhizao.workReporting.detailTitle': 'Reporting record details',
@@ -3822,7 +4068,8 @@ export default {
   'app.kuaizhizao.reworkOrder.detailTitle': 'Rework order details',
   'app.kuaizhizao.reworkOrder.reportModalTitle': 'Rework reporting',
   'app.kuaizhizao.reworkOrder.loadDetailFailed': 'Failed to load rework order details',
-  'app.kuaizhizao.reworkOrder.loadReportingOptionsFailed': 'Failed to load rework reporting options',
+  'app.kuaizhizao.reworkOrder.loadReportingOptionsFailed':
+    'Failed to load rework reporting options',
   'app.kuaizhizao.reworkOrder.notFound': 'Rework order not found',
   'app.kuaizhizao.reworkOrder.reportSuccess': 'Rework reporting submitted',
   'app.kuaizhizao.reworkOrder.reportFailed': 'Rework reporting failed',
@@ -3872,7 +4119,8 @@ export default {
   'app.kuaizhizao.reworkOrder.formReworkTypePlaceholder': 'Select rework type',
   'app.kuaizhizao.reworkOrder.dictManage': 'Data dictionary',
   'app.kuaizhizao.reworkOrder.formStartOperation': 'Start operation',
-  'app.kuaizhizao.reworkOrder.formStartOperationPlaceholder': 'Defaults to first operation if empty',
+  'app.kuaizhizao.reworkOrder.formStartOperationPlaceholder':
+    'Defaults to first operation if empty',
   'app.kuaizhizao.reworkOrder.formPlannedStart': 'Planned start',
   'app.kuaizhizao.reworkOrder.formPlannedStartPlaceholder': 'Select planned start',
   'app.kuaizhizao.reworkOrder.formPlannedEnd': 'Planned end',
@@ -3964,7 +4212,8 @@ export default {
   'app.kuaizhizao.customerPool.batchAssignTitle': 'Batch Assign Customers',
   'app.kuaizhizao.customerPool.assignToSalesman': 'Assign to Sales Owner',
   'app.kuaizhizao.customerPool.assignReason': 'Reason',
-  'app.kuaizhizao.customerPool.assignReasonPlaceholder': 'Optional — note why this assignment was made',
+  'app.kuaizhizao.customerPool.assignReasonPlaceholder':
+    'Optional — note why this assignment was made',
   'app.kuaizhizao.customerPool.rulesTitle': 'Customer Pool Rules',
   'app.kuaizhizao.customerPool.rulesSectionTitle': 'Recycling Rules',
   'app.kuaizhizao.customerPool.autoRecycleEnabled': 'Enable auto recycling',
@@ -3989,7 +4238,8 @@ export default {
   'app.kuaizhizao.customerPool.claimSuccessBatch': 'Claimed {{count}} customer(s)',
   'app.kuaizhizao.customerPool.claimPartialFailed': '{{count}} customer(s) failed to claim',
   'app.kuaizhizao.customerPool.claimFailed': 'Claim failed',
-  'app.kuaizhizao.customerPool.missingUuidForDelete': 'Customer has no unique ID and cannot be deleted',
+  'app.kuaizhizao.customerPool.missingUuidForDelete':
+    'Customer has no unique ID and cannot be deleted',
   'app.kuaizhizao.customerPool.confirmDeleteCustomer': 'Delete this customer?',
   'app.kuaizhizao.customerPool.confirmDeleteCustomerDesc': 'This cannot be undone: {{name}}',
   'app.kuaizhizao.customerPool.customerFallback': 'this customer',
@@ -3998,7 +4248,8 @@ export default {
   'app.kuaizhizao.customerPool.selectCustomersToDelete': 'Select customers to delete first',
   'app.kuaizhizao.customerPool.batchDeleteSuccess': 'Deleted {{count}} customer(s)',
   'app.kuaizhizao.customerPool.batchDeletePartialFailed': '{{count}} customer(s) failed to delete',
-  'app.kuaizhizao.customerPool.confirmBatchDeleteCustomers': 'Delete {{count}} selected customer(s)?',
+  'app.kuaizhizao.customerPool.confirmBatchDeleteCustomers':
+    'Delete {{count}} selected customer(s)?',
   'app.kuaizhizao.customerPool.publicPoolClaimOnly': 'Only public-pool customers can be claimed',
   'app.kuaizhizao.customerPool.publicPoolAssignOnly': 'Only public-pool customers can be assigned',
   'app.kuaizhizao.customerPool.assignSuccessBatch': 'Assigned {{count}} customer(s)',
@@ -4025,7 +4276,8 @@ export default {
   'app.kuaizhizao.salesOrderChange.createModalTitle': 'Create Change Order from Sales Order',
   'app.kuaizhizao.salesOrderChange.selectSalesOrder': 'Select a sales order',
   'app.kuaizhizao.salesOrderChange.salesOrderLabel': 'Sales Order',
-  'app.kuaizhizao.salesOrderChange.selectSalesOrderPlaceholder': 'Click Select on the right to pick a sales order',
+  'app.kuaizhizao.salesOrderChange.selectSalesOrderPlaceholder':
+    'Click Select on the right to pick a sales order',
   'app.kuaizhizao.salesOrderChange.select': 'Select',
   'app.kuaizhizao.salesOrderChange.editTitle': 'Edit Sales Order Change',
   'app.kuaizhizao.salesOrderChange.detailTitle': 'Sales Order Change - {{code}}',
@@ -4039,14 +4291,16 @@ export default {
   'app.kuaizhizao.salesOrderChange.selectToDelete': 'Select records to delete first',
   'app.kuaizhizao.salesOrderChange.batchDeleteSuccess': 'Deleted {{count}} change order(s)',
   'app.kuaizhizao.salesOrderChange.batchDeletePartial': '{{count}} failed to delete (draft only)',
-  'app.kuaizhizao.salesOrderChange.confirmBatchDelete': 'Delete {{count}} selected change order(s)?',
+  'app.kuaizhizao.salesOrderChange.confirmBatchDelete':
+    'Delete {{count}} selected change order(s)?',
   'app.kuaizhizao.salesOrderChange.selectToSubmit': 'Select records to submit first',
   'app.kuaizhizao.salesOrderChange.batchSubmitSuccess': 'Submitted {{count}} change order(s)',
   'app.kuaizhizao.salesOrderChange.batchSubmitPartial': '{{count}} failed to submit (draft only)',
   'app.kuaizhizao.salesOrderChange.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.salesOrderChange.selectToApprove': 'Select records to approve first',
   'app.kuaizhizao.salesOrderChange.batchApproveSuccess': 'Approved {{count}} change order(s)',
-  'app.kuaizhizao.salesOrderChange.batchApprovePartial': '{{count}} failed to approve (pending review only)',
+  'app.kuaizhizao.salesOrderChange.batchApprovePartial':
+    '{{count}} failed to approve (pending review only)',
   'app.kuaizhizao.salesOrderChange.batchApprove': 'Batch Approve',
   'app.kuaizhizao.salesOrderChange.selectToWithdraw': 'Select records to withdraw first',
   'app.kuaizhizao.salesOrderChange.batchWithdrawSuccess': 'Withdrew {{count}} change order(s)',
@@ -4072,7 +4326,8 @@ export default {
   'app.kuaizhizao.purchaseOrderChange.createModalTitle': 'Create Change Order from Purchase Order',
   'app.kuaizhizao.purchaseOrderChange.selectPurchaseOrder': 'Select a purchase order',
   'app.kuaizhizao.purchaseOrderChange.purchaseOrderLabel': 'Purchase Order',
-  'app.kuaizhizao.purchaseOrderChange.selectPurchaseOrderPlaceholder': 'Click Select on the right to pick a purchase order',
+  'app.kuaizhizao.purchaseOrderChange.selectPurchaseOrderPlaceholder':
+    'Click Select on the right to pick a purchase order',
   'app.kuaizhizao.purchaseOrderChange.select': 'Select',
   'app.kuaizhizao.purchaseOrderChange.editTitle': 'Edit Purchase Order Change',
   'app.kuaizhizao.purchaseOrderChange.detailTitle': 'Purchase Order Change - {{code}}',
@@ -4084,15 +4339,19 @@ export default {
   'app.kuaizhizao.purchaseOrderChange.deleted': 'Deleted',
   'app.kuaizhizao.purchaseOrderChange.selectToDelete': 'Select records to delete first',
   'app.kuaizhizao.purchaseOrderChange.batchDeleteSuccess': 'Deleted {{count}} change order(s)',
-  'app.kuaizhizao.purchaseOrderChange.batchDeletePartial': '{{count}} failed to delete (draft only)',
-  'app.kuaizhizao.purchaseOrderChange.confirmBatchDelete': 'Delete {{count}} selected change order(s)?',
+  'app.kuaizhizao.purchaseOrderChange.batchDeletePartial':
+    '{{count}} failed to delete (draft only)',
+  'app.kuaizhizao.purchaseOrderChange.confirmBatchDelete':
+    'Delete {{count}} selected change order(s)?',
   'app.kuaizhizao.purchaseOrderChange.selectToSubmit': 'Select records to submit first',
   'app.kuaizhizao.purchaseOrderChange.batchSubmitSuccess': 'Submitted {{count}} change order(s)',
-  'app.kuaizhizao.purchaseOrderChange.batchSubmitPartial': '{{count}} failed to submit (draft only)',
+  'app.kuaizhizao.purchaseOrderChange.batchSubmitPartial':
+    '{{count}} failed to submit (draft only)',
   'app.kuaizhizao.purchaseOrderChange.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.purchaseOrderChange.selectToApprove': 'Select records to approve first',
   'app.kuaizhizao.purchaseOrderChange.batchApproveSuccess': 'Approved {{count}} change order(s)',
-  'app.kuaizhizao.purchaseOrderChange.batchApprovePartial': '{{count}} failed to approve (pending review only)',
+  'app.kuaizhizao.purchaseOrderChange.batchApprovePartial':
+    '{{count}} failed to approve (pending review only)',
   'app.kuaizhizao.purchaseOrderChange.batchApprove': 'Batch Approve',
   'app.kuaizhizao.purchaseOrderChange.selectToWithdraw': 'Select records to withdraw first',
   'app.kuaizhizao.purchaseOrderChange.batchWithdrawSuccess': 'Withdrew {{count}} change order(s)',
@@ -4121,13 +4380,16 @@ export default {
   'app.kuaizhizao.purchaseInquiry.selectAwardQuote': 'Select awarded quotes',
   'app.kuaizhizao.purchaseInquiry.awardSuccess': 'Awarded successfully',
   'app.kuaizhizao.purchaseInquiry.pushPurchaseOrder': 'Push Purchase Order',
-  'app.kuaizhizao.purchaseInquiry.pushPurchaseOrderConfirm': 'Purchase orders will be auto-generated from awarded suppliers. Continue?',
+  'app.kuaizhizao.purchaseInquiry.pushPurchaseOrderConfirm':
+    'Purchase orders will be auto-generated from awarded suppliers. Continue?',
   'app.kuaizhizao.purchaseInquiry.purchaseOrdersGenerated': 'Generated {{count}} purchase order(s)',
   'app.kuaizhizao.purchaseInquiry.loadRequisitionsFailed': 'Failed to load purchase requisitions',
-  'app.kuaizhizao.purchaseInquiry.selectRequisitionLinesFirst': 'Select purchase requisition lines first',
+  'app.kuaizhizao.purchaseInquiry.selectRequisitionLinesFirst':
+    'Select purchase requisition lines first',
   'app.kuaizhizao.purchaseInquiry.createdFromPullWithCodes': 'Created {{target}}: {{codes}}',
   'app.kuaizhizao.purchaseInquiry.createdFromPull': 'Created {{target}} from {{source}}',
-  'app.kuaizhizao.purchaseInquiry.createFromPullFailed': 'Failed to create {{target}} from {{source}}',
+  'app.kuaizhizao.purchaseInquiry.createFromPullFailed':
+    'Failed to create {{target}} from {{source}}',
   'app.kuaizhizao.purchaseInquiry.batchDeleteSuccess': 'Deleted {{count}} inquiry/inquiries',
   'app.kuaizhizao.purchaseInquiry.batchDeletePartial': '{{count}} failed to delete',
   'app.kuaizhizao.purchaseInquiry.selectInquiriesFirst': 'Select inquiries first',
@@ -4135,11 +4397,13 @@ export default {
   'app.kuaizhizao.purchaseInquiry.batchSubmitPartial': '{{count}} failed to submit',
   'app.kuaizhizao.purchaseInquiry.batchApproveSuccess': 'Approved {{count}} inquiry/inquiries',
   'app.kuaizhizao.purchaseInquiry.batchApprovePartial': '{{count}} failed to approve',
-  'app.kuaizhizao.purchaseInquiry.batchWithdrawSuccess': 'Withdrew review for {{count}} inquiry/inquiries',
+  'app.kuaizhizao.purchaseInquiry.batchWithdrawSuccess':
+    'Withdrew review for {{count}} inquiry/inquiries',
   'app.kuaizhizao.purchaseInquiry.batchWithdrawPartial': '{{count}} failed to withdraw',
   'app.kuaizhizao.purchaseInquiry.confirmDelete': 'Confirm delete?',
   'app.kuaizhizao.purchaseInquiry.deleted': 'Deleted',
-  'app.kuaizhizao.purchaseInquiry.confirmBatchDelete': 'Delete {{count}} selected inquiry/inquiries?',
+  'app.kuaizhizao.purchaseInquiry.confirmBatchDelete':
+    'Delete {{count}} selected inquiry/inquiries?',
   'app.kuaizhizao.purchaseInquiry.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.purchaseInquiry.batchApprove': 'Batch Approve',
   'app.kuaizhizao.purchaseInquiry.batchWithdrawReview': 'Batch Withdraw Review',
@@ -4162,9 +4426,11 @@ export default {
   'app.kuaizhizao.purchaseInquiry.requiredDate': 'Required Date',
   'app.kuaizhizao.purchaseInquiry.deleteLine': 'Del',
   'app.kuaizhizao.purchaseInquiry.selectVendorTitle': 'Select Suppliers',
-  'app.kuaizhizao.purchaseInquiry.searchVendorPlaceholder': 'Search and select suppliers (multi-select)',
+  'app.kuaizhizao.purchaseInquiry.searchVendorPlaceholder':
+    'Search and select suppliers (multi-select)',
   'app.kuaizhizao.purchaseInquiry.noAvailableVendors': 'No available suppliers (may all be added)',
-  'app.kuaizhizao.purchaseInquiry.noSuppliersHint': 'No suppliers available. Maintain suppliers in Supplier Master first.',
+  'app.kuaizhizao.purchaseInquiry.noSuppliersHint':
+    'No suppliers available. Maintain suppliers in Supplier Master first.',
   'app.kuaizhizao.purchaseInquiry.selectSuppliersFirst': 'Select suppliers to add',
   'app.kuaizhizao.purchaseInquiry.suppliersAlreadyAdded': 'Selected suppliers already added',
   'app.kuaizhizao.purchaseInquiry.vendorsAdded': 'Added {{count}} supplier(s)',
@@ -4178,15 +4444,18 @@ export default {
   'app.kuaizhizao.purchaseInquiry.closeQuotingSuccess': 'Quoting closed',
   'app.kuaizhizao.purchaseInquiry.compareAward': 'Compare & Award',
   'app.kuaizhizao.purchaseInquiry.source': 'Source',
-  'app.kuaizhizao.purchaseInquiry.hintAfterPublish': 'After publishing, enter each supplier quote line by line here.',
-  'app.kuaizhizao.purchaseInquiry.hintQuoting': 'Select a supplier per line and click "Enter Quote Here" to fill price and delivery date.',
+  'app.kuaizhizao.purchaseInquiry.hintAfterPublish':
+    'After publishing, enter each supplier quote line by line here.',
+  'app.kuaizhizao.purchaseInquiry.hintQuoting':
+    'Select a supplier per line and click "Enter Quote Here" to fill price and delivery date.',
   'app.kuaizhizao.purchaseInquiry.quoteStatus': 'Quote Status',
   'app.kuaizhizao.purchaseInquiry.quoted': 'Quoted',
   'app.kuaizhizao.purchaseInquiry.pendingQuote': 'Pending Quote',
   'app.kuaizhizao.purchaseInquiry.recorded': 'Recorded',
   'app.kuaizhizao.purchaseInquiry.editQuote': 'Edit Quote',
   'app.kuaizhizao.purchaseInquiry.enterQuoteHere': 'Enter Quote Here',
-  'app.kuaizhizao.purchaseInquiry.emptyVendorsInDetail': 'No invited suppliers. Edit the inquiry to add.',
+  'app.kuaizhizao.purchaseInquiry.emptyVendorsInDetail':
+    'No invited suppliers. Edit the inquiry to add.',
   'app.kuaizhizao.purchaseInquiry.colMaterialCode': 'Material Code',
   'app.kuaizhizao.purchaseInquiry.colMaterialName': 'Material Name',
   'app.kuaizhizao.purchaseInquiry.colUnit': 'Unit',
@@ -4196,18 +4465,21 @@ export default {
   'app.kuaizhizao.purchaseInquiry.validUntil': 'Valid Until',
   'app.kuaizhizao.purchaseInquiry.selectDatePlaceholder': 'Select date',
   'app.kuaizhizao.purchaseInquiry.quoteItems': 'Quote Items',
-  'app.kuaizhizao.purchaseInquiry.quoteItemsHint': 'Enter quoted quantity, unit price, and promised delivery date for each item.',
+  'app.kuaizhizao.purchaseInquiry.quoteItemsHint':
+    'Enter quoted quantity, unit price, and promised delivery date for each item.',
   'app.kuaizhizao.purchaseInquiry.inquiryQuantity': 'Inquiry Qty',
   'app.kuaizhizao.purchaseInquiry.quotedQuantity': 'Quoted Qty',
   'app.kuaizhizao.purchaseInquiry.unitPrice': 'Unit Price',
   'app.kuaizhizao.purchaseInquiry.promisedDeliveryDate': 'Promised Delivery',
   'app.kuaizhizao.purchaseInquiry.quoteNotesPlaceholder': 'Quote notes, payment terms, etc.',
   'app.kuaizhizao.purchaseInquiry.compareAwardTitle': 'Compare & Award',
-  'app.kuaizhizao.purchaseInquiry.compareAwardHint': 'Green "Lowest" is system recommended. Click a price to select the winning quote (checkmark when selected).',
+  'app.kuaizhizao.purchaseInquiry.compareAwardHint':
+    'Green "Lowest" is system recommended. Click a price to select the winning quote (checkmark when selected).',
   'app.kuaizhizao.purchaseInquiry.supplierFallback': 'Supplier {{index}}',
   'app.kuaizhizao.purchaseInquiry.lowest': 'Lowest',
   'app.kuaizhizao.purchaseInquiry.createInquiryOk': 'Create Inquiry',
-  'app.kuaizhizao.purchaseInquiry.searchRequisitionPlaceholder': 'Search requisition lines (No. / name)',
+  'app.kuaizhizao.purchaseInquiry.searchRequisitionPlaceholder':
+    'Search requisition lines (No. / name)',
   'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionLines': 'No eligible requisition lines',
   'app.kuaizhizao.purchaseInquiry.emptyNoRequisitionSearchResults': 'No matching requisition lines',
   'app.kuaizhizao.purchaseInquiry.colRequisitionCode': 'Requisition No.',
@@ -4218,7 +4490,8 @@ export default {
   'app.kuaizhizao.purchaseInquiry.colConvertStatus': 'Conversion Status',
   'app.kuaizhizao.purchaseInquiry.convertedToPurchaseOrder': 'Converted to PO #{{id}}',
   'app.kuaizhizao.purchaseInquiry.eligibleForInquiry': 'Eligible',
-  'app.kuaizhizao.purchaseInquiry.pullSelectionHint': '{{count}} line(s) selected. Lines from the same requisition will merge into one inquiry.',
+  'app.kuaizhizao.purchaseInquiry.pullSelectionHint':
+    '{{count}} line(s) selected. Lines from the same requisition will merge into one inquiry.',
   'app.kuaizhizao.orderChange.impactTitle': 'Change Impact Preview',
   'app.kuaizhizao.orderChange.blockingTitle': 'Blocking Issues',
   'app.kuaizhizao.orderChange.recommendedActions': 'Recommended Actions',
@@ -4234,7 +4507,8 @@ export default {
   'app.kuaizhizao.orderChange.loadSalesOrdersFailed': 'Failed to load sales orders',
   'app.kuaizhizao.orderChange.loadPurchaseOrdersFailed': 'Failed to load purchase orders',
   'app.kuaizhizao.orderChange.selectOrderTitle': 'Select {{orderLabel}}',
-  'app.kuaizhizao.orderChange.searchOrderPlaceholder': 'Search {{orderLabel}} (No. / {{partnerLabel}})',
+  'app.kuaizhizao.orderChange.searchOrderPlaceholder':
+    'Search {{orderLabel}} (No. / {{partnerLabel}})',
   'app.kuaizhizao.orderChange.search': 'Search',
   'app.kuaizhizao.orderChange.emptyNoEligibleOrders': 'No changeable {{orderLabel}}',
   'app.kuaizhizao.orderChange.emptyNoSearchResults': 'No changeable {{orderLabel}} found',
@@ -4387,7 +4661,8 @@ export default {
   'app.kuaizhizao.salesContract.validTo': 'Effective To',
   'app.kuaizhizao.salesContract.validUntil': 'Valid Until',
   'app.kuaizhizao.salesContract.contractCode': 'Contract No.',
-  'app.kuaizhizao.salesContract.contractCodeAutoPlaceholder': 'Code will be auto-generated from rules; you may edit it',
+  'app.kuaizhizao.salesContract.contractCodeAutoPlaceholder':
+    'Code will be auto-generated from rules; you may edit it',
   'app.kuaizhizao.salesContract.contractCodeRequired': 'Enter contract number',
   'app.kuaizhizao.salesContract.generateCodeFailed': 'Failed to generate contract number',
   'app.kuaizhizao.salesContract.contractAmount': 'Contract Amount',
@@ -4405,25 +4680,30 @@ export default {
   'app.kuaizhizao.salesContract.sourceQuotation': 'Source Quotation',
   'app.kuaizhizao.salesContract.contractItems': 'Line Items',
   'app.kuaizhizao.salesContract.itemsRequired': 'Add at least one valid contract line',
-  'app.kuaizhizao.salesContract.lineMaterialMissing': 'Line is missing product code, name, or unit; reselect product',
-  'app.kuaizhizao.salesContract.milestonePlannedDateRequired': 'Each payment milestone with a name must have a planned date',
+  'app.kuaizhizao.salesContract.lineMaterialMissing':
+    'Line is missing product code, name, or unit; reselect product',
+  'app.kuaizhizao.salesContract.milestonePlannedDateRequired':
+    'Each payment milestone with a name must have a planned date',
   'app.kuaizhizao.salesContract.noImportPermission': 'No import permission',
   'app.kuaizhizao.salesContract.restoredDraft': 'Draft restored',
   'app.kuaizhizao.salesContract.loadContractFailed': 'Failed to load contract',
   'app.kuaizhizao.salesContract.loadTermGroupFailed': 'Failed to load term group',
   'app.kuaizhizao.salesContract.loadDetailFailed': 'Failed to load contract detail',
   'app.kuaizhizao.salesContract.materialsAdded': 'Added {{count}} product(s)',
-  'app.kuaizhizao.salesContract.importNoValidData': 'No valid data found (product code is required)',
+  'app.kuaizhizao.salesContract.importNoValidData':
+    'No valid data found (product code is required)',
   'app.kuaizhizao.salesContract.saveDraftFailed': 'Failed to save draft',
   'app.kuaizhizao.salesContract.createFailed': 'Failed to create sales contract',
   'app.kuaizhizao.salesContract.deleteTitle': 'Delete Sales Contract',
-  'app.kuaizhizao.salesContract.deleteDraftConfirm': 'Delete draft contract "{{code}}"? This cannot be undone.',
+  'app.kuaizhizao.salesContract.deleteDraftConfirm':
+    'Delete draft contract "{{code}}"? This cannot be undone.',
   'app.kuaizhizao.salesContract.deleted': 'Deleted',
   'app.kuaizhizao.salesContract.submitReview': 'Submit for Review',
   'app.kuaizhizao.salesContract.submitReviewConfirm': 'Submit contract "{{code}}" for review?',
   'app.kuaizhizao.salesContract.submittedForReview': 'Submitted for review',
   'app.kuaizhizao.salesContract.selectValidRecord': 'Select a valid record',
-  'app.kuaizhizao.salesContract.printNotAllowed': 'Only approved and active contracts can be printed',
+  'app.kuaizhizao.salesContract.printNotAllowed':
+    'Only approved and active contracts can be printed',
   'app.kuaizhizao.salesContract.selectToDelete': 'Select records to delete',
   'app.kuaizhizao.salesContract.batchDeleteSuccess': 'Deleted {{count}} sales contract(s)',
   'app.kuaizhizao.salesContract.batchDeletePartial': '{{count}} delete(s) failed (drafts only)',
@@ -4432,11 +4712,13 @@ export default {
   'app.kuaizhizao.salesContract.closeFailed': 'Failed to close contract',
   'app.kuaizhizao.salesContract.noReleasableLines': 'No releasable line items',
   'app.kuaizhizao.salesContract.loadItemsFailed': 'Failed to load contract lines',
-  'app.kuaizhizao.salesContract.selectReleaseLine': 'Select at least one line with release quantity',
+  'app.kuaizhizao.salesContract.selectReleaseLine':
+    'Select at least one line with release quantity',
   'app.kuaizhizao.salesContract.orderGenerated': 'Sales order {{code}} created',
   'app.kuaizhizao.salesContract.pushOrderFailed': 'Failed to push order',
   'app.kuaizhizao.salesContract.selectContract': 'Select a sales contract',
-  'app.kuaizhizao.salesContract.pushOrderStatusRequired': 'Only active or executing contracts can push orders',
+  'app.kuaizhizao.salesContract.pushOrderStatusRequired':
+    'Only active or executing contracts can push orders',
   'app.kuaizhizao.salesContract.pushOrder': 'Push Order',
   'app.kuaizhizao.salesContract.loadChangesFailed': 'Failed to load change records',
   'app.kuaizhizao.salesContract.changeCreated': 'Change order created',
@@ -4487,7 +4769,8 @@ export default {
   'app.kuaizhizao.salesContract.approve': 'Approve',
   'app.kuaizhizao.salesContract.reject': 'Reject',
   'app.kuaizhizao.salesContract.confirmRelease': 'Confirm Push',
-  'app.kuaizhizao.salesContract.releaseHint': 'Contract: {{code}} · Select lines and enter release quantity',
+  'app.kuaizhizao.salesContract.releaseHint':
+    'Contract: {{code}} · Select lines and enter release quantity',
   'app.kuaizhizao.salesContract.select': 'Select',
   'app.kuaizhizao.salesContract.thisRelease': 'This Release',
   'app.kuaizhizao.salesContract.confirmClose': 'Confirm Close',
@@ -4542,16 +4825,21 @@ export default {
   'app.kuaizhizao.quotation.confirmDelete': 'Delete quotation "{{code}}"?',
   'app.kuaizhizao.quotation.batchDeleteSuccess': 'Deleted {{count}} quotation(s)',
   'app.kuaizhizao.quotation.batchOperationSuccess': '{{action}} succeeded: {{count}}',
-  'app.kuaizhizao.quotation.batchOperationPartial': '{{action}} completed: {{success}} succeeded, {{failed}} failed',
+  'app.kuaizhizao.quotation.batchOperationPartial':
+    '{{action}} completed: {{success}} succeeded, {{failed}} failed',
   'app.kuaizhizao.quotation.batchOperationFailed': '{{action}} failed',
   'app.kuaizhizao.quotation.batchApprove': 'Batch approve',
-  'app.kuaizhizao.quotation.batchApproveNotAllowed': 'Selected quotations cannot be batch approved (only pending review).',
+  'app.kuaizhizao.quotation.batchApproveNotAllowed':
+    'Selected quotations cannot be batch approved (only pending review).',
   'app.kuaizhizao.quotation.batchSubmit': 'Batch submit',
-  'app.kuaizhizao.quotation.batchSubmitNotAllowed': 'Selected quotations cannot be batch submitted (draft or rejected only).',
+  'app.kuaizhizao.quotation.batchSubmitNotAllowed':
+    'Selected quotations cannot be batch submitted (draft or rejected only).',
   'app.kuaizhizao.quotation.batchWithdraw': 'Batch withdraw',
-  'app.kuaizhizao.quotation.batchWithdrawNotAllowed': 'Selected quotations cannot be batch withdrawn (pending review only).',
+  'app.kuaizhizao.quotation.batchWithdrawNotAllowed':
+    'Selected quotations cannot be batch withdrawn (pending review only).',
   'app.kuaizhizao.quotation.batchRevoke': 'Batch revoke approval',
-  'app.kuaizhizao.quotation.batchRevokeNotAllowed': 'Selected quotations cannot be batch revoked (approved only).',
+  'app.kuaizhizao.quotation.batchRevokeNotAllowed':
+    'Selected quotations cannot be batch revoked (approved only).',
   'app.kuaizhizao.quotation.batchConfirm': 'Batch Confirm',
   'app.kuaizhizao.quotation.batchConfirmCustomer': 'Batch customer confirmation',
   'app.kuaizhizao.quotation.batchConfirmCustomerConfirm':
@@ -4559,7 +4847,8 @@ export default {
   'app.kuaizhizao.quotation.syncSuccess': 'Synced {{count}} quotation(s)',
   'app.kuaizhizao.quotation.importDataInvalid': 'Import data is empty or invalid',
   'app.kuaizhizao.quotation.noImportRows': 'No importable rows (fill from row 3)',
-  'app.kuaizhizao.quotation.missingRequiredColumns': 'Missing required columns: customer name, quotation date, product code, quantity',
+  'app.kuaizhizao.quotation.missingRequiredColumns':
+    'Missing required columns: customer name, quotation date, product code, quantity',
   'app.kuaizhizao.quotation.validation.customerRequired': 'Customer name is required',
   'app.kuaizhizao.quotation.validation.dateRequired': 'Quotation date is required',
   'app.kuaizhizao.quotation.validation.materialRequired': 'Product code is required',
@@ -4570,7 +4859,8 @@ export default {
   'app.kuaizhizao.quotation.noImportData': 'No data to import',
   'app.kuaizhizao.quotation.importing': 'Importing quotations',
   'app.kuaizhizao.quotation.importPartialTitle': 'Import completed (partial failure)',
-  'app.kuaizhizao.quotation.importResult': 'Import result: {{success}} succeeded, {{failed}} failed',
+  'app.kuaizhizao.quotation.importResult':
+    'Import result: {{success}} succeeded, {{failed}} failed',
   'app.kuaizhizao.quotation.importSuccess': 'Successfully imported {{count}} quotation(s)',
   'app.kuaizhizao.quotation.convertConfirm':
     'Convert quotation "{{code}}" to a sales order? A new sales order will be created and linked.',
@@ -4587,7 +4877,8 @@ export default {
   'app.kuaizhizao.quotation.batchCancelCustomerConfirmContent':
     'Revert {{count}} selected quotations from customer confirmed to sent.',
   'app.kuaizhizao.quotation.cancelCustomerConfirmSuccess': 'Customer confirmation cancelled',
-  'app.kuaizhizao.quotation.reopenContent': 'Restore quotation to draft for editing and resubmission.',
+  'app.kuaizhizao.quotation.reopenContent':
+    'Restore quotation to draft for editing and resubmission.',
   'app.kuaizhizao.quotation.reopenSuccess': 'Restored to draft',
   'app.kuaizhizao.quotation.revokePushContent':
     'Unlink deleted sales order and restore to customer confirmed so you can convert again.',
@@ -4596,11 +4887,15 @@ export default {
   'app.kuaizhizao.quotation.revisionCreatedWithCode': 'New revision created: {{code}}',
   'app.kuaizhizao.quotation.selectOneValid': 'Select one valid record',
   'app.kuaizhizao.quotation.loadFailed': 'Failed to load quotation',
-  'app.kuaizhizao.quotation.revisionOnlyLatest': 'Only the latest non-draft revision in a series can create a new version',
-  'app.kuaizhizao.quotation.supersededConvertHint': 'This quotation has a newer revision; convert from the latest revision',
+  'app.kuaizhizao.quotation.revisionOnlyLatest':
+    'Only the latest non-draft revision in a series can create a new version',
+  'app.kuaizhizao.quotation.supersededConvertHint':
+    'This quotation has a newer revision; convert from the latest revision',
   'app.kuaizhizao.quotation.draftRestored': 'Restored saved draft',
-  'app.kuaizhizao.quotation.customerLoading': 'Loading customer info; fields will auto-fill shortly',
-  'app.kuaizhizao.quotation.lineMaterialMissing': 'Line is missing product code or name; reselect product',
+  'app.kuaizhizao.quotation.customerLoading':
+    'Loading customer info; fields will auto-fill shortly',
+  'app.kuaizhizao.quotation.lineMaterialMissing':
+    'Line is missing product code or name; reselect product',
   'app.kuaizhizao.quotation.generateCodeFailed': 'Failed to generate quotation number',
   'app.kuaizhizao.quotation.createFailed': 'Failed to create quotation',
   'app.kuaizhizao.quotation.updateFailed': 'Failed to update quotation',
@@ -4662,7 +4957,8 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.userImageMessage': 'Document image uploaded',
   'app.kuaizhizao.salesOrder.aiCreate.previewImage': 'Preview',
   'app.kuaizhizao.salesOrder.aiCreate.thinking': 'Parsing order details…',
-  'app.kuaizhizao.salesOrder.aiCreate.parseSuccess': 'Order draft parsed. Review and fill the form.',
+  'app.kuaizhizao.salesOrder.aiCreate.parseSuccess':
+    'Order draft parsed. Review and fill the form.',
   'app.kuaizhizao.salesOrder.aiCreate.promptSampleOrder':
     'Order 100 pcs M8 bolts for Huadong Machinery at ¥0.5 each, delivery next Friday',
   'app.kuaizhizao.salesOrder.aiCreate.promptSampleSupplement':
@@ -4679,7 +4975,8 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.itemCount': 'Line items recognized',
   'app.kuaizhizao.salesOrder.aiCreate.applyToForm': 'Fill form',
   'app.kuaizhizao.salesOrder.aiCreate.applySuccess': 'Form filled. Please review before saving.',
-  'app.kuaizhizao.salesOrder.aiCreate.customerNotMatched': 'Customer not matched in master data; please select manually.',
+  'app.kuaizhizao.salesOrder.aiCreate.customerNotMatched':
+    'Customer not matched in master data; please select manually.',
   'app.kuaizhizao.salesOrder.aiCreate.materialNotMatched':
     'Some products were not matched and could not be created; line text was kept—please select materials manually.',
   'app.kuaizhizao.salesOrder.aiCreate.customerCodeRuleRequired':
@@ -4701,7 +4998,8 @@ export default {
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialCode': 'Material code',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialSpec': 'Specification',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialUnit': 'Unit',
-  'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialNameRequired': 'Material name is required',
+  'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialNameRequired':
+    'Material name is required',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialPending': 'Pending',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterMaterialCreated': 'Created',
   'app.kuaizhizao.salesOrder.aiCreate.confirmMasterOpenMaterialForm': 'Create material',
@@ -4732,11 +5030,14 @@ export default {
   'app.kuaizhizao.salesOrder.amountTax': 'Tax',
   'app.kuaizhizao.salesOrder.amountGoodsInclTax': 'Total (incl. tax)',
   'app.kuaizhizao.salesOrder.amountCustomerDirectPay': 'Counterparty borne fees',
-  'app.kuaizhizao.salesOrder.amountCustomerDirectPayHint': 'Fees borne by the customer and included in est. receivable',
+  'app.kuaizhizao.salesOrder.amountCustomerDirectPayHint':
+    'Fees borne by the customer and included in est. receivable',
   'app.kuaizhizao.salesOrder.amountOurAdvance': 'Our borne fees',
-  'app.kuaizhizao.salesOrder.amountOurAdvanceHint': 'Fees borne by us; not included in est. receivable',
+  'app.kuaizhizao.salesOrder.amountOurAdvanceHint':
+    'Fees borne by us; not included in est. receivable',
   'app.kuaizhizao.salesOrder.amountEstimatedReceivable': 'Est. Receivable',
-  'app.kuaizhizao.salesOrder.amountEstimatedReceivableHint': 'Amount after discount + counterparty borne fees',
+  'app.kuaizhizao.salesOrder.amountEstimatedReceivableHint':
+    'Amount after discount + counterparty borne fees',
   'app.kuaizhizao.salesOrder.defaultShipping.express': 'Express',
   'app.kuaizhizao.salesOrder.defaultShipping.logistics': 'Logistics',
   'app.kuaizhizao.salesOrder.defaultShipping.selfPickup': 'Self Pickup',
@@ -4745,35 +5046,49 @@ export default {
   'app.kuaizhizao.salesOrder.defaultPayment.cod': 'COD',
   'app.kuaizhizao.salesOrder.defaultPayment.net30': 'Net 30',
   'app.kuaizhizao.salesOrder.defaultPayment.net60': 'Net 60',
-  'app.kuaizhizao.salesOrder.shippingMethodDictFallback': 'Shipping method dictionary unavailable; using built-in options',
-  'app.kuaizhizao.salesOrder.paymentTermsDictFallback': 'Payment terms dictionary unavailable; using built-in options',
+  'app.kuaizhizao.salesOrder.shippingMethodDictFallback':
+    'Shipping method dictionary unavailable; using built-in options',
+  'app.kuaizhizao.salesOrder.paymentTermsDictFallback':
+    'Payment terms dictionary unavailable; using built-in options',
   'app.kuaizhizao.salesOrder.draftRestored': 'Draft content restored',
   'app.kuaizhizao.salesOrder.nodeCreateDisabled': 'Sales order node is disabled; cannot create',
   'app.kuaizhizao.salesOrder.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.salesOrder.batchApprove': 'Batch Approve',
   'app.kuaizhizao.salesOrder.batchWithdraw': 'Batch Withdraw',
   'app.kuaizhizao.salesOrder.batchUnapprove': 'Batch Unapprove',
-  'app.kuaizhizao.salesOrder.batchSubmitNotAllowed': 'Selected orders cannot be batch submitted (draft only; use Batch Approve when pending review).',
-  'app.kuaizhizao.salesOrder.batchApproveNotAllowed': 'Selected orders cannot be batch approved (pending review only).',
-  'app.kuaizhizao.salesOrder.batchCloseNotAllowed': 'Selected orders cannot be batch closed (approved and not completed only).',
-  'app.kuaizhizao.salesOrder.batchWithdrawNotAllowed': 'Selected orders cannot be batch withdrawn (use row audit withdraw when pending review; confirmed orders can be withdrawn to draft; use Batch Unapprove when audited).',
+  'app.kuaizhizao.salesOrder.batchSubmitNotAllowed':
+    'Selected orders cannot be batch submitted (draft only; use Batch Approve when pending review).',
+  'app.kuaizhizao.salesOrder.batchApproveNotAllowed':
+    'Selected orders cannot be batch approved (pending review only).',
+  'app.kuaizhizao.salesOrder.batchCloseNotAllowed':
+    'Selected orders cannot be batch closed (approved and not completed only).',
+  'app.kuaizhizao.salesOrder.batchWithdrawNotAllowed':
+    'Selected orders cannot be batch withdrawn (use row audit withdraw when pending review; confirmed orders can be withdrawn to draft; use Batch Unapprove when audited).',
   'app.kuaizhizao.salesOrder.batchActionAllSuccess': '{{action}} succeeded: {{count}} record(s)',
-  'app.kuaizhizao.salesOrder.batchActionPartial': '{{action}} partial: {{success}} succeeded, {{failed}} failed',
-  'app.kuaizhizao.salesOrder.batchActionPartialWithReason': '{{action}} partial: {{success}} succeeded, {{failed}} failed ({{reason}})',
+  'app.kuaizhizao.salesOrder.batchActionPartial':
+    '{{action}} partial: {{success}} succeeded, {{failed}} failed',
+  'app.kuaizhizao.salesOrder.batchActionPartialWithReason':
+    '{{action}} partial: {{success}} succeeded, {{failed}} failed ({{reason}})',
   'app.kuaizhizao.salesOrder.batchActionFailed': '{{action}} failed',
   'app.kuaizhizao.salesOrder.batchActionFailedDetails': '{{action}} failure details',
   'app.kuaizhizao.salesOrder.generateCodeFailed': 'Failed to generate order code',
   'app.kuaizhizao.salesOrder.saveAndSubmit': 'Save & Submit',
-  'app.kuaizhizao.salesOrder.computationAlreadyPushed': 'Demand computation already pushed. Withdraw first to push again.',
+  'app.kuaizhizao.salesOrder.computationAlreadyPushed':
+    'Demand computation already pushed. Withdraw first to push again.',
   'app.kuaizhizao.salesOrder.loadProductionLinesFailed': 'Failed to load production lines',
   'app.kuaizhizao.salesOrder.selectAtLeastOneLine': 'Select at least one product line',
-  'app.kuaizhizao.salesOrder.pushQtyFullyUsed': 'All pushable quantity for this order has been used',
+  'app.kuaizhizao.salesOrder.pushQtyFullyUsed':
+    'All pushable quantity for this order has been used',
   'app.kuaizhizao.salesOrder.pushQtyInvalid': 'Enter a valid push quantity: {{code}}',
   'app.kuaizhizao.salesOrder.pushQtyExceedsRemaining': 'Push quantity exceeds remaining: {{code}}',
-  'app.kuaizhizao.salesOrder.masterDataMissingForConfirmPush': 'Missing master data. Confirm push blocked; complete data or use draft push.',
-  'app.kuaizhizao.salesOrder.shippableQtyFullyUsed': 'All shippable quantity for this order has been used',
-  'app.kuaizhizao.salesOrder.pushQtyExceedsShippable': 'Push quantity exceeds shippable quantity: {{code}}',
-  'app.kuaizhizao.salesOrder.nodeComputationDisabled': 'Demand computation node disabled; cannot push',
+  'app.kuaizhizao.salesOrder.masterDataMissingForConfirmPush':
+    'Missing master data. Confirm push blocked; complete data or use draft push.',
+  'app.kuaizhizao.salesOrder.shippableQtyFullyUsed':
+    'All shippable quantity for this order has been used',
+  'app.kuaizhizao.salesOrder.pushQtyExceedsShippable':
+    'Push quantity exceeds shippable quantity: {{code}}',
+  'app.kuaizhizao.salesOrder.nodeComputationDisabled':
+    'Demand computation node disabled; cannot push',
   'app.kuaizhizao.salesOrder.nodeShipmentDisabled': 'Shipment notice node disabled; cannot push',
   'app.kuaizhizao.salesOrder.nodeInvoiceDisabled': 'Sales invoice node disabled; cannot push',
   'app.kuaizhizao.salesOrder.nodeWorkOrderDisabled': 'Work order node disabled; cannot push',
@@ -4782,20 +5097,24 @@ export default {
   'app.kuaizhizao.salesOrder.pushDeliveryFailed': 'Failed to push sales delivery',
   'app.kuaizhizao.salesOrder.noReturnableQty': 'No returnable quantity (delivered qty is 0)',
   'app.kuaizhizao.salesOrder.returnWarehouseRequired': 'Enter return warehouse ID first',
-  'app.kuaizhizao.salesOrder.returnQtyExceedsMax': 'Return qty for product {{material}} cannot exceed {{max}}',
+  'app.kuaizhizao.salesOrder.returnQtyExceedsMax':
+    'Return qty for product {{material}} cannot exceed {{max}}',
   'app.kuaizhizao.salesOrder.returnCreated': 'Sales return created: {{code}}',
   'app.kuaizhizao.salesOrder.createdFallback': 'Created',
   'app.kuaizhizao.salesOrder.pushReturnFailed': 'Failed to push sales return',
   'app.kuaizhizao.salesOrder.loadQuotationsFailed': 'Failed to load quotations',
   'app.kuaizhizao.salesOrder.selectQuotationFirst': 'Select a quotation first',
   'app.kuaizhizao.salesOrder.pullContract.selectFirst': 'Select a sales contract first',
-  'app.kuaizhizao.salesOrder.pullDuplicateBlocked': '{{source}} already has {{target}}; duplicate creation blocked',
+  'app.kuaizhizao.salesOrder.pullDuplicateBlocked':
+    '{{source}} already has {{target}}; duplicate creation blocked',
   'app.kuaizhizao.salesOrder.createdFromQuotation': 'Sales order created: {{code}}',
   'app.kuaizhizao.salesOrder.pullContract.success': 'Sales order created from contract: {{code}}',
   'app.kuaizhizao.salesOrder.pullCreateFailed': 'Failed to create {{target}} from {{source}}',
-  'app.kuaizhizao.salesOrder.pushRequiresApproved': 'Only approved/confirmed, non-closed sales orders can be pushed',
+  'app.kuaizhizao.salesOrder.pushRequiresApproved':
+    'Only approved/confirmed, non-closed sales orders can be pushed',
   'app.kuaizhizao.salesOrder.pushRatio': 'Push %',
-  'app.kuaizhizao.salesOrder.pushRatioTooltip': '{{percent}}% (pushed {{pushed}} / total {{total}}, remaining {{remaining}})',
+  'app.kuaizhizao.salesOrder.pushRatioTooltip':
+    '{{percent}}% (pushed {{pushed}} / total {{total}}, remaining {{remaining}})',
   'app.kuaizhizao.salesOrder.statComparedYesterday': 'vs yesterday',
   'app.kuaizhizao.salesOrder.statTodayPrefix': 'Today',
   'app.kuaizhizao.salesOrder.statNeedImmediate': 'Needs immediate action',
@@ -4819,7 +5138,8 @@ export default {
   'app.kuaizhizao.salesOrder.attachments': 'Attachments',
   'app.kuaizhizao.salesOrder.notesPlaceholder': 'Enter notes',
   'app.kuaizhizao.salesOrder.helpTableView': ': order-level view.',
-  'app.kuaizhizao.salesOrder.helpDetailTableView': ': line-level view for read-only inspection with inventory/BOM checks.',
+  'app.kuaizhizao.salesOrder.helpDetailTableView':
+    ': line-level view for read-only inspection with inventory/BOM checks.',
   'app.kuaizhizao.salesOrder.searchQuotationPlaceholder': 'Search quotations (code/customer)',
   'app.kuaizhizao.salesOrder.quotationNotFound': 'No matching quotation',
   'app.kuaizhizao.salesOrder.noQuotationAvailable': 'No quotations available',
@@ -4827,13 +5147,17 @@ export default {
   'app.kuaizhizao.salesOrder.duplicateGuardHint': 'Duplicate guard',
   'app.kuaizhizao.salesOrder.alreadyCreated': 'Created: {{code}}',
   'app.kuaizhizao.salesOrder.canCreate': 'Can create',
-  'app.kuaizhizao.salesOrder.pullQuotationNotAllowed': 'This quotation cannot be converted to a sales order yet; wait until it is approved',
-  'app.kuaizhizao.salesOrder.pullContract.notAllowed': 'This sales contract cannot create a sales order',
+  'app.kuaizhizao.salesOrder.pullQuotationNotAllowed':
+    'This quotation cannot be converted to a sales order yet; wait until it is approved',
+  'app.kuaizhizao.salesOrder.pullContract.notAllowed':
+    'This sales contract cannot create a sales order',
   'app.kuaizhizao.salesOrder.pullContract.loadFailed': 'Failed to load sales contracts',
-  'app.kuaizhizao.salesOrder.pullDuplicateAlert': '{{source}} already has {{target}}; duplicate blocked',
+  'app.kuaizhizao.salesOrder.pullDuplicateAlert':
+    '{{source}} already has {{target}}; duplicate blocked',
   'app.kuaizhizao.salesOrder.linkedSalesOrder': 'Linked sales order: {{code}}',
   'app.kuaizhizao.salesOrder.pushReturnTitle': 'Push Sales Return',
-  'app.kuaizhizao.salesOrder.pushReturnDescription': 'Push sales return from order {{orderCode}}. Adjust return qty per line (not exceeding delivered qty).',
+  'app.kuaizhizao.salesOrder.pushReturnDescription':
+    'Push sales return from order {{orderCode}}. Adjust return qty per line (not exceeding delivered qty).',
   'app.kuaizhizao.salesOrder.returnWarehouseIdPlaceholder': 'Return warehouse ID',
   'app.kuaizhizao.salesOrder.returnWarehouseNamePlaceholder': 'Return warehouse name (optional)',
   'app.kuaizhizao.salesOrder.returnQty': 'Return Qty',
@@ -4843,7 +5167,8 @@ export default {
   'app.kuaizhizao.salesOrder.workOrderTypeLabel': 'Work order type:',
   'app.kuaizhizao.salesOrder.workOrderTypeGrouped': 'Standard work order',
   'app.kuaizhizao.salesOrder.workOrderTypePerUnit': 'Per-unit group work order',
-  'app.kuaizhizao.salesOrder.masterDataMissingAlert': 'Some products lack master data (routing/BOM). Use draft push first, then release after completion.',
+  'app.kuaizhizao.salesOrder.masterDataMissingAlert':
+    'Some products lack master data (routing/BOM). Use draft push first, then release after completion.',
   'app.kuaizhizao.salesOrder.colPushedQty': 'Pushed',
   'app.kuaizhizao.salesOrder.colPushableQty': 'Pushable',
   'app.kuaizhizao.salesOrder.productionLine': 'Production Line',
@@ -4859,12 +5184,14 @@ export default {
   'app.kuaizhizao.customerFollowUp.nextFollowUp3Days': 'In 3 days',
   'app.kuaizhizao.customerFollowUp.nextFollowUp1Week': 'In 1 week',
   'app.kuaizhizao.customerFollowUp.linkedDocTimelineTitle': 'Follow-ups on linked documents',
-  'app.kuaizhizao.customerFollowUp.linkedDocTimelineEmpty': 'No follow-ups on the linked document yet',
+  'app.kuaizhizao.customerFollowUp.linkedDocTimelineEmpty':
+    'No follow-ups on the linked document yet',
   'app.kuaizhizao.customerFollowUp.linkedQuotationLabel': 'Quotation: ',
   'app.kuaizhizao.customerFollowUp.linkedSalesOrderLabel': 'Sales order: ',
   'app.kuaizhizao.menu.sales-management.customer-follow-ups': 'Follow-ups',
   'app.kuaizhizao.customerFollowUp.addFollowUpFromDocument': 'Add follow-up',
-  'app.kuaizhizao.customerFollowUp.needCustomerForFollowUp': 'Link a customer before adding a follow-up.',
+  'app.kuaizhizao.customerFollowUp.needCustomerForFollowUp':
+    'Link a customer before adding a follow-up.',
   'app.kuaizhizao.customerFollowUp.new': 'Add follow-up',
   'app.kuaizhizao.customerFollowUp.loadFailed': 'Failed to load follow-up records',
   'app.kuaizhizao.customerFollowUp.customerRequired': 'Please select a valid customer',
@@ -4891,7 +5218,8 @@ export default {
   'app.kuaizhizao.customerFollowUp.lifecycle.revisitOverdue': 'Revisit overdue',
   'app.kuaizhizao.customerFollowUp.lifecycle.noRevisitNeeded': 'No revisit needed',
   'app.kuaizhizao.customerFollowUp.lifecycle.recorded': 'Follow-up recorded',
-  'app.kuaizhizao.customerFollowUp.lifecycle.suggestionNextPlan': 'Next revisit planned: {{datetime}}',
+  'app.kuaizhizao.customerFollowUp.lifecycle.suggestionNextPlan':
+    'Next revisit planned: {{datetime}}',
   'app.kuaizhizao.customerFollowUp.lifecycle.suggestionOverdue':
     'The planned revisit time has passed. Contact the customer or update the next follow-up plan.',
   'app.kuaizhizao.customerFollowUp.createTitle': 'New customer follow-up',
@@ -4910,13 +5238,16 @@ export default {
   'app.kuaizhizao.salesOpportunity.linkedOpportunity': 'Linked opportunity',
   'app.kuaizhizao.salesOpportunity.selectOpportunity': 'Select opportunity',
   'app.kuaizhizao.salesOpportunity.createOpportunity': 'New opportunity',
-  'app.kuaizhizao.salesOpportunity.opportunityRequired': 'Please select or create a sales opportunity',
+  'app.kuaizhizao.salesOpportunity.opportunityRequired':
+    'Please select or create a sales opportunity',
   'app.kuaizhizao.salesOpportunity.salesStage': 'Sales stage',
   'app.kuaizhizao.salesOpportunity.fieldTitle': 'Opportunity name',
   'app.kuaizhizao.salesOpportunity.titlePlaceholder': 'e.g. Project XX / Quotation BJ…',
   'app.kuaizhizao.salesOpportunity.closeStageConfirmTitle': 'Close opportunity',
-  'app.kuaizhizao.salesOpportunity.closeStageConfirmContent': 'Change stage to "{{stage}}"? Closed opportunities cannot be advanced further.',
-  'app.kuaizhizao.salesOpportunity.stageWillChange': 'This follow-up will change stage from "{{from}}" to "{{to}}"',
+  'app.kuaizhizao.salesOpportunity.closeStageConfirmContent':
+    'Change stage to "{{stage}}"? Closed opportunities cannot be advanced further.',
+  'app.kuaizhizao.salesOpportunity.stageWillChange':
+    'This follow-up will change stage from "{{from}}" to "{{to}}"',
   'app.kuaizhizao.salesOpportunity.colTitle': 'Opportunity',
   'app.kuaizhizao.salesOpportunity.colExpectedAmount': 'Expected amount',
   'app.kuaizhizao.salesOpportunity.colNextFollowUp': 'Next follow-up',
@@ -4926,15 +5257,19 @@ export default {
   'app.kuaizhizao.customerStage.currentStage': 'Current stage',
   'app.kuaizhizao.customerStage.fieldLabel': 'Customer stage',
   'app.kuaizhizao.customerStage.fieldHint': 'Mark the customer sales stage for classification',
-  'app.kuaizhizao.customerStage.stageWillChange': 'This follow-up will change stage from "{{from}}" to "{{to}}"',
+  'app.kuaizhizao.customerStage.stageWillChange':
+    'This follow-up will change stage from "{{from}}" to "{{to}}"',
   'app.kuaizhizao.customerStage.closeStageConfirmTitle': 'Confirm stage change',
   'app.kuaizhizao.customerStage.closeStageConfirmContent': 'Mark customer stage as "{{stage}}"?',
-  'app.kuaizhizao.customerStage.dictMissing': 'Customer stage dictionary is not initialized. Contact your administrator.',
+  'app.kuaizhizao.customerStage.dictMissing':
+    'Customer stage dictionary is not initialized. Contact your administrator.',
   'app.kuaizhizao.quotationStage.fieldLabel': 'Quotation stage',
-  'app.kuaizhizao.quotationStage.stageWillChange': 'This follow-up will change quotation stage from "{{from}}" to "{{to}}"',
+  'app.kuaizhizao.quotationStage.stageWillChange':
+    'This follow-up will change quotation stage from "{{from}}" to "{{to}}"',
   'app.kuaizhizao.quotationStage.closeStageConfirmTitle': 'Confirm quotation stage change',
   'app.kuaizhizao.quotationStage.closeStageConfirmContent': 'Mark quotation stage as "{{stage}}"?',
-  'app.kuaizhizao.quotationStage.detailHint': 'Link a quotation when adding follow-up to track its sales stage',
+  'app.kuaizhizao.quotationStage.detailHint':
+    'Link a quotation when adding follow-up to track its sales stage',
   'app.kuaizhizao.customerFollowUp.selectCustomerFirst': 'Select a customer first',
   'app.kuaizhizao.customerFollowUp.optionalSelectDocument': 'Optional — pick a document',
   'app.kuaizhizao.customerFollowUp.optionalIdHint': 'Optional internal document ID',
@@ -4964,10 +5299,12 @@ export default {
   'app.kuaizhizao.eightD.noUpdatePermission': 'No permission to update',
   'app.kuaizhizao.eightD.actions.transition': 'Move Stage',
   'app.kuaizhizao.eightD.deleteOneTitle': 'Delete 8D report {{reportCode}}?',
-  'app.kuaizhizao.eightD.deleteOneDescription': 'Deletion is irreversible. Only non-closed reports can be deleted.',
+  'app.kuaizhizao.eightD.deleteOneDescription':
+    'Deletion is irreversible. Only non-closed reports can be deleted.',
   'app.kuaizhizao.eightD.batchDeleteSuccess': 'Deleted {{count}} record(s)',
   'app.kuaizhizao.eightD.deleteConfirmTitle': 'Delete {{count}} selected 8D report(s)?',
-  'app.kuaizhizao.eightD.deleteConfirmDescription': 'Only non-closed and unlocked reports can be deleted.',
+  'app.kuaizhizao.eightD.deleteConfirmDescription':
+    'Only non-closed and unlocked reports can be deleted.',
   'app.kuaizhizao.eightD.notFilled': 'Not filled',
   'app.kuaizhizao.eightD.columns.reportCode': '8D Code',
   'app.kuaizhizao.eightD.columns.title': 'Title',
@@ -4999,11 +5336,13 @@ export default {
   'app.kuaizhizao.eightD.status.d8_team_congratulation': 'D8 Team Recognition',
   'app.kuaizhizao.eightD.status.closed': 'Closed',
   'app.kuaizhizao.eightD.currentStage': 'Current stage: {{stage}}',
-  'app.kuaizhizao.eightD.currentStageHint': 'Complete current stage content first, then move to next stage.',
+  'app.kuaizhizao.eightD.currentStageHint':
+    'Complete current stage content first, then move to next stage.',
   'app.kuaizhizao.eightD.currentStageRequired': 'Please complete current stage content: {{stage}}',
   'app.kuaizhizao.eightD.placeholders.owner': 'Please enter owner',
   'app.kuaizhizao.eightD.placeholders.fillStage': 'Please fill {{stage}}',
-  'app.kuaizhizao.eightD.placeholders.verificationResult': 'Verification result is required before closing',
+  'app.kuaizhizao.eightD.placeholders.verificationResult':
+    'Verification result is required before closing',
   'app.kuaizhizao.eightD.placeholders.remarks': 'Record notes or collaboration context',
   'app.kuaizhizao.eightD.saveHint': 'After saving, changes can be viewed in timeline on the right',
   'app.kuaizhizao.eightD.history.empty': 'No history records',
@@ -5186,9 +5525,10 @@ export default {
   'app.kuaizhizao.salesDashboard.shortcut.salesOrders': 'Sales Orders',
   'app.kuaizhizao.salesDashboard.shortcut.followUp': 'Follow-up',
   'app.kuaizhizao.salesDashboard.shortcut.customers': 'Customers',
-  'app.kuaizhizao.salesDashboard.tasksTitle': 'Today\'s Tasks',
+  'app.kuaizhizao.salesDashboard.tasksTitle': "Today's Tasks",
   'app.kuaizhizao.salesDashboard.pendingQuotationsAlert': 'Quotations pending review',
-  'app.kuaizhizao.salesDashboard.pendingQuotationsDetail': '{{count}} quotation(s) awaiting review.',
+  'app.kuaizhizao.salesDashboard.pendingQuotationsDetail':
+    '{{count}} quotation(s) awaiting review.',
   'app.kuaizhizao.salesDashboard.noFollowUpToday': 'No follow-ups due today',
   'app.kuaizhizao.salesDashboard.pendingFollowUp': 'Pending',
   'app.kuaizhizao.salesDashboard.noFollowUpContent': 'No follow-up description',
@@ -5405,7 +5745,8 @@ export default {
   'app.kuaizhizao.performance.dashboard.kpi.skills': 'Skill Config',
   'app.kuaizhizao.performance.dashboard.kpi.skillsSubtitle': 'Skill types',
   'app.kuaizhizao.performance.dashboard.todoPanel': 'Performance Todos',
-  'app.kuaizhizao.performance.dashboard.todoTitle': '{{count}} performance summaries pending confirmation',
+  'app.kuaizhizao.performance.dashboard.todoTitle':
+    '{{count}} performance summaries pending confirmation',
   'app.kuaizhizao.performance.holidays.pageTitle': 'Holiday Management',
   'app.kuaizhizao.performance.holidays.createButton': 'New Holiday',
   'app.kuaizhizao.performance.holidays.detailTitle': 'Holiday Detail',
@@ -5433,7 +5774,8 @@ export default {
   'app.kuaizhizao.performance.shifts.columns.standardHours': 'Standard Hours',
   'app.kuaizhizao.performance.shifts.messages.selectFirst': 'Please select shifts first',
   'app.kuaizhizao.performance.shifts.messages.deleteConfirm': 'Delete this shift?',
-  'app.kuaizhizao.performance.shifts.messages.deleteBatchConfirm': 'Delete {{count}} selected shift(s)?',
+  'app.kuaizhizao.performance.shifts.messages.deleteBatchConfirm':
+    'Delete {{count}} selected shift(s)?',
   'app.kuaizhizao.performance.rosters.label.workGroup': 'Work Group',
   'app.kuaizhizao.performance.rosters.label.employee': 'Employee',
   'app.kuaizhizao.performance.rosters.label.rosterWeek': 'Roster Week',
@@ -5441,7 +5783,8 @@ export default {
   'app.kuaizhizao.performance.rosters.scope.employee': 'Employee',
   'app.kuaizhizao.performance.rosters.placeholder.workGroup': 'Select work group',
   'app.kuaizhizao.performance.rosters.placeholder.employee': 'Select employee',
-  'app.kuaizhizao.performance.rosters.hint.period': 'Period: {{start}} ~ {{end}}. Leave cells empty if unscheduled; select Rest for days off.',
+  'app.kuaizhizao.performance.rosters.hint.period':
+    'Period: {{start}} ~ {{end}}. Leave cells empty if unscheduled; select Rest for days off.',
   'app.kuaizhizao.performance.rosters.messages.loadBaseFailed': 'Failed to load base data',
   'app.kuaizhizao.performance.rosters.messages.loadRosterFailed': 'Failed to load roster',
   'app.kuaizhizao.performance.rosters.messages.selectWorkGroup': 'Please select a work group first',
@@ -5461,10 +5804,12 @@ export default {
   'app.kuaizhizao.performance.employeeConfigs.form.effectiveFrom': 'Effective From',
   'app.kuaizhizao.performance.employeeConfigs.form.effectiveTo': 'Effective To',
   'app.kuaizhizao.performance.employeeConfigs.columns.hourlyRate': 'Hourly Rate (CNY/h)',
-  'app.kuaizhizao.performance.employeeConfigs.columns.defaultPieceRate': 'Default Piece Rate (CNY/pc)',
+  'app.kuaizhizao.performance.employeeConfigs.columns.defaultPieceRate':
+    'Default Piece Rate (CNY/pc)',
   'app.kuaizhizao.performance.employeeConfigs.columns.baseSalary': 'Base Salary (CNY/mo)',
   'app.kuaizhizao.performance.employeeConfigs.messages.deleteConfirm': 'Delete this config?',
-  'app.kuaizhizao.performance.employeeConfigs.messages.deleteBatchConfirm': 'Delete {{count}} selected config(s)?',
+  'app.kuaizhizao.performance.employeeConfigs.messages.deleteBatchConfirm':
+    'Delete {{count}} selected config(s)?',
   'app.kuaizhizao.performance.hourlyRates.pageTitle': 'Hourly Rates',
   'app.kuaizhizao.performance.hourlyRates.createButton': 'New Hourly Rate',
   'app.kuaizhizao.performance.hourlyRates.modal.createTitle': 'New Hourly Rate',
@@ -5472,15 +5817,18 @@ export default {
   'app.kuaizhizao.performance.hourlyRates.columns.rate': 'Hourly Rate (CNY/h)',
   'app.kuaizhizao.performance.hourlyRates.form.rate': 'Hourly Rate (CNY/h)',
   'app.kuaizhizao.performance.hourlyRates.messages.deleteConfirm': 'Delete this rate?',
-  'app.kuaizhizao.performance.hourlyRates.messages.deleteBatchConfirm': 'Delete {{count}} selected hourly rate(s)?',
+  'app.kuaizhizao.performance.hourlyRates.messages.deleteBatchConfirm':
+    'Delete {{count}} selected hourly rate(s)?',
   'app.kuaizhizao.performance.kpi.pageTitle': 'KPI Definitions',
   'app.kuaizhizao.performance.kpi.createButton': 'New KPI Definition',
   'app.kuaizhizao.performance.kpi.modal.createTitle': 'New KPI',
   'app.kuaizhizao.performance.kpi.modal.editTitle': 'Edit KPI',
   'app.kuaizhizao.performance.kpi.form.formulaJson': 'Formula Config (JSON)',
-  'app.kuaizhizao.performance.kpi.form.formulaPlaceholder': 'Quality/efficiency/attendance/output example: {"targets":{"min_rate":0.95}}\nCustom formula: {"expression":"quality_rate * 100"}',
+  'app.kuaizhizao.performance.kpi.form.formulaPlaceholder':
+    'Quality/efficiency/attendance/output example: {"targets":{"min_rate":0.95}}\nCustom formula: {"expression":"quality_rate * 100"}',
   'app.kuaizhizao.performance.kpi.messages.deleteConfirm': 'Delete this KPI?',
-  'app.kuaizhizao.performance.kpi.messages.deleteBatchConfirm': 'Delete {{count}} selected KPI definition(s)?',
+  'app.kuaizhizao.performance.kpi.messages.deleteBatchConfirm':
+    'Delete {{count}} selected KPI definition(s)?',
   'app.kuaizhizao.performance.summaries.pageTitle': 'Performance Summaries',
   'app.kuaizhizao.performance.summaries.actions.calculate': 'Calculate Performance',
   'app.kuaizhizao.performance.summaries.actions.batchConfirm': 'Batch Confirm',
@@ -5488,7 +5836,8 @@ export default {
   'app.kuaizhizao.performance.summaries.actions.detail': 'Detail',
   'app.kuaizhizao.performance.summaries.placeholder.period': 'Period',
   'app.kuaizhizao.performance.summaries.placeholder.employee': 'Employee',
-  'app.kuaizhizao.performance.summaries.modal.detailTitle': 'Performance Detail - {{name}} {{period}}',
+  'app.kuaizhizao.performance.summaries.modal.detailTitle':
+    'Performance Detail - {{name}} {{period}}',
   'app.kuaizhizao.performance.summaries.sections.kpiScores': 'KPI Breakdown',
   'app.kuaizhizao.performance.summaries.sections.reportingItems': 'Reporting Details',
   'app.kuaizhizao.performance.summaries.columns.kpiCode': 'KPI',
@@ -5504,7 +5853,8 @@ export default {
   'app.kuaizhizao.performance.summaries.messages.confirmFailed': 'Confirm failed',
   'app.kuaizhizao.performance.summaries.messages.reopenSuccess': 'Reopened for recalculation',
   'app.kuaizhizao.performance.summaries.messages.reopenFailed': 'Reopen failed',
-  'app.kuaizhizao.performance.summaries.messages.batchConfirmSuccess': 'Confirmed {{confirmed}} record(s), skipped {{skipped}}',
+  'app.kuaizhizao.performance.summaries.messages.batchConfirmSuccess':
+    'Confirmed {{confirmed}} record(s), skipped {{skipped}}',
   'app.kuaizhizao.performance.summaries.messages.batchConfirmFailed': 'Batch confirm failed',
   'app.kuaizhizao.performance.summaries.messages.exportFailed': 'Export failed',
   'app.kuaizhizao.performance.reports.columns.workerName': 'Employee',
@@ -5535,11 +5885,14 @@ export default {
   'app.kuaizhizao.salesOrder.edit': 'Edit Sales Order',
   'app.kuaizhizao.salesOrder.detail': 'Sales Order Detail',
   'app.kuaizhizao.salesOrder.entityName': 'Sales Order',
-  'app.kuaizhizao.salesOrder.deleteConfirm': 'Are you sure to delete {{count}} selected sales order(s)? This action cannot be undone.',
+  'app.kuaizhizao.salesOrder.deleteConfirm':
+    'Are you sure to delete {{count}} selected sales order(s)? This action cannot be undone.',
   'app.kuaizhizao.salesOrder.deleteSuccess': 'Successfully deleted {{count}} sales order(s)',
-  'app.kuaizhizao.salesOrder.deletePartial': 'Delete completed: {{success}} succeeded, {{failed}} failed',
+  'app.kuaizhizao.salesOrder.deletePartial':
+    'Delete completed: {{success}} succeeded, {{failed}} failed',
   'app.kuaizhizao.salesOrder.syncSuccess': 'Synced {{count}} sales order(s)',
-  'app.kuaizhizao.salesOrder.importSuccess': 'Import completed! Successfully imported {{count}} sales order(s)',
+  'app.kuaizhizao.salesOrder.importSuccess':
+    'Import completed! Successfully imported {{count}} sales order(s)',
   'app.kuaizhizao.salesOrder.detailFailed': 'Failed to get sales order detail',
   'app.kuaizhizao.salesOrder.itemsRequired': 'Please add at least one order item',
   'app.kuaizhizao.salesOrder.saveDraft': 'Save as Draft',
@@ -5549,10 +5902,13 @@ export default {
   'app.kuaizhizao.salesOrder.pushConfirm': 'Push this sales order to demand computation?',
   'app.kuaizhizao.salesOrder.pushSuccess': 'Pushed successfully, demand computation task created',
   'app.kuaizhizao.salesOrder.withdrawTitle': 'Withdraw from Computation',
-  'app.kuaizhizao.salesOrder.withdrawConfirm': 'Withdraw this sales order from demand computation? It will remain audited and can be pushed again.',
+  'app.kuaizhizao.salesOrder.withdrawConfirm':
+    'Withdraw this sales order from demand computation? It will remain audited and can be pushed again.',
   'app.kuaizhizao.salesOrder.withdrawSuccess': 'Withdrawn successfully',
-  'app.kuaizhizao.salesOrder.submitConfirmAudit': 'Submit this sales order? It will enter the approval process.',
-  'app.kuaizhizao.salesOrder.submitConfirmAuto': 'Submit this sales order? It will be auto-approved.',
+  'app.kuaizhizao.salesOrder.submitConfirmAudit':
+    'Submit this sales order? It will enter the approval process.',
+  'app.kuaizhizao.salesOrder.submitConfirmAuto':
+    'Submit this sales order? It will be auto-approved.',
   'app.kuaizhizao.salesOrder.submitOrder': 'Submit',
   'app.kuaizhizao.salesOrder.submitted': 'Submitted successfully',
   'app.kuaizhizao.salesOrder.submitFailed': 'Submit failed',
@@ -5560,7 +5916,8 @@ export default {
   'app.kuaizhizao.salesOrder.taxExclusive': 'Tax Exclusive',
   'app.kuaizhizao.salesOrder.taxInclusive': 'Tax Inclusive',
   'app.kuaizhizao.salesOrder.discountAmount': 'Order Discount',
-  'app.kuaizhizao.salesOrder.discountAmountHint': 'Header discount deducted from line total incl. tax; line prices unchanged',
+  'app.kuaizhizao.salesOrder.discountAmountHint':
+    'Header discount deducted from line total incl. tax; line prices unchanged',
   'app.kuaizhizao.salesOrder.amountAfterDiscount': 'Amount After Discount',
   'app.kuaizhizao.salesOrder.amountAfterDiscountHint': 'Total incl. tax − order discount',
   'app.kuaizhizao.salesOrder.orderItems': 'Order Items',
@@ -5629,7 +5986,8 @@ export default {
   'app.kuaizhizao.salesOrder.confirmDelete': 'Confirm Delete',
   'app.kuaizhizao.salesOrder.material': 'Product',
   'app.kuaizhizao.salesOrder.variantAttributes': 'Variant',
-  'app.kuaizhizao.salesOrder.variantAttributesPlaceholder': 'Configure item: e.g. {"color":"red","size":"M"}',
+  'app.kuaizhizao.salesOrder.variantAttributesPlaceholder':
+    'Configure item: e.g. {"color":"red","size":"M"}',
   'app.kuaizhizao.salesOrder.selectVariantSku': 'Select SKU',
   'app.kuaizhizao.salesOrder.selectVariantSkuTitle': 'Select variant SKU',
   'app.kuaizhizao.salesOrder.setVariantAttrs': 'Set variants',
@@ -5659,19 +6017,27 @@ export default {
   'app.kuaizhizao.salesOrder.syncFailed': 'Sync failed',
   'app.kuaizhizao.salesOrder.operationFailed': 'Operation failed',
   'app.kuaizhizao.salesOrder.completeRequired': 'Please complete required fields',
-  'app.kuaizhizao.quotation.validLineHint': 'Add at least one valid line (product, quantity, and unit price greater than 0)',
-  'app.kuaizhizao.salesOrder.orderUpdatedAndAutoApproved': 'Order updated and auto-approved. {{syncTip}}',
-  'app.kuaizhizao.salesOrder.orderCreatedAndAutoApproved': 'Order created and auto-approved. {{syncTip}}',
+  'app.kuaizhizao.quotation.validLineHint':
+    'Add at least one valid line (product, quantity, and unit price greater than 0)',
+  'app.kuaizhizao.salesOrder.orderUpdatedAndAutoApproved':
+    'Order updated and auto-approved. {{syncTip}}',
+  'app.kuaizhizao.salesOrder.orderCreatedAndAutoApproved':
+    'Order created and auto-approved. {{syncTip}}',
   'app.kuaizhizao.salesOrder.orderResubmitted': 'Order resubmitted, pending approval',
-  'app.kuaizhizao.salesOrder.orderCreatedAndSubmitted': 'Order created and submitted, pending approval',
-  'app.kuaizhizao.salesOrder.saveSuccessSubmitFailed': 'Order saved, but submit failed: {{message}}',
+  'app.kuaizhizao.salesOrder.orderCreatedAndSubmitted':
+    'Order created and submitted, pending approval',
+  'app.kuaizhizao.salesOrder.saveSuccessSubmitFailed':
+    'Order saved, but submit failed: {{message}}',
   'app.kuaizhizao.salesOrder.unknownError': 'Unknown error',
-  'app.kuaizhizao.salesOrder.demandSyncTip': 'Synced to linked demand. If already pushed to computation, please re-run demand computation.',
+  'app.kuaizhizao.salesOrder.demandSyncTip':
+    'Synced to linked demand. If already pushed to computation, please re-run demand computation.',
   'app.kuaizhizao.salesOrder.loadPreviewFailed': 'Failed to load preview',
   'app.kuaizhizao.salesOrder.pushFailed': 'Push failed',
   'app.kuaizhizao.salesOrder.pushToShipmentTitle': 'Push to Shipment Notice',
-  'app.kuaizhizao.salesOrder.pushToShipmentConfirm': 'Push this sales order to a shipment notice? The warehouse will be notified automatically and a pending outbound order will be created.',
-  'app.kuaizhizao.salesOrder.shipmentNoticeCreated': 'Shipment notice created and warehouse notified',
+  'app.kuaizhizao.salesOrder.pushToShipmentConfirm':
+    'Push this sales order to a shipment notice? The warehouse will be notified automatically and a pending outbound order will be created.',
+  'app.kuaizhizao.salesOrder.shipmentNoticeCreated':
+    'Shipment notice created and warehouse notified',
   'app.kuaizhizao.salesOrder.pushToInvoiceTitle': 'Push to Sales Invoice',
   'app.kuaizhizao.salesOrder.pushToInvoiceConfirm': 'Push this sales order to sales invoice?',
   'app.kuaizhizao.salesOrder.invoiceCreated': 'Sales invoice created',
@@ -5683,7 +6049,8 @@ export default {
   'app.kuaizhizao.salesOrder.createFailed': 'Create failed',
   'app.kuaizhizao.salesOrder.importErrorDetail': 'Import Error Details',
   'app.kuaizhizao.salesOrder.batchImportFailed': 'Batch import failed',
-  'app.kuaizhizao.salesOrder.noValidData': 'No valid data detected (ensure product code is not empty)',
+  'app.kuaizhizao.salesOrder.noValidData':
+    'No valid data detected (ensure product code is not empty)',
   'app.kuaizhizao.salesOrder.loadMaterialsFailed': 'Failed to load products',
   'app.kuaizhizao.salesOrder.loadCustomersFailed': 'Failed to load customers',
   'app.kuaizhizao.salesOrder.loadUsersFailed': 'Failed to load users',
@@ -5700,7 +6067,8 @@ export default {
   'app.kuaizhizao.salesOrder.salesInvoice': 'Sales Invoice',
   'app.kuaizhizao.salesOrder.salesReturn': 'Sales Return',
   'app.kuaizhizao.salesOrder.pushToDeliveryTitle': 'Push to Sales Delivery',
-  'app.kuaizhizao.salesOrder.pushToDeliveryConfirm': 'Generate a sales delivery note from the default warehouse?',
+  'app.kuaizhizao.salesOrder.pushToDeliveryConfirm':
+    'Generate a sales delivery note from the default warehouse?',
   'app.kuaizhizao.salesOrder.withdrawComputation': 'Withdraw Computation',
   'app.kuaizhizao.salesOrder.batchDelete': 'Batch Delete',
   'app.kuaizhizao.salesOrder.highlightOverdue': 'Highlight overdue',
@@ -5745,11 +6113,13 @@ export default {
   'app.kuaizhizao.salesOrder.lifecycleClosed': 'Closed',
   'app.kuaizhizao.salesOrder.batchClose': 'Batch Close',
   'app.kuaizhizao.salesOrder.batchCloseConfirmTitle': 'Confirm batch close',
-  'app.kuaizhizao.salesOrder.batchCloseConfirmDescription': 'Remaining undelivered or unexecuted quantities will not be fulfilled. Close {{count}} selected sales order(s)?',
+  'app.kuaizhizao.salesOrder.batchCloseConfirmDescription':
+    'Remaining undelivered or unexecuted quantities will not be fulfilled. Close {{count}} selected sales order(s)?',
   'app.kuaizhizao.salesOrder.lifecycleConfirmed': 'Confirmed',
   'app.kuaizhizao.salesOrder.importHeaderCustomerId': 'Customer ID',
   'app.kuaizhizao.salesOrder.importHeaderSalesmanId': 'Salesman ID',
-  'app.kuaizhizao.salesOrder.importPartialSuccess': 'Import completed: {{success}} succeeded, {{failed}} failed',
+  'app.kuaizhizao.salesOrder.importPartialSuccess':
+    'Import completed: {{success}} succeeded, {{failed}} failed',
   'app.kuaizhizao.salesOrder.importRowError': 'Row {{row}}: {{error}}',
   'app.kuaizhizao.salesOrder.exportSuccess': 'Exported {{count}} records',
   'app.kuaizhizao.salesOrder.importExampleCustomer': 'Customer A',
@@ -5804,40 +6174,55 @@ export default {
   'app.kuaizhizao.purchaseRequisition.col.converted': 'Converted',
   'app.kuaizhizao.purchaseRequisition.convertedYes': 'Yes',
   'app.kuaizhizao.purchaseRequisition.convertedNo': 'No',
-  'app.kuaizhizao.purchaseRequisition.workflowRevokeConfirm': 'After withdrawal the status returns to pending review; you can resubmit for review.',
+  'app.kuaizhizao.purchaseRequisition.workflowRevokeConfirm':
+    'After withdrawal the status returns to pending review; you can resubmit for review.',
   'app.kuaizhizao.purchaseRequisition.submitTitle': 'Submit Purchase Requisition',
-  'app.kuaizhizao.purchaseRequisition.submitContentAudit': 'After submission it enters the review workflow. Continue?',
-  'app.kuaizhizao.purchaseRequisition.submitContentAuto': 'After submission it takes effect immediately (no review). Continue?',
+  'app.kuaizhizao.purchaseRequisition.submitContentAudit':
+    'After submission it enters the review workflow. Continue?',
+  'app.kuaizhizao.purchaseRequisition.submitContentAuto':
+    'After submission it takes effect immediately (no review). Continue?',
   'app.kuaizhizao.purchaseRequisition.confirmDelete': 'Confirm Delete',
-  'app.kuaizhizao.purchaseRequisition.confirmDeleteContent': 'Delete purchase requisition {{code}}?',
-  'app.kuaizhizao.purchaseRequisition.confirmBatchDelete': 'Delete {{count}} selected purchase requisition(s)?',
-  'app.kuaizhizao.purchaseRequisition.importNoValidData': 'No valid data found (material code must not be empty)',
-  'app.kuaizhizao.purchaseRequisition.onlyDraftEditable': 'Only draft purchase requisitions can be edited',
+  'app.kuaizhizao.purchaseRequisition.confirmDeleteContent':
+    'Delete purchase requisition {{code}}?',
+  'app.kuaizhizao.purchaseRequisition.confirmBatchDelete':
+    'Delete {{count}} selected purchase requisition(s)?',
+  'app.kuaizhizao.purchaseRequisition.importNoValidData':
+    'No valid data found (material code must not be empty)',
+  'app.kuaizhizao.purchaseRequisition.onlyDraftEditable':
+    'Only draft purchase requisitions can be edited',
   'app.kuaizhizao.purchaseRequisition.loadFailed': 'Failed to load purchase requisition',
   'app.kuaizhizao.purchaseRequisition.detailFailed': 'Failed to load details',
   'app.kuaizhizao.purchaseRequisition.openFailed': 'Failed to open purchase requisition',
   'app.kuaizhizao.purchaseRequisition.atLeastOneItem': 'Add at least one valid requisition line',
   'app.kuaizhizao.purchaseRequisition.selectFirst': 'Select purchase requisition(s) first',
-  'app.kuaizhizao.purchaseRequisition.batchSubmitSuccess': 'Submitted {{count}} purchase requisition(s)',
+  'app.kuaizhizao.purchaseRequisition.batchSubmitSuccess':
+    'Submitted {{count}} purchase requisition(s)',
   'app.kuaizhizao.purchaseRequisition.batchSubmitPartial': '{{count}} submission(s) failed',
-  'app.kuaizhizao.purchaseRequisition.batchApproveSuccess': 'Approved {{count}} purchase requisition(s)',
+  'app.kuaizhizao.purchaseRequisition.batchApproveSuccess':
+    'Approved {{count}} purchase requisition(s)',
   'app.kuaizhizao.purchaseRequisition.batchApprovePartial': '{{count}} approval(s) failed',
-  'app.kuaizhizao.purchaseRequisition.batchWithdrawSuccess': 'Withdrew review for {{count}} purchase requisition(s)',
+  'app.kuaizhizao.purchaseRequisition.batchWithdrawSuccess':
+    'Withdrew review for {{count}} purchase requisition(s)',
   'app.kuaizhizao.purchaseRequisition.batchWithdrawPartial': '{{count}} withdrawal(s) failed',
   'app.kuaizhizao.purchaseRequisition.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.purchaseRequisition.batchApprove': 'Batch Approve',
   'app.kuaizhizao.purchaseRequisition.batchWithdraw': 'Batch Withdraw Review',
-  'app.kuaizhizao.purchaseRequisition.maintainSupplierFirst': 'Maintain supplier master data before pushing purchase orders',
-  'app.kuaizhizao.purchaseRequisition.noPushLines': 'No lines to push; all lines already converted to purchase orders',
+  'app.kuaizhizao.purchaseRequisition.maintainSupplierFirst':
+    'Maintain supplier master data before pushing purchase orders',
+  'app.kuaizhizao.purchaseRequisition.noPushLines':
+    'No lines to push; all lines already converted to purchase orders',
   'app.kuaizhizao.purchaseRequisition.pushPOTitle': 'Push Purchase Order',
   'app.kuaizhizao.purchaseRequisition.selectPushLines': 'Select lines to push',
-  'app.kuaizhizao.purchaseRequisition.selectLineSupplier': 'Select a supplier for each selected line',
+  'app.kuaizhizao.purchaseRequisition.selectLineSupplier':
+    'Select a supplier for each selected line',
   'app.kuaizhizao.purchaseRequisition.pushSuccess': 'Push succeeded',
   'app.kuaizhizao.purchaseRequisition.pushFailed': 'Push failed',
   'app.kuaizhizao.purchaseRequisition.viewPurchaseOrder': 'View {{code}}',
-  'app.kuaizhizao.purchaseRequisition.noInquiryLines': 'No lines to inquire; all lines already converted to purchase orders',
+  'app.kuaizhizao.purchaseRequisition.noInquiryLines':
+    'No lines to inquire; all lines already converted to purchase orders',
   'app.kuaizhizao.purchaseRequisition.pushInquiryTitle': 'Push Inquiry',
-  'app.kuaizhizao.purchaseRequisition.pushInquiryContent': 'Create an inquiry for {{count}} unconverted line(s). Continue?',
+  'app.kuaizhizao.purchaseRequisition.pushInquiryContent':
+    'Create an inquiry for {{count}} unconverted line(s). Continue?',
   'app.kuaizhizao.purchaseRequisition.inquiryCreated': 'Inquiry {{code}} created',
   'app.kuaizhizao.purchaseRequisition.inquiryCreateFailed': 'Failed to create inquiry',
   'app.kuaizhizao.purchaseRequisition.pushPO': 'Push Purchase Order',
@@ -5847,7 +6232,8 @@ export default {
   'app.kuaizhizao.purchaseRequisition.fixFailed': 'Failed to fix status',
   'app.kuaizhizao.purchaseRequisition.detailTitle': 'Purchase Requisition - {{code}}',
   'app.kuaizhizao.purchaseRequisition.form.code': 'Requisition No.',
-  'app.kuaizhizao.purchaseRequisition.form.codeDraftLocked': 'Code cannot be changed after draft is saved',
+  'app.kuaizhizao.purchaseRequisition.form.codeDraftLocked':
+    'Code cannot be changed after draft is saved',
   'app.kuaizhizao.purchaseRequisition.form.codeAuto': 'Auto-generated per code rule; editable',
   'app.kuaizhizao.purchaseRequisition.form.codeManual': 'Enter requisition no.',
   'app.kuaizhizao.purchaseRequisition.form.codeRequired': 'Enter requisition no.',
@@ -5883,7 +6269,8 @@ export default {
   'app.kuaizhizao.purchaseRequisition.import.lineDelivery': 'Line Delivery Date',
   'app.kuaizhizao.purchaseRequisition.import.lineNotes': 'Line Notes',
   'app.kuaizhizao.purchaseRequisition.import.exampleUnit': 'pcs',
-  'app.kuaizhizao.purchaseRequisition.pull.title': 'Create Purchase Requisition from Demand Computation',
+  'app.kuaizhizao.purchaseRequisition.pull.title':
+    'Create Purchase Requisition from Demand Computation',
   'app.kuaizhizao.purchaseRequisition.pull.ok': 'Create Purchase Requisition',
   'app.kuaizhizao.purchaseRequisition.pull.searchPlaceholder': 'Search by computation no.',
   'app.kuaizhizao.purchaseRequisition.pull.computationCode': 'Computation No.',
@@ -5893,16 +6280,23 @@ export default {
   'app.kuaizhizao.purchaseRequisition.pull.canCreate': 'Available',
   'app.kuaizhizao.purchaseRequisition.pull.cannotCreate': 'Unavailable',
   'app.kuaizhizao.purchaseRequisition.pull.noPurchaseItems': 'No purchasable lines',
-  'app.kuaizhizao.purchaseRequisition.pull.requisitionExists': 'Requisition already created or not convertible now',
+  'app.kuaizhizao.purchaseRequisition.pull.requisitionExists':
+    'Requisition already created or not convertible now',
   'app.kuaizhizao.purchaseRequisition.pull.selectComputation': 'Select a demand computation',
-  'app.kuaizhizao.purchaseRequisition.pull.computationUnavailable': 'This computation cannot be used to create a purchase requisition now',
-  'app.kuaizhizao.purchaseRequisition.pull.success': 'Purchase requisition created from demand computation',
-  'app.kuaizhizao.purchaseRequisition.pull.failed': 'Failed to create purchase requisition from demand computation',
+  'app.kuaizhizao.purchaseRequisition.pull.computationUnavailable':
+    'This computation cannot be used to create a purchase requisition now',
+  'app.kuaizhizao.purchaseRequisition.pull.success':
+    'Purchase requisition created from demand computation',
+  'app.kuaizhizao.purchaseRequisition.pull.failed':
+    'Failed to create purchase requisition from demand computation',
   'app.kuaizhizao.purchaseRequisition.convert.batchSupplier': 'Batch Default Supplier',
-  'app.kuaizhizao.purchaseRequisition.convert.batchPlaceholder': 'Apply selected supplier to checked rows',
+  'app.kuaizhizao.purchaseRequisition.convert.batchPlaceholder':
+    'Apply selected supplier to checked rows',
   'app.kuaizhizao.purchaseRequisition.convert.applyToSelected': 'Apply to Selected Rows',
-  'app.kuaizhizao.purchaseRequisition.convert.noSuppliers': 'No suppliers. Maintain supplier master data first.',
-  'app.kuaizhizao.purchaseRequisition.convert.persistSupplier': 'Write selected suppliers back to material default supplier (purchase items only)',
+  'app.kuaizhizao.purchaseRequisition.convert.noSuppliers':
+    'No suppliers. Maintain supplier master data first.',
+  'app.kuaizhizao.purchaseRequisition.convert.persistSupplier':
+    'Write selected suppliers back to material default supplier (purchase items only)',
   'app.kuaizhizao.purchaseRequisition.convert.col.supplier': 'Supplier',
   'app.kuaizhizao.purchaseRequisition.convert.col.demandQty': 'Demand Qty',
   'app.kuaizhizao.purchaseRequisition.convert.col.pushedQty': 'Pushed Qty',
@@ -5914,7 +6308,8 @@ export default {
   'app.kuaizhizao.purchaseRequisition.convert.col.unitPrice': 'Unit Price',
   'app.kuaizhizao.purchaseRequisition.convert.col.lineAmount': 'Line Amount',
   'app.kuaizhizao.purchaseRequisition.convert.selectSupplier': 'Select supplier',
-  'app.kuaizhizao.purchaseRequisition.convert.invalidUnitPrice': 'Enter a valid unit price for each selected line',
+  'app.kuaizhizao.purchaseRequisition.convert.invalidUnitPrice':
+    'Enter a valid unit price for each selected line',
   'app.kuaizhizao.purchaseRequisition.submitSuccess': 'Submitted successfully',
   'app.kuaizhizao.purchaseRequisition.submitFailed': 'Submit failed',
   'app.kuaizhizao.purchaseRequisition.loadDetailFailed': 'Failed to load details',
@@ -5954,28 +6349,35 @@ export default {
   'app.kuaizhizao.purchaseOrder.detailFailed': 'Failed to load purchase order details',
   'app.kuaizhizao.purchaseOrder.listFailed': 'Failed to load purchase order list',
   'app.kuaizhizao.purchaseOrder.highlightOverdue': 'Highlight overdue',
-  'app.kuaizhizao.purchaseOrder.loadRequisitionListFailed': 'Failed to load purchase requisition list',
+  'app.kuaizhizao.purchaseOrder.loadRequisitionListFailed':
+    'Failed to load purchase requisition list',
   'app.kuaizhizao.purchaseOrder.allReceived': 'Fully received; no lines available to push',
-  'app.kuaizhizao.purchaseOrder.pushReceiptSuccess': 'Purchase receipt created: {{code}}. Warehouse will process inbound via the board.',
+  'app.kuaizhizao.purchaseOrder.pushReceiptSuccess':
+    'Purchase receipt created: {{code}}. Warehouse will process inbound via the board.',
   'app.kuaizhizao.purchaseOrder.pushReceiptFailed': 'Failed to push purchase receipt',
   'app.kuaizhizao.purchaseOrder.pushNoticeSuccess': 'Receipt notice created: {{code}}',
   'app.kuaizhizao.purchaseOrder.pushNoticeFailed': 'Failed to push receipt notice',
-  'app.kuaizhizao.purchaseOrder.pushInvoiceSuccess': 'Purchase invoice created: {{code}}. Complete invoice details in Finance.',
+  'app.kuaizhizao.purchaseOrder.pushInvoiceSuccess':
+    'Purchase invoice created: {{code}}. Complete invoice details in Finance.',
   'app.kuaizhizao.purchaseOrder.pushInvoiceFailed': 'Failed to push purchase invoice',
   'app.kuaizhizao.purchaseOrder.noReturnableQty': 'No returnable quantity (received qty is 0)',
   'app.kuaizhizao.purchaseOrder.returnWarehouseRequired': 'Enter return warehouse ID first',
   'app.kuaizhizao.purchaseOrder.pushReturnSuccess': 'Purchase return created: {{code}}',
   'app.kuaizhizao.purchaseOrder.pushReturnFailed': 'Failed to push purchase return',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsUnreceived': 'Receipt qty for {{material}} cannot exceed unreceived qty {{max}}',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsNotice': 'Notice qty for {{material}} cannot exceed unreceived qty {{max}}',
-  'app.kuaizhizao.purchaseOrder.qtyExceedsReturnable': 'Return qty for {{material}} cannot exceed returnable qty {{max}}',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsUnreceived':
+    'Receipt qty for {{material}} cannot exceed unreceived qty {{max}}',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsNotice':
+    'Notice qty for {{material}} cannot exceed unreceived qty {{max}}',
+  'app.kuaizhizao.purchaseOrder.qtyExceedsReturnable':
+    'Return qty for {{material}} cannot exceed returnable qty {{max}}',
   'app.kuaizhizao.purchaseOrder.push.receiptNotice': 'Receipt Notice',
   'app.kuaizhizao.purchaseOrder.push.receipt': 'Purchase Receipt',
   'app.kuaizhizao.purchaseOrder.push.invoice': 'Purchase Invoice',
   'app.kuaizhizao.purchaseOrder.push.return': 'Purchase Return',
   'app.kuaizhizao.purchaseOrder.push.dropdown': 'Push',
   'app.kuaizhizao.purchaseOrder.deleteTitle': 'Delete Purchase Order',
-  'app.kuaizhizao.purchaseOrder.deleteContent': 'Delete purchase order "{{code}}"? This cannot be undone.',
+  'app.kuaizhizao.purchaseOrder.deleteContent':
+    'Delete purchase order "{{code}}"? This cannot be undone.',
   'app.kuaizhizao.purchaseOrder.deleteSuccess': 'Purchase order deleted',
   'app.kuaizhizao.purchaseOrder.deleteFailed': 'Failed to delete purchase order',
   'app.kuaizhizao.purchaseOrder.submitTitle': 'Submit Purchase Order',
@@ -5987,7 +6389,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.batchSubmitPartial': '{{count}} submission(s) failed',
   'app.kuaizhizao.purchaseOrder.batchApproveSuccess': 'Approved {{count}} purchase order(s)',
   'app.kuaizhizao.purchaseOrder.batchApprovePartial': '{{count}} approval(s) failed',
-  'app.kuaizhizao.purchaseOrder.batchPushNoticeSuccess': 'Pushed {{count}} purchase order(s) to receipt notice',
+  'app.kuaizhizao.purchaseOrder.batchPushNoticeSuccess':
+    'Pushed {{count}} purchase order(s) to receipt notice',
   'app.kuaizhizao.purchaseOrder.batchPushNoticePartial': '{{count}} push(es) failed',
   'app.kuaizhizao.purchaseOrder.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.purchaseOrder.batchApprove': 'Batch Approve',
@@ -5997,7 +6400,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.syncFailed': 'Sync failed',
   'app.kuaizhizao.purchaseOrder.importEmpty': 'Import data is empty or invalid',
   'app.kuaizhizao.purchaseOrder.importNoRows': 'No import rows (fill from row 3)',
-  'app.kuaizhizao.purchaseOrder.importMissingColumns': 'Missing required columns: supplier name, order date, material code, quantity',
+  'app.kuaizhizao.purchaseOrder.importMissingColumns':
+    'Missing required columns: supplier name, order date, material code, quantity',
   'app.kuaizhizao.purchaseOrder.importValidationTitle': 'Validation Failed',
   'app.kuaizhizao.purchaseOrder.importValidationIntro': 'Fix the following rows and import again:',
   'app.kuaizhizao.purchaseOrder.importRowError': 'Row {{row}}: {{message}}',
@@ -6009,26 +6413,36 @@ export default {
   'app.kuaizhizao.purchaseOrder.importNoData': 'No data to import',
   'app.kuaizhizao.purchaseOrder.importingTitle': 'Importing Purchase Orders',
   'app.kuaizhizao.purchaseOrder.importPartialTitle': 'Import Completed (Partial Failure)',
-  'app.kuaizhizao.purchaseOrder.importPartialSummary': 'Result: {{success}} succeeded, {{failed}} failed',
+  'app.kuaizhizao.purchaseOrder.importPartialSummary':
+    'Result: {{success}} succeeded, {{failed}} failed',
   'app.kuaizhizao.purchaseOrder.importPartialRowError': 'Row {{row}}: {{error}}',
   'app.kuaizhizao.purchaseOrder.importSuccess': 'Imported {{count}} purchase order(s)',
   'app.kuaizhizao.purchaseOrder.importFailed': 'Import failed',
-  'app.kuaizhizao.purchaseOrder.selectRequisitionLinesFirst': 'Select purchase requisition line(s) first',
+  'app.kuaizhizao.purchaseOrder.selectRequisitionLinesFirst':
+    'Select purchase requisition line(s) first',
   'app.kuaizhizao.purchaseOrder.createdFromRequisition': 'Created {{target}}: {{codes}}',
-  'app.kuaizhizao.purchaseOrder.createFromRequisitionFailed': 'Failed to create {{target}} from {{source}}',
-  'app.kuaizhizao.purchaseOrder.atLeastOneItem': 'Add at least one valid purchase line (material + quantity)',
-  'app.kuaizhizao.purchaseOrder.lineRequiredDateMissing': 'Row {{row}}: select required delivery date',
+  'app.kuaizhizao.purchaseOrder.createFromRequisitionFailed':
+    'Failed to create {{target}} from {{source}}',
+  'app.kuaizhizao.purchaseOrder.atLeastOneItem':
+    'Add at least one valid purchase line (material + quantity)',
+  'app.kuaizhizao.purchaseOrder.lineRequiredDateMissing':
+    'Row {{row}}: select required delivery date',
   'app.kuaizhizao.purchaseOrder.updateSuccess': 'Purchase order updated',
   'app.kuaizhizao.purchaseOrder.createSuccess': 'Purchase order created',
-  'app.kuaizhizao.purchaseOrder.saveSubmitAutoApproved': 'Purchase order saved and submitted; auto-approved',
+  'app.kuaizhizao.purchaseOrder.saveSubmitAutoApproved':
+    'Purchase order saved and submitted; auto-approved',
   'app.kuaizhizao.purchaseOrder.saveSubmitPending': 'Purchase order saved and submitted for review',
-  'app.kuaizhizao.purchaseOrder.createSubmitAutoApproved': 'Purchase order created and submitted; auto-approved',
-  'app.kuaizhizao.purchaseOrder.createSubmitPending': 'Purchase order created and submitted for review',
-  'app.kuaizhizao.purchaseOrder.saveSubmitFailed': 'Saved, but submit failed: {{message}}. Retry with Submit for Review in the list.',
+  'app.kuaizhizao.purchaseOrder.createSubmitAutoApproved':
+    'Purchase order created and submitted; auto-approved',
+  'app.kuaizhizao.purchaseOrder.createSubmitPending':
+    'Purchase order created and submitted for review',
+  'app.kuaizhizao.purchaseOrder.saveSubmitFailed':
+    'Saved, but submit failed: {{message}}. Retry with Submit for Review in the list.',
   'app.kuaizhizao.purchaseOrder.saveDraft': 'Save',
   'app.kuaizhizao.purchaseOrder.createAndSubmit': 'Create & Submit',
   'app.kuaizhizao.purchaseOrder.saveAndSubmit': 'Save & Submit',
-  'app.kuaizhizao.purchaseOrder.fillRequiredBeforeSubmit': 'Complete required fields before submitting',
+  'app.kuaizhizao.purchaseOrder.fillRequiredBeforeSubmit':
+    'Complete required fields before submitting',
   'app.kuaizhizao.purchaseOrder.form.orderCode': 'Purchase Order No.',
   'app.kuaizhizao.purchaseOrder.form.orderDate': 'Order Date',
   'app.kuaizhizao.purchaseOrder.form.orderDateRequired': 'Select order date',
@@ -6071,8 +6485,10 @@ export default {
   'app.kuaizhizao.purchaseOrder.importItems.unitPrice': 'Unit Price',
   'app.kuaizhizao.purchaseOrder.importItems.requiredDate': 'Required Delivery',
   'app.kuaizhizao.purchaseOrder.importItems.exampleUnit': 'pcs',
-  'app.kuaizhizao.purchaseOrder.importNoValidData': 'No valid data found (material code must not be empty)',
-  'app.kuaizhizao.purchaseOrder.orderTypeFallback': 'Order type dictionary unavailable; using built-in options',
+  'app.kuaizhizao.purchaseOrder.importNoValidData':
+    'No valid data found (material code must not be empty)',
+  'app.kuaizhizao.purchaseOrder.orderTypeFallback':
+    'Order type dictionary unavailable; using built-in options',
   'app.kuaizhizao.purchaseOrder.orderTypeStandard': 'Standard Purchase',
   'app.kuaizhizao.purchaseOrder.orderTypeFramework': 'Framework Agreement',
   'app.kuaizhizao.purchaseOrder.currencyCny': 'CNY (Renminbi)',
@@ -6089,7 +6505,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.pull.searchPlaceholder': 'Search requisition lines (code/name)',
   'app.kuaizhizao.purchaseOrder.pull.empty': 'No selectable requisition lines',
   'app.kuaizhizao.purchaseOrder.pull.emptySearch': 'No matching requisition lines',
-  'app.kuaizhizao.purchaseOrder.pull.selectedSummary': '{{count}} line(s) selected; draft purchase orders will be split by requisition and supplier.',
+  'app.kuaizhizao.purchaseOrder.pull.selectedSummary':
+    '{{count}} line(s) selected; draft purchase orders will be split by requisition and supplier.',
   'app.kuaizhizao.purchaseOrder.pull.supplierAssigned': 'Assigned ({{id}})',
   'app.kuaizhizao.purchaseOrder.pull.supplierPending': 'TBD (fill in draft)',
   'app.kuaizhizao.purchaseOrder.pull.convertedTag': 'Converted to PO #{{id}}',
@@ -6104,7 +6521,8 @@ export default {
   'app.kuaizhizao.purchaseOrder.empower.compare': 'Compare',
   'app.kuaizhizao.purchaseOrder.empower.compareTitle': 'Price Comparison Assistant',
   'app.kuaizhizao.purchaseOrder.empower.compareEmpty': 'No other supplier transaction history',
-  'app.kuaizhizao.purchaseOrder.empower.compareIntro': 'Transaction records for material {{name}}{{code}}:',
+  'app.kuaizhizao.purchaseOrder.empower.compareIntro':
+    'Transaction records for material {{name}}{{code}}:',
   'app.kuaizhizao.purchaseOrder.empower.compareIntroCode': ' ({{code}})',
   'app.kuaizhizao.purchaseOrder.empower.dealPrice': 'Deal Price',
   'app.kuaizhizao.purchaseOrder.empower.purchaseDate': 'Purchase Date',
@@ -6128,23 +6546,29 @@ export default {
   'app.kuaizhizao.purchaseOrder.landingCost.title': 'Landing Cost Allocation - {{code}}',
   'app.kuaizhizao.purchaseOrder.landingCost.confirm': 'Allocate',
   'app.kuaizhizao.purchaseOrder.landingCost.method': 'Allocation Method',
-  'app.kuaizhizao.purchaseOrder.landingCost.methodTooltip': 'Allocate total fees to lines proportionally by the selected dimension',
+  'app.kuaizhizao.purchaseOrder.landingCost.methodTooltip':
+    'Allocate total fees to lines proportionally by the selected dimension',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByValue': 'By amount (value weighted)',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByQuantity': 'By quantity (quantity weighted)',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByWeight': 'By weight (requires material weight)',
   'app.kuaizhizao.purchaseOrder.landingCost.methodByVolume': 'By volume (requires material volume)',
   'app.kuaizhizao.purchaseOrder.landingCost.feeListDivider': 'Fees to Allocate',
   'app.kuaizhizao.purchaseOrder.landingCost.feeNameRequired': 'Enter fee name',
-  'app.kuaizhizao.purchaseOrder.landingCost.feeNamePlaceholder': 'Fee name (e.g. customs, packaging)',
+  'app.kuaizhizao.purchaseOrder.landingCost.feeNamePlaceholder':
+    'Fee name (e.g. customs, packaging)',
   'app.kuaizhizao.purchaseOrder.landingCost.feeAmountRequired': 'Enter amount',
   'app.kuaizhizao.purchaseOrder.landingCost.feeAmount': 'Amount',
   'app.kuaizhizao.purchaseOrder.landingCost.addFee': 'Add Fee Item',
   'app.kuaizhizao.purchaseOrder.landingCost.notesTitle': 'Notes:',
-  'app.kuaizhizao.purchaseOrder.landingCost.note1': 'Allocated fees are stored in each line landing_cost field.',
-  'app.kuaizhizao.purchaseOrder.landingCost.note2': 'Actual total cost is recalculated automatically.',
-  'app.kuaizhizao.purchaseOrder.landingCost.note3': 'If weight/volume data is missing, allocation falls back to equal split by line.',
+  'app.kuaizhizao.purchaseOrder.landingCost.note1':
+    'Allocated fees are stored in each line landing_cost field.',
+  'app.kuaizhizao.purchaseOrder.landingCost.note2':
+    'Actual total cost is recalculated automatically.',
+  'app.kuaizhizao.purchaseOrder.landingCost.note3':
+    'If weight/volume data is missing, allocation falls back to equal split by line.',
   'app.kuaizhizao.purchaseOrder.landingCost.success': 'Fees allocated; line landing costs updated',
-  'app.kuaizhizao.purchaseOrder.landingCost.failed': 'Allocation failed; check network or server logs',
+  'app.kuaizhizao.purchaseOrder.landingCost.failed':
+    'Allocation failed; check network or server logs',
   'app.kuaizhizao.purchaseOrder.landingCost.defaultFeeName': 'Freight',
   'app.kuaizhizao.purchaseOrder.loadDetailFailed': 'Failed to load purchase order details',
   'app.kuaizhizao.purchaseOrder.col.orderedQty': 'Ordered Qty',
@@ -6177,24 +6601,33 @@ export default {
   'app.kuaizhizao.purchaseOrder.pushNoticeModalTitle': 'Push to Receipt Notice',
   'app.kuaizhizao.purchaseOrder.pushReturnModalTitle': 'Push to Purchase Return',
   'app.kuaizhizao.purchaseOrder.confirmPush': 'Confirm Push',
-  'app.kuaizhizao.purchaseOrder.pushReceiptIntro': 'Push purchase order {{code}} to a receipt. Each line can have its own warehouse and location; use default warehouse above to batch-fill lines. Verify receipt qty (cannot exceed unreceived). Warehouse confirms inbound on the board.',
+  'app.kuaizhizao.purchaseOrder.pushReceiptIntro':
+    'Push purchase order {{code}} to a receipt. Each line can have its own warehouse and location; use default warehouse above to batch-fill lines. Verify receipt qty (cannot exceed unreceived). Warehouse confirms inbound on the board.',
   'app.kuaizhizao.purchaseOrder.pushReceiptWarehouse': 'Warehouse',
   'app.kuaizhizao.purchaseOrder.pushReceiptLocation': 'Location',
-  'app.kuaizhizao.purchaseOrder.pushReceiptDefaultWarehouse': 'Default warehouse (batch fill lines)',
-  'app.kuaizhizao.purchaseOrder.pushReceiptBatchWarehousePlaceholder': 'Applies to all detail lines',
+  'app.kuaizhizao.purchaseOrder.pushReceiptDefaultWarehouse':
+    'Default warehouse (batch fill lines)',
+  'app.kuaizhizao.purchaseOrder.pushReceiptBatchWarehousePlaceholder':
+    'Applies to all detail lines',
   'app.kuaizhizao.purchaseOrder.pushReceiptSelectWarehouse': 'Select warehouse',
-  'app.kuaizhizao.purchaseOrder.pushReceiptSelectLineWarehouse': 'Select warehouse for {{material}}',
+  'app.kuaizhizao.purchaseOrder.pushReceiptSelectLineWarehouse':
+    'Select warehouse for {{material}}',
   'app.kuaizhizao.purchaseOrder.pushReceiptSelectLocation': 'Select location (optional)',
   'app.kuaizhizao.purchaseOrder.pushReceiptSelectWarehouseFirst': 'Select warehouse first',
-  'app.kuaizhizao.purchaseOrder.pushReceiptNoWarehouse': 'No active warehouse configured. Maintain warehouses in master data first.',
-  'app.kuaizhizao.purchaseOrder.pushReceiptQtyRequired': 'Enter receipt quantity for at least one line',
-  'app.kuaizhizao.purchaseOrder.pushNoticeIntro': 'Push purchase order {{code}} to a receipt notice. Edit notice qty per line (cannot exceed unreceived qty):',
-  'app.kuaizhizao.purchaseOrder.pushReturnIntro': 'Push purchase order {{code}} to a purchase return. Edit return qty per line (cannot exceed received qty):',
+  'app.kuaizhizao.purchaseOrder.pushReceiptNoWarehouse':
+    'No active warehouse configured. Maintain warehouses in master data first.',
+  'app.kuaizhizao.purchaseOrder.pushReceiptQtyRequired':
+    'Enter receipt quantity for at least one line',
+  'app.kuaizhizao.purchaseOrder.pushNoticeIntro':
+    'Push purchase order {{code}} to a receipt notice. Edit notice qty per line (cannot exceed unreceived qty):',
+  'app.kuaizhizao.purchaseOrder.pushReturnIntro':
+    'Push purchase order {{code}} to a purchase return. Edit return qty per line (cannot exceed received qty):',
   'app.kuaizhizao.purchaseOrder.loading': 'Loading...',
   'app.kuaizhizao.purchaseOrder.returnWarehouseIdPlaceholder': 'Return warehouse ID',
   'app.kuaizhizao.purchaseOrder.returnWarehouseNamePlaceholder': 'Return warehouse name (optional)',
   'app.kuaizhizao.purchaseDashboard.kpi.pendingRequisitions': 'Pending Requisitions',
-  'app.kuaizhizao.purchaseDashboard.kpi.newRequisitionsThisMonth': '{{count}} new requisition(s) this month',
+  'app.kuaizhizao.purchaseDashboard.kpi.newRequisitionsThisMonth':
+    '{{count}} new requisition(s) this month',
   'app.kuaizhizao.purchaseDashboard.kpi.newThisMonth': 'New This Month',
   'app.kuaizhizao.purchaseDashboard.kpi.pendingReceipts': 'Orders Pending Receipt',
   'app.kuaizhizao.purchaseDashboard.kpi.overdueReceiptsSubtitle': '{{count}} overdue delivery(ies)',
@@ -6241,7 +6674,8 @@ export default {
   'app.kuaizhizao.purchaseReports.colActualQty': 'Actual Qty',
   'app.kuaizhizao.purchaseReports.colOntimeRate': 'On-time Rate',
   'app.kuaizhizao.productionExecutionDashboard.kpi.pendingScheduling': 'Pending Scheduling',
-  'app.kuaizhizao.productionExecutionDashboard.kpi.pendingSchedulingSubtitle': 'Draft work orders awaiting release',
+  'app.kuaizhizao.productionExecutionDashboard.kpi.pendingSchedulingSubtitle':
+    'Draft work orders awaiting release',
   'app.kuaizhizao.productionExecutionDashboard.kpi.reworkInProgress': 'Rework',
   'app.kuaizhizao.productionExecutionDashboard.kpi.inProgress': 'In Progress',
   'app.kuaizhizao.productionExecutionDashboard.kpi.inProgressSubtitle': 'Released / in production',
@@ -6392,7 +6826,8 @@ export default {
   'app.kuaizhizao.productionException.field.handler': 'Handled By',
   'app.kuaizhizao.productionException.field.handledAt': 'Handled At',
   'app.kuaizhizao.productionException.placeholder.remarksOptional': 'Enter remarks (optional)',
-  'app.kuaizhizao.productionException.placeholder.handleRemarksOptional': 'Enter handling remarks (optional)',
+  'app.kuaizhizao.productionException.placeholder.handleRemarksOptional':
+    'Enter handling remarks (optional)',
   'app.kuaizhizao.productionException.label.levelSuffix': '{{level}} Level',
   'app.kuaizhizao.productionException.label.daysUnit': '{{count}} days',
   'app.kuaizhizao.productionException.message.handleSuccess': 'Handled successfully',
@@ -6411,50 +6846,75 @@ export default {
   'app.kuaizhizao.productionException.quality.severity.critical': 'Critical',
   'app.kuaizhizao.productionException.quality.exceptionType.inspectionFailure': 'Inspection Failed',
   'app.kuaizhizao.productionException.quality.exceptionType.processDeviation': 'Process Deviation',
-  'app.kuaizhizao.productionException.quality.exceptionType.customerComplaint': 'Customer Complaint',
+  'app.kuaizhizao.productionException.quality.exceptionType.customerComplaint':
+    'Customer Complaint',
   'app.kuaizhizao.productionException.quality.field.rootCause': 'Root Cause',
   'app.kuaizhizao.productionException.quality.field.correctiveAction': 'Corrective Action',
   'app.kuaizhizao.productionException.quality.field.preventiveAction': 'Preventive Action',
-  'app.kuaizhizao.productionException.quality.field.plannedCompletionDate': 'Planned Completion Date',
+  'app.kuaizhizao.productionException.quality.field.plannedCompletionDate':
+    'Planned Completion Date',
   'app.kuaizhizao.productionException.quality.field.actualCompletionDate': 'Actual Completion Date',
   'app.kuaizhizao.productionException.quality.field.verificationResult': 'Verification Result',
   'app.kuaizhizao.productionException.quality.section.investigation': 'Investigation',
   'app.kuaizhizao.productionException.quality.section.corrective': 'Corrective Actions',
   'app.kuaizhizao.productionException.quality.section.verification': 'Verification',
-  'app.kuaizhizao.productionException.quality.modal.handleInvestigate': 'Handle Quality Exception - Investigate',
-  'app.kuaizhizao.productionException.quality.modal.handleCorrect': 'Handle Quality Exception - Correct',
-  'app.kuaizhizao.productionException.quality.modal.handleClose': 'Handle Quality Exception - Close',
-  'app.kuaizhizao.productionException.quality.modal.handleCancel': 'Handle Quality Exception - Cancel',
+  'app.kuaizhizao.productionException.quality.modal.handleInvestigate':
+    'Handle Quality Exception - Investigate',
+  'app.kuaizhizao.productionException.quality.modal.handleCorrect':
+    'Handle Quality Exception - Correct',
+  'app.kuaizhizao.productionException.quality.modal.handleClose':
+    'Handle Quality Exception - Close',
+  'app.kuaizhizao.productionException.quality.modal.handleCancel':
+    'Handle Quality Exception - Cancel',
   'app.kuaizhizao.productionException.quality.modal.handleDefault': 'Handle Quality Exception',
   'app.kuaizhizao.productionException.quality.action.start8D': 'Start 8D',
-  'app.kuaizhizao.productionException.quality.action.viewSourceInspection': 'View Source Inspection',
-  'app.kuaizhizao.productionException.quality.action.viewNonconformingLedger': 'View Nonconforming Ledger',
+  'app.kuaizhizao.productionException.quality.action.viewSourceInspection':
+    'View Source Inspection',
+  'app.kuaizhizao.productionException.quality.action.viewNonconformingLedger':
+    'View Nonconforming Ledger',
   'app.kuaizhizao.productionException.quality.message.start8DSuccess': '8D report started',
   'app.kuaizhizao.productionException.quality.message.start8DFailed': 'Failed to start 8D',
   'app.kuaizhizao.productionException.quality.placeholder.rootCause': 'Enter root cause (optional)',
-  'app.kuaizhizao.productionException.quality.placeholder.correctiveAction': 'Enter corrective action (optional)',
-  'app.kuaizhizao.productionException.quality.placeholder.preventiveAction': 'Enter preventive action (optional)',
-  'app.kuaizhizao.productionException.quality.placeholder.responsiblePerson': 'Select responsible person (optional)',
-  'app.kuaizhizao.productionException.quality.placeholder.plannedCompletionDate': 'Select planned completion date (optional)',
-  'app.kuaizhizao.productionException.quality.placeholder.verificationResult': 'Enter verification result (optional)',
+  'app.kuaizhizao.productionException.quality.placeholder.correctiveAction':
+    'Enter corrective action (optional)',
+  'app.kuaizhizao.productionException.quality.placeholder.preventiveAction':
+    'Enter preventive action (optional)',
+  'app.kuaizhizao.productionException.quality.placeholder.responsiblePerson':
+    'Select responsible person (optional)',
+  'app.kuaizhizao.productionException.quality.placeholder.plannedCompletionDate':
+    'Select planned completion date (optional)',
+  'app.kuaizhizao.productionException.quality.placeholder.verificationResult':
+    'Enter verification result (optional)',
   'app.kuaizhizao.productionException.quality.defaultReportTitle': 'Quality Exception',
   'app.kuaizhizao.productionException.quality.defaultReportSuffix': '8D Report',
   'app.kuaizhizao.productionException.materialShortage.pageTitle': 'Material Shortage Exceptions',
   'app.kuaizhizao.productionException.materialShortage.detailTitle': 'Material Shortage - {{code}}',
-  'app.kuaizhizao.productionException.materialShortage.modal.handlePurchase': 'Handle Material Shortage - Purchase',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleSubstitute': 'Handle Material Shortage - Substitute',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleResolve': 'Handle Material Shortage - Resolved',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleCancel': 'Handle Material Shortage - Cancel',
-  'app.kuaizhizao.productionException.materialShortage.modal.handleDefault': 'Handle Material Shortage',
-  'app.kuaizhizao.productionException.materialShortage.placeholder.alternativeMaterial': 'Select alternative material',
-  'app.kuaizhizao.productionException.materialShortage.validation.alternativeMaterialRequired': 'Please select alternative material',
+  'app.kuaizhizao.productionException.materialShortage.modal.handlePurchase':
+    'Handle Material Shortage - Purchase',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleSubstitute':
+    'Handle Material Shortage - Substitute',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleResolve':
+    'Handle Material Shortage - Resolved',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleCancel':
+    'Handle Material Shortage - Cancel',
+  'app.kuaizhizao.productionException.materialShortage.modal.handleDefault':
+    'Handle Material Shortage',
+  'app.kuaizhizao.productionException.materialShortage.placeholder.alternativeMaterial':
+    'Select alternative material',
+  'app.kuaizhizao.productionException.materialShortage.validation.alternativeMaterialRequired':
+    'Please select alternative material',
   'app.kuaizhizao.productionException.deliveryDelay.pageTitle': 'Delivery Delay Exceptions',
   'app.kuaizhizao.productionException.deliveryDelay.detailTitle': 'Delivery Delay - {{code}}',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleAdjustPlan': 'Handle Delivery Delay - Adjust Plan',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleIncreaseResources': 'Handle Delivery Delay - Add Resources',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleExpedite': 'Handle Delivery Delay - Expedite',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleResolve': 'Handle Delivery Delay - Resolved',
-  'app.kuaizhizao.productionException.deliveryDelay.modal.handleCancel': 'Handle Delivery Delay - Cancel',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleAdjustPlan':
+    'Handle Delivery Delay - Adjust Plan',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleIncreaseResources':
+    'Handle Delivery Delay - Add Resources',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleExpedite':
+    'Handle Delivery Delay - Expedite',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleResolve':
+    'Handle Delivery Delay - Resolved',
+  'app.kuaizhizao.productionException.deliveryDelay.modal.handleCancel':
+    'Handle Delivery Delay - Cancel',
   'app.kuaizhizao.productionException.deliveryDelay.modal.handleDefault': 'Handle Delivery Delay',
   'app.kuaizhizao.productionException.process.createButton': 'New Exception Process',
   'app.kuaizhizao.productionException.process.detailTitle': 'Exception Process Details',
@@ -6466,37 +6926,52 @@ export default {
   'app.kuaizhizao.productionException.process.modal.resolve': 'Resolve Exception Process',
   'app.kuaizhizao.productionException.process.field.exceptionRecord': 'Exception Record',
   'app.kuaizhizao.productionException.process.field.targetStep': 'Target Step',
-  'app.kuaizhizao.productionException.process.validation.exceptionTypeRequired': 'Please select exception type',
-  'app.kuaizhizao.productionException.process.validation.exceptionRecordRequired': 'Please select exception record',
-  'app.kuaizhizao.productionException.process.validation.assigneeRequired': 'Please select assignee',
-  'app.kuaizhizao.productionException.process.validation.targetStepRequired': 'Please select target step',
+  'app.kuaizhizao.productionException.process.validation.exceptionTypeRequired':
+    'Please select exception type',
+  'app.kuaizhizao.productionException.process.validation.exceptionRecordRequired':
+    'Please select exception record',
+  'app.kuaizhizao.productionException.process.validation.assigneeRequired':
+    'Please select assignee',
+  'app.kuaizhizao.productionException.process.validation.targetStepRequired':
+    'Please select target step',
   'app.kuaizhizao.productionException.process.confirm.cancelTitle': 'Confirm Cancel',
-  'app.kuaizhizao.productionException.process.confirm.cancelContent': 'Cancel this exception process?',
-  'app.kuaizhizao.productionException.process.confirm.batchCancel': 'Cancel {{count}} selected exception processes?',
+  'app.kuaizhizao.productionException.process.confirm.cancelContent':
+    'Cancel this exception process?',
+  'app.kuaizhizao.productionException.process.confirm.batchCancel':
+    'Cancel {{count}} selected exception processes?',
   'app.kuaizhizao.productionException.process.message.startSuccess': 'Exception process started',
-  'app.kuaizhizao.productionException.process.message.startFailed': 'Failed to start exception process',
+  'app.kuaizhizao.productionException.process.message.startFailed':
+    'Failed to start exception process',
   'app.kuaizhizao.productionException.process.message.assignSuccess': 'Assigned successfully',
   'app.kuaizhizao.productionException.process.message.assignFailed': 'Assign failed',
-  'app.kuaizhizao.productionException.process.message.transitionSuccess': 'Step transitioned successfully',
+  'app.kuaizhizao.productionException.process.message.transitionSuccess':
+    'Step transitioned successfully',
   'app.kuaizhizao.productionException.process.message.transitionFailed': 'Step transition failed',
   'app.kuaizhizao.productionException.process.message.resolveSuccess': 'Exception resolved',
   'app.kuaizhizao.productionException.process.message.resolveFailed': 'Resolve failed',
   'app.kuaizhizao.productionException.process.message.cancelSuccess': 'Cancelled',
   'app.kuaizhizao.productionException.process.message.cancelFailed': 'Cancel failed',
-  'app.kuaizhizao.productionException.process.message.batchCancelSuccess': 'Cancelled {{count}} records',
-  'app.kuaizhizao.productionException.process.message.batchCancelPartialSuccess': 'Cancelled {{success}} processes',
-  'app.kuaizhizao.productionException.process.message.batchCancelPartialFailed': '{{failed}} cancellations failed',
-  'app.kuaizhizao.productionException.process.message.selectFirst': 'Select exception processes first',
+  'app.kuaizhizao.productionException.process.message.batchCancelSuccess':
+    'Cancelled {{count}} records',
+  'app.kuaizhizao.productionException.process.message.batchCancelPartialSuccess':
+    'Cancelled {{success}} processes',
+  'app.kuaizhizao.productionException.process.message.batchCancelPartialFailed':
+    '{{failed}} cancellations failed',
+  'app.kuaizhizao.productionException.process.message.selectFirst':
+    'Select exception processes first',
   'app.kuaizhizao.productionException.process.batch.cancel': 'Batch Cancel Processes',
-  'app.kuaizhizao.productionException.process.displayName.materialShortage': 'Material Shortage - {{code}}',
-  'app.kuaizhizao.productionException.process.displayName.deliveryDelay': 'Delivery Delay - {{code}}',
+  'app.kuaizhizao.productionException.process.displayName.materialShortage':
+    'Material Shortage - {{code}}',
+  'app.kuaizhizao.productionException.process.displayName.deliveryDelay':
+    'Delivery Delay - {{code}}',
   'app.kuaizhizao.productionException.process.displayName.quality': 'Quality Exception - {{code}}',
   'app.kuaizhizao.productionException.statistics.dateRange': 'Date Range:',
   'app.kuaizhizao.productionException.statistics.triggerDetection': 'Trigger Detection',
   'app.kuaizhizao.productionException.statistics.overallTitle': 'Overall Statistics',
   'app.kuaizhizao.productionException.statistics.totalExceptions': 'Total Exceptions',
   'app.kuaizhizao.productionException.statistics.resolutionRate': 'Resolution Rate',
-  'app.kuaizhizao.productionException.statistics.materialShortageTitle': 'Material Shortage Statistics',
+  'app.kuaizhizao.productionException.statistics.materialShortageTitle':
+    'Material Shortage Statistics',
   'app.kuaizhizao.productionException.statistics.materialShortageTotal': 'Total Material Shortages',
   'app.kuaizhizao.productionException.statistics.deliveryDelayTitle': 'Delivery Delay Statistics',
   'app.kuaizhizao.productionException.statistics.deliveryDelayTotal': 'Total Delivery Delays',
@@ -6504,19 +6979,23 @@ export default {
   'app.kuaizhizao.productionException.statistics.qualityTotal': 'Total Quality Exceptions',
   'app.kuaizhizao.productionException.statistics.byLevelDistribution': 'By Alert Level',
   'app.kuaizhizao.productionException.statistics.bySeverityDistribution': 'By Severity',
-  'app.kuaizhizao.productionException.statistics.typeDistributionTitle': 'Exception Type Distribution',
+  'app.kuaizhizao.productionException.statistics.typeDistributionTitle':
+    'Exception Type Distribution',
   'app.kuaizhizao.productionException.statistics.chart.typeMaterialShortage': 'Material Shortage',
   'app.kuaizhizao.productionException.statistics.chart.typeDeliveryDelay': 'Delivery Delay',
   'app.kuaizhizao.productionException.statistics.chart.typeQuality': 'Quality Exception',
-  'app.kuaizhizao.productionException.statistics.message.triggerSuccess': 'Detection triggered; refresh results shortly',
-  'app.kuaizhizao.productionException.statistics.message.triggerFailed': 'Failed to trigger detection',
+  'app.kuaizhizao.productionException.statistics.message.triggerSuccess':
+    'Detection triggered; refresh results shortly',
+  'app.kuaizhizao.productionException.statistics.message.triggerFailed':
+    'Failed to trigger detection',
   'app.kuaizhizao.productionException.statistics.message.fetchFailed': 'Failed to load statistics',
   'app.kuaizhizao.outsourceWorkOrder.title': 'Outsource Work Orders',
   'app.kuaizhizao.outsourceWorkOrder.createButton': 'New Outsource Work Order',
   'app.kuaizhizao.outsourceWorkOrder.createTitle': 'New Outsource Work Order',
   'app.kuaizhizao.outsourceWorkOrder.editTitle': 'Edit Outsource Work Order',
   'app.kuaizhizao.outsourceWorkOrder.detailTitle': 'Outsource Work Order Details',
-  'app.kuaizhizao.outsourceWorkOrder.confirmBatchDelete': 'Delete the selected {{count}} outsource work order(s)?',
+  'app.kuaizhizao.outsourceWorkOrder.confirmBatchDelete':
+    'Delete the selected {{count}} outsource work order(s)?',
   'app.kuaizhizao.outsourceWorkOrder.statTotal': 'Total Outsource Work Orders',
   'app.kuaizhizao.outsourceWorkOrder.statDraft': 'Draft',
   'app.kuaizhizao.outsourceWorkOrder.statInProgress': 'In Progress',
@@ -6554,21 +7033,26 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.actionIssue': 'Issue Materials',
   'app.kuaizhizao.outsourceWorkOrder.actionReceipt': 'Receive',
   'app.kuaizhizao.outsourceWorkOrder.fetchDataFailed': 'Failed to load data',
-  'app.kuaizhizao.outsourceWorkOrder.fetchDetailFailed': 'Failed to load outsource work order details',
+  'app.kuaizhizao.outsourceWorkOrder.fetchDetailFailed':
+    'Failed to load outsource work order details',
   'app.kuaizhizao.outsourceWorkOrder.fetchListFailed': 'Failed to load outsource work order list',
   'app.kuaizhizao.outsourceWorkOrder.selectToDelete': 'Select outsource work orders to delete',
   'app.kuaizhizao.outsourceWorkOrder.deleteSuccess': 'Deleted {{count}} record(s)',
   'app.kuaizhizao.outsourceWorkOrder.createSuccess': 'Outsource work order created',
   'app.kuaizhizao.outsourceWorkOrder.updateSuccess': 'Outsource work order updated',
   'app.kuaizhizao.outsourceWorkOrder.operationFailed': 'Operation failed',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowed': 'This material source type cannot create outsource work orders. Select another material.',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowed':
+    'This material source type cannot create outsource work orders. Select another material.',
   'app.kuaizhizao.outsourceWorkOrder.materialSourceType': 'Material source type:',
   'app.kuaizhizao.outsourceWorkOrder.materialSourceNotConfigured': 'Not configured',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowedHint': 'This material source type cannot create outsource work orders. Select an outsource material.',
-  'app.kuaizhizao.outsourceWorkOrder.materialSourceValidationPass': 'Material source validated. You can create an outsource work order.',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceNotAllowedHint':
+    'This material source type cannot create outsource work orders. Select an outsource material.',
+  'app.kuaizhizao.outsourceWorkOrder.materialSourceValidationPass':
+    'Material source validated. You can create an outsource work order.',
   'app.kuaizhizao.outsourceWorkOrder.defaultSupplier': 'Default supplier:',
   'app.kuaizhizao.outsourceWorkOrder.outsourceOperationLabel': 'Outsource operation:',
-  'app.kuaizhizao.outsourceWorkOrder.validationNotOutsource': 'Material source is not Outsource. Current type: {{type}}',
+  'app.kuaizhizao.outsourceWorkOrder.validationNotOutsource':
+    'Material source is not Outsource. Current type: {{type}}',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypeMake': 'Make',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypeBuy': 'Buy',
   'app.kuaizhizao.outsourceWorkOrder.sourceTypePhantom': 'Phantom',
@@ -6588,7 +7072,8 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.placeholderProduct': 'Select product (outsource item)',
   'app.kuaizhizao.outsourceWorkOrder.placeholderQuantity': 'Enter planned outsource quantity',
   'app.kuaizhizao.outsourceWorkOrder.placeholderSupplier': 'Select outsource supplier',
-  'app.kuaizhizao.outsourceWorkOrder.placeholderUnitPrice': 'Enter unit price (auto-filled from material config)',
+  'app.kuaizhizao.outsourceWorkOrder.placeholderUnitPrice':
+    'Enter unit price (auto-filled from material config)',
   'app.kuaizhizao.outsourceWorkOrder.placeholderPriority': 'Select priority',
   'app.kuaizhizao.outsourceWorkOrder.placeholderPlannedStart': 'Select planned start time',
   'app.kuaizhizao.outsourceWorkOrder.placeholderPlannedEnd': 'Select planned end time',
@@ -6610,7 +7095,8 @@ export default {
   'app.kuaizhizao.outsourceWorkOrder.createIssueFailed': 'Failed to create outsource issue',
   'app.kuaizhizao.outsourceWorkOrder.receiptNoQty': 'Enter receipt quantity',
   'app.kuaizhizao.outsourceWorkOrder.receiptSelectWarehouse': 'Select inbound warehouse',
-  'app.kuaizhizao.outsourceWorkOrder.receiptOverQty': 'Receipt quantity cannot exceed pending quantity',
+  'app.kuaizhizao.outsourceWorkOrder.receiptOverQty':
+    'Receipt quantity cannot exceed pending quantity',
   'app.kuaizhizao.outsourceWorkOrder.receiptSuccess': 'Outsource receipt created',
   'app.kuaizhizao.outsourceWorkOrder.createReceiptFailed': 'Failed to create outsource receipt',
   'app.kuaizhizao.outsourceWorkOrder.workOrderNotFound': 'Outsource work order not found',
@@ -6619,7 +7105,8 @@ export default {
   'app.kuaizhizao.outsourceOrder.createButton': 'New Operation Outsource',
   'app.kuaizhizao.outsourceOrder.editTitle': 'Edit Operation Outsource',
   'app.kuaizhizao.outsourceOrder.detailTitle': 'Operation Outsource Details',
-  'app.kuaizhizao.outsourceOrder.confirmBatchDelete': 'Delete the selected {{count}} operation outsource record(s)?',
+  'app.kuaizhizao.outsourceOrder.confirmBatchDelete':
+    'Delete the selected {{count}} operation outsource record(s)?',
   'app.kuaizhizao.outsourceOrder.statTotal': 'Total Operation Outsource Orders',
   'app.kuaizhizao.outsourceOrder.statDraft': 'Draft',
   'app.kuaizhizao.outsourceOrder.statInProgress': 'In Progress',
@@ -6651,11 +7138,14 @@ export default {
   'app.kuaizhizao.outsourceOrder.fetchListFailed': 'Failed to load operation outsource list',
   'app.kuaizhizao.outsourceOrder.selectToDelete': 'Select operation outsource records to delete',
   'app.kuaizhizao.outsourceOrder.confirmDeleteTitle': 'Confirm Delete',
-  'app.kuaizhizao.outsourceOrder.confirmDeleteContent': 'Delete operation outsource order "{{code}}"?',
+  'app.kuaizhizao.outsourceOrder.confirmDeleteContent':
+    'Delete operation outsource order "{{code}}"?',
   'app.kuaizhizao.outsourceOrder.createGuideTitle': 'How to Create',
-  'app.kuaizhizao.outsourceOrder.createGuideContent': 'Create operation outsource orders from Work Order Details > Operations > Create Outsource to keep quantities aligned.',
+  'app.kuaizhizao.outsourceOrder.createGuideContent':
+    'Create operation outsource orders from Work Order Details > Operations > Create Outsource to keep quantities aligned.',
   'app.kuaizhizao.outsourceOrder.goToWorkOrders': 'Go to Work Orders',
-  'app.kuaizhizao.outsourceOrder.createFromWorkOrder': 'Create operation outsource orders from work order details',
+  'app.kuaizhizao.outsourceOrder.createFromWorkOrder':
+    'Create operation outsource orders from work order details',
   'app.kuaizhizao.outsourceOrder.updateSuccess': 'Operation outsource order updated',
   'app.kuaizhizao.outsourceOrder.fieldCode': 'Outsource Order No.',
   'app.kuaizhizao.outsourceOrder.fieldSupplier': 'Supplier',
@@ -6684,12 +7174,14 @@ export default {
   'app.kuaizhizao.packingBinding.title': 'Packing Binding',
   'app.kuaizhizao.packingBinding.editTitle': 'Edit Packing Binding',
   'app.kuaizhizao.packingBinding.detailTitle': 'Packing Binding Details',
-  'app.kuaizhizao.packingBinding.confirmBatchDelete': 'Delete the selected {{count}} packing binding record(s)?',
+  'app.kuaizhizao.packingBinding.confirmBatchDelete':
+    'Delete the selected {{count}} packing binding record(s)?',
   'app.kuaizhizao.packingBinding.confirmDeleteOne': 'Delete this packing binding record?',
   'app.kuaizhizao.packingBinding.statTotal': 'Total Packing Bindings',
   'app.kuaizhizao.packingBinding.statScan': 'Scan Binding',
   'app.kuaizhizao.packingBinding.statManual': 'Manual Binding',
-  'app.kuaizhizao.packingBinding.scopeAlert': 'Note: "Total Packing Bindings" counts created binding records only. "Pending Packing Pool" comes from sales delivery orders pending review/outbound.',
+  'app.kuaizhizao.packingBinding.scopeAlert':
+    'Note: "Total Packing Bindings" counts created binding records only. "Pending Packing Pool" comes from sales delivery orders pending review/outbound.',
   'app.kuaizhizao.packingBinding.colBoxNo': 'Box No.',
   'app.kuaizhizao.packingBinding.colProductCode': 'Product Code',
   'app.kuaizhizao.packingBinding.colProductName': 'Product Name',
@@ -6742,7 +7234,8 @@ export default {
   'app.kuaizhizao.packingBinding.taskPoolButton': 'Pending Packing Pool',
   'app.kuaizhizao.packingBinding.batchGenerateQrcode': 'Batch Generate QR Codes',
   'app.kuaizhizao.packingBinding.taskPoolTitle': 'Pending Packing Pool (Read-only)',
-  'app.kuaizhizao.packingBinding.taskPoolSummary': 'Pending Review {{pendingReview}} / Pending Outbound {{pendingOutbound}} / Total {{total}}',
+  'app.kuaizhizao.packingBinding.taskPoolSummary':
+    'Pending Review {{pendingReview}} / Pending Outbound {{pendingOutbound}} / Total {{total}}',
   'app.kuaizhizao.packingBinding.taskPoolFetchFailed': 'Failed to load pending packing pool',
   'app.kuaizhizao.packingBinding.taskPoolColDeliveryCode': 'Delivery No.',
   'app.kuaizhizao.packingBinding.taskPoolColCustomer': 'Customer',
@@ -6813,7 +7306,8 @@ export default {
   'app.kuaizhizao.workOrder.actionSwitchStation': 'Switch Station',
   'app.kuaizhizao.workOrder.actionUnfreeze': 'Unfreeze',
   'app.kuaizhizao.workOrder.actionWithdraw': 'Withdraw',
-  'app.kuaizhizao.workOrder.barcodePrintSelectTemplateHint': 'Select template (traveler, operation label, etc.)',
+  'app.kuaizhizao.workOrder.barcodePrintSelectTemplateHint':
+    'Select template (traveler, operation label, etc.)',
   'app.kuaizhizao.workOrder.callReasonEngineeringChange': 'Engineering Change',
   'app.kuaizhizao.workOrder.callReasonLineSideShortage': 'Line-side Shortage',
   'app.kuaizhizao.workOrder.callReasonOther': 'Other',
@@ -6933,7 +7427,8 @@ export default {
   'app.kuaizhizao.workOrder.formPlannedEndRequired': 'Please select planned end time',
   'app.kuaizhizao.workOrder.formPlannedQtyRequired': 'Please enter planned quantity',
   'app.kuaizhizao.workOrder.formPlannedStartRequired': 'Please select planned start time',
-  'app.kuaizhizao.workOrder.formProcessRoutePlaceholder': 'Optional; auto-load operations after selection',
+  'app.kuaizhizao.workOrder.formProcessRoutePlaceholder':
+    'Optional; auto-load operations after selection',
   'app.kuaizhizao.workOrder.formProductType': 'Product Type',
   'app.kuaizhizao.workOrder.formGroupItemsRequired': 'Add at least 2 lines',
   'app.kuaizhizao.workOrder.formGroupItemsTitle': 'Group Work Order Lines',
@@ -6957,7 +7452,8 @@ export default {
   'app.kuaizhizao.workOrder.formSelectCallType': 'Select call type',
   'app.kuaizhizao.workOrder.formSelectCompleteStatus': 'Select completion status',
   'app.kuaizhizao.workOrder.formSelectProduct': 'Select product',
-  'app.kuaizhizao.workOrder.formSerialQtyTooltip': 'Qty must match planned qty; blank = generate on release',
+  'app.kuaizhizao.workOrder.formSerialQtyTooltip':
+    'Qty must match planned qty; blank = generate on release',
   'app.kuaizhizao.workOrder.formSerialRule': 'Serial Rule',
   'app.kuaizhizao.workOrder.formSerialTagsPlaceholder': 'Enter or preview, one serial per piece',
   'app.kuaizhizao.workOrder.formSourceOrderPlaceholder': 'Sales order no., e.g. XS202605280002',
@@ -6965,7 +7461,8 @@ export default {
   'app.kuaizhizao.workOrder.formTrackingBatchHint': 'Standard WO with one production batch no.',
   'app.kuaizhizao.workOrder.formTrackingBatchLabel': 'Production Batch',
   'app.kuaizhizao.workOrder.formTrackingBoth': 'Batch + Serial',
-  'app.kuaizhizao.workOrder.formTrackingBothHint': 'Group batch + split sub-WOs with serial numbers',
+  'app.kuaizhizao.workOrder.formTrackingBothHint':
+    'Group batch + split sub-WOs with serial numbers',
   'app.kuaizhizao.workOrder.formTrackingBothLabel': 'Batch / Serial',
   'app.kuaizhizao.workOrder.formTrackingSerial': 'Serial',
   'app.kuaizhizao.workOrder.formTrackingSerialHint': 'Auto split sub-WOs, one serial per piece',
@@ -6988,7 +7485,8 @@ export default {
   'app.kuaizhizao.workOrder.kioskCompleted': 'Completed',
   'app.kuaizhizao.workOrder.kioskCreateDefectFailed': 'Failed to create defect record',
   'app.kuaizhizao.workOrder.kioskDetailLoadFailed': 'Failed to load work order detail',
-  'app.kuaizhizao.workOrder.kioskDetailScanFeedHint': 'Scan key part barcode for error-proofing and traceability',
+  'app.kuaizhizao.workOrder.kioskDetailScanFeedHint':
+    'Scan key part barcode for error-proofing and traceability',
   'app.kuaizhizao.workOrder.kioskDetailTitle': 'Work Order Execution',
   'app.kuaizhizao.workOrder.kioskDocAttachments': 'Attachments',
   'app.kuaizhizao.workOrder.kioskDocCode': 'Code',
@@ -7034,7 +7532,8 @@ export default {
   'app.kuaizhizao.workOrder.kioskPauseNotImplemented': 'Pause not yet implemented',
   'app.kuaizhizao.workOrder.kioskPlanQty': 'Planned Qty',
   'app.kuaizhizao.workOrder.kioskPrintLevelLabel': 'Print Level',
-  'app.kuaizhizao.workOrder.kioskQtySumMustBePositive': 'Sum of qualified and unqualified must be > 0',
+  'app.kuaizhizao.workOrder.kioskQtySumMustBePositive':
+    'Sum of qualified and unqualified must be > 0',
   'app.kuaizhizao.workOrder.kioskQualified': 'Qualified',
   'app.kuaizhizao.workOrder.kioskQualifiedQty': 'Qualified',
   'app.kuaizhizao.workOrder.kioskQualifiedUnqualified': 'Qualified / Unqualified',
@@ -7071,8 +7570,10 @@ export default {
   'app.kuaizhizao.workOrder.modalEditOperation': 'Edit Operation',
   'app.kuaizhizao.workOrder.modalSelectProductSourceDemand': 'Select Demand - Product Lines',
   'app.kuaizhizao.workOrder.modalSelectProductSourceGeneric': 'Select - Product Lines',
-  'app.kuaizhizao.workOrder.modalSelectProductSourceSalesForecast': 'Select Sales Forecast - Product Lines',
-  'app.kuaizhizao.workOrder.modalSelectProductSourceSalesOrder': 'Select Sales Order - Product Lines',
+  'app.kuaizhizao.workOrder.modalSelectProductSourceSalesForecast':
+    'Select Sales Forecast - Product Lines',
+  'app.kuaizhizao.workOrder.modalSelectProductSourceSalesOrder':
+    'Select Sales Order - Product Lines',
   'app.kuaizhizao.workOrder.modalBarcodePrintTitle': 'Barcode Print',
   'app.kuaizhizao.workOrder.modalBarcodePrintWorkOrderLevel': 'Work Order',
   'app.kuaizhizao.workOrder.modalCompleteTrackingTitle': 'Force Complete',
@@ -7101,21 +7602,28 @@ export default {
   'app.kuaizhizao.workOrder.modalSmartRelease': 'Smart Release (Kitted)',
   'app.kuaizhizao.workOrder.modalSopTitle': 'Work Instructions',
   'app.kuaizhizao.workOrder.modalWarehouseAndCall': 'Locations & Material Calls',
-  'app.kuaizhizao.workOrder.modalWithdrawCallContent': 'Withdraw this material call? Only possible before warehouse processing.',
-  'app.kuaizhizao.workOrder.msgAddAtLeastOneMaterial': 'Add at least one material line with quantity',
-  'app.kuaizhizao.workOrder.msgAddOpsManually': 'Add operations manually or load from process route',
-  'app.kuaizhizao.workOrder.msgLoadProcessRouteOpsFailed': 'Failed to load process route operations',
+  'app.kuaizhizao.workOrder.modalWithdrawCallContent':
+    'Withdraw this material call? Only possible before warehouse processing.',
+  'app.kuaizhizao.workOrder.msgAddAtLeastOneMaterial':
+    'Add at least one material line with quantity',
+  'app.kuaizhizao.workOrder.msgAddOpsManually':
+    'Add operations manually or load from process route',
+  'app.kuaizhizao.workOrder.msgLoadProcessRouteOpsFailed':
+    'Failed to load process route operations',
   'app.kuaizhizao.workOrder.msgOperationsLoaded': 'Loaded {{count}} operations',
-  'app.kuaizhizao.workOrder.msgProcessRouteNoSequence': 'This process route has no operation sequence configured',
+  'app.kuaizhizao.workOrder.msgProcessRouteNoSequence':
+    'This process route has no operation sequence configured',
   'app.kuaizhizao.workOrder.msgProcessRouteNotFound': 'Process route not found',
   'app.kuaizhizao.workOrder.msgProcessRouteParseFailed':
     'Cannot parse operations for this route; check operation master data',
-  'app.kuaizhizao.workOrder.msgBatchingTaskCreated': 'Batching task created, confirm in Material Center',
+  'app.kuaizhizao.workOrder.msgBatchingTaskCreated':
+    'Batching task created, confirm in Material Center',
   'app.kuaizhizao.workOrder.msgBatchingTaskFailed': 'Failed to create batching task',
   'app.kuaizhizao.workOrder.msgCallFailed': 'Material call failed',
   'app.kuaizhizao.workOrder.msgCallSubmitted': 'Material call submitted',
   'app.kuaizhizao.workOrder.msgCannotGetWorkOrderCode': 'Cannot get work order no., please retry',
-  'app.kuaizhizao.workOrder.msgCompleteTrackingHint': 'Edit batch/serial no.; leave blank to use planned values or server rules.',
+  'app.kuaizhizao.workOrder.msgCompleteTrackingHint':
+    'Edit batch/serial no.; leave blank to use planned values or server rules.',
   'app.kuaizhizao.workOrder.msgComputingKitting': 'Computing kitting...',
   'app.kuaizhizao.workOrder.msgConfirmBatchNo': 'Confirm Batch No.',
   'app.kuaizhizao.workOrder.msgConfirmDeleteCount': 'Delete {{count}} work orders?',
@@ -7144,10 +7652,12 @@ export default {
   'app.kuaizhizao.workOrder.msgOpDeleteSuccess': 'Operation deleted',
   'app.kuaizhizao.workOrder.msgOpOrderUpdated': 'Operation order updated',
   'app.kuaizhizao.workOrder.msgPreviewBatch': 'Previewed batch: {{batch}}',
-  'app.kuaizhizao.workOrder.msgPreviewBatchAndSerial': 'Previewed batch {{batch}} and {{count}} serial numbers',
+  'app.kuaizhizao.workOrder.msgPreviewBatchAndSerial':
+    'Previewed batch {{batch}} and {{count}} serial numbers',
   'app.kuaizhizao.workOrder.msgPreviewFailed': 'Preview generation failed',
   'app.kuaizhizao.workOrder.msgPreviewNoNumbers': 'No preview numbers, check batch/serial rules',
-  'app.kuaizhizao.workOrder.msgPreviewQtyFirst': 'Enter planned quantity before previewing serial numbers',
+  'app.kuaizhizao.workOrder.msgPreviewQtyFirst':
+    'Enter planned quantity before previewing serial numbers',
   'app.kuaizhizao.workOrder.msgPreviewSerialCount': 'Previewed {{count}} serial numbers',
   'app.kuaizhizao.workOrder.msgPrintContentEmpty': 'Print content is empty',
   'app.kuaizhizao.workOrder.msgPrintFailed': 'Print failed',
@@ -7157,7 +7667,8 @@ export default {
   'app.kuaizhizao.workOrder.msgSelectPrintTemplate': 'Select a print template first',
   'app.kuaizhizao.workOrder.msgSelectPrintTemplatePlaceholder': 'Select print template',
   'app.kuaizhizao.workOrder.msgSelectValidPrintTemplate': 'Select a valid print template',
-  'app.kuaizhizao.workOrder.msgSerialQtyMustBeInteger': 'Serial-managed items require integer planned quantity',
+  'app.kuaizhizao.workOrder.msgSerialQtyMustBeInteger':
+    'Serial-managed items require integer planned quantity',
   'app.kuaizhizao.workOrder.msgWithdrawCallFailed': 'Withdraw failed',
   'app.kuaizhizao.workOrder.msgWorkOrderIdMissingPreview': 'Work order ID missing, cannot preview',
   'app.kuaizhizao.workOrder.msgWorkOrderIdMissingPrint': 'Work order ID missing, cannot print',
@@ -7165,14 +7676,16 @@ export default {
   'app.kuaizhizao.workOrder.searchProductSourceDemand': 'Search demand no./name/product/model',
   'app.kuaizhizao.workOrder.searchProductSourceForecast': 'Search forecast no./name/product/model',
   'app.kuaizhizao.workOrder.searchProductSourceGeneric': 'Enter keywords to search',
-  'app.kuaizhizao.workOrder.searchProductSourceSalesOrder': 'Search order no./customer/product/model',
+  'app.kuaizhizao.workOrder.searchProductSourceSalesOrder':
+    'Search order no./customer/product/model',
   'app.kuaizhizao.workOrder.validationMaterialBuy':
     'Buy items should not create production work orders; use purchase orders instead',
   'app.kuaizhizao.workOrder.validationMaterialConfigure': 'Configure items require attributes',
   'app.kuaizhizao.workOrder.validationMaterialMake': 'Make items require BOM and process route',
   'app.kuaizhizao.workOrder.validationMaterialOutsource':
     'Outsource items require outsource supplier and operations',
-  'app.kuaizhizao.workOrder.validationMaterialPhantom': 'Phantom items should not create work orders',
+  'app.kuaizhizao.workOrder.validationMaterialPhantom':
+    'Phantom items should not create work orders',
   'app.kuaizhizao.workOrder.validationMaterialSourceNotAllowed':
     'This material source type cannot create production work orders',
   'app.kuaizhizao.workOrder.batchGenerateQrcode': 'Batch Generate QR Codes',
@@ -7192,9 +7705,12 @@ export default {
   'app.kuaizhizao.workOrder.priorityUrgent': 'Urgent',
   'app.kuaizhizao.workOrder.productionModeMTO': 'Make to Order',
   'app.kuaizhizao.workOrder.productionModeMTS': 'Make to Stock',
-  'app.kuaizhizao.workOrder.readinessCallsHint': 'Shop floor calls to warehouse; warehouse prepares in Material Center per storage config.',
-  'app.kuaizhizao.workOrder.readinessCustomCallHint': 'Add multiple lines with materials and quantities.',
-  'app.kuaizhizao.workOrder.readinessFullOrderHint': 'Creates one call with all shortage lines from kitting analysis.',
+  'app.kuaizhizao.workOrder.readinessCallsHint':
+    'Shop floor calls to warehouse; warehouse prepares in Material Center per storage config.',
+  'app.kuaizhizao.workOrder.readinessCustomCallHint':
+    'Add multiple lines with materials and quantities.',
+  'app.kuaizhizao.workOrder.readinessFullOrderHint':
+    'Creates one call with all shortage lines from kitting analysis.',
   'app.kuaizhizao.workOrder.readinessLineSidePrefix': 'Line Side',
   'app.kuaizhizao.workOrder.readinessMainWarehouseLineSide': 'Main WH / Line Side',
   'app.kuaizhizao.workOrder.readinessMainWarehousePrefix': 'Main WH',
@@ -7202,12 +7718,14 @@ export default {
   'app.kuaizhizao.workOrder.readinessNoLocations': 'No location data',
   'app.kuaizhizao.workOrder.readinessNoShortageHint': 'No shortage to batch',
   'app.kuaizhizao.workOrder.readinessNonInventoryService': 'Service',
-  'app.kuaizhizao.workOrder.readinessNonInventoryOutsource': 'Outsource item, excluded from kitting',
+  'app.kuaizhizao.workOrder.readinessNonInventoryOutsource':
+    'Outsource item, excluded from kitting',
   'app.kuaizhizao.workOrder.readinessNonInventoryOther': 'Excluded from kitting',
   'app.kuaizhizao.workOrder.readinessNoWarehouseConfigured': 'No warehouse configured',
   'app.kuaizhizao.workOrder.readinessTabCalls': 'Material Calls',
   'app.kuaizhizao.workOrder.readinessTabWarehouse': 'Material Locations',
-  'app.kuaizhizao.workOrder.readinessWarehouseHint': 'Warehouse can batch from Material Center; shop floor can create material calls.',
+  'app.kuaizhizao.workOrder.readinessWarehouseHint':
+    'Warehouse can batch from Material Center; shop floor can create material calls.',
   'app.kuaizhizao.workOrder.reportParamEnterContent': 'Enter content',
   'app.kuaizhizao.workOrder.reportParamEnterNumber': 'Enter a number',
   'app.kuaizhizao.workOrder.reportParamRequired': 'is required',
@@ -7270,39 +7788,49 @@ export default {
   'app.kuaizhizao.productionPlan.executePlan': 'Execute Plan',
   'app.kuaizhizao.productionPlan.detailFailed': 'Failed to load production plan details',
   'app.kuaizhizao.productionPlan.executeConfirmTitle': 'Execute Production Plan',
-  'app.kuaizhizao.productionPlan.executeConfirmContent': 'Execute production plan "{{name}}"? Work orders will be generated.',
+  'app.kuaizhizao.productionPlan.executeConfirmContent':
+    'Execute production plan "{{name}}"? Work orders will be generated.',
   'app.kuaizhizao.productionPlan.executeSuccess': 'Production plan executed; work orders generated',
   'app.kuaizhizao.productionPlan.executeFailed': 'Failed to execute production plan',
-  'app.kuaizhizao.productionPlan.cannotEditExecuted': 'Executed production plans cannot be modified',
+  'app.kuaizhizao.productionPlan.cannotEditExecuted':
+    'Executed production plans cannot be modified',
   'app.kuaizhizao.productionPlan.loadFailed': 'Failed to load production plan',
   'app.kuaizhizao.productionPlan.deleteConfirmTitle': 'Delete Production Plan',
-  'app.kuaizhizao.productionPlan.deleteConfirmContent': 'Delete production plan "{{code}}"? This action cannot be undone.',
+  'app.kuaizhizao.productionPlan.deleteConfirmContent':
+    'Delete production plan "{{code}}"? This action cannot be undone.',
   'app.kuaizhizao.productionPlan.batchDeleteSuccess': 'Deleted {{count}} production plan(s)',
-  'app.kuaizhizao.productionPlan.confirmBatchDelete': 'Delete {{count}} selected production plan(s)?',
+  'app.kuaizhizao.productionPlan.confirmBatchDelete':
+    'Delete {{count}} selected production plan(s)?',
   'app.kuaizhizao.productionPlan.selectFirst': 'Please select production plan(s) first',
   'app.kuaizhizao.productionPlan.batchSubmit': 'Batch Submit',
   'app.kuaizhizao.productionPlan.batchSubmitSuccess': 'Submitted {{count}} production plan(s)',
   'app.kuaizhizao.productionPlan.batchSubmitPartial': '{{count}} submit failed (draft only)',
   'app.kuaizhizao.productionPlan.batchApprove': 'Batch Approve',
   'app.kuaizhizao.productionPlan.batchApproveSuccess': 'Approved {{count}} production plan(s)',
-  'app.kuaizhizao.productionPlan.batchApprovePartial': '{{count}} approve failed (pending review only)',
+  'app.kuaizhizao.productionPlan.batchApprovePartial':
+    '{{count}} approve failed (pending review only)',
   'app.kuaizhizao.productionPlan.batchExecute': 'Batch Execute',
   'app.kuaizhizao.productionPlan.batchExecuteSuccess': 'Executed {{count}} production plan(s)',
   'app.kuaizhizao.productionPlan.batchExecutePartial': '{{count}} execute failed (approved only)',
   'app.kuaizhizao.productionPlan.batchPushWorkOrders': 'Batch Push to Work Orders',
-  'app.kuaizhizao.productionPlan.batchPushSuccess': 'Pushed {{count}} production plan(s) to work orders',
+  'app.kuaizhizao.productionPlan.batchPushSuccess':
+    'Pushed {{count}} production plan(s) to work orders',
   'app.kuaizhizao.productionPlan.batchPushPartial': '{{count}} push failed',
   'app.kuaizhizao.productionPlan.importDataInvalid': 'Import data is empty or invalid',
-  'app.kuaizhizao.productionPlan.importHeaderPlanNameRequired': 'Import header must include plan name',
-  'app.kuaizhizao.productionPlan.importHeaderMaterialQtyRequired': 'Import header must include material code and quantity',
+  'app.kuaizhizao.productionPlan.importHeaderPlanNameRequired':
+    'Import header must include plan name',
+  'app.kuaizhizao.productionPlan.importHeaderMaterialQtyRequired':
+    'Import header must include material code and quantity',
   'app.kuaizhizao.productionPlan.noValidImportData': 'No valid data to import',
   'app.kuaizhizao.productionPlan.noMatchedMaterialData': 'No valid data matched to materials',
   'app.kuaizhizao.productionPlan.importTitle': 'Import Production Plans',
-  'app.kuaizhizao.productionPlan.importSuccess': 'Successfully imported {{count}} production plan(s)',
+  'app.kuaizhizao.productionPlan.importSuccess':
+    'Successfully imported {{count}} production plan(s)',
   'app.kuaizhizao.productionPlan.importPartialFailed': '{{count}} import failed',
   'app.kuaizhizao.productionPlan.defaultUnit': 'pcs',
   'app.kuaizhizao.productionPlan.suggestedActionProduction': 'Production',
-  'app.kuaizhizao.productionPlan.updateSuccess': 'Production plan updated (adjust line items in downstream work orders or demand computation)',
+  'app.kuaizhizao.productionPlan.updateSuccess':
+    'Production plan updated (adjust line items in downstream work orders or demand computation)',
   'app.kuaizhizao.productionPlan.createSuccess': 'Production plan created',
   'app.kuaizhizao.productionPlan.updateFailed': 'Failed to update production plan',
   'app.kuaizhizao.productionPlan.createFailed': 'Failed to create production plan',
@@ -7370,7 +7898,8 @@ export default {
   'app.kuaizhizao.planControlTower.simulation.title': 'Urgent Order Impact Simulation',
   'app.kuaizhizao.planControlTower.simulation.productLabel': 'Simulated Product',
   'app.kuaizhizao.planControlTower.simulation.productRequired': 'Please select a product',
-  'app.kuaizhizao.planControlTower.simulation.productPlaceholder': 'Search by material code or name',
+  'app.kuaizhizao.planControlTower.simulation.productPlaceholder':
+    'Search by material code or name',
   'app.kuaizhizao.planControlTower.simulation.quantityLabel': 'Simulated Quantity',
   'app.kuaizhizao.planControlTower.simulation.quantityRequired': 'Please enter quantity',
   'app.kuaizhizao.planControlTower.simulation.periodLabel': 'Planned Production Period',
@@ -7380,14 +7909,16 @@ export default {
   'app.kuaizhizao.planControlTower.simulation.recommendation': 'Recommendation',
   'app.kuaizhizao.planControlTower.simulation.materialReadiness': 'Material Readiness Analysis',
   'app.kuaizhizao.planControlTower.simulation.readinessRate': 'Readiness rate:',
-  'app.kuaizhizao.planControlTower.simulation.allMaterialsAvailable': 'All BOM materials have sufficient stock',
+  'app.kuaizhizao.planControlTower.simulation.allMaterialsAvailable':
+    'All BOM materials have sufficient stock',
   'app.kuaizhizao.planControlTower.simulation.shortageCount': 'Shortage items:',
   'app.kuaizhizao.planControlTower.simulation.shortageUnit': 'types',
   'app.kuaizhizao.planControlTower.simulation.shortageDetail': 'Shortage details:',
   'app.kuaizhizao.planControlTower.simulation.materialCode': 'Material Code',
   'app.kuaizhizao.planControlTower.simulation.materialName': 'Material Name',
   'app.kuaizhizao.planControlTower.simulation.shortageQty': 'Shortage Qty',
-  'app.kuaizhizao.planControlTower.simulation.orderConflict': 'Scheduling Conflicts with Existing Orders',
+  'app.kuaizhizao.planControlTower.simulation.orderConflict':
+    'Scheduling Conflicts with Existing Orders',
   'app.kuaizhizao.planControlTower.simulation.noOrderConflict': 'No detectable order conflicts',
   'app.kuaizhizao.planControlTower.simulation.preemptMaterial': 'Material Preemption',
   'app.kuaizhizao.planControlTower.simulation.impactedProduct': 'Impacted product:',
@@ -7470,7 +8001,8 @@ export default {
   'app.kuaizhizao.demandComputation.readinessReady': 'Ready',
   'app.kuaizhizao.demandComputation.readinessPartial': 'Partial',
   'app.kuaizhizao.demandComputation.readinessShortage': 'Shortage',
-  'app.kuaizhizao.demandComputation.readinessTooltip': 'Readiness = available inventory ÷ gross requirement; large gross requirements may show shortage even with stock (no real-time inventory data).',
+  'app.kuaizhizao.demandComputation.readinessTooltip':
+    'Readiness = available inventory ÷ gross requirement; large gross requirements may show shortage even with stock (no real-time inventory data).',
   'app.kuaizhizao.demandComputation.pushDocWorkOrder': 'Work Order',
   'app.kuaizhizao.demandComputation.pushDocOutsourceWorkOrder': 'Outsource WO',
   'app.kuaizhizao.demandComputation.pushDocPurchaseOrder': 'Purchase Order',
@@ -7513,7 +8045,8 @@ export default {
   'app.kuaizhizao.demandComputation.drawerTabRecords': 'Push & History',
   'app.kuaizhizao.demandComputation.pushRecords': 'Push Records',
   'app.kuaizhizao.demandComputation.recalcHistory': 'Recalc History',
-  'app.kuaizhizao.demandComputation.recalcHistoryHint': 'A snapshot is saved before each recalc; click "Pre-recalc Snapshot" to view when available.',
+  'app.kuaizhizao.demandComputation.recalcHistoryHint':
+    'A snapshot is saved before each recalc; click "Pre-recalc Snapshot" to view when available.',
   'app.kuaizhizao.demandComputation.statTotal': 'Total Computations',
   'app.kuaizhizao.demandComputation.statInProgress': 'In Progress',
   'app.kuaizhizao.demandComputation.statCompleted': 'Completed',
@@ -7533,40 +8066,55 @@ export default {
   'app.kuaizhizao.demandComputation.paramsWarehouses': 'Warehouses Included',
   'app.kuaizhizao.demandComputation.paramsGlobalBomVersion': 'Global BOM Version',
   'app.kuaizhizao.demandComputation.paramsBomByMaterial': 'BOM Version by Material',
-  'app.kuaizhizao.demandComputation.paramsBomByMaterialHint': 'Leave blank to use each material\'s default version',
-  'app.kuaizhizao.demandComputation.paramsGrossHint': 'Gross requirement mode: suggestions are BOM-summed without safety stock, in-transit, reserved, or reorder point netting (switches hidden and off).',
-  'app.kuaizhizao.demandComputation.placeholderPlanningHorizon': 'Blank includes all demand lines with delivery dates',
-  'app.kuaizhizao.demandComputation.placeholderScheduleBuffer': '0 uses material source lead time only',
-  'app.kuaizhizao.demandComputation.placeholderWarehouses': 'All normal warehouses selected by default; add more as needed',
-  'app.kuaizhizao.demandComputation.placeholderGlobalBomVersion': 'Blank uses each material\'s default version',
+  'app.kuaizhizao.demandComputation.paramsBomByMaterialHint':
+    "Leave blank to use each material's default version",
+  'app.kuaizhizao.demandComputation.paramsGrossHint':
+    'Gross requirement mode: suggestions are BOM-summed without safety stock, in-transit, reserved, or reorder point netting (switches hidden and off).',
+  'app.kuaizhizao.demandComputation.placeholderPlanningHorizon':
+    'Blank includes all demand lines with delivery dates',
+  'app.kuaizhizao.demandComputation.placeholderScheduleBuffer':
+    '0 uses material source lead time only',
+  'app.kuaizhizao.demandComputation.placeholderWarehouses':
+    'All normal warehouses selected by default; add more as needed',
+  'app.kuaizhizao.demandComputation.placeholderGlobalBomVersion':
+    "Blank uses each material's default version",
   'app.kuaizhizao.demandComputation.placeholderSelectVersion': 'Select version',
   'app.kuaizhizao.demandComputation.placeholderBomVersionExample': 'e.g. 1.0, 1.1',
   'app.kuaizhizao.demandComputation.bomVersionDefault': ' (default)',
   'app.kuaizhizao.demandComputation.selectDemands': 'Select Demands (multi-select)',
   'app.kuaizhizao.demandComputation.selectDemandsPlaceholder': 'Select multiple demands to merge',
   'app.kuaizhizao.demandComputation.selectDemandsRequired': 'Please select at least one demand',
-  'app.kuaizhizao.demandComputation.selectDemandsTooltip': 'When merging demands, quantities for the same material are summed; header mode is MTO if any MTO, else ATO if any ATO, else MTS',
+  'app.kuaizhizao.demandComputation.selectDemandsTooltip':
+    'When merging demands, quantities for the same material are summed; header mode is MTO if any MTO, else ATO if any ATO, else MTS',
   'app.kuaizhizao.demandComputation.notesPlaceholder': 'Enter notes',
   'app.kuaizhizao.demandComputation.searchDemandPlaceholder': 'Search by demand no. or name',
-  'app.kuaizhizao.demandComputation.executeConfirmHint': 'Verify linked demand and computation no. before executing.',
-  'app.kuaizhizao.demandComputation.executeParamsHint': 'These settings apply to this execution only and are not saved to the computation record.',
-  'app.kuaizhizao.demandComputation.previewItemCount': 'About to generate {{count}} computation result(s). Please confirm before executing.',
+  'app.kuaizhizao.demandComputation.executeConfirmHint':
+    'Verify linked demand and computation no. before executing.',
+  'app.kuaizhizao.demandComputation.executeParamsHint':
+    'These settings apply to this execution only and are not saved to the computation record.',
+  'app.kuaizhizao.demandComputation.previewItemCount':
+    'About to generate {{count}} computation result(s). Please confirm before executing.',
   'app.kuaizhizao.demandComputation.totalItems': '{{count}} total',
   'app.kuaizhizao.demandComputation.productionPath': 'Production Path',
-  'app.kuaizhizao.demandComputation.productionPathDesc': 'Generate work orders directly (including outsource WOs)',
+  'app.kuaizhizao.demandComputation.productionPathDesc':
+    'Generate work orders directly (including outsource WOs)',
   'app.kuaizhizao.demandComputation.purchasePath': 'Purchase Path',
   'app.kuaizhizao.demandComputation.purchaseRequisition': 'To Purchase Requisition',
   'app.kuaizhizao.demandComputation.purchaseOrderOnly': 'Purchase Order Only',
-  'app.kuaizhizao.demandComputation.pushOutsourceHint': 'Outsource work orders are pushed together; validation failures become drafts for downstream completion.',
+  'app.kuaizhizao.demandComputation.pushOutsourceHint':
+    'Outsource work orders are pushed together; validation failures become drafts for downstream completion.',
   'app.kuaizhizao.demandComputation.pushWillGenerate': 'The following documents will be generated:',
   'app.kuaizhizao.demandComputation.pushWorkOrderGroups': '{{count}} work order group(s)',
   'app.kuaizhizao.demandComputation.pushWorkOrders': '{{count}} production work order(s)',
   'app.kuaizhizao.demandComputation.pushOutsourceWorkOrders': '{{count}} outsource work order(s)',
-  'app.kuaizhizao.demandComputation.pushOutsourceDraftHint': ' (includes drafts for downstream completion)',
+  'app.kuaizhizao.demandComputation.pushOutsourceDraftHint':
+    ' (includes drafts for downstream completion)',
   'app.kuaizhizao.demandComputation.pushPurchaseRequisitions': '{{count}} purchase requisition(s)',
   'app.kuaizhizao.demandComputation.pushPurchaseOrders': '{{count}} purchase order(s)',
-  'app.kuaizhizao.demandComputation.validationFailedMaterials': 'Materials with validation failures (drafts will be generated):',
-  'app.kuaizhizao.demandComputation.validationFailedMaterialsDetail': 'Materials with validation failures',
+  'app.kuaizhizao.demandComputation.validationFailedMaterials':
+    'Materials with validation failures (drafts will be generated):',
+  'app.kuaizhizao.demandComputation.validationFailedMaterialsDetail':
+    'Materials with validation failures',
   'app.kuaizhizao.demandComputation.sourceValidation': 'Source Validation',
   'app.kuaizhizao.demandComputation.validationAllPassed': 'All Passed',
   'app.kuaizhizao.demandComputation.validationHasFailed': 'Has Failures',
@@ -7577,27 +8125,34 @@ export default {
   'app.kuaizhizao.demandComputation.deliveryRisk': 'Delivery Risk',
   'app.kuaizhizao.demandComputation.plannedStart': '· Planned start {{date}}',
   'app.kuaizhizao.demandComputation.traceTitle': 'Demand Trace',
-  'app.kuaizhizao.demandComputation.traceContent': 'This material requirement was aggregated from the following source items:',
+  'app.kuaizhizao.demandComputation.traceContent':
+    'This material requirement was aggregated from the following source items:',
   'app.kuaizhizao.demandComputation.traceItemId': 'Source demand item ID: {{id}}',
-  'app.kuaizhizao.demandComputation.traceHint': 'Full traceability is in development; click-through to source orders will be supported.',
+  'app.kuaizhizao.demandComputation.traceHint':
+    'Full traceability is in development; click-through to source orders will be supported.',
   'app.kuaizhizao.demandComputation.snapshotAt': 'Snapshot time: {{time}}',
   'app.kuaizhizao.demandComputation.snapshotTrigger': ' · Trigger: {{trigger}}',
   'app.kuaizhizao.demandComputation.snapshotSummary': 'Computation Summary',
   'app.kuaizhizao.demandComputation.snapshotItems': 'Items (pre-recalc excerpt)',
   'app.kuaizhizao.demandComputation.snapshotEmpty': 'No snapshot content',
-  'app.kuaizhizao.demandComputation.inventoryNoDetail': 'No breakdown. Re-run computation to view; historical results may lack warehouse splits.',
-  'app.kuaizhizao.demandComputation.inventoryComposition': 'Inventory composition (matches Available Inventory column)',
+  'app.kuaizhizao.demandComputation.inventoryNoDetail':
+    'No breakdown. Re-run computation to view; historical results may lack warehouse splits.',
+  'app.kuaizhizao.demandComputation.inventoryComposition':
+    'Inventory composition (matches Available Inventory column)',
   'app.kuaizhizao.demandComputation.mainBatchDefault': 'Main warehouse batch',
   'app.kuaizhizao.demandComputation.lineSideScope': 'Line-side scope: {{scope}}',
-  'app.kuaizhizao.demandComputation.noLineSideRows': 'No line-side warehouse rows (not included or zero quantity)',
+  'app.kuaizhizao.demandComputation.noLineSideRows':
+    'No line-side warehouse rows (not included or zero quantity)',
   'app.kuaizhizao.demandComputation.netRequirementHow': 'How net requirement is calculated',
   'app.kuaizhizao.demandComputation.sourceNoteFromSalesOrder': 'Pushed from sales order {{code}}',
-  'app.kuaizhizao.demandComputation.sourceNoteFromSalesForecast': 'Pushed from sales forecast {{code}}',
+  'app.kuaizhizao.demandComputation.sourceNoteFromSalesForecast':
+    'Pushed from sales forecast {{code}}',
   'app.kuaizhizao.demandComputation.sourceNoteFromDemandPlan': 'Pushed from demand plan {{code}}',
   'app.kuaizhizao.demandComputation.copied': 'Copied',
   'app.kuaizhizao.demandComputation.copyFailed': 'Copy failed',
   'app.kuaizhizao.demandComputation.loading': 'Loading...',
-  'app.kuaizhizao.demandComputation.selectTwoToCompare': 'Please select exactly two computations to compare',
+  'app.kuaizhizao.demandComputation.selectTwoToCompare':
+    'Please select exactly two computations to compare',
   'app.kuaizhizao.demandComputation.compareFailed': 'Comparison failed',
   'app.kuaizhizao.demandComputation.selectRecordsToExport': 'Please select records to export',
   'app.kuaizhizao.demandComputation.noValidExportData': 'No valid data to export',
@@ -7607,23 +8162,29 @@ export default {
   'app.kuaizhizao.demandComputation.fetchRecalcHistoryFailed': 'Failed to load recalc history',
   'app.kuaizhizao.demandComputation.fetchSnapshotFailed': 'Failed to load pre-recalc snapshot',
   'app.kuaizhizao.demandComputation.loadPushConfigFailed': 'Failed to load push configuration',
-  'app.kuaizhizao.demandComputation.noAuditedDemands': 'No approved demands available. Submit and approve demands in Demand Management first.',
+  'app.kuaizhizao.demandComputation.noAuditedDemands':
+    'No approved demands available. Submit and approve demands in Demand Management first.',
   'app.kuaizhizao.demandComputation.loadDemandListFailed': 'Failed to load demand list',
   'app.kuaizhizao.demandComputation.selectSource': 'Please select {{source}}',
-  'app.kuaizhizao.demandComputation.alreadyPushed': 'This {{source}} has already been pushed to {{target}}. Do not create again.',
+  'app.kuaizhizao.demandComputation.alreadyPushed':
+    'This {{source}} has already been pushed to {{target}}. Do not create again.',
   'app.kuaizhizao.demandComputation.createdTarget': 'Created {{target}}: {{code}}',
   'app.kuaizhizao.demandComputation.createdFromSource': 'Created {{target}} from {{source}}',
-  'app.kuaizhizao.demandComputation.createFromSourceFailed': 'Failed to create {{target}} from {{source}}',
+  'app.kuaizhizao.demandComputation.createFromSourceFailed':
+    'Failed to create {{target}} from {{source}}',
   'app.kuaizhizao.demandComputation.fetchDetailFailed': 'Failed to load computation detail',
   'app.kuaizhizao.demandComputation.previewFailed': 'Computation preview failed',
   'app.kuaizhizao.demandComputation.executeSuccess': 'Computation executed successfully',
   'app.kuaizhizao.demandComputation.executeFailed': 'Computation execution failed',
   'app.kuaizhizao.demandComputation.recomputeTitle': 'Recompute',
-  'app.kuaizhizao.demandComputation.recomputeConfirm': 'Re-execute computation {{code}}? Current results will be cleared and recomputed from the original demand.',
-  'app.kuaizhizao.demandComputation.recomputeSubmitted': 'Recompute submitted. Refresh later to view results.',
+  'app.kuaizhizao.demandComputation.recomputeConfirm':
+    'Re-execute computation {{code}}? Current results will be cleared and recomputed from the original demand.',
+  'app.kuaizhizao.demandComputation.recomputeSubmitted':
+    'Recompute submitted. Refresh later to view results.',
   'app.kuaizhizao.demandComputation.recomputeFailed': 'Recompute failed',
   'app.kuaizhizao.demandComputation.deleteTitle': 'Delete Demand Computation',
-  'app.kuaizhizao.demandComputation.deleteConfirm': 'Delete computation {{code}}? Only allowed when no downstream work orders or purchase orders have been pushed. Linked demand can be pushed again after deletion.',
+  'app.kuaizhizao.demandComputation.deleteConfirm':
+    'Delete computation {{code}}? Only allowed when no downstream work orders or purchase orders have been pushed. Linked demand can be pushed again after deletion.',
   'app.kuaizhizao.demandComputation.deleteSuccess': 'Deleted successfully',
   'app.kuaizhizao.demandComputation.deleteFailed': 'Delete failed',
   'app.kuaizhizao.demandComputation.openFailed': 'Failed to open demand computation',
@@ -7631,58 +8192,89 @@ export default {
   'app.kuaizhizao.demandComputation.pushSelectAtLeastOne': 'Please select at least one push option',
   'app.kuaizhizao.demandComputation.pushFailed': 'Push failed',
   'app.kuaizhizao.demandComputation.selectOneFirst': 'Please select one demand computation first',
-  'app.kuaizhizao.demandComputation.pushSingleOnly': 'Push supports a single computation only. Keep one row selected.',
-  'app.kuaizhizao.demandComputation.selectedNotInList': 'Selected record is not in the current list. Refresh and try again.',
-  'app.kuaizhizao.demandComputation.pushOnlyCompleted': 'Only completed computations can be pushed (current status: {{status}})',
-  'app.kuaizhizao.demandComputation.selectComputationFirst': 'Please select a demand computation first',
-  'app.kuaizhizao.demandComputation.batchExecuteSuccess': 'Triggered execution for {{count}} computation(s)',
-  'app.kuaizhizao.demandComputation.batchExecuteFailed': '{{count}} execution(s) failed (only in-progress/pending status can be executed)',
-  'app.kuaizhizao.demandComputation.batchRecomputeSuccess': 'Triggered recompute for {{count}} computation(s)',
-  'app.kuaizhizao.demandComputation.batchRecomputeFailed': '{{count}} recompute(s) failed (only completed/failed status can be recomputed)',
+  'app.kuaizhizao.demandComputation.pushSingleOnly':
+    'Push supports a single computation only. Keep one row selected.',
+  'app.kuaizhizao.demandComputation.selectedNotInList':
+    'Selected record is not in the current list. Refresh and try again.',
+  'app.kuaizhizao.demandComputation.pushOnlyCompleted':
+    'Only completed computations can be pushed (current status: {{status}})',
+  'app.kuaizhizao.demandComputation.selectComputationFirst':
+    'Please select a demand computation first',
+  'app.kuaizhizao.demandComputation.batchExecuteSuccess':
+    'Triggered execution for {{count}} computation(s)',
+  'app.kuaizhizao.demandComputation.batchExecuteFailed':
+    '{{count}} execution(s) failed (only in-progress/pending status can be executed)',
+  'app.kuaizhizao.demandComputation.batchRecomputeSuccess':
+    'Triggered recompute for {{count}} computation(s)',
+  'app.kuaizhizao.demandComputation.batchRecomputeFailed':
+    '{{count}} recompute(s) failed (only completed/failed status can be recomputed)',
   'app.kuaizhizao.demandComputation.batchDeleteSuccess': 'Successfully deleted {{count}} record(s)',
-  'app.kuaizhizao.demandComputation.batchDeleteConfirm': 'Delete {{count}} selected demand computation(s)?',
-  'app.kuaizhizao.demandComputation.batchDeleteDescription': 'Only allowed when no downstream work orders or purchase orders have been pushed.',
-  'app.kuaizhizao.demandComputation.createSuccessMerged': 'Created successfully, merged {{count}} demand(s)',
+  'app.kuaizhizao.demandComputation.batchDeleteConfirm':
+    'Delete {{count}} selected demand computation(s)?',
+  'app.kuaizhizao.demandComputation.batchDeleteDescription':
+    'Only allowed when no downstream work orders or purchase orders have been pushed.',
+  'app.kuaizhizao.demandComputation.createSuccessMerged':
+    'Created successfully, merged {{count}} demand(s)',
   'app.kuaizhizao.demandComputation.createFailed': 'Create failed',
   'app.kuaizhizao.demandComputation.mrpGuideTrigger': 'What MRP parameters solve',
   'app.kuaizhizao.demandComputation.mrpGuideTitle': 'MRP Parameters One-Pager',
-  'app.kuaizhizao.demandComputation.mrpGuideIntro': 'For planners, buyers, production, and management: what each parameter <strong>solves on the shop floor</strong>. Base lead times for buy/make/outsource are maintained in material source config; below are optional <strong>policies and buffers</strong> per run.',
+  'app.kuaizhizao.demandComputation.mrpGuideIntro':
+    'For planners, buyers, production, and management: what each parameter <strong>solves on the shop floor</strong>. Base lead times for buy/make/outsource are maintained in material source config; below are optional <strong>policies and buffers</strong> per run.',
   'app.kuaizhizao.demandComputation.mrpGuideSection1': '1. What problems do we help solve?',
   'app.kuaizhizao.demandComputation.mrpGuideProblem1Title': 'Inventory vs. in-transit mismatch',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem1Desc': 'Clarify supply via warehouse scope, in-transit/WIP, reserved, safety stock, and reorder point.',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem1Desc':
+    'Clarify supply via warehouse scope, in-transit/WIP, reserved, safety stock, and reorder point.',
   'app.kuaizhizao.demandComputation.mrpGuideProblem2Title': 'Unreliable long-term forecast',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem2Desc': 'Use planning horizon to focus on near-term executable demand.',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem2Desc':
+    'Use planning horizon to focus on near-term executable demand.',
   'app.kuaizhizao.demandComputation.mrpGuideProblem3Title': 'Frequent BOM revisions',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem3Desc': 'Control which BOM and how deep to explode.',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem3Desc':
+    'Control which BOM and how deep to explode.',
   'app.kuaizhizao.demandComputation.mrpGuideProblem4Title': 'MOQ / full-pack rules',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem4Desc': 'Round suggestions using lot sizing (with material master data).',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem4Desc':
+    'Round suggestions using lot sizing (with material master data).',
   'app.kuaizhizao.demandComputation.mrpGuideProblem5Title': 'Lead time still too tight',
-  'app.kuaizhizao.demandComputation.mrpGuideProblem5Desc': 'Add schedule buffer days for more scheduling slack.',
+  'app.kuaizhizao.demandComputation.mrpGuideProblem5Desc':
+    'Add schedule buffer days for more scheduling slack.',
   'app.kuaizhizao.demandComputation.mrpGuideSection2': '2. Parameters vs. problems solved',
   'app.kuaizhizao.demandComputation.mrpGuideSection3': '3. Implementation tips',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice1': 'Ensure BOM, material sources/lead times, warehouse habits, and open document status are reliable first.',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice2': 'Start with horizon, warehouse scope, and in-transit; enable safety stock and reorder point as needed.',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice3': 'Align lot sizing with supplier/shop-floor batching habits before enforcing rounding.',
-  'app.kuaizhizao.demandComputation.mrpGuideAdvice4': 'Adjust buffer days in small steps (e.g. 1–3 days) based on historical delays.',
-  'app.kuaizhizao.demandComputation.mrpGuideFooter': 'Full printable version: docs/mrp-parameters-customer-one-pager-zh.md. Parameter meanings depend on current system version and implementation config.',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice1':
+    'Ensure BOM, material sources/lead times, warehouse habits, and open document status are reliable first.',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice2':
+    'Start with horizon, warehouse scope, and in-transit; enable safety stock and reorder point as needed.',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice3':
+    'Align lot sizing with supplier/shop-floor batching habits before enforcing rounding.',
+  'app.kuaizhizao.demandComputation.mrpGuideAdvice4':
+    'Adjust buffer days in small steps (e.g. 1–3 days) based on historical delays.',
+  'app.kuaizhizao.demandComputation.mrpGuideFooter':
+    'Full printable version: docs/mrp-parameters-customer-one-pager-zh.md. Parameter meanings depend on current system version and implementation config.',
   'app.kuaizhizao.demandComputation.mrpParamSafetyStock': 'Include Safety Stock',
-  'app.kuaizhizao.demandComputation.mrpParamSafetyStockProblem': 'Whether netting reflects safety stock policy to avoid over-consuming available quantity.',
+  'app.kuaizhizao.demandComputation.mrpParamSafetyStockProblem':
+    'Whether netting reflects safety stock policy to avoid over-consuming available quantity.',
   'app.kuaizhizao.demandComputation.mrpParamInTransit': 'Include In-transit/WIP',
-  'app.kuaizhizao.demandComputation.mrpParamInTransitProblem': 'Whether open POs and WIP work orders count as supply to reduce duplicate requests.',
+  'app.kuaizhizao.demandComputation.mrpParamInTransitProblem':
+    'Whether open POs and WIP work orders count as supply to reduce duplicate requests.',
   'app.kuaizhizao.demandComputation.mrpParamReserved': 'Include Reserved',
-  'app.kuaizhizao.demandComputation.mrpParamReservedProblem': 'Whether reserved inventory is deducted from available quantity.',
+  'app.kuaizhizao.demandComputation.mrpParamReservedProblem':
+    'Whether reserved inventory is deducted from available quantity.',
   'app.kuaizhizao.demandComputation.mrpParamReorderPoint': 'Include Reorder Point',
-  'app.kuaizhizao.demandComputation.mrpParamReorderPointProblem': 'Whether net requirement is amplified by reorder point rules.',
+  'app.kuaizhizao.demandComputation.mrpParamReorderPointProblem':
+    'Whether net requirement is amplified by reorder point rules.',
   'app.kuaizhizao.demandComputation.mrpParamWarehouses': 'Warehouses Included',
-  'app.kuaizhizao.demandComputation.mrpParamWarehousesProblem': 'Which warehouses participate in inventory aggregation (normal warehouses by default).',
+  'app.kuaizhizao.demandComputation.mrpParamWarehousesProblem':
+    'Which warehouses participate in inventory aggregation (normal warehouses by default).',
   'app.kuaizhizao.demandComputation.mrpParamPlanningHorizon': 'Planning Horizon',
-  'app.kuaizhizao.demandComputation.mrpParamPlanningHorizonProblem': 'Demand lines beyond the window may be excluded to reduce long-term noise.',
+  'app.kuaizhizao.demandComputation.mrpParamPlanningHorizonProblem':
+    'Demand lines beyond the window may be excluded to reduce long-term noise.',
   'app.kuaizhizao.demandComputation.mrpParamBomVersion': 'BOM Version & Explosion Level',
-  'app.kuaizhizao.demandComputation.mrpParamBomVersionProblem': 'Use the right BOM and control explosion depth to reduce wrong materials and deep explosions.',
+  'app.kuaizhizao.demandComputation.mrpParamBomVersionProblem':
+    'Use the right BOM and control explosion depth to reduce wrong materials and deep explosions.',
   'app.kuaizhizao.demandComputation.mrpParamLotSizing': 'Apply Lot Sizing to Suggestions',
-  'app.kuaizhizao.demandComputation.mrpParamLotSizingProblem': 'Whether suggestions are rounded by min/multiple/max for direct ordering.',
+  'app.kuaizhizao.demandComputation.mrpParamLotSizingProblem':
+    'Whether suggestions are rounded by min/multiple/max for direct ordering.',
   'app.kuaizhizao.demandComputation.mrpParamScheduleBuffer': 'Schedule Buffer Days',
-  'app.kuaizhizao.demandComputation.mrpParamScheduleBufferProblem': 'Shift start/procurement dates forward by buffer days on top of material lead times.',
+  'app.kuaizhizao.demandComputation.mrpParamScheduleBufferProblem':
+    'Shift start/procurement dates forward by buffer days on top of material lead times.',
   'app.kuaizhizao.coordinationPipeline.relatedDocuments': 'Related Documents',
   'app.kuaizhizao.coordinationPipeline.purchaseRequisition': 'Purchase Requisition',
   'app.kuaizhizao.coordinationPipeline.purchaseOrder': 'Purchase Order',
@@ -7716,10 +8308,12 @@ export default {
   'app.kuaizhizao.coordinationPipeline.colAvailableStock': 'Available Stock',
   'app.kuaizhizao.coordinationPipeline.refreshSuccess': 'Coordination pipeline refreshed',
   'app.kuaizhizao.coordinationPipeline.releaseSuccess': 'Released {{count}} kitted work order(s)',
-  'app.kuaizhizao.coordinationPipeline.noKittedWorkOrders': 'No draft work orders meet kitting criteria',
+  'app.kuaizhizao.coordinationPipeline.noKittedWorkOrders':
+    'No draft work orders meet kitting criteria',
   'app.kuaizhizao.coordinationPipeline.releaseFailed': 'Kitting release failed',
   'app.kuaizhizao.coordinationPipeline.loading': 'Loading coordination data...',
-  'app.kuaizhizao.coordinationPipeline.noActiveOrders': 'No approved sales orders. Create and approve orders in Sales Orders first.',
+  'app.kuaizhizao.coordinationPipeline.noActiveOrders':
+    'No approved sales orders. Create and approve orders in Sales Orders first.',
   'app.kuaizhizao.coordinationPipeline.goToSalesOrders': 'Go to Sales Orders',
   'app.kuaizhizao.coordinationPipeline.incompleteOrders': 'Incomplete Orders',
   'app.kuaizhizao.coordinationPipeline.wipCount': '{{count}} WIP',
@@ -7738,14 +8332,16 @@ export default {
   'app.kuaizhizao.scheduling.common.dash': '—',
   'app.kuaizhizao.scheduling.headerBand.freezeWindowDays': 'Freeze window: {{days}} days',
   'app.kuaizhizao.scheduling.headerBand.selected': 'Selected: {{count}}',
-  'app.kuaizhizao.scheduling.headerBand.locked': 'Locked: {{total}} (frozen {{manual}} / window {{window}})',
+  'app.kuaizhizao.scheduling.headerBand.locked':
+    'Locked: {{total}} (frozen {{manual}} / window {{window}})',
   'app.kuaizhizao.scheduling.headerBand.adjustable': 'Adjustable: {{count}}',
   'app.kuaizhizao.scheduling.headerBand.conflicts': 'Conflicts: {{count}}',
   'app.kuaizhizao.scheduling.headerBand.activeWorkOrders': 'Active WOs {{count}}',
   'app.kuaizhizao.scheduling.headerBand.scheduleAdherenceRate': 'Start rate {{rate}}%',
   'app.kuaizhizao.scheduling.pool.title': 'Pending Work Orders',
   'app.kuaizhizao.scheduling.pool.countAriaLabel': '{{count}} total',
-  'app.kuaizhizao.scheduling.pool.hint': 'Drag work orders to the scheduling area above; fill missing items via the prep dialog in the Issues column',
+  'app.kuaizhizao.scheduling.pool.hint':
+    'Drag work orders to the scheduling area above; fill missing items via the prep dialog in the Issues column',
   'app.kuaizhizao.scheduling.pool.loadingGantt': 'Loading Gantt chart…',
   'app.kuaizhizao.scheduling.poolToolbar.statusAll': 'All',
   'app.kuaizhizao.scheduling.poolToolbar.statusDraft': 'Draft',
@@ -7758,15 +8354,21 @@ export default {
   'app.kuaizhizao.scheduling.poolToolbar.toException': 'To Exception',
   'app.kuaizhizao.scheduling.poolToolbar.applyUnfreeze': 'Request Unfreeze',
   'app.kuaizhizao.scheduling.ganttToolbar.title': 'Visual Scheduling',
-  'app.kuaizhizao.scheduling.ganttToolbar.fullscreenTip': 'Use the UniTab fullscreen button to expand the scheduling workspace for smoother Gantt drag and resource dispatch',
-  'app.kuaizhizao.scheduling.ganttToolbar.stationOpStats': 'Stations {{stations}}｜Operations {{operations}}',
-  'app.kuaizhizao.scheduling.ganttToolbar.selectedStats': '｜Selected {{workOrders}} WOs / {{operations}} ops',
+  'app.kuaizhizao.scheduling.ganttToolbar.fullscreenTip':
+    'Use the UniTab fullscreen button to expand the scheduling workspace for smoother Gantt drag and resource dispatch',
+  'app.kuaizhizao.scheduling.ganttToolbar.stationOpStats':
+    'Stations {{stations}}｜Operations {{operations}}',
+  'app.kuaizhizao.scheduling.ganttToolbar.selectedStats':
+    '｜Selected {{workOrders}} WOs / {{operations}} ops',
   'app.kuaizhizao.scheduling.ganttToolbar.selectedWorkOrdersOnly': '｜Selected {{workOrders}} WOs',
   'app.kuaizhizao.scheduling.ganttToolbar.draft': 'Draft',
-  'app.kuaizhizao.scheduling.ganttToolbar.draftTooltip': 'When enabled, Gantt bar drags are staged first; drops from the pool with Update in the dialog save immediately',
+  'app.kuaizhizao.scheduling.ganttToolbar.draftTooltip':
+    'When enabled, Gantt bar drags are staged first; drops from the pool with Update in the dialog save immediately',
   'app.kuaizhizao.scheduling.ganttToolbar.applyChanges': 'Apply Changes',
-  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltip': 'Validate and persist staged drag adjustments',
-  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltipEmpty': 'No staged drag changes; pool drops were saved on Update in the dialog',
+  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltip':
+    'Validate and persist staged drag adjustments',
+  'app.kuaizhizao.scheduling.ganttToolbar.applyChangesTooltipEmpty':
+    'No staged drag changes; pool drops were saved on Update in the dialog',
   'app.kuaizhizao.scheduling.ganttToolbar.undo': 'Undo',
   'app.kuaizhizao.scheduling.ganttToolbar.settings': 'Scheduling Settings',
   'app.kuaizhizao.scheduling.ganttToolbar.batchFreeze': 'Batch Freeze',
@@ -7789,9 +8391,12 @@ export default {
   'app.kuaizhizao.scheduling.gantt.empty.title.station': 'No station or operation schedule',
   'app.kuaizhizao.scheduling.gantt.empty.title.equipment': 'No equipment or operation schedule',
   'app.kuaizhizao.scheduling.gantt.empty.title.work_order': 'No work orders to schedule',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.operation': 'Maintain operations on work orders and set planned times first',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.work_order': 'Generate work orders from demand computation or production planning first',
-  'app.kuaizhizao.scheduling.gantt.empty.hint.resource': 'No scheduled operations yet; set planned times in the work order list below',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.operation':
+    'Maintain operations on work orders and set planned times first',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.work_order':
+    'Generate work orders from demand computation or production planning first',
+  'app.kuaizhizao.scheduling.gantt.empty.hint.resource':
+    'No scheduled operations yet; set planned times in the work order list below',
   'app.kuaizhizao.scheduling.gantt.unassignedStation': 'Unassigned station',
   'app.kuaizhizao.scheduling.col.workOrderCode': 'Work Order',
   'app.kuaizhizao.scheduling.col.operationCount': 'Operations',
@@ -7807,7 +8412,8 @@ export default {
   'app.kuaizhizao.scheduling.col.status': 'Status',
   'app.kuaizhizao.scheduling.col.overdueTag': 'Overdue',
   'app.kuaizhizao.scheduling.col.frozenTag': 'Frozen',
-  'app.kuaizhizao.scheduling.col.scheduledOpsTooltip': '{{scheduled}}/{{total}} operations scheduled',
+  'app.kuaizhizao.scheduling.col.scheduledOpsTooltip':
+    '{{scheduled}}/{{total}} operations scheduled',
   'app.kuaizhizao.scheduling.status.draft': 'Draft',
   'app.kuaizhizao.scheduling.status.released': 'Released',
   'app.kuaizhizao.scheduling.status.inProgress': 'In Progress',
@@ -7831,16 +8437,21 @@ export default {
   'app.kuaizhizao.scheduling.batch.label.operationDates': 'Operation dates',
   'app.kuaizhizao.scheduling.batch.label.operationStations': 'Operation stations',
   'app.kuaizhizao.scheduling.batch.updated': '{{label}}: updated {{count}}',
-  'app.kuaizhizao.scheduling.batch.skippedFrozen': '{{label}}: {{count}} skipped (work order frozen)',
-  'app.kuaizhizao.scheduling.batch.skippedFreezeWindow': '{{label}}: {{count}} skipped (in freeze window)',
+  'app.kuaizhizao.scheduling.batch.skippedFrozen':
+    '{{label}}: {{count}} skipped (work order frozen)',
+  'app.kuaizhizao.scheduling.batch.skippedFreezeWindow':
+    '{{label}}: {{count}} skipped (in freeze window)',
   'app.kuaizhizao.scheduling.batch.failed': '{{label}}: {{count}} failed{{detail}}',
   'app.kuaizhizao.scheduling.batch.failedDetail': ' ({{detail}})',
   'app.kuaizhizao.scheduling.batch.noUpdate': '{{label}}: no effective updates',
-  'app.kuaizhizao.scheduling.batch.notSavedFreezeWindow': '{{label}} not saved: planned start is in the freeze window; move start after the window or shorten freeze days',
-  'app.kuaizhizao.scheduling.batch.notSavedFrozen': '{{label}} not saved: work order is frozen; unfreeze before scheduling',
+  'app.kuaizhizao.scheduling.batch.notSavedFreezeWindow':
+    '{{label}} not saved: planned start is in the freeze window; move start after the window or shorten freeze days',
+  'app.kuaizhizao.scheduling.batch.notSavedFrozen':
+    '{{label}} not saved: work order is frozen; unfreeze before scheduling',
   'app.kuaizhizao.scheduling.batch.notSavedFailed': '{{label}} not saved: {{detail}}',
   'app.kuaizhizao.scheduling.batch.notSavedServerRejected': 'server rejected update',
-  'app.kuaizhizao.scheduling.batch.notSavedRetry': '{{label}} not saved: check planned times and retry',
+  'app.kuaizhizao.scheduling.batch.notSavedRetry':
+    '{{label}} not saved: check planned times and retry',
   'app.kuaizhizao.scheduling.msg.conflictTitle': 'Scheduling conflicts detected',
   'app.kuaizhizao.scheduling.msg.conflictContent': '{{count}} conflict(s) detected. Save anyway?',
   'app.kuaizhizao.scheduling.msg.saveAnyway': 'Save anyway',
@@ -7850,14 +8461,17 @@ export default {
   'app.kuaizhizao.scheduling.msg.undoSuccess': 'Last staged step undone',
   'app.kuaizhizao.scheduling.msg.scheduleUpdateFailed': 'Schedule update failed',
   'app.kuaizhizao.scheduling.msg.operationUpdateFailed': 'Operation schedule update failed',
-  'app.kuaizhizao.scheduling.msg.batchShiftNoValid': 'Selected work orders have no valid planned dates or are frozen',
+  'app.kuaizhizao.scheduling.msg.batchShiftNoValid':
+    'Selected work orders have no valid planned dates or are frozen',
   'app.kuaizhizao.scheduling.msg.batchShiftFailed': 'Batch shift failed',
   'app.kuaizhizao.scheduling.msg.stationValidationFailed': 'Station reassignment validation failed',
   'app.kuaizhizao.scheduling.msg.stationReassignFailed': 'Station reassignment failed',
   'app.kuaizhizao.scheduling.msg.quickActionFailed': 'Quick action failed',
   'app.kuaizhizao.scheduling.msg.quickActionConfirm': '{{count}} work order(s) selected. Continue?',
-  'app.kuaizhizao.scheduling.msg.quickActionConfirmOverdue': '{{count}} work order(s) selected, {{overdue}} overdue. Continue?',
-  'app.kuaizhizao.scheduling.msg.quickActionResult': '{{prefix}}: delayed {{updated}}, to exception {{converted}}, unfrozen {{unfreezed}}, skipped {{skipped}}{{failedPart}}',
+  'app.kuaizhizao.scheduling.msg.quickActionConfirmOverdue':
+    '{{count}} work order(s) selected, {{overdue}} overdue. Continue?',
+  'app.kuaizhizao.scheduling.msg.quickActionResult':
+    '{{prefix}}: delayed {{updated}}, to exception {{converted}}, unfrozen {{unfreezed}}, skipped {{skipped}}{{failedPart}}',
   'app.kuaizhizao.scheduling.msg.quickActionResultFailed': ', failed {{count}}',
   'app.kuaizhizao.scheduling.msg.confirmDelayTitle': 'Confirm Delay',
   'app.kuaizhizao.scheduling.msg.confirmDelayReason': 'Visual scheduling delay confirmation',
@@ -7869,10 +8483,12 @@ export default {
   'app.kuaizhizao.scheduling.msg.applyUnfreezeReason': 'Visual scheduling unfreeze request',
   'app.kuaizhizao.scheduling.msg.applyUnfreezeSuccess': 'Unfreeze request processed',
   'app.kuaizhizao.scheduling.msg.validationFailed': 'Scheduling validation failed',
-  'app.kuaizhizao.scheduling.msg.stationsSavedPending': 'Stations saved; {{pending}} operations still need stations; {{scheduledPart}}please continue',
+  'app.kuaizhizao.scheduling.msg.stationsSavedPending':
+    'Stations saved; {{pending}} operations still need stations; {{scheduledPart}}please continue',
   'app.kuaizhizao.scheduling.msg.stationsSavedScheduledPart': '{{count}} operations scheduled, ',
   'app.kuaizhizao.scheduling.msg.savedToGantt': 'Saved and placed {{count}} operations on Gantt',
-  'app.kuaizhizao.scheduling.msg.stationsSavedDisplay': 'Stations saved; operations will display on Gantt by work order planned times',
+  'app.kuaizhizao.scheduling.msg.stationsSavedDisplay':
+    'Stations saved; operations will display on Gantt by work order planned times',
   'app.kuaizhizao.scheduling.msg.loadOperationsFailed': 'Failed to load operations',
   'app.kuaizhizao.scheduling.msg.workOrderNotFound': 'Work order not found',
   'app.kuaizhizao.scheduling.msg.alreadyOnBoard': 'Work order is already on the board',
@@ -7882,21 +8498,27 @@ export default {
   'app.kuaizhizao.scheduling.msg.batchFreezeFailed': 'Batch freeze failed',
   'app.kuaizhizao.scheduling.msg.batchUnfreezeSuccess': 'Selected work orders unfrozen',
   'app.kuaizhizao.scheduling.msg.batchUnfreezeFailed': 'Batch unfreeze failed',
-  'app.kuaizhizao.scheduling.msg.freezeDragBlocked': 'Frozen or freeze-window work orders cannot be dragged; unfreeze or move out of freeze window first',
+  'app.kuaizhizao.scheduling.msg.freezeDragBlocked':
+    'Frozen or freeze-window work orders cannot be dragged; unfreeze or move out of freeze window first',
   'app.kuaizhizao.scheduling.msg.configSaved': 'Scheduling settings saved',
   'app.kuaizhizao.scheduling.msg.configSaveFailed': 'Save failed',
   'app.kuaizhizao.scheduling.msg.freezeReason': 'Visual scheduling lock',
   'app.kuaizhizao.scheduling.tour.fullscreenTitle': 'Fullscreen scheduling recommended',
-  'app.kuaizhizao.scheduling.tour.fullscreenDescription': 'Drag Gantt bars to adjust plans → review conflicts and load → freeze to lock this week\'s plan.',
-  'app.kuaizhizao.scheduling.alert.fromCoordinationCenter': '{{count}} work order(s) brought from coordination center for visual scheduling',
+  'app.kuaizhizao.scheduling.tour.fullscreenDescription':
+    "Drag Gantt bars to adjust plans → review conflicts and load → freeze to lock this week's plan.",
+  'app.kuaizhizao.scheduling.alert.fromCoordinationCenter':
+    '{{count}} work order(s) brought from coordination center for visual scheduling',
   'app.kuaizhizao.scheduling.alert.returnCoordinationCenter': 'Back to coordination center',
-  'app.kuaizhizao.scheduling.alert.filterByPlanDate': 'Pending pool filtered by rolling plan date {{date}}',
+  'app.kuaizhizao.scheduling.alert.filterByPlanDate':
+    'Pending pool filtered by rolling plan date {{date}}',
   'app.kuaizhizao.scheduling.alert.returnRollingPlan': 'Back to rolling plan',
-  'app.kuaizhizao.scheduling.alert.ganttLimitWarning': 'Gantt shows only the first {{limit}} work orders; use filters or deep links to narrow scope',
+  'app.kuaizhizao.scheduling.alert.ganttLimitWarning':
+    'Gantt shows only the first {{limit}} work orders; use filters or deep links to narrow scope',
   'app.kuaizhizao.scheduling.config.title': 'Visual Scheduling Settings',
   'app.kuaizhizao.scheduling.config.restoreDefault': 'Restore defaults',
   'app.kuaizhizao.scheduling.config.freezeWindowDays': 'Freeze window (days)',
-  'app.kuaizhizao.scheduling.config.freezeWindowHint': 'Work orders in the window cannot be dragged; purple area on the left is the freeze window',
+  'app.kuaizhizao.scheduling.config.freezeWindowHint':
+    'Work orders in the window cannot be dragged; purple area on the left is the freeze window',
   'app.kuaizhizao.scheduling.config.scanHorizonDays': 'Diagnostic scan horizon (days)',
   'app.kuaizhizao.scheduling.config.dragValidationTitle': 'Drag validation (conflict detection)',
   'app.kuaizhizao.scheduling.config.considerHuman': 'Station time overlap',
@@ -7904,17 +8526,21 @@ export default {
   'app.kuaizhizao.scheduling.config.considerMaterial': 'Material kitting alerts',
   'app.kuaizhizao.scheduling.config.considerMoldTool': 'Mold/tooling overlap',
   'app.kuaizhizao.scheduling.draft.closeTitle': 'Disable draft mode',
-  'app.kuaizhizao.scheduling.draft.closeContent': '{{count}} unapplied change(s) remain; disabling will discard local drafts.',
+  'app.kuaizhizao.scheduling.draft.closeContent':
+    '{{count}} unapplied change(s) remain; disabling will discard local drafts.',
   'app.kuaizhizao.scheduling.draft.discardAndClose': 'Discard and close',
   'app.kuaizhizao.scheduling.prep.title': 'Complete Scheduling Info',
-  'app.kuaizhizao.scheduling.prep.description': 'Work order {{code}} is missing required scheduling data. After completion it will be placed on the board above. Empty operation start defaults to previous operation end; earlier starts are shifted to keep sequence.',
+  'app.kuaizhizao.scheduling.prep.description':
+    'Work order {{code}} is missing required scheduling data. After completion it will be placed on the board above. Empty operation start defaults to previous operation end; earlier starts are shifted to keep sequence.',
   'app.kuaizhizao.scheduling.prep.operationScheduling': 'Operation scheduling',
   'app.kuaizhizao.scheduling.prep.colOperation': 'Operation',
   'app.kuaizhizao.scheduling.prep.colStation': 'Station',
   'app.kuaizhizao.scheduling.prep.colStart': 'Start',
   'app.kuaizhizao.scheduling.prep.colEnd': 'End',
-  'app.kuaizhizao.scheduling.prep.noOperations': 'No operations on this work order; cannot schedule',
-  'app.kuaizhizao.scheduling.prep.noRouteWarning': 'No operations on this work order. Maintain the route on the work order first.',
+  'app.kuaizhizao.scheduling.prep.noOperations':
+    'No operations on this work order; cannot schedule',
+  'app.kuaizhizao.scheduling.prep.noRouteWarning':
+    'No operations on this work order. Maintain the route on the work order first.',
   'app.kuaizhizao.scheduling.prep.plannedStart': 'Planned start',
   'app.kuaizhizao.scheduling.prep.plannedEnd': 'Planned end',
   'app.kuaizhizao.scheduling.prep.selectStartRequired': 'Select planned start time',
@@ -7927,7 +8553,8 @@ export default {
   'app.kuaizhizao.scheduling.prep.placeholderAfterPrevOp': 'Default: after previous op',
   'app.kuaizhizao.scheduling.prep.placeholderCurrentTime': 'Default: current time',
   'app.kuaizhizao.scheduling.prep.placeholderStartPlus8h': 'Default: start + 8h',
-  'app.kuaizhizao.scheduling.prep.scheduleAdjusted': 'Planned times for {{names}} were auto-adjusted to keep sequence',
+  'app.kuaizhizao.scheduling.prep.scheduleAdjusted':
+    'Planned times for {{names}} were auto-adjusted to keep sequence',
 
   // Plan management - Rolling Scheduling
   'app.kuaizhizao.rollingScheduling.source.carryForward': 'Carry forward',
@@ -7935,18 +8562,23 @@ export default {
   'app.kuaizhizao.rollingScheduling.source.alreadyScheduled': 'Scheduled',
   'app.kuaizhizao.rollingScheduling.source.pool': 'Pool',
   'app.kuaizhizao.rollingScheduling.source.manual': 'Manual',
-  'app.kuaizhizao.rollingScheduling.generateSuccess': 'Next workday plan draft generated ({{count}} orders)',
-  'app.kuaizhizao.rollingScheduling.generateEmpty': 'Empty plan generated: no carry-forward / scheduled-for-tomorrow / schedulable work orders in pool',
+  'app.kuaizhizao.rollingScheduling.generateSuccess':
+    'Next workday plan draft generated ({{count}} orders)',
+  'app.kuaizhizao.rollingScheduling.generateEmpty':
+    'Empty plan generated: no carry-forward / scheduled-for-tomorrow / schedulable work orders in pool',
   'app.kuaizhizao.rollingScheduling.generateFailed': 'Generation failed',
   'app.kuaizhizao.rollingScheduling.closeDayTitle': 'Close day {{date}}',
-  'app.kuaizhizao.rollingScheduling.closeDayContent': 'Closing locks the published plan for the day and records completion. Continue?',
+  'app.kuaizhizao.rollingScheduling.closeDayContent':
+    'Closing locks the published plan for the day and records completion. Continue?',
   'app.kuaizhizao.rollingScheduling.closeDaySuccess': 'Day closed',
   'app.kuaizhizao.rollingScheduling.closeDayFailed': 'Close day failed',
   'app.kuaizhizao.rollingScheduling.saveLinesSuccess': 'Plan lines saved',
   'app.kuaizhizao.rollingScheduling.saveFailed': 'Save failed',
   'app.kuaizhizao.rollingScheduling.publishTitle': 'Publish daily plan',
-  'app.kuaizhizao.rollingScheduling.publishContent': 'Write {{date}} plan to work order planned start dates (no release). Continue?',
-  'app.kuaizhizao.rollingScheduling.publishSuccess': 'Published; updated planned dates for {{count}} work order(s)',
+  'app.kuaizhizao.rollingScheduling.publishContent':
+    'Write {{date}} plan to work order planned start dates (no release). Continue?',
+  'app.kuaizhizao.rollingScheduling.publishSuccess':
+    'Published; updated planned dates for {{count}} work order(s)',
   'app.kuaizhizao.rollingScheduling.publishFailed': 'Publish failed',
   'app.kuaizhizao.rollingScheduling.col.sequence': '#',
   'app.kuaizhizao.rollingScheduling.col.workOrder': 'Work Order',
@@ -7968,15 +8600,18 @@ export default {
   'app.kuaizhizao.rollingScheduling.stat.partial': 'Partial',
   'app.kuaizhizao.rollingScheduling.stat.notStarted': 'Not started',
   'app.kuaizhizao.rollingScheduling.stat.delayed': 'Delayed',
-  'app.kuaizhizao.rollingScheduling.incompleteCarryForward': '{{count}} incomplete order(s) will carry forward',
+  'app.kuaizhizao.rollingScheduling.incompleteCarryForward':
+    '{{count}} incomplete order(s) will carry forward',
   'app.kuaizhizao.rollingScheduling.allCompleted': 'All planned work completed for the day',
-  'app.kuaizhizao.rollingScheduling.closeHintPublished': 'Day plan published; close after end of shift',
+  'app.kuaizhizao.rollingScheduling.closeHintPublished':
+    'Day plan published; close after end of shift',
   'app.kuaizhizao.rollingScheduling.closeHintNoData': 'No published plan or data for the day',
   'app.kuaizhizao.rollingScheduling.nextDayPlanTitle': 'Next day plan ({{date}})',
   'app.kuaizhizao.rollingScheduling.emptyGenerated': 'Plan generated but candidate pool is empty',
   'app.kuaizhizao.rollingScheduling.emptyGenerateFirst': 'Generate next day plan first',
   'app.kuaizhizao.rollingScheduling.poolEmptyTitle': 'Candidate pool empty',
-  'app.kuaizhizao.rollingScheduling.poolEmptyDesc': 'Ensure draft/released/in-progress work orders exist, or publish and close today\'s plan to carry forward incomplete orders.',
+  'app.kuaizhizao.rollingScheduling.poolEmptyDesc':
+    "Ensure draft/released/in-progress work orders exist, or publish and close today's plan to carry forward incomplete orders.",
   'app.kuaizhizao.rollingScheduling.capacityTitle': 'Rough capacity advisory',
   'app.kuaizhizao.rollingScheduling.capacity.availableHours': 'Available hours',
   'app.kuaizhizao.rollingScheduling.capacity.requiredHours': 'Required hours',
@@ -7988,7 +8623,8 @@ export default {
   'app.kuaizhizao.rollingScheduling.planStatus.closed': 'Closed',
 
   // Plan management - Computation History
-  'app.kuaizhizao.computationHistory.compareSelectTwo': 'Select exactly two computation results to compare',
+  'app.kuaizhizao.computationHistory.compareSelectTwo':
+    'Select exactly two computation results to compare',
   'app.kuaizhizao.computationHistory.compareFailed': 'Comparison failed',
   'app.kuaizhizao.computationHistory.exportSelect': 'Select records to export',
   'app.kuaizhizao.computationHistory.exportNoData': 'No valid data to export',
@@ -7996,7 +8632,8 @@ export default {
   'app.kuaizhizao.computationHistory.exportFailed': 'Export failed',
   'app.kuaizhizao.computationHistory.deleteSuccess': 'Deleted {{count}} record(s)',
   'app.kuaizhizao.computationHistory.deleteFailed': '{{count}} deletion(s) failed',
-  'app.kuaizhizao.computationHistory.deleteConfirm': 'Delete {{count}} selected computation record(s)?',
+  'app.kuaizhizao.computationHistory.deleteConfirm':
+    'Delete {{count}} selected computation record(s)?',
   'app.kuaizhizao.computationHistory.col.computationCode': 'Computation Code',
   'app.kuaizhizao.computationHistory.col.demandCode': 'Source Document',
   'app.kuaizhizao.computationHistory.col.businessMode': 'Business Mode',
@@ -8039,7 +8676,8 @@ export default {
   'app.kuaizhizao.demandReplan.loadEventsFailed': 'Failed to load change events',
   'app.kuaizhizao.demandReplan.loadTasksFailed': 'Failed to load replan tasks',
   'app.kuaizhizao.demandReplan.loadImpactFailed': 'Failed to load impact details',
-  'app.kuaizhizao.demandReplan.executeConfirmApproval': 'Task pending approval. Approve and execute?',
+  'app.kuaizhizao.demandReplan.executeConfirmApproval':
+    'Task pending approval. Approve and execute?',
   'app.kuaizhizao.demandReplan.executeConfirm': 'Execute replan task?',
   'app.kuaizhizao.demandReplan.executeSuccess': 'Task execution triggered',
   'app.kuaizhizao.demandReplan.executeFailed': 'Task execution failed',
@@ -8086,10 +8724,12 @@ export default {
   'app.kuaizhizao.demandReplan.col.failureReason': 'Failure reason',
   'app.kuaizhizao.demandReplan.action.viewFailure': 'View failure',
   'app.kuaizhizao.demandReplan.failureItem': 'Computation {{id}}: {{error}}',
-  'app.kuaizhizao.demandReplan.emptyTargetComputations': 'No demand computation to replan. Push to computation first.',
+  'app.kuaizhizao.demandReplan.emptyTargetComputations':
+    'No demand computation to replan. Push to computation first.',
   'app.kuaizhizao.demandReplan.failureModal.title': 'Replan failed - {{code}}',
   'app.kuaizhizao.demandReplan.failureModal.noDetail': 'No error details available',
-  'app.kuaizhizao.demandReplan.failureModal.summary': 'Target {{target}}, success {{success}}, failed {{failed}}',
+  'app.kuaizhizao.demandReplan.failureModal.summary':
+    'Target {{target}}, success {{success}}, failed {{failed}}',
   'app.kuaizhizao.demandReplan.col.actions': 'Actions',
   'app.kuaizhizao.demandReplan.action.execute': 'Execute',
   'app.kuaizhizao.demandReplan.action.createTask': 'Create Replan Task',
@@ -8109,8 +8749,10 @@ export default {
   'app.kuaizhizao.demandReplan.impactModal.title': 'Change impact details',
   'app.kuaizhizao.demandReplan.impactModal.tasksTitle': 'Replan tasks',
   'app.kuaizhizao.demandReplan.impactModal.impactsTitle': 'Impacted objects',
-  'app.kuaizhizao.demandReplan.impactModal.emptyTasks': 'No replan tasks yet. Use the button below to create one.',
-  'app.kuaizhizao.demandReplan.impactModal.emptyImpacts': 'No impacted objects (demand may not have been pushed to computation)',
+  'app.kuaizhizao.demandReplan.impactModal.emptyTasks':
+    'No replan tasks yet. Use the button below to create one.',
+  'app.kuaizhizao.demandReplan.impactModal.emptyImpacts':
+    'No impacted objects (demand may not have been pushed to computation)',
   'app.kuaizhizao.demandReplan.impactModal.loading': 'Loading…',
   'app.kuaizhizao.demandReplan.impactModal.noDetail': 'No details',
   'app.kuaizhizao.demandReplan.impactModal.event': 'Event: {{code}} / {{type}}',
@@ -8153,7 +8795,8 @@ export default {
   'app.kuaizhizao.quality.process.importExample.inspectionQty': '100',
   'app.kuaizhizao.quality.process.importExample.qualifiedQty': '98',
   'app.kuaizhizao.quality.process.importExample.unqualifiedQty': '2',
-  'app.kuaizhizao.quality.traceability.searchPlaceholder': 'Enter serial no. / batch no. / work order no.',
+  'app.kuaizhizao.quality.traceability.searchPlaceholder':
+    'Enter serial no. / batch no. / work order no.',
   'app.kuaizhizao.quality.traceability.forward': 'Forward (-> finished goods)',
   'app.kuaizhizao.quality.traceability.backward': 'Backward (-> raw materials)',
   'app.kuaizhizao.quality.traceability.both': 'Bidirectional',
@@ -8183,10 +8826,13 @@ export default {
   'app.kuaizhizao.quality.traceability.viewWorkOrder': 'View Work Order',
   'app.kuaizhizao.quality.traceability.viewDefectRecord': 'View Defect Record',
   'app.kuaizhizao.quality.traceability.viewInspectionDetail': 'View Inspection Detail',
-  'app.kuaizhizao.quality.traceability.messages.loadFailed': 'Failed to load traceability data: {{message}}',
+  'app.kuaizhizao.quality.traceability.messages.loadFailed':
+    'Failed to load traceability data: {{message}}',
   'app.kuaizhizao.quality.traceability.messages.exportSuccess': 'Trace report exported',
-  'app.kuaizhizao.quality.traceability.messages.exportFailed': 'Failed to export trace report: {{message}}',
-  'app.kuaizhizao.quality.traceability.messages.noDetailPage': 'No business detail page for this node',
+  'app.kuaizhizao.quality.traceability.messages.exportFailed':
+    'Failed to export trace report: {{message}}',
+  'app.kuaizhizao.quality.traceability.messages.noDetailPage':
+    'No business detail page for this node',
   'app.kuaizhizao.quality.traceability.nodeType.default': 'Node',
   'app.kuaizhizao.quality.traceability.nodeType.workOrder': 'Work Order',
   'app.kuaizhizao.quality.traceability.nodeType.batch': 'Material Batch',
@@ -8194,7 +8840,8 @@ export default {
   'app.kuaizhizao.quality.traceability.nodeType.inbound': 'Inbound',
   'app.kuaizhizao.quality.traceability.nodeType.outbound': 'Outbound',
   'app.kuaizhizao.quality.traceability.nodeType.processInspection': 'In-process Inspection',
-  'app.kuaizhizao.quality.traceability.nodeType.finishedGoodsInspection': 'Finished Goods Inspection',
+  'app.kuaizhizao.quality.traceability.nodeType.finishedGoodsInspection':
+    'Finished Goods Inspection',
   'app.kuaizhizao.quality.traceability.nodeType.defectRecord': 'Defect Record',
   'app.kuaizhizao.quality.traceability.nodeType.incomingInspection': 'Incoming Inspection',
   'app.kuaizhizao.quality.traceability.nodeType.oqcInspection': 'OQC Inspection',
@@ -8202,7 +8849,8 @@ export default {
   'app.kuaizhizao.quality.traceability.nodeType.finishedGoodsReceipt': 'Finished Goods Receipt',
   'app.kuaizhizao.quality.traceability.nodeType.semiFinishedGoodsReceipt': 'Semi-finished Receipt',
   'app.kuaizhizao.quality.traceability.nodeType.purchaseReceipt': 'Purchase Receipt',
-  'app.kuaizhizao.quality.traceability.nodeType.customerMaterialRegistration': 'Customer Material Registration',
+  'app.kuaizhizao.quality.traceability.nodeType.customerMaterialRegistration':
+    'Customer Material Registration',
   'app.kuaizhizao.quality.traceability.nodeType.salesDelivery': 'Sales Delivery',
   'app.kuaizhizao.quality.traceability.nodeType.salesReturn': 'Sales Return',
   'app.kuaizhizao.quality.traceability.nodeType.materialBinding': 'Material Binding',
@@ -8228,8 +8876,10 @@ export default {
   'app.kuaizhizao.quality.template.qualityStandard': 'Quality Standard',
   'app.kuaizhizao.quality.template.planItemsTitle': 'Inspection Plan Items',
   'app.kuaizhizao.quality.template.planItemsTitleWithName': 'Inspection Plan Items ({{planName}})',
-  'app.kuaizhizao.quality.template.planModeHint': 'In plan mode, fill in each inspection result before submitting.',
-  'app.kuaizhizao.quality.template.planModeHintTyped': 'Enter values by step type; the system auto-judges pass/fail except for text steps.',
+  'app.kuaizhizao.quality.template.planModeHint':
+    'In plan mode, fill in each inspection result before submitting.',
+  'app.kuaizhizao.quality.template.planModeHintTyped':
+    'Enter values by step type; the system auto-judges pass/fail except for text steps.',
   'app.kuaizhizao.quality.template.inspectionItemFallback': 'Inspection Item {{index}}',
   'app.kuaizhizao.quality.template.judgment': 'Judgment',
   'app.kuaizhizao.quality.template.judgmentRequired': 'Enter judgment for "{{label}}"',
@@ -8246,10 +8896,13 @@ export default {
   'app.kuaizhizao.quality.template.overallJudgmentRequired': 'Enter overall judgment',
   'app.kuaizhizao.quality.template.conductValue': 'Inspection Value',
   'app.kuaizhizao.quality.template.noStepResults': 'No per-step inspection results yet',
-  'app.kuaizhizao.quality.template.stepFailHint': '{{count}} item(s) failed ({{items}}); confirm document judgment',
-  'app.kuaizhizao.quality.template.criticalFailAlert': 'Critical item(s) failed: {{items}}. Cannot submit.',
+  'app.kuaizhizao.quality.template.stepFailHint':
+    '{{count}} item(s) failed ({{items}}); confirm document judgment',
+  'app.kuaizhizao.quality.template.criticalFailAlert':
+    'Critical item(s) failed: {{items}}. Cannot submit.',
   'app.kuaizhizao.equipmentDashboard.kpi.faultInProgress': 'Faults / Under Repair',
-  'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleWithCount': '{{count}} equipment down awaiting repair',
+  'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleWithCount':
+    '{{count}} equipment down awaiting repair',
   'app.kuaizhizao.equipmentDashboard.kpi.faultSubtitleHealthy': 'All equipment running normally',
   'app.kuaizhizao.equipmentDashboard.kpi.totalEquipment': 'Total Equipment',
   'app.kuaizhizao.equipmentDashboard.kpi.calibrationNeeded': 'Calibration Due',
@@ -8292,14 +8945,18 @@ export default {
   'app.kuaizhizao.equipmentReports.colExecutor': 'Executor',
   'app.kuaizhizao.warehouseDashboard.loadFailed': 'Failed to load warehouse dashboard',
   'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValue': 'Total Inventory Value (CNY)',
-  'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValueSubtitle': 'Estimated by standard/avg cost',
+  'app.kuaizhizao.warehouseDashboard.kpi.totalInventoryValueSubtitle':
+    'Estimated by standard/avg cost',
   'app.kuaizhizao.warehouseDashboard.kpi.totalQuantity': 'Total Qty',
   'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealth': 'Inventory Health',
-  'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealthSubtitle': 'Low stock {{lowStock}} · Out of stock {{outOfStock}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.inventoryHealthSubtitle':
+    'Low stock {{lowStock}} · Out of stock {{outOfStock}}',
   'app.kuaizhizao.warehouseDashboard.kpi.skuCount': 'SKU Count',
   'app.kuaizhizao.warehouseDashboard.kpi.pendingInOut': 'Pending In/Out',
-  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitleOverdue': 'Pending inbound {{pendingInbound}} · Overdue {{overdueInbound}}',
-  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitle': 'Pending inbound {{pendingInbound}} · Pending outbound {{pendingOutbound}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitleOverdue':
+    'Pending inbound {{pendingInbound}} · Overdue {{overdueInbound}}',
+  'app.kuaizhizao.warehouseDashboard.kpi.pendingSubtitle':
+    'Pending inbound {{pendingInbound}} · Pending outbound {{pendingOutbound}}',
   'app.kuaizhizao.warehouseDashboard.kpi.pendingOutbound': 'Pending Outbound',
   'app.kuaizhizao.warehouseDashboard.shortcut.purchaseInbound': 'Purchase Inbound',
   'app.kuaizhizao.warehouseDashboard.shortcut.salesOutbound': 'Sales Outbound',
@@ -8357,135 +9014,214 @@ export default {
   'components.uniPullQuery.pageTotal': 'About {{total}} items',
   'components.uniPullQuery.scopePullable': 'Loadable',
   'components.uniPullQuery.scopeAll': 'All documents',
-  'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.label': 'Create Sales Order from Quotation',
+  'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.label':
+    'Create Sales Order from Quotation',
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.source': 'Quotation',
   'app.kuaizhizao.documentAction.sales_order.pull_from_quotation.target': 'Sales Order',
-  'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.label': 'Create Sales Order from Sales Contract',
+  'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.label':
+    'Create Sales Order from Sales Contract',
   'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.source': 'Sales Contract',
   'app.kuaizhizao.documentAction.sales_order.pull_from_sales_contract.target': 'Sales Order',
-  'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.label': 'Create Sales Contract from Quotation',
+  'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.label':
+    'Create Sales Contract from Quotation',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.source': 'Quotation',
   'app.kuaizhizao.documentAction.sales_contract.pull_from_quotation.target': 'Sales Contract',
-  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.label': 'Create Sales Order Change from Sales Order',
+  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.label':
+    'Create Sales Order Change from Sales Order',
   'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.source': 'Sales Order',
-  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.target': 'Sales Order Change',
-  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.label': 'Create Purchase Order Change from Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.source': 'Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.target': 'Purchase Order Change',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.label': 'Create Purchase Inbound from Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.source': 'Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.target': 'Purchase Inbound',
-  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.label': 'Create Purchase Invoice from Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.source': 'Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.target': 'Purchase Invoice',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.label': 'Create Purchase Return from Purchase Order',
+  'app.kuaizhizao.documentAction.sales_order_change.pull_from_sales_order.target':
+    'Sales Order Change',
+  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.label':
+    'Create Purchase Order Change from Purchase Order',
+  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.source':
+    'Purchase Order',
+  'app.kuaizhizao.documentAction.purchase_order_change.pull_from_purchase_order.target':
+    'Purchase Order Change',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.label':
+    'Create Purchase Inbound from Purchase Order',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.source':
+    'Purchase Order',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_purchase_order.target':
+    'Purchase Inbound',
+  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.label':
+    'Create Purchase Invoice from Purchase Order',
+  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.source':
+    'Purchase Order',
+  'app.kuaizhizao.documentAction.purchase_invoice.pull_from_purchase_order.target':
+    'Purchase Invoice',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.label':
+    'Create Purchase Return from Purchase Order',
   'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.source': 'Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.target': 'Purchase Return',
-  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.label': 'Create Purchase Order from Requisition',
-  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.source': 'Purchase Requisition',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_purchase_order.target':
+    'Purchase Return',
+  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.label':
+    'Create Purchase Order from Requisition',
+  'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.source':
+    'Purchase Requisition',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_requisition.target': 'Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.label': 'Create Purchase Order from Inquiry',
+  'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.label':
+    'Create Purchase Order from Inquiry',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.source': 'Purchase Inquiry',
   'app.kuaizhizao.documentAction.purchase_order.pull_from_inquiry.target': 'Purchase Order',
-  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.label': 'Create Inquiry from Requisition',
-  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.source': 'Purchase Requisition',
+  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.label':
+    'Create Inquiry from Requisition',
+  'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.source':
+    'Purchase Requisition',
   'app.kuaizhizao.documentAction.purchase_inquiry.pull_from_requisition.target': 'Purchase Inquiry',
-  'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.label': 'Create Batching Order from Work Order',
+  'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.label':
+    'Create Batching Order from Work Order',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.source': 'Work Order',
   'app.kuaizhizao.documentAction.batching_order.pull_from_work_order.target': 'Batching Order',
-  'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.label': 'Create Shipment Notice from Sales Order',
+  'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.label':
+    'Create Shipment Notice from Sales Order',
   'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.shipment_notice.pull_from_sales_order.target': 'Shipment Notice',
-  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.label': 'Create Delivery Note from Sales Outbound',
+  'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.label':
+    'Create Delivery Note from Sales Outbound',
   'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.source': 'Sales Outbound',
   'app.kuaizhizao.documentAction.delivery_note.pull_from_sales_delivery.target': 'Delivery Note',
-  'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.label': 'Create Sales Invoice from Sales Order',
+  'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.label':
+    'Create Sales Invoice from Sales Order',
   'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.sales_invoice.pull_from_sales_order.target': 'Sales Invoice',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.label': 'Create Sales Outbound from Sales Order',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.label':
+    'Create Sales Outbound from Sales Order',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_sales_order.target': 'Sales Outbound',
-  'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.label': 'Create Sales Return from Sales Order',
+  'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.label':
+    'Create Sales Return from Sales Order',
   'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.sales_return.pull_from_sales_order.target': 'Sales Return',
-  'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.label': 'Create Receipt Notice from Purchase Order',
+  'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.label':
+    'Create Receipt Notice from Purchase Order',
   'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.source': 'Purchase Order',
   'app.kuaizhizao.documentAction.receipt_notice.pull_from_purchase_order.target': 'Receipt Notice',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.label': 'Create Purchase Inbound from Receipt Notice',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.source': 'Receipt Notice',
-  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.target': 'Purchase Inbound',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.label': 'Create Purchase Return from Incoming Inspection',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.source': 'Incoming Inspection',
-  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.target': 'Purchase Return',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.label': 'Create Incoming Inspection from Purchase Inbound',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.source': 'Purchase Inbound',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.target': 'Incoming Inspection',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.label': 'Create Incoming Inspection from Customer Material Registration',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.source': 'Customer Material Registration',
-  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.target': 'Incoming Inspection',
-  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.label': 'Create Process Inspection from Work Order',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.label':
+    'Create Purchase Inbound from Receipt Notice',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.source':
+    'Receipt Notice',
+  'app.kuaizhizao.documentAction.purchase_receipt.pull_from_receipt_notice.target':
+    'Purchase Inbound',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.label':
+    'Create Purchase Return from Incoming Inspection',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.source':
+    'Incoming Inspection',
+  'app.kuaizhizao.documentAction.purchase_return.pull_from_incoming_inspection.target':
+    'Purchase Return',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.label':
+    'Create Incoming Inspection from Purchase Inbound',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.source':
+    'Purchase Inbound',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_purchase_receipt.target':
+    'Incoming Inspection',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.label':
+    'Create Incoming Inspection from Customer Material Registration',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.source':
+    'Customer Material Registration',
+  'app.kuaizhizao.documentAction.incoming_inspection.pull_from_customer_material_registration.target':
+    'Incoming Inspection',
+  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.label':
+    'Create Process Inspection from Work Order',
   'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.source': 'Work Order',
-  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.target': 'Process Inspection',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.label': 'Create Finished Goods Inspection from Work Order',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.source': 'Work Order',
-  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.target': 'Finished Goods Inspection',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.label': 'Create OQC Inspection from Shipment Notice',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.source': 'Shipment Notice',
+  'app.kuaizhizao.documentAction.process_inspection.pull_from_work_order.target':
+    'Process Inspection',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.label':
+    'Create Finished Goods Inspection from Work Order',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.source':
+    'Work Order',
+  'app.kuaizhizao.documentAction.finished_goods_inspection.pull_from_work_order.target':
+    'Finished Goods Inspection',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.label':
+    'Create OQC Inspection from Shipment Notice',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.source':
+    'Shipment Notice',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_shipment_notice.target': 'OQC Inspection',
-  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.label': 'Create OQC Inspection from Sales Outbound',
+  'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.label':
+    'Create OQC Inspection from Sales Outbound',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.source': 'Sales Outbound',
   'app.kuaizhizao.documentAction.oqc_inspection.pull_from_sales_delivery.target': 'OQC Inspection',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.label': 'Create Rework Order from Finished Goods Inspection',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.source': 'Finished Goods Inspection',
-  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.target': 'Rework Order',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.label': 'Create Purchase Requisition from Demand Computation',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.source': 'Demand Computation',
-  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.target': 'Purchase Requisition',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.label': 'Create Demand Computation from Sales Forecast',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.source': 'Sales Forecast',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.target': 'Demand Computation',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.label': 'Create Demand Computation from Demand',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.label':
+    'Create Rework Order from Finished Goods Inspection',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.source':
+    'Finished Goods Inspection',
+  'app.kuaizhizao.documentAction.rework_order.pull_from_finished_goods_inspection.target':
+    'Rework Order',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.label':
+    'Create Purchase Requisition from Demand Computation',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.source':
+    'Demand Computation',
+  'app.kuaizhizao.documentAction.purchase_requisition.pull_from_demand_computation.target':
+    'Purchase Requisition',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.label':
+    'Create Demand Computation from Sales Forecast',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.source':
+    'Sales Forecast',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_forecast.target':
+    'Demand Computation',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.label':
+    'Create Demand Computation from Demand',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.source': 'Demand',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_demand.target': 'Demand Computation',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.label': 'Create Demand Computation from Sales Order',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.label':
+    'Create Demand Computation from Sales Order',
   'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.source': 'Sales Order',
-  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.target': 'Demand Computation',
-  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.label': 'Create Work Order from Demand Computation',
-  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.source': 'Demand Computation',
+  'app.kuaizhizao.documentAction.demand_computation.pull_from_sales_order.target':
+    'Demand Computation',
+  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.label':
+    'Create Work Order from Demand Computation',
+  'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.source':
+    'Demand Computation',
   'app.kuaizhizao.documentAction.work_order.pull_from_demand_computation.target': 'Work Order',
-  'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.label': 'Create Work Order from Production Plan',
+  'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.label':
+    'Create Work Order from Production Plan',
   'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.source': 'Production Plan',
   'app.kuaizhizao.documentAction.work_order.pull_from_production_plan.target': 'Work Order',
-  'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.label': 'Create Work Order from Sales Order',
+  'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.label':
+    'Create Work Order from Sales Order',
   'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.work_order.pull_from_sales_order.target': 'Work Order',
-  'app.kuaizhizao.documentAction.outbound.pull_from_work_order.label': 'Create Production Picking from Work Order',
+  'app.kuaizhizao.documentAction.outbound.pull_from_work_order.label':
+    'Create Production Picking from Work Order',
   'app.kuaizhizao.documentAction.outbound.pull_from_work_order.source': 'Work Order',
   'app.kuaizhizao.documentAction.outbound.pull_from_work_order.target': 'Production Picking',
-  'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.label': 'Create Sales Outbound from Sales Order',
+  'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.label':
+    'Create Sales Outbound from Sales Order',
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.outbound.pull_from_sales_order.target': 'Sales Outbound',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.label': 'Create Sales Outbound from Shipment Notice',
-  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.source': 'Shipment Notice',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.label':
+    'Create Sales Outbound from Shipment Notice',
+  'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.source':
+    'Shipment Notice',
   'app.kuaizhizao.documentAction.sales_delivery.pull_from_shipment_notice.target': 'Sales Outbound',
-  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.label': 'Create Outsource Issue from Outsource WO',
-  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.source': 'Outsource Work Order',
+  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.label':
+    'Create Outsource Issue from Outsource WO',
+  'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.source':
+    'Outsource Work Order',
   'app.kuaizhizao.documentAction.outbound.pull_from_outsource_work_order.target': 'Outsource Issue',
-  'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.label': 'Create Purchase Inbound from Purchase Order',
+  'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.label':
+    'Create Purchase Inbound from Purchase Order',
   'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.source': 'Purchase Order',
   'app.kuaizhizao.documentAction.inbound.pull_from_purchase_order.target': 'Purchase Inbound',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order.label': 'Create Finished Goods Inbound from Work Order',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order.label':
+    'Create Finished Goods Inbound from Work Order',
   'app.kuaizhizao.documentAction.inbound.pull_from_work_order.source': 'Work Order',
   'app.kuaizhizao.documentAction.inbound.pull_from_work_order.target': 'Finished Goods Inbound',
-  'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.label': 'Create Sales Return from Sales Order',
+  'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.label':
+    'Create Sales Return from Sales Order',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.source': 'Sales Order',
   'app.kuaizhizao.documentAction.inbound.pull_from_sales_order.target': 'Sales Return',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.label': 'Create Outsource Inbound from Outsource WO',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.source': 'Outsource Work Order',
-  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.target': 'Outsource Inbound',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.label': 'Create Production Return from Work Order',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.source': 'Work Order',
-  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.target': 'Production Return',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.label':
+    'Create Outsource Inbound from Outsource WO',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.source':
+    'Outsource Work Order',
+  'app.kuaizhizao.documentAction.inbound.pull_from_outsource_work_order.target':
+    'Outsource Inbound',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.label':
+    'Create Production Return from Work Order',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.source':
+    'Work Order',
+  'app.kuaizhizao.documentAction.inbound.pull_from_work_order_for_production_return.target':
+    'Production Return',
   'app.kuaizhizao.warehouseInbound.title': 'Inbound Management',
   'app.kuaizhizao.warehouseInbound.fallbackDoc': 'Inbound Receipt',
   'app.kuaizhizao.warehouseInbound.fallbackProductionReturnDoc': 'Production Return',
@@ -8496,8 +9232,10 @@ export default {
   'app.kuaizhizao.warehouseInbound.receiptType.customer_material': 'Customer-supplied Material',
   'app.kuaizhizao.warehouseInbound.receiptType.sales_return': 'Sales Return',
   'app.kuaizhizao.warehouseInbound.receiptType.outsource_receipt': 'Outsource Receipt',
-  'app.kuaizhizao.warehouseInbound.receiptType.outsource_material_return': 'Outsource Material Return',
-  'app.kuaizhizao.warehouseInbound.receiptType.outsource_product_return': 'Outsource Product Return',
+  'app.kuaizhizao.warehouseInbound.receiptType.outsource_material_return':
+    'Outsource Material Return',
+  'app.kuaizhizao.warehouseInbound.receiptType.outsource_product_return':
+    'Outsource Product Return',
   'app.kuaizhizao.warehouseInbound.receiptType.other_inbound': 'Other Inbound',
   'app.kuaizhizao.warehouseInbound.receiptType.material_return': 'Material Return',
   'app.kuaizhizao.warehouseInbound.filter.status.pending': 'Pending Inbound',
@@ -8541,11 +9279,13 @@ export default {
   'app.kuaizhizao.warehouseInbound.cmIqcReview.gate': 'Pre-confirm Customer Material IQC Gate',
   'app.kuaizhizao.warehouseInbound.cmIqcReview.registrationCode': 'Registration No.',
   'app.kuaizhizao.warehouseInbound.cmIqcReview.continueConfirm': 'Confirm Inbound',
-  'app.kuaizhizao.warehouseInbound.cmIqc.ensureFailed': 'Customer material IQC check failed. Please try again.',
+  'app.kuaizhizao.warehouseInbound.cmIqc.ensureFailed':
+    'Customer material IQC check failed. Please try again.',
   'app.kuaizhizao.warehouseInbound.cmIqc.ensureBlocked.content':
     'Required materials must pass incoming inspection before customer material inbound can be confirmed.',
   'app.kuaizhizao.warehouseInbound.fqcReview.title': 'Finished Goods Inspection Review',
-  'app.kuaizhizao.warehouseInbound.fqcReview.hint': 'Inspection policy and status by line; continue when qualified.',
+  'app.kuaizhizao.warehouseInbound.fqcReview.hint':
+    'Inspection policy and status by line; continue when qualified.',
   'app.kuaizhizao.warehouseInbound.fqcReview.fqcStage': 'FQC stage',
   'app.kuaizhizao.warehouseInbound.fqcReview.gate': 'Inbound FQC gate',
   'app.kuaizhizao.warehouseInbound.fqcReview.enabled': 'Enabled',
@@ -8731,64 +9471,92 @@ export default {
   'app.kuaizhizao.warehouseInbound.detail.serialCount': '{{count}} items',
   'app.kuaizhizao.warehouseInbound.confirmPreview.titleInbound': 'Confirm Inbound Preview',
   'app.kuaizhizao.warehouseInbound.confirmPreview.titleReturn': 'Confirm Return Preview',
-  'app.kuaizhizao.warehouseInbound.confirmPreview.description': 'Review inbound warehouse, location (optional), batch/serial numbers, and quantities line by line before confirming. Stock will be updated per line.',
-  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.title': 'Confirm Customer Material Inbound',
-  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.content': 'Confirm inbound document "{{code}}"?',
+  'app.kuaizhizao.warehouseInbound.confirmPreview.description':
+    'Review inbound warehouse, location (optional), batch/serial numbers, and quantities line by line before confirming. Stock will be updated per line.',
+  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.title':
+    'Confirm Customer Material Inbound',
+  'app.kuaizhizao.warehouseInbound.confirm.customerMaterial.content':
+    'Confirm inbound document "{{code}}"?',
   'app.kuaizhizao.warehouseInbound.confirm.salesReturn.title': 'Confirm Sales Return Inbound',
-  'app.kuaizhizao.warehouseInbound.confirm.salesReturn.content': 'Confirm inbound document "{{code}}"?',
+  'app.kuaizhizao.warehouseInbound.confirm.salesReturn.content':
+    'Confirm inbound document "{{code}}"?',
   'app.kuaizhizao.warehouseInbound.confirm.otherInbound.title': 'Confirm Other Inbound',
-  'app.kuaizhizao.warehouseInbound.confirm.otherInbound.content': 'Confirm inbound document "{{code}}"?',
+  'app.kuaizhizao.warehouseInbound.confirm.otherInbound.content':
+    'Confirm inbound document "{{code}}"?',
   'app.kuaizhizao.warehouseInbound.confirm.materialReturn.title': 'Confirm Material Return Inbound',
-  'app.kuaizhizao.warehouseInbound.confirm.materialReturn.content': 'Confirm material return document "{{code}}"?',
-  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.title': 'Confirm Outsource Receipt Inbound',
-  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.content': 'Confirm outsource receipt document "{{code}}"?',
+  'app.kuaizhizao.warehouseInbound.confirm.materialReturn.content':
+    'Confirm material return document "{{code}}"?',
+  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.title':
+    'Confirm Outsource Receipt Inbound',
+  'app.kuaizhizao.warehouseInbound.confirm.outsourceReceipt.content':
+    'Confirm outsource receipt document "{{code}}"?',
   'app.kuaizhizao.warehouseInbound.confirm.withdrawInbound.title': 'Withdraw Inbound',
   'app.kuaizhizao.warehouseInbound.confirm.withdrawReturn.title': 'Withdraw Return',
-  'app.kuaizhizao.warehouseInbound.confirm.withdraw.content': 'Withdraw document "{{code}}"? On-hand stock will be reduced by line; withdrawal fails if batch stock is insufficient.',
+  'app.kuaizhizao.warehouseInbound.confirm.withdraw.content':
+    'Withdraw document "{{code}}"? On-hand stock will be reduced by line; withdrawal fails if batch stock is insufficient.',
   'app.kuaizhizao.warehouseInbound.confirm.delete.title': 'Delete {{type}}',
-  'app.kuaizhizao.warehouseInbound.confirm.delete.content': 'Delete "{{code}}"? This cannot be undone (unconfirmed receipts do not affect stock).',
+  'app.kuaizhizao.warehouseInbound.confirm.delete.content':
+    'Delete "{{code}}"? This cannot be undone (unconfirmed receipts do not affect stock).',
   'app.kuaizhizao.warehouseInbound.confirm.batch.title': 'Batch confirm {{count}} documents',
-  'app.kuaizhizao.warehouseInbound.confirm.batch.description': 'Calls the matching confirm API per document type; non-confirmable documents are skipped with failure reasons summarized.',
-  'app.kuaizhizao.warehouseInbound.confirm.batchDelete': 'Delete selected {{count}} inbound receipts?',
-  'app.kuaizhizao.warehouseInbound.msg.recordsNotFound': 'Selected documents not found. Refresh the list and try again.',
-  'app.kuaizhizao.warehouseInbound.msg.batchConfirmSuccess': 'Successfully confirmed {{count}} documents',
-  'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailedMany': '{{count}} documents failed: {{detail}}…',
+  'app.kuaizhizao.warehouseInbound.confirm.batch.description':
+    'Calls the matching confirm API per document type; non-confirmable documents are skipped with failure reasons summarized.',
+  'app.kuaizhizao.warehouseInbound.confirm.batchDelete':
+    'Delete selected {{count}} inbound receipts?',
+  'app.kuaizhizao.warehouseInbound.msg.recordsNotFound':
+    'Selected documents not found. Refresh the list and try again.',
+  'app.kuaizhizao.warehouseInbound.msg.batchConfirmSuccess':
+    'Successfully confirmed {{count}} documents',
+  'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailedMany':
+    '{{count}} documents failed: {{detail}}…',
   'app.kuaizhizao.warehouseInbound.msg.batchConfirmFailed': 'Confirm failed: {{detail}}',
   'app.kuaizhizao.warehouseInbound.msg.loadDetailFailed': 'Failed to load inbound receipt details',
   'app.kuaizhizao.warehouseInbound.msg.noEditableLines': 'No editable line details',
-  'app.kuaizhizao.warehouseInbound.msg.actualQtyMustBePositive': 'Actual quantity for {{material}} must be greater than 0',
+  'app.kuaizhizao.warehouseInbound.msg.actualQtyMustBePositive':
+    'Actual quantity for {{material}} must be greater than 0',
   'app.kuaizhizao.warehouseInbound.msg.actualQtySaved': 'Actual quantities saved',
   'app.kuaizhizao.warehouseInbound.msg.saveFailed': 'Save failed',
   'app.kuaizhizao.warehouseInbound.msg.serialMax100': 'Generate up to 100 serial numbers at once',
   'app.kuaizhizao.warehouseInbound.msg.serialGenerated': 'Generated {{count}} serial numbers',
   'app.kuaizhizao.warehouseInbound.msg.serialGenerateFailed': 'Serial number generation failed',
-  'app.kuaizhizao.warehouseInbound.msg.loadConfirmPreviewFailed': 'Failed to load inbound receipt details',
+  'app.kuaizhizao.warehouseInbound.msg.loadConfirmPreviewFailed':
+    'Failed to load inbound receipt details',
   'app.kuaizhizao.warehouseInbound.msg.noInboundLines': 'No lines available for inbound',
-  'app.kuaizhizao.warehouseInbound.msg.selectWarehouseForMaterial': 'Select inbound warehouse for {{material}}',
+  'app.kuaizhizao.warehouseInbound.msg.selectWarehouseForMaterial':
+    'Select inbound warehouse for {{material}}',
   'app.kuaizhizao.warehouseInbound.msg.checkLines': 'Please check line details',
-  'app.kuaizhizao.warehouseInbound.msg.lineCountMismatch': 'Line count mismatch after save. Close preview and retry.',
-  'app.kuaizhizao.warehouseInbound.msg.lineIdAbnormal': 'Abnormal line IDs after save. Close preview and retry.',
+  'app.kuaizhizao.warehouseInbound.msg.lineCountMismatch':
+    'Line count mismatch after save. Close preview and retry.',
+  'app.kuaizhizao.warehouseInbound.msg.lineIdAbnormal':
+    'Abnormal line IDs after save. Close preview and retry.',
   'app.kuaizhizao.warehouseInbound.msg.returnConfirmSuccess': 'Return confirmed; stock updated',
   'app.kuaizhizao.warehouseInbound.msg.inboundConfirmSuccess': 'Inbound confirmed; stock updated',
   'app.kuaizhizao.warehouseInbound.msg.confirmFailed': 'Confirm failed',
-  'app.kuaizhizao.warehouseInbound.msg.customerMaterialConfirmed': 'Customer material inbound confirmed',
+  'app.kuaizhizao.warehouseInbound.msg.customerMaterialConfirmed':
+    'Customer material inbound confirmed',
   'app.kuaizhizao.warehouseInbound.msg.salesReturnConfirmed': 'Sales return inbound confirmed',
   'app.kuaizhizao.warehouseInbound.msg.otherInboundConfirmed': 'Other inbound confirmed',
-  'app.kuaizhizao.warehouseInbound.msg.materialReturnConfirmed': 'Material return inbound confirmed',
-  'app.kuaizhizao.warehouseInbound.msg.outsourceReceiptConfirmed': 'Outsource receipt inbound confirmed',
-  'app.kuaizhizao.warehouseInbound.msg.useConfirmPreviewForOutsource': 'Use confirm inbound preview for outsource returns',
+  'app.kuaizhizao.warehouseInbound.msg.materialReturnConfirmed':
+    'Material return inbound confirmed',
+  'app.kuaizhizao.warehouseInbound.msg.outsourceReceiptConfirmed':
+    'Outsource receipt inbound confirmed',
+  'app.kuaizhizao.warehouseInbound.msg.useConfirmPreviewForOutsource':
+    'Use confirm inbound preview for outsource returns',
   'app.kuaizhizao.warehouseInbound.iqc.ensureBlocked.title': 'Incoming inspection required',
   'app.kuaizhizao.warehouseInbound.iqc.ensureBlocked.content':
     'Related materials must pass incoming inspection before receipt confirmation; you will be guided to IQC if not complete.',
   'app.kuaizhizao.warehouseInbound.iqc.ensureBlocked.goInspect': 'Go to incoming inspection',
-  'app.kuaizhizao.warehouseInbound.iqc.autoCreated': 'Automatically created {{count}} incoming inspection(s)',
-  'app.kuaizhizao.warehouseInbound.iqc.ensureFailed': 'Incoming inspection check failed. Please try again.',
-  'app.kuaizhizao.warehouseInbound.fqc.autoCreated': 'Auto-created {{count}} finished goods inspection(s)',
+  'app.kuaizhizao.warehouseInbound.iqc.autoCreated':
+    'Automatically created {{count}} incoming inspection(s)',
+  'app.kuaizhizao.warehouseInbound.iqc.ensureFailed':
+    'Incoming inspection check failed. Please try again.',
+  'app.kuaizhizao.warehouseInbound.fqc.autoCreated':
+    'Auto-created {{count}} finished goods inspection(s)',
   'app.kuaizhizao.warehouseInbound.fqc.ensureBlocked.title': 'Finished goods inspection required',
   'app.kuaizhizao.warehouseInbound.fqc.ensureBlocked.content':
     'Materials must pass finished goods inspection before confirm inbound.',
   'app.kuaizhizao.warehouseInbound.fqc.ensureBlocked.goInspect': 'Go to FQC',
-  'app.kuaizhizao.warehouseInbound.fqc.ensureFailed': 'Finished goods inspection check failed. Please try again.',
+  'app.kuaizhizao.warehouseInbound.fqc.ensureFailed':
+    'Finished goods inspection check failed. Please try again.',
   'app.kuaizhizao.warehouseInbound.msg.withdrawReturnSuccess': 'Return withdrawn; stock reduced',
   'app.kuaizhizao.warehouseInbound.msg.withdrawInboundSuccess': 'Inbound withdrawn; stock reduced',
   'app.kuaizhizao.warehouseInbound.msg.withdrawFailed': 'Withdraw failed',
@@ -8798,11 +9566,15 @@ export default {
   'app.kuaizhizao.warehouseInbound.msg.batchDeleteSuccess': 'Deleted {{count}} records',
   'app.kuaizhizao.warehouseInbound.msg.loadUsersFailed': 'Failed to load users. Try again later.',
   'app.kuaizhizao.warehouseInbound.msg.noLinesToSetWarehouse': 'No lines to set warehouse for',
-  'app.kuaizhizao.warehouseInbound.msg.batchWarehouseApplied': 'Set inbound warehouse for {{count}} lines',
-  'app.kuaizhizao.warehouseInbound.batchConfirm.loadDetailFailed': 'Failed to load document details',
-  'app.kuaizhizao.warehouseInbound.batchConfirm.useSinglePreview': 'Use single-line confirm preview for outsource returns',
+  'app.kuaizhizao.warehouseInbound.msg.batchWarehouseApplied':
+    'Set inbound warehouse for {{count}} lines',
+  'app.kuaizhizao.warehouseInbound.batchConfirm.loadDetailFailed':
+    'Failed to load document details',
+  'app.kuaizhizao.warehouseInbound.batchConfirm.useSinglePreview':
+    'Use single-line confirm preview for outsource returns',
   'app.kuaizhizao.warehouseInbound.batchConfirm.unsupportedType': 'Unsupported document type',
-  'app.kuaizhizao.warehouseInbound.batchConfirm.notConfirmable': 'Current status cannot be confirmed for inbound',
+  'app.kuaizhizao.warehouseInbound.batchConfirm.notConfirmable':
+    'Current status cannot be confirmed for inbound',
   'app.kuaizhizao.warehouseInbound.batchConfirm.failed': 'Confirm failed',
   'app.kuaizhizao.warehouseInbound.pull.lifecycle.done': 'Completed',
   'app.kuaizhizao.warehouseInbound.pull.lifecycle.active': 'In Progress',
@@ -8817,82 +9589,128 @@ export default {
   'app.kuaizhizao.warehouseInbound.pull.po.title': 'Inbound from Purchase Order',
   'app.kuaizhizao.warehouseInbound.pull.po.searchPlaceholder': 'Search by PO no./supplier',
   'app.kuaizhizao.warehouseInbound.pull.po.selectAtLeastOne': 'Select at least one purchase order',
-  'app.kuaizhizao.warehouseInbound.pull.po.allCompleted': 'Selected POs are fully received with no pullable quantity',
-  'app.kuaizhizao.warehouseInbound.pull.po.selectOnlyOne': 'Select only one purchase order for inbound',
+  'app.kuaizhizao.warehouseInbound.pull.po.allCompleted':
+    'Selected POs are fully received with no pullable quantity',
+  'app.kuaizhizao.warehouseInbound.pull.po.selectOnlyOne':
+    'Select only one purchase order for inbound',
   'app.kuaizhizao.warehouseInbound.pull.po.loadFailed': 'Failed to load purchase orders',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.title': 'Create Receipt from Notice',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.searchPlaceholder': 'Search by notice/PO/supplier',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.searchPlaceholder':
+    'Search by notice/PO/supplier',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.selectRequired': 'Select a receipt notice',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.alreadyConverted': 'Receipt notice already converted to purchase receipt',
-  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.noLinkedPo': 'Receipt notice is not linked to a purchase order',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.alreadyConverted':
+    'Receipt notice already converted to purchase receipt',
+  'app.kuaizhizao.warehouseInbound.pull.receiptNotice.noLinkedPo':
+    'Receipt notice is not linked to a purchase order',
   'app.kuaizhizao.warehouseInbound.pull.receiptNotice.loadFailed': 'Failed to load receipt notice',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.title': 'Create Receipt from Work Order',
-  'app.kuaizhizao.warehouseInbound.pull.workOrder.searchPlaceholder': 'Search by WO/product/sales order',
+  'app.kuaizhizao.warehouseInbound.pull.workOrder.searchPlaceholder':
+    'Search by WO/product/sales order',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.selectRequired': 'Select a work order',
   'app.kuaizhizao.warehouseInbound.pull.workOrder.loadFailed': 'Failed to load work orders',
   'app.kuaizhizao.warehouseInbound.pull.productionReturn.title': 'Create Production Return from WO',
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.title': 'Create Return from Sales Order',
-  'app.kuaizhizao.warehouseInbound.pull.salesReturn.searchPlaceholder': 'Search by sales order/customer',
+  'app.kuaizhizao.warehouseInbound.pull.salesReturn.searchPlaceholder':
+    'Search by sales order/customer',
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.selectRequired': 'Select a sales order',
   'app.kuaizhizao.warehouseInbound.pull.salesReturn.loadFailed': 'Failed to load sales orders',
   'app.kuaizhizao.warehouseInbound.pull.outsource.title': 'Create Receipt from Outsource WO',
-  'app.kuaizhizao.warehouseInbound.pull.outsource.searchPlaceholder': 'Search by outsource WO/product/supplier',
+  'app.kuaizhizao.warehouseInbound.pull.outsource.searchPlaceholder':
+    'Search by outsource WO/product/supplier',
   'app.kuaizhizao.warehouseInbound.pull.outsource.selectRequired': 'Select an outsource work order',
-  'app.kuaizhizao.warehouseInbound.pull.outsource.loadFailed': 'Failed to load outsource work orders',
+  'app.kuaizhizao.warehouseInbound.pull.outsource.loadFailed':
+    'Failed to load outsource work orders',
   'app.kuaizhizao.warehouseInbound.entry.purchase.title': 'Purchase Inbound',
   'app.kuaizhizao.warehouseInbound.entry.purchase.titleWithCode': 'Purchase Inbound — {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.purchase.invalidPo': 'Invalid purchase order',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.allReceived': 'PO fully received; no lines to push',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.allReceived':
+    'PO fully received; no lines to push',
   'app.kuaizhizao.warehouseInbound.entry.purchase.loadFailed': 'Failed to load purchase order',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.qtyExceedsOutstanding': 'Receipt qty for {{material}} cannot exceed outstanding {{max}}',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.fillReceiptQty': 'Enter receipt quantity for at least one line',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.noReceiptId': 'Push succeeded but no receipt ID returned',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreated': 'Purchase inbound draft created{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.qtyExceedsOutstanding':
+    'Receipt qty for {{material}} cannot exceed outstanding {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.fillReceiptQty':
+    'Enter receipt quantity for at least one line',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.noReceiptId':
+    'Push succeeded but no receipt ID returned',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreated':
+    'Purchase inbound draft created{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.purchase.draftCreatedSuffix': ': {{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.purchase.batchWarehouseTitle': 'Batch Set Inbound Warehouse',
+  'app.kuaizhizao.warehouseInbound.entry.purchase.batchWarehouseTitle':
+    'Batch Set Inbound Warehouse',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.invalid': 'Invalid work order',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.noLines': 'No inbound lines for this work order',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.loadFailed': 'Failed to load work order inbound preview',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.loadFailed':
+    'Failed to load work order inbound preview',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.fillReceiptQty': 'Enter receipt quantity',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.qtyExceedsPending': 'Receipt qty cannot exceed pending {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.qtyExceedsPending':
+    'Receipt qty cannot exceed pending {{max}}',
   'app.kuaizhizao.warehouseInbound.entry.workOrder.selectWarehouse': 'Select inbound warehouse',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.semiDraftCreated': 'Semi-finished inbound draft created{{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.workOrder.finishedDraftCreated': 'Finished goods inbound draft created{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.semiDraftCreated':
+    'Semi-finished inbound draft created{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.workOrder.finishedDraftCreated':
+    'Finished goods inbound draft created{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.title': 'Production Return',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.titleWithCode': 'Production Return — {{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingFailed': 'Failed to load picking documents',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnLines': 'Selected picking has no return lines',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingLinesFailed': 'Failed to load picking lines',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.titleWithCode':
+    'Production Return — {{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingFailed':
+    'Failed to load picking documents',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnLines':
+    'Selected picking has no return lines',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.loadPickingLinesFailed':
+    'Failed to load picking lines',
   'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectPicking': 'Select picking document',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectWarehouse': 'Select return warehouse',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.fillReturnQty': 'Enter return quantity for at least one line',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.qtyExceedsPicked': 'Return qty for {{material}} cannot exceed picked {{max}}',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnId': 'Created but no return document ID returned',
-  'app.kuaizhizao.warehouseInbound.entry.productionReturn.draftCreated': 'Production return draft created{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.selectWarehouse':
+    'Select return warehouse',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.fillReturnQty':
+    'Enter return quantity for at least one line',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.qtyExceedsPicked':
+    'Return qty for {{material}} cannot exceed picked {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.noReturnId':
+    'Created but no return document ID returned',
+  'app.kuaizhizao.warehouseInbound.entry.productionReturn.draftCreated':
+    'Production return draft created{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.title': 'Sales Return',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.titleWithCode': 'Sales Return — {{code}}',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.invalidOrder': 'Invalid sales order',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.noLines': 'No return lines for this sales order',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.loadFailed': 'Failed to load sales return preview',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.qtyExceedsReturnable': 'Return qty for {{material}} cannot exceed returnable {{max}}',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.fillReturnQty': 'Enter return quantity for at least one line',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.noLines':
+    'No return lines for this sales order',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.loadFailed':
+    'Failed to load sales return preview',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.qtyExceedsReturnable':
+    'Return qty for {{material}} cannot exceed returnable {{max}}',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.fillReturnQty':
+    'Enter return quantity for at least one line',
   'app.kuaizhizao.warehouseInbound.entry.salesReturn.selectWarehouse': 'Select return warehouse',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.noReturnId': 'Push succeeded but no return ID returned',
-  'app.kuaizhizao.warehouseInbound.entry.salesReturn.draftCreated': 'Sales return draft created{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.noReturnId':
+    'Push succeeded but no return ID returned',
+  'app.kuaizhizao.warehouseInbound.entry.salesReturn.draftCreated':
+    'Sales return draft created{{code}}',
   'app.kuaizhizao.warehouseInbound.entry.outsource.invalid': 'Invalid outsource work order',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noMaterialReturnLines': 'No material return lines for this outsource WO',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noProductReturnLines': 'No product return lines for this outsource WO',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.loadFailed': 'Failed to load outsource work order',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noMaterialReturnLines':
+    'No material return lines for this outsource WO',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noProductReturnLines':
+    'No product return lines for this outsource WO',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.loadFailed':
+    'Failed to load outsource work order',
   'app.kuaizhizao.warehouseInbound.entry.outsource.selectWarehouse': 'Select warehouse',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.noReceiptQty': 'No receivable quantity for this outsource WO',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnQtyExceeds': 'Material return qty for {{material}} exceeds returnable',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnQtyExceeds': 'Product return qty exceeds returnable',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.fillMaterialReturnQty': 'Enter material return qty for at least one line',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.fillProductReturnQty': 'Enter product return qty for at least one line',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.receiptDraftCreated': 'Outsource receipt draft created{{code}}',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnDraftsCreated': 'Created {{count}} outsource material return drafts',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnDraftsCreated': 'Created {{count}} outsource product return drafts',
-  'app.kuaizhizao.warehouseInbound.entry.outsource.multiDraftConfirmInList': 'Created {{count}} drafts. Confirm each in the list.',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.noReceiptQty':
+    'No receivable quantity for this outsource WO',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnQtyExceeds':
+    'Material return qty for {{material}} exceeds returnable',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnQtyExceeds':
+    'Product return qty exceeds returnable',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.fillMaterialReturnQty':
+    'Enter material return qty for at least one line',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.fillProductReturnQty':
+    'Enter product return qty for at least one line',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.receiptDraftCreated':
+    'Outsource receipt draft created{{code}}',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.materialReturnDraftsCreated':
+    'Created {{count}} outsource material return drafts',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.productReturnDraftsCreated':
+    'Created {{count}} outsource product return drafts',
+  'app.kuaizhizao.warehouseInbound.entry.outsource.multiDraftConfirmInList':
+    'Created {{count}} drafts. Confirm each in the list.',
   'app.kuaizhizao.warehouseOtherInbound.title': 'Other Inbound',
   'app.kuaizhizao.warehouseOtherInbound.create': 'New Other Inbound',
   'app.kuaizhizao.warehouseOtherInbound.createModal': 'New Other Inbound',
@@ -8949,13 +9767,17 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.field.quantityMin': '>0',
   'app.kuaizhizao.warehouseOtherInbound.field.dictManage': 'Data Dictionary',
   'app.kuaizhizao.warehouseOtherInbound.confirm.title': 'Confirm Inbound',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.content': 'Confirm inbound "{{code}}"? Stock will be updated.',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.content':
+    'Confirm inbound "{{code}}"? Stock will be updated.',
   'app.kuaizhizao.warehouseOtherInbound.confirm.deleteTitle': 'Delete Inbound',
   'app.kuaizhizao.warehouseOtherInbound.confirm.deleteContent': 'Delete inbound "{{code}}"?',
   'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawTitle': 'Confirm Withdraw Inbound',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawContent': 'Withdraw confirmation for "{{code}}"? Added stock will be rolled back.',
-  'app.kuaizhizao.warehouseOtherInbound.confirm.batchDelete': 'Delete selected {{count}} other inbound documents?',
-  'app.kuaizhizao.warehouseOtherInbound.msg.loadDetailFailed': 'Failed to load other inbound details',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.withdrawContent':
+    'Withdraw confirmation for "{{code}}"? Added stock will be rolled back.',
+  'app.kuaizhizao.warehouseOtherInbound.confirm.batchDelete':
+    'Delete selected {{count}} other inbound documents?',
+  'app.kuaizhizao.warehouseOtherInbound.msg.loadDetailFailed':
+    'Failed to load other inbound details',
   'app.kuaizhizao.warehouseOtherInbound.msg.confirmSuccess': 'Inbound confirmed',
   'app.kuaizhizao.warehouseOtherInbound.msg.confirmFailed': 'Inbound confirm failed',
   'app.kuaizhizao.warehouseOtherInbound.msg.deleteSuccess': 'Deleted successfully',
@@ -8964,15 +9786,18 @@ export default {
   'app.kuaizhizao.warehouseOtherInbound.msg.withdrawFailed': 'Withdraw failed',
   'app.kuaizhizao.warehouseOtherInbound.msg.loadListFailed': 'Failed to load other inbound list',
   'app.kuaizhizao.warehouseOtherInbound.msg.batchDeleteSuccess': 'Deleted {{count}} records',
-  'app.kuaizhizao.warehouseOtherInbound.msg.needValidLine': 'Add at least one valid line (material and quantity)',
+  'app.kuaizhizao.warehouseOtherInbound.msg.needValidLine':
+    'Add at least one valid line (material and quantity)',
   'app.kuaizhizao.warehouseOtherInbound.msg.createSuccess': 'Created successfully',
   'app.kuaizhizao.warehouseOtherInbound.msg.createFailed': 'Create failed',
   'app.kuaizhizao.warehouseOtherInbound.msg.selectMaterialFirst': 'Select material first',
   'app.kuaizhizao.warehouseOtherInbound.msg.batchGenerated': 'Batch number generated',
   'app.kuaizhizao.warehouseOtherInbound.msg.batchGenerateFailed': 'Batch number generation failed',
-  'app.kuaizhizao.warehouseOtherInbound.msg.serialMax100': 'Generate up to 100 serial numbers at once',
+  'app.kuaizhizao.warehouseOtherInbound.msg.serialMax100':
+    'Generate up to 100 serial numbers at once',
   'app.kuaizhizao.warehouseOtherInbound.msg.serialGenerated': 'Generated {{count}} serial numbers',
-  'app.kuaizhizao.warehouseOtherInbound.msg.serialGenerateFailed': 'Serial number generation failed',
+  'app.kuaizhizao.warehouseOtherInbound.msg.serialGenerateFailed':
+    'Serial number generation failed',
   'app.kuaizhizao.warehouseMaterialReturn.title': 'Material Return',
   'app.kuaizhizao.warehouseMaterialReturn.create': 'New Material Return',
   'app.kuaizhizao.warehouseMaterialReturn.createModal': 'New Material Return',
@@ -9006,23 +9831,31 @@ export default {
   'app.kuaizhizao.warehouseMaterialReturn.field.optional': 'Optional',
   'app.kuaizhizao.warehouseMaterialReturn.field.returnDetails': 'Return Lines',
   'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrow': 'Select borrow document',
-  'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowPlaceholder': 'Select borrow document (borrowed status only)',
+  'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowPlaceholder':
+    'Select borrow document (borrowed status only)',
   'app.kuaizhizao.warehouseMaterialReturn.field.selectBorrowRequired': 'Select borrow document',
   'app.kuaizhizao.warehouseMaterialReturn.confirm.title': 'Confirm Inbound',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.content': 'Confirm material return "{{code}}"? Stock will be increased.',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.content':
+    'Confirm material return "{{code}}"? Stock will be increased.',
   'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteTitle': 'Delete Material Return',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteContent': 'Delete material return "{{code}}"?',
-  'app.kuaizhizao.warehouseMaterialReturn.confirm.batchDelete': 'Delete selected {{count}} material return documents?',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.loadDetailFailed': 'Failed to load material return details',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.loadBorrowDetailFailed': 'Failed to load borrow document details',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.deleteContent':
+    'Delete material return "{{code}}"?',
+  'app.kuaizhizao.warehouseMaterialReturn.confirm.batchDelete':
+    'Delete selected {{count}} material return documents?',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.loadDetailFailed':
+    'Failed to load material return details',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.loadBorrowDetailFailed':
+    'Failed to load borrow document details',
   'app.kuaizhizao.warehouseMaterialReturn.msg.confirmSuccess': 'Inbound confirmed',
   'app.kuaizhizao.warehouseMaterialReturn.msg.confirmFailed': 'Inbound confirm failed',
   'app.kuaizhizao.warehouseMaterialReturn.msg.deleteSuccess': 'Deleted successfully',
   'app.kuaizhizao.warehouseMaterialReturn.msg.deleteFailed': 'Delete failed',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.loadListFailed': 'Failed to load material return list',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.loadListFailed':
+    'Failed to load material return list',
   'app.kuaizhizao.warehouseMaterialReturn.msg.batchDeleteSuccess': 'Deleted {{count}} records',
   'app.kuaizhizao.warehouseMaterialReturn.msg.selectBorrow': 'Select borrow document',
-  'app.kuaizhizao.warehouseMaterialReturn.msg.needValidReturnQty': 'Enter return quantity for at least one line',
+  'app.kuaizhizao.warehouseMaterialReturn.msg.needValidReturnQty':
+    'Enter return quantity for at least one line',
   'app.kuaizhizao.warehouseMaterialReturn.msg.createSuccess': 'Created successfully',
   'app.kuaizhizao.warehouseMaterialReturn.msg.createFailed': 'Create failed',
 
@@ -9119,46 +9952,64 @@ export default {
   'app.kuaizhizao.warehouseOutbound.msg.selectSalesOrders': 'Select at least one sales order',
   'app.kuaizhizao.warehouseOutbound.msg.selectWorkOrders': 'Select at least one work order',
   'app.kuaizhizao.warehouseOutbound.msg.selectWarehouse': 'Select outbound warehouse',
-  'app.kuaizhizao.warehouseOutbound.msg.salesOrderPullFailed': 'Sales order {{id}} pull failed: {{message}}',
-  'app.kuaizhizao.warehouseOutbound.msg.batchSalesSuccess': 'Batch sales outbound succeeded, created {{count}} delivery docs',
-  'app.kuaizhizao.warehouseOutbound.msg.batchPickingSuccess': 'Batch production picking succeeded, created {{count}} picking docs',
+  'app.kuaizhizao.warehouseOutbound.msg.salesOrderPullFailed':
+    'Sales order {{id}} pull failed: {{message}}',
+  'app.kuaizhizao.warehouseOutbound.msg.batchSalesSuccess':
+    'Batch sales outbound succeeded, created {{count}} delivery docs',
+  'app.kuaizhizao.warehouseOutbound.msg.batchPickingSuccess':
+    'Batch production picking succeeded, created {{count}} picking docs',
   'app.kuaizhizao.warehouseOutbound.msg.batchOutboundFailed': 'Batch outbound failed',
   'app.kuaizhizao.warehouseOutbound.msg.attachmentsSaved': 'Attachments saved',
   'app.kuaizhizao.warehouseOutbound.msg.saveAttachmentsFailed': 'Failed to save attachments',
-  'app.kuaizhizao.warehouseOutbound.msg.selectPendingDocs': 'Select pending outbound documents first',
-  'app.kuaizhizao.warehouseOutbound.msg.noneConfirmable': 'None of the selected documents can be confirmed',
-  'app.kuaizhizao.warehouseOutbound.msg.batchConfirmSuccess': 'Confirmed {{count}} outbound documents',
+  'app.kuaizhizao.warehouseOutbound.msg.selectPendingDocs':
+    'Select pending outbound documents first',
+  'app.kuaizhizao.warehouseOutbound.msg.noneConfirmable':
+    'None of the selected documents can be confirmed',
+  'app.kuaizhizao.warehouseOutbound.msg.batchConfirmSuccess':
+    'Confirmed {{count}} outbound documents',
   'app.kuaizhizao.warehouseOutbound.msg.batchConfirmFailed': '{{count}} failed: {{details}}',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawTitle': 'Withdraw Outbound',
-  'app.kuaizhizao.warehouseOutbound.msg.withdrawConfirm': 'Withdraw document "{{code}}"? Inventory will be reversed and status restored to pending.',
+  'app.kuaizhizao.warehouseOutbound.msg.withdrawConfirm':
+    'Withdraw document "{{code}}"? Inventory will be reversed and status restored to pending.',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawSuccess': 'Withdrawn successfully',
   'app.kuaizhizao.warehouseOutbound.msg.withdrawFailed': 'Withdraw failed',
   'app.kuaizhizao.warehouseOutbound.msg.printNotSupported': 'Print is not supported for this type',
-  'app.kuaizhizao.warehouseOutbound.msg.selectPickingDocs': 'Select production picking documents first',
+  'app.kuaizhizao.warehouseOutbound.msg.selectPickingDocs':
+    'Select production picking documents first',
   'app.kuaizhizao.warehouseOutbound.msg.waveGenerated': 'Wave picking list generated',
   'app.kuaizhizao.warehouseOutbound.msg.waveGenerateFailed': 'Failed to generate wave picking list',
   'app.kuaizhizao.warehouseOutbound.msg.deleteSuccess': 'Deleted {{count}} records',
   'app.kuaizhizao.warehouseOutbound.msg.deleteFailed': 'Delete failed',
-  'app.kuaizhizao.warehouseOutbound.msg.deleteConfirm': 'Delete selected {{count}} outbound documents?',
-  'app.kuaizhizao.warehouseOutbound.msg.noConfirmPickingPermission': 'You are not allowed to confirm production picking under current settings',
+  'app.kuaizhizao.warehouseOutbound.msg.deleteConfirm':
+    'Delete selected {{count}} outbound documents?',
+  'app.kuaizhizao.warehouseOutbound.msg.noConfirmPickingPermission':
+    'You are not allowed to confirm production picking under current settings',
   'app.kuaizhizao.warehouseOutbound.msg.unknownError': 'Unknown error',
   'app.kuaizhizao.warehouseOutbound.batch.title': 'Batch Outbound',
-  'app.kuaizhizao.warehouseOutbound.batch.description': 'Batch create outbound docs from upstream documents. Production picking: push from work orders; sales outbound: pull from sales orders.',
-  'app.kuaizhizao.warehouseOutbound.batch.typeProductionPicking': 'Production Picking (from work order)',
+  'app.kuaizhizao.warehouseOutbound.batch.description':
+    'Batch create outbound docs from upstream documents. Production picking: push from work orders; sales outbound: pull from sales orders.',
+  'app.kuaizhizao.warehouseOutbound.batch.typeProductionPicking':
+    'Production Picking (from work order)',
   'app.kuaizhizao.warehouseOutbound.batch.typeSalesDelivery': 'Sales Outbound (from sales order)',
   'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrders': 'Select Work Orders',
   'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersRule': 'Select at least one work order',
-  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersPlaceholder': 'Select work orders (released/in progress)',
+  'app.kuaizhizao.warehouseOutbound.batch.selectWorkOrdersPlaceholder':
+    'Select work orders (released/in progress)',
   'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrders': 'Select Sales Orders',
   'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersRule': 'Select at least one sales order',
-  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersPlaceholder': 'Select sales orders (audited/confirmed)',
+  'app.kuaizhizao.warehouseOutbound.batch.selectSalesOrdersPlaceholder':
+    'Select sales orders (audited/confirmed)',
   'app.kuaizhizao.warehouseOutbound.batch.selectWarehouseRule': 'Select outbound warehouse',
-  'app.kuaizhizao.warehouseOutbound.batchConfirm.title': 'Confirm batch outbound for {{count}} documents',
-  'app.kuaizhizao.warehouseOutbound.batchConfirm.description': 'Calls the matching confirm API per document type; non-confirmable documents are skipped and failures are summarized.',
+  'app.kuaizhizao.warehouseOutbound.batchConfirm.title':
+    'Confirm batch outbound for {{count}} documents',
+  'app.kuaizhizao.warehouseOutbound.batchConfirm.description':
+    'Calls the matching confirm API per document type; non-confirmable documents are skipped and failures are summarized.',
   'app.kuaizhizao.warehouseOutbound.wave.title': 'Wave Picking List',
-  'app.kuaizhizao.warehouseOutbound.wave.summary': 'Merged {{sourceCount}} production picking docs into {{itemCount}} picking routes.',
+  'app.kuaizhizao.warehouseOutbound.wave.summary':
+    'Merged {{sourceCount}} production picking docs into {{itemCount}} picking routes.',
   'app.kuaizhizao.warehouseOutbound.confirm.title': 'Confirm Outbound',
-  'app.kuaizhizao.warehouseOutbound.confirm.hint': 'Verify location, batch no. and serial no. Batch/serial-managed materials are validated on confirm.',
+  'app.kuaizhizao.warehouseOutbound.confirm.hint':
+    'Verify location, batch no. and serial no. Batch/serial-managed materials are validated on confirm.',
   'app.kuaizhizao.warehouseOutbound.confirm.fifoHint': 'FIFO/LIFO and other strategies see',
   'app.kuaizhizao.warehouseOutbound.confirm.fifoLink': 'Config Center → Warehouse Parameters',
   'app.kuaizhizao.warehouseOutbound.confirm.loadingBatches': 'Loading batches…',
@@ -9168,21 +10019,30 @@ export default {
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.title': 'Select serial numbers',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.open': 'Select',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.confirm': 'OK',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.searchPlaceholder': 'Search serial numbers',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.searchPlaceholder':
+    'Search serial numbers',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectAll': 'Select all',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.clear': 'Clear',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectedCount': '{{selected}} / {{required}} selected',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.selectedCount':
+    '{{selected}} / {{required}} selected',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.summary': '{{count}} selected',
-  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.maxReached': 'Maximum reached ({{max}} items)',
+  'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.maxReached':
+    'Maximum reached ({{max}} items)',
   'app.kuaizhizao.warehouseOutbound.confirm.serialPicker.noMatch': 'No matching serial numbers',
   'app.kuaizhizao.warehouseOutbound.confirm.batchAvailable': '{{batch}} (available {{qty}})',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchAvailableWithWh': '{{batch}} (available {{qty}} · {{warehouse}})',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchRequired': 'Material {{material}}: select an in-stock batch: {{batches}}',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchNotInStock': 'Material {{material}} has no batch in warehouse "{{warehouse}}". Check warehouse or material default warehouse.',
-  'app.kuaizhizao.warehouseOutbound.confirm.batchQtyInsufficient': 'Material {{material}} batch {{batch}} has {{available}} available, less than outbound qty {{required}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchAvailableWithWh':
+    '{{batch}} (available {{qty}} · {{warehouse}})',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchRequired':
+    'Material {{material}}: select an in-stock batch: {{batches}}',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchNotInStock':
+    'Material {{material}} has no batch in warehouse "{{warehouse}}". Check warehouse or material default warehouse.',
+  'app.kuaizhizao.warehouseOutbound.confirm.batchQtyInsufficient':
+    'Material {{material}} batch {{batch}} has {{available}} available, less than outbound qty {{required}}',
   'app.kuaizhizao.warehouseOutbound.confirm.loadPreviewFailed': 'Failed to load confirm preview',
-  'app.kuaizhizao.warehouseOutbound.confirm.typeNotSupported': 'Confirm outbound is not supported for this type',
-  'app.kuaizhizao.warehouseOutbound.confirm.notPosted': 'Outbound not posted (API status: {{status}})',
+  'app.kuaizhizao.warehouseOutbound.confirm.typeNotSupported':
+    'Confirm outbound is not supported for this type',
+  'app.kuaizhizao.warehouseOutbound.confirm.notPosted':
+    'Outbound not posted (API status: {{status}})',
   'app.kuaizhizao.warehouseOutbound.confirm.success': 'Outbound confirmed, inventory updated',
   'app.kuaizhizao.warehouseOutbound.confirm.failed': 'Outbound confirm failed',
   'app.kuaizhizao.warehouseOutbound.pull.pullable': 'Pullable',
@@ -9191,14 +10051,19 @@ export default {
   'app.kuaizhizao.warehouseOutbound.pull.canCreate': 'Can create',
   'app.kuaizhizao.warehouseOutbound.pull.alreadyCreated': 'Created: {{code}}',
   'app.kuaizhizao.warehouseOutbound.pull.alreadyCreatedDelivery': 'Created {{label}}',
-  'app.kuaizhizao.warehouseOutbound.pull.fromWorkOrder': 'Pull from Work Order — Production Picking',
+  'app.kuaizhizao.warehouseOutbound.pull.fromWorkOrder':
+    'Pull from Work Order — Production Picking',
   'app.kuaizhizao.warehouseOutbound.pull.fromSalesOrder': 'Pull from Sales Order — Sales Outbound',
-  'app.kuaizhizao.warehouseOutbound.pull.fromShipmentNotice': 'Create Outbound from Shipment Notice',
+  'app.kuaizhizao.warehouseOutbound.pull.fromShipmentNotice':
+    'Create Outbound from Shipment Notice',
   'app.kuaizhizao.warehouseOutbound.pull.fromOutsource': 'Pull from Outsource WO — Outsource Issue',
-  'app.kuaizhizao.warehouseOutbound.pull.searchWorkOrder': 'Search by WO no./product/sales order no.',
+  'app.kuaizhizao.warehouseOutbound.pull.searchWorkOrder':
+    'Search by WO no./product/sales order no.',
   'app.kuaizhizao.warehouseOutbound.pull.searchSalesOrder': 'Search by order no./customer',
-  'app.kuaizhizao.warehouseOutbound.pull.searchShipmentNotice': 'Search by notice no./sales order no./customer',
-  'app.kuaizhizao.warehouseOutbound.pull.searchOutsource': 'Search by outsource WO no./product/supplier',
+  'app.kuaizhizao.warehouseOutbound.pull.searchShipmentNotice':
+    'Search by notice no./sales order no./customer',
+  'app.kuaizhizao.warehouseOutbound.pull.searchOutsource':
+    'Search by outsource WO no./product/supplier',
   'app.kuaizhizao.warehouseOutbound.pull.colWorkOrderCode': 'Work Order No.',
   'app.kuaizhizao.warehouseOutbound.pull.colProduct': 'Product',
   'app.kuaizhizao.warehouseOutbound.pull.colSalesOrder': 'Sales Order',
@@ -9216,15 +10081,20 @@ export default {
   'app.kuaizhizao.warehouseOutbound.pull.colOutboundDate': 'Outbound Date',
   'app.kuaizhizao.warehouseOutbound.pull.loadWorkOrdersFailed': 'Failed to load work orders',
   'app.kuaizhizao.warehouseOutbound.pull.loadSalesOrdersFailed': 'Failed to load sales orders',
-  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticesFailed': 'Failed to load shipment notices',
-  'app.kuaizhizao.warehouseOutbound.pull.loadOutsourceFailed': 'Failed to load outsource work orders',
+  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticesFailed':
+    'Failed to load shipment notices',
+  'app.kuaizhizao.warehouseOutbound.pull.loadOutsourceFailed':
+    'Failed to load outsource work orders',
   'app.kuaizhizao.warehouseOutbound.pull.selectWorkOrder': 'Select a work order',
   'app.kuaizhizao.warehouseOutbound.pull.selectSalesOrder': 'Select a sales order',
   'app.kuaizhizao.warehouseOutbound.pull.selectShipmentNotice': 'Select a shipment notice',
   'app.kuaizhizao.warehouseOutbound.pull.selectOutsource': 'Select an outsource work order',
-  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeConverted': 'A sales outbound doc already exists for this shipment notice',
-  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeNoSalesOrder': 'Shipment notice is not linked to a sales order',
-  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticeFailed': 'Failed to load shipment notice',
+  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeConverted':
+    'A sales outbound doc already exists for this shipment notice',
+  'app.kuaizhizao.warehouseOutbound.pull.shipmentNoticeNoSalesOrder':
+    'Shipment notice is not linked to a sales order',
+  'app.kuaizhizao.warehouseOutbound.pull.loadShipmentNoticeFailed':
+    'Failed to load shipment notice',
   'app.kuaizhizao.warehouseOutbound.entry.productionPicking': 'Production Picking',
   'app.kuaizhizao.warehouseOutbound.entry.salesDelivery': 'Sales Outbound',
   'app.kuaizhizao.warehouseOutbound.entry.outsourceIssue': 'Outsource Issue',
@@ -9233,11 +10103,16 @@ export default {
   'app.kuaizhizao.warehouseOutbound.entry.invalidOutsource': 'Invalid outsource work order',
   'app.kuaizhizao.warehouseOutbound.entry.loadWorkOrderFailed': 'Failed to load work order',
   'app.kuaizhizao.warehouseOutbound.entry.loadSalesOrderFailed': 'Failed to load sales order',
-  'app.kuaizhizao.warehouseOutbound.entry.loadOutsourceFailed': 'Failed to load outsource work order',
-  'app.kuaizhizao.warehouseOutbound.entry.noPickingId': 'Push succeeded but picking doc ID was not returned',
-  'app.kuaizhizao.warehouseOutbound.entry.noDeliveryId': 'Push succeeded but outbound doc ID was not returned',
-  'app.kuaizhizao.warehouseOutbound.entry.draftPickingCreated': 'Production picking draft created{{code}}',
-  'app.kuaizhizao.warehouseOutbound.entry.draftDeliveryCreated': 'Sales outbound draft created{{code}}',
+  'app.kuaizhizao.warehouseOutbound.entry.loadOutsourceFailed':
+    'Failed to load outsource work order',
+  'app.kuaizhizao.warehouseOutbound.entry.noPickingId':
+    'Push succeeded but picking doc ID was not returned',
+  'app.kuaizhizao.warehouseOutbound.entry.noDeliveryId':
+    'Push succeeded but outbound doc ID was not returned',
+  'app.kuaizhizao.warehouseOutbound.entry.draftPickingCreated':
+    'Production picking draft created{{code}}',
+  'app.kuaizhizao.warehouseOutbound.entry.draftDeliveryCreated':
+    'Sales outbound draft created{{code}}',
   'app.kuaizhizao.warehouseOutbound.entry.saveFailed': 'Save failed',
   'app.kuaizhizao.warehouseOutbound.entry.sourceDocNo': 'Source Doc No.',
   'app.kuaizhizao.warehouseOutbound.entry.product': 'Product',
@@ -9256,8 +10131,10 @@ export default {
   'app.kuaizhizao.warehouseOutbound.entry.totalIssueQty': 'Total issue qty: {{qty}}',
   'app.kuaizhizao.warehouseOutbound.entry.pendingIssueQty': 'Pending Issue Qty',
   'app.kuaizhizao.warehouseOutbound.entry.thisIssue': 'This Issue',
-  'app.kuaizhizao.warehouseOutbound.entry.qtyExceedsPending': 'Material {{material}} outbound qty cannot exceed pending {{max}}',
-  'app.kuaizhizao.warehouseOutbound.entry.fillOutboundQty': 'Enter outbound qty for at least one line',
+  'app.kuaizhizao.warehouseOutbound.entry.qtyExceedsPending':
+    'Material {{material}} outbound qty cannot exceed pending {{max}}',
+  'app.kuaizhizao.warehouseOutbound.entry.fillOutboundQty':
+    'Enter outbound qty for at least one line',
   'app.kuaizhizao.warehouseOutbound.entry.fillIssueQty': 'Enter issue qty for at least one line',
   'app.kuaizhizao.warehouseOutbound.entry.outsourceIssueCreated': 'Outsource issue doc created',
   // other outbound
@@ -9280,18 +10157,21 @@ export default {
   'app.kuaizhizao.otherOutbound.msg.loadListFailed': 'Failed to load other outbound list',
   'app.kuaizhizao.otherOutbound.msg.loadDetailFailed': 'Failed to load other outbound details',
   'app.kuaizhizao.otherOutbound.msg.confirmTitle': 'Confirm Outbound',
-  'app.kuaizhizao.otherOutbound.msg.confirmContent': 'Confirm outbound "{{code}}"? Inventory will be updated.',
+  'app.kuaizhizao.otherOutbound.msg.confirmContent':
+    'Confirm outbound "{{code}}"? Inventory will be updated.',
   'app.kuaizhizao.otherOutbound.msg.confirmSuccess': 'Outbound confirmed',
   'app.kuaizhizao.otherOutbound.msg.confirmFailed': 'Outbound confirm failed',
   'app.kuaizhizao.otherOutbound.msg.withdrawTitle': 'Withdraw Outbound',
-  'app.kuaizhizao.otherOutbound.msg.withdrawContent': 'Withdraw outbound "{{code}}"? Inventory will be reversed and status restored to pending.',
+  'app.kuaizhizao.otherOutbound.msg.withdrawContent':
+    'Withdraw outbound "{{code}}"? Inventory will be reversed and status restored to pending.',
   'app.kuaizhizao.otherOutbound.msg.withdrawSuccess': 'Withdrawn successfully',
   'app.kuaizhizao.otherOutbound.msg.withdrawFailed': 'Withdraw failed',
   'app.kuaizhizao.otherOutbound.msg.deleteTitle': 'Delete Outbound',
   'app.kuaizhizao.otherOutbound.msg.deleteContent': 'Delete outbound "{{code}}"?',
   'app.kuaizhizao.otherOutbound.msg.deleteSuccess': 'Deleted successfully',
   'app.kuaizhizao.otherOutbound.msg.deleteFailed': 'Delete failed',
-  'app.kuaizhizao.otherOutbound.msg.deleteConfirm': 'Delete selected {{count}} other outbound documents?',
+  'app.kuaizhizao.otherOutbound.msg.deleteConfirm':
+    'Delete selected {{count}} other outbound documents?',
   'app.kuaizhizao.otherOutbound.msg.needValidLines': 'Add at least one valid line (material + qty)',
   'app.kuaizhizao.otherOutbound.msg.createSuccess': 'Created successfully',
   'app.kuaizhizao.otherOutbound.msg.createFailed': 'Create failed',
@@ -9323,23 +10203,28 @@ export default {
   'app.kuaizhizao.materialBorrow.msg.loadListFailed': 'Failed to load material borrow list',
   'app.kuaizhizao.materialBorrow.msg.loadDetailFailed': 'Failed to load material borrow details',
   'app.kuaizhizao.materialBorrow.msg.confirmTitle': 'Confirm Borrow',
-  'app.kuaizhizao.materialBorrow.msg.confirmContent': 'Confirm borrow "{{code}}"? Inventory will be deducted.',
+  'app.kuaizhizao.materialBorrow.msg.confirmContent':
+    'Confirm borrow "{{code}}"? Inventory will be deducted.',
   'app.kuaizhizao.materialBorrow.msg.confirmSuccess': 'Borrow confirmed',
   'app.kuaizhizao.materialBorrow.msg.confirmFailed': 'Borrow confirm failed',
   'app.kuaizhizao.materialBorrow.msg.withdrawTitle': 'Withdraw Borrow',
-  'app.kuaizhizao.materialBorrow.msg.withdrawContent': 'Withdraw borrow "{{code}}"? Inventory will be reversed and status restored to pending.',
+  'app.kuaizhizao.materialBorrow.msg.withdrawContent':
+    'Withdraw borrow "{{code}}"? Inventory will be reversed and status restored to pending.',
   'app.kuaizhizao.materialBorrow.msg.withdrawSuccess': 'Withdrawn successfully',
   'app.kuaizhizao.materialBorrow.msg.withdrawFailed': 'Withdraw failed',
   'app.kuaizhizao.materialBorrow.msg.deleteTitle': 'Delete Material Borrow',
   'app.kuaizhizao.materialBorrow.msg.deleteContent': 'Delete material borrow "{{code}}"?',
   'app.kuaizhizao.materialBorrow.msg.deleteSuccess': 'Deleted successfully',
   'app.kuaizhizao.materialBorrow.msg.deleteFailed': 'Delete failed',
-  'app.kuaizhizao.materialBorrow.msg.deleteConfirm': 'Delete selected {{count}} material borrow documents?',
-  'app.kuaizhizao.materialBorrow.msg.batchDeleteSuccess': 'Deleted {{count}} material borrow documents',
+  'app.kuaizhizao.materialBorrow.msg.deleteConfirm':
+    'Delete selected {{count}} material borrow documents?',
+  'app.kuaizhizao.materialBorrow.msg.batchDeleteSuccess':
+    'Deleted {{count}} material borrow documents',
   'app.kuaizhizao.materialBorrow.msg.batchDeleteFailed': 'Batch delete failed',
   'app.kuaizhizao.materialBorrow.msg.syncSuccess': 'Synced {{count}} material borrow documents',
   'app.kuaizhizao.materialBorrow.msg.syncFailed': 'Sync failed',
-  'app.kuaizhizao.materialBorrow.msg.needValidLines': 'Add at least one valid line (material + qty)',
+  'app.kuaizhizao.materialBorrow.msg.needValidLines':
+    'Add at least one valid line (material + qty)',
   'app.kuaizhizao.materialBorrow.msg.needValidLinesRule': 'Add at least one valid line',
   'app.kuaizhizao.materialBorrow.msg.createSuccess': 'Created successfully',
   'app.kuaizhizao.materialBorrow.msg.createFailed': 'Create failed',
@@ -9365,9 +10250,11 @@ export default {
   'app.kuaizhizao.deliveryNote.field.contact': 'Contact',
   'app.kuaizhizao.deliveryNote.field.phone': 'Phone',
   'app.kuaizhizao.deliveryNote.field.linkedSalesDelivery': 'Linked Sales Outbound',
-  'app.kuaizhizao.deliveryNote.field.linkedSalesDeliveryPlaceholder': 'Optional; fills doc no. and order',
+  'app.kuaizhizao.deliveryNote.field.linkedSalesDeliveryPlaceholder':
+    'Optional; fills doc no. and order',
   'app.kuaizhizao.deliveryNote.field.linkedSalesOrder': 'Linked Sales Order',
-  'app.kuaizhizao.deliveryNote.field.linkedSalesOrderPlaceholder': 'Select order without outbound doc',
+  'app.kuaizhizao.deliveryNote.field.linkedSalesOrderPlaceholder':
+    'Select order without outbound doc',
   'app.kuaizhizao.deliveryNote.field.plannedDeliveryDate': 'Planned Delivery Date',
   'app.kuaizhizao.deliveryNote.field.carrier': 'Carrier / Logistics',
   'app.kuaizhizao.deliveryNote.field.carrierPlaceholder': 'e.g. SF Express, Deppon',
@@ -9397,9 +10284,11 @@ export default {
   'app.kuaizhizao.deliveryNote.msg.batchDeleteFailed': 'Batch delete failed',
   'app.kuaizhizao.deliveryNote.msg.syncSuccess': 'Synced {{count}} delivery notices',
   'app.kuaizhizao.deliveryNote.msg.syncFailed': 'Sync failed',
-  'app.kuaizhizao.deliveryNote.msg.noCertificate': 'No quality certificate found. Complete finished-goods inspection and issue certificate first.',
+  'app.kuaizhizao.deliveryNote.msg.noCertificate':
+    'No quality certificate found. Complete finished-goods inspection and issue certificate first.',
   'app.kuaizhizao.deliveryNote.msg.printCertificateTitle': 'Print Product Certificate',
-  'app.kuaizhizao.deliveryNote.msg.multipleCertificates': 'Found {{count}} certificates; opened the first ({{name}})',
+  'app.kuaizhizao.deliveryNote.msg.multipleCertificates':
+    'Found {{count}} certificates; opened the first ({{name}})',
   'app.kuaizhizao.deliveryNote.msg.resolveCertificateFailed': 'Failed to resolve certificate',
   'app.kuaizhizao.deliveryNote.msg.needValidLines': 'Add at least one valid line',
   'app.kuaizhizao.deliveryNote.msg.selectCustomer': 'Select customer',
@@ -9411,13 +10300,16 @@ export default {
   'app.kuaizhizao.deliveryNote.msg.exportSuccess': 'Exported {{count}} records',
   'app.kuaizhizao.deliveryNote.msg.exportFailed': 'Export failed',
   'app.kuaizhizao.deliveryNote.msg.selectSource': 'Select {{label}}',
-  'app.kuaizhizao.deliveryNote.msg.alreadyCreated': 'A {{target}} already exists for this {{source}}',
-  'app.kuaizhizao.deliveryNote.msg.missingCustomerOrLines': 'Sales outbound is missing customer or valid lines; cannot create delivery note',
+  'app.kuaizhizao.deliveryNote.msg.alreadyCreated':
+    'A {{target}} already exists for this {{source}}',
+  'app.kuaizhizao.deliveryNote.msg.missingCustomerOrLines':
+    'Sales outbound is missing customer or valid lines; cannot create delivery note',
   'app.kuaizhizao.deliveryNote.msg.pullCreateSuccess': 'Created {{target}} from {{source}}',
   'app.kuaizhizao.deliveryNote.msg.pullCreateFailed': 'Failed to create {{target}} from {{source}}',
   'app.kuaizhizao.deliveryNote.msg.noLineDetails': 'No line details',
   'app.kuaizhizao.deliveryNote.msg.noOperationLog': 'No operation log',
-  'app.kuaizhizao.deliveryNote.pull.searchPlaceholder': 'Search by outbound no./sales order no./customer',
+  'app.kuaizhizao.deliveryNote.pull.searchPlaceholder':
+    'Search by outbound no./sales order no./customer',
   'app.kuaizhizao.deliveryNote.syncTitle': 'Sync Delivery Notes from Dataset',
 
   // warehouse inventory & function pages i18n
@@ -9568,8 +10460,10 @@ export default {
   'app.kuaizhizao.warehouseCommon.addItemFailed': 'Failed to add line',
   'app.kuaizhizao.warehouseCommon.deleteItemSuccess': 'Line deleted',
   'app.kuaizhizao.warehouseCommon.deleteItemFailed': 'Failed to delete line',
-  'app.kuaizhizao.warehouseCommon.addItemBeforeExecute': 'Add at least one line to {{noun}} before executing.',
-  'app.kuaizhizao.warehouseCommon.executeConfirmContent': 'Execute {{action}} on "{{code}}"? Inventory will be updated.',
+  'app.kuaizhizao.warehouseCommon.addItemBeforeExecute':
+    'Add at least one line to {{noun}} before executing.',
+  'app.kuaizhizao.warehouseCommon.executeConfirmContent':
+    'Execute {{action}} on "{{code}}"? Inventory will be updated.',
   'app.kuaizhizao.warehouseCommon.executeFailed': '{{action}} failed',
   'app.kuaizhizao.warehouseCommon.editOrderTitle': 'Edit {{noun}}',
   'app.kuaizhizao.warehouseCommon.editItemTitle': 'Edit {{noun}} Line',
@@ -9593,21 +10487,29 @@ export default {
   'app.kuaizhizao.warehouseCommon.createSuccessGeneric': 'Created successfully',
   'app.kuaizhizao.warehouseCommon.updateSuccessGeneric': 'Updated successfully',
   'app.kuaizhizao.batchingCenter.tab.batchingDraft': 'Batching Execution',
-  'app.kuaizhizao.batchingCenter.tab.batchingDraftHint': 'Existing batching orders: sync shortages, select batches, and complete main WH → line-side picking',
+  'app.kuaizhizao.batchingCenter.tab.batchingDraftHint':
+    'Existing batching orders: sync shortages, select batches, and complete main WH → line-side picking',
   'app.kuaizhizao.batchingCenter.tab.materialCall': 'Line Call',
-  'app.kuaizhizao.batchingCenter.tab.materialCallHint': 'Ad-hoc material requests from production lines that need fast delivery',
+  'app.kuaizhizao.batchingCenter.tab.materialCallHint':
+    'Ad-hoc material requests from production lines that need fast delivery',
   'app.kuaizhizao.batchingCenter.tab.outsourceIssue': 'Outsource Issue',
-  'app.kuaizhizao.batchingCenter.tab.outsourceIssueHint': 'Issue raw materials to outsource suppliers linked to outsource work orders',
+  'app.kuaizhizao.batchingCenter.tab.outsourceIssueHint':
+    'Issue raw materials to outsource suppliers linked to outsource work orders',
   'app.kuaizhizao.batchingCenter.tab.outsourceReceipt': 'Outsource Receipt',
-  'app.kuaizhizao.batchingCenter.tab.outsourceReceiptHint': 'Receive semi-finished or finished goods after outsource processing',
+  'app.kuaizhizao.batchingCenter.tab.outsourceReceiptHint':
+    'Receive semi-finished or finished goods after outsource processing',
   'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturn': 'Outsource Material Return',
-  'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturnHint': 'Return unused issued materials from suppliers back to stock',
+  'app.kuaizhizao.batchingCenter.tab.outsourceMaterialReturnHint':
+    'Return unused issued materials from suppliers back to stock',
   'app.kuaizhizao.batchingCenter.tab.outsourceProductReturn': 'Outsource Product Return',
-  'app.kuaizhizao.batchingCenter.tab.outsourceProductReturnHint': 'Return defective outsource products to suppliers and reduce stock',
+  'app.kuaizhizao.batchingCenter.tab.outsourceProductReturnHint':
+    'Return defective outsource products to suppliers and reduce stock',
   'app.kuaizhizao.batchingCenter.tab.proactivePrep': 'Prep Suggestions',
-  'app.kuaizhizao.batchingCenter.tab.proactivePrepHint': 'System shortage alerts from work orders and inventory; create batching orders then process under Batching Execution',
+  'app.kuaizhizao.batchingCenter.tab.proactivePrepHint':
+    'System shortage alerts from work orders and inventory; create batching orders then process under Batching Execution',
   'app.kuaizhizao.batchingCenter.tab.backflushAlert': 'Backflush Exceptions',
-  'app.kuaizhizao.batchingCenter.tab.backflushAlertHint': 'Failed backflush deductions from reporting; verify stock and retry',
+  'app.kuaizhizao.batchingCenter.tab.backflushAlertHint':
+    'Failed backflush deductions from reporting; verify stock and retry',
   'app.kuaizhizao.batchingCenter.taskType.batchingDraft': 'Batching Execution',
   'app.kuaizhizao.batchingCenter.taskType.materialCall': 'Line Call',
   'app.kuaizhizao.batchingCenter.taskType.proactivePrep': 'Prep Suggestions',
@@ -9624,31 +10526,38 @@ export default {
   'app.kuaizhizao.batchingCenter.pickingWarehouse': 'Picking Warehouse',
   'app.kuaizhizao.batchingCenter.selectPickingWarehouse': 'Select source picking warehouse',
   'app.kuaizhizao.batchingCenter.targetLineSideWarehouse': 'Target Line-side WH (optional)',
-  'app.kuaizhizao.batchingCenter.selectTargetLineSideWarehouse': 'Select target line-side warehouse',
+  'app.kuaizhizao.batchingCenter.selectTargetLineSideWarehouse':
+    'Select target line-side warehouse',
   'app.kuaizhizao.batchingCenter.batchingDate': 'Batching Date',
   'app.kuaizhizao.batchingCenter.selectBatchingDate': 'Select batching date',
   'app.kuaizhizao.batchingCenter.detailTitle': 'Batching Order Details',
   'app.kuaizhizao.batchingCenter.batchingCode': 'Batching No.',
-  'app.kuaizhizao.batchingCenter.pullFromWorkOrderSuccess': 'Batching order generated from work order',
-  'app.kuaizhizao.batchingCenter.manualNeedItems': 'Add at least one batching line for manual creation',
+  'app.kuaizhizao.batchingCenter.pullFromWorkOrderSuccess':
+    'Batching order generated from work order',
+  'app.kuaizhizao.batchingCenter.manualNeedItems':
+    'Add at least one batching line for manual creation',
   'app.kuaizhizao.batchingCenter.createSuccess': 'Batching order created',
   'app.kuaizhizao.batchingCenter.createFailed': 'Failed to create batching order',
   'app.kuaizhizao.batchingCenter.msg.pickingStarted': 'Picking started',
   'app.kuaizhizao.batchingCenter.msg.callCompleted': 'Material call completed',
   'app.kuaizhizao.batchingCenter.msg.callCancelled': 'Material call cancelled',
   'app.kuaizhizao.batchingCenter.confirmCompleteTitle': 'Confirm Completion',
-  'app.kuaizhizao.batchingCenter.confirmCompleteNoItems': 'This call has no lines. Mark as completed?',
+  'app.kuaizhizao.batchingCenter.confirmCompleteNoItems':
+    'This call has no lines. Mark as completed?',
   'app.kuaizhizao.batchingCenter.allItemsPicked': 'All lines are fully picked',
   'app.kuaizhizao.batchingCenter.loadBatchingFailed': 'Failed to load batching order',
   'app.kuaizhizao.batchingCenter.syncShortageSuccess': 'Synced {{count}} shortage item(s)',
   'app.kuaizhizao.batchingCenter.syncShortageEmpty': 'No pending shortage lines',
   'app.kuaizhizao.batchingCenter.syncShortageFailed': 'Failed to sync shortages',
   'app.kuaizhizao.batchingCenter.fillAllBatchNos': 'Enter batch numbers for all lines',
-  'app.kuaizhizao.batchingCenter.fillBatchOrSkip': 'Enter batch number for {{name}}, or disable "Pick This Time" to skip',
+  'app.kuaizhizao.batchingCenter.fillBatchOrSkip':
+    'Enter batch number for {{name}}, or disable "Pick This Time" to skip',
   'app.kuaizhizao.batchingCenter.selectAtLeastOnePick': 'Select at least one line to pick',
   'app.kuaizhizao.batchingCenter.confirmPickSuccess': 'Batching confirmed',
-  'app.kuaizhizao.batchingCenter.confirmPickPartial': 'Partially picked; remaining lines can continue later',
-  'app.kuaizhizao.batchingCenter.generateBatchingSuccess': 'Batching order created. Continue under Batching Execution',
+  'app.kuaizhizao.batchingCenter.confirmPickPartial':
+    'Partially picked; remaining lines can continue later',
+  'app.kuaizhizao.batchingCenter.generateBatchingSuccess':
+    'Batching order created. Continue under Batching Execution',
   'app.kuaizhizao.batchingCenter.generateBatchingFailed': 'Failed to generate batching order',
   'app.kuaizhizao.batchingCenter.backflushRetrySubmitted': 'Backflush retry submitted',
   'app.kuaizhizao.batchingCenter.backflushRetryFailed': 'Retry failed',
@@ -9663,8 +10572,10 @@ export default {
   'app.kuaizhizao.batchingCenter.confirmCompleteCall': 'Confirm Material Call Completion',
   'app.kuaizhizao.batchingCenter.continuePicking': 'Continue Picking (Main WH → Line-side)',
   'app.kuaizhizao.batchingCenter.confirmPicking': 'Confirm Picking (Main WH → Line-side)',
-  'app.kuaizhizao.batchingCenter.batchingHint': 'Disable "Pick This Time" to skip lines or adjust quantities; at least one line is required. Unspecified batches use FIFO from Config Center.',
-  'app.kuaizhizao.batchingCenter.callHint': 'Verify batch numbers; unspecified batches use FIFO from Config Center.',
+  'app.kuaizhizao.batchingCenter.batchingHint':
+    'Disable "Pick This Time" to skip lines or adjust quantities; at least one line is required. Unspecified batches use FIFO from Config Center.',
+  'app.kuaizhizao.batchingCenter.callHint':
+    'Verify batch numbers; unspecified batches use FIFO from Config Center.',
   'app.kuaizhizao.batchingCenter.configCenterHint': 'Warehouse settings in',
   'app.kuaizhizao.batchingCenter.configCenter': 'Config Center',
   'app.kuaizhizao.batchingCenter.createBatchingOrder': 'New Batching Order',
@@ -9686,7 +10597,8 @@ export default {
   'app.kuaizhizao.batchingCenter.createOutsourceProductReturn': 'New Outsource Product Return',
   'app.kuaizhizao.batchingCenter.confirmCompleteIssue': 'Complete outsource issue?',
   'app.kuaizhizao.batchingCenter.confirmCompleteReceipt': 'Complete outsource receipt?',
-  'app.kuaizhizao.batchingCenter.completeIssueReceiptHint': 'This updates issued/received quantities on the outsource work order.',
+  'app.kuaizhizao.batchingCenter.completeIssueReceiptHint':
+    'This updates issued/received quantities on the outsource work order.',
   'app.kuaizhizao.batchingCenter.loadIssuePreviewFailed': 'Failed to load issue preview',
   'app.kuaizhizao.batchingCenter.selectOutsourceWorkOrder': 'Select outsource work order',
   'app.kuaizhizao.batchingCenter.fillIssueQty': 'Enter issue quantity for at least one line',
@@ -9725,11 +10637,13 @@ export default {
   'app.kuaizhizao.assemblyOrder.assemblyTemplate': 'Assembly Template',
   'app.kuaizhizao.assemblyOrder.applyTemplate': 'Apply Template',
   'app.kuaizhizao.assemblyOrder.applyTemplateTitle': 'Apply Template',
-  'app.kuaizhizao.assemblyOrder.applyTemplateConfirm': 'This order already has lines. Applying a template will replace pending lines. Continue?',
+  'app.kuaizhizao.assemblyOrder.applyTemplateConfirm':
+    'This order already has lines. Applying a template will replace pending lines. Continue?',
   'app.kuaizhizao.assemblyOrder.applyTemplateSuccess': 'Template applied',
   'app.kuaizhizao.assemblyOrder.applyTemplateFailed': 'Failed to apply template',
   'app.kuaizhizao.assemblyOrder.selectTemplateFirst': 'Select an assembly template first',
-  'app.kuaizhizao.assemblyOrder.enterQuantityBeforeTemplate': 'Enter {{label}} before applying a template',
+  'app.kuaizhizao.assemblyOrder.enterQuantityBeforeTemplate':
+    'Enter {{label}} before applying a template',
   'app.kuaizhizao.assemblyOrder.selectTemplatePlaceholder': 'Select assembly template',
   'app.kuaizhizao.assemblyOrder.selectTemplateOptional': 'Optional; apply later in details',
   'app.kuaizhizao.disassemblyOrder.headerTitle': 'Disassembly Orders',
@@ -9769,7 +10683,8 @@ export default {
   'app.kuaizhizao.assemblyTemplate.addItemModalTitle': 'Add Template Line',
   'app.kuaizhizao.assemblyTemplate.editItemModalTitle': 'Edit Template Line',
   'app.kuaizhizao.assemblyTemplate.productMaterial': 'Finished / Semi-finished Material',
-  'app.kuaizhizao.assemblyTemplate.selectProductMaterial': 'Select finished or semi-finished material',
+  'app.kuaizhizao.assemblyTemplate.selectProductMaterial':
+    'Select finished or semi-finished material',
   'app.kuaizhizao.assemblyTemplate.enterTemplateName': 'Enter template name',
   'app.kuaizhizao.assemblyTemplate.enterBaseQuantity': 'Enter base quantity',
   'app.kuaizhizao.assemblyTemplate.enterQtyPerBase': 'Enter qty per base',
@@ -9792,7 +10707,8 @@ export default {
   'app.kuaizhizao.assemblyTemplate.setProductFirst': 'Set finished material first',
   'app.kuaizhizao.assemblyTemplate.bomPreviewFailed': 'BOM preview failed',
   'app.kuaizhizao.assemblyTemplate.importFromBomTitle': 'Import from BOM',
-  'app.kuaizhizao.assemblyTemplate.importFromBomConfirm': 'This replaces all template lines. Continue?',
+  'app.kuaizhizao.assemblyTemplate.importFromBomConfirm':
+    'This replaces all template lines. Continue?',
   'app.kuaizhizao.assemblyTemplate.importFromBomSuccess': 'Template lines imported from BOM',
   'app.kuaizhizao.assemblyTemplate.importFromBomFailed': 'BOM import failed',
   'app.kuaizhizao.assemblyTemplate.listEmpty': 'No assembly templates.',
@@ -9820,10 +10736,12 @@ export default {
   'app.kuaizhizao.barcodeMapping.barcodePatternLabel': 'Barcode Pattern (Regex)',
   'app.kuaizhizao.barcodeMapping.barcodePatternPlaceholder': 'Enter pattern, e.g. ^CUST\\d+$',
   'app.kuaizhizao.barcodeMapping.enterBarcodePattern': 'Enter barcode pattern',
-  'app.kuaizhizao.barcodeMapping.barcodePatternExtra': 'Use regex to match barcodes, e.g. ^CUST\\d+$ matches codes starting with CUST followed by digits',
+  'app.kuaizhizao.barcodeMapping.barcodePatternExtra':
+    'Use regex to match barcodes, e.g. ^CUST\\d+$ matches codes starting with CUST followed by digits',
   'app.kuaizhizao.barcodeMapping.mappedMaterial': 'Mapped Material',
   'app.kuaizhizao.barcodeMapping.selectMappedMaterial': 'Select material to map',
-  'app.kuaizhizao.barcodeMapping.priorityPlaceholder': 'Enter priority (higher number = higher priority)',
+  'app.kuaizhizao.barcodeMapping.priorityPlaceholder':
+    'Enter priority (higher number = higher priority)',
   'app.kuaizhizao.customerMaterialRegistration.headerTitle': 'Customer Material Registration',
   'app.kuaizhizao.customerMaterialRegistration.createButton': 'Customer Material Inbound',
   'app.kuaizhizao.customerMaterialRegistration.modalTitle': 'Customer Material Registration',
@@ -9837,43 +10755,61 @@ export default {
   'app.kuaizhizao.customerMaterialRegistration.selectInboundWarehouse': 'Select inbound warehouse',
   'app.kuaizhizao.customerMaterialRegistration.customerBarcode': 'Customer Barcode',
   'app.kuaizhizao.customerMaterialRegistration.incomingMaterial': 'Incoming Material',
-  'app.kuaizhizao.customerMaterialRegistration.selectIncomingMaterial': 'Select or quick-create material',
+  'app.kuaizhizao.customerMaterialRegistration.selectIncomingMaterial':
+    'Select or quick-create material',
   'app.kuaizhizao.customerMaterialRegistration.incomingQty': 'Incoming Qty',
   'app.kuaizhizao.customerMaterialRegistration.itemsTitle': 'Lines',
   'app.kuaizhizao.customerMaterialRegistration.minOneItem': 'Add at least one line',
   'app.kuaizhizao.customerMaterialRegistration.confirmProcess': 'Confirm inbound?',
   'app.kuaizhizao.customerMaterialRegistration.confirmCancel': 'Cancel this registration?',
-  'app.kuaizhizao.customerMaterialRegistration.confirmWithdraw': 'Withdraw inbound? Customer-supplied stock will be reduced.',
+  'app.kuaizhizao.customerMaterialRegistration.confirmWithdraw':
+    'Withdraw inbound? Customer-supplied stock will be reduced.',
   'app.kuaizhizao.customerMaterialRegistration.confirmInbound': 'Confirm Inbound',
   'app.kuaizhizao.customerMaterialRegistration.withdraw': 'Withdraw',
   'app.kuaizhizao.customerMaterialRegistration.batchConfirmInbound': 'Batch Confirm Inbound',
   'app.kuaizhizao.customerMaterialRegistration.batchWithdraw': 'Batch Withdraw Inbound',
   'app.kuaizhizao.customerMaterialRegistration.batchCancel': 'Batch Cancel',
-  'app.kuaizhizao.customerMaterialRegistration.deleteConfirm': 'Delete selected {{count}} registration(s)?',
+  'app.kuaizhizao.customerMaterialRegistration.deleteConfirm':
+    'Delete selected {{count}} registration(s)?',
   'app.kuaizhizao.customerMaterialRegistration.selectMaterialFirst': 'Select material first',
   'app.kuaizhizao.customerMaterialRegistration.batchGenerated': 'Batch number generated',
-  'app.kuaizhizao.customerMaterialRegistration.batchGenerateFailed': 'Batch number generation failed',
-  'app.kuaizhizao.customerMaterialRegistration.serialMax100': 'Generate up to 100 serial numbers at once',
-  'app.kuaizhizao.customerMaterialRegistration.serialGenerated': 'Generated {{count}} serial number(s)',
-  'app.kuaizhizao.customerMaterialRegistration.serialGenerateFailed': 'Serial number generation failed',
+  'app.kuaizhizao.customerMaterialRegistration.batchGenerateFailed':
+    'Batch number generation failed',
+  'app.kuaizhizao.customerMaterialRegistration.serialMax100':
+    'Generate up to 100 serial numbers at once',
+  'app.kuaizhizao.customerMaterialRegistration.serialGenerated':
+    'Generated {{count}} serial number(s)',
+  'app.kuaizhizao.customerMaterialRegistration.serialGenerateFailed':
+    'Serial number generation failed',
   'app.kuaizhizao.customerMaterialRegistration.minOneValidItem': 'Add at least one valid line',
-  'app.kuaizhizao.customerMaterialRegistration.selectMaterialOrCreate': 'Select incoming material or quick-create one',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeMatched': 'Barcode parsed and matched to internal material',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeNotMatched': 'No internal material matched; select or create manually',
-  'app.kuaizhizao.customerMaterialRegistration.barcodeParseFailed': 'Barcode parse failed; fill material manually',
-  'app.kuaizhizao.customerMaterialRegistration.createFailed': 'Failed to create customer material inbound document',
-  'app.kuaizhizao.customerMaterialRegistration.draftSaved': 'Registration saved as pending inbound draft',
+  'app.kuaizhizao.customerMaterialRegistration.selectMaterialOrCreate':
+    'Select incoming material or quick-create one',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeMatched':
+    'Barcode parsed and matched to internal material',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeNotMatched':
+    'No internal material matched; select or create manually',
+  'app.kuaizhizao.customerMaterialRegistration.barcodeParseFailed':
+    'Barcode parse failed; fill material manually',
+  'app.kuaizhizao.customerMaterialRegistration.createFailed':
+    'Failed to create customer material inbound document',
+  'app.kuaizhizao.customerMaterialRegistration.draftSaved':
+    'Registration saved as pending inbound draft',
   'app.kuaizhizao.customerMaterialRegistration.inboundFailed': 'Customer material inbound failed',
-  'app.kuaizhizao.customerMaterialRegistration.startProductionSuccess': 'Inbound and production started: {{registration}} → {{workOrder}}{{batching}}',
-  'app.kuaizhizao.customerMaterialRegistration.startProductionFailed': 'Issue and start production failed',
+  'app.kuaizhizao.customerMaterialRegistration.startProductionSuccess':
+    'Inbound and production started: {{registration}} → {{workOrder}}{{batching}}',
+  'app.kuaizhizao.customerMaterialRegistration.startProductionFailed':
+    'Issue and start production failed',
   'app.kuaizhizao.customerMaterialRegistration.processSuccess': 'Registration confirmed inbound',
   'app.kuaizhizao.customerMaterialRegistration.processFailed': 'Confirm inbound failed',
   'app.kuaizhizao.customerMaterialRegistration.withdrawSuccess': 'Registration inbound withdrawn',
   'app.kuaizhizao.customerMaterialRegistration.cancelSuccess': 'Registration cancelled',
-  'app.kuaizhizao.customerMaterialRegistration.selectRecordsFirst': 'Select registration records first',
-  'app.kuaizhizao.customerMaterialRegistration.batchProcessSuccess': 'Confirmed inbound for {{count}} record(s)',
+  'app.kuaizhizao.customerMaterialRegistration.selectRecordsFirst':
+    'Select registration records first',
+  'app.kuaizhizao.customerMaterialRegistration.batchProcessSuccess':
+    'Confirmed inbound for {{count}} record(s)',
   'app.kuaizhizao.customerMaterialRegistration.batchProcessFailed': 'Batch confirm inbound failed',
-  'app.kuaizhizao.customerMaterialRegistration.batchWithdrawSuccess': 'Withdrew inbound for {{count}} record(s)',
+  'app.kuaizhizao.customerMaterialRegistration.batchWithdrawSuccess':
+    'Withdrew inbound for {{count}} record(s)',
   'app.kuaizhizao.customerMaterialRegistration.batchWithdrawFailed': 'Batch withdraw failed',
   'app.kuaizhizao.customerMaterialRegistration.batchCancelSuccess': 'Cancelled {{count}} record(s)',
   'app.kuaizhizao.customerMaterialRegistration.batchCancelFailed': 'Batch cancel failed',
@@ -9917,7 +10853,8 @@ export default {
   'app.kuaizhizao.backflushRecords.statusFailed': 'Failed',
   'app.kuaizhizao.backflushRecords.retry': 'Retry',
   'app.kuaizhizao.backflushRecords.retryTitle': 'Retry backflush',
-  'app.kuaizhizao.backflushRecords.retryContent': 'Retry backflush for "{{material}}"? Ensure sufficient line-side stock.',
+  'app.kuaizhizao.backflushRecords.retryContent':
+    'Retry backflush for "{{material}}"? Ensure sufficient line-side stock.',
   'app.kuaizhizao.backflushRecords.retrySuccess': 'Retry succeeded',
   'app.kuaizhizao.backflushRecords.retryFailed': 'Retry failed',
   // inventory alert
@@ -10030,28 +10967,39 @@ export default {
   'app.kuaizhizao.inventoryTransfer.statusInProgress': 'In Transfer',
   'app.kuaizhizao.inventoryTransfer.statusItemPending': 'Pending',
   'app.kuaizhizao.inventoryTransfer.statusItemTransferred': 'Transferred',
-  'app.kuaizhizao.inventoryTransfer.msgSameWarehouseError': 'Source and destination warehouses must differ for cross-warehouse transfer',
-  'app.kuaizhizao.inventoryTransfer.msgBinSameWarehouseRequired': 'Source and destination warehouses must be the same for bin relocation',
-  'app.kuaizhizao.inventoryTransfer.msgNoValidItems': 'Add at least one valid line (material and qty)',
-  'app.kuaizhizao.inventoryTransfer.msgBinAreasRequired': 'Bin relocation lines require from/to areas and locations',
-  'app.kuaizhizao.inventoryTransfer.msgSameLocationError': 'From and to locations cannot be the same',
+  'app.kuaizhizao.inventoryTransfer.msgSameWarehouseError':
+    'Source and destination warehouses must differ for cross-warehouse transfer',
+  'app.kuaizhizao.inventoryTransfer.msgBinSameWarehouseRequired':
+    'Source and destination warehouses must be the same for bin relocation',
+  'app.kuaizhizao.inventoryTransfer.msgNoValidItems':
+    'Add at least one valid line (material and qty)',
+  'app.kuaizhizao.inventoryTransfer.msgBinAreasRequired':
+    'Bin relocation lines require from/to areas and locations',
+  'app.kuaizhizao.inventoryTransfer.msgSameLocationError':
+    'From and to locations cannot be the same',
   'app.kuaizhizao.inventoryTransfer.msgCreateSuccess': 'Transfer created',
   'app.kuaizhizao.inventoryTransfer.msgBinCreateSuccess': 'Bin relocation created',
   'app.kuaizhizao.inventoryTransfer.msgCreateFailed': 'Failed to create transfer',
   'app.kuaizhizao.inventoryTransfer.msgGetDetailFailed': 'Failed to load transfer details',
   'app.kuaizhizao.inventoryTransfer.msgExecuteTitle': 'Execute Transfer',
-  'app.kuaizhizao.inventoryTransfer.msgExecuteContent': 'Execute transfer "{{code}}"? Inventory will be updated.',
+  'app.kuaizhizao.inventoryTransfer.msgExecuteContent':
+    'Execute transfer "{{code}}"? Inventory will be updated.',
   'app.kuaizhizao.inventoryTransfer.msgExecuteSuccess': 'Transfer executed',
   'app.kuaizhizao.inventoryTransfer.msgExecuteFailed': 'Failed to execute transfer',
   'app.kuaizhizao.inventoryTransfer.msgTransferIdNotFound': 'Transfer ID not found',
-  'app.kuaizhizao.inventoryTransfer.msgBinAreasSelectRequired': 'Select from/to areas and locations for bin relocation',
+  'app.kuaizhizao.inventoryTransfer.msgBinAreasSelectRequired':
+    'Select from/to areas and locations for bin relocation',
   'app.kuaizhizao.inventoryTransfer.msgAddItemSuccess': 'Transfer line added',
   'app.kuaizhizao.inventoryTransfer.msgAddItemFailed': 'Failed to add transfer line',
   'app.kuaizhizao.inventoryTransfer.msgMinOneItem': 'Add at least one valid line',
-  'app.kuaizhizao.inventoryTransfer.msgBinFromAreaRequired': 'Select source area for bin relocation',
-  'app.kuaizhizao.inventoryTransfer.msgBinFromLocationRequired': 'Select source location for bin relocation',
-  'app.kuaizhizao.inventoryTransfer.msgBinToAreaRequired': 'Select destination area for bin relocation',
-  'app.kuaizhizao.inventoryTransfer.msgBinToLocationRequired': 'Select destination location for bin relocation',
+  'app.kuaizhizao.inventoryTransfer.msgBinFromAreaRequired':
+    'Select source area for bin relocation',
+  'app.kuaizhizao.inventoryTransfer.msgBinFromLocationRequired':
+    'Select source location for bin relocation',
+  'app.kuaizhizao.inventoryTransfer.msgBinToAreaRequired':
+    'Select destination area for bin relocation',
+  'app.kuaizhizao.inventoryTransfer.msgBinToLocationRequired':
+    'Select destination location for bin relocation',
   'app.kuaizhizao.inventoryTransfer.formFromStorageAreaPlaceholder': 'Select source area',
   'app.kuaizhizao.inventoryTransfer.formFromLocationPlaceholder': 'Select source location',
   'app.kuaizhizao.inventoryTransfer.formToStorageAreaPlaceholder': 'Select destination area',
@@ -10100,14 +11048,17 @@ export default {
   'app.kuaizhizao.stocktaking.statusItemAdjusted': 'Adjusted',
   'app.kuaizhizao.stocktaking.actionPickFromInventory': 'Select from Inventory',
   'app.kuaizhizao.stocktaking.actionManualAddItem': 'Add Line Manually',
-  'app.kuaizhizao.stocktaking.emptyDraftHint': 'After start, book inventory loads automatically (full) or select lines from warehouse inventory (partial).',
+  'app.kuaizhizao.stocktaking.emptyDraftHint':
+    'After start, book inventory loads automatically (full) or select lines from warehouse inventory (partial).',
   'app.kuaizhizao.stocktaking.emptyNoItems': 'No stocktaking lines',
   'app.kuaizhizao.stocktaking.msgCreateSuccess': 'Stocktaking created',
   'app.kuaizhizao.stocktaking.msgCreateFailed': 'Failed to create stocktaking',
   'app.kuaizhizao.stocktaking.msgGetDetailFailed': 'Failed to load stocktaking details',
   'app.kuaizhizao.stocktaking.msgStartTitle': 'Start Stocktaking',
-  'app.kuaizhizao.stocktaking.msgStartFullContent': 'Load book inventory for warehouse "{{warehouse}}" by {{granularity}} and start stocktaking?',
-  'app.kuaizhizao.stocktaking.msgStartPartialContent': 'Start stocktaking "{{code}}"? For partial/cycle, select lines from warehouse inventory after start.',
+  'app.kuaizhizao.stocktaking.msgStartFullContent':
+    'Load book inventory for warehouse "{{warehouse}}" by {{granularity}} and start stocktaking?',
+  'app.kuaizhizao.stocktaking.msgStartPartialContent':
+    'Start stocktaking "{{code}}"? For partial/cycle, select lines from warehouse inventory after start.',
   'app.kuaizhizao.stocktaking.msgStartSuccess': 'Stocktaking started',
   'app.kuaizhizao.stocktaking.msgStartFailed': 'Failed to start stocktaking',
   'app.kuaizhizao.stocktaking.msgNoWarehouse': 'Warehouse not specified',
@@ -10121,12 +11072,15 @@ export default {
   'app.kuaizhizao.stocktaking.msgSaveActualSuccess': 'Actual qty saved',
   'app.kuaizhizao.stocktaking.msgSaveActualFailed': 'Failed to save actual qty',
   'app.kuaizhizao.stocktaking.msgCompleteTitle': 'Complete Stocktaking',
-  'app.kuaizhizao.stocktaking.msgCompleteWithDiff': 'Stocktaking "{{code}}" has {{count}} differences. Inventory will be adjusted. Continue?',
-  'app.kuaizhizao.stocktaking.msgCompleteNoDiff': 'Stocktaking "{{code}}" matches book qty. Complete stocktaking?',
+  'app.kuaizhizao.stocktaking.msgCompleteWithDiff':
+    'Stocktaking "{{code}}" has {{count}} differences. Inventory will be adjusted. Continue?',
+  'app.kuaizhizao.stocktaking.msgCompleteNoDiff':
+    'Stocktaking "{{code}}" matches book qty. Complete stocktaking?',
   'app.kuaizhizao.stocktaking.msgCompleteSuccess': 'Stocktaking completed',
   'app.kuaizhizao.stocktaking.msgCompleteFailed': 'Failed to complete stocktaking',
   'app.kuaizhizao.stocktaking.msgWithdrawTitle': 'Withdraw Stocktaking',
-  'app.kuaizhizao.stocktaking.msgWithdrawContent': 'Withdraw stocktaking "{{code}}" to draft? Uncounted lines will be cleared; you can delete the order afterward.',
+  'app.kuaizhizao.stocktaking.msgWithdrawContent':
+    'Withdraw stocktaking "{{code}}" to draft? Uncounted lines will be cleared; you can delete the order afterward.',
   'app.kuaizhizao.stocktaking.msgWithdrawSuccess': 'Stocktaking withdrawn to draft',
   'app.kuaizhizao.stocktaking.msgWithdrawFailed': 'Withdraw failed',
   // replenishment suggestions
@@ -10161,7 +11115,8 @@ export default {
   'app.kuaizhizao.replenishmentSuggestions.msgProcessSuccess': 'Suggestion processed',
   'app.kuaizhizao.replenishmentSuggestions.msgProcessFailed': 'Process failed',
   'app.kuaizhizao.replenishmentSuggestions.msgGenerateTitle': 'Generate Suggestions',
-  'app.kuaizhizao.replenishmentSuggestions.msgGenerateContent': 'Generate replenishment suggestions from inventory alerts?',
+  'app.kuaizhizao.replenishmentSuggestions.msgGenerateContent':
+    'Generate replenishment suggestions from inventory alerts?',
   'app.kuaizhizao.replenishmentSuggestions.msgGenerateSuccess': 'Suggestions generated',
   'app.kuaizhizao.replenishmentSuggestions.msgGenerateFailed': 'Generation failed',
   'app.kuaizhizao.replenishmentSuggestions.msgListFailed': 'Failed to load suggestions',
@@ -10244,13 +11199,15 @@ export default {
   'app.kuaizhizao.equipmentFault.listFailed': 'Failed to load fault records',
   'app.kuaizhizao.equipmentFault.incompleteInfo': 'Fault record or equipment info is incomplete',
   'app.kuaizhizao.equipmentFault.batchDeleteTitle': 'Confirm Batch Delete',
-  'app.kuaizhizao.equipmentFault.batchDeleteContent': 'Delete {{count}} selected equipment fault records?',
+  'app.kuaizhizao.equipmentFault.batchDeleteContent':
+    'Delete {{count}} selected equipment fault records?',
   'app.kuaizhizao.equipmentFault.deleteTitle': 'Confirm Delete',
   'app.kuaizhizao.equipmentFault.deleteContent': 'Delete fault record "{{code}}"?',
   'app.kuaizhizao.equipmentFault.createSuccess': 'Fault record created',
   'app.kuaizhizao.equipmentFault.updateSuccess': 'Fault record updated',
   'app.kuaizhizao.equipmentFault.repairCreated': 'Repair record created',
-  'app.kuaizhizao.equipmentFault.repairDescriptionTemplate': 'Repair fault: {{faultNo}} - {{description}}',
+  'app.kuaizhizao.equipmentFault.repairDescriptionTemplate':
+    'Repair fault: {{faultNo}} - {{description}}',
   'app.kuaizhizao.equipmentFault.lifecycle.pending': 'Pending',
   'app.kuaizhizao.equipmentFault.lifecycle.processing': 'In Progress',
   'app.kuaizhizao.equipmentFault.lifecycle.repaired': 'Repaired',
@@ -10326,9 +11283,11 @@ export default {
   'app.kuaizhizao.maintenancePlan.uuidNotFound': 'Maintenance plan UUID not found',
   'app.kuaizhizao.maintenancePlan.detailFailed': 'Failed to load maintenance plan details',
   'app.kuaizhizao.maintenancePlan.listFailed': 'Failed to load maintenance plans',
-  'app.kuaizhizao.maintenancePlan.incompleteInfo': 'Maintenance plan or equipment info is incomplete',
+  'app.kuaizhizao.maintenancePlan.incompleteInfo':
+    'Maintenance plan or equipment info is incomplete',
   'app.kuaizhizao.maintenancePlan.batchDeleteTitle': 'Confirm Batch Delete',
-  'app.kuaizhizao.maintenancePlan.batchDeleteContent': 'Delete {{count}} selected maintenance plans?',
+  'app.kuaizhizao.maintenancePlan.batchDeleteContent':
+    'Delete {{count}} selected maintenance plans?',
   'app.kuaizhizao.maintenancePlan.deleteTitle': 'Confirm Delete',
   'app.kuaizhizao.maintenancePlan.deleteContent': 'Delete maintenance plan "{{name}}"?',
   'app.kuaizhizao.maintenancePlan.createSuccess': 'Maintenance plan created',
@@ -10361,18 +11320,22 @@ export default {
   'app.kuaizhizao.maintenanceReminder.action.markHandled': 'Mark as Handled',
   'app.kuaizhizao.maintenanceReminder.batchMarkRead': 'Batch Mark as Read ({{count}})',
   'app.kuaizhizao.maintenanceReminder.form.handleRemark': 'Handling Remark',
-  'app.kuaizhizao.maintenanceReminder.form.handleRemarkPlaceholder': 'Enter handling remark (optional)',
+  'app.kuaizhizao.maintenanceReminder.form.handleRemarkPlaceholder':
+    'Enter handling remark (optional)',
   'app.kuaizhizao.maintenanceReminder.section.basicInfo': 'Basic Info',
   'app.kuaizhizao.maintenanceReminder.section.lifecycle': 'Lifecycle',
   'app.kuaizhizao.maintenanceReminder.section.detailInfo': 'Line Items',
   'app.kuaizhizao.maintenanceReminder.section.operationHistory': 'Activity Log',
-  'app.kuaizhizao.maintenanceReminder.empty.noDetailLines': 'Maintenance reminder has no line items',
+  'app.kuaizhizao.maintenanceReminder.empty.noDetailLines':
+    'Maintenance reminder has no line items',
   'app.kuaizhizao.maintenanceReminder.empty.noOperationRecords': 'No activity records',
-  'app.kuaizhizao.maintenanceReminder.readHandleStatus': 'Read/Handled: Read {{read}}{{readAt}}; Handled {{handled}}{{handledAt}}',
+  'app.kuaizhizao.maintenanceReminder.readHandleStatus':
+    'Read/Handled: Read {{read}}{{readAt}}; Handled {{handled}}{{handledAt}}',
   'app.kuaizhizao.maintenanceReminder.yes': 'Yes',
   'app.kuaizhizao.maintenanceReminder.no': 'No',
   'app.kuaizhizao.maintenanceReminder.notificationTitle': 'Maintenance Reminder',
-  'app.kuaizhizao.maintenanceReminder.notificationDescription': 'You have {{count}} unread maintenance reminders',
+  'app.kuaizhizao.maintenanceReminder.notificationDescription':
+    'You have {{count}} unread maintenance reminders',
   'app.kuaizhizao.maintenanceReminder.uuidNotFound': 'Reminder UUID not found',
   'app.kuaizhizao.maintenanceReminder.markReadSuccess': 'Marked as read',
   'app.kuaizhizao.maintenanceReminder.markReadFailed': 'Failed to mark as read: {{message}}',
@@ -10380,9 +11343,11 @@ export default {
   'app.kuaizhizao.maintenanceReminder.markHandledFailed': 'Failed to mark as handled: {{message}}',
   'app.kuaizhizao.maintenanceReminder.selectReminders': 'Select reminders to mark',
   'app.kuaizhizao.maintenanceReminder.batchMarkReadSuccess': 'Marked {{count}} reminders as read',
-  'app.kuaizhizao.maintenanceReminder.batchMarkReadFailed': 'Batch mark as read failed: {{message}}',
+  'app.kuaizhizao.maintenanceReminder.batchMarkReadFailed':
+    'Batch mark as read failed: {{message}}',
   'app.kuaizhizao.maintenanceReminder.checkSuccess': 'Check complete, created {{count}} reminders',
-  'app.kuaizhizao.maintenanceReminder.checkFailed': 'Failed to check maintenance plans: {{message}}',
+  'app.kuaizhizao.maintenanceReminder.checkFailed':
+    'Failed to check maintenance plans: {{message}}',
   'app.kuaizhizao.maintenanceReminder.search': 'Search',
   'app.kuaizhizao.maintenanceReminder.reset': 'Reset',
   'app.kuaizhizao.maintenanceReminder.lifecycle.notify': 'Reminder',
@@ -10456,7 +11421,8 @@ export default {
   'app.kuaizhizao.equipmentStatus.updateSuccess': 'Equipment status updated',
   'app.kuaizhizao.equipmentStatus.updateFailed': 'Failed to update equipment status: {{message}}',
   'app.kuaizhizao.equipmentInspection.title': 'Daily Inspection Entry',
-  'app.kuaizhizao.equipmentInspection.subTitle': 'Daily inspection for key equipment; abnormalities trigger repair automatically',
+  'app.kuaizhizao.equipmentInspection.subTitle':
+    'Daily inspection for key equipment; abnormalities trigger repair automatically',
   'app.kuaizhizao.equipmentInspection.selectEquipmentCard': 'Select Equipment to Inspect',
   'app.kuaizhizao.equipmentInspection.searchEquipment': 'Search Equipment',
   'app.kuaizhizao.equipmentInspection.currentStatus': 'Current Status: ',
@@ -10467,7 +11433,8 @@ export default {
   'app.kuaizhizao.equipmentInspection.param.pressureNormal': 'Air/oil pressure in range',
   'app.kuaizhizao.equipmentInspection.param.lubricationGood': 'Guide rail lubrication good',
   'app.kuaizhizao.equipmentInspection.param.safetyDoorNormal': 'Safety door normal',
-  'app.kuaizhizao.equipmentInspection.hasAbnormality': 'Abnormality found? (Enabling will auto-trigger repair)',
+  'app.kuaizhizao.equipmentInspection.hasAbnormality':
+    'Abnormality found? (Enabling will auto-trigger repair)',
   'app.kuaizhizao.equipmentInspection.abnormalityDescription': 'Abnormality Description',
   'app.kuaizhizao.equipmentInspection.abnormalityRequired': 'Briefly describe the abnormality',
   'app.kuaizhizao.equipmentInspection.remark': 'Remarks',
@@ -10571,7 +11538,8 @@ export default {
   'app.kuaizhizao.equipment.updateSuccess': 'Equipment updated',
   'app.kuaizhizao.equipment.calibrationSaved': 'Calibration record saved',
   'app.kuaizhizao.equipment.confirmBatchDeleteTitle': 'Confirm Batch Delete',
-  'app.kuaizhizao.equipment.confirmBatchDeleteContent': 'Delete {{count}} selected equipment item(s)?',
+  'app.kuaizhizao.equipment.confirmBatchDeleteContent':
+    'Delete {{count}} selected equipment item(s)?',
   'app.kuaizhizao.equipment.confirmDeleteTitle': 'Confirm Delete',
   'app.kuaizhizao.equipment.confirmDeleteContent': 'Delete equipment "{{name}}"?',
   'app.kuaizhizao.equipment.importTitle': 'Import Equipment',
@@ -10809,7 +11777,8 @@ export default {
   'app.kuaizhizao.moldCalibration.formSelectMold': 'Select mold',
   'app.kuaizhizao.moldCalibration.formSelectMoldRequired': 'Please select a mold',
   'app.kuaizhizao.moldCalibration.formCalibrationDate': 'Calibration Date',
-  'app.kuaizhizao.moldCalibration.formSelectCalibrationDateRequired': 'Please select calibration date',
+  'app.kuaizhizao.moldCalibration.formSelectCalibrationDateRequired':
+    'Please select calibration date',
   'app.kuaizhizao.moldCalibration.formResult': 'Result',
   'app.kuaizhizao.moldCalibration.formSelectResultRequired': 'Please select result',
   'app.kuaizhizao.moldCalibration.formCertificateNo': 'Certificate No.',
@@ -10874,7 +11843,8 @@ export default {
   'app.kuaizhizao.toolCalibration.formSelectTool': 'Select tooling',
   'app.kuaizhizao.toolCalibration.formSelectToolRequired': 'Please select tooling',
   'app.kuaizhizao.toolCalibration.formCalibrationDate': 'Calibration Date',
-  'app.kuaizhizao.toolCalibration.formSelectCalibrationDateRequired': 'Please select calibration date',
+  'app.kuaizhizao.toolCalibration.formSelectCalibrationDateRequired':
+    'Please select calibration date',
   'app.kuaizhizao.toolCalibration.formResult': 'Result',
   'app.kuaizhizao.toolCalibration.formSelectResultRequired': 'Please select result',
   'app.kuaizhizao.toolCalibration.formCertificateNo': 'Certificate No.',
@@ -10901,9 +11871,11 @@ export default {
   'app.kuaizhizao.toolMaintenance.formSelectTool': 'Select tooling',
   'app.kuaizhizao.toolMaintenance.formSelectToolRequired': 'Please select tooling',
   'app.kuaizhizao.toolMaintenance.formMaintenanceType': 'Maintenance Type',
-  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceTypeRequired': 'Please select maintenance type',
+  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceTypeRequired':
+    'Please select maintenance type',
   'app.kuaizhizao.toolMaintenance.formMaintenanceDate': 'Maintenance Date',
-  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceDateRequired': 'Please select maintenance date',
+  'app.kuaizhizao.toolMaintenance.formSelectMaintenanceDateRequired':
+    'Please select maintenance date',
   'app.kuaizhizao.toolMaintenance.formExecutor': 'Executor',
   'app.kuaizhizao.toolMaintenance.formResult': 'Result',
   'app.kuaizhizao.toolMaintenance.formMaintenanceContent': 'Maintenance Content',
@@ -10974,7 +11946,8 @@ export default {
   'app.kuaizhizao.toolLedger.maintenanceSaved': 'Maintenance record saved',
   'app.kuaizhizao.toolLedger.calibrationSaved': 'Calibration record saved',
   'app.kuaizhizao.toolLedger.confirmBatchDeleteTitle': 'Confirm Batch Delete',
-  'app.kuaizhizao.toolLedger.confirmBatchDeleteContent': 'Delete {{count}} selected tooling item(s)?',
+  'app.kuaizhizao.toolLedger.confirmBatchDeleteContent':
+    'Delete {{count}} selected tooling item(s)?',
   'app.kuaizhizao.toolLedger.importTitle': 'Import Tooling',
   'app.kuaizhizao.toolLedger.importEmpty': 'Import data is empty or invalid',
   'app.kuaizhizao.toolLedger.importHeaderMissingName': 'Import header must include tooling name',
@@ -11081,28 +12054,38 @@ export default {
   'app.kuaizhizao.shipmentNotice.listFailed': 'Failed to load list',
   'app.kuaizhizao.shipmentNotice.notifyConfirmContent': 'Notify warehouse to ship "{{code}}"?',
   'app.kuaizhizao.shipmentNotice.notifyWarehouseSelectTitle': 'Select outbound warehouse',
-  'app.kuaizhizao.shipmentNotice.notifyWarehouseSelectContent': 'Shipment notice "{{code}}" has no outbound warehouse. Select one before notifying the warehouse.',
-  'app.kuaizhizao.shipmentNotice.batchNotifyMissingWarehouse': 'Some selected notices have no warehouse. Notify them one by one and select a warehouse, or edit to add a warehouse first.',
+  'app.kuaizhizao.shipmentNotice.notifyWarehouseSelectContent':
+    'Shipment notice "{{code}}" has no outbound warehouse. Select one before notifying the warehouse.',
+  'app.kuaizhizao.shipmentNotice.batchNotifyMissingWarehouse':
+    'Some selected notices have no warehouse. Notify them one by one and select a warehouse, or edit to add a warehouse first.',
   'app.kuaizhizao.shipmentNotice.notifySuccess': 'Warehouse notified',
-  'app.kuaizhizao.shipmentNotice.notifySuccessWithDelivery': 'Warehouse notified; sales delivery created: {{deliveryCode}}',
+  'app.kuaizhizao.shipmentNotice.notifySuccessWithDelivery':
+    'Warehouse notified; sales delivery created: {{deliveryCode}}',
   'app.kuaizhizao.shipmentNotice.notifyFailed': 'Notify failed',
   'app.kuaizhizao.shipmentNotice.batchNotifySuccess': 'Notified {{count}} shipment notice(s)',
-  'app.kuaizhizao.shipmentNotice.batchNotifyPartial': '{{count}} notify failed (only pending shipment can be notified)',
-  'app.kuaizhizao.shipmentNotice.withdrawConfirmContent': 'Withdraw "{{code}}" to pending shipment?',
+  'app.kuaizhizao.shipmentNotice.batchNotifyPartial':
+    '{{count}} notify failed (only pending shipment can be notified)',
+  'app.kuaizhizao.shipmentNotice.withdrawConfirmContent':
+    'Withdraw "{{code}}" to pending shipment?',
   'app.kuaizhizao.shipmentNotice.withdrawSuccess': 'Withdrawn to pending shipment',
   'app.kuaizhizao.shipmentNotice.withdrawFailed': 'Withdraw failed',
   'app.kuaizhizao.shipmentNotice.batchWithdrawSuccess': 'Withdrawn {{count}} shipment notice(s)',
-  'app.kuaizhizao.shipmentNotice.batchWithdrawPartial': '{{count}} withdraw failed (only notified can be withdrawn)',
+  'app.kuaizhizao.shipmentNotice.batchWithdrawPartial':
+    '{{count}} withdraw failed (only notified can be withdrawn)',
   'app.kuaizhizao.shipmentNotice.deleteConfirmContent': 'Delete "{{code}}"?',
   'app.kuaizhizao.shipmentNotice.batchDeleteSuccess': 'Deleted {{count}} shipment notice(s)',
   'app.kuaizhizao.shipmentNotice.selectNoticeFirst': 'Select shipment notice(s) first',
   'app.kuaizhizao.shipmentNotice.pullFromSalesOrder': 'Create from Sales Order',
   'app.kuaizhizao.shipmentNotice.selectSource': 'Select {{source}}',
-  'app.kuaizhizao.shipmentNotice.sourceAlreadyConverted': '{{source}} already has {{target}}; do not create again',
+  'app.kuaizhizao.shipmentNotice.sourceAlreadyConverted':
+    '{{source}} already has {{target}}; do not create again',
   'app.kuaizhizao.shipmentNotice.createFromSourceSuccess': 'Created {{target}} from {{source}}',
-  'app.kuaizhizao.shipmentNotice.createFromSourceFailed': 'Failed to create {{target}} from {{source}}',
-  'app.kuaizhizao.shipmentNotice.sourceMissingData': '{{source}} missing customer or valid lines; cannot create {{target}}',
-  'app.kuaizhizao.shipmentNotice.noMaterialItemsFromSource': 'No usable product lines on {{source}}; add notice lines manually',
+  'app.kuaizhizao.shipmentNotice.createFromSourceFailed':
+    'Failed to create {{target}} from {{source}}',
+  'app.kuaizhizao.shipmentNotice.sourceMissingData':
+    '{{source}} missing customer or valid lines; cannot create {{target}}',
+  'app.kuaizhizao.shipmentNotice.noMaterialItemsFromSource':
+    'No usable product lines on {{source}}; add notice lines manually',
   'app.kuaizhizao.shipmentNotice.createTarget': 'Create {{target}}',
   'app.kuaizhizao.shipmentNotice.noticeCode': 'Notice No.',
   'app.kuaizhizao.shipmentNotice.codeRequired': 'Enter notice no.',
@@ -11110,7 +12093,8 @@ export default {
   'app.kuaizhizao.shipmentNotice.noticeItems': 'Notice Lines',
   'app.kuaizhizao.shipmentNotice.noticeItemsRequired': 'Add at least one notice line',
   'app.kuaizhizao.shipmentNotice.importItemsTitle': 'Import Notice Lines',
-  'app.kuaizhizao.shipmentNotice.closeEditBeforeImport': 'Close the edit dialog first, or use Import Lines in New Shipment Notice',
+  'app.kuaizhizao.shipmentNotice.closeEditBeforeImport':
+    'Close the edit dialog first, or use Import Lines in New Shipment Notice',
   'app.kuaizhizao.shipmentNotice.quantityPositive': 'Must be greater than 0',
   'app.kuaizhizao.shipmentNotice.itemsRequired': 'Add at least one valid line',
   'app.kuaizhizao.shipmentNotice.importNoValidData': 'No valid data found',
@@ -11119,11 +12103,13 @@ export default {
   'app.kuaizhizao.shipmentNotice.noDetailItems': 'No line items',
   'app.kuaizhizao.shipmentNotice.noOperationRecords': 'No activity records',
   'app.kuaizhizao.shipmentNotice.amount': 'Amount',
-  'app.kuaizhizao.shipmentNotice.confirmBatchDelete': 'Delete {{count}} selected shipment notice(s)?',
+  'app.kuaizhizao.shipmentNotice.confirmBatchDelete':
+    'Delete {{count}} selected shipment notice(s)?',
   'app.kuaizhizao.shipmentNotice.defaultUnit': 'pcs',
   'app.kuaizhizao.shipmentNotice.loadCustomersFailed': 'Failed to load customers/sales orders',
   'app.kuaizhizao.shipmentNotice.codePreviewFailed': 'Failed to preview shipment notice code',
-  'app.kuaizhizao.shipmentNotice.codeGenerateFailed': 'Failed to generate shipment notice code; using current value',
+  'app.kuaizhizao.shipmentNotice.codeGenerateFailed':
+    'Failed to generate shipment notice code; using current value',
   'app.kuaizhizao.receiptNotice.title': 'Receipt Notice',
   'app.kuaizhizao.receiptNotice.entityName': 'Receipt Notice',
   'app.kuaizhizao.receiptNotice.create': 'New Receipt Notice',
@@ -11143,36 +12129,44 @@ export default {
   'app.kuaizhizao.receiptNotice.statusPendingReceipt': 'Pending Receipt',
   'app.kuaizhizao.receiptNotice.statusReceived': 'Received',
   'app.kuaizhizao.receiptNotice.notifyWarehouse': 'Notify Warehouse to Receive',
-  'app.kuaizhizao.receiptNotice.notifyConfirmContent': 'Notify warehouse to receive "{{code}}"? A draft purchase inbound receipt will be created for warehouse verification.',
-  'app.kuaizhizao.receiptNotice.notifySuccessWithDraft': 'Warehouse notified; draft inbound receipt created: {{receiptCode}}',
-  'app.kuaizhizao.receiptNotice.withdrawConfirmContent': 'Withdraw "{{code}}" to pending receipt? The linked draft inbound receipt will be removed if not yet confirmed.',
+  'app.kuaizhizao.receiptNotice.notifyConfirmContent':
+    'Notify warehouse to receive "{{code}}"? A draft purchase inbound receipt will be created for warehouse verification.',
+  'app.kuaizhizao.receiptNotice.notifySuccessWithDraft':
+    'Warehouse notified; draft inbound receipt created: {{receiptCode}}',
+  'app.kuaizhizao.receiptNotice.withdrawConfirmContent':
+    'Withdraw "{{code}}" to pending receipt? The linked draft inbound receipt will be removed if not yet confirmed.',
   'app.kuaizhizao.receiptNotice.withdrawSuccess': 'Withdrawn to pending receipt',
   'app.kuaizhizao.receiptNotice.selectPurchaseOrder': 'Select purchase order',
   'app.kuaizhizao.receiptNotice.supplierPlaceholder': 'Supplier name',
   'app.kuaizhizao.receiptNotice.supplierRequired': 'Enter supplier',
   'app.kuaizhizao.receiptNotice.selectInboundWarehouse': 'Select inbound warehouse',
   'app.kuaizhizao.receiptNotice.loadPurchaseOrdersFailed': 'Failed to load purchase orders',
-  'app.kuaizhizao.receiptNotice.codeAutoPlaceholder': 'Code will be auto-generated per rule; editable',
+  'app.kuaizhizao.receiptNotice.codeAutoPlaceholder':
+    'Code will be auto-generated per rule; editable',
   'app.kuaizhizao.receiptNotice.codeManualPlaceholder': 'Enter notice no.',
   'app.kuaizhizao.receiptNotice.createFailed': 'Create failed',
   'app.kuaizhizao.receiptNotice.updateFailed': 'Update failed',
   'app.kuaizhizao.receiptNotice.statTotal': 'Total Documents',
   'app.kuaizhizao.receiptNotice.pullSearchPlaceholder': 'Search by purchase order no. or supplier',
   'app.kuaizhizao.receiptNotice.orderDate': 'Order Date',
-  'app.kuaizhizao.receiptNotice.sourceMissingItems': '{{source}} has no receivable lines; cannot create {{target}}',
+  'app.kuaizhizao.receiptNotice.sourceMissingItems':
+    '{{source}} has no receivable lines; cannot create {{target}}',
   'app.kuaizhizao.receiptNotice.codePreviewFailed': 'Failed to preview receipt notice code',
-  'app.kuaizhizao.receiptNotice.codeGenerateFailed': 'Failed to generate receipt notice code; using current value',
+  'app.kuaizhizao.receiptNotice.codeGenerateFailed':
+    'Failed to generate receipt notice code; using current value',
   'app.kuaizhizao.receiptNotice.deleteModalTitle': 'Delete Receipt Notice',
   'app.kuaizhizao.receiptNotice.detailFailed': 'Failed to load receipt notice details',
   'app.kuaizhizao.receiptNotice.batchDeleteSuccess': 'Deleted {{count}} receipt notice(s)',
   'app.kuaizhizao.receiptNotice.selectNoticeFirst': 'Select receipt notice(s) first',
   'app.kuaizhizao.receiptNotice.batchNotifySuccess': 'Notified {{count}} receipt notice(s)',
-  'app.kuaizhizao.receiptNotice.batchNotifyPartial': '{{count}} notify failed (pending receipt only)',
+  'app.kuaizhizao.receiptNotice.batchNotifyPartial':
+    '{{count}} notify failed (pending receipt only)',
   'app.kuaizhizao.receiptNotice.batchWithdrawSuccess': 'Withdrawn {{count}} receipt notice(s)',
   'app.kuaizhizao.receiptNotice.confirmBatchDelete': 'Delete {{count}} selected receipt notice(s)?',
   'app.kuaicaiwu.financeDashboard.loadFailed': 'Failed to load finance dashboard',
   'app.kuaicaiwu.financeDashboard.kpi.pendingReceiptPayment': 'Pending Receipt/Payment',
-  'app.kuaicaiwu.financeDashboard.kpi.pendingSubtitle': 'Receipts {{receipts}} · Payments {{payments}}',
+  'app.kuaicaiwu.financeDashboard.kpi.pendingSubtitle':
+    'Receipts {{receipts}} · Payments {{payments}}',
   'app.kuaicaiwu.financeDashboard.kpi.pendingReceipts': 'Pending Receipts',
   'app.kuaicaiwu.financeDashboard.kpi.pendingPayments': 'Pending Payments',
   'app.kuaicaiwu.financeDashboard.kpi.overdueReceivables': 'Overdue Receivables',
@@ -11187,7 +12181,8 @@ export default {
   'app.kuaicaiwu.financeDashboard.shortcut.partnerStatements': 'Partner Statements',
   'app.kuaicaiwu.financeDashboard.todosTitle': 'Finance To-dos',
   'app.kuaicaiwu.financeDashboard.noTodos': 'No finance to-dos',
-  'app.kuaicaiwu.financeDashboard.todo.pendingReceipts': '{{count}} receipt(s) pending confirmation',
+  'app.kuaicaiwu.financeDashboard.todo.pendingReceipts':
+    '{{count}} receipt(s) pending confirmation',
   'app.kuaicaiwu.financeDashboard.todo.overdueReceivables': '{{count}} receivable(s) overdue',
   'app.kuaicaiwu.financeDashboard.receivableAgingTitle': 'Receivable Aging',
   'app.kuaicaiwu.financeDashboard.payableAgingTitle': 'Payable Aging',
@@ -11212,7 +12207,8 @@ export default {
   'app.kuaicaiwu.common.batchApproveFailed': 'Batch approve failed',
   'app.kuaicaiwu.common.batchConfirmFailed': 'Batch confirm failed',
   'app.kuaicaiwu.common.batchVoidFailed': 'Batch void failed',
-  'app.kuaicaiwu.common.batchOnlyPendingApprove': 'Only pending documents will be approved; others will be rejected by the server.',
+  'app.kuaicaiwu.common.batchOnlyPendingApprove':
+    'Only pending documents will be approved; others will be rejected by the server.',
   'app.kuaicaiwu.common.loadListFailed': 'Failed to load list',
   'app.kuaicaiwu.common.importEmpty': 'Import data is empty or invalid',
   'app.kuaicaiwu.common.importNoValidRows': 'No valid rows to import',
@@ -11228,7 +12224,8 @@ export default {
   'app.kuaicaiwu.common.settle': 'Settle',
   'app.kuaicaiwu.common.preview': 'Preview',
   'app.kuaicaiwu.common.selectSource': 'Select {{source}}',
-  'app.kuaicaiwu.common.sourceNoRemaining': '{{source}} has no remaining balance; cannot create {{target}}',
+  'app.kuaicaiwu.common.sourceNoRemaining':
+    '{{source}} has no remaining balance; cannot create {{target}}',
   'app.kuaicaiwu.common.createdFromSource': '{{target}} created from {{source}}',
   'app.kuaicaiwu.common.createdFromSourceNote': 'From {{source}} {{code}}',
   'app.kuaicaiwu.common.createTarget': 'Create {{target}}',
@@ -11281,11 +12278,13 @@ export default {
   'app.kuaicaiwu.receivable.col.receivedAmount': 'Collected',
   'app.kuaicaiwu.receivable.col.remainingAmount': 'Remaining',
   'app.kuaicaiwu.receivable.col.amount': 'Receivable Amount',
-  'app.kuaicaiwu.receivable.deleteConfirm': 'Delete {{count}} selected receivable(s)? Only pending receivables with no receipts can be deleted.',
+  'app.kuaicaiwu.receivable.deleteConfirm':
+    'Delete {{count}} selected receivable(s)? Only pending receivables with no receipts can be deleted.',
   'app.kuaicaiwu.receivable.batchApproveTitle': 'Approve {{count}} receivable(s)',
   'app.kuaicaiwu.receivable.importTitle': 'Import Receivables',
   'app.kuaicaiwu.receivable.importSuccess': 'Imported {{count}} receivable(s)',
-  'app.kuaicaiwu.receivable.importHeaderError': 'Import header must include customer name and receivable amount',
+  'app.kuaicaiwu.receivable.importHeaderError':
+    'Import header must include customer name and receivable amount',
   'app.kuaicaiwu.receivable.detailTitle': 'Accounts Receivable',
   'app.kuaicaiwu.receivable.detailNotFound': 'Receivable not found',
   'app.kuaicaiwu.receivable.invoiceStatus.label': 'Invoice Status',
@@ -11311,11 +12310,13 @@ export default {
   'app.kuaicaiwu.payable.col.paidAmount': 'Paid',
   'app.kuaicaiwu.payable.col.remainingAmount': 'Remaining',
   'app.kuaicaiwu.payable.col.amount': 'Payable Amount',
-  'app.kuaicaiwu.payable.deleteConfirm': 'Delete {{count}} selected payable(s)? Only pending payables with no payments can be deleted.',
+  'app.kuaicaiwu.payable.deleteConfirm':
+    'Delete {{count}} selected payable(s)? Only pending payables with no payments can be deleted.',
   'app.kuaicaiwu.payable.batchApproveTitle': 'Approve {{count}} payable(s)',
   'app.kuaicaiwu.payable.importTitle': 'Import Payables',
   'app.kuaicaiwu.payable.importSuccess': 'Imported {{count}} payable(s)',
-  'app.kuaicaiwu.payable.importHeaderError': 'Import header must include supplier name and payable amount',
+  'app.kuaicaiwu.payable.importHeaderError':
+    'Import header must include supplier name and payable amount',
   'app.kuaicaiwu.payable.detailTitle': 'Accounts Payable',
   'app.kuaicaiwu.payable.detailNotFound': 'Payable not found',
   'app.kuaicaiwu.payable.invoiceStatus.received': 'Invoice Received ({{number}})',
@@ -11352,16 +12353,21 @@ export default {
   'app.kuaicaiwu.receipt.batchConfirmed': 'Confirmed {{count}} receipt(s)',
   'app.kuaicaiwu.receipt.batchVoided': 'Voided {{count}} receipt(s)',
   'app.kuaicaiwu.receipt.confirmTitle': 'Confirm Receipt',
-  'app.kuaicaiwu.receipt.confirmContent': 'Confirm receipt {{code}}? It cannot be edited after confirmation.',
+  'app.kuaicaiwu.receipt.confirmContent':
+    'Confirm receipt {{code}}? It cannot be edited after confirmation.',
   'app.kuaicaiwu.receipt.voidTitle': 'Void Receipt',
   'app.kuaicaiwu.receipt.voidContent': 'Void receipt {{code}}? Settled receipts cannot be voided.',
   'app.kuaicaiwu.receipt.deleteTitle': 'Delete Receipt',
-  'app.kuaicaiwu.receipt.deleteContent': 'Delete receipt {{code}}? Confirmed receipts cannot be deleted; use void instead.',
-  'app.kuaicaiwu.receipt.deleteConfirm': 'Delete {{count}} selected receipt(s)? Confirmed receipts cannot be deleted; use void instead.',
+  'app.kuaicaiwu.receipt.deleteContent':
+    'Delete receipt {{code}}? Confirmed receipts cannot be deleted; use void instead.',
+  'app.kuaicaiwu.receipt.deleteConfirm':
+    'Delete {{count}} selected receipt(s)? Confirmed receipts cannot be deleted; use void instead.',
   'app.kuaicaiwu.receipt.batchConfirmTitle': 'Batch confirm {{count}} receipt(s)',
-  'app.kuaicaiwu.receipt.batchConfirmDesc': 'Only draft receipts can be confirmed; others will be rejected by the server.',
+  'app.kuaicaiwu.receipt.batchConfirmDesc':
+    'Only draft receipts can be confirmed; others will be rejected by the server.',
   'app.kuaicaiwu.receipt.batchVoidTitle': 'Batch void {{count}} receipt(s)',
-  'app.kuaicaiwu.receipt.batchVoidDesc': 'Settled receipts cannot be voided; others will be rejected by the server.',
+  'app.kuaicaiwu.receipt.batchVoidDesc':
+    'Settled receipts cannot be voided; others will be rejected by the server.',
   'app.kuaicaiwu.receipt.pullSearchPlaceholder': 'Search by receivable no. / customer',
   'app.kuaicaiwu.receipt.pullCol.receivableCode': 'Receivable No.',
   'app.kuaicaiwu.receipt.pullCol.canCreate': 'Convertible',
@@ -11400,16 +12406,21 @@ export default {
   'app.kuaicaiwu.payment.batchConfirmed': 'Confirmed {{count}} payment(s)',
   'app.kuaicaiwu.payment.batchVoided': 'Voided {{count}} payment(s)',
   'app.kuaicaiwu.payment.confirmTitle': 'Confirm Payment',
-  'app.kuaicaiwu.payment.confirmContent': 'Confirm payment {{code}}? It cannot be edited after confirmation.',
+  'app.kuaicaiwu.payment.confirmContent':
+    'Confirm payment {{code}}? It cannot be edited after confirmation.',
   'app.kuaicaiwu.payment.voidTitle': 'Void Payment',
   'app.kuaicaiwu.payment.voidContent': 'Void payment {{code}}? Settled payments cannot be voided.',
   'app.kuaicaiwu.payment.deleteTitle': 'Delete Payment',
-  'app.kuaicaiwu.payment.deleteContent': 'Delete payment {{code}}? Confirmed payments cannot be deleted; use void instead.',
-  'app.kuaicaiwu.payment.deleteConfirm': 'Delete {{count}} selected payment(s)? Confirmed payments cannot be deleted; use void instead.',
+  'app.kuaicaiwu.payment.deleteContent':
+    'Delete payment {{code}}? Confirmed payments cannot be deleted; use void instead.',
+  'app.kuaicaiwu.payment.deleteConfirm':
+    'Delete {{count}} selected payment(s)? Confirmed payments cannot be deleted; use void instead.',
   'app.kuaicaiwu.payment.batchConfirmTitle': 'Batch confirm {{count}} payment(s)',
-  'app.kuaicaiwu.payment.batchConfirmDesc': 'Only draft payments can be confirmed; others will be rejected by the server.',
+  'app.kuaicaiwu.payment.batchConfirmDesc':
+    'Only draft payments can be confirmed; others will be rejected by the server.',
   'app.kuaicaiwu.payment.batchVoidTitle': 'Batch void {{count}} payment(s)',
-  'app.kuaicaiwu.payment.batchVoidDesc': 'Settled payments cannot be voided; others will be rejected by the server.',
+  'app.kuaicaiwu.payment.batchVoidDesc':
+    'Settled payments cannot be voided; others will be rejected by the server.',
   'app.kuaicaiwu.payment.pullSearchPlaceholder': 'Search by payable no. / supplier',
   'app.kuaicaiwu.payment.pullCol.payableCode': 'Payable No.',
   'app.kuaicaiwu.payment.pullCol.docStatus': 'Document Status',
@@ -11441,14 +12452,17 @@ export default {
   'app.kuaicaiwu.invoice.createTitle': 'New Invoice',
   'app.kuaicaiwu.invoice.importTitle': 'Import Invoices',
   'app.kuaicaiwu.invoice.importSuccess': 'Imported {{count}} invoice(s)',
-  'app.kuaicaiwu.invoice.importHeaderError': 'Import header must include invoice no., partner, and total amount',
-  'app.kuaicaiwu.invoice.importNoValidRows': 'No valid rows (ensure partners exist in customer/supplier master data)',
+  'app.kuaicaiwu.invoice.importHeaderError':
+    'Import header must include invoice no., partner, and total amount',
+  'app.kuaicaiwu.invoice.importNoValidRows':
+    'No valid rows (ensure partners exist in customer/supplier master data)',
   'app.kuaicaiwu.invoice.batchDeleteSuccess': 'Deleted {{count}} invoice(s)',
   'app.kuaicaiwu.invoice.tabSales': 'Sales Invoices',
   'app.kuaicaiwu.invoice.tabPurchase': 'Purchase Invoices',
   'app.kuaicaiwu.invoice.editTitle': 'Edit Invoice',
   'app.kuaicaiwu.invoice.batchDeleteConfirm': 'Delete {{count}} selected invoice(s)?',
-  'app.kuaicaiwu.invoice.lifecycleHint': 'Invoices are not connected to the document tracking center; stage names match the list lifecycle column.',
+  'app.kuaicaiwu.invoice.lifecycleHint':
+    'Invoices are not connected to the document tracking center; stage names match the list lifecycle column.',
   'app.kuaicaiwu.invoice.activityPlaceholder': 'Save the invoice to view creation and update times',
   'app.kuaicaiwu.invoice.activityCreated': 'Created at {{time}}',
   'app.kuaicaiwu.invoice.activityUpdated': 'Updated at {{time}}',
@@ -11460,7 +12474,8 @@ export default {
   'app.kuaicaiwu.invoice.form.partnerBankInfo': 'Bank & Account',
   'app.kuaicaiwu.invoice.form.partnerAddressPhone': 'Address & Phone',
   'app.kuaicaiwu.invoice.form.partnerPlaceholder': 'Enter supplier or customer name',
-  'app.kuaicaiwu.invoice.form.invoiceNumberPlaceholder': 'Enter face invoice number; may be empty in draft',
+  'app.kuaicaiwu.invoice.form.invoiceNumberPlaceholder':
+    'Enter face invoice number; may be empty in draft',
   'app.kuaicaiwu.invoice.form.autoGenerate': 'Auto-generated',
   'app.kuaicaiwu.invoice.line.itemName': 'Item / Service Name',
   'app.kuaicaiwu.invoice.line.specModel': 'Specification',
@@ -11490,14 +12505,17 @@ export default {
   'app.kuaicaiwu.salesInvoice.approveContent': 'Approve invoice {{number}}?',
   'app.kuaicaiwu.salesInvoice.approveSuccess': 'Approved',
   'app.kuaicaiwu.salesInvoice.deleteTitle': 'Delete Sales Invoice',
-  'app.kuaicaiwu.salesInvoice.deleteContent': 'Delete invoice {{number}}? Approved invoices cannot be deleted.',
+  'app.kuaicaiwu.salesInvoice.deleteContent':
+    'Delete invoice {{number}}? Approved invoices cannot be deleted.',
   'app.kuaicaiwu.salesInvoice.batchDeleteSuccess': 'Deleted {{count}} sales invoice(s)',
-  'app.kuaicaiwu.salesInvoice.batchDeleteConfirm': 'Delete {{count}} selected sales invoice(s)? Approved invoices cannot be deleted.',
+  'app.kuaicaiwu.salesInvoice.batchDeleteConfirm':
+    'Delete {{count}} selected sales invoice(s)? Approved invoices cannot be deleted.',
   'app.kuaicaiwu.salesInvoice.batchApproveTitle': 'Approve {{count}} sales invoice(s)',
   'app.kuaicaiwu.salesInvoice.batchApproveSuccess': 'Approved {{count}} sales invoice(s)',
   'app.kuaicaiwu.salesInvoice.loadSourceFailed': 'Failed to load source documents',
   'app.kuaicaiwu.salesInvoice.selectSource': 'Select {{label}}',
-  'app.kuaicaiwu.salesInvoice.sourceConverted': 'This {{source}} already has a {{target}}; do not create again',
+  'app.kuaicaiwu.salesInvoice.sourceConverted':
+    'This {{source}} already has a {{target}}; do not create again',
   'app.kuaicaiwu.salesInvoice.zeroAmount': 'Source amount is 0; cannot create {{target}}',
   'app.kuaicaiwu.salesInvoice.amountRequired': 'Amount excl. tax must be greater than 0',
   'app.kuaicaiwu.salesInvoice.pullCreateSuccess': 'Created {{target}}',
@@ -11513,7 +12531,8 @@ export default {
   'app.kuaicaiwu.salesInvoice.pull.col.convertStatus': 'Conversion Status',
   'app.kuaicaiwu.salesInvoice.pull.converted': 'Created',
   'app.kuaicaiwu.salesInvoice.pull.convertible': 'Available',
-  'app.kuaicaiwu.salesInvoice.form.invoiceNumberOptional': 'Optional; enter after receiving paper/electronic invoice',
+  'app.kuaicaiwu.salesInvoice.form.invoiceNumberOptional':
+    'Optional; enter after receiving paper/electronic invoice',
   'app.kuaicaiwu.salesInvoice.form.invoiceNumberRequired': 'Enter face invoice number',
   'app.kuaicaiwu.salesInvoice.detailTitle': 'Sales Invoice',
   'app.kuaicaiwu.salesInvoice.detailTitleWithNumber': 'Sales Invoice {{number}}',
@@ -11534,14 +12553,17 @@ export default {
   'app.kuaicaiwu.salesInvoice.approveConfirm': 'Approve {{number}}?',
   'app.kuaicaiwu.salesInvoice.approved': 'Approved',
   'app.kuaicaiwu.salesInvoice.saved': 'Saved',
-  'app.kuaicaiwu.salesInvoice.deleteConfirm': 'Delete this invoice? Approved, voided, or red-flushed invoices cannot be deleted.',
+  'app.kuaicaiwu.salesInvoice.deleteConfirm':
+    'Delete this invoice? Approved, voided, or red-flushed invoices cannot be deleted.',
   'app.kuaicaiwu.salesInvoice.voidTitle': 'Void Invoice',
-  'app.kuaicaiwu.salesInvoice.voidHint': 'For errors found before approval/booking. For approved invoices, use "Apply Red Invoice".',
+  'app.kuaicaiwu.salesInvoice.voidHint':
+    'For errors found before approval/booking. For approved invoices, use "Apply Red Invoice".',
   'app.kuaicaiwu.salesInvoice.voidReasonRequired': 'Void reason (required)',
   'app.kuaicaiwu.salesInvoice.voidReasonMissing': 'Enter void reason',
   'app.kuaicaiwu.salesInvoice.voided': 'Voided',
   'app.kuaicaiwu.salesInvoice.redLetterTitle': 'Apply Red Invoice',
-  'app.kuaicaiwu.salesInvoice.redLetterHint': 'A negative sales invoice draft will be created for accounting reversal. Complete red-letter process in tax system, then fill in the invoice number.',
+  'app.kuaicaiwu.salesInvoice.redLetterHint':
+    'A negative sales invoice draft will be created for accounting reversal. Complete red-letter process in tax system, then fill in the invoice number.',
   'app.kuaicaiwu.salesInvoice.redLetterReasonRequired': 'Red-flush reason (required)',
   'app.kuaicaiwu.salesInvoice.redLetterReasonMissing': 'Enter red-flush reason',
   'app.kuaicaiwu.salesInvoice.redLetterDraftCreated': 'Red invoice draft created',
@@ -11550,7 +12572,8 @@ export default {
   'app.kuaicaiwu.salesInvoice.line.amountExcl': 'Amount (Excl. Tax)',
   'app.kuaicaiwu.salesInvoice.noLines': 'No lines (maintain via unified invoice entry)',
   'app.kuaicaiwu.salesInvoice.reasonPlaceholder': 'Enter reason for audit trail',
-  'app.kuaicaiwu.salesInvoice.form.invoiceNumberFace': 'Enter after receiving tax-system invoice number',
+  'app.kuaicaiwu.salesInvoice.form.invoiceNumberFace':
+    'Enter after receiving tax-system invoice number',
   'app.kuaicaiwu.salesInvoice.form.sourceCode': 'Source No.',
   'app.kuaicaiwu.salesInvoice.form.taxRate': 'Tax Rate',
   'app.kuaicaiwu.salesInvoice.form.selectInvoiceType': 'Select invoice type',
@@ -11570,20 +12593,23 @@ export default {
   'app.kuaicaiwu.purchaseInvoice.batchApproveSuccess': 'Approved {{count}} purchase invoice(s)',
   'app.kuaicaiwu.purchaseInvoice.batchApproveTitle': 'Approve {{count}} purchase invoice(s)',
   'app.kuaicaiwu.purchaseInvoice.createButton': 'Register Purchase Invoice',
-  'app.kuaicaiwu.purchaseInvoice.createHint': 'To convert from a purchase order, use "Push Invoice" on the PO page. This form registers received input invoices directly.',
+  'app.kuaicaiwu.purchaseInvoice.createHint':
+    'To convert from a purchase order, use "Push Invoice" on the PO page. This form registers received input invoices directly.',
   'app.kuaicaiwu.purchaseInvoice.col.code': 'Invoice Code',
   'app.kuaicaiwu.purchaseInvoice.col.purchaseOrder': 'Purchase Order',
   'app.kuaicaiwu.purchaseInvoice.col.invoiceAmount': 'Invoice Amount',
   'app.kuaicaiwu.purchaseInvoice.col.linkedPayable': 'Payable',
   'app.kuaicaiwu.purchaseInvoice.pull.searchPlaceholder': 'Search by doc no. / supplier',
   'app.kuaicaiwu.purchaseInvoice.detailNotFound': 'Purchase invoice not found',
-  'app.kuaicaiwu.purchaseInvoice.lifecycleHint': 'Purchase invoices are not connected to document tracking; links to payables and POs use document codes.',
+  'app.kuaicaiwu.purchaseInvoice.lifecycleHint':
+    'Purchase invoices are not connected to document tracking; links to payables and POs use document codes.',
   'app.kuaicaiwu.purchaseInvoice.noLines': 'No face line items (header-only registration)',
   'app.kuaicaiwu.purchaseInvoice.activityCreated': 'Created at {{time}}',
   'app.kuaicaiwu.purchaseInvoice.activityUpdated': 'Updated at {{time}}',
   'app.kuaicaiwu.purchaseInvoice.invoiceType.other': 'Other',
   'app.kuaicaiwu.purchaseInvoice.loadSourceFailed': 'Failed to load source documents',
-  'app.kuaicaiwu.purchaseInvoice.sourceConverted': '{{source}} already has {{target}}; do not create again',
+  'app.kuaicaiwu.purchaseInvoice.sourceConverted':
+    '{{source}} already has {{target}}; do not create again',
   'app.kuaicaiwu.purchaseInvoice.zeroAmount': 'Source amount is 0; cannot create {{target}}',
   'app.kuaicaiwu.purchaseInvoice.amountRequired': 'Amount excl. tax must be greater than 0',
   'app.kuaicaiwu.purchaseInvoice.pullCreateSuccess': 'Created {{target}}',
@@ -11611,8 +12637,10 @@ export default {
   'app.kuaicaiwu.settlement.tabPayable': 'Payable Settlement',
   'app.kuaicaiwu.settlement.helpTitle': 'Settlement Help',
   'app.kuaicaiwu.settlement.helpGotIt': 'Got it',
-  'app.kuaicaiwu.settlement.arAlert': 'Manually match receipts with balance to receivables with outstanding amounts.',
-  'app.kuaicaiwu.settlement.apAlert': 'Manually match payments with balance to payables with outstanding amounts.',
+  'app.kuaicaiwu.settlement.arAlert':
+    'Manually match receipts with balance to receivables with outstanding amounts.',
+  'app.kuaicaiwu.settlement.apAlert':
+    'Manually match payments with balance to payables with outstanding amounts.',
   'app.kuaicaiwu.settlement.pendingReceivables': 'Receivables to Settle',
   'app.kuaicaiwu.settlement.availableReceipts': 'Available Receipts',
   'app.kuaicaiwu.settlement.pendingPayables': 'Payables to Settle',
@@ -11624,19 +12652,25 @@ export default {
   'app.kuaicaiwu.settlement.match': 'Match',
   'app.kuaicaiwu.settlement.confirmArTitle': 'Confirm Receivable Settlement',
   'app.kuaicaiwu.settlement.confirmApTitle': 'Confirm Payable Settlement',
-  'app.kuaicaiwu.settlement.confirmArContent': 'Settle receipt {{receiptCode}} against receivable {{receivableCode}}',
-  'app.kuaicaiwu.settlement.confirmApContent': 'Settle payment {{paymentCode}} against payable {{payableCode}}',
+  'app.kuaicaiwu.settlement.confirmArContent':
+    'Settle receipt {{receiptCode}} against receivable {{receivableCode}}',
+  'app.kuaicaiwu.settlement.confirmApContent':
+    'Settle payment {{paymentCode}} against payable {{payableCode}}',
   'app.kuaicaiwu.settlement.settleAmount': 'Settlement Amount',
   'app.kuaicaiwu.settlement.invalidAmount': 'Select documents and enter a valid settlement amount',
   'app.kuaicaiwu.settlement.settleSuccess': 'Settlement successful',
   'app.kuaicaiwu.settlement.settleFailed': 'Settlement failed: {{message}}',
   'app.kuaicaiwu.settlement.help': 'Help',
-  'app.kuaicaiwu.settlement.arAlertExtended': 'Manually match receipts with balance to receivables with outstanding amounts. If receipts were auto-settled from receivable detail or documents are fully settled, no data appears here.',
-  'app.kuaicaiwu.settlement.apAlertExtended': 'Manually match payments with balance to payables with outstanding amounts. If payments were auto-settled from payable detail or documents are fully settled, no data appears here.',
+  'app.kuaicaiwu.settlement.arAlertExtended':
+    'Manually match receipts with balance to receivables with outstanding amounts. If receipts were auto-settled from receivable detail or documents are fully settled, no data appears here.',
+  'app.kuaicaiwu.settlement.apAlertExtended':
+    'Manually match payments with balance to payables with outstanding amounts. If payments were auto-settled from payable detail or documents are fully settled, no data appears here.',
   'app.kuaicaiwu.settlement.helpArTitle': 'Receivable Settlement',
-  'app.kuaicaiwu.settlement.helpArDesc': 'Match receipts with balance to receivables with outstanding amounts. Select a receivable on the left, match a receipt on the right, and confirm the settlement amount. If auto-settled or fully settled, the list will be empty.',
+  'app.kuaicaiwu.settlement.helpArDesc':
+    'Match receipts with balance to receivables with outstanding amounts. Select a receivable on the left, match a receipt on the right, and confirm the settlement amount. If auto-settled or fully settled, the list will be empty.',
   'app.kuaicaiwu.settlement.helpApTitle': 'Payable Settlement',
-  'app.kuaicaiwu.settlement.helpApDesc': 'Match payments with balance to payables with outstanding amounts. Same workflow as receivable settlement. If auto-settled or fully settled, the list will be empty.',
+  'app.kuaicaiwu.settlement.helpApDesc':
+    'Match payments with balance to payables with outstanding amounts. Same workflow as receivable settlement. If auto-settled or fully settled, the list will be empty.',
   'app.kuaicaiwu.partnerStatement.tabCustomer': 'Customer Statements',
   'app.kuaicaiwu.partnerStatement.tabSupplier': 'Supplier Statements',
   'app.kuaicaiwu.partnerStatement.col.code': 'Statement No.',
@@ -11660,14 +12694,20 @@ export default {
   'app.kuaicaiwu.partnerStatement.createButton': 'New Statement',
   'app.kuaicaiwu.partnerStatement.col.customerName': 'Customer',
   'app.kuaicaiwu.partnerStatement.col.supplierName': 'Supplier',
-  'app.kuaicaiwu.partnerStatement.batchDeleteCustomerConfirm': 'Delete {{count}} selected customer statement(s)? Only drafts can be deleted.',
-  'app.kuaicaiwu.partnerStatement.batchDeleteSupplierConfirm': 'Delete {{count}} selected supplier statement(s)? Only drafts can be deleted.',
+  'app.kuaicaiwu.partnerStatement.batchDeleteCustomerConfirm':
+    'Delete {{count}} selected customer statement(s)? Only drafts can be deleted.',
+  'app.kuaicaiwu.partnerStatement.batchDeleteSupplierConfirm':
+    'Delete {{count}} selected supplier statement(s)? Only drafts can be deleted.',
   'app.kuaicaiwu.partnerStatement.batchConfirmTitle': 'Confirm {{count}} statement(s)',
-  'app.kuaicaiwu.partnerStatement.batchConfirmOnlyDraft': 'Only draft statements can be confirmed; others will be rejected by the server.',
-  'app.kuaicaiwu.partnerStatement.deleteConfirm': 'Delete statement {{code}}? Only drafts can be deleted.',
+  'app.kuaicaiwu.partnerStatement.batchConfirmOnlyDraft':
+    'Only draft statements can be confirmed; others will be rejected by the server.',
+  'app.kuaicaiwu.partnerStatement.deleteConfirm':
+    'Delete statement {{code}}? Only drafts can be deleted.',
   'app.kuaicaiwu.partnerStatement.deleted': 'Deleted',
-  'app.kuaicaiwu.partnerStatement.previewHint': 'Select partner and period, then click Preview to view details.',
-  'app.kuaicaiwu.partnerStatement.previewFooter': 'Statements summarize approved receivables/payables and confirmed receipts/payments. Export Excel/PDF after generation to send to the partner.',
+  'app.kuaicaiwu.partnerStatement.previewHint':
+    'Select partner and period, then click Preview to view details.',
+  'app.kuaicaiwu.partnerStatement.previewFooter':
+    'Statements summarize approved receivables/payables and confirmed receipts/payments. Export Excel/PDF after generation to send to the partner.',
   'app.kuaicaiwu.partnerStatement.col.date': 'Date',
   'app.kuaicaiwu.partnerStatement.col.docType': 'Document Type',
   'app.kuaicaiwu.partnerStatement.col.docCode': 'Doc No.',
@@ -11685,7 +12725,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.internalConfirm': 'Internal Confirm',
   'app.kuaicaiwu.partnerStatement.detail.markSent': 'Mark Sent',
   'app.kuaicaiwu.partnerStatement.detail.markSentTitle': 'Mark as Sent',
-  'app.kuaicaiwu.partnerStatement.detail.markSentHint': 'Export or print the statement and send via WeChat/email before marking as sent.',
+  'app.kuaicaiwu.partnerStatement.detail.markSentHint':
+    'Export or print the statement and send via WeChat/email before marking as sent.',
   'app.kuaicaiwu.partnerStatement.detail.sentChannel': 'Channel',
   'app.kuaicaiwu.partnerStatement.detail.sentNotes': 'Notes (optional)',
   'app.kuaicaiwu.partnerStatement.detail.markedSent': 'Marked as sent',
@@ -11696,7 +12737,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.print': 'Print',
   'app.kuaicaiwu.partnerStatement.detail.recordDispute': 'Record Dispute',
   'app.kuaicaiwu.partnerStatement.detail.disputeTitle': 'Record Dispute',
-  'app.kuaicaiwu.partnerStatement.detail.disputePlaceholder': 'Enter dispute details from the partner',
+  'app.kuaicaiwu.partnerStatement.detail.disputePlaceholder':
+    'Enter dispute details from the partner',
   'app.kuaicaiwu.partnerStatement.detail.disputeMissing': 'Enter dispute details',
   'app.kuaicaiwu.partnerStatement.detail.disputeRecorded': 'Dispute recorded',
   'app.kuaicaiwu.partnerStatement.detail.sentAt': 'Sent via: {{channel}}{{time}}',
@@ -11705,7 +12747,8 @@ export default {
   'app.kuaicaiwu.partnerStatement.detail.disputeReason': 'Dispute Details',
   'app.kuaicaiwu.partnerStatement.detail.receivableBalance': 'Receivable Balance',
   'app.kuaicaiwu.partnerStatement.detail.payableBalance': 'Payable Balance',
-  'app.kuaicaiwu.partnerStatement.detail.footer': 'Please review within 7 business days; note any disputes.',
+  'app.kuaicaiwu.partnerStatement.detail.footer':
+    'Please review within 7 business days; note any disputes.',
   'app.kuaicaiwu.partnerStatement.detail.printTitle': '{{company}} — Partner Statement',
   'app.kuaicaiwu.partnerStatement.detail.ourCompany': 'Our Company',
   'app.kuaicaiwu.bankAccount.col.accountCode': 'Account Code',
@@ -11739,10 +12782,12 @@ export default {
   'app.kuaicaiwu.bankAccount.status.enabled': 'Active',
   'app.kuaicaiwu.bankAccount.status.disabled': 'Inactive',
   'app.kuaicaiwu.bankAccount.form.accountNumber': 'Account Number',
-  'app.kuaicaiwu.bankAccount.importHint': 'Paste bank statement export below (no direct bank integration). Header example: Date,Direction,Amount,Summary; direction: inflow/outflow.',
+  'app.kuaicaiwu.bankAccount.importHint':
+    'Paste bank statement export below (no direct bank integration). Header example: Date,Direction,Amount,Summary; direction: inflow/outflow.',
   'app.kuaicaiwu.bankAccount.importContent': 'Statement Content',
   'app.kuaicaiwu.bankAccount.importContentRequired': 'Paste statement content',
-  'app.kuaicaiwu.bankAccount.importPlaceholder': 'Date,Direction,Amount,Summary\n2026-05-01,in,10000.00,Opening adjustment',
+  'app.kuaicaiwu.bankAccount.importPlaceholder':
+    'Date,Direction,Amount,Summary\n2026-05-01,in,10000.00,Opening adjustment',
   'app.kuaicaiwu.bankAccount.importTitleWithAccount': 'Import Statement · {{name}}',
   'app.kuaicaiwu.bankAccount.transactionsTitleWithAccount': '{{name}} · Bank Transactions',
   'app.kuaicaiwu.prepayment.statCustomerTotal': 'Total Customer Prepayments',
@@ -11789,7 +12834,8 @@ export default {
   'app.kuaicaiwu.documentReconciliation.unlinked': 'Unlinked',
   'app.kuaicaiwu.documentReconciliation.queryFailed': 'Query failed',
   'app.kuaicaiwu.documentReconciliation.chainQueryFailed': 'Chain query failed',
-  'app.kuaicaiwu.documentReconciliation.unsupportedChain': 'Chain view not supported for this document type',
+  'app.kuaicaiwu.documentReconciliation.unsupportedChain':
+    'Chain view not supported for this document type',
   'app.kuaicaiwu.documentReconciliation.businessDirection': 'Business Direction',
   'app.kuaicaiwu.documentReconciliation.directionSales': 'Sales',
   'app.kuaicaiwu.documentReconciliation.directionPurchase': 'Purchase',
@@ -11803,9 +12849,11 @@ export default {
   'app.kuaicaiwu.documentReconciliation.docType.payable': 'Payable',
   'app.kuaicaiwu.documentReconciliation.docType.payment': 'Payment',
   'app.kuaicaiwu.documentReconciliation.chain.docId': 'Document ID',
-  'app.kuaicaiwu.documentReconciliation.chain.docIdTooltip': 'Numeric document ID from the detail page URL',
+  'app.kuaicaiwu.documentReconciliation.chain.docIdTooltip':
+    'Numeric document ID from the detail page URL',
   'app.kuaicaiwu.documentReconciliation.chain.docIdPlaceholder': 'ID',
-  'app.kuaicaiwu.documentReconciliation.chain.completion': 'Chain completion: {{rate}}% ({{linked}}/{{total}} steps linked)',
+  'app.kuaicaiwu.documentReconciliation.chain.completion':
+    'Chain completion: {{rate}}% ({{linked}}/{{total}} steps linked)',
   'app.kuaicaiwu.documentReconciliation.chain.missing': 'Missing',
   'app.kuaicaiwu.documentReconciliation.chain.salesDelivery': 'Sales Delivery',
   'app.kuaicaiwu.documentReconciliation.chain.salesOrder': 'Sales Order',
@@ -11824,12 +12872,17 @@ export default {
   'app.kuaicaiwu.managementDashboard.kpi.laborSubtitle': 'Standard hrs / Actual hrs',
   'app.kuaicaiwu.managementDashboard.kpi.wipTitle': 'WIP Valuation',
   'app.kuaicaiwu.managementDashboard.kpi.wipSubtitle': '{{count}} active work order(s)',
-  'app.kuaicaiwu.managementDashboard.insight.qualityLossTitle': 'Quality loss {{amount}}, {{ratio}}% of sales',
-  'app.kuaicaiwu.managementDashboard.insight.qualityLossDesc': 'Review process defects and scrap causes',
-  'app.kuaicaiwu.managementDashboard.insight.dsoHighTitle': 'Collection cycle {{days}} days — above target',
-  'app.kuaicaiwu.managementDashboard.insight.dsoHighDesc': 'Prioritize overdue receivables and collection plan',
+  'app.kuaicaiwu.managementDashboard.insight.qualityLossTitle':
+    'Quality loss {{amount}}, {{ratio}}% of sales',
+  'app.kuaicaiwu.managementDashboard.insight.qualityLossDesc':
+    'Review process defects and scrap causes',
+  'app.kuaicaiwu.managementDashboard.insight.dsoHighTitle':
+    'Collection cycle {{days}} days — above target',
+  'app.kuaicaiwu.managementDashboard.insight.dsoHighDesc':
+    'Prioritize overdue receivables and collection plan',
   'app.kuaicaiwu.managementDashboard.insight.wipTitle': 'WIP capital {{amount}}',
-  'app.kuaicaiwu.managementDashboard.insight.wipDesc': 'Track active work orders to avoid tied-up capital',
+  'app.kuaicaiwu.managementDashboard.insight.wipDesc':
+    'Track active work orders to avoid tied-up capital',
   'app.kuaicaiwu.managementDashboard.actionPanelTitle': 'Business Focus (Last {{days}} Days)',
   'app.kuaicaiwu.managementDashboard.emptyInsights': 'No critical business items this period',
   'app.kuaicaiwu.managementDashboard.chart.receivableAgingTitle': 'Receivable Aging Distribution',
@@ -11838,9 +12891,12 @@ export default {
   'app.kuaicaiwu.managementDashboard.chart.scrapAmount': 'Direct Scrap Amount',
   'app.kuaicaiwu.managementDashboard.chart.unqualifiedQty': 'Non-conforming Qty',
   'app.kuaicaiwu.managementDashboard.chart.piecesUnit': 'pcs',
-  'app.kuaicaiwu.managementDashboard.chart.qualityLossAlert': 'Quality loss is {{ratio}}% of sales — review process defects',
-  'app.kuaicaiwu.managementDashboard.chart.qualityUnderControl': 'Quality loss within acceptable range this period',
-  'app.kuaicaiwu.managementDashboard.chart.noQualityLoss': 'No quality loss records in last {{days}} days',
+  'app.kuaicaiwu.managementDashboard.chart.qualityLossAlert':
+    'Quality loss is {{ratio}}% of sales — review process defects',
+  'app.kuaicaiwu.managementDashboard.chart.qualityUnderControl':
+    'Quality loss within acceptable range this period',
+  'app.kuaicaiwu.managementDashboard.chart.noQualityLoss':
+    'No quality loss records in last {{days}} days',
   'app.kuaicaiwu.marginReport.tab.product': 'By Product',
   'app.kuaicaiwu.marginReport.tab.customer': 'By Customer',
   'app.kuaicaiwu.marginReport.tab.order': 'By Order',
@@ -11899,7 +12955,8 @@ export default {
   'app.kuaicaiwu.glVoucher.batchActions': 'Batch Actions',
   'app.kuaicaiwu.glVoucher.batchPost': 'Batch Post',
   'app.kuaicaiwu.glVoucher.confirmBatchPost': 'Post {{count}} voucher(s)?',
-  'app.kuaicaiwu.glVoucher.confirmBatchPostDesc': 'Only unposted vouchers will succeed; already posted or ineligible records will be rejected by the server.',
+  'app.kuaicaiwu.glVoucher.confirmBatchPostDesc':
+    'Only unposted vouchers will succeed; already posted or ineligible records will be rejected by the server.',
   'app.kuaicaiwu.glVoucher.drawerTitle': 'Voucher Entries · {{code}}',
   'app.kuaicaiwu.glVoucher.drawerTitleDefault': 'Voucher Entries',
   'app.kuaicaiwu.glVoucher.line.lineNo': 'Line',
@@ -12028,7 +13085,8 @@ export default {
   'app.kuaicaiwu.costCalculation.workOrderModalTitle': 'Work order cost calculation',
   'app.kuaicaiwu.costCalculation.productModalTitle': 'Product cost calculation',
   'app.kuaicaiwu.costCalculation.detailTitle': 'Cost calculation details',
-  'app.kuaicaiwu.costCalculation.lifecycleHint': 'Calculation status follows the list and basic info; linked documents appear here when upstream/downstream tracking is available.',
+  'app.kuaicaiwu.costCalculation.lifecycleHint':
+    'Calculation status follows the list and basic info; linked documents appear here when upstream/downstream tracking is available.',
   'app.kuaicaiwu.costCalculation.field.workOrder': 'Work order',
   'app.kuaicaiwu.costCalculation.field.workOrderPlaceholder': 'Select work order',
   'app.kuaicaiwu.costCalculation.field.workOrderRequired': 'Please select work order',
@@ -12039,7 +13097,8 @@ export default {
   'app.kuaicaiwu.costCalculation.field.calculationTypeRequired': 'Please select calculation type',
   'app.kuaicaiwu.costCalculation.compareTab.byProduct': 'By product',
   'app.kuaicaiwu.costCalculation.compareTab.byMaterial': 'By material / work order',
-  'app.kuaicaiwu.costCalculation.compareByProductHint': 'Select a product (material) to load standard vs actual cost summary.',
+  'app.kuaicaiwu.costCalculation.compareByProductHint':
+    'Select a product (material) to load standard vs actual cost summary.',
   'app.kuaicaiwu.costCalculation.productCompareResult': 'Product cost comparison',
   'app.kuaicaiwu.costCalculation.costDifference': 'Cost variance',
   'app.kuaicaiwu.costCalculation.costDifferenceRate': 'Cost variance rate',
@@ -12048,14 +13107,19 @@ export default {
   'app.kuaicaiwu.costCalculation.laborCostDifference': 'Labor cost variance',
   'app.kuaicaiwu.costCalculation.manufacturingCostDifference': 'Manufacturing overhead variance',
   'app.kuaicaiwu.costCalculation.differenceAnalysis': 'Variance analysis',
-  'app.kuaicaiwu.costCalculation.compareByProductEmpty': 'Select a product and query to see standard/actual costs and variance.',
-  'app.kuaicaiwu.costCalculation.compareByMaterialHint': 'Select material and quantity; optionally add work order, purchase order, or outsource work order filters (same API as standalone comparison page).',
+  'app.kuaicaiwu.costCalculation.compareByProductEmpty':
+    'Select a product and query to see standard/actual costs and variance.',
+  'app.kuaicaiwu.costCalculation.compareByMaterialHint':
+    'Select material and quantity; optionally add work order, purchase order, or outsource work order filters (same API as standalone comparison page).',
   'app.kuaicaiwu.costCalculation.materialCompareResult': 'Material standard vs actual comparison',
-  'app.kuaicaiwu.costCalculation.compareByMaterialEmpty': 'Fill the form and compare to see standard/actual costs and details.',
-  'app.kuaicaiwu.costCalculation.analyzeHint': 'Select a product (material) to analyze composition, trend, and breakdown. Use the Optimization tab for source-type suggestions.',
+  'app.kuaicaiwu.costCalculation.compareByMaterialEmpty':
+    'Fill the form and compare to see standard/actual costs and details.',
+  'app.kuaicaiwu.costCalculation.analyzeHint':
+    'Select a product (material) to analyze composition, trend, and breakdown. Use the Optimization tab for source-type suggestions.',
   'app.kuaicaiwu.costCalculation.analyzeTab.composition': 'Cost composition',
   'app.kuaicaiwu.costCalculation.analyzeTab.trend': 'Cost trend',
-  'app.kuaicaiwu.costCalculation.analyzeTrendHint': 'Recent audited calculation records by calculation date (ascending).',
+  'app.kuaicaiwu.costCalculation.analyzeTrendHint':
+    'Recent audited calculation records by calculation date (ascending).',
   'app.kuaicaiwu.costCalculation.noTrendData': 'No trend data',
   'app.kuaicaiwu.costCalculation.noBreakdownData': 'No breakdown data',
   'app.kuaicaiwu.costRule.ruleType.material': 'Material cost',
@@ -12081,7 +13145,8 @@ export default {
   'app.kuaicaiwu.costRule.batchDeleteDesc': 'Delete {{count}} selected cost rules?',
   'app.kuaicaiwu.costRule.batchEnable': 'Batch enable',
   'app.kuaicaiwu.costRule.batchDisable': 'Batch disable',
-  'app.kuaicaiwu.costRule.lifecycleHint': 'Configuration data only; lifecycle shows active status until document tracking is integrated.',
+  'app.kuaicaiwu.costRule.lifecycleHint':
+    'Configuration data only; lifecycle shows active status until document tracking is integrated.',
   'app.kuaicaiwu.costRule.col.isActive': 'Active',
   'app.kuaicaiwu.costRule.col.code': 'Rule code',
   'app.kuaicaiwu.costRule.col.name': 'Rule name',
@@ -12099,7 +13164,8 @@ export default {
   'app.kuaicaiwu.costRule.field.nameRequired': 'Please enter rule name',
   'app.kuaicaiwu.costRule.field.ruleTypePlaceholder': 'Select rule type',
   'app.kuaicaiwu.costRule.field.ruleTypeRequired': 'Please select rule type',
-  'app.kuaicaiwu.costRule.field.costTypePlaceholder': 'Enter cost type (e.g. direct/indirect material)',
+  'app.kuaicaiwu.costRule.field.costTypePlaceholder':
+    'Enter cost type (e.g. direct/indirect material)',
   'app.kuaicaiwu.costRule.field.costTypeRequired': 'Please enter cost type',
   'app.kuaicaiwu.costRule.field.calculationMethodPlaceholder': 'Select calculation method',
   'app.kuaicaiwu.costRule.field.calculationMethodRequired': 'Please select calculation method',
@@ -12108,9 +13174,11 @@ export default {
   'app.kuaicaiwu.costRule.field.wipValuationPlaceholder': 'Select WIP valuation method',
   'app.kuaicaiwu.costRule.field.sourceModulePlaceholder': 'Select expense source module',
   'app.kuaicaiwu.costRule.field.calculationFormulaJson': 'Calculation formula (JSON)',
-  'app.kuaicaiwu.costRule.field.calculationFormulaPlaceholder': 'Enter formula JSON, e.g. {"formula": "quantity * price"}',
+  'app.kuaicaiwu.costRule.field.calculationFormulaPlaceholder':
+    'Enter formula JSON, e.g. {"formula": "quantity * price"}',
   'app.kuaicaiwu.costRule.field.ruleParametersJson': 'Rule parameters (JSON)',
-  'app.kuaicaiwu.costRule.field.ruleParametersPlaceholder': 'Enter parameters JSON, e.g. {"rate": 0.1, "fixed_value": 100}',
+  'app.kuaicaiwu.costRule.field.ruleParametersPlaceholder':
+    'Enter parameters JSON, e.g. {"rate": 0.1, "fixed_value": 100}',
   'app.kuaicaiwu.costRule.calculationMethod.byQuantity': 'By quantity',
   'app.kuaicaiwu.costRule.calculationMethod.byHours': 'By hours',
   'app.kuaicaiwu.costRule.calculationMethod.byRatio': 'By ratio',
@@ -12151,7 +13219,8 @@ export default {
   'app.kuaicaiwu.standardCost.status.active': 'Active',
   'app.kuaicaiwu.standardCost.status.inactive': 'Inactive',
   'app.kuaicaiwu.standardCost.field.targetId': 'Target ID',
-  'app.kuaicaiwu.standardCost.field.targetIdTooltip': 'Numeric ID of material, work center, or work station',
+  'app.kuaicaiwu.standardCost.field.targetIdTooltip':
+    'Numeric ID of material, work center, or work station',
   'app.kuaicaiwu.standardCost.field.effectiveDate': 'Effective date',
   'app.kuaicaiwu.standardCost.field.expiryDate': 'Expiry date',
   'app.kuaicaiwu.productionCost.title': 'Production cost',
@@ -12161,7 +13230,8 @@ export default {
   'app.kuaicaiwu.productionCost.calculateFailed': 'Production cost calculation failed',
   'app.kuaicaiwu.productionCost.col.processingCost': 'Processing cost',
   'app.kuaicaiwu.productionCost.field.variantAttributes': 'Attributes (for configure items)',
-  'app.kuaicaiwu.productionCost.field.variantAttributesPlaceholder': 'Enter attributes JSON, e.g. {"color":"red","size":"large"}',
+  'app.kuaicaiwu.productionCost.field.variantAttributesPlaceholder':
+    'Enter attributes JSON, e.g. {"color":"red","size":"large"}',
   'app.kuaicaiwu.outsourceCost.title': 'Outsource cost',
   'app.kuaicaiwu.outsourceCost.calculateStandard': 'Calculate standard outsource cost',
   'app.kuaicaiwu.outsourceCost.calculateActual': 'Calculate actual outsource cost',
@@ -12174,7 +13244,8 @@ export default {
   'app.kuaicaiwu.outsourceCost.field.materialPlaceholder': 'Select outsource material',
   'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrder': 'Outsource work order',
   'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderPlaceholder': 'Select outsource work order',
-  'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderRequired': 'Please select outsource work order',
+  'app.kuaicaiwu.outsourceCost.field.outsourceWorkOrderRequired':
+    'Please select outsource work order',
   'app.kuaicaiwu.purchaseCost.title': 'Purchase cost',
   'app.kuaicaiwu.purchaseCost.calculateStandard': 'Calculate standard purchase cost',
   'app.kuaicaiwu.purchaseCost.calculateActualItem': 'Calculate actual cost (line)',
@@ -12207,15 +13278,18 @@ export default {
   'app.kuaicaiwu.qualityCost.field.startDatePlaceholder': 'Select start date (optional)',
   'app.kuaicaiwu.qualityCost.field.endDatePlaceholder': 'Select end date (optional)',
   'app.kuaicaiwu.qualityCost.field.materialOptional': 'Material (optional)',
-  'app.kuaicaiwu.qualityCost.field.materialOptionalPlaceholder': 'Select material for specific quality cost analysis',
+  'app.kuaicaiwu.qualityCost.field.materialOptionalPlaceholder':
+    'Select material for specific quality cost analysis',
   'app.kuaicaiwu.qualityCost.field.workOrderOptional': 'Work order (optional)',
-  'app.kuaicaiwu.qualityCost.field.workOrderOptionalPlaceholder': 'Optional: specific work order quality cost',
+  'app.kuaicaiwu.qualityCost.field.workOrderOptionalPlaceholder':
+    'Optional: specific work order quality cost',
   'app.kuaicaiwu.costComparison.title': 'Cost comparison',
   'app.kuaicaiwu.costComparison.compareButton': 'Compare standard and actual cost',
   'app.kuaicaiwu.costComparison.compareSuccess': 'Comparison completed',
   'app.kuaicaiwu.costComparison.compareFailed': 'Comparison failed',
   'app.kuaicaiwu.costComparison.emptyHint': 'No comparison yet. Click compare to start.',
-  'app.kuaicaiwu.costComparison.lifecycleHint': 'Analytical comparison only; no document lifecycle.',
+  'app.kuaicaiwu.costComparison.lifecycleHint':
+    'Analytical comparison only; no document lifecycle.',
   'app.kuaicaiwu.costComparison.standardVsActual': 'Standard vs actual cost',
   'app.kuaicaiwu.costComparison.totalVariance': 'Total variance: ¥{{amount}}',
   'app.kuaicaiwu.costComparison.totalVarianceRate': 'Total variance rate: {{rate}}%',
@@ -12231,7 +13305,8 @@ export default {
   'app.kuaicaiwu.costComparison.field.workOrder': 'Work order (make/configure actual)',
   'app.kuaicaiwu.costComparison.field.purchaseOrder': 'Purchase order (buy actual - order)',
   'app.kuaicaiwu.costComparison.field.purchaseOrderItem': 'PO line (buy actual - line)',
-  'app.kuaicaiwu.costComparison.field.outsourceWorkOrder': 'Outsource work order (outsource actual)',
+  'app.kuaicaiwu.costComparison.field.outsourceWorkOrder':
+    'Outsource work order (outsource actual)',
   'app.kuaicaiwu.costOptimization.generateSingle': 'Generate suggestion for one material',
   'app.kuaicaiwu.costOptimization.generateBatch': 'Batch generate suggestions',
   'app.kuaicaiwu.costOptimization.generateSuccess': 'Optimization suggestions generated',
@@ -12246,16 +13321,19 @@ export default {
   'app.kuaicaiwu.costOptimization.col.savingsRate': 'Savings rate',
   'app.kuaicaiwu.costOptimization.estimatedSavings': 'Est. savings: ¥{{amount}}',
   'app.kuaicaiwu.costOptimization.noSuggestions': 'No suggestions',
-  'app.kuaicaiwu.costOptimization.noSuggestionsDesc': 'Cost is already optimal or no better alternative found.',
+  'app.kuaicaiwu.costOptimization.noSuggestionsDesc':
+    'Cost is already optimal or no better alternative found.',
   'app.kuaicaiwu.costOptimization.modalSingle': 'Generate suggestion for one material',
   'app.kuaicaiwu.costOptimization.modalBatch': 'Batch generate suggestions',
   'app.kuaicaiwu.costOptimization.field.quantityPlaceholder': 'Enter quantity for cost calculation',
   'app.kuaicaiwu.costOptimization.field.materialList': 'Material list',
   'app.kuaicaiwu.costOptimization.field.materialListPlaceholder': 'Select multiple materials',
   'app.kuaicaiwu.monthlySettlement.fetchSummaryFailed': 'Failed to load production summary',
-  'app.kuaicaiwu.monthlySettlement.payrollImportHint': 'Imported from {{period}} confirmed payroll ({{count}} people, total ¥{{amount}}). Adjust manually if needed.',
+  'app.kuaicaiwu.monthlySettlement.payrollImportHint':
+    'Imported from {{period}} confirmed payroll ({{count}} people, total ¥{{amount}}). Adjust manually if needed.',
   'app.kuaicaiwu.monthlySettlement.payrollImportSuccess': 'Payroll reference total filled',
-  'app.kuaicaiwu.monthlySettlement.payrollImportFailed': 'Import failed; confirm payroll is approved for the month',
+  'app.kuaicaiwu.monthlySettlement.payrollImportFailed':
+    'Import failed; confirm payroll is approved for the month',
   'app.kuaicaiwu.monthlySettlement.settlementSuccess': 'Monthly settlement completed',
   'app.kuaicaiwu.monthlySettlement.settlementFailed': 'Settlement failed',
   'app.kuaicaiwu.monthlySettlement.col.productName': 'Product',
@@ -12270,12 +13348,15 @@ export default {
   'app.kuaicaiwu.monthlySettlement.step.preview': 'Preview & settle',
   'app.kuaicaiwu.monthlySettlement.step.done': 'Done',
   'app.kuaicaiwu.monthlySettlement.section.periodSelect': 'Select accounting period',
-  'app.kuaicaiwu.monthlySettlement.periodHint': 'Monthly settlement is usually run early next month for the prior month.',
+  'app.kuaicaiwu.monthlySettlement.periodHint':
+    'Monthly settlement is usually run early next month for the prior month.',
   'app.kuaicaiwu.monthlySettlement.field.period': 'Accounting month',
   'app.kuaicaiwu.monthlySettlement.section.productionSummary': '{{period}} production summary',
-  'app.kuaicaiwu.monthlySettlement.productionReviewHint': 'Production and hours from reporting records. Please verify:',
+  'app.kuaicaiwu.monthlySettlement.productionReviewHint':
+    'Production and hours from reporting records. Please verify:',
   'app.kuaicaiwu.monthlySettlement.section.costEntry': 'Enter period costs to allocate',
-  'app.kuaicaiwu.monthlySettlement.costEntryHint': 'Enter manufacturing overhead and payroll; allocation follows configured rules.',
+  'app.kuaicaiwu.monthlySettlement.costEntryHint':
+    'Enter manufacturing overhead and payroll; allocation follows configured rules.',
   'app.kuaicaiwu.monthlySettlement.importPayroll': 'Import payroll total from performance',
   'app.kuaicaiwu.monthlySettlement.field.payroll': 'Production payroll total',
   'app.kuaicaiwu.monthlySettlement.field.payrollPlaceholder': 'Enter payroll total',
@@ -12284,7 +13365,8 @@ export default {
   'app.kuaicaiwu.monthlySettlement.field.rent': 'Rent and depreciation',
   'app.kuaicaiwu.monthlySettlement.field.rentPlaceholder': 'Enter rent/depreciation',
   'app.kuaicaiwu.monthlySettlement.section.preview': 'Allocation preview',
-  'app.kuaicaiwu.monthlySettlement.previewHint': 'Simulated unit costs. Confirm and settle to create official records.',
+  'app.kuaicaiwu.monthlySettlement.previewHint':
+    'Simulated unit costs. Confirm and settle to create official records.',
   'app.kuaicaiwu.monthlySettlement.section.done': 'Settlement complete',
   'app.kuaicaiwu.monthlySettlement.doneTitle': 'Monthly settlement complete',
   'app.kuaicaiwu.monthlySettlement.doneSubtitle': 'Cost records for {{period}} have been saved.',
@@ -12310,7 +13392,8 @@ export default {
   'app.kuaicaiwu.costReport.noTrendOrStructure': 'No trend or structure data in this report',
   'app.kuaicaiwu.costReport.reportGenerated': 'Report generated',
   'app.kuaicaiwu.costReport.field.materialOptional': 'Material (optional)',
-  'app.kuaicaiwu.costReport.field.materialOptionalPlaceholder': 'Select material for specific analysis',
+  'app.kuaicaiwu.costReport.field.materialOptionalPlaceholder':
+    'Select material for specific analysis',
   'app.kuaicaiwu.costReport.field.sourceTypeOptional': 'Source type (optional)',
   'app.kuaicaiwu.costReport.field.sourceTypeOptionalPlaceholder': 'Select source type (optional)',
   'app.kuaicaiwu.costReport.field.groupBy': 'Group by',
@@ -12374,11 +13457,13 @@ export default {
   'app.kuaizhizao.menu.warehouse-management.outbound': 'Outbound',
   'app.kuaizhizao.menu.warehouse-management.initial-data': 'Initial Data Import',
   'app.kuaizhizao.initialData.stepInventory': 'Opening inventory',
-  'app.kuaizhizao.initialData.stepInventoryDesc': 'Enter on-hand quantities per warehouse at cut-off (required)',
+  'app.kuaizhizao.initialData.stepInventoryDesc':
+    'Enter on-hand quantities per warehouse at cut-off (required)',
   'app.kuaizhizao.initialData.stepWip': 'Opening WIP',
   'app.kuaizhizao.initialData.stepWipDesc': 'Enter open work-in-process at cut-off (optional)',
   'app.kuaizhizao.initialData.stepAr': 'Opening AR/AP',
-  'app.kuaizhizao.initialData.stepArDesc': 'Enter opening receivable and payable balances (optional)',
+  'app.kuaizhizao.initialData.stepArDesc':
+    'Enter opening receivable and payable balances (optional)',
   'app.kuaizhizao.initialData.stepDone': 'Complete',
   'app.kuaizhizao.initialData.stepDoneDesc': 'Initial data import workflow finished',
   'app.kuaizhizao.initialData.pageIntro':
@@ -12419,7 +13504,8 @@ export default {
   'app.kuaizhizao.initialData.nextHintNeedAr': 'Import opening AR/AP or choose Skip this step.',
   'app.kuaizhizao.initialData.openSheet': 'Open import sheet',
   'app.kuaizhizao.initialData.downloadTemplate': 'Download CSV template',
-  'app.kuaizhizao.initialData.inventoryDone': 'Opening inventory import completed; you may proceed.',
+  'app.kuaizhizao.initialData.inventoryDone':
+    'Opening inventory import completed; you may proceed.',
   'app.kuaizhizao.initialData.wipIntro':
     'Skip when there is no open WIP. Required columns: product code, operation code, WIP quantity.',
   'app.kuaizhizao.initialData.skipStep': 'Skip this step',
@@ -12491,7 +13577,8 @@ export default {
   'app.kuaizhizao.initialData.csvHeaders.invoice_number': 'invoice_number',
   'app.kuaizhizao.initialData.csvExample.ar.type': 'AR',
   'app.kuaizhizao.initialData.csvExample.ar.source_type': 'Sales Order',
-  'app.kuaizhizao.menu.warehouse-management.customer-material-registration': 'Customer Material Registration',
+  'app.kuaizhizao.menu.warehouse-management.customer-material-registration':
+    'Customer Material Registration',
   'app.kuaizhizao.menu.warehouse-management.barcode-mapping-rules': 'Barcode Rules',
   'app.kuaizhizao.menu.warehouse-management.delivery-notes': 'Delivery Notes',
   'app.kuaizhizao.menu.warehouse-management.batching-center': 'Material Center',
@@ -12553,7 +13640,8 @@ export default {
   'app.master-data.seqRules.getDetailFailed': 'Failed to load detail',
   'app.master-data.seqRules.deleteConfirm': 'Are you sure to delete this rule?',
   'app.master-data.seqRules.batchRuleSetActiveSuccess': 'Set {{count}} batch rule(s) to {{status}}',
-  'app.master-data.seqRules.serialRuleSetActiveSuccess': 'Set {{count}} serial rule(s) to {{status}}',
+  'app.master-data.seqRules.serialRuleSetActiveSuccess':
+    'Set {{count}} serial rule(s) to {{status}}',
   'app.master-data.batchRules.builderTitle': 'Batch Rule',
   'app.master-data.serialRules.builderTitle': 'Serial Rule',
   'app.master-data.inventoryStatus.inStock': 'In stock',
@@ -12596,7 +13684,8 @@ export default {
   'app.master-data.drawings.editTitle': 'Edit Drawing',
   'app.master-data.drawings.detailTitle': 'Drawing Detail',
   'app.master-data.drawings.release': 'Release',
-  'app.master-data.drawings.releaseConfirm': 'Release this drawing? Other released revisions with the same number will be obsoleted.',
+  'app.master-data.drawings.releaseConfirm':
+    'Release this drawing? Other released revisions with the same number will be obsoleted.',
   'app.master-data.drawings.releaseSuccess': 'Drawing released',
   'app.master-data.drawings.obsolete': 'Obsolete',
   'app.master-data.drawings.obsoleteSuccess': 'Drawing obsoleted',
@@ -12608,7 +13697,8 @@ export default {
   'app.master-data.drawings.uploadSupplementary': 'Upload Supplementary Pages',
   'app.master-data.drawings.uploadDragHint': 'Click or drag file here to upload',
   'app.master-data.drawings.uploadDragSubHint': 'PDF, DWG, DXF, STEP, STP, PNG, JPG',
-  'app.master-data.drawings.uploadSupplementaryDragSubHint': 'Multiple supplementary pages supported',
+  'app.master-data.drawings.uploadSupplementaryDragSubHint':
+    'Multiple supplementary pages supported',
   'app.master-data.drawings.listFailed': 'Failed to load drawings',
   'app.master-data.drawings.getDetailFailed': 'Failed to load drawing detail',
   'app.master-data.drawings.tree.all': 'All Drawings',
@@ -12636,7 +13726,8 @@ export default {
   'app.master-data.drawings.previewZoomIn': 'Zoom in',
   'app.master-data.drawings.previewZoomOut': 'Zoom out',
   'app.master-data.drawings.previewToggleEdges': 'Show edges',
-  'app.master-data.drawings.previewDwgHint': 'DWG/DXF preview failed. Check the file format or try again later',
+  'app.master-data.drawings.previewDwgHint':
+    'DWG/DXF preview failed. Check the file format or try again later',
   'app.master-data.drawings.importStepBom': 'Generate BOM from STP',
   'app.master-data.drawings.linkedBom': 'Linked BOM',
   'app.master-data.drawings.lastStepBomImportAt': 'Last STP import',
@@ -12649,12 +13740,15 @@ export default {
   'app.master-data.drawings.stepBomWizard.notStepFile': 'Main file is not STP/STEP',
   'app.master-data.drawings.stepBomWizard.noAssemblyStructure': 'No assembly tree could be parsed',
   'app.master-data.drawings.stepBomWizard.parseFailed': 'Failed to parse STP assembly',
-  'app.master-data.drawings.stepBomWizard.parseSummary': 'Root assembly "{{name}}", {{count}} BOM edge(s)',
+  'app.master-data.drawings.stepBomWizard.parseSummary':
+    'Root assembly "{{name}}", {{count}} BOM edge(s)',
   'app.master-data.drawings.stepBomWizard.assemblyTree': 'Assembly tree',
   'app.master-data.drawings.stepBomWizard.rootMaterial': 'Root material',
-  'app.master-data.drawings.stepBomWizard.selectRootMaterial': 'Select root material (assembly top level)',
+  'app.master-data.drawings.stepBomWizard.selectRootMaterial':
+    'Select root material (assembly top level)',
   'app.master-data.drawings.stepBomWizard.defaultGroup': 'Default material group',
-  'app.master-data.drawings.stepBomWizard.selectGroup': 'Select default group for auto-created materials',
+  'app.master-data.drawings.stepBomWizard.selectGroup':
+    'Select default group for auto-created materials',
   'app.master-data.drawings.stepBomWizard.bomVersion': 'BOM version',
   'app.master-data.drawings.stepBomWizard.codePrefix': 'Auto-create code prefix',
   'app.master-data.drawings.stepBomWizard.colName': 'Node name',
@@ -12674,7 +13768,8 @@ export default {
   'app.master-data.drawings.stepBomWizard.importFailed': 'BOM import failed',
   'app.master-data.drawings.stepBomWizard.openDesigner': 'Open BOM designer',
   'app.master-data.drawings.stepBomWizard.resultTitle': 'Import complete',
-  'app.master-data.drawings.stepBomWizard.resultSummary': '{{bom}} BOM line(s) written, {{created}} material(s) created, {{matched}} matched',
+  'app.master-data.drawings.stepBomWizard.resultSummary':
+    '{{bom}} BOM line(s) written, {{created}} material(s) created, {{matched}} matched',
   'app.master-data.menu.supply-chain': 'Customers & Suppliers',
   'app.master-data.menu.supply-chain.customers': 'Customers',
   'app.master-data.menu.supply-chain.suppliers': 'Suppliers',
@@ -12684,34 +13779,46 @@ export default {
   'app.master-data.priceBook.createCustomer': 'New Customer Price Book',
   'app.master-data.priceBook.createSupplier': 'New Supplier Price Book',
   'app.master-data.priceBook.effectiveTo': 'Effective To',
-  'app.master-data.priceBook.noAliasHint': 'Partner part number/name not mapped. Maintain under Material → Code Mapping first.',
-  'app.master-data.priceBook.aliasReadonlyHint': 'Maintained in material master data (read-only here).',
+  'app.master-data.priceBook.noAliasHint':
+    'Partner part number/name not mapped. Maintain under Material → Code Mapping first.',
+  'app.master-data.priceBook.aliasReadonlyHint':
+    'Maintained in material master data (read-only here).',
   'app.master-data.priceBook.syncPartnerAlias': 'Sync to material code mapping',
-  'app.master-data.priceBook.syncPartnerAliasHint': 'Writes to Material → Code Mapping on save, only when no mapping exists for this partner.',
-  'app.master-data.priceBook.partnerCodeRequiredWhenSync': 'Partner part number is required when sync is enabled.',
+  'app.master-data.priceBook.syncPartnerAliasHint':
+    'Writes to Material → Code Mapping on save, only when no mapping exists for this partner.',
+  'app.master-data.priceBook.partnerCodeRequiredWhenSync':
+    'Partner part number is required when sync is enabled.',
   'app.master-data.priceBook.standardUnitPrice': 'Standard price',
   'app.master-data.priceBook.standardUnitPriceHint': 'Unified price when no variant SKU match',
-  'app.master-data.priceBook.standardUnitPriceTypeHint': 'Standard and SKU prices share the same tax mode; toggle converts by tax rate',
-  'app.master-data.priceBook.variantPricesInclHint': 'SKU unit prices are tax-inclusive, same as standard price',
-  'app.master-data.priceBook.variantPricesExclHint': 'SKU unit prices are tax-exclusive, same as standard price',
+  'app.master-data.priceBook.standardUnitPriceTypeHint':
+    'Standard and SKU prices share the same tax mode; toggle converts by tax rate',
+  'app.master-data.priceBook.variantPricesInclHint':
+    'SKU unit prices are tax-inclusive, same as standard price',
+  'app.master-data.priceBook.variantPricesExclHint':
+    'SKU unit prices are tax-exclusive, same as standard price',
   'app.master-data.priceBook.variantPricesSection': 'Variant SKU prices',
-  'app.master-data.priceBook.variantPricesHint': 'Price per attribute combination (e.g. color); maps to spreadsheet color columns',
+  'app.master-data.priceBook.variantPricesHint':
+    'Price per attribute combination (e.g. color); maps to spreadsheet color columns',
   'app.master-data.priceBook.variantPriceRow': 'SKU price {{index}}',
   'app.master-data.priceBook.variantUnitPrice': 'SKU unit price',
   'app.master-data.priceBook.addVariantPriceRow': 'Add line',
   'app.master-data.priceBook.batchSelectSku': 'Select SKUs',
   'app.master-data.priceBook.batchSelectSkuTitle': 'Select variant SKUs',
   'app.master-data.priceBook.batchSelectSkuSearch': 'Search SKU code or attributes',
-  'app.master-data.priceBook.batchSelectSkuEmpty': 'No variant SKUs for this material. Maintain combinations in material master first.',
+  'app.master-data.priceBook.batchSelectSkuEmpty':
+    'No variant SKUs for this material. Maintain combinations in material master first.',
   'app.master-data.priceBook.batchSelectSkuNone': 'Select at least one SKU',
   'app.master-data.priceBook.batchSelectSkuAdded': 'Added {{count}} SKU(s)',
-  'app.master-data.priceBook.batchSelectSkuAllDuplicate': 'All selected SKUs already exist or have no attributes',
-  'app.master-data.priceBook.batchSelectSkuHint': 'Batch pick maintained attribute combinations, then enter unit price per SKU',
+  'app.master-data.priceBook.batchSelectSkuAllDuplicate':
+    'All selected SKUs already exist or have no attributes',
+  'app.master-data.priceBook.batchSelectSkuHint':
+    'Batch pick maintained attribute combinations, then enter unit price per SKU',
   'app.master-data.priceBook.selectMaterialFirst': 'Select an internal material first',
   'app.master-data.priceBook.variantPricesEmpty': 'Add a line or select SKUs in batch',
   'app.master-data.priceBook.skuCode': 'SKU code',
   'app.master-data.priceBook.variantPriceCount': '{{count}} SKU price(s)',
-  'app.master-data.priceBook.priceRequired': 'Enter standard price and/or at least one variant SKU price',
+  'app.master-data.priceBook.priceRequired':
+    'Enter standard price and/or at least one variant SKU price',
   'app.master-data.menu.performance': 'Performance Data',
   'app.master-data.menu.performance.holidays': 'Holiday Settings',
   'app.master-data.menu.performance.skills': 'Skills',
@@ -12720,7 +13827,8 @@ export default {
   'app.master-data.plants.getDetailFailed': 'Failed to get plant details',
   'app.master-data.plants.listFetchFailed': 'Failed to fetch plant list',
   'app.master-data.title': 'Master Data Management App',
-  'app.master-data.welcome': 'Welcome to the Master Data Management System, please select a function module from the left menu.',
+  'app.master-data.welcome':
+    'Welcome to the Master Data Management System, please select a function module from the left menu.',
   'app.init.wizard.title': 'Initialization Wizard',
   'app.master-data.workshops.getDetailFailed': 'Failed to load workshop detail',
   'app.master-data.productionLines.getDetailFailed': 'Failed to load production line detail',
@@ -12737,12 +13845,16 @@ export default {
   'app.master-data.productionLines.status': 'Status',
   'app.master-data.productionLines.detailTitle': 'Production Line Details',
   'app.master-data.productionLines.deleteConfirm': 'Are you sure to delete this production line?',
-  'app.master-data.productionLines.deleteDescription': 'Check for associated workstations before deleting',
-  'app.master-data.productionLines.batchDeleteTitle': 'Are you sure to batch delete selected production lines?',
-  'app.master-data.productionLines.batchDeleteDescription': '{{count}} production line(s) will be deleted. This action cannot be undone.',
+  'app.master-data.productionLines.deleteDescription':
+    'Check for associated workstations before deleting',
+  'app.master-data.productionLines.batchDeleteTitle':
+    'Are you sure to batch delete selected production lines?',
+  'app.master-data.productionLines.batchDeleteDescription':
+    '{{count}} production line(s) will be deleted. This action cannot be undone.',
   'app.master-data.productionLines.create': 'Create Production Line',
   'app.master-data.productionLines.exportFilenameSelected': 'production_lines_selected_{{date}}',
-  'app.master-data.productionLines.exportFilenameCurrentPage': 'production_lines_current_page_{{date}}',
+  'app.master-data.productionLines.exportFilenameCurrentPage':
+    'production_lines_current_page_{{date}}',
   'app.master-data.productionLines.exportFilenameAll': 'production_lines_all_{{date}}',
   'app.master-data.productionLines.statusLabel': 'Status',
   'app.master-data.productionLines.importTitle': 'Importing production lines',
@@ -12753,16 +13865,20 @@ export default {
   'app.master-data.workstations.codeRequired': 'Workstation code is required',
   'app.master-data.workstations.nameRequired': 'Workstation name is required',
   'app.master-data.workstations.productionLineRequired': 'Production line is required',
-  'app.master-data.workstations.productionLineCodeNotExist': 'Production line code "{{value}}" not found',
+  'app.master-data.workstations.productionLineCodeNotExist':
+    'Production line code "{{value}}" not found',
   'app.master-data.workstations.dataParseFailed': 'Data parse failed',
   'app.master-data.workstations.productionLineName': 'Production Line',
   'app.master-data.workstations.description': 'Description',
   'app.master-data.workstations.status': 'Status',
   'app.master-data.workstations.detailTitle': 'Workstation Details',
   'app.master-data.workstations.deleteConfirm': 'Are you sure to delete this workstation?',
-  'app.master-data.workstations.deleteDescription': 'Check for associated work centers before deleting',
-  'app.master-data.workstations.batchDeleteTitle': 'Are you sure to batch delete selected workstations?',
-  'app.master-data.workstations.batchDeleteDescription': '{{count}} workstation(s) will be deleted. This action cannot be undone.',
+  'app.master-data.workstations.deleteDescription':
+    'Check for associated work centers before deleting',
+  'app.master-data.workstations.batchDeleteTitle':
+    'Are you sure to batch delete selected workstations?',
+  'app.master-data.workstations.batchDeleteDescription':
+    '{{count}} workstation(s) will be deleted. This action cannot be undone.',
   'app.master-data.workstations.create': 'Create Workstation',
   'app.master-data.workstations.exportFilenameSelected': 'workstations_selected_{{date}}',
   'app.master-data.workstations.exportFilenameCurrentPage': 'workstations_current_page_{{date}}',
@@ -12787,16 +13903,19 @@ export default {
   'app.master-data.warehouses.action': 'Action',
   'app.master-data.warehouses.detailTitle': 'Warehouse Detail',
   'app.master-data.warehouses.deleteConfirm': 'Delete this warehouse?',
-  'app.master-data.warehouses.deleteDescription': 'Check for associated storage areas before delete',
+  'app.master-data.warehouses.deleteDescription':
+    'Check for associated storage areas before delete',
   'app.master-data.warehouses.batchDeleteTitle': 'Batch delete selected warehouses?',
-  'app.master-data.warehouses.batchDeleteDescription': 'Delete {{count}} warehouse(s)? This cannot be undone.',
+  'app.master-data.warehouses.batchDeleteDescription':
+    'Delete {{count}} warehouse(s)? This cannot be undone.',
   'app.master-data.warehouses.create': 'Create Warehouse',
   'app.master-data.warehouses.exportFilenameSelected': 'Warehouses_Selected_{{date}}',
   'app.master-data.warehouses.exportFilenameCurrentPage': 'Warehouses_CurrentPage_{{date}}',
   'app.master-data.warehouses.exportFilenameAll': 'Warehouses_All_{{date}}',
   'app.master-data.warehouses.importTitle': 'Importing warehouse data',
   'app.master-data.warehouses.importValidationFailed': 'Validation failed',
-  'app.master-data.warehouses.importValidationIntro': 'The following rows have errors, please fix and re-import:',
+  'app.master-data.warehouses.importValidationIntro':
+    'The following rows have errors, please fix and re-import:',
   'app.master-data.warehouses.importPartialFailure': 'Import completed (partial failure)',
   'app.master-data.warehouses.importResult': 'Result: {{success}} succeeded, {{failure}} failed',
   'app.master-data.warehouses.rowError': 'Row {{row}}: {{message}}',
@@ -12810,9 +13929,11 @@ export default {
   'app.master-data.storageAreas.warehouse': 'Warehouse',
   'app.master-data.storageAreas.detailTitle': 'Storage Area Detail',
   'app.master-data.storageAreas.deleteConfirm': 'Delete this storage area?',
-  'app.master-data.storageAreas.deleteDescription': 'Check for associated storage locations before delete',
+  'app.master-data.storageAreas.deleteDescription':
+    'Check for associated storage locations before delete',
   'app.master-data.storageAreas.batchDeleteTitle': 'Batch delete selected storage areas?',
-  'app.master-data.storageAreas.batchDeleteDescription': 'Delete {{count}} storage area(s)? This cannot be undone.',
+  'app.master-data.storageAreas.batchDeleteDescription':
+    'Delete {{count}} storage area(s)? This cannot be undone.',
   'app.master-data.storageAreas.create': 'Create Storage Area',
   'app.master-data.storageAreas.exportFilenameSelected': 'StorageAreas_Selected_{{date}}',
   'app.master-data.storageAreas.exportFilenameCurrentPage': 'StorageAreas_CurrentPage_{{date}}',
@@ -12831,20 +13952,24 @@ export default {
   'app.master-data.storageLocations.detailTitle': 'Storage Location Detail',
   'app.master-data.storageLocations.deleteConfirm': 'Delete this storage location?',
   'app.master-data.storageLocations.batchDeleteTitle': 'Batch delete selected storage locations?',
-  'app.master-data.storageLocations.batchDeleteDescription': 'Delete {{count}} storage location(s)? This cannot be undone.',
+  'app.master-data.storageLocations.batchDeleteDescription':
+    'Delete {{count}} storage location(s)? This cannot be undone.',
   'app.master-data.storageLocations.create': 'Create Storage Location',
   'app.master-data.storageLocations.batchCreate': 'Batch Create Locations',
   'app.master-data.storageLocations.exportFilenameSelected': 'StorageLocations_Selected_{{date}}',
-  'app.master-data.storageLocations.exportFilenameCurrentPage': 'StorageLocations_CurrentPage_{{date}}',
+  'app.master-data.storageLocations.exportFilenameCurrentPage':
+    'StorageLocations_CurrentPage_{{date}}',
   'app.master-data.storageLocations.exportFilenameAll': 'StorageLocations_All_{{date}}',
   'app.master-data.storageLocations.importTitle': 'Importing storage location data',
   'app.master-data.storageLocations.codeRequired': 'Storage location code is required',
   'app.master-data.storageLocations.nameRequired': 'Storage location name is required',
-  'app.master-data.storageLocations.storageAreaCodeNotExist': 'Storage area code "{{value}}" not found',
+  'app.master-data.storageLocations.storageAreaCodeNotExist':
+    'Storage area code "{{value}}" not found',
   'app.master-data.storageLocations.storageAreaRequired': 'Storage area is required',
   'app.master-data.storageLocations.storageAreaIdPrefix': 'Storage Area ID',
   'app.master-data.storageLocations.availableStorageAreaList': 'Available storage areas:',
-  'app.master-data.storageLocations.importTip': 'Tip: Only storage area code is supported (e.g. {{code}})',
+  'app.master-data.storageLocations.importTip':
+    'Tip: Only storage area code is supported (e.g. {{code}})',
   'app.master-data.customers.getDetailFailed': 'Failed to load customer detail',
   'app.master-data.customers.detailTitle': 'Customer Detail',
   'app.master-data.customers.deleteConfirm': 'Delete this customer?',
@@ -12896,7 +14021,8 @@ export default {
   'app.master-data.routes.operation': 'Operation',
   'app.master-data.routes.unknownOperation': 'Unknown operation',
   'app.master-data.routes.operationSequenceCount': '{{count}} operation(s):',
-  'app.master-data.routes.operationSequenceParseFailed': 'Failed to parse operation sequence: {{message}}',
+  'app.master-data.routes.operationSequenceParseFailed':
+    'Failed to parse operation sequence: {{message}}',
   'app.master-data.plants.code': 'Plant code',
   'app.master-data.plants.name': 'Plant name',
   'app.master-data.plants.codeRequired': 'Plant code is required',
@@ -12912,7 +14038,8 @@ export default {
   'app.master-data.plants.deleteConfirm': 'Are you sure to delete this plant?',
   'app.master-data.plants.deleteDescription': 'This action cannot be undone.',
   'app.master-data.plants.batchDeleteTitle': 'Are you sure to batch delete selected plants?',
-  'app.master-data.plants.batchDeleteDescription': '{{count}} plant(s) will be deleted. This action cannot be undone.',
+  'app.master-data.plants.batchDeleteDescription':
+    '{{count}} plant(s) will be deleted. This action cannot be undone.',
   'app.master-data.plants.create': 'Create Plant',
   'app.master-data.plants.batchDelete': 'Batch Delete',
   'app.master-data.plants.exportFilenameSelected': 'plants_selected_{{date}}',
@@ -13006,8 +14133,10 @@ export default {
   'app.master-data.workCenters.importTitle': 'Importing work centers',
   'app.master-data.workCenters.deleteConfirm': 'Are you sure to delete this work center?',
   'app.master-data.workCenters.deleteDescription': 'This action cannot be undone.',
-  'app.master-data.workCenters.batchDeleteConfirm': 'Are you sure to batch delete selected work centers?',
-  'app.master-data.workCenters.batchDeleteDescription': '{{count}} work center(s) will be deleted. This action cannot be undone.',
+  'app.master-data.workCenters.batchDeleteConfirm':
+    'Are you sure to batch delete selected work centers?',
+  'app.master-data.workCenters.batchDeleteDescription':
+    '{{count}} work center(s) will be deleted. This action cannot be undone.',
   'app.master-data.workCenters.exportFilenameSelected': 'work_centers_selected_{{date}}',
   'app.master-data.workCenters.exportFilenameCurrentPage': 'work_centers_current_page_{{date}}',
   'app.master-data.workCenters.exportFilenameAll': 'work_centers_all_{{date}}',
@@ -13016,8 +14145,10 @@ export default {
   'app.master-data.workGroups.listFetchFailed': 'Failed to load work group list',
   'app.master-data.workGroups.deleteConfirm': 'Are you sure to delete this work group?',
   'app.master-data.workGroups.deleteDescription': 'This action cannot be undone.',
-  'app.master-data.workGroups.batchDeleteConfirm': 'Are you sure to batch delete selected work groups?',
-  'app.master-data.workGroups.batchDeleteDescription': '{{count}} work group(s) will be deleted. This action cannot be undone.',
+  'app.master-data.workGroups.batchDeleteConfirm':
+    'Are you sure to batch delete selected work groups?',
+  'app.master-data.workGroups.batchDeleteDescription':
+    '{{count}} work group(s) will be deleted. This action cannot be undone.',
   'app.master-data.workGroups.importSuccess': 'Imported {{count}} work group(s)',
   'app.master-data.workGroups.importTitle': 'Importing work groups',
   'app.master-data.workGroups.exportFilenameSelected': 'work_groups_selected_{{date}}',
@@ -13035,9 +14166,11 @@ export default {
   'app.master-data.workshops.status': 'Status',
   'app.master-data.workshops.detailTitle': 'Workshop Details',
   'app.master-data.workshops.deleteConfirm': 'Are you sure to delete this workshop?',
-  'app.master-data.workshops.deleteDescription': 'Check for associated production lines before deleting',
+  'app.master-data.workshops.deleteDescription':
+    'Check for associated production lines before deleting',
   'app.master-data.workshops.batchDeleteTitle': 'Are you sure to batch delete selected workshops?',
-  'app.master-data.workshops.batchDeleteDescription': '{{count}} workshop(s) will be deleted. This action cannot be undone.',
+  'app.master-data.workshops.batchDeleteDescription':
+    '{{count}} workshop(s) will be deleted. This action cannot be undone.',
   'app.master-data.workshops.create': 'Create Workshop',
   'app.master-data.workshops.exportFilenameSelected': 'workshops_selected_{{date}}',
   'app.master-data.workshops.exportFilenameCurrentPage': 'workshops_current_page_{{date}}',
@@ -13066,11 +14199,14 @@ export default {
   'app.master-data.serials.generateSuccess': 'Generated {{count}} serial(s)',
   'app.master-data.serials.generateFailed': 'Serial generation failed',
   'app.master-data.variantAttributes.getDetailFailed': 'Failed to load attribute definition detail',
-  'app.master-data.variantAttributes.enumValuesRequired': 'Enum type must have at least one enum value',
+  'app.master-data.variantAttributes.enumValuesRequired':
+    'Enum type must have at least one enum value',
   'app.master-data.variantAttributes.loadPreset': 'Load preset',
   'app.master-data.variantAttributes.loadPresetModalTitle': 'Load preset',
-  'app.master-data.variantAttributes.loadPresetModalDesc': 'Select which preset attributes to load; uncheck any you do not need, then confirm.',
-  'app.master-data.presetModalDesc': 'Select which items to load; uncheck any you do not need, then confirm.',
+  'app.master-data.variantAttributes.loadPresetModalDesc':
+    'Select which preset attributes to load; uncheck any you do not need, then confirm.',
+  'app.master-data.presetModalDesc':
+    'Select which items to load; uncheck any you do not need, then confirm.',
   'app.master-data.variantAttributes.presetColName': 'Attribute name',
   'app.master-data.variantAttributes.presetColDisplayName': 'Display name',
   'app.master-data.variantAttributes.presetColType': 'Type',
@@ -13094,16 +14230,22 @@ export default {
   'app.master-data.variantAttributes.typeBoolean': 'Boolean',
   'app.master-data.variantAttributes.listFailed': 'Failed to load attribute definitions',
   'app.master-data.variantAttributes.attributeNameRequired': 'Please enter attribute name',
-  'app.master-data.variantAttributes.attributeNamePattern': 'Attribute name may only contain letters, numbers, underscores, and Chinese characters',
-  'app.master-data.variantAttributes.attributeNamePlaceholder': 'Enter attribute name (e.g. color, size)',
+  'app.master-data.variantAttributes.attributeNamePattern':
+    'Attribute name may only contain letters, numbers, underscores, and Chinese characters',
+  'app.master-data.variantAttributes.attributeNamePlaceholder':
+    'Enter attribute name (e.g. color, size)',
   'app.master-data.variantAttributes.attributeTypeRequired': 'Please select attribute type',
   'app.master-data.variantAttributes.attributeTypePlaceholder': 'Select attribute type',
   'app.master-data.variantAttributes.displayNameRequired': 'Please enter display name',
-  'app.master-data.variantAttributes.displayNamePlaceholder': 'Enter display name (e.g. product color)',
-  'app.master-data.variantAttributes.enumValuesPlaceholder': 'Enter enum values separated by commas (e.g. red, blue, green)',
+  'app.master-data.variantAttributes.displayNamePlaceholder':
+    'Enter display name (e.g. product color)',
+  'app.master-data.variantAttributes.enumValuesPlaceholder':
+    'Enter enum values separated by commas (e.g. red, blue, green)',
   'app.master-data.variantAttributes.enumValuesInputRequired': 'Please enter enum values',
-  'app.master-data.variantAttributes.enumValuesExtra': 'Separate multiple values with commas (English or Chinese comma)',
-  'app.master-data.variantAttributes.allowMultipleExtra': 'When variant management is enabled on a material, whether multiple enum values can be selected',
+  'app.master-data.variantAttributes.enumValuesExtra':
+    'Separate multiple values with commas (English or Chinese comma)',
+  'app.master-data.variantAttributes.allowMultipleExtra':
+    'When variant management is enabled on a material, whether multiple enum values can be selected',
   'app.master-data.variantAttributes.descriptionPlaceholder': 'Enter remarks',
   'app.master-data.variantAttributes.isActiveLabel': 'Active',
   'app.master-data.sop.selectedNode': 'Selected Work Step',
@@ -13112,9 +14254,12 @@ export default {
   'app.master-data.sop.autoLayout': 'Auto Layout',
   'app.master-data.sop.nodeAttachmentLabel': 'Node Attachments',
   'app.master-data.sop.addNodeAttachment': 'Add Attachment',
-  'app.master-data.sop.nodeAttachmentDropHint': 'Drag files here to upload, or click Add Attachment',
-  'app.master-data.sop.nodeAttachmentHint': 'Supported: Images, PDF, DWG, DXF, STEP/STP, XLS/XLSX, MP4/MOV/AVI',
-  'app.master-data.sop.nodeAttachmentTypeInvalid': 'Only image/PDF/DWG/DXF/STEP/STP/XLS/XLSX/MP4/MOV/AVI files are allowed',
+  'app.master-data.sop.nodeAttachmentDropHint':
+    'Drag files here to upload, or click Add Attachment',
+  'app.master-data.sop.nodeAttachmentHint':
+    'Supported: Images, PDF, DWG, DXF, STEP/STP, XLS/XLSX, MP4/MOV/AVI',
+  'app.master-data.sop.nodeAttachmentTypeInvalid':
+    'Only image/PDF/DWG/DXF/STEP/STP/XLS/XLSX/MP4/MOV/AVI files are allowed',
   'app.master-data.sop.attachmentUploadFailed': 'Failed to upload attachment',
   'app.master-data.sop.getDetailFailed': 'Failed to load SOP detail',
   'app.master-data.sop.detailSectionBasic': 'Basic information',
@@ -13146,21 +14291,26 @@ export default {
   'app.master-data.batches.createTitle': 'Create Batch',
   'app.master-data.batches.editTitle': 'Edit Batch',
   'app.master-data.operations.codeRequired': 'Operation code is required',
-  'app.master-data.codeRulePreviewHint': 'Code preview unavailable. Check code rules config or enter manually.',
+  'app.master-data.codeRulePreviewHint':
+    'Code preview unavailable. Check code rules config or enter manually.',
   'app.master-data.codeRuleAutoFailed': 'Auto code failed. Enter manually or configure code rules.',
   'app.master-data.customFields': 'Custom fields',
   'app.master-data.operationsConfigured': '{{count}} operation(s) configured',
   'app.master-data.importEmpty': 'Import data is empty',
-  'app.master-data.importNoRows': 'No importable rows (fill from row 3, ensure at least one non-empty row)',
+  'app.master-data.importNoRows':
+    'No importable rows (fill from row 3, ensure at least one non-empty row)',
   'app.master-data.importAllEmpty': 'No importable rows (all rows are empty)',
   'app.master-data.getSelectedFailed': 'Failed to get selected data, please retry',
   'app.master-data.noExportData': 'No data to export',
   'app.master-data.exportSuccess': 'Export succeeded',
   'app.master-data.importDisabled': 'Cannot import',
   'app.master-data.importNoWorkshop': 'No workshop data available. Please create workshops first.',
-  'app.master-data.importNoProductionLine': 'No production line data available. Please create production lines first.',
-  'app.master-data.importNoWarehouse': 'No warehouse data available. Please create warehouses first.',
-  'app.master-data.importNoStorageArea': 'No storage area data available. Please create storage areas first.',
+  'app.master-data.importNoProductionLine':
+    'No production line data available. Please create production lines first.',
+  'app.master-data.importNoWarehouse':
+    'No warehouse data available. Please create warehouses first.',
+  'app.master-data.importNoStorageArea':
+    'No storage area data available. Please create storage areas first.',
   'app.master-data.importMissingField': 'Missing required field: {{field}}. Headers: {{headers}}',
   'app.master-data.importSuccess': 'Imported {{count}} record(s)',
   'app.master-data.importFailed': 'Import failed',
@@ -13168,16 +14318,21 @@ export default {
   'app.master-data.batchDeleteSuccess': 'Batch delete succeeded',
   'app.master-data.batchDeletePartial': 'Partial delete failed',
   'app.master-data.dataValidationFailed': 'Data validation failed',
-  'app.master-data.validationFailedIntro': 'The following rows have errors. Please fix and re-import:',
+  'app.master-data.validationFailedIntro':
+    'The following rows have errors. Please fix and re-import:',
   'app.master-data.availableWorkshopsList': 'Available workshops:',
   'app.master-data.workshopImportHint': 'Tip: Only workshop code is supported (e.g. {{code}})',
   'app.master-data.availableProductionLinesList': 'Available production lines:',
-  'app.master-data.productionLineImportHint': 'Tip: Only production line code is supported (e.g. {{code}})',
+  'app.master-data.productionLineImportHint':
+    'Tip: Only production line code is supported (e.g. {{code}})',
   'app.master-data.importPartialResultTitle': 'Import complete (partial failure)',
-  'app.master-data.importPartialResultIntro': 'Import result: {{success}} succeeded, {{failure}} failed',
+  'app.master-data.importPartialResultIntro':
+    'Import result: {{success}} succeeded, {{failure}} failed',
   'app.master-data.rowError': 'Row {{row}}: {{message}}',
-  'app.master-data.operations.confirmBatchDeleteContent': 'Delete {{count}} selected record(s)? Check for associated routes or SOPs before deleting. This cannot be undone.',
-  'app.master-data.operations.deleteConfirmDesc': 'Check for associated routes or SOPs before deleting',
+  'app.master-data.operations.confirmBatchDeleteContent':
+    'Delete {{count}} selected record(s)? Check for associated routes or SOPs before deleting. This cannot be undone.',
+  'app.master-data.operations.deleteConfirmDesc':
+    'Check for associated routes or SOPs before deleting',
   'app.master-data.operations.selectForQRCode': 'Please select operations to generate QR codes',
   'app.master-data.operations.getSelectedFailed': 'Failed to load selected operations',
   'app.master-data.operations.qrCodeGenerated': 'Generated {{count}} operation QR code(s)',
@@ -13196,7 +14351,8 @@ export default {
   'app.master-data.defectTypes.name': 'Defect type name',
   'app.master-data.defectTypes.codeRequired': 'Defect type code is required',
   'app.master-data.defectTypes.nameRequired': 'Defect type name is required',
-  'app.master-data.defectTypes.codeRequiredAuto': 'Defect type code is required (fill code column when auto-code is disabled)',
+  'app.master-data.defectTypes.codeRequiredAuto':
+    'Defect type code is required (fill code column when auto-code is disabled)',
   'app.master-data.defectTypes.importSuccess': 'Imported {{count}} defect type(s)',
   'app.master-data.defectTypes.importTitle': 'Importing defect types',
   'app.master-data.defectTypes.status': 'Status',
@@ -13222,7 +14378,8 @@ export default {
   'app.master-data.sop.nodeDeleted': 'Node deleted',
   'app.master-data.sop.edgeDeleted': 'Edge deleted',
   'app.master-data.sop.deleteNodeConfirmTitle': 'Delete node?',
-  'app.master-data.sop.deleteNodeConfirmContent': 'Connections to this node will also be removed. Continue?',
+  'app.master-data.sop.deleteNodeConfirmContent':
+    'Connections to this node will also be removed. Continue?',
   'app.master-data.sop.missingExecutionUuid': 'Missing execution instance UUID parameter',
   'app.master-data.sop.loadExecutionFailed': 'Failed to load execution data',
   'app.master-data.sop.noCompletableNode': 'No completable node at the moment',
@@ -13263,10 +14420,12 @@ export default {
   'app.master-data.sop.nodeDescLabel': 'Work Step Description',
   'app.master-data.sop.nodeDescPlaceholder': 'Enter work step description',
   'app.master-data.sop.nodeKeyPointsLabel': 'Work Step Key Points',
-  'app.master-data.sop.nodeKeyPointsPlaceholder': 'Enter key points (critical params, cautions, inspection points)',
+  'app.master-data.sop.nodeKeyPointsPlaceholder':
+    'Enter key points (critical params, cautions, inspection points)',
   'app.master-data.sop.formSchemaTitle': 'Reporting Fields',
   'app.master-data.sop.formConfigTitle': 'Info Collection Config',
-  'app.master-data.sop.formConfigHint': 'Configure collection fields for this node; they will be shown when the step is executed',
+  'app.master-data.sop.formConfigHint':
+    'Configure collection fields for this node; they will be shown when the step is executed',
   'app.master-data.sop.detailTitle': 'SOP Detail',
   'app.master-data.sop.listFailed': 'Failed to load SOP list',
   'app.master-data.sop.importTitle': 'Importing SOPs',
@@ -13313,7 +14472,8 @@ export default {
   'app.master-data.sop.versionMaxLength': 'Version cannot exceed 20 characters',
   'app.master-data.sop.operationPlaceholder': 'Select linked operation (optional)',
   'app.master-data.sop.bindMaterialGroupPlaceholder': 'Select material groups (optional, multiple)',
-  'app.master-data.sop.bindMaterialPlaceholder': 'Select materials (optional, multiple; overrides groups)',
+  'app.master-data.sop.bindMaterialPlaceholder':
+    'Select materials (optional, multiple; overrides groups)',
   'app.master-data.sop.versionPlaceholder': 'Enter version (e.g. v1.0)',
   'app.master-data.sop.remarkLabel': 'Remarks',
   'app.master-data.sop.remarkPlaceholder':
@@ -13395,10 +14555,14 @@ export default {
   'app.master-data.materials.batchTrackingCardBatch': 'Batch number',
   'app.master-data.materials.batchTrackingCardSerial': 'Serial number',
   'app.master-data.materials.batchTrackingIncludeDimension': 'Include',
-  'app.master-data.materials.batchTrackingDisableBatchHint': 'Disables batch tracking and clears the default batch rule.',
-  'app.master-data.materials.batchTrackingDisableSerialHint': 'Disables serial tracking and clears the default serial rule.',
-  'app.master-data.materials.batchTrackingNoCustomRulesBatch': 'No custom batch rules; only system default is available.',
-  'app.master-data.materials.batchTrackingNoCustomRulesSerial': 'No custom serial rules; only system default is available.',
+  'app.master-data.materials.batchTrackingDisableBatchHint':
+    'Disables batch tracking and clears the default batch rule.',
+  'app.master-data.materials.batchTrackingDisableSerialHint':
+    'Disables serial tracking and clears the default serial rule.',
+  'app.master-data.materials.batchTrackingNoCustomRulesBatch':
+    'No custom batch rules; only system default is available.',
+  'app.master-data.materials.batchTrackingNoCustomRulesSerial':
+    'No custom serial rules; only system default is available.',
   'app.master-data.materials.batchTrackingMode': 'Action',
   'app.master-data.materials.batchTrackingEnable': 'Enable',
   'app.master-data.materials.batchTrackingDisable': 'Disable',
@@ -13406,62 +14570,81 @@ export default {
   'app.master-data.materials.batchTrackingApplySerial': 'Serial number management',
   'app.master-data.materials.batchTrackingDefaultBatchRule': 'Default batch rule',
   'app.master-data.materials.batchTrackingDefaultSerialRule': 'Default serial rule',
-  'app.master-data.materials.batchTrackingPickOneDimension': 'Select at least one of batch or serial',
+  'app.master-data.materials.batchTrackingPickOneDimension':
+    'Select at least one of batch or serial',
   'app.master-data.materials.selectForBatchSerial': 'Please select materials first',
   'app.master-data.materials.batchTrackingLoadRulesFailed': 'Failed to load batch/serial rules',
-  'app.master-data.materials.batchTrackingNotFound': '{{count}} material(s) not found (may be deleted); others updated',
-  'app.master-data.materials.batchTrackingAllMissing': 'No matching materials found; nothing updated',
+  'app.master-data.materials.batchTrackingNotFound':
+    '{{count}} material(s) not found (may be deleted); others updated',
+  'app.master-data.materials.batchTrackingAllMissing':
+    'No matching materials found; nothing updated',
   'app.master-data.materials.batchTrackingSuccess': 'Updated {{count}} material(s)',
   'app.master-data.materials.batchTrackingNoop': 'No materials were updated',
   'app.master-data.materials.batchDelete': 'Batch Delete',
   'app.master-data.materials.batchDeleteConfirm': 'Delete {{count}} selected material(s)?',
   'app.master-data.materials.batchMoveGroup': 'Move to group',
   'app.master-data.materials.batchMoveGroupTitle': 'Batch move to group',
-  'app.master-data.materials.batchMoveGroupHint': 'Move {{count}} selected material(s) to the target group',
+  'app.master-data.materials.batchMoveGroupHint':
+    'Move {{count}} selected material(s) to the target group',
   'app.master-data.materials.batchMoveGroupSelect': 'Target group',
   'app.master-data.materials.batchMoveGroupSelectRequired': 'Select a target group',
   'app.master-data.materials.batchMoveGroupSuccess': 'Moved {{count}} material(s)',
-  'app.master-data.materials.batchMoveGroupNotFound': '{{count}} material(s) not found; others were moved',
+  'app.master-data.materials.batchMoveGroupNotFound':
+    '{{count}} material(s) not found; others were moved',
   'app.master-data.materials.batchMoveGroupFailed': 'Batch move to group failed',
   'app.master-data.materials.batchProcessRoute': 'Batch update process route',
   'app.master-data.materials.batchProcessRouteTitle': 'Batch update process route',
-  'app.master-data.materials.batchProcessRouteHint': 'Bind {{count}} selected material(s) to a process route',
+  'app.master-data.materials.batchProcessRouteHint':
+    'Bind {{count}} selected material(s) to a process route',
   'app.master-data.materials.batchProcessRouteSelect': 'Process route',
   'app.master-data.materials.batchProcessRouteSelectRequired': 'Select a process route',
-  'app.master-data.materials.batchProcessRouteClearHint': 'Leave empty to clear the bound process route',
-  'app.master-data.materials.batchProcessRouteSuccess': 'Updated process route for {{count}} material(s)',
-  'app.master-data.materials.batchProcessRouteNotFound': '{{count}} material(s) not found; others were updated',
+  'app.master-data.materials.batchProcessRouteClearHint':
+    'Leave empty to clear the bound process route',
+  'app.master-data.materials.batchProcessRouteSuccess':
+    'Updated process route for {{count}} material(s)',
+  'app.master-data.materials.batchProcessRouteNotFound':
+    '{{count}} material(s) not found; others were updated',
   'app.master-data.materials.batchProcessRouteFailed': 'Batch process route update failed',
   'app.master-data.materials.batchSourceType': 'Batch update source type',
   'app.master-data.materials.batchSourceTypeTitle': 'Batch update source type',
-  'app.master-data.materials.batchSourceTypeHint': 'Change source type for {{count}} selected material(s) to',
+  'app.master-data.materials.batchSourceTypeHint':
+    'Change source type for {{count}} selected material(s) to',
   'app.master-data.materials.batchSourceTypeSelect': 'Source type',
   'app.master-data.materials.batchSourceTypeSelectRequired': 'Select a source type',
-  'app.master-data.materials.batchSourceTypeSuccess': 'Updated source type for {{count}} material(s)',
-  'app.master-data.materials.batchSourceTypeNotFound': '{{count}} material(s) not found; others were updated',
+  'app.master-data.materials.batchSourceTypeSuccess':
+    'Updated source type for {{count}} material(s)',
+  'app.master-data.materials.batchSourceTypeNotFound':
+    '{{count}} material(s) not found; others were updated',
   'app.master-data.materials.batchSourceTypeFailed': 'Batch source type update failed',
   'app.master-data.materials.batchDefaults': 'Batch defaults',
   'app.master-data.materials.batchDefaultsTitle': 'Batch update defaults',
-  'app.master-data.materials.batchDefaultsHint': 'Merge-update defaults for {{count}} selected material(s). Unchecked fields are left unchanged.',
+  'app.master-data.materials.batchDefaultsHint':
+    'Merge-update defaults for {{count}} selected material(s). Unchecked fields are left unchanged.',
   'app.master-data.materials.batchDefaultsPickOne': 'Select at least one defaults field to update',
   'app.master-data.materials.batchDefaultsSuccess': 'Updated defaults on {{count}} material(s)',
-  'app.master-data.materials.batchDefaultsNotFound': '{{count}} material(s) not found; others were updated',
+  'app.master-data.materials.batchDefaultsNotFound':
+    '{{count}} material(s) not found; others were updated',
   'app.master-data.materials.batchDefaultsFailed': 'Batch defaults update failed',
   'app.master-data.materials.batchDefaultsApplyTax': 'Default tax rate',
   'app.master-data.materials.batchDefaultsApplyWarehouse': 'Default warehouse(s)',
   'app.master-data.materials.batchDefaultsApplySafetyStock': 'Safety stock',
   'app.master-data.materials.batchDefaultsApplyMaxStock': 'Max stock',
-  'app.master-data.materials.batchDefaultsClearWarehouse': 'Clear default warehouses when none selected',
+  'app.master-data.materials.batchDefaultsClearWarehouse':
+    'Clear default warehouses when none selected',
   'app.master-data.materials.batchVariantToolbar': 'Batch variant management',
   'app.master-data.materials.batchVariantTitle': 'Batch variant management',
-  'app.master-data.materials.batchVariantHint': 'Enable or disable variant management for {{count}} selected material(s). Maintain combinations per material on the Variant tab.',
+  'app.master-data.materials.batchVariantHint':
+    'Enable or disable variant management for {{count}} selected material(s). Maintain combinations per material on the Variant tab.',
   'app.master-data.materials.batchVariantMode': 'Action',
   'app.master-data.materials.batchVariantEnable': 'Enable variant management',
   'app.master-data.materials.batchVariantDisable': 'Disable variant management',
-  'app.master-data.materials.batchVariantEnableHint': 'Turns on variant management only; add combination rows on each material’s Variant tab.',
-  'app.master-data.materials.batchVariantDisableHint': 'Clears variant attributes on the selected rows (existing variant SKU lines are not deleted).',
+  'app.master-data.materials.batchVariantEnableHint':
+    'Turns on variant management only; add combination rows on each material’s Variant tab.',
+  'app.master-data.materials.batchVariantDisableHint':
+    'Clears variant attributes on the selected rows (existing variant SKU lines are not deleted).',
   'app.master-data.materials.batchVariantSuccess': 'Updated {{count}} material(s)',
-  'app.master-data.materials.batchVariantNotFound': '{{count}} material(s) not found; others were updated',
+  'app.master-data.materials.batchVariantNotFound':
+    '{{count}} material(s) not found; others were updated',
   'app.master-data.materials.batchVariantFailed': 'Batch variant update failed',
   'app.master-data.materials.batchVariantLoadDefFailed': 'Failed to load attribute definitions',
   'app.master-data.materials.deleteGroup': 'Delete Group',
@@ -13528,17 +14711,20 @@ export default {
   'app.master-data.materials.rewriteMainCodes': 'Rewrite material codes',
   'app.master-data.materials.rewriteMainCodesTitle': 'Rewrite material codes',
   'app.master-data.materials.rewriteMainCodesHintSelected':
-    'Regenerate main codes for {{count}} selected material(s) using each material\'s leaf-group code and the material coding rule. Variant rows under the same main code are updated together.',
+    "Regenerate main codes for {{count}} selected material(s) using each material's leaf-group code and the material coding rule. Variant rows under the same main code are updated together.",
   'app.master-data.materials.rewriteMainCodesHintGroup':
-    'Regenerate main codes for all materials in the current group (including subgroups) using each material\'s leaf-group code and the coding rule. Used when nothing is selected and a group is chosen in the tree.',
-  'app.master-data.materials.rewriteMainCodesDesc': 'This will overwrite existing material codes. Make sure the coding rule is correctly configured before proceeding.',
-  'app.master-data.materials.rewriteMainCodesSelectOrGroup': 'Select materials or choose a material group on the left',
+    "Regenerate main codes for all materials in the current group (including subgroups) using each material's leaf-group code and the coding rule. Used when nothing is selected and a group is chosen in the tree.",
+  'app.master-data.materials.rewriteMainCodesDesc':
+    'This will overwrite existing material codes. Make sure the coding rule is correctly configured before proceeding.',
+  'app.master-data.materials.rewriteMainCodesSelectOrGroup':
+    'Select materials or choose a material group on the left',
   'app.master-data.materials.rewriteResetSequence': 'Reset sequence per group',
   'app.master-data.materials.rewriteResetSequenceDesc':
     'When checked, the sequence counter for each leaf group will be reset to its initial value before rewriting, so numbering restarts from the beginning.',
   'app.master-data.materials.rewriteMainCodesSuccess':
     'Rewrote {{families}} main-code group(s), {{rows}} material row(s) updated',
-  'app.master-data.materials.rewriteMainCodesPartialFail': '{{count}} item(s) could not be rewritten',
+  'app.master-data.materials.rewriteMainCodesPartialFail':
+    '{{count}} item(s) could not be rewritten',
   'app.master-data.materials.rewriteMainCodesFailed': 'Failed to rewrite material codes',
   'app.master-data.materials.standardPresetModalTitle': 'Import standard parts (preset library)',
   'app.master-data.materials.standardPresetHint':
@@ -13549,25 +14735,30 @@ export default {
   'app.master-data.materials.standardPresetAssignFollowup': 'Parameters for the option above',
   'app.master-data.materials.standardPresetImportGroupMode': 'Import grouping',
   'app.master-data.materials.standardPresetGroupModeSingle': 'Single group',
-  'app.master-data.materials.standardPresetGroupModePresetCategories': 'Create groups from preset categories',
+  'app.master-data.materials.standardPresetGroupModePresetCategories':
+    'Create groups from preset categories',
   'app.master-data.materials.standardPresetParentGroup': 'Parent group (optional)',
   'app.master-data.materials.standardPresetParentGroupPlaceholder':
     'Leave empty for top-level groups; or choose a parent for nested preset category groups',
   'app.master-data.materials.standardPresetPresetGroupHint':
     'Creates or reuses one material group per preset sub-type (codes start with SP_); materials are placed in the matching group.',
   'app.master-data.materials.standardPresetTargetGroup': 'Target material group',
-  'app.master-data.materials.standardPresetTargetGroupPlaceholder': 'Select an existing group (required)',
+  'app.master-data.materials.standardPresetTargetGroupPlaceholder':
+    'Select an existing group (required)',
   'app.master-data.materials.standardPresetIndustryFilter': 'Industry',
   'app.master-data.materials.standardPresetIndustryAll': 'All industries',
-  'app.master-data.materials.standardPresetIndustryEmpty': 'No preset industry data. Check backend standard parts catalog config.',
-  'app.master-data.materials.standardPresetTaxonomyEmpty': 'No preset taxonomy data. Check backend standard parts catalog config.',
+  'app.master-data.materials.standardPresetIndustryEmpty':
+    'No preset industry data. Check backend standard parts catalog config.',
+  'app.master-data.materials.standardPresetTaxonomyEmpty':
+    'No preset taxonomy data. Check backend standard parts catalog config.',
   'app.master-data.materials.standardPresetPrimaryFilter': 'Top-level category',
   'app.master-data.materials.standardPresetSecondaryFilter': 'Sub-type',
   'app.master-data.materials.standardPresetPrimaryAll': 'All top-level',
   'app.master-data.materials.standardPresetSecondaryAll': 'All sub-types',
   'app.master-data.materials.standardPresetPrimary.standard_parts': 'Standard parts',
   'app.master-data.materials.standardPresetPrimary.raw_materials': 'Raw materials',
-  'app.master-data.materials.standardPresetPrimary.electrical_components': 'Electrical & automation',
+  'app.master-data.materials.standardPresetPrimary.electrical_components':
+    'Electrical & automation',
   'app.master-data.materials.standardPresetPrimary.tools_and_gauges': 'Tooling & metrology',
   'app.master-data.materials.standardPresetPrimary.chemicals_lubricants': 'Lubricants & chemicals',
   'app.master-data.materials.standardPresetPrimary.auxiliary_materials': 'Auxiliary materials',
@@ -13603,14 +14794,16 @@ export default {
   'app.master-data.bom.structureUpdated': 'BOM structure updated, {{count}} child item(s)',
   'app.master-data.bom.itemsCreated': 'Created {{count}} BOM item(s)',
   'app.master-data.bom.fillAtLeastOneRow': 'Please fill at least one row (excluding header)',
-  'app.master-data.bom.importHeadersRequired': 'Headers must include: parent code, child code, quantity',
+  'app.master-data.bom.importHeadersRequired':
+    'Headers must include: parent code, child code, quantity',
   'app.master-data.bom.importValidationFailed': 'Validation failed:\n{{errors}}',
   'app.master-data.bom.noValidImportData': 'No valid import data',
   'app.master-data.bom.importSuccess': 'Imported {{count}} BOM record(s)',
   'app.master-data.bom.includeObsolete': 'Include obsolete versions',
   'app.master-data.bom.setObsolete': 'Set as obsolete',
   'app.master-data.bom.setObsoleteTitle': 'Set BOM version as obsolete',
-  'app.master-data.bom.setObsoleteConfirm': 'Set this BOM version as obsolete? It will no longer be used for demand or scheduling.',
+  'app.master-data.bom.setObsoleteConfirm':
+    'Set this BOM version as obsolete? It will no longer be used for demand or scheduling.',
   'app.master-data.bom.obsoleteReason': 'Reason (optional)',
   'app.master-data.bom.obsoleteSuccess': 'Version set as obsolete',
   'app.master-data.bom.obsoleteTag': 'Obsolete',
@@ -13622,13 +14815,16 @@ export default {
   'app.master-data.bom.materialNotFound': 'Material not found',
   'app.master-data.bom.missingMaterialId': 'Missing material ID parameter',
   'app.master-data.bom.configUpdated': 'Config updated',
-  'app.master-data.bom.approvedCannotEdit': 'Approved BOM cannot be edited directly, use "Save as new version"',
+  'app.master-data.bom.approvedCannotEdit':
+    'Approved BOM cannot be edited directly, use "Save as new version"',
   'app.master-data.bom.addAtLeastOneChildMaterial': 'Please add at least one child material',
   'app.master-data.bom.cannotUpgrade': 'Cannot get current BOM version, cannot upgrade',
-  'app.master-data.bom.noChangeNoNeedRevise': 'No changes detected, no need to create a new version',
+  'app.master-data.bom.noChangeNoNeedRevise':
+    'No changes detected, no need to create a new version',
   'app.master-data.bom.saveAsNewVersion': 'Saved as new version: {{version}}',
   'app.master-data.bom.cannotGetMaterial': 'Cannot get material info',
-  'app.master-data.bom.cannotMoveToPosition': 'Cannot move to this position (may be child of current node)',
+  'app.master-data.bom.cannotMoveToPosition':
+    'Cannot move to this position (may be child of current node)',
   'app.master-data.bom.cannotDeleteRoot': 'Cannot delete root node (main material)',
   'app.master-data.bom.nodeDeleted': 'Node deleted',
   'app.master-data.bom.subBomLoaded': 'Semi-product sub-BOM loaded',
@@ -13638,7 +14834,8 @@ export default {
   'app.master-data.bom.copyFailed': 'BOM copy failed',
   'app.master-data.bom.copyBomBtn': 'Copy',
   'app.master-data.bom.copyBomTitle': 'Copy BOM (Change Root)',
-  'app.master-data.bom.copyBomNewRootHint': 'Copy will create a new BOM with the selected material as root; child structure remains the same.',
+  'app.master-data.bom.copyBomNewRootHint':
+    'Copy will create a new BOM with the selected material as root; child structure remains the same.',
   'app.master-data.bom.copyBomNewRootLabel': 'New root material',
   'app.master-data.bom.copyBomNewRootPlaceholder': 'Select material as the new BOM root',
   'app.master-data.bom.copyBomNewRootMustDiff': 'New root material must differ from current root',
@@ -13684,10 +14881,12 @@ export default {
   'app.master-data.bom.saveDraft': 'Save draft',
   'app.master-data.bom.saveDraftTitle': 'Save as draft only (not approved)',
   'app.master-data.bom.saveAndPublish': 'Save & activate',
-  'app.master-data.bom.saveAndPublishTitle': 'Save and mark as approved (same as Approve on the list)',
+  'app.master-data.bom.saveAndPublishTitle':
+    'Save and mark as approved (same as Approve on the list)',
   'app.master-data.bom.saveAndPublishSuccess': 'Saved and marked approved',
   'app.master-data.bom.saveAndPublishComment': 'BOM designer — save and activate',
-  'app.master-data.bom.saveAndPublishApproveFailed': 'Structure saved, but approve failed. Use Approve on the BOM list for this version.',
+  'app.master-data.bom.saveAndPublishApproveFailed':
+    'Structure saved, but approve failed. Use Approve on the BOM list for this version.',
   'app.master-data.bom.collapseGuide': 'Collapse guide',
   'app.master-data.bom.expandGuide': 'Expand guide',
   'app.master-data.bom.mainMaterialInfo': 'Main Material Info',
@@ -13708,7 +14907,8 @@ export default {
   'app.master-data.bom.selectMaterialFirst': 'Please select material first',
   'app.master-data.bom.wasteRate': 'Waste Rate (%)',
   'app.master-data.bom.issueMethod': 'Issue Method',
-  'app.master-data.bom.issueMethodTooltip': 'Pick: batch to line-side before production; Backflush: deduct from line-side at reporting (deliver to line first); None: no material issue (e.g. phantom)',
+  'app.master-data.bom.issueMethodTooltip':
+    'Pick: batch to line-side before production; Backflush: deduct from line-side at reporting (deliver to line first); None: no material issue (e.g. phantom)',
   'app.master-data.bom.issueMethodPick': 'Pick & Batch',
   'app.master-data.bom.issueMethodBackflush': 'Backflush',
   'app.master-data.bom.issueMethodNone': 'No Issue',
@@ -13718,7 +14918,8 @@ export default {
   'app.master-data.bom.isConfigurable': 'Configurable',
   'app.master-data.bom.configurableGroupIdLabel': 'Configurable Group ID',
   'app.master-data.bom.isConfigurableColumn': 'Is Configurable',
-  'app.master-data.bom.isConfigurableTooltip': 'Configurable: User selects material at this position when ordering or creating work order. Mutually exclusive with alternative. Sub-materials with variant management are auto-configurable.',
+  'app.master-data.bom.isConfigurableTooltip':
+    'Configurable: User selects material at this position when ordering or creating work order. Mutually exclusive with alternative. Sub-materials with variant management are auto-configurable.',
   'app.master-data.bom.isDefaultConfigurable': 'Default Option',
   'app.master-data.bom.isDefaultConfigurableTooltip': 'Default material in configurable group',
   'app.master-data.bom.addConfigurableOption': 'Add Optional Material',
@@ -13727,7 +14928,8 @@ export default {
   'app.master-data.bom.removeOption': 'Remove',
   'app.master-data.bom.setAsDefault': 'Set as default',
   'app.master-data.bom.optionalMaterialsList': 'Optional materials',
-  'app.master-data.bom.variantDrivenConfigurable': 'Variant enabled; options are determined by variant attributes.',
+  'app.master-data.bom.variantDrivenConfigurable':
+    'Variant enabled; options are determined by variant attributes.',
   'app.master-data.bom.variantAttributesLabel': 'Variant attributes',
   'app.master-data.bom.alternativeMaterialsList': 'Alternative materials (order)',
   'app.master-data.bom.addAlternativeOption': 'Add alternative',
@@ -13750,8 +14952,10 @@ export default {
   'app.master-data.fabricationWizard.stepRawMaterial': 'Raw Material',
   'app.master-data.fabricationWizard.stepBom': 'Usage',
   'app.master-data.fabricationWizard.introTitle': 'Fabrication parts usually consume raw material',
-  'app.master-data.fabricationWizard.introDesc': 'Link a raw material BOM so kitting, MRP, and picking expand correctly without building a full engineering BOM upfront.',
-  'app.master-data.fabricationWizard.autoGeneratedHint': 'Quick-create marks the buy item as wizard-generated; refine spec and supplier in Material Management later.',
+  'app.master-data.fabricationWizard.introDesc':
+    'Link a raw material BOM so kitting, MRP, and picking expand correctly without building a full engineering BOM upfront.',
+  'app.master-data.fabricationWizard.autoGeneratedHint':
+    'Quick-create marks the buy item as wizard-generated; refine spec and supplier in Material Management later.',
   'app.master-data.fabricationWizard.modeCreate': 'Quick-create raw material',
   'app.master-data.fabricationWizard.modeExisting': 'Select existing buy item',
   'app.master-data.fabricationWizard.rawMaterialName': 'Raw material name',
@@ -13760,7 +14964,8 @@ export default {
   'app.master-data.fabricationWizard.selectExistingRequired': 'Select a buy item as raw material',
   'app.master-data.fabricationWizard.quantity': 'Qty per part',
   'app.master-data.fabricationWizard.summaryTitle': 'Draft BOM will be created',
-  'app.master-data.fabricationWizard.draftBomHint': 'Saved as draft; approve in BOM Designer when ready.',
+  'app.master-data.fabricationWizard.draftBomHint':
+    'Saved as draft; approve in BOM Designer when ready.',
   'app.master-data.fabricationWizard.skipLater': 'Later',
   'app.master-data.fabricationWizard.confirmCreate': 'Finish',
   'app.master-data.fabricationWizard.success': 'Raw material BOM created (draft)',
@@ -13768,7 +14973,8 @@ export default {
   'app.master-data.fabricationWizard.prev': 'Previous',
   'app.master-data.fabricationWizard.next': 'Next',
   'app.master-data.fabricationWizard.configureRawMaterial': 'Configure raw material',
-  'app.master-data.fabricationWizard.promptAfterCreate': 'Fabrication material detected. Configure raw material now?',
+  'app.master-data.fabricationWizard.promptAfterCreate':
+    'Fabrication material detected. Configure raw material now?',
   'app.master-data.bom.deleteNode': 'Delete Node',
   'app.master-data.bom.mainMaterial': 'Main Material: ',
   'app.master-data.bom.version': 'Version: ',
@@ -13786,8 +14992,10 @@ export default {
   'app.master-data.bom.editProcessRoute': 'Edit Process Route',
   'app.master-data.bom.noProcessRouteToEdit': 'This material has no process route linked',
   'app.master-data.bom.processRouteNotFound': 'Process route not found',
-  'app.master-data.bom.mainMaterialCannotEdit': 'Main material cannot be edited here. Go to Material Management to edit.',
-  'app.master-data.bom.editCompleteHint': 'Tip: Click Save after editing, or click canvas to restore shortcuts.',
+  'app.master-data.bom.mainMaterialCannotEdit':
+    'Main material cannot be edited here. Go to Material Management to edit.',
+  'app.master-data.bom.editCompleteHint':
+    'Tip: Click Save after editing, or click canvas to restore shortcuts.',
   'app.master-data.bom.operationGuide': 'Operation Guide',
   'app.master-data.bom.shortcuts': 'Shortcuts',
   'app.master-data.bom.editNodeMaterial': 'Edit node material',
@@ -13813,10 +15021,12 @@ export default {
   'app.master-data.bom.statusApproved': 'Approved',
   'app.master-data.bom.statusRejected': 'Rejected',
   'app.master-data.bom.deleteConfirmTitle': 'Confirm Delete',
-  'app.master-data.bom.deleteConfirmContent': 'Delete this BOM ({{count}} items)? This cannot be undone.',
+  'app.master-data.bom.deleteConfirmContent':
+    'Delete this BOM ({{count}} items)? This cannot be undone.',
   'app.master-data.bom.ok': 'OK',
   'app.master-data.bom.batchDeleteConfirmTitle': 'Confirm Batch Delete',
-  'app.master-data.bom.batchDeleteConfirmContent': 'Delete {{count}} selected BOM records? This cannot be undone.',
+  'app.master-data.bom.batchDeleteConfirmContent':
+    'Delete {{count}} selected BOM records? This cannot be undone.',
   'app.master-data.bom.deleteFailed': 'Delete failed',
   'app.master-data.bom.batchApproveTitle': 'Batch Approve',
   'app.master-data.bom.okApprove': 'Approve',
@@ -13865,7 +15075,8 @@ export default {
   'app.master-data.bom.versionHistory': 'Version History',
   'app.master-data.bom.delete': 'Delete',
   'app.master-data.bom.editTitle': 'Edit',
-  'app.master-data.bom.approvedCannotEditTitle': 'Approved BOM cannot be edited directly. Revise or unapprove first.',
+  'app.master-data.bom.approvedCannotEditTitle':
+    'Approved BOM cannot be edited directly. Revise or unapprove first.',
   'app.master-data.bom.designerTitle': 'Design BOM structure',
   'app.master-data.bom.approvePassTitle': 'Approve',
   'app.master-data.bom.unapproveTitle': 'Unapprove, reset to Draft',
@@ -13877,7 +15088,8 @@ export default {
   'app.master-data.bom.effectiveDateTitle': 'Effective Date',
   'app.master-data.bom.expiryDateTitle': 'Expiry Date',
   'app.master-data.bom.alternativeTitle': 'Alternative',
-  'app.master-data.bom.alternativeTitleTooltip': 'Mutually exclusive with configurable. Same group ID = one of alternatives used in production.',
+  'app.master-data.bom.alternativeTitleTooltip':
+    'Mutually exclusive with configurable. Same group ID = one of alternatives used in production.',
   'app.master-data.bom.priorityTitle': 'Priority',
   'app.master-data.bom.descTitle': 'Description',
   'app.master-data.bom.remarkTitle': 'Remark',
@@ -13924,7 +15136,8 @@ export default {
   'app.master-data.bom.alternativeLabel': 'Alternative',
   'app.master-data.bom.alternativeGroupIdLabel': 'Alt. Group ID',
   'app.master-data.bom.alternativeGroupIdPlaceholder': 'Same ID for same group',
-  'app.master-data.bom.alternativeGroupIdRequired': 'Alternative group ID required when alternative',
+  'app.master-data.bom.alternativeGroupIdRequired':
+    'Alternative group ID required when alternative',
   'app.master-data.bom.alternativeGroupLabelPrefix': 'Group',
   'app.master-data.bom.createAlternativeGroup': 'New Group',
   'app.master-data.bom.priorityLabel': 'Priority',
@@ -13943,7 +15156,8 @@ export default {
   'app.master-data.bom.versionHistoryTitle': 'BOM Version History',
   'app.master-data.bom.approvalCommentPlaceholder': 'Enter approval comment',
   'app.master-data.bom.createVersionTitle': 'Create New BOM Version',
-  'app.master-data.bom.createVersionHint': 'Quick Create: one-click copy from current version; or fill the form below (from latest version)',
+  'app.master-data.bom.createVersionHint':
+    'Quick Create: one-click copy from current version; or fill the form below (from latest version)',
   'app.master-data.bom.versionPlaceholderNew': 'Enter version (e.g. v1.1)',
   'app.master-data.bom.versionDescLabel': 'Version Note',
   'app.master-data.bom.versionDescPlaceholder': 'Enter version note (optional)',
@@ -13952,12 +15166,14 @@ export default {
   'app.master-data.bom.versionStrategyNewOnly': 'New orders only (recommended)',
   'app.master-data.bom.versionStrategyAll': 'All orders (use with caution)',
   'app.master-data.bom.versionStrategyRequired': 'Select version strategy',
-  'app.master-data.bom.versionStrategyExtra': 'Recommend "new orders only" to avoid affecting running orders',
+  'app.master-data.bom.versionStrategyExtra':
+    'Recommend "new orders only" to avoid affecting running orders',
   'app.master-data.bom.parentQuantityLabel': 'Parent Quantity',
   'app.master-data.bom.parentQuantityPlaceholder': 'Enter parent quantity',
   'app.master-data.bom.parentQuantityRequired': 'Enter parent quantity',
   'app.master-data.bom.parentQuantityMin': 'Quantity must be > 0',
-  'app.master-data.bom.parentQuantityExtra': 'Enter parent qty; system will calc child qty (incl. waste)',
+  'app.master-data.bom.parentQuantityExtra':
+    'Enter parent qty; system will calc child qty (incl. waste)',
   'app.master-data.bom.versionPlaceholderOptional': 'Leave empty for latest',
   'app.master-data.bom.versionPlaceholderExtra': 'Optional, latest version if empty',
   'app.master-data.bom.defaultTag': 'Default',
@@ -13966,9 +15182,11 @@ export default {
   'app.master-data.bom.approve': 'Approve',
   'app.master-data.bom.unapprove': 'Unapprove',
   'app.master-data.bom.bomCode': 'BOM Code',
-  'app.master-data.bom.setDefaultVersionContent': 'Set {{bomCode}} (v{{version}}) as default BOM version? Demand calc will use it when multi-version not allowed.',
+  'app.master-data.bom.setDefaultVersionContent':
+    'Set {{bomCode}} (v{{version}}) as default BOM version? Demand calc will use it when multi-version not allowed.',
   'app.master-data.bom.reviseConfirmTitle': 'BOM Revise Confirm',
-  'app.master-data.bom.reviseConfirmContent': 'Create new revision for {{bomCode}} (v{{version}})? System will copy BOM structure and create new version (Draft).',
+  'app.master-data.bom.reviseConfirmContent':
+    'Create new revision for {{bomCode}} (v{{version}})? System will copy BOM structure and create new version (Draft).',
   'app.master-data.bom.batchApproveContent': 'Approve {{count}} selected BOM records?',
   'app.master-data.bom.recursiveApprove': 'Approve child BOMs recursively',
   'app.master-data.bom.batchUnapproveContent': 'Unapprove {{count}} selected BOM records?',
@@ -13982,7 +15200,8 @@ export default {
   'app.master-data.bom.materialIdPrefix': 'Material ID',
   'app.master-data.bom.noVersionDiff': 'No differences between versions',
   'app.master-data.bom.noVersionHistory': 'No version history',
-  'app.master-data.bom.versionCompareModalTitle': 'BOM Version Compare: {{version1}} vs {{version2}}',
+  'app.master-data.bom.versionCompareModalTitle':
+    'BOM Version Compare: {{version1}} vs {{version2}}',
   'app.master-data.bom.versionCompareAddedSection': 'Added child items ({{count}})',
   'app.master-data.bom.versionCompareRemovedSection': 'Removed child items ({{count}})',
   'app.master-data.bom.versionCompareModifiedSection': 'Modified child items ({{count}})',
@@ -14020,7 +15239,8 @@ export default {
   'app.master-data.materialForm.fetchExternalMappingsFailed': 'Failed to load external mappings',
   'app.master-data.materialForm.codeRuleNotConfigured': 'Material code rule not configured',
   'app.master-data.materialForm.autoGenerateCodeFailed': 'Auto generate code failed',
-  'app.master-data.materialForm.codeRuleConfigError': 'Code rule config error: material page should not use route code rule. Clear cache or contact admin.',
+  'app.master-data.materialForm.codeRuleConfigError':
+    'Code rule config error: material page should not use route code rule. Clear cache or contact admin.',
   'app.master-data.materialForm.editMaterial': 'Edit Material',
   'app.master-data.materialForm.createMaterial': 'Create Material',
   'app.master-data.materialForm.update': 'Update',
@@ -14035,7 +15255,8 @@ export default {
   'app.master-data.materialForm.inspectionModeNone': 'No Inspection',
   'app.master-data.materialForm.inspectionModeSimple': 'Simple (qualified qty only)',
   'app.master-data.materialForm.inspectionModePlan': 'Plan (linked to inspection module)',
-  'app.master-data.materialForm.inspectionModeSimpleHint': 'Simple inspection records qualified quantity only, no extra config needed.',
+  'app.master-data.materialForm.inspectionModeSimpleHint':
+    'Simple inspection records qualified quantity only, no extra config needed.',
   'app.master-data.materialForm.defaultInspectionPlan': 'Default Inspection Plan',
   'app.master-data.materialForm.gotoInspectionPlans': 'Create New Inspection Plan',
   'app.master-data.materialForm.defaults': 'Defaults',
@@ -14072,7 +15293,8 @@ export default {
   'app.master-data.materialForm.brandPlaceholder': 'Enter brand',
   'app.master-data.materialForm.brandMax': 'Brand cannot exceed 100 characters',
   'app.master-data.materialForm.texture': 'Material/Texture',
-  'app.master-data.materialForm.texturePlaceholder': 'Enter material (e.g. steel, plastic, aluminum)',
+  'app.master-data.materialForm.texturePlaceholder':
+    'Enter material (e.g. steel, plastic, aluminum)',
   'app.master-data.materialForm.textureMax': 'Material cannot exceed 100 characters',
   'app.master-data.materialForm.weight': 'Weight (kg)',
   'app.master-data.materialForm.weightPlaceholder': 'Enter weight',
@@ -14101,15 +15323,18 @@ export default {
   'app.master-data.materialForm.gotoBatchRules': 'Go to Batch Rules',
   'app.master-data.materialForm.gotoSerialRules': 'Go to Serial Rules',
   'app.master-data.suspendedModal.returnToForm': 'Return to continue filling',
-  'app.master-data.materialForm.defaultBatchRulePlaceholder': 'Use system default when not selected',
+  'app.master-data.materialForm.defaultBatchRulePlaceholder':
+    'Use system default when not selected',
   'app.master-data.materialForm.defaultSerialRule': 'Default Serial Rule',
-  'app.master-data.materialForm.defaultSerialRulePlaceholder': 'Use system default when not selected',
+  'app.master-data.materialForm.defaultSerialRulePlaceholder':
+    'Use system default when not selected',
   'app.master-data.materialForm.systemDefaultRule': 'System default (no dedicated rule)',
   'app.master-data.materialForm.variantManaged': 'Variant Managed',
   'app.master-data.materialForm.isActive': 'Active',
   'app.master-data.materialForm.materialImages': 'Material attachments',
   'app.master-data.materialForm.materialAttachmentsHint': 'Images, PDF, or DWG; up to 5 files',
-  'app.master-data.materialForm.attachmentInvalidType': 'Only images (JPG/PNG/GIF/WebP/SVG), PDF, DWG/DXF, STEP/STP, and XLS/XLSX are allowed',
+  'app.master-data.materialForm.attachmentInvalidType':
+    'Only images (JPG/PNG/GIF/WebP/SVG), PDF, DWG/DXF, STEP/STP, and XLS/XLSX are allowed',
   'app.master-data.materialForm.description': 'Description',
   'app.master-data.materialForm.descriptionPlaceholder': 'Enter description',
   'app.master-data.materialForm.submitFailed': 'Submit failed',
@@ -14122,7 +15347,8 @@ export default {
   'app.master-data.materialForm.manufacturingFabrication': 'Fabrication',
   'app.master-data.materialForm.manufacturingFabricationHint': 'Material + Process → Part',
   'app.master-data.materialForm.manufacturingAssembly': 'Assembly',
-  'app.master-data.materialForm.manufacturingAssemblyHint': 'Raw material assembly → Finished/Semi-finished product',
+  'app.master-data.materialForm.manufacturingAssemblyHint':
+    'Raw material assembly → Finished/Semi-finished product',
   'app.master-data.materialForm.unitName': 'Unit Name',
   'app.master-data.materialForm.unitPlaceholder': 'Select unit',
   'app.master-data.materialForm.conversionRelation': 'Conversion',
@@ -14142,7 +15368,8 @@ export default {
   'app.master-data.materialForm.denominatorMin': 'Unit "{{unit}}": denominator must be > 0',
   'app.master-data.materialForm.setBaseUnitFirst': 'Set base unit in Basic Info tab first',
   'app.master-data.materialForm.baseSettings': 'Base Settings',
-  'app.master-data.materialForm.conversionHint': 'Use numerator/denominator for precision. E.g. 1 ton = 1000 kg: num=1000, den=1.\n\nFormula: 1 aux unit = (num/den) × 1 base unit',
+  'app.master-data.materialForm.conversionHint':
+    'Use numerator/denominator for precision. E.g. 1 ton = 1000 kg: num=1000, den=1.\n\nFormula: 1 aux unit = (num/den) × 1 base unit',
   'app.master-data.materialForm.conversionTitle': 'Conversion',
   'app.master-data.materialForm.configValidation': 'Config Validation',
   'app.master-data.materialForm.configOverview': 'Config Overview',
@@ -14163,26 +15390,31 @@ export default {
   'app.master-data.materialForm.baseUnitColon': 'Base Unit:',
   'app.master-data.materialForm.addAuxiliaryUnit': 'Add Auxiliary Unit',
   'app.master-data.materialForm.scenarioUnitMappingOptional': 'Scenario Unit Mapping (Optional)',
-  'app.master-data.materialForm.scenarioUnitMappingHint': 'Specify units for different scenarios. Uses base unit if empty.',
+  'app.master-data.materialForm.scenarioUnitMappingHint':
+    'Specify units for different scenarios. Uses base unit if empty.',
   'app.master-data.materialForm.purchaseUnit': 'Purchase Unit',
   'app.master-data.materialForm.saleUnit': 'Sale Unit',
   'app.master-data.materialForm.productionUnit': 'Production Unit',
   'app.master-data.materialForm.inventoryUnit': 'Inventory Unit',
   'app.master-data.materialForm.images': 'Attachment',
-  'app.master-data.materialForm.loadVariantDefFailed': 'Failed to load variant attribute definitions',
+  'app.master-data.materialForm.loadVariantDefFailed':
+    'Failed to load variant attribute definitions',
   'app.master-data.materialForm.loading': 'Loading...',
   'app.master-data.materialForm.noVariantDef': 'No variant attribute definitions',
-  'app.master-data.materialForm.configVariantFirst': 'Configure variant attributes in Material Data → Variant Attributes first',
+  'app.master-data.materialForm.configVariantFirst':
+    'Configure variant attributes in Material Data → Variant Attributes first',
   'app.master-data.materialForm.selectAttr': 'Please select {{name}}',
   'app.master-data.materialForm.enterAttr': 'Please enter {{name}}',
   'app.master-data.materialForm.attrValidationFailed': 'Attribute validation failed',
   'app.master-data.materialForm.delete': 'Delete',
   'app.master-data.materialForm.sourceTypeLabel': 'Material Source Type',
   'app.master-data.materialForm.sourceTypePlaceholder': 'Select material source type',
-  'app.master-data.materialForm.sourceTypeExtra': 'Determines how material is obtained (Make/Buy/Outsource etc.)',
+  'app.master-data.materialForm.sourceTypeExtra':
+    'Determines how material is obtained (Make/Buy/Outsource etc.)',
   'app.master-data.materialForm.manufacturingMode': 'Manufacturing Mode',
   'app.master-data.materialForm.manufacturingModePlaceholder': 'Select manufacturing mode',
-  'app.master-data.materialForm.manufacturingModeExtra': 'Fabrication needs route; Assembly needs BOM',
+  'app.master-data.materialForm.manufacturingModeExtra':
+    'Fabrication needs route; Assembly needs BOM',
 
   // CodeMappingTab
   'app.master-data.codeMapping.department': 'Department Code',
@@ -14243,12 +15475,14 @@ export default {
   'app.master-data.defaults.defaultAccount': 'Default Account',
   'app.master-data.defaults.defaultAccountPlaceholder': 'Enter default account',
   'app.master-data.defaults.purchase': 'Purchase Defaults',
-  'app.master-data.defaults.purchaseAlert': 'Main default supplier for Buy items: configure in Basic Info → Material Source. Here: purchase defaults list (multi-select) for extended use.',
+  'app.master-data.defaults.purchaseAlert':
+    'Main default supplier for Buy items: configure in Basic Info → Material Source. Here: purchase defaults list (multi-select) for extended use.',
   'app.master-data.defaults.defaultSuppliers': 'Default Suppliers (multi-select, by priority)',
   'app.master-data.defaults.selectSuppliers': 'Select default suppliers',
   'app.master-data.defaults.defaultPurchasePrice': 'Default Purchase Price',
   'app.master-data.defaults.defaultPurchasePricePlaceholder': 'Enter default purchase price',
-  'app.master-data.defaults.defaultPurchasePriceTypeHint': 'Enter price as tax-inclusive or tax-exclusive; purchase documents convert using their price type and tax rate',
+  'app.master-data.defaults.defaultPurchasePriceTypeHint':
+    'Enter price as tax-inclusive or tax-exclusive; purchase documents convert using their price type and tax rate',
   'app.master-data.defaults.defaultPurchaseUnit': 'Default Purchase Unit',
   'app.master-data.defaults.defaultPurchaseUnitPlaceholder': 'Enter default purchase unit',
   'app.master-data.defaults.defaultPurchaseLeadTime': 'Default Purchase Lead Time (days)',
@@ -14256,7 +15490,8 @@ export default {
   'app.master-data.defaults.sale': 'Sale Defaults',
   'app.master-data.defaults.defaultSalePrice': 'Default Sale Price',
   'app.master-data.defaults.defaultSalePricePlaceholder': 'Enter default sale price',
-  'app.master-data.defaults.defaultSalePriceTypeHint': 'Enter price as tax-inclusive or tax-exclusive; sales documents convert using their price type and tax rate',
+  'app.master-data.defaults.defaultSalePriceTypeHint':
+    'Enter price as tax-inclusive or tax-exclusive; sales documents convert using their price type and tax rate',
   'app.master-data.defaults.defaultSaleUnit': 'Default Sale Unit',
   'app.master-data.defaults.defaultSaleUnitPlaceholder': 'Enter default sale unit',
   'app.master-data.defaults.defaultCustomers': 'Default Customers (multi-select)',
@@ -14286,7 +15521,8 @@ export default {
   'app.master-data.materials.groupInspectionStagesHint':
     'Used when materials in this group have no per-scenario inspection policy. Configure IPQC on operation master data.',
   'app.master-data.source.processRouteNotSet': 'No process route assigned',
-  'app.master-data.source.goToProductProcessPage': 'Open Product Process to maintain operations and resources',
+  'app.master-data.source.goToProductProcessPage':
+    'Open Product Process to maintain operations and resources',
   'app.master-data.source.gotoRoutes': 'Go to Process Routes',
   'app.master-data.source.routes': 'Process Routes',
   'app.master-data.source.selectProcessRoute': 'Select default process route',
@@ -14296,15 +15532,20 @@ export default {
   'app.master-data.source.selectDefaultBomVersion': 'Select default BOM version',
   'app.master-data.source.saveMaterialFirstForBom': 'Save the material first to maintain BOM',
   'app.master-data.manufacturing.tabTitle': 'Product Process',
-  'app.master-data.manufacturing.tabHint': 'Configure process route, operation sequence and times, default resources, piece rates, and linked labor performance for this make item. Save the material form to persist the default route on the material.',
+  'app.master-data.manufacturing.tabHint':
+    'Configure process route, operation sequence and times, default resources, piece rates, and linked labor performance for this make item. Save the material form to persist the default route on the material.',
   'app.master-data.manufacturing.sectionRoute': 'Process route',
-  'app.master-data.manufacturing.sectionRouteDesc': 'Assign the default process route for this material; work orders prefer the route on the material.',
+  'app.master-data.manufacturing.sectionRouteDesc':
+    'Assign the default process route for this material; work orders prefer the route on the material.',
   'app.master-data.manufacturing.sectionSequence': 'Operation sequence & times',
-  'app.master-data.manufacturing.sectionResources': 'Operation resources (workshop / operators / equipment)',
-  'app.master-data.manufacturing.sectionResourcesDesc': 'Default resources are maintained on each operation master record; edit from the list below.',
+  'app.master-data.manufacturing.sectionResources':
+    'Operation resources (workshop / operators / equipment)',
+  'app.master-data.manufacturing.sectionResourcesDesc':
+    'Default resources are maintained on each operation master record; edit from the list below.',
   'app.master-data.manufacturing.sectionPieceRates': 'Piece rates (this material)',
   'app.master-data.manufacturing.sectionLabor': 'Labor performance',
-  'app.master-data.manufacturing.sectionLaborDesc': 'Department/position hourly rates are maintained in Performance; the table lists configs for operators configured on route operations.',
+  'app.master-data.manufacturing.sectionLaborDesc':
+    'Department/position hourly rates are maintained in Performance; the table lists configs for operators configured on route operations.',
   'app.master-data.manufacturing.standardTime': 'Standard time (min/pc)',
   'app.master-data.manufacturing.setupTime': 'Setup time (min)',
   'app.master-data.manufacturing.minuteUnit': 'min',
@@ -14318,7 +15559,8 @@ export default {
   'app.master-data.manufacturing.saveRoute': 'Save sequence',
   'app.master-data.manufacturing.routeSaved': 'Operation sequence saved to route',
   'app.master-data.manufacturing.selectRouteFirst': 'Select a process route first',
-  'app.master-data.manufacturing.saveMaterialFirstForRates': 'Save the material before maintaining piece rates',
+  'app.master-data.manufacturing.saveMaterialFirstForRates':
+    'Save the material before maintaining piece rates',
   'app.master-data.manufacturing.pieceRateRequired': 'Select an operation and enter a rate',
   'app.master-data.manufacturing.addPieceRate': 'Add piece rate',
   'app.master-data.manufacturing.editPieceRate': 'Edit piece rate',
@@ -14327,12 +15569,14 @@ export default {
   'app.master-data.manufacturing.openPieceRatesPage': 'Open piece rate management',
   'app.master-data.manufacturing.openEmployeeConfigs': 'Employee performance configs',
   'app.master-data.manufacturing.openHourlyRates': 'Department hourly rates',
-  'app.master-data.manufacturing.noLinkedOperators': 'No operators on route operations or no linked configs',
+  'app.master-data.manufacturing.noLinkedOperators':
+    'No operators on route operations or no linked configs',
   'app.master-data.manufacturing.employeeName': 'Employee',
   'app.master-data.manufacturing.calcMode': 'Calc mode',
   'app.master-data.manufacturing.hourlyRate': 'Hourly rate',
   'app.master-data.routes.viewApplicableMaterials': 'Applicable materials',
-  'app.master-data.productProcess.pageDesc': 'Assign default process routes and maintain sequences, times, resources, and piece rates for make items. Maintain route templates under Process Routes.',
+  'app.master-data.productProcess.pageDesc':
+    'Assign default process routes and maintain sequences, times, resources, and piece rates for make items. Maintain route templates under Process Routes.',
   'app.master-data.productProcess.materialListTitle': 'Make items',
   'app.master-data.productProcess.searchMaterial': 'Search code or name',
   'app.master-data.productProcess.filterAll': 'All',
@@ -14340,24 +15584,32 @@ export default {
   'app.master-data.productProcess.filterUnassigned': 'No route',
   'app.master-data.productProcess.selectMaterialHint': 'Select a make item on the left',
   'app.master-data.productProcess.loadingMaterials': 'Loading make items…',
-  'app.master-data.productProcess.routeNotFound': 'Assigned process route is missing or deleted. Select a route and save assignment again.',
+  'app.master-data.productProcess.routeNotFound':
+    'Assigned process route is missing or deleted. Select a route and save assignment again.',
   'app.master-data.productProcess.noMaterials': 'No make items',
   'app.master-data.productProcess.save': 'Save',
   'app.master-data.productProcess.saved': 'Product process settings saved',
-  'app.master-data.productProcess.panelHint': 'Select a process route, edit sequence, times, resources, and piece rates in the table below, then Save.',
+  'app.master-data.productProcess.panelHint':
+    'Select a process route, edit sequence, times, resources, and piece rates in the table below, then Save.',
   'app.master-data.productProcess.unifiedTableTitle': 'Operation lines',
   'app.master-data.productProcess.addOperation': 'Add operation',
-  'app.master-data.productProcess.noLines': 'No operations. Select a route to load the template or add operations.',
-  'app.master-data.productProcess.linesTableHint': 'Drag the handle in the # column to reorder operations (same as route editor). Changing the route reloads from template. Empty resource cells inherit operation defaults. Review piece rates before saving.',
-  'app.master-data.productProcess.routeImportFailed': 'Failed to load operation template from route',
+  'app.master-data.productProcess.noLines':
+    'No operations. Select a route to load the template or add operations.',
+  'app.master-data.productProcess.linesTableHint':
+    'Drag the handle in the # column to reorder operations (same as route editor). Changing the route reloads from template. Empty resource cells inherit operation defaults. Review piece rates before saving.',
+  'app.master-data.productProcess.routeImportFailed':
+    'Failed to load operation template from route',
   'app.master-data.productProcess.filteredByRoute': 'Filtered by route: {{code}} — {{name}}',
   'app.master-data.productProcess.clearRouteFilter': 'Clear route filter',
-  'app.master-data.productProcess.listTruncated': '{{total}} make items total; showing first {{limit}}. Use search to narrow down.',
+  'app.master-data.productProcess.listTruncated':
+    '{{total}} make items total; showing first {{limit}}. Use search to narrow down.',
   'app.master-data.routes.applicableMaterialsTitle': 'Applicable materials',
-  'app.master-data.routes.applicableMaterialsHint': 'The primary entry is the Product Process tab on material master data; use this dialog to view or batch-link materials and groups for a route.',
+  'app.master-data.routes.applicableMaterialsHint':
+    'The primary entry is the Product Process tab on material master data; use this dialog to view or batch-link materials and groups for a route.',
   'app.master-data.routes.applicableMaterialGroups': 'Applicable material groups',
   'app.master-data.routes.applicableMaterialsExact': 'Applicable materials (exact)',
-  'app.master-data.routes.materialBindPriorityHint': 'Material-level assignment overrides group binding; prefer configuring the default route on the material form.',
+  'app.master-data.routes.materialBindPriorityHint':
+    'Material-level assignment overrides group binding; prefer configuring the default route on the material form.',
   'app.master-data.source.productionLeadTime': 'Production Lead Time (days)',
   'app.master-data.source.leadTimePlaceholder': 'Lead time',
   'app.master-data.source.minProductionBatch': 'Min Production Batch',
@@ -14381,20 +15633,24 @@ export default {
   'app.master-data.source.enterpriseProvide': 'Enterprise',
   'app.master-data.source.supplierProvide': 'Supplier',
   'app.master-data.source.configureTip': 'Configure Item',
-  'app.master-data.source.configureTipDesc': 'Configure item requires variant attributes and BOM variants. Configure in Variant Management tab.',
+  'app.master-data.source.configureTipDesc':
+    'Configure item requires variant attributes and BOM variants. Configure in Variant Management tab.',
   'app.master-data.source.defaultVariant': 'Default Variant',
   'app.master-data.source.defaultVariantPlaceholder': 'Enter default variant',
   'app.master-data.source.bomVariantsLabel': 'BOM Variant Config (JSON)',
   'app.master-data.source.bomVariantsPlaceholder': 'Format: {"variant1": {...}, "variant2": {...}}',
   'app.master-data.source.phantomTip': 'Phantom Item',
-  'app.master-data.source.phantomTipDesc': 'Phantom items do not exist physically, used for BOM expansion. Configure complete BOM structure; system will skip phantom and expand child materials.',
+  'app.master-data.source.phantomTipDesc':
+    'Phantom items do not exist physically, used for BOM expansion. Configure complete BOM structure; system will skip phantom and expand child materials.',
   'app.master-data.source.serviceTip': 'Service Item',
-  'app.master-data.source.serviceTipDesc': 'Service materials are for recording service items; no process route or supplier configuration required.',
+  'app.master-data.source.serviceTipDesc':
+    'Service materials are for recording service items; no process route or supplier configuration required.',
 
   // Operation sequence editor
   'app.master-data.operationSequence.loadListFailed': 'Failed to load operation list',
   'app.master-data.operationSequence.selectToAdd': 'Please select operations to add',
-  'app.master-data.operationSequence.allAddedOrNotFound': 'All selected operations are already added or not found',
+  'app.master-data.operationSequence.allAddedOrNotFound':
+    'All selected operations are already added or not found',
   'app.master-data.operationSequence.addSuccess': 'Added {{count}} operation(s)',
   'app.master-data.operationSequence.selectToReplace': 'Please select operation to replace',
   'app.master-data.operationSequence.cannotReplaceSame': 'Cannot replace with the same operation',
@@ -14422,19 +15678,24 @@ export default {
   'app.master-data.operationSequence.addOperation': 'Add Operation',
   'app.master-data.operationSequence.selectOperation': 'Select Operation',
   'app.master-data.operationSequence.replaceOperation': 'Replace Operation',
-  'app.master-data.operationSequence.selectOperationPlaceholder': 'Search and select operations (multiple)...',
+  'app.master-data.operationSequence.selectOperationPlaceholder':
+    'Search and select operations (multiple)...',
   'app.master-data.operationSequence.pickSearchPlaceholder': 'Search by operation code or name',
   'app.master-data.operationSequence.pickSelected': '{{count}} selected',
   'app.master-data.operationSequence.pickSelectAll': 'Select all in list',
   'app.master-data.operationSequence.pickClear': 'Clear',
-  'app.master-data.operationSequence.selectReplacePlaceholder': 'Search and select operation to replace...',
+  'app.master-data.operationSequence.selectReplacePlaceholder':
+    'Search and select operation to replace...',
   'app.master-data.operationSequence.loading': 'Loading...',
   'app.master-data.operationSequence.noAvailableOperations': 'No available operations',
   'app.master-data.operationSequence.quickAddOperation': 'Quick add operation',
-  'app.master-data.operationSequence.createOperationFirst': 'No available operations. Use Quick add operation above to create one',
+  'app.master-data.operationSequence.createOperationFirst':
+    'No available operations. Use Quick add operation above to create one',
   'app.master-data.operationSequence.currentOperation': 'Current operation:',
-  'app.master-data.operationSequence.hint': 'Supports drag-and-drop sorting, click delete to remove',
-  'app.master-data.operationSequence.noDataAddHint': 'No operations yet, click the button below to add',
+  'app.master-data.operationSequence.hint':
+    'Supports drag-and-drop sorting, click delete to remove',
+  'app.master-data.operationSequence.noDataAddHint':
+    'No operations yet, click the button below to add',
 
   // FormSchemaEditor collection field config
   'app.master-data.formSchema.fieldConfig': 'Collection Field Config',
@@ -14450,7 +15711,8 @@ export default {
   'app.master-data.formSchema.addFieldTitle': 'Add Field',
   'app.master-data.formSchema.fieldCode': 'Field Code',
   'app.master-data.formSchema.fieldCodeRequired': 'Please enter field code',
-  'app.master-data.formSchema.fieldCodePattern': 'Field code can only contain letters, numbers, underscore, and cannot start with a number',
+  'app.master-data.formSchema.fieldCodePattern':
+    'Field code can only contain letters, numbers, underscore, and cannot start with a number',
   'app.master-data.formSchema.fieldCodePlaceholder': 'Enter field code (e.g. step_name)',
   'app.master-data.formSchema.fieldLabel': 'Field Label',
   'app.master-data.formSchema.fieldLabelRequired': 'Please enter field label',
@@ -14473,7 +15735,8 @@ export default {
   'app.master-data.formSchema.optionsMustBeArray': 'Options must be an array',
   'app.master-data.formSchema.optionsFormatError': 'Each option must have label and value',
   'app.master-data.formSchema.optionsJsonError': 'Invalid JSON format',
-  'app.master-data.formSchema.optionsTooltip': 'Configure options for the select; each row has a label and value.',
+  'app.master-data.formSchema.optionsTooltip':
+    'Configure options for the select; each row has a label and value.',
   'app.master-data.formSchema.minValue': 'Min',
   'app.master-data.formSchema.minPlaceholder': 'Min (optional)',
   'app.master-data.formSchema.maxValue': 'Max',
@@ -14482,7 +15745,8 @@ export default {
   'app.master-data.formSchema.unitPlaceholder': 'Unit (e.g. N·m, ℃, kg)',
   'app.master-data.formSchema.precision': 'Precision',
   'app.master-data.formSchema.precisionPlaceholder': 'Decimal places (0-10)',
-  'app.master-data.formSchema.optionsFormatErrorMsg': 'Invalid options format. Please enter valid JSON array',
+  'app.master-data.formSchema.optionsFormatErrorMsg':
+    'Invalid options format. Please enter valid JSON array',
   'app.master-data.formSchema.fieldCodeExists': 'Field code already exists',
   'app.master-data.formSchema.fieldUpdated': 'Field updated',
   'app.master-data.formSchema.fieldAdded': 'Field added',
@@ -14560,7 +15824,8 @@ export default {
   'field.customer.assignedAt': 'Assigned At',
   'field.customer.lastFollowUpAt': 'Last Follow-up',
   'field.customer.assignToMe': 'Claim for me on create',
-  'field.customer.assignToMeDesc': 'When enabled, the new customer is assigned to you; otherwise it goes to the open pool',
+  'field.customer.assignToMeDesc':
+    'When enabled, the new customer is assigned to you; otherwise it goes to the open pool',
   'field.customer.viewInPool': 'View in customer pool',
   'field.customer.viewInMasterData': 'Master data detail',
   'field.customer.createTitle': 'Create Customer',
@@ -14572,9 +15837,11 @@ export default {
   'field.partner.taxRegistrationNo': 'Unified social credit code / Tax ID',
   'field.partner.taxRegistrationNoPlaceholder': '18-character unified code or taxpayer ID',
   'field.partner.taxRegistrationNoMaxLength': 'Max 50 characters',
-  'field.partner.taxRegistrationNoExtra': 'Businesses usually use the unified social credit code; individuals may use ID number.',
+  'field.partner.taxRegistrationNoExtra':
+    'Businesses usually use the unified social credit code; individuals may use ID number.',
   'field.partner.invoiceTitle': 'Invoice title',
-  'field.partner.invoiceTitlePlaceholder': 'Defaults to legal name if left aligned with registration',
+  'field.partner.invoiceTitlePlaceholder':
+    'Defaults to legal name if left aligned with registration',
   'field.partner.invoiceTitleMaxLength': 'Max 200 characters',
   'field.partner.invoiceAddress': 'Invoice address',
   'field.partner.invoiceAddressPlaceholder': 'Address printed on VAT invoice',
@@ -14591,8 +15858,10 @@ export default {
   'field.partner.invoiceTypePlaceholder': 'Select',
   'field.partner.invoiceType.digitalSpecial': 'Fully digital VAT special invoice',
   'field.partner.invoiceType.digitalOrdinary': 'Fully digital VAT ordinary invoice',
-  'field.partner.invoiceType.legacyVatOrdinary': 'VAT ordinary invoice (paper, legacy — no longer issued)',
-  'field.partner.invoiceType.legacyVatSpecial': 'VAT special invoice (paper, legacy — no longer issued)',
+  'field.partner.invoiceType.legacyVatOrdinary':
+    'VAT ordinary invoice (paper, legacy — no longer issued)',
+  'field.partner.invoiceType.legacyVatSpecial':
+    'VAT special invoice (paper, legacy — no longer issued)',
   'field.partner.invoiceType.legacyVatESpecial': 'Legacy electronic VAT special invoice',
   'field.partner.invoiceType.legacyVatEOrdinary': 'Legacy electronic VAT ordinary invoice',
   'field.partner.taxpayerType': 'Taxpayer type',
@@ -14783,7 +16052,8 @@ export default {
   'field.warehouse.workshopIdPlaceholder': 'Select workshop (required for line-side)',
   'field.warehouse.workshopIdRequired': 'Line-side warehouse must be linked to a workshop',
   'field.warehouse.workstationId': 'Workstation',
-  'field.warehouse.workstationIdPlaceholder': 'Select workstation (optional, for workstation-level line-side)',
+  'field.warehouse.workstationIdPlaceholder':
+    'Select workstation (optional, for workstation-level line-side)',
   'field.warehouse.workCenterId': 'Work Center',
   'field.warehouse.workCenterIdPlaceholder': 'Select work center (optional)',
   'field.warehouse.workshopName': 'Workshop',
@@ -14834,8 +16104,10 @@ export default {
   'field.storageLocation.quickAddStorageArea': 'Quick add storage area',
   'field.storageLocation.batchCreateTitle': 'Batch Create Locations',
   'field.storageLocation.codePrefix': 'Code Prefix',
-  'field.storageLocation.codePrefixPlaceholder': 'Defaults to storage area code, leave empty for no prefix',
-  'field.storageLocation.codePrefixExtra': 'Auto-filled with storage area code when selected, editable or clearable',
+  'field.storageLocation.codePrefixPlaceholder':
+    'Defaults to storage area code, leave empty for no prefix',
+  'field.storageLocation.codePrefixExtra':
+    'Auto-filled with storage area code when selected, editable or clearable',
   'field.storageLocation.shelfRows': 'Shelf Rows',
   'field.storageLocation.shelfRowsPlaceholder': '1-99',
   'field.storageLocation.shelfLayers': 'Shelf Layers',
@@ -14852,7 +16124,8 @@ export default {
   'field.storageLocation.batchCreatePreview': 'Preview',
   'field.storageLocation.batchCreateBack': 'Back',
   'field.storageLocation.batchCreateConfirm': 'Confirm Create',
-  'field.storageLocation.batchCreatePreviewSummary': '{{count}} location(s) will be created. Please verify and click "Confirm Create".',
+  'field.storageLocation.batchCreatePreviewSummary':
+    '{{count}} location(s) will be created. Please verify and click "Confirm Create".',
   'field.storageLocation.batchCreatePreviewMore': 'Showing first {{shown}} of {{total}}',
   'field.storageLocation.codePrefixNone': 'None',
   'field.holiday.name': 'Holiday Name',
@@ -14890,17 +16163,21 @@ export default {
   'field.operation.reportingType': 'Reporting Type',
   'field.operation.allowJump': 'Allow Jump',
   'field.operation.isNodeOperation': 'Node operation',
-  'field.operation.isNodeOperationExtra': 'Node operation: when jump is allowed at work order or operation level, preceding nodes still cannot be skipped (must have output or be completed).',
+  'field.operation.isNodeOperationExtra':
+    'Node operation: when jump is allowed at work order or operation level, preceding nodes still cannot be skipped (must have output or be completed).',
   'field.operation.overReportMode': 'Over-report mode',
   'field.operation.overReportModeNone': 'Not allowed',
   'field.operation.overReportModeFixed': 'By quantity',
   'field.operation.overReportModePercent': 'By ratio',
   'field.operation.overReportValue': 'Over-report value',
-  'field.operation.overReportValuePlaceholder': 'Fixed: extra units; Percent: percentage of work order qty',
-  'field.operation.overReportValueExtra': 'Fixed: extra completed quantity allowed above plan. Percent: plan × this % as extra allowance.',
+  'field.operation.overReportValuePlaceholder':
+    'Fixed: extra units; Percent: percentage of work order qty',
+  'field.operation.overReportValueExtra':
+    'Fixed: extra completed quantity allowed above plan. Percent: plan × this % as extra allowance.',
   'field.route.overReportMode': 'Route default over-report',
   'field.route.overReportValue': 'Route default value',
-  'field.route.overReportValueExtra': 'Inherited when a step has no own setting; steps can override.',
+  'field.route.overReportValueExtra':
+    'Inherited when a step has no own setting; steps can override.',
   'field.route.allowOperationJump': 'Allow operation jump',
   'field.route.allowOperationJumpExtra':
     'Applies to the whole route. When allowed, mark node operations in the sequence; when not, work orders must report in sequence.',
@@ -14912,7 +16189,8 @@ export default {
   'field.operation.inspectionModePlan': 'Plan (linked to inspection module)',
   'field.operation.defaultInspectionPlan': 'Default Inspection Plan',
   'field.operation.defaultInspectionPlanPlaceholder': 'Select default inspection plan',
-  'field.operation.defectTypeUuidsSimpleHint': 'When using simple inspection, configure defect types for recording unqualified quantity',
+  'field.operation.defectTypeUuidsSimpleHint':
+    'When using simple inspection, configure defect types for recording unqualified quantity',
   'field.operation.gotoInspectionPlans': 'Create New Inspection Plan',
   'field.operation.defectTypeUuids': 'Defect Types',
   'field.operation.quickAddDefectType': 'Quick add defect type',
@@ -14944,8 +16222,10 @@ export default {
   'field.operation.optionWorkstation': '[Workstation]',
   'field.operation.reportingTypeQuantity': 'Quantity',
   'field.operation.reportingTypeStatus': 'Status',
-  'field.operation.reportingTypeExtra': 'Quantity: input completed/qualified counts. Status: done/not-done only.',
-  'field.operation.allowJumpExtra': 'Allow jump: parallel execution. Disallow: must complete previous operation first.',
+  'field.operation.reportingTypeExtra':
+    'Quantity: input completed/qualified counts. Status: done/not-done only.',
+  'field.operation.allowJumpExtra':
+    'Allow jump: parallel execution. Disallow: must complete previous operation first.',
   'field.operation.codeAutoGenerated': 'Please enter {{label}}',
   'field.operation.createTitle': 'Create Operation',
   'field.operation.loadPreset': 'Load Preset',
@@ -14980,7 +16260,8 @@ export default {
   'field.role.roleTypeExternal': 'External Role',
   'field.role.externalPartnerType': 'External Binding Type',
   'field.role.externalPartnerTypePlaceholder': 'Select customer or supplier',
-  'field.role.externalPartnerTypeExtra': 'Only required for external roles; internal roles clear this automatically.',
+  'field.role.externalPartnerTypeExtra':
+    'Only required for external roles; internal roles clear this automatically.',
   'field.role.externalPartnerCustomer': 'Customer',
   'field.role.externalPartnerSupplier': 'Supplier',
   'field.role.createPosition': 'Create position from role',
@@ -14989,10 +16270,12 @@ export default {
   'field.role.createSuccessWithPosition': 'Role and position created successfully',
   'field.role.homePath': 'UniTabs home page',
   'field.role.homePathPlaceholder': 'Pick a route, or leave empty for global rules',
-  'field.role.homePathExtra': 'Takes priority over menu home. Otherwise: menu home → workplace → default home page.',
+  'field.role.homePathExtra':
+    'Takes priority over menu home. Otherwise: menu home → workplace → default home page.',
   'field.role.createTitle': 'Create Role',
   'pages.system.defaultHome.title': 'Welcome',
-  'pages.system.defaultHome.description': 'No role or menu home is configured. Open a feature from the sidebar, or ask an admin to set a home page under Roles or Menus.',
+  'pages.system.defaultHome.description':
+    'No role or menu home is configured. Open a feature from the sidebar, or ask an admin to set a home page under Roles or Menus.',
   'pages.system.defaultHome.goWorkplace': 'Go to workplace',
   'pages.system.defaultHome.goApplications': 'Application center',
   'pages.system.roles.saveRoleHome': 'Save home page',
@@ -15006,7 +16289,8 @@ export default {
   'field.role.permissions': 'Permissions',
   'field.role.delete': 'Delete',
   'field.role.deleteConfirm': 'Are you sure to delete this role?',
-  'field.role.batchDeleteConfirm': 'Are you sure to delete the selected {{count}} records? System roles cannot be deleted. This action cannot be undone.',
+  'field.role.batchDeleteConfirm':
+    'Are you sure to delete the selected {{count}} records? System roles cannot be deleted. This action cannot be undone.',
   'field.role.systemRole': 'System Role',
   'field.role.permissionCount': 'Permissions',
   'field.role.userCount': 'Users',
@@ -15028,7 +16312,8 @@ export default {
   'field.department.nameRequired': 'Please enter department name',
   'field.department.codePlaceholder': 'Enter department code',
   'field.department.codeRequired': 'Please enter department code',
-  'field.department.parentIdPlaceholder': 'Select parent department (optional, leave empty for top-level)',
+  'field.department.parentIdPlaceholder':
+    'Select parent department (optional, leave empty for top-level)',
   'field.department.descriptionPlaceholder': 'Enter remark',
   'field.department.createTitle': 'Create Department',
   'field.department.loadPreset': 'Load Preset',
@@ -15042,16 +16327,21 @@ export default {
   'field.department.delete': 'Delete',
   'field.department.deleteConfirm': 'Are you sure to delete department "{{name}}"?',
   'field.department.deleteConfirmDesc': 'This action cannot be undone.',
-  'field.department.batchDeleteConfirm': 'Are you sure to delete the selected {{count}} departments? This action cannot be undone.',
-  'field.department.batchDeleteTitle': 'Are you sure you want to batch delete the selected departments?',
-  'field.department.batchDeleteDescription': '{{count}} department(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'field.department.batchDeleteConfirm':
+    'Are you sure to delete the selected {{count}} departments? This action cannot be undone.',
+  'field.department.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected departments?',
+  'field.department.batchDeleteDescription':
+    '{{count}} department(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'field.department.batchDeleteBlocked': 'Batch Delete Blocked',
   'field.department.batchDeleteBlockedList': 'The following departments cannot be deleted:',
   'field.department.batchDeleteBlockedHint': 'Please resolve the issues and try again.',
-  'field.department.checkHasChildren': 'Department has child departments. Delete or move them first.',
+  'field.department.checkHasChildren':
+    'Department has child departments. Delete or move them first.',
   'field.department.checkHasPositions': 'Department has linked positions. Resolve them first.',
   'field.department.checkHasUsers': 'Department has linked users. Remove them first.',
-  'field.department.alreadyDeletedRefresh': 'This department was already deleted or does not exist. The list has been refreshed.',
+  'field.department.alreadyDeletedRefresh':
+    'This department was already deleted or does not exist. The list has been refreshed.',
   'field.department.childrenCount': '{{count}} children',
   'field.department.userCount': 'Users',
   'field.department.userCountTag': '{{count}} users',
@@ -15071,7 +16361,8 @@ export default {
   'field.department.queryCode': 'Query Code',
   'field.department.datasetBindingModalTitle': 'Departments · Dataset binding',
   'field.department.datasetBindingDataset': 'Dataset',
-  'field.department.datasetBindingDatasetPlaceholder': 'Choose a dataset to sync departments from (must support parameterless query)',
+  'field.department.datasetBindingDatasetPlaceholder':
+    'Choose a dataset to sync departments from (must support parameterless query)',
   'field.department.datasetBindingLoadColumns': 'Load column names (run one parameterless query)',
   'field.department.colDepartmentName': 'Department name column',
   'field.department.colDepartmentCode': 'Department code column',
@@ -15084,10 +16375,12 @@ export default {
     'Runs a parameterless query on the saved dataset and upserts departments from column mappings. Parent references are applied after all rows are processed.',
   'field.department.syncIntroWarning':
     'Duration depends on row count and database/network conditions and may take from tens of seconds to several minutes. Do not close or refresh this page until sync finishes.',
-  'field.department.syncNeedBinding': 'Configure the dataset and save at least the department name column mapping first',
+  'field.department.syncNeedBinding':
+    'Configure the dataset and save at least the department name column mapping first',
   'field.department.syncComplete':
     'Sync finished: created {{created}}, updated {{updated}}, skipped {{skipped}} rows (missing department name)',
-  'field.department.bindingColumnsLoaded': 'Loaded {{count}} column(s); pick mappings from the dropdown',
+  'field.department.bindingColumnsLoaded':
+    'Loaded {{count}} column(s); pick mappings from the dropdown',
   'field.position.name': 'Position Name',
   'field.position.code': 'Position Code',
   'field.position.departmentUuid': 'Department',
@@ -15112,9 +16405,12 @@ export default {
   'field.position.status': 'Status',
   'field.position.userCount': 'Users',
   'field.position.deleteConfirm': 'Are you sure to delete this position?',
-  'field.position.batchDeleteConfirm': 'Are you sure to delete the selected {{count}} records? This action cannot be undone.',
-  'field.position.batchDeleteTitle': 'Are you sure you want to batch delete the selected positions?',
-  'field.position.batchDeleteDescription': '{{count}} position(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'field.position.batchDeleteConfirm':
+    'Are you sure to delete the selected {{count}} records? This action cannot be undone.',
+  'field.position.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected positions?',
+  'field.position.batchDeleteDescription':
+    '{{count}} position(s) will be deleted. This action cannot be undone. Please proceed with caution.',
 
   // Platform-level fields
   'field.tenant.name': 'Tenant Name',
@@ -15133,7 +16429,8 @@ export default {
   'field.language.isActive': 'Enabled',
   'field.language.codePlaceholder': 'Select language code',
   'field.language.codeRequired': 'Please select language code',
-  'field.language.codeExtra': 'Language code is for program identification. Cannot be changed after creation.',
+  'field.language.codeExtra':
+    'Language code is for program identification. Cannot be changed after creation.',
   'field.language.namePlaceholder': 'e.g. Chinese, English, 日本語',
   'field.language.nameRequired': 'Please enter language name',
   'field.language.codeZhCN': 'Simplified Chinese (zh-CN)',
@@ -15149,12 +16446,16 @@ export default {
   'field.language.edit': 'Edit',
   'field.language.delete': 'Delete',
   'field.language.deleteConfirm': 'Are you sure to delete this language?',
-  'field.language.batchDeleteConfirm': 'Are you sure to delete the selected {{count}} records? Default language cannot be deleted. This action cannot be undone.',
-  'field.language.batchDeleteTitle': 'Are you sure you want to batch delete the selected languages?',
-  'field.language.batchDeleteDescription': '{{count}} language(s) will be deleted. This action cannot be undone. Default language cannot be deleted.',
+  'field.language.batchDeleteConfirm':
+    'Are you sure to delete the selected {{count}} records? Default language cannot be deleted. This action cannot be undone.',
+  'field.language.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected languages?',
+  'field.language.batchDeleteDescription':
+    '{{count}} language(s) will be deleted. This action cannot be undone. Default language cannot be deleted.',
   'field.language.translationCount': 'Translations',
   'field.language.loadSystemLanguages': 'Load System Languages',
-  'field.language.loadSystemLanguagesSuccess': 'System languages loaded! Created {{created}}, skipped {{skipped}} existing',
+  'field.language.loadSystemLanguagesSuccess':
+    'System languages loaded! Created {{created}}, skipped {{skipped}} existing',
   'field.language.syncFromLocale': 'Sync from Locale',
   'field.language.syncFromLocaleSuccess': 'Synced {{count}} translations from locale',
   'field.language.translationKey': 'Key',
@@ -15185,7 +16486,8 @@ export default {
   'field.invitationCode.edit': 'Edit',
   'field.invitationCode.delete': 'Delete',
   'field.invitationCode.deleteConfirm': 'Are you sure to delete this invitation code?',
-  'field.invitationCode.batchDeleteConfirm': 'Are you sure to delete the selected {{count}} records? This action cannot be undone.',
+  'field.invitationCode.batchDeleteConfirm':
+    'Are you sure to delete the selected {{count}} records? This action cannot be undone.',
   'field.invitationCode.copy': 'Copy',
   'field.invitationCode.copySuccess': 'Invitation code copied to clipboard',
   'field.invitationCode.usedCount': 'Usage',
@@ -15212,10 +16514,12 @@ export default {
   'field.dataDictionary.items': 'Items',
   'field.dataDictionary.delete': 'Delete',
   'field.dataDictionary.deleteConfirm': 'Are you sure to delete this dictionary?',
-  'field.dataDictionary.batchDeleteConfirm': 'Are you sure to delete the selected {{count}} records? System dictionaries cannot be deleted. This action cannot be undone.',
+  'field.dataDictionary.batchDeleteConfirm':
+    'Are you sure to delete the selected {{count}} records? System dictionaries cannot be deleted. This action cannot be undone.',
   'field.dataDictionary.systemDictionary': 'System Dictionary',
   'field.dataDictionary.loadSystemDictionaries': 'Load System Dictionaries',
-  'field.dataDictionary.loadSystemDictionariesSuccess': 'System dictionaries initialized! Created {{dictCount}} dictionaries, {{itemsCreated}} items created, {{itemsUpdated}} items updated',
+  'field.dataDictionary.loadSystemDictionariesSuccess':
+    'System dictionaries initialized! Created {{dictCount}} dictionaries, {{itemsCreated}} items created, {{itemsUpdated}} items updated',
   'field.dataDictionary.manageItems': 'Manage Items',
   'field.dataDictionary.createItem': 'Create Item',
   'field.dataDictionary.editItem': 'Edit Item',
@@ -15270,12 +16574,14 @@ export default {
   'field.systemParameter.edit': 'Edit',
   'field.systemParameter.delete': 'Delete',
   'field.systemParameter.deleteConfirm': 'Are you sure you want to delete this parameter?',
-  'field.systemParameter.batchDeleteConfirm': 'Are you sure you want to delete the selected {{count}} record(s)? System parameters cannot be deleted. This action cannot be undone.',
+  'field.systemParameter.batchDeleteConfirm':
+    'Are you sure you want to delete the selected {{count}} record(s)? System parameters cannot be deleted. This action cannot be undone.',
   'field.systemParameter.keyPlaceholder': 'Enter parameter key (unique identifier)',
   'field.systemParameter.keyRequired': 'Please enter parameter key',
   'field.systemParameter.typeRequired': 'Please select parameter type',
   'field.systemParameter.valueRequired': 'Please enter parameter value',
-  'field.systemParameter.valueJsonPlaceholder': 'Enter JSON value, e.g. {"key": "value"} or ["item1", "item2"]',
+  'field.systemParameter.valueJsonPlaceholder':
+    'Enter JSON value, e.g. {"key": "value"} or ["item1", "item2"]',
   'field.systemParameter.valueStringPlaceholder': 'Enter string value',
   'field.systemParameter.valueNumberPlaceholder': 'Enter number',
   'field.systemParameter.descriptionPlaceholder': 'Enter parameter description',
@@ -15458,7 +16764,8 @@ export default {
   'pages.system.applications.dedicatedBindingTenantIdCol': 'Tenant ID',
   'pages.system.applications.dedicatedBindingCreatedAt': 'Bound at',
   'pages.system.applications.dedicatedBindingUnbind': 'Unbind',
-  'pages.system.applications.dedicatedBindingUnbindConfirm': 'Unbind this tenant from this custom app?',
+  'pages.system.applications.dedicatedBindingUnbindConfirm':
+    'Unbind this tenant from this custom app?',
   'pages.system.applications.dedicatedBindingAddSection': 'Bind more tenants',
   'pages.system.applications.dedicatedBindingTenantPlaceholder': 'Search tenants by keyword',
   'pages.system.applications.dedicatedBindingBind': 'Bind selected tenant',
@@ -15467,7 +16774,8 @@ export default {
   'pages.system.applications.dedicatedBindingPickTenant': 'Select a tenant to bind',
   'pages.system.applications.dedicatedBindingBindSuccess': 'Bound successfully',
   'pages.system.applications.dedicatedBindingBindFailed': 'Bind failed',
-  'pages.system.applications.dedicatedBindingNoCurrentTenant': 'No tenant context on this account; cannot bind current tenant',
+  'pages.system.applications.dedicatedBindingNoCurrentTenant':
+    'No tenant context on this account; cannot bind current tenant',
   'pages.system.applications.dedicatedBindingUnbindSuccess': 'Unbound successfully',
   'pages.system.applications.dedicatedBindingUnbindFailed': 'Unbind failed',
   'pages.system.applications.syncFailed': 'Sync failed',
@@ -15512,8 +16820,10 @@ export default {
   'pages.system.applications.mutualExclusiveSwitchTitle': 'Mutually exclusive mode switch',
   'pages.system.applications.mutualExclusiveSwitchingTo': 'You are switching to {{target}}.',
   'pages.system.applications.mutualExclusiveCurrentlyEnabled': 'Currently enabled',
-  'pages.system.applications.mutualExclusiveWillAutoDisable': ' will be automatically disabled and hidden from the menu.',
-  'pages.system.applications.mutualExclusiveDataShared': 'Both modes share the same business data. Switching will not lose data.',
+  'pages.system.applications.mutualExclusiveWillAutoDisable':
+    ' will be automatically disabled and hidden from the menu.',
+  'pages.system.applications.mutualExclusiveDataShared':
+    'Both modes share the same business data. Switching will not lose data.',
   'pages.system.applications.mutualExclusiveConfirm': 'Switch',
   'pages.system.applications.customAppsEmptyTitle': 'No authorized custom apps yet',
   'pages.system.applications.customAppsEmptyDescription':
@@ -15527,14 +16837,16 @@ export default {
   'pages.system.applications.clientReleasesSectionTitle': 'Client',
   'pages.system.applications.clientReleasesLoading': 'Loading client releases…',
   'pages.system.applications.clientReleasesLinkedTitle': 'Linked clients',
-  'pages.system.applications.clientReleasesManageLink': 'Manage releases in platform console (platform admin required)',
+  'pages.system.applications.clientReleasesManageLink':
+    'Manage releases in platform console (platform admin required)',
   'pages.system.applications.noDataExport': 'No data to export',
   'pages.system.applications.exportSuccessCount': 'Exported {{count}} record(s)',
   'pages.system.applications.exportFailed': 'Export failed',
   'pages.system.applications.loadListFailed': 'Failed to load application list',
   'pages.system.applications.scanApplications': 'Scan Applications',
   'pages.system.applications.scanSuccess': 'Scanned and registered {{count}} application(s)',
-  'pages.system.applications.scanMenuHint': 'Scan updates the application catalog only. If menus or permissions look stale, use Sync All Menus.',
+  'pages.system.applications.scanMenuHint':
+    'Scan updates the application catalog only. If menus or permissions look stale, use Sync All Menus.',
   'pages.system.applications.scanFailed': 'Failed to scan applications',
   'pages.system.applications.syncAllMenus': 'Sync All Menus',
   'pages.system.applications.syncAllNoApps': 'No installed applications',
@@ -15551,86 +16863,118 @@ export default {
   'pages.system.applications.editModalTitle': 'App settings - {{name}}',
   'pages.system.applications.upgradeModalTitle': 'Upgrade - {{name}}',
   'pages.system.applications.restoreDefault': 'Restore default',
-  'pages.system.applications.restoreDefaultConfirm': 'Restore default name and config from manifest.json?',
+  'pages.system.applications.restoreDefaultConfirm':
+    'Restore default name and config from manifest.json?',
   'pages.system.applications.restoreSuccess': 'Default restored',
   'pages.system.applications.restoreFailed': 'Restore failed',
   'pages.system.applications.nameLabel': 'Application name',
   'sys.app.kuaizhizao.name': 'Kuai Manufacturing',
-  'sys.app.kuaizhizao.desc': 'Full-process integrated control and collaboration platform for manufacturing',
+  'sys.app.kuaizhizao.desc':
+    'Full-process integrated control and collaboration platform for manufacturing',
   'sys.app.kuaiplm.name': 'Kuai PLM',
-  'sys.app.kuaiplm.desc': 'R&D project / NPI stage gate, design change and knowledge center collaboration platform',
+  'sys.app.kuaiplm.desc':
+    'R&D project / NPI stage gate, design change and knowledge center collaboration platform',
   'sys.app.kuaicaiwu.name': 'Kuai Finance',
-  'sys.app.kuaicaiwu.desc': 'Management accounting and business analysis collaboration platform (excluding general ledger)',
+  'sys.app.kuaicaiwu.desc':
+    'Management accounting and business analysis collaboration platform (excluding general ledger)',
   'sys.app.kuaireport.name': 'Kuai Report',
   'sys.app.kuaireport.desc': 'Multi-source data aggregation and business analysis decision center',
   'sys.app.master-data.name': 'Master Data',
   'sys.app.master-data.desc': 'The single source of truth for the system',
   'sys.app.kuaierp.name': 'Kuai ERP',
-  'sys.app.kuaierp.desc': 'Full-link collaboration management platform for procurement, sales, and inventory',
+  'sys.app.kuaierp.desc':
+    'Full-link collaboration management platform for procurement, sales, and inventory',
   'sys.app.kuaimes.name': 'Kuai MES',
-  'sys.app.kuaimes.desc': 'Lean shop floor execution and production planning real-time collaboration platform',
+  'sys.app.kuaimes.desc':
+    'Lean shop floor execution and production planning real-time collaboration platform',
   'sys.app.kuaiiot.name': 'Kuai IoT',
-  'sys.app.kuaiiot.desc': 'Industrial IoT device data acquisition and integration platform — coming soon',
+  'sys.app.kuaiiot.desc':
+    'Industrial IoT device data acquisition and integration platform — coming soon',
   'sys.app.kuaiai.name': 'KU-AI',
-  'sys.app.kuaiai.desc': 'AI assistant embedded in business workflows — conversational help and intelligent business suggestions',
-
+  'sys.app.kuaiai.desc':
+    'AI assistant embedded in business workflows — conversational help and intelligent business suggestions',
 
   'pages.system.applications.mock.kuaicrm.name': 'Kuai CRM',
-  'pages.system.applications.mock.kuaicrm.desc': 'Next-generation intelligent CRM system, coming soon',
+  'pages.system.applications.mock.kuaicrm.desc':
+    'Next-generation intelligent CRM system, coming soon',
   'pages.system.applications.mock.kuaisrm.name': 'Kuai SRM',
-  'pages.system.applications.mock.kuaisrm.desc': 'Next-generation supply chain and supplier collaboration platform, coming soon',
+  'pages.system.applications.mock.kuaisrm.desc':
+    'Next-generation supply chain and supplier collaboration platform, coming soon',
   'pages.system.applications.mock.kuaimachinery.name': 'Machining Add-on',
-  'pages.system.applications.mock.kuaimachinery.desc': 'Exclusive capability package for the machining industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaimachinery.desc':
+    'Exclusive capability package for the machining industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaimolding.name': 'Injection Molding Add-on',
-  'pages.system.applications.mock.kuaimolding.desc': 'Exclusive capability package for the injection molding industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaimolding.desc':
+    'Exclusive capability package for the injection molding industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaielectronics.name': 'Electronics Add-on',
-  'pages.system.applications.mock.kuaielectronics.desc': 'Exclusive capability package for the electronics industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaielectronics.desc':
+    'Exclusive capability package for the electronics industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaiautoparts.name': 'Auto Parts Add-on',
-  'pages.system.applications.mock.kuaiautoparts.desc': 'Exclusive capability package for the auto parts industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaiautoparts.desc':
+    'Exclusive capability package for the auto parts industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaimedical.name': 'Medical Devices Add-on',
-  'pages.system.applications.mock.kuaimedical.desc': 'Exclusive capability package for the medical device industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaimedical.desc':
+    'Exclusive capability package for the medical device industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaifood.name': 'Food & Beverage Add-on',
-  'pages.system.applications.mock.kuaifood.desc': 'Exclusive capability package for the food & beverage industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaifood.desc':
+    'Exclusive capability package for the food & beverage industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaipackaging.name': 'Packaging & Printing Add-on',
-  'pages.system.applications.mock.kuaipackaging.desc': 'Exclusive capability package for the packaging & printing industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaipackaging.desc':
+    'Exclusive capability package for the packaging & printing industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaihardware.name': 'Hardware Stamping Add-on',
-  'pages.system.applications.mock.kuaihardware.desc': 'Exclusive capability package for the hardware stamping industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaihardware.desc':
+    'Exclusive capability package for the hardware stamping industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaidiecasting.name': 'Die Casting Add-on',
-  'pages.system.applications.mock.kuaidiecasting.desc': 'Exclusive capability package for the die casting industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaidiecasting.desc':
+    'Exclusive capability package for the die casting industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaiwiring.name': 'Wiring Harness Add-on',
-  'pages.system.applications.mock.kuaiwiring.desc': 'Exclusive capability package for the wiring harness industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaiwiring.desc':
+    'Exclusive capability package for the wiring harness industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaimotor.name': 'Motor Add-on',
-  'pages.system.applications.mock.kuaimotor.desc': 'Exclusive capability package for the motor industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaimotor.desc':
+    'Exclusive capability package for the motor industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaibattery.name': 'Battery Add-on',
-  'pages.system.applications.mock.kuaibattery.desc': 'Exclusive capability package for the battery industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaibattery.desc':
+    'Exclusive capability package for the battery industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuainewequipment.name': 'New Energy Equipment Add-on',
-  'pages.system.applications.mock.kuainewequipment.desc': 'Exclusive capability package for the new energy equipment industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuainewequipment.desc':
+    'Exclusive capability package for the new energy equipment industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaisheetmetal.name': 'Sheet Metal Add-on',
-  'pages.system.applications.mock.kuaisheetmetal.desc': 'Exclusive capability package for the sheet metal industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaisheetmetal.desc':
+    'Exclusive capability package for the sheet metal industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaimold.name': 'Mold Add-on',
-  'pages.system.applications.mock.kuaimold.desc': 'Exclusive capability package for the mold industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaimold.desc':
+    'Exclusive capability package for the mold industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuaisemiconductor.name': 'Semiconductor Add-on',
-  'pages.system.applications.mock.kuaisemiconductor.desc': 'Exclusive capability package for the semiconductor industry based on Kuai Manufacturing. Welcome to co-create with us',
+  'pages.system.applications.mock.kuaisemiconductor.desc':
+    'Exclusive capability package for the semiconductor industry based on Kuai Manufacturing. Welcome to co-create with us',
   'pages.system.applications.mock.kuailogistics.name': 'Kuai Logistics',
-  'pages.system.applications.mock.kuailogistics.desc': 'Logistics and capacity collaboration management platform, coming soon',
+  'pages.system.applications.mock.kuailogistics.desc':
+    'Logistics and capacity collaboration management platform, coming soon',
   'pages.system.applications.mock.kuaiaftersales.name': 'Kuai After-sales',
-  'pages.system.applications.mock.kuaiaftersales.desc': 'After-sales service and closed-loop tracking management platform, coming soon',
+  'pages.system.applications.mock.kuaiaftersales.desc':
+    'After-sales service and closed-loop tracking management platform, coming soon',
   'pages.system.applications.mock.kuaiexperiment.name': 'Kuai Experiment',
-  'pages.system.applications.mock.kuaiexperiment.desc': 'Experiment process and result traceability management platform, coming soon',
+  'pages.system.applications.mock.kuaiexperiment.desc':
+    'Experiment process and result traceability management platform, coming soon',
   'pages.system.applications.mock.kuaiip.name': 'Kuai IP',
-  'pages.system.applications.mock.kuaiip.desc': 'Intellectual property full-lifecycle management platform, coming soon',
+  'pages.system.applications.mock.kuaiip.desc':
+    'Intellectual property full-lifecycle management platform, coming soon',
   'pages.system.applications.mock.kuaienergy.name': 'Kuai Energy',
-  'pages.system.applications.mock.kuaienergy.desc': 'Energy data monitoring and efficiency analysis platform, coming soon',
+  'pages.system.applications.mock.kuaienergy.desc':
+    'Energy data monitoring and efficiency analysis platform, coming soon',
 
   'pages.system.applications.descriptionLabel': 'Application description',
   'pages.system.applications.descriptionPlaceholder': 'Enter application description',
   'pages.system.applications.sortOrderHint': 'Sort order (lower = first)',
-  'pages.system.applications.editHint': 'You can customize the display name and description. "Restore default" will re-apply config from manifest.json.',
+  'pages.system.applications.editHint':
+    'You can customize the display name and description. "Restore default" will re-apply config from manifest.json.',
   'pages.system.applications.newVersionLabel': 'New version',
   'pages.system.applications.newVersionPlaceholder': 'e.g. 1.0.1',
   'pages.system.applications.changelogLabel': 'Changelog',
   'pages.system.applications.changelogPlaceholder': 'Enter update content...',
-  'pages.system.applications.upgradeHint': 'After upgrade, all tenants using this app will see the new version.',
+  'pages.system.applications.upgradeHint':
+    'After upgrade, all tenants using this app will see the new version.',
   'pages.system.applications.resetConfirmPhrase': 'I understand the impact of resetting data',
   'pages.system.applications.resetData': 'Reset data',
 
@@ -15655,26 +16999,31 @@ export default {
   'pages.system.siteSettings.clearLoginLogo': 'Clear login logo',
   'pages.system.siteSettings.loginLogoUploadSuccess': 'Login logo uploaded',
   'pages.system.siteSettings.loginLogoUploadFailed': 'Login logo upload failed',
-  'pages.system.siteSettings.loginLogoFollowSiteLogo': 'If not set separately, it follows the site logo by default',
+  'pages.system.siteSettings.loginLogoFollowSiteLogo':
+    'If not set separately, it follows the site logo by default',
   'pages.system.siteSettings.loginLogoFollowingSiteLogo': 'Currently following site logo',
   'pages.system.siteSettings.enableCustomLoginLogo': 'Set login logo separately',
   'pages.system.siteSettings.disableCustomLoginLogo': 'Revert to site logo',
-  'pages.system.siteSettings.loginPageResetSuccess': 'Login page custom settings reset. Now following platform settings',
+  'pages.system.siteSettings.loginPageResetSuccess':
+    'Login page custom settings reset. Now following platform settings',
   'pages.system.siteSettings.loginPageResetFailed': 'Failed to reset login page settings',
   'pages.system.siteSettings.loginLeftPreview': 'Login left column preview',
-  'pages.system.siteSettings.loginLeftPreviewHint': 'Live preview of the login page left brand panel. Changes apply after save.',
+  'pages.system.siteSettings.loginLeftPreviewHint':
+    'Live preview of the login page left brand panel. Changes apply after save.',
   'pages.system.siteSettings.loginEditorVisual': 'Visual',
   'pages.system.siteSettings.loginEditorCode': 'Code',
   'pages.system.siteSettings.loginDecorationEnabled': 'Enable decoration',
   'pages.system.siteSettings.loginBackgroundEnabled': 'Enable background',
   'pages.system.siteSettings.loginBackgroundImage': 'Login background image',
   'pages.system.siteSettings.loginBackgroundImagePlaceholder': 'Background image URL or file UUID',
-  'pages.system.siteSettings.loginBackgroundRecommendedSize': 'Recommended size: 960 x 1080 px (half of 1920×1080); covers the left panel background',
+  'pages.system.siteSettings.loginBackgroundRecommendedSize':
+    'Recommended size: 960 x 1080 px (half of 1920×1080); covers the left panel background',
   'pages.system.siteSettings.uploadBackgroundImage': 'Upload background',
   'pages.system.siteSettings.clearBackgroundImage': 'Clear background',
   'pages.system.siteSettings.loginBackgroundUploadSuccess': 'Background uploaded',
   'pages.system.siteSettings.loginBackgroundUploadFailed': 'Background upload failed',
-  'pages.system.siteSettings.loginVisualLayerAtLeastOne': 'At least one of decoration or background must be enabled',
+  'pages.system.siteSettings.loginVisualLayerAtLeastOne':
+    'At least one of decoration or background must be enabled',
   'pages.system.siteSettings.uploadFailed': 'Upload failed',
   'pages.system.siteSettings.saveSuccess': 'Saved',
   'pages.system.siteSettings.refresh': 'Refresh',
@@ -15722,12 +17071,17 @@ export default {
   'pages.system.siteSettings.integrationsDeepseekEnabled': 'Enable DeepSeek',
   'pages.system.siteSettings.integrationsDeepseekApiKey': 'API Key',
   'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholder': 'Enter DeepSeek API Key',
-  'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholderConfigured': 'Configured; leave blank to keep unchanged',
-  'pages.system.siteSettings.integrationsDeepseekApiKeyConfigured': 'API Key is saved; saving with a blank value will not overwrite it',
+  'pages.system.siteSettings.integrationsDeepseekApiKeyPlaceholderConfigured':
+    'Configured; leave blank to keep unchanged',
+  'pages.system.siteSettings.integrationsDeepseekApiKeyConfigured':
+    'API Key is saved; saving with a blank value will not overwrite it',
   'pages.system.siteSettings.integrationsDeepseekModel': 'Model',
-  'pages.system.siteSettings.integrationsDeepseekModelTooltip': 'DeepSeek V4 models; see official docs',
-  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-flash': 'deepseek-v4-flash (fast)',
-  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-pro': 'deepseek-v4-pro (quality)',
+  'pages.system.siteSettings.integrationsDeepseekModelTooltip':
+    'DeepSeek V4 models; see official docs',
+  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-flash':
+    'deepseek-v4-flash (fast)',
+  'pages.system.siteSettings.integrationsDeepseekModel_deepseek-v4-pro':
+    'deepseek-v4-pro (quality)',
   'pages.system.siteSettings.integrationsDeepseekBaseUrl': 'API Base URL',
   'pages.system.siteSettings.integrationsDeepseekBaseUrlPlaceholder': 'https://api.deepseek.com',
   'pages.system.siteSettings.integrationsDeepseekOcrTitle': 'OCR vision (smart entry)',
@@ -15738,26 +17092,32 @@ export default {
   'pages.system.siteSettings.integrationsDeepseekOcrApiKey': 'OCR API Key (optional)',
   'pages.system.siteSettings.integrationsDeepseekOcrApiKeyTooltip':
     'API Key for the OCR endpoint; leave blank to reuse the DeepSeek API Key above (when using the same provider)',
-  'pages.system.siteSettings.integrationsDeepseekOcrApiKeyPlaceholder': 'Leave blank to reuse DeepSeek API Key',
+  'pages.system.siteSettings.integrationsDeepseekOcrApiKeyPlaceholder':
+    'Leave blank to reuse DeepSeek API Key',
   'pages.system.siteSettings.integrationsDeepseekAiTitle': 'KU-AI Capabilities',
   'pages.system.siteSettings.integrationsDeepseekAiHint':
     'Control whether the assistant calls business document tools, knowledge base RAG, and your organization-specific system context.',
   'pages.system.siteSettings.integrationsDeepseekToolsEnabled': 'Enable business document tools',
   'pages.system.siteSettings.integrationsDeepseekRagEnabled': 'Enable knowledge base RAG',
-  'pages.system.siteSettings.integrationsDeepseekRagEmbedding': 'Use vector search (DeepSeek Embedding)',
+  'pages.system.siteSettings.integrationsDeepseekRagEmbedding':
+    'Use vector search (DeepSeek Embedding)',
   'pages.system.siteSettings.integrationsDeepseekRagTopK': 'RAG result count',
-  'pages.system.siteSettings.integrationsDeepseekCustomPrompt': 'Organization system context (appended to system prompt)',
+  'pages.system.siteSettings.integrationsDeepseekCustomPrompt':
+    'Organization system context (appended to system prompt)',
   'pages.system.siteSettings.integrationsDeepseekCustomPromptPlaceholder':
     'e.g. Our company mainly uses Kuai Manufacturing; subcontracting flows require creating a subcontract order first…',
   'pages.system.siteSettings.tabLoginPage': 'Login Page',
   'pages.system.siteSettings.currentTenantDomain': 'Current organization domain',
   'pages.system.siteSettings.currentTenantDomainEmpty': 'Not configured',
-  'pages.system.siteSettings.tenantDomainPlaceholder': 'Enter organization domain (starts with letter, allows a-z/0-9/_/-, length 3-12)',
+  'pages.system.siteSettings.tenantDomainPlaceholder':
+    'Enter organization domain (starts with letter, allows a-z/0-9/_/-, length 3-12)',
   'pages.system.siteSettings.tenantDomainRequired': 'Please enter tenant domain',
-  'pages.system.siteSettings.tenantDomainPattern': 'Domain must start with lowercase letter, only allow lowercase letters, numbers, underscore and hyphen, and no Chinese characters',
+  'pages.system.siteSettings.tenantDomainPattern':
+    'Domain must start with lowercase letter, only allow lowercase letters, numbers, underscore and hyphen, and no Chinese characters',
   'pages.system.siteSettings.tenantDomainMinLength': 'Domain length must be at least 3 characters',
   'pages.system.siteSettings.tenantDomainMaxLength': 'Domain length cannot exceed 12 characters',
-  'pages.system.siteSettings.tenantDomainReserved': 'Tenant domain cannot contain reserved keyword: {{keyword}}',
+  'pages.system.siteSettings.tenantDomainReserved':
+    'Tenant domain cannot contain reserved keyword: {{keyword}}',
   'pages.system.siteSettings.tenantDomainDuplicate': 'Tenant domain is already in use',
   'pages.system.siteSettings.tenantPathAccessUrl': 'Path access URL',
   'pages.system.siteSettings.loginPageThemeColor': 'Login page theme color',
@@ -15779,7 +17139,8 @@ export default {
   'pages.system.siteSettings.branchOrgNameRequired': 'Please enter branch organization name',
   'pages.system.siteSettings.branchOrgDomainLabel': 'Branch organization domain',
   'pages.system.siteSettings.branchOrgDomainRequired': 'Please enter branch organization domain',
-  'pages.system.siteSettings.branchOrgDomainPattern': 'Only lowercase letters, numbers, and hyphens are allowed',
+  'pages.system.siteSettings.branchOrgDomainPattern':
+    'Only lowercase letters, numbers, and hyphens are allowed',
   'pages.system.siteSettings.branchOrgStatusLabel': 'Status',
   'pages.system.siteSettings.branchOrgStatusRequired': 'Please select status',
   'pages.system.siteSettings.branchOrgAdminDefaultLabel': 'Admin account (default)',
@@ -15820,18 +17181,26 @@ export default {
   'pages.system.siteSettings.tzNewYork': 'New York (UTC-5)',
   'pages.system.siteSettings.tzLondon': 'London (UTC+0)',
   'pages.system.siteSettings.tzParis': 'Paris (UTC+1)',
-  'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_12': '(UTC-12:00) International Date Line West',
-  'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_11': '(UTC-11:00) Coordinated Universal Time-11',
+  'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_12':
+    '(UTC-12:00) International Date Line West',
+  'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_11':
+    '(UTC-11:00) Coordinated Universal Time-11',
   'pages.system.siteSettings.timezoneValue.Pacific_Honolulu': '(UTC-10:00) Hawaii',
   'pages.system.siteSettings.timezoneValue.America_Anchorage': '(UTC-09:00) Alaska',
-  'pages.system.siteSettings.timezoneValue.America_Los_Angeles': '(UTC-08:00) Pacific Time (US & Canada)',
-  'pages.system.siteSettings.timezoneValue.America_Denver': '(UTC-07:00) Mountain Time (US & Canada)',
-  'pages.system.siteSettings.timezoneValue.America_Chicago': '(UTC-06:00) Central Time (US & Canada)',
-  'pages.system.siteSettings.timezoneValue.America_New_York': '(UTC-05:00) Eastern Time (US & Canada)',
+  'pages.system.siteSettings.timezoneValue.America_Los_Angeles':
+    '(UTC-08:00) Pacific Time (US & Canada)',
+  'pages.system.siteSettings.timezoneValue.America_Denver':
+    '(UTC-07:00) Mountain Time (US & Canada)',
+  'pages.system.siteSettings.timezoneValue.America_Chicago':
+    '(UTC-06:00) Central Time (US & Canada)',
+  'pages.system.siteSettings.timezoneValue.America_New_York':
+    '(UTC-05:00) Eastern Time (US & Canada)',
   'pages.system.siteSettings.timezoneValue.America_Halifax': '(UTC-04:00) Atlantic Time (Canada)',
   'pages.system.siteSettings.timezoneValue.America_Sao_Paulo': '(UTC-03:00) Brasilia',
-  'pages.system.siteSettings.timezoneValue.America_Argentina_Buenos_Aires': '(UTC-03:00) Buenos Aires',
-  'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_2': '(UTC-02:00) Coordinated Universal Time-02',
+  'pages.system.siteSettings.timezoneValue.America_Argentina_Buenos_Aires':
+    '(UTC-03:00) Buenos Aires',
+  'pages.system.siteSettings.timezoneValue.Etc_GMT_plus_2':
+    '(UTC-02:00) Coordinated Universal Time-02',
   'pages.system.siteSettings.timezoneValue.Atlantic_Azores': '(UTC-01:00) Azores',
   'pages.system.siteSettings.timezoneValue.Etc_UTC': '(UTC+00:00) Coordinated Universal Time',
   'pages.system.siteSettings.timezoneValue.Europe_London': '(UTC+00:00) London, Dublin, Lisbon',
@@ -15846,47 +17215,59 @@ export default {
   'pages.system.siteSettings.timezoneValue.Asia_Kolkata': '(UTC+05:30) New Delhi, Mumbai',
   'pages.system.siteSettings.timezoneValue.Asia_Dhaka': '(UTC+06:00) Dhaka',
   'pages.system.siteSettings.timezoneValue.Asia_Bangkok': '(UTC+07:00) Bangkok, Hanoi, Jakarta',
-  'pages.system.siteSettings.timezoneValue.Asia_Shanghai': '(UTC+08:00) Beijing, Shanghai, Hong Kong, Taipei',
+  'pages.system.siteSettings.timezoneValue.Asia_Shanghai':
+    '(UTC+08:00) Beijing, Shanghai, Hong Kong, Taipei',
   'pages.system.siteSettings.timezoneValue.Asia_Singapore': '(UTC+08:00) Singapore',
   'pages.system.siteSettings.timezoneValue.Australia_Perth': '(UTC+08:00) Perth',
   'pages.system.siteSettings.timezoneValue.Asia_Tokyo': '(UTC+09:00) Tokyo, Osaka, Sapporo',
   'pages.system.siteSettings.timezoneValue.Asia_Seoul': '(UTC+09:00) Seoul',
   'pages.system.siteSettings.timezoneValue.Australia_Darwin': '(UTC+09:30) Darwin',
-  'pages.system.siteSettings.timezoneValue.Australia_Sydney': '(UTC+10:00) Sydney, Melbourne, Canberra',
+  'pages.system.siteSettings.timezoneValue.Australia_Sydney':
+    '(UTC+10:00) Sydney, Melbourne, Canberra',
   'pages.system.siteSettings.timezoneValue.Australia_Brisbane': '(UTC+10:00) Brisbane',
   'pages.system.siteSettings.timezoneValue.Pacific_Guadalcanal': '(UTC+11:00) Magadan, Solomon Is.',
   'pages.system.siteSettings.timezoneValue.Pacific_Auckland': '(UTC+12:00) Auckland, Wellington',
-  'pages.system.siteSettings.timezoneValue.Pacific_Tongatapu': '(UTC+13:00) Nuku\'alofa',
+  'pages.system.siteSettings.timezoneValue.Pacific_Tongatapu': "(UTC+13:00) Nuku'alofa",
 
   // Config center
   'pages.system.configCenter.tabBlueprint': 'Blueprint',
-  'pages.system.configCenter.tabBlueprintDesc': 'Control enable/disable of business document features',
+  'pages.system.configCenter.tabBlueprintDesc':
+    'Control enable/disable of business document features',
   'pages.system.configCenter.tabProcess': 'Process',
-  'pages.system.configCenter.tabProcessDesc': 'Configure business flow and preconditions (documents do not require human audit by default; enable approval workflows separately)',
+  'pages.system.configCenter.tabProcessDesc':
+    'Configure business flow and preconditions (documents do not require human audit by default; enable approval workflows separately)',
   'pages.system.configCenter.tabParameters': 'Parameters',
-  'pages.system.configCenter.tabParametersDesc': 'Configure internal features of business documents (work orders, warehouse, quality, etc.)',
+  'pages.system.configCenter.tabParametersDesc':
+    'Configure internal features of business documents (work orders, warehouse, quality, etc.)',
   'pages.system.configCenter.tabAudit': 'Audit',
-  'pages.system.configCenter.tabAuditDesc': 'Configure manual audit and approval workflows for business documents',
+  'pages.system.configCenter.tabAuditDesc':
+    'Configure manual audit and approval workflows for business documents',
   'pages.system.configCenter.tabAutomation': 'Automation',
   'pages.system.configCenter.tabAutomationDesc': 'Automate business operations via task scheduling',
   'pages.system.configCenter.tabTemplates': 'Templates',
   'pages.system.configCenter.tabGraph': 'Business blueprint',
   'pages.system.configCenter.processCategory.sales': 'Sales process',
-  'pages.system.configCenter.processCategory.salesDesc': 'Audit switches for sales forecast, quotation, orders and delivery/return',
+  'pages.system.configCenter.processCategory.salesDesc':
+    'Audit switches for sales forecast, quotation, orders and delivery/return',
   'pages.system.configCenter.processCategory.warehouse': 'Warehouse process',
-  'pages.system.configCenter.processCategory.warehouseDesc': 'Audit switches for warehouse inbound/outbound and borrow/return',
+  'pages.system.configCenter.processCategory.warehouseDesc':
+    'Audit switches for warehouse inbound/outbound and borrow/return',
   'pages.system.configCenter.processCategory.planning': 'Planning process',
   'pages.system.configCenter.processCategory.planningDesc': 'Demand and production plan flow',
   'pages.system.configCenter.processCategory.procurement': 'Procurement process',
-  'pages.system.configCenter.processCategory.procurementDesc': 'Procurement flow rules such as requisition prerequisites (purchase order human audit is controlled in Approval Workflows)',
+  'pages.system.configCenter.processCategory.procurementDesc':
+    'Procurement flow rules such as requisition prerequisites (purchase order human audit is controlled in Approval Workflows)',
   'pages.system.configCenter.processCategory.work_order': 'Work order process',
-  'pages.system.configCenter.processCategory.work_orderDesc': 'Picking confirmation and preconditions before start/reporting',
+  'pages.system.configCenter.processCategory.work_orderDesc':
+    'Picking confirmation and preconditions before start/reporting',
   'pages.system.configCenter.processCategory.reporting': 'Reporting process',
   'pages.system.configCenter.processCategory.reportingDesc': 'Reporting audit',
   'pages.system.configCenter.param.purchase_auto_approval': 'Purchase auto approval',
-  'pages.system.configCenter.param.purchase_auto_approval_desc': 'When on, purchase orders auto-approve on submit',
+  'pages.system.configCenter.param.purchase_auto_approval_desc':
+    'When on, purchase orders auto-approve on submit',
   'pages.system.configCenter.param.reporting_auto_approve': 'Reporting auto approve',
-  'pages.system.configCenter.param.reporting_auto_approve_desc': 'When on, reporting submissions are marked effective without an extra approve click. This is separate from tenant-level Approval Workflows for documents.',
+  'pages.system.configCenter.param.reporting_auto_approve_desc':
+    'When on, reporting submissions are marked effective without an extra approve click. This is separate from tenant-level Approval Workflows for documents.',
   'pages.system.configCenter.categoryTitle': 'Categories',
   'pages.system.configCenter.processCategoryTitle': 'Process categories',
   'pages.system.configCenter.refresh': 'Refresh',
@@ -15896,12 +17277,14 @@ export default {
   'pages.system.configCenter.templateNamePlaceholder': 'Enter template name',
   'pages.system.configCenter.templateNameRequired': 'Please enter template name',
   'pages.system.configCenter.templateDescription': 'Template description',
-  'pages.system.configCenter.templateDescriptionPlaceholder': 'Enter template description (optional)',
+  'pages.system.configCenter.templateDescriptionPlaceholder':
+    'Enter template description (optional)',
   'pages.system.configCenter.saveSuccess': 'Saved',
   'pages.system.configCenter.saveFailed': 'Save failed',
   'pages.system.configCenter.loadFailed': 'Failed to load config',
   'pages.system.configCenter.processAuditGuidanceTitle': 'About document audit',
-  'pages.system.configCenter.processAuditGuidanceDesc': 'By default, documents skip human audit. Only after you enable the matching workflow in Approval Workflows will pending/approve/reject steps appear. Switches on this tab control planning, procurement prerequisites, work-order picking gates, etc.—not whether audit exists.',
+  'pages.system.configCenter.processAuditGuidanceDesc':
+    'By default, documents skip human audit. Only after you enable the matching workflow in Approval Workflows will pending/approve/reject steps appear. Switches on this tab control planning, procurement prerequisites, work-order picking gates, etc.—not whether audit exists.',
   'pages.system.configCenter.auditSwitch.sectionTitle': 'Document audit',
   'pages.system.configCenter.auditBinding.document': 'Document',
   'pages.system.configCenter.auditBinding.switch': 'Audit switch',
@@ -15914,16 +17297,19 @@ export default {
   'pages.system.configCenter.auditSwitch.updateSuccess': 'Audit switch updated',
   'pages.system.configCenter.auditSwitch.updateFailed': 'Failed to update audit switch',
   'pages.system.configCenter.notification.title': 'Message notifications',
-  'pages.system.configCenter.notification.desc': 'Notify specified users via selected channels when a document triggers a configurable action. Document types for installed apps are included automatically.',
+  'pages.system.configCenter.notification.desc':
+    'Notify specified users via selected channels when a document triggers a configurable action. Document types for installed apps are included automatically.',
   'pages.system.configCenter.notification.preset.button': 'Load presets',
-  'pages.system.configCenter.notification.preset.loaded': 'Loaded {{created}} preset rule(s) ({{total}} total)',
+  'pages.system.configCenter.notification.preset.loaded':
+    'Loaded {{created}} preset rule(s) ({{total}} total)',
   'pages.system.configCenter.notification.preset.scopesUpdated':
     'Merged preset recipient scopes into {{updated}} existing rule(s) ({{total}} total)',
   'pages.system.configCenter.notification.preset.repairedTemplates':
     'Created {{templatesCreated}} message template(s) and linked {{repaired}} rule(s) ({{total}} rules total)',
   'pages.system.configCenter.notification.preset.loadedAndUpdated':
     'Added {{created}} rule(s) and updated scopes on {{updated}} ({{total}} total)',
-  'pages.system.configCenter.notification.preset.missingTemplate': 'No rules added: load message template presets for the app under Messages → Templates, then try again.',
+  'pages.system.configCenter.notification.preset.missingTemplate':
+    'No rules added: load message template presets for the app under Messages → Templates, then try again.',
   'pages.system.configCenter.notification.preset.alreadyExists': 'All preset rules already exist',
   'pages.system.configCenter.notification.preset.failed': 'Failed to load notification presets',
   'pages.system.configCenter.notification.create': 'New notification rule',
@@ -15943,7 +17329,8 @@ export default {
   'pages.system.configCenter.notification.action.delete': 'Delete',
   'pages.system.configCenter.notification.modal.detailTitle': 'Notification rule details',
   'pages.system.configCenter.notification.modal.deleteTitle': 'Delete notification rule',
-  'pages.system.configCenter.notification.modal.deleteConfirm': 'Are you sure you want to delete this notification rule?',
+  'pages.system.configCenter.notification.modal.deleteConfirm':
+    'Are you sure you want to delete this notification rule?',
   'pages.system.configCenter.notification.modal.editTitle': 'Edit notification rule',
   'pages.system.configCenter.notification.modal.createTitle': 'New notification rule',
   'pages.system.configCenter.notification.detail.scene': 'Scene',
@@ -15955,9 +17342,11 @@ export default {
   'pages.system.configCenter.notification.detail.template': 'Template',
   'pages.system.configCenter.notification.message.created': 'Notification rule created',
   'pages.system.configCenter.notification.message.updated': 'Notification rule updated',
-  'pages.system.configCenter.notification.message.createFailed': 'Failed to create notification rule',
+  'pages.system.configCenter.notification.message.createFailed':
+    'Failed to create notification rule',
   'pages.system.configCenter.notification.message.deleted': 'Notification rule deleted',
-  'pages.system.configCenter.notification.message.deleteFailed': 'Failed to delete notification rule',
+  'pages.system.configCenter.notification.message.deleteFailed':
+    'Failed to delete notification rule',
   'pages.system.configCenter.notification.scene.default': 'Configured notification rule',
   'pages.system.configCenter.notification.recipients.specifiedUsers': 'Specified users ({{count}})',
   'pages.system.configCenter.notification.recipients.fixedUsers': 'Fixed users ({{count}})',
@@ -15966,7 +17355,8 @@ export default {
   'pages.system.configCenter.notification.form.fixedUsers': 'Fixed recipients',
   'pages.system.configCenter.notification.form.fixedUsersPlaceholder':
     'Always notified; form creator cannot change. Can be used without form user specified',
-  'pages.system.configCenter.notification.form.formUserDefaultUsers': 'Form user specified · default users',
+  'pages.system.configCenter.notification.form.formUserDefaultUsers':
+    'Form user specified · default users',
   'pages.system.configCenter.notification.form.formUserDefaultUsersPlaceholder':
     'Prefilled on the document form; used when the creator does not change the selection',
   'pages.system.configCenter.notification.channel.inApp': 'In-app notification',
@@ -15989,11 +17379,13 @@ export default {
   'pages.system.configCenter.notification.scope.user_specified': 'Users chosen on document',
   'pages.system.configCenter.notification.form.roles': 'Roles',
   'pages.system.configCenter.notification.form.specifiedUsers': 'Specified users',
-  'pages.system.configCenter.notification.form.specifiedUsersPlaceholder': 'Optional: add specific users',
+  'pages.system.configCenter.notification.form.specifiedUsersPlaceholder':
+    'Optional: add specific users',
   'pages.system.configCenter.notification.scope.creator': 'Creator',
   'pages.system.configCenter.notification.scope.salesman': 'Salesperson',
   'pages.system.configCenter.notification.scope.follower': 'Follower',
-  'pages.system.configCenter.notification.error.actionMismatch': 'The action does not match the selected document. Please reselect.',
+  'pages.system.configCenter.notification.error.actionMismatch':
+    'The action does not match the selected document. Please reselect.',
   'pages.system.configCenter.notification.document.sales_order': 'Sales order',
   'pages.system.configCenter.notification.document.quotation': 'Quotation',
   'pages.system.configCenter.notification.document.purchase_order': 'Purchase order',
@@ -16007,16 +17399,21 @@ export default {
   'pages.system.configCenter.notification.document.outbound': 'Outbound',
   'pages.system.configCenter.notification.action.sales_order.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.sales_order.approved': 'Approved',
-  'pages.system.configCenter.notification.action.sales_order.pushed_to_work_order': 'Pushed to work order',
+  'pages.system.configCenter.notification.action.sales_order.pushed_to_work_order':
+    'Pushed to work order',
   'pages.system.configCenter.notification.action.sales_order.delivery_delayed': 'Delivery delayed',
   'pages.system.configCenter.notification.action.quotation.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.quotation.approved': 'Approved',
-  'pages.system.configCenter.notification.action.quotation.customer_confirmed': 'Customer confirmed',
-  'pages.system.configCenter.notification.action.quotation.converted_to_order': 'Converted to sales order',
+  'pages.system.configCenter.notification.action.quotation.customer_confirmed':
+    'Customer confirmed',
+  'pages.system.configCenter.notification.action.quotation.converted_to_order':
+    'Converted to sales order',
   'pages.system.configCenter.notification.action.purchase_order.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.purchase_order.approved': 'Approved',
-  'pages.system.configCenter.notification.action.purchase_order.pushed_to_receipt': 'Pushed to receipt',
-  'pages.system.configCenter.notification.action.purchase_order.delivery_delayed': 'Delivery delayed',
+  'pages.system.configCenter.notification.action.purchase_order.pushed_to_receipt':
+    'Pushed to receipt',
+  'pages.system.configCenter.notification.action.purchase_order.delivery_delayed':
+    'Delivery delayed',
   'pages.system.configCenter.notification.action.work_order.released': 'Released',
   'pages.system.configCenter.notification.action.work_order.started': 'Started',
   'pages.system.configCenter.notification.action.work_order.completed': 'Completed',
@@ -16024,7 +17421,8 @@ export default {
   'pages.system.configCenter.notification.action.quality_inspection.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.quality_inspection.approved': 'Approved',
   'pages.system.configCenter.notification.action.quality_inspection.rejected': 'Rejected',
-  'pages.system.configCenter.notification.action.quality_inspection.abnormal_detected': 'Abnormal detected',
+  'pages.system.configCenter.notification.action.quality_inspection.abnormal_detected':
+    'Abnormal detected',
   'pages.system.configCenter.notification.action.quality_exception.created': 'Created',
   'pages.system.configCenter.notification.action.quality_exception.assigned': 'Assigned',
   'pages.system.configCenter.notification.action.quality_exception.closed': 'Closed',
@@ -16036,27 +17434,38 @@ export default {
   'pages.system.configCenter.notification.action.maintenance_order.completed': 'Completed',
   'pages.system.configCenter.notification.action.shipment_notice.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.shipment_notice.confirmed': 'Shipment confirmed',
-  'pages.system.configCenter.notification.action.shipment_notice.delivery_delayed': 'Shipment delayed',
+  'pages.system.configCenter.notification.action.shipment_notice.delivery_delayed':
+    'Shipment delayed',
   'pages.system.configCenter.notification.action.inbound.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.inbound.confirmed': 'Inbound confirmed',
   'pages.system.configCenter.notification.action.outbound.submitted': 'Submitted',
   'pages.system.configCenter.notification.action.outbound.confirmed': 'Outbound confirmed',
   'pages.system.configCenter.scoreProfiles.title': 'APS-Lite composite scoring weights',
-  'pages.system.configCenter.scoreProfiles.desc': 'Configure dimension weights for scheduling and picking scenarios. Used in Gantt sorting, kitting center, and picking queue.',
+  'pages.system.configCenter.scoreProfiles.desc':
+    'Configure dimension weights for scheduling and picking scenarios. Used in Gantt sorting, kitting center, and picking queue.',
   'pages.system.configCenter.scoreProfiles.schedulingTitle': 'Scheduling scenario (scheduling)',
-  'pages.system.configCenter.scoreProfiles.schedulingDesc': 'Used for intelligent scheduling, default Gantt ordering, and control tower risk reference.',
+  'pages.system.configCenter.scoreProfiles.schedulingDesc':
+    'Used for intelligent scheduling, default Gantt ordering, and control tower risk reference.',
   'pages.system.configCenter.scoreProfiles.pickingTitle': 'Picking scenario (picking)',
-  'pages.system.configCenter.scoreProfiles.pickingDesc': 'Used for kitting-center reminders and picking order in outbound management (more shortages first).',
+  'pages.system.configCenter.scoreProfiles.pickingDesc':
+    'Used for kitting-center reminders and picking order in outbound management (more shortages first).',
   'pages.system.configCenter.scoreProfiles.kittingSemantic': 'Kitting semantics',
-  'pages.system.configCenter.scoreProfiles.kittingMode.direct': 'Higher kitting priority (scheduling)',
+  'pages.system.configCenter.scoreProfiles.kittingMode.direct':
+    'Higher kitting priority (scheduling)',
   'pages.system.configCenter.scoreProfiles.kittingMode.invert': 'More shortages first (picking)',
-  'pages.system.configCenter.scoreProfiles.weightSum': 'Weight sum {{sum}} (the engine will normalize after saving)',
+  'pages.system.configCenter.scoreProfiles.weightSum':
+    'Weight sum {{sum}} (the engine will normalize after saving)',
   'pages.system.configCenter.scoreProfiles.saveButton': 'Save weights',
-  'pages.system.configCenter.scoreProfiles.sumMustBePositive': 'Weight sum for each scenario must be greater than 0',
-  'pages.system.configCenter.scoreProfiles.savedSkippedRecalc': 'Weights saved (composite scoring disabled, skipped recalculation)',
-  'pages.system.configCenter.scoreProfiles.savedRecalcedCount': 'Weights saved, recalculated composite scores for {{count}} work orders',
-  'pages.system.configCenter.scoreProfiles.savedButRecalcFailedWithReason': 'Weights saved, but recalculation failed: {{reason}}',
-  'pages.system.configCenter.scoreProfiles.savedButRecalcFailed': 'Weights saved, but recalculation failed. Please refresh later on the scheduling page.',
+  'pages.system.configCenter.scoreProfiles.sumMustBePositive':
+    'Weight sum for each scenario must be greater than 0',
+  'pages.system.configCenter.scoreProfiles.savedSkippedRecalc':
+    'Weights saved (composite scoring disabled, skipped recalculation)',
+  'pages.system.configCenter.scoreProfiles.savedRecalcedCount':
+    'Weights saved, recalculated composite scores for {{count}} work orders',
+  'pages.system.configCenter.scoreProfiles.savedButRecalcFailedWithReason':
+    'Weights saved, but recalculation failed: {{reason}}',
+  'pages.system.configCenter.scoreProfiles.savedButRecalcFailed':
+    'Weights saved, but recalculation failed. Please refresh later on the scheduling page.',
   'pages.system.configCenter.scoreProfiles.saveFailed': 'Save failed',
   'pages.system.configCenter.scoreProfiles.weight.manual_priority': 'Manual priority',
   'pages.system.configCenter.scoreProfiles.weight.due_urgency': 'Due date urgency',
@@ -16064,58 +17473,85 @@ export default {
   'pages.system.configCenter.scoreProfiles.weight.kitting_readiness': 'Kitting readiness',
   'pages.system.configCenter.scoreProfiles.weight.plan_fidelity': 'Plan fidelity',
   'pages.system.configCenter.auditSwitch.sales_forecast.label': 'Sales forecast audit',
-  'pages.system.configCenter.auditSwitch.sales_forecast.desc': 'Whether sales forecast enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.sales_forecast.desc':
+    'Whether sales forecast enters human audit after submit',
   'pages.system.configCenter.auditSwitch.sales_order.label': 'Sales order audit',
-  'pages.system.configCenter.auditSwitch.sales_order.desc': 'Whether sales order enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.sales_order.desc':
+    'Whether sales order enters human audit after submit',
   'pages.system.configCenter.auditSwitch.quotation.label': 'Quotation audit',
-  'pages.system.configCenter.auditSwitch.quotation.desc': 'Whether quotation enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.quotation.desc':
+    'Whether quotation enters human audit after submit',
   'pages.system.configCenter.auditSwitch.sales_delivery.label': 'Sales delivery audit',
-  'pages.system.configCenter.auditSwitch.sales_delivery.desc': 'Whether sales delivery enters human audit',
+  'pages.system.configCenter.auditSwitch.sales_delivery.desc':
+    'Whether sales delivery enters human audit',
   'pages.system.configCenter.auditSwitch.sales_return.label': 'Sales return audit',
-  'pages.system.configCenter.auditSwitch.sales_return.desc': 'Whether sales return enters human audit',
+  'pages.system.configCenter.auditSwitch.sales_return.desc':
+    'Whether sales return enters human audit',
   'pages.system.configCenter.auditSwitch.purchase_request.label': 'Purchase requisition audit',
-  'pages.system.configCenter.auditSwitch.purchase_request.desc': 'Whether purchase requisition enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.purchase_request.desc':
+    'Whether purchase requisition enters human audit after submit',
   'pages.system.configCenter.auditSwitch.purchase_order.label': 'Purchase order audit',
-  'pages.system.configCenter.auditSwitch.purchase_order.desc': 'Whether purchase order enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.purchase_order.desc':
+    'Whether purchase order enters human audit after submit',
   'pages.system.configCenter.auditSwitch.purchase_return.label': 'Purchase return audit',
-  'pages.system.configCenter.auditSwitch.purchase_return.desc': 'Whether purchase return enters human audit',
+  'pages.system.configCenter.auditSwitch.purchase_return.desc':
+    'Whether purchase return enters human audit',
   'pages.system.configCenter.auditSwitch.demand.label': 'Demand audit',
-  'pages.system.configCenter.auditSwitch.demand.desc': 'Whether demand document enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.demand.desc':
+    'Whether demand document enters human audit after submit',
   'pages.system.configCenter.auditSwitch.production_plan.label': 'Production plan audit',
-  'pages.system.configCenter.auditSwitch.production_plan.desc': 'Whether production plan enters human audit after submit',
+  'pages.system.configCenter.auditSwitch.production_plan.desc':
+    'Whether production plan enters human audit after submit',
   'pages.system.configCenter.auditSwitch.quality_inspection.label': 'Quality inspection audit',
-  'pages.system.configCenter.auditSwitch.quality_inspection.desc': 'Whether incoming/process/finished inspection enters human audit',
+  'pages.system.configCenter.auditSwitch.quality_inspection.desc':
+    'Whether incoming/process/finished inspection enters human audit',
   'pages.system.configCenter.auditSwitch.incoming_inspection.label': 'Incoming inspection audit',
-  'pages.system.configCenter.auditSwitch.incoming_inspection.desc': 'Whether incoming inspection enters human audit',
+  'pages.system.configCenter.auditSwitch.incoming_inspection.desc':
+    'Whether incoming inspection enters human audit',
   'pages.system.configCenter.auditSwitch.process_inspection.label': 'Process inspection audit',
-  'pages.system.configCenter.auditSwitch.process_inspection.desc': 'Whether process inspection enters human audit',
-  'pages.system.configCenter.auditSwitch.finished_goods_inspection.label': 'Finished goods inspection audit',
-  'pages.system.configCenter.auditSwitch.finished_goods_inspection.desc': 'Whether finished goods inspection enters human audit',
+  'pages.system.configCenter.auditSwitch.process_inspection.desc':
+    'Whether process inspection enters human audit',
+  'pages.system.configCenter.auditSwitch.finished_goods_inspection.label':
+    'Finished goods inspection audit',
+  'pages.system.configCenter.auditSwitch.finished_goods_inspection.desc':
+    'Whether finished goods inspection enters human audit',
   'pages.system.configCenter.auditSwitch.production_picking.label': 'Production picking audit',
-  'pages.system.configCenter.auditSwitch.production_picking.desc': 'Whether production picking enters human audit',
+  'pages.system.configCenter.auditSwitch.production_picking.desc':
+    'Whether production picking enters human audit',
   'pages.system.configCenter.auditSwitch.production_return.label': 'Production return audit',
-  'pages.system.configCenter.auditSwitch.production_return.desc': 'Whether production material return enters human audit',
+  'pages.system.configCenter.auditSwitch.production_return.desc':
+    'Whether production material return enters human audit',
   'pages.system.configCenter.auditSwitch.reporting_record.label': 'Reporting audit',
-  'pages.system.configCenter.auditSwitch.reporting_record.desc': 'Whether reporting records enter human audit after submit',
+  'pages.system.configCenter.auditSwitch.reporting_record.desc':
+    'Whether reporting records enter human audit after submit',
   'pages.system.configCenter.auditSwitch.purchase_receipt.label': 'Purchase receipt audit',
-  'pages.system.configCenter.auditSwitch.purchase_receipt.desc': 'Whether purchase receipt enters human audit',
-  'pages.system.configCenter.auditSwitch.finished_goods_receipt.label': 'Finished goods receipt audit',
-  'pages.system.configCenter.auditSwitch.finished_goods_receipt.desc': 'Whether finished goods receipt enters human audit',
+  'pages.system.configCenter.auditSwitch.purchase_receipt.desc':
+    'Whether purchase receipt enters human audit',
+  'pages.system.configCenter.auditSwitch.finished_goods_receipt.label':
+    'Finished goods receipt audit',
+  'pages.system.configCenter.auditSwitch.finished_goods_receipt.desc':
+    'Whether finished goods receipt enters human audit',
   'pages.system.configCenter.auditSwitch.other_inbound.label': 'Other inbound audit',
-  'pages.system.configCenter.auditSwitch.other_inbound.desc': 'Whether other inbound enters human audit',
+  'pages.system.configCenter.auditSwitch.other_inbound.desc':
+    'Whether other inbound enters human audit',
   'pages.system.configCenter.auditSwitch.other_outbound.label': 'Other outbound audit',
-  'pages.system.configCenter.auditSwitch.other_outbound.desc': 'Whether other outbound enters human audit',
+  'pages.system.configCenter.auditSwitch.other_outbound.desc':
+    'Whether other outbound enters human audit',
   'pages.system.configCenter.auditSwitch.material_borrow.label': 'Material borrow audit',
-  'pages.system.configCenter.auditSwitch.material_borrow.desc': 'Whether material borrow enters human audit',
+  'pages.system.configCenter.auditSwitch.material_borrow.desc':
+    'Whether material borrow enters human audit',
   'pages.system.configCenter.auditSwitch.material_return.label': 'Material return audit',
-  'pages.system.configCenter.auditSwitch.material_return.desc': 'Whether material return enters human audit',
+  'pages.system.configCenter.auditSwitch.material_return.desc':
+    'Whether material return enters human audit',
   'pages.system.configCenter.templateSaveSuccess': 'Config template saved',
   'pages.system.configCenter.templateApplied': 'Config template applied',
-  'pages.system.configCenter.templatesDesc': 'Save, apply or import/export config templates (blueprint, process, parameters).',
+  'pages.system.configCenter.templatesDesc':
+    'Save, apply or import/export config templates (blueprint, process, parameters).',
   'pages.system.configCenter.saveCurrentAsTemplate': 'Save current config as template',
   'pages.system.configCenter.noTemplates': 'No config templates',
   'pages.system.configCenter.apply': 'Apply',
-  'pages.system.configCenter.refreshToApply': 'Some settings (e.g. theme) may require a page refresh to take effect',
+  'pages.system.configCenter.refreshToApply':
+    'Some settings (e.g. theme) may require a page refresh to take effect',
   'pages.system.configCenter.category.production': 'Production & planning',
   'pages.system.configCenter.category.productionDesc': 'Work order, reporting, BOM, planning',
   'pages.system.configCenter.category.common': 'Common settings',
@@ -16137,7 +17573,8 @@ export default {
     'Excludes app registration (platform admin): languages, system dictionaries, parameters, code rules, approval/message/print presets, and menu sync for installed apps.',
   'pages.system.configCenter.tenantInit.runRequiredButton': 'Load required items',
   'pages.system.configCenter.tenantInit.optionalTitle': 'Optional supplements',
-  'pages.system.configCenter.tenantInit.optionalDesc': 'Load business presets such as departments, positions, roles, and warehouses.',
+  'pages.system.configCenter.tenantInit.optionalDesc':
+    'Load business presets such as departments, positions, roles, and warehouses.',
   'pages.system.configCenter.tenantInit.runOptionalButton': 'Load selected supplements',
   'pages.system.configCenter.tenantInit.selectOptionalFirst': 'Select at least one optional item',
   'pages.system.configCenter.tenantInit.refreshConfig': 'Refresh config',
@@ -16153,7 +17590,8 @@ export default {
   'components.tenantBootstrap.title': 'Initializing applications',
   'components.tenantBootstrap.description':
     'Installing default apps and loading required system data for your organization. Please wait.',
-  'components.tenantBootstrap.runningHint': 'Initialization in progress. Please keep this page open…',
+  'components.tenantBootstrap.runningHint':
+    'Initialization in progress. Please keep this page open…',
   'components.tenantBootstrap.enterSystem': 'Enter system',
   'components.tenantBootstrap.stepFailed': 'Initialization step failed',
   'components.tenantBootstrap.completeFailed': 'Failed to complete initialization',
@@ -16207,64 +17645,96 @@ export default {
     'Color, specification, material, grade, surface finish, etc.',
   'pages.system.configCenter.tenantInit.itemDesc.kuaiai_faq_preset':
     '15 factory-standard Q&A entries for work orders, reporting, subcontracting, inventory, etc.',
-  'pages.system.configCenter.param.work_order_allow_production_without_material': 'Allow production without material',
-  'pages.system.configCenter.param.work_order_allow_production_without_material_desc': 'When on, work order release does not check material shortage; when off, shortage blocks release.',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level': 'Material shortage block level',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level_desc': '0=No block, 1=Block release, 2=Block release+start, 3=Block release+start+reporting.',
-  'pages.system.configCenter.param.work_order_material_shortage_block_level_guide': 'Recommended: level 1 for normal use; level 2 for stricter line-side control; level 3 when reporting must wait for full kitting.',
+  'pages.system.configCenter.param.work_order_allow_production_without_material':
+    'Allow production without material',
+  'pages.system.configCenter.param.work_order_allow_production_without_material_desc':
+    'When on, work order release does not check material shortage; when off, shortage blocks release.',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level':
+    'Material shortage block level',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level_desc':
+    '0=No block, 1=Block release, 2=Block release+start, 3=Block release+start+reporting.',
+  'pages.system.configCenter.param.work_order_material_shortage_block_level_guide':
+    'Recommended: level 1 for normal use; level 2 for stricter line-side control; level 3 when reporting must wait for full kitting.',
   'pages.system.configCenter.param.work_order_auto_generate': 'Auto generate work orders',
-  'pages.system.configCenter.param.work_order_auto_generate_desc': 'Auto generate work orders from demand',
+  'pages.system.configCenter.param.work_order_auto_generate_desc':
+    'Auto generate work orders from demand',
   'pages.system.configCenter.param.automation_push_default_mode': 'Default push generation mode',
-  'pages.system.configCenter.param.automation_push_default_mode_desc': 'Controls whether pushed downstream documents default to formal documents or drafts',
+  'pages.system.configCenter.param.automation_push_default_mode_desc':
+    'Controls whether pushed downstream documents default to formal documents or drafts',
   'pages.system.configCenter.param.automation_push_default_mode_opt_confirm': 'Formal document',
   'pages.system.configCenter.param.automation_push_default_mode_opt_draft': 'Draft document',
   'pages.system.configCenter.param.work_order_priority': 'Work order priority',
   'pages.system.configCenter.param.work_order_priority_desc': 'Enable work order priority',
   'pages.system.configCenter.param.work_order_score_enabled': 'Work order composite scoring',
-  'pages.system.configCenter.param.work_order_score_enabled_desc': 'Weighted multi-dimension scores for scheduling and material prep queue sorting',
+  'pages.system.configCenter.param.work_order_score_enabled_desc':
+    'Weighted multi-dimension scores for scheduling and material prep queue sorting',
   'pages.system.configCenter.param.work_order_score_stale_minutes': 'Score cache TTL (minutes)',
-  'pages.system.configCenter.param.work_order_score_stale_minutes_desc': 'Stale scores may be refreshed asynchronously after this interval (default 30)',
+  'pages.system.configCenter.param.work_order_score_stale_minutes_desc':
+    'Stale scores may be refreshed asynchronously after this interval (default 30)',
   'pages.system.configCenter.param.work_order_split': 'Work order split',
   'pages.system.configCenter.param.work_order_split_desc': 'Allow work order split',
   'pages.system.configCenter.param.work_order_merge': 'Work order merge',
   'pages.system.configCenter.param.work_order_merge_desc': 'Allow work order merge',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode': 'Last operation auto inbound',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode':
+    'Last operation auto inbound',
   'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_desc':
     'When the last operation is completed and the work order is finished, whether to trigger finished-goods inbound automatically. “Inbound notice” is reserved for finished-goods inspection; use Off or Direct inbound until that flow is enabled.',
   'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_none': 'Off',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_direct': 'Direct inbound',
-  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_notice': 'Inbound notice (reserved for FG inspection)',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_direct':
+    'Direct inbound',
+  'pages.system.configCenter.param.work_order_last_operation_auto_inbound_mode_opt_notice':
+    'Inbound notice (reserved for FG inspection)',
   'pages.system.configCenter.param.reporting_quick_reporting': 'Quick reporting',
   'pages.system.configCenter.param.reporting_quick_reporting_desc': 'Enable quick reporting',
   'pages.system.configCenter.param.reporting_parameter_reporting': 'Parameter reporting',
-  'pages.system.configCenter.param.reporting_parameter_reporting_desc': 'Support parameter reporting',
+  'pages.system.configCenter.param.reporting_parameter_reporting_desc':
+    'Support parameter reporting',
   'pages.system.configCenter.param.reporting_auto_fill': 'Auto fill',
   'pages.system.configCenter.param.reporting_auto_fill_desc': 'Auto fill reporting data',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode': 'Default production worker for reporting',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode':
+    'Default production worker for reporting',
   'pages.system.configCenter.param.reporting_default_production_worker_mode_desc':
     'When opening proxy/quick reporting, how the production worker field is prefilled: current user, operation assignee, or auto (assignee first, else operation default operators from master data, else current user). Default operators show a “Default” tag in the dropdown.',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_current_user': 'Default to current user',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_operation_assigned': 'Default to operation assignee',
-  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_auto': 'Auto (assignee → operation default → current user)',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_current_user':
+    'Default to current user',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_operation_assigned':
+    'Default to operation assignee',
+  'pages.system.configCenter.param.reporting_default_production_worker_mode_opt_auto':
+    'Auto (assignee → operation default → current user)',
   'pages.system.configCenter.param.reporting_data_correction': 'Data correction',
-  'pages.system.configCenter.param.reporting_data_correction_desc': 'Allow correcting submitted reporting data',
+  'pages.system.configCenter.param.reporting_data_correction_desc':
+    'Allow correcting submitted reporting data',
   'pages.system.configCenter.param.bom_bom_multi_version_allowed': 'BOM multi-version',
-  'pages.system.configCenter.param.bom_bom_multi_version_allowed_desc': 'When on, demand can select BOM version; when off, use default BOM version.',
+  'pages.system.configCenter.param.bom_bom_multi_version_allowed_desc':
+    'When on, demand can select BOM version; when off, use default BOM version.',
   'pages.system.configCenter.param.planning_require_production_plan': 'Require production plan',
-  'pages.system.configCenter.param.planning_require_production_plan_desc': 'When on, demand must go through production plan; when off, can link to work order directly.',
-  'pages.system.configCenter.param.procurement_require_purchase_requisition': 'Require purchase requisition',
-  'pages.system.configCenter.param.procurement_require_purchase_requisition_desc': 'Purchase order requires requisition first',
-  'pages.system.configCenter.param.purchase_tolerance_percentage': 'Purchase over-receipt tolerance (%)',
-  'pages.system.configCenter.param.purchase_tolerance_percentage_desc': 'Maximum allowed over-receipt percentage against PO quantity (0-100).',
-  'pages.system.configCenter.param.purchase_tolerance_percentage_guide': 'Recommended: 0-2% for standard parts, 3-5% for outsourced incoming. Too high may hide purchasing deviations.',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt': 'Incoming inspection required before receipt',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt_desc': 'When on, purchase receipt requires completed and passed incoming inspection.',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material': 'IQC required before customer material inbound',
-  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material_desc': 'When on, OEM customer material inbound requires completed and passed incoming inspection.',
-  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt': 'FQC pass required before finished goods receipt',
-  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt_desc': 'When on, finished goods receipt confirm requires an approved passed FQC for the work order (materials with FQC policy ≠ none only).',
+  'pages.system.configCenter.param.planning_require_production_plan_desc':
+    'When on, demand must go through production plan; when off, can link to work order directly.',
+  'pages.system.configCenter.param.procurement_require_purchase_requisition':
+    'Require purchase requisition',
+  'pages.system.configCenter.param.procurement_require_purchase_requisition_desc':
+    'Purchase order requires requisition first',
+  'pages.system.configCenter.param.purchase_tolerance_percentage':
+    'Purchase over-receipt tolerance (%)',
+  'pages.system.configCenter.param.purchase_tolerance_percentage_desc':
+    'Maximum allowed over-receipt percentage against PO quantity (0-100).',
+  'pages.system.configCenter.param.purchase_tolerance_percentage_guide':
+    'Recommended: 0-2% for standard parts, 3-5% for outsourced incoming. Too high may hide purchasing deviations.',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt':
+    'Incoming inspection required before receipt',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_receipt_desc':
+    'When on, purchase receipt requires completed and passed incoming inspection.',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material':
+    'IQC required before customer material inbound',
+  'pages.system.configCenter.param.quality_require_incoming_inspection_for_customer_material_desc':
+    'When on, OEM customer material inbound requires completed and passed incoming inspection.',
+  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt':
+    'FQC pass required before finished goods receipt',
+  'pages.system.configCenter.param.quality_require_fqc_before_finished_goods_receipt_desc':
+    'When on, finished goods receipt confirm requires an approved passed FQC for the work order (materials with FQC policy ≠ none only).',
   'app.master-data.materialForm.inspectionStagesTitle': 'Inspection policy by stage',
-  'app.master-data.materialForm.inspectionStagesHint': 'Set inspection mode (none/simple/plan) and plan per stage. Process inspection (IPQC) is configured on operations only.',
+  'app.master-data.materialForm.inspectionStagesHint':
+    'Set inspection mode (none/simple/plan) and plan per stage. Process inspection (IPQC) is configured on operations only.',
   'app.master-data.materialForm.inspectionStageColumn': 'Stage',
   'app.master-data.materialForm.inspectionStageIqc': 'Incoming IQC',
   'app.master-data.materialForm.inspectionStageFqc': 'Finished FQC',
@@ -16272,19 +17742,30 @@ export default {
   'app.master-data.materialForm.inspectionStageIpqc': 'Process IPQC (fallback)',
   'app.master-data.materialForm.inspectionStageOrgStatus': 'Org stage',
   'app.master-data.materialForm.inspectionStagePending': 'Pending',
-  'app.master-data.operationForm.inspectionStagesHint': 'Process inspection (IPQC) for this operation; used first when auto-creating from reporting.',
+  'app.master-data.operationForm.inspectionStagesHint':
+    'Process inspection (IPQC) for this operation; used first when auto-creating from reporting.',
   'app.master-data.operationForm.inspectionTitle': 'Process inspection (IPQC)',
   'app.master-data.operationForm.inspectionStageIpqc': 'Process IPQC',
-  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only': 'Only warehouse can confirm picking',
-  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only_desc': 'When on, picking confirmation is restricted to warehouse roles.',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start': 'Require confirmed picking before operation start',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start_desc': 'When on, operation start is blocked until picking is confirmed.',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting': 'Require confirmed picking before reporting',
-  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting_desc': 'When on, reporting is blocked until picking is confirmed.',
-  'pages.system.configCenter.param.work_order_picking_issue_strategy': 'Auto issue picking after release',
-  'pages.system.configCenter.param.work_order_picking_issue_strategy_desc': 'When on, picking request/order is generated on WO release; when off, manual creation is required.',
-  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes': 'Allow non-warehouse to confirm picking',
-  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes_desc': 'When on, production/workshop roles are allowed to perform picking confirmation besides warehouse staff.',
+  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only':
+    'Only warehouse can confirm picking',
+  'pages.system.configCenter.param.work_order_picking_confirm_warehouse_only_desc':
+    'When on, picking confirmation is restricted to warehouse roles.',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start':
+    'Require confirmed picking before operation start',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_operation_start_desc':
+    'When on, operation start is blocked until picking is confirmed.',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting':
+    'Require confirmed picking before reporting',
+  'pages.system.configCenter.param.work_order_require_confirmed_picking_before_reporting_desc':
+    'When on, reporting is blocked until picking is confirmed.',
+  'pages.system.configCenter.param.work_order_picking_issue_strategy':
+    'Auto issue picking after release',
+  'pages.system.configCenter.param.work_order_picking_issue_strategy_desc':
+    'When on, picking request/order is generated on WO release; when off, manual creation is required.',
+  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes':
+    'Allow non-warehouse to confirm picking',
+  'pages.system.configCenter.param.work_order_picking_confirm_allowed_role_codes_desc':
+    'When on, production/workshop roles are allowed to perform picking confirmation besides warehouse staff.',
   'pages.system.configCenter.param.warehouse_batch_management': 'Batch management',
   'pages.system.configCenter.param.warehouse_batch_management_desc': 'Enable batch management',
   'pages.system.configCenter.param.warehouse_serial_management': 'Serial management',
@@ -16296,41 +17777,69 @@ export default {
   'pages.system.configCenter.param.warehouse_lifo': 'LIFO',
   'pages.system.configCenter.param.warehouse_lifo_desc': 'Enable LIFO',
   'pages.system.configCenter.param.warehouse_location_management': 'Location management',
-  'pages.system.configCenter.param.warehouse_location_management_desc': 'Enable location management',
+  'pages.system.configCenter.param.warehouse_location_management_desc':
+    'Enable location management',
   'pages.system.configCenter.param.warehouse_auto_outbound': 'Auto outbound',
   'pages.system.configCenter.param.warehouse_auto_outbound_desc': 'Support auto outbound',
-  'pages.system.configCenter.param.finance_auto_write_off_precision_limit': 'Auto write-off precision limit',
-  'pages.system.configCenter.param.finance_auto_write_off_precision_limit_desc': 'Maximum allowed discrepancy for auto write-off (local currency).',
+  'pages.system.configCenter.param.finance_auto_write_off_precision_limit':
+    'Auto write-off precision limit',
+  'pages.system.configCenter.param.finance_auto_write_off_precision_limit_desc':
+    'Maximum allowed discrepancy for auto write-off (local currency).',
   'pages.system.configCenter.param.finance_revenue_recognition': 'Revenue recognition (AR)',
-  'pages.system.configCenter.param.finance_revenue_recognition_desc': 'Choose whether AR is created on shipment (delivery confirm) or on sales invoice. Mutually exclusive to prevent duplicate AR.',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_shipment': 'On shipment (delivery confirm)',
+  'pages.system.configCenter.param.finance_revenue_recognition_desc':
+    'Choose whether AR is created on shipment (delivery confirm) or on sales invoice. Mutually exclusive to prevent duplicate AR.',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_shipment':
+    'On shipment (delivery confirm)',
   'pages.system.configCenter.param.finance_revenue_recognition_opt_on_invoice': 'On sales invoice',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_milestone': 'On contract milestones',
-  'pages.system.configCenter.param.finance_revenue_recognition_opt_mixed': 'Mixed (milestones when defined, else shipment)',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_on_milestone':
+    'On contract milestones',
+  'pages.system.configCenter.param.finance_revenue_recognition_opt_mixed':
+    'Mixed (milestones when defined, else shipment)',
   'pages.system.configCenter.param.finance_payable_recognition': 'Expense recognition (AP)',
-  'pages.system.configCenter.param.finance_payable_recognition_desc': 'Choose whether AP is created on purchase receipt confirm or on purchase invoice. Mutually exclusive.',
-  'pages.system.configCenter.param.finance_payable_recognition_opt_on_receipt': 'On purchase receipt confirm',
-  'pages.system.configCenter.param.finance_payable_recognition_opt_on_purchase_invoice': 'On purchase invoice',
-  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice': 'Auto generate AR from sales invoice',
-  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice_desc': 'Only when revenue recognition is “on invoice”: auto-create AR on sales invoice create (can be turned off).',
-  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice': 'Auto generate AP from purchase invoice',
-  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice_desc': 'Only when payable recognition is “on purchase invoice”: auto-create AP when purchase invoice is created.',
-  'pages.system.configCenter.param.sales_low_margin_threshold_percent': 'Low margin warning threshold (%)',
-  'pages.system.configCenter.param.sales_low_margin_threshold_percent_desc': 'Triggers alert or audit when sales order margin is below this value.',
-  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent': 'Price deviation approval threshold (%)',
-  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent_desc': 'Triggers audit when actual price deviates from base price by this ratio.',
-  'pages.system.configCenter.param.sales_require_contract_before_order': 'Require contract before sales order',
-  'pages.system.configCenter.param.sales_require_contract_before_order_desc': 'When on, new sales orders must link to an effective sales contract.',
+  'pages.system.configCenter.param.finance_payable_recognition_desc':
+    'Choose whether AP is created on purchase receipt confirm or on purchase invoice. Mutually exclusive.',
+  'pages.system.configCenter.param.finance_payable_recognition_opt_on_receipt':
+    'On purchase receipt confirm',
+  'pages.system.configCenter.param.finance_payable_recognition_opt_on_purchase_invoice':
+    'On purchase invoice',
+  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice':
+    'Auto generate AR from sales invoice',
+  'pages.system.configCenter.param.finance_auto_generate_receivable_from_sales_invoice_desc':
+    'Only when revenue recognition is “on invoice”: auto-create AR on sales invoice create (can be turned off).',
+  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice':
+    'Auto generate AP from purchase invoice',
+  'pages.system.configCenter.param.finance_auto_generate_payable_from_purchase_invoice_desc':
+    'Only when payable recognition is “on purchase invoice”: auto-create AP when purchase invoice is created.',
+  'pages.system.configCenter.param.sales_low_margin_threshold_percent':
+    'Low margin warning threshold (%)',
+  'pages.system.configCenter.param.sales_low_margin_threshold_percent_desc':
+    'Triggers alert or audit when sales order margin is below this value.',
+  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent':
+    'Price deviation approval threshold (%)',
+  'pages.system.configCenter.param.sales_price_deviation_approval_threshold_percent_desc':
+    'Triggers audit when actual price deviates from base price by this ratio.',
+  'pages.system.configCenter.param.sales_require_contract_before_order':
+    'Require contract before sales order',
+  'pages.system.configCenter.param.sales_require_contract_before_order_desc':
+    'When on, new sales orders must link to an effective sales contract.',
   'pages.system.configCenter.param.sales_contract_expiry_alert_days': 'Contract expiry alert days',
-  'pages.system.configCenter.param.sales_contract_expiry_alert_days_desc': 'Days before valid_to to show contract expiry alerts.',
-  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release': 'Auto-close contract when fully released',
-  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release_desc': 'Automatically close single/framework contracts after full release.',
-  'pages.system.configCenter.param.sales_contract_milestone_required': 'Framework contracts require payment plan',
-  'pages.system.configCenter.param.sales_contract_milestone_required_desc': 'When on, new framework contracts must include at least one milestone.',
-  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent': 'Purchase price fluctuation threshold (%)',
-  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent_desc': 'Triggers alert when PO price deviates from history/standard by this value.',
+  'pages.system.configCenter.param.sales_contract_expiry_alert_days_desc':
+    'Days before valid_to to show contract expiry alerts.',
+  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release':
+    'Auto-close contract when fully released',
+  'pages.system.configCenter.param.sales_contract_auto_close_on_full_release_desc':
+    'Automatically close single/framework contracts after full release.',
+  'pages.system.configCenter.param.sales_contract_milestone_required':
+    'Framework contracts require payment plan',
+  'pages.system.configCenter.param.sales_contract_milestone_required_desc':
+    'When on, new framework contracts must include at least one milestone.',
+  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent':
+    'Purchase price fluctuation threshold (%)',
+  'pages.system.configCenter.param.purchase_price_fluctuation_limit_percent_desc':
+    'Triggers alert when PO price deviates from history/standard by this value.',
   'pages.system.configCenter.param.sales_audit_enabled': 'Sales order audit',
-  'pages.system.configCenter.param.sales_audit_enabled_desc': 'When on, sales orders go through audit; when off, they take effect on submit.',
+  'pages.system.configCenter.param.sales_audit_enabled_desc':
+    'When on, sales orders go through audit; when off, they take effect on submit.',
   'pages.system.configCenter.param.quality_incoming_inspection': 'Incoming inspection',
   'pages.system.configCenter.param.quality_incoming_inspection_desc': 'Enable incoming inspection',
   'pages.system.configCenter.param.quality_process_inspection': 'Process inspection',
@@ -16340,40 +17849,62 @@ export default {
   'pages.system.configCenter.param.quality_defect_handling': 'Defect handling',
   'pages.system.configCenter.param.quality_defect_handling_desc': 'Enable defect handling',
   'pages.system.configCenter.param.quality_stage_iqc_enabled': 'Incoming inspection stage (IQC)',
-  'pages.system.configCenter.param.quality_stage_iqc_enabled_desc': 'Whether IQC is enabled org-wide. When off, IQC pending orders are not auto-created and manual push is blocked.',
+  'pages.system.configCenter.param.quality_stage_iqc_enabled_desc':
+    'Whether IQC is enabled org-wide. When off, IQC pending orders are not auto-created and manual push is blocked.',
   'pages.system.configCenter.param.quality_stage_ipqc_enabled': 'Process inspection stage (IPQC)',
-  'pages.system.configCenter.param.quality_stage_ipqc_enabled_desc': 'Whether IPQC is enabled org-wide. When off, reporting does not auto-create process inspection orders.',
+  'pages.system.configCenter.param.quality_stage_ipqc_enabled_desc':
+    'Whether IPQC is enabled org-wide. When off, reporting does not auto-create process inspection orders.',
   'pages.system.configCenter.param.quality_stage_fqc_enabled': 'Finished inspection stage (FQC)',
-  'pages.system.configCenter.param.quality_stage_fqc_enabled_desc': 'Whether FQC is enabled org-wide. When off, last-operation reporting does not auto-create finished inspection orders.',
+  'pages.system.configCenter.param.quality_stage_fqc_enabled_desc':
+    'Whether FQC is enabled org-wide. When off, last-operation reporting does not auto-create finished inspection orders.',
   'pages.system.configCenter.param.quality_stage_oqc_enabled': 'Outgoing inspection stage (OQC)',
-  'pages.system.configCenter.param.quality_stage_oqc_enabled_desc': 'Whether OQC is enabled org-wide. When off, outbound/warehouse notify will not enforce OQC gates.',
-  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt': 'Auto-create IQC on purchase receipt',
-  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt_desc': 'When a purchase receipt is saved (pending inbound), auto-create incoming inspection pending orders per material inspection mode.',
-  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting': 'Auto-create IPQC on reporting',
-  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting_desc': 'When reporting takes effect (incl. auto-approve), auto-create process inspection pending orders per operation/material mode.',
-  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting': 'Auto-create FQC on last reporting',
-  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting_desc': 'When the last operation of a work order is reported, auto-create finished inspection pending orders per material mode.',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify': 'Auto-create OQC on shipment notice notify',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify_desc': 'When notifying warehouse on a shipment notice, auto-create OQC pending orders before outbound gate checks.',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery': 'Auto-create OQC on sales delivery',
-  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery_desc': 'When a sales delivery is created, auto-create OQC pending orders per material inspection mode.',
+  'pages.system.configCenter.param.quality_stage_oqc_enabled_desc':
+    'Whether OQC is enabled org-wide. When off, outbound/warehouse notify will not enforce OQC gates.',
+  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt':
+    'Auto-create IQC on purchase receipt',
+  'pages.system.configCenter.param.quality_auto_create_iqc_on_purchase_receipt_desc':
+    'When a purchase receipt is saved (pending inbound), auto-create incoming inspection pending orders per material inspection mode.',
+  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting':
+    'Auto-create IPQC on reporting',
+  'pages.system.configCenter.param.quality_auto_create_ipqc_on_reporting_desc':
+    'When reporting takes effect (incl. auto-approve), auto-create process inspection pending orders per operation/material mode.',
+  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting':
+    'Auto-create FQC on last reporting',
+  'pages.system.configCenter.param.quality_auto_create_fqc_on_last_reporting_desc':
+    'When the last operation of a work order is reported, auto-create finished inspection pending orders per material mode.',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify':
+    'Auto-create OQC on shipment notice notify',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_shipment_notice_notify_desc':
+    'When notifying warehouse on a shipment notice, auto-create OQC pending orders before outbound gate checks.',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery':
+    'Auto-create OQC on sales delivery',
+  'pages.system.configCenter.param.quality_auto_create_oqc_on_sales_delivery_desc':
+    'When a sales delivery is created, auto-create OQC pending orders per material inspection mode.',
   'pages.system.configCenter.quality.gateRecommendAutoIqcTitle': 'Also enable auto-create?',
-  'pages.system.configCenter.quality.gateRecommendAutoIqcContent': 'With receipt gate on, inbound confirm requires passed incoming inspection. We recommend also enabling auto IQC on purchase receipt so orders are not missed.',
+  'pages.system.configCenter.quality.gateRecommendAutoIqcContent':
+    'With receipt gate on, inbound confirm requires passed incoming inspection. We recommend also enabling auto IQC on purchase receipt so orders are not missed.',
   'pages.system.configCenter.quality.gateRecommendAutoIqcEnableBoth': 'Enable auto-create too',
   'pages.system.configCenter.quality.gateRecommendAutoIqcSkip': 'Not now',
-  'app.kuaizhizao.quality.masterDataHint.material': 'Incoming/finished/outgoing inspection stages are off org-wide. Material inspection modes (simple/plan) take effect only after the corresponding stages are enabled.',
-  'app.kuaizhizao.quality.masterDataHint.operation': 'Process inspection (IPQC) is off org-wide. Operation inspection modes (simple/plan) take effect only after IPQC is enabled.',
-  'app.kuaizhizao.quality.masterDataHint.stageIqc': 'Incoming inspection (IQC) is off org-wide; this stage config will not take effect until enabled.',
-  'app.kuaizhizao.quality.masterDataHint.stageFqc': 'Finished inspection (FQC) is off org-wide; this stage config will not take effect until enabled.',
-  'app.kuaizhizao.quality.masterDataHint.stageOqc': 'Outbound inspection (OQC) is off org-wide; this stage config will not take effect until enabled.',
-  'app.kuaizhizao.quality.masterDataHint.stageIpqc': 'Process inspection (IPQC) is off org-wide; this stage config will not take effect until enabled.',
+  'app.kuaizhizao.quality.masterDataHint.material':
+    'Incoming/finished/outgoing inspection stages are off org-wide. Material inspection modes (simple/plan) take effect only after the corresponding stages are enabled.',
+  'app.kuaizhizao.quality.masterDataHint.operation':
+    'Process inspection (IPQC) is off org-wide. Operation inspection modes (simple/plan) take effect only after IPQC is enabled.',
+  'app.kuaizhizao.quality.masterDataHint.stageIqc':
+    'Incoming inspection (IQC) is off org-wide; this stage config will not take effect until enabled.',
+  'app.kuaizhizao.quality.masterDataHint.stageFqc':
+    'Finished inspection (FQC) is off org-wide; this stage config will not take effect until enabled.',
+  'app.kuaizhizao.quality.masterDataHint.stageOqc':
+    'Outbound inspection (OQC) is off org-wide; this stage config will not take effect until enabled.',
+  'app.kuaizhizao.quality.masterDataHint.stageIpqc':
+    'Process inspection (IPQC) is off org-wide; this stage config will not take effect until enabled.',
   'app.kuaizhizao.quality.masterDataHint.gotoConfigCenter': 'Config center',
   'app.kuaizhizao.quality.inspectionCenter.stageTogglesTitle': 'Inspection stage toggles',
   'app.kuaizhizao.quality.inspectionCenter.stageIqc': 'Incoming (IQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageIpqc': 'Process (IPQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageFqc': 'Finished (FQC)',
   'app.kuaizhizao.quality.inspectionCenter.stageOqc': 'Outgoing (OQC)',
-  'app.kuaizhizao.quality.inspectionCenter.stageReadonlyHint': 'Stage toggles, auto-create, and gates are maintained in Config Center.',
+  'app.kuaizhizao.quality.inspectionCenter.stageReadonlyHint':
+    'Stage toggles, auto-create, and gates are maintained in Config Center.',
   'app.kuaizhizao.quality.inspectionCenter.gotoConfigCenter': 'Go to Config Center',
   'app.kuaizhizao.quality.common.disposal.return': 'Return',
   'app.kuaizhizao.quality.common.disposal.accept': 'Accept with deviation',
@@ -16483,17 +18014,21 @@ export default {
   'app.kuaizhizao.quality.common.form.dataDictionaryManage': 'Data dictionary',
   'app.kuaizhizao.quality.common.placeholder.qualifiedQty': 'Enter qualified qty',
   'app.kuaizhizao.quality.common.placeholder.unqualifiedQty': 'Enter unqualified qty',
-  'app.kuaizhizao.quality.common.placeholder.nonconformanceReason': 'Required when unqualified qty > 0',
-  'app.kuaizhizao.quality.common.placeholder.notes': 'Enter inspection details, issues, or comments',
+  'app.kuaizhizao.quality.common.placeholder.nonconformanceReason':
+    'Required when unqualified qty > 0',
+  'app.kuaizhizao.quality.common.placeholder.notes':
+    'Enter inspection details, issues, or comments',
   'app.kuaizhizao.quality.common.placeholder.defectQty': 'Enter NC qty',
   'app.kuaizhizao.quality.common.placeholder.defectType': 'Select NC type',
   'app.kuaizhizao.quality.common.placeholder.defectReason': 'Enter NC reason',
   'app.kuaizhizao.quality.common.validation.requiredQualifiedQty': 'Enter qualified qty',
   'app.kuaizhizao.quality.common.validation.requiredUnqualifiedQty': 'Enter unqualified qty',
   'app.kuaizhizao.quality.common.validation.minZero': 'Cannot be less than 0',
-  'app.kuaizhizao.quality.common.validation.qtySumExceeds': 'Qualified + unqualified qty cannot exceed inspection qty',
+  'app.kuaizhizao.quality.common.validation.qtySumExceeds':
+    'Qualified + unqualified qty cannot exceed inspection qty',
   'app.kuaizhizao.quality.common.validation.requiredDefectQty': 'Enter NC qty',
-  'app.kuaizhizao.quality.common.validation.defectQtyExceeds': 'NC qty cannot exceed unqualified qty on inspection',
+  'app.kuaizhizao.quality.common.validation.defectQtyExceeds':
+    'NC qty cannot exceed unqualified qty on inspection',
   'app.kuaizhizao.quality.common.validation.requiredDefectType': 'Select NC type',
   'app.kuaizhizao.quality.common.validation.requiredDefectReason': 'Enter NC reason',
   'app.kuaizhizao.quality.common.validation.requiredDisposition': 'Select disposition',
@@ -16513,8 +18048,10 @@ export default {
   'app.kuaizhizao.quality.common.messages.loadListFailed': 'Failed to load list',
   'app.kuaizhizao.quality.common.messages.createDefectSuccess': 'NC record created',
   'app.kuaizhizao.quality.common.messages.createDefectFailed': 'Failed to create NC record',
-  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnSuccess': 'Purchase return created: {{code}}',
-  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnFailed': 'Failed to push purchase return',
+  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnSuccess':
+    'Purchase return created: {{code}}',
+  'app.kuaizhizao.quality.common.messages.pushPurchaseReturnFailed':
+    'Failed to push purchase return',
   'app.kuaizhizao.quality.common.messages.pushReworkSuccess': 'Rework order created: {{code}}',
   'app.kuaizhizao.quality.common.messages.pushReworkFailed': 'Failed to push rework order',
   'app.kuaizhizao.quality.common.modal.inspectTitle': 'Inspection - {{code}}',
@@ -16531,20 +18068,26 @@ export default {
   'app.kuaizhizao.quality.incoming.pageTitle': 'Incoming Inspection (IQC)',
   'app.kuaizhizao.quality.incoming.createFromReceipt': 'Create from Purchase Receipt',
   'app.kuaizhizao.quality.incoming.createFromCustomerMaterial': 'Create from Customer Material',
-  'app.kuaizhizao.quality.incoming.modal.createFromReceiptTitle': 'Create IQC from Purchase Receipt',
-  'app.kuaizhizao.quality.incoming.modal.createFromCustomerMaterialTitle': 'Create IQC from Customer Material',
+  'app.kuaizhizao.quality.incoming.modal.createFromReceiptTitle':
+    'Create IQC from Purchase Receipt',
+  'app.kuaizhizao.quality.incoming.modal.createFromCustomerMaterialTitle':
+    'Create IQC from Customer Material',
   'app.kuaizhizao.quality.incoming.form.selectReceipt': 'Select purchase receipt',
-  'app.kuaizhizao.quality.incoming.form.selectCustomerMaterial': 'Select customer material registration',
+  'app.kuaizhizao.quality.incoming.form.selectCustomerMaterial':
+    'Select customer material registration',
   'app.kuaizhizao.quality.incoming.form.advancedSearchReceipt': 'Advanced search purchase receipts',
   'app.kuaizhizao.quality.incoming.form.receiptCode': 'Receipt No.',
   'app.kuaizhizao.quality.incoming.form.supplierName': 'Supplier Name',
   'app.kuaizhizao.quality.incoming.messages.loadReceiptFailed': 'Failed to load purchase receipts',
   'app.kuaizhizao.quality.incoming.messages.createSuccess': 'Incoming inspection created',
   'app.kuaizhizao.quality.incoming.messages.createFailed': 'Failed to create incoming inspection',
-  'app.kuaizhizao.quality.incoming.messages.loadCustomerMaterialFailed': 'Failed to load customer material registrations',
-  'app.kuaizhizao.quality.incoming.messages.createFromCustomerMaterialSuccess': 'Incoming inspection created from customer material',
+  'app.kuaizhizao.quality.incoming.messages.loadCustomerMaterialFailed':
+    'Failed to load customer material registrations',
+  'app.kuaizhizao.quality.incoming.messages.createFromCustomerMaterialSuccess':
+    'Incoming inspection created from customer material',
   'app.kuaizhizao.quality.incoming.messages.loadListFailed': 'Failed to load incoming inspections',
-  'app.kuaizhizao.quality.incoming.messages.deleteConfirm': 'Delete {{count}} selected incoming inspection(s)?',
+  'app.kuaizhizao.quality.incoming.messages.deleteConfirm':
+    'Delete {{count}} selected incoming inspection(s)?',
   'app.kuaizhizao.quality.process.pageTitle': 'Process Inspection (IPQC)',
   'app.kuaizhizao.quality.process.createFromWorkOrder': 'Create from Work Order',
   'app.kuaizhizao.quality.process.messages.inspectSuccess': 'Process inspection completed',
@@ -16552,8 +18095,10 @@ export default {
   'app.kuaizhizao.quality.process.messages.createFailed': 'Failed to create process inspection',
   'app.kuaizhizao.quality.process.messages.loadWorkOrderFailed': 'Failed to load work orders',
   'app.kuaizhizao.quality.process.messages.loadListFailed': 'Failed to load process inspections',
-  'app.kuaizhizao.quality.process.messages.deleteConfirm': 'Delete {{count}} selected process inspection(s)?',
-  'app.kuaizhizao.quality.process.modal.createFromWorkOrderTitle': 'Create Process Inspection from Work Order',
+  'app.kuaizhizao.quality.process.messages.deleteConfirm':
+    'Delete {{count}} selected process inspection(s)?',
+  'app.kuaizhizao.quality.process.modal.createFromWorkOrderTitle':
+    'Create Process Inspection from Work Order',
   'app.kuaizhizao.quality.process.modal.inspectTitle': 'Process Inspection - {{code}}',
   'app.kuaizhizao.quality.process.modal.detailTitle': 'Process Inspection Detail - {{code}}',
   'app.kuaizhizao.quality.process.form.selectWorkOrder': 'Select work order',
@@ -16570,8 +18115,10 @@ export default {
   'app.kuaizhizao.quality.finished.messages.createFailed': 'Failed to create finished inspection',
   'app.kuaizhizao.quality.finished.messages.loadWorkOrderFailed': 'Failed to load work orders',
   'app.kuaizhizao.quality.finished.messages.loadListFailed': 'Failed to load finished inspections',
-  'app.kuaizhizao.quality.finished.messages.deleteConfirm': 'Delete {{count}} selected finished inspection(s)?',
-  'app.kuaizhizao.quality.finished.modal.createFromWorkOrderTitle': 'Create Finished Inspection from Work Order',
+  'app.kuaizhizao.quality.finished.messages.deleteConfirm':
+    'Delete {{count}} selected finished inspection(s)?',
+  'app.kuaizhizao.quality.finished.modal.createFromWorkOrderTitle':
+    'Create Finished Inspection from Work Order',
   'app.kuaizhizao.quality.finished.modal.inspectTitle': 'Finished Inspection - {{code}}',
   'app.kuaizhizao.quality.finished.modal.detailTitle': 'Finished Inspection Detail - {{code}}',
   'app.kuaizhizao.quality.finished.modal.printCertificateTitle': 'Print Quality Certificate',
@@ -16604,8 +18151,10 @@ export default {
   'app.kuaizhizao.quality.oqc.messages.conductSuccess': 'Inspection completed',
   'app.kuaizhizao.quality.oqc.messages.noConductPermission': 'No permission to conduct inspection',
   'app.kuaizhizao.quality.oqc.messages.loadListFailed': 'Failed to load OQC inspections',
-  'app.kuaizhizao.quality.oqc.messages.deleteConfirm': 'Delete {{count}} selected OQC inspection(s)?',
-  'app.kuaizhizao.quality.oqc.messages.deleteConfirmDescription': 'Only pending inspections can be deleted.',
+  'app.kuaizhizao.quality.oqc.messages.deleteConfirm':
+    'Delete {{count}} selected OQC inspection(s)?',
+  'app.kuaizhizao.quality.oqc.messages.deleteConfirmDescription':
+    'Only pending inspections can be deleted.',
   'app.kuaizhizao.quality.oqc.modal.createFromNoticeTitle': 'Create OQC from Shipment Notice',
   'app.kuaizhizao.quality.oqc.modal.createFromDeliveryTitle': 'Create OQC from Sales Delivery',
   'app.kuaizhizao.quality.oqc.modal.conductTitle': 'Conduct OQC - {{code}}',
@@ -16657,7 +18206,8 @@ export default {
   'app.kuaizhizao.quality.plans.lifecycle.active': 'Active',
   'app.kuaizhizao.quality.plans.lifecycle.inactive': 'Inactive',
   'app.kuaizhizao.quality.plans.lifecycle.enableSuggestion': 'Enable the plan from the list',
-  'app.kuaizhizao.quality.plans.detail.noUpstreamDocs': 'Inspection plans have no upstream/downstream document links',
+  'app.kuaizhizao.quality.plans.detail.noUpstreamDocs':
+    'Inspection plans have no upstream/downstream document links',
   'app.kuaizhizao.quality.plans.detail.noSteps': 'No inspection steps',
   'app.kuaizhizao.quality.plans.step.sequence': 'No.',
   'app.kuaizhizao.quality.plans.step.inspectionItem': 'Inspection Item',
@@ -16666,20 +18216,26 @@ export default {
   'app.kuaizhizao.quality.plans.step.samplingType': 'Sampling Type',
   'app.kuaizhizao.quality.plans.step.sampling': 'Sampling',
   'app.kuaizhizao.quality.plans.step.fullInspection': 'Full inspection',
-  'app.kuaizhizao.quality.plans.stepEditor.dragHint': 'Drag to reorder; click Delete to remove a step',
+  'app.kuaizhizao.quality.plans.stepEditor.dragHint':
+    'Drag to reorder; click Delete to remove a step',
   'app.kuaizhizao.quality.plans.stepEditor.addStep': 'Add Step',
-  'app.kuaizhizao.quality.plans.stepEditor.emptyHint': 'No inspection steps yet. Click the button below to add one.',
+  'app.kuaizhizao.quality.plans.stepEditor.emptyHint':
+    'No inspection steps yet. Click the button below to add one.',
   'app.kuaizhizao.quality.plans.stepEditor.modalTitle': 'Add Inspection Step',
-  'app.kuaizhizao.quality.plans.stepEditor.validation.requiredInspectionItem': 'Enter inspection item',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionItem': 'Enter inspection item name',
+  'app.kuaizhizao.quality.plans.stepEditor.validation.requiredInspectionItem':
+    'Enter inspection item',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionItem':
+    'Enter inspection item name',
   'app.kuaizhizao.quality.plans.stepEditor.placeholder.inspectionMethod': 'Enter inspection method',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteria': 'Enter acceptance criteria',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteria':
+    'Enter acceptance criteria',
   'app.kuaizhizao.quality.plans.stepEditor.placeholder.selectSamplingType': 'Select',
   'app.kuaizhizao.quality.plans.stepEditor.placeholder.remarksOptional': 'Remarks (optional)',
   'app.kuaizhizao.quality.plans.stepEditor.addSuccess': 'Inspection step added',
   'app.kuaizhizao.quality.plans.stepEditor.editSuccess': 'Inspection step updated',
   'app.kuaizhizao.quality.plans.stepEditor.modalEditTitle': 'Edit Inspection Step',
-  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteriaAuto': 'Leave blank to auto-generate from type spec',
+  'app.kuaizhizao.quality.plans.stepEditor.placeholder.acceptanceCriteriaAuto':
+    'Leave blank to auto-generate from type spec',
   'app.kuaizhizao.quality.plans.stepSpec.valueType': 'Value Type',
   'app.kuaizhizao.quality.plans.stepSpec.specSection': 'Type Specification',
   'app.kuaizhizao.quality.plans.stepSpec.typeBoolean': 'Yes/No',
@@ -16716,18 +18272,22 @@ export default {
   'app.kuaizhizao.quality.plans.stepSpec.sampleSize': 'Sample size n',
   'app.kuaizhizao.quality.plans.stepSpec.acceptNum': 'Acceptance Ac',
   'app.kuaizhizao.quality.plans.stepSpec.rejectNum': 'Rejection Re',
-  'app.kuaizhizao.quality.plans.stepSpec.samplingCriteria': 'Sampling n={{n}}, Ac={{ac}}, Re={{re}}',
+  'app.kuaizhizao.quality.plans.stepSpec.samplingCriteria':
+    'Sampling n={{n}}, Ac={{ac}}, Re={{re}}',
   'app.kuaizhizao.quality.plans.stepSpec.derived': 'Derived',
   'app.kuaizhizao.quality.plans.stepSpec.requirePhoto': 'Photo required',
   'app.kuaizhizao.quality.plans.stepSpec.formula': 'Formula',
   'app.kuaizhizao.quality.plans.stepSpec.formulaPlaceholder': 'e.g. {step_key} - {step_key}',
-  'app.kuaizhizao.quality.plans.stepSpec.formulaHint': 'Use {step_key} to reference numeric steps; supports + - * / and parentheses',
+  'app.kuaizhizao.quality.plans.stepSpec.formulaHint':
+    'Use {step_key} to reference numeric steps; supports + - * / and parentheses',
   'app.kuaizhizao.quality.plans.stepSpec.insertFormulaRef': 'Insert step reference',
   'app.kuaizhizao.quality.plans.stepSpec.criteriaDerived': 'Derived: {{formula}}',
   'app.kuaizhizao.quality.plans.versionBump.title': 'Steps changed — bump version?',
-  'app.kuaizhizao.quality.plans.versionBump.content': 'Inspection steps were modified. Bump version from {{from}} to {{to}}? In-flight inspections keep their snapshot.',
+  'app.kuaizhizao.quality.plans.versionBump.content':
+    'Inspection steps were modified. Bump version from {{from}} to {{to}}? In-flight inspections keep their snapshot.',
   'app.kuaizhizao.quality.plans.versionBump.confirm': 'Bump & save',
-  'app.kuaizhizao.quality.plans.form.versionHint': 'Saving step changes will prompt a version bump. Open inspections use the snapshot from creation.',
+  'app.kuaizhizao.quality.plans.form.versionHint':
+    'Saving step changes will prompt a version bump. Open inspections use the snapshot from creation.',
   'app.kuaizhizao.quality.template.derivedValueHint': 'Auto-calculated from formula; read-only',
   'app.kuaizhizao.quality.template.stepPhoto': 'Site photos',
   'app.kuaizhizao.quality.template.stepPhotoRequired': '「{{label}}」 requires a site photo',
@@ -16746,9 +18306,11 @@ export default {
   'app.kuaizhizao.quality.plans.messages.updateSuccess': 'Inspection plan updated',
   'app.kuaizhizao.quality.plans.messages.deleteSuccess': 'Deleted successfully',
   'app.kuaizhizao.quality.plans.messages.operationFailed': 'Operation failed',
-  'app.kuaizhizao.quality.plans.messages.deleteConfirm': 'Delete {{count}} selected inspection plan(s)?',
+  'app.kuaizhizao.quality.plans.messages.deleteConfirm':
+    'Delete {{count}} selected inspection plan(s)?',
   'app.kuaizhizao.quality.inspectionCenter.kpi.pendingTotal': 'Pending Inspections',
-  'app.kuaizhizao.quality.inspectionCenter.kpi.pendingSubtitle': 'All pending inspection orders/operations',
+  'app.kuaizhizao.quality.inspectionCenter.kpi.pendingSubtitle':
+    'All pending inspection orders/operations',
   'app.kuaizhizao.quality.inspectionCenter.kpi.incomingProcess': 'IQC / IPQC',
   'app.kuaizhizao.quality.inspectionCenter.kpi.finishedOqc': 'FQC / OQC',
   'app.kuaizhizao.quality.inspectionCenter.kpi.todayQualified': 'Today Pass Rate',
@@ -16764,9 +18326,12 @@ export default {
   'app.kuaizhizao.quality.inspectionCenter.anomalyPanel': 'Quality Anomalies',
   'app.kuaizhizao.quality.inspectionCenter.passRateTrend': 'Pass Rate Trend',
   'app.kuaizhizao.quality.inspectionCenter.anomalyDefaultReason': 'Failed quality judgment',
-  'app.kuaizhizao.quality.inspectionCenter.messages.loadSummaryFailed': 'Failed to load inspection center data',
-  'app.kuaizhizao.quality.inspectionCenter.messages.loadAnomaliesFailed': 'Failed to load quality anomalies',
-  'app.kuaizhizao.quality.inspectionCenter.messages.loadStageTogglesFailed': 'Failed to load stage toggles',
+  'app.kuaizhizao.quality.inspectionCenter.messages.loadSummaryFailed':
+    'Failed to load inspection center data',
+  'app.kuaizhizao.quality.inspectionCenter.messages.loadAnomaliesFailed':
+    'Failed to load quality anomalies',
+  'app.kuaizhizao.quality.inspectionCenter.messages.loadStageTogglesFailed':
+    'Failed to load stage toggles',
   'app.kuaizhizao.quality.reports.columns.handleCode': 'Handle No.',
   'app.kuaizhizao.quality.reports.columns.disposalMethod': 'Disposition',
   'app.kuaizhizao.quality.reports.columns.disposalDate': 'Disposition Date',
@@ -16780,17 +18345,22 @@ export default {
   'app.kuaizhizao.quality.reports.columns.fqcRate': 'FQC Pass Rate',
   'app.kuaizhizao.quality.reports.columns.overallRate': 'Overall Pass Rate',
   'pages.system.configCenter.param.security_token_check_interval': 'Token check interval (s)',
-  'pages.system.configCenter.param.security_token_check_interval_desc': 'How often frontend checks token expiry',
+  'pages.system.configCenter.param.security_token_check_interval_desc':
+    'How often frontend checks token expiry',
   'pages.system.configCenter.param.security_inactivity_timeout': 'Inactivity timeout (s)',
-  'pages.system.configCenter.param.security_inactivity_timeout_desc': 'Auto logout after no activity; 0 to disable',
+  'pages.system.configCenter.param.security_inactivity_timeout_desc':
+    'Auto logout after no activity; 0 to disable',
   'pages.system.configCenter.param.security_user_cache_time': 'User cache time (s)',
-  'pages.system.configCenter.param.security_user_cache_time_desc': 'User info cache TTL on frontend',
+  'pages.system.configCenter.param.security_user_cache_time_desc':
+    'User info cache TTL on frontend',
   'pages.system.configCenter.param.ui_max_tabs': 'Max open tabs',
-  'pages.system.configCenter.param.ui_max_tabs_desc': 'Oldest unpinned tab closes when limit exceeded',
+  'pages.system.configCenter.param.ui_max_tabs_desc':
+    'Oldest unpinned tab closes when limit exceeded',
   'pages.system.configCenter.param.ui_default_page_size': 'Default table page size',
   'pages.system.configCenter.param.ui_default_page_size_desc': 'Default pagination size for tables',
   'pages.system.configCenter.param.ui_table_loading_delay': 'Table loading delay (ms)',
-  'pages.system.configCenter.param.ui_table_loading_delay_desc': 'Delay before showing loading to avoid flicker',
+  'pages.system.configCenter.param.ui_table_loading_delay_desc':
+    'Delay before showing loading to avoid flicker',
   'pages.system.configCenter.param.theme_config_colorPrimary': 'Default theme color',
   'pages.system.configCenter.param.theme_config_colorPrimary_desc': 'System primary color',
   'pages.system.configCenter.param.network_timeout': 'Request timeout (ms)',
@@ -16805,18 +18375,24 @@ export default {
   'pages.system.codeRules.updateRuleFailed': 'Failed to update rule',
   'pages.system.codeRules.createRuleFailed': 'Failed to create rule',
   'pages.system.codeRules.saveRuleFailed': 'Failed to save rule',
-  'pages.system.codeRules.ruleCodeExistsHint': 'Rule code "{{code}}" already exists but the rule was not found. Please refresh and try again.',
+  'pages.system.codeRules.ruleCodeExistsHint':
+    'Rule code "{{code}}" already exists but the rule was not found. Please refresh and try again.',
   'pages.system.codeRules.configSaved': 'Config saved',
   'pages.system.codeRules.searchPagePlaceholder': 'Search pages',
   'pages.system.codeRules.loadingPageConfig': 'Loading page config...',
   'pages.system.codeRules.tip': 'Tip',
-  'pages.system.codeRules.tipDescription': 'If a new document page does not appear in this list, check:',
-  'pages.system.codeRules.tipCheck1': 'Whether the page uses isAutoGenerateEnabled or getPageRuleCode',
+  'pages.system.codeRules.tipDescription':
+    'If a new document page does not appear in this list, check:',
+  'pages.system.codeRules.tipCheck1':
+    'Whether the page uses isAutoGenerateEnabled or getPageRuleCode',
   'pages.system.codeRules.tipCheck2': 'Whether the page is registered in code_rule_pages.py',
   'pages.system.codeRules.tipCheck3': 'Whether the page is registered in codeRulePages.ts',
-  'pages.system.codeRules.tipAppFilter': 'Only pages from installed and enabled applications are shown; pages under disabled apps do not appear here.',
-  'pages.system.codeRules.tipExpandLabel': 'If a new document page is missing, expand to see checklist',
-  'pages.system.codeRules.tipSuggestion': 'When adding document pages, update the code rule config accordingly.',
+  'pages.system.codeRules.tipAppFilter':
+    'Only pages from installed and enabled applications are shown; pages under disabled apps do not appear here.',
+  'pages.system.codeRules.tipExpandLabel':
+    'If a new document page is missing, expand to see checklist',
+  'pages.system.codeRules.tipSuggestion':
+    'When adding document pages, update the code rule config accordingly.',
   'pages.system.codeRules.enabled': 'Enabled',
   'pages.system.codeRules.saveRule': 'Save rule',
   'pages.system.codeRules.configTitle': 'Code rule config',
@@ -16826,10 +18402,12 @@ export default {
   'pages.system.codeRules.expressionLabel': 'Rule expression',
   'pages.system.codeRules.expressionRequired': 'Please enter rule expression',
   'pages.system.codeRules.expressionPlaceholder': 'e.g. {YYYY}{MM}{DD}-{SEQ:4}',
-  'pages.system.codeRules.expressionExtra': 'Variables: {YYYY}, {YY}, {MM}, {DD}, {SEQ:digits}, {FIELD:fieldName}',
+  'pages.system.codeRules.expressionExtra':
+    'Variables: {YYYY}, {YY}, {MM}, {DD}, {SEQ:digits}, {FIELD:fieldName}',
   'pages.system.codeRules.modeComponent': 'Component',
   'pages.system.codeRules.modeAdvanced': 'Advanced',
-  'pages.system.codeRules.seqIntegratedHint': 'Sequence settings are in the "Auto counter" component.',
+  'pages.system.codeRules.seqIntegratedHint':
+    'Sequence settings are in the "Auto counter" component.',
   'pages.system.codeRules.seqStart': 'Sequence start',
   'pages.system.codeRules.seqStep': 'Sequence step',
   'pages.system.codeRules.seqResetRule': 'Sequence reset',
@@ -16862,12 +18440,15 @@ export default {
   'components.codeRuleComponentBuilder.action.edit': 'Edit',
   'components.codeRuleComponentBuilder.action.delete': 'Delete',
   'components.codeRuleComponentBuilder.warning.singleInstance': '{{name}} can only be added once',
-  'components.codeRuleComponentBuilder.warning.requiredCannotDelete': '{{name}} is required and cannot be deleted',
+  'components.codeRuleComponentBuilder.warning.requiredCannotDelete':
+    '{{name}} is required and cannot be deleted',
   'components.codeRuleComponentBuilder.modal.deleteTitle': 'Confirm delete',
-  'components.codeRuleComponentBuilder.modal.deleteContent': 'Are you sure you want to delete \"{{name}}\"?',
+  'components.codeRuleComponentBuilder.modal.deleteContent':
+    'Are you sure you want to delete "{{name}}"?',
   'components.codeRuleComponentBuilder.preview.title': 'Code preview',
   'components.codeRuleComponentBuilder.preview.placeholder': 'Please configure rule components',
-  'components.codeRuleComponentBuilder.preview.hint': 'This preview is generated from the current settings; actual generation uses real sequence numbers and dates.',
+  'components.codeRuleComponentBuilder.preview.hint':
+    'This preview is generated from the current settings; actual generation uses real sequence numbers and dates.',
 
   'components.codeRuleComponent.type.autoCounter': 'Auto counter',
   'components.codeRuleComponent.type.date': 'Date',
@@ -16895,16 +18476,24 @@ export default {
   'components.codeRuleComponentConfig.autoCounter.digitsRequired': 'Please enter digits',
   'components.codeRuleComponentConfig.autoCounter.digitsExtra': 'Digits range: 2-12',
   'components.codeRuleComponentConfig.autoCounter.fixedWidth': 'Fixed width',
-  'components.codeRuleComponentConfig.autoCounter.fixedWidthExtra': 'When on, pads with zeros (e.g. 00001). When off, uses the natural width (e.g. 1).',
+  'components.codeRuleComponentConfig.autoCounter.fixedWidthExtra':
+    'When on, pads with zeros (e.g. 00001). When off, uses the natural width (e.g. 1).',
   'components.codeRuleComponentConfig.autoCounter.resetCycle': 'Reset cycle',
-  'components.codeRuleComponentConfig.autoCounter.resetCycleRequired': 'Please select a reset cycle',
-  'components.codeRuleComponentConfig.autoCounter.resetCycleExtra': 'When to reset the sequence counter',
+  'components.codeRuleComponentConfig.autoCounter.resetCycleRequired':
+    'Please select a reset cycle',
+  'components.codeRuleComponentConfig.autoCounter.resetCycleExtra':
+    'When to reset the sequence counter',
   'components.codeRuleComponentConfig.autoCounter.initialValue': 'Initial value',
-  'components.codeRuleComponentConfig.autoCounter.initialValueRequired': 'Please enter an initial value',
-  'components.codeRuleComponentConfig.autoCounter.initialValueExtra': 'The starting number for the counter',
-  'components.codeRuleComponentConfig.autoCounter.scopeFields': 'Scope fields (partitioned counting)',
-  'components.codeRuleComponentConfig.autoCounter.scopeFieldsPlaceholder': 'Select fields to partition counting',
-  'components.codeRuleComponentConfig.autoCounter.scopeFieldsExtra': 'Example: if you select Department, sequences are independent per department (e.g. Sales 0001, Marketing 0001).',
+  'components.codeRuleComponentConfig.autoCounter.initialValueRequired':
+    'Please enter an initial value',
+  'components.codeRuleComponentConfig.autoCounter.initialValueExtra':
+    'The starting number for the counter',
+  'components.codeRuleComponentConfig.autoCounter.scopeFields':
+    'Scope fields (partitioned counting)',
+  'components.codeRuleComponentConfig.autoCounter.scopeFieldsPlaceholder':
+    'Select fields to partition counting',
+  'components.codeRuleComponentConfig.autoCounter.scopeFieldsExtra':
+    'Example: if you select Department, sequences are independent per department (e.g. Sales 0001, Marketing 0001).',
   'components.codeRuleComponentConfig.date.formatType': 'Format type',
   'components.codeRuleComponentConfig.date.formatTypeRequired': 'Please select a format type',
   'components.codeRuleComponentConfig.date.formatTypePreset': 'Preset format',
@@ -16914,21 +18503,27 @@ export default {
   'components.codeRuleComponentConfig.date.presetFormatExtra': 'Select a preset date format',
   'components.codeRuleComponentConfig.date.customFormat': 'Custom format',
   'components.codeRuleComponentConfig.date.customFormatRequired': 'Please enter a custom format',
-  'components.codeRuleComponentConfig.date.customFormatPlaceholder': 'e.g. yMd for Y/M/D; yyyyMMdd for 4-digit year + 2-digit month + 2-digit day',
-  'components.codeRuleComponentConfig.date.customFormatExtra': 'Use y for year, M for month, d for day.',
+  'components.codeRuleComponentConfig.date.customFormatPlaceholder':
+    'e.g. yMd for Y/M/D; yyyyMMdd for 4-digit year + 2-digit month + 2-digit day',
+  'components.codeRuleComponentConfig.date.customFormatExtra':
+    'Use y for year, M for month, d for day.',
   'components.codeRuleComponentConfig.fixedText.text': 'Fixed text',
   'components.codeRuleComponentConfig.fixedText.textRequired': 'Please enter fixed text',
   'components.codeRuleComponentConfig.fixedText.textPlaceholder': 'Enter text to add',
-  'components.codeRuleComponentConfig.fixedText.textExtra': 'Helps distinguish codes across business contexts',
+  'components.codeRuleComponentConfig.fixedText.textExtra':
+    'Helps distinguish codes across business contexts',
   'components.codeRuleComponentConfig.formField.fieldName': 'Form field',
   'components.codeRuleComponentConfig.formField.fieldNameRequired': 'Please select a form field',
-  'components.codeRuleComponentConfig.formField.fieldNamePlaceholder': 'Select a form field to reference',
-  'components.codeRuleComponentConfig.formField.fieldNameExtra': 'Adds the selected field value into the code',
+  'components.codeRuleComponentConfig.formField.fieldNamePlaceholder':
+    'Select a form field to reference',
+  'components.codeRuleComponentConfig.formField.fieldNameExtra':
+    'Adds the selected field value into the code',
 
   // Plugin manager
   'pages.system.pluginManager.title': 'Plugin manager',
   'pages.system.pluginManager.fetchFailed': 'Failed to load plugins',
-  'pages.system.pluginManager.discoverSuccess': 'Discovery complete: {{registered}} registered, {{updated}} updated',
+  'pages.system.pluginManager.discoverSuccess':
+    'Discovery complete: {{registered}} registered, {{updated}} updated',
   'pages.system.pluginManager.discoverFailed': 'Plugin discovery failed',
   'pages.system.pluginManager.enableFailed': 'Failed to enable plugin',
   'pages.system.pluginManager.disableFailed': 'Failed to disable plugin',
@@ -16946,7 +18541,8 @@ export default {
   'pages.system.pluginManager.disabled': 'Disabled',
   'pages.system.pluginManager.actions': 'Actions',
   'pages.system.pluginManager.disableConfirmTitle': 'Disable plugin "{{name}}"?',
-  'pages.system.pluginManager.disableConfirmDesc': 'Plugin features will be unavailable after disable.',
+  'pages.system.pluginManager.disableConfirmDesc':
+    'Plugin features will be unavailable after disable.',
   'pages.system.pluginManager.enableConfirmTitle': 'Enable plugin "{{name}}"?',
   'pages.system.pluginManager.enableConfirmDesc': 'Plugin features will be available after enable.',
   'pages.system.pluginManager.disable': 'Disable',
@@ -16976,7 +18572,8 @@ export default {
   'pages.infra.clientReleases.detailPackageSize': 'Package size',
   'pages.infra.clientReleases.detailPackageSha256': 'SHA256',
   'pages.infra.clientReleases.detailOtaPath': 'OTA path',
-  'pages.infra.clientReleases.detailActivateHint': 'When "Activate after upload" is checked, the previous active release for the same client and platform becomes history; otherwise activate manually.',
+  'pages.infra.clientReleases.detailActivateHint':
+    'When "Activate after upload" is checked, the previous active release for the same client and platform becomes history; otherwise activate manually.',
   'pages.infra.clientReleases.columnClient': 'Client',
   'pages.infra.clientReleases.columnPlatform': 'Platform',
   'pages.infra.clientReleases.columnVersion': 'Version',
@@ -17001,12 +18598,16 @@ export default {
   'pages.infra.clientReleases.formIncomplete': 'Client, platform and version are required',
   'pages.infra.clientReleases.activateAfterUpload': 'Activate after upload',
   'pages.infra.clientReleases.uploadDragHint': 'Click or drag the package here',
-  'pages.infra.clientReleases.uploadDragSubHint': 'Android: .apk (version and versionCode auto-detected on drop) · Windows: .exe / .msi / .zip · Max 500MB per file',
+  'pages.infra.clientReleases.uploadDragSubHint':
+    'Android: .apk (version and versionCode auto-detected on drop) · Windows: .exe / .msi / .zip · Max 500MB per file',
   'pages.infra.clientReleases.formVersionCode': 'Version code',
-  'pages.infra.clientReleases.formVersionCodeTooltip': 'Android versionCode used to compare package builds',
-  'pages.infra.clientReleases.formVersionCodeRequired': 'Version code is required (Android versionCode)',
+  'pages.infra.clientReleases.formVersionCodeTooltip':
+    'Android versionCode used to compare package builds',
+  'pages.infra.clientReleases.formVersionCodeRequired':
+    'Version code is required (Android versionCode)',
   'pages.infra.clientReleases.formRuntimeVersion': 'Runtime version',
-  'pages.infra.clientReleases.formRuntimeVersionPlaceholder': 'For OTA updates; leave blank to use app version',
+  'pages.infra.clientReleases.formRuntimeVersionPlaceholder':
+    'For OTA updates; leave blank to use app version',
   'pages.infra.clientReleases.formVersionPlaceholder': 'e.g. 1.0.6',
   'pages.infra.clientReleases.formPlatformRequired': 'Please select a platform',
   'pages.infra.clientReleases.formForceUpdate': 'Force update',
@@ -17017,12 +18618,15 @@ export default {
   'pages.infra.clientReleases.platformAndroid': 'Android',
   'pages.infra.clientReleases.platformIos': 'iOS',
   'pages.infra.clientReleases.platformWindows': 'Windows',
-  'pages.infra.clientReleases.packageParsed': 'Detected from package: {{version}} (versionCode {{code}})',
-  'pages.infra.clientReleases.packageParseFailed': 'Could not read version from APK; check the file or enter manually',
+  'pages.infra.clientReleases.packageParsed':
+    'Detected from package: {{version}} (versionCode {{code}})',
+  'pages.infra.clientReleases.packageParseFailed':
+    'Could not read version from APK; check the file or enter manually',
   'pages.infra.clientReleases.packageDetectedTitle': 'Package version detected',
   'pages.infra.clientReleases.packageDetectedDesc':
     'Version {{version}} · versionCode {{code}} · package {{package}}. Values must match the APK on submit.',
-  'pages.infra.clientReleases.formVersionAutoTooltip': 'Filled automatically when you drop an APK; edits must still match the file',
+  'pages.infra.clientReleases.formVersionAutoTooltip':
+    'Filled automatically when you drop an APK; edits must still match the file',
   'pages.infra.clientReleases.packageVersionMismatch':
     'Package is {{version}} ({{code}}), but this release is {{expectedVersion}} ({{expectedCode}})',
   'pages.infra.clientReleases.packageReplaceMismatch':
@@ -17053,23 +18657,28 @@ export default {
   'pages.infra.clientReleases.configSaveSuccess': 'Client settings saved',
   'pages.infra.clientReleases.configSaveFailed': 'Failed to save client settings',
   'pages.infra.clientReleases.configPushEnabled': 'Enable JPush',
-  'pages.infra.clientReleases.configPushEnabledTooltip': 'When off, system push notifications are not sent for this client',
+  'pages.infra.clientReleases.configPushEnabledTooltip':
+    'When off, system push notifications are not sent for this client',
   'pages.infra.clientReleases.configJpushAppKey': 'JPush AppKey',
   'pages.infra.clientReleases.configJpushAppKeyPlaceholder': 'Must match the mobile app build',
   'pages.infra.clientReleases.configJpushAppKeyRequired': 'AppKey is required',
   'pages.infra.clientReleases.configJpushMasterSecret': 'JPush Master Secret',
   'pages.infra.clientReleases.configJpushMasterSecretPlaceholder': 'Server-side push secret',
   'pages.infra.clientReleases.configJpushMasterSecretKeep': 'Leave blank to keep the saved secret',
-  'pages.infra.clientReleases.configJpushMasterSecretConfigured': 'Master Secret is configured (not shown for security)',
+  'pages.infra.clientReleases.configJpushMasterSecretConfigured':
+    'Master Secret is configured (not shown for security)',
   'pages.infra.clientReleases.configPushReady': 'Push credentials are ready',
-  'pages.infra.clientReleases.configPushNotReady': 'Push not ready: set AppKey and Master Secret, and ensure PUSH_ENABLED=true on the server',
-  'pages.infra.clientReleases.configEnvFallbackHint': 'Some credentials currently come from server .env; saved values here take precedence',
+  'pages.infra.clientReleases.configPushNotReady':
+    'Push not ready: set AppKey and Master Secret, and ensure PUSH_ENABLED=true on the server',
+  'pages.infra.clientReleases.configEnvFallbackHint':
+    'Some credentials currently come from server .env; saved values here take precedence',
   'pages.infra.clientReleases.configPushTestHint':
     'Install the release APK, sign in as the selected user, and allow notifications. Pick a tenant, then a user in that tenant.',
   'pages.infra.clientReleases.configPushTestTenant': 'Test tenant',
   'pages.infra.clientReleases.configPushTestTenantPlaceholder': 'Search and select tenant',
   'pages.infra.clientReleases.configPushTestUser': 'Test user',
-  'pages.infra.clientReleases.configPushTestUserPlaceholder': 'Select tenant first, then search user',
+  'pages.infra.clientReleases.configPushTestUserPlaceholder':
+    'Select tenant first, then search user',
   'pages.infra.clientReleases.configPushTestAliasPreview': 'Push alias: {{alias}}',
   'pages.infra.clientReleases.configPushTestTenantId': 'Test tenant ID',
   'pages.infra.clientReleases.configPushTestUserId': 'Test user ID',
@@ -17127,8 +18736,10 @@ export default {
   'pages.infra.scripts.nameRequired': 'Please enter script name',
   'pages.infra.scripts.labelCode': 'Code',
   'pages.infra.scripts.codeRequired': 'Please enter script code',
-  'pages.infra.scripts.codePattern': 'Code must start with a letter and contain only letters, numbers, and underscores',
-  'pages.infra.scripts.codeTooltip': 'Code is used for identification and cannot be changed after creation',
+  'pages.infra.scripts.codePattern':
+    'Code must start with a letter and contain only letters, numbers, and underscores',
+  'pages.infra.scripts.codeTooltip':
+    'Code is used for identification and cannot be changed after creation',
   'pages.infra.scripts.labelType': 'Type',
   'pages.infra.scripts.typeRequired': 'Please select script type',
   'pages.infra.scripts.labelDescription': 'Description',
@@ -17142,7 +18753,8 @@ export default {
   'pages.infra.scripts.paramsPlaceholder': '{"key": "value"}',
   'pages.infra.scripts.paramsTooltip': 'Execution parameters in JSON',
   'pages.infra.scripts.labelAsync': 'Async execution (Taskiq)',
-  'pages.infra.scripts.asyncTooltip': 'If enabled, the script runs asynchronously as a Taskiq background job',
+  'pages.infra.scripts.asyncTooltip':
+    'If enabled, the script runs asynchronously as a Taskiq background job',
   'pages.infra.scripts.submitExecute': 'Execute',
   'pages.infra.scripts.resultTitle': 'Result:',
   'pages.infra.scripts.resultSuccess': '✓ Success',
@@ -17171,7 +18783,8 @@ export default {
   'pages.system.dataBackups.restoreSuccess':
     'Restore submitted; a background worker (Taskiq) will run it. Refresh to see status.',
   'pages.system.dataBackups.restoreCompletedSuccess': 'Backup restored successfully',
-  'pages.system.dataBackups.restorePollingTimeout': 'Restore is still running; refresh later for status',
+  'pages.system.dataBackups.restorePollingTimeout':
+    'Restore is still running; refresh later for status',
   'pages.system.dataBackups.restoreFailed': 'Restore failed',
   'pages.system.dataBackups.deleteSuccess': 'Backup deleted',
   'pages.system.dataBackups.deleteFailed': 'Failed to delete backup',
@@ -17197,7 +18810,8 @@ export default {
   'pages.system.dataBackups.downloadBackup': 'Download',
   'pages.system.dataBackups.restoreBackup': 'Restore',
   'pages.system.dataBackups.restoreConfirmTitle': 'Restore this backup?',
-  'pages.system.dataBackups.restoreConfirmContent': 'This will overwrite current database data. Continue?',
+  'pages.system.dataBackups.restoreConfirmContent':
+    'This will overwrite current database data. Continue?',
   'pages.system.dataBackups.deleteConfirmTitle': 'Delete this backup?',
   'pages.system.dataBackups.deleteTooltip': 'Delete',
   'pages.system.dataBackups.restore': 'Restore',
@@ -17268,25 +18882,36 @@ export default {
   'pages.system.dataBackups.uploadSuccess': 'Backup file uploaded successfully',
   'pages.system.dataBackups.uploadFailed': 'Failed to upload backup',
   'pages.system.dataBackups.uploadHint': 'Only .zip backup files are supported',
-  'pages.system.dataBackups.restoreUploadedConfirmTitle': 'Second confirmation: Restore uploaded backup',
-  'pages.system.dataBackups.restoreUploadedConfirmContent': 'This backup was uploaded. Restoring will overwrite current data. A pre-restore backup has been created automatically for rollback. Confirm again?',
-  'pages.system.dataBackups.preRestoreBackupHint': 'A pre-restore backup will be created automatically for rollback',
+  'pages.system.dataBackups.restoreUploadedConfirmTitle':
+    'Second confirmation: Restore uploaded backup',
+  'pages.system.dataBackups.restoreUploadedConfirmContent':
+    'This backup was uploaded. Restoring will overwrite current data. A pre-restore backup has been created automatically for rollback. Confirm again?',
+  'pages.system.dataBackups.preRestoreBackupHint':
+    'A pre-restore backup will be created automatically for rollback',
   'pages.system.dataBackups.columnSource': 'Source',
   'pages.system.dataBackups.sourceUploaded': 'Uploaded',
   'pages.system.dataBackups.sourceGenerated': 'Generated',
   'pages.system.dataBackups.sourceTenantIdLabel': 'Source tenant ID in backup',
-  'pages.system.dataBackups.sourceTenantIdExtra': 'Export tenant ID may differ from current tenant; specify for replacement. Leave empty to infer from metadata.',
+  'pages.system.dataBackups.sourceTenantIdExtra':
+    'Export tenant ID may differ from current tenant; specify for replacement. Leave empty to infer from metadata.',
   'pages.system.dataBackups.sourceTenantIdPlaceholder': 'Optional, leave empty to auto-infer',
   'pages.system.dataBackups.restoreTenantMappingTitle': 'Tenant restore mapping',
   'pages.system.dataBackups.restoreTargetTenantLabel': 'Restore to',
-  'pages.system.dataBackups.restoreTargetTenantDesc': 'Current signed-in organization (tenant ID {{id}})',
-  'pages.system.dataBackups.restoreSourceTenantLabel': 'Which tenant was this backup exported from?',
-  'pages.system.dataBackups.restoreSourceTenantExtra': 'Prefilled from backup metadata — please verify. For cross-system migration, enter the tenant ID from the old system (number only, no arrow format).',
-  'pages.system.dataBackups.restoreSourceTenantRequired': 'Please enter the tenant ID used when exporting this backup',
+  'pages.system.dataBackups.restoreTargetTenantDesc':
+    'Current signed-in organization (tenant ID {{id}})',
+  'pages.system.dataBackups.restoreSourceTenantLabel':
+    'Which tenant was this backup exported from?',
+  'pages.system.dataBackups.restoreSourceTenantExtra':
+    'Prefilled from backup metadata — please verify. For cross-system migration, enter the tenant ID from the old system (number only, no arrow format).',
+  'pages.system.dataBackups.restoreSourceTenantRequired':
+    'Please enter the tenant ID used when exporting this backup',
   'pages.system.dataBackups.restoreSourceTenantPlaceholder': 'e.g. 15',
-  'pages.system.dataBackups.restoreMigrationHint': 'Business data and attachments from tenant {{source}} will be migrated and overwrite tenant {{target}}.',
-  'pages.system.dataBackups.restoreSameTenantHint': 'Backup matches current organization — current organization business data will be overwritten.',
-  'pages.system.dataBackups.restorePlatformSafeHint': 'Platform-level data is never exported or overwritten; only current organization business data is affected.',
+  'pages.system.dataBackups.restoreMigrationHint':
+    'Business data and attachments from tenant {{source}} will be migrated and overwrite tenant {{target}}.',
+  'pages.system.dataBackups.restoreSameTenantHint':
+    'Backup matches current organization — current organization business data will be overwritten.',
+  'pages.system.dataBackups.restorePlatformSafeHint':
+    'Platform-level data is never exported or overwritten; only current organization business data is affected.',
   'pages.system.dataBackups.workerHealthLoadFailed': 'Failed to load worker status',
   'pages.system.dataBackups.workerStatusTitle': 'Worker status',
   'pages.system.dataBackups.workerStatusOnline': 'Online',
@@ -17310,7 +18935,8 @@ export default {
   'pages.system.datasets.operationFailed': 'Operation failed',
   'pages.system.datasets.selectToDelete': 'Please select dataset(s) to delete',
   'pages.system.datasets.confirmBatchDelete': 'Delete {{count}} selected dataset(s)?',
-  'pages.system.datasets.batchDeletePartial': 'Delete complete: {{done}} succeeded, {{fail}} failed',
+  'pages.system.datasets.batchDeletePartial':
+    'Delete complete: {{done}} succeeded, {{fail}} failed',
   'pages.system.datasets.batchDeleteSuccess': '{{count}} dataset(s) deleted',
   'pages.system.datasets.batchDeleteFailed': 'Batch delete failed',
   'pages.system.datasets.copySuccess': 'Copied, opening designer',
@@ -17343,7 +18969,8 @@ export default {
   'pages.system.datasets.more': 'More',
   'pages.system.datasets.confirmDelete': 'Delete this dataset?',
   'pages.system.datasets.loadListFailed': 'Failed to load dataset list',
-  'pages.system.datasets.loadDataConnectionsFailed': 'Failed to load data connections. Please try again.',
+  'pages.system.datasets.loadDataConnectionsFailed':
+    'Failed to load data connections. Please try again.',
   'pages.system.datasets.createButton': 'New dataset',
   'pages.system.datasets.batchDelete': 'Batch delete',
   'pages.system.datasets.batchEnable': 'Batch enable',
@@ -17379,7 +19006,8 @@ export default {
   'pages.system.datasets.labelDescription': 'Description',
   'pages.system.datasets.descriptionOptional': 'Optional',
   'pages.system.datasets.labelDisplayConfig': 'Display config (JSON)',
-  'pages.system.datasets.displayConfigPlaceholder': '{"columns":[{"key":"count","label":"Count","formatter":"number","color":"#1890ff"}]}',
+  'pages.system.datasets.displayConfigPlaceholder':
+    '{"columns":[{"key":"count","label":"Count","formatter":"number","color":"#1890ff"}]}',
   'pages.system.datasets.labelRemark': 'Remark',
   'pages.system.datasets.remarkOptional': 'Optional',
   'pages.system.datasets.labelEnabled': 'Enabled',
@@ -17443,8 +19071,10 @@ export default {
   'pages.system.reportTemplates.selectToDelete': 'Please select template(s) to delete',
   'pages.system.reportTemplates.confirmDelete': 'Confirm delete',
   'pages.system.reportTemplates.confirmDeleteContent': 'Delete {{count}} selected template(s)?',
-  'pages.system.reportTemplates.batchDeleteTitle': 'Are you sure you want to batch delete the selected report templates?',
-  'pages.system.reportTemplates.batchDeleteDescription': '{{count}} report template(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.reportTemplates.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected report templates?',
+  'pages.system.reportTemplates.batchDeleteDescription':
+    '{{count}} report template(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'pages.system.reportTemplates.deleteSuccess': 'Deleted',
   'pages.system.reportTemplates.deleteFailed': 'Delete failed',
   'pages.system.reportTemplates.updateSuccess': 'Updated',
@@ -17507,10 +19137,14 @@ export default {
   'pages.system.maintenancePlans.deleteSuccess': 'Deleted',
   'pages.system.maintenancePlans.deleteFailed': 'Delete failed',
   'pages.system.maintenancePlans.selectToDelete': 'Please select maintenance plan(s) to delete',
-  'pages.system.maintenancePlans.confirmBatchDelete': 'Delete {{count}} selected maintenance plan(s)?',
-  'pages.system.maintenancePlans.batchDeleteTitle': 'Are you sure you want to batch delete the selected maintenance plans?',
-  'pages.system.maintenancePlans.batchDeleteDescription': '{{count}} maintenance plan(s) will be deleted. This action cannot be undone. Please proceed with caution.',
-  'pages.system.maintenancePlans.batchDeletePartial': 'Delete complete: {{done}} succeeded, {{fail}} failed',
+  'pages.system.maintenancePlans.confirmBatchDelete':
+    'Delete {{count}} selected maintenance plan(s)?',
+  'pages.system.maintenancePlans.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected maintenance plans?',
+  'pages.system.maintenancePlans.batchDeleteDescription':
+    '{{count}} maintenance plan(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.maintenancePlans.batchDeletePartial':
+    'Delete complete: {{done}} succeeded, {{fail}} failed',
   'pages.system.maintenancePlans.batchDeleteSuccess': '{{count}} maintenance plan(s) deleted',
   'pages.system.maintenancePlans.batchDeleteFailed': 'Batch delete failed',
   'pages.system.maintenancePlans.updateSuccess': 'Updated',
@@ -17656,7 +19290,8 @@ export default {
   'pages.system.files.newFolderButton': 'New folder',
   'pages.system.files.deleteButton': 'Delete',
   'pages.system.files.imageTierBackfillButton': 'Compress existing images',
-  'pages.system.files.imageTierBackfillSuccess': 'Image tier compression done. Generated tiers for {{count}} file(s).',
+  'pages.system.files.imageTierBackfillSuccess':
+    'Image tier compression done. Generated tiers for {{count}} file(s).',
   'pages.system.files.imageTierBackfillFailed': 'Failed to compress existing images',
   'pages.system.files.selectAll': 'Select all',
   'pages.system.files.sortLabel': 'Sort:',
@@ -17688,36 +19323,44 @@ export default {
   'pages.system.files.category.sales_order_attachments': 'Sales order attachments',
   'pages.system.files.category.quotation_attachments': 'Quotation attachments',
   'pages.system.files.category.sales_forecast_attachments': 'Sales forecast attachments',
-  'pages.system.files.category.purchase_requisition_attachments': 'Purchase requisition attachments',
+  'pages.system.files.category.purchase_requisition_attachments':
+    'Purchase requisition attachments',
   'pages.system.files.category.work_order_attachments': 'Work order attachments',
   'pages.system.files.category.sales_order_change_attachments': 'Sales order change attachments',
   'pages.system.files.category.shipment_notice_attachments': 'Shipment notice attachments',
   'pages.system.files.category.sales_return_attachments': 'Sales return attachments',
   'pages.system.files.category.purchase_inquiry_attachments': 'Purchase inquiry attachments',
   'pages.system.files.category.purchase_order_attachments': 'Purchase order attachments',
-  'pages.system.files.category.purchase_order_change_attachments': 'Purchase order change attachments',
+  'pages.system.files.category.purchase_order_change_attachments':
+    'Purchase order change attachments',
   'pages.system.files.category.receipt_notice_attachments': 'Receipt notice attachments',
   'pages.system.files.category.purchase_return_attachments': 'Purchase return attachments',
   'pages.system.files.category.rework_order_attachments': 'Rework order attachments',
-  'pages.system.files.category.outsource_work_order_attachments': 'Outsource work order attachments',
+  'pages.system.files.category.outsource_work_order_attachments':
+    'Outsource work order attachments',
   'pages.system.files.category.outsource_order_attachments': 'Outsource order attachments',
   'pages.system.files.category.packing_binding_attachments': 'Packing binding attachments',
   'pages.system.files.category.incoming_inspection_attachments': 'Incoming inspection attachments',
   'pages.system.files.category.process_inspection_attachments': 'Process inspection attachments',
-  'pages.system.files.category.finished_goods_inspection_attachments': 'Finished goods inspection attachments',
+  'pages.system.files.category.finished_goods_inspection_attachments':
+    'Finished goods inspection attachments',
   'pages.system.files.category.oqc_inspection_attachments': 'OQC inspection attachments',
-  'pages.system.files.category.nonconforming_ledger_attachments': 'Nonconforming ledger attachments',
+  'pages.system.files.category.nonconforming_ledger_attachments':
+    'Nonconforming ledger attachments',
   'pages.system.files.category.quality_8d_report_attachments': '8D report attachments',
   'pages.system.files.category.inspection_plan_attachments': 'Inspection plan attachments',
   'pages.system.files.category.equipment_attachments': 'Equipment ledger attachments',
-  'pages.system.files.category.equipment_calibration_attachments': 'Equipment calibration attachments',
+  'pages.system.files.category.equipment_calibration_attachments':
+    'Equipment calibration attachments',
   'pages.system.files.category.mold_attachments': 'Mold ledger attachments',
   'pages.system.files.category.tool_ledger_attachments': 'Tool ledger attachments',
   'pages.system.files.category.equipment_fault_attachments': 'Equipment fault attachments',
   'pages.system.files.category.equipment_repair_attachments': 'Equipment repair attachments',
   'pages.system.files.category.maintenance_plan_attachments': 'Maintenance plan attachments',
-  'pages.system.files.category.maintenance_execution_attachments': 'Maintenance execution attachments',
-  'pages.system.files.category.maintenance_reminder_attachments': 'Maintenance reminder attachments',
+  'pages.system.files.category.maintenance_execution_attachments':
+    'Maintenance execution attachments',
+  'pages.system.files.category.maintenance_reminder_attachments':
+    'Maintenance reminder attachments',
   'pages.system.files.category.equipment_status_attachments': 'Equipment status attachments',
   'pages.system.files.category.mold_usage_attachments': 'Mold usage attachments',
   'pages.system.files.category.mold_calibration_attachments': 'Mold calibration attachments',
@@ -17728,7 +19371,8 @@ export default {
   'pages.system.files.category.purchase_receipt_attachments': 'Purchase receipt attachments',
   'pages.system.files.category.other_inbound_attachments': 'Other inbound attachments',
   'pages.system.files.category.material_return_attachments': 'Material return attachments',
-  'pages.system.files.category.customer_material_registration_attachments': 'Customer material registration attachments',
+  'pages.system.files.category.customer_material_registration_attachments':
+    'Customer material registration attachments',
   'pages.system.files.category.sales_delivery_attachments': 'Sales delivery attachments',
   'pages.system.files.category.other_outbound_attachments': 'Other outbound attachments',
   'pages.system.files.category.material_borrow_attachments': 'Material borrow attachments',
@@ -17737,8 +19381,10 @@ export default {
   'pages.system.files.category.inventory_transfer_attachments': 'Inventory transfer attachments',
   'pages.system.files.category.assembly_order_attachments': 'Assembly order attachments',
   'pages.system.files.category.disassembly_order_attachments': 'Disassembly order attachments',
-  'pages.system.files.category.inventory_alert_rule_attachments': 'Inventory alert rule attachments',
-  'pages.system.files.category.barcode_mapping_rule_attachments': 'Barcode mapping rule attachments',
+  'pages.system.files.category.inventory_alert_rule_attachments':
+    'Inventory alert rule attachments',
+  'pages.system.files.category.barcode_mapping_rule_attachments':
+    'Barcode mapping rule attachments',
   'pages.system.files.category.receivable_attachments': 'Receivable attachments',
   'pages.system.files.category.receipt_attachments': 'Receipt attachments',
   'pages.system.files.category.payable_attachments': 'Payable attachments',
@@ -17756,9 +19402,12 @@ export default {
   'pages.system.equipment.getDetailFailed': 'Failed to load equipment detail',
   'pages.system.equipment.selectToDelete': 'Please select equipment to delete',
   'pages.system.equipment.confirmDeleteContent': 'Delete {{count}} selected equipment?',
-  'pages.system.equipment.batchDeleteTitle': 'Are you sure you want to batch delete the selected equipment?',
-  'pages.system.equipment.batchDeleteDescription': '{{count}} equipment item(s) will be deleted. This action cannot be undone. Please proceed with caution.',
-  'pages.system.equipment.batchDeletePartial': 'Delete completed: {{done}} succeeded, {{fail}} failed',
+  'pages.system.equipment.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected equipment?',
+  'pages.system.equipment.batchDeleteDescription':
+    '{{count}} equipment item(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.equipment.batchDeletePartial':
+    'Delete completed: {{done}} succeeded, {{fail}} failed',
   'pages.system.equipment.batchDeleteSuccess': 'Deleted {{count}} equipment',
   'pages.system.equipment.confirmDeleteOne': 'Delete this equipment?',
   'pages.system.equipment.columnCode': 'Code',
@@ -17833,8 +19482,10 @@ export default {
   'pages.system.molds.getDetailFailed': 'Failed to load mold detail',
   'pages.system.molds.selectToDelete': 'Please select molds to delete',
   'pages.system.molds.confirmDeleteContent': 'Delete {{count}} selected molds?',
-  'pages.system.molds.batchDeleteTitle': 'Are you sure you want to batch delete the selected molds?',
-  'pages.system.molds.batchDeleteDescription': '{{count}} mold(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.molds.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected molds?',
+  'pages.system.molds.batchDeleteDescription':
+    '{{count}} mold(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'pages.system.molds.batchDeletePartial': 'Delete completed: {{done}} succeeded, {{fail}} failed',
   'pages.system.molds.batchDeleteSuccess': 'Deleted {{count}} molds',
   'pages.system.molds.confirmDeleteOne': 'Delete this mold?',
@@ -17897,9 +19548,12 @@ export default {
   'pages.system.equipmentFaults.getDetailFailed': 'Failed to load fault record detail',
   'pages.system.equipmentFaults.selectToDelete': 'Please select fault records to delete',
   'pages.system.equipmentFaults.confirmDeleteContent': 'Delete {{count}} selected fault records?',
-  'pages.system.equipmentFaults.batchDeleteTitle': 'Are you sure you want to batch delete the selected fault records?',
-  'pages.system.equipmentFaults.batchDeleteDescription': '{{count}} fault record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
-  'pages.system.equipmentFaults.batchDeletePartial': 'Delete completed: {{done}} succeeded, {{fail}} failed',
+  'pages.system.equipmentFaults.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected fault records?',
+  'pages.system.equipmentFaults.batchDeleteDescription':
+    '{{count}} fault record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.equipmentFaults.batchDeletePartial':
+    'Delete completed: {{done}} succeeded, {{fail}} failed',
   'pages.system.equipmentFaults.batchDeleteSuccess': 'Deleted {{count}} fault records',
   'pages.system.equipmentFaults.confirmDeleteOne': 'Delete this fault record?',
   'pages.system.equipmentFaults.columnFaultNo': 'Fault No.',
@@ -17954,22 +19608,33 @@ export default {
 
   // Application connections
   'pages.system.applicationConnections.getDetailFailed': 'Failed to load detail',
-  'pages.system.applicationConnections.selectToOperate': 'Please select application connector(s) to operate',
-  'pages.system.applicationConnections.batchStatusSuccess': '{{action}} {{count}} application connector(s)',
+  'pages.system.applicationConnections.selectToOperate':
+    'Please select application connector(s) to operate',
+  'pages.system.applicationConnections.batchStatusSuccess':
+    '{{action}} {{count}} application connector(s)',
   'pages.system.applicationConnections.actionEnable': 'Enabled',
   'pages.system.applicationConnections.actionDisable': 'Disabled',
-  'pages.system.applicationConnections.selectToTest': 'Please select application connector(s) to test',
-  'pages.system.applicationConnections.selectToDelete': 'Please select application connector(s) to delete',
-  'pages.system.applicationConnections.confirmDeleteContent': 'Delete {{count}} selected application connector(s)?',
-  'pages.system.applicationConnections.batchDeleteTitle': 'Are you sure you want to batch delete the selected application connectors?',
-  'pages.system.applicationConnections.batchDeleteDescription': '{{count}} application connector(s) will be deleted. This action cannot be undone. Please proceed with caution.',
-  'pages.system.applicationConnections.batchDeletePartial': 'Delete completed: {{done}} succeeded, {{fail}} failed',
-  'pages.system.applicationConnections.batchDeleteSuccess': 'Deleted {{count}} application connector(s)',
+  'pages.system.applicationConnections.selectToTest':
+    'Please select application connector(s) to test',
+  'pages.system.applicationConnections.selectToDelete':
+    'Please select application connector(s) to delete',
+  'pages.system.applicationConnections.confirmDeleteContent':
+    'Delete {{count}} selected application connector(s)?',
+  'pages.system.applicationConnections.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected application connectors?',
+  'pages.system.applicationConnections.batchDeleteDescription':
+    '{{count}} application connector(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.applicationConnections.batchDeletePartial':
+    'Delete completed: {{done}} succeeded, {{fail}} failed',
+  'pages.system.applicationConnections.batchDeleteSuccess':
+    'Deleted {{count}} application connector(s)',
   'pages.system.applicationConnections.testSuccess': 'Connection test succeeded',
   'pages.system.applicationConnections.testFailed': 'Connection test failed',
-  'pages.system.applicationConnections.fillConfigFirst': 'Please fill in complete connection config',
+  'pages.system.applicationConnections.fillConfigFirst':
+    'Please fill in complete connection config',
   'pages.system.applicationConnections.importDataRequired': 'Please provide import data',
-  'pages.system.applicationConnections.importSuccess': 'Imported {{count}} application connection(s)',
+  'pages.system.applicationConnections.importSuccess':
+    'Imported {{count}} application connection(s)',
   'pages.system.applicationConnections.getListFailed': 'Failed to load list',
   'pages.system.applicationConnections.marketTitle': 'Select Application Connector',
   'pages.system.applicationConnections.searchPlaceholder': 'Search connector name, type...',
@@ -17986,7 +19651,8 @@ export default {
   'pages.system.applicationConnections.statusConnected': 'Connected',
   'pages.system.applicationConnections.statusFailed': 'Connection failed',
   'pages.system.applicationConnections.statusDisconnected': 'Disconnected',
-  'pages.system.applicationConnections.testComplete': 'Test complete: {{ok}} succeeded, {{fail}} failed',
+  'pages.system.applicationConnections.testComplete':
+    'Test complete: {{ok}} succeeded, {{fail}} failed',
   'pages.system.applicationConnections.statTotal': 'Total',
   'pages.system.applicationConnections.statConnected': 'Connected',
   'pages.system.applicationConnections.statDisconnected': 'Disconnected',
@@ -18051,19 +19717,22 @@ export default {
   'pages.system.applicationConnections.edit': 'Edit',
   'pages.system.applicationConnections.testConnection': 'Test Connection',
   'pages.system.applicationConnections.delete': 'Delete',
-  'pages.system.applicationConnections.deleteConfirmTitle': 'Are you sure you want to delete this application connection?',
+  'pages.system.applicationConnections.deleteConfirmTitle':
+    'Are you sure you want to delete this application connection?',
   'pages.system.applicationConnections.more': 'More',
   'pages.system.applicationConnections.createButton': 'New Connection',
   'pages.system.applicationConnections.batchDeleteButton': 'Batch Delete',
   'pages.system.applicationConnections.batchTestButton': 'Batch Test Connection',
   'pages.system.applicationConnections.batchEnableButton': 'Batch Enable',
   'pages.system.applicationConnections.batchDisableButton': 'Batch Disable',
-  'pages.system.applicationConnections.noVisualForm': 'No visual form is provided for type {{type}}',
+  'pages.system.applicationConnections.noVisualForm':
+    'No visual form is provided for type {{type}}',
   'pages.system.applicationConnections.editModalTitle': 'Edit Application Connection',
   'pages.system.applicationConnections.createModalTitle': 'New Application Connection',
   'pages.system.applicationConnections.namePlaceholder': 'e.g. Production Connection',
   'pages.system.applicationConnections.codePlaceholder': 'e.g. prod_connection',
-  'pages.system.applicationConnections.codePattern': 'Only lowercase letters, numbers, and underscores are allowed',
+  'pages.system.applicationConnections.codePattern':
+    'Only lowercase letters, numbers, and underscores are allowed',
   'pages.system.applicationConnections.descPlaceholder': 'Optional',
   'pages.system.applicationConnections.formAesKeyLabel': 'AES Key',
   'pages.system.applicationConnections.formTokenLabel': 'Token',
@@ -18085,7 +19754,8 @@ export default {
   'pages.system.applicationConnections.descFeishu': 'Feishu Open Platform Custom App',
   'pages.system.applicationConnections.descDingtalk': 'DingTalk Internal App',
   'pages.system.applicationConnections.descWecom': 'WeCom Custom App',
-  'pages.system.applicationConnections.descKingdee': 'Kingdee Cloud Cosmic / Galaxy / KIS Cloud API',
+  'pages.system.applicationConnections.descKingdee':
+    'Kingdee Cloud Cosmic / Galaxy / KIS Cloud API',
   'pages.system.applicationConnections.descYonyou': 'Yonyou YonBIP / U8 / U9 / NC Open Platform',
   'pages.system.applicationConnections.descSap': 'SAP S/4HANA Cloud / Business One',
   'pages.system.applicationConnections.descOracle_netsuite': 'Oracle NetSuite Cloud ERP',
@@ -18125,7 +19795,8 @@ export default {
   'pages.system.applicationConnections.descFlux_wms': 'FLUX WMS Warehouse Management System',
   'pages.system.applicationConnections.descDigiwin_wms': 'Digiwin WMS Warehouse Management System',
   'pages.system.applicationConnections.descKejian_wms': 'Kejian Cloud WMS',
-  'pages.system.applicationConnections.descOpenwms': 'OpenWMS Open Source Warehouse Management System',
+  'pages.system.applicationConnections.descOpenwms':
+    'OpenWMS Open Source Warehouse Management System',
 
   // Data quality
   'pages.system.dataQuality.importAtLeastOneRow': 'Please enter at least one row of data',
@@ -18138,7 +19809,8 @@ export default {
   'pages.system.dataQuality.reportSuccess': 'Data quality report generated',
   'pages.system.dataQuality.reportFailed': 'Failed to generate data quality report',
   'pages.system.dataQuality.pageTitle': 'Data quality',
-  'pages.system.dataQuality.pageDesc': 'Data validation, cleaning suggestions, and quality reports to ensure import data quality.',
+  'pages.system.dataQuality.pageDesc':
+    'Data validation, cleaning suggestions, and quality reports to ensure import data quality.',
   'pages.system.dataQuality.importTitle': 'Data import',
   'pages.system.dataQuality.importData': 'Import data',
   'pages.system.dataQuality.runValidate': 'Validate',
@@ -18199,7 +19871,8 @@ export default {
   'pages.system.operationGuide.saveSuccess': 'Operation guide saved successfully',
   'pages.system.operationGuide.saveFailed': 'Failed to save operation guide',
   'pages.system.operationGuide.pageTitle': 'Operation guide & help system',
-  'pages.system.operationGuide.pageDesc': 'Manage operation guides and help documents to help users quickly understand system features.',
+  'pages.system.operationGuide.pageDesc':
+    'Manage operation guides and help documents to help users quickly understand system features.',
   'pages.system.operationGuide.tabGuides': 'Operation guides',
   'pages.system.operationGuide.tabHelp': 'Help documents',
   'pages.system.operationGuide.tabPreview': 'Preview',
@@ -18217,10 +19890,12 @@ export default {
   'pages.system.operationGuide.columnDocTitle': 'Title',
   'pages.system.operationGuide.columnSectionCount': 'Sections',
   'pages.system.operationGuide.guideComponentTitle': 'Operation guide component',
-  'pages.system.operationGuide.guideComponentDesc': 'Uses Ant Design Tour for step-by-step guidance and highlighting key actions.',
+  'pages.system.operationGuide.guideComponentDesc':
+    'Uses Ant Design Tour for step-by-step guidance and highlighting key actions.',
   'pages.system.operationGuide.previewGuide': 'Preview guide',
   'pages.system.operationGuide.helpComponentTitle': 'Help center component',
-  'pages.system.operationGuide.helpComponentDesc': 'Provides unified help document viewing with search and category browsing.',
+  'pages.system.operationGuide.helpComponentDesc':
+    'Provides unified help document viewing with search and category browsing.',
   'pages.system.operationGuide.modalEdit': 'Edit operation guide',
   'pages.system.operationGuide.modalCreate': 'New operation guide',
   'pages.system.operationGuide.labelPageKey': 'Page key',
@@ -18239,7 +19914,8 @@ export default {
   'pages.system.operationGuide.guideTitlePlaceholder': 'e.g. Create user',
   'pages.system.operationGuide.labelGuideContent': 'Guide content',
   'pages.system.operationGuide.guideContentRequired': 'Please enter guide content',
-  'pages.system.operationGuide.guideContentPlaceholder': 'e.g. Click this button to create a new user',
+  'pages.system.operationGuide.guideContentPlaceholder':
+    'e.g. Click this button to create a new user',
   'pages.system.operationGuide.labelPlacement': 'Placement',
   'pages.system.operationGuide.placementTop': 'Top',
   'pages.system.operationGuide.placementRight': 'Right',
@@ -18248,7 +19924,8 @@ export default {
   'pages.system.operationGuide.removeStep': 'Remove step',
   'pages.system.operationGuide.addStep': 'Add step',
   'pages.system.operationGuide.exampleButton': 'Example button',
-  'pages.system.operationGuide.exampleDesc': 'This is an example button, click to perform an action',
+  'pages.system.operationGuide.exampleDesc':
+    'This is an example button, click to perform an action',
 
   // Launch progress
   'pages.system.launchProgress.loadTrackingFailed': 'Failed to load progress tracking',
@@ -18258,7 +19935,8 @@ export default {
   'pages.system.launchProgress.checkFailed': 'Check execution failed',
   'pages.system.launchProgress.generateCheckReportFailed': 'Failed to generate check report',
   'pages.system.launchProgress.pageTitle': 'Launch progress tracking & checklist',
-  'pages.system.launchProgress.pageDesc': 'Track launch progress, manage checklist, ensure smooth launch.',
+  'pages.system.launchProgress.pageDesc':
+    'Track launch progress, manage checklist, ensure smooth launch.',
   'pages.system.launchProgress.tabTracking': 'Progress tracking',
   'pages.system.launchProgress.tabChecklist': 'Checklist',
   'pages.system.launchProgress.trackingTitle': 'Launch progress tracking',
@@ -18269,7 +19947,8 @@ export default {
   'pages.system.launchProgress.stageProgress': 'Stage progress',
   'pages.system.launchProgress.taskList': 'Task list',
   'pages.system.launchProgress.noCountdown': 'Launch countdown not started',
-  'pages.system.launchProgress.noCountdownDesc': 'Please start the launch countdown to view progress tracking.',
+  'pages.system.launchProgress.noCountdownDesc':
+    'Please start the launch countdown to view progress tracking.',
   'pages.system.launchProgress.progressReport': 'Progress report',
   'pages.system.launchProgress.statsTitle': 'Statistics',
   'pages.system.launchProgress.totalTasks': 'Total tasks',
@@ -18306,7 +19985,8 @@ export default {
 
   // Onboarding wizard
   'pages.system.onboardingWizard.title': 'Onboarding Wizard',
-  'pages.system.onboardingWizard.subtitle': 'System Launch: Build your digital factory from 0 to 1. Follow four key phases (Environment Readiness, Master Data Construction, Business Logic Configuration, Full-link Validation) to ensure smooth operations from day one.',
+  'pages.system.onboardingWizard.subtitle':
+    'System Launch: Build your digital factory from 0 to 1. Follow four key phases (Environment Readiness, Master Data Construction, Business Logic Configuration, Full-link Validation) to ensure smooth operations from day one.',
   'pages.system.onboardingWizard.tabSystem': 'System Launch Wizard',
   'pages.system.onboardingWizard.roleSales': 'Sales Operations Guide',
   'pages.system.onboardingWizard.rolePurchase': 'Procurement Guide',
@@ -18324,8 +20004,10 @@ export default {
   'pages.system.onboardingWizard.loadRoleFailed': 'Failed to load business role guide',
   'pages.system.onboardingWizard.emptySystem': 'No system launch task data found',
   'pages.system.onboardingWizard.emptyRole': 'No task checklist for the current role',
-  'pages.system.onboardingWizard.alertInitTitle': 'Primary Task: Complete Organization Initialization',
-  'pages.system.onboardingWizard.alertInitDesc': 'Organization initialization is the physical foundation of system operation, covering industry standard templates, default business parameters, numbering rules, and initial admin permissions.',
+  'pages.system.onboardingWizard.alertInitTitle':
+    'Primary Task: Complete Organization Initialization',
+  'pages.system.onboardingWizard.alertInitDesc':
+    'Organization initialization is the physical foundation of system operation, covering industry standard templates, default business parameters, numbering rules, and initial admin permissions.',
   'pages.system.onboardingWizard.goToInit': 'Launch Initialization Wizard',
   'pages.system.onboardingWizard.systemProgress': 'Global Launch Progress',
   'pages.system.onboardingWizard.refresh': 'Sync Latest Status',
@@ -18333,14 +20015,18 @@ export default {
   'pages.system.onboardingWizard.required': 'Core Task',
   'pages.system.onboardingWizard.goToConfig': 'Take Action Now',
   'pages.system.onboardingWizard.systemComplete': '✨ System Environment Ready!',
-  'pages.system.onboardingWizard.systemCompleteDesc': 'Congratulations! You have completed all basic environment and core parameter configurations. You can now initiate your first sales/purchase document and start your digital operation journey.',
+  'pages.system.onboardingWizard.systemCompleteDesc':
+    'Congratulations! You have completed all basic environment and core parameter configurations. You can now initiate your first sales/purchase document and start your digital operation journey.',
   'pages.system.onboardingWizard.roleProgress': 'Role Readiness',
   'pages.system.onboardingWizard.roleChecklist': 'Business Readiness Checklist',
   'pages.system.onboardingWizard.roleTip': 'Operations Guide',
-  'pages.system.onboardingWizard.roleTipDesc1': 'Please complete the following tasks in order. Items marked as "Core Task" directly impact business closure and should be prioritized.',
-  'pages.system.onboardingWizard.roleTipDesc2': 'Once all core tasks are finished, your role will have full operational authority and data foundation to start formal production operations.',
+  'pages.system.onboardingWizard.roleTipDesc1':
+    'Please complete the following tasks in order. Items marked as "Core Task" directly impact business closure and should be prioritized.',
+  'pages.system.onboardingWizard.roleTipDesc2':
+    'Once all core tasks are finished, your role will have full operational authority and data foundation to start formal production operations.',
   'pages.system.onboardingWizard.roleComplete': '🎉 Role Ready for Launch!',
-  'pages.system.onboardingWizard.roleCompleteDesc': 'Excellent! All preparation for this role is complete. You can enter specific modules or start monitoring via the dashboard.',
+  'pages.system.onboardingWizard.roleCompleteDesc':
+    'Excellent! All preparation for this role is complete. You can enter specific modules or start monitoring via the dashboard.',
 
   // System launch wizard — system tab
   'pages.system.onboardingWizard.tabImplementer': 'System Settings Guide',
@@ -18348,7 +20034,8 @@ export default {
   'pages.system.onboardingWizard.prerequisiteData': 'Prerequisite master data',
   'pages.system.onboardingWizard.businessDocs': 'Business documents you can operate',
   'pages.system.onboardingWizard.implementationTipLabel': 'Implementation tip:',
-  'pages.system.onboardingWizard.implementationTip': 'System launch is a key milestone in digital transformation. Follow the guided steps to complete foundational data modeling — a prerequisite for end-to-end business operations.',
+  'pages.system.onboardingWizard.implementationTip':
+    'System launch is a key milestone in digital transformation. Follow the guided steps to complete foundational data modeling — a prerequisite for end-to-end business operations.',
   'pages.system.onboardingWizard.empowermentTitle': 'System empowerment & benefits',
   'pages.system.onboardingWizard.progressRequired': 'Progress (required)',
   'pages.system.onboardingWizard.allModules': 'All modules',
@@ -18363,300 +20050,494 @@ export default {
   'pages.system.onboardingWizard.revokeVerifiedSuccess': 'Opening inventory verification revoked',
   'pages.system.onboardingWizard.modal.detailTitleSuffix': 'Feature checklist',
   'pages.system.onboardingWizard.modal.back': 'Back to guide',
-  'pages.system.onboardingWizard.modal.intro': 'Complete the configuration and data entry for each sub-feature below to finish the "{{name}}" stage.',
+  'pages.system.onboardingWizard.modal.intro':
+    'Complete the configuration and data entry for each sub-feature below to finish the "{{name}}" stage.',
   'pages.system.onboardingWizard.modal.columnFeature': 'Features',
   'pages.system.onboardingWizard.modal.columnDesc': 'Description',
   'pages.system.onboardingWizard.modal.columnRequired': 'Required',
   'pages.system.onboardingWizard.modal.columnAction': 'Action',
   'pages.system.onboardingWizard.modal.required': 'Required',
   'pages.system.onboardingWizard.modal.optional': 'Optional',
-  'pages.system.onboardingWizard.system.mission': 'Core mission: Build standardized factory, material, warehouse, and process models to lay a solid foundation for digital operations.',
-  'pages.system.onboardingWizard.system.prerequisiteData': 'Factory organization, warehouse locations, material master files, customer & supplier records',
-  'pages.system.onboardingWizard.system.businessDocs': 'Product BOM, process routes, opening inventory balance',
-  'pages.system.onboardingWizard.system.empowermentValue': 'Unify data language across the plant, eliminate silos, and enable end-to-end automation from sales to production.',
-  'pages.system.onboardingWizard.system.phase.infrastructure': 'Phase 1: Manufacturing foundation (factory & warehouse)',
-  'pages.system.onboardingWizard.system.phase.modeling': 'Phase 2: Core resources (materials & partners)',
-  'pages.system.onboardingWizard.system.phase.process': 'Phase 3: Production process model (BOM & routes)',
+  'pages.system.onboardingWizard.system.mission':
+    'Core mission: Build standardized factory, material, warehouse, and process models to lay a solid foundation for digital operations.',
+  'pages.system.onboardingWizard.system.prerequisiteData':
+    'Factory organization, warehouse locations, material master files, customer & supplier records',
+  'pages.system.onboardingWizard.system.businessDocs':
+    'Product BOM, process routes, opening inventory balance',
+  'pages.system.onboardingWizard.system.empowermentValue':
+    'Unify data language across the plant, eliminate silos, and enable end-to-end automation from sales to production.',
+  'pages.system.onboardingWizard.system.phase.infrastructure':
+    'Phase 1: Manufacturing foundation (factory & warehouse)',
+  'pages.system.onboardingWizard.system.phase.modeling':
+    'Phase 2: Core resources (materials & partners)',
+  'pages.system.onboardingWizard.system.phase.process':
+    'Phase 3: Production process model (BOM & routes)',
   'pages.system.onboardingWizard.system.phase.validation': 'Phase 4: End-to-end validation',
   'pages.system.onboardingWizard.system.task.factoryData.name': 'Establish factory data',
-  'pages.system.onboardingWizard.system.task.factoryData.desc': 'Define work centers, workshops, and production lines in Factory Data',
+  'pages.system.onboardingWizard.system.task.factoryData.desc':
+    'Define work centers, workshops, and production lines in Factory Data',
   'pages.system.onboardingWizard.system.task.warehouseData.name': 'Plan warehouse data',
-  'pages.system.onboardingWizard.system.task.warehouseData.desc': 'Define physical warehouses, locations, and logical storage relationships in Warehouse Data',
+  'pages.system.onboardingWizard.system.task.warehouseData.desc':
+    'Define physical warehouses, locations, and logical storage relationships in Warehouse Data',
   'pages.system.onboardingWizard.system.task.materialData.name': 'Complete material data',
-  'pages.system.onboardingWizard.system.task.materialData.desc': 'Enter product master files, categories, and key attributes in Material Data',
+  'pages.system.onboardingWizard.system.task.materialData.desc':
+    'Enter product master files, categories, and key attributes in Material Data',
   'pages.system.onboardingWizard.system.task.partnerData.name': 'Enter customers & suppliers',
-  'pages.system.onboardingWizard.system.task.partnerData.desc': 'Build customer records and qualified supplier lists in Customers & Suppliers',
+  'pages.system.onboardingWizard.system.task.partnerData.desc':
+    'Build customer records and qualified supplier lists in Customers & Suppliers',
   'pages.system.onboardingWizard.system.task.bomConfig.name': 'Import process data (BOM)',
-  'pages.system.onboardingWizard.system.task.bomConfig.desc': 'Establish bill of materials in Process Data as the core for costing and planning',
-  'pages.system.onboardingWizard.system.task.processRouting.name': 'Configure process data (routes)',
-  'pages.system.onboardingWizard.system.task.processRouting.desc': 'Plan production operations, standard times, and operation flow in Process Data',
-  'pages.system.onboardingWizard.system.task.firstOrderRun.name': 'Complete first business trial run',
-  'pages.system.onboardingWizard.system.task.firstOrderRun.desc': 'Validate master data accuracy and connectivity with a full simulated order starting from sales',
-  'pages.system.onboardingWizard.system.task.initialDataVerified.name': 'Opening data verification complete',
-  'pages.system.onboardingWizard.system.task.initialDataVerified.desc': 'Confirm opening inventory, WIP, AR/AP, and other opening balances match offline records',
+  'pages.system.onboardingWizard.system.task.bomConfig.desc':
+    'Establish bill of materials in Process Data as the core for costing and planning',
+  'pages.system.onboardingWizard.system.task.processRouting.name':
+    'Configure process data (routes)',
+  'pages.system.onboardingWizard.system.task.processRouting.desc':
+    'Plan production operations, standard times, and operation flow in Process Data',
+  'pages.system.onboardingWizard.system.task.firstOrderRun.name':
+    'Complete first business trial run',
+  'pages.system.onboardingWizard.system.task.firstOrderRun.desc':
+    'Validate master data accuracy and connectivity with a full simulated order starting from sales',
+  'pages.system.onboardingWizard.system.task.initialDataVerified.name':
+    'Opening data verification complete',
+  'pages.system.onboardingWizard.system.task.initialDataVerified.desc':
+    'Confirm opening inventory, WIP, AR/AP, and other opening balances match offline records',
   'pages.system.onboardingWizard.system.sub.factoryPlants.name': 'Plant management',
-  'pages.system.onboardingWizard.system.sub.factoryPlants.desc': 'Define plant locations, site layout, and basic information',
+  'pages.system.onboardingWizard.system.sub.factoryPlants.desc':
+    'Define plant locations, site layout, and basic information',
   'pages.system.onboardingWizard.system.sub.factoryWorkshops.name': 'Workshop management',
-  'pages.system.onboardingWizard.system.sub.factoryWorkshops.desc': 'Divide internal production workshops and physical production areas',
+  'pages.system.onboardingWizard.system.sub.factoryWorkshops.desc':
+    'Divide internal production workshops and physical production areas',
   'pages.system.onboardingWizard.system.sub.factoryLines.name': 'Production line management',
-  'pages.system.onboardingWizard.system.sub.factoryLines.desc': 'Configure production lines to support parallel operations',
+  'pages.system.onboardingWizard.system.sub.factoryLines.desc':
+    'Configure production lines to support parallel operations',
   'pages.system.onboardingWizard.system.sub.factoryWorkCenters.name': 'Work centers',
-  'pages.system.onboardingWizard.system.sub.factoryWorkCenters.desc': 'Aggregate production resources (people/equipment) as the core unit for scheduling and costing',
+  'pages.system.onboardingWizard.system.sub.factoryWorkCenters.desc':
+    'Aggregate production resources (people/equipment) as the core unit for scheduling and costing',
   'pages.system.onboardingWizard.system.sub.factoryStations.name': 'Workstation management',
-  'pages.system.onboardingWizard.system.sub.factoryStations.desc': 'Define the smallest operation unit on a line for granular reporting',
+  'pages.system.onboardingWizard.system.sub.factoryStations.desc':
+    'Define the smallest operation unit on a line for granular reporting',
   'pages.system.onboardingWizard.system.sub.factoryWorkGroups.name': 'Work groups',
-  'pages.system.onboardingWizard.system.sub.factoryWorkGroups.desc': 'Manage shop-floor team assignments for piece-rate pay and efficiency tracking',
+  'pages.system.onboardingWizard.system.sub.factoryWorkGroups.desc':
+    'Manage shop-floor team assignments for piece-rate pay and efficiency tracking',
   'pages.system.onboardingWizard.system.sub.warehouseMain.name': 'Warehouse management',
-  'pages.system.onboardingWizard.system.sub.warehouseMain.desc': 'Define physical warehouses such as raw material and finished goods warehouses',
+  'pages.system.onboardingWizard.system.sub.warehouseMain.desc':
+    'Define physical warehouses such as raw material and finished goods warehouses',
   'pages.system.onboardingWizard.system.sub.warehouseAreas.name': 'Storage area management',
-  'pages.system.onboardingWizard.system.sub.warehouseAreas.desc': 'Divide logical storage areas within a warehouse for material classification',
+  'pages.system.onboardingWizard.system.sub.warehouseAreas.desc':
+    'Divide logical storage areas within a warehouse for material classification',
   'pages.system.onboardingWizard.system.sub.warehouseLocations.name': 'Storage location management',
-  'pages.system.onboardingWizard.system.sub.warehouseLocations.desc': 'Define precise bin coordinates for scan-based putaway and picking',
+  'pages.system.onboardingWizard.system.sub.warehouseLocations.desc':
+    'Define precise bin coordinates for scan-based putaway and picking',
   'pages.system.onboardingWizard.system.sub.materialMain.name': 'Material management',
-  'pages.system.onboardingWizard.system.sub.materialMain.desc': 'Enter material master files with codes, names, and basic attributes',
+  'pages.system.onboardingWizard.system.sub.materialMain.desc':
+    'Enter material master files with codes, names, and basic attributes',
   'pages.system.onboardingWizard.system.sub.materialVariants.name': 'Variant attributes',
-  'pages.system.onboardingWizard.system.sub.materialVariants.desc': 'Define specification attributes (e.g. color, size) for multi-SKU management',
+  'pages.system.onboardingWizard.system.sub.materialVariants.desc':
+    'Define specification attributes (e.g. color, size) for multi-SKU management',
   'pages.system.onboardingWizard.system.sub.materialBatchRules.name': 'Batch rules',
-  'pages.system.onboardingWizard.system.sub.materialBatchRules.desc': 'Set batch generation rules for FIFO and quality traceability',
+  'pages.system.onboardingWizard.system.sub.materialBatchRules.desc':
+    'Set batch generation rules for FIFO and quality traceability',
   'pages.system.onboardingWizard.system.sub.materialSerialRules.name': 'Serial number rules',
-  'pages.system.onboardingWizard.system.sub.materialSerialRules.desc': 'Define unique serial number rules for item-level tracking',
+  'pages.system.onboardingWizard.system.sub.materialSerialRules.desc':
+    'Define unique serial number rules for item-level tracking',
   'pages.system.onboardingWizard.system.sub.partnerCustomers.name': 'Customer management',
-  'pages.system.onboardingWizard.system.sub.partnerCustomers.desc': 'Maintain customer records with payment terms, credit limits, and delivery addresses',
+  'pages.system.onboardingWizard.system.sub.partnerCustomers.desc':
+    'Maintain customer records with payment terms, credit limits, and delivery addresses',
   'pages.system.onboardingWizard.system.sub.partnerSuppliers.name': 'Supplier management',
-  'pages.system.onboardingWizard.system.sub.partnerSuppliers.desc': 'Build qualified supplier lists with purchase prices and delivery reliability',
+  'pages.system.onboardingWizard.system.sub.partnerSuppliers.desc':
+    'Build qualified supplier lists with purchase prices and delivery reliability',
   'pages.system.onboardingWizard.system.sub.processBom.name': 'Bill of materials (BOM)',
-  'pages.system.onboardingWizard.system.sub.processBom.desc': 'Build a digital twin of product structure with parent-child relationships',
+  'pages.system.onboardingWizard.system.sub.processBom.desc':
+    'Build a digital twin of product structure with parent-child relationships',
   'pages.system.onboardingWizard.system.sub.processOperations.name': 'Operation management',
-  'pages.system.onboardingWizard.system.sub.processOperations.desc': 'Define standard production operations such as cutting, assembly, and inspection',
+  'pages.system.onboardingWizard.system.sub.processOperations.desc':
+    'Define standard production operations such as cutting, assembly, and inspection',
   'pages.system.onboardingWizard.system.sub.processRoutes.name': 'Process routes',
-  'pages.system.onboardingWizard.system.sub.processRoutes.desc': 'Chain operation sequences and configure standard times and resource requirements',
+  'pages.system.onboardingWizard.system.sub.processRoutes.desc':
+    'Chain operation sequences and configure standard times and resource requirements',
   'pages.system.onboardingWizard.system.sub.processDefects.name': 'Defect types',
-  'pages.system.onboardingWizard.system.sub.processDefects.desc': 'Define production exceptions and quality defect categories for reporting statistics',
+  'pages.system.onboardingWizard.system.sub.processDefects.desc':
+    'Define production exceptions and quality defect categories for reporting statistics',
   'pages.system.onboardingWizard.system.sub.processSop.name': 'Standard operating procedures (SOP)',
-  'pages.system.onboardingWizard.system.sub.processSop.desc': 'Attach drawings and work instructions to standardize shop-floor operations',
-  'pages.system.onboardingWizard.guide.warehouse_main.mission': 'Define the plant\'s physical storage centers to support digital inbound/outbound flows for raw materials, WIP, and finished goods.',
-  'pages.system.onboardingWizard.guide.warehouse_main.standard': 'Establish core raw material and finished goods warehouses with basic inbound/outbound policies.',
-  'pages.system.onboardingWizard.guide.warehouse_main.tip': 'Separate line-side and raw material warehouses to better manage WIP inventory on the shop floor.',
-  'pages.system.onboardingWizard.guide.warehouse_locations.mission': 'Refine physical coordinates within warehouses for precise material positioning and scan-based automation.',
-  'pages.system.onboardingWizard.guide.warehouse_locations.standard': 'Define locations in high-frequency areas with bin codes synced to shelf labels.',
-  'pages.system.onboardingWizard.guide.warehouse_locations.tip': 'For fast-moving materials, set dedicated pick locations to reduce walking distance.',
-  'pages.system.onboardingWizard.guide.material_main.mission': 'Define the material\'s digital twin attributes, including purchase/sales pricing and BOM/process links for production.',
-  'pages.system.onboardingWizard.guide.material_main.standard': 'Enter core raw, semi-finished, and finished materials with primary/secondary UOM established.',
-  'pages.system.onboardingWizard.guide.material_main.tip': 'Lead time settings directly affect planning accuracy — use historical averages.',
-  'pages.system.onboardingWizard.guide.material_main.dependency': 'Material coding standards and classification must be defined first.',
-  'pages.system.onboardingWizard.guide.partner_customers.mission': 'Establish the sales-to-production source by defining customer records, pricing, and order flow rules.',
-  'pages.system.onboardingWizard.guide.partner_customers.standard': 'Enter core customer data and configure sales-to-production order triggers.',
-  'pages.system.onboardingWizard.guide.partner_customers.tip': 'Enable credit limit controls to mitigate financial risk at order entry.',
-  'pages.system.onboardingWizard.guide.partner_suppliers.mission': 'Ensure stable material supply by defining supplier records, purchase templates, and inbound inspection flows.',
-  'pages.system.onboardingWizard.guide.partner_suppliers.standard': 'Enter core suppliers and verify the purchase-to-receipt inbound flow.',
-  'pages.system.onboardingWizard.guide.partner_suppliers.tip': 'Configure a receiving QC zone to ensure 100% qualified inbound materials.',
-  'pages.system.onboardingWizard.guide.process_operations.mission': 'Define standard operations with quality standards and capability requirements for each step.',
-  'pages.system.onboardingWizard.guide.process_operations.standard': 'Build full operation archives with codes aligned to physical shop-floor steps.',
-  'pages.system.onboardingWizard.guide.process_operations.tip': 'Define reporting triggers in operations for real-time production progress.',
-  'pages.system.onboardingWizard.guide.process_routes.mission': 'Lock operation sequences, standard times, and work centers — core to costing and progress tracking.',
-  'pages.system.onboardingWizard.guide.process_routes.standard': 'Configure product routes with serial/parallel logic matching shop-floor practice.',
-  'pages.system.onboardingWizard.guide.process_routes.tip': 'Time data accuracy affects APS effectiveness — start with estimates and refine via reporting data.',
-  'pages.system.onboardingWizard.guide.process_routes.dependency': 'Work centers and resource groups must be defined first.',
-  'pages.system.onboardingWizard.guide.first_order_run.mission': 'End-to-end validation: sales order -> planning -> production/reporting -> finished goods receipt -> shipment.',
-  'pages.system.onboardingWizard.guide.first_order_run.standard': 'Complete at least one full procure-sell-store-produce cycle with accurate inventory and production records.',
-  'pages.system.onboardingWizard.guide.first_order_run.tip': 'The ultimate go-live test — involve key business stakeholders to confirm data and value flow continuity.',
-  'pages.system.onboardingWizard.guide.first_order_run.dependency': 'Procurement/sales/inventory foundation, MES modeling, and permissions must be ready.',
+  'pages.system.onboardingWizard.system.sub.processSop.desc':
+    'Attach drawings and work instructions to standardize shop-floor operations',
+  'pages.system.onboardingWizard.guide.warehouse_main.mission':
+    "Define the plant's physical storage centers to support digital inbound/outbound flows for raw materials, WIP, and finished goods.",
+  'pages.system.onboardingWizard.guide.warehouse_main.standard':
+    'Establish core raw material and finished goods warehouses with basic inbound/outbound policies.',
+  'pages.system.onboardingWizard.guide.warehouse_main.tip':
+    'Separate line-side and raw material warehouses to better manage WIP inventory on the shop floor.',
+  'pages.system.onboardingWizard.guide.warehouse_locations.mission':
+    'Refine physical coordinates within warehouses for precise material positioning and scan-based automation.',
+  'pages.system.onboardingWizard.guide.warehouse_locations.standard':
+    'Define locations in high-frequency areas with bin codes synced to shelf labels.',
+  'pages.system.onboardingWizard.guide.warehouse_locations.tip':
+    'For fast-moving materials, set dedicated pick locations to reduce walking distance.',
+  'pages.system.onboardingWizard.guide.material_main.mission':
+    "Define the material's digital twin attributes, including purchase/sales pricing and BOM/process links for production.",
+  'pages.system.onboardingWizard.guide.material_main.standard':
+    'Enter core raw, semi-finished, and finished materials with primary/secondary UOM established.',
+  'pages.system.onboardingWizard.guide.material_main.tip':
+    'Lead time settings directly affect planning accuracy — use historical averages.',
+  'pages.system.onboardingWizard.guide.material_main.dependency':
+    'Material coding standards and classification must be defined first.',
+  'pages.system.onboardingWizard.guide.partner_customers.mission':
+    'Establish the sales-to-production source by defining customer records, pricing, and order flow rules.',
+  'pages.system.onboardingWizard.guide.partner_customers.standard':
+    'Enter core customer data and configure sales-to-production order triggers.',
+  'pages.system.onboardingWizard.guide.partner_customers.tip':
+    'Enable credit limit controls to mitigate financial risk at order entry.',
+  'pages.system.onboardingWizard.guide.partner_suppliers.mission':
+    'Ensure stable material supply by defining supplier records, purchase templates, and inbound inspection flows.',
+  'pages.system.onboardingWizard.guide.partner_suppliers.standard':
+    'Enter core suppliers and verify the purchase-to-receipt inbound flow.',
+  'pages.system.onboardingWizard.guide.partner_suppliers.tip':
+    'Configure a receiving QC zone to ensure 100% qualified inbound materials.',
+  'pages.system.onboardingWizard.guide.process_operations.mission':
+    'Define standard operations with quality standards and capability requirements for each step.',
+  'pages.system.onboardingWizard.guide.process_operations.standard':
+    'Build full operation archives with codes aligned to physical shop-floor steps.',
+  'pages.system.onboardingWizard.guide.process_operations.tip':
+    'Define reporting triggers in operations for real-time production progress.',
+  'pages.system.onboardingWizard.guide.process_routes.mission':
+    'Lock operation sequences, standard times, and work centers — core to costing and progress tracking.',
+  'pages.system.onboardingWizard.guide.process_routes.standard':
+    'Configure product routes with serial/parallel logic matching shop-floor practice.',
+  'pages.system.onboardingWizard.guide.process_routes.tip':
+    'Time data accuracy affects APS effectiveness — start with estimates and refine via reporting data.',
+  'pages.system.onboardingWizard.guide.process_routes.dependency':
+    'Work centers and resource groups must be defined first.',
+  'pages.system.onboardingWizard.guide.first_order_run.mission':
+    'End-to-end validation: sales order -> planning -> production/reporting -> finished goods receipt -> shipment.',
+  'pages.system.onboardingWizard.guide.first_order_run.standard':
+    'Complete at least one full procure-sell-store-produce cycle with accurate inventory and production records.',
+  'pages.system.onboardingWizard.guide.first_order_run.tip':
+    'The ultimate go-live test — involve key business stakeholders to confirm data and value flow continuity.',
+  'pages.system.onboardingWizard.guide.first_order_run.dependency':
+    'Procurement/sales/inventory foundation, MES modeling, and permissions must be ready.',
   'pages.system.onboardingWizard.adminCoreDuties': 'Admin core responsibilities',
-  'pages.system.onboardingWizard.adminCoreDutiesValue': 'Organization structure, accounts & permissions, workflow engine, system security',
+  'pages.system.onboardingWizard.adminCoreDutiesValue':
+    'Organization structure, accounts & permissions, workflow engine, system security',
   'pages.system.onboardingWizard.deliveryAcceptance': 'Delivery acceptance criteria',
-  'pages.system.onboardingWizard.deliveryAcceptanceValue': 'All accounts provisioned, core flows validated, document templates meet standards',
-  'pages.system.onboardingWizard.implementerExpertTip': 'As system administrator, your configuration defines the system backbone. Complete Phase 1 organization and permissions first — a prerequisite for all business modules. Sub-items marked required may cause validation failures downstream if missing; unmarked items are mostly experience or extension settings.',
+  'pages.system.onboardingWizard.deliveryAcceptanceValue':
+    'All accounts provisioned, core flows validated, document templates meet standards',
+  'pages.system.onboardingWizard.implementerExpertTip':
+    'As system administrator, your configuration defines the system backbone. Complete Phase 1 organization and permissions first — a prerequisite for all business modules. Sub-items marked required may cause validation failures downstream if missing; unmarked items are mostly experience or extension settings.',
   'pages.system.onboardingWizard.implementerEmpowermentTitle': 'Admin empowerment & benefits',
-  'pages.system.onboardingWizard.implementerEmpowermentValue': 'Through standardized system setup, you build a robust digital foundation for end-to-end governance and risk control.',
+  'pages.system.onboardingWizard.implementerEmpowermentValue':
+    'Through standardized system setup, you build a robust digital foundation for end-to-end governance and risk control.',
   'pages.system.onboardingWizard.coreOperationGuide': 'Core operation guide',
   'pages.system.onboardingWizard.keyTaskCount': '— {{count}} key tasks',
-  'pages.system.onboardingWizard.businessStandard': 'Business prep: ensure completeness and timeliness of data entry',
-  'pages.system.onboardingWizard.roleExpertTip': 'Role launch is not just enabling permissions — it closes the loop on business data. Verify prerequisite data accuracy; use Demo Guide before formal operations.',
-  'pages.system.onboardingWizard.roleMissionFallback': 'Core mission: ensure complete business process flow in the system.',
+  'pages.system.onboardingWizard.businessStandard':
+    'Business prep: ensure completeness and timeliness of data entry',
+  'pages.system.onboardingWizard.roleExpertTip':
+    'Role launch is not just enabling permissions — it closes the loop on business data. Verify prerequisite data accuracy; use Demo Guide before formal operations.',
+  'pages.system.onboardingWizard.roleMissionFallback':
+    'Core mission: ensure complete business process flow in the system.',
   'pages.system.onboardingWizard.markItemComplete': 'Marked complete: {{name}}',
 
-  'pages.system.onboardingWizard.role.sales.mission': 'Core mission: Connect inquiry to delivery end-to-end and ensure on-time shipment.',
-  'pages.system.onboardingWizard.role.sales.prerequisiteData': 'Customer records, product quotations, sales price lists',
-  'pages.system.onboardingWizard.role.sales.businessDocs': 'Sales quotations, sales orders, delivery notices, sales returns',
-  'pages.system.onboardingWizard.role.sales.empowermentValue': 'Prevent missed orders and pricing errors; track production and delivery in real time to improve customer satisfaction.',
+  'pages.system.onboardingWizard.role.sales.mission':
+    'Core mission: Connect inquiry to delivery end-to-end and ensure on-time shipment.',
+  'pages.system.onboardingWizard.role.sales.prerequisiteData':
+    'Customer records, product quotations, sales price lists',
+  'pages.system.onboardingWizard.role.sales.businessDocs':
+    'Sales quotations, sales orders, delivery notices, sales returns',
+  'pages.system.onboardingWizard.role.sales.empowermentValue':
+    'Prevent missed orders and pricing errors; track production and delivery in real time to improve customer satisfaction.',
   'pages.system.onboardingWizard.role.sales.task.sales_customer.name': 'Maintain customer records',
-  'pages.system.onboardingWizard.role.sales.task.sales_customer.desc': 'Enter basic customer info, contacts, and payment terms',
+  'pages.system.onboardingWizard.role.sales.task.sales_customer.desc':
+    'Enter basic customer info, contacts, and payment terms',
   'pages.system.onboardingWizard.role.sales.task.sales_price.name': 'Develop product quotes',
-  'pages.system.onboardingWizard.role.sales.task.sales_price.desc': 'Set targeted sales prices for different customers',
+  'pages.system.onboardingWizard.role.sales.task.sales_price.desc':
+    'Set targeted sales prices for different customers',
   'pages.system.onboardingWizard.role.sales.task.sales_order.name': 'Enter sales orders',
-  'pages.system.onboardingWizard.role.sales.task.sales_order.desc': 'Capture customer demand, create formal sales orders, and trigger production or delivery',
+  'pages.system.onboardingWizard.role.sales.task.sales_order.desc':
+    'Capture customer demand, create formal sales orders, and trigger production or delivery',
   'pages.system.onboardingWizard.role.sales.task.sales_delivery.name': 'Track delivery progress',
-  'pages.system.onboardingWizard.role.sales.task.sales_delivery.desc': 'Issue delivery notices based on inventory and production status',
-  'pages.system.onboardingWizard.role.purchase.mission': 'Core mission: Find the right suppliers, manage procurement progress, and keep production supplied.',
-  'pages.system.onboardingWizard.role.purchase.prerequisiteData': 'Supplier records, purchase price lists, procurement lead times',
-  'pages.system.onboardingWizard.role.purchase.businessDocs': 'Purchase requisitions, purchase orders, receipt QC, purchase returns',
-  'pages.system.onboardingWizard.role.purchase.empowermentValue': 'Smart shortage calculation and purchase recommendations avoid line stops and excess stock.',
+  'pages.system.onboardingWizard.role.sales.task.sales_delivery.desc':
+    'Issue delivery notices based on inventory and production status',
+  'pages.system.onboardingWizard.role.purchase.mission':
+    'Core mission: Find the right suppliers, manage procurement progress, and keep production supplied.',
+  'pages.system.onboardingWizard.role.purchase.prerequisiteData':
+    'Supplier records, purchase price lists, procurement lead times',
+  'pages.system.onboardingWizard.role.purchase.businessDocs':
+    'Purchase requisitions, purchase orders, receipt QC, purchase returns',
+  'pages.system.onboardingWizard.role.purchase.empowermentValue':
+    'Smart shortage calculation and purchase recommendations avoid line stops and excess stock.',
   'pages.system.onboardingWizard.role.purchase.task.pur_supplier.name': 'Build supplier records',
-  'pages.system.onboardingWizard.role.purchase.task.pur_supplier.desc': 'Enter supplier master data and manage qualifications',
+  'pages.system.onboardingWizard.role.purchase.task.pur_supplier.desc':
+    'Enter supplier master data and manage qualifications',
   'pages.system.onboardingWizard.role.purchase.task.pur_price.name': 'Maintain purchase prices',
-  'pages.system.onboardingWizard.role.purchase.task.pur_price.desc': 'Record purchase costs and historical purchase data',
+  'pages.system.onboardingWizard.role.purchase.task.pur_price.desc':
+    'Record purchase costs and historical purchase data',
   'pages.system.onboardingWizard.role.purchase.task.pur_order.name': 'Issue purchase orders',
-  'pages.system.onboardingWizard.role.purchase.task.pur_order.desc': 'Formally issue purchase orders with clear delivery dates',
+  'pages.system.onboardingWizard.role.purchase.task.pur_order.desc':
+    'Formally issue purchase orders with clear delivery dates',
   'pages.system.onboardingWizard.role.purchase.task.pur_receipt.name': 'Track receipt & inbound',
-  'pages.system.onboardingWizard.role.purchase.task.pur_receipt.desc': 'Confirm deliveries and coordinate QC and warehouse inbound',
-  'pages.system.onboardingWizard.role.warehouse.mission': 'Core mission: Run warehouses so stock matches books — easy to find and fast to ship.',
-  'pages.system.onboardingWizard.role.warehouse.prerequisiteData': 'Warehouse/location layout, opening inventory, safety stock',
-  'pages.system.onboardingWizard.role.warehouse.businessDocs': 'Purchase inbound, production issue, production receipt, sales outbound, stock counts',
-  'pages.system.onboardingWizard.role.warehouse.empowermentValue': 'Replace manual ledgers with scan-based real-time inventory updates and accurate stock data.',
+  'pages.system.onboardingWizard.role.purchase.task.pur_receipt.desc':
+    'Confirm deliveries and coordinate QC and warehouse inbound',
+  'pages.system.onboardingWizard.role.warehouse.mission':
+    'Core mission: Run warehouses so stock matches books — easy to find and fast to ship.',
+  'pages.system.onboardingWizard.role.warehouse.prerequisiteData':
+    'Warehouse/location layout, opening inventory, safety stock',
+  'pages.system.onboardingWizard.role.warehouse.businessDocs':
+    'Purchase inbound, production issue, production receipt, sales outbound, stock counts',
+  'pages.system.onboardingWizard.role.warehouse.empowermentValue':
+    'Replace manual ledgers with scan-based real-time inventory updates and accurate stock data.',
   'pages.system.onboardingWizard.role.warehouse.task.wh_setup.name': 'Plan physical warehouses',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_setup.desc': 'Define raw material, WIP, and finished goods warehouses',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_setup.desc':
+    'Define raw material, WIP, and finished goods warehouses',
   'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.name': 'Process purchase inbound',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.desc': 'Verify arrival notices and complete physical inbound',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_in.desc':
+    'Verify arrival notices and complete physical inbound',
   'pages.system.onboardingWizard.role.warehouse.task.wh_picking.name': 'Process production issue',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_picking.desc': 'Issue materials precisely per shop-floor requests',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_picking.desc':
+    'Issue materials precisely per shop-floor requests',
   'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.name': 'Process sales shipment',
-  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.desc': 'Pick, pack, and ship finished goods to customers',
-  'pages.system.onboardingWizard.role.technician.mission': 'Core mission: Standardize product data and R&D processes so production follows clear standards.',
-  'pages.system.onboardingWizard.role.technician.prerequisiteData': 'Material master, product BOM, R&D drawings, sample parameters',
-  'pages.system.onboardingWizard.role.technician.businessDocs': 'ECOs, technical standards, process drawing attachments',
-  'pages.system.onboardingWizard.role.technician.empowermentValue': 'Version-controlled R&D data and BOMs ensure the shop floor always uses the latest standards.',
+  'pages.system.onboardingWizard.role.warehouse.task.wh_stock_out.desc':
+    'Pick, pack, and ship finished goods to customers',
+  'pages.system.onboardingWizard.role.technician.mission':
+    'Core mission: Standardize product data and R&D processes so production follows clear standards.',
+  'pages.system.onboardingWizard.role.technician.prerequisiteData':
+    'Material master, product BOM, R&D drawings, sample parameters',
+  'pages.system.onboardingWizard.role.technician.businessDocs':
+    'ECOs, technical standards, process drawing attachments',
+  'pages.system.onboardingWizard.role.technician.empowermentValue':
+    'Version-controlled R&D data and BOMs ensure the shop floor always uses the latest standards.',
   'pages.system.onboardingWizard.role.technician.task.tech_material.name': 'Define material master',
-  'pages.system.onboardingWizard.role.technician.task.tech_material.desc': 'Standardize plant-wide material codes and attributes',
+  'pages.system.onboardingWizard.role.technician.task.tech_material.desc':
+    'Standardize plant-wide material codes and attributes',
   'pages.system.onboardingWizard.role.technician.task.tech_bom.name': 'Build product BOM',
-  'pages.system.onboardingWizard.role.technician.task.tech_bom.desc': 'Build a digital twin of product structure (BOM)',
+  'pages.system.onboardingWizard.role.technician.task.tech_bom.desc':
+    'Build a digital twin of product structure (BOM)',
   'pages.system.onboardingWizard.role.technician.task.tech_route.name': 'Design process routes',
-  'pages.system.onboardingWizard.role.technician.task.tech_route.desc': 'Define operation sequence and standard times',
-  'pages.system.onboardingWizard.role.planner.mission': 'Core mission: Plan production, balance orders and capacity, and clear shop-floor bottlenecks.',
-  'pages.system.onboardingWizard.role.planner.prerequisiteData': 'Work centers, line capacity, calendars and shifts',
-  'pages.system.onboardingWizard.role.planner.businessDocs': 'Production plans, work orders, subcontract orders',
-  'pages.system.onboardingWizard.role.planner.empowermentValue': 'Smart scheduling forecasts delivery dates, balances load, and maximizes output.',
+  'pages.system.onboardingWizard.role.technician.task.tech_route.desc':
+    'Define operation sequence and standard times',
+  'pages.system.onboardingWizard.role.planner.mission':
+    'Core mission: Plan production, balance orders and capacity, and clear shop-floor bottlenecks.',
+  'pages.system.onboardingWizard.role.planner.prerequisiteData':
+    'Work centers, line capacity, calendars and shifts',
+  'pages.system.onboardingWizard.role.planner.businessDocs':
+    'Production plans, work orders, subcontract orders',
+  'pages.system.onboardingWizard.role.planner.empowermentValue':
+    'Smart scheduling forecasts delivery dates, balances load, and maximizes output.',
   'pages.system.onboardingWizard.role.planner.task.plan_wc.name': 'Maintain work center capacity',
-  'pages.system.onboardingWizard.role.planner.task.plan_wc.desc': 'Define baseline capacity for lines or machines',
+  'pages.system.onboardingWizard.role.planner.task.plan_wc.desc':
+    'Define baseline capacity for lines or machines',
   'pages.system.onboardingWizard.role.planner.task.plan_mrp.name': 'Run MRP',
-  'pages.system.onboardingWizard.role.planner.task.plan_mrp.desc': 'Calculate shortages and generate purchase suggestions',
+  'pages.system.onboardingWizard.role.planner.task.plan_mrp.desc':
+    'Calculate shortages and generate purchase suggestions',
   'pages.system.onboardingWizard.role.planner.task.plan_order.name': 'Release work orders',
-  'pages.system.onboardingWizard.role.planner.task.plan_order.desc': 'Convert sales orders into executable shop-floor work orders',
-  'pages.system.onboardingWizard.role.supervisor.mission': 'Core mission: Monitor shop-floor progress, resolve exceptions, and control production pace.',
-  'pages.system.onboardingWizard.role.supervisor.prerequisiteData': 'Shop-floor staff, team schedules, defect reason codes',
-  'pages.system.onboardingWizard.role.supervisor.businessDocs': 'Operation dispatch, production reporting, exception reports',
-  'pages.system.onboardingWizard.role.supervisor.empowermentValue': 'Paperless dispatch and scan reporting with real-time progress and exception alerts.',
+  'pages.system.onboardingWizard.role.planner.task.plan_order.desc':
+    'Convert sales orders into executable shop-floor work orders',
+  'pages.system.onboardingWizard.role.supervisor.mission':
+    'Core mission: Monitor shop-floor progress, resolve exceptions, and control production pace.',
+  'pages.system.onboardingWizard.role.supervisor.prerequisiteData':
+    'Shop-floor staff, team schedules, defect reason codes',
+  'pages.system.onboardingWizard.role.supervisor.businessDocs':
+    'Operation dispatch, production reporting, exception reports',
+  'pages.system.onboardingWizard.role.supervisor.empowermentValue':
+    'Paperless dispatch and scan reporting with real-time progress and exception alerts.',
   'pages.system.onboardingWizard.role.supervisor.task.sup_team.name': 'Manage shop-floor teams',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_team.desc': 'Maintain schedules and operator records',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_team.desc':
+    'Maintain schedules and operator records',
   'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.name': 'Dispatch operations',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.desc': 'Break work orders down to stations and workers',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_dispatch.desc':
+    'Break work orders down to stations and workers',
   'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.name': 'Production dashboard',
-  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.desc': 'Monitor line status and reporting exceptions in real time',
-  'pages.system.onboardingWizard.role.operator.mission': 'Core mission: Execute dispatched tasks efficiently with quality and quantity targets met.',
-  'pages.system.onboardingWizard.role.operator.prerequisiteData': 'None (execution layer — usually no master data to maintain)',
-  'pages.system.onboardingWizard.role.operator.businessDocs': 'Task receipt, scan completion reporting, defect logging',
-  'pages.system.onboardingWizard.role.operator.empowermentValue': 'Scan on phone or tablet to issue materials and report work; piece-rate pay auto-calculated.',
+  'pages.system.onboardingWizard.role.supervisor.task.sup_monitor.desc':
+    'Monitor line status and reporting exceptions in real time',
+  'pages.system.onboardingWizard.role.operator.mission':
+    'Core mission: Execute dispatched tasks efficiently with quality and quantity targets met.',
+  'pages.system.onboardingWizard.role.operator.prerequisiteData':
+    'None (execution layer — usually no master data to maintain)',
+  'pages.system.onboardingWizard.role.operator.businessDocs':
+    'Task receipt, scan completion reporting, defect logging',
+  'pages.system.onboardingWizard.role.operator.empowermentValue':
+    'Scan on phone or tablet to issue materials and report work; piece-rate pay auto-calculated.',
   'pages.system.onboardingWizard.role.operator.task.op_receive.name': 'Receive production tasks',
-  'pages.system.onboardingWizard.role.operator.task.op_receive.desc': 'View assigned tasks on mobile or tablet',
+  'pages.system.onboardingWizard.role.operator.task.op_receive.desc':
+    'View assigned tasks on mobile or tablet',
   'pages.system.onboardingWizard.role.operator.task.op_report.name': 'Scan to report completion',
-  'pages.system.onboardingWizard.role.operator.task.op_report.desc': 'Report completion in one tap with auto piece-rate calculation',
-  'pages.system.onboardingWizard.role.quality.mission': 'Core mission: Strict quality control, full traceability, and lower scrap cost.',
-  'pages.system.onboardingWizard.role.quality.prerequisiteData': 'Inspection standards (AQL), QC plans, inspection item dictionaries',
-  'pages.system.onboardingWizard.role.quality.businessDocs': 'IQC, in-process QC (PQC), outbound inspection',
-  'pages.system.onboardingWizard.role.quality.empowermentValue': 'Full lifecycle traceability and one-click QC reports to block defects at the source.',
+  'pages.system.onboardingWizard.role.operator.task.op_report.desc':
+    'Report completion in one tap with auto piece-rate calculation',
+  'pages.system.onboardingWizard.role.quality.mission':
+    'Core mission: Strict quality control, full traceability, and lower scrap cost.',
+  'pages.system.onboardingWizard.role.quality.prerequisiteData':
+    'Inspection standards (AQL), QC plans, inspection item dictionaries',
+  'pages.system.onboardingWizard.role.quality.businessDocs':
+    'IQC, in-process QC (PQC), outbound inspection',
+  'pages.system.onboardingWizard.role.quality.empowermentValue':
+    'Full lifecycle traceability and one-click QC reports to block defects at the source.',
   'pages.system.onboardingWizard.role.quality.task.qa_standard.name': 'Define inspection standards',
-  'pages.system.onboardingWizard.role.quality.task.qa_standard.desc': 'Set AQL and sampling plans for materials and products',
+  'pages.system.onboardingWizard.role.quality.task.qa_standard.desc':
+    'Set AQL and sampling plans for materials and products',
   'pages.system.onboardingWizard.role.quality.task.qa_iqc.name': 'Incoming inspection (IQC)',
-  'pages.system.onboardingWizard.role.quality.task.qa_iqc.desc': 'Inspect outsourced or purchased materials',
+  'pages.system.onboardingWizard.role.quality.task.qa_iqc.desc':
+    'Inspect outsourced or purchased materials',
   'pages.system.onboardingWizard.role.quality.task.qa_oqc.name': 'Outbound inspection',
-  'pages.system.onboardingWizard.role.quality.task.qa_oqc.desc': 'Final pre-shipment inspection of finished goods',
-  'pages.system.onboardingWizard.role.equipment.mission': 'Core mission: Maintain equipment, reduce unplanned downtime, keep production running.',
-  'pages.system.onboardingWizard.role.equipment.prerequisiteData': 'Equipment ledger, spare parts, maintenance plan templates',
-  'pages.system.onboardingWizard.role.equipment.businessDocs': 'Equipment inspections, repairs, maintenance orders',
-  'pages.system.onboardingWizard.role.equipment.empowermentValue': 'Shift from reactive repair to preventive maintenance; lower failure rates.',
+  'pages.system.onboardingWizard.role.quality.task.qa_oqc.desc':
+    'Final pre-shipment inspection of finished goods',
+  'pages.system.onboardingWizard.role.equipment.mission':
+    'Core mission: Maintain equipment, reduce unplanned downtime, keep production running.',
+  'pages.system.onboardingWizard.role.equipment.prerequisiteData':
+    'Equipment ledger, spare parts, maintenance plan templates',
+  'pages.system.onboardingWizard.role.equipment.businessDocs':
+    'Equipment inspections, repairs, maintenance orders',
+  'pages.system.onboardingWizard.role.equipment.empowermentValue':
+    'Shift from reactive repair to preventive maintenance; lower failure rates.',
   'pages.system.onboardingWizard.role.equipment.task.eq_ledger.name': 'Build equipment ledger',
-  'pages.system.onboardingWizard.role.equipment.task.eq_ledger.desc': 'One-code-per-asset registration for all plant equipment',
+  'pages.system.onboardingWizard.role.equipment.task.eq_ledger.desc':
+    'One-code-per-asset registration for all plant equipment',
   'pages.system.onboardingWizard.role.equipment.task.eq_maintain.name': 'Inspection & maintenance',
-  'pages.system.onboardingWizard.role.equipment.task.eq_maintain.desc': 'Run daily inspections and preventive maintenance',
-  'pages.system.onboardingWizard.role.finance.mission': 'Core mission: Account for every transaction, track costs in real time, support management decisions.',
-  'pages.system.onboardingWizard.role.finance.prerequisiteData': 'Account balances, income/expense categories, costing rules',
-  'pages.system.onboardingWizard.role.finance.businessDocs': 'AR/AP, receipts/payments, costing documents',
-  'pages.system.onboardingWizard.role.finance.empowermentValue': 'Business docs auto-generate financial entries; order cost and margin visible in real time.',
+  'pages.system.onboardingWizard.role.equipment.task.eq_maintain.desc':
+    'Run daily inspections and preventive maintenance',
+  'pages.system.onboardingWizard.role.finance.mission':
+    'Core mission: Account for every transaction, track costs in real time, support management decisions.',
+  'pages.system.onboardingWizard.role.finance.prerequisiteData':
+    'Account balances, income/expense categories, costing rules',
+  'pages.system.onboardingWizard.role.finance.businessDocs':
+    'AR/AP, receipts/payments, costing documents',
+  'pages.system.onboardingWizard.role.finance.empowermentValue':
+    'Business docs auto-generate financial entries; order cost and margin visible in real time.',
   'pages.system.onboardingWizard.role.finance.task.fi_ap.name': 'AP reconciliation',
-  'pages.system.onboardingWizard.role.finance.task.fi_ap.desc': 'Reconcile AP with suppliers and create payment orders',
+  'pages.system.onboardingWizard.role.finance.task.fi_ap.desc':
+    'Reconcile AP with suppliers and create payment orders',
   'pages.system.onboardingWizard.role.finance.task.fi_ar.name': 'AR reconciliation',
-  'pages.system.onboardingWizard.role.finance.task.fi_ar.desc': 'Reconcile AR with customers and apply receipts',
+  'pages.system.onboardingWizard.role.finance.task.fi_ar.desc':
+    'Reconcile AR with customers and apply receipts',
   'pages.system.onboardingWizard.role.finance.task.fi_cost.name': 'Order costing',
-  'pages.system.onboardingWizard.role.finance.task.fi_cost.desc': 'Aggregate material, labor, and overhead for true product cost',
-  'pages.system.onboardingWizard.role.manager.mission': 'Core mission: Use digital dashboards to monitor the full plant anytime, anywhere.',
-  'pages.system.onboardingWizard.role.manager.prerequisiteData': 'Approval flows, data dictionary planning, KPI targets',
-  'pages.system.onboardingWizard.role.manager.businessDocs': 'Core business approvals, executive dashboard',
-  'pages.system.onboardingWizard.role.manager.empowermentValue': 'Executive cockpit for revenue, capacity, and inventory at a glance.',
+  'pages.system.onboardingWizard.role.finance.task.fi_cost.desc':
+    'Aggregate material, labor, and overhead for true product cost',
+  'pages.system.onboardingWizard.role.manager.mission':
+    'Core mission: Use digital dashboards to monitor the full plant anytime, anywhere.',
+  'pages.system.onboardingWizard.role.manager.prerequisiteData':
+    'Approval flows, data dictionary planning, KPI targets',
+  'pages.system.onboardingWizard.role.manager.businessDocs':
+    'Core business approvals, executive dashboard',
+  'pages.system.onboardingWizard.role.manager.empowermentValue':
+    'Executive cockpit for revenue, capacity, and inventory at a glance.',
   'pages.system.onboardingWizard.role.manager.task.mgr_approve.name': 'Business approvals',
-  'pages.system.onboardingWizard.role.manager.task.mgr_approve.desc': 'Central handling of cross-department approval flows',
-  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.name': 'Business analytics dashboard',
-  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.desc': 'View revenue, profit, inventory turnover, and key metrics',
-  'pages.system.onboardingWizard.role.implementer.mission': 'Core mission: Configure system architecture and global parameters for a stable runtime environment.',
-  'pages.system.onboardingWizard.role.implementer.prerequisiteData': 'Org structure, permission model, approval workflows, document numbering',
-  'pages.system.onboardingWizard.role.implementer.businessDocs': 'System parameters, audit logs, custom field definitions',
-  'pages.system.onboardingWizard.role.implementer.empowermentValue': 'Build the digital foundation with standardized config for lower ops cost and compliance.',
-  'pages.system.onboardingWizard.implementer.phase.security': 'Phase 1: Access foundation & user system',
+  'pages.system.onboardingWizard.role.manager.task.mgr_approve.desc':
+    'Central handling of cross-department approval flows',
+  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.name':
+    'Business analytics dashboard',
+  'pages.system.onboardingWizard.role.manager.task.mgr_dashboard.desc':
+    'View revenue, profit, inventory turnover, and key metrics',
+  'pages.system.onboardingWizard.role.implementer.mission':
+    'Core mission: Configure system architecture and global parameters for a stable runtime environment.',
+  'pages.system.onboardingWizard.role.implementer.prerequisiteData':
+    'Org structure, permission model, approval workflows, document numbering',
+  'pages.system.onboardingWizard.role.implementer.businessDocs':
+    'System parameters, audit logs, custom field definitions',
+  'pages.system.onboardingWizard.role.implementer.empowermentValue':
+    'Build the digital foundation with standardized config for lower ops cost and compliance.',
+  'pages.system.onboardingWizard.implementer.phase.security':
+    'Phase 1: Access foundation & user system',
   'pages.system.onboardingWizard.implementer.phase.config': 'Phase 2: Core business modeling rules',
-  'pages.system.onboardingWizard.implementer.phase.process': 'Phase 3: Workflow engine & delivery templates',
+  'pages.system.onboardingWizard.implementer.phase.process':
+    'Phase 3: Workflow engine & delivery templates',
   'pages.system.onboardingWizard.implementer.phase.data': 'Phase 4: Data governance & integration',
-  'pages.system.onboardingWizard.implementer.phase.ops': 'Phase 5: Operations & security monitoring',
-  'pages.system.onboardingWizard.implementer.phase.app': 'Phase 6: App extensions & personal productivity',
-  'pages.system.onboardingWizard.implementer.task.securityGroup.name': 'Build users & permissions foundation',
-  'pages.system.onboardingWizard.implementer.task.securityGroup.desc': 'Configure departments, positions, and role-based access control.',
-  'pages.system.onboardingWizard.implementer.task.standardGroup.name': 'Business modeling & standardization',
-  'pages.system.onboardingWizard.implementer.task.standardGroup.desc': 'Numbering rules as backbone; dictionaries and parameters are mostly prebuilt and can be refined.',
+  'pages.system.onboardingWizard.implementer.phase.ops':
+    'Phase 5: Operations & security monitoring',
+  'pages.system.onboardingWizard.implementer.phase.app':
+    'Phase 6: App extensions & personal productivity',
+  'pages.system.onboardingWizard.implementer.task.securityGroup.name':
+    'Build users & permissions foundation',
+  'pages.system.onboardingWizard.implementer.task.securityGroup.desc':
+    'Configure departments, positions, and role-based access control.',
+  'pages.system.onboardingWizard.implementer.task.standardGroup.name':
+    'Business modeling & standardization',
+  'pages.system.onboardingWizard.implementer.task.standardGroup.desc':
+    'Numbering rules as backbone; dictionaries and parameters are mostly prebuilt and can be refined.',
   'pages.system.onboardingWizard.implementer.task.siteGroup.name': 'UI layout & site settings',
-  'pages.system.onboardingWizard.implementer.task.siteGroup.desc': 'Configure sidebar, logo, tenant name, and global visuals (does not affect core posting flows).',
-  'pages.system.onboardingWizard.implementer.task.workflowGroup.name': 'Define approval & delivery standards',
-  'pages.system.onboardingWizard.implementer.task.workflowGroup.desc': 'Configure approval flows, alert triggers, and print templates across the business chain.',
-  'pages.system.onboardingWizard.implementer.task.integrationGroup.name': 'External integration & data governance',
-  'pages.system.onboardingWizard.implementer.task.integrationGroup.desc': 'Configure APIs, datasets, and file center to break data silos.',
+  'pages.system.onboardingWizard.implementer.task.siteGroup.desc':
+    'Configure sidebar, logo, tenant name, and global visuals (does not affect core posting flows).',
+  'pages.system.onboardingWizard.implementer.task.workflowGroup.name':
+    'Define approval & delivery standards',
+  'pages.system.onboardingWizard.implementer.task.workflowGroup.desc':
+    'Configure approval flows, alert triggers, and print templates across the business chain.',
+  'pages.system.onboardingWizard.implementer.task.integrationGroup.name':
+    'External integration & data governance',
+  'pages.system.onboardingWizard.implementer.task.integrationGroup.desc':
+    'Configure APIs, datasets, and file center to break data silos.',
   'pages.system.onboardingWizard.implementer.task.opsGroup.name': 'Full operations & monitoring',
-  'pages.system.onboardingWizard.implementer.task.opsGroup.desc': 'Audit, login/session monitoring, backups — governance items; recommended before go-live for compliance.',
+  'pages.system.onboardingWizard.implementer.task.opsGroup.desc':
+    'Audit, login/session monitoring, backups — governance items; recommended before go-live for compliance.',
   'pages.system.onboardingWizard.implementer.task.extGroup.name': 'Extensions & personalization',
-  'pages.system.onboardingWizard.implementer.task.extGroup.desc': 'Extend via App Center and personalize each user\'s workspace.',
+  'pages.system.onboardingWizard.implementer.task.extGroup.desc':
+    "Extend via App Center and personalize each user's workspace.",
   'pages.system.onboardingWizard.implementer.sub.imp_dept.name': 'Departments',
-  'pages.system.onboardingWizard.implementer.sub.imp_dept.desc': 'Define admin org structure and department tree.',
+  'pages.system.onboardingWizard.implementer.sub.imp_dept.desc':
+    'Define admin org structure and department tree.',
   'pages.system.onboardingWizard.implementer.sub.imp_post.name': 'Positions',
-  'pages.system.onboardingWizard.implementer.sub.imp_post.desc': 'Define position scope and job grades.',
+  'pages.system.onboardingWizard.implementer.sub.imp_post.desc':
+    'Define position scope and job grades.',
   'pages.system.onboardingWizard.implementer.sub.imp_role.name': 'Roles & permissions',
-  'pages.system.onboardingWizard.implementer.sub.imp_role.desc': 'Assign menu and action permissions for security isolation.',
+  'pages.system.onboardingWizard.implementer.sub.imp_role.desc':
+    'Assign menu and action permissions for security isolation.',
   'pages.system.onboardingWizard.implementer.sub.imp_user.name': 'User accounts',
-  'pages.system.onboardingWizard.implementer.sub.imp_user.desc': 'Create accounts, bind roles, and activate users.',
+  'pages.system.onboardingWizard.implementer.sub.imp_user.desc':
+    'Create accounts, bind roles, and activate users.',
   'pages.system.onboardingWizard.implementer.sub.imp_rule.name': 'Numbering rules',
-  'pages.system.onboardingWizard.implementer.sub.imp_rule.desc': 'Auto-numbering logic for materials and orders.',
+  'pages.system.onboardingWizard.implementer.sub.imp_rule.desc':
+    'Auto-numbering logic for materials and orders.',
   'pages.system.onboardingWizard.implementer.sub.imp_dict.name': 'Data dictionaries',
-  'pages.system.onboardingWizard.implementer.sub.imp_dict.desc': 'Predefined enums (payment methods, doc types); usually prebuilt, extend as needed.',
+  'pages.system.onboardingWizard.implementer.sub.imp_dict.desc':
+    'Predefined enums (payment methods, doc types); usually prebuilt, extend as needed.',
   'pages.system.onboardingWizard.implementer.sub.imp_business.name': 'Business settings',
-  'pages.system.onboardingWizard.implementer.sub.imp_business.desc': 'Warehouse policy, negative stock, batch/serial/location switches; defaults work for start.',
+  'pages.system.onboardingWizard.implementer.sub.imp_business.desc':
+    'Warehouse policy, negative stock, batch/serial/location switches; defaults work for start.',
   'pages.system.onboardingWizard.implementer.sub.imp_lang.name': 'Languages',
-  'pages.system.onboardingWizard.implementer.sub.imp_lang.desc': 'Maintain translation dictionaries for global operations.',
+  'pages.system.onboardingWizard.implementer.sub.imp_lang.desc':
+    'Maintain translation dictionaries for global operations.',
   'pages.system.onboardingWizard.implementer.sub.imp_field.name': 'Custom fields',
-  'pages.system.onboardingWizard.implementer.sub.imp_field.desc': 'Dynamic field extensions and data capture on documents.',
+  'pages.system.onboardingWizard.implementer.sub.imp_field.desc':
+    'Dynamic field extensions and data capture on documents.',
   'pages.system.onboardingWizard.implementer.sub.imp_menu.name': 'Menu management',
-  'pages.system.onboardingWizard.implementer.sub.imp_menu.desc': 'Customize sidebar order, icons, and display names.',
+  'pages.system.onboardingWizard.implementer.sub.imp_menu.desc':
+    'Customize sidebar order, icons, and display names.',
   'pages.system.onboardingWizard.implementer.sub.imp_site.name': 'Site settings',
-  'pages.system.onboardingWizard.implementer.sub.imp_site.desc': 'Configure system name, logo, and multi-tenant parameters.',
+  'pages.system.onboardingWizard.implementer.sub.imp_site.desc':
+    'Configure system name, logo, and multi-tenant parameters.',
   'pages.system.onboardingWizard.implementer.sub.imp_workflow.name': 'Approval workflows',
-  'pages.system.onboardingWizard.implementer.sub.imp_workflow.desc': 'Multi-level approval chains for sales and purchase docs.',
+  'pages.system.onboardingWizard.implementer.sub.imp_workflow.desc':
+    'Multi-level approval chains for sales and purchase docs.',
   'pages.system.onboardingWizard.implementer.sub.imp_msg.name': 'Messages & channels',
-  'pages.system.onboardingWizard.implementer.sub.imp_msg.desc': 'Message templates and notification channel setup.',
+  'pages.system.onboardingWizard.implementer.sub.imp_msg.desc':
+    'Message templates and notification channel setup.',
   'pages.system.onboardingWizard.implementer.sub.imp_print.name': 'Print & devices',
-  'pages.system.onboardingWizard.implementer.sub.imp_print.desc': 'Delivery note templates and shop-floor printer links.',
+  'pages.system.onboardingWizard.implementer.sub.imp_print.desc':
+    'Delivery note templates and shop-floor printer links.',
   'pages.system.onboardingWizard.implementer.sub.imp_file.name': 'File management',
-  'pages.system.onboardingWizard.implementer.sub.imp_file.desc': 'Central management of drawings, SOPs, and unstructured files.',
+  'pages.system.onboardingWizard.implementer.sub.imp_file.desc':
+    'Central management of drawings, SOPs, and unstructured files.',
   'pages.system.onboardingWizard.implementer.sub.imp_api.name': 'APIs & data sources',
-  'pages.system.onboardingWizard.implementer.sub.imp_api.desc': 'External API registration and database connections.',
+  'pages.system.onboardingWizard.implementer.sub.imp_api.desc':
+    'External API registration and database connections.',
   'pages.system.onboardingWizard.implementer.sub.imp_connector.name': 'App connectors',
-  'pages.system.onboardingWizard.implementer.sub.imp_connector.desc': 'Standard connectors for third-party SaaS data.',
+  'pages.system.onboardingWizard.implementer.sub.imp_connector.desc':
+    'Standard connectors for third-party SaaS data.',
   'pages.system.onboardingWizard.implementer.sub.imp_dataset.name': 'Datasets',
-  'pages.system.onboardingWizard.implementer.sub.imp_dataset.desc': 'Dataset logic for BI dashboards and reports.',
+  'pages.system.onboardingWizard.implementer.sub.imp_dataset.desc':
+    'Dataset logic for BI dashboards and reports.',
   'pages.system.onboardingWizard.implementer.sub.imp_audit.name': 'Operation logs',
-  'pages.system.onboardingWizard.implementer.sub.imp_audit.desc': 'Query operation trails for security audit (not a posting prerequisite).',
+  'pages.system.onboardingWizard.implementer.sub.imp_audit.desc':
+    'Query operation trails for security audit (not a posting prerequisite).',
   'pages.system.onboardingWizard.implementer.sub.imp_login.name': 'Login logs',
-  'pages.system.onboardingWizard.implementer.sub.imp_login.desc': 'Monitor access records and detect abnormal logins.',
+  'pages.system.onboardingWizard.implementer.sub.imp_login.desc':
+    'Monitor access records and detect abnormal logins.',
   'pages.system.onboardingWizard.implementer.sub.imp_online.name': 'Online users',
-  'pages.system.onboardingWizard.implementer.sub.imp_online.desc': 'Track active users in real time for login security.',
+  'pages.system.onboardingWizard.implementer.sub.imp_online.desc':
+    'Track active users in real time for login security.',
   'pages.system.onboardingWizard.implementer.sub.imp_backup.name': 'Data backup',
-  'pages.system.onboardingWizard.implementer.sub.imp_backup.desc': 'Scheduled backup and recovery; usually not required for daily operations.',
+  'pages.system.onboardingWizard.implementer.sub.imp_backup.desc':
+    'Scheduled backup and recovery; usually not required for daily operations.',
   'pages.system.onboardingWizard.implementer.sub.imp_app_center.name': 'App Center',
-  'pages.system.onboardingWizard.implementer.sub.imp_app_center.desc': 'Install, upgrade, and version app modules.',
+  'pages.system.onboardingWizard.implementer.sub.imp_app_center.desc':
+    'Install, upgrade, and version app modules.',
   'pages.system.onboardingWizard.implementer.sub.imp_personal.name': 'Personal profile',
-  'pages.system.onboardingWizard.implementer.sub.imp_personal.desc': 'Profile, language/theme preferences, and task center.',
+  'pages.system.onboardingWizard.implementer.sub.imp_personal.desc':
+    'Profile, language/theme preferences, and task center.',
 
   // Equipment trace
   'pages.system.equipmentTrace.uuidRequired': 'Equipment UUID is required',
@@ -18732,9 +20613,11 @@ export default {
   'pages.system.printTemplatesDesign.headerFormat': 'Header format',
   'pages.system.printTemplatesDesign.footerFormat': 'Footer format',
   'pages.system.printTemplatesDesign.customPlaceholder': 'Custom content or variables',
-  'pages.system.printTemplatesDesign.headerFooterHint': 'Supports {currentPage}, {totalPages}, {dateTime}, etc.',
+  'pages.system.printTemplatesDesign.headerFooterHint':
+    'Supports {currentPage}, {totalPages}, {dateTime}, etc.',
   'pages.system.printTemplatesDesign.uploadPdf': 'Upload PDF',
-  'pages.system.printTemplatesDesign.uploadPdfExtra': 'Use existing PDF as background. Select "Blank page" to clear.',
+  'pages.system.printTemplatesDesign.uploadPdfExtra':
+    'Use existing PDF as background. Select "Blank page" to clear.',
   'pages.system.printTemplatesDesign.selectPdfFile': 'Select PDF file',
   'pages.system.printTemplatesDesign.replacePdfFile': 'Replace PDF file',
   'pages.system.printTemplatesDesign.previewTitle': 'Template Preview',
@@ -18796,7 +20679,8 @@ export default {
   'pages.system.printTemplatesDesign.lineColumnsVisibilityOrderSection': 'Visible columns & order',
   'pages.system.printTemplatesDesign.lineColumnsVisibilityOrderHint':
     'Checked columns appear in the print table; Up/Down sets left-to-right order. Keep at least one column.',
-  'pages.system.printTemplatesDesign.lineColumnsCheckboxShowColumn': 'Show this column in the print table',
+  'pages.system.printTemplatesDesign.lineColumnsCheckboxShowColumn':
+    'Show this column in the print table',
   'pages.system.printTemplatesDesign.lineColumnsApply': 'Apply to canvas',
   'pages.system.printTemplatesDesign.lineColumnsMoveUp': 'Up',
   'pages.system.printTemplatesDesign.lineColumnsMoveDown': 'Down',
@@ -18828,7 +20712,8 @@ export default {
   'pages.system.printTemplatesDesign.weightMedium': 'Medium',
   'pages.system.printTemplatesDesign.weightSemiBold': 'Semi-bold',
   'pages.system.printTemplatesDesign.weightBold': 'Bold',
-  'pages.system.printTemplatesDesign.cleanupLegacyDetailTextsConfirmTitle': 'Remove scattered line fields',
+  'pages.system.printTemplatesDesign.cleanupLegacyDetailTextsConfirmTitle':
+    'Remove scattered line fields',
   'pages.system.printTemplatesDesign.cleanupLegacyDetailTextsConfirmDesc':
     'This removes all items.0.* / operations.0.* text schemas ({{count}}). Full tables are kept. Re-insert the detail table from the right panel if needed.',
   'pages.system.printTemplatesDesign.styleSettings': 'Style Settings',
@@ -18907,10 +20792,12 @@ export default {
   'pages.system.printTemplatesDesign.paperOrientation': 'Orientation',
   'pages.system.printTemplatesDesign.itemSpacingLabel': 'Item Spacing (mm)',
   'pages.system.printTemplatesDesign.itemSpacingPlaceholder': 'e.g., 2',
-  'pages.system.printTemplatesDesign.itemSpacingHint': 'Adds spacing below each component automatically.',
+  'pages.system.printTemplatesDesign.itemSpacingHint':
+    'Adds spacing below each component automatically.',
   'pages.system.printTemplatesDesign.tableRowLimitLabel': 'Table Row Limit',
   'pages.system.printTemplatesDesign.tableRowLimitPlaceholder': 'e.g., 10',
-  'pages.system.printTemplatesDesign.tableRowLimitHint': 'Fixed rows. Shows empty rows if data is less. 0 for auto.',
+  'pages.system.printTemplatesDesign.tableRowLimitHint':
+    'Fixed rows. Shows empty rows if data is less. 0 for auto.',
   'pages.system.printTemplatesDesign.paperMargins': 'Paper Margins (mm)',
   'pages.system.printTemplatesDesign.modeDesign': 'Design',
   'pages.system.printTemplatesDesign.modePreview': 'Preview',
@@ -18948,9 +20835,12 @@ export default {
   'pages.system.printTemplatesDesign.insertAsQRTitle': 'Insert as QR: {{key}}',
   'pages.system.printTemplatesDesign.compMoveSuccess': 'Component moved successfully',
   'pages.system.printTemplatesDesign.movedToEnd': 'Moved to the end of document',
-  'pages.system.printTemplatesDesign.compNotSupported': 'Current block does not support inline variables, added a field block instead.',
-  'pages.system.printTemplatesDesign.saveSuccessWithWarnings': 'Template saved with {{count}} compilation warnings.',
-  'pages.system.printTemplatesDesign.compilePreviewUpdated': 'Uni-Print compilation preview updated',
+  'pages.system.printTemplatesDesign.compNotSupported':
+    'Current block does not support inline variables, added a field block instead.',
+  'pages.system.printTemplatesDesign.saveSuccessWithWarnings':
+    'Template saved with {{count}} compilation warnings.',
+  'pages.system.printTemplatesDesign.compilePreviewUpdated':
+    'Uni-Print compilation preview updated',
   'pages.system.printTemplatesDesign.compilePreviewFailed': 'Compilation preview failed',
   'pages.system.printTemplatesDesign.sampleDataError': 'Sample data JSON format error',
   'pages.system.printTemplatesDesign.previewGenerated': 'Preview result generated',
@@ -18970,15 +20860,18 @@ export default {
   'pages.system.printTemplatesDesign.compIndustrialId': 'Industrial IDs',
   'pages.system.printTemplatesDesign.spacing': 'Spacing',
   'pages.system.printTemplatesDesign.border': 'Border',
-  'pages.system.printTemplatesDesign.compDetailTableHint': 'Detail table component: used to render dynamic list data.',
+  'pages.system.printTemplatesDesign.compDetailTableHint':
+    'Detail table component: used to render dynamic list data.',
   'pages.system.printTemplatesDesign.sampleCustomer1': 'Shenzhen Mfg Client',
   'pages.system.printTemplatesDesign.sampleNotes1': '7-day delivery, incl. tax & shipping.',
   'pages.system.printTemplatesDesign.sampleMaterial1': 'Aluminum Shell',
   'pages.system.printTemplatesDesign.sampleUnit1': 'pcs',
   'pages.system.printTemplatesDesign.sampleCustomer2': 'South China Electronic Group Co., Ltd.',
-  'pages.system.printTemplatesDesign.sampleNotes2': 'Used to test long table pagination, header repetition, and total alignment.',
+  'pages.system.printTemplatesDesign.sampleNotes2':
+    'Used to test long table pagination, header repetition, and total alignment.',
   'pages.system.printTemplatesDesign.sampleCustomer3': 'East China Automation Equipment Co., Ltd.',
-  'pages.system.printTemplatesDesign.sampleNotes3': 'Note 1: Incl. 13% VAT.\nNote 2: 30-day payment terms.\nNote 3: Mold fee to be confirmed separately.\nNote 4: Valid for 15 days.',
+  'pages.system.printTemplatesDesign.sampleNotes3':
+    'Note 1: Incl. 13% VAT.\nNote 2: 30-day payment terms.\nNote 3: Mold fee to be confirmed separately.\nNote 4: Valid for 15 days.',
   'pages.system.printTemplatesDesign.sampleMaterial2': 'Control Panel Assembly',
   'pages.system.printTemplatesDesign.sampleUnit2': 'set',
   'pages.system.printTemplatesDesign.sampleMaterial3': 'Bracket Component',
@@ -18987,7 +20880,8 @@ export default {
   'pages.system.printTemplatesDesign.sampleSupplier1': 'Suzhou Metal Materials Co., Ltd.',
   'pages.system.printTemplatesDesign.sampleNotes5': 'Attach material certificate and QA report.',
   'pages.system.printTemplatesDesign.sampleName1': 'Sample Document',
-  'pages.system.printTemplatesDesign.sampleNotes6': 'Adjust sample JSON per actual document fields.',
+  'pages.system.printTemplatesDesign.sampleNotes6':
+    'Adjust sample JSON per actual document fields.',
   'pages.system.printTemplatesDesign.sampleMaterial4': 'High Precision Part',
   'pages.system.printTemplatesDesign.sampleSpec': 'Spec',
   'pages.system.printTemplatesDesign.sampleUnit3': 'sheet',
@@ -19024,7 +20918,8 @@ export default {
   'pages.system.printTemplatesDesign.compIndentLabel': 'Industrial IDs',
   'pages.system.printTemplatesDesign.exportPortable': 'Export design',
   'pages.system.printTemplatesDesign.importPortable': 'Import design',
-  'pages.system.printTemplatesDesign.exportPortableSuccess': 'Design file exported (no tenant or UUID)',
+  'pages.system.printTemplatesDesign.exportPortableSuccess':
+    'Design file exported (no tenant or UUID)',
   'pages.system.printTemplatesDesign.exportPortableFailed': 'Export failed',
   'pages.system.printTemplatesDesign.importPortableSuccess': 'Design loaded; click Save to persist',
   'pages.system.printTemplatesDesign.importPortableParseFailed': 'Invalid JSON',
@@ -19043,7 +20938,8 @@ export default {
   'pages.system.printTemplates.selectToDelete': 'Please select print templates to delete',
   'pages.system.printTemplates.batchDeleteSuccess': 'Batch delete succeeded',
   'pages.system.printTemplates.batchDeleteFailed': 'Batch delete failed',
-  'pages.system.printTemplates.workOrderTemplateCreated': 'Work order template created. You can adjust it in the designer.',
+  'pages.system.printTemplates.workOrderTemplateCreated':
+    'Work order template created. You can adjust it in the designer.',
   'pages.system.printTemplates.createWorkOrderFailed': 'Failed to create work order template',
   'pages.system.printTemplates.updateSuccess': 'Updated',
   'pages.system.printTemplates.createSuccess': 'Created',
@@ -19112,20 +21008,25 @@ export default {
   'pages.system.printTemplates.selectPresetType': 'Select document type to load',
   'pages.system.printTemplates.selectPresetTypePlaceholder': 'Select a common document type',
   'pages.system.printTemplates.presetTemplateNameSuffix': ' print template',
-  'pages.system.printTemplates.presetTemplateDescription': 'Preset {{name}} print template; you can adjust it in the designer.',
-  'pages.system.printTemplates.presetCreated': 'Preset template created; you can adjust it in the designer.',
+  'pages.system.printTemplates.presetTemplateDescription':
+    'Preset {{name}} print template; you can adjust it in the designer.',
+  'pages.system.printTemplates.presetCreated':
+    'Preset template created; you can adjust it in the designer.',
   'pages.system.printTemplates.presetAllLoaded': 'Loaded {{count}} preset templates',
-  'pages.system.printTemplates.presetPartiallyLoaded': '{{success}} succeeded, {{failed}} skipped or failed',
+  'pages.system.printTemplates.presetPartiallyLoaded':
+    '{{success}} succeeded, {{failed}} skipped or failed',
   'pages.system.printTemplates.modalEdit': 'Edit print template',
   'pages.system.printTemplates.modalCreate': 'New print template',
   'pages.system.printTemplates.labelName': 'Name',
   'pages.system.printTemplates.nameRequired': 'Please enter template name',
   'pages.system.printTemplates.labelDocumentType': 'Document type',
   'pages.system.printTemplates.documentTypeRequired': 'Please select document type',
-  'pages.system.printTemplates.documentTypeTooltip': 'Code is auto-generated; designer will show available variables',
+  'pages.system.printTemplates.documentTypeTooltip':
+    'Code is auto-generated; designer will show available variables',
   'pages.system.printTemplates.labelCode': 'Code',
   'pages.system.printTemplates.codeRequired': 'Please select document type first',
-  'pages.system.printTemplates.codeTooltip': 'Auto-generated from document type with an appended serial suffix (for example QUOTATION_PRINT_001); cannot be changed after creation',
+  'pages.system.printTemplates.codeTooltip':
+    'Auto-generated from document type with an appended serial suffix (for example QUOTATION_PRINT_001); cannot be changed after creation',
   'pages.system.printTemplates.labelOutputFormat': 'Output format',
   'pages.system.printTemplates.outputFormatRequired': 'Please select output format',
   'pages.system.printTemplates.labelDescription': 'Description',
@@ -19139,7 +21040,8 @@ export default {
   'pages.system.printTemplates.templateDataPlaceholder': '{"title": "Title", "content": "Content"}',
   'pages.system.printTemplates.templateDataTooltip': 'JSON data to replace template variables',
   'pages.system.printTemplates.labelAsync': 'Async execution (Taskiq)',
-  'pages.system.printTemplates.asyncTooltip': 'If enabled, rendering runs asynchronously as a Taskiq background job',
+  'pages.system.printTemplates.asyncTooltip':
+    'If enabled, rendering runs asynchronously as a Taskiq background job',
   'pages.system.printTemplates.resultTitle': 'Result:',
   'pages.system.printTemplates.resultSuccess': '✓ Success',
   'pages.system.printTemplates.resultFailed': '✗ Failed',
@@ -19149,23 +21051,28 @@ export default {
   'pages.system.printTemplates.columnConfig': 'Config',
   'pages.system.printTemplates.columnUpdatedAt': 'Updated at',
   'pages.system.printTemplates.workOrderTemplateName': 'Work order print template (with QR code)',
-  'pages.system.printTemplates.workOrderTemplateDescription': 'Pdfme-based work order print template with QR code, basic info and process list.',
+  'pages.system.printTemplates.workOrderTemplateDescription':
+    'Pdfme-based work order print template with QR code, basic info and process list.',
   'pages.system.printTemplates.cardViewTitle': 'Uni-Print Templates',
   'pages.system.printTemplates.cardViewEmpty': 'No print templates',
   'pages.system.printTemplates.createFailed': 'Failed to create template',
   'pages.system.printTemplates.templateDataFormatError': 'Template data format error',
   'pages.system.printTemplates.jsonFormatError': 'JSON Format Error',
-  'pages.system.printTemplates.oldFormatMessage': 'This template is in legacy format. Please view or redesign in the designer.',
+  'pages.system.printTemplates.oldFormatMessage':
+    'This template is in legacy format. Please view or redesign in the designer.',
   'pages.system.printTemplates.previewAlertTitle': 'Preview Note',
-  'pages.system.printTemplates.previewAlertDesc': 'The content below shows the template with variables replaced by sample values. Actual values are provided at runtime.',
+  'pages.system.printTemplates.previewAlertDesc':
+    'The content below shows the template with variables replaced by sample values. Actual values are provided at runtime.',
   'pages.system.printTemplates.rawContentLabel': 'Raw template content:',
   'pages.system.printTemplates.variablesAlertTitle': 'Template Variables',
-  'pages.system.printTemplates.variablesAlertDesc': 'Variables extracted from the template. Use {{variable_name}} format.',
+  'pages.system.printTemplates.variablesAlertDesc':
+    'Variables extracted from the template. Use {{variable_name}} format.',
   'pages.system.printTemplates.noVariables': 'No variables in template',
   'pages.system.printTemplates.variableNameLabel': 'Variable:',
   'pages.system.printTemplates.templateContentLabel': 'Template content:',
   'pages.system.printTemplates.templateVariablesLabel': 'Template variables:',
-  'pages.system.printTemplates.renderAlertDesc': 'Provide template data (JSON format). The system will replace variables and generate output.',
+  'pages.system.printTemplates.renderAlertDesc':
+    'Provide template data (JSON format). The system will replace variables and generate output.',
   'pages.system.printTemplates.noVariablesShort': 'No variables',
   'pages.system.printTemplates.templateRenderedSuccess': 'Template rendered successfully',
   'pages.system.printTemplates.downloadFile': 'Download file',
@@ -19206,7 +21113,8 @@ export default {
   'pages.system.printDevices.statusOffline': 'Offline',
   'pages.system.printDevices.viewDetail': 'View detail',
   'pages.system.printDevices.testConnection': 'Test connection',
-  'pages.system.printDevices.deleteConfirmTitle': 'Are you sure you want to delete this print device?',
+  'pages.system.printDevices.deleteConfirmTitle':
+    'Are you sure you want to delete this print device?',
   'pages.system.printDevices.deleteTooltip': 'Delete',
   'pages.system.printDevices.codePrefix': 'Code: ',
   'pages.system.printDevices.onlineStatusLabel': 'Online status: ',
@@ -19239,15 +21147,19 @@ export default {
   'pages.system.printDevices.nameRequired': 'Please enter device name',
   'pages.system.printDevices.labelCode': 'Device code',
   'pages.system.printDevices.codeRequired': 'Please enter device code',
-  'pages.system.printDevices.codePattern': 'Device code may only contain letters, numbers and underscores, and must start with a letter',
-  'pages.system.printDevices.codeTooltip': 'Device code is used for program identification and cannot be changed after creation',
+  'pages.system.printDevices.codePattern':
+    'Device code may only contain letters, numbers and underscores, and must start with a letter',
+  'pages.system.printDevices.codeTooltip':
+    'Device code is used for program identification and cannot be changed after creation',
   'pages.system.printDevices.labelType': 'Device type',
   'pages.system.printDevices.typeRequired': 'Please select device type',
   'pages.system.printDevices.labelDescription': 'Description',
   'pages.system.printDevices.labelConfig': 'Device config (JSON)',
   'pages.system.printDevices.configRequired': 'Please enter device config',
-  'pages.system.printDevices.configTooltip': 'Device config in JSON format; structure varies by device type',
-  'pages.system.printDevices.configPlaceholder': '{"host": "192.168.1.100", "port": 9100, "protocol": "raw"}',
+  'pages.system.printDevices.configTooltip':
+    'Device config in JSON format; structure varies by device type',
+  'pages.system.printDevices.configPlaceholder':
+    '{"host": "192.168.1.100", "port": 9100, "protocol": "raw"}',
   'pages.system.printDevices.configHost': 'Host / Address',
   'pages.system.printDevices.configHostPlaceholder': 'e.g. 192.168.1.100',
   'pages.system.printDevices.configPort': 'Port',
@@ -19263,9 +21175,11 @@ export default {
   'pages.system.printDevices.labelPrintData': 'Print data (JSON)',
   'pages.system.printDevices.printDataRequired': 'Please enter print data',
   'pages.system.printDevices.printDataPlaceholder': '{"title": "Title", "content": "Content"}',
-  'pages.system.printDevices.printDataTooltip': 'Print data in JSON format, used to replace template variables',
+  'pages.system.printDevices.printDataTooltip':
+    'Print data in JSON format, used to replace template variables',
   'pages.system.printDevices.labelAsync': 'Async execution (Taskiq)',
-  'pages.system.printDevices.asyncTooltip': 'If enabled, the print job runs asynchronously as a Taskiq background job',
+  'pages.system.printDevices.asyncTooltip':
+    'If enabled, the print job runs asynchronously as a Taskiq background job',
   'pages.system.printDevices.printResultTitle': 'Print result:',
   'pages.system.printDevices.printSuccess': 'Print task submitted',
   'pages.system.printDevices.detailTitle': 'Print device detail',
@@ -19346,7 +21260,8 @@ export default {
   'pages.system.workingHoursConfigs.endDatePlaceholder': 'Select end date (optional)',
   'pages.system.workingHoursConfigs.labelEnabled': 'Enabled',
   'pages.system.workingHoursConfigs.labelPriority': 'Priority',
-  'pages.system.workingHoursConfigs.priorityPlaceholder': 'Enter priority (higher number = higher priority)',
+  'pages.system.workingHoursConfigs.priorityPlaceholder':
+    'Enter priority (higher number = higher priority)',
   'pages.system.workingHoursConfigs.labelRemarks': 'Remarks',
   'pages.system.workingHoursConfigs.remarksPlaceholder': 'Enter remarks',
   'pages.system.workingHoursConfigs.detailTitle': 'Config detail',
@@ -19358,10 +21273,13 @@ export default {
   'pages.system.apis.deleteSuccess': 'Deleted successfully',
   'pages.system.apis.deleteFailed': 'Delete failed',
   'pages.system.apis.selectToDelete': 'Please select API(s) to delete',
-  'pages.system.apis.batchDeleteConfirm': 'Are you sure you want to delete {{count}} selected API(s)?',
+  'pages.system.apis.batchDeleteConfirm':
+    'Are you sure you want to delete {{count}} selected API(s)?',
   'pages.system.apis.batchDeleteTitle': 'Are you sure you want to batch delete the selected APIs?',
-  'pages.system.apis.batchDeleteDescription': '{{count}} API(s) will be deleted. This action cannot be undone. Please proceed with caution.',
-  'pages.system.apis.batchDeleteDone': 'Delete complete: {{done}} succeeded, {{fail}} failed (system APIs cannot be deleted)',
+  'pages.system.apis.batchDeleteDescription':
+    '{{count}} API(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.apis.batchDeleteDone':
+    'Delete complete: {{done}} succeeded, {{fail}} failed (system APIs cannot be deleted)',
   'pages.system.apis.batchDeleteSuccessCount': '{{count}} API(s) deleted',
   'pages.system.apis.batchDeleteFailed': 'Batch delete failed',
   'pages.system.apis.openTestFailed': 'Failed to open test panel',
@@ -19402,11 +21320,13 @@ export default {
   'pages.system.apis.namePlaceholder': 'Enter API name',
   'pages.system.apis.labelCode': 'API code',
   'pages.system.apis.codeRequired': 'Please enter API code',
-  'pages.system.apis.codePattern': 'API code may only contain lowercase letters, numbers and underscores',
+  'pages.system.apis.codePattern':
+    'API code may only contain lowercase letters, numbers and underscores',
   'pages.system.apis.codePlaceholder': 'Enter API code (unique id, e.g. get_user_info)',
   'pages.system.apis.labelPath': 'Path',
   'pages.system.apis.pathRequired': 'Please enter path',
-  'pages.system.apis.pathPlaceholder': 'Enter path (e.g. /api/v1/users or https://api.example.com/users)',
+  'pages.system.apis.pathPlaceholder':
+    'Enter path (e.g. /api/v1/users or https://api.example.com/users)',
   'pages.system.apis.labelMethod': 'Method',
   'pages.system.apis.methodRequired': 'Please select method',
   'pages.system.apis.labelRequestHeaders': 'Request headers',
@@ -19453,7 +21373,8 @@ export default {
   'pages.system.apis.testDrawerTitle': 'API test',
   'pages.system.apis.executeTest': 'Execute test',
   'pages.system.apis.testRequestLabel': 'Test request (JSON)',
-  'pages.system.apis.testRequestPlaceholder': 'Enter test request (JSON), e.g. {"headers": {"Authorization": "Bearer token"}, "params": {"page": 1}, "body": {"name": "test"}}',
+  'pages.system.apis.testRequestPlaceholder':
+    'Enter test request (JSON), e.g. {"headers": {"Authorization": "Bearer token"}, "params": {"page": 1}, "body": {"name": "test"}}',
   'pages.system.apis.testResultLabel': 'Test result',
   'pages.system.apis.statusCodeLabel': 'Status code: ',
   'pages.system.apis.elapsedLabel': 'Elapsed: ',
@@ -19470,10 +21391,14 @@ export default {
   'pages.system.dataSources.deleteSuccess': 'Deleted successfully',
   'pages.system.dataSources.deleteFailed': 'Delete failed',
   'pages.system.dataSources.selectToDelete': 'Please select data source(s) to delete',
-  'pages.system.dataSources.batchDeleteConfirm': 'Are you sure you want to delete {{count}} selected data source(s)?',
-  'pages.system.dataSources.batchDeleteTitle': 'Are you sure you want to batch delete the selected data sources?',
-  'pages.system.dataSources.batchDeleteDescription': '{{count}} data source(s) will be deleted. This action cannot be undone. Please proceed with caution.',
-  'pages.system.dataSources.batchDeleteDone': 'Delete complete: {{done}} succeeded, {{fail}} failed',
+  'pages.system.dataSources.batchDeleteConfirm':
+    'Are you sure you want to delete {{count}} selected data source(s)?',
+  'pages.system.dataSources.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected data sources?',
+  'pages.system.dataSources.batchDeleteDescription':
+    '{{count}} data source(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.dataSources.batchDeleteDone':
+    'Delete complete: {{done}} succeeded, {{fail}} failed',
   'pages.system.dataSources.batchDeleteSuccessCount': '{{count}} data source(s) deleted',
   'pages.system.dataSources.batchDeleteFailed': 'Batch delete failed',
   'pages.system.dataSources.testSuccess': 'Connection test succeeded',
@@ -19494,7 +21419,8 @@ export default {
   'pages.system.dataSources.editDataSource': 'Edit data source',
   'pages.system.dataSources.testConnection': 'Test connection',
   'pages.system.dataSources.deleteTooltip': 'Delete',
-  'pages.system.dataSources.deleteConfirmTitle': 'Are you sure you want to delete this data source?',
+  'pages.system.dataSources.deleteConfirmTitle':
+    'Are you sure you want to delete this data source?',
   'pages.system.dataSources.codePrefix': 'Code: ',
   'pages.system.dataSources.connectionStatusLabel': 'Connection status: ',
   'pages.system.dataSources.statusLabel': 'Status: ',
@@ -19532,7 +21458,8 @@ export default {
   'pages.system.dataSources.namePlaceholder': 'Enter data source name',
   'pages.system.dataSources.labelCode': 'Data source code',
   'pages.system.dataSources.codeRequired': 'Please enter data source code',
-  'pages.system.dataSources.codePattern': 'Data source code may only contain lowercase letters, numbers and underscores',
+  'pages.system.dataSources.codePattern':
+    'Data source code may only contain lowercase letters, numbers and underscores',
   'pages.system.dataSources.codePlaceholder': 'Enter code (e.g. main_db)',
   'pages.system.dataSources.labelType': 'Data source type',
   'pages.system.dataSources.typeRequired': 'Please select data source type',
@@ -19540,19 +21467,24 @@ export default {
   'pages.system.dataSources.hostRequired': 'Please enter host',
   'pages.system.dataSources.hostPlaceholder': 'localhost or hostname',
   'pages.system.dataSources.labelPort': 'Port',
-  'pages.system.dataSources.sqlserverHostPlaceholder': 'Same as Navicat: host,port (e.g. example.com,30198). Host only defaults to TCP 1433.',
+  'pages.system.dataSources.sqlserverHostPlaceholder':
+    'Same as Navicat: host,port (e.g. example.com,30198). Host only defaults to TCP 1433.',
   'pages.system.dataSources.labelSqlServerEncryption': 'Encryption',
-  'pages.system.dataSources.sqlserverEncryptionTooltip': 'Maps to pymssql encryption. Try Off for legacy SQL Server or odd NAT setups.',
-  'pages.system.dataSources.sqlserverEncryptionDefault': 'Unspecified (server tries multiple strategies)',
+  'pages.system.dataSources.sqlserverEncryptionTooltip':
+    'Maps to pymssql encryption. Try Off for legacy SQL Server or odd NAT setups.',
+  'pages.system.dataSources.sqlserverEncryptionDefault':
+    'Unspecified (server tries multiple strategies)',
   'pages.system.dataSources.sqlserverEncryptionOff': 'Off',
   'pages.system.dataSources.sqlserverEncryptionRequest': 'Request',
   'pages.system.dataSources.sqlserverEncryptionRequire': 'Require (TLS)',
   'pages.system.dataSources.sqlserverEncryptionDriverDefault': 'Driver default',
   'pages.system.dataSources.labelSqlServerTdsVersion': 'TDS version',
-  'pages.system.dataSources.sqlserverTdsVersionTooltip': 'Leave empty unless you need to override (e.g. 7.2 for SQL Server 2008 R2).',
+  'pages.system.dataSources.sqlserverTdsVersionTooltip':
+    'Leave empty unless you need to override (e.g. 7.2 for SQL Server 2008 R2).',
   'pages.system.dataSources.sqlserverTdsDefault': 'Empty (backend default 7.2)',
   'pages.system.dataSources.labelSqlServerLoginTimeout': 'Login timeout (s)',
-  'pages.system.dataSources.sqlserverLoginTimeoutTooltip': 'Timeout for connect/login, default 15 seconds.',
+  'pages.system.dataSources.sqlserverLoginTimeoutTooltip':
+    'Timeout for connect/login, default 15 seconds.',
   'pages.system.dataSources.portRequired': 'Please enter port',
   'pages.system.dataSources.labelDatabase': 'Database',
   'pages.system.dataSources.databaseRequired': 'Please enter database name',
@@ -19576,7 +21508,8 @@ export default {
   'pages.system.dataSources.labelToken': 'Token',
   'pages.system.dataSources.labelBasicUser': 'User',
   'pages.system.dataSources.labelBasicPass': 'Password',
-  'pages.system.dataSources.typeFormNotSupported': 'No form for type {{type}} yet. Please contact admin.',
+  'pages.system.dataSources.typeFormNotSupported':
+    'No form for type {{type}} yet. Please contact admin.',
   'pages.system.dataSources.labelDescription': 'Description',
   'pages.system.dataSources.descriptionPlaceholder': 'Optional',
   'pages.system.dataSources.labelActive': 'Active',
@@ -19637,7 +21570,8 @@ export default {
   'pages.system.dataSources.connectors.starrocks.name': 'StarRocks',
   'pages.system.dataSources.connectors.starrocks.desc': 'Next-gen real-time analytical database',
   'pages.system.dataSources.connectors.elasticsearch.name': 'Elasticsearch',
-  'pages.system.dataSources.connectors.elasticsearch.desc': 'Distributed search and analytics engine',
+  'pages.system.dataSources.connectors.elasticsearch.desc':
+    'Distributed search and analytics engine',
   'pages.system.dataSources.connectors.api.name': 'REST API',
   'pages.system.dataSources.connectors.api.desc': 'General purpose REST API',
   'pages.system.dataSources.connectors.oauth.name': 'OAuth 2.0',
@@ -19655,9 +21589,12 @@ export default {
   'pages.system.messageConfig.createSuccess': 'Created',
   'pages.system.messageConfig.operationFailed': 'Operation failed',
   'pages.system.messageConfig.batchDeleteConfirmTitle': 'Confirm batch delete',
-  'pages.system.messageConfig.batchDeleteConfirmContent': 'Delete {{count}} selected record(s)? This cannot be undone.',
-  'pages.system.messageConfig.batchDeleteTitle': 'Are you sure you want to batch delete the selected records?',
-  'pages.system.messageConfig.batchDeleteDescription': '{{count}} record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.messageConfig.batchDeleteConfirmContent':
+    'Delete {{count}} selected record(s)? This cannot be undone.',
+  'pages.system.messageConfig.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected records?',
+  'pages.system.messageConfig.batchDeleteDescription':
+    '{{count}} record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'pages.system.messageConfig.batchDeleteSuccessCount': 'Deleted {{count}} record(s)',
   'pages.system.messageConfig.batchDeleteFailCount': 'Failed to delete {{count}} record(s)',
   'pages.system.messageConfig.batchDeleteFailed': 'Batch delete failed',
@@ -19760,7 +21697,8 @@ export default {
   'pages.system.messageTemplate.codePlaceholder': 'e.g. MATERIAL_CHANGE_NOTIFY',
   'pages.system.messageTemplate.namePlaceholder': 'e.g. Material change notification',
   'pages.system.messageTemplate.subjectPlaceholder': 'Subject for email or push',
-  'pages.system.messageTemplate.contentPlaceholder': 'Supports variables e.g. Hello {name}, code: {code}',
+  'pages.system.messageTemplate.contentPlaceholder':
+    'Supports variables e.g. Hello {name}, code: {code}',
   'pages.system.messageTemplate.variableDeclaration': 'Variables',
   'pages.system.messageTemplate.varKeyPlaceholder': 'Variable name (e.g. name)',
   'pages.system.messageTemplate.varLabelPlaceholder': 'Description (e.g. User name)',
@@ -19780,8 +21718,10 @@ export default {
   'pages.system.menus.deleteChildFirst': 'Delete child menus first',
   'pages.system.menus.appMenuSuffix': 'App menu',
   'pages.system.menus.batchDeleteConfirm': 'Confirm batch delete',
-  'pages.system.menus.batchDeleteTitle': 'Are you sure you want to batch delete the selected menus?',
-  'pages.system.menus.batchDeleteDescription': '{{count}} menu(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'pages.system.menus.batchDeleteTitle':
+    'Are you sure you want to batch delete the selected menus?',
+  'pages.system.menus.batchDeleteDescription':
+    '{{count}} menu(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'pages.system.menus.batchDeleteSuccess': 'Batch delete succeeded',
   'pages.system.menus.batchDeleteFailed': 'Batch delete failed',
   'pages.system.menus.getDetailFailed': 'Failed to load menu detail',
@@ -19795,7 +21735,8 @@ export default {
   'pages.system.menus.source': 'Source',
   'pages.system.menus.deleteConfirm': 'Delete?',
   'pages.system.menus.cannotDeleteMenus': 'The following menus cannot be deleted: {{names}}',
-  'pages.system.menus.batchDeleteCountConfirm': 'Are you sure you want to delete {{count}} selected menu(s)?',
+  'pages.system.menus.batchDeleteCountConfirm':
+    'Are you sure you want to delete {{count}} selected menu(s)?',
   'pages.system.menus.externalYes': 'Yes',
   'pages.system.menus.externalNo': 'No',
   'pages.system.menus.view': 'View',
@@ -19826,11 +21767,16 @@ export default {
   'pages.system.menus.editMenu': 'Edit menu',
   'pages.system.menus.menuNamePlaceholder': 'Enter menu name',
   'pages.system.menus.menuNameRequired': 'Please enter menu name',
-  'pages.system.menus.parentAppMenuForbidden': 'Cannot add a child under an app menu. Choose a system menu as parent.',
-  'pages.system.menus.externalUrlRequired': 'External link URL is required when external link is enabled',
-  'pages.system.menus.permissionCodeRequired': 'Permission code is required for non-external menus with a path',
-  'pages.system.menus.relatedAppInheritedHint': 'Inherited from the selected parent menu; empty for system parents',
-  'pages.system.menus.sortOrderAppMenuHint': 'For custom items under an app menu not declared in manifest, use this order (after manifest items)',
+  'pages.system.menus.parentAppMenuForbidden':
+    'Cannot add a child under an app menu. Choose a system menu as parent.',
+  'pages.system.menus.externalUrlRequired':
+    'External link URL is required when external link is enabled',
+  'pages.system.menus.permissionCodeRequired':
+    'Permission code is required for non-external menus with a path',
+  'pages.system.menus.relatedAppInheritedHint':
+    'Inherited from the selected parent menu; empty for system parents',
+  'pages.system.menus.sortOrderAppMenuHint':
+    'For custom items under an app menu not declared in manifest, use this order (after manifest items)',
   'pages.system.menus.pathPlaceholder': '/system/example',
   'pages.system.menus.iconPickerPlaceholder': 'Click to select icon',
   'pages.system.menus.iconSearchPlaceholder': 'Search icon name',
@@ -19861,14 +21807,18 @@ export default {
   'pages.system.menus.customLayoutAddApp': 'Add APP',
   'pages.system.menus.customLayoutAddGroup': 'Add group',
   'pages.system.menus.customLayoutAddSubGroup': 'Add sub-group',
-  'pages.system.menus.customLayoutNoGroups': 'No groups yet. Add an APP group or custom group first.',
+  'pages.system.menus.customLayoutNoGroups':
+    'No groups yet. Add an APP group or custom group first.',
   'pages.system.menus.customLayoutNoApps': 'No APP yet. Add an APP first.',
-  'pages.system.menus.customLayoutAppMenuHint': 'Application menus only. System menus are fixed in System settings and are not part of custom layout.',
+  'pages.system.menus.customLayoutAppMenuHint':
+    'Application menus only. System menus are fixed in System settings and are not part of custom layout.',
   'pages.system.menus.customLayoutSelectTargetGroup': 'Select a group first, then use Add.',
-  'pages.system.menus.customLayoutAppCannotHoldMenus': 'APP groups cannot hold menus directly. Add a sub-group first.',
+  'pages.system.menus.customLayoutAppCannotHoldMenus':
+    'APP groups cannot hold menus directly. Add a sub-group first.',
   'pages.system.menus.customLayoutMaxGroupDepth': 'Groups support at most two nesting levels.',
   'pages.system.menus.customLayoutSystemTray': 'System menu tray',
-  'pages.system.menus.customLayoutSystemTrayHint': 'Manage display order and title overrides for /system/* menus.',
+  'pages.system.menus.customLayoutSystemTrayHint':
+    'Manage display order and title overrides for /system/* menus.',
   'pages.system.menus.customLayoutSystemTrayEmpty': 'No system menus yet. Add from the dropdown.',
   'pages.system.menus.customLayoutAddSystemMenu': 'Add system menu',
   'pages.system.menus.customLayoutGroupSelectForQuickAdd': 'Select target group for quick add',
@@ -19903,7 +21853,8 @@ export default {
   'pages.system.roles.loadPermissionsFailed': 'Failed to load permissions',
   'pages.system.roles.permissionTypeField': 'Field',
   'pages.system.roles.permissionTypeData': 'Data',
-  'pages.system.roles.templateApplied': 'Template "{{name}}" applied ({{count}} permissions). Click Save to apply.',
+  'pages.system.roles.templateApplied':
+    'Template "{{name}}" applied ({{count}} permissions). Click Save to apply.',
   'pages.system.roles.loadRolePermissionsFailed': 'Failed to load role permissions',
   'pages.system.roles.selectRoleFirst': 'Please select a role first',
   'pages.system.roles.assignSuccess': 'Permissions assigned successfully',
@@ -19929,7 +21880,8 @@ export default {
   'pages.system.roles.userCount': 'Users: ',
   'pages.system.roles.searchPermission': 'Search L3+ menus, paths, codes, or actions',
   'pages.system.roles.searchPermissionEmpty': 'No matching permissions. Try another keyword.',
-  'pages.system.roles.searchPermissionNeedKeyword': 'Enter a keyword to search level-3+ menus and actions',
+  'pages.system.roles.searchPermissionNeedKeyword':
+    'Enter a keyword to search level-3+ menus and actions',
   'pages.system.roles.functionGrantHint':
     'Control which menus and actions are allowed. Filter by all, app (L1), module (L2), or search (L3+); quick actions apply to the visible scope only.',
   'pages.system.roles.filterAll': 'All',
@@ -19968,8 +21920,10 @@ export default {
   'pages.system.roles.fieldMaskApplied': 'Updated {{count}} field policy(ies)',
   'pages.system.roles.fieldTemplateAmount': 'Mask amount fields',
   'pages.system.roles.fieldTemplateCustomer': 'Mask customer name fields',
-  'pages.system.roles.fieldTemplateAmountApplied': 'Masked {{count}} amount-related field(s) in current scope',
-  'pages.system.roles.fieldTemplateCustomerApplied': 'Masked {{count}} customer-name field(s) in current scope',
+  'pages.system.roles.fieldTemplateAmountApplied':
+    'Masked {{count}} amount-related field(s) in current scope',
+  'pages.system.roles.fieldTemplateCustomerApplied':
+    'Masked {{count}} customer-name field(s) in current scope',
   'pages.system.roles.addFieldPolicy': 'Add field policy',
   'pages.system.roles.permissionsNotInMenu': 'Permissions not linked to any menu',
   'pages.system.roles.orphanPermissionsTooltip':
@@ -19995,7 +21949,8 @@ export default {
   'pages.system.roles.roleNameRequired': 'Enter role name',
   'pages.system.roles.roleCode': 'Role code',
   'pages.system.roles.roleCodeRequired': 'Enter role code',
-  'pages.system.roles.roleCodePattern': 'Role code can only contain letters, numbers, and underscores',
+  'pages.system.roles.roleCodePattern':
+    'Role code can only contain letters, numbers, and underscores',
   'pages.system.roles.roleCodePlaceholder': 'Enter role code (e.g. admin, user)',
   'pages.system.roles.description': 'Remark',
   'pages.system.roles.descriptionPlaceholder': 'Enter remark',
@@ -20003,17 +21958,21 @@ export default {
   'pages.system.roles.copyFromRoleTitle': 'Copy permissions from another role',
   'pages.system.roles.copySourceHint': 'Select the role to copy permissions from:',
   'pages.system.roles.selectSourceRole': 'Select source role',
-  'pages.system.roles.copyWarning': 'This will overwrite current selections. Click Save to persist.',
+  'pages.system.roles.copyWarning':
+    'This will overwrite current selections. Click Save to persist.',
   'pages.system.roles.loadingRoles': 'Loading roles...',
-  'pages.system.roles.externalRoleTypeRequired': 'External roles must select a binding type (Customer or Supplier)',
+  'pages.system.roles.externalRoleTypeRequired':
+    'External roles must select a binding type (Customer or Supplier)',
   'pages.system.roles.enFieldName': 'English field: {{name}}',
   'pages.system.roles.enFieldNamePlaceholder': 'English field name',
   'pages.system.roles.functionGrantSuccess': 'Function permissions saved: {{count}}',
   'pages.system.roles.dataGrantSuccess': 'Data permissions saved: {{count}}',
   'pages.system.roles.fieldGrantSuccess': 'Field permissions saved: {{count}} (deduplicated)',
   'pages.system.roles.cleanOldRoles': 'Clean old roles',
-  'pages.system.roles.cleanOldRolesResult': '{{message}} (Renamed {{renamed}}, Merged {{merged}}, Deleted {{deleted}})',
-  'pages.system.roles.noFunctionTree': 'No function permission tree. Please check menu and permission synchronization',
+  'pages.system.roles.cleanOldRolesResult':
+    '{{message}} (Renamed {{renamed}}, Merged {{merged}}, Deleted {{deleted}})',
+  'pages.system.roles.noFunctionTree':
+    'No function permission tree. Please check menu and permission synchronization',
   'pages.system.roles.systemFunctionPermissions': 'System function permissions: ',
   'pages.system.roles.currentAssigned': 'Currently assigned: ',
   'pages.system.roles.assignedDetail': '(Visible in tree: {{visible}}, Unmounted: {{unmounted}})',
@@ -20078,24 +22037,36 @@ export default {
   'pages.dashboard.statQualityRateSuffix': 'pass rate',
   'pages.dashboard.unitOrder': '',
   'pages.dashboard.unitPiece': '',
-  'pages.dashboard.tip1': 'Configure material source and default route/supplier in Material Management for smoother demand calculation and work order generation.',
-  'pages.dashboard.tip2': 'After demand calculation, you can generate work orders and purchase orders in one click; run material source verification first.',
-  'pages.dashboard.tip3': 'Report production in Production Execution > Reporting; barcode and batch reporting are supported.',
-  'pages.dashboard.tip4': 'Notifications cover material changes and approvals; check the bell icon in the top-right.',
-  'pages.dashboard.tip5': 'Use the date range on the dashboard to view work order and output stats for different periods (today, last 7 days, last 30 days).',
+  'pages.dashboard.tip1':
+    'Configure material source and default route/supplier in Material Management for smoother demand calculation and work order generation.',
+  'pages.dashboard.tip2':
+    'After demand calculation, you can generate work orders and purchase orders in one click; run material source verification first.',
+  'pages.dashboard.tip3':
+    'Report production in Production Execution > Reporting; barcode and batch reporting are supported.',
+  'pages.dashboard.tip4':
+    'Notifications cover material changes and approvals; check the bell icon in the top-right.',
+  'pages.dashboard.tip5':
+    'Use the date range on the dashboard to view work order and output stats for different periods (today, last 7 days, last 30 days).',
   'pages.dashboard.tip6': 'You can drag to reorder quick actions on the left for easier access.',
-  'pages.dashboard.tip7': 'After a sales order is approved, create demands in Demand Management, run demand calculation, then generate work and purchase orders.',
-  'pages.dashboard.tip8': 'Complete route and BOM setup for more accurate work order scheduling and material calculation.',
-  'pages.dashboard.tip9': 'Configure custom fields under System > Custom Fields to extend form fields across documents.',
-  'pages.dashboard.tip10': 'Maintain unit conversion in Material Management; orders and inventory will convert automatically.',
-  'pages.dashboard.tip11': 'Material changes trigger downstream notifications; check Message Notifications for impact and suggested actions.',
-  'pages.dashboard.tip12': 'Demand calculation chooses mode by source (forecast vs order); the system suggests the type when creating.',
+  'pages.dashboard.tip7':
+    'After a sales order is approved, create demands in Demand Management, run demand calculation, then generate work and purchase orders.',
+  'pages.dashboard.tip8':
+    'Complete route and BOM setup for more accurate work order scheduling and material calculation.',
+  'pages.dashboard.tip9':
+    'Configure custom fields under System > Custom Fields to extend form fields across documents.',
+  'pages.dashboard.tip10':
+    'Maintain unit conversion in Material Management; orders and inventory will convert automatically.',
+  'pages.dashboard.tip11':
+    'Material changes trigger downstream notifications; check Message Notifications for impact and suggested actions.',
+  'pages.dashboard.tip12':
+    'Demand calculation chooses mode by source (forecast vs order); the system suggests the type when creating.',
   'pages.dashboard.todoList': 'To-do',
   'pages.dashboard.todoPendingShort': 'To-do',
   'pages.dashboard.todo.workOrder': 'Process work order {{code}}',
   'pages.dashboard.todo.workOrderDesc': 'Product: {{product}}, Qty: {{quantity}}',
   'pages.dashboard.todo.materialShortage': 'Material shortage: {{name}}',
-  'pages.dashboard.todo.materialShortageDesc': 'Shortage qty: {{quantity}}, Work order: {{workOrder}}',
+  'pages.dashboard.todo.materialShortageDesc':
+    'Shortage qty: {{quantity}}, Work order: {{workOrder}}',
   'pages.dashboard.todo.deliveryDelay': 'Delivery delay: {{code}}',
   'pages.dashboard.todo.deliveryDelayDesc': 'Delay: {{days}} day(s)',
   'pages.dashboard.todo.qualityException': 'Quality issue: {{title}}',
@@ -20114,7 +22085,8 @@ export default {
   'pages.dashboard.todo.productionPickingDesc': 'Work order {{workOrder}}',
   'pages.dashboard.todo.salesDeliveryPending': 'Sales outbound pending: {{code}}',
   'pages.dashboard.todo.otherOutboundPending': 'Other outbound pending: {{code}}',
-  'pages.dashboard.todo.purchaseRequisitionPending': 'Purchase requisition pending review: {{code}}',
+  'pages.dashboard.todo.purchaseRequisitionPending':
+    'Purchase requisition pending review: {{code}}',
   'pages.dashboard.todo.purchaseReturnPending': 'Purchase return pending: {{code}}',
   'pages.dashboard.todo.shipmentNoticePending': 'Shipment notice pending: {{code}}',
   'pages.dashboard.todo.salesReturnPending': 'Sales return pending: {{code}}',
@@ -20157,7 +22129,8 @@ export default {
   'pages.dashboard.quickEntry': 'Quick entry',
   'pages.dashboard.quickEntryCustomize': 'Customize',
   'pages.dashboard.configQuickEntry': 'Customize quick entry',
-  'pages.dashboard.configQuickEntryHint': 'Select menu items to add to quick entry. Only items with a path can be selected.',
+  'pages.dashboard.configQuickEntryHint':
+    'Select menu items to add to quick entry. Only items with a path can be selected.',
   'pages.dashboard.quickEntryEmpty': 'No quick entries yet',
   'pages.dashboard.quickEntryAdd': 'Add quick entry',
   'pages.dashboard.quickEntrySaved': 'Quick entry saved',
@@ -20193,7 +22166,8 @@ export default {
   'pages.dashboard.defaultEquipment': 'Equipment',
   'pages.dashboard.defaultPlan': 'Planning',
   'pages.dashboard.configQuickActions': 'Configure quick actions',
-  'pages.dashboard.configQuickActionsHint': 'Select menu items to show as quick actions. Only items with a path can be selected.',
+  'pages.dashboard.configQuickActionsHint':
+    'Select menu items to show as quick actions. Only items with a path can be selected.',
   'pages.dashboard.save': 'Save',
   'pages.dashboard.cancel': 'Cancel',
   'pages.dashboard.viewMore': 'View more',
@@ -20233,7 +22207,8 @@ export default {
   'pages.dashboard.toolkit.cnyAmount': 'CNY ￥',
   'pages.dashboard.toolkit.estimatedCny': 'Est. CNY',
   'pages.dashboard.toolkit.estimatedForeign': 'Est. {{currency}}',
-  'pages.dashboard.toolkit.exchangeRateHint': 'Rates are for reference only. Please use bank/contract rates for settlement.',
+  'pages.dashboard.toolkit.exchangeRateHint':
+    'Rates are for reference only. Please use bank/contract rates for settlement.',
   'pages.dashboard.toolkit.unitConversionTitle': 'Unit Conversion Tool',
   'pages.dashboard.toolkit.unitLength': 'Length',
   'pages.dashboard.toolkit.unitWeight': 'Weight',
@@ -20241,7 +22216,8 @@ export default {
   'pages.dashboard.toolkit.unitPressure': 'Pressure',
   'pages.dashboard.toolkit.unitTemp': 'Temperature',
   'pages.dashboard.toolkit.oneKeyReverse': 'Reverse',
-  'pages.dashboard.toolkit.tempConversionHint': 'Temperature uses linear conversion. For process control, follow standard procedures.',
+  'pages.dashboard.toolkit.tempConversionHint':
+    'Temperature uses linear conversion. For process control, follow standard procedures.',
   'pages.dashboard.toolkit.uppercaseTitle': 'CNY Uppercase Converter',
   'pages.dashboard.toolkit.inputAmountPlaceholder': 'Enter amount...',
   'pages.dashboard.toolkit.thousandsSeparator': 'Formatted: ',
@@ -20266,7 +22242,8 @@ export default {
   'pages.dashboard.toolkit.side200': '200 (Default)',
   'pages.dashboard.toolkit.side280': '280 (Poster)',
   'pages.dashboard.toolkit.qrcodeHint': 'Click preview to enlarge; use larger size for printing.',
-  'pages.dashboard.toolkit.selectConversionHint': 'Please select a conversion or switch to paired items with "↔"',
+  'pages.dashboard.toolkit.selectConversionHint':
+    'Please select a conversion or switch to paired items with "↔"',
   'pages.dashboard.toolkit.vatCalculatorTitle': 'VAT Calculator',
   'pages.dashboard.toolkit.forwardCalc': 'Forward',
   'pages.dashboard.toolkit.reverseCalc': 'Reverse',
@@ -20276,7 +22253,8 @@ export default {
   'pages.dashboard.toolkit.taxAmount': 'Tax Amount (￥)',
   'pages.dashboard.toolkit.totalInclTax': 'Total (Incl. Tax)',
   'pages.dashboard.toolkit.reverseExclTax': 'Amount (Excl. Tax)',
-  'pages.dashboard.toolkit.vatCalcHint': 'Forward: Tax = Excl × Rate; Reverse: Excl = Incl ÷ (1 + Rate)',
+  'pages.dashboard.toolkit.vatCalcHint':
+    'Forward: Tax = Excl × Rate; Reverse: Excl = Incl ÷ (1 + Rate)',
   'pages.dashboard.toolkit.metalWeightTitle': 'Metal Weight Calculator',
   'pages.dashboard.toolkit.plate': 'Plate',
   'pages.dashboard.toolkit.pipe': 'Pipe',
@@ -20290,8 +22268,10 @@ export default {
   'pages.dashboard.toolkit.outerDiameter': 'Outer Dia. Do (mm)',
   'pages.dashboard.toolkit.innerDiameter': 'Inner Dia. Di (mm)',
   'pages.dashboard.toolkit.pipeLength': 'Length L (mm)',
-  'pages.dashboard.toolkit.pipeRequirement': 'Outer dia. must be greater than inner dia., and all values must be positive.',
-  'pages.dashboard.toolkit.pipeFormula': 'Hollow Pipe: Vol = π/4 × (Do² - Di²) × L; Density uses the same formula as plates.',
+  'pages.dashboard.toolkit.pipeRequirement':
+    'Outer dia. must be greater than inner dia., and all values must be positive.',
+  'pages.dashboard.toolkit.pipeFormula':
+    'Hollow Pipe: Vol = π/4 × (Do² - Di²) × L; Density uses the same formula as plates.',
   'pages.dashboard.toolkit.quantity': 'Quantity',
   'pages.dashboard.toolkit.volume': 'Volume (m³)',
   'pages.dashboard.toolkit.singleTotalWeight': 'Unit / Total Weight',
@@ -20319,8 +22299,6 @@ export default {
   'pages.dashboard.toolkit.browserOnlyHint': 'Saved in this browser only',
   'pages.dashboard.toolkit.memoPlaceholder': 'Tasks, notes, temporary IDs...',
   'pages.dashboard.toolkit.clear': 'Clear',
-
-
 
   // Dashboard - Analysis
   'pages.dashboard.analysis.title': 'Analysis',
@@ -20374,10 +22352,13 @@ export default {
   'field.customField.editTitle': 'Edit Field',
   'field.customField.detailTitle': 'Field Details',
   'field.customField.deleteConfirm': 'Are you sure you want to delete this field?',
-  'field.customField.batchDeleteConfirm': 'Are you sure you want to delete the selected {{count}} record(s)? This action cannot be undone.',
+  'field.customField.batchDeleteConfirm':
+    'Are you sure you want to delete the selected {{count}} record(s)? This action cannot be undone.',
   'field.customField.batchDeleteTitle': 'Confirm Batch Delete',
-  'field.customField.batchDeleteConfirmTitle': 'Are you sure you want to batch delete the selected records?',
-  'field.customField.batchDeleteConfirmDescription': '{{count}} record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'field.customField.batchDeleteConfirmTitle':
+    'Are you sure you want to batch delete the selected records?',
+  'field.customField.batchDeleteConfirmDescription':
+    '{{count}} record(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'field.customField.createButton': 'Create Field',
   'field.customField.sidebarCountTitle': '{{count}} custom field(s) configured',
   'field.customField.batchDeleteButton': 'Batch Delete',
@@ -20385,7 +22366,8 @@ export default {
   'field.customField.nameRequired': 'Please enter field name',
   'field.customField.codePlaceholder': 'Enter field code (unique identifier)',
   'field.customField.codeRequired': 'Please enter field code',
-  'field.customField.codeExtra': 'Field code is used by the application; cannot be changed after creation',
+  'field.customField.codeExtra':
+    'Field code is used by the application; cannot be changed after creation',
   'field.customField.tableNamePlaceholder': 'e.g. sys_users',
   'field.customField.tableNameExtraEdit': 'Associated table cannot be changed after creation',
   'field.customField.tableNameExtraCreate': 'Filled from the selected page',
@@ -20441,19 +22423,24 @@ export default {
   'field.customField.associatedFieldRequired': 'Please select associated field',
   'field.customField.associatedFieldPlaceholder': 'Select display field',
   'field.customField.associatedFieldExtra': 'Field used for display',
-  'field.customField.associatedFieldDropdownExtra': 'Dropdown to pick a related record when source field is empty',
+  'field.customField.associatedFieldDropdownExtra':
+    'Dropdown to pick a related record when source field is empty',
   'field.customField.typeAssociatedAttribute': 'Related Attribute',
-  'field.customField.typeAssociatedAttributeDesc': 'Read option values from a column on the related table for single/multi select. No XLOOKUP matching.',
-  'field.customField.typeAssociatedObjectDesc': 'Like XLOOKUP: match a value from this form in a related table and fill a column (usually record id).',
+  'field.customField.typeAssociatedAttributeDesc':
+    'Read option values from a column on the related table for single/multi select. No XLOOKUP matching.',
+  'field.customField.typeAssociatedObjectDesc':
+    'Like XLOOKUP: match a value from this form in a related table and fill a column (usually record id).',
   'field.customField.sourceField': 'Source Field',
   'field.customField.sourceFieldPlaceholder': 'Select a field on the current form',
-  'field.customField.sourceFieldExtra': 'Use this field value to match in the related table (XLOOKUP); leave empty to pick a record from dropdown',
+  'field.customField.sourceFieldExtra':
+    'Use this field value to match in the related table (XLOOKUP); leave empty to pick a record from dropdown',
   'field.customField.sourceFieldSystemTag': 'System',
   'field.customField.sourceFieldCustomTag': 'Custom',
   'field.customField.matchField': 'Match Field',
   'field.customField.matchFieldRequired': 'Select match field',
   'field.customField.matchFieldPlaceholder': 'Field in related table used for matching',
-  'field.customField.matchFieldExtra': 'Column in related table to match source value (XLOOKUP lookup column), e.g. code',
+  'field.customField.matchFieldExtra':
+    'Column in related table to match source value (XLOOKUP lookup column), e.g. code',
   'field.customField.returnField': 'Return Field',
   'field.customField.returnFieldRequired': 'Select return field',
   'field.customField.returnFieldPlaceholder': 'Field value to write after match',
@@ -20461,16 +22448,20 @@ export default {
   'field.customField.linkField': 'Related Object Field',
   'field.customField.linkFieldRequired': 'Select related object field',
   'field.customField.linkFieldPlaceholder': 'Optional: system or custom field on this table',
-  'field.customField.linkFieldExtra': 'Same pool as associated object source field: match a record in the related table, then read the attribute; leave empty to list all attribute values',
+  'field.customField.linkFieldExtra':
+    'Same pool as associated object source field: match a record in the related table, then read the attribute; leave empty to list all attribute values',
   'field.customField.linkMatchField': 'Match field',
   'field.customField.linkMatchFieldRequired': 'Select match field',
   'field.customField.linkMatchFieldPlaceholder': 'Select column to match in related table',
-  'field.customField.linkMatchFieldExtra': 'When link field value is not a record ID, match via this column (VLOOKUP)',
+  'field.customField.linkMatchFieldExtra':
+    'When link field value is not a record ID, match via this column (VLOOKUP)',
   'field.customField.attributeField': 'Attribute Field',
   'field.customField.attributeFieldRequired': 'Select attribute field',
   'field.customField.attributeFieldPlaceholder': 'Field to read from related record',
-  'field.customField.attributeFieldExtra': 'Distinct values in this column become form options (single/multi select)',
-  'field.customField.associatedAttributeTableExtra': 'Select the source table for related attribute options',
+  'field.customField.attributeFieldExtra':
+    'Distinct values in this column become form options (single/multi select)',
+  'field.customField.associatedAttributeTableExtra':
+    'Select the source table for related attribute options',
   'field.customField.displayMode': 'Display mode',
   'field.customField.displayModePlaceholder': 'Select how the field appears on forms',
   'field.customField.displayModeSelect': 'Single select',
@@ -20479,8 +22470,10 @@ export default {
   'field.customField.displayModeDisplay': 'Read-only display',
   'field.customField.displayModeInput': 'Editable text',
   'field.customField.displayModeNumber': 'Number input',
-  'field.customField.displayModeAssociatedObjectExtra': 'No source: select / radio / multi. With XLOOKUP: read-only / editable / number',
-  'field.customField.displayModeAssociatedAttributeExtra': 'Related attribute: select / radio / multi',
+  'field.customField.displayModeAssociatedObjectExtra':
+    'No source: select / radio / multi. With XLOOKUP: read-only / editable / number',
+  'field.customField.displayModeAssociatedAttributeExtra':
+    'Related attribute: select / radio / multi',
   'field.customField.optionId': 'ID (id)',
   'field.customField.optionName': 'Name (name)',
   'field.customField.optionCode': 'Code (code)',
@@ -20493,10 +22486,12 @@ export default {
   'field.customField.formulaExpressionPlaceholder': 'e.g. {field1} + {field2} * 2',
   'field.customField.formulaExpressionExtra': 'Use {fieldName} to reference other fields',
   'field.customField.formulaOperands': 'Calculable Fields',
-  'field.customField.formulaOperandsHint': 'Click a field to insert it into the formula (active number fields on this table only)',
+  'field.customField.formulaOperandsHint':
+    'Click a field to insert it into the formula (active number fields on this table only)',
   'field.customField.formulaOperandNameLabel': 'Field Name:',
   'field.customField.formulaOperandCodeLabel': 'Field Code:',
-  'field.customField.formulaOperandsEmpty': 'No number fields on this table yet. Add number fields first.',
+  'field.customField.formulaOperandsEmpty':
+    'No number fields on this table yet. Add number fields first.',
   'field.customField.formulaOperandsNoTable': 'Select an associated table first',
   'field.customField.textareaRows': 'Rows',
   'field.customField.textareaRowsPlaceholder': 'Enter row count',
@@ -20565,16 +22560,20 @@ export default {
   'field.scheduledTask.start': 'Start',
   'field.scheduledTask.stop': 'Stop',
   'field.scheduledTask.deleteConfirm': 'Are you sure you want to delete this task?',
-  'field.scheduledTask.batchDeleteConfirm': 'Are you sure you want to delete the selected {{count}} record(s)? This action cannot be undone.',
+  'field.scheduledTask.batchDeleteConfirm':
+    'Are you sure you want to delete the selected {{count}} record(s)? This action cannot be undone.',
   'field.scheduledTask.batchDeleteTitle': 'Confirm Batch Delete',
-  'field.scheduledTask.batchDeleteConfirmTitle': 'Are you sure you want to batch delete the selected scheduled tasks?',
-  'field.scheduledTask.batchDeleteConfirmDescription': '{{count}} scheduled task(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'field.scheduledTask.batchDeleteConfirmTitle':
+    'Are you sure you want to batch delete the selected scheduled tasks?',
+  'field.scheduledTask.batchDeleteConfirmDescription':
+    '{{count}} scheduled task(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'field.scheduledTask.createButton': 'Create Task',
   'field.scheduledTask.batchDeleteButton': 'Batch Delete',
   'field.scheduledTask.nameRequired': 'Please enter task name',
   'field.scheduledTask.namePlaceholder': 'Enter task name',
   'field.scheduledTask.codeRequired': 'Please enter task code',
-  'field.scheduledTask.codePattern': 'Task code can only contain lowercase letters, numbers and underscores',
+  'field.scheduledTask.codePattern':
+    'Task code can only contain lowercase letters, numbers and underscores',
   'field.scheduledTask.codePlaceholder': 'Enter task code (e.g. daily_report)',
   'field.scheduledTask.typeRequired': 'Please select task type',
   'field.scheduledTask.triggerTypeRequired': 'Please select trigger type',
@@ -20582,7 +22581,8 @@ export default {
   'field.scheduledTask.triggerConfigPlaceholderCron': 'e.g. {"cron": "0 0 * * *"}',
   'field.scheduledTask.triggerConfigPlaceholderInterval': 'e.g. {"seconds": 300}',
   'field.scheduledTask.triggerConfigPlaceholderDate': 'e.g. {"at": "2025-01-01T00:00:00Z"}',
-  'field.scheduledTask.taskConfigPlaceholder': 'e.g. {"url": "...", "method": "POST", "headers": {}, "data": {}}',
+  'field.scheduledTask.taskConfigPlaceholder':
+    'e.g. {"url": "...", "method": "POST", "headers": {}, "data": {}}',
   'field.scheduledTask.triggerCronLabel': 'Cron expression',
   'field.scheduledTask.triggerIntervalLabel': 'Interval (seconds)',
   'field.scheduledTask.triggerDateLabel': 'Run at',
@@ -20624,9 +22624,11 @@ export default {
   'field.user.detailTitle': 'User Details',
   'field.user.deleteConfirm': 'Are you sure you want to delete this user?',
   'field.user.batchDeleteTitle': 'Batch Delete',
-  'field.user.batchDeleteConfirm': 'Are you sure you want to delete the selected {{count}} user(s)?',
+  'field.user.batchDeleteConfirm':
+    'Are you sure you want to delete the selected {{count}} user(s)?',
   'field.user.batchDeleteConfirmTitle': 'Are you sure you want to batch delete the selected users?',
-  'field.user.batchDeleteConfirmDescription': '{{count}} user(s) will be deleted. This action cannot be undone. Please proceed with caution.',
+  'field.user.batchDeleteConfirmDescription':
+    '{{count}} user(s) will be deleted. This action cannot be undone. Please proceed with caution.',
   'field.user.batchDeleteSuccess': 'Successfully deleted {{count}} record(s)',
   'field.user.batchDeletePartial': 'Delete completed: {{success}} succeeded, {{fail}} failed',
   'field.user.resetPasswordTitle': 'Reset Password',
@@ -20649,8 +22651,10 @@ export default {
   'field.user.resetPasswordSuccess': 'Password reset successfully, default password is: 123456',
   'field.user.resetPasswordFailed': 'Password reset failed',
   'field.user.errorUsernameExists': 'Username already in use, please choose another',
-  'field.user.errorDepartmentInvalid': 'Selected department does not exist or does not belong to current tenant',
-  'field.user.errorPositionInvalid': 'Selected position does not exist or does not belong to current tenant',
+  'field.user.errorDepartmentInvalid':
+    'Selected department does not exist or does not belong to current tenant',
+  'field.user.errorPositionInvalid':
+    'Selected position does not exist or does not belong to current tenant',
   'field.user.errorRoleInvalid': 'Selected role does not exist or is invalid',
   'field.user.errorPhoneInvalid': 'Invalid phone number or already in use',
   'field.user.errorEmailInvalid': 'Invalid email or already in use',
@@ -20672,7 +22676,8 @@ export default {
   'field.user.usernameRequired': 'Please enter username',
   'field.user.usernameMin': 'Username must be at least 2 characters',
   'field.user.usernameMax': 'Username cannot exceed 50 characters',
-  'field.user.usernamePattern': 'Username can only contain Chinese, letters, numbers, underscores and hyphens',
+  'field.user.usernamePattern':
+    'Username can only contain Chinese, letters, numbers, underscores and hyphens',
   'field.user.usernamePlaceholder': 'Enter username (2-50 characters)',
   'field.user.fullNameMax': 'Full name cannot exceed 100 characters',
   'field.user.fullNamePlaceholder': 'Enter full name',
@@ -20758,8 +22763,10 @@ export default {
   'pages.infra.operation.suspendedTenants': 'Suspended',
   'pages.infra.operation.loginFirst': 'Please login first',
   'pages.infra.operation.noPermission': 'Insufficient permission',
-  'pages.infra.operation.loginHint': 'Operations dashboard requires platform super admin. Please login first.',
-  'pages.infra.operation.noPermissionHint': 'You do not have access. Platform super admin is required.',
+  'pages.infra.operation.loginHint':
+    'Operations dashboard requires platform super admin. Please login first.',
+  'pages.infra.operation.noPermissionHint':
+    'You do not have access. Platform super admin is required.',
   'pages.infra.operation.goLogin': 'Go to Login',
   'pages.infra.operation.noDataExport': 'No data to export',
   'pages.infra.operation.exportStatsTitle': 'Operations Dashboard Statistics',
@@ -20850,10 +22857,12 @@ export default {
   'pages.infra.package.maxUsers': 'User limit',
   'pages.infra.package.maxStorage': 'Storage (MB)',
   'pages.infra.package.maxBranchOrganizations': 'Branch organization limit',
-  'pages.infra.package.maxBranchOrganizationsHelp': 'Leave empty for unlimited; 0 means branch creation is disabled',
+  'pages.infra.package.maxBranchOrganizationsHelp':
+    'Leave empty for unlimited; 0 means branch creation is disabled',
   'pages.infra.package.allowProApps': 'Allow PRO apps',
   'pages.infra.package.allowedApps': 'Allowed apps',
-  'pages.infra.package.allowedAppsHelp': 'Empty means no restriction; otherwise only selected apps are allowed',
+  'pages.infra.package.allowedAppsHelp':
+    'Empty means no restriction; otherwise only selected apps are allowed',
   'pages.infra.package.allowedAppsCount': '{{count}} apps allowed',
   'pages.infra.package.unlimited': 'Unlimited',
   'pages.infra.package.yes': 'Yes',
@@ -20919,11 +22928,13 @@ export default {
   'pages.infra.tenant.importEmpty': 'Import data is empty',
   'pages.infra.tenant.importNoRows': 'No data rows to import (fill from row 3)',
   'pages.infra.tenant.importNoRowsAllEmpty': 'No data rows to import (all rows empty)',
-  'pages.infra.tenant.importMissingFields': 'Missing required columns: {{fields}}. Ensure header has "Organization Name" and "Domain".',
+  'pages.infra.tenant.importMissingFields':
+    'Missing required columns: {{fields}}. Ensure header has "Organization Name" and "Domain".',
   'pages.infra.tenant.importRowMissing': 'Row {{row}}: missing required fields (name or domain)',
   'pages.infra.tenant.importRowDomainInvalid': 'Row {{row}}: invalid domain format',
   'pages.infra.tenant.importValidationFailed': 'Validation Failed',
-  'pages.infra.tenant.importValidationHint': 'The following rows have errors. Please fix and re-import:',
+  'pages.infra.tenant.importValidationHint':
+    'The following rows have errors. Please fix and re-import:',
   'pages.infra.tenant.importing': 'Importing organizations',
   'pages.infra.tenant.importPreparing': 'Preparing to import {{count}} organization(s)...',
   'pages.infra.tenant.importProgress': 'Importing {{current}} / {{total}}...',
@@ -20941,9 +22952,11 @@ export default {
   'pages.infra.tenant.operationFailed': 'Operation failed',
   'pages.infra.tenant.selectToDelete': 'Please select organization(s) to delete',
   'pages.infra.tenant.deleteConfirmTitle': 'Confirm Delete',
-  'pages.infra.tenant.deleteConfirmContent': 'Delete this organization? Only inactive orgs with no business documents can be deleted; they will be suspended (soft delete).',
+  'pages.infra.tenant.deleteConfirmContent':
+    'Delete this organization? Only inactive orgs with no business documents can be deleted; they will be suspended (soft delete).',
   'pages.infra.tenant.deleteRowConfirmTitle': 'Delete organization',
-  'pages.infra.tenant.deleteRowConfirmContent': 'Only suspended orgs with no business documents can be deleted. Continue?',
+  'pages.infra.tenant.deleteRowConfirmContent':
+    'Only suspended orgs with no business documents can be deleted. Continue?',
   'pages.infra.tenant.deleteConfirmOk': 'Confirm Delete',
   'pages.infra.tenant.deleting': 'Deleting organizations',
   'pages.infra.tenant.deletePreparing': 'Preparing to delete {{count}} organization(s)...',
@@ -20962,7 +22975,8 @@ export default {
   'pages.infra.tenant.exportCurrentPage': 'Current page {{count}} record(s)',
   'pages.infra.tenant.exportAll': 'All data',
   'pages.infra.tenant.namePlaceholder': 'Enter organization name',
-  'pages.infra.tenant.domainPlaceholder': 'Enter domain (letters, numbers, underscore, hyphen only)',
+  'pages.infra.tenant.domainPlaceholder':
+    'Enter domain (letters, numbers, underscore, hyphen only)',
   'pages.infra.tenant.nameRequired': 'Please enter organization name',
   'pages.infra.tenant.domainRequired': 'Please enter domain',
   'pages.infra.tenant.detail': 'Detail',
@@ -20979,7 +22993,8 @@ export default {
   'pages.infra.tenant.formPlanLabel': 'Organization Plan',
   'pages.infra.tenant.formDomainPlaceholder': 'Enter domain (for subdomain access)',
   'pages.infra.tenant.formDomainRequired': 'Please enter organization domain',
-  'pages.infra.tenant.formDomainPattern': 'Domain can only contain lowercase letters, numbers and hyphens',
+  'pages.infra.tenant.formDomainPattern':
+    'Domain can only contain lowercase letters, numbers and hyphens',
   'pages.infra.tenant.nameLength': 'Organization name must be 1-100 characters',
   'pages.infra.tenant.domainLength': 'Domain must be 1-100 characters',
   'pages.infra.tenant.formStatusPlaceholder': 'Select organization status',
@@ -20998,7 +23013,8 @@ export default {
   'pages.infra.tenant.adminFullName': 'Admin Name',
   'pages.infra.tenant.formPlanExtra': 'Auto-set by plan, or adjust manually',
   'pages.infra.tenant.initDataOptions': 'Init Data (Optional)',
-  'pages.infra.tenant.initDataOptionsExtra': 'System data (dictionaries, languages, free apps, code rules, approval flows, message/print templates, etc.) loads automatically; check items below to add business presets',
+  'pages.infra.tenant.initDataOptionsExtra':
+    'System data (dictionaries, languages, free apps, code rules, approval flows, message/print templates, etc.) loads automatically; check items below to add business presets',
   'pages.infra.tenant.back': 'Back',
   'pages.infra.tenant.notFound': 'Organization not found',
   'pages.infra.tenant.detailTitleSuperAdmin': 'Organization details (Super Admin)',
@@ -21015,7 +23031,8 @@ export default {
   'pages.infra.tenant.importHeaderMaxUsers': 'Max users',
   'pages.infra.tenant.importHeaderMaxStorage': 'Storage (MB)',
   'pages.infra.tenant.importHeaderExpiresAt': 'Expires at',
-  'pages.infra.tenant.planDescriptionExtra': 'Plan: {{description}} (Max users: {{maxUsers}}, Max storage: {{maxStorage}} MB)',
+  'pages.infra.tenant.planDescriptionExtra':
+    'Plan: {{description}} (Max users: {{maxUsers}}, Max storage: {{maxStorage}} MB)',
   'pages.infra.tenant.planDescriptionTrial': 'Quick trial with limited users and storage',
   'pages.infra.tenant.planDescriptionBasic': 'For small teams with basic features',
   'pages.infra.tenant.planDescriptionProfessional': 'For mid-size with full features and PRO apps',
@@ -21039,7 +23056,8 @@ export default {
   'pages.infra.platform.platformNameRequired': 'Please enter platform name',
   'pages.infra.platform.platformNameMax': 'Platform name cannot exceed 200 characters',
   'pages.infra.platform.platformLogo': 'Platform Logo',
-  'pages.infra.platform.platformLogoTooltip': 'Upload image as platform logo. Supports UUID or URL.',
+  'pages.infra.platform.platformLogoTooltip':
+    'Upload image as platform logo. Supports UUID or URL.',
   'pages.infra.platform.uploadLogo': 'Upload Logo',
   'pages.infra.platform.clearLogo': 'Clear Logo',
   'pages.infra.platform.logoUrlPlaceholder': 'Or enter Logo URL',
@@ -21048,7 +23066,8 @@ export default {
   'pages.infra.platform.logoUploadFailed': 'Logo upload failed',
   'pages.infra.platform.logoCleared': 'Logo cleared',
   'pages.infra.platform.favicon': 'Favicon',
-  'pages.infra.platform.faviconTooltip': 'Upload image as browser tab icon. Recommended 32x32 or 64x64. Supports UUID or URL.',
+  'pages.infra.platform.faviconTooltip':
+    'Upload image as browser tab icon. Recommended 32x32 or 64x64. Supports UUID or URL.',
   'pages.infra.platform.uploadFavicon': 'Upload Favicon',
   'pages.infra.platform.clearFavicon': 'Clear Favicon',
   'pages.infra.platform.faviconUrlPlaceholder': 'Or enter Favicon URL',
@@ -21078,7 +23097,8 @@ export default {
   'pages.infra.platform.loginContent': 'Login Page Content',
   'pages.infra.platform.loginContentPlaceholder': 'Content below the title on login page',
   'pages.infra.platform.loginContentEn': 'Login Content (English)',
-  'pages.infra.platform.loginContentEnPlaceholder': 'Enter the English version of the login content description',
+  'pages.infra.platform.loginContentEnPlaceholder':
+    'Enter the English version of the login content description',
   'pages.infra.platform.loginDecorationImage': 'Login decoration image',
   'pages.infra.platform.loginDecorationImagePlaceholder': 'Enter image URL or file UUID',
   'pages.infra.platform.uploadDecorationImage': 'Upload decoration image',
@@ -21087,7 +23107,8 @@ export default {
   'pages.infra.platform.loginBackgroundEnabled': 'Enable background',
   'pages.infra.platform.loginBackgroundImage': 'Login background image',
   'pages.infra.platform.loginBackgroundImagePlaceholder': 'Background image URL or file UUID',
-  'pages.infra.platform.loginBackgroundRecommendedSize': 'Recommended size: 960 x 1080 px (half of 1920×1080); covers the left panel background',
+  'pages.infra.platform.loginBackgroundRecommendedSize':
+    'Recommended size: 960 x 1080 px (half of 1920×1080); covers the left panel background',
   'pages.infra.platform.uploadBackgroundImage': 'Upload background',
   'pages.infra.platform.clearBackgroundImage': 'Clear background',
   'pages.infra.platform.loginBackgroundUploadSuccess': 'Background uploaded',
@@ -21098,28 +23119,36 @@ export default {
   'pages.infra.platform.loginDecorationUploadFailed': 'Decoration image upload failed',
   'pages.infra.platform.loginDecorationCleared': 'Decoration image cleared',
   'pages.infra.platform.themeColor': 'Theme Color',
-  'pages.infra.platform.themeColorTooltip': 'Default theme color for login and platform (default: #1890ff)',
+  'pages.infra.platform.themeColorTooltip':
+    'Default theme color for login and platform (default: #1890ff)',
   'pages.infra.platform.recommendedColors': 'Recommended',
   'pages.infra.platform.icpLicense': 'ICP License',
   'pages.infra.platform.icpLicensePlaceholder': 'e.g. 京ICP备12345678号',
   'pages.infra.platform.icpLicenseMax': 'ICP cannot exceed 100 characters',
   'pages.infra.platform.icpLicenseEn': 'ICP License (English)',
-  'pages.infra.platform.icpLicenseEnPlaceholder': 'Enter the English version of the ICP license information',
+  'pages.infra.platform.icpLicenseEnPlaceholder':
+    'Enter the English version of the ICP license information',
   'pages.infra.platform.cropLogoTitle': 'Crop Platform Logo',
   'pages.infra.platform.cropFaviconTitle': 'Crop Favicon (square recommended)',
   'pages.infra.platform.tenantConfig': 'Tenant Registration',
   'pages.infra.platform.tenantAutoApprove': 'Auto Approve Tenant Registration',
-  'pages.infra.platform.tenantAutoApproveTooltip': 'When enabled, newly registered tenant organizations will be automatically approved without manual review',
+  'pages.infra.platform.tenantAutoApproveTooltip':
+    'When enabled, newly registered tenant organizations will be automatically approved without manual review',
   'pages.infra.platform.floatButtonEnabled': 'Show floating button',
-  'pages.infra.platform.floatButtonEnabledTooltip': 'When enabled, a floating button will appear at the bottom-right of the main interface for iteration info, version details, and feedback',
+  'pages.infra.platform.floatButtonEnabledTooltip':
+    'When enabled, a floating button will appear at the bottom-right of the main interface for iteration info, version details, and feedback',
   'pages.infra.platform.loginGuestEnabled': 'Show guest login on sign-in page',
-  'pages.infra.platform.loginGuestEnabledTooltip': 'When disabled, hides the guest access button and blocks guest login API',
+  'pages.infra.platform.loginGuestEnabledTooltip':
+    'When disabled, hides the guest access button and blocks guest login API',
   'pages.infra.platform.loginQuickEnabled': 'Enable quick login',
-  'pages.infra.platform.loginQuickEnabledTooltip': 'When disabled, hides WeChat, QQ, WeCom, DingTalk, Feishu and other quick login options on the sign-in page',
+  'pages.infra.platform.loginQuickEnabledTooltip':
+    'When disabled, hides WeChat, QQ, WeCom, DingTalk, Feishu and other quick login options on the sign-in page',
   'pages.infra.platform.loginClientWinEnabled': 'Show Windows workstation download on sign-in page',
-  'pages.infra.platform.loginClientWinEnabledTooltip': 'When disabled, hides the Windows HMI installer tile on the sign-in page',
+  'pages.infra.platform.loginClientWinEnabledTooltip':
+    'When disabled, hides the Windows HMI installer tile on the sign-in page',
   'pages.infra.platform.loginClientAndroidEnabled': 'Show Android PDA download on sign-in page',
-  'pages.infra.platform.loginClientAndroidEnabledTooltip': 'When disabled, hides the Android PDA installer tile on the sign-in page',
+  'pages.infra.platform.loginClientAndroidEnabledTooltip':
+    'When disabled, hides the Android PDA installer tile on the sign-in page',
 
   // Report & Dashboard application
   'app.kuaireport.name': 'Kuaireport',
@@ -21148,14 +23177,15 @@ export default {
   'pages.approval.designer.selectNodeTip': 'Please select a node to configure',
   'pages.approval.designer.label': 'Node Name',
   'pages.approval.designer.approvalType': 'Approval Method',
-  'pages.approval.designer.approvalTypeToolTip': 'ALL sign: All selected must agree; ANY sign: Any one can approve.',
+  'pages.approval.designer.approvalTypeToolTip':
+    'ALL sign: All selected must agree; ANY sign: Any one can approve.',
   'pages.approval.designer.approvalTypeOr': 'ANY Sign (One member approve moves to next)',
   'pages.approval.designer.approvalTypeAnd': 'ALL Sign (All members must approve)',
   'pages.approval.designer.approverType': 'Approver Type',
   'pages.approval.designer.approverTypeUser': 'Specified User (Select from list)',
   'pages.approval.designer.approverTypeRole': 'Specified Role (All users in role can approve)',
-  'pages.approval.designer.approverTypeManager': 'Direct Manager (Submitter\'s leader)',
-  'pages.approval.designer.approverTypeDept': 'Department Head (Submitter\'s dept head)',
+  'pages.approval.designer.approverTypeManager': "Direct Manager (Submitter's leader)",
+  'pages.approval.designer.approverTypeDept': "Department Head (Submitter's dept head)",
   'pages.approval.designer.approverTypeOptional': 'Optional (Selected by submitter)',
   'pages.approval.designer.selectUser': 'Select Users',
   'pages.approval.designer.selectRole': 'Select Roles',
@@ -21180,35 +23210,45 @@ export default {
   'pages.approval.designer.opGreater': 'Greater than',
   'pages.approval.designer.opLess': 'Less than',
   'pages.approval.designer.opContains': 'Contains',
-  'pages.approval.designer.addNodeHint': 'Add next node from start; new node will auto-connect and align vertically.',
-  'pages.approval.designer.addFromCurrentHint': 'Add next node from current node; will auto-connect and center-align.',
+  'pages.approval.designer.addNodeHint':
+    'Add next node from start; new node will auto-connect and align vertically.',
+  'pages.approval.designer.addFromCurrentHint':
+    'Add next node from current node; will auto-connect and center-align.',
   'pages.approval.designer.addByBranchTitle': 'Add next node per condition branch',
-  'pages.approval.designer.addByBranchHint': 'Add a different approval/CC/condition node for each branch.',
+  'pages.approval.designer.addByBranchHint':
+    'Add a different approval/CC/condition node for each branch.',
   'pages.approval.designer.branchLabel': 'Branch {{index}}',
   'pages.approval.designer.branchAfterCondition': 'Branch {{index}} (follows condition above)',
-  'pages.approval.designer.branchAddFirst': 'Condition {{index}}: add first node (will connect to end)',
-  'pages.approval.designer.extraBranchesHint': 'Branches below have no matching condition yet; you can add next nodes for them.',
+  'pages.approval.designer.branchAddFirst':
+    'Condition {{index}}: add first node (will connect to end)',
+  'pages.approval.designer.extraBranchesHint':
+    'Branches below have no matching condition yet; you can add next nodes for them.',
   'pages.approval.designer.deleteEdge': 'Delete Edge',
   'pages.approval.designer.edgeDeleted': 'Edge deleted',
   'pages.approval.designer.cannotDeleteStartEnd': 'Start and end nodes cannot be deleted',
 
   // System Parameter Configuration
   'pages.system.parameters.title': 'System Parameter Configuration',
-  'pages.system.parameters.description': 'Configure global system parameters, including security settings, UI interactions, and network timeouts.',
+  'pages.system.parameters.description':
+    'Configure global system parameters, including security settings, UI interactions, and network timeouts.',
   'pages.system.parameters.security': 'Security & Session',
   'pages.system.parameters.security.tokenCheckInterval': 'Token Check Interval (sec)',
-  'pages.system.parameters.security.tokenCheckIntervalTooltip': 'Frequency for checking if the token has expired',
+  'pages.system.parameters.security.tokenCheckIntervalTooltip':
+    'Frequency for checking if the token has expired',
   'pages.system.parameters.security.inactivityTimeout': 'User Inactivity Timeout (sec)',
-  'pages.system.parameters.security.inactivityTimeoutTooltip': 'Auto logout after inactivity duration, 0 to disable',
+  'pages.system.parameters.security.inactivityTimeoutTooltip':
+    'Auto logout after inactivity duration, 0 to disable',
   'pages.system.parameters.security.userCacheTime': 'User Info Cache Time (sec)',
-  'pages.system.parameters.security.userCacheTimeTooltip': 'Time to cache user information in the frontend',
+  'pages.system.parameters.security.userCacheTimeTooltip':
+    'Time to cache user information in the frontend',
   'pages.system.parameters.ui': 'Interface & Interaction',
   'pages.system.parameters.ui.maxTabs': 'Max Open Tabs',
   'pages.system.parameters.ui.maxTabsTooltip': 'Auto-close oldest unpinned tabs when limit reached',
   'pages.system.parameters.ui.defaultPageSize': 'Default Table Page Size',
   'pages.system.parameters.ui.defaultPageSizeTooltip': 'Initial pagination size for all tables',
   'pages.system.parameters.ui.tableLoadingDelay': 'Table Loading Delay (ms)',
-  'pages.system.parameters.ui.tableLoadingDelayTooltip': 'Delay before showing loading state to avoid flickering',
+  'pages.system.parameters.ui.tableLoadingDelayTooltip':
+    'Delay before showing loading state to avoid flickering',
   'pages.system.parameters.ui.primaryColor': 'Default Theme Color',
   'pages.system.parameters.ui.primaryColorTooltip': 'Default primary color for the system',
   'pages.system.parameters.network': 'Network & System',
@@ -21218,7 +23258,8 @@ export default {
   'pages.system.parameters.system.maxRetriesTooltip': 'Max automatic retries on request failure',
   'pages.system.parameters.saveSuccess': 'Saved successfully',
   'pages.system.parameters.saveFailed': 'Save failed',
-  'pages.system.parameters.saveInfo': 'Some settings (e.g., theme color, page size) may require a page refresh to take full effect',
+  'pages.system.parameters.saveInfo':
+    'Some settings (e.g., theme color, page size) may require a page refresh to take full effect',
   'pages.system.parameters.grouped.pageTitle': 'System Parameters',
   'pages.system.parameters.grouped.changeHistory': 'Change history',
   'pages.system.parameters.grouped.export': 'Export',
@@ -21279,20 +23320,25 @@ export default {
   'appRoutes.viewDetails': 'View error details',
   'appRoutes.reload': 'Reload',
   'appRoutes.loadFailed': 'Application load failed',
-  'appRoutes.loadFailedDesc': 'An error occurred while loading the application. Core system functionality is not affected.',
+  'appRoutes.loadFailedDesc':
+    'An error occurred while loading the application. Core system functionality is not affected.',
   'appRoutes.errorDetail': 'Error details',
   'appRoutes.retryLoad': 'Retry',
   'appRoutes.noAppRoutes': 'No application routes available',
   'appRoutes.currentPath': 'Current path',
   'appRoutes.loadedRoutesCount': 'Loaded application routes',
-  'appRoutes.noAppRoutesHint': 'If this is an application path, please check if the application is properly installed and enabled',
+  'appRoutes.noAppRoutesHint':
+    'If this is an application path, please check if the application is properly installed and enabled',
   'appRoutes.troubleshootTitle': 'Troubleshooting',
   'appRoutes.troubleshoot1': 'Open browser console (F12) and check for error messages',
-  'appRoutes.troubleshoot2': 'Go to System Management → Application Management and click "Scan Applications"',
-  'appRoutes.troubleshoot3': 'Ensure applications are installed (is_installed = true) and enabled (is_active = true)',
+  'appRoutes.troubleshoot2':
+    'Go to System Management → Application Management and click "Scan Applications"',
+  'appRoutes.troubleshoot3':
+    'Ensure applications are installed (is_installed = true) and enabled (is_active = true)',
   'appRoutes.troubleshoot4': 'Verify entry_point and route_path are correctly configured',
   'appRoutes.troubleshoot5': 'Check console logs for [AppRoutes] and [pluginLoader]',
-  'appRoutes.troubleshootTip': 'Tip: The system has automatically attempted to scan applications. If the issue persists, manually scan in Application Management.',
+  'appRoutes.troubleshootTip':
+    'Tip: The system has automatically attempted to scan applications. If the issue persists, manually scan in Application Management.',
 
   // Document relation graph
   'components.documentRelationGraph.title': 'Document Relation Visualization',
@@ -21309,7 +23355,8 @@ export default {
   'components.documentRelationGraph.refresh': 'Refresh',
   'components.documentRelationGraph.fullscreen': 'Full screen',
   'components.documentRelationGraph.exitFullscreen': 'Exit full screen',
-  'components.documentRelationGraph.fullscreenUnsupported': 'Fullscreen is not available in this browser',
+  'components.documentRelationGraph.fullscreenUnsupported':
+    'Fullscreen is not available in this browser',
 
   // Document tracking panel
   'components.documentTrackingPanel.loadingTip': 'Loading operations...',
@@ -21320,13 +23367,16 @@ export default {
   'components.documentTrackingPanel.relationsFullChainTitle': 'Full relation chain',
   'components.documentTrackingPanel.openFullChainLink': 'Full chain',
   'components.documentTrackingPanel.traceBriefTitle': 'Linked document snapshot',
-  'components.documentTrackingPanel.traceBriefSelectNode': 'Click a node in the graph above to view basic fields and line items here.',
+  'components.documentTrackingPanel.traceBriefSelectNode':
+    'Click a node in the graph above to view basic fields and line items here.',
   'components.documentTrackingPanel.traceBriefDismiss': 'Dismiss',
-  'components.documentTrackingPanel.traceBriefClickHint': 'Click a node in the graph above; the lower floating panel shows a compact view (basic fields and line items). For sales orders, open full details from the bottom bar.',
+  'components.documentTrackingPanel.traceBriefClickHint':
+    'Click a node in the graph above; the lower floating panel shows a compact view (basic fields and line items). For sales orders, open full details from the bottom bar.',
   'components.documentTrackingPanel.traceBriefBasic': 'Basic information',
   'components.documentTrackingPanel.traceBriefItems': 'Line items',
   'components.documentTrackingPanel.traceBriefNoItems': 'No line items',
-  'components.documentTrackingPanel.traceBriefUnsupported': 'Snapshot loading for "{{type}}" is not supported yet.',
+  'components.documentTrackingPanel.traceBriefUnsupported':
+    'Snapshot loading for "{{type}}" is not supported yet.',
   'components.documentTrackingPanel.traceBriefLoadFailed': 'Failed to load document snapshot',
   'components.documentTrackingPanel.traceBriefOpenSalesOrder': 'Open sales order details',
   'components.documentTrackingPanel.traceBriefOpenQuotation': 'Open quotation details',
@@ -21343,8 +23393,10 @@ export default {
   'components.documentTrackingPanel.traceBriefOpenShipmentNotice': 'Open shipment notices',
   'components.documentTrackingPanel.traceBriefOpenDemand': 'Open demand management',
   'components.documentTrackingPanel.traceBriefOpenDemandComputation': 'Open demand computation',
-  'components.documentTrackingPanel.traceBriefOpenPurchaseRequisition': 'Open purchase requisitions',
-  'components.documentTrackingPanel.traceBriefOpenOutsourceOrder': 'Open outsource operation orders',
+  'components.documentTrackingPanel.traceBriefOpenPurchaseRequisition':
+    'Open purchase requisitions',
+  'components.documentTrackingPanel.traceBriefOpenOutsourceOrder':
+    'Open outsource operation orders',
   'components.documentTrackingPanel.traceBriefOpenOutsourceWorkOrder': 'Open outsource work orders',
   'components.documentTrackingPanel.traceBriefOpenReworkOrder': 'Open rework orders',
   'components.documentTrackingPanel.traceBriefOpenReporting': 'Open work reporting',
@@ -21357,7 +23409,8 @@ export default {
   'components.documentTrackingPanel.traceBriefOpenOtherOutbound': 'Open other outbound',
   'components.documentTrackingPanel.traceBriefOpenMaterialBorrow': 'Open material borrows',
   'components.documentTrackingPanel.traceBriefOpenMaterialReturn': 'Open material returns',
-  'components.documentTrackingPanel.traceBriefOpenMaintenanceReminder': 'Open maintenance reminders',
+  'components.documentTrackingPanel.traceBriefOpenMaintenanceReminder':
+    'Open maintenance reminders',
   'components.documentTrackingPanel.traceBriefOpenEquipment': 'Open equipment ledger',
   'components.documentTrackingPanel.traceBriefOpenEquipmentFault': 'Open equipment faults',
   'components.documentTrackingPanel.traceBriefOpenMaintenancePlan': 'Open maintenance plans',
@@ -21365,7 +23418,8 @@ export default {
   'components.documentTrackingPanel.traceBriefOpenTool': 'Open tool ledger',
   'components.documentTrackingPanel.traceBriefOpenIncomingInspection': 'Open incoming inspection',
   'components.documentTrackingPanel.traceBriefOpenProcessInspection': 'Open process inspection',
-  'components.documentTrackingPanel.traceBriefOpenFinishedGoodsInspection': 'Open finished goods inspection',
+  'components.documentTrackingPanel.traceBriefOpenFinishedGoodsInspection':
+    'Open finished goods inspection',
   'components.documentTrackingPanel.relationsTabDirect': 'Direct upstream & downstream',
   'components.documentTrackingPanel.relationsTabFullTrace': 'Full chain trace',
   'components.documentTrackingPanel.operationsTitle': 'Operation Records',
@@ -21402,7 +23456,8 @@ export default {
   'components.documentTrackingPanel.docType.production_return': 'Production return',
   'components.documentTrackingPanel.docType.production_picking': 'Production picking',
   'components.documentTrackingPanel.docType.finished_goods_receipt': 'Finished goods receipt',
-  'components.documentTrackingPanel.docType.semi_finished_goods_receipt': 'Semi-finished goods receipt',
+  'components.documentTrackingPanel.docType.semi_finished_goods_receipt':
+    'Semi-finished goods receipt',
   'components.documentTrackingPanel.docType.other_outbound': 'Other outbound',
   'components.documentTrackingPanel.docType.shipment_notice': 'Shipment notice',
   'components.documentTrackingPanel.docType.packing_binding': 'Packing binding',
@@ -21490,7 +23545,8 @@ export default {
   'app.kuaizhizao.salesForecast.materialName': 'Product Name',
   'app.kuaizhizao.salesForecast.materialSpec': 'Specification',
   'app.kuaizhizao.salesForecast.variantAttributes': 'Attributes',
-  'app.kuaizhizao.salesForecast.attributePlaceholder': 'Required for configurable items, e.g. {"color":"red","size":"M"}',
+  'app.kuaizhizao.salesForecast.attributePlaceholder':
+    'Required for configurable items, e.g. {"color":"red","size":"M"}',
   'app.kuaizhizao.salesForecast.forecastQuantity': 'Quantity',
   'app.kuaizhizao.salesForecast.forecastDate': 'Forecast Date',
   'app.kuaizhizao.salesForecast.notes': 'Notes',
@@ -21501,8 +23557,10 @@ export default {
   'app.kuaizhizao.salesForecast.syncTip': 'Sync Sales Forecast',
   'app.kuaizhizao.salesForecast.pushToMrp': 'Push to Demand Computation',
   'app.kuaizhizao.salesForecast.pushToComputation': 'Push to Demand Computation',
-  'app.kuaizhizao.salesForecast.pushToMrpConfirm': 'Are you sure you want to push this sales forecast to demand computation?',
-  'app.kuaizhizao.salesForecast.pushToComputationConfirm': 'Are you sure you want to push this sales forecast to demand computation?',
+  'app.kuaizhizao.salesForecast.pushToMrpConfirm':
+    'Are you sure you want to push this sales forecast to demand computation?',
+  'app.kuaizhizao.salesForecast.pushToComputationConfirm':
+    'Are you sure you want to push this sales forecast to demand computation?',
   'app.kuaizhizao.salesForecast.pushSuccess': 'Push successful',
   'app.kuaizhizao.salesForecast.pushDisabledAlreadyPushed': 'Already pushed to demand computation',
   'app.kuaizhizao.salesForecast.pushDisabledLifecycle': 'Cannot push at this lifecycle stage',
@@ -21531,9 +23589,11 @@ export default {
   'app.kuaizhizao.salesForecast.period.monthly': 'Monthly',
   'app.kuaizhizao.salesForecast.period.quarterly': 'Quarterly',
   'app.kuaizhizao.salesForecast.demandSynced': 'Synced to demand',
-  'app.kuaizhizao.salesForecast.importResult': 'Import completed: {{success_count}} success, {{failure_count}} failure',
+  'app.kuaizhizao.salesForecast.importResult':
+    'Import completed: {{success_count}} success, {{failure_count}} failure',
   'app.kuaizhizao.salesForecast.importSuccess': 'Import successful: {{count}} items',
-  'app.kuaizhizao.salesForecast.deleteConfirmContent': 'Are you sure you want to delete the selected {{count}} records?',
+  'app.kuaizhizao.salesForecast.deleteConfirmContent':
+    'Are you sure you want to delete the selected {{count}} records?',
   'app.kuaizhizao.salesForecast.executingFullLink': 'Executing · Full Link',
   'app.kuaizhizao.codeRule.setting': 'Code Rule Settings',
 
@@ -21564,18 +23624,24 @@ export default {
   'app.kuaizhizao.salesForecast.statPending': 'Pending',
   'app.kuaizhizao.salesForecast.statTodayNew': 'New Today',
   'app.kuaizhizao.salesForecast.statPendingAction': 'Needs immediate attention',
-  'app.kuaizhizao.salesForecast.noValidImportData': 'No valid data detected (product code is required)',
+  'app.kuaizhizao.salesForecast.noValidImportData':
+    'No valid data detected (product code is required)',
   'app.kuaizhizao.salesForecast.importItemsSuccess': 'Imported {{count}} line items',
   'app.kuaizhizao.salesForecast.importItemsTitle': 'Import Forecast Details',
   'app.kuaizhizao.salesForecast.draftRestored': 'Draft content restored',
-  'app.kuaizhizao.salesForecast.nodeDisabledCreate': 'Sales forecast node is disabled; cannot create',
+  'app.kuaizhizao.salesForecast.nodeDisabledCreate':
+    'Sales forecast node is disabled; cannot create',
   'app.kuaizhizao.salesForecast.nodeDisabledSave': 'Sales forecast node is disabled; cannot save',
-  'app.kuaizhizao.salesForecast.demandComputationDisabled': 'Demand computation node is disabled; cannot push',
+  'app.kuaizhizao.salesForecast.demandComputationDisabled':
+    'Demand computation node is disabled; cannot push',
   'app.kuaizhizao.salesForecast.addItemsFirst': 'Please add at least one product line first',
-  'app.kuaizhizao.salesForecast.matrixNoValidMaterial': 'No valid products in details; cannot open matrix entry',
+  'app.kuaizhizao.salesForecast.matrixNoValidMaterial':
+    'No valid products in details; cannot open matrix entry',
   'app.kuaizhizao.salesForecast.matrixEmpty': 'Matrix is empty; cannot apply',
-  'app.kuaizhizao.salesForecast.matrixQtyRequired': 'Enter at least one forecast quantity greater than 0',
-  'app.kuaizhizao.salesForecast.matrixApplySuccess': 'Generated {{count}} forecast lines from matrix',
+  'app.kuaizhizao.salesForecast.matrixQtyRequired':
+    'Enter at least one forecast quantity greater than 0',
+  'app.kuaizhizao.salesForecast.matrixApplySuccess':
+    'Generated {{count}} forecast lines from matrix',
   'app.kuaizhizao.salesForecast.exportFilename': 'SalesForecast_{{date}}',
   'app.kuaizhizao.salesForecast.importItems': 'Import Details',
   'app.kuaizhizao.salesForecast.addItem': 'Add Line',
@@ -21594,7 +23660,8 @@ export default {
   'app.kuaizhizao.salesForecast.helpViewTable': 'Table View',
   'app.kuaizhizao.salesForecast.helpViewTableDesc': 'Shows forecasts at document level.',
   'app.kuaizhizao.salesForecast.helpViewDetail': 'Detail Table',
-  'app.kuaizhizao.salesForecast.helpViewDetailDesc': 'Expands each forecast line for reviewing products, quantities, and dates.',
+  'app.kuaizhizao.salesForecast.helpViewDetailDesc':
+    'Expands each forecast line for reviewing products, quantities, and dates.',
   'app.kuaizhizao.salesForecast.totalForecastQuantity': 'Total Forecast Quantity',
   'app.kuaizhizao.salesForecast.importHeaderMaterialCode': 'Product Code',
   'app.kuaizhizao.salesForecast.importHeaderSpec': 'Specification',
@@ -21643,7 +23710,8 @@ export default {
   'app.kuaizhizao.demandManagement.detailTitleWithCode': 'Demand Details - {{code}}',
   'app.kuaizhizao.demandManagement.planItems': 'Plan Lines',
   'app.kuaizhizao.demandManagement.planItemsRequired': 'Add at least one line item',
-  'app.kuaizhizao.demandManagement.planItemsQtyRequired': 'Add at least one line item with required quantity',
+  'app.kuaizhizao.demandManagement.planItemsQtyRequired':
+    'Add at least one line item with required quantity',
   'app.kuaizhizao.demandManagement.addPlanItem': 'Add Line',
   'app.kuaizhizao.demandManagement.planNamePlaceholder': 'Enter plan name',
   'app.kuaizhizao.demandManagement.planNameRequired': 'Enter plan name',
@@ -21662,7 +23730,8 @@ export default {
   'app.kuaizhizao.demandManagement.selectToDelete': 'Select demands to delete',
   'app.kuaizhizao.demandManagement.deleteSkipped':
     'Skipped {{skipped}} record(s) (not a manual demand plan or not deletable). Only demand plans in draft/pending review can be deleted here.',
-  'app.kuaizhizao.demandManagement.noDeletablePlans': 'No manual demand plans eligible for deletion',
+  'app.kuaizhizao.demandManagement.noDeletablePlans':
+    'No manual demand plans eligible for deletion',
   'app.kuaizhizao.demandManagement.deleteSuccess': 'Deleted {{count}} demand(s)',
   'app.kuaizhizao.demandManagement.errorsAndMore': 'and {{count}} more',
   'app.kuaizhizao.demandManagement.mergeSelectFirst': 'Select demands to merge first',
@@ -21685,7 +23754,8 @@ export default {
   'app.kuaizhizao.demandManagement.withdrawPush': 'Withdraw Push',
   'app.kuaizhizao.demandManagement.alertChangedMessage':
     'If the demand has changed, go to demand computation and rerun the calculation',
-  'app.kuaizhizao.demandManagement.alertPushedDescription': 'This demand has been pushed to demand computation',
+  'app.kuaizhizao.demandManagement.alertPushedDescription':
+    'This demand has been pushed to demand computation',
   'app.kuaizhizao.demandManagement.alertPushedMiddle': '. If upstream changes were synced, ',
   'app.kuaizhizao.demandManagement.goToComputation': 'Go to Demand Computation',
   'app.kuaizhizao.demandManagement.recomputeSuffix': 'to rerun the calculation.',
@@ -21778,7 +23848,8 @@ export default {
   'app.kuaizhizao.salesReturn.editOnlyPending': 'Only pending or draft returns can be edited',
   'app.kuaizhizao.salesReturn.loadDetailFailed': 'Failed to load return',
   'app.kuaizhizao.salesReturn.confirmTitle': 'Confirm Sales Return',
-  'app.kuaizhizao.salesReturn.confirmContent': 'Confirm return "{{code}}"? Inventory will be updated.',
+  'app.kuaizhizao.salesReturn.confirmContent':
+    'Confirm return "{{code}}"? Inventory will be updated.',
   'app.kuaizhizao.salesReturn.confirmSuccess': 'Return confirmed',
   'app.kuaizhizao.salesReturn.confirmFailed': 'Confirm failed',
   'app.kuaizhizao.salesReturn.withdrawTitle': 'Withdraw Confirmation',
@@ -21804,7 +23875,8 @@ export default {
   'app.kuaizhizao.salesReturn.statusCancelled': 'Cancelled',
   'app.kuaizhizao.salesReturn.statusDraft': 'Draft',
   'app.kuaizhizao.salesReturn.lifecycleNextConfirmReturn': 'Confirm return',
-  'app.kuaizhizao.salesReturn.lifecycleNextWithdrawConfirm': 'Withdraw confirmation (back to pending return)',
+  'app.kuaizhizao.salesReturn.lifecycleNextWithdrawConfirm':
+    'Withdraw confirmation (back to pending return)',
   'app.kuaizhizao.salesReturn.orderStatus': 'Order Status',
   'app.kuaizhizao.salesReturn.deliveryDate': 'Delivery Date',
   'app.kuaizhizao.salesReturn.salesOrderNo': 'Sales Order No.',
@@ -21887,7 +23959,8 @@ export default {
   'app.kuaizhizao.purchaseReturn.editOnlyPending': 'Only pending return or draft can be edited',
   'app.kuaizhizao.purchaseReturn.loadDetailFailed': 'Failed to load return',
   'app.kuaizhizao.purchaseReturn.confirmTitle': 'Confirm Purchase Return',
-  'app.kuaizhizao.purchaseReturn.confirmContent': 'Confirm purchase return "{{code}}"? Inventory will be updated automatically.',
+  'app.kuaizhizao.purchaseReturn.confirmContent':
+    'Confirm purchase return "{{code}}"? Inventory will be updated automatically.',
   'app.kuaizhizao.purchaseReturn.confirmSuccess': 'Return confirmed',
   'app.kuaizhizao.purchaseReturn.confirmFailed': 'Confirm failed',
   'app.kuaizhizao.purchaseReturn.withdrawTitle': 'Withdraw Confirmation',
@@ -21955,4 +24028,4 @@ export default {
   ...presetEntityEn,
   ...codeRulePageEn,
   ...customFieldPageEn,
-};
+}
