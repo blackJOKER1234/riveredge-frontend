@@ -6,7 +6,7 @@
 import React, { Suspense, lazy } from 'react';
 import { Button, Input, theme } from 'antd';
 import type { ButtonProps } from 'antd';
-import { ReloadOutlined } from '@ant-design/icons';
+import { ReloadOutlined, SearchOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import type { ActionType, ProColumns, ProFormInstance } from '@ant-design/pro-components';
 import ErrorBoundary from '../error-boundary';
@@ -125,7 +125,7 @@ const UniSearch: React.FC<UniSearchProps> = ({
 }) => {
   const { t } = useTranslation();
   const { token } = theme.useToken();
-  const placeholder = fuzzyPlaceholder ?? t('components.uniSearch.fuzzySearch');
+  const placeholder = fuzzyPlaceholder ?? t('app.kuaizhizao.workOrder.formEnter');
   const resetLabel = resetText ?? t('components.uniSearch.reset');
 
   const canReset = Boolean(showReset && onReset);
@@ -167,6 +167,7 @@ const UniSearch: React.FC<UniSearchProps> = ({
           className="uni-table-fuzzy-search uni-search-fuzzy-input"
           placeholder={placeholder}
           allowClear
+          prefix={<SearchOutlined />}
           value={fuzzyValue}
           onFocus={onFuzzyFocus}
           onChange={(e) => onFuzzyChange(e.target.value)}

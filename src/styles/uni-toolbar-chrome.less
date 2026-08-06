@@ -11,6 +11,12 @@
     box-shadow: none;
   }
 
+  /* 模糊搜索框是 ant-input-affix-wrapper（prefix/allowClear 包装层，无 .ant-input 类），
+   * padding 由 affix-wrapper 自身声明（ant-input-css-var 机制），需直接强制 */
+  .uni-search-fuzzy-input {
+    padding-inline: 15px !important;
+  }
+
   .uni-toolbar-segmented.ant-segmented {
     padding: 2px;
 

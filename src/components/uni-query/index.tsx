@@ -3077,10 +3077,10 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
     }
   }, [visible, modalStyle, calculateModalPosition]);
 
-  /** 钉住标签 / 「更多」：去掉上下 padding 与过大行高，避免中文在 32px 高度内视觉上偏上 */
+  /** 钉住标签 / 「更多」：去掉上下 padding 与过大行高，避免中文在 44px 高度内视觉上偏上 */
   const pinnedTabTextBtnLayout = useMemo(
     () => ({
-      height: 32,
+      height: 44,
       padding: '0 15px',
       lineHeight: 1,
       display: 'inline-flex' as const,
@@ -3099,7 +3099,7 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
           display: 'flex',
           alignItems: 'center',
           gap: 8,
-          minHeight: '32px',
+          minHeight: '44px',
           flexWrap: 'nowrap',
           width: '100%',
           minWidth: 0,
@@ -3110,7 +3110,7 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
           ref={buttonRef}
           onClick={handleOpen}
           type="default"
-          style={{ height: '32px', flexShrink: 0 }}
+          style={{ height: '44px', flexShrink: 0 }}
       >
         {t('components.uniQuery.advancedSearch')}
           <DownOutlined style={{ marginLeft: 4 }} />
@@ -3121,7 +3121,7 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
             onClick={() => (onResetProp ? onResetProp() : handleReset())}
             icon={<ReloadOutlined />}
             type="default"
-            style={{ height: '32px' }}
+            style={{ height: '44px' }}
           >
             {t('components.uniQuery.reset')}
           </Button>
@@ -3152,7 +3152,7 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
                 border: `1px solid ${token.colorBorder}`,
                 overflow: 'hidden',
                 backgroundColor: token.colorBgContainer,
-                height: '32px',
+                height: '44px',
                 boxShadow:
                   '0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02)',
               }}
@@ -3169,7 +3169,7 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
                   alignItems: 'center',
                   visibility: 'hidden',
                   pointerEvents: 'none',
-                  height: '32px',
+                  height: '44px',
                 }}
               >
                 {pinnedSearches.map((search, index) => (
@@ -3220,7 +3220,7 @@ export const QuerySearchButton: React.FC<QuerySearchButtonProps> = ({
                   minWidth: 0,
                   overflow: 'hidden',
                   alignItems: 'center',
-                  height: '32px',
+                  height: '44px',
                 }}
               >
                 {visiblePinnedSearches.map((search, index) => {

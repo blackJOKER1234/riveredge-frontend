@@ -2,7 +2,7 @@ import type { GlobalToken } from 'antd/es/theme/interface';
 import type { CSSProperties } from 'react';
 
 /** 列表工具栏控件统一高度（与 UniSearch 模糊搜索框一致） */
-export const UNI_TOOLBAR_CONTROL_HEIGHT = 32;
+export const UNI_TOOLBAR_CONTROL_HEIGHT = 44;
 
 /**
  * 列表工具栏控件外框：圆角 / 描边 / 背景与 ant Input 默认一致，无额外阴影。

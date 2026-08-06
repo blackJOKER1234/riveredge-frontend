@@ -561,7 +561,7 @@ export function UniTable<T extends Record<string, any> = Record<string, any>>({
               }}
             >
               {searchPlacement === 'searchRow' ? memoizedUniSearch : null}
-              {!isMobile && viewTypes && viewTypes.length > 1 ? (
+              {/* {!isMobile && viewTypes && viewTypes.length > 1 ? (
                 <div style={{ flexShrink: 0, marginLeft: 8 }}>
                   <UniView
                     viewTypes={viewTypes}
@@ -571,7 +571,7 @@ export function UniTable<T extends Record<string, any> = Record<string, any>>({
                     style={{ marginLeft: 0 }}
                   />
                 </div>
-              ) : null}
+              ) : null} */}
             </div>
           ) : null}
 

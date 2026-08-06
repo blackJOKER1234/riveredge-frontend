@@ -116,7 +116,12 @@ export const UNI_TABLE_STYLES = `
         .uni-table-container.uni-table-embedded .ant-pro-table-list-toolbar-container {
           padding-block: 0 8px !important;
         }
-        /* 表身行高/内边距由 ProTable size="small"（antd Table 密度）统一控制，勿在此覆盖 padding */
+        /* 行高统一 64px：表头/表身单元格显式锁定高度（覆盖 small 密度默认行高；
+         * 依赖 padding 推算行高不可靠——antd 单元格存在额外行高差额，故直接设置 height） */
+        .uni-table-container .ant-table-thead > tr > th,
+        .uni-table-container .ant-table-tbody > tr > td {
+          height: 64px !important;
+        }
         .uni-table-container .ant-table-tbody > tr > td {
           border-bottom-color: rgba(0, 0, 0, 0.12) !important;
         }
@@ -263,5 +268,70 @@ export const UNI_TABLE_STYLES = `
           min-height: 0 !important;
           max-height: 100% !important;
           overflow: visible !important;
+        }
+        /* 工具栏按钮统一 44px 高。
+         * 注意：antd 开启 cssVar 后，按钮元素自身携带 .css-var-* 类并直接声明 --ant-control-height（32px），
+         * 容器级 CSS 变量覆盖无效（元素自身声明优先于继承值），因此必须直接在按钮元素上强制 height；
+         * !important 用于压过 antd 的 height: var(--ant-control-height)。 */
+        .uni-table-container .pro-table-button-container .ant-btn,
+        .uni-table-container .ant-pro-table-list-toolbar .ant-btn {
+          height: 44px !important;
+        }
+        /* 分页器布局：每页条数选择器固定在最左，其余（总数/翻页/跳转）保持右侧。
+         * 注意：antd 6 中 .ant-table-pagination 即 ul.ant-pagination 自身（非外层容器）。
+         * 分页器整体 36px：item/prev/next/总数/跳转输入框均由 antd CSS 变量统一驱动，改变量即全部同步。 */
+        .uni-table-container .ant-table-pagination {
+          --ant-pagination-item-size-actual: 36px !important;
+          position: relative;
+          height: 36px !important;
+          align-items: center;
+        }
+        .uni-table-container .ant-table-pagination .ant-pagination-options-size-changer {
+          position: absolute;
+          /* 预留外部标签"每页条目数"的空间：汉字宽=1em（5em 文字宽 + 8px 间距 + 12px 左缓冲），
+           * 用 em 计算使标签与选择器随字号偏好（10-22px）同步缩放，避免固定像素错位 */
+          left: calc(5em + 20px);
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 1;
+        }
+        /* 每页条数 select（antd 6 无 .ant-select-selector，结构为 .ant-select > .ant-select-content + .ant-select-suffix）：
+         * cssVar 模式下高度由元素自身声明的 --ant-select-height 计算 padding 得出，容器级覆盖无效，需直接强制 height；
+         * x 轴 padding 同样需直接强制 */
+        .uni-table-container .ant-table-pagination .ant-select {
+          height: 36px !important;
+          padding-block: 0 !important;
+          padding-inline: 15px !important;
+        }
+        .uni-table-container .ant-table-pagination .ant-select-content {
+          align-items: center !important;
+        }
+        /* 每页条数选择器及其下拉框圆角跟随系统偏好（--ant-border-radius，0-24 动态调整）。
+         * antd 6 默认：small select 用 borderRadiusSM、下拉面板用 borderRadiusLG、选项用 borderRadiusSM，
+         * 均与全局 borderRadius 不一致，此处显式统一为系统圆角。 */
+        .uni-table-container .ant-table-pagination .ant-select {
+          border-radius: var(--ant-border-radius) !important;
+        }
+        .ant-select-dropdown {
+          border-radius: var(--ant-border-radius) !important;
+        }
+        .ant-select-dropdown .ant-select-item-option {
+          border-radius: var(--ant-border-radius) !important;
+        }
+        /* 每页条数选择器前置标签文字：位于选择器左侧外部并排（right:100% 定位到选择器边框外，不占用其内部空间） */
+        .uni-table-container .ant-table-pagination .ant-pagination-options-size-changer::before {
+          content: '每页条目数';
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 100%;
+          margin-right: 8px;
+          color: var(--ant-color-text-secondary, rgba(0, 0, 0, 0.65));
+          white-space: nowrap;
+        }
+        /* 跳页输入框（quick-jumper，antd 6 渲染为原生 input）：x 轴 padding 与每页条数选择器一致，圆角跟随系统偏好 */
+        .uni-table-container .ant-table-pagination .ant-pagination-options-quick-jumper input {
+          padding-inline: 15px !important;
+          border-radius: var(--ant-border-radius) !important;
         }
 `
