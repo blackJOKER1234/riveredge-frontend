@@ -1,0 +1,117 @@
+/* RiverEdge 全局样式 - 两栏布局 */
+
+/* 两栏布局中的 uni-table 高度限制 */
+.two-column-layout-content {
+  /* 确保内容区使用 flex 布局 */
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+
+  /* uni-table 容器在 two-column-layout 中时，高度填满容器（natural-height 除外，见文件末尾覆盖） */
+  > .uni-table-container:not(.uni-table-natural-height) {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 0 !important;
+    height: 100% !important;
+
+    /* ProTable 容器 */
+    > div {
+      flex: 1 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      min-height: 0 !important;
+      height: 100% !important;
+
+      /* ProTable 本身 */
+      .ant-pro-table {
+        flex: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 0 !important;
+        height: 100% !important;
+
+        /* ProTable 内容区 */
+        .ant-pro-table-list-toolbar {
+          flex-shrink: 0 !important;
+        }
+
+        .ant-pro-table-container {
+          flex: 1 !important;
+          display: flex !important;
+          flex-direction: column !important;
+          min-height: 0 !important;
+          height: 100% !important;
+
+          /* 表格容器 */
+          .ant-table-wrapper {
+            flex: 1 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            min-height: 0 !important;
+            height: 100% !important;
+            overflow: hidden !important;
+
+            /* 表格内容 */
+            .ant-spin-nested-loading {
+              flex: 1 !important;
+              display: flex !important;
+              flex-direction: column !important;
+              min-height: 0 !important;
+              height: 100% !important;
+              overflow: hidden !important;
+
+              .ant-spin-container {
+                flex: 1 !important;
+                display: flex !important;
+                flex-direction: column !important;
+                min-height: 0 !important;
+                height: 100% !important;
+                overflow: hidden !important;
+
+                .ant-table {
+                  display: flex !important;
+                  flex-direction: column !important;
+                  height: 100% !important;
+
+                  .ant-table-container {
+                    flex: 1 !important;
+                    display: flex !important;
+                    flex-direction: column !important;
+                    min-height: 0 !important;
+                    height: 100% !important;
+                    overflow: hidden !important;
+
+                    .ant-table-header {
+                      flex-shrink: 0 !important;
+                    }
+
+                    /* 确保表头和表体列宽一致 - 使用 table-layout: fixed */
+                    .ant-table {
+                      table-layout: fixed !important;
+                    }
+
+                    /* 确保表头和表体容器宽度一致 */
+                    .ant-table-header table,
+                    .ant-table-body table {
+                      width: 100% !important;
+                      table-layout: fixed !important;
+                    }
+
+                    .ant-table-body {
+                      flex: 1 !important;
+                      min-height: 0 !important;
+                      overflow-y: auto !important;
+                      overflow-x: auto !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

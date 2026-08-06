@@ -1,0 +1,8 @@
+/**
+ * 主内容区路由容器。
+ * 移除整块内容的 opacity 动画：复杂页面（工作台、ProTable 等）的整层合成会拖慢
+ * click → frame 的 DOM commit → present 阶段；改为直接呈现，避免 GPU/合成开销。
+ */
+.riveredge-route-transition {
+  animation: none;
+}

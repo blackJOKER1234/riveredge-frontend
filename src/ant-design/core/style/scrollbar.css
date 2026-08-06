@@ -1,0 +1,63 @@
+/*other*/
+html {
+	-ms-overflow-style: none;
+}
+
+/*firefox*/
+/*@-moz-document url-prefix() {*/
+/*	html {*/
+/*		scrollbar-width: thin;*/
+/*		scrollbar-color: #f0f0f0 transparent;*/
+/*	}*/
+/*}*/
+
+/*chrome*/
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: var(--scroll-bg);
+    border: 4px solid transparent;
+    background-clip: padding-box;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+	background: #E0E0E0;
+    background-clip: padding-box;
+} */
+
+/*table*/
+* {
+	scrollbar-width: auto;
+	scrollbar-color: auto;
+}
+
+/*select*/
+.rc-virtual-list-scrollbar {
+	width: 4px !important;
+}
+
+.rc-virtual-list-scrollbar-thumb {
+	border-radius: 100%;
+	background: #f0f0f0 !important;
+}
+
+.rc-virtual-list-scrollbar-thumb:hover {
+	background: #d9d9d9;
+}
+
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}

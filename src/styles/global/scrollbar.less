@@ -1,0 +1,37 @@
+/* RiverEdge 全局样式 - 滚动条 */
+
+/* ==================== 统一滚动条样式（全局、Modal、表格、编号规则等） ====================
+ * 尺寸：6px（水平与垂直一致）
+ * 颜色：固定 rgba 保证页面与表格滚动条完全一致；更淡以符合素雅风格
+ * 轨道：透明
+ */
+@scrollbar-thumb: rgba(0, 0, 0, 0.16);
+@scrollbar-thumb-hover: rgba(0, 0, 0, 0.06);
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: @scrollbar-thumb;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: @scrollbar-thumb-hover;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox 滚动条适配 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: @scrollbar-thumb transparent;
+}

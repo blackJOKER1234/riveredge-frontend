@@ -1,0 +1,84 @@
+/* RiverEdge 全局样式 - 表格限高覆盖 */
+
+/**
+ * UniTable 纵向滚动唯一控制面（与 components/uni-table/index.tsx 配对）
+ * 覆盖上文全局 .ant-table-body / .ant-table-content 的 overflow-y、scrollbar-gutter、
+ * ::-webkit-scrollbar 强制显示，避免「未限高仍出现纵滚条 / 表头被算进滚动区」。
+ */
+.uni-table-container.uni-table-natural-height {
+  .ant-pro-table,
+  .ant-pro-card,
+  .ant-pro-card-body,
+  .ant-pro-table-container,
+  .ant-table-wrapper,
+  .ant-spin-nested-loading,
+  .ant-spin-container,
+  .ant-table,
+  .ant-table-container {
+    height: auto !important;
+    max-height: none !important;
+    flex: 0 1 auto !important;
+  }
+
+  /* scroll.x 时表头/表体同在 .ant-table-content 内，须一并关闭纵向滚动与 gutter */
+  .ant-table-header,
+  .ant-table-content,
+  .ant-table-body,
+  .ant-table-body-inner,
+  .ant-table-fixed-left .ant-table-body-inner,
+  .ant-table-fixed-right .ant-table-body-inner,
+  .ant-table-fixed-left .ant-table-body-outer,
+  .ant-table-fixed-right .ant-table-body-outer {
+    overflow-y: hidden !important;
+    max-height: none !important;
+    scrollbar-gutter: auto !important;
+    flex: none !important;
+  }
+
+  /* 覆盖上文全局 ::-webkit-scrollbar 规则：natural-height 不显示纵向滚动条 */
+  .ant-table-wrapper .ant-table-content::-webkit-scrollbar,
+  .ant-table-wrapper .ant-table-body::-webkit-scrollbar {
+    width: 0 !important;
+    display: none !important;
+  }
+  .ant-table-wrapper .ant-table-content::-webkit-scrollbar:horizontal,
+  .ant-table-wrapper .ant-table-body::-webkit-scrollbar:horizontal {
+    height: 6px !important;
+    display: block !important;
+  }
+}
+
+/* 两栏布局：未限高时不拉伸 UniTable 填满列高（否则 flex+overflow-y:auto 产生空滚动条） */
+.two-column-layout-content > .uni-table-container.uni-table-natural-height {
+  height: auto !important;
+  flex: 0 1 auto !important;
+
+  > div,
+  .ant-pro-table,
+  .ant-pro-table-container,
+  .ant-table-wrapper,
+  .ant-spin-nested-loading,
+  .ant-spin-container,
+  .ant-table,
+  .ant-table-container {
+    height: auto !important;
+    flex: 0 1 auto !important;
+  }
+
+  .ant-table-header,
+  .ant-table-content,
+  .ant-table-body,
+  .ant-table-body-inner,
+  .ant-table-fixed-left .ant-table-body-inner,
+  .ant-table-fixed-right .ant-table-body-inner {
+    flex: none !important;
+    overflow-y: hidden !important;
+    scrollbar-gutter: auto !important;
+  }
+
+  .ant-table-wrapper .ant-table-content::-webkit-scrollbar,
+  .ant-table-wrapper .ant-table-body::-webkit-scrollbar {
+    width: 0 !important;
+    display: none !important;
+  }
+}

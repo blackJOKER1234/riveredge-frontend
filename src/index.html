@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- 顶栏/登录页 LOGO 常用静态资源：尽早发起请求，减轻首帧后再补请求的延迟 -->
+    <link rel="preload" as="image" href="/favicon.svg" />
+    <link rel="preload" as="image" href="/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RiverEdge SaaS</title>
+
+    <meta name="theme-color" content="#141414" />
+
+    <!-- SVAR 甘特图图标字体改为按需加载（utils/loadGanttIconsCss.ts），
+         仅在用户打开甘特图组件时注入，减少默认首屏/登录页的外链资源与握手成本。 -->
+</head>
+
+<body>
+    <div id="root">
+        <!--
+          首屏占位：保持最简洁，不再渲染后台壳骨架（顶部栏/侧边栏/正文条纹）。
+          React 挂载后会替换 #root 子节点；若 main 未执行，15s 后下方脚本提示重试。
+        -->
+        <div class="app-first-paint" data-app-first-paint aria-busy="true" aria-label="应用启动"></div>
+    </div>
+    <!-- 首屏加载超时：多为网络或静态资源路径错误（如 base 不一致导致 main.js 404） -->
+    <script>
+      (function(){
+        var timeout = 15000;
+        var t = setTimeout(function(){
+          var root = document.getElementById('root');
+          var fp = root && root.querySelector('[data-app-first-paint]');
+          if (fp && fp.isConnected && !document.getElementById('app-load-timeout')) {
+            var wrap = document.createElement('div');
+            wrap.id = 'app-load-timeout';
+            wrap.style.cssText = 'position:fixed;inset:0;background:#fff;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;z-index:9999;';
+            wrap.innerHTML = '<div style="text-align:center;color:#666;max-width:320px;padding:16px;"><p style="margin-bottom:12px;">页面未能完成加载，请检查网络或静态资源路径（如 /assets/ 是否可访问）</p><p><a href="javascript:location.reload()" style="color:#1890ff;">点击重试</a></p></div>';
+            document.body.appendChild(wrap);
+          }
+        }, timeout);
+      })();
+    </script>
+    <style>
+      html,body{margin:0;padding:0;height:100%;box-sizing:border-box}
+      *{box-sizing:border-box}
+      .app-first-paint{
+        min-height:100vh;
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        background:#fff;
+      }
+    </style>
+    <script type="module" src="./main.tsx"></script>
+</body>
+
+</html>

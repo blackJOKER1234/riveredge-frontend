@@ -1,0 +1,181 @@
+/* RiverEdge 全局样式 - 表格与菜单覆盖 */
+
+/* ProCard：统一 body 左右内边距 */
+.ant-pro-card .ant-pro-card-body {
+  padding-inline: 16px !important;
+}
+
+/* Table/ProTable 纵向滚动：仅 UniTable 限高模式启用，避免 natural-height 未触达限高仍出现空纵条 */
+.uni-table-container.uni-table-scroll-y-mode .ant-table .ant-table-body {
+  overflow-y: auto !important;
+}
+
+.uni-table-container.uni-table-scroll-y-mode .ant-table .ant-table-fixed-left .ant-table-body-inner,
+.uni-table-container.uni-table-scroll-y-mode .ant-table .ant-table-fixed-right .ant-table-body-inner,
+.uni-table-container.uni-table-scroll-y-mode .ant-table .ant-table-fixed-left .ant-table-body-outer,
+.uni-table-container.uni-table-scroll-y-mode .ant-table .ant-table-fixed-right .ant-table-body-outer {
+  overflow-y: auto !important;
+}
+
+/* UniTable：去掉行分界线，去掉表头背景色，表头字段灰色 */
+.uni-table-container {
+  .ant-table-thead > tr > th {
+    background: "#f3f5f7" !important;
+    border-bottom: none !important;
+    color: #00000073 !important;
+  }
+  .ant-table-tbody > tr > td {
+    border-bottom: none !important;
+  }
+}
+
+/* 指定 Modal 不显示标题左侧竖条（如工序派工等） */
+.ant-modal.form-modal-no-title-accent .ant-modal-header .ant-modal-title {
+  padding-left: 0;
+
+  &::before {
+    display: none;
+  }
+}
+
+/* 应用级菜单分组标题容器样式优化 - 修改包含 menu-group-title-app 的菜单项容器 */
+/* 通过 data-menu-id 属性定位应用分组菜单项（key 以 app-group- 开头） */
+.ant-menu-item[data-menu-id*='app-group-'],
+.ant-menu-item[class*='menu-group-title-app'] {
+  /* 减小容器的上下 padding */
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+  height: 26px !important;
+  line-height: 16px !important;
+
+  /* 设置默认颜色为主题色 */
+  color: rgba(0, 0, 0, 0.2) !important;
+  transform: translateX(-12px) !important; /* 菜单项整体向左移动，不改 padding */
+
+  /* 完全禁用容器的 hover 效果 */
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent !important;
+    color: rgba(0, 0, 0, 0.2) !important;
+    box-shadow: none !important;
+    border: none !important;
+
+    /* 禁用 hover 时的伪元素 */
+    &::before,
+    &::after {
+      display: none !important;
+    }
+  }
+
+  /* 禁用选中状态 */
+  &.ant-menu-item-selected {
+    background-color: transparent !important;
+    color: rgba(0, 0, 0, 0.2) !important;
+  }
+
+  /* 禁用所有可能的 hover 效果 */
+  &:hover .ant-menu-title-content,
+  &:hover .menu-group-title-app {
+    background-color: transparent !important;
+    color: rgba(0, 0, 0, 0.2) !important;
+  }
+
+  /* 确保内部内容区域也没有 padding */
+  .ant-menu-title-content {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* ProTable 全局边框设置（排除 uni-table 中的 ProTable） */
+/* 仅外圈边框模式：显示卡片边框，内部表格保持默认 */
+.ant-modal .ant-table {
+  /* 显示卡片边框 */
+  border: 1px solid var(--ant-colorBorder) !important;
+  border-radius: var(--ant-borderRadius) !important;
+}
+
+/* 同一系列树：父行 / 子行单元格高度一致，避免 V2/V1 看起来比 V3 行高不同 */
+.kuaizhizao-quotations-table .ant-table-tbody > tr > td {
+  vertical-align: middle !important;
+}
+.kuaizhizao-quotations-table .ant-table-tbody > tr > td .ant-table-row-indent + .ant-table-row-expand-icon,
+.kuaizhizao-quotations-table .ant-table-tbody > tr > td .ant-table-row-expand-icon-spaced {
+  vertical-align: middle !important;
+}
+
+/* 工单树形表：展开加号相对堆叠主列（品名+单号）垂直居中 */
+.kuaizhizao-work-orders-table .ant-table-tbody > tr > td {
+  vertical-align: middle !important;
+}
+.kuaizhizao-work-orders-table .wo-operation-cards-panel {
+  width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+}
+.kuaizhizao-work-orders-table .ant-table-tbody > tr > td .wo-row-expand-trigger {
+  cursor: pointer;
+}
+.kuaizhizao-work-orders-table .wo-operation-cards-expand-cell {
+  padding-top: 12px !important;
+  padding-bottom: 16px !important;
+  padding-left: var(--wo-op-panel-inset-left, 64px) !important;
+  padding-right: var(--wo-op-panel-inset-right, 16px) !important;
+  background: var(--ant-color-fill-alter) !important;
+  border-bottom: 1px solid var(--ant-color-border-secondary);
+}
+.kuaizhizao-work-orders-table .wo-operation-cards-expand-row:hover > .wo-operation-cards-expand-cell {
+  background: var(--ant-color-fill-alter) !important;
+}
+
+/* 表格横向滚动条样式（全站）；纵向 gutter 仅由 UniTable scroll-y-mode 统一控制 */
+// .ant-table-wrapper .ant-table-body,
+// .ant-table-wrapper .ant-table-content {
+//   overflow-x: auto !important;
+//   scrollbar-width: thin !important;
+//   scrollbar-color: @scrollbar-thumb transparent !important;
+// }
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar,
+.ant-table-wrapper .ant-table-content::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: transparent !important;
+}
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar-thumb,
+.ant-table-wrapper .ant-table-content::-webkit-scrollbar-thumb {
+  background-color: @scrollbar-thumb !important;
+  border-radius: 4px !important;
+}
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar-thumb:hover,
+.ant-table-wrapper .ant-table-content::-webkit-scrollbar-thumb:hover {
+  background-color: @scrollbar-thumb-hover !important;
+}
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar-track,
+.ant-table-wrapper .ant-table-content::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar-corner,
+.ant-table-wrapper .ant-table-content::-webkit-scrollbar-corner {
+  background: transparent !important;
+}
+
+/* UniTable 限高：预留纵向滚动条占位，避免表头/表体列宽抖动 */
+.uni-table-container.uni-table-scroll-y-mode .ant-table-wrapper .ant-table-body,
+.uni-table-container.uni-table-scroll-y-mode .ant-table-wrapper .ant-table-content {
+  scrollbar-gutter: stable;
+}
+.uni-table-container.uni-table-scroll-y-mode .ant-table-wrapper .ant-table-body::-webkit-scrollbar,
+.uni-table-container.uni-table-scroll-y-mode .ant-table-wrapper .ant-table-content::-webkit-scrollbar {
+  display: block;
+}
+
+/* 已移除可能导致树组件错位的 top 偏移 hack */
+
+/* 强制所有滚动条轨道透明（覆盖浏览器默认，用于甘特图等） */
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+*::-webkit-scrollbar {
+  background: transparent !important;
+}

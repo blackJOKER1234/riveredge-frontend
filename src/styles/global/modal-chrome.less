@@ -1,0 +1,225 @@
+/* RiverEdge 全局样式 - Modal 头部/关闭/页脚 */
+
+/* 全局：Modal 确认按钮组默认居左 */
+.ant-modal .ant-modal-footer,
+.ant-modal .ant-pro-form-submitter {
+  display: flex !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ant-modal .ant-modal-footer .ant-space {
+  justify-content: flex-start;
+}
+
+/* Modal 提交按钮区背景与弹层内容区一致；footer 顶部分割线与 header 底部分割线一致 */
+.form-modal-template-fixed-footer .form-modal-footer,
+.ant-modal .ant-modal-footer,
+.ant-modal .ant-pro-form-submitter {
+  background: var(--ant-colorBgElevated, var(--ant-color-bg-elevated, var(--ant-color-bg-container))) !important;
+}
+.ant-modal .ant-modal-footer {
+  border-top: 1px solid var(--ant-colorBorder);
+  padding-top: 16px;
+}
+
+/* 全局：Modal / 全页表单容器内表单项标题为粗体（与 FormModalTemplate 一致） */
+.ant-modal .ant-form-item-label > label,
+.form-modal-content-inner .ant-form-item-label > label {
+  font-weight: 600;
+}
+
+/* 绩效管理等业务 Modal：半宽字段用 flex 固定 50%，日期/时间控件不依赖 Ant Design Col grid */
+.form-modal-template.performance-form-modal .form-modal-content-inner {
+  .ant-form.ant-form-vertical {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    align-items: flex-start;
+  }
+
+  .form-modal-field-half-width.ant-form-item {
+    width: calc(50% - 8px);
+    flex: 0 0 calc(50% - 8px);
+    max-width: calc(50% - 8px);
+    box-sizing: border-box;
+  }
+
+  .form-modal-field-full-width.ant-form-item,
+  .form-modal-field-full-width {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form-modal-field-half-width .ant-picker,
+  .form-modal-field-half-width .ant-input,
+  .form-modal-field-half-width .ant-input-number,
+  .form-modal-field-half-width .ant-select {
+    width: 100%;
+  }
+}
+
+/* 全局：输入类控件聚焦时去掉外圈光晕（保留边框/主题色描边，与 ConfigProvider controlOutlineWidth=0 配套） */
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-outlined:focus,
+.ant-input-outlined:focus-within,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper-outlined:focus,
+.ant-input-affix-wrapper-outlined:focus-within,
+.ant-input-number:focus,
+.ant-input-number-focused,
+.ant-input-number-outlined:focus,
+.ant-input-number-outlined:focus-within,
+.ant-input-textarea-affix-wrapper-focused,
+.ant-input-textarea-affix-wrapper-outlined:focus-within,
+.ant-picker-focused,
+.ant-picker-outlined:focus,
+.ant-picker-outlined:focus-within,
+.ant-mentions-focused,
+.ant-mentions-outlined:focus-within,
+.ant-select:not(.ant-select-disabled).ant-select-focused,
+.ant-select:not(.ant-select-disabled).ant-select-open,
+.ant-select:not(.ant-select-disabled).ant-select-focused .ant-select-selector,
+.ant-select:not(.ant-select-disabled).ant-select-open .ant-select-selector,
+.ant-cascader-focused .ant-select-selector,
+.ant-tree-select-focused .ant-select-selector,
+.ant-input-number-group-wrapper-outlined:focus-within {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* 全局：Modal 标题区高度规范（与打印预览一致，统一标题高度） */
+.ant-modal .ant-modal-header {
+  min-height: 38px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ant-colorBorder);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  padding-inline-end: 42px !important;
+}
+
+/* 全局：Modal 关闭按钮（幽灵圆形，克制中性；非破坏性操作不用 error 色） */
+.ant-modal .ant-modal-close {
+  width: 28px !important;
+  height: 28px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 999px !important;
+  background: transparent !important;
+  color: var(--ant-color-text-quaternary, rgba(0, 0, 0, 0.25)) !important;
+  box-shadow: none !important;
+  inset-inline-end: 20px !important;
+  top: 36px !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition:
+    color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Slider 拖拽提示：固定小圆角与 min-width，避免跟随主题大 borderRadius 变形（antd5 为 -container） */
+.ant-slider-tooltip.ant-tooltip {
+  min-width: auto !important;
+}
+.ant-slider-tooltip.ant-tooltip .ant-tooltip-container,
+.ant-slider-tooltip.ant-tooltip .ant-tooltip-inner {
+  border-radius: 4px !important;
+  min-width: auto !important;
+  min-height: auto !important;
+  padding: 2px 6px !important;
+  line-height: 1.4;
+  text-align: center;
+}
+.ant-slider-tooltip.ant-tooltip .ant-tooltip-arrow {
+  width: 8px !important;
+  height: 8px !important;
+}
+/* placement-top 时 antd 对箭头 rotate(180deg)，三角需先朝上，旋转后才朝下指向滑块 */
+.ant-slider-tooltip.ant-tooltip .ant-tooltip-arrow::before {
+  width: 8px !important;
+  height: 4px !important;
+  clip-path: polygon(50% 0%, 0 100%, 100% 100%) !important;
+  background: var(--antd-arrow-background-color, rgba(0, 0, 0, 0.85)) !important;
+}
+.ant-slider-tooltip.ant-tooltip .ant-tooltip-arrow::after {
+  display: none !important;
+}
+
+.ant-modal .ant-modal-close .ant-modal-close-x {
+  width: 28px;
+  height: 28px;
+  line-height: 1;
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-modal .ant-modal-close:hover {
+  background: color-mix(
+    in srgb,
+    var(--ant-color-text, #000) 6%,
+    transparent
+  ) !important;
+  color: var(--ant-color-text-secondary, rgba(0, 0, 0, 0.65)) !important;
+}
+
+.ant-modal .ant-modal-close:active {
+  transform: translateY(-50%) scale(0.92) !important;
+  background: color-mix(
+    in srgb,
+    var(--ant-color-text, #000) 10%,
+    transparent
+  ) !important;
+  color: var(--ant-color-text, rgba(0, 0, 0, 0.88)) !important;
+}
+
+.ant-modal .ant-modal-close:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--ant-color-primary, #1677ff) 40%, transparent);
+  outline-offset: 2px;
+}
+
+[data-theme='dark'] .ant-modal .ant-modal-close:hover {
+  background: color-mix(
+    in srgb,
+    var(--ant-color-text, #fff) 10%,
+    transparent
+  ) !important;
+}
+
+[data-theme='dark'] .ant-modal .ant-modal-close:active {
+  background: color-mix(
+    in srgb,
+    var(--ant-color-text, #fff) 14%,
+    transparent
+  ) !important;
+}
+
+/* 全局：Modal 标题装饰（竖条药丸形，颜色随主题，略胖） */
+.ant-modal .ant-modal-header .ant-modal-title {
+  position: relative;
+  padding-left: 14px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 1.1em;
+    min-height: 18px;
+    max-height: 22px;
+    background: var(--ant-colorPrimary);
+    border-radius: 999px;
+  }
+}

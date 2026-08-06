@@ -1,0 +1,57 @@
+- generic [ref=f3e4]:
+  - button "global 中" [ref=f3e6] [cursor=pointer]:
+    - generic [ref=f3e7]:
+      - img "global" [ref=f3e8]
+      - generic [ref=f3e11]: 中
+  - generic [ref=f3e13]:
+    - img "快格云制造" [ref=f3e14]
+    - heading "RiverEdge SaaS" [level=2] [ref=f3e15]
+  - generic [ref=f3e207]:
+    - generic [ref=f3e208]:
+      - generic [ref=f3e209]:
+        - heading "欢迎登录" [level=2] [ref=f3e210]
+        - text: 请输入您的账号信息
+      - generic [ref=f3e211]:
+        - generic [ref=f3e217]:
+          - img "user" [ref=f3e219]
+          - textbox "请输入用户名" [ref=f3e222]
+        - generic [ref=f3e228]:
+          - img "lock" [ref=f3e230]
+          - textbox "请输入密码" [ref=f3e233]
+          - button "显示" [ref=f3e235] [cursor=pointer]:
+            - img "eye-invisible" [ref=f3e236]
+        - button "登 录" [ref=f3e245] [cursor=pointer]
+      - generic [ref=f3e247]:
+        - generic [ref=f3e251]:
+          - button [ref=f3e252] [cursor=pointer]:
+            - img "微信登录" [ref=f3e253]
+          - button [ref=f3e254] [cursor=pointer]:
+            - img "QQ登录" [ref=f3e255]
+          - button [ref=f3e256] [cursor=pointer]:
+            - img "企业微信登录" [ref=f3e257]
+          - button [ref=f3e258] [cursor=pointer]:
+            - img "钉钉登录" [ref=f3e259]
+          - button [ref=f3e260] [cursor=pointer]:
+            - img "飞书登录" [ref=f3e261]
+        - button "免注册体验登录" [ref=f3e264] [cursor=pointer]
+        - generic [ref=f3e270]:
+          - text: 还没有账号？
+          - button "立即注册" [ref=f3e271] [cursor=pointer]
+      - generic "触屏工位机终端, 移动端 PDA" [ref=f3e273]:
+        - generic [ref=f3e274]:
+          - button "触屏工位机终端 Windows 版安装包" [ref=f3e275] [cursor=pointer]:
+            - generic [ref=f3e279]:
+              - generic [ref=f3e280]: 触屏工位机终端
+              - generic [ref=f3e281]: Windows 版安装包
+          - button "移动端 PDA Android 版安装包" [ref=f3e285] [cursor=pointer]:
+            - generic [ref=f3e289]:
+              - generic [ref=f3e290]: 移动端 PDA
+              - generic [ref=f3e291]: Android 版安装包
+    - generic [ref=f3e295]:
+      - note [ref=f3e296]: 为获得最佳使用体验，建议使用 Chrome、Microsoft Edge 等基于 Chromium 内核的浏览器。Safari 尚未完全适配，部分功能可能无法正常使用。
+      - generic [ref=f3e298]:
+        - generic [ref=f3e299]: ICP备案：苏ICP备2021002752号-4
+        - generic [ref=f3e301]: "|"
+        - button "用户条款" [ref=f3e303] [cursor=pointer]
+        - generic [ref=f3e305]: "|"
+        - button "隐私条款" [ref=f3e307] [cursor=pointer]

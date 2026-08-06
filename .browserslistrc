@@ -1,0 +1,19 @@
+# 生产构建目标：现代主流浏览器
+# 支持: Chrome 90+, Firefox 90+, Safari 15+, Edge 90+
+# 不需要: IE11, 旧版 Safari, 旧版 Android Browser
+# 效果: Rollup/Vite 可删除更多 polyfill，输出更小、更快的代码
+production
+Chrome >= 90
+Firefox >= 90
+Safari >= 15
+Edge >= 90
+iOS >= 15
+Android >= 90
+
+# 开发构建目标：与生产一致即可
+[development]
+Chrome >= 90
+Firefox >= 90
+Safari >= 15
+Edge >= 90
+iOS >= 15

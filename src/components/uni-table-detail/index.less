@@ -1,0 +1,267 @@
+/**
+ * uni-table-detail 通用明细表样式
+ *
+ * 框线：仅外层容器 1px 描边 + 表内行分隔 1px（避免与 global.less .ant-modal .ant-table 外框叠成粗线）
+ */
+
+.uni-table-detail {
+  margin-bottom: 24px;
+  width: 100%;
+
+  /* ===== 组件自有 Header ===== */
+  .uni-table-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    .detail-title {
+      font-size: var(--ant-font-size, 14px);
+      line-height: var(--ant-line-height, 22px);
+      font-weight: var(--ant-font-weight-strong, 500);
+      color: var(--ant-color-text, rgba(0, 0, 0, 0.88));
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .required-mark {
+      color: var(--ant-color-error, #ff4d4f);
+      margin-right: 4px;
+      font-family: SimSun, sans-serif;
+    }
+
+    .uni-table-detail-header-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+
+  /*
+   * fixed:'right' 操作列：仅作用于 UniTableDetail 的 .uni-detail-table。
+   */
+  .uni-detail-table {
+    .ant-table-thead > tr > th {
+      background-color: var(--ant-color-bg-container, #ffffff) !important;
+    }
+
+    /* antd v6 固定右列类名为 fix-end；同时保留旧版 fix-right 以兼容 */
+    .ant-table-thead > tr > th.uni-detail-fixed-op-header,
+    .ant-table-thead > tr > th.ant-table-cell-fix-end,
+    .ant-table-thead > tr > th.ant-table-cell-fix-right,
+    .ant-table-thead > tr > th.ant-table-cell-fix-right-first {
+      background: var(--ant-color-bg-container, #ffffff) !important;
+      z-index: calc(var(--ant-z-index-table-fixed, 2) + 1);
+    }
+
+    .ant-table-tbody > tr > td.ant-table-cell-fix-end,
+    .ant-table-tbody > tr > td.ant-table-cell-fix-right,
+    .ant-table-tbody > tr > td.ant-table-cell-fix-right-first {
+      background: var(--ant-color-bg-container, #ffffff) !important;
+    }
+
+    .ant-input-number-input::selection,
+    .ant-input::selection {
+      background-color: var(--ant-color-primary, #1677ff);
+      color: #fff;
+      border-radius: 0;
+    }
+  }
+
+  /* 明细表外框：唯一外圈 1px */
+  .uni-table-detail-body {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    border: 1px solid var(--ant-color-border, #d9d9d9);
+    border-radius: var(--ant-border-radius, var(--ant-borderRadius, 6px));
+    overflow: hidden;
+    background: var(--ant-color-bg-container, #ffffff);
+
+    .uni-table-detail-scroll {
+      width: 100%;
+      /*
+       * 不在此层滚动：横向滚动统一交给 antd 内层 .ant-table-content（scroll.x）。
+       * 否则外层与内层双重滚动容器会让固定右列吸附错位、右缘透出底层内容。
+       */
+      overflow: hidden;
+      scrollbar-gutter: auto;
+    }
+
+    /*
+     * 明细表随行增高，不做纵向滚动；避免 scroll.x + 全站 overflow 规则出现「未超高却有竖条」。
+     */
+    .ant-table-wrapper .ant-table-body,
+    .ant-table-wrapper .ant-table-content {
+      overflow-y: hidden !important;
+      max-height: none !important;
+      scrollbar-gutter: auto !important;
+    }
+
+    /* 取消 global.less「.ant-modal .ant-table」叠加外框 */
+    .ant-table-wrapper .ant-table {
+      border: none !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+
+    .ant-table-container {
+      border: none !important;
+      border-radius: 0 !important;
+    }
+
+    .ant-table-content > table {
+      border-collapse: collapse;
+    }
+
+    /* 标准 1px 行分隔，无竖线网格 */
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+      padding: 8px 12px !important;
+      border-inline-start: none !important;
+      border-inline-end: none !important;
+      border-top: none !important;
+      border-bottom: 1px solid var(--ant-color-split, rgba(5, 5, 5, 0.06)) !important;
+    }
+
+    .ant-table-thead > tr > th {
+      background: var(--ant-color-fill-alter, rgba(0, 0, 0, 0.02)) !important;
+      font-weight: var(--ant-font-weight-strong, 500);
+    }
+
+    /*
+     * rc-table 在 scroll.x 时会向 tbody 顶部插入一行隐藏测量行（height:0）。
+     * 上面的 td padding/border !important 会把它撑成可见灰条，
+     * 表现为「表头与首行之间的间隙」。这里把测量行彻底归零。
+     */
+    .ant-table-tbody > tr.ant-table-measure-row > td {
+      padding: 0 !important;
+      border: none !important;
+      height: 0 !important;
+      line-height: 0 !important;
+    }
+
+    .ant-table-tbody > tr:last-child > td {
+      border-bottom: none !important;
+    }
+
+    .ant-table-tbody > tr:hover > td {
+      background: var(--ant-color-fill-alter, rgba(0, 0, 0, 0.02));
+    }
+  }
+
+  /* hand-roll 页：仅有 .uni-detail-table、无 body 包裹时，同样去掉 modal 外框叠线 */
+  .uni-table-detail-scroll > .ant-table-wrapper .ant-table,
+  > .ant-table-wrapper > .ant-table {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  /* ===== 表头文字不换行 ===== */
+  .ant-table-thead > tr > th,
+  .ant-table-thead > tr > th .ant-table-cell,
+  .ant-table-thead > tr > th .ant-table-column-title {
+    white-space: nowrap !important;
+  }
+
+  /* ===== 单元格允许内容（下拉/弹层）溢出 ===== */
+  .ant-table-tbody > tr > td {
+    overflow: visible !important;
+  }
+
+  /* ===== 带单位的输入框（addonAfter / addonBefore）单位格收窄 ===== */
+  .ant-input-number-group-addon,
+  .ant-input-group-addon {
+    padding-inline: 6px;
+    min-width: 0;
+  }
+
+  /*
+   * ===== 数字/金额输入框宽度自适应 =====
+   * 列宽固定时长数字会被输入框截断（尤其右侧小数位看不到，容易看错）。
+   * 用 field-sizing 让输入框随内容增长；min-width:100% 保证不小于单元格，
+   * 不支持 field-sizing 的浏览器会优雅退化为原有「占满单元格」行为（不劣化）。
+   */
+  .ant-table-tbody {
+    .ant-input-number {
+      width: auto !important;
+      min-width: 100%;
+      max-width: 320px;
+    }
+
+    .ant-input-number-input {
+      field-sizing: content;
+    }
+
+    /* 带 addon(%) 的税率框：维持占满单元格，不参与自适应增宽 */
+    .ant-input-number-group-wrapper {
+      width: 100% !important;
+      min-width: 0;
+    }
+
+    .ant-input-number-group-wrapper .ant-input-number {
+      width: 100% !important;
+      min-width: 0;
+      max-width: none;
+    }
+  }
+
+  /* ===== 隐藏行级校验错误提示（以表单整体提示为准） ===== */
+  .ant-form-item-explain,
+  .ant-form-item-explain-error {
+    display: none !important;
+  }
+
+  /* ===== 紧凑模式下表单项零外边距 ===== */
+  .ant-form-item {
+    margin-bottom: 0 !important;
+  }
+
+  /* ===== 物料列：Select 占满可用宽度 ===== */
+  .uni-detail-material-cell {
+    .ant-form-item,
+    .ant-form-item-control,
+    .ant-form-item-control-input,
+    .ant-select {
+      width: 100% !important;
+      min-width: 0;
+    }
+  }
+
+  /* ===== 输入选中态 ===== */
+  .uni-detail-table .ant-input-number-input::selection,
+  .uni-detail-table .ant-input::selection {
+    background-color: var(--ant-color-primary, #1677ff);
+    color: #fff;
+    border-radius: 0;
+  }
+
+  /* ===== 表格 footer（添加行 / 批量选择 按钮区） ===== */
+  .ant-table-footer {
+    background: transparent;
+    padding: 8px 12px;
+    border: none;
+    border-top: 1px solid var(--ant-color-split, rgba(5, 5, 5, 0.06)) !important;
+  }
+
+  .detail-table-footer {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .ant-btn-dashed {
+      border-color: var(--ant-color-border, #d9d9d9);
+      &:hover {
+        border-color: var(--ant-color-primary, #1677ff);
+        color: var(--ant-color-primary, #1677ff);
+      }
+    }
+  }
+}
