@@ -1,0 +1,16 @@
+name: riveredge-frontend-dev
+
+services:
+  riveredge-frontend-dev:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      args:
+        DEPLOY_ENV: development
+    image: riveredge-frontend:development
+    container_name: riveredge-frontend-dev
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
+    environment:
+      API_UPSTREAM_URL: "${API_UPSTREAM_URL:-https://kuaigeyun.com}"
+    restart: unless-stopped
